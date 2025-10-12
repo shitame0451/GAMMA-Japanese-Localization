@@ -51,7 +51,7 @@ ui_item.build_desc_footer = function(obj, sec, str)
 
 	-- 部品の所有情報の余分な改行を削除（Workshop's Parts Inventory）
 	text = text:gsub(
-		"\\n *\\n *\\n" .. game.translate_string("st_zk_tooltip_section"),
+		"\\n[%s\\n]*" .. game.translate_string("st_zk_tooltip_section"),
 		"\\n \\n" .. "%%c[pda_white] " .. game.translate_string("st_zk_tooltip_section")
 	)
 	text = text:gsub(
@@ -63,8 +63,12 @@ ui_item.build_desc_footer = function(obj, sec, str)
 		"%%c[255,238,153,26]" .. "  • " .. "%%c[255,250,250,250]ワークショップに"
 	)
 	text = text:gsub(
-		"%%c%[[^%]]-%]所有 (%(%%c%[[^%]]-%]%d+%%%%c%[[^%]]-%]%))",
+		"%%c%[[^%]]-%]所有 (%(%%c%[[^%]]-%]%d+%%%%c%[[^%]]-%]%))",	-- ワークショップに部品があるとき
 		"%%c[255,250,250,250]所有 %1\\n"
+	)
+	text = text:gsub(
+		"%%c%[[^%]]-%]所有$",	-- ワークショップに部品がないとき
+		"%%c[255,250,250,250]所有\\n"
 	)
 
 	-- 文末の余分な改行を一つにまとめる
