@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+    <string id="ui_catsy_text_bullet_item">
+        <text>\n%s • %s%s</text>
+    </string>
+
+    <string id="ui_catsy_text_crlf">
+        <text>\n%s</text>
+    </string>
+
+    <string id="ui_fft_tutorial_clicknext">
+        <text>$clr_gld次へ$clr_def%s</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_fft_tutorial">
+        <text>Fair Fast Travel</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_fft_tutorial_title">
+        <text>ファストトラベル</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_fft_tutorial_fft_tut_travel_unlocked">
+        <text>ファストトラベルのチュートリアル</text>
+    </string>
+
+    <string id="ui_fft_tutorial_unlocked_title">
+        <text>ファストトラベルについて</text>
+    </string>
+
+    <string id="ui_fft_tutorial_card_01_title">
+        <text>Anomalyのファストトラベル機能が解放されました。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_01_content">
+        <text>%s\n
+            \nメインメニューから設定を変更:
+            %s\n
+            \n%s\n
+            \n設定をカスタマイズする場合:
+            %s\n
+            \n%s</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_01_ft_state0">
+        <text>$ui_gray_1現在、ゲームプレイ設定でファストトラベルが$clr_red無効化$ui_gray_1されている。
+\n本来このチュートリアルは表示されないはず。バグとして報告を推奨。
+\n正常に動作すれば、マップを右クリックして地点間を素早く移動できる。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_01_ft_state1">
+        <text>$ui_gray_1ゾーンの新たな場所を発見した。
+\nこのシステムで、$clr_gld訪れたことのある地点$ui_gray_1に素早く移動できる。
+\n制限なく自由に移動したい場合は、Anomalyの設定で変更できる。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_01_ft_state2">
+        <text>$ui_gray_1このシステムで$clr_gld任意の地点$ui_gray_1に素早く移動できる。
+\n現在の設定では、移動先を事前に訪れていなくてもファストトラベル可能。
+\n制限を加えたい場合は、Anomalyの設定で変更できる。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_01_fft_intro">
+        <text>$ui_gray_1現在のMOD構成では、すべての機能が$clr_gldFair Fast Travel$ui_gray_1で管理されている。
+\n以降に紹介するすべての機能はMCMから自由に制御・調整することができる。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_01_clicknext">
+        <text>をクリックして仕組みの概要を確認できる</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_02_clicknext">
+        <text>をクリックして現在の設定に応じたアドバイスを確認できる</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_cfg_mcm">
+        <text>\n$clr_lblMod設定メニュー$clr_def > $clr_lblFair Fast Travel\n$clr_def</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_cfg_van">
+        <text>\n$clr_lbl設定$clr_def > $clr_lblゲームプレイ$clr_def > $clr_lblファストトラベル\n$clr_def</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_pdainfo_feat">
+        <text>$clr_lblPDAの百科事典$clr_def > $clr_lbl設定$clr_def > $clr_lblゲームプレイ$clr_def > $clr_lblファストトラベル$clr_def)</text>
+    </string>
+
+    <string id="ui_fft_tutorial_card_02_title">
+        <text>ファストトラベルの使い方</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_02_content">
+        <text>%s\n
+            \n%s\n
+            \n%s\n
+            \n%s
+        </text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_02_ft_howto">
+        <text>$ui_gray_1ファストトラベルを使うには、マップ上の$clr_gld移動地点を右クリック$ui_gray_1し、
+\nメニューに表示される$clr_gld利用可能な移動オプション$ui_gray_1の中から選択する。
+\n各オプションには料金、距離と所要時間、そして条件が表示される。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_mapicon">
+        <text>$ui_gray_1利用可能な移動地点には、$clr_gld専用のマップアイコン$ui_gray_1が付いている（画像）。%s
+        </text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_travel_hazard_icons">
+        <text>精神波の及ぶ領域の影響で移動できない場所は特殊アイコンが表示される。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_distdur">
+        <text>距離と所要時間、そして</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_payfare">
+        <text>料金、</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_travelbegins">
+        <text>$ui_gray_1移動オプションを選択するとファストトラベルが開始される。%s</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_companions">
+        <text>\n仲間がいれば一緒に移動するが、「待機」を指示している場合は同行しない。</text>
+    </string>
+
+    <string id="ui_fft_tutorial_card_03_title">
+        <text>移動前に確認すること</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_03_content">
+        <text>%s\n
+            \n%s
+            \n%s\n
+            \n%s
+        </text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_warn">
+        <text>\n%s</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_neverknow">
+        <text>$clr_gld行き先の状況を把握する
+\n$ui_gray_1ファストトラベルの先で何が待っているかは予測できない。
+\n安全が確認されていない場所へ移動するのは待ち伏せを招くことになる。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_enable_fare">
+        <text>$clr_gldファストトラベルの利用にかかる金額
+\n$ui_gray_1移動距離1メートルごとに$clr_gld%s %s$ui_gray_1を支払う必要がある。
+\n支払えない場合は移動できないので注意。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_enable_time">
+        <text>$clr_gldファストトラベル中は時間が経過する$ui_gray_1%s</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_survival_stats">
+        <text>\n長距離移動のあとには、$clr_gld空腹や疲労$ui_gray_1が発生することもある。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_enable_gear">
+        <text>$clr_gldファストトラベルによる装備への影響$ui_gray_1
+\n実際の移動を再現するため、装備に$clr_gld耐久値の低下$ui_gray_1が発生することがある。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_enable_scorcher_icon">
+        <text>これは専用の赤いアイコンで示される。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_enable_scorcher_on">
+        <text>メインストーリーを進めて$clr_gldブレイン・スコーチャーを無効化$ui_gray_1するまでは、
+\n精神波の及ぶ領域の影響で北部と南部の一部の間で$clr_gld移動が制限$ui_gray_1される。
+\n%s</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_travel_zones_friendly">
+        <text>現在の設定では、$clr_gld友好勢力の拠点内$ui_gray_1にいるときのみ移動が可能。
+\n%s</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_travel_zones_ally">
+        <text>現在の設定では、$clr_gld自派閥の拠点内$ui_gray_1にいるときのみ移動が可能。
+\n%s</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_travel_zones_campfire">
+        <text>また、$cld_gld焚き火のそばにいるとき$ui_gray_1にもファストトラベルを利用できる。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_guide_travel">
+        <text>これらのリスクを回避・軽減する手段
+\n$clr_gldガイドトラベル$ui_gray_1か、スタッシュへの$clr_gldバックパックトラベル$ui_gray_1を利用する。</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_playyourway">
+        <text>紹介した機能はすべてMCMで自由に変更できる:</text>
+    </string>
+
+    <string id="ui_fft_tut_ftunlocked_ft_goodhunting">
+        <text>$clr_gldグッドハンティング、ストーカー！</text>
+    </string>
+
+</string_table>

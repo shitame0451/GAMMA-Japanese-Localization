@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_coffee_drink">
+		<text>UCC コールドブリューコーヒー</text>
+	</string>
+	<string id="st_coffee_drink_descr">
+		<text>淹れる手間なく飲める、UCCのコールドブリューコーヒー。すっきりとした味わいが疲れを癒し、スタミナを回復してくれる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_green] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+
+</string_table>

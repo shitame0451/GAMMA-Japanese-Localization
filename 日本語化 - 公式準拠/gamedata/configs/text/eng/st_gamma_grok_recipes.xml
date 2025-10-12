@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<!-- Sorter -->
+	<string id="st_gamma_recipe_basic_1">
+		<text>『サバイバルガイド』 第1号</text>
+	</string>
+    <string id="st_gamma_recipe_basic_1_descr">
+		<text>過酷な環境でのサバイバルのコツや、バックパック、ケブラープレート、ベルトアタッチメント、調理器具、テント、寝袋など、サバイバル関連アイテムを作るための基本的なレシピが掲載されたガイドブック。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_advanced_1">
+		<text>『サバイバルガイド』 第2号</text>
+	</string>
+    <string id="st_gamma_recipe_advanced_1_descr">
+		<text>過酷な環境でのサバイバルのコツや、バックパック、ケブラープレート、ベルトアタッチメント、調理器具、テント、寝袋など、サバイバル関連アイテムを作るための高度なレシピが掲載されたガイドブック。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_expert_1">
+		<text>『サバイバルガイド』 第3号</text>
+	</string>
+    <string id="st_gamma_recipe_expert_1_descr">
+		<text>過酷な環境でのサバイバルのコツや、バックパック、ケブラープレート、ベルトアタッチメント、調理器具、テント、寝袋など、サバイバル関連アイテムを作るための専門的なレシピが掲載されたガイドブック。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+
+	<string id="st_gamma_recipe_basic_2">
+		<text>『電子工学ハンドブック』 第1号</text>
+	</string>
+    <string id="st_gamma_recipe_basic_2_descr">
+		<text>この参考書には電子基板、チップ、設計図を作るためのヒントと設計図が載っている。これは基本的なナイトビジョンシステムやアーティファクト検出器を作るのに役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_advanced_2">
+		<text>『電子工学ハンドブック』 第2号</text>
+	</string>
+    <string id="st_gamma_recipe_advanced_2_descr">
+		<text>この参考書には電子基板、チップ、設計図を作るためのヒントと設計図が載っている。これは高度なナイトビジョンシステムやアーティファクト検出器を作るのに役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_expert_2">
+		<text>『電子工学ハンドブック』 第3号</text>
+	</string>
+    <string id="st_gamma_recipe_expert_2_descr">
+		<text>この参考書には電子基板、チップ、設計図を作るためのヒントと設計図が載っている。これは専門的なナイトビジョンシステムやアーティファクト検出器を作るのに役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+
+	<string id="st_gamma_recipe_basic_3">
+		<text>『銃とスーツのアップグレードに関する基礎知識』 第1号</text>
+	</string>
+    <string id="st_gamma_recipe_basic_3_descr">
+		<text>この本には銃、スーツ、ヘルメットに使用する基本的なアップグレードキットを作るためのヒントと設計図が掲載されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_advanced_3">
+		<text>『銃とスーツのアップグレードに関する基礎知識』 第2号</text>
+	</string>
+    <string id="st_gamma_recipe_advanced_3_descr">
+		<text>この本には銃、スーツ、ヘルメットに使用する高度なアップグレードキットを作るためのヒントと設計図が掲載されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_expert_3">
+		<text>『銃とスーツのアップグレードに関する基礎知識』 第3号</text>
+	</string>
+    <string id="st_gamma_recipe_expert_3_descr">
+		<text>この本には銃、スーツ、ヘルメットに使用する専門的なアップグレードキットを作るためのヒントと設計図が掲載されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+
+	<string id="st_gamma_recipe_basic_4">
+		<text>『アーティファクト融合の芸術』 第1号</text>
+	</string>
+    <string id="st_gamma_recipe_basic_4_descr">
+		<text>サハロフ教授のアーティファクトの融解と融合に関する最新の論文を印刷したもの。コモンアーティファクトを融合してアンコモンアーティファクトにするためのアーティファクトメルターのレシピが紹介されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_advanced_4">
+		<text>『アーティファクト融合の芸術』 第2号</text>
+	</string>
+    <string id="st_gamma_recipe_advanced_4_descr">
+		<text>サハロフ教授のアーティファクトの融解と融合に関する最新の論文を印刷したもの。アンコモンアーティファクトを融合してレアアーティファクトにするためのアーティファクトメルターのレシピが紹介されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_expert_4">
+		<text>『アーティファクト融合の芸術』 第3号</text>
+	</string>
+    <string id="st_gamma_recipe_expert_4_descr">
+		<text>サハロフ教授のアーティファクトの融解と融合に関する最新の論文を印刷したもの。レアアーティファクトを融合してユニークアーティファクトにするためのアーティファクトメルターのレシピが紹介されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+	<string id="st_gamma_recipe_ammo_4">
+		<text>『軍事応用の進展』: エクソスケルトン（機密事項）</text>
+	</string>
+    <string id="st_gamma_recipe_ammo_4_descr">
+		<text>『軍事応用の進展』の貴重な特別号。軍事ソリューション開発の先駆者たちが開発したエクソスケルトンについて、その極秘の科学通信と要約が掲載されている。この貴重な情報はゾーンで見つかる特定のエクソスケルトンやエクソヘルメットの修理に役立つだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+	</string>
+
+</string_table>

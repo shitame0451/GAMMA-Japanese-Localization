@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_tag_easy">
+		<text>簡単</text>
+	</string>
+    <string id="st_tag_medium">
+		<text>普通</text>
+	</string>
+    <string id="st_tag_hard">
+		<text>難しい</text>
+	</string>
+    <string id="st_tag_machine">
+		<text>マシン</text>
+	</string>
+
+    <string id="st_tag_anime">
+		<text>アニメ</text>
+	</string>
+    <string id="st_tag_movies">
+		<text>映画</text>
+	</string>
+    <string id="st_tag_games">
+		<text>ゲーム</text>
+	</string>
+    <string id="st_tag_classical">
+		<text>クラシック</text>
+	</string>
+	<string id="st_tag_stalker">
+		<text>S.T.A.L.K.E.R.</text>
+	</string>
+</string_table>

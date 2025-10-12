@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+ <!-- 5.45 -->
+
+	<string id="st_mag_ak74_5.45x39">
+		<text>AK-74用マガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_ak74_5.45x39_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_ak74_5.45x39_extended">
+		<text>AK-74用マガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_ak74_5.45x39_extended_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ak74m_5.45x39">
+		<text>AK-74M用マガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_ak74m_5.45x39_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ak74_fast_5.45x39">
+		<text>AK-74M用ファストマガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_ak74_fast_5.45x39_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_rpk74_5.45x39">
+		<text>RPK-74用マガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_rpk74_5.45x39_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_rpk74_5.56x45">
+		<text>RPK-74用改造マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_rpk74_5.56x45_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ak_7.62x39">
+		<text>AKM用マガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_ak_7.62x39_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ak103_7.62x39">
+		<text>AK-103用マガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_ak103_7.62x39_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_ak103_fast_7.62x39">
+		<text>AK-103用ファストマガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_ak103_fast_7.62x39_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_rpd_7.62x39">
+		<text>RPD用ドラムマガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_rpd_7.62x39_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_rpk_7.62x39">
+		<text>RPK用マガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_rpk_7.62x39_drum">
+		<text>RPK用ドラムマガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_rpk_7.62x39_drum_descr">
+		<text> </text>
+	</string>
+	
+	<!-- 5.56 -->
+	
+	<string id="st_mag_ace21_5.56x45">
+		<text>Galil ACE-21用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_ace21_5.56x45_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ak101_5.56x45">
+		<text>AK-101用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_ak101_5.56x45_descr">
+		<text> </text>
+	</string>
+	<string id="st_mag_aug_5.56x45">
+		<text>AUG用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_g36_5.56x45">
+		<text>G36用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_g36_5.56x45_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_stanag">
+		<text>STANAGマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_stanag_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_nato_5.45x39">
+		<text>改造STANAGマガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_nato_5.45x39_descr">
+		<text> </text>
+	</string>
+	<string id="st_mag_nato_5.56x45_fast">
+		<text>ファストSTANAGマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_fast_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_nato_5.56x45_extended">
+		<text>拡張STANAGマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_extended_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_nato_5.56x45_casket">
+		<text>STANAGマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_casket_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_sig550_5.56x45">
+		<text>SG550用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_sig550_5.56x45_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_sig550_sniper_5.56x45">
+		<text>SG550-1用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_sig550_sniper_5.56x45_descr">
+		<text> </text>
+	</string>
+	<string id="st_mag_m249_5.56x45">
+		<text>M249用ボックスマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_m249_5.56x45_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_xm8_5.56x45">
+		<text>XM8用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_xm8_5.56x45_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_type63_7.62x39">
+		<text>Type 63用マガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_type63_7.62x39_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_type63_7.62x54">
+		<text>Type 63用改造マガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_type63_7.62x54_descr">
+		<text> </text>
+	</string>
+
+	<!-- 9x39 -->
+
+	<string id="st_mag_val_9x39_pab9">
+		<text>AS VAL用マガジン（9x39）</text>
+	</string>
+	<string id="st_mag_val_9x39_pab9_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_vihr_9x39_pab9">
+		<text>SR-3M用マガジン（9x39）</text>
+	</string>
+	<string id="st_mag_vihr_9x39_pab9_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_vintorez_9x39_pab9">
+		<text>VSS用マガジン（9x39）</text>
+	</string>
+	<string id="st_mag_vintorez_9x39_pab9_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_vsk94_9x39_pab9">
+		<text>VSK用ボックスマガジン（9x39）</text>
+	</string>
+	<string id="st_mag_vsk94_9x39_pab9_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_groza_9x39_pab9">
+		<text>Groza用マガジン（9x39）</text>
+	</string>
+	<string id="st_mag_groza_9x39_pab9_descr">
+		<text> </text>
+	</string>
+	
+
+<!-- sniper rifles / full size rifles -->
+	
+		
+	<string id="st_mag_g43_7.92x33">
+		<text>G43用マガジン（7.92x57）</text>
+	</string>
+	<string id="st_mag_g43_7.92x33_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_galil_7.62x51">
+		<text>Galil用マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_galil_7.62x51_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_stanag_7.62x51">
+		<text>STANAGマガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_stanag_7.62x51_ext">
+		<text>拡張STANAGマガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_ext_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_stanag_fast_7.62x51">
+		<text>ファストSTANAGマガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_stanag_fast_7.62x51_descr">
+		<text> </text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_short">
+		<text>STANAGマガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_stanag_7.62x51_short_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_hinge_7.62x51">
+		<text>マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_hinge_7.62x51_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_hinge_ext_7.62x51">
+		<text>拡張マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_hinge_ext_7.62x51_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_l96a1_7.62x51">
+		<text>L96A1用マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_l96a1_7.62x51_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_remington700_7.62x51">
+		<text>Remington 700用マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_remington700_7.62x51_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_wa2000_7.62x51">
+		<text>Walther WA 2000用マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_wa2000_7.62x51_descr">
+		<text> </text>
+	</string>
+
+
+	<string id="st_mag_pkm_pkm">
+		<text>PKM用ボックスマガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_pkm_pkm_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_l96a1_pkm">
+		<text>L96A1用改造マガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_l96a1_pkm_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_sv98_7.62x54">
+		<text>SV98用マガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_sv98_7.62x54_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_svd_7.62x54">
+		<text>SVD用マガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_svd_7.62x54_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_svd_7.62x54_extended">
+		<text>SVD用マガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_svd_7.62x54_extended_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_svt40_7.62x54">
+		<text>SVT-40用マガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_svt40_7.62x54_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_svt40_pkm">
+		<text>SVT-40用マガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_svt40_pkm_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_svt40_7.62x39">
+		<text>SVT-40用改造マガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_svt40_7.62x39_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_trg_magnum_300">
+		<text>マガジン（.338 ラプアマグナム）</text>
+	</string>
+	<string id="st_mag_trg_magnum_300_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_l96a1m_magnum_300">
+		<text>L96A1用マガジン（.338 ラプアマグナム）</text>
+	</string>
+	<string id="st_mag_l96a1m_magnum_300_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_m98b_magnum_300">
+		<text>M98B用マガジン（.338 ラプアマグナム）</text>
+	</string>
+	<string id="st_mag_m98b_magnum_300_descr">
+		<text> </text>
+	</string>
+	
+	
+	<string id="st_mag_vssk_12.7x55">
+		<text>VSSK用マガジン（12.7x55）</text>
+	</string>
+	<string id="st_mag_vssk_12.7x55_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ash12_12.7x55">
+		<text>ASh-12用マガジン（12.7x55）</text>
+	</string>
+	<string id="st_mag_ash12_12.7x55_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ash12_ext_12.7x55">
+		<text>ASh-12用拡張マガジン（12.7x55）</text>
+	</string>
+	<string id="st_mag_ash12_ext_12.7x55_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_m82_12.7x55">
+		<text>M82用マガジン（12.7x55）</text>
+	</string>
+	<string id="st_mag_m82_12.7x55_descr">
+		<text> </text>
+	</string>
+	
+	
+	<string id="st_mag_saiga12s_12x70">
+		<text>Saiga-12S用マガジン（12x70）</text>
+	</string>
+	<string id="st_mag_saiga12s_12x70_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_saiga12s_ext_12x70">
+		<text>Saiga-12S用拡張マガジン（12x70）</text>
+	</string>
+	<string id="st_mag_saiga12s_ext_12x70_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_usas12_12x70">
+		<text>USAS-12用ドラムマガジン（12x70）</text>
+	</string>
+	<string id="st_mag_usas12_12x70_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_vepr_12x70">
+		<text>Vepr-12用マガジン（12x70）</text>
+	</string>
+	<string id="st_mag_vepr_12x70_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_vepr_compact_12x70">
+		<text>Vepr-12用小型マガジン（12x70）</text>
+	</string>
+	<string id="st_mag_vepr_compact_12x70_descr">
+		<text> </text>
+	</string>
+
+</string_table>

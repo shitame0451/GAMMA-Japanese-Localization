@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="st_rioc_sid">
+		<text>シドロヴィッチの供給品</text>
+	</string>
+	<string id="st_rioc_sid_desc">
+		<text>%c[pda_white]死んだストーカーが持っていた密封された容器。これはシドロヴィッチが話していた荷物に違いない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+
+	<string id="st_rioc_duty">
+		<text>倒れていたデューティーのPDA</text>
+	</string>
+	<string id="st_rioc_duty_desc">
+		<text>%c[pda_white]このPDAをペトレンコに渡せば、行方不明の兵士が死亡したことを確認できるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+
+	<string id="st_rioc_ecolog">
+		<text>試作検出器</text>
+	</string>
+	<string id="st_rioc_ecolog_desc">
+		<text>%c[pda_white]頑丈な容器に収められたコンピュータ。科学者たちによれば、これはアーティファクト狩りの世界を変える、まったく新しい検出器の試作品らしい。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+
+<!--
+	QUEST
+-->
+	<string id="esc_m_trader_task_recover_item_on_corpse_d">
+		<text>あるストーカーが、他のトレーダーから特別な物資を運んでくるはずだったんだが、
+\nここ数日、まったく連絡がない。最初は、奴が物資を持ち逃げしたんじゃないかと思った。
+\nだが、PDAの位置情報を隠してるわけでもないし、動いている様子もない。
+\nおそらくPDAを落としたか、あるいは･･････ 死んだのかもしれんな。
+
+\n\nとにかく、現地に行って状況を確かめてきてくれ。
+\nそいつが死んでいたとしても、荷物が無事なら回収してくるんだ。やるんだろう？</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_t">
+		<text>シドロヴィッチの荷物を回収する</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_t">
+		<text>試作検出器を回収する</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_d">
+		<text>少し厄介な問題が起きている。
+\n我々のチームがアノマリーのスキャンをする任務に出かけたが、まだ戻ってこないんだ。
+\n何度も連絡を試みたが、まったく反応がなくてな。国家保安局にも相談してみたが、
+\n現時点ではチームを探すための資源や人員を割く余裕はないと言われてしまった。
+
+\n\nそのチームは、我々の研究にとって非常に重要なものを持ち出していてな。
+\nそれは試作型の検出器で、通常なら基地の外に持ち出すことはない貴重なものなんだ。
+\n君に頼みたいのは、チームが最後に確認された場所に行き、彼らとその試作機を
+\n見つけてほしいということだ。無事に持ち帰ってくれたら、ちゃんとお礼をするよ。
+\n連絡が途絶えた地点を君のPDAに記録しておくから、よろしく頼む。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_end">
+		<text>ああよかった！この装置が戻ってきてくれて、どれほど嬉しいことか！
+\nチームを失ったことは悲しいが、装置がなければ研究に1年の遅れが出るところだった。
+\n君の協力に感謝しているよ。これが報酬だ。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_t">
+		<text>行方不明になったデューティーの兵士を捜索する</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_d">
+		<text>本日未明、中立派閥からの救難信号を受けて、我々のパトロール隊が現場に急行した。
+\nミュータントに襲われていたストーカーと科学者たちを避難させることに成功したが、
+\n救助活動を支援するため、隊員の一人が現場に残らざるを得なかった。
+\nそして現在、彼は部隊の記録上「行方不明」とされている。
+
+\n\n現場を調査し、彼の所在と安否を確認してくれ。もし生存していれば応急処置を施し、
+\n安全に帰還させるんだ。それが難しい場合は、せめて彼のPDAを回収してきてほしい。
+\n殉職者の記録は、何としても後世に残さなければならないからな。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_end">
+		<text>彼は死んでいたのか？誠実な男だったが、ゾーンはそういう人間を容赦なく狙うものだ。
+\n回収したPDAを見せてくれ･･････ ふむ、興味深いな。
+\nデューティーを代表して礼を言うぞ。お前には十分な報酬を用意した。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_agroprom_0">
+		<text>シドロヴィッチの荷物を回収する。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_pol_0">
+		<text>シドロヴィッチの荷物を回収する。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_garbage_0">
+		<text>シドロヴィッチの荷物を回収する。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_wt_0">
+		<text>シドロヴィッチの荷物を回収する。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_aw_0">
+		<text>シドロヴィッチの荷物を回収する。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_trucc_0">
+		<text>シドロヴィッチの荷物を回収する。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_agroprom_1">
+		<text>荷物をシドロヴィッチに届ける。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_pol_1">
+		<text>荷物をシドロヴィッチに届ける。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_garbage_1">
+		<text>荷物をシドロヴィッチに届ける。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_wt_1">
+		<text>荷物をシドロヴィッチに届ける。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_aw_1">
+		<text>荷物をシドロヴィッチに届ける。</text>
+	</string>
+
+	<string id="esc_m_trader_task_recover_item_on_corpse_trucc_1">
+		<text>荷物をシドロヴィッチに届ける。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_agroprom_0">
+		<text>試作検出器を回収する。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_pol_0">
+		<text>試作検出器を回収する。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_garbage_0">
+		<text>試作検出器を回収する。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_wt_0">
+		<text>試作検出器を回収する。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_aw_0">
+		<text>試作検出器を回収する。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_trucc_0">
+		<text>試作検出器を回収する。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_agroprom_1">
+		<text>検出器を科学者たちに届ける。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_pol_1">
+		<text>検出器を科学者たちに届ける。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_garbage_1">
+		<text>検出器を科学者たちに届ける。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_wt_1">
+		<text>検出器を科学者たちに届ける。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_aw_1">
+		<text>検出器を科学者たちに届ける。</text>
+	</string>
+
+	<string id="yan_stalker_sakharov_task_rioc_trucc_1">
+		<text>検出器を科学者たちに届ける。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_agroprom_0">
+		<text>行方不明になったデューティーの兵士を捜索する。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_pol_0">
+		<text>行方不明になったデューティーの兵士を捜索する。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_garbage_0">
+		<text>行方不明になったデューティーの兵士を捜索する。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_wt_0">
+		<text>行方不明になったデューティーの兵士を捜索する。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_aw_0">
+		<text>行方不明になったデューティーの兵士を捜索する。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_trucc_0">
+		<text>行方不明になったデューティーの兵士を捜索する。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_agroprom_1">
+		<text>兵士のPDAをペトレンコに届ける。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_pol_1">
+		<text>兵士のPDAをペトレンコに届ける。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_garbage_1">
+		<text>兵士のPDAをペトレンコに届ける。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_wt_1">
+		<text>兵士のPDAをペトレンコに届ける。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_aw_1">
+		<text>兵士のPDAをペトレンコに届ける。</text>
+	</string>
+
+	<string id="bar_dolg_general_petrenko_stalker_task_rioc_trucc_1">
+		<text>兵士のPDAをペトレンコに届ける。</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="Time">
+    <text>時間</text>
+  </string>
+  <string id="date">
+    <text>日付</text>
+  </string>
+  <string id="filter_secondary_tasks_text">
+    <text>サブタスク</text>
+  </string>
+  <string id="filter_treasures_text">
+    <text>スタッシュ</text>
+  </string>
+  <string id="missions_list">
+    <text>タスク一覧</text>
+  </string>
+  <string id="month_january">
+    <text>1.</text>
+  </string>
+  <string id="month_february">
+    <text>2.</text>
+  </string>
+  <string id="month_march">
+    <text>3.</text>
+  </string>
+  <string id="month_april">
+    <text>4.</text>
+  </string>
+  <string id="month_may">
+    <text>5.</text>
+  </string>
+  <string id="month_june">
+    <text>6.</text>
+  </string>
+  <string id="month_july">
+    <text>7.</text>
+  </string>
+  <string id="month_august">
+    <text>8.</text>
+  </string>
+  <string id="month_september">
+    <text>9.</text>
+  </string>
+  <string id="month_october">
+    <text>10.</text>
+  </string>
+  <string id="month_november">
+    <text>11.</text>
+  </string>
+  <string id="month_december">
+    <text>12.</text>
+  </string>
+  <string id="pda_btn_close">
+    <text>PDAを閉じる</text>
+  </string>
+  <string id="pda_btn_logs">
+    <text>メッセージ</text>
+  </string>
+  <string id="pda_btn_logs_hint">
+    <text>メッセージ履歴を表示</text>
+  </string>
+  <string id="pda_btn_quests">
+    <text>マップ</text>
+  </string>
+  <string id="pda_btn_quests_hint">
+    <text>ゾーン地図とタスク一覧を表示する</text>
+  </string>
+  <string id="pda_btn_ranking">
+    <text>統計</text>
+  </string>
+  <string id="pda_btn_ranking_hint">
+    <text>個人統計を表示する</text>
+  </string>
+  <string id="pda_cur_time">
+    <text>現在の時刻: </text>
+  </string>
+  <string id="pda_date_filter">
+    <text>日付で絞り込む</text>
+  </string>
+  <string id="pda_filter_news">
+    <text>ニュースを表示</text>
+  </string>
+  <string id="pda_filter_talk">
+    <text>会話を表示</text>
+  </string>
+  <string id="pda_legend_caption">
+    <text>シンボル</text>
+  </string>
+  <string id="pda_stat_1">
+    <text>経過時間: </text>
+  </string>
+  <string id="pda_stat_2">
+    <text>エミッションから生存した回数: </text>
+  </string>
+  <string id="pda_stat_3">
+    <text>完了したタスク: </text>
+  </string>
+  <string id="pda_stat_4">
+    <text>殺害したミュータント: </text>
+  </string>
+  <string id="pda_stat_5">
+    <text>殺害したストーカー: </text>
+  </string>
+  <string id="pda_stat_6">
+    <text>破壊した箱: </text>
+  </string>
+  <string id="pda_stat_7">
+    <text>発見したスタッシュ: </text>
+  </string>
+  <string id="pda_stat_8">
+    <text>精神波の嵐から生存した回数: </text>
+  </string>
+  <string id="pda_stat_9">
+    <text>届けたPDA: </text>
+  </string>
+  <string id="pda_stat_10">
+    <text>撃墜したヘリコプター: </text>
+  </string>
+  <string id="pda_stat_11">
+    <text>発見したアーティファクト: </text>
+  </string>
+  <string id="pda_stat_12">
+    <text>救助した負傷者: </text>
+  </string>
+  <string id="pda_stat_13">
+    <text>マップの切り替え回数: </text>
+  </string>
+  <string id="pda_stat_14">
+    <text>降参させた敵: </text>
+  </string>
+  <string id="pda_stat_15">
+    <text>解体した獲物: </text>
+  </string>
+  <string id="pda_stat_16">
+    <text>解除した百科事典: </text>
+  </string>
+  <string id="pda_stat_17">
+    <text>達成した実績: </text>
+  </string>
+  <string id="pda_stat_18">
+    <text>訪れたマップ: </text>
+  </string>
+  <string id="pda_stat_money">
+    <text>所持金: </text>
+  </string>
+  <string id="pda_stat_mutant_killed">
+    <text>殺した最も強力なミュータント</text>
+  </string>
+  <string id="st_location">
+    <text>場所: </text>
+  </string>
+  <string id="st_target">
+    <text>ゴール</text>
+  </string>
+  <string id="st_ui_pda_legend_additional_task">
+    <text>サブタスク</text>
+  </string>
+  <string id="st_ui_pda_legend_enemies">
+    <text>敵対</text>
+  </string>
+  <string id="st_ui_pda_legend_friends">
+    <text>友好</text>
+  </string>
+  <string id="st_ui_pda_legend_leader">
+    <text>派閥のリーダー</text>
+  </string>
+  <string id="st_ui_pda_legend_main_task">
+    <text>メインタスク</text>
+  </string>
+  <string id="st_ui_pda_legend_neutrals">
+    <text>中立</text>
+  </string>
+  <string id="st_ui_pda_legend_scout">
+    <text>ガイド</text>
+  </string>
+  <string id="st_ui_pda_legend_secrets">
+    <text>スタッシュ</text>
+  </string>
+  <string id="st_ui_pda_legend_squad">
+    <text>分隊の指揮官</text>
+  </string>
+  <string id="st_ui_pda_legend_trader">
+    <text>トレーダー</text>
+  </string>
+  <string id="trader">
+    <text>トレーダー</text>
+  </string>
+  <string id="stalker">
+    <text>Loner</text>
+  </string>
+  <string id="ui_logs_center_caption">
+    <text>メッセージ履歴</text>
+  </string>
+  <string id="ui_map_btn_center">
+    <text>プレイヤーを中心に表示</text>
+  </string>
+  <string id="ui_map_btn_down">
+    <text>下に移動</text>
+  </string>
+  <string id="ui_map_btn_left">
+    <text>左に移動</text>
+  </string>
+  <string id="ui_map_btn_legend">
+    <text>凡例を表示</text>
+  </string>
+  <string id="ui_map_btn_right">
+    <text>右に動く</text>
+  </string>
+  <string id="ui_map_btn_up">
+    <text>上に移動</text>
+  </string>
+  <string id="ui_map_btn_zmreset">
+    <text>ズームリセット</text>
+  </string>
+  <string id="ui_map_btn_zoom_in">
+    <text>ズームイン</text>
+  </string>
+  <string id="ui_map_btn_zoom_out">
+    <text>ズームアウト</text>
+  </string>
+  <string id="ui_ranking_center_caption">
+    <text>実績</text>
+  </string>
+  <string id="ui_task_btn_focus_center">
+    <text>目標をマップ中央にする</text>
+  </string>
+  <string id="ui_task_btn_focus_center2">
+    <text>目標をマップ中央にする</text>
+  </string>
+  <string id="zoom_in_btn_hint">
+    <text>ズーム＋</text>
+  </string>
+  <string id="zoom_out_btn_hint">
+    <text>ズーム－</text>
+  </string>
+  <string id="st_ui_pda_legend_mechanic">
+    <text>技術者</text>
+  </string>
+  <string id="st_ui_pda_legend_medic">
+    <text>衛生兵</text>
+  </string>
+  <string id="st_ui_pda_legend_barman">
+    <text>バーテンダー</text>
+  </string>
+  <string id="st_ui_pda_legend_special">
+    <text>重要人物</text>
+  </string>
+  <string id="st_ui_pda_companion">
+    <text>同行NPC</text>
+  </string>
+  <string id="ui_pda_secondary_task">
+    <text>進行中のタスク</text>
+  </string>
+  <string id="ui_show_second_task_wnd">
+    <text>タスクの一覧を表示または非表示にする</text>
+  </string>
+  <string id="st_ui_pda_actor_box">
+    <text>個人用ストレージ</text>
+  </string>
+  <string id="filter_primary_objects_text">
+    <text>場所</text>
+  </string>
+  <string id="filter_quest_npcs_text">
+    <text>重要なもの</text>
+  </string>
+  <string id="st_ui_pda_legend_primary_objects">
+    <text>地域</text>
+  </string>
+  <string id="st_jup_b32_has_af">
+    <text>スキャナーはアーティファクトの存在を検出: </text>
+  </string>
+  <string id="st_jup_b32_no_af">
+    <text>スキャナーによると、アーティファクトはない。</text>
+  </string>
+  <string id="st_ui_pda_secret">
+    <text>スタッシュ</text>
+  </string>
+  <string id="st_ui_pda_sleep_place">
+    <text>ベッド</text>
+  </string>
+  <string id="st_ui_pda_legend_vip">
+    <text>重要人物</text>
+  </string>
+  <string id="zombie_name">
+    <text>名無しさん</text>
+  </string>
+  <string id="arena_enemy">
+    <text>参加者</text>
+  </string>
+  <string id="st_ui_pda_task_unknown_enemy">
+    <text>未知の敵</text>
+  </string>
+  <string id="st_items_sold">
+    <text>売却したアイテム</text>
+  </string>
+  <string id="st_last_seen">
+    <text>最後の目撃</text>
+  </string>
+  <string id="st_artefacts_found">
+    <text>アーティファクト発見数</text>
+  </string>
+  <string id="st_stalkers_killed">
+    <text>ストーカー殺害数</text>
+  </string>
+  <string id="st_mutants_killed">
+    <text>ミュータント殺害数</text>
+  </string>
+  <string id="st_helicopters downed">
+    <text>撃墜したヘリコプター数</text>
+  </string>
+  <string id="st_corpse_looted">
+    <text>略奪した死体数</text>
+  </string>
+  <string id="st_wounded_helped">
+    <text>救助した負傷者数</text>
+  </string>
+  <string id="pda_btn_relations">
+    <text>関係</text>
+  </string>
+  <string id="pda_btn_relations_hint">
+    <text>派閥間の関係を表示する</text>
+  </string>
+  <string id="pda_relations_header">
+    <text>派閥間の関係</text>
+  </string>
+  <string id="pda_companions_header">
+    <text>同行NPC</text>
+  </string>
+  <string id="pda_table_value_on">
+    <text>状態で表示</text>
+  </string>
+  <string id="pda_table_value_off">
+    <text>数値で表示</text>
+  </string>
+  <string id="pda_companions_auto">
+    <text>更新する</text>
+  </string>
+  <string id="pda_show_enemy">
+    <text>敵を表示する</text>
+  </string>
+  <string id="st_pda_mode_on">
+    <text>オン</text>
+  </string>
+  <string id="st_pda_mode_off">
+    <text>オフ</text>
+  </string>
+  <string id="st_pda_mode_dist_far">
+    <text>遠く</text>
+  </string>
+  <string id="st_pda_mode_dist_near">
+    <text>近く</text>
+  </string>
+  <string id="st_pda_mode_true">
+    <text>有効</text>
+  </string>
+  <string id="st_pda_mode_false">
+    <text>無効</text>
+  </string>
+  <string id="st_pda_mode_enabled">
+    <text>有効</text>
+  </string>
+  <string id="st_pda_mode_disabled">
+    <text>無効</text>
+  </string>
+  <string id="st_pda_distance_state_far">
+    <text>遠い距離を保つ</text>
+  </string>
+  <string id="st_pda_distance_state_near">
+    <text>近い距離を保つ</text>
+  </string>
+  <string id="st_pda_cant_trade">
+    <text>タスク関連のストーカーは取引できない</text>
+  </string>
+  <string id="st_mm_pda_statistics">
+    <text>統計</text>
+  </string>
+  <string id="st_pda_action_1__1">
+    <text>アイテムを貸す</text>
+  </string>
+  <string id="st_pda_action_1__2">
+    <text>コマンド</text>
+  </string>
+  <string id="st_pda_action_1__2_2">
+    <text>移動</text>
+  </string>
+  <string id="st_pda_action_1__2_2_2_on">
+    <text>追従</text>
+  </string>
+  <string id="st_pda_action_1__2_2_2_off">
+    <text>待機</text>
+  </string>
+  <string id="st_pda_action_1__2_2_3_on">
+    <text>距離（近く）</text>
+  </string>
+  <string id="st_pda_action_1__2_2_3_off">
+    <text>距離（遠く）</text>
+  </string>
+  <string id="st_pda_action_1__2_3">
+    <text>戦闘</text>
+  </string>
+  <string id="st_pda_action_1__2_4">
+    <text>略奪</text>
+  </string>
+  <string id="st_pda_action_1__2_5_on">
+    <text>ステルス（無効）</text>
+  </string>
+  <string id="st_pda_action_1__2_5_off">
+    <text>ステルス（有効）</text>
+  </string>
+  <string id="st_pda_action_1__2_3_2">
+    <text>受動的</text>
+  </string>
+  <string id="st_pda_action_1__2_3_3">
+    <text>防御的</text>
+  </string>
+  <string id="st_pda_action_1__2_3_4">
+    <text>攻撃的</text>
+  </string>
+  <string id="st_pda_action_1__2_4_2_on">
+    <text>アイテム（無効）</text>
+  </string>
+  <string id="st_pda_action_1__2_4_2_off">
+    <text>アイテム（有効）</text>
+  </string>
+  <string id="st_pda_action_1__2_4_3_on">
+    <text>死体（無効）</text>
+  </string>
+  <string id="st_pda_action_1__2_4_3_off">
+    <text>死体（有効）</text>
+  </string>
+  <string id="pda_btn_contacts">
+    <text>連絡先</text>
+  </string>
+  <string id="pda_btn_contacts_hint">
+    <text>近くの連絡先を表示</text>
+  </string>
+  <string id="pda_show_known_contacts">
+    <text>既知の連絡先</text>
+  </string>
+  <string id="pda_msg_all">
+    <text>すべて</text>
+  </string>
+  <string id="st_pda_action_back">
+    <text>戻る</text>
+  </string>
+  <string id="st_mm_pda_stalkers_killed">
+    <text>ストーカー殺害数</text>
+  </string>
+  <string id="st_mm_pda_mutants_killed">
+    <text>ミュータント殺害数</text>
+  </string>
+  <string id="st_mm_pda_artes_found">
+    <text>アーティファクト発見数</text>
+  </string>
+  <string id="st_mm_pda_items_sold">
+    <text>売却したアイテム</text>
+  </string>
+  <string id="st_mm_pda_helicopters downed">
+    <text>撃墜したヘリコプター</text>
+  </string>
+  <string id="st_mm_pda_corpse_looted">
+    <text>死体から略奪した数</text>
+  </string>
+  <string id="st_mm_pda_wounded_helped">
+    <text>助けた負傷者の数</text>
+  </string>
+  <string id="st_mm_pda_level_travel">
+    <text>クイックトラベル</text>
+  </string>
+  <string id="st_mm_pda_dismissable">
+    <text>一緒に行動することをやめる</text>
+  </string>
+  <string id="st_mm_pda_stealth">
+    <text>隠密行動</text>
+  </string>
+  <string id="st_mm_pda_keep_distance">
+    <text>プレイヤーとの距離</text>
+  </string>
+  <string id="st_mm_pda_loot_corpses">
+    <text>死体から略奪する</text>
+  </string>
+  <string id="st_mm_pda_pickup_items">
+    <text>アイテムを拾う</text>
+  </string>
+  <string id="st_mm_pda_combat">
+    <text>戦闘</text>
+  </string>
+  <string id="st_mm_pda_movement">
+    <text>移動</text>
+  </string>
+  <string id="st_mm_pda_states">
+    <text>状態</text>
+  </string>
+  <string id="st_mm_pda_location">
+    <text>場所</text>
+  </string>
+  <string id="st_pda_fast_travel">
+    <text>クイックトラベル</text>
+  </string>
+  <string id="st_pda_display_values">
+    <text>数値で表示</text>
+  </string>
+  <string id="st_distance_to">
+    <text>距離</text>
+  </string>
+  <string id="st_stash_of">
+    <text>スタッシュ: </text>
+  </string>
+  <string id="pda_btn_radio">
+    <text>ラジオ</text>
+  </string>
+  <string id="pda_btn_radio_title">
+    <text>ラジオ</text>
+  </string>
+  <string id="pda_btn_plyr_title">
+    <text>音楽プレイヤー</text>
+  </string>
+  <string id="pda_btn_radio_hint">
+    <text>ラジオと音楽プレイヤーを表示</text>
+  </string>
+  <string id="ui_st_radio_playing">
+    <text>再生中</text>
+  </string>
+  <string id="ui_st_radio_playlist">
+    <text>プレイリスト</text>
+  </string>
+  <string id="ui_st_radio_loop_off">
+    <text>ループなし</text>
+  </string>
+  <string id="ui_st_radio_loop_all">
+    <text>全曲ループ</text>
+  </string>
+  <string id="ui_st_radio_loop_one">
+    <text>1曲リピート</text>
+  </string>
+  <string id="ui_st_radio_shuffle_on">
+    <text>シャッフルオン</text>
+  </string>
+  <string id="ui_st_radio_shuffle_off">
+    <text>シャッフルオフ</text>
+  </string>
+  <string id="pda_all_levels">
+    <text>すべてのマップで表示する</text>
+  </string>
+  <string id="pda_current_level">
+    <text>現在のマップで表示する</text>
+  </string>
+  <string id="ui_st_pda_warfare_squads">
+    <text>分隊の合計数</text>
+  </string>
+  <string id="ui_st_pda_warfare_capped_smarts">
+    <text>支配地の合計数</text>
+  </string>
+  <string id="ui_st_pda_warfare_major_hold">
+    <text>基地</text>
+  </string>
+  <string id="ui_st_pda_warfare_dominance">
+    <text>%sは%sか所を支配している（%sか所あるうちの）［%s全体］</text>
+  </string>
+  <string id="ui_st_pda_warfare_zone">
+    <text>ゾーン</text>
+  </string>
+</string_table>

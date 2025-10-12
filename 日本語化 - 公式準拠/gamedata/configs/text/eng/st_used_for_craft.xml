@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string id="st_craft_used_for">
+		<text>%c[pda_white]クラフトに使用:</text>
+	</string>
+	<string id="st_craft_unlocks">
+		<text>%c[pda_white]解除できるクラフトレシピ:</text>
+	</string>
+	<string id="st_cook_used_for">
+		<text>%c[pda_white]調理に使用:</text>
+	</string>
+	<string id="ui_mcm_craft_in_tooltip_title">
+		<text>Crafting Info in Tooltip</text>
+	</string>
+	<string id="ui_mcm_menu_craft_in_tooltip">
+		<text>Crafting Info In Tooltips</text>
+	</string>
+	<string id="ui_mcm_craft_in_tooltip_use_icons">
+		<text>アイテムをアイコンで表示</text>
+	</string>
+	<string id="ui_mcm_craft_in_tooltip_use_icons_desc">
+		<text>クラフト可能なアイテムをアイコンで表示します。</text>
+	</string>
+</string_table>

@@ -1,0 +1,174 @@
+<!-- 
+	Anomaly Mod Configuration Menu strings	
+-->
+
+<string_table>
+
+	<string id="st_rax_fav">
+		<text>お気に入りに指定</text>
+	</string>
+	<string id="st_rax_unfav">
+		<text>お気に入りから外す</text>
+	</string>
+	<string id="st_rax_junk">
+		<text>ジャンク品に指定</text>
+	</string>
+	<string id="st_rax_unjunk">
+		<text>ジャンク品から外す</text>
+	</string>
+
+
+
+	<string id="ui_mcm_title_SortingPlus">
+		<text>Sorting Plus Settings</text>
+	</string>
+
+	<string id="ui_mcm_menu_SortingPlus">
+		<text>Sorting Plus</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playerinv">
+		<text>プレイヤーのインベントリをソート</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playerinv_desc">
+		<text>トレードを除くすべての画面でプレイヤーのインベントリをソートします。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playertrade">
+		<text>プレイヤーのインベントリをソート (トレード時)</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_playertrade_desc">
+		<text>トレード画面でプレイヤーのインベントリをソートします。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npcinv">
+		<text>NPCのインベントリをソート</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npcinv_desc">
+		<text>トレードを除くすべての画面でNPCのインベントリをソートします。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npctrade">
+		<text>NPCのインベントリをソート (トレード時)</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_npctrade_desc">
+		<text>トレード画面でNPCのインベントリをソートします。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_useltx">
+		<text>sortingplus.ltxを使用する</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_useltx_desc">
+		<text>以下の設定は無視され、より詳細な制御が可能なsortingplus.ltxの設定が優先されます。</text>
+	</string>
+
+	<string id="ui_mcm_SortingPlus_iconjunk">
+		<text>ジャンク品アイコン</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_iconjunk_desc">
+		<text>ジャンク品として指定したアイテムにアイコンを付与します。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitejunk">
+		<text>ジャンク品をハイライト</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitejunk_desc">
+		<text>ジャンク品として指定したアイテムをハイライト表示します。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortjunk">
+		<text>カテゴリ別にジャンク品をソート</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortjunk_desc">
+		<text>ジャンク品を一つのカテゴリとしてソートします。(デフォルトではインベントリの一番最後にソート)</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_selljunk">
+		<text>ジャンク品を自動で売却予定に入れる</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_selljunk_desc">
+		<text>トレーダーに売却可能なジャンク品は自動で売却予定欄に移動します。この場合でも自分で確定しない限り売却しません。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_iconfavs">
+		<text>お気に入りアイコン</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_iconfavs_desc">
+		<text>お気に入りとして指定したアイテムにアイコンを付与します。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitefavs">
+		<text>お気に入りをハイライト</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_hilitefavs_desc">
+		<text>お気に入りとして指定したアイテムをハイライト表示します。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortfavs">
+		<text>カテゴリ別にお気に入りをソート</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_sortfavs_desc">
+		<text>お気に入りをカテゴリとしてソートします。(デフォルトではインベントリの一番上にソート)</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_putallfavs">
+		<text>一括移動からお気に入りを除外</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_putallfavs_desc">
+		<text>一括移動を選択した時にお気に入りはインベントリから移動されなくなります。</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_resort">
+		<text>マーキング時に再ソート</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_resort_desc">
+		<text>お気に入り/ジャンク品を指定した際にインベントリを再ソートします。無効の場合は次にインベントリを開いた際にソートします。ハイライトが無効な場合に便利な機能です。</text>
+	</string>
+
+	<string id="ui_mcm_SortingPlus_001loadout">
+		<text>ARM ロードアウト</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_002mags">
+		<text>ARM マガジン</text>
+	</string>
+
+	<string id="ui_mcm_SortingPlus_000favorites">
+		<text>お気に入り</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_999junk">
+		<text>ジャンク品</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_010weapons">
+		<text>武器</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_020outfits">
+		<text>防具</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_030artifacts">
+		<text>アーティファクト</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_040devices">
+		<text>デバイス</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_050tools">
+		<text>道具</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_060medical">
+		<text>医薬品</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_070foods">
+		<text>食料</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_080mutantfoods">
+		<text>ミュータントの食料</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_090quest">
+		<text>タスク用アイテム</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_100notes">
+		<text>ノート</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_110ammo">
+		<text>弾薬</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_120mutantparts">
+		<text>ミュータントの部位</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_130misc">
+		<text>その他</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_140upgrades">
+		<text>アップグレードキット</text>
+	</string>
+	<string id="ui_mcm_SortingPlus_150parts">
+		<text>部品</text>
+	</string>
+
+</string_table>

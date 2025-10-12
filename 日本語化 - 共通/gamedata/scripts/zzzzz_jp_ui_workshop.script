@@ -1,0 +1,27 @@
+-- ui_workshop.script
+
+-- ===================================================================
+--  UIWorkshopState:Reset （ツール一覧の余分なスペースを削除）
+-- ===================================================================
+local original_UIWorkshopState_Reset = ui_workshop.UIWorkshopState.Reset
+
+ui_workshop.UIWorkshopState.Reset = function(self, ...)
+
+	local ret = original_UIWorkshopState_Reset(self, ...)
+
+	if self.toolkit_txt then
+		for i = 1, 6 do
+			local w = self.toolkit_txt[i]
+			if w and w.SetText then
+				local s = (w.GetText and w:GetText()) or nil
+				if s then
+					-- 「\n + 空白」を「\n」に
+					s = s:gsub("\\n +", "\\n")
+					w:SetText(s)
+				end
+			end
+		end
+	end
+
+	return ret
+end

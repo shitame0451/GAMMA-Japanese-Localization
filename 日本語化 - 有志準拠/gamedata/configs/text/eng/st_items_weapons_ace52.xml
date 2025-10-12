@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_ace52">
+		<text>Galil ACE-52</text>
+	</string>
+	<string id="st_wpn_ace52_descr">
+		<text>現代の戦場のニーズに合わせて作られたACE-52は、先進的なライフルを求める軍隊や諜報員にとって便利な選択肢となっている。究極の突撃銃と称されるこのライフルは、最も過酷な条件下の戦闘でその性能が証明されている。かつてのIMI Galilをベースとしながらも、高度な設計と性能機構により、ACE-52はより信頼性が高く、高精度の戦闘用銃器へと変貌を遂げた。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イスラエル\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Israel Weapon Industries\n
+		</text>
+	</string>
+
+	<string id="st_up_ace52_a5_name">
+		<text>ヘビーバレル</text>
+	</string>
+	<string id="st_up_ace52_a5_descr">
+		<text>反動を改善するために重いバレルを取り付ける。</text>
+	</string>
+	<string id="st_up_ace52_b1_name">
+		<text>チークピース</text>
+	</string>
+	<string id="st_up_ace52_b1_descr">
+		<text>より快適な照準のためにチークピースを取り付ける。</text>
+	</string>
+	<string id="st_up_ace52_c1_name">
+		<text>7.62x54mm弾用に改造</text>
+	</string>
+	<string id="st_up_ace52_c1_descr">
+		<text>銃の部品や機構を改造し、使用する弾薬を変更する。</text>
+	</string>
+</string_table>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="ui_mcm_exo_servo_sounds_title">
+		<text>Exo Servo Sounds</text>
+	</string>
+	<string id="ui_mcm_menu_exo_servo_sounds">
+		<text>Exo Servo Sounds</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_walk">
+		<text>音量 (歩行)</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_walk_desc">
+		<text>歩行時の音量を設定します。</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_land">
+		<text>音量 (着地)</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_land_desc">
+		<text>着地時の音量を設定します。</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_jump">
+		<text>音量 (ジャンプ)</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_volume_jump_desc">
+		<text>ジャンプ時の音量を設定します。</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_discharge">
+		<text>放電</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_discharge_desc">
+		<text>エレクトロアノマリーに当たった後に失われる充電の量を設定します。</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_scale_freq">
+		<text>周波数のスケーリング</text>
+	</string>
+	<string id="ui_mcm_exo_servo_sounds_scale_freq_desc">
+		<text>プレイヤーの状態（歩行、匍匐、走行など）に基づいて音の周波数を変更します。</text>
+	</string>
+</string_table>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+overwrites st_wpn_glock17
+-->
+	<string id="st_wpn_glock17">
+		<text>Glock 17</text>
+	</string>
+	<string id="st_wpn_glock17_short">
+		<text>Glock 17</text>
+	</string>
+	<string id="st_wpn_glock17_descr">
+		<text>軽量なポリマーフレーム、大容量マガジン、卓越した信頼性で広く知られるセミオートピストル。シンプルながらも効果的な設計は、軍、法執行機関、そしてストーカーたちの間で非常に人気がある。滑らかなトリガープルと少ない反動により、攻撃にも防御にも頼れるサイドアームとして活躍する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Glock Ges.m.b.H.\n
+		</text>
+	</string>
+
+	<string id="st_up_glock17_45acp_name">
+		<text>.45ACP弾用に改造</text>
+	</string>
+
+<!--UNUSED
+
+	<string id="st_wpn_xd9">
+		<text>XD Mod.2</text>
+	</string>
+	<string id="st_wpn_xd9_short">
+		<text>XD Mod.2</text>
+	</string>
+	<string id="st_wpn_xd9_descr">
+		<text>The American equivalent of the polymer-frame, striker-fired HS2000 manufactured by HS Produkt. The Mod.2 model is a much smaller version of the HS2000, meant to be used for concealed carry, with the notable significant change being the "Grip Zone" offering incredible ergonomic improvements. Despite being a small pistol with a low magazine capacity, it's a welcome addition for those that need an accurate pistol with minimal recoil.\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]Croatia\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Springfield Armory, Inc.\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

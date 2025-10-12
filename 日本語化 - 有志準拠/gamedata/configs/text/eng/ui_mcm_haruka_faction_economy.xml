@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="ui_mcm_faction_economy_title">
+		<text>Faction Based Economy</text>
+	</string>
+	<string id="ui_mcm_menu_faction_economy">
+		<text>派閥経済</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_faction_discounts">
+		<text>派閥割引の倍率</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_faction_discounts_desc">
+		<text>派閥の関係性に応じた倍率を有効にする。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_goodwill_mul">
+		<text>友好度倍率</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_goodwill_mul_desc">
+		<text>友好度を基にした倍率を有効にします。（デフォルトでは自分の派閥にのみ適用されます）</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_ignore_faction_goodwill">
+		<text>派閥を無視した友好度の倍率</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_ignore_faction_goodwill_desc">
+		<text>友好度の倍率がすべての派閥に対して機能するようにします。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_reputation_mul">
+		<text>評判の倍率</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_reputation_mul_desc">
+		<text>プレイヤーの評価に基づく倍率を有効にします。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_north_level_mul">
+		<text>北部での価格向上</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_north_level_mul_desc">
+		<text>北部での取引価格が向上します。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_chance_for_extra_item">
+		<text>プレイヤー派閥のトレーダーで追加アイテムが出る確率</text>
+	</string>
+	<string id="ui_mcm_faction_economy_required_supply_level">
+		<text>他の派閥の必要友好度</text>
+	</string>
+	<string id="ui_mcm_faction_economy_required_supply_level_desc">
+		<text>他の派閥のトレーダーが派閥のアイテムを売り始める友好度。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_goodwill_mul">
+		<text>友好度価格乗数</text>
+	</string>
+	<string id="ui_mcm_faction_economy_rep_mul">
+		<text>評判価格乗数</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount_special">
+		<text>特殊弾薬の量</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount">
+		<text>通常弾薬の量</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount_special_desc">
+		<text>特殊弾薬（AP、HP、スラグ、ダーツなど）の量。トレーダーが販売する武器の数だけ在庫が発生します。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_ammo_amount_desc">
+		<text>トレーダーが販売する武器の数だけ、通常弾薬の在庫が発生します。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_trade_GUI">
+		<text>トレードメニューの追加情報を有効にする</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_special_ammo_spawns">
+		<text>特殊弾薬の生成を使用する</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_trade_GUI_desc">
+		<text>トレーダーのポートレートの横に、現在の価格倍率と供給レベルに関する情報を表示します。</text>
+	</string>
+	<string id="ui_mcm_faction_economy_use_special_ammo_spawns_desc">
+		<text>トレーダー用の特別な弾薬生成ルールを有効にします。トレーダーファイルを使用する代わりに、販売された武器に基づいて弾薬が生成されます。</text>
+	</string>
+	<string id="st_haruka_sulpplies_level">
+		<text>サプライレベル:</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>価格倍率</text>
+	</string>
+
+
+	<string id="st_deal_dolg_buy_ammo">
+		<text>ストーカーに告ぐ。Dutyはミュータントの巣への襲撃を計画している。ボランティアと武器は大歓迎だ。ペトレンコと話してくれ</text>	
+	</string>
+	<string id="st_deal_freedom_1">
+		<text>ストーカーの皆、大放出セールだ！･･････あれ、レンカは最後のエミッションで死んだのか。ああ、くそ、あいつは俺に金を貸りたままで･･････ まあ、とにかく！お買い得品に買うために寄っていってくれ！</text>	
+	</string>
+
+	<string id="st_sid_food_sale">
+		<text>ストーカー、シドロヴィッチだ。ウルフが緑色の服の連中と取引してくれて缶詰が余ってるんだ。今日だけ特別セールにするから、ぜひ寄ってみてくれ。</text>	
+	</string>
+
+	<string id="st_sakharov_mutant_surplus">
+		<text>科学部門と契約しているストーカー各位へ。ミュータントのサンプルはもう十分だ。これ以上持ち込まないでほしい。犬の心臓を食品用冷蔵庫に保管するハメになってしまう。協力願う。- サハロフ教授</text>	
+	</string>
+	<string id="st_sakharov_artifact_need">
+		<text>科学部門と契約しているストーカー各位へ。現在アーティファクトのサンプルが不足している。報酬は惜しみなく支払う。協力願う。- サハロフ教授</text>	
+	</string>
+	<string id="st_sid_ammo_buy">
+		<text>ストーカー、シドローヴィッチだ。南前線基地の近くで狙撃したのがバレて、今月の弾薬の出荷をストップせざるを得なくなった。</text>	
+	</string>
+	<string id="st_barkeep_food_sale">
+		<text>.</text>	
+	</string>
+	<!--
+	<string id="st_haruka_multiplier">
+		<text>武器</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>スーツ</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>追加スーツ</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>弾薬</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>医薬品</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>サバイバル品</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>飲食物</text>
+	</string>
+	<string id="st_haruka_multiplier">
+		<text>ミュータントの標本</text>
+	</string>
+	-->
+</string_table>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_thompson_m1a1">
+		<text>Thompson M1A1</text>
+	</string>
+	<string id="st_wpn_thompson_m1a1_descr">
+		<text>象徴的なサブマシンガンの簡略化モデルで、第二次世界大戦中の大量生産に備えて開発された。シンプルなブローバック方式とボックスマガジンを採用することで、製造コストを抑えつつ従来の火力を維持している。その高い耐久性と強力なストッピングパワーは、前線の兵士たちから絶大な信頼を得た。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Birmingham Small Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_thompson_1921">
+		<text>Thompson Model 1921</text>
+	</string>
+	<string id="st_wpn_thompson_1921_descr">
+		<text>有名なサブマシンガンの初期モデルで、滑らかな作動、高い連射速度、特徴的なドラムマガジンで知られている。当初は法執行機関や民間向けに設計されていたが、禁酒法時代になるとギャングや警官に使われ、「シカゴタイプライター」として悪名を轟かせた。その精密な加工と独特な外観により、今もなおコレクターに人気のある銃となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Auto-Ordnance Company\n
+		</text>
+	</string>
+
+	<string id="st_up_m1a1_b8_name">
+		<text>ヘビーバレル</text>
+	</string>
+	<string id="st_up_m1a1_b8_descr">
+		<text>重いバレルに交換し、反動を抑える。</text>
+	</string>
+	<string id="st_up_m1a1_b5_name">
+		<text>ポリマーストック</text>
+	</string>
+	<string id="st_up_m1a1_b5_descr">
+		<text>ポリマー製のストックに交換し、銃を軽量化する。</text>
+	</string>
+	<string id="st_up_m1a1_b6_name">
+		<text>ポリマーハンドガード</text>
+	</string>
+	<string id="st_up_m1a1_b6_descr">
+		<text>ポリマー製のハンドガードに交換し、銃を軽量化する。</text>
+	</string>
+		<string id="st_up_m1a1_b7_name">
+		<text>防錆部品</text>
+	</string>
+	<string id="st_up_1921_b7_descr">
+		<text>防錆部品を取り付け、銃の劣化を遅らせる。</text>
+	</string>
+
+	<string id="st_up_1921_b8_name">
+		<text>高品質な輸入部品</text>
+	</string>
+	<string id="st_up_1921_b8_descr">
+		<text>より高品質な輸入部品に交換し、信頼性を高める。</text>
+	</string>
+	<string id="st_up_1921_b5_name">
+		<text>ポリマーストック</text>
+	</string>
+	<string id="st_up_1921_b5_descr">
+		<text>ポリマー製のストックに交換し、銃を軽量化する。</text>
+	</string>
+	<string id="st_up_1921_b6_name">
+		<text>ポリマーハンドガード</text>
+	</string>
+	<string id="st_up_1921_b6_descr">
+		<text>ポリマー製のハンドガードに交換し、銃を軽量化する。</text>
+	</string>
+		<string id="st_up_1921_b7_name">
+		<text>防錆部品</text>
+	</string>
+	<string id="st_up_1921_b7_descr">
+		<text>防錆部品を取り付け、銃の劣化を抑える。</text>
+	</string>
+
+	<string id="st_up_1921_b9_name">
+		<text>改良型ブリッシュロック機構</text>
+	</string>
+	<string id="st_up_1921_b9_descr">
+		<text>改良されたロック機構に交換し、信頼性を大幅に高める。</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,89 @@
+<string_table>
+
+    <string id="st_player_skill_stats">
+        <text>\nステータス:</text>
+    </string>
+
+<!--
+    SCAVENGING
+-->
+    <string id="st_player_skills_hint_scavenging">
+		<text>死体から入手できるアイテムが増える。\n \nストーカーの死体を漁ることで経験値を獲得できる。\nランクの高いストーカーほど多くの経験値を得られる。\n</text>
+	</string>
+	<string id="st_skills_stats_scavenging_skill_positive">
+        <text>\n%c[d_purple] • %c[pda_white]追加の戦利品を入手する確率: %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_scavenging_skill_negative">
+        <text>\n%c[d_purple] • %c[pda_white]戦利品を損失する確率: %c[ui_red]$stat%</text>
+    </string>
+
+<!--
+    STRENGTH
+-->
+    <string id="st_player_skills_hint_strength">
+		<text>最大所持重量と近接攻撃のダメージが増加する。\n \n重い荷物を持って移動したり、近接武器で攻撃することで経験値を獲得できる。\n所持重量が最大に近いほど獲得できる経験値が多くなる。\n</text>
+	</string>
+
+    <string id="st_skills_stats_weight_modifer_positive">
+        <text>\n%c[d_purple] • %c[pda_white]所持重量補正: %c[d_green]x$stat</text>
+    </string>
+    <string id="st_skills_stats_weight_modifer_negative">
+        <text>\n%c[d_purple] • %c[pda_white]所持重量補正: %c[ui_red]x$stat</text>
+    </string>
+
+    <string id="st_skills_stats_melee_damage_positive">
+        <text>\n%c[d_purple] • %c[pda_white]近接ダメージ補正: %c[d_green]x$stat</text>
+    </string>
+    <string id="st_skills_stats_melee_damage_negative">
+        <text>\n%c[d_purple] • %c[pda_white]近接ダメージ補正: %c[ui_red]x$stat</text>
+    </string>
+
+    <string id="st_skills_stats_base_weight">
+        <text>\n%c[d_purple] • %c[pda_white]最大所持重量ボーナス: %c[d_green]+$stat kg</text>
+    </string>
+
+<!--
+    SURVIVAL
+-->
+    <string id="st_player_skills_hint_survival">
+		<text>ダメージ耐性が上昇し、解体時に追加の部位を入手する確率が増加する。\n \nミュータントの解体や被ダメージ時（銃撃・ミュータントの攻撃）に経験値を獲得する。\n危険度の高いミュータントほど獲得できる経験値が多くなる。\n</text>
+	</string>
+    <string id="st_skills_stats_resistance_positive">
+        <text>\n%c[d_purple] • %c[pda_white]被ダメージ軽減率: %c[d_green]x$stat</text>
+    </string>
+    <string id="st_skills_stats_resistance_negative">
+        <text>\n%c[d_purple] • %c[pda_white]被ダメージ増加率: %c[ui_red]x$stat</text>
+    </string>
+
+    <string id="st_skills_stats_bleed_restore">
+        <text>\n%c[d_purple] • %c[pda_white]出血軽減量: %c[d_green]$stat%</text>
+    </string>
+
+     <string id="st_skills_stats_hunting_skill_positive">
+        <text>\n%c[d_purple] • %c[pda_white]追加のミュータント部位を入手する確率: %c[d_green]$stat%</text>
+    </string>
+    <string id="st_skills_stats_hunting_skill_negative">
+        <text>\n%c[d_purple] • %c[pda_white]ミュータント部位を損失する確率: %c[ui_red]$stat%</text>
+    </string>
+
+<!--
+    ENDURANCE
+-->
+    <string id="st_player_skills_hint_endurance">
+		<text>スタミナと移動速度が増加する。\n \n荷物が軽い状態で移動することで経験値を獲得できる。\n所持重量が0に近いほど獲得できる経験値が多くなる。\n</text>
+	</string>
+    <string id="st_skills_stats_power_loss_positive">
+        <text>\n%c[d_purple] • %c[pda_white]スタミナ消費補正: %c[d_green]x$stat</text>
+    </string>
+    <string id="st_skills_stats_power_loss_negative">
+        <text>\n%c[d_purple] • %c[pda_white]スタミナ消費補正: %c[ui_red]x$stat</text>
+    </string>
+
+    <string id="st_skills_stats_speed_modifier_positive">
+        <text>\n%c[d_purple] • %c[pda_white]移動速度補正: %c[d_green]x$stat</text>
+    </string>
+    <string id="st_skills_stats_speed_modifier_negative">
+        <text>\n%c[d_purple] • %c[pda_white]移動速度補正: %c[ui_red]x$stat</text>
+    </string>
+
+</string_table>

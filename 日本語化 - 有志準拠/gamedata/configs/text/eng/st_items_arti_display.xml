@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+   <string id="st_placeable_arti_display">
+		<text>アーティファクト展示用ケース</text>
+	</string>
+	<string id="st_placeable_arti_display_descr">
+		<text>アーティファクトを安全に保管し、展示するために設計された特殊な収納家具。ただの収納ではなく、コレクションの鑑賞用としても優れており、ストーカーたちは収集したアーティファクトの神秘的な輝きや特性を楽しむことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]アーティファクトを展示できる\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]探知機を手に持っていないとアーティファクトを視認できない\n</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	SCOPES
+-->
+
+	<string id="st_addon_scope">
+		<text>PSO-1</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>ソ連時代に設計されたマークスマンライフル用の4倍スコープ。距離計と発光レティクル、長距離射撃のための弾道補正機能が特徴。SVDライフルに搭載されることが多く、東側諸国の光学機器の定番となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_1p29">
+		<text>1P29 Tulip</text>
+	</string>
+	<string id="st_addon_scope_1p29_descr">
+		<text>ロシア軍が使用する4倍スコープ。プリズム設計による軽量かつ頑丈な構造が特徴。距離計と発光レティクルを備え、低照度環境にも対応できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_acog">
+		<text>ACOG 2.8x</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>耐久性に優れたTrijicon社製の2.8倍光学サイト。中距離戦闘における迅速なターゲットの捕捉を目的に設計されている。あらゆる照明条件下での視認性を確保するため、集光ファイバーとトリチウムによる発光レティクルを備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Trijicon\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.8x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>PSO-1M2-1</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>PSO-1Mの改良型で、レンズコーティングの強化や環境耐性の向上が施されている。従来のレティクルデザインはそのままに、高精度な長距離射撃を可能にしている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_specterDR">
+		<text>ELCAN SpecterDR</text>
+	</string>
+	<string id="st_addon_scope_specterDR_descr">
+		<text>1倍と4倍の倍率を切り替え可能なデュアルロール光学サイト。近接戦闘から長距離交戦まで対応できる汎用性を持つ。高品質な光学性能と耐久性の高い設計が特徴で、軍事用途に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Raytheon ELCAN\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x or 4.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pso2">
+		<text>PSO-1М</text>
+	</string>
+	<string id="st_addon_scope_pso2_descr">
+		<text>ソ連製PSO-1スコープの近代化版。光学性能とレティクルが改良され、より精密な射撃が可能。長距離での効果的な射撃を可能にするため、象徴的な弾道補正機能はそのまま残されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_1p59">
+		<text>1P59 Giperon</text>
+	</string>
+	<string id="st_addon_scope_1p59_descr">
+		<text>マークスマン向けに設計された高倍率のロシア製光学サイトで、高度な距離測定機能を備えている。発光レティクルを特徴とし、軍事用途向けに頑丈な設計がされている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]様々なメーカー\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x - 10.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_1pn93">
+		<text>1PN93-4 暗視サイト</text>
+	</string>
+	<string id="st_addon_scope_1pn93_descr">
+		<text>ロシア製のナイトビジョンスコープ。低照度環境や夜間戦闘向けに最適化されており、暗闇でも高い視認性を発揮する。耐久性の高い軍用規格のボディを採用している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Optics\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 3.7x\n
+		%c[d_cyan] • %c[pda_white]ナイトビジョン切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_leupold">
+		<text>Leupold Mark 8</text>
+	</string>
+	<string id="st_addon_scope_leupold_descr">
+		<text>倍率調整機能、高精度な光学レンズ、そしてFFP（First Focal Plane）レティクルを備えた高性能な長距離用スコープ。軍事用途や競技射撃における精密射撃を目的として設計されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Leupold\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 8.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pn23">
+		<text>PN-23 暗視サイト</text>
+	</string>
+	<string id="st_addon_scope_pn23_descr">
+		<text>ロシア製のナイトビジョンスコープ。低照度環境での射撃に最適化されており、暗闇でも高い視認性を発揮する。耐久性と耐候性を兼ね備え、様々な銃に対応するように設計されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]KULA\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]6.0x\n
+		%c[d_cyan] • %c[pda_white]ナイトビジョン切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_marchf">
+		<text>March Tactical 3-24x42 FFP</text>
+	</string>
+	<string id="st_addon_scope_marchf_descr">
+		<text>倍率調整機能を持つ高性能FFP（First Focal Plane）スコープ。長距離射撃において優れた視認性と精度を発揮し、マークスマンや競技射撃の愛好者に高く評価されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]日本\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ディオン光学技研\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x - 24.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pgo7gs">
+		<text>PGO-7</text>
+	</string>
+	<string id="st_addon_scope_pgo7gs_descr">
+		<text>RPG-7用に設計された固定2.7倍率の光学サイト。レンジファインダーレティクルを備え、対装甲戦闘での精密照準を可能にする。頑丈な設計で過酷な環境下でも使用可能。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_susat">
+		<text>SUSAT</text>
+	</string>
+	<string id="st_addon_scope_susat_descr">
+		<text>SUSAT（Sight Unit Small Arms, Trilux）は、イギリス軍が使用する4倍光学サイト。耐久性と広い視野が特徴で、低照度環境での視認性を高める発光レティクルを備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イギリス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Avimo\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_gauss_sight">
+		<text>EOTS-62 サーマルサイト</text>
+	</string>
+	<string id="st_addon_scope_gauss_sight_descr">
+		<text>低視界環境で熱源を検知するために設計された高性能サーマルサイト。標的の追跡能力と交戦性能を向上させ、軍事・戦術用途に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ウクライナ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]/編集済み/\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 10.0x\n
+		%c[d_cyan] • %c[pda_white]サーマルモード切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_1p78gs">
+		<text>1P78 Kashtan</text>
+	</string>
+	<string id="st_addon_scope_1p78gs_descr">
+		<text>AKライフル向けに設計されたロシア製の2.8倍プリズム式コンバットサイト。広い視野と弾道補正機能が特徴で、過酷な戦闘環境にも対応できる高い耐久性を備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Factory\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.8x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_1pn93n2_1gs">
+		<text>1PN93-1 サーマルサイト</text>
+	</string>
+	<string id="st_addon_scope_1pn93n2_1gs_descr">
+		<text>ロシア製のナイトビジョンスコープ。赤外線対応と耐久性の高いハウジングが特徴で、低照度環境での戦闘向けに設計されている。夜間での視認性を向上させつつ、長距離での精密射撃を可能にする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_usp1">
+		<text>1P29 Tulpan</text>
+	</string>
+	<string id="st_addon_scope_usp1_descr">
+		<text>SUSATに近い設計のロシア製4倍スコープ。発光レンジファインダーレティクルを搭載し、AKなどの歩兵用ライフルに対応している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_susatov">
+		<text>SUSAT 4.0x サイト</text>
+	</string>
+	<string id="st_addon_scope_susatov_descr">
+		<text>SUSAT（Sight Unit Small Arms, Trilux）は主にイギリス軍で使用される固定4倍率の光学サイト。発光レティクルとプリズム設計により、鮮明な視界と効果的な距離測定を可能にする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イギリス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Royal Armament Research Development\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_march_f_shorty">
+		<text>March F Shorty 1x-8x24mm LPVO</text>
+	</string>
+	<string id="st_addon_scope_march_f_shorty_descr">
+		<text>コンパクトで高品質な低倍率可変光学サイト（LPVO）。1倍から8倍の倍率範囲を持ち、近距離から長距離の精密射撃に対応する。優れた透明度とFFP（First Focal Plane）レティクルにより、動的な戦闘に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]日本\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ディオン光学技研\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 8.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_lco1">
+		<text>LCO Leupold Carbine Optic</text>
+	</string>
+	<string id="st_addon_scope_lco1_descr">
+		<text>Leupold社製の頑丈なレッドドットサイト。カービンやライフル向けに最適化されており、広い視野と素早い標的捕捉能力を提供する。耐久性の高さと防水設計により、戦術用途や競技射撃に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Leupold\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_e0t2_mag">
+		<text>Eotech XPS3／Eotech G33 6倍マグニファイア</text>
+	</string>
+	<string id="st_addon_scope_e0t2_mag_descr">
+		<text>コンパクトなホログラフィックサイトと、フリップ式の6倍マグニファイアを組み合わせたセットアップ。近距離での素早い射撃と、中距離での精密射撃の両方に対応可能。XPS3はナイトビジョン対応で、軍や法執行機関で広く採用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]6.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_razor_mag">
+		<text>Vortex Optics Razor AMG UH-1／Eotech G33 6倍マグニファイア</text>
+	</string>
+	<string id="st_addon_scope_razor_mag_descr">
+		<text>頑丈で高速な標的捕捉を可能にするRazor AMG UH-1ホログラフィックサイトに、Eotech G33マグニファイアを組み合わせたハイブリッドセットアップ。短距離から中距離までの戦闘においてシームレスな切り替えが可能。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech &amp; Vortex\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]6.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_razor">
+		<text>Vortex Optics Razor AMG UH-1 Gen. II</text>
+	</string>
+	<string id="st_addon_scope_razor_descr">
+		<text>高性能ホログラフィックサイトで、広い視野、素早い標的捕捉、ナイトビジョン対応を特徴とする。耐久性の高い構造と改良されたレティクルにより、戦術・防衛用途に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Vortex\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_exps3">
+		<text>Eotech EXPS3</text>
+	</string>
+	<string id="st_addon_scope_exps3_descr">
+		<text>コンパクトで高性能なホログラフィックサイト。軍や法執行機関向けに設計され、ナイトビジョンとサイドマウント式の操作インターフェースを備えている。広い視野と素早いレティクル捕捉により、素早い戦闘展開に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_he510">
+		<text>Holosun HE510C</text>
+	</string>
+	<string id="st_addon_scope_he510_descr">
+		<text>耐久性の高いソーラー駆動のオープンリフレックスサイト。切り替え可能な複数のレティクルを備え、ライフルやカービンに適している。長時間使用できるバッテリー、シェイクアウェイク機能、耐久性の高いボディにより、汎用性の高い光学サイトとなっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Holosun\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_bravo4">
+		<text>SIG Sauer BRAVO4</text>
+	</string>
+	<string id="st_addon_scope_bravo4_descr">
+		<text>4倍の倍率を持つプリズム式スコープ。広い視野と発光ホースシュードットレティクルを備え、素早い標的捕捉が可能。戦術運用向けに設計され、高い視認性と耐久性を兼ね備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_hamr">
+		<text>Leupold Mark 4 HAMR</text>
+	</string>
+	<string id="st_addon_scope_hamr_descr">
+		<text>頑丈な固定4倍率スコープ。エッチングレティクルと発光レッドドットを備え、素早い標的捕捉が可能。高い耐久性を持ち、戦闘環境での信頼性から軍や法執行機関で広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Leupold\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_razorhd">
+		<text>Vortex Optics Razor HD Gen II</text>
+	</string>
+	<string id="st_addon_scope_razorhd_descr">
+		<text>精密射撃向けのハイエンドライフルスコープ。卓越した光学性能とFFP（First Focal Plane）レティクルを備え、耐久性にも優れている。過酷な環境下でも安定した追従性能と再現性を発揮し、長距離射撃に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Vortex\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 6.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_devo">
+		<text>Leupold D-EVO Offset Optic／LCO レッドドット</text>
+	</string>
+	<string id="st_addon_scope_devo_descr">
+		<text>6倍スコープとドットサイトを統合した独自のオフセット照準システム。短・中距離の切り替えを瞬時に行える設計で、頭の位置を変えることなく即座に標的を捉えることが可能。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Leupold\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 6.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_side">
+		<text>Winchester サイドマウントスコープ</text>
+	</string>
+	<string id="st_addon_scope_side_descr">
+		<text>レバーアクション式や旧式ライフル向けに設計された光学サイト。サイドマウントに取り付けるため、アイアンサイトを活かしつつ標的を狙うことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Winchester\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_romeo">
+		<text>Sig Sauer ROMEO4 レッドドットサイト</text>
+	</string>
+	<string id="st_addon_scope_romeo_descr">
+		<text>動作検知式の照明と切り替え可能な複数のレティクルを備えた高性能ドットサイト。防水仕様で耐久性に優れ、素早い標的捕捉とあらゆる環境での信頼性を提供する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_cortex_scope">
+		<text>Cortex Optic LPVO</text>
+	</string>
+	<string id="st_cortex_scope_desc">
+		<text>近距離戦から長距離狙撃まで幅広く対応する可変倍率スコープ。幅広いズーム範囲と高品質なレンズにより、ターゲットの鮮明な識別を可能にする。戦術作戦、軍事運用、競技射撃に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]様々なメーカー\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 12.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_cmore">
+		<text>C-MORE タクティカルサイト</text>
+	</string>
+	<string id="st_addon_scope_cmore_descr">
+		<text>軽量なポリマー製の小型リフレックスサイト。広い視野が特徴で、競技射撃や素早い標的捕捉が求められる戦術用途で広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]C-More Systems\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_zf4">
+		<text>ZF-4 スコープ</text>
+	</string>
+	<string id="st_addon_scope_zf4_descr">
+		<text>第二次世界大戦期のドイツ製4倍スコープ。スナイパーライフル用に設計され、シンプルなレティクルと頑丈な作りが特徴。当時はKar98kライフルで広く使用され、長距離射撃に用いられた。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_kp_sr2">
+		<text>KP-SR2 リフレックスサイト</text>
+	</string>
+	<string id="st_addon_scope_kp_sr2_descr">
+		<text>ロシア製のコンパクトなリフレックスサイト。素早い標的捕捉が可能で、サブマシンガンやカービン銃によく使用されている。耐久性に優れ、様々な光環境での精度を向上させる発光レティクルを備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]SR-2M Veresk\n
+		</text>
+	</string>
+	<string id="st_addon_scope_gee36">
+		<text>G36付属スコープ</text>
+	</string>
+	<string id="st_addon_scope_gee36_descr">
+		<text>H&amp;K G36に工場出荷時から組み込まれている光学サイト。固定倍率のスコープに加え、必要に応じてレッドドットを追加することができる。精密射撃と迅速な標的捕捉の両方に対応できるバランスの取れた設計が特徴。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]H&amp;K\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_trijicon_rmr">
+		<text>Trijicon-レッドドットサイトキット</text>
+	</string>
+	<string id="st_addon_scope_trijicon_rmr_descr">
+		<text>対応する銃に様々なサプレッサーの取り付けを可能にするモジュラーアタッチメントシステム。汎用性を高め、効果的な消音性能を実現する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]Trijicon ACOG BAC 5.56 BDC サイト\n
+		%c[d_cyan] • %c[ui_gray_1]オフセットサイト\n
+		</text>
+	</string>
+	<string id="st_addon_scope_mark8_rmr">
+		<text>Mark 8-レッドドットサイトキット</text>
+	</string>
+	<string id="st_addon_scope_mark8_rmr_descr">
+		<text>対応する銃に様々なサプレッサーの取り付けを可能にするモジュラーアタッチメントシステム。汎用性を高め、効果的な消音性能を実現する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]Leupold Mark 8 CQBSS サイト\n
+		%c[d_cyan] • %c[ui_gray_1]オフセットサイト\n
+		</text>
+	</string>
+	<string id="st_addon_scope_spec_alt">
+		<text>SpecterDR-レッドドットサイトキット</text>
+	</string>
+	<string id="st_addon_scope_spec_alt_descr">
+		<text>対応する銃に様々なサプレッサーの取り付けを可能にするモジュラーアタッチメントシステム。汎用性を高め、効果的な消音性能を実現する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]Elcan SpecterDR DFOV14-C2 サイト\n
+		%c[d_cyan] • %c[ui_gray_1]オフセットサイト\n
+		</text>
+	</string>
+	<string id="st_addon_scope_kashtan_rmr">
+		<text>Kashtan-レッドドットサイトキット</text>
+	</string>
+	<string id="st_addon_scope_kashtan_rmr_descr">
+		<text>対応する銃に様々なサプレッサーの取り付けを可能にするモジュラーアタッチメントシステム。汎用性を高め、効果的な消音性能を実現する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]Tochpribor 1P78 Kashtan サイト\n
+		%c[d_cyan] • %c[ui_gray_1]オフセットサイト\n
+		</text>
+	</string>
+	<string id="st_addon_scope_psicho_rmr">
+		<text>PSO-レッドドットサイトキット</text>
+	</string>
+	<string id="st_addon_scope_psicho_rmr_descr">
+		<text>対応する銃に様々なサプレッサーの取り付けを可能にするモジュラーアタッチメントシステム。汎用性を高め、効果的な消音性能を実現する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]BelOMO PSO-1М2-1 サイト\n
+		%c[d_cyan] • %c[ui_gray_1]オフセットサイト\n
+		</text>
+	</string>
+	<string id="st_addon_scope_march_f_shorty_alt">
+		<text>March F Shorty-レッドドットサイトキット</text>
+	</string>
+	<string id="st_addon_scope_march_f_shorty_alt_descr">
+		<text>対応する銃に様々なサプレッサーの取り付けを可能にするモジュラーアタッチメントシステム。汎用性を高め、効果的な消音性能を実現する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]March F Shorty 1x-8x24mm LPVO\n
+		%c[d_cyan] • %c[ui_gray_1]オフセットサイト\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	SCOPES
+-->
+
+	<string id="st_addon_scope">
+		<text>PSO-1M</text>
+	</string>
+	<string id="st_addon_scope_descr">
+		<text>ソ連製PSO-1スコープの近代化版。光学性能とレティクルが改良され、より精密な射撃が可能。長距離での効果的な射撃を可能にするため、象徴的な弾道補正機能はそのまま残されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_1p29">
+		<text>1P29 Tulip</text>
+	</string>
+	<string id="st_addon_scope_1p29_descr">
+		<text>ロシア軍が使用する4倍スコープ。プリズム設計による軽量かつ頑丈な構造が特徴。距離計と発光レティクルを備え、低照度環境にも対応できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_ac10632">
+		<text>エレクトロサイト</text>
+	</string>
+	<string id="st_addon_scope_ac10632_descr">
+		<text>近接戦闘から中距離戦闘まで対応する多用途な電子式リフレックスサイト。鮮明な発光レティクルを採用し、迅速な照準と命中精度を向上させる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Barska\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_acog">
+		<text>ACOG 4.0x</text>
+	</string>
+	<string id="st_addon_scope_acog_descr">
+		<text>Trijicon社が開発した固定4倍率スコープ。その頑丈な構造から軍で広く採用されている。発光レティクルによる視認性や弾道補正機能に優れ、中距離戦闘に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Trijicon\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_eotech">
+		<text>EOTech 553</text>
+	</string>
+	<string id="st_addon_scope_eotech_descr">
+		<text>軍および法執行機関向けに設計されたホログラフィックサイト。広い視野と高速な標的補足能力を持つ。ナイトビジョン対応で防水性能にも優れている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_galil_susat">
+		<text>Galil 4.0x SUSAT</text>
+	</string>
+	<string id="st_addon_scope_galil">
+		<text>Galil 4.0x SUSAT</text>
+	</string>
+	<string id="st_addon_scope_galil_descr">
+		<text>Galil用に設計された固定4倍率の光学サイト。トリチウムによる発光レティクルを採用し、低照度環境でも視認性を確保できる。プリズム設計の優れた視界と耐久性により、中距離戦闘や精密射撃に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イスラエル\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Israel Military Industries\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_kobra">
+		<text>Kobra EKP 1S-03</text>
+	</string>
+	<string id="st_addon_scope_kobra_descr">
+		<text>ロシア製のリフレックスサイト。高い耐久性を誇り、切り替え可能な4種類のレティクルを搭載している。素早い照準が可能で、過酷な戦場環境にも対応できる堅牢な設計が特徴。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Axion\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_po4x34">
+		<text>PO4x34</text>
+	</string>
+	<string id="st_addon_scope_po4x34_descr">
+		<text>ソ連時代の固定4倍率スコープで、距離計付きのレティクルが特徴。マークスマンライフル用に設計され、中距離戦闘において安定した精度を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsKIB SOO\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01">
+		<text>PSO-1M2-1</text>
+	</string>
+	<string id="st_addon_scope_pso-1m2-01_descr">
+		<text>PSO-1Mの改良型で、レンズコーティングの強化や環境耐性の向上が施されている。従来のレティクルデザインはそのままに、高精度な長距離射撃を可能にしている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pu">
+		<text>PU スコープ</text>
+	</string>
+	<string id="st_addon_scope_pu_descr">
+		<text>ソ連のスナイパーライフル向けに設計されたコンパクトで頑丈なスコープ。シンプルかつ効果的なレティクルと固定倍率により、長距離射撃に適している。その耐久性と扱いやすさから、ゾーン内でも旧式ライフルを使用するマークスマンに人気がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.5x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_zf4">
+		<text>ZF-4 スコープ</text>
+	</string>
+	<string id="st_addon_scope_zf4_descr">
+		<text>第二次世界大戦期のドイツ製4倍スコープ。スナイパーライフル用に設計され、シンプルなレティクルと頑丈な作りが特徴。当時はKar98kライフルで広く使用され、長距離射撃に用いられた。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]ナチス・ドイツ\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_cmore">
+		<text>C-MORE タクティカルサイト</text>
+	</string>
+	<string id="st_addon_scope_cmore_descr">
+		<text>軽量なポリマー製の小型リフレックスサイト。広い視野が特徴で、競技射撃や素早い標的捕捉が求められる戦術用途で広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]C-More Systems\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_ac11090">
+		<text>AC11090 レッドドット</text>
+	</string>
+	<string id="st_addon_scope_ac11090_descr">
+		<text>素早い標的捕捉を目的に設計された軽量でコンパクトなリフレックスサイト。鮮明な発光レティクルを備え、近〜中距離戦闘での照準精度を向上させる。頑丈な設計と明るさの調整機能により、戦術的運用やサバイバル用途において信頼性の高い選択肢となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Barska\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.0x\n
+		</text>
+	</string>
+	<string id="st_addon_trijicon_acog">
+		<text>ACOG 2.0x</text>
+	</string>
+	<string id="st_addon_trijicon_acog_descr">
+		<text>ACOGシリーズの低倍率モデル。素早い標的の捕捉を重視しつつ、中距離射撃にも適した倍率を備えている。集光ファイバーとトリチウムによる発光レティクルを搭載し、あらゆる光環境で使用可能。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Trijicon\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.0x\n
+		</text>
+	</string>
+	<string id="st_addon_sil_45">
+		<text>.45 ACP サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_45_descr">
+		<text>.45 ACP弾を使用する銃器専用に設計されたサプレッサー。発砲音とマズルフラッシュを低減し、ステルス性を向上させる。亜音速弾との相性が良く、隠密作戦や戦術的な運用に最適。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1].45\n
+		</text>
+	</string>
+	<string id="st_addon_sil_57">
+		<text>5.7x28 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_57_descr">
+		<text>5.7x28mm弾を使用する銃器専用に最適化された精密設計のサプレッサー。弾道性能を維持しつつ、発砲音を効果的に低減する。高速弾の使用を想定して設計され、精度を損なうことなくノイズを抑制することができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]5.7mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_6p9">
+		<text>6P9 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_6p9_descr">
+		<text>ソ連製6P9消音ピストル専用のサプレッサー。隠密作戦での使用を想定して設計され、発砲音を大幅に抑制することができる。その頑丈な構造により、連続発射時の音漏れを最小限に抑えるため、ステルス性に優れている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]9mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_9a91">
+		<text>9A-91／VSK-94 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_9a91_descr">
+		<text>9A-91コンパクトアサルトライフルおよびVSK-94マークスマンライフル専用のサプレッサー。発砲音とマズルフラッシュを抑え、銃の性能を大きく損なうことなくステルス性能を向上させる。都市戦や偵察任務に最適。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]9x39mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_9mm">
+		<text>9mm サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_9mm_descr">
+		<text>9mm弾を使用する銃器向けの汎用サプレッサー。ピストル、サブマシンガン、一部のカービン銃に対応し、発射音を効果的に低減する。コンパクトかつ軽量な設計により、取り回しに影響を与えず戦術的な有用性を向上させる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]様々な国\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]9mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_aps">
+		<text>APS サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_aps_descr">
+		<text>APS水中銃専用のサプレッサー。水上・水中の両環境での発砲音を低減する特殊設計を採用。独自の構造により、水中作戦を遂行する特殊部隊にとって貴重な装備となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]9mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_atg">
+		<text>ATG サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_atg_descr">
+		<text>戦術用途向けに設計された高性能サプレッサー。消音性能と精度・反動への影響を最適なバランスで両立している。耐久性と汎用性に優れ、軍や法執行機関での使用に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]5.56mm / 7.62mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_gemtech">
+		<text>Gemtech サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_gemtech_descr">
+		<text>軽量かつ高耐久な設計で知られるGemtech製のサプレッサー。多様な口径に対応し、優れた消音性能を発揮する。高度な素材とバッフル構造により、プロの射撃手や戦術オペレーターに信頼される一品。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]9mm / .45\n
+		</text>
+	</string>
+	<string id="st_addon_sil_kzrzp">
+		<text>KZRZP サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_kzrzp_descr">
+		<text>ロシア製の特殊部隊向けサプレッサー。亜音速弾・通常弾の両方に最適化されており、高い耐久性と効果を兼ね備えている。戦闘や偵察任務において優れた消音性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]7.62mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_nato">
+		<text>NATO サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_nato_descr">
+		<text>NATO軍で標準採用されているサプレッサー。様々な軍用火器に対応し、戦場の過酷な環境でも確実に機能する設計になっている。高い耐久性を維持しつつ、効果的な消音性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1].45 / 5.56mm / 7.62mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_pbs1">
+		<text>PBS-1 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_pbs1_descr">
+		<text>AK系ライフル専用に設計されたソ連製サプレッサー。亜音速弾と組み合わせることで、発砲音とマズルフラッシュを効果的に低減する。頑丈な構造により、長時間の戦闘でも高い信頼性を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]7.62mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_pbs4">
+		<text>PBS-4 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_pbs4_descr">
+		<text>PBSシリーズの発展型で、AK-74ライフル向けに設計されたサプレッサー。精度を維持しつつ、優れた消音性能を発揮する。特殊部隊による隠密作戦で広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]5.45mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_sr25">
+		<text>SR-25 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_sr25_descr">
+		<text>SR-25マークスマンライフル向けに設計された精密サプレッサー。銃の精度を維持しつつ、発砲音を大幅に低減する。高度なバッフル設計により、反動とマズルフラッシュを抑え、長距離射撃に最適な性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]7.62mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_tgp-a">
+		<text>TGP-A サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_tgp-a_descr">
+		<text>様々なライフル口径に対応したロシア製サプレッサー。シンプルながら効果的な設計が特徴で、軍事作戦において隠密性を求められる場面で頻繁に使用される。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]5.45mm\n
+		</text>
+	</string>
+	<string id="st_addon_sil_vihr">
+		<text>SR-3M サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_vihr_descr">
+		<text>SR-3Mコンパクトアサルトライフル専用のカスタムサプレッサー。近接戦闘時の隠密性を向上させるために設計されており、銃と一体化させることで機動性を損なうことなく効果的な消音効果を実現する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]9x39mm\n
+		</text>
+	</string>
+	<string id="st_addon_silencer">
+		<text>米軍小口径ライフル用サプレッサー</text>
+	</string>
+	<string id="st_addon_silencer_descr">
+		<text>小口径ライフル向けに設計された軍規格のサプレッサー。発砲音とマズルフラッシュを低減し、戦場での隠密性を向上させる。耐久性に優れているため、長時間の潜入任務など、戦術的な場面でその性能を最大限に発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]5.56x45mm\n
+		</text>
+	</string>
+	<string id="st_addon_silencer_svu">
+		<text>SVU サプレッサー</text>
+	</string>
+	<string id="st_addon_silencer_svu_descr">
+		<text>SVUスナイパーライフル向けに設計された専用サプレッサー。長距離射撃時の精度を維持しつつ、発砲音を大幅に低減する。銃と一体化する設計により、弾道や精度に影響を与えることなく効果的な消音を実現する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]SVUライフル\n
+		</text>
+	</string>
+
+</string_table>

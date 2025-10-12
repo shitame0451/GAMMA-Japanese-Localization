@@ -1,0 +1,76 @@
+<string_table>
+
+	<string id="st_wpn_sig550_custom">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550_camo">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550_descr">
+		<text>高い信頼性と精度、頑丈な作りで知られる精密設計のアサルトライフル。軍隊での評価が高く、ロングバレル、折りたたみ式ストック、フルレングスのレールシステムを備え、中距離から長距離の戦闘で優れた性能を発揮する。過酷な環境下でも安定した動作を維持できる耐久性を持ち、プロのオペレーターからの信頼も厚い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig550_strelok">
+		<text>SIG SG 550-1 Arrow</text>
+	</string>
+	<string id="st_wpn_sig550_strelok_descr">
+		<text>SG 550をベースにした精密射撃向けの派生モデルで、長距離射撃における精度と弾道性能を強化した設計となっている。重量のあるバレル、強化ストック、より多くの光学照準器への対応、マークスマンに優れた安定性を提供する。専用の狙撃銃ほどのストッピングパワーや精度はないが、SG 550の信頼性と製造品質はそのまま受け継がれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig552">
+		<text>SIG SG 552 Commando</text>
+	</string>
+	<string id="st_wpn_sig552_descr">
+		<text>SG 550をベースにした小型の派生モデルで、特殊部隊や接近戦での使用を想定して設計された。短いバレルと軽量なフレームにより、狭い空間でも取り回しやすく、それでいて十分な火力を確保している。モジュラー設計により、光学照準器や各種タクティカルアクセサリーの装着が容易。サイズこそ小さいものの、フルサイズモデルと同等の精度と信頼性を維持しており、汎用性の高い銃となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_wpn_sig552_worn">
+		<text>SIG SG 552 Commando</text>
+	</string>
+
+	<string id="st_wpn_sig550_worn">
+		<text>SIG SG 550</text>
+	</string>
+	
+	<string id="st_wpn_sig550_rusty">
+		<text>SIG SG 550</text>
+	</string>
+	<string id="st_wpn_sig550_rusty_descr">
+		<text>Designed as a "soldier's weapon", special care was taken to produce a reliable, lightweight and inexpensive frontline-worthy rifle. Renowned for its high production quality and performance, the SG550 is often referred to as the finest 5.56mm rifle ever made.ZZZ\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		</text>
+	</string>
+
+	<string id="st_wpn_sig550_sniper">
+		<text>SIG SG 550-1 Sniper</text>
+	</string>
+	<string id="st_wpn_sig550_sniper_descr">
+		<text>A marksman variant of the popular SG 550 rifle, the 550-1 constitutes a perfect middle ground between a sniper and an assault rifle while retaining the strong points of both types of weaponry. Though it is somewhat lacking in stopping power and accuracy when compared to a dedicated sniper rifle, it retains the reliability and build quality of the SG 550.B\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

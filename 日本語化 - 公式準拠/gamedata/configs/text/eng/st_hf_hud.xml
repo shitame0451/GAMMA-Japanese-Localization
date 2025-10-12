@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_hf_holding_msg">
+		<text>$key_interact - 置く
+\n$key_collision - 衝突判定の切り替え
+\n$key_align - 設置面の切り替え
+\n$key_mode - アドバンスドモードに切り替え
+\nEscape - 置くのをやめる
+        </text>
+	</string>
+
+    <string id="st_hf_advanced_msg">
+		<text>$key_interact - 置く
+
+\n\n移動:
+\n左クリック - 水平方向に移動
+\n右クリック - その場で回転
+\n左Shift + 左クリック - 垂直方向に移動
+
+\n\n調整:
+\n左Alt - スナップモード
+\n左Ctrl - 微調整モード
+\n$key_mode - プレビューモードに切り替え
+\nEscape - 通常モードに戻る
+        </text>
+	</string>
+
+    <string id="st_hf_preview_msg">
+		<text>$key_interact - 置く
+\nEscape - 置くのをやめる
+\n$key_mode - アドバンスドモードに切り替え
+        </text>
+	</string>
+</string_table>

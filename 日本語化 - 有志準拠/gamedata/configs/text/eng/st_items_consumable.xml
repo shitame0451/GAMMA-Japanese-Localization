@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+<!--
+ ALCOHOL
+-->
+	<string id="st_vodka">
+		<text>ウォッカ（ネミロフ）</text>
+	</string>
+	<string id="st_vodka_descr">
+		<text>ネミロフはウクライナのヴィーンヌィツャ州ネムィーリウ町に本拠を置く、ウォッカとその他の蒸留酒を専門としているアルコール飲料メーカー。世界で、ひいてはゾーンで最高のウォッカだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_cyan] • %c[pda_white]アルコール\n
+		</text>
+	</string>
+	<string id="st_vodka2">
+		<text>ウォッカ（プーチンカ）</text>
+	</string>
+	<string id="st_vodka2_descr">
+		<text>滑らかな舌触りと独特な味わい。プーチンカは、ロシアの指導者の名前をウォッカの銘柄につけるという伝統にならい、ウラジーミル・プーチン氏が大統領に選出された後に初めて製造された。最高級の穀物とシベリアの澄んだ水を原料に、ロシアで製造されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_cyan] • %c[pda_white]アルコール\n
+		</text>
+	</string>
+	<string id="st_vodka_quality">
+		<text>ウォッカ（ストリチナヤ）</text>
+	</string>
+	<string id="st_vodka_quality_descr">
+		<text>ストリチナヤ・ウォッカ（通称「ストリ」）が詰められた頑丈な金属製フラスコ。ロシア発祥ながら現在はラトビアで生産されており、その伝統的な味わいで世界中に広まっている。神経を落ち着かせるため、気分を和らげるため、あるいはささやかな祝杯のために。ゾーンでの心強い相棒となる一杯だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_cyan] • %c[pda_white]アルコール\n
+		</text>
+	</string>
+	<string id="st_beer">
+		<text>ビール</text>
+	</string>
+	<string id="st_beer_descr">
+		<text>ウクライナのビールは、その豊かな醸造の伝統を受け継いだ多様なスタイルを持つ。爽やかなラガーからコクのあるエールまで幅広く、ゾーンではウォッカと並ぶ人気の飲み物だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_cyan] • %c[pda_white]アルコール\n
+		</text>
+	</string>
+	<string id="st_bottle_metal">
+		<text>ウォッカ</text>
+	</string>
+	<string id="st_bottle_metal_descr">
+		<text>金属製のフラスコにゾーンで製造されたと思われるウォッカが詰められている。手頃な価格だが、刺激臭が強く、品質や味は期待できない。それでも酔うには十分だろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_cyan] • %c[pda_white]アルコール\n
+		</text>
+	</string>
+
+<!--
+	FOOD
+-->
+
+	<string id="st_mint">
+		<text>アルトイズ</text>
+	</string>
+	<string id="st_mint_descr">
+		<text>ゾーンの外から持ち込まれたミント味のタブレット菓子。食事にはならないが、単調な保存食生活の合間にひとときの清涼感を楽しめる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_beans">
+		<text>ベイクドビーンズ</text>
+	</string>
+	<string id="st_beans_descr">
+		<text>ゾーンの外から持ち込まれた、香ばしいソースにベイクドビーンズが入った缶詰。長い遠征の間でもしっかりとした食事を摂ることができ、故郷を思い出させるような懐かしい味わいがする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_tushonka">
+		<text>牛肉のトゥションカ</text>
+	</string>
+	<string id="st_tushonka_descr">
+		<text>トゥションカは、ソ連をはじめとするワルシャワ条約機構諸国で生産された肉の缶詰、煮込み料理の通称。長期保存が可能で、一般市民や赤軍の食糧配給にも使われている。栄養価が高く、味も比較的良いことで知られている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_bread">
+		<text>一切れのパン</text>
+	</string>
+	<string id="st_bread_descr">
+		<text>素朴なパン。ストーカーの食生活に欠かせない主食であり、ゾーンで手に入る他の食品と一緒に食べられることが多い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_conserva">
+		<text>ツナの缶詰</text>
+	</string>
+	<string id="st_conserva_descr">
+		<text>オイル漬けのツナが入った缶詰。軽量で高タンパクな食料として重宝されている。場所を取らないため、長距離の移動時でも持ち運びやすい。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_corn">
+		<text>コーンの缶詰</text>
+	</string>
+	<string id="st_corn_descr">
+		<text>ゾーンの外から持ち込まれたスイートコーンの缶詰。ストーカーの単調な食生活に彩りを加え、必要な時に素早くエネルギーを補給できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_tomato">
+		<text>トマトの缶詰</text>
+	</string>
+	<string id="st_tomato_descr">
+		<text>細かくカットされたトマトの缶詰。食事の風味を引き立てるためによく使われている。ありふれた食事に、わずかながら新鮮な風味を加えてくれる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_chili">
+		<text>チリビーンズ</text>
+	</string>
+	<string id="st_chili_descr">
+		<text>スパイシーなチリソースで煮込んだチリビーンズの缶詰。食べ応えがあり、味も美味しく、いつもの食事にピリッとした風味を加えてくれる。寒く荒涼とした環境では、この辛さが心の支えになることもある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_protein">
+		<text>プロテインバー</text>
+	</string>
+	<string id="st_protein_descr">
+		<text>チョコレートの甘さとタンパク質の栄養価を兼ね備えた小さなバー状の食品。素早く食べるのに適しており、おやつ感覚で必要な栄養素を摂取できる。長期の旅の合間にエネルギーを補給したいときに便利だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_kolbasa">
+		<text>ドクターソーセージ</text>
+	</string>
+	<string id="st_kolbasa_descr">
+		<text>このソーセージは元々、長引く飢餓に苦しむ人々のための栄養補助食品として開発された。まろやかな味わいで手頃な価格、比較的健康に良いとされる食品であったため、ドクターソーセージはソ連で大人気となった。保存性に優れており、ゾーンでは実用的な食糧として重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_nuts">
+		<text>ミックスナッツ</text>
+	</string>
+	<string id="st_nuts_descr">
+		<text>ピーナッツ、ヘーゼルナッツ、カシューナッツ、アーモンドが含まれており、高カロリーかつ健康的な脂質を摂ることができる。移動中の軽食として最適で、エネルギー補給に役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_raisins">
+		<text>レーズン</text>
+	</string>
+	<string id="st_raisins_descr">
+		<text>自然由来の糖分が含まれた干しブドウ。素早くエネルギーを補給でき、食生活にほのかな甘みを加える。旅のお供に最適なおやつだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_chocolate">
+		<text>チョコレート</text>
+	</string>
+	<string id="st_chocolate_descr">
+		<text>甘いお菓子。ほんのひとときの贅沢を味わえる。高級品ではないが、過酷なゾーン生活で甘いものを欲する気持ちを満たしてくれる。幼い頃の楽しい記憶を思い出すことで、この厳しい環境での苦痛が和らぐかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_chocolate_p">
+		<text>チョコレート（食べかけ）</text>
+	</string>
+	<string id="st_chocolate_p_descr">
+		<text>半分だけ残された甘いお菓子。ほんのひとときの贅沢を味わえる。高級品ではないが、過酷なゾーン生活で甘いものを欲する気持ちを満たしてくれる。幼い頃の楽しい記憶を思い出すことで、この厳しい環境での苦痛が和らぐかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_salmon">
+		<text>スモークサーモン</text>
+	</string>
+	<string id="st_salmon_descr">
+		<text>塩漬けして燻製したウクライナ産のサーモン。濃厚な風味と豊かな味わいを楽しめる。贅沢品ではあるが、貴重な栄養源でもあり、ゾーンでの日々にほんのひとときの平穏をもたらしてくれる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_sausage">
+		<text>スモークソーセージ</text>
+	</string>
+	<string id="st_sausage_descr">
+		<text>塩漬けして燻製したソーセージ。濃厚な風味と豊富なタンパク質が含まれている。長期保存が可能で、ゾーンでは貴重な食料として重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_breadold">
+		<text>腐った一切れのパン</text>
+	</string>
+	<string id="st_breadold_descr">
+		<text>時間の経過とともに硬くなり、焼きたての鮮度を失ったパン。それでも食べることはでき、水分を加えて柔らかくすれば料理にも活用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+
+<!--
+	DRINK
+-->
+
+	<string id="st_tea">
+		<text>ベアードの紅茶</text>
+	</string>
+	<string id="st_tea_descr">
+		<text>ベアード特製の温かい紅茶。砂糖と干し椎茸を混ぜて煮出したもので、放射線汚染の心配がないと言われている。金銭的に余裕のあるストーカーは、ゾーンでの長旅に持っていくことが多い。疲れたときや寒い夜の探索中、元気を取り戻すのに適した健康的な飲み物だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_energy_drink">
+		<text>エナジードリンク</text>
+	</string>
+	<string id="st_energy_drink_descr">
+		<text>カフェイン、タウリン、ビタミンC・B5・B6・B9を配合した缶飲料。糖分とカフェインを摂れるため、長旅の際にストーカーが持ち歩くことが多い。また、深酒の後の酔い覚ましにも使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_flask">
+		<text>軍用水筒（清潔な水）</text>
+	</string>
+	<string id="st_flask_descr">
+		<text>清潔で安全に飲める水が入った軍用水筒。汚染水による放射線被曝の危険を避けつつ、喉の渇きを潤すために欠かせないものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		</text>
+	</string>
+	<string id="st_mineral_water">
+		<text>ミネラルウォーター</text>
+	</string>
+	<string id="st_mineral_water_descr">
+		<text>ウクライナの泉から採れた、カルシウムを含む天然水が入ったペットボトル。生きていくのに必要なミネラルが豊富に含まれており、爽やかな飲み心地で、激しい活動で失われた栄養を補ってくれる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_water_drink">
+		<text>スパークリングウォーター</text>
+	</string>
+	<string id="st_water_drink_descr">
+		<text>炭酸水が入った缶。普通の水とは違う爽快な刺激を楽しめる。ゾーンでは珍しい嗜好品であり、過酷な日常の中で束の間の安らぎを与えてくれる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_drink_crow">
+		<text>くちばしウォッカ</text>
+	</string>
+	<string id="st_drink_crow_descr">
+		<text>15年以上生き延びたオスのカラスのくちばしを粉末状にし、ゾーンで蒸留したウォッカに混ぜて作られた強力な酒。高濃度のタンパク質を含み、体内の放射線を浄化する効果があると信じられている。その回復効果や、一時的な多幸感をもたらすことで知られる一方で、極めて不快な味で悪名高い飲み物だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_cyan] • %c[pda_white]アルコール\n
+		</text>
+	</string>
+
+<!--
+	COMBAT RATIONS
+-->
+
+	<string id="st_mre">
+		<text>MRE</text>
+	</string>
+	<string id="st_mre_descr">
+		<text>MRE（Meal Ready to Eat）は軍用に開発された個別包装の野戦食で、調理せずに食事を取ることができる。軽くて持ち運びやすく、手軽に食べられて長期間の保存もできるため、ゾーンの厳しい状況を生き抜くストーカーたちに重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_ration_ru">
+		<text>ロシア軍のIRP-Bレーション</text>
+	</string>
+	<string id="st_ration_ru_descr">
+		<text>「個人用戦闘糧食」として知られ、1日分の食事として十分な栄養を補給できる。この袋には肉の缶詰、クラッカー、飲料の素となる粉末が含まれている。ロシア軍向けに設計されており、コンパクトかつ頑丈な包装で、厳しい環境下でも耐えられる作りになっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+	<string id="st_ration_ukr">
+		<text>ウクライナ軍のレーション</text>
+	</string>
+	<string id="st_ration_ukr_descr">
+		<text>ウクライナ軍向けに設計されており、鶏肉入りのそば粥、ビスケット、ジャムなどを含むバランスの取れた食事が入っている。長期任務を想定した実用的な設計が特徴で、ゾーンでの過酷な状況にも対応できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		</text>
+	</string>
+
+<!--
+	SMOKE
+-->
+
+	<string id="st_cigarettes_lucky">
+		<text>タバコ（ラッキーストライク）</text>
+	</string>
+	<string id="st_cigarettes_lucky_descr">
+		<text>アメリカ製の「ラッキーストライク」は、その濃厚な風味と歴史的な価値から、ゾーンでは高く評価されている。外の世界の名残を感じさせる貴重な嗜好品。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_cigarettes">
+		<text>タバコ（マールボロ）</text>
+	</string>
+	<string id="st_cigarettes_descr">
+		<text>赤と白の特徴的なパッケージで知られる「マールボロ」は、西洋の喫煙文化を代表する存在だ。そのまろやかな味わいは、ゾーンの過酷な環境を生き抜く者にとって、馴染み深いひとときを与えてくれる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_cyan] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_cigarettes_russian">
+		<text>タバコ（ロシア製）</text>
+	</string>
+	<string id="st_cigarettes_russian_descr">
+		<text>無銘のロシア製タバコ。どこでも手に入り、手頃な価格で売られている。輸入したブランド品のような高級感はないが、疲れ切ったストーカーにとって欠かせないニコチン補給源となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_cigar1">
+		<text>タバコ（ソビエト製）</text>
+	</string>
+	<string id="st_cigar1_descr">
+		<text>ソ連時代に製造された年代物のタバコ。驚くほど良好な状態で保存されており、かつてのソ連の黄金時代を思わせる独特で力強い風味が今なお残っている。低品質なタバコ葉と紙フィルターの独特な組み合わせが、ソ連ならではの味わいをそのまま保っており、ゾーンに暮らす年配の者たちにとっては懐かしさを呼び起こす一品だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_cigar2">
+		<text>タバコ（ソビエト製）</text>
+	</string>
+	<string id="st_cigar2_descr">
+		<text>ソ連時代に製造された年代物のタバコ。驚くほど良好な状態で保存されており、かつてのソ連の黄金時代を思わせる独特で力強い風味が今なお残っている。低品質なタバコ葉と紙フィルターの独特な組み合わせが、ソ連ならではの味わいをそのまま保っており、ゾーンに暮らす年配の者たちにとっては懐かしさを呼び起こす一品だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_cigar3">
+		<text>タバコ（ソビエト製）</text>
+	</string>
+	<string id="st_cigar3_descr">
+		<text>ソ連時代に製造された年代物のタバコ。驚くほど良好な状態で保存されており、かつてのソ連の黄金時代を思わせる独特で力強い風味が今なお残っている。低品質なタバコ葉と紙フィルターの独特な組み合わせが、ソ連ならではの味わいをそのまま保っており、ゾーンに暮らす年配の者たちにとっては懐かしさを呼び起こす一品だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_cuban_cigar">
+		<text>キューバ産の葉巻</text>
+	</string>
+	<string id="st_cuban_cigar_descr">
+		<text>贅沢なキューバ産の葉巻。優れた職人技による仕上がりと、深みのある複雑な風味で知られている。ゾーンでは貴重な品とされ、特別な機会や重要な取引の際に用いられることが多い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_hand_rolling_tobacco">
+		<text>手巻きタバコ</text>
+	</string>
+	<string id="st_hand_rolling_tobacco_descr">
+		<text>手巻き用の刻みタバコ。好みの太さや強さに調整して巻けるため、自分に合った喫煙スタイルを楽しめる。工夫を重ねるのが得意なストーカーたちにとって、状況に応じて柔軟に使えるその万能性が大きな魅力となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+	<string id="st_tobacco">
+		<text>ロシア産のタバコ</text>
+	</string>
+	<string id="st_tobacco_descr">
+		<text>ロシア産の刻みタバコを密封した金属製の缶。ゾーンの過酷な環境でも鮮度を保つことができる。手巻きタバコを好む者やパイプを使用する者に最適で、力強い本格的な風味を楽しめる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_vodka_1_radiated">
+		<text>Putinka vodka (irradiated)</text>
+	</string>
+	<string id="st_beer_large_1_radiated">
+		<text>Zhigulevskoye beer (irradiated)</text>
+	</string>
+	<string id="st_beer_large_2_radiated">
+		<text>Ochakovo beer (irradiated)</text>
+	</string>
+	<string id="st_beer_1_radiated">
+		<text>Baltika №3 beer (irradiated)</text>
+	</string>
+	<string id="st_beer_2_radiated">
+		<text>Slavutich Premium beer (irradiated)</text>
+	</string>
+	<string id="st_beer_can_1_radiated">
+		<text>Pripyat beer (irradiated)</text>
+	</string>
+	<string id="st_beer_can_2_radiated">
+		<text>Heineken beer (irradiated)</text>
+	</string>
+	<string id="st_water_large_1_radiated">
+		<text>Naroch mineral water (irradiated)</text>
+	</string>
+	<string id="st_water_large_2_radiated">
+		<text>Leninad mineral water (irradiated)</text>
+	</string>
+	<string id="st_water_can_1_radiated">
+		<text>Purified water (irradiated)</text>
+	</string>
+	<string id="st_water_can_2_radiated">
+		<text>Mineral water (irradiated)</text>
+	</string>
+	<string id="st_cocacola_radiated">
+		<text>Coca-Cola (irradiated)</text>
+	</string>
+	<string id="st_redbull_radiated">
+		<text>Redbull energy drink</text>
+	</string>
+	<string id="st_guru_radiated">
+		<text>GURU energy drink (irradiated)</text>
+	</string>
+	<string id="st_marlboro_radiated">
+		<text>Marlboro cigarettes (irradiated)</text>
+	</string>
+	<string id="st_lucky_radiated">
+		<text>Lucky Strike cigarettes (irradiated)</text>
+	</string>
+	<string id="st_cuban_radiated">
+		<text>Cuban cigars (irradiated)</text>
+	</string>
+	<string id="st_cigarettes_1_radiated">
+		<text>Cuban cigars (irradiated)</text>
+	</string>
+	<string id="st_wild_drink_radiated">
+		<text>Zone-produced liquor (irradiated)</text>
+	</string>
+	<string id="st_kolbasa_smoked_radiated">
+		<text>Smoked sausage (irradiated)</text>
+	</string>
+	<string id="st_beanz_radiated">
+		<text>Baked beans (irradiated)</text>
+	</string>
+	<string id="st_tomatoes_radiated">
+		<text>Tomatoes (irradiated)</text>
+	</string>
+	<string id="st_chocolatebar_radiated">
+		<text>Chocolate protein bar (irradiated)</text>
+	</string>
+	<string id="st_snickers_radiated">
+		<text>Snickers (irradiated)</text>
+	</string>
+	<string id="st_mars_radiated">
+		<text>Mars (irradiated)</text>
+	</string>
+	<string id="st_nuts_2_radiated">
+		<text>Trail mix (irradiated)</text>
+	</string>
+	<string id="st_beef_radiated">
+		<text>Tushenka (irradiated)</text>
+	</string>
+	<string id="st_bullheads_radiated">
+		<text>Pasta and meatballs (irradiated)</text>
+	</string>
+	<string id="st_sardina_radiated">
+		<text>“Pirate” Sardines (irradiated)</text>
+	</string>
+	<string id="st_olivki_radiated">
+		<text>Olives (irradiated)</text>
+	</string>
+	<string id="st_cheese_radiated">
+		<text>“Yantar” processed cheese (irradiated)</text>
+	</string>
+	<string id="st_galet_radiated">
+		<text>Biscuits (irradiated)</text>
+	</string>
+	<string id="st_shokolad_radiated">
+		<text>“Aljinushka” chocolate (irradiated)</text>
+	</string>
+	<string id="st_batonchik_radiated">
+		<text>Chocolate bar (irradiated)</text>
+	</string>
+	<string id="st_jerky_radiated">
+		<text>Beef jerky (irradiated)</text>
+	</string>
+	<string id="st_chips_radiated">
+		<text>Potato chips (irradiated)</text>
+	</string>
+	<string id="st_hash_radiated">
+		<text>Biscuits and hash (irradiated)</text>
+	</string>
+	<string id="st_cpcb_radiated">
+		<text>Salted crackers (irradiated)</text>
+	</string>
+	<string id="st_juice_radiated">
+		<text>Orange juice (irradiated)</text>
+	</string>
+	<string id="st_mre_1_3_radiated">
+		<text>Army MRE (irradiated)</text>
+	</string>
+	<string id="st_mre_1_2_radiated">
+		<text>Army MRE (irradiated)</text>
+	</string>
+	<string id="st_mre_1_1_radiated">
+		<text>Army MRE (irradiated)</text>
+	</string>
+	<string id="st_bandage_israeli_radiated">
+		<text>Bandage (irradiated)</text>
+	</string>
+	<string id="st_amphetamines_4_radiated">
+		<text>Amphetamine (irradiated)</text>
+	</string>
+	<string id="st_amphetamines_3_radiated">
+		<text>Amphetamine (irradiated)</text>
+	</string>
+	<string id="st_amphetamines_2_radiated">
+		<text>Amphetamine (irradiated)</text>
+	</string>
+	<string id="st_amphetamines_1_radiated">
+		<text>Amphetamine (irradiated)</text>
+	</string>
+	<string id="st_diazepam_radiated">
+		<text>Diazepam (irradiated)</text>
+	</string>
+	<string id="st_psy_complex_radiated">
+		<text>Psychodelin (irradiated)</text>
+	</string>
+	<string id="st_bio_bandage_radiated">
+		<text>Special bandage (irradiated)</text>
+	</string>
+	<string id="st_drug_engine_radiated">
+		<text>Anti-hallucinogen (irradiated)</text>
+	</string>
+	<string id="st_drug_cat_eye_radiated">
+		<text>Cat's eye (irradiated)</text>
+	</string>
+	<string id="st_medo_radiated">
+		<text>Moonshine (irradiated)</text>
+	</string>
+	<string id="st_mbk_radiated">
+		<text>Caffeine pills (irradiated)</text>
+	</string>
+	<string id="st_medkit_elite_radiated">
+		<text>Elite medkit (irradiated)</text>
+	</string>
+	<string id="st_bag_medkit_1_radiated">
+		<text>Basic medkit (irradiated)</text>
+	</string>
+	<string id="st_bag_medkit_2_radiated">
+		<text>Army medkit (irradiated)</text>
+	</string>
+	<string id="st_bag_medkit_3_radiated">
+		<text>Scientific medkit (irradiated)</text>
+	</string>
+	<string id="st_bag_medkit_4_radiated">
+		<text>Special medkit (irradiated)</text>
+	</string>
+
+-->
+
+</string_table>

@@ -1,0 +1,88 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 19
+- @ Description: Wind - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Rain Title -->
+	<string id="ui_mcm_ssfx_module_wind_title">
+		<text>Wind - Settings</text>
+	</string>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_wind">
+		<text>風</text>
+	</string>
+
+	<!-- Rain Settings -->
+	<string id="ui_mcm_ssfx_module_wind_min_speed_mcm">
+		<text>最小風速</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_min_speed_mcm_desc">
+		<text>この値を使用して、風の最低速度に制限を設けます。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_speed_mcm">
+		<text>草のアニメーション速度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_speed_mcm_desc">
+		<text>草の最大アニメーション速度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_turbulence_mcm">
+		<text>草が揺れる度合い</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_turbulence_mcm_desc">
+		<text>草の乱流の強度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_push_mcm">
+		<text>草が曲がる強さ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_push_mcm_desc">
+		<text>草の屈曲の強度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_wave_mcm">
+		<text>草の波</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_grass_wave_mcm_desc">
+		<text>草の波の強度を調整します。</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_wind_trees_speed_mcm">
+		<text>木や低木のアニメーション速度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_trees_speed_mcm_desc">
+		<text>木や低木のアニメーション速度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_trees_trunk_mcm">
+		<text>木が揺れる速度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_trees_trunk_mcm_desc">
+		<text>木が揺れるアニメーションの速度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_trees_bend_mcm">
+		<text>木の揺れ幅</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wind_trees_bend_mcm_desc">
+		<text>揺れるアニメーションの最大変位量を調整します。</text>
+	</string>
+
+</string_table>

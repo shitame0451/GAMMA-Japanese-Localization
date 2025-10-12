@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_placeable_workshop">
+		<text>携帯型ワークショップ</text>
+	</string>
+	<string id="st_placeable_workshop_descr">
+		<text>作業台、ツール、スタッシュがセットになった設備。危険な場所でも装備のメンテナンスやクラフトを行えるが、重量があるため持ち運びには向いていない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n</text>
+	</string>
+</string_table>

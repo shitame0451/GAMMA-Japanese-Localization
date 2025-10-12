@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+  <string id="look_for_cs_history_part_4_2_0">
+    <text>よう、ゲートキーパー。</text>
+  </string>
+  <string id="look_for_cs_history_part_4_2_1">
+    <text>おいあんた、リマンスクに行くのかい？もしレーシイがいなければ･･････ ともかく、ようこそ。これからあんたの金が必要になるはずだ･･････ それと警備隊に見つからないようにな。奴らは契約に含まれちゃいないんだ。</text>
+  </string>
+  <string id="look_for_cs_history_part_4_1_0">
+    <text>これが金だ。</text>
+  </string>
+  <string id="look_for_cs_history_part_4_1_1">
+    <text>よろしい。橋の上の時計に注意しろ。そこに着いたら、「ゲートキーパー」と言え。慎重に行動して、スカー失踪を解明する手がかりを見つけてきてくれ。</text>
+  </string>
+  <string id="look_for_cs_history_part_3_2_0">
+    <text>レーシイ、いいな？</text>
+  </string>
+  <string id="look_for_cs_history_part_3_2_1">
+    <text>そうだなガイド役は必要だ、あとは何かあるか？</text>
+  </string>
+  <string id="look_for_cs_history_part_3_2_2">
+    <text>そうだ、俺はあんたの過去について知っているんだ、あんたの助けになれるぞ、傭兵。</text>
+  </string>
+  <string id="look_for_cs_history_part_3_2_3">
+    <text>あー･･････ 何か手伝うかい？</text>
+  </string>
+  <string id="look_for_cs_history_part_3_2_4">
+    <text>赤い森で橋を守っている傭兵たちと話をしてくれないか？私はリマンスクに行かなければならないんだ。それがとても難しい事は分かっているが、傭兵であるスカーの痕跡を探すって約束する。</text>
+  </string>
+  <string id="look_for_cs_history_part_3_2_5">
+    <text>ふーむ。お前には俺が長い間組織に関わっていないことを分かってもらう必要があるな。橋のグループを誰が纏めているかさえ分からないんだ。俺はいくつかのコネを持っているが、それには金が必要だ。15万位、びた一文負からん。</text>
+  </string>
+  <string id="look_for_cs_history_part_1_1_0">
+    <text>あんたらの組織の歴史について聞いたことがある。調べさせてくれ。</text>
+  </string>
+  <string id="look_for_cs_history_part_1_1_1">
+    <text>何か探してんのか、それともなんだ。ハッ。よく聞け、ここで生き残るのは至難の業だ。もし上手く生き抜けても、俺たちの痕跡を見つけることは一筋縄ではいかないだろうな。</text>
+  </string>
+  <string id="look_for_cs_history_part_1_1_2">
+    <text>面白くないか？それとも、他にお前が戻りたくなる何かがそこにあるのか？</text>
+  </string>
+  <string id="look_for_cs_history_part_1_1_3">
+    <text>うーむ･･････ お前ならブラッドサッカーの集団を沼地から引きずり出すことができそうだ。そのときはお前にも分け前をくれてやろう。</text>
+  </string>
+  <string id="look_for_cs_history_part_1_1_4">
+    <text>結構、座標を教えてくれ。</text>
+  </string>
+  <string id="look_for_cs_history_part_1_1_5">
+    <text>どうぞ、楽しめよ。</text>
+  </string>
+  <string id="look_for_cs_history_part_1_2_0">
+    <text>完了した。どんな情報があるんだ？</text>
+  </string>
+  <string id="look_for_cs_history_part_1_2_1">
+    <text>だから－よく聞き及んでいる。あんたはすごい戦士だし、俺もお前を信じている。だからお前が望む情報をくれてやろう。ガキ共はお前にリマンスクのクソッタレ橋梁にまっすぐカチ込めと伝えたはずだ。もし当時の街を･･････ さながら赤い森の周辺を傭兵たちが牛耳っていたことを知らないってんならな。もちろんやつらはお前のために橋を下ろすことはないが、今回はフォレスターと呼ばれる生き残りがいる。どうにか“平等な”グループに合意してくれたその男がスカーと共に橋を下ろす間、対岸から俺たちが奴らを守る。そら、軍事倉庫から赤い森への道情報をくれてやるよ。そいつでフォレスターを見つけて声をかけてくれ。あと、こいつはブラッドサッカーを一掃してくれた礼だ。</text>
+  </string>
+  <string id="look_for_cs_history_part_1_2_2">
+    <text>ありがとう。</text>
+  </string>
+  <string id="mlr_inventory_box_unuse">
+    <text>スタッシュはロックされている</text>
+  </string>
+  <string id="totaliz_helper_mlr_text">
+    <text>地域を見渡したいとき、~ (チルダ) または \ (バックスラッシュ) でコンソールを開き「demo_record 1」と入力する。Ctrlを押しながらW、A、S、Dでカメラを操作できる。やめるときはESCを押す。</text>
+  </string>
+  <string id="st_pda_mlr_descr">
+    <text>%c[pda_white]マップ間の未発見の道に関する情報が含まれているPDA。\n \n
+    %c[pda_white]特性:\n
+    %c[d_orange] • %c[pda_white]タスクアイテム\n</text>
+  </string>
+  <string id="st_new_path_mlr">
+    <text>2つのマップ間の道がアクセス可能になった。</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_1_name">
+    <text>%sを見つける。</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_1_text">
+    <text>傭兵たちに%sを手に入れるように頼まれた。</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_1_about">
+    <text>我々の兵士には装備が必要だ。我々のためにそれを手に入れてきてくれないか？</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_1_fetch_about">
+    <text>我々の兵士には%sが必要だ。それを取り戻してくれるか？</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_1_fetch_finish">
+    <text>助かったよ、これを受け取ってくれ。</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_2_name">
+    <text>%sを見つける。</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_2_text">
+    <text>傭兵は%sを必要としている。</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_2_about">
+    <text>俺たちの兵士はいくつかのアーティファクトを使用できるのだが、それらなしでリマンスクを通過するのは難しい。探すのを手伝ってくれないか？</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_2_fetch_about">
+    <text>俺たちの兵士はいくつかのアーティファクトを使用できるのだが、それらなしでリマンスクを通過するのは難しい。探すのを手伝ってくれないか？</text>
+  </string>
+  <string id="killer_bridge_trader_mlr_task_2_fetch_finish">
+    <text>どうもありがとう、こいつを受け取ってくれ。</text>
+  </string>
+  <string id="task_look_for_cs_history_part_1_1">
+    <text>ブラッドサッカーを狩る。</text>
+  </string>
+  <string id="task_look_for_cs_history_part_1_2">
+    <text>コールドのところに戻る。</text>
+  </string>
+  <string id="task_look_for_cs_history_part_1_3">
+    <text>だからやつは「ここ」に俺を送り出すのを恐れたくせに、沼地のブラッドサッカーとやり合う分には構わないのか？クリアスカイでもしょぼいセールスマンってことか、なるほど･･････</text>
+  </string>
+  <string id="task_look_for_cs_history_part_2_1">
+    <text>クリアスカイの足跡を追い、フォレスターと話す。</text>
+  </string>
+  <string id="task_look_for_cs_history_part_descr_2_1">
+    <text>コールドから今回の飛び入りがフォレスターであることとその居場所を教わった。彼を誘い、リマンスクに辿り着く必要がある。</text>
+  </string>
+  <string id="task_look_for_cs_history_part_3_1">
+    <text>クリアスカイの足跡をたどる: レーシイを見つける</text>
+  </string>
+  <string id="task_look_for_cs_history_part_3_2">
+    <text>クリアスカイの足跡をたどる: レーシイと話す</text>
+  </string>
+  <string id="task_look_for_cs_history_part_descr_3_1">
+    <text>さて、軍隊の話に戻ろう。その橋をめぐる戦いの鍵となる人物は、今までずっと俺の目の前にいたことがわかった。</text>
+  </string>
+  <string id="task_look_for_cs_history_part_descr_3_2">
+    <text>やるべきことはただひとつ、レーシイとの合意を取り付けるだけだ。これが冒険の終わりとなることを願う。</text>
+  </string>
+  <string id="task_look_for_cs_history_part_4_1">
+    <text>クリアスカイの足跡をたどる: 150,000ルーブルを集めてレーシイに届ける</text>
+  </string>
+  <string id="task_look_for_cs_history_part_4_3">
+    <text>クリアスカイの足跡をたどる: ゲートキーパーとのミーティングに行く</text>
+  </string>
+  <string id="task_look_for_cs_history_part_4_4">
+    <text>クリアスカイの足跡をたどる: ゲートキーパーと話す</text>
+  </string>
+  <string id="task_look_for_cs_history_part_descr_4_1">
+    <text>やっと、もうすぐで橋の対岸に辿り着いてこの使いっぱしりを終えられる。</text>
+  </string>
+  <string id="st_bridge_is_open_message">
+    <text>ゲートキーパー: \n誰かが見える。おい、ストーカー！こっちに来て、少し話をしよう。</text>
+  </string>
+</string_table>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Strings for "Dead Air Knives"
+-->
+
+
+<string_table>
+
+	<string id="st_mag_mp9iwp">
+		<text>MP9用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mp9iwp_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp9iwp_ext">
+		<text>MP9用拡張マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mp9iwp_ext_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp9iwp_9x18">
+		<text>MP9用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mp9iwp_9x18_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp9iwp_9x18_ext">
+		<text>MP9用拡張マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mp9iwp_9x18_ext_descr">
+		<text> </text>
+	</string>
+
+</string_table>

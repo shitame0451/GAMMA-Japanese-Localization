@@ -1,0 +1,829 @@
+<!--
+	Author: Catspaw (CatspawMods @ ModDB)
+	Addon: Fair Fast Travel
+	Source: https://www.moddb.com/mods/stalker-anomaly/addons/fair-fast-travel-duration-for-anomaly-151
+	Permission granted to freely translate into any language.
+-->
+
+<string_table>
+	<string id="ui_mcm_menu_fftd">
+		<text>Fair Fast Travel</text>
+	</string>
+
+	<string id="st_fftd_mapspot_estdur">
+		<text>少なくとも</text>
+	</string>
+
+	<string id="st_fftd_mapspot_meters">
+		<text>m</text>
+	</string>
+
+	<string id="ui_mcm_menu_gen">
+		<text>全般</text>
+	</string>
+
+	<string id="ui_mcm_menu_ftcfg">
+		<text>ファストトラベル</text>
+	</string>
+
+	<string id="ui_mcm_menu_bpcfg">
+		<text>バックパックトラベル</text>
+	</string>
+
+	<string id="st_pda_backpack_travel_to">
+		<text>バックパックに移動:</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_skillsystem_enabled">
+		<text>Haruka Skill Systemの統合を有効化</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_haruka_enabled_desc">
+		<text>HarukaのSkill Systemアドオンがインストールされていて、このオプションが有効になっている場合、FFTDは持久力スキルの移動速度倍率を考慮し、それに応じて移動時間を調整します。例えば、倍率が1.15の場合、すべての高速移動時間が約15%短縮されます。\nSkill Systemがインストールされていない場合、この設定は無効です。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_usedisguisefix">
+		<text>変装システムの修正を使用する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_useoldcalcs">
+		<text>Anomalyの修正されていない距離計算式を使用する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_mpm">
+		<text>100メートル移動するごとのゲーム内経過時間（分）</text>
+	</string>
+
+	<string id="ui_mcm_fftd_rnd_enabled">
+		<text>ランダムな移動時間の遅延を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_fftd_rnd_hours_min">
+		<text>有効の場合に追加される時間の最小値（時）</text>
+	</string>
+
+	<string id="ui_mcm_fftd_rnd_hours_max">
+		<text>有効の場合に追加される時間の最大値（時）</text>
+	</string>
+
+	<string id="ui_mcm_fftd_rnd_minutes_min">
+		<text>有効の場合に追加される時間の最小値（分）</text>
+	</string>
+
+	<string id="ui_mcm_fftd_rnd_minutes_max">
+		<text>有効の場合に追加される時間の最大値（分）</text>
+	</string>
+
+	<string id="ui_mcm_header_loc_travel">
+		<text>同じマップ内での移動</text>
+	</string>
+
+	<string id="ui_mcm_header_map_travel">
+		<text>別のマップへの移動</text>
+	</string>
+
+	<string id="st_currency_rub">
+		<text>ルーブル</text>
+	</string>
+
+	<string id="st_fftd_toopoor">
+		<text>ガイド料金が足りない</text>
+	</string>
+
+	<string id="st_fftd_mapspot_guideto">
+		<text>ガイドを雇う:</text>
+	</string>
+
+	<string id="st_fftd_farepaid_guide">
+		<text>ガイドに%sを支払い、目的地までの案内を依頼した</text>
+	</string>
+
+	<string id="st_fftd_guides_ignored">
+		<text>ここに案内をしてくれるガイドはいない</text>
+	</string>
+
+	<string id="ui_mcm_menu_gtcfg">
+		<text>ガイドトラベル</text>
+	</string>
+
+	<string id="ui_mcm_fftd_cost_coef">
+		<text>メートル毎にかかるルーブル</text>
+	</string>
+
+	<string id="ui_mcm_fftd_pause_stats">
+		<text>トラベル中は生存ステータスを一時停止する</text>
+	</string>
+
+	<string id="st_fftd_notyet">
+		<text>%sは%sのため利用できない</text>
+	</string>
+
+	<string id="st_fft_hour">
+		<text>時間</text>
+	</string>
+	<string id="st_fft_hours">
+		<text>時間</text>
+	</string>
+	<string id="st_fft_minute">
+		<text>分</text>
+	</string>
+	<string id="st_fft_minutes">
+		<text>分</text>
+	</string>
+	<string id="st_fft_second">
+		<text>秒</text>
+	</string>
+	<string id="st_fft_seconds">
+		<text>秒</text>
+	</string>
+
+	<string id="st_fftd_travelname_ft">
+		<text>ファストトラベル</text>
+	</string>
+
+	<string id="st_fftd_travelname_bp">
+		<text>バックパックトラベル</text>
+	</string>
+
+	<string id="st_fftd_travelname_gt">
+		<text>ガイドトラベル</text>
+	</string>
+
+	<string id="st_fftd_ftsystem">
+		<text>ファストトラベル</text>
+	</string>
+
+	<string id="st_fftd_guides_far">
+		<text>対応できるガイドが近くにいない</text>
+	</string>
+
+	<string id="st_fftd_enemy_guides">
+		<text>周囲にいるガイドは現在所属している派閥と敵対している</text>
+	</string>
+
+	<string id="st_fftd_guides_none">
+		<text>現在、連絡が取れるガイドがいない</text>
+	</string>
+
+	<string id="ui_mcm_fftd_rnd_enabled_desc">
+		<text>有効にすると、以下の設定に応じて各トラベルにランダムな遅延が追加されます。0~2時間、0~59分に設定すると、バニラAnomalyの動作を正確に再現できます。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_pause_stats_desc">
+		<text>有効にすると、このトラベルタイプの動作中は、ほとんどの生存ステータス（飢え、喉の渇き）が一時停止されます。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_enabled">
+		<text>PDAマップからファストトラベルガイドを雇う</text>
+	</string>
+
+	<string id="ui_mcm_fftd_ftcfg_travel_cooldown">
+		<text>ファストトラベルのクールダウン時間</text>
+	</string>
+
+	<string id="ui_mcm_fftd_bpcfg_travel_cooldown">
+		<text>バックパックトラベルのクールダウン時間</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_travel_cooldown">
+		<text>ガイドトラベルのクールダウン時間</text>
+	</string>
+
+	<string id="ui_mcm_fftd_ftcfg_travel_cooldown_desc">
+		<text>ファストトラベルの間に待機するリアルタイムの秒数を設定してください。\nこの機能を無効にするには、0に設定してください。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_bpcfg_travel_cooldown_desc">
+		<text>バックパックトラベルの間に待機するリアルタイムの秒数を設定してください。\nこの機能を無効にするには、0に設定してください。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_travel_cooldown_desc">
+		<text>ガイドトラベルの間に待機するリアルタイムの秒数を設定してください。\nこの機能を無効にするには、0に設定してください。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_add_travel_time">
+		<text>ガイドが到達するまでに時間がかかるようにする</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_add_travel_time_desc">
+		<text>有効にすると、トラベルの所要時間に、ガイドが出発地からプレイヤーのいる場所まで到達するのにかかる時間の計算が含まれます。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_local_only">
+		<text>現地にいるガイドに限定する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_local_only_desc">
+		<text>有効にすると、ガイドは現在のマップに存在するガイドがいる場合のみ利用可能になります。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_guides_loyal">
+		<text>派閥関係に忠実なガイド</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_guides_loyal_desc">
+		<text>有効にすると、ガイドは自分たちの派閥の敵であるプレイヤーとの取引を拒否します。ただし、プレイヤーが適切に変装している場合、ガイドは見逃すことがあります。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_shared_cooldown">
+		<text>すべてのトラベルタイプでクールダウンタイムを共有する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_shared_cooldown_desc">
+		<text>このオプションが有効になっている場合、すべてのトラベルタイプに同時にクールダウンタイムが発動します。例えば、バックパックに移動すると、ファストトラベルやガイドトラベルのクールダウンも開始します。\n無効になっている場合、各トラベルタイプはそれぞれが独立したクールダウンタイムを持ちます（該当する場合）。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_debuglogs_enabled">
+		<text>デバッグログを有効にする</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_allow_debug_travel">
+		<text>マップスポットトラベルのデバッグを許可する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_allow_debug_travel_desc">
+		<text>バニラのAnomalyにおいて、デバッグモードで起動するとストーカーやエリアのマーカー、および様々な他のデバッグ用マップスポットへのファストトラベルが可能になります。これはマーカーが邪魔になり、誤った場所にテレポートする原因となる可能性があります。デフォルトでは、FFTはこれらをフィルタリングして除外します。\n\nこの設定を有効にすると、バニラの挙動に戻ります。何かをテストしているか、またはマップに閉じ込められて出る必要がある場合を除いて、常にこのオプションを無効にしておくことをおすすめします。</text>
+	</string>
+
+	<string id="ui_mcm_header_ft">
+		<text>通常のファストトラベル設定</text>
+	</string>
+
+	<string id="ui_mcm_header_ftsub">
+		<text>これはデフォルトのファストトラベルであり、Anomalyのすべてのファストトラベル設定によって制御されます。トラベルオプションに「バックパック」や「ガイド」ではなく「ファストトラベル」と書かれている場合、このページの設定を使用していることを意味します。</text>
+	</string>
+
+	<string id="ui_mcm_header_bp">
+		<text>バックパックのファストトラベル設定</text>
+	</string>
+
+	<string id="ui_mcm_header_bpsub">
+		<text>「バックパックトラベル」は、配置されたバックパックのスタッシュへのファストトラベルを可能にし、またAnomalyのバックパックトラベル設定でも管理されます。FFTのインストール後に作成されたスタッシュに対しては、正しい名前が表示されます。</text>
+	</string>
+
+	<string id="ui_mcm_header_gt">
+		<text>PDAガイドトラベル設定</text>
+	</string>
+
+	<string id="ui_mcm_header_gtsub">
+		<text>「ガイドトラベル」はFFT独自の機能で、ベテランのガイドを雇って目的地までエスコートしてもらうことができます。\nガイドはトラベルのための供給品を携行していると仮定されているので、彼らに報酬を支払う必要があります。\nトラベル中は生存ステータスが一時停止されます（以下で設定可能）し、けがをしていたり重量超過していても、これらの設定を無視して迎えに来てくれます。ただし、報酬を支払っても行かない場所も存在します。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_allow_pin_travel">
+		<text>クイックピンへのファストトラベルを許可（PAWが必要）</text>
+	</string>
+
+	<string id="ui_mcm_fftd_allow_pin_travel_desc">
+		<text>この機能が有効になっている場合、クイックピンのマーカーをファストトラベルの地点として使用できます。ピントラベルには「Personal Adjustable Waypoint」アドオンが必要であり、これがインストールされていない場合、この設定は効果がありません。\n\nこの機能はクイックピンに対してのみ許可され、クイックピンはプレイヤーが到達可能な場所にのみ設定が可能です。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_getpaw">
+		<text>ピントラベル機能にはPersonal Adjustable Waypointアドオンが必要です。以下のリンクから入手できます:\nhttps://www.moddb.com/mods/stalker-anomaly/addons/personal-adjustable-waypoint-for-anomaly-151-152-and-gamma</text>
+	</string>
+
+	<string id="ui_mcm_fftd_usedisguisefix_desc">
+		<text>バニラのAnomalyにおけるバグにより、時間経過が有効なNPCの近くでファストトラベルすると変装がバレることがあります。この設定は、変装設定で時間に基づく疑念を時間スキップが完了するまで無効にすることで、そのバグを修正します。\nトラブルシューティング以外では、決して無効にしないでください。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_useoldcalcs_desc">
+		<text>バニラのAnomalyでは、距離の計算は同じマップ内では正しく機能しますが、他のマップへの移動を計算する際にしばしば奇妙で意味不明な結果を生み出します。FFTはこれをグローバルな距離計算法で置き換えます。\nバニラの方法は良くないので、絶対に有効にしないでください。ただし、互換性のために本当に必要な場合に限り、有効にすることができます。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_cost_coef_desc">
+		<text>デフォルトでは、ガイドトラベルのみ費用がかかります。オプションで他の2つのトラベルタイプにも費用を設定できます。この値が0より大きい場合、ガイドトラベルと同じ計算が使用されます。</text>
+	</string>
+
+	<string id="st_fftd_farepaid_noguide">
+		<text>ファストトラベルにかかった費用: %s</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_ignore_status">
+		<text>ガイドが「負傷／過重」の状態を無視する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_ignore_status_desc">
+		<text>有効になっている場合、ガイドトラベルは、プレイヤーが出血している、放射線被曝している、または重量過多であるという制限設定を無視します。これは、ガイドが応急手当を施したり、負担の一部を手伝ってくれる意向を表現するためです。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_combat_dist">
+		<text>NPCとの戦闘距離</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_combat_dist_desc">
+		<text>ファストトラベルを禁止する目的で、プレイヤーが「戦闘中」と見なされる最大距離を設定します。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_combat_timeout">
+		<text>NPCとの戦闘が終了するまでの時間</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_combat_timeout_desc">
+		<text>敵がプレイヤーをこの時間（秒）見ていない場合、敵はファストトラベルを禁止することができなくなります。</text>
+	</string>
+
+<!-- Added in 2.3 -->
+
+	<string id="ui_mcm_fftd_gen_use_warfare_fix">
+		<text>Warfare Alife Overhaulアドオンの修正を使用する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_use_warfare_fix_desc">
+		<text>有効になっていてかつ派閥戦争モードでプレイしている場合、FFTはマップにファストトラベルアイコンを追加しようとしません。Warfare Alife Overhaulアドオンがインストールされている場合に、マップアイコンやコンテキストメニューが正常に機能しない場合は、これを有効にしてみてください。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_allow_open_bp">
+		<text>マップ画面からのバックパック開封を許可する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_allow_open_bp_desc">
+		<text>このオプションを有効にすると、同じマップのどこからでもバックパックを開けることができるバニラの機能が再び有効になります。バランス上の理由から、デフォルトではオフになっています。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gear_dmg_factor">
+		<text>装備の耐久値に対するダメージ乗数</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gear_dmg_factor_desc">
+		<text>ファストトラベル時にすべての装備に適用される耐久値ダメージの乗数を調整します。移動距離が遠いほど、より摩耗が増加します。\n\n通常の難易度設定としては、1または2の値が推奨されますが、最大設定の11はほとんどの通常のプレイにおいて過剰かもしれません。\n\nこの設定を0にすると、このトラベルタイプでこの機能が無効になります。</text>
+	</string>
+
+<!-- Added in 2.3.1 -->
+
+	<string id="ui_mcm_fftd_gen_cond_dmg_mode">
+		<text>装備の耐久値ダメージシステム</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_cond_dmg_mode_desc">
+		<text>すべての装備: 耐久値のダメージがすべての装備に適用されます
+\nランダム: 耐久値のダメージがランダムに選ばれた一つの装備アイテムに適用されます
+\nスーツ: 耐久値のダメージが装備しているスーツとヘルメットに適用されます
+\n武器: 耐久値のダメージが装備している武器に適用されます
+\n無効: すべてのトラベルタイプにおいて、個々の設定にかかわらず、すべての装備の耐久値ダメージを無効にします</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_dmg_disabled">
+		<text>無効</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_dmg_all">
+		<text>すべての装備</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_dmg_random">
+		<text>ランダム</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_dmg_armor">
+		<text>スーツ</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_dmg_weapons">
+		<text>武器</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_minimum_health">
+		<text>ファストトラベルに最低限必要な体力</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_minimum_health_desc">
+		<text>通常、放射線被曝や出血によりプレイヤーがファストトラベルを阻止される場合、そのプレイヤーの体力がこの割合未満の場合もトラベルできなくなります。\nこれを0に設定すると、この機能は無効になります。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_minimum_satiety">
+		<text>ファストトラベルに最低限必要な満腹度</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_minimum_satiety_desc">
+		<text>通常、放射線被曝や出血によりプレイヤーがファストトラベルを阻止される場合、そのプレイヤーの「満腹度」（空腹/喉の渇き）がこの割合未満の場合もトラベルできなくなります。\nこれを0に設定すると、この機能は無効になります。</text>
+	</string>
+
+<!-- Added in 2.4 -->
+
+	<string id="ui_mcm_fftd_ftcfg_enabled">
+		<text>通常のファストトラベルの使用を許可する</text>
+	</string>
+
+<!-- Added in 2.5 -->
+
+	<string id="ui_mcm_fftd_gtcfg_npc_guides_too">
+		<text>設定をガイドNPCにも適用する</text>
+	</string>
+
+<!-- Added in 2.6 -->
+
+	<string id="st_fftd_farepaid_npcguide">
+		<text>ガイドに%sを支払い、目的地までの案内を依頼した</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_progressive_cost">
+		<text>プレイヤーのランクに応じた料金設定</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_progressive_cost_desc">
+		<text>有効にすると、すべてのファストトラベルにかかる料金はプレイヤーのランクに応じて上がります。最初はゆっくりと上昇し、以下の設定倍率の値で最大になります。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_prog_coef_max">
+		<text>最大ランクでの料金倍率</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_prog_coef_max_desc">
+		<text>プレイヤーが以下の設定で定義する最大ランクに達すると、すべてのファストトラベルの料金はこの倍率で増加します。そのランク以下では、倍率はゼロからこの設定まで上昇するカーブに沿って変化します。[曲線関数: 1 - cos((x * pi) / 2)]</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_prog_rank_cap">
+		<text>ランクの上限</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_prog_rank_cap_desc">
+		<text>ランクに応じた料金設定が有効になっている場合、ここで設定したランクまで料金が上がるようになります。</text>
+	</string>
+	
+	<string id="ui_mcm_fftd_gtcfg_npc_cost_coef">
+		<text>直接NPCガイドを利用する際の料金</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gtcfg_npc_cost_coef_desc">
+		<text>NPCに直接話しかけてガイドを利用するとき、通常の値の代わりにこの1メートルあたりの費用が使われます。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_force_vanilla_fares">
+		<text>バニラのNPCガイドの料金を使用する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_force_vanilla_fares_desc">
+		<text>有効にすると、NPCに直接話しかけてガイドを利用するとき、FFTの計算ではなくバニラの価格が使用されます。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_nice_round_numbers">
+		<text>生成される料金の100未満の端数を切り捨てる</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_nice_round_numbers_desc">
+		<text>有効にすると、FFTが生成する運賃は、バニラ価格のようなきれいな数字にするため、100未満の端数が切り捨てられます。</text>
+	</string>
+
+<!-- Added in 2.7 -->
+
+	<string id="st_fftd_mapspot_kilometers">
+		<text>km</text>
+	</string>
+
+	<string id="st_fft_travel_psyblocked">
+		<text>強力なプサイフィールドがこの場所への移動を妨げている</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_northgate">
+		<text>ブレイン・スコーチャーがファストトラベルを妨げる</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_northgate_desc">
+		<text>有効にすると、ブレイン・スコーチャーによるプサイフィールドが解除されるまで、ガイドトラベルを含め、マップの北と南の間のすべてのファストトラベルがブロックされます。この設定はストーリーモードが有効になっている場合にのみ使用されます。</text>
+	</string>
+
+	<string id="ui_mcm_header_gameplay">
+		<text>ゲームプレイとバランス設定</text>
+	</string>
+
+	<string id="ui_mcm_header_ui">
+		<text>インターフェースと外観設定</text>
+	</string>
+
+	<string id="ui_mcm_header_debug">
+		<text>トラブルシューティングと互換性</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_show_distdur">
+		<text>右クリックメニューに距離と時間を表示</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_show_distdur_desc">
+		<text>有効にすると、すべてのファストトラベルオプションはPDAマップの右クリックメニューに距離と時間を表示します。このオプションを無効にすると、バニラのような表示になります。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_verbose_enabled">
+		<text>冗長（Verbose）なデバッグログ</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_verbose_enabled_desc">
+		<text>「Verbose」はプログラマー用語で「本当にスパムっぽい」という意味です。これはログに最大限の情報を入れるためのもので、問題を報告する場合は必ず有効にしてください。</text>
+	</string>
+
+	<string id="pol_smart_terrain_1_1">
+		<text>メドウの交差点</text>
+	</string>
+
+	<string id="pol_smart_terrain_1_3">
+		<text>メドウのバンディット野営地</text>
+	</string>
+
+<!-- Added in 2.8 -->
+
+	<string id="st_fft_travel_zoneblocked_1">
+		<text>%sは友好派閥の拠点からのみ開始できる</text>
+	</string>
+
+	<string id="st_fft_travel_zoneblocked_2">
+		<text>%sは所属派閥の拠点からのみ開始できる</text>
+	</string>
+
+	<string id="ui_mcm_fft_zone_mode">
+		<text>派閥の拠点からのみファストトラベルの使用を許可する</text>
+	</string>
+
+	<string id="ui_mcm_fft_zone_mode_desc">
+		<text>プレイヤーがファストトラベルを開始できる場所を制限します:
+\n無効: バニラと同じく、どこからでもファストトラベルできます。
+\n友好派閥のみ: プレイヤーが友好派閥の拠点の範囲内にいる場合にのみファストトラベルできます。ほとんどのプレイヤーに推奨されます。
+\n所属派閥のみ: プレイヤーが所属する派閥の拠点の範囲内にいる場合にのみファストトラベルできます。これは所属する派閥によって利便性が異なります。
+		</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_zonetravel_any">
+		<text>無効</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_zonetravel_friend">
+		<text>友好派閥のみ</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_zonetravel_ally">
+		<text>所属派閥のみ</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_zones_use_disguises">
+		<text>変装中に敵派閥の拠点からファストトラベルできる</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_zones_use_disguises_desc">
+		<text>「派閥の拠点からのみファストトラベルの使用を許可する」オプションが有効になっている場合、このオプションも有効にすると、適切な変装をしているプレイヤーは敵対派閥の拠点からもファストトラベルできるようになります。このオプションが無効の場合、変装中であっても敵の拠点からファストトラベルすることはできません。</text>
+	</string>
+
+<!-- Added in 2.9 -->
+
+    <string id="st_fft_costfree">
+        <text>無料</text>
+    </string>
+
+	<string id="ui_mcm_fftd_gen_show_zone_status_icon">
+		<text>ファストトラベルが有効な範囲内にいるときにアイコンを表示する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_show_zone_status_icon_desc">
+		<text>この設定を有効にすると、プレイヤーがファストトラベル利用可能な範囲内にいるとき、ステータスインジケーターに特殊なアイコンが表示されるようになります。この設定は、ファストトラベルの開始地点を派閥の拠点や焚き火に制限していない場合には効果がありません。
+\n3つのスタイルから選択できます--1つはバニラスタイル、残りの2つはAlternative Iconsセットのスタイルに合わせた白黒とカラーのものです。</text>
+	</string>
+
+	<string id="ui_mcm_fft_campfire_base">
+		<text>焚き火を派閥の拠点として認識する</text>
+	</string>
+
+	<string id="ui_mcm_fft_campfire_base_desc">
+		<text>有効にすると、点火されている焚き火の5メートル以内にいることが派閥の拠点内にいることと見なされ、ファストトラベルが可能になります。</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_travelicon_disabled">
+		<text>無効</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_travelicon_vanilla">
+		<text>バニラ</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_travelicon_altbw">
+		<text>Alternative Icons（白黒）</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_travelicon_altcolor">
+		<text>Alternative Icons（カラー）</text>
+	</string>
+
+	<string id="ui_mcm_fft_camp_mode">
+		<text>焚き火をファストトラベルの目的地とする</text>
+	</string>
+
+	<string id="ui_mcm_fft_camp_mode_desc">
+		<text>有効にすると、焚き火をファストトラベルの目的地として使用できるようになります:
+\nすべて: マップで認識している焚き火はすべて有効なファストトラベルの目的地として使用できます。
+\n点火状態のみ: 点火されている焚き火のみがファストトラベルの目的地として使用できます。
+\nバニラの場合、焚き火はマップ上に表示されないため、ファストトラベルの目的地として使用するにはHaruka's Display Campfires on Mapなどのアドオンが必要です（GAMMAには含まれています）:
+\nhttps://www.moddb.com/mods/stalker-anomaly/addons/displaycampfiresonmap
+		</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_campmode_dis">
+		<text>無効</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_campmode_any">
+		<text>すべて</text>
+	</string>
+
+	<string id="ui_mcm_lst_fft_campmode_lit">
+		<text>点火状態のみ</text>
+	</string>
+
+	<string id="st_fft_campfire">
+		<text>焚き火</text>
+	</string>
+
+<!-- Added in 2.10 -->
+
+	<string id="ui_mcm_fftd_gen_squad_local_travel">
+		<text>同じマップ内のファストトラベルで仲間と一緒に移動する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_squad_local_travel_desc">
+		<text>バニラAnomalyでは同じマップ内の別の場所にファストトラベルする際、分隊の仲間は一緒に移動しません。このオプションを有効にすると、分隊の仲間たちがプレイヤーと同じ場所に瞬間移動するようになります。ただし、エンジンの制限によりこの機能が必ずしもうまくいくとは限りません。これはアドオン自体が抱えている問題ではないことに注意してください。</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_squad_tp_bind">
+		<text>分隊を瞬間移動させる (Fair Fast Travel)</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_squad_tp_bind_desc">
+		<text>プレイヤーのいる場所に分隊の仲間を瞬間移動させます。この機能は「同じマップ内のファストトラベルで仲間と一緒に移動する」オプションが有効であれば、同じマップ内でファストトラベルするたびに自動的に動作しますが、手動で強制的に瞬間移動させることも可能です。まだ救出されていない人質や待機命令を受けている仲間はこの機能の対象から外れます。</text>
+	</string>
+
+<!-- Added in 2.14 -->
+
+	<string id="ui_mcm_fftd_gen_psyblock_mapspots">
+		<text>ファストトラベルできない目的地に異なるアイコンを使用する</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_psyblock_mapspots_desc">
+		<text>ブレイン・スコーチャーが稼働中などの理由で特定の目的地へのファストトラベルができない場合、そのファストトラベル地点のアイコンが変わり、移動できないことがわかるようになります。</text>
+	</string>
+
+<!-- Added in 2.15 -->
+
+	<string id="encyclopedia_addons">
+		<text>アドオン</text>
+	</string>
+
+	<string id="encyclopedia_addons_fair_fast_travel">
+		<text>Fair Fast Travel</text>
+	</string>
+
+	<string id="encyclopedia_addons_fair_fast_travel_text">
+		<text>%c[pda_white]概要の動画はこちら: %c[255,0,200,220]https://www.youtube.com/watch?v=lzywMbXErVo
+
+\n\n%c[pda_yellow]Fair Fast Travel%c[ui_gray_1]は、Anomalyのファストトラベルを全面的に改造するアドオンです。
+\nファストトラベルの仕様を完全に管理でき、制限をかけたり緩めたりすることができます。
+
+\n\nすべての機能はMCMメニューから自由にカスタマイズ可能です。
+\nファストトラベルの際にかかる1メートルあたりの料金を0に設定したり、
+\n火をつけたキャンプファイヤーの場所のみにファストトラベルを許可することも可能です。
+\n%c[pda_white]気に入らない設定があれば、まずはMCMメニューを確認してみましょう！
+
+\n\n%c[pda_yellow]Mod設定メニュー > Fair Fast Travel%c[pda_white]:
+\n%c[pda_yellow]全般%c[pda_white]: UIに影響する設定、またはすべてのトラベルタイプに適用される設定
+\n%c[pda_yellow]ファストトラベル%c[pda_white]:
+\n「ファストトラベル」という言葉を含むオプションにのみ適用される設定
+\n%c[pda_yellow]バックパックトラベル%c[pda_white]:
+\nバックパックで作成したスタッシュにファストトラベルをする際にのみ適用される設定
+\n%c[pda_yellow]ガイドトラベル%c[pda_white]:
+\nPDAからガイドを利用してファストトラベルをする際（Guide Travel Overhaulオプションがインストールされている場合はNPCに話しかけて移動する際）にのみ適用される設定
+
+\n\n%c[pda_red]お困りのことがある場合は、下にスクロールして解決策の情報を確認してください。
+
+\n\n%c[pda_green]機能一覧
+\n%c[pda_yellow]• 移動時間の調整%c[ui_gray_1]
+\n同じマップ内での移動は100メートルごとに10分かかります（MCMで設定可能）。
+\nこれはバニラAnomalyとは異なりランダム要素がなく、キャラクターが通常の歩行速度で
+\n移動する場合の時間に相当します（ダッシュや遅延も考慮されません）。
+\n別のマップへの移動にも同様の計算式が使用されますが、個別にカスタマイズできます。
+
+\n\n%c[pda_yellow]• 改良されたUI%c[ui_gray_1]
+\nマップ上のアイコンを右クリックすると、ファストトラベルの選択肢と共に距離、
+\n移動にかかるおおよその時間、また必要に応じてその費用も表示されるようになります。
+
+\n\n%c[pda_yellow]• PDAから利用できるガイドトラベル%c[ui_gray_1]
+\nゾーンには各派閥のベテランガイドがおり、荷物を運んだり、助けに来てくれます。
+\nマップを右クリックすることで、任意のファストトラベル地点まで彼らを雇うことができます。
+\n雇われたガイドは移動のための備品を持参することが前提とされ、移動中は生存ステータスの
+\n減少が一時停止されます。また、Anomalyの設定で「負傷」や「過重量」による
+\nファストトラベルが不可能な場合でも、ガイドトラベル中はこれらを無視します。
+
+\n\n%c[pda_yellow]• NPCガイドのオーバーホール%c[ui_gray_1]
+\nこのオプションをインストールすると、NPCガイド機能が全面的に刷新され、
+\n他のファストトラベルシステムと同様に改善されます。
+\n移動時間や料金などの詳細はFair Fast Travelによって管理され、
+\n雇ったNPCガイドと共に移動する際も他のファストトラベルと同様に時間がかかります。
+\nまた、ガイドトラベルの設定に従い、生存ステータスも一時的に停止されます。
+
+\n\n%c[pda_yellow]• 装備の耐久値低下（オプション）%c[ui_gray_1]
+\n予期しない弾丸を受けたり発砲したりと、ゾーンの遠征は装備を消耗するものです。
+\nこの機能は装備の耐久値低下量を調整し、各トラベルタイプに個別の値を設定できます。
+\n機能は0に設定することで無効化でき、他の設定と同様にMCMから細かい調整が可能です。
+
+\n\n%c[pda_yellow]• カスタマイズ可能なクールダウン時間%c[ui_gray_1]
+\n3つのトラベルタイプに、再利用可能までのクールダウンを最大で2時間まで設定できます。
+\n残り時間は常にPDAマップの右クリックメニューに表示されます。
+\n各トラベルタイプに個別のクールダウンを設定するか、1つのクールダウンが終わった際に
+\nすべてのトラベルタイプに影響させるようにもできます。
+\nクールダウン設定はすべてオプションで、デフォルトではオフになっています。
+
+\n\n%c[pda_yellow]• ファストトラベルを友好的な拠点内のみに制限%c[ui_gray_1]
+\nこのオプション機能は、各トラベルタイプを個別に制限し、
+\nプレイヤーが友好的な拠点内でのみファストトラベルを開始できるように設定できます。
+\nこれにより、ファストトラベルの利便性を保ちつつ、
+\nアノマリーフィールドや他の危険から安易にファストトラベルで脱出することを防ぎます。
+\n派閥の変装でこの機能を“欺ける”かどうかも含めて、すべての設定が可能です。
+
+\n\n%c[pda_yellow]• キャンプファイヤーに関する移動オプション、インジケーター%c[ui_gray_1]
+\nキャンプファイヤーをファストトラベルの目的地として使用することも可能です。
+\nデフォルトではガイドトラベルのみで有効化されており、ガイドが地元のルートに
+\n精通していることを表現しています。ファストトラベルを拠点内のみに制限するオプションを
+\n使用している場合、点火されたキャンプファイヤーを友好的な拠点として扱うこともできます。
+\nまた、ファストトラベルが可能な範囲内にいることを示すインジケーターも備わっています。
+
+\n\n%c[pda_yellow]• ストーリー進行に応じた北部への移動制限%c[ui_gray_1]
+\nストーリーモードでは、ほとんどの派閥でプレイしている場合、ブレイン・スコーチャーが
+\n無効化されるまで一部のガイドやファストトラベルルートが利用できません。
+\n他の設定と同様にMCMでこの機能をオフにすることができます。
+
+\n\n%c[pda_yellow]• デバッグ用マップスポットのフィルタリング%c[ui_gray_1]
+\nデバッグモードの際、通常は目的地として使用されないマップ移動ポイントや
+\nトレーダーのアイコンも含め、すべてのアイコンへ自由にファストトラベルできてしまいます。
+\nその結果、バーキープの後ろや誤ったアイコンにファストトラベルしてしまう事故が発生する
+\nことがあります。デフォルトではデバッグモード中にこれらの無効なマップスポットを
+\nフィルタリングしますが、必要な場合はMCMで再度有効化することができます。
+
+\n\n%c[pda_yellow]• 戦闘の検出方式の改善%c[ui_gray_1]
+\nファストトラベルをする際、FFTは戦闘中かどうかを判断するために
+\nAnomalyのNPCリストを参照しますが、100メートル以上離れているNPCや、
+\n直近の10秒間でプレイヤーを視認していないNPCを除外します。
+
+\n\n%c[pda_yellow]• スキルシステムとの統合%c[ui_gray_1]
+\nHarukaによるSkill Systemアドオンやその拡張アドオンを導入している場合、
+\n持久力スキルに基づき、Fair Fast Travelが移動時間を調整するように設定できます。
+
+\n\n%c[pda_yellow]• Personal Adjustable Waypointのピンにファストトラベル%c[ui_gray_1]
+\n私が作った別のアドオン「Personal Adjustable Waypoint」を導入している場合、
+\nクイックピンを設置した場所にファストトラベルできるようになり、
+\n到達した場所に自由にファストトラベル地点を設定することができます！
+
+\n\n%c[pda_yellow]• Western Goodsアドオンとの互換性%c[ui_gray_1]
+\nWestern Goodsアドオンには、複数人の新しいガイドを追加し、
+\n他のガイドも容易に追加できる動的なガイド機能が含まれています。
+\nFair Fast Travelはこの機能と互換性があり、設定やオプションのインストールは不要です。
+\nWestern Goodsで追加されるガイドも同様に距離や移動時間を計算して表示します。
+
+\n\n%c[pda_yellow]• 変装バグの修正%c[ui_gray_1]
+\nFFTは「プレイヤーがNPCの近くにいる時間を考慮する」オプションを有効にした状態で
+\nNPCの前でファストトラベルを行った際、変装がばれてしまうAnomalyのバグを修正します。
+
+\n\n-----------------------------------------------------------------
+
+\n\n%c[pda_red]Q: %c[pda_white]特定の目的地を右クリックすると「強力なプサイフィールド」のメッセージが表示されます。
+\nこれはなぜですか？
+\n%c[pda_green]A: %c[pda_white]このメッセージはストーリーモードをプレイしているときに表示され、
+\nブレイン・スコーチャーが稼働していることを意味します。このオプションは、MCMの
+\n「%c[pda_yellow]全般 > ブレイン・スコーチャーがファストトラベルを妨げる%c[pda_white]」から無効にできます。
+
+\n\n%c[pda_red]Q: %c[pda_white]Personal Adjustable Waypointのピンにファストトラベルできないのはなぜですか？
+\n%c[pda_green]A: %c[pda_white]移動先に使用できるのはクイックピンのみで、プレイヤーが到達した場所に設置できます。
+\nクイックピンに移動できない場合は、MCMの設定が有効になっていない可能性があります。
+
+\n\n%c[pda_red]重要: バグを報告するには、以下の手順に従ってください:%c[pda_white]
+\n\n 1. 「%c[pda_yellow]MCM > Fair Fast Travel > 全般%c[pda_white]」を開く
+\n 2. 「%c[pda_yellow]デバッグログ%c[pda_white]」と「%c[pda_yellow]冗長なデバッグログ%c[pda_white]」を有効にする
+\n 3. ゲームを終了して再度起動する
+\n 4. できるだけ簡単な方法で問題を再現する%c[pda_white]
+\n 5. %c[pda_yellow](Anomalyフォルダ)\appdata\logs%c[pda_white]にあるログをどこかにアップロードして共有する
+
+\n\n%c[ui_gray_1]正しい手順に従わない場合、バグの修正に必要な情報がログに含まれない可能性があります。
+
+\n\nModdbのコメントには気が付けないため、通常はGAMMA Discord内の
+\nFair Fast Travelのチャンネルで連絡していただくと素早く対応できます。
+\nなお、未承諾のDMに対応することはありません。\n</text>
+	</string>
+
+<!-- Added in 2.16 -->
+
+	<string id="encyclopedia_addons_fair_fast_travel_psyblocked">
+		<text>プサイフィールドがFTを制限する</text>
+	</string>
+
+	<string id="encyclopedia_addons_fair_fast_travel_psyblocked_text">
+		<text>
+%c[pda_yellow]ストーリーモード%c[ui_gray_1]でプレイしていて、%c[pda_yellow]ブレイン・スコーチャー%c[ui_gray_1]を無効化していない場合、
+\nその影響下にあるエリアを通過する際に%c[pda_yellow]Fair Fast Travel%c[ui_gray_1]がファストトラベルを制限します。
+\nこの制限によって移動できない目的地は、特殊なアイコンで表示されます。
+
+\n%c[pda_white]制限された場所へのファストトラベルを可能にするには、
+\nメインストーリーを進めるかMod設定メニューで機能を無効にしてください:
+\n\n%c[pda_yellow]MCM > Fair Fast Travel > 全般 > ブレイン・スコーチャーがファストトラベルを妨げる
+		</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_use_map_hazard_coef">
+		<text>マップの脅威レベルに応じてファストトラベルの費用を変更</text>
+	</string>
+
+	<string id="ui_mcm_fftd_gen_use_map_hazard_coef_desc">
+		<text>このオプションを有効にすると、Fair Fast Travelは出発地と目的地のマップの「脅威レベル」に基づいて費用を調整します。簡単に言えば、コルドンや沼地のような「初心者向け」エリアへの移動は安価となり、プリピャチのような「エンドゲーム」エリアへの移動はより高価格になります。</text>
+	</string>
+
+</string_table>

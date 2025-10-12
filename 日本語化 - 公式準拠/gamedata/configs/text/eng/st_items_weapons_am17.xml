@@ -1,0 +1,13 @@
+
+<string_table>
+	<string id="st_wpn_am17">
+		<text>AM-17</text>
+	</string>
+	<string id="st_wpn_am17_descr">
+		<text>市街地戦や近接戦闘を想定して設計された小型のアサルトライフル。軽量なポリマーフレームにより、優れた取り回しを実現している。高いモジュール性を持つ設計で、全長にわたるピカティニーレールを備えているため、光学機器やアクセサリーを自由に装着でき、様々な戦術への柔軟な対応が可能。火力と携帯性のバランスに優れており、特殊部隊、法執行機関、狭い場所での作戦に適した銃となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_ground_coffee">
+		<text>挽いたコーヒー豆</text>
+	</string>
+	<string id="st_ground_coffee_descr">
+		<text>細かく挽かれたコーヒー豆のパック。すぐに淹れられる状態だが、多くは古い備蓄品の残りや、時間が経って風味が抜けたものばかりだ。それでも、熱い一杯は長い夜を過ごすストーカーの目を覚ましてくれる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]食品\n
+		%c[d_green] • %c[pda_white]覚醒作用\n
+		</text>
+	</string>
+
+</string_table>

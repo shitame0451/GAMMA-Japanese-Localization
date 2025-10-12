@@ -1,0 +1,26 @@
+<string_table>
+
+	<string id="st_porn">
+		<text>雑誌『Terroraiser』</text>
+	</string>
+
+	<string id="st_porn_descr">
+		<text>ウクライナのヘヴィメタル専門誌。この雑誌はDark Arts社が発行したもので、ロシア語で書かれている。DEICIDE、KORPIKLAANI、BLEED FROM WITHIN、DARK MILLENIUMの独占インタビュー、そして「Wacken」や「Black Sea Metal Fest」などのメタルフェスの特集レポートが掲載されている。2018年に廃刊となったが、今でも暇つぶしにはもってこいの一冊だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]娯楽用\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]暇つぶし\n
+		</text>
+	</string>
+
+	<string id="st_porn2">
+		<text>雑誌『Atmosfear』</text>
+	</string>
+
+	<string id="st_porn2_descr">
+		<text>ウクライナのヘヴィメタル専門誌。光沢仕上げの表紙と高品質な印刷が施されており、ロシア語で書かれている。MOONSORROW、NIGHTRAGE、CALIBAN、BUTTERFLY TEMPLEの独占インタビュー、そしてヘヴィメタルのあらゆるジャンルの最新リリースを網羅した200以上のレビューが掲載されている。読み応えがあり、暇つぶしには最適だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]娯楽用\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]暇つぶし\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,68 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 18
+- @ Description: Gloss - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Gloss Title -->
+	<string id="ui_mcm_ssfx_module_gloss_title">
+		<text>Gloss - Settings</text>
+	</string>
+
+	<!-- Gloss Settings -->
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_min_gloss_mcm">
+		<text>光沢度の最小値</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_min_gloss_mcm_desc">
+		<text>光沢の基本値を調整します。「光沢の自動調整」が無効の場合、この値が光沢を決定します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_max_gloss_mcm">
+		<text>光沢度の最大値</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_max_gloss_mcm_desc">
+		<text>「光沢の自動調整」が有効の場合、この値は潤い度が100%のときの光沢の最大値となります。</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_mcm">
+		<text>光沢の自動調整</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_mcm_desc">
+		<text>潤い度に基づく光沢の自動調整を有効または無効にします。固定の光沢値を手動で設定する場合は、このオプションを無効にし、「光沢度の最小値」オプションを使用して光沢を定義します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm">
+		<text>光沢の自動調整の値</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_auto_gloss_max_mcm_desc">
+		<text>この値は、潤い度が最大値に達したときの光沢の最大値を制御するために使用されます。（0 = 0% | 1 = 100%）</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_int_mcm">
+		<text>鏡面反射の強度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_int_mcm_desc">
+		<text>鏡面反射の強度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_color_mcm">
+		<text>鏡面反射の色</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_wetness_ssfx_gloss_specular_color_mcm_desc">
+		<text>鏡面反射色の割合を調整します。（0 = 0% | 1 = 100%）</text>
+	</string>
+
+
+</string_table>

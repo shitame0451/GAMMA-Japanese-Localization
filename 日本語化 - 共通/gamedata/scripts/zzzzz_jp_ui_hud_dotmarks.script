@@ -1,0 +1,17 @@
+-- ui_hud_dotmarks.script
+
+-- ===================================================================
+--  InteractPrompt:SetupSuffix （「数字 回分」の間のスペースを削除）
+-- ===================================================================
+local original_SetupSuffix = ui_hud_dotmarks.InteractPrompt.SetupSuffix
+
+ui_hud_dotmarks.InteractPrompt.SetupSuffix = function(self, obj)
+	original_SetupSuffix(self, obj)
+
+	if self.active_suffix and self.active_suffix:find(game.translate_string("st_alti_uses")) then
+		self.active_suffix = self.active_suffix:gsub(
+			"(%d+)" .. " +" .. game.translate_string("st_alti_uses"),
+			"%1" .. game.translate_string("st_alti_uses")
+		)
+	end
+end

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="st_wpn_eft_rsh12">
+		<text>RSH-12 Revolver</text>
+	</string>
+	<string id="st_wpn_eft_rsh12_descr">
+		<text>RSh-12（リボルバー・シュトゥルモヴォイ12 - "アサルト・リボルバー12"）は、KBP設計局が特殊部隊向けに開発した大口径リボルバー。強力な12.7x55mm弾を使用するが、シリンダー下部の薬室から発射される構造により、同等の大型リボルバーや拳銃と比べて反動が小さい。\n \n
+		</text>
+	</string>
+</string_table>

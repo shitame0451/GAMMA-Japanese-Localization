@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_mag_pp2000_9x19_ext">
+		<text>PP-2000用拡張マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_pp2000_9x19_ext_descr">
+		<text> </text>
+	</string>
+
+		<string id="st_mag_pp2000_9x18_ext">
+		<text>PP-2000用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_pp2000_9x18_ext_descr">
+		<text> </text>
+	</string>
+
+</string_table>

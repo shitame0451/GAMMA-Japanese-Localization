@@ -1,0 +1,16 @@
+-- game_relations.script
+
+-- ===================================================================
+--  ブレイン・スコーチャー停止時の派閥の関係メッセージ
+-- ===================================================================
+local original_send_news = game_relations.send_news
+
+game_relations.send_news = function(faction_1, faction_2, text, icon)
+	local faction_1_str = game.translate_string( faction_1 )
+	local faction_2_str = game.translate_string( faction_2 )
+	local relation_str = game.translate_string( text )
+--	local str = faction_1_str .. " " .. game.translate_string("st_relations_and") .. " " .. faction_2_str .. " " .. relation_str
+	local str = faction_1_str .. game.translate_string("st_relations_and") .. faction_2_str .. relation_str	--japanGAMMA
+		--printf("[JP Patch] faction_1='%s' faction_2='%s' text='%s' -> '%s'", faction_1_str, faction_2_str, relation_str, str)
+	news_manager.send_tip( db.actor, str, nil, icon, nil, nil )
+end

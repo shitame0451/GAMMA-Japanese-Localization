@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_streetsweeper">
+		<text>Armsel Protecta</text>
+	</string>
+	<string id="st_wpn_streetsweeper_aim">
+		<text>Armsel Protecta</text>
+	</string>
+	<string id="st_wpn_streetsweeper_nimble">
+		<text>Armsel Protecta（カスタム）</text>
+	</string>
+	<string id="st_wpn_streetsweeper_descr">
+		<text>「ストライカー」の名でも知られるコンバットショットガン。独自の回転式シリンダーを備え、素早い連射が可能。頑丈な設計とシンプルな操作性により、近接戦闘や制圧用途で高い効果を発揮する。高速装填機構とセミオート射撃により、軍や警察、警備の現場で利用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]南アフリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]様々なメーカー\n
+		</text>
+	</string>
+	<string id="st_wpn_streetsweeper_aim_descr">
+		<text>「ストライカー」の名でも知られるコンバットショットガン。独自の回転式シリンダーを備え、素早い連射が可能。頑丈な設計とシンプルな操作性により、近接戦闘や制圧用途で高い効果を発揮する。高速装填機構とセミオート射撃により、軍や警察、警備の現場で利用されている。
+		\nこのモデルはAimpoint AB コリメーターサイトを搭載し、発射速度を犠牲にする代わりに、銃口エネルギーとストッピングパワーが大幅に向上している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]南アフリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]様々なメーカー\n
+		</text>
+	</string>
+	<string id="st_wpn_streetsweeper_nimble_descr">
+		<text>「ストライカー」の名でも知られるコンバットショットガン。独自の回転式シリンダーを備え、素早い連射が可能。頑丈な設計とシンプルな操作性により、近接戦闘や制圧用途で高い効果を発揮する。高速装填機構とセミオート射撃により、軍や警察、警備の現場で利用されている。
+		\nある筋の話では、このモデルはかつて「タンク」という人物の所有物だったと言われているが、彼についてはほとんど情報が残されていない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]南アフリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]様々なメーカー\n
+		</text>
+	</string>
+
+
+</string_table>

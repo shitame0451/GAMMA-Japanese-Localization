@@ -1,0 +1,27 @@
+<string_table>
+
+    <string id="st_placeable_weapon_rack">
+        <text>銃展示用ラック</text>
+    </string>
+    <string id="st_placeable_weapon_rack_descr">
+		<text>お気に入りのライフルやショットガンを飾れる古びた収納家具。\n \n
+			%c[pda_white]特性:\n
+			%c[d_cyan] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+			%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ライフル、サブマシンガン、ショットガンの展示\n \n
+			</text>
+	</string>
+	
+	<string id="st_placeable_pistol_shelf">
+        <text>ピストル展示用シェルフ</text>
+    </string>
+    <string id="st_placeable_pistol_shelf_descr">
+		<text>お気に入りのピストルを飾れる古びた収納家具。\n \n
+			%c[pda_white]特性:\n
+			%c[d_cyan] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+			%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ピストルの展示\n \n
+			</text>
+	</string>
+
+</string_table>

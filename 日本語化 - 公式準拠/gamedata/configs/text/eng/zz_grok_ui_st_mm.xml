@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string id="ui_mm_originals">
+		<text>S.T.A.L.K.E.R.トリロジーを入手する</text>
+	</string>
+		<string id="ui_mm_disclaimer">
+		<text>S.T.A.L.K.E.R. G.A.M.M.A.はGSC Game Worldが開発した『S.T.A.L.K.E.R.』を元に、多くのModderに作られたアドオンを統合するファンメイドMODです</text>
+	</string>
+	<string id="ui_st_game_version">
+		<text>S.T.A.L.K.E.R. G.A.M.M.A. 0.9.4</text>
+	</string>
+</string_table>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="encyclopedia_mutants">
+		<text>ミュータント</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_blind_dog">
+		<text>ブラインドドッグ</text>
+	</string>
+	<string id="encyclopedia_mutants_blind_dog_text">
+		<text>
+		%c[pda_white]「ブラインドドッグ」
+		\n%c[ui_gray_1]ゾーン内で最もポピュラーなミュータントである。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n犬のいくつかの世代は、2回目の災害以降、それぞれの個体が大なり小なりゾーンの影響を受けている。
+		\n \nいくつかの急速な変異と進化により、以前は弱弱しく表現されていた犬の能力が強化されたものの、いくつかの元の犬としての能力は犠牲となった。
+		\n \nこれらの犬は視力と聴覚は完全に失われているが、壁を通して獲物を感じ取ることができる一種のテレパシーの様な能力を会得したようだ。
+		\n \nブラインドドッグたちは群れで狩りをしており、彼らは狼を祖先としているようだ。大規模な群れと遭遇した場合、経験豊富なストーカーであっても危険な相手と化す。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]少ない
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_bloodsucker">
+		<text>ブラッドサッカー</text>
+	</string>
+	<string id="encyclopedia_mutants_bloodsucker_text">
+		<text>
+		%c[pda_white]「ブラッドサッカー」
+		\n%c[ui_gray_1]その名の通り、吸血能力を備えた怪物である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nブラッドサッカーは半ば伝説的な生物であり、ストーカーたちからゾーンの腐敗と恐怖の象徴として認識されている。
+		\n \n彼らのゾーン内での認識は、種の相対的な希少性と、犠牲者の低い生存率から来ている。
+		\n \n彼らと遭遇したストーカーたちは、多くの触手が突き出した背の高い前かがみの人型の様な風貌だったと説明している。
+		\n \n彼らの最も特徴的な能力は、完全なステルス能力であり、擬態状態では肉眼での視認がほとんどできなくなる。
+		\n \nしかし通常、この能力は持続性が低い。獲物を発見したり、動きを隠そうとする時にのみ使用することが多い。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]カモフラージュ、吸血
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • かつてグレートスワンプには犠牲者を運び去る貴重な亜種が存在した。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_boar">
+		<text>ボア</text>
+	</string>
+	<string id="encyclopedia_mutants_boar_text">
+		<text>
+		%c[pda_white]「ボア」
+		\n%c[ui_gray_1]ゾーンでよく見られるミュータントだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n突然変異による物理的な影響は少ないものの。この猪は、人間の肉を餌として認識し、鋭い知性を発達させてきた。
+		\n \n彼らは大きな動物であり、潜在能力はゾーンの外に生息する種類よりも高い。
+		\n \nこの突然変異の過程は、これらの哺乳類が形成される上で重要な役割を果たしている。いくつかの部位は毛皮がすべて抜け落ち、またいくつかの部位は毛皮が異常に発達している。
+		\n \n通常、ある程度の距離が維持され、攻撃されていない場合、「フレッシュ」や他の「ボア」の群れと戯れている。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_burer">
+		<text>バーラー</text>
+	</string>
+	<string id="encyclopedia_mutants_burer_text">
+		<text>
+		%c[pda_white]「バーラー」
+		\n%c[ui_gray_1]通常、地下等に潜んでおり、ずんぐりとした、童話に出てくるドワーフの様な怪物だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n肥厚した顔色の人型の生物であり、ボロボロのオーバーホールの断片に覆われており、光がある明るい場所を嫌う。
+		\n \n犯罪者を使い、遺伝子実験によって作成されたとされる彼らは、サイコキネシス能力を備えているため、その見た目からは想像できないほど危険である。
+		\n \nエネルギーの爆発を誘導し、精神で物理的な物体を操作することができるため、バーラーと戦う場合、完全に隠れきることは非常に厳しいだろう。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃、サイコキネシス、精神波による攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]超能力
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 一部のバーラーは、鳥、犬の鳴き声、人間の笑い声、泣いている幼児の声を模倣摸することができる。
+		\n • 多くの場合、バーラーは相手の体力を使い果たさせ、動けなくなったところを狙ってくるため、重武装の熟練ストーカーであっても、苦しい戦闘になりうる。
+		\n • バーラーの主な主食は人肉とキムチで構成される傾向がある。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_cat">
+		<text>キャット</text>
+	</string>
+	<string id="encyclopedia_mutants_cat_text">
+		<text>
+		%c[pda_white]「キャット」
+		\n%c[ui_gray_1]地元の山猫が変異したミュータントだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n元々は普通のペットのように害は少なかったのだが、ゾーンの影響下に置かれる中で著しい変異を起こし、非常に危険な生物となった。
+		\n \nほとんどの場合、キャットは2~3匹で群れており、森の茂み等、人里離れた静かな場所を住処としている。
+		\n \n戦闘方法として、最初に攻撃を仕掛ける個体が獲物を出血させて疲弊させる等して気をそらし、残り個体が背後から切り刻んでくる。
+		\n \nこの生物は単独の場合は非常に憶病になるが、獲物を追跡し攻撃のタイミングを見計らうため、長い時間を費やす傾向がある。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]少ない
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • キャットは、新人ストーカーたちの死亡原因の中でも大きな死因のひとつだ。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_chimera">
+		<text>キメラ</text>
+	</string>
+	<string id="encyclopedia_mutants_chimera_text">
+		<text>
+		%c[pda_white]「キメラ」
+		\n%c[ui_gray_1]は毛皮のない化物であり、成体まで成長すると、成体のライオンほどのサイズ近くまで大きくなる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n物理的に完璧な生物ではないものの、ほぼ完全な進化を遂げた殺人マシーンであり、極端に素早い攻撃速度と、獰猛な攻撃性がそれを表している。
+		\n \nキメラは同じ臓器が体内で複数あり、中央循環系がなく、全身に毛細血管が張り巡らされているため、臓器不全や大量出血を起こしても、致命傷にならない。
+		\n \n2つの頭は、広い視野を確保する役割を担っており、後脚は非常に長い距離を跳躍することができるほど強靭である。また、カミソリのように鋭利な爪と牙は実質、あらゆる装甲を引き裂くことができる。
+		\n \nこの生物は夜行性であり、日中は基本的に休息しているためほとんど目撃情報はないが、例外も存在する。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]多い
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]俊敏、再生能力
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 弾丸の耐性はかなり高いが、化学耐性と熱耐性は非常に低い。
+		\n • 基本的に一匹で活動するが、ペアで行動することもある。
+		\n • 2012年に、ザトンとヤノフを恐怖のどん底に陥れた強力な2匹のキメラが被害を拡大させていたが、いずれもアレクサンダーと呼ばれるストーカーが排除した。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_controller">
+		<text>コントローラー</text>
+	</string>
+	<string id="encyclopedia_mutants_controller_text">
+		<text>
+		%c[pda_white]「コントローラー」
+		\n%c[ui_gray_1]ゾーン内でも非常に危険な超能力ミュータントとして認識されている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n外見はバランスが悪い大きな頭をした人間の外見をしており、コントローラーは他の生物の精神に直接影響を与え、操作することができる。
+		\n \n他の超能力ミュータントとは異なり、物理的な物体を操作することはしないが、代わりに文字通りの意味で脳を使って戦い、しばしば敵に驚きと混乱を与える。
+		\n \nコントローラーは主に指向性の精神波で攻撃してくる。これは脳の受容体に深刻なダメージを引き起こし、下手をすれば自殺もしくはゾンビ化を引き起こす可能性がある。
+		\n \nこの生物は見えているものしか攻撃できないと言われているので、遮蔽物を上手く使って相手から見えないようにすることが、このミュータントの対抗手段となる。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃、精神波
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]持続ダメージ、超能力、精神操作
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_crow">
+		<text>カラス</text>
+	</string>
+	<string id="encyclopedia_mutants_crow_text">
+		<text>
+		%c[pda_white]「カラス」
+		\n%c[ui_gray_1]ゾーンで生き残った数少ない鳥類の一種である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nゾーンの空中に存在する重力アノマリーで全滅しないように、Militaryのヘリ操縦者は最新鋭の探知機を使用するが、カラスがゾーンの空を安全に飛行する方法はいまだ解明されていない。
+		\n \nゾーンの他のミュータントと比較した場合、カラスが特別である理由、もしくはほとんど完全に手付かずのままでいる理由はまだ解明されていない。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]なし
+		\n%c[pda_white] • 体力: %c[ui_gray_1]少ない
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_flesh">
+		<text>フレッシュ</text>
+	</string>
+	<string id="encyclopedia_mutants_flesh_text">
+		<text>
+		%c[pda_white]「フレッシュ」
+		\n%c[ui_gray_1]重度の放射線被曝により変異した豚であり、ゾーンでは無害なミュータントのひとつだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nゾーンに生息している他のミュータントと同様に、家畜用の豚が2回目の災害後に深刻な変異を起こした。その結果、代謝に関する遺伝子が特に影響を受けている。
+		\n \nこれは最終的に動物としての生態を大きく変化させ、前肢は昆虫を模したかのような細い脚に代わり、肉は根を掘り、腐肉を引き裂くために使用するが、体は非常に肥大化しそのほとんどが脂肪で構成されている。
+		\n \nしかし、このミュータントはほとんど無害であり、攻撃されたり追い詰められたりしない限りは、基本的にこちらから距離を取ろうとする。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_fracture">
+		<text>フラクチャー</text>
+	</string>
+	<string id="encyclopedia_mutants_fracture_text">
+		<text>
+		%c[pda_white]「フラクチャー」
+		\n%c[ui_gray_1]生物学的観点では進化した元人間である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n他のヒューマノイド型ミュータントとは異なり、骨格がかなり人間に近い状態で維持されており、身長が2メートル以上あるにもかかわらず、ボロボロの布切れを着た老人に見える。
+		\n \nこのミュータントについては解明されていることが少なく、2回目の災害の前にその地域に違法居住をしていた元住民か、遺伝子実験の初期の被験者ではないかと考えられている。
+		\n \n肥大化した腕と腫れた手は、このミュータントの行動速度を落としているものの、成人男性を簡単に殴り倒すことができる、棍棒の様な危険な武器でもある。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • ストーカーを発見した際、助けを求めるような声を出すが、それが仲間のミュータントにあてたものか、またはストーカーたちにあてたものかは定かではない。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_karlik">
+		<text>カーリック</text>
+	</string>
+	<string id="encyclopedia_mutants_karlik_text">
+		<text>
+		%c[pda_white]「カーリック」
+		\n%c[ui_gray_1]遭遇事態が非常に稀なミュータントで、隠居しているかのように隠れている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこのミュータントがバーラーと関連しているかどうか定かではないが、両者の間には多くの類似点があり、偶然と決めつけることは難しい。
+		\n \n目撃情報が非常に稀な機会にしかなく、特定の場所もしくはアーティファクトに引き付けられたストーカーをカーリックは、自分の使命のように攻撃してくるように見える。
+		\n \nこのミュータントに直接遭遇したほとんどの者は、肉体的な損傷を受けていないにもかかわらず、狂い死にすることが多いためか、このミュータントに関することはほとんど知られていない。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃、超能力
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]継続ダメージ、ファントム投影、超能力、念力
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 時々バーラーと比較されるがカーリックはテレキネシスよりも幻影やテレパシーを主な攻撃方法として使用してくる。
+		\n • カーリックとバーラーが研究の産物であると仮定するならば、カーリックはバーラーの初期研究の産物である可能性が高い。
+		</text>
+	</string>
+
+	<string id="encyclopedia_mutants_lurker">
+		<text>ルーカー</text>
+	</string>
+	<string id="encyclopedia_mutants_lurker_text">
+		<text>
+		%c[pda_white]「ルーカー」
+		\n%c[ui_gray_1]優れた身体能力を持つハイブリッドミュータントである。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n噂では、第二次災害前にゾーン周辺の隠された研究所で行われた実験の一部であると言われている。しかし、2013年にプリピャチ近郊で発見されたのが第一波である。
+		\n \n幾重にも重なった強固な皮膚、異常なまでの筋力と聴覚により、ルーカーは最悪の環境下でも生き延びることができる。また、後ろ足を使って長距離をジャンプし、ゆっくりとした動きの犠牲者を襲うことができる。
+		\n \n地元のハンターたちは、この生物の目を採取して、その独特の黄色い輝きを楽しむことで知られている。
+		\n \n%c[pda_blue]統計
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_poltergeist">
+		<text>ポルターガイスト</text>
+	</string>
+	<string id="encyclopedia_mutants_poltergeist_text">
+		<text>
+		%c[pda_white]「ポルターガイスト」
+		\n%c[ui_gray_1]ゾーンのより奥地に出没する、奇妙かつほとんど識別することができないミュータントだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n目撃情報の1例として、忘れ去られ放棄された建物内で見たとの情報があり、超自然的な得体の知れないものだったとの報告がある。
+		\n \nこのミュータントに関する起源についてはまったくなく、噂や都市伝説的な話では、大規模な放射線に見舞われたストーカーの霊ではないかとの見解もあるほどだ。
+		\n \nこの不可思議な命名は、重い物体を持ち上げ投げつけてくる、「ポルターガイスト」伝説で伝承されている部分が一致している点が多いことと、まるで霞に化かされた外観からそう呼ばれている。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]テレキネシス、精神波による攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]平均的
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]超能力
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 古株のストーカーたちは、「ポルターガイスト」が体を置き去りにしているのではないかと報告することがあるが、若いストーカーたちはまともに信じてはいない。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_pseudodog">
+		<text>スードウドッグ</text>
+	</string>
+	<string id="encyclopedia_mutants_pseudodog_text">
+		<text>
+		%c[pda_white]「スードウドッグ」
+		\n%c[ui_gray_1]ゾーン内では比較的一般的な犬のミュータントだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこのミュータントは、「偽犬」という名称ではあるものの、実際は犬のミュータントではなく、2回目の災害時にゾーンの森林で生息していた狼が変異元である。
+		\n \n頭は丸く、大きくも目立たない顎、生涯成長し続ける巨大な歯が特徴的で、厳密にはスードウドッグには狼の時の特徴はあまり残ってはいない。
+		\n \nスードウドッグは時々ブラインドドッグと群れていることがあるが、彼らと比べると、動きは機敏で、強く、獰猛である。また、ほとんどの場合が群れの長としてテリトリー内を徘徊しているため、侵入者を迷うことなく攻撃する。
+		\n \nその強靭な筋肉と、再構築された骨格から、信じられない速度で動き回って、飛びかかってきたりと、他のミュータントよりもかなりの機動力をほこる。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]俊敏
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_pseudogeist">
+		<text>スードウガイスト</text>
+	</string>
+	<string id="encyclopedia_mutants_pseudogeist_text">
+		<text>
+		%c[pda_white]「スードウガイスト」
+		\n%c[ui_gray_1]雲のような見た目をした「ポルターガイスト」の亜種だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこれらのミュータントは最近になって確認されたものであるため、情報がほとんどなくない。
+		\n \n赤ワインのような色をした雲が蠢いているかのような外観をしており、付近を彷徨い迷い込む不幸な者たちを排除しようとしてくる。
+		\n \nこのミュータントはストーカーたちが頻繁に訪れる場所ではみかけず、特定の場所でしか遭遇しない。
+		\n \n死ぬと複数の雲の様な形で爆発四散する。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]テレキネシス、精神波による攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]平均的
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]超能力
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_pseudogiant">
+		<text>スードウジャイアント</text>
+	</string>
+	<string id="encyclopedia_mutants_pseudogiant_text">
+		<text>
+		%c[pda_white]「スードウジャイアント」
+		\n%c[ui_gray_1]ゾーン内で稀にしか遭遇しない、最も危険で恐ろしいミュータントだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n他のヒューマノイド型ミュータントとは異なり、信じられないほどのタフネスを有しており、とんでもない数の銃弾の雨にも耐えきるほどである。
+		\n \n不均衡に巨大な手足と強力な攻撃力を有しているため、このミュータントに接近を許すことは非常に危険であり、巨大な足を地面に叩きつけて広範囲に衝撃波を起こす攻撃を繰り出すしてくる。
+		\n \nこのミュータントは敵に対する執拗さはあるが、自らのテリトリー範囲を超えてまで追跡はしない特徴がある。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]非常に多い
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]絶大な頑丈さ
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 不思議なことに、多くは縄張り意識が強いものの、ゾーンのミュータントの中では最も攻撃的ではない。しかし、一般のストーカーにとっては、それはあまり意味のないことである。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_psydog">
+		<text>サイドッグ</text>
+	</string>
+	<string id="encyclopedia_mutants_psydog_text">
+		<text>
+		%c[pda_white]「サイドッグ」
+		\n%c[ui_gray_1]スードウドッグの亜種で、遭遇は稀であり、独特の超能力を持っている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nサイドッグの最も特徴的なものは、獲物の心に影響を与える能力で、あたかも現実に存在するかのような幻影を作成することだ。
+		\n \nこの幻影はリアルな質量を持っているように見え、少なくとも精神的には獲物を負傷させる可能性があるため、精神波の及ぶ領域や他のミュータントが見せる幻覚と特徴が大きく異なる。
+		\n \n外観は灰色と白色の毛皮の大きな縞があることを除けば、スードウドッグと大きな違いはほとんどない。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃、幻影
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]俊敏、超能力
+		</text>
+	</string>
+
+	<string id="encyclopedia_mutants_psysucker">
+		<text>サイサッカー</text>
+	</string>
+	<string id="encyclopedia_mutants_psysucker_text">
+		<text>
+		%c[pda_white]「サイサッカー」
+		\n%c[ui_gray_1]独特の超能力を持つブラッドサッカーの亜種である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこのミュータントの起源は判明していない。サイサッカーはゾーン内でも謎に包まれた生き物だ。
+		\n \n解剖の結果、このミュータントにはブラッドサッカーの様な視覚的なカモフラージュ能力で一時的に肉眼ではほとんど見えなくなる能力を有している。それだけではなく、さらなる研究によりサイサッカーはブラッドサッカーとは異なる発達した神経系を持っていることが明らかになった。また、ブラッドサッカーの様な顔から突き出ている触手もない。おそらくだがサイサッカーが精神波による攻撃を行っている間、こちらから姿を隠しているのはそれが理由だろう。
+		\n \nブラッドサッカーと比べて、時間が経つにつれて、耐久性が失われているかのような、引き裂かされた肌が外見的特徴だ。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃、精神波による攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]少ない
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]カモフラージュ、幻影投影
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_pyrogeist">
+		<text>パイロガイスト</text>
+	</string>
+	<string id="encyclopedia_mutants_pyrogeist_text">
+		<text>
+		%c[pda_white]「パイロガイスト」
+		\n%c[ui_gray_1]「ポルターガイスト」の珍しい亜種で、火の超能力を使用してくる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n燃えるような輝きに包まれた、空中に浮かぶ熱のような外観をしているため、「ポルターガイスト」と簡単に区別でき、死ぬと血と火が混じった爆発を起こす。
+		\n \nこのミュータントの唯一の攻撃方法はバーナーアノマリーに類似した火の柱を発生させ、敵を燃やして殺そうとしてくる。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]火の超能力
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]平均的
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]超能力
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_rat">
+		<text>ラット</text>
+	</string>
+	<string id="encyclopedia_mutants_rat_text">
+		<text>
+		%c[pda_white]「ラット」
+		\n%c[ui_gray_1]寂れた建物やその周辺に存在する、小さくて空腹なネズミだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nほとんどの個体が群れをなしており、稀なケースを除きゾーン内に限り人間と敵対しない生物だ。人がいなくなった場所には、すぐに「ラット」が住処を作る。
+		\n \n「ラット」は非常に賢く、様々な角度から獲物を攻撃しようとしてくる。あらゆる角度から一斉に攻撃された場合、生存できる可能性は低いだろう。
+		\n \n基本的に人のいない廃墟に住み着くが、危険察知能力が高くすぐに住処を放棄して逃走する。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]少ない
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]平均的
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • ゾーン内で最も無害なミュータントであり、食肉として狩りの対象によく選ばれる。
+		\n • 「ラット」は非常に脆く、攻撃性が低い特徴を持つ、トゥシュカノの同種だ。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_snork">
+		<text>スノーク</text>
+	</string>
+	<string id="encyclopedia_mutants_snork_text">
+		<text>
+		%c[pda_white]「スノーク」
+		\n%c[ui_gray_1]ストーカーや兵士が変異した恐ろしいミュータントだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこのミュータントの元が人間と認識されたのは、身に着けたボロボロの制服からであるが、どのような状況下でこの様に変わり果てたのかは想像が難しい。
+		\n \nスノークは完全に獣となり果てており、4足歩行で地面を跳ねまわり、絶えず空腹の状態のため、常に獲物匂いを嗅ぎまわっている。
+		\n \nこのミュータントは意外な事に、巧妙かつ慎重に狩りを行い、ストーカーたちを探し回っている。鋭敏な反射神経と肥大した足の筋肉により、スノークは長く正確なジャンプで獲物に飛びかかり引き裂いてくる。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]普通
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]俊敏
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 最初のスノークはゾーン発生後の、最初の軍事遠征の不幸なメンバーであると考えられている。2018年まではメンバーの存在は確認されていたことからこのような推測が生まれたようだが、真相は不明。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_tushkano">
+		<text>トゥシュカノ</text>
+	</string>
+	<string id="encyclopedia_mutants_tushkano_text">
+		<text>
+		%c[pda_white]「トゥシュカノ」
+		\n%c[ui_gray_1]足元で動き回る「ラット」によく似たミュータントだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n名前の由来は、ロシア語でtushkanchikovyeと呼ばれる非常によく似た動きをする齧歯類動物に関連している。
+		\n \nトゥシュカノは2度目の災害の前に実験体として使われていた個体ではないかと信じられている。
+		\n \n生息地は主に荒廃した建物で、ミュータントとストーカーの両方に攻撃を加えてくる。
+		\n \nラットのようにかなり賢いため、あらゆる角度から獲物を攻撃する。また小さな体格のため、場所によっては気が付けば囲まれた状態のこともある。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]少ない
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]早い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		</text>
+	</string>
+	
+	<string id="encyclopedia_mutants_zombie">
+		<text>ゾンビ</text>
+	</string>
+	<string id="encyclopedia_mutants_zombie_text">
+		<text>
+		%c[pda_white]「ゾンビ」
+		\n%c[ui_gray_1]ほとんどの反射神経すら失った元ストーカーだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこれらの個体は、名前が示しているような実際のアンデッドではなく、完全に正気を失った元人間を指す。
+		\n \nこのクリーチャーは強力な精神波の及ぶ領域に曝された人間の末路で、道具や武器の使用方法等の動きは最小限にしか行えない程、肉体的、精神的に劣化した存在だ。
+		\n \nこれらの変異の結果、ゾンビは非常にゆったりとした速度で死に近づいている半死体に他ならない。ゾンビは基本的に食欲と睡眠欲の２つの刺激にしか反応を示さない。
+		\n \n通常はこの段階に至る前に、ほとんどの個体が殺されるかゾンビになる前に死亡するため、このミュータントをゾーンで見かけることは中々ないだろう。
+		\n \n%c[pda_blue]統計%c[ui_gray_1]
+		\n%c[pda_white] • 攻撃方法: %c[ui_gray_1]近接攻撃
+		\n%c[pda_white] • 体力: %c[ui_gray_1]少ない
+		\n%c[pda_white] • 素早さ: %c[ui_gray_1]遅い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 彼らに置かれた状況はまさに、真の悲劇と言えるだろう。彼らをこの苦しみから解放させるためにも最善を尽くしてあげるのがやさしさだろう。
+		</text>
+	</string>
+	
+</string_table>

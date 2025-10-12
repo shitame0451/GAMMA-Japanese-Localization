@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="sar_perception">
+    <text>北への道</text>
+  </string>
+  <string id="sar_perception_1">
+    <text>Monolithの背後にいる何者かに会う。</text>
+  </string>
+  <string id="sar_perception_2">
+    <text>原稿に記載されている研究所を探し出し、そこに何が隠されているのかを突き止める。</text>
+  </string>
+  <string id="sar_perception_3">
+    <text>デコーダーを使用してドアを開ける。</text>
+  </string>
+  <string id="sar_perception_4">
+    <text>守護者を倒して部屋に入る。</text>
+  </string>
+  <string id="sar_perception_5">
+    <text>文書から暗証番号を探す。</text>
+  </string>
+  <string id="warlab_kill_crazy_entity_title">
+    <text>未知なる存在に対処する</text>
+  </string>
+  <string id="warlab_kill_crazy_entity_1">
+    <text>未知なる存在と話す。</text>
+  </string>
+  <string id="warlab_kill_crazy_entity_2">
+    <text>ウォーラボ・エンティティを3体倒し、ドアを開ける。</text>
+  </string>
+</string_table>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_knife_6x4">
+		<text>6h4 銃剣</text>
+	</string>
+	<string id="st_knife_6x4_descr">
+		<text>ライフルに装着するために設計された銃剣。鋭い刃に加え、ノコギリ状の刃と、鞘と組み合わせることでワイヤーカッターとしても機能する。耐久性と汎用性に優れており、戦闘やサバイバル、各種作業に役立つ兵士必携の装備となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]30\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]52\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]10\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_red]不可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]25% - 40%\n
+		</text>
+	</string>
+
+	<string id="st_knife_needle">
+		<text>NR-40 スカウトナイフ</text>
+	</string>
+	<string id="st_knife_needle_descr">
+		<text>偵察兵や特殊部隊向けに開発された古典的な軍用ナイフ。特徴的な湾曲した刃と、頑丈な木製または合成樹脂製のグリップを備えている。優れたバランスと鋭い切れ味で知られ、近接戦や作業用として現在も人気が高い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]45\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]55\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]18\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_red]不可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]35% - 50%\n
+		</text>
+	</string>
+
+	<string id="st_knife_hunting">
+		<text>ハンティングナイフ</text>
+	</string>
+	<string id="st_knife_hunting_descr">
+		<text>皮剥ぎや切断など、一般的な野外でのサバイバル作業のために設計された多用途ナイフ。頑丈な一体型の刃と握りやすいグリップを備えており、猟師やアウトドア愛好家にとって欠かせない道具となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]42\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]71\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]24\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]45% - 60%\n
+		</text>
+	</string>
+
+	<string id="st_knife_swat">
+		<text>スペツナズ用折りたたみナイフ</text>
+	</string>
+	<string id="st_knife_swat_descr">
+		<text>近接戦闘を想定して設計され、素早い展開が可能な小型自動ナイフ。スプリング機構により素早く刃が出せるため、特殊部隊や隠密作戦において非常に有効な道具となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]54\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]78\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]55% - 70%\n
+		</text>
+	</string>
+
+	<string id="st_knife_combat">
+		<text>M9 銃剣</text>
+	</string>
+	<string id="st_knife_combat_descr">
+		<text>ライフルに装着するために設計された軍用銃剣。単体でも戦闘用ナイフや作業用ナイフとして機能する。ノコギリ状の刃、頑丈な設計、そしてワイヤーカッターとしても使えることから、戦闘とサバイバルの両方で非常に高い汎用性を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]48\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]87\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]65% - 85%\n
+		</text>
+	</string>
+
+	<string id="st_knifebf4">
+        <text>OTs-4 コンバットナイフ</text>
+    </string>
+    	<string id="st_knifebf4_descr">
+        <text>白兵戦での耐久性と実用性を重視して設計された戦術軍用ナイフ。鋭く強化された刃を備えており、様々な作業から近接戦闘まで役に立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]52\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]97\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
+		</text>
+    </string>
+
+	<string id="st_tactical_knife">
+		<text>モノリスブレード</text>
+	</string>
+	<string id="st_tactical_knife_descr">
+		<text>Monolithの職人によってごく少数のみ製作された重厚な戦闘用ナイフ。その素材は未知の合金で、石棺の中心部から直接抽出されたものだと噂されている。サイズが大きく、鋭い刃を備えているため、攻撃用にもサバイバル用にも理想的な性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]60\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]107\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
+		</text>
+	</string>
+
+	<string id="st_kukri">
+        <text>ククリ</text>
+    </string>
+    <string id="st_kukri_descr">
+        <text>独特の湾曲した刃を持つナイフ。強力な切断力で知られ、道具と武器の両方として古くから用いられてきた。刃の先端に重心を置いた設計により、高い切断力を発揮する。サバイバルや戦闘、そして様々な作業において欠かせない道具となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]65\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]117\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
+		</text>
+	</string>
+
+	<string id="st_tomahawk">
+		<text>Gerber トマホーク</text>
+	</string>
+	<string id="st_tomahawk_descr">
+		<text>突入作戦や近接戦闘、サバイバル用に設計された現代的な戦術ツール。鋭い斧刃と頑丈なスパイクを備え、多様な状況に対応できる。高い耐久性と人間工学に基づいた握りやすいグリップにより、軍や法執行機関、アウトドアでの使用において信頼できる道具となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]90\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]137\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		</text>
+	</string>
+
+	<string id="st_axe">
+		<text>狩猟斧</text>
+	</string>
+	<string id="st_axe2_descr">
+		<text>薪割りや獲物の処理など、一般的なサバイバル用途のために設計された小型の斧。頑丈な柄とバランスの取れた重さにより、野外活動や荒野でのサバイバルには欠かせない相棒だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]120\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]170\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]24\n
+		%c[d_green] • %c[pda_white]リーチが長い\n
+		%c[d_orange] • %c[pda_white]インベントリの狩猟斧を右クリック > 木を切る\n
+		</text>
+	</string>
+
+	<string id="st_sledge_hammer">
+		<text>スレッジハンマー</text>
+	</string>
+
+	<string id="st_sledge_hammer_descr">
+		<text>強力な一撃を放つ両手持ちの大型打撃工具。破壊作業やバリケードの突破、時には白兵戦にも使われる。圧倒的な重さと堅牢な造りで、あらゆる障害物を粉砕することができる。過酷なサバイバルや戦闘において、これほど頼りになる道具はないだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]120\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]170\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]45\n
+		%c[d_green] • %c[pda_white]リーチが長い\n
+		</text>
+	</string>
+
+</string_table>

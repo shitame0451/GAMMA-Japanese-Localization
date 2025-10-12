@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	Overwrites
+	beretta_camo
+-->
+	<string id="st_wpn_beretta_px4">
+		<text>Beretta Px4 Storm</text>
+	</string>
+	<string id="st_wpn_beretta_px4_descr">
+		<text>ロータリーバレル方式を採用した現代的なセミオートピストルで、命中精度を高め、反動を軽減する特徴を持っている。軍、法執行機関、民間での使用を想定して設計されており、軽量なポリマーフレーム、両利き対応の操作系、人間工学に基づいたモジュラー式グリップを備えている。その高い耐久性、滑らかな作動、優れた汎用性から、護身用や戦術的な運用において非常に頼りになる銃だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イタリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Fabbrica d'Armi Pietro Beretta\n
+		</text>
+	</string>
+	
+	<string id="st_up_px4_a1_name">
+		<text>.45ACP弾用に改造</text>
+	</string>
+	<string id="st_up_px4_a1_descr">
+		<text>銃の部品や機構を改造し、使用する弾薬を変更する。</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_wpn_beretta_m9">
+		<text>Beretta M9</text>
+	</string>
+	<string id="st_wpn_beretta_m9_descr">
+		<text>This legendary semi-automatic handgun has not only won the historic contract with the US military in 1985 but has achieved a triumphant contract renewal after more than two decades of hard use in the world’s toughest and most extreme conditions. It is a pistol featuring superb out-of-the-box accuracy with dreamlike durability and reliability.\n \n
+		%c[pda_white]PROPERTIES:\n
+		%c[d_cyan] • %c[pda_white] origin: %c[ui_gray_1]Italy, United States\n
+		%c[d_cyan] • %c[pda_white] manufacturer:  %c[ui_gray_1]Fabbrica d'Armi Pietro Beretta\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

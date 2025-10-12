@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_prop_scope_1.5x">
+		<text>%c[0,255,255,255]一体型Docter Sight</text>
+	</string>    
+</string_table>

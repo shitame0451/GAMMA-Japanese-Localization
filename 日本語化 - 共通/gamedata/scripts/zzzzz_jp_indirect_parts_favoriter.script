@@ -1,0 +1,20 @@
+-- indirect_parts_favoriter.script
+
+-- ===================================================================
+--  indirect_parts_favoriter.name_and_cond （日本語化向けに語順を並び替える）
+-- ===================================================================
+local original_name_and_cond = indirect_parts_favoriter.indirect_parts_favoriter.name_and_cond
+
+indirect_parts_favoriter.indirect_parts_favoriter.name_and_cond = function(sec, con, threshold, mode)
+	local line = original_name_and_cond(sec, con, threshold, mode)
+
+	if mode == 2 then
+		-- 「耐久値が threshold %以上の部品をお気に入りから外す」
+		line = game.translate_string("st_part_condition") .. threshold .. game.translate_string("st_unfavorite_all_part")
+	elseif mode == 3 then
+		-- 「耐久値が threshold %未満の部品と不足部品をお気に入りに指定」
+		line = game.translate_string("st_part_condition") .. threshold .. game.translate_string("st_favorite_all_part")
+	end
+
+	return line
+end

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+  <string id="st_idiots_tab_all">
+    <text>全体</text>
+  </string>
+  <string id="st_idiots_title_all">
+    <text>全体命令</text>
+  </string>
+
+  <!-- Messages -->
+  <string id="st_idiots_move_point_message">
+    <text>%s人の仲間を指定地点へ移動中</text>
+  </string>
+  <string id="st_idiots_move_all_point_message">
+    <text>全仲間を指定地点へ移動中</text>
+  </string>
+  <string id="st_idiots_move_away_message">
+    <text>%s人の仲間を障害物から移動中</text>
+  </string>
+  <string id="st_idiots_add_waypoint_message">
+    <text>ウェイポイントを追加</text>
+  </string>
+  <string id="st_idiots_waypoint_error">
+    <text>ウェイポイントの追加・削除には仲間を選択する必要がある</text>
+  </string>
+  <string id="st_idiots_clear_waypoints_message">
+    <text>すべてのウェイポイントを削除</text>
+  </string>
+  <string id="st_idiots_resync_message">
+    <text>%s人の仲間を全体命令に同期</text>
+  </string>
+  <string id="st_idiots_resync_all_message">
+    <text>すべての仲間を全体命令に同期</text>
+  </string>
+  <string id="st_idiots_select_message">
+    <text>仲間 #%s を選択 (選択中: %s人)</text>
+  </string>
+  <string id="st_idiots_deselect_message">
+    <text>仲間 #%s の選択を解除 (選択中: %s人)</text>
+  </string>
+  <string id="st_idiots_deselect_all_message">
+    <text>全仲間の選択を解除</text>
+  </string>
+  <string id="st_idiots_retreat_message">
+    <text>%s人の仲間に退避を指示</text>
+  </string>
+  <string id="st_idiots_retreat_all_message">
+    <text>全仲間に退避を指示</text>
+  </string>
+  <string id="st_idiots_enabled_message">
+    <text>有効</text>
+  </string>
+  <string id="st_idiots_disabled_message">
+    <text>無効</text>
+  </string>
+
+  <!-- Titlebar Buttons -->
+  <string id="st_idiots_reset_all">
+    <text>全員を同期</text>
+  </string>
+  <string id="st_idiots_reset">
+    <text>全体命令に同期</text>
+  </string>
+  <string id="st_idiots_reload">
+    <text>リロードする</text>
+  </string>
+  <string id="st_idiots_unstick">
+    <text>スタック解除</text>
+  </string>
+  <string id="st_idiots_inventory">
+    <text>所持品</text>
+  </string>
+  <string id="st_idiots_clear_waypoints">
+    <text>ウェイポイントをクリア</text>
+  </string>
+  <string id="st_idiots_add_waypoint">
+    <text>ウェイポイント追加</text>
+  </string>
+  <string id="st_idiots_retreat">
+    <text>緊急退避</text>
+  </string>
+
+  <!-- Movement -->
+  <string id="st_idiots_movement">
+    <text>行動指示</text>
+  </string>
+  <string id="st_idiots_movement_follow">
+    <text>プレイヤーに追従</text>
+  </string>
+  <string id="st_idiots_movement_wait">
+    <text>その場で待機</text>
+  </string>
+  <string id="st_idiots_movement_cover">
+    <text>安全な場所に避難</text>
+  </string>
+  <string id="st_idiots_movement_relax">
+    <text>警戒解除</text>
+  </string>
+  <string id="st_idiots_movement_patrol">
+    <text>巡回行動</text>
+  </string>
+
+  <!-- Light -->
+  <string id="st_idiots_light_auto">
+    <text>自動</text>
+  </string>
+  <string id="st_idiots_light_off">
+    <text>ヘッドランプオフ</text>
+  </string>
+  <string id="st_idiots_light_on">
+    <text>ヘッドランプオン</text>
+  </string>
+
+  <!-- Speeds -->
+  <string id="st_idiots_speed_hurry">
+    <text>急ぎ足で移動</text>
+  </string>
+
+  <!-- Stances -->
+  <string id="st_idiots_stance">
+    <text>姿勢</text>
+  </string>
+  <string id="st_idiots_stance_stand">
+    <text>立つ</text>
+  </string>
+  <string id="st_idiots_stance_sneak">
+    <text>しゃがむ</text>
+  </string>
+  <string id="st_idiots_stance_prone">
+    <text>伏せる</text>
+  </string>
+
+  <!-- Distance -->
+  <string id="st_idiots_distance">
+    <text>距離</text>
+  </string>
+  <string id="st_idiots_distance_near">
+    <text>近距離</text>
+  </string>
+  <string id="st_idiots_distance_normal">
+    <text>標準距離</text>
+  </string>
+  <string id="st_idiots_distance_far">
+    <text>遠距離</text>
+  </string>
+
+  <!-- Combat -->
+  <string id="st_idiots_combat">
+    <text>戦闘スタイル</text>
+  </string>
+  <string id="st_idiots_combat_default">
+    <text>標準行動</text>
+  </string>
+  <string id="st_idiots_combat_assault">
+    <text>突撃重視</text>
+  </string>
+  <string id="st_idiots_combat_support">
+    <text>味方支援</text>
+  </string>
+  <string id="st_idiots_combat_guard">
+    <text>位置防衛</text>
+  </string>
+  <string id="st_idiots_combat_snipe">
+    <text>遠距離重視</text>
+  </string>
+  <string id="st_idiots_combat_monolith">
+    <text>モノリス流</text>
+  </string>
+  <string id="st_idiots_combat_camper">
+    <text>待ち伏せ</text>
+  </string>
+  <string id="st_idiots_combat_zombied">
+    <text>ゾンビ風</text>
+  </string>
+
+  <!-- Weapon -->
+  <string id="st_idiots_weapon">
+    <text>武器種別</text>
+  </string>
+  <string id="st_idiots_weapon_best">
+    <text>最適な武器</text>
+  </string>
+  <string id="st_idiots_weapon_pistol">
+    <text>ピストル</text>
+  </string>
+  <string id="st_idiots_weapon_shotgun">
+    <text>ショットガン</text>
+  </string>
+  <string id="st_idiots_weapon_smg">
+    <text>サブマシンガン</text>
+  </string>
+  <string id="st_idiots_weapon_rifle">
+    <text>ライフル</text>
+  </string>
+  <string id="st_idiots_weapon_sniper">
+    <text>スナイパーライフル</text>
+  </string>
+
+  <!-- Readiness -->
+  <string id="st_idiots_readiness">
+    <text>戦闘態勢</text>
+  </string>
+  <string id="st_idiots_readiness_attack">
+    <text>攻撃態勢</text>
+  </string>
+  <string id="st_idiots_readiness_defend">
+    <text>防衛態勢</text>
+  </string>
+  <string id="st_idiots_readiness_ignore">
+    <text>戦闘を無視</text>
+  </string>
+
+  <!-- Jobs -->
+  <string id="st_idiots_jobs">
+    <text>行動指示</text>
+  </string>
+  <string id="st_idiots_jobs_loot_items">
+    <text>アイテムを回収する</text>
+  </string>
+  <string id="st_idiots_jobs_loot_artifacts">
+    <text>アーティファクトも対象</text>
+  </string>
+  <string id="st_idiots_jobs_loot_corpses">
+    <text>死体を漁る</text>
+  </string>
+  <string id="st_idiots_jobs_help_wounded">
+    <text>負傷者を手当てする</text>
+  </string>
+
+  <!-- Formations -->
+  <string id="st_idiots_formation">
+    <text>隊形</text>
+  </string>
+  <string id="st_idiots_formation_bunch">
+    <text>自由配置</text>
+  </string>
+  <string id="st_idiots_formation_spread">
+    <text>横に並ぶ</text>
+  </string>
+  <string id="st_idiots_formation_line">
+    <text>縦に並ぶ</text>
+  </string>
+  <string id="st_idiots_formation_covered">
+    <text>遮蔽物を使う</text>
+  </string>
+</string_table>

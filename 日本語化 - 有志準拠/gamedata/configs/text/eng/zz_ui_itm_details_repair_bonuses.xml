@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="st_ui_repair_kits_by_material">
+		<text>%c[pda_white]以下の修理アイテムで補助材料として使用可能:</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,22 @@
+-- ish_kill_tracker.script
+
+-- ===================================================================
+--  map_spot_menu_add_property （キルマーカーのコンテキストメニューの "\n" を削除）
+-- ===================================================================
+local original_map_spot_menu_add_property = ish_kill_tracker.map_spot_menu_add_property
+
+ish_kill_tracker.map_spot_menu_add_property = function(property_ui, id, st1, st2)
+	local backup_AddItem = property_ui.AddItem
+	property_ui.AddItem = function(self, text, ...)
+		if type(text) == "string" then
+			text = string.gsub(text, "\\n", "")
+		end
+		return backup_AddItem(self, text, ...)
+	end
+
+	local result = original_map_spot_menu_add_property(property_ui, id, st1, st2)
+
+	property_ui.AddItem = backup_AddItem
+
+	return result
+end

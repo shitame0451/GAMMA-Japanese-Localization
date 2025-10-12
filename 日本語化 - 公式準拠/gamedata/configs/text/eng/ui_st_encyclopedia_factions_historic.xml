@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="encyclopedia_factions_historic">
+    <text>派閥（歴史的）</text>
+  </string>
+  <string id="encyclopedia_factions_historic_final_day">
+    <text>ファイナル・デイ（Final Day）</text>
+  </string>
+  <string id="encyclopedia_factions_historic_final_day_text">
+    <text>                        %c[guide_blue]「ファイナル・デイ（Final Day）」
+%c[ui_gray]科学者たちの一派で、「ラスト・デイ（Last Day）」や「ワイルドストーカー（Wild stalkers）」とも呼ばれていた。\n
+
+                        \n%c[guide_green]情報
+                        \n%c[ui_gray]彼らは、ゾーンが最終的に世界の終わりをもたらし、光熱放射が通過するたびにさらに多くの土地に拡大し、領域を広げるだろうと信じていた。\n
+                        \n研究目的でゾンビ化ストーカーたちを狩ることに魅入られたこと、そして今や忘れ去られたリーダーがゴーストと呼ばれるストーカーに暗殺されたことを除けば、彼らについてはほとんど知られていない。\n
+                        \nクリアスカイの大部分を消し去った光熱放射の直後に活動を起こしたので、惨状を目撃し錯乱してしまった生存者たちの小さな分派であった可能性がある。</text>
+  </string>
+  <string id="encyclopedia_factions_historic_isg">
+    <text>ISG（国際科学グループ）</text>
+  </string>
+  <string id="encyclopedia_factions_historic_isg_text">
+    <text>                        %c[guide_blue]「ISG（国際科学グループ）」
+                        %c[ui_gray]ゾーンの研究のために設立された。\n
+
+                        \n%c[guide_green]情報
+                        \n%c[ui_gray]突然のゾーンの出現を受けて、国連はこの奇妙な新現象の研究と説明を唯一の目的とする新しい研究機関を設立した。\n
+                        \n6台の大型発電機を取り巻くはるか北側の地域が最も科学的に興味深いとされ、彼らの調査地として選ばれた。\n
+                        \nわずか数か月の滞在だったが、彼らの研究は、準備することを知らなかった問題に悩まされることになった。\n
+                        \n研究者たちは、目に見えないアノマリーに飲み込まれたり、恐ろしいほど変異した野生生物に蹂躙されたりした。他の研究者は不可解にも姿を消し、数日後にゾンビ化したトランス状態で戻ってきて同僚を殺そうとした。\n
+                        \n遠征隊はほとんど成果を上げられず、容認できないほど死者が多くなってしまったため、最終的には中止になってしまった。\n
+                        \n彼らの失敗にとらわれず、調査を継続するためにウクライナ政府は研究所を設立した。現在では一般的にエコロジストと呼ばれている。</text>
+  </string>
+  <string id="encyclopedia_factions_historic_renegade">
+    <text>レネゲード（Renegade）</text>
+  </string>
+  <string id="encyclopedia_factions_historic_renegade_text">
+    <text>
+                        %c[guide_blue]「レネゲード（Renegade）」
+%c[ui_gray]ゾーンの中で最も卑劣なストーカーたちだった。\n
+
+                        \n%c[guide_green]情報\n
+                        \n%c[ui_gray]制限やモラルを持たない彼らは主に、元々の派閥から追い出されたほどの凶悪な犯罪を犯したストーカーたちを中心に構成されていた。\n
+                        \n彼らが尊重する唯一の法律は武力であり、ゾーンの周辺で弱者を食い物にしていた。多くの場合、若くて経験が浅いために、彼らに対抗するチャンスは無かった。\n
+                        \n多数の敵によって沼地に追いやられたジャッカルたちは、クリアスカイに直面して初めて、生き残りたいという思いから、独自の派閥として団結することを余儀なくされた。</text>
+  </string>
+</string_table>

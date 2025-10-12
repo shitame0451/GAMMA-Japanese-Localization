@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+	Devices
+-->
+
+<string_table>
+
+	<string id="st_itm_exo_psu_name">
+		<text>強化外骨格用補助電源（粗製）</text>
+	</string>
+	<string id="st_itm_exo_psu_descr">
+		<text>強化外骨格の稼働時間を延ばし、任務の継続性と効率を高めるために設計された補助電源。このモデルは雑な作りで効率も悪いため、大幅なエネルギー容量の増加は期待できないが、稼働時間の延長には一定の効果がある。ただし、充電切れの問題を根本から解決するものではない。
+		\n強化外骨格にドラッグ&amp;ドロップで取り付ける。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]150\n
+		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]100%\n</text>
+	</string>
+	<string id="st_itm_exo_psu_mili_name">
+		<text>強化外骨格用補助電源（軍規格）</text>
+	</string>
+	<string id="st_itm_exo_psu_mili_descr">
+		<text>強化外骨格の稼働時間を延ばし、任務の継続性と効率を高めるために設計された補助電源。このモデルは工場で専門的に製造されており、強化外骨格に簡単に取り付けられる。やや重量はあるが、非常に頑丈で、エネルギー容量を大幅に増やすと同時に、エネルギー効率の向上もわずかながら期待できる。
+		\n強化外骨格にドラッグ&amp;ドロップで取り付ける。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]250\n
+		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]85%\n</text>
+	</string>
+	<string id="st_itm_exo_psu_sci_name">
+		<text>強化外骨格用補助電源「リアクター」（試作機）</text>
+	</string>
+	<string id="st_itm_exo_psu_sci_descr">
+		<text>強化外骨格の稼働時間を延ばし、任務の継続性と効率を高めるために設計された補助電源。このモデルは実験的に開発された試作機で、«バッテリー»の電気特性を利用してエネルギー消費を抑え、長時間の運用を実現している。任務の継続時間と効率を向上させるだけでなく、強力な電撃を放つ「パージ機能」も備えている。
+		\n強化外骨格にドラッグ&amp;ドロップで取り付ける。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]400\n
+		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]50%\n
+		%c[d_orange] • %c[pda_white]「%c[d_orange]強化外骨格のアビリティ%c[pda_white]」キーでエレクトリック・ノヴァを発射する\n</text>
+	</string>
+	<string id="st_itm_exo_psu_tank_name">
+		<text>強化外骨格用補助電源「ストロングホールド」（試作機）</text>
+	</string>
+	<string id="st_itm_exo_psu_tank_descr">
+		<text>強化外骨格の稼働時間を延ばし、任務の継続性と効率を高めるために設計された補助電源。このモデルは実験的に開発された試作機で、激しい砲火の中を突破する前線部隊の支援を目的に設計されている。起動時には«エンプティ»の重力特性を活かして局所的なアノマリー領域を展開し、高速で飛来する弾丸や破片を減速させたり、多くのミュータントの攻撃を防ぎやすくする。ただし、その重力場は使用者の動きも鈍らせてしまう。
+		\n強化外骨格にドラッグ&amp;ドロップで取り付ける。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]500\n
+		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]135%\n
+		%c[d_orange] • %c[pda_white]「%c[d_orange]強化外骨格のアビリティ%c[pda_white]」キーでダメージを大幅に軽減する\n</text>
+	</string>
+	<string id="st_itm_exo_psu_sprint_name">
+		<text>強化外骨格用補助電源「エンジン」（試作機）</text>
+	</string>
+	<string id="st_itm_exo_psu_sprint_descr">
+		<text>強化外骨格の稼働時間を延ばし、任務の継続性と効率を高めるために設計された補助電源。このモデルはEcologistの設計図をもとに開発された実験的な試作機で、«フラッシュ»の蓄電特性を活用してサーボモーターを駆動し、機動力を向上させることができる。起動すると移動速度が大きく上昇し、進行ルート上のあらゆる対象に強力なダメージを与える。
+		\n強化外骨格にドラッグ&amp;ドロップで取り付ける。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]300\n
+		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]85%\n
+		%c[d_orange] • %c[pda_white]「%c[d_orange]強化外骨格のアビリティ%c[pda_white]」キーで移動速度が上昇する\n</text>
+	</string>
+	<string id="st_batteries_ccell">
+		<text>軍用バッテリーユニット</text>
+	</string>
+	<string id="st_batteries_ccell_descr">
+		<text>強化外骨格への電力供給を目的とした、軍用規格の大型バッテリー。ウクライナの研究施設でゾーンの研究成果をもとに開発された高密度の電力ユニットで、強化外骨格のバッテリー交換や直接的な電力供給に使用される。
+		\n強化外骨格にドラッグ&amp;ドロップで充電する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]強化外骨格の充電\n</text>
+	</string>
+	<string id="st_exo_recipe_1">
+		<text>科学論文</text>
+	</string>
+	<string id="st_exo_recipe_1_descr">
+		<text>V.R.ソレノフおよびR.R.ロマノヴィッチによる『人工電磁場下における«バッテリー»の挙動』というタイトルの科学論文。様々な強度の電磁場に曝された«バッテリー»の反応とその観測結果が詳細に記録されており、特定のVPMレベルでは電場強度に関係なく、短時間ながら直流電流を放出することが明らかにされている。論文には文章だけでなく数式、グラフ、写真、実験記録が含まれ、正電流下での電圧出力を最適化するための回路図も掲載されている。文書にはウクライナ科学省の公印が押されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n</text>
+	</string>
+	<string id="st_exo_recipe_2">
+		<text>科学論文</text>
+	</string>
+	<string id="st_exo_recipe_2_descr">
+		<text>A.N.ペルチェノフおよびV.R.ソレノフによる『«フルエンプティ»が投影する重力シェルの観察と分析』というタイトルの科学論文。«フルエンプティ»が持つ重力効果についての観測結果が詳細にまとめられている。論文には、«エンプティ»を構成する2枚のディスクが時空を歪ませ、小規模な重力アノマリーを発生させる仕組みが解説されている。一方で«フルエンプティ»特有の性質については未解明であるものの、高エネルギー状態のゼロ点エネルギーを帯びた空気中の荷電粒子である可能性が示唆されている。この粒子が真空環境下で特定の交流電流に曝された際、そのアノマリーは拡張し、固体を弾くほどの「殻」を形成するという。この現象の観察は、研究者に負傷者を出す事態にも繋がった。論文には、この現象の再現に必要な真空封入装置の図面も掲載されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n</text>
+	</string>
+	<string id="st_exo_recipe_3">
+		<text>科学論文</text>
+	</string>
+	<string id="st_exo_recipe_3_descr">
+		<text>R.R.ロマノヴィッチおよびA.N.ペルチェノフによる『«フラッシュ»のエンジン出力への応用』というタイトルの科学論文。«フラッシュ»が電気機械に及ぼす奇妙な影響が詳細に書かれている。論文によれば、真空環境で«フラッシュ»に正電流を流すとアノマリー領域が形成され、機械の性能を飛躍的に向上させるそうだ。モーターの回転が加速し、CPUはオーバークロック状態となり、機械式時計でさえ動作速度が上がると記録されている。ただし、長時間の使用は機器の過熱や摩擦による焼損を引き起こすと報告されている。この現象の原因として、量子レベルでの電磁的干渉が有力な仮説として提示されており、論文には使用された封入容器の図面も掲載されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n</text>
+	</string>
+	<string id="st_power">
+		<text>%c[pda_white]残りの電力:</text>
+	</string>
+	<string id="st_equipped_supply">
+		<text>%c[pda_white]補助電源:</text>
+	</string>
+	<string id="st_equipped_none">
+		<text>なし</text>
+	</string>
+	<string id="st_charge_exo">
+		<text>強化外骨格を充電する</text>
+	</string>
+	<string id="st_install_psu">
+		<text>強化外骨格に取り付ける</text>
+	</string>
+	<string id="st_remove_psu">
+		<text>補助電源を外す</text>
+	</string>
+	<string id="kb_power">
+		<text>パワーを起動</text>
+	</string>
+	<string id="st_dot">
+		<text>•</text>
+	</string>
+	<string id="article_exo">
+		<text>強化外骨格について</text>
+	</string>
+	<string id="article_exo_text">
+		<text>
+%c[pda_white]強化外骨格の動力%c[ui_gray_1]
+\n強化外骨格は独自の動力源で稼働しており、効果的に運用するには継続的な電力供給が必要です。
+
+\n \n%c[pda_white]強化外骨格用バッテリー%c[ui_gray_1]
+\n強化外骨格の電力は、トレーダーから購入するか、ゾーン内で発見したバッテリーで充電することができます。バッテリーは使用すると電力を100%まで回復させるため、通常の強化外骨格の充電には十分です。
+\n電力は移動することで消費され、走行中はより消費量が高くなります。電力が0%になると、スーツを脱ぐまで移動速度が大きく低下します。
+
+\n \n%c[pda_white]強化外骨格用補助電源%c[ui_gray_1]
+\n強化外骨格は補助電源で強化できます。これらはトレーダーから購入したり、クラフトや戦利品として入手することが可能です。
+\n補助電源はスーツにドラッグ&amp;ドロップするか、強化外骨格装着中に補助電源を右クリックして装備できます。
+\n補助電源を取り付けることで、電力の最大容量が100%以上に拡張され、上位モデルには特別なボーナスや追加機能が備わっています。</text>
+	</string>
+	<string id="st_err_none">
+		<text>[SYSCTL]警告: 機能が見つかりません</text>
+	</string>
+	<string id="st_err_power">
+		<text>[SYSCTL]警告: 電力が不足しています</text>
+	</string>
+	<string id="st_err_cooldown">
+		<text>[SYSCTL]警告: システム温度が安全値を超えています</text>
+	</string>
+	<string id="st_ok_cooldown">
+		<text>[SYSCTL]情報: システム温度は正常です</text>
+	</string>
+	<string id="st_act_tank">
+		<text>[SYSCTL]情報: 重力バリア展開中</text>
+	</string>
+	<string id="st_act_sprint">
+		<text>[SYSCTL]情報: モーターオーバークロック作動中</text>
+	</string>
+	<string id="st_low_power">
+		<text>[SYSCTL]警告: 電力が残り僅かです</text>
+	</string>
+	<string id="ui_mcm_menu_exo">
+		<text>Powered Exos</text>
+	</string>
+	<string id="ui_mcm_exo_title">
+		<text>Powered Exoskeletons</text>
+	</string>
+	<string id="ui_mcm_exo_drain">
+		<text>強化外骨格の電源消費量</text>
+	</string>
+	<string id="ui_mcm_exo_sprint_drain">
+		<text>強化外骨格での走行時の電源消費量</text>
+	</string>
+	<string id="ui_mcm_exo_debug">
+		<text>デバッグのログ出力</text>
+	</string>
+	<string id="ui_mcm_exo_drain_desc">
+		<text>強化外骨格の電源消費倍率を設定します。</text>
+	</string>
+	<string id="ui_mcm_exo_sprint_drain_desc">
+		<text>強化外骨格での走行時の電源消費倍率を設定します。</text>
+	</string>
+	<string id="ui_mcm_exo_battery_chance">
+		<text>バッテリーのドロップ確率</text>
+	</string>
+	<string id="ui_mcm_exo_battery_chance_desc">
+		<text>ストーカーがバッテリーを落とす確率を設定します。強化外骨格を装着しているストーカーのみがバッテリーを落とします。</text>
+	</string>
+	<string id="ui_mcm_exo_debug_desc">
+		<text>コンソールにデバッグログを出力します。</text>
+	</string>
+	<string id="ui_mcm_menu_exo_power">
+		<text>Exo Power Keybind</text>
+	</string>
+	<string id="ui_mcm_exo_power_keybind">
+		<text>強化外骨格のアビリティ (Exo Power Keybind)</text>
+	</string>
+	<string id="ui_mcm_exo_power_keybind_desc">
+		<text>強化外骨格の補助電源に搭載されている機能を起動します。</text>
+	</string>
+</string_table>

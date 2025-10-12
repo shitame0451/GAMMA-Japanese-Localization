@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Devices
+-->
+
+<string_table>
+	<string id="st_pda_name">
+		<text>PDA</text>
+	</string>
+	<string id="st_pda_descr">
+		<text>PDA（Personal Digital Assistant）はストーカーに必要不可欠なデバイスで、ゾーンでの移動や通信をサポートする機能を備えている。マップや任務ログ、メッセージ機能が搭載されており、行動の管理や目標の把握に役立つ。コンパクトで持ち運びやすく、日々の活動に欠かせない存在だ。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_pda_1_name">
+		<text>PDA</text>
+	</string>
+	<string id="st_pda_1_descr">
+		<text>PDA（Personal Digital Assistant）はストーカーに必要不可欠なデバイスで、ゾーンでの移動や通信をサポートする機能を備えている。マップや任務ログ、メッセージ機能が搭載されており、行動の管理や目標の把握に役立つ。コンパクトで持ち運びやすく、日々の活動に欠かせない存在だ。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_pda_2_name">
+		<text>PDA v2.0 KilTrak™</text>
+	</string>
+	<string id="st_pda_2_descr">
+		<text>PDA（Personal Digital Assistant）はストーカーに必要不可欠なデバイスで、ゾーンでの移動や通信をサポートする機能を備えている。マップや任務ログ、メッセージ機能が搭載されており、行動の管理や目標の把握に役立つ。コンパクトで持ち運びやすく、日々の活動に欠かせない存在だ。
+\nこのモデルにはIMI社の「KilTrak」の海賊版がインストールされており、ストーカーたちの間で特に注目を集めている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]排除した標的の位置を表示する\n
+		</text>
+	</string>
+	<string id="st_pda_3_name">
+		<text>PDA v3.1</text>
+	</string>
+	<string id="st_pda_3_descr">
+		<text>PDA（Personal Digital Assistant）はストーカーに必要不可欠なデバイスで、ゾーンでの移動や通信をサポートする機能を備えている。マップや任務ログ、メッセージ機能が搭載されており、行動の管理や目標の把握に役立つ。コンパクトで持ち運びやすく、日々の活動に欠かせない存在だ。
+\nこのモデルは大幅に改良され、ネットワークに接続された他のモジュールの位置を取得・処理できるようになっている。ただし、高度な機能を利用するには専用の認証コードが求められる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]中立派閥の分隊の位置を表示する\n
+		</text>
+	</string>
+	<string id="st_detector1">
+		<text>エコー検出器</text>
+	</string>
+	<string id="st_detector1_descr">
+		<text>古い電子部品で構成された、基本的かつ旧式のアーティファクト検出器。アーティファクトに近づくと警報音が鳴り、距離に応じて音の高さが変化する仕組みになっている。安価で入手しやすいが、探知範囲や性能は限定的で、主に初心者のストーカーが使用する装備とされている。\n \n
+		%c[pda_white]特性:\n
+		%c[pda_white] • %c[pda_white]ティア I\n
+		%c[d_orange] • %c[pda_white]コモンアーティファクトを検出する\n
+		</text>
+	</string>
+	<string id="st_detector2">
+		<text>ベアー検出器</text>
+	</string>
+	<string id="st_detector2_descr">
+		<text>「ベアー」は第一世代のアーティファクト検出器を改良したモデルで、視認性に優れたレーダー画面と高品質な電子部品が特徴。方向を示す機能により、アーティファクトの位置をより正確に把握できる。扱いやすさと性能のバランスに優れ、多くのストーカーから信頼されている。\n \n
+		%c[pda_white]特性:\n
+		%c[pda_white] • %c[pda_white]ティア II\n
+		%c[d_orange] • %c[pda_white]コモン&amp;レアアーティファクトを検出する\n
+		</text>
+	</string>
+	<string id="st_detector3">
+		<text>ベルズ検出器</text>
+	</string>
+	<string id="st_detector3_descr">
+		<text>「ベルズ」は第二世代にあたる高性能アーティファクト検出器で、効率性と信頼性の高さで知られている。詳細なビジュアルインターフェースを搭載し、アーティファクトとアノマリーの位置を同時に表示できるため、探索中の安全性が大幅に向上する。高価ではあるが、その性能の高さから、経験豊富なストーカーたちに支持されている。\n \n
+		%c[pda_white]特性:\n
+		%c[pda_white] • %c[pda_white]ティア III\n
+		%c[d_orange] • %c[pda_white]すべてのアーティファクトを検出する\n
+		</text>
+	</string>
+	<string id="st_detector4">
+		<text>スヴァログ検出器</text>
+	</string>
+	<string id="st_detector4_descr">
+		<text>「スヴァログ」は試作型のアーティファクト検出器で、ゾーンにおける探知技術の最先端を象徴する装備だ。アーティファクトの位置を特定するだけでなく、アノマリーフィールドのマッピング機能を備え、広範囲の状況を正確に把握できる。その優れた性能から、科学調査や危険なアーティファクト回収任務における必須装備とされている。\n \n
+		%c[pda_white]特性:\n
+		%c[pda_white] • %c[pda_white]ティア IV\n
+		%c[d_orange] • %c[pda_white]科学的に未確認のものを含め、すべてのアーティファクトを検出する\n
+		</text>
+	</string>
+	<string id="st_detector9">
+		<text>RF受信機</text>
+	</string>
+	<string id="st_detector9_descr">
+		<text>ゾーン内の通信を傍受・監視するために使用するRF（Radio Frequency）受信機。ストーカーたちはこの機器を使用し、派閥の動向や隠し場所に関する重要な情報を得ることができる。ただし、受信の精度は電波の強さや発信源との距離に左右される。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_detector8">
+		<text>アノマリー測定装置</text>
+	</string>
+	<string id="st_detector8_descr">
+		<text>アノマリーフィールドを測定・記録するための専用機器。高感度センサーと耐久性の改良により、過酷な環境下でも安定した動作を実現している。最初の試作機は2008年、ヤンターの移動ラボでサハロフ教授の監修により設計され、実地調査で効果が実証された後、本格的に生産されるようになった。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アノマリーの位置を特定する\n
+		</text>
+	</string>
+	<string id="st_broken_pda">
+		<text>壊れたPDA</text>
+	</string>
+	<string id="st_broken_pda_descr">
+		<text>動作不能となったPDA。倒れたストーカーの遺品や放棄された荷物の中から見つかることが多い。このままでは使用できないが、内部のデータや一部の部品は再利用できるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+		</text>
+	</string>
+	<string id="st_device_torch_name">
+		<text>ヘッドランプ</text>
+	</string>
+	<string id="st_device_torch_descr">
+		<text>ヘッドギアに取り付ける携帯型の光源。暗所での作業時に両手を自由に使える利便性があり、夜間の移動や照明のない建物内の探索に欠かせない。視界を確保しながら作業を進めるのに役立つ装備だ。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_device_torch_nv_1_name">
+		<text>ヘッドランプ／1PN93-1 ナイトビジョン</text>
+	</string>
+	<string id="st_device_torch_nv_1_descr">
+		<text>ヘッドギアに取り付ける携帯型の光源。暗所での作業時に両手を自由に使える利便性があり、夜間の移動や照明のない建物内の探索に欠かせない。視界を確保しながら作業を進めるのに役立つ装備だ。
+\nこのモデルには「1PN93-1」ナイトビジョン装置が取り付けられている。第2世代の画像増幅技術により、夜間や暗所での作戦時に高い視認性を確保できる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_device_torch_nv_2_name">
+		<text>ヘッドランプ／PN21KL ナイトビジョン</text>
+	</string>
+	<string id="st_device_torch_nv_2_descr">
+		<text>ヘッドギアに取り付ける携帯型の光源。暗所での作業時に両手を自由に使える利便性があり、夜間の移動や照明のない建物内の探索に欠かせない。視界を確保しながら作業を進めるのに役立つ装備だ。
+\nこのモデルには「PN21KL」ナイトビジョン装置が取り付けられている。第2世代の画像増幅機能により、月明かりなどの自然光下での夜間活動に適している。また、赤外線イルミネーターにより完全な暗闇でも問題なく運用できる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_device_torch_nv_3_name">
+		<text>ヘッドランプ／オラクル プサイ刺激装置</text>
+	</string>
+	<string id="st_device_torch_nv_3_descr">
+		<text>ヘッドギアに取り付ける携帯型の光源。暗所での作業時に両手を自由に使える利便性があり、夜間の移動や照明のない建物内の探索に欠かせない。視界を確保しながら作業を進めるのに役立つ装備だ。
+\nこのモデルには映像ノイズを除去する画像処理ソフトウェアが搭載されている。「PN21K」の画像増幅性能が向上することで、本格的な第3世代のナイトビジョン装置としての性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_device_flashlight">
+		<text>懐中電灯</text>
+	</string>
+	<string id="st_device_flashlight_descr">
+		<text>手持ち式の携帯ライトはストーカーの装備の定番だ。照明や合図など多用途に使えるが、片手が塞がるため、状況によっては扱いにくい場面もある。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_batteries_dead">
+		<text>古びたバッテリー</text>
+	</string>
+	<string id="st_batteries_dead_descr">
+		<text>泥だらけで腐食の進んだバッテリー。資源が限られたゾーンでは、こうした使い古しのバッテリーでさえ貴重品だ。時には再充電や部品の再利用が可能なこともある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+		</text>
+	</string>
+	<string id="st_batteries">
+		<text>バッテリーパック</text>
+	</string>
+	<string id="st_batteries_descr">
+		<text>ゾーンでの活動に欠かせない電源ユニット。懐中電灯やヘッドランプ、検出器などのストーカーの基本装備を動かすために広く使われている。緊急時に備えて予備を持ち歩くのが賢明だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]電源\n
+		</text>
+	</string>
+	<string id="st_batteries_ccell">
+		<text>軍用バッテリーユニット</text>
+	</string>
+	<string id="st_batteries_ccell_descr">
+		<text>軍の装備に使用する頑丈な大容量バッテリー。高度な兵器や通信機の動力源として使われ、過酷な環境下でも安定して動くのが特長だ。軍の関係者が小遣い稼ぎのためにトレーダーへ横流しすることもあり、ストーカーの間では高値で取引される貴重な品となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]電源\n
+		</text>
+	</string>
+	<string id="st_geiger_dead">
+		<text>ガイガーカウンター</text>
+	</string>
+	<string id="st_geiger_dead_descr">
+		<text>放射線量を測定する携帯型デバイスで、放射能汚染を検出するために欠かせない装備だ。これがあれば危険な区域を察知でき、ゾーンをより安全に移動できるようになる。定期的な測定を行えば、有害な放射線への長時間の被曝を防げるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]放射能汚染のレベルを測定する\n
+		</text>
+	</string>
+	<string id="st_electric power">
+		<text>ユニバーサルパワーデバイス（電気）</text>
+	</string>
+	<string id="st_electric power_descr">
+		<text>冷戦時代に製造された電源ユニットで、大きさは小型トランシーバー程度。ほとんどの種類のバッテリーに対応し、微細な電線を通じて電子機器に安定した電力を供給する。この電線は機器の複雑さや年代を問わず接続可能で、ストーカーは限られたバッテリーで複数の電子機器を運用することができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]携行用電源\n
+		</text>
+	</string>
+	<string id="extension_pda">
+		<text>マルチメディアPDA</text>
+	</string>
+	<string id="exten_sion_pda">
+		<text>標準的なPDAの上位モデルで、音声や動画の再生機能を強化したデバイスだ。データ分析ツールや高性能な通信インターフェースを搭載し、幅広いアプリケーションに対応している。その多用途性から、技術に精通したストーカーにとって頼れる装備となっている。\n \n
+		%c[pda_white]特性:\n</text>
+	</string>
+	<string id="st_gps_tracker">
+		<text>軍用GPSモジュール</text>
+	</string>
+	<string id="st_gps_tracker_descr">
+		<text>次世代GPSナビゲーションデバイスの試作機で、現存数は非常に限られている。本来は軍の最上級関係者のみが使用を許可されているが、何らかの経緯で他の勢力にも流出している。このモジュールは改良されたフレームワークと高感度センサーを備えており、過酷な環境下でも安定した動作を保証する。通常のGPSモジュールと異なり、接続ネットワーク上で特権的な機能を利用するには専用のコードが必要となる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_musicplayer">
+		<text>無線機</text>
+	</string>
+	<string id="st_musicplayer_desc">
+		<text>他の無線機との通信を目的に改良された無線機。ノイズを除去するフィルタリング機能が追加され、ゾーン内での通信精度と情報収集能力が向上している。\n \n
+		%c[pda_white]特性:\n</text>
+	</string>
+	<string id="st_weather_radar">
+		<text>ドップラー気象レーダーキット</text>
+	</string>
+	<string id="st_weather_radar_descr">
+		<text>大気の状態を監視し、気象パターンのリアルタイムデータを追跡する携帯型システム。このモデルは改造が施されており、動力源として«ミートチャンク»を使用している。気象学の分野ではまさに奇跡とも言える技術で、指向性のマイクロ波を発信して気象データを収集する仕組みになっている。\n
+		</text>
+	</string>
+	<string id="st_dosimeter_mode">
+		<text>線量計モード</text>
+	</string>
+	<string id="st_actor_rads">
+		<text>身体の放射線量</text>
+	</string>
+	<string id="st_environment_rads">
+		<text>環境の放射線量</text>
+	</string>
+</string_table>

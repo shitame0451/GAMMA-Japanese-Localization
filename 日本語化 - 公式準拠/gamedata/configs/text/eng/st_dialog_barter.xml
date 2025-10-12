@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="exchanging_items_phr_0">
+    <text>よお。どっちが良い物を持ってるか拝見と行くか。</text>
+  </string>
+  <string id="exchanging_items_phr_1">
+    <text>ああ、取引しないか？俺が出すのはこれだ。</text>
+  </string>
+  <string id="exchanging_items_phr_2">
+    <text>俺はアーティファクトを貰う･･････</text>
+  </string>
+  <string id="exchanging_items_phr_3">
+    <text>俺はスーツを貰う･･････</text>
+  </string>
+  <string id="exchanging_items_phr_4">
+    <text>俺はアイテムを貰う･･････</text>
+  </string>
+  <string id="exchanging_items_phr_5">
+    <text>俺は銃を貰う･･････</text>
+  </string>
+  <string id="exchanging_items_phr_6">
+    <text>よし。これが見返りだ。コイツを貰うぞ。</text>
+  </string>
+  <string id="exchanging_items_phr_7">
+    <text>話し合いじゃ埒が明かないな。あんた今まで俺の苦労に見合うものを何も持って来たことないだろ。もう少し現金を手に入れてから来い。</text>
+  </string>
+  <string id="exchanging_items_phr_8">
+    <text>さて、取引といこう。</text>
+  </string>
+  <string id="exchanging_items_phr_9">
+    <text>この取引はちょっと考えさせてくれ。</text>
+  </string>
+  <string id="exchanging_items_phr_10">
+    <text>好きにしな。</text>
+  </string>
+</string_table>

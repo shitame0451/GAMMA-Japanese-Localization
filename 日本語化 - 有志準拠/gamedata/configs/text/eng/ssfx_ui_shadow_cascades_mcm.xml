@@ -1,0 +1,86 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 15
+- @ Description: Shadow Cascades - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_shw_cascades">
+		<text>影の階層</text>
+	</string>
+
+	<!-- Shadow Cascades Settings -->
+	<string id="ui_mcm_ssfx_module_shw_cascades_title">
+		<text>Shadow Cascades Settings</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_1_mcm">
+		<text>近距離カスケードサイズ</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_1_mcm_desc">
+		<text>太陽が落とす影の品質を向上させるためには、より低い値を使用してみてください。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_2_mcm">
+		<text>中距離カスケードサイズ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_2_mcm_desc">
+		<text>太陽が落とす影の品質を向上させるためには、より低い値を使用してみてください。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_3_mcm">
+		<text>遠距離カスケードサイズ</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_size_3_mcm_desc">
+		<text>このカスケードは太陽が落とす影の最終的なレンダリング距離を定義します。低い値はパフォーマンスを向上させますが、高い値は遠くの影の品質を向上させ、その代わりにパフォーマンスが低下します。</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_quality_mcm">
+		<text>草の影の品質</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_quality_mcm_desc">
+		<text>[低] 近距離のみ影を投影します。Anomalyのデフォルトの動作。\n[中] 近距離と中距離のみ影を投影します。\n[高] すべての距離で影を投影し、太陽のボリュメトリックレイによる影響も受けます。\n[ウルトラ] すべての光源が草の影を投影します。</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shw_cascades_low">
+		<text>低 (バニラAnomalyと同じ)</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shw_cascades_medium">
+		<text>中</text>
+	</string>
+
+	<string id="ui_mcm_lst_shw_cascades_high">
+		<text>高</text>
+	</string>
+	
+	<string id="ui_mcm_lst_shw_cascades_ultra">
+		<text>ウルトラ (大きくパフォーマンスに影響)</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_distance_mcm">
+		<text>草の影のレンダリング距離 (太陽光)</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_distance_mcm_desc">
+		<text>この値は太陽による草の影のレンダリング距離を調整します。低い値はパフォーマンスを向上させます。</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_nondir_maxdistance_mcm">
+		<text>草の影の最大レンダリング距離</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_shw_cascades_grass_shw_nondir_maxdistance_mcm_desc">
+		<text>[ウルトラ設定のみ] この値は非方向性のライトによる草の影のレンダリング距離を調整します。低い値はパフォーマンスを向上させますが、視覚的な問題を引き起こす可能性があります。</text>
+	</string>
+	
+</string_table>

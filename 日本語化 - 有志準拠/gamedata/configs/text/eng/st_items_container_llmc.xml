@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!--UNUSED -->
+
+  <string id="st_af_itcher_lead_box_name">
+    <text>アーティファクト完全隔離容器／«イッチャー»</text>
+  </string>
+  <string id="st_af_itcher_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_pin_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ピン»</text>
+  </string>
+  <string id="st_af_pin_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_cristall_lead_box_name">
+    <text>アーティファクト完全隔離容器／«クリスタル»</text>
+  </string>
+  <string id="st_af_cristall_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_fireball_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ファイアボール»</text>
+  </string>
+  <string id="st_af_fireball_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_blood_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ストーンブラッド»</text>
+  </string>
+  <string id="st_af_blood_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_mincer_meat_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ミートチャンク»</text>
+  </string>
+  <string id="st_af_mincer_meat_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_bracelet_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ブレスレット»</text>
+  </string>
+  <string id="st_af_bracelet_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_baloon_lead_box_name">
+    <text>アーティファクト完全隔離容器／«バブル»</text>
+  </string>
+  <string id="st_af_baloon_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_electra_sparkler_lead_box_name">
+    <text>アーティファクト完全隔離容器／«スパークラー»</text>
+  </string>
+  <string id="st_af_electra_sparkler_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_sponge_lead_box_name">
+    <text>アーティファクト完全隔離容器／«スポンジ»</text>
+  </string>
+  <string id="st_af_sponge_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_ring_lead_box_name">
+    <text>アーティファクト完全隔離容器／«リング»</text>
+  </string>
+  <string id="st_af_ring_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_electra_flash_lead_box_name">
+    <text>アーティファクト完全隔離容器／«フラッシュ»</text>
+  </string>
+  <string id="st_af_electra_flash_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_cristall_flower_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ストーンフラワー»</text>
+  </string>
+  <string id="st_af_cristall_flower_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_lobster_eyes_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ロブスターアイ»</text>
+  </string>
+  <string id="st_af_lobster_eyes_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_electra_moonlight_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ムーンライト»</text>
+  </string>
+  <string id="st_af_electra_moonlight_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_black_spray_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ブラックスプレー»</text>
+  </string>
+  <string id="st_af_black_spray_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_medusa_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ジェリーフィッシュ»</text>
+  </string>
+  <string id="st_af_medusa_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_vyvert_lead_box_name">
+    <text>アーティファクト完全隔離容器／«レンチド»</text>
+  </string>
+  <string id="st_af_vyvert_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_empty_lead_box_name">
+    <text>アーティファクト完全隔離容器／«エンプティ»</text>
+  </string>
+  <string id="st_af_empty_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_full_empty_lead_box_name">
+    <text>アーティファクト完全隔離容器／«フルエンプティ»</text>
+  </string>
+  <string id="st_af_full_empty_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_night_star_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ナイトスター»</text>
+  </string>
+  <string id="st_af_night_star_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_gravi_lead_box_name">
+    <text>アーティファクト完全隔離容器／«グラビ»</text>
+  </string>
+  <string id="st_af_gravi_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_gold_fish_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ゴールドフィッシュ»</text>
+  </string>
+  <string id="st_af_gold_fish_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_dummy_glassbeads_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ママズ・ビーズ»</text>
+  </string>
+  <string id="st_af_dummy_glassbeads_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_eye_lead_box_name">
+    <text>アーティファクト完全隔離容器／«アイ»</text>
+  </string>
+  <string id="st_af_eye_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_fire_lead_box_name">
+    <text>アーティファクト完全隔離容器／«フレイム»</text>
+  </string>
+  <string id="st_af_fire_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_dummy_battery_lead_box_name">
+    <text>アーティファクト完全隔離容器／«バッテリー»</text>
+  </string>
+  <string id="st_af_dummy_battery_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_dummy_dummy_lead_box_name">
+    <text>アーティファクト完全隔離容器／«シェル»</text>
+  </string>
+  <string id="st_af_dummy_dummy_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_ice_lead_box_name">
+    <text>アーティファクト完全隔離容器／«スノーフレーク»</text>
+  </string>
+  <string id="st_af_ice_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_soul_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ソウル»</text>
+  </string>
+  <string id="st_af_soul_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_fuzz_kolobok_lead_box_name">
+    <text>アーティファクト完全隔離容器／«コロボーク»</text>
+  </string>
+  <string id="st_af_fuzz_kolobok_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_glass_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ファイアフライ»</text>
+  </string>
+  <string id="st_af_glass_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_compass_lead_box_name">
+    <text>アーティファクト完全隔離容器／«コンパス»</text>
+  </string>
+  <string id="st_af_compass_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_oasis_heart_lead_box_name">
+    <text>アーティファクト完全隔離容器／«ハート・オブ・オアシス»</text>
+  </string>
+  <string id="st_af_oasis_heart_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_death_lamp_lead_box_name">
+    <text>アーティファクト完全隔離容器／«デスランプ»</text>
+  </string>
+  <string id="st_af_death_lamp_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  <string id="st_af_misery_bread_lead_box_name">
+    <text>アーティファクト完全隔離容器／«奇妙なパン»</text>
+  </string>
+  <string id="st_af_misery_bread_lead_box_descr">
+    <text> UNUSED, UNUSED, UNUSED</text>
+  </string>
+  
+</string_table>

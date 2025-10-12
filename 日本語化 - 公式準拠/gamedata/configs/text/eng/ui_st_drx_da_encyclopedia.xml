@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+
+	<string id="zone_mine_radar_section_name">
+		<text>レーダー</text>
+	</string>
+	
+	<string id="zone_mine_darkness_section_name">
+		<text>ダークネス</text>
+	</string>
+	
+	<string id="zone_mine_flash_section_name">
+		<text>フラッシュ</text>
+	</string>
+	
+	<string id="zone_mine_ghost_section_name">
+		<text>ゴースト</text>
+	</string>
+	
+	<string id="zone_mine_gold_section_name">
+		<text>リキッドゴールド</text>
+	</string>
+	
+	<string id="zone_mine_green_dragon_section_name">
+		<text>グリーンドラゴン</text>
+	</string>
+	
+	<string id="zone_mine_mefistotel_section_name">
+		<text>メフィストフェレス</text>
+	</string>
+	
+	<string id="zone_mine_net_section_name">
+		<text>ネット</text>
+	</string>
+	
+	<string id="zone_mine_point_section_name">
+		<text>ボールライトニング</text>
+	</string>
+	
+	<string id="zone_mine_sphere_section_name">
+		<text>リバウンダー</text>
+	</string>
+	
+	<string id="encyclopedia_anomalies_radar">
+		<text>レーダー</text>
+	</string>
+	<string id="encyclopedia_anomalies_radar_text">
+		<text>
+%c[0,255,255,255]名前: %c[ui_gray_1]レーダー
+\n%c[0,255,255,255]タイプ: %c[ui_gray_1]プサイ
+\n%c[0,255,255,255]情報:
+\n%c[ui_gray_1]ノウアスフィアに局所的に発生した裂け目。微弱なプサイオーラを発し、その周囲にいる者の脳波をかき乱し、精神に深刻な悪影響を及ぼす。通常のプサイフィールドとは異なり、ストーカーたちはこのアノマリーを極力避ける傾向がある。なぜなら、この影響は既存のプサイ防護技術では防ぐことができず、直接精神に干渉してくるからだ。
+\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_darkness">
+		<text>ダークネス</text>
+	</string>
+	<string id="encyclopedia_anomalies_darkness_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]ダークネス\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]プサイ\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]動く影の集まりに似た、恐ろしくも致命的な原因不明のアノマリーフィールドで、その周辺にいる知覚のある者の精神に影響を及ぼす。ポルターガイストの隠れ家になっているという噂もある。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_flash">
+		<text>フラッシュ</text>
+	</string>
+	<string id="encyclopedia_anomalies_flash_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]フラッシュ\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]現実改変\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]時空連続体の裂け目。その中に巻き込まれたものは、未知の時間的広がりを持つ急速なタイムトラベルを経験する。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_ghost">
+		<text>ゴースト</text>
+	</string>
+	<string id="encyclopedia_anomalies_ghost_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]ゴースト\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]電気/化学\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]球状の電気化学的なアノマリーフィールド。周囲の状況を把握し、獲物を探すかのように一定範囲内を一定速度で移動するのが最大の特徴。この行動パターンから、このアノマリーは自然的なアノマリーではなく、実は意識があるのではないかという説が多く生まれた。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_gold">
+		<text>リキッドゴールド</text>
+	</string>
+	<string id="encyclopedia_anomalies_gold_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]リキッドゴールド\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]化学\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]オレンジ色と金色の有毒物質の雲を吐き出し、被害者の体温を急速に発熱を超えるレベルまで上昇させることで知られる。この急激な変化により、重度の脱水症状から即死まで、様々な症状が引き起こされることが多い。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_green_dragon">
+		<text>グリーンドラゴン</text>
+	</string>
+	<string id="encyclopedia_anomalies_green_dragon_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]グリーンドラゴン\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]化学\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]化学組成が不明な雲状のアノマリーフィールドで、その周辺にいる生物の運動機能に悪影響を及ぼす。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_mefistotel">
+		<text>メフィストフェレス</text>
+	</string>
+	<string id="encyclopedia_anomalies_mefistotel_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]メフィストフェレス\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]電気/化学\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]中世の民話に登場するトリックスターの悪魔にちなんで名付けられた、美しくも危険極まりない異形の花である。活性範囲に入った犠牲者は即座に中心に引き寄せられ、そこで細切れにされる。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_net">
+		<text>ネット</text>
+	</string>
+	<string id="encyclopedia_anomalies_net_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]ネット\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]重力/電気\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]重力によって加速された荷電粒子の流れ。このアノマリーの有効半径内にある物体は、ネットのように急速にこれらの粒子に包まれる。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_point">
+		<text>ボールライトニング</text>
+	</string>
+	<string id="encyclopedia_anomalies_point_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]ボールライトニング\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]電気\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]有名な、まだ説明のつかない自然現象を彷彿とさせる電気的性質のアノマリー。今のところ科学的に解明されていない方法で、このアノマリーは突然形成され、何十万もの電圧で地下の地球を襲うことがある。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_anomalies_sphere">
+		<text>リバウンダー</text>
+	</string>
+	<string id="encyclopedia_anomalies_sphere_text">
+		<text>
+			%c[0,255,255,255]名前: %c[ui_gray_1]リバウンダー\n
+			%c[0,255,255,255]タイプ: %c[ui_gray_1]重力\n
+			%c[0,255,255,255]情報:\n
+			%c[ui_gray_1]重力が密集したもの。地面に垂直な円盤を形成し、弾丸などの物体をはじいたり、速度を低下させたりする異例の援護手段として機能する。\n
+		</text>
+	</string>
+
+</string_table>

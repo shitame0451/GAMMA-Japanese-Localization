@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	
+	<string id="encyclopedia_factions">
+		<text>派閥</text>
+	</string>
+	
+	<string id="encyclopedia_factions_bandit">
+		<text>バンディット（Bandit）</text>
+	</string>
+	<string id="encyclopedia_factions_bandit_text">
+		<text>
+		%c[pda_white]「バンディット（Bandit）」%c[ui_gray_1]
+		\nゾーンで活動する犯罪社会のメンバーだ。
+		\n※Banditの日本語訳は「無法者、強盗」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n過去の過ちを償うため、悟りを開くため、もしくは冒険を探すためにゾーンに訪れる者もいるが、バンディットはその限りではない。以前は独自の目標を追求するチンピラの集団だったが、サルタンの手腕は、ゾーンに蔓延る追放者と犯罪者をまとめ上げた。
+		\n \nほとんどのバンディットは他の派閥とのいざこざに従事しているが、より狡賢い犯罪者は他の派閥に潜入し、内部から他の組織の腐敗を目論む。このゾーン内の法律はそこに住む者たちが作るが、サルタン率いるバンディットたちは自ら好みの独自のルールを作る。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • ボス: %c[ui_gray_1]サルタン
+		\n%c[pda_white] • 本拠地: %c[ui_gray_1]ダークバレー
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]色々
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_clear_sky">
+		<text>クリアスカイ（Clear Sky）</text>
+	</string>
+	<string id="encyclopedia_factions_clear_sky_text">
+		<text>
+		%c[pda_white]「クリアスカイ（Clear Sky）」%c[ui_gray_1]
+		\nゾーンの仕組みについて学ぶことを追求する科学的派閥である。
+		\n※Clear Skyの日本語訳は「晴天」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n2011年の派閥間戦争で、彼らは一般的に平和的な派閥と見なされており、政治や争いよりも、ゾーンの研究に時間と労力を費やしている。
+		\nゾーンにおける生成を、贈り物、もしくは呪いと見なされているが、適切なバランスを保てなければ人類の脅威となりえる。彼らのイデオロギーが、彼ら自身を破滅に導いてしまった。
+		\n \nクリアスカイはストレロクという名の男が原子力発電所に侵入しようとすることで、ゾーンの均衡を混乱させる要因としての仮説を立て、ストレロクを捕獲するため、最大限の兵員を導入した。彼らはチョルノービリ原子力発電所の周辺で、3回目の大きな光熱放射が到来する直前にストレロクの位置を傍受した。そしてその後、彼らの身に何が起こったか、遂にそれを知る者はいなかった。
+		\n \nしかし、この派閥は再建され、以前の力を取り戻した。この偉業を行ったのは、新たな指導者のコールドだ。クリアスカイは現在静かな地域で、本来の役割である研究に時間を費やしている。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 指導者: %c[ui_gray_1]コールド
+		\n%c[pda_white] • 本部: %c[ui_gray_1]沼地
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]青、白
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_duty">
+		<text>デューティー（Duty）</text>
+	</string>
+	<string id="encyclopedia_factions_duty_text">
+		<text>
+		%c[pda_white]「デューティー（Duty）」%c[ui_gray_1]
+		\nゾーンの恐怖から人類を守ることを信条とする準軍事組織だ。
+		\n※Dutyの日本語訳は「義務、責務」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの派閥の最高のメンバーと指揮官のほとんどは死んでいるか、亡命しているため、ヴォロニンとペトレンコはこの崩壊前の派閥を維持することを強く迫られていた。しかしながらこの派閥は、依然として理想に従って活動し続けており、ロストクを中立ストーカーのための安全な避難場所として維持できるように、できる限りの最善の努力を行っている。
+		\n \nロストク内のデューティー派閥以外のストーカーたちは、バンディットの捜索、ミュータントの駆除、エコロジストたちへの化学サンプルの寄付等の支援に専念している。
+		\n \nデューティーは以前の自分自身の生き写しの状況下にあるフリーダムに対して、イデオロギー的側面から現在も反発し続けており、ゾーンに自由にアクセスすることへの危険性を訴えている。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 指揮官: %c[ui_gray_1]ヴォロニン将軍
+		\n%c[pda_white] • 本部: %c[ui_gray_1]ロストク
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]赤、黒
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_ecologist">
+		<text>エコロジスト（Ecologist）</text>
+	</string>
+	<string id="encyclopedia_factions_ecologist_text">
+		<text>
+		%c[pda_white]「エコロジスト（Ecologist）」%c[ui_gray_1]
+		\n政府が支援する研究機関だ。
+		\n※Ecologistの日本語訳は「生態学者、環境学者」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nゾーンで見られる生態系は他のどこにも存在しない。そのため、政府からの大きな関心を集めている。この派閥はこのゾーンでしか見つけることができないアーティファクト、アノマリー、ミュータント等の不可思議な物資を研究するために存在している。
+		\n \nこれまで彼らはゾーン内で2つの研究所を設立した。ひとつはヤンターに、そしてもうひとつはジュピターにあり、そこでほとんどの研究を行っている。彼らは野外作業をする際、護衛を伴う。通常、元傭兵たち、ストーカー、兵士が雇われているが、その限りでない場合は自ら武装し対応する。
+		\n \nエコロジストはストーカーたちが手に入れたアーティファクトや珍しいミュータントの身体部位を高く買い取る事が知られている。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 主任研究者: %c[ui_gray_1]サハロフ教授
+		\n%c[pda_white] • 主任研究室: %c[ui_gray_1]ヤンター
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]色々
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_freedom">
+		<text>フリーダム（Freedom）</text>
+	</string>
+	<string id="encyclopedia_factions_freedom_text">
+		<text>
+		%c[pda_white]「フリーダム（Freedom）」%c[ui_gray_1]
+		\nゾーンへの出入りを自由にするために武装した、無政府主義者の活動家たちだ。
+		\n※Freedomの日本語訳は「自由」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの派閥のメンバーは、ゾーンとの共存を信条としており、ゾーンを科学的および社会的な影響力を持つと見なしている。彼らはゾーンが支配者のいない自由な場所として認識されるべきであると信じており、ゾーンを制御したり、その性質に反発する者たちに対抗する。このような考え方はデューティーとは対照的で、彼らはゾーンとの共存は一時的なものにすぎないと考えており、いずれはすべてを破壊すると主張している。
+		\n \nルカシュのモノリスに対抗する決意と、ロキの他のグループに対する冷静さが組み合わさり、フリーダムはゾーンで最も広く受け入れられている派閥のひとつになった。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 指導者: %c[ui_gray_1]ルカシュ
+		\n%c[pda_white] • 本部: %c[ui_gray_1]軍事倉庫
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]緑、オリーブ、黄色
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_loner">
+		<text>ローナー（Loner）</text>
+	</string>
+	<string id="encyclopedia_factions_loner_text">
+		<text>
+		%c[pda_white]「ローナー（Loner）」%c[ui_gray_1]
+		\n派閥に属していないストーカーたちだ。「フリーストーカー」とも呼ばれている。
+		\n※Lonerの日本語訳は「一匹オオカミ、孤独が好きな人」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nストーカーたちは様々な理由でゾーンに訪れるが、その基本的な理由は、未知の世界を追求する好奇心、新たな人生を始めたいという願いがほとんどだ。ゾーンに存在する多くの派閥は、彼らに対し中立的もしくは友好的に接しており、自らの派閥の人員ができない、もしくはやりたくない仕事をする際の労働力として利用する。
+		\n彼らのほとんどが、廃墟内で廃棄された物や、他のストーカーの死体からはぎ取った装備、ミュータントの身体部位、アーティファクトを売買することで生計を立てている。だが、伝説を信じる少数のストーカーは、いつの日か「願望機」を見つけることを夢見ている。もし、それが存在するのならば、それは欲望を叶える古代の未知のクリスタルではないだろうか。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 最も影響力があるトレーダー: %c[ui_gray_1]シドロヴィッチ
+		\n%c[pda_white] • トレーニンググラウンド: %c[ui_gray_1]コルドン
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]色々
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_mercenary">
+		<text>傭兵（Mercenary）</text>
+	</string>
+	<string id="encyclopedia_factions_mercenary_text">
+		<text>
+		%c[pda_white]「傭兵（Mercenary）」%c[ui_gray_1]
+		\n外国の民間軍事会社の一派である。
+		\n※Mercenaryの日本語訳は「傭兵、雇われ人」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n彼らは自分自身の仕事に対し非常に真剣に取り組む。彼らの仕事ぶりは優れた計画性と高い成功率が特徴である。
+		\n \n一般的に考えられている噂に反し、殺し屋としての仕事以外に、珍しい物品の回収、ゾーン内での護衛の仕事など、様々な契約を行っている。
+		\n \n彼らの仕事の成功率は非常に高く、高い需要があるが、彼らの真の顧客は海外の雇用主であり、その目的はゾーン自体よりも計り知れないものと噂されている。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 請負人（調整役）: %c[ui_gray_1]ドゥシュマン
+		\n%c[pda_white] • 現場の本部: %c[ui_gray_1]デッドシティ
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]青、黒
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_military">
+		<text>ミリタリー（Military）</text>
+	</string>
+	<string id="encyclopedia_factions_military_text">
+		<text>
+		%c[pda_white]「ミリタリー（Military）」%c[ui_gray_1]
+		\n徴兵された軍人、プロのスペツナズ（特殊任務部隊）、そして軍のストーカーを組み合わせた混合部隊であり、内務省から派遣され、ウクライナ保安庁から助言を受けている。
+		\n※Militaryの日本語訳は「軍事、軍人、軍部」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nゾーンと外界との境界が破られないようにすることが主な任務である。同じ政府から資金提供を受けているエコロジストや、スペツナズを通じて軍司令部と特別な取引をしていると噂されているデューティーを除けば、ほとんどの人から嫌われている。
+		\n \n公式には、ゾーンにおける軍事政策では、不法侵入者や無許可の居住者は殺さずに逮捕することになっている。しかし、実際には、ストーカーを見つけたら射殺するように命令されており、不法入国者を動物と同じように考えるように教え込まれている。その一方で、彼らの幹部は頻繁に、そして簡単に賄賂を受け取っている。その最も分かりやすい例は、主要な検問所から数百メートルも離れていないにもかかわらず、コルドンのルーキー村が無視されていることである。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 事実上の司令官: %c[ui_gray_1]クズネツォフ大佐
+		\n%c[pda_white] • 本部: %c[ui_gray_1]アフロプロム
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]緑、オリーブ
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_monolith">
+		<text>モノリス（Monolith）</text>
+	</string>
+	<string id="encyclopedia_factions_monolith_text">
+		<text>
+		%c[pda_white]「モノリス（Monolith）」%c[ui_gray_1]
+		\n自分たち以外のすべてに敵対する、まがいものの宗教である。
+		\n※Monolithの日本語訳は「一枚岩、石柱」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n彼らはゾーンの中心に侵入しようとするストーカーたちに対し、異常な攻撃性を示し、徹底的に殲滅していくため、ほとんどのストーカーは、その姿に恐怖を感じる。
+		\n \n彼らは他のストーカーと同じ人間であることは変わりはないのだが、その意思の強さは群を抜いており、例え手持ちの銃弾を撃ち尽くしたとしも、ナイフで追撃したり、手持ちの手榴弾で敵もろとも自爆する等、自分たちの敵を殲滅しようとする姿勢は、もはや狂気そのものだ。モノリスたちは、以前ストレロクにブレイン・スコーチャーが止められるまでは、その装置による洗脳によって誘導されていたと考えられる。しかし、これに関わりなく近年、モノリスは無限に新兵と装備を供給している。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 仲裁人: %c[ui_gray_1]ラビット
+		\n%c[pda_white] • 聖地: %c[ui_gray_1]プリピャチ
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]白、黒、茶色
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_greh">
+		<text>シン（Sin）</text>
+	</string>
+	<string id="encyclopedia_factions_greh_text">
+		<text>
+		%c[pda_white]「シン（Sin）」%c[ui_gray_1]
+		\nゾーンの神聖な本質を信じるミュータントストーカーの極めて敵対的なカルトであり、それを癒しと「赦し」の媒体と見なしている。
+		\n※Sinの日本語訳は「罪」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n様々な状況でゾンビ化、突然変異の可能性を内包している、不吉なシン派閥の「ダークストーカー」たちは、ゾーンを全世界に拡大することを望んでいる。彼らはこの野心的な目標を達成するためには手段を問わない。
+		\n \n彼らの死人の様な顔色と一見健康状態の悪さにもかかわらず、その力強い行いは、そのような状態には見えないだろう。彼らの戦闘能力は経験豊富なストーカーに匹敵し、理想に対する狂信的な献身は、銃弾や破片の雨の中でも前進し続けることをためらわない。
+		\n \n彼らの創設者は、ゾーンが創造されるずっと前に、地下施設で密かに実験材料とされていた、元死刑囚だと考えられている。一方で、彼らは追放者、反乱者、自発的な新兵、捕虜で構成されており、シン派閥の構成員として使役するように洗脳されていると考えられている。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 創設者: %c[ui_gray_1]チェルノボグ
+		\n%c[pda_white] • 聖所: %c[ui_gray_1]ジェネレーター
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]茶色、灰色、黒
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_isg">
+		<text>UNISG</text>
+	</string>
+	<string id="encyclopedia_factions_isg_text">
+		<text>
+		%c[pda_white]「UNISG」%c[ui_gray_1]
+		\nゾーンに強い関心を寄せる特殊部隊であり、ISG（国際科学グループ）より冷酷な後継組織だ。
+		\n※UNISGの日本語訳は「国連国際科学グループ」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nISGは2011年に設立された後、不測の事態により解散したが、最近の不穏な噂や、ロンドンで見られた広大で無害な光熱放射を受けて、国連はこの国際的なグループを復活させ、ゾーンの調査を行うことを決定した。
+		\n \n表向きは西側諸国のエコロジストとして、ゾーンの不思議を科学的に解明することを使命としている。しかし実際には、彼らはウクライナ政府から、ゾーンの本当の起源について政治的な関心を持っていると疑われている。言うまでもなく、ウクライナ保安庁はそのような知識が悪人の手に渡ることを望んでいない。そのため、UNISGの一員は誰もゾーンに入ることを許されていない。
+		\n \nゾーンで活動するUNISGのメンバーは、秘密を守るためなら目撃者の抹殺も辞さない。彼らの目的が何であれ、現場の諜報員は無防備ではなく、最新鋭の武器と近代的な戦闘戦術を駆使して「知識を得る」準備をしているのだ。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 指導者: %c[ui_gray_1]不明
+		\n%c[pda_white] • 本部: %c[ui_gray_1]不明
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]白、緑、茶色
+		</text>
+	</string>
+	
+	<string id="encyclopedia_factions_renegade">
+		<text>レネゲード（Renegade）</text>
+	</string>
+	<string id="encyclopedia_factions_renegade_text">
+		<text>
+		%c[pda_white]「レネゲード（Renegade）」%c[ui_gray_1]
+		\nゾーン内で最も卑劣で忌み嫌われているストーカーたちを指す。
+		\n※Renegadeの日本語訳は「裏切者、反逆者」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nバンディットたちよりも倫理的に破綻していると考えられているレネゲードたちは、残忍かつ卑劣で、信頼できないストーカーたちの集まりと認識されており、他の派閥の者を公に加入させることはまずない。彼らが認める唯一のルールはシンプルな「力」であり、ゾーン周辺の弱者等を食いものにしている。
+		\n \nこのように、あらゆる派閥から疎まれ敵対されて沼地に追いやられた者たちだが、1つの派閥として団結するのはクリアスカイと対峙した時だけであり、生きることに執着するジャッカルのような存在だ。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 指導者: %c[ui_gray_1]不明
+		\n%c[pda_white] • 本部: %c[ui_gray_1]不明
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]色々
+		\n \n%c[pda_yellow]雑学
+		\n%c[pda_white] • %c[ui_gray_1]『S.T.A.L.K.E.R.: Clear Sky』でほんの少しだけ登場している。
+		\n%c[pda_white] • %c[ui_gray_1]この派閥は、プレイヤーがバンディットと仲良くなるために存在していた。
+		</text>
+	</string>
+
+	<string id="encyclopedia_factions_zombified">
+		<text>ゾンビ（Zombified）</text>
+	</string>
+	<string id="encyclopedia_factions_zombified_text">
+		<text>
+		%c[pda_white]「ゾンビ（Zombified）」%c[ui_gray_1]
+		\n強いプサイフィールドの影響を受けたものの、モノリスの手足として仕えるのに必要な意識を保つことができなかった者たちだ。
+		\n※Zombifiedの日本語訳は「ゾンビ化」である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこれらの生物は、脳の高次的機能が著しく欠けており、意識的な活動ができず、痛覚も鈍いため、僅かに残った生前の反射活動が機械的に反応しているに過ぎない。
+		\n \nゾンビ化したストーカーの精神および肉体的健康状態は、時間経過と共に徐々に悪化していき、最終的には完全に人間性を失い、一般的に知られるミュータントのゾンビになり果てる。
+		\n \nこの状態のストーカーはミュータントのゾンビとは違い、僅かに残った生前の意識から武器や道具を使用することができ、複数で徘徊したり、モノリス兵によって集められたりしている。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 予防方法／ゾンビ化の遅延方法: %c[ui_gray_1]アナバイオティクス、防護装備
+		\n%c[pda_white] • ゾンビ化の主な要因: %c[ui_gray_1]コントローラー、光熱放射、ブレイン・スコーチャー、ミラクル・マシン
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]色々
+		</text>
+	</string>
+
+</string_table>

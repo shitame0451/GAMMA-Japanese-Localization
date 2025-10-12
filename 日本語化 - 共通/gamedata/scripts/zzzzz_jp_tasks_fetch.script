@@ -1,0 +1,32 @@
+-- tasks_fetch.script
+
+-- ===================================================================
+--  general_fetch_task （タスク名＆文章に含まれるアイテムの個数表示）
+-- ===================================================================
+local original_general_fetch_task = task_functor.general_fetch_task
+
+task_functor.general_fetch_task = function(task_id, field, p, tsk)
+	if not original_general_fetch_task then
+		--printf("[JP Patch] ERROR: original_general_fetch_task is nil!")
+		return
+	end
+
+	-- オリジナル処理を呼び出すが、title/descr の場合だけ加工
+	if field == "title" or field == "descr" then
+		local fetch = db.actor and ui_item.get_sec_name(load_var(db.actor, task_id .. "_fetch", ""))
+		local count = fetch and load_var(db.actor, task_id .. "_fetch_count") or 1
+		local base_str = game.translate_string(p) or ""
+
+		if count > 1 then
+			local fixed_text = fetch .. "（x" .. tostring(count) .. "）"
+			local result = strformat(base_str, fixed_text)
+			--printf("[JP Patch] general_fetch_task(%s): %s → %s", field, fetch .. " x" .. tostring(count), fixed_text)
+			return result
+		else
+			return strformat(base_str, fetch)
+		end
+	end
+
+	-- それ以外の処理はオリジナルに任せる
+	return original_general_fetch_task(task_id, field, p, tsk)
+end

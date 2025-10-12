@@ -1,0 +1,12 @@
+<string_table>
+			<string id="st_wpn_winchester1873">
+		<text>Winchester Model 1873</text>
+	</string>
+	<string id="st_wpn_winchester1873_descr">
+		<text>「西部を制した銃」と呼ばれるレバーアクションライフル。1873年に登場し、アメリカ開拓時代以降に重要な役割を果たした歴史的かつ象徴的な銃だ。その信頼性と革新性で知られ、迅速かつ効率的なリロードを可能にする特徴的なレバー機構を備えており、カウボーイや保安官、そして無法者たちの間で愛用された。その洗練されたデザイン、滑らかな操作感、そして驚異的な耐久性は、この銃を伝説的な存在へと押し上げ、現在では貴重なコレクターズアイテムとして高い評価を受けている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Winchester Repeating Arms\n
+		</text>
+	</string>
+</string_table>

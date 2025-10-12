@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_placeable_radio">
+		<text>ラジオ</text>
+	</string>
+	<string id="st_placeable_radio_descr">
+		<text>正常に作動するラジオ。雑音が混じることは多いが、ゾーン各地の基地で流れているものと同じ信号を受信できる。時間をつぶしたり、仲間たちと焚き火を囲むときの気晴らしに使われることが多い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+</string_table>

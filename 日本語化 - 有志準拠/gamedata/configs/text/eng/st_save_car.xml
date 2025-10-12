@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_save_in_car">
+		<text>車の中ではセーブできない</text>
+	</string>
+</string_table>

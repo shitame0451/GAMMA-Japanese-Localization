@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	Overwrites
+	fort
+-->
+	<string id="st_wpn_fort12">
+		<text>Fort-12</text>
+	</string>
+	<string id="st_wpn_fort12_descr">
+		<text>軍や法執行機関向けに設計されたセミオートピストル。高い耐久性、信頼性、優れた取り回しで知られている。人間工学に基づいたグリップとシンプルな操作性により、専門職だけでなく民間のユーザーにとっても実用的な一丁だ。命中精度と価格のバランスから広く採用されており、治安部隊の主力サイドアームとして定着している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ウクライナ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]RPC Fort\n
+		</text>
+	</string>
+
+	<string id="st_wpn_fort17">
+		<text>Fort-17</text>
+	</string>
+	<string id="st_wpn_fort17_descr">
+		<text>軽量なポリマーフレームを採用した近代的なピストルで、反動制御の強化と耐久性の向上が特徴。戦術的な運用を想定して作られており、両利き対応のセーフティと火力を高める大容量マガジンを備えている。人間工学に基づいた設計と手入れのしやすさから、護身用にも専門的な任務にも信頼できるサイドアームとなっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ウクライナ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]RPC Fort\n
+		</text>
+	</string>
+
+<!--
+	Overwrites
+	fort_snag
+-->
+	<string id="st_wpn_fort21">
+		<text>Fort-21</text>
+	</string>
+	<string id="st_wpn_fort21_descr">
+		<text>高く評価されているCZ-75のショートリコイルシステムをベースに、Jericho 941をコピーして作られた高性能ピストル。特殊部隊や法執行機関向けに開発され、モジュラー式のポリマーフレームと先進的な反動管理システムを備えている。素早い照準を想定して設計され、サプレッサーや光学照準器などの様々な戦術アクセサリーに対応している。信頼性、軽量性、汎用性を兼ね備える、危険な状況で活躍する効果的なサイドアームだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ウクライナ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]RPC Fort\n
+		</text>
+	</string>
+
+	<string id="st_up_fort21_45acp_name">
+		<text>.45ACP弾用に改造</text>
+	</string>
+
+</string_table>

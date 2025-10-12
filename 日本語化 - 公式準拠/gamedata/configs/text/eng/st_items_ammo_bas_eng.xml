@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Ammunition
+-->
+
+<string_table>
+
+	<string id="ammo_23x75_shrapnel">
+		<text>Shrapnel-25 23x75mm</text>
+	</string>
+	<string id="ammo_23x75_shrapnel_descr">
+		<text>KS-23で使用するバックショット弾。有効射程は約25メートル。ライフリングが施された銃身によって弾が広範囲に拡散するため、正確に狙うことなく高い効果を発揮できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]285\n
+		</text>
+	</string>
+	<string id="ammo_23x75_barrikada">
+		<text>Barrikada 23x75mm</text>
+	</string>
+	<string id="ammo_23x75_barrikada_descr">
+		<text>KS-23で使用するスチール製尖頭弾。車両にダメージを与え、強制的に停止させることを目的として設計された。有効射程は約100メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR5 (51)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]133\n
+		</text>
+	</string>
+	<string id="ammo_9x21_sp10">
+		<text>9x21mm SP10</text>
+	</string>
+	<string id="ammo_9x21_sp10_descr">
+		<text>高初速の徹甲弾。現代のボディアーマーや強化バリケードを貫通するよう設計されている。主にロシアの特殊部隊がピストルやサブマシンガンで使用し、危険な交戦が予測される任務で用いられる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (32)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]24\n
+		</text>
+	</string>
+	<string id="ammo_20x70_buck">
+		<text>20x70 バックショット</text>
+	</string>
+	<string id="ammo_20x70_buck_descr">
+		<text>複数のペレットを装填した20ゲージ弾。高いストッピングパワーを持ち、近距離戦闘に適している。12ゲージ弾よりも反動が抑えられ、散弾の広がりのバランスにも優れている。狩猟や自己防衛、戦術用途に幅広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]なし\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]143\n
+		</text>
+	</string>
+	<string id="ammo_20x70_buck_s">
+		<text>20x70 バック</text>
+	</string>
+	<string id="ammo_23_eco">
+		<text>Ecolog-23</text>
+	</string>
+	<string id="ammo_23_eco_descr">
+		<text>ゾーンで活動する科学者の研究用途に合わせて開発された特殊な弾薬。研究内容に応じた溶液が充填されている。タングステン製の極細針でミュータントの皮膚を貫通し、溶液を注入する。非常に慎重な取り扱いが必要。\n \n
+		%c[pda_white]特性:\n</text>
+	</string>
+	<string id="ammo_23_eco_s">
+		<text>Ecolog-23</text>
+	</string>
+	<string id="ammo_vog_30">
+		<text>VOG-30 グレネード弾</text>
+	</string>
+	<string id="ammo_vog_30_descr">
+		<text>アンダーバレルグレネードランチャー用の高性能破片榴弾。敵兵や遮蔽物に対して致命的な爆風を発生させる。従来のモデルよりも破片の飛散範囲と信頼性が向上し、戦闘時の制圧力が強化されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]威力: %c[ui_gray_1].\n
+		%c[d_cyan] • %c[pda_white]爆発範囲: %c[ui_gray_1].\n
+		%c[d_cyan] • %c[pda_white]飛散範囲: %c[ui_gray_1].\n
+		</text>
+	</string>
+	<string id="ammo_vog_30_s">
+		<text>VOG-30</text>
+	</string>
+	<string id="ammo_338_federal">
+		<text>.338 フェデラル</text>
+	</string>
+	<string id="ammo_338_federal_descr">
+		<text>優れた弾道性能を持つ強力なライフル弾。長距離での精度とストッピングパワーのバランスに優れている。狩猟や戦術用途向けに設計され、高いエネルギーを目標に与えつつ、比較的扱いやすい反動を実現している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR6 (75)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]56\n
+		</text>
+	</string>
+	<string id="ammo_338_federal_s">
+		<text>.338 フェデラル</text>
+	</string>
+</string_table>

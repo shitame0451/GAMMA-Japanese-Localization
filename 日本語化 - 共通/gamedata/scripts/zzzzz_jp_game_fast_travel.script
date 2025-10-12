@@ -1,0 +1,94 @@
+-- game_fast_travel.script
+
+-- ===================================================================
+--  actor_on_interaction （「マップ名 を発見した」の間のスペースを削除）
+-- ===================================================================
+local original_fft_actor_on_interaction = game_fast_travel.actor_on_interaction
+
+game_fast_travel.actor_on_interaction = function(typ, obj, name)
+	local backup_set_msg = actor_menu.set_msg
+	actor_menu.set_msg = function(mode, text, duration)
+		text = text:gsub(
+			"(%S)" .. " *" .. game.translate_string("st_fast_travel_discovered"),
+			"%1" .. game.translate_string("st_fast_travel_discovered")
+		)
+		return backup_set_msg(mode, text, duration)
+	end
+
+	local result = original_fft_actor_on_interaction(typ, obj, name)
+	actor_menu.set_msg = backup_set_msg
+	return result
+end
+
+-- ===================================================================
+--  カンマ区切り処理に渡す
+-- ===================================================================
+local rubles = game.translate_string("st_rubles")
+
+local function format_rubles(text)
+	return text:gsub("(%d+) *" .. rubles, function(num)
+		return japanese_patch.commas_to_number(num) .. rubles
+	end)
+end
+
+-- ===================================================================
+--  set_menu_option （PDAマップのコンテキストメニューの料金表示）
+--  AddItemとセットで変えないと料金が一致せず、ファストトラベルが実行されない
+-- ===================================================================
+local original_set_menu_option = game_fast_travel.set_menu_option
+
+game_fast_travel.set_menu_option = function(menu_text, travel_type, valid)
+	if type(menu_text) == "string" then
+		menu_text = format_rubles(menu_text)
+	end
+	return original_set_menu_option(menu_text, travel_type, valid)
+end
+
+-- ===================================================================
+--  map_spot_menu_add_property （PDAマップのコンテキストメニューの料金表示）
+-- ===================================================================
+local original_map_spot_menu_add_property = game_fast_travel.map_spot_menu_add_property
+
+game_fast_travel.map_spot_menu_add_property = function(property_ui, id, level_name)
+	local backup_AddItem = property_ui.AddItem
+	property_ui.AddItem = function(self, text, ...)
+		if type(text) == "string" then
+			text = format_rubles(text)
+		end
+		return backup_AddItem(self, text, ...)
+	end
+
+	local result = original_map_spot_menu_add_property(property_ui, id, level_name)
+
+	property_ui.AddItem = backup_AddItem
+
+	return result
+end
+
+-- ===================================================================
+--  charge_for_travel （ニュースに表示される支払いメッセージの整形）
+-- ===================================================================
+local original_fft_charge_for_travel = game_fast_travel.charge_for_travel
+
+game_fast_travel.charge_for_travel = function(cost, silent, msg, icon, snd, check_only)
+	local backup_dotip = game_fast_travel.dotip
+	game_fast_travel.dotip = function(tiptext, dur, sender, flag, icon_, snd_)
+		-- 数字をカンマ区切りに
+		tiptext = tiptext:gsub("(%d+)", japanese_patch.commas_to_number)
+
+		-- 「数字 + カラーコード + ルーブル」を検出して整形（スペース削除 & $clr_def追加）
+		tiptext = tiptext:gsub(
+			"([%d,]+)" .. " *" .. "(%%c%[[^%]]-%])" .. " *" .. rubles,
+			"%1%2" .. rubles .. "$clr_def"
+		)
+
+		-- カラーコードの変換
+		tiptext = utils_catspaw_text.parse_color_tokens(tiptext)
+
+		return backup_dotip(tiptext, dur, sender, flag, icon_, snd_)
+	end
+
+	local result = original_fft_charge_for_travel(cost, silent, msg, icon, snd, check_only)
+	game_fast_travel.dotip = backup_dotip
+	return result
+end

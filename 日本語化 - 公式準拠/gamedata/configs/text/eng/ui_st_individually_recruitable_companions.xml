@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<string_table>
+
+	<string id="st_friend_companion_ask_join_individually">
+		<text>なあ、仲間から抜けて俺と一緒に行かないか？</text>
+	</string>
+
+	<string id="st_paid_companion_dialog_text_individually">
+		<text>仲間を抜けて俺の護衛になってくれないか？金は払う。</text>
+	</string>
+
+</string_table>

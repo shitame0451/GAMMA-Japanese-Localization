@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_vityaznew">
+		<text>PP-19-01 Vityaz</text>
+	</string>
+	<string id="st_wpn_vityaznew_descr">
+		<text>Vityaz（ロシア語で「騎士」を意味する）は、法執行機関や特殊部隊向けに設計されたロシア製のサブマシンガン。近接戦闘で高い連射速度と優れた信頼性を誇る。AKをベースにした軽量かつ小型なフレームと、取り回しに優れた折り畳み式ストックを特徴とする。サプレッサーや様々な戦術アクセサリーに対応しているため、市街地での作戦に最適な汎用性の高い武器となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+
+</string_table>

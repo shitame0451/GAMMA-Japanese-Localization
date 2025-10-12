@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	Medical Items + Drugs
+-->
+
+<string_table>
+
+	<string id="st_antirad">
+		<text>抗放射線薬</text>
+	</string>
+	<string id="st_antirad_descr">
+		<text>ゾーンで広く使われている「メクサミン」放射線防護薬。服用すると末梢血管が収縮し、酸素が不足することで、放射線の影響を抑える効果がある。被曝による症状の軽減に有効だが、長期間の使用はめまいや吐き気などの副作用を引き起こす可能性がある。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_bandage">
+		<text>包帯</text>
+	</string>
+	<string id="st_bandage_descr">
+		<text>出血を抑え、傷口の感染を防ぐ伸縮性の包帯。軽い出血には傷口を覆うように慎重に巻き付け、動脈性出血の場合はすぐに強く縛って止血する必要がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]T%c[d_orange](3)••• %c[pda_white]A%c[d_orange](3)••• %c[pda_white]L%c[d_orange](3)•••\n
+		</text>
+	</string>
+	<string id="st_drug_coagulant">
+		<text>ヴィンカ</text>
+	</string>
+	<string id="st_drug_coagulant_descr">
+		<text>ウクライナ製の「ヴィカソルム」は、ビタミンKの代わりとなる人工薬。血液の凝固を促進する効果があり、治りの遅い傷やミュータントによる裂傷の回復を早めたいストーカーたちに重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]T%c[pda_white](4)••••\n
+		</text>
+	</string>
+	<string id="st_drug_anabiotic">
+		<text>アナバイオティクス</text>
+	</string>
+	<string id="st_drug_anabiotic_descr">
+		<text>ゾーンで活動する科学調査チームのためにオゼルスキー教授が開発した実験薬。主成分は「ゾンビパウダー」として知られるテトロドトキシンで、中枢神経を完全に停止する効果がある。そのため、遮蔽物のない環境でもエミッションを生き延びられる可能性がある。6年間の実地試験を経て、用心深いストーカーたちは予期せぬエミッションに備えてこの薬を常備するようになった。\n \n
+		%c[pda_white]特性:\n
+		%c[ui_red] • %c[pda_white]一時的に気を失う\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white] 100% %c[pda_white]T%c[pda_white] 100% %c[pda_white]A%c[pda_white] 100% %c[pda_white]L%c[pda_white] 100%\n
+		</text>
+	</string>
+	<string id="st_drug_psy_blockade">
+		<text>精神波防護薬</text>
+	</string>
+	<string id="st_drug_psy_blockade_descr">
+		<text>強力な精神波エミッションの影響を抑え、精神に干渉するアノマリーから身を守るために開発された特殊な薬。危険な精神波の及ぶ領域へ接近する際にストーカーたちが使用する。知覚を鈍らせることで精神を守るが、その代償として方向感覚の喪失や反射神経の鈍化などの副作用を伴う。万全な対策とは言えないが、生死を分ける鍵となることもあるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]精神を安定させる\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		</text>
+	</string>
+	<string id="st_drug_antidot">
+		<text>解毒薬</text>
+	</string>
+	<string id="st_drug_antidot_descr">
+		<text>ゾーンでも特に危険とされる化学・生物的脅威に対処するために開発された「IP2」抗毒素。有毒ガスや毒性の外傷、一部のアノマリーによる影響にも効果を発揮し、危険地帯を行動するストーカーにとって欠かせない緊急治療薬となる。ただし流通量は少なく、多くのストーカーはガスマスクや防護スーツでの対処を余儀なくされている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](3)••• %c[pda_white]T%c[pda_white](3)•••\n
+		</text>
+	</string>
+	<string id="st_drug_booster">
+		<text>ヘラクレス</text>
+	</string>
+	<string id="st_drug_booster_descr">
+		<text>テストステロンに似た合成アンドロゲンを主成分とする強力な戦闘用興奮剤。使用者の筋力と持久力を一時的に高め、装備の重量や疲労に打ち勝つ力を与える。銃撃戦や長距離移動の直前に使われることが多く、極限状況を生き抜くための頼れる一手となる。ただし、乱用すれば身体に負担がかかり、極度の疲労や長期的な健康被害を引き起こす可能性がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		</text>
+	</string>
+	<string id="st_drug_radioprotector">
+		<text>放射線防護薬</text>
+	</string>
+	<string id="st_drug_radioprotector_descr">
+		<text>原子力発電所の作業員に支給された医療キットに含まれる「B190インドラリン」放射線防護剤。ゾーンでは、高い毒性を持つPC1シスタミン塩酸に代わる安全な選択肢として使われており、繰り返し使用しても命を落とす危険がない。ガンマ線による生体組織へのダメージを抑える効果があり、即効性はないが持続時間が長いため、被曝する前の服用が推奨される。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_akvatab">
+		<text>イブプロフェン</text>
+	</string>
+	<string id="st_akvatab_descr">
+		<text>市販されている普通の鎮痛剤。炎症を抑え、軽い怪我などの痛みを一時的に和らげる効果がある。頭痛や筋肉痛の回復には有効だが、重度の外傷にはほとんど効果がない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]A%c[pda_white](4)•••• %c[pda_white]L%c[pda_white](4)••••\n
+		</text>
+	</string>
+	<string id="st_medkit_ai1">
+		<text>医療パッケージ（基本）</text>
+	</string>
+	<string id="st_medkit_ai1_descr">
+		<text>軽傷の治療に必要な各種医薬品をまとめた医療パッケージ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[ui_gray_1]複数の医薬品が含まれている\n \n
+		%c[pda_white]内容物:\n
+		%c[d_cyan] • %c[default]包帯 [4]\n
+		%c[d_cyan] • %c[default]ジクロフェナクナトリウム\n
+		%c[d_cyan] • %c[default]スティムパック（即席）\n
+		%c[d_cyan] • %c[default]メタミゾールアンプル\n
+		%c[d_cyan] • %c[default]ミネラルウォーター\n
+		%c[d_cyan] • %c[default]スルファジメトキシン\n
+		%c[d_cyan] • %c[default]止血帯\n
+		%c[d_cyan] • %c[default]ヤドゥリン\n
+		</text>
+	</string>
+	<string id="st_medkit_ai2">
+		<text>医療パッケージ（軍用）</text>
+	</string>
+	<string id="st_medkit_ai2_descr">
+		<text>軍規格の医療パッケージ。多種多様な医薬品が含まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[ui_gray_1]複数の医薬品が含まれている\n \n
+		%c[pda_white]内容物:\n
+		%c[d_cyan] • %c[default]包帯 [4]\n
+		%c[d_cyan] • %c[default]カフェイン錠剤\n
+		%c[d_cyan] • %c[default]ジクロフェナクナトリウム\n
+		%c[d_cyan] • %c[default]フェンタニル\n
+		%c[d_cyan] • %c[default]イブプロフェン\n
+		%c[d_cyan] • %c[default]スティムパック（軍用）\n
+		%c[d_cyan] • %c[default]ミネラルウォーター\n
+		%c[d_cyan] • %c[default]モルヒネアンプ\n
+		%c[d_cyan] • %c[default]睡眠薬\n
+		%c[d_cyan] • %c[default]止血帯 [2]\n
+		</text>
+	</string>
+	<string id="st_medkit_ai3">
+		<text>医療パッケージ（科学）</text>
+	</string>
+	<string id="st_medkit_ai3_descr">
+		<text>ゾーンでの使用を想定して設計された医療パッケージ。豊富な医薬品と医療用品が含まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[ui_gray_1]複数の医薬品が含まれている\n \n
+		%c[pda_white]内容物:\n
+		%c[d_cyan] • %c[default]抗放射線薬 [2]\n
+		%c[d_cyan] • %c[default]解毒薬\n
+		%c[d_cyan] • %c[default]クロルテトラサイクリン\n
+		%c[d_cyan] • %c[default]シスタミン [2]\n
+		%c[d_cyan] • %c[default]ジクロフェナクナトリウム\n
+		%c[d_cyan] • %c[default]エピネフリン注射\n
+		%c[d_cyan] • %c[default]ブドウ糖注射 [2]\n
+		%c[d_cyan] • %c[default]ミネラルウォーター\n
+		%c[d_cyan] • %c[default]精神波防護薬\n
+		%c[d_cyan] • %c[default]放射線防護薬\n
+		%c[d_cyan] • %c[default]スティムパック（科学） [2]\n
+		%c[d_cyan] • %c[default]スルファジメトキシン\n
+		%c[d_cyan] • %c[default]止血帯\n
+		</text>
+	</string>
+	<string id="st_analgetic">
+		<text>ジクロフェナクナトリウム</text>
+	</string>
+	<string id="st_analgetic_descr">
+		<text>フェニル酢酸誘導体に分類される非ステロイド性抗炎症薬。神経活動を鈍らせる作用があり、頭痛やめまい、眠気のほか、記憶障害や混乱、神経過敏などの副作用が報告されている。そのため、ほとんどの国では医療用途としては使用されていない。しかし、ゾーンでは中枢神経を鈍らせる副作用が注目され、銃創や破片創による激しい痛みを耐える手段として使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]ダメージ耐性ボーナス: %c[ui_gray_1]5%\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](4)•••• %c[pda_white]T%c[d_orange](4)•••• %c[pda_white]A%c[d_orange](2)•• %c[pda_white]L%c[d_orange](2)••\n
+		</text>
+	</string>
+	<string id="st_jgut_zhgut">
+		<text>止血帯</text>
+	</string>
+	<string id="st_jgut_descr">
+		<text>銃撃や爆発、ミュータントの攻撃による重度の出血に使用する医療器具。ストーカーにとって欠かせない応急処置用品で、適切に使用すれば生死を分けることもある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]T%c[d_orange](5)••••• %c[pda_white]A%c[d_orange](5)••••• %c[pda_white]L%c[d_orange](5)•••••\n
+		</text>
+	</string>
+	<string id="st_yadylin">
+		<text>ヤドゥリン</text>
+	</string>
+	<string id="st_yadylin_descr">
+		<text>希少で強力なこの薬は、負傷や激しい疲労からの回復を促進する効果があると噂されている。一部のストーカーはこの噂を信じ、戦闘や過酷な探索で自らの限界を超えるために使用している。ただし、長期的なリスクはほとんど分かっておらず、思わぬ副作用を心配する声もある。\n \n
+		%c[pda_white]特性:\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](4)•••• %c[pda_white]T%c[pda_white](4)•••• %c[pda_white]A%c[pda_white](2)•• %c[pda_white]L%c[pda_white](2)••\n
+		</text>
+	</string>
+	<string id="st_medkit">
+		<text>医療キット（基本）</text>
+	</string>
+	<string id="st_medkit_descr">
+		<text>ソ連の防衛機関、法執行機関、そして民間防衛部隊の標準装備として開発された「AI-2」医療キット。負傷や創傷だけでなく、化学熱傷や火傷、各種毒物の治療にも役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](5)••••• %c[pda_white]T%c[d_orange](5)••••• %c[pda_white]A%c[d_orange](2)•• %c[pda_white]L%c[d_orange](2)••\n
+		</text>
+	</string>
+	<string id="st_medkit_army">
+		<text>医療キット（軍用）</text>
+	</string>
+	<string id="st_medkit_army_descr">
+		<text>戦闘時の負傷者に応急処置を行うための特別な医療キット。メナジオンを主成分とする止血剤のほか、鎮痛剤、抗生物質、免疫刺激剤、さらに銃弾や破片を摘出するための器具が含まれている。ゾーンの奥地に派遣されるスペツナズ部隊などの軍人に支給され、Duty部隊でも広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](7)••••••• %c[pda_white]T%c[d_orange](7)••••••• %c[pda_white]A%c[d_orange](3)••• %c[pda_white]L%c[d_orange](3)•••\n
+		</text>
+	</string>
+	<string id="st_medkit_science">
+		<text>医療キット（科学）</text>
+	</string>
+	<string id="st_medkit_science_descr">
+		<text>ゾーンでの使用を前提に設計された医療キット。傷の処置だけでなく、放射線障害の予防や、体内に蓄積した放射線の低減にも効果のある薬品が含まれている。高価なため、主にベテランのストーカーに使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](9)••••••••• %c[pda_white]T%c[d_orange](9)••••••••• %c[pda_white]A%c[d_orange](4)•••• %c[pda_white]L%c[d_orange](4)••••\n
+		</text>
+	</string>
+	<string id="st_glucose_s">
+		<text>ブドウ糖注射</text>
+	</string>
+	<string id="st_glucose_s_descr">
+		<text>本来は重度の低血糖症の治療に使われているが、興奮剤としても利用できる。炭水化物を即座に体内に取り込むことで、瞬時にエネルギーを補給し、疲労やストレスに対する抵抗力を一時的に向上させる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		</text>
+	</string>
+	<string id="st_glucose">
+		<text>ブドウ糖注射（大型）</text>
+	</string>
+	<string id="st_glucose_descr">
+		<text>本来は重度の低血糖症の治療に使われているが、興奮剤としても利用できる。炭水化物を即座に体内に取り込むことで、瞬時にエネルギーを補給し、疲労やストレスに対する抵抗力を一時的に向上させる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		</text>
+	</string>
+	<string id="st_stim_impro">
+		<text>スティムパック（即席）</text>
+	</string>
+	<string id="st_stim_impro_descr">
+		<text>拾い集めた医療用品から作られた即席の興奮剤。粗雑な作りだが、スタミナを高め、一時的に痛みを和らげる効果がある。短時間の行動力向上が見込めるが、成分や製法には不明な点が多く、副作用のリスクが高い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](5)••••• %c[pda_white]T%c[d_orange](5)••••• %c[pda_white]A%c[d_orange](3)••• %c[pda_white]L%c[d_orange](3)•••\n
+		</text>
+	</string>
+	<string id="st_stim_military">
+		<text>スティムパック（軍用）</text>
+	</string>
+	<string id="st_stim_military_descr">
+		<text>軍が標準装備として兵士に支給する戦闘用興奮剤。素早く痛みを抑え、一時的に持久力を高める効果がある。負傷中でも戦闘を続けられるよう設計されているが、効果が切れた後には激しい疲労に襲われる。闇市場では、戦闘での優位性を求めるストーカーたちの間で高値で取引されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](5)••••• %c[pda_white]T%c[d_orange](7)••••••• %c[pda_white]A%c[d_orange](3)••• %c[pda_white]L%c[d_orange](3)•••\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](2)•• %c[pda_white]T%c[pda_white](2)•• %c[pda_white]A%c[pda_white](1)• %c[pda_white]L%c[pda_white](1)•\n
+		</text>
+	</string>
+	<string id="st_stim_scientic">
+		<text>スティムパック（科学）</text>
+	</string>
+	<string id="st_stim_scientic_descr">
+		<text>SEVAスーツの開発で知られるキエフの国防研究機関が製造した、最先端のスティムパック。ゾーンで入手できるものとしては最高クラスの体力回復効果を持つ。他のスティムパックとは異なり、身体への負担を抑える高度な化合物が使われているため、長期使用においても安全性が高いとされている。ただし、その希少性と価格の高さから、科学調査隊以外の手に渡ることはほとんどない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](9)••••••••• %c[pda_white]T%c[d_orange](9)••••••••• %c[pda_white]A%c[d_orange](4)•••• %c[pda_white]L%c[d_orange](4)••••\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](4)•••• %c[pda_white]T%c[pda_white](4)•••• %c[pda_white]A%c[pda_white](1)• %c[pda_white]L%c[pda_white](1)•\n
+		</text>
+	</string>
+	<string id="st_sleepingpills">
+		<text>睡眠薬</text>
+	</string>
+	<string id="st_sleepingpills_descr">
+		<text>過酷な環境や緊張状態など、自然に眠ることが難しい状況でも休息を取れるように開発された、小さな錠剤入りのパッケージ。極度の疲労や精神波による不眠・不安に対処するために使用し、十分な休息が後に生死を分けるような場面では欠かせない存在となる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_cocaine">
+		<text>コカイン</text>
+	</string>
+	<string id="st_cocaine_descr">
+		<text>一時的に覚醒状態を引き起こし、反応速度や自信を向上させる強力な興奮剤。極限状況で戦うストーカーや、休息を取らずにゾーンを突き進もうとする無謀な者たちが使用する。ただし、心拍数の上昇や反動による強い疲労感などの副作用があり、長期的な使用は依存症や被害妄想、深刻な健康被害につながる恐れがある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](3)••• %c[pda_white]T%c[d_orange](3)•••\n
+		</text>
+	</string>
+	<string id="st_adrenalin">
+		<text>エピネフリン注射</text>
+	</string>
+	<string id="st_adrenalin_descr">
+		<text>短時間ながら心拍数やアドレナリン分泌を急激に高め、身体能力を飛躍的に向上させる強力な救急用注射。危機的状況で使用されることが多く、痛みを感じずに動き回れたり、走る速度や戦闘能力を引き上げることができる。ただし、使用後には激しい反動があり、乱用すれば心不全を引き起こす危険もある。生き延びるための手段としては非常にリスクが高い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](11)••••••••••• %c[pda_white]T%c[d_orange](11)••••••••••• %c[pda_white]A%c[d_orange](5)••••• %c[pda_white]L%c[d_orange](5)•••••\n
+		</text>
+	</string>
+	<string id="st_morphine">
+		<text>モルヒネアンプル</text>
+	</string>
+	<string id="st_morphine_descr">
+		<text>強力なオピオイド鎮痛薬で、重傷を負ったストーカーが痛みを抑え、行動を維持するために使用する。鎮痛効果は高いが、眠気や運動能力の低下を招くことがあり、戦闘中にはかえって命取りになる場合もある。依存症や過剰摂取のリスクも高く、常用すれば深刻な健康被害に繋がる恐れがある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]ダメージ耐性ボーナス: %c[ui_gray_1]15%\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](8)•••••••• %c[pda_white]T%c[d_orange](5)••••• %c[pda_white]A%c[d_orange](4)•••• %c[pda_white]L%c[d_orange](4)••••\n
+		</text>
+	</string>
+	<string id="st_salicidic_acid">
+		<text>メタミゾールアンプル</text>
+	</string>
+	<string id="st_salicidic_acid_descr">
+		<text>強力な非オピオイド鎮痛薬で、主に痛みや発熱を抑えるために使用する。モルヒネに比べて依存性が低く、代替薬として選ばれることが多い。意識や判断力への影響が少ないため、ベテランのストーカーたちに好まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]ダメージ耐性ボーナス: %c[ui_gray_1]10%\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](2)•• %c[pda_white]T%c[d_orange](2)•• %c[pda_white]A%c[d_orange](2)•• %c[pda_white]L%c[d_orange](2)••\n
+		</text>
+	</string>
+	<string id="st_caffeine">
+		<text>カフェイン錠剤</text>
+	</string>
+	<string id="st_caffeine_descr">
+		<text>シンプルながら効果の高い興奮剤で、ゾーンでの長時間にわたる探索中に疲労を抑え、集中力を維持するために使われる。より強力な興奮剤に比べて安全性は高いが、過剰に摂取すると神経過敏や脱水症状を引き起こし、結果として深刻な疲労に繋がることもある。夜間の見張りや長期戦での集中力維持に、多くのストーカーが頼りにしている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		</text>
+	</string>
+	<string id="st_antirad_cystamine">
+		<text>シスタミン</text>
+	</string>
+	<string id="st_antirad_cystamine_descr">
+		<text>放射線による細胞の損傷を抑え、被曝の影響を軽減する放射線防護薬。放射線レベルの高い場所を移動するストーカーたちに頻繁に使用される。一時的に防護効果を発揮するが、体内に蓄積した放射性物質を除去する作用はない。長期使用によって吐き気やめまいなどの副作用が現れる可能性があり、適切な放射線対策がない状況での切り札として使われている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_antibio_sulfad">
+		<text>スルファジメトキシン</text>
+	</string>
+	<string id="st_antibio_sulfad_descr">
+		<text>細菌感染の治療や、治療が遅れた傷から生じる敗血症を防ぐ、持続性のある抗生物質。ゾーンでは軽い負傷による感染症が命取りになりかねず、ミュータントの襲撃と同程度の脅威となるため、多くのストーカーが常に携行している。\n \n
+		%c[pda_white]特性:\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]L%c[pda_white]•(1)\n
+		</text>
+	</string>
+	<string id="st_antibio_chlor">
+		<text>クロルテトラサイクリン</text>
+	</string>
+	<string id="st_antibio_chlor_descr">
+		<text>汚染された傷口、腐敗した食料、生物由来の危険因子による感染症を予防するための広域抗生物質。医療支援が期待できない環境でストーカーたちが頼る薬だが、誤った使い方をすれば効果が薄れる恐れがある。\n \n
+		%c[pda_white]特性:\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]A%c[pda_white](1)•\n
+		</text>
+	</string>
+	<string id="st_antiemetic">
+		<text>エタペラジン</text>
+	</string>
+	<string id="st_antiemetic_descr">
+		<text>強力な抗精神病薬で、幻覚や妄想を抑える効果がある。特に精神波の放射や長期のストレスに晒されたストーカーの処方薬として用いられる。精神状態を落ち着かせる効果は大きいが、その代償として反射神経や判断力が低下し、戦闘時の迅速な動作や判断が困難になる場合がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]精神を安定させる\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		</text>
+	</string>
+	<string id="st_joint">
+		<text>ジョイント（大麻）</text>
+	</string>
+	<string id="st_joint_descr">
+		<text>大麻を詰めた手巻きタバコ。娯楽として使用され、リラックスや一時的なストレス解消に効果がある。アルコールと併用すれば、さらに強い鎮静作用が得られる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]精神を安定させる\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		</text>
+	</string>
+	<string id="st_rebirth">
+		<text>アクシルタリサール「再生」</text>
+	</string>
+	<string id="st_rebirth_descr">
+		<text>小型の注射器に収められた強力な薬剤で、使用者を完全に昏睡状態に陥らせる。その後、目覚めることができれば“生まれ変わったような”強烈な多幸感に包まれると言われている。他の薬剤との併用は極めて危険で、最悪の場合死に至ることもあるため、決して併用しないこと。\n \n
+		%c[pda_white]特性:\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[pda_white] 100% %c[pda_white]T%c[pda_white] 100% %c[pda_white]A%c[pda_white] 100% %c[pda_white]L%c[pda_white] 100%\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](8)•••••••• %c[pda_white]T%c[pda_white](9)•••••••• %c[pda_white]A%c[pda_white](5)••••• %c[pda_white]L%c[pda_white](5)•••••\n
+		</text>
+	</string>
+	<string id="st_tetanus">
+		<text>フェンタニル</text>
+	</string>
+	<string id="st_tetanus_descr">
+		<text>非常に強力で危険なオピオイド鎮痛薬。もともとは医療用途に使われるが、嗜好品として乱用されることも多く、ヘロインやコカイン、メタンフェタミンと混ぜられることもある。過剰摂取による死亡率は非常に高い。\n \n
+		%c[pda_white]特性:\n
+		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](3)••• %c[pda_white]T%c[pda_white](3)••• %c[pda_white]A%c[pda_white](3)••• %c[pda_white]L%c[pda_white](3)•••\n
+		</text>
+	</string>
+	<string id="st_antirad_kalium">
+		<text>ヨウ化カリウム</text>
+	</string>
+	<string id="st_antirad_kalium_descr">
+		<text>放射線防護剤の一種で、甲状腺による放射性ヨウ素の吸収を防ぎ、長期的な被曝リスクを軽減する。高濃度に汚染された区域に入る前に服用されることが多いが、他の種類の放射線には効果がない。一時的な防護効果はあるものの、放射線中毒そのものを防げるわけではなく、他の防護手段との併用が前提となる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_marijuana">
+		<text>マリファナ</text>
+	</string>
+	<string id="st_marijuana_descr">
+		<text>精神作用を持つ植物で、ストレスや痛みを和らげる目的で一部のストーカーに使用されている。娯楽や医療の両面で使われ、不安を抑えたり睡眠を促す効果がある。ただし、反射神経や判断力が鈍るため、危険な状況での使用は大きなリスクとなる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]精神を安定させる\n
+		%c[d_green] • %c[pda_white]めまいを抑える\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_mossberg590a1_rail">
+		<text>Mossberg 590A1</text>
+	</string>
+	<string id="st_wpn_mossberg590a1_rail_s">
+		<text>M590A1</text>
+	</string>
+	<string id="st_wpn_mossberg590a1_rail_descr">
+		<text>軍および法執行機関向けに設計されたポンプアクションショットガン。肉厚な銃身と、過酷な環境下に耐えられる耐久性が特徴。様々な弾薬を扱える柔軟性と人間工学的な設計により、近接戦闘で頼れる存在となっている。その信頼性と堅牢な構造から、戦術や護身用の定番として広く使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]O.F. Mossberg &amp; Sons\n
+		</text>
+	</string>
+
+	<string id="st_wpn_mossberg590a1">
+		<text>Mossberg 590A1</text>
+	</string>
+	<string id="st_wpn_mossberg590a1_s">
+		<text>M590A1</text>
+	</string>
+	<string id="st_wpn_mossberg590a1_descr">
+		<text>軍および法執行機関向けに設計されたポンプアクションショットガン。肉厚な銃身と、過酷な環境下に耐えられる耐久性が特徴。様々な弾薬を扱える柔軟性と人間工学的な設計により、近接戦闘で頼れる存在となっている。その信頼性と堅牢な構造から、戦術や護身用の定番として広く使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]O.F. Mossberg &amp; Sons\n
+		</text>
+	</string>
+
+	<string id="st_wpn_mossberg590a1_wood">
+		<text>Mossberg 590A1 Retrograde</text>
+	</string>
+	<string id="st_wpn_mossberg590a1_wood_s">
+		<text>M590A1 Retrograde</text>
+	</string>
+	<string id="st_wpn_mossberg590a1_wood_descr">
+		<text>カール・ベンソンが設計したハンマーレス仕様のポンプアクションショットガン。海軍の要求に応じて改良され、アルミ製トリガーガードやセーフティ、ヘビーバレル、バヨネットラグが装着されている。過酷な環境下での使用を想定したこの銃は、アメリカ軍における標準的なショットガンとして採用された。Retrogradeは、現代的な性能にヴィンテージのクルミ材の木製部品を組み合わせたもので、護身用にも戦闘用にも、そしてコレクターにも最適な一丁だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]O.F. Mossberg &amp; Sons\n
+		</text>
+	</string>
+
+</string_table>

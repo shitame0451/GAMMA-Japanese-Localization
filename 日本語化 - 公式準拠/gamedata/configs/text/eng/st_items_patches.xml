@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="csky_patch">
+		<text>派閥パッチ（クリアスカイ）</text>
+	</string>
+	<string id="csky_patch_description">
+		<text>クリアスカイのユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_clearsky_fp">
+		<text>派閥パッチ（クリアスカイ）</text>
+	</string>
+	<string id="st_clearsky_fp_descr">
+		<text>クリアスカイのユニフォームから取り外した記章。
+\n澄んだ青空に昇る日の出と、その両脇を飛ぶ鳩が描かれている。ゾーンを癒やしたいという派閥の願いと、争いを好まない姿勢を表したデザインだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="freedom_patch">
+		<text>派閥パッチ（フリーダム）</text>
+	</string>
+	<string id="freedom_patch_description">
+		<text>フリーダムのユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_freedom_fp">
+		<text>派閥パッチ（フリーダム）</text>
+	</string>
+	<string id="st_freedom_fp_descr">
+		<text>フリーダムのユニフォームから取り外した記章。
+\n黒い背景に緑の狼が描かれ、ウクライナ国旗が添えられている。このデザインは、彼らの仲間との絆やゾーンへの愛、そして戦いにおける揺るぎない決意と集団の獰猛さを象徴している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="stalker_patch">
+		<text>派閥パッチ（ローナー）</text>
+	</string>
+	<string id="stalker_patch_description">
+		<text>ローナーのユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_stalker_fp">
+		<text>派閥パッチ（ローナー）</text>
+	</string>
+	<string id="st_stalker_fp_descr">
+		<text>ローナーのユニフォームから取り外した記章。
+\nシンプルな三つ葉マークが描かれており、特定の派閥に属さないストーカーがよく身につけている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="ecolog_patch">
+		<text>派閥パッチ（エコロジスト）</text>
+	</string>
+	<string id="ecolog_patch_description">
+		<text>エコロジストのユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_ecolog_fp">
+		<text>派閥パッチ（エコロジスト）</text>
+	</string>
+	<string id="st_ecolog_fp_descr">
+		<text>エコロジストのユニフォームから取り外した記章。
+\n白と水色の背景に、一対の黄金の翼が描かれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="bandit_patch">
+		<text>派閥パッチ（バンディット）</text>
+	</string>
+	<string id="bandit_patch_description">
+		<text>バンディットのユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_bandit_fp">
+		<text>派閥パッチ（バンディット）</text>
+	</string>
+	<string id="st_bandit_fp_descr">
+		<text>バンディットのユニフォームから取り外した記章。
+\n白い盾に亀裂の入った黒い頭蓋骨が描かれている。逆らう者には容赦なく報復するというバンディットの冷酷さを象徴するデザインだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="duty_patch">
+		<text>派閥パッチ（デューティー）</text>
+	</string>
+	<string id="duty_patch_description">
+		<text>デューティーのユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_dolg_fp">
+		<text>派閥パッチ（デューティー）</text>
+	</string>
+	<string id="st_dolg_fp_descr">
+		<text>デューティーのユニフォームから取り外した記章。
+\n赤と黒の盾に金色の照準マークが描かれている。彼らの軍事的なルーツを示唆しつつ、外の世界を守る冷静沈着な守護者としての主要な役割を損なわないことを表したデザインだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="monolith_patch">
+		<text>派閥パッチ（モノリス）</text>
+	</string>
+	<string id="monolith_patch_description">
+		<text>モノリスのユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_monolith_fp">
+		<text>派閥パッチ（モノリス）</text>
+	</string>
+	<string id="st_monolith_fp_descr">
+		<text>モノリスのユニフォームから取り外した記章。
+\n黄金の太陽を背景に翼が描かれている。この派閥パッチは、モノリスと戦って生き延びた証となるため、他の派閥の間で非常に価値が高い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="army_patch">
+		<text>派閥パッチ（ミリタリー）</text>
+	</string>
+	<string id="army_patch_description">
+		<text>軍隊のユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_army_fp">
+		<text>派閥パッチ（ミリタリー）</text>
+	</string>
+	<string id="st_army_fp_descr">
+		<text>軍隊のユニフォームから取り外した記章。
+\n3つのヒーターシールドが並び、軍の紋章が描かれた中央の盾はウクライナ国旗の色になっている。軍隊は自分たちをゾーンの守護者、そして平和を保つ存在だと考えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="merc_patch">
+		<text>派閥パッチ（傭兵）</text>
+	</string>
+	<string id="merc_patch_description">
+		<text>傭兵のユニフォームから取り外した記章。</text>
+	</string>
+	<string id="st_merc_fp">
+		<text>派閥パッチ（傭兵）</text>
+	</string>
+	<string id="st_merc_fp_descr">
+		<text>傭兵のユニフォームから取り外した記章。
+\n黒を背景に空色の猛禽類が描かれている。冷静で正確、そして高い機動力を誇る傭兵部隊の性質を象徴するデザインだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="st_isg_fp">
+		<text>派閥パッチ（UNISG）</text>
+	</string>
+	<string id="st_isg_fp_descr">
+		<text>UNISGのユニフォームから取り外した記章。
+\n濃い紅色の背景に、角張ったデザインの月桂冠に囲まれた白い顕微鏡が描かれている。裏面には「United Nations International Scientific Group」と記されたラベルが縫い付けられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="st_greh_fp">
+		<text>派閥パッチ（シン）</text>
+	</string>
+	<string id="st_greh_fp_descr">
+		<text>シンのユニフォームから取り外した記章。
+\n左上に蛇、右上に八端十字架、そして中央には日蝕を思わせるデザインが描かれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+	<string id="st_renegade_fp">
+		<text>派閥パッチ（レネゲード）</text>
+	</string>
+	<string id="st_renegade_fp_descr">
+		<text>レネゲードのユニフォームから取り外した記章。
+\n緑の盾に黄色いサソリが描かれている。これは派閥内に何らかの組織体制があったことを示唆している。しかし今では、彼らが団結するのは絶望的な状況に追い込まれたときだけだと考えられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]派閥パッチ\n
+		</text>
+	</string>
+
+</string_table>

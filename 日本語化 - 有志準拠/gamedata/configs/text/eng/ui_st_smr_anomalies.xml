@@ -1,0 +1,42 @@
+<string_table>
+	<string id="ui_mcm_menu_SMR">
+		<text>ZCP</text>
+	</string>
+	
+	<string id="ui_mcm_menu_smr_anomalies">
+		<text>アノマリー</text>
+  </string>
+    <string id="ui_mcm_SMR_smr_anomalies_dyn_ano_chance">
+		  <text>ダイナミックアノマリーの量</text>
+    </string>
+    <string id="ui_mcm_SMR_smr_anomalies_dyn_ano_chance_desc">
+      <text>ダイナミックアノマリーが有効な場合、その出現確率を増減させることができます。ZCPを使用しない場合、ゲームは常に35%の値になります。</text>
+    </string>
+		<string id="ui_mcm_SMR_smr_anomalies_pulse">
+			<text>「パルス」アノマリーを有効にする</text>
+		</string>
+		<string id="ui_mcm_SMR_smr_anomalies_pulse_desc">
+			<text>「パルス」とは、時々上空に光として現れ、雷や稲妻を落とすアノマリーのことです。</text>
+		</string>
+    <string id="ui_mcm_smr_anomalies_anomalies_types_title">
+		<text>アノマリーの種類</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_anomalies_anomalies_types_info">
+		<text>以下では、どのような種類のダイナミックアノマリーを発生させるかを制御できます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_anomalies_electric">
+		<text>電気</text>
+	</string>
+  <string id="ui_mcm_SMR_smr_anomalies_chemical">
+		<text>化学</text>
+	</string>
+  <string id="ui_mcm_SMR_smr_anomalies_thermal">
+		<text>炎</text>
+	</string>
+  <string id="ui_mcm_SMR_smr_anomalies_gravitational">
+		<text>重力</text>
+	</string>
+  <string id="ui_mcm_SMR_smr_anomalies_radioactive">
+		<text>放射線</text>
+	</string>
+  </string_table>

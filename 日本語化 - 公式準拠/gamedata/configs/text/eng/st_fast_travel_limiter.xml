@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="st_ftl_not_enough_money">
+		<text>ファストトラベルに必要な資金が足りない。\n
+			ファストトラベルの費用: %s\n
+			所持金: %s
+		</text>
+	</string>
+	<string id="st_ftl_next_travel_available">
+		<text>次のファストトラベルは %s 時間後に利用可能。</text>
+	</string>
+	<string id="st_ftl_get_travel_cost">
+		<text>ファストトラベルの費用を表示</text>
+	</string>
+	<string id="st_ftl_show_travel_cost">
+		<text>ファストトラベルの費用: %s</text>
+	</string>
+	
+</string_table>

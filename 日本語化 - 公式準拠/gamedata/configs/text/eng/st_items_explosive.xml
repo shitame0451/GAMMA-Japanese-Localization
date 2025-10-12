@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_mine_name">
+    <text>PFM-1 散布型対人地雷</text>
+  </string>
+  <string id="st_mine_descr">
+    <text>空中から散布するために作られた小型地雷。圧力や接近によって起爆し、敵兵を無力化する目的で設計されている。軽量なため広範囲にばらまくことができ、戦場で継続的な脅威となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]爆発物\n
+    %c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]接近\n
+ </text>
+  </string>
+  <string id="st_ied_rpg">
+    <text>簡易爆弾（OG-7V 破片榴弾）</text>
+  </string>
+  <string id="st_ied_rpg_descr">
+    <text>OG-7Vを流用した即席爆発装置。対人や軽装甲車両に対して強力な破片効果をもたらす。簡易な作りのため、目立たないように設置したり離れた場所から起爆することが可能で、戦場において危険で予測不能な脅威となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]爆発物\n
+		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]接近\n
+ </text>
+  </string>
+  <string id="st_ied">
+    <text>簡易爆弾（化学物質）</text>
+  </string>
+  <string id="st_ied_descr">
+    <text>起爆時に有害な化学物質を撒き散らし、持続的な汚染を引き起こす即席爆発装置。瞬間的な被害だけでなく、長期的な影響をもたらすため、不正規戦争において極めて危険な兵器とされている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]爆発物\n
+		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]接近\n
+ </text>
+  </string>
+  <string id="st_balon_gas">
+    <text>ガスボンベ</text>
+  </string>
+  <string id="st_balon_gas_descr">
+    <text>圧縮ガスが充填された加圧容器で、主に調理や暖房用の燃料として使用する。しかし、その可燃性ゆえに即席爆発装置として利用されることもあり、紛争地域では潜在的な危険物となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]爆発物\n
+		%c[d_cyan] • %c[pda_white]調理用燃料\n
+		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]衝撃\n
+ </text>
+  </string>
+  <string id="st_balon_gas_empty">
+    <text>ガスボンベ（空）</text>
+  </string>
+  <string id="st_balon_gas_empty_descr">
+    <text>圧縮ガスが入っていた金属製の容器。再充填しない限り使用できないが、一部のトレーダーや技術者がリサイクルや他の目的で使用するために引き取ることがある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+		</text>
+  </string>
+  <string id="st_metalcan_powder">
+    <text>缶爆弾</text>
+  </string>
+  <string id="st_metalcan_powder_descr">
+    <text>小型でやや重みのある金属製の容器。工業用爆薬の混合物、ボルトやナット、そして古い弾薬から取り出した黒色火薬が詰められている。衝撃を加えると爆発し、ボルトや腐食性の化学物質があらゆる方向に飛び散る。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]爆発物\n
+		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]衝撃\n
+ </text>
+  </string>
+  <string id="st_jerrycan_item">
+    <text>ジェリカン</text>
+  </string>
+  <string id="st_jerrycan_fuel">
+    <text>ジェリカン</text>
+  </string>
+  <string id="st_jerrycan_fuel_descr">
+    <text>E95ガソリンが充填された金属製の大型容器。車や発電機の燃料に欠かせないもので、高品質な料理を作るための調理用燃料としても使用できる。しかし、一部の者はこれを即席爆弾として使用している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]爆発物\n
+		%c[d_cyan] • %c[pda_white]調理用燃料\n
+		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]衝撃\n
+ </text>
+  </string>
+  <string id="st_jerrycan_fuel_empty">
+    <text>ジェリカン（空）</text>
+  </string>
+  <string id="st_jerrycan_fuel_empty_descr">
+    <text>液体燃料が入っていた空のジェリカン。再充填しない限り使用できないが、一部のトレーダーや技術者がリサイクルや他の目的で使用するために引き取ることがある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+ </text>
+  </string>
+</string_table>

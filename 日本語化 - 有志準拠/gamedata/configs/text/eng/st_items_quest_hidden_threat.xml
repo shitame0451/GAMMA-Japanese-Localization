@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="st_sl_ht_accounting_report_name">
+		<text>会計報告書</text>
+	</string>
+	<string id="st_sl_ht_accounting_report_desc">
+		<text>%c[pda_white]当月分の決算書が入った重みのあるフォルダ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+	<string id="st_sl_ht_spooner_quest_package_name">
+		<text>小包</text>
+	</string>
+	<string id="st_sl_ht_spooner_quest_package_desc">
+		<text>%c[pda_white]ストーカーから知人に届けるために渡された小包。中身は不明。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+	<string id="st_sl_ht_walkie_talkie_name">
+		<text>軍用ラジオ</text>
+	</string>
+	<string id="st_sl_ht_walkie_talkie_desc">
+		<text>%c[pda_white]「R-002PP」という名称のポータブルVHFラジオ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+	<string id="st_sl_ht_pda_isg_leader_name">
+		<text>ISG指揮官のPDA</text>
+	</string>
+	<string id="st_sl_ht_pda_isg_leader_desc">
+		<text>%c[pda_white]ロックがかかったISG指揮官のPDA。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+	<string id="st_sl_ht_usb_quest_task_4_name">
+		<text>USBメモリー</text>
+	</string>
+	<string id="st_sl_ht_usb_quest_task_4_desc">
+		<text>%c[pda_white]この記録デバイスには、キリロフが保存できた情報の一部が保存されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+	<string id="st_sl_ht_case_quest_task_5_name">
+		<text>ウクライナ保安庁諜報員のブリーフケース</text>
+	</string>
+	<string id="st_sl_ht_case_quest_task_5_desc">
+		<text>%c[pda_white]内容は不明だが、おそらくISGの活動に関する情報だと思われる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+	<string id="st_sl_ht_voice_recorder_task_6_name">
+		<text>ボイスレコーダー</text>
+	</string>
+	<string id="st_sl_ht_voice_recorder_task_6_desc">
+		<text>%c[pda_white]見た目は普通のボイスレコーダーだが、音に反応して自動で起動するようにキリロフ上級中尉が改良している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+	</string>
+
+	<!-- Items Tips -->
+	<string id="st_sl_hidden_threat_locked_door_tips">
+	    <text>別の道を探そう</text>
+	</string>
+	<string id="st_sl_hidden_threat_radio_tips_1">
+	    <text>レコーダーを隠す ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_sl_hidden_threat_radio_tips_2">
+	    <text>レコーダーを回収する ($$ACTION_USE$$)</text>
+	</string>
+
+</string_table>

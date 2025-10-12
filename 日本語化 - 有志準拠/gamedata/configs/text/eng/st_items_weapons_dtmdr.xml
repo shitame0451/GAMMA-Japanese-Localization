@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="MDR_black">
+		<text>Desert Tech MDR（7.62x51）</text>
+	</string>
+
+	<string id="MDR_black_descr">
+		<text>MDR（Micro Dynamic Rifle）は、コンパクトなデザインと優れた拡張性を兼ね備えた多機能なブルパップ式ライフル。様々な口径に対応し、近距離戦から長距離戦まで幅広い状況で活躍できる。左右両対応の操作性、軽量なフレーム、高い精度を誇り、ゾーンの予測不可能な危険を生き抜く上で頼もしい選択肢となる。このモデルは7.62x51mm弾仕様で、ブラックカラーのポリマーボディを採用している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Desert Tech LLC\n
+		</text>
+	</string>
+
+	<string id="MDR">
+		<text>Desert Tech MDR（5.56x45）</text>
+	</string>
+
+	<string id="MDR_descr">
+		<text>MDR（Micro Dynamic Rifle）は、コンパクトなデザインと優れた拡張性を兼ね備えた多機能なブルパップ式ライフル。様々な口径に対応し、近距離戦から長距離戦まで幅広い状況で活躍できる。左右両対応の操作性、軽量なフレーム、高い精度を誇り、ゾーンの予測不可能な危険を生き抜く上で頼もしい選択肢となる。このモデルは5.56x45mm弾仕様で、タンカラーのポリマーボディを採用している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Desert Tech LLC\n
+		</text>
+	</string>
+
+	<string id="MDR_up_descr">
+		<text>MDR（Micro Dynamic Rifle）は、コンパクトなデザインと優れた拡張性を兼ね備えた多機能なブルパップ式ライフル。様々な口径に対応し、近距離戦から長距離戦まで幅広い状況で活躍できる。左右両対応の操作性、軽量なフレーム、高い精度を誇り、ゾーンの予測不可能な危険を生き抜く上で頼もしい選択肢となる。このモデルは5.56x45mm弾仕様で、タンカラーのポリマーボディを採用している。また、この武器には「スペシャルアップグレードパック」が適用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Desert Tech LLC\n
+		</text>
+	</string>
+
+	<string id="MDR_black_up_descr">
+		<text>MDR（Micro Dynamic Rifle）は、コンパクトなデザインと優れた拡張性を兼ね備えた多機能なブルパップ式ライフル。様々な口径に対応し、近距離戦から長距離戦まで幅広い状況で活躍できる。左右両対応の操作性、軽量なフレーム、高い精度を誇り、ゾーンの予測不可能な危険を生き抜く上で頼もしい選択肢となる。このモデルは7.62x51mm弾仕様で、ブラックカラーのポリマーボディを採用している。また、この武器には「スペシャルアップグレードパック」が適用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Desert Tech LLC\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,144 @@
+-- dialogs_lostzone.script
+
+-- ===================================================================
+--  名前, 派閥名 → 名前（派閥名）の変換
+--  オリジナルをコピーして改変したもの
+-- ===================================================================
+-- send_msg_hb_isg_dushman_intel
+local original_send_msg_hb_isg_dushman_intel = xr_effects.send_msg_hb_isg_dushman_intel
+
+xr_effects.send_msg_hb_isg_dushman_intel = function(actor, npc, p)
+	local msg = game.translate_string("st_msg_hb_isg_dushman_intel")
+	local name = game.translate_string("ds_domik_isg_leader_name")
+	local comm = game.translate_string("st_dyn_news_comm_isg_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_Hernandez", 20000, 20000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- send_msg_hb_isg_tech_goodluck
+local original_send_msg_hb_isg_tech_goodluck = xr_effects.send_msg_hb_isg_tech_goodluck
+
+xr_effects.send_msg_hb_isg_tech_goodluck = function(actor, npc, p)
+	local squad = get_story_squad("jup_depo_isg_tech_squad")
+	if squad then
+		local msg = game.translate_string("st_msg_hb_isg_tech_goodluck")
+		local name = game.translate_string("jup_depo_isg_tech_name")
+		local comm = game.translate_string("st_dyn_news_comm_isg_6")
+--		local se = strformat("%s, %s",name,comm)
+		local se = strformat("%s（%s）",name,comm)	--japan
+		db.actor:give_game_news(se, msg, "ui_inGame2_Maus", 10000, 20000)
+		xr_sound.set_sound_play(AC_ID, "pda_task")
+	end
+end
+
+-- send_msg_hb_isg_breakthrough
+local original_send_msg_hb_isg_breakthrough = xr_effects.send_msg_hb_isg_breakthrough
+
+xr_effects.send_msg_hb_isg_breakthrough = function(actor, npc, p)
+	local msg = game.translate_string("st_msg_hb_isg_breakthrough")
+	local name = game.translate_string("ds_domik_isg_leader_name")
+	local comm = game.translate_string("st_dyn_news_comm_isg_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_Hernandez", 20000, 20000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- pripyat_degtyarev_message_isg
+local original_pripyat_degtyarev_message_isg = xr_effects.pripyat_degtyarev_message_isg
+
+xr_effects.pripyat_degtyarev_message_isg = function(actor, npc, p)
+	local msg = game.translate_string("st_lttz_pripyat_degtyarev_message")
+	local name = game.translate_string("army_degtyarev_name")
+	local comm = game.translate_string("st_dyn_news_ssu")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_Hero", 20000, 30000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- ===================================================================
+--  isg_emergency_stash_timer （名前の変換）
+--  定期的に送られるUNISGのスタッシュ配置メッセージ
+--  オリジナルをコピーして改変したもの
+-- ===================================================================
+local original_isg_emergency_stash_timer = dialogs_lostzone.isg_emergency_stash_timer
+
+local stash_check_timer = 60 -- seconds
+local isg_stash_bonus
+dialogs_lostzone.isg_emergency_stash_timer = function()
+	ResetTimeEvent("cycle","isg_stash",stash_check_timer)
+	
+	local next_stash_time = alife_storage_manager.get_state().lttz_hb_next_stash_time
+	local last_stash_time = alife_storage_manager.get_state().lttz_hb_last_stash_time
+	if (not next_stash_time) or (not last_stash_time) then
+		alife_storage_manager.get_state().lttz_hb_next_stash_time = math.random(15,30)
+		alife_storage_manager.get_state().lttz_hb_last_stash_time = utils_data.CTime_to_table(game.get_game_time())
+		printdbg("- ISG Story | Recorded stash timer for the first time")
+		return false
+	end
+	
+	local last_stash_time_ct = utils_data.CTime_from_table(last_stash_time)
+	if (game.get_game_time():diffSec(last_stash_time_ct) > (next_stash_time * 3600)) then
+		printdbg("- ISG Story | Stash timer reached to spawn a stash")
+		
+		-- Set next stash time
+		alife_storage_manager.get_state().lttz_hb_next_stash_time = math.random(15,30)
+		alife_storage_manager.get_state().lttz_hb_last_stash_time = utils_data.CTime_to_table(game.get_game_time())
+		
+		-- Get Stash
+		local stash_id, stash_name, stash_desc, stash_hint = treasure_manager.get_random_stash("treasure_unique")
+		local se_stash = stash_id and alife_object(stash_id)
+		if (not se_stash) then
+			return false
+		end
+		
+		-- Send News
+		local trans = utils_data.collect_translations("st_dyn_news_isg_stash_",true)
+		if (not trans) then
+			return false
+		end
+		
+		local mil_ranks = {
+			"private",
+			"senior_sergeant",
+			"sergeant",
+			"lieutenant",
+			--"captain",
+		}
+		local mil_rank = mil_ranks[math.random(#mil_ranks)]
+		local f_names = utils_data.collect_translations("name_" .. mil_rank .. "_", true)
+		local s_names = utils_data.collect_translations("lname_" .. mil_rank .. "_", true)
+		if not (f_names and s_names) then
+			return false
+		end
+		
+--		local name = f_names[math.random(#f_names)] .. s_names[math.random(#s_names)]
+		local name = s_names[math.random(#s_names)] .. f_names[math.random(#f_names)]	--japanGAMMA
+		local location = dynamic_news_helper.GetPointDescription(se_stash) or ""
+--		local Se = game.translate_string("isg") .. ", " .. name
+		local Se = name .. ", " .. game.translate_string("isg")	--japanGAMMA
+		local msg = utils_data.parse_string_keys( trans[math.random(#trans)] , { ["name"]=name , ["location"]=location } )
+		
+		dynamic_news_helper.send_tip(msg, Se, nil, 10, "isg", "news", "gr")
+		
+		-- Set stash
+		if (not isg_stash_bonus) then
+			isg_stash_bonus = {}
+			local n = treasure_manager.ini_treasure:line_count("isg_stash_bonus")
+			for i=0, n-1 do
+				local junk, kind, value = treasure_manager.ini_treasure:r_line("isg_stash_bonus" , i , "", "")
+				if value then
+					isg_stash_bonus[#isg_stash_bonus + 1] = str_explode(value,",")
+				end
+			end
+		end
+		
+		local bonus = isg_stash_bonus and isg_stash_bonus[math.random(#isg_stash_bonus)]
+		treasure_manager.set_random_stash("treasure_unique", msg, bonus, stash_id)
+	end
+	
+	return false
+end

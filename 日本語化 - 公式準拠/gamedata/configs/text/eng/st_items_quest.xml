@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<!-- DRX Storyline Documents Quest Item -->
+  <string id="drx_sl_quest_item_1_name">
+    <text>厳重に暗号化された文書</text>
+  </string>
+  <string id="drx_sl_quest_item_1_desc">
+    <text>%c[pda_white]「ヌダヒーメソド・ヨード─サセーラドヲい繁殖ぁぴほちヒサロメソドい役割
+\nK.L.ャヲチブワプー教授
+
+\n \n要旨:
+\nゥーゴド教授い研究ぁぞだ、ヒサロメソドぶヌーヰネカニベヲずヌイゴダーい生成ぁ寄与ゃちぽをぶ明たふをヴろゐのち。ごら、ミゥッカ教授ぅヒサロメソドぶ生物とヨドォ化みゅち可能性と示唆めら。めふめ、人間い遺体ぁ対めゐぅんいぞばヴ影響と及げゃいりっばふ？
+
+\n \n本研究ゑぅ、ャヲーフーい遺体と屋外ぁ設置めら檻内ぁ配置め、ヒサロメソドい影響と直接受ほち環境下ぁ晒ゃ実験と実施めら。ぽぢと複数回行ろら後、ャイーベずガタロンミロフーヴんいエセーゴイノン型サセーラドヲい遺体ぁ対めゐじ同様い試験と行ろら。
+
+\n \n本実験い結果、白骨化めら遺体ぶヒサロメソドぁ曝露みぢら際、一定い確率ゑ「ザターモセ」を呼うぢち現象ぶ発生ゃちぽをぶ確認みぢら。ザターモセをぅ、ヌイゴダー現象ぁぞろゐ異常ヴ生体組織ぶ形成みぢ、遺体ぶ再ぉ活動と開始ゃち現象ゑぬち。ザターモセぅャイーベずガタロンミロフー、ヨドォ化めら人間、ぬちのぅ通常い人間ぁ酷似めら形態と取ちぽをぶ観察みぢゐのち。のやぢい個体じ皮膚ぅ異常ヴ灰色と呈め、明たふぁ生者をぅ異ヴち特徴と示めゐのら。通常い人間ぁ近の形態いザターモセぅ意思疎通ぶ可能ゑぬろらぶ、極度い妄想、錯乱、ょい場ふた逃ぼ出ょばをゃち傾向と示めららし、鎮静措置ぶ必要ゑぬろら。
+
+\n \n結論:
+\n単性ゑぬちぅやいャイーベぶ繁殖ゃち仕組さぁゎのゐ、新らヴ仮説と得ちぽをぶゑぷら。ごら、ヨードぁぴほち適切ヴ埋葬い実施ぶ科学的ぁ正当化みぢち理由じ明たふをヴろら。不適切ヴ埋葬ぅ、ヨードい脅威と一層拡大みゅち要因をヴちりっば。
+\ncc -2018」\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+	<!-- DRX Storyline Locked Case Quest Item -->
+  <string id="drx_sl_quest_item_2_name">
+    <text>鍵のかかったケース</text>
+  </string>
+  <string id="drx_sl_quest_item_2_desc">
+    <text>%c[pda_white]完全に密閉された頑丈なケース。中を確認するには適切な鍵で開けるか工具でこじ開ける必要がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+	<!-- DRX Storyline PDA Quest Item -->
+  <string id="drx_sl_quest_item_3_name">
+    <text>暗号化されたPDA</text>
+  </string>
+  <string id="drx_sl_quest_item_3_desc">
+    <text>%c[pda_white]高度な暗号技術で保護されたPDA。重要なデータが含まれている可能性が高い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="bad_psy_helmet_name">
+    <text>プサイ防護ヘルメット（未調整）</text>
+  </string>
+  <string id="bad_psy_helmet_desc">
+    <text>%c[pda_white]プサイ放射から身を守るために開発された試作型のヘルメット。適切な調整が行われていないため、その効果は不安定で、幻覚や頭痛を悪化させることがある。現状では完全な防護とは言えず、運任せの装備だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="good_psy_helmet_name">
+    <text>プサイ防護ヘルメット（調整済み）</text>
+  </string>
+  <string id="good_psy_helmet_desc">
+    <text>%c[pda_white]プサイ放射から身を守るために開発された試作型のヘルメット。完全に最適化されているため、精神攻撃のリスクを大幅に軽減することができる。使用者の脳波に合わせて調整されており、ブレイン・スコーチャーなどのプサイ活動が強いエリアへの進入に必要不可欠な防護手段となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="cit_doctors_key_name">
+    <text>ドクターの鍵</text>
+  </string>
+
+  <string id="cit_doctors_key_desc">
+    <text>%c[pda_white]側面に「ホテル ポリーシャ - 26号室」と刻印された鍵。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="cit_doctors_key_short_desc">
+    <text>%c[pda_white]側面に「ホテル ポリーシャ - 26号室」と刻印された鍵。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="item_docs_hiden_pri_name">
+    <text>ストレロクの原稿</text>
+  </string>
+  <string id="item_docs_hiden_pri_desc">
+    <text>%c[pda_white]革製本のすり切れた原稿。ストレロクによって書かれたもの。ゾーンの秘密について何か分かるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="cit_doctors_pda_name">
+    <text>ドクターのメモ</text>
+  </string>
+  <string id="cit_doctors_pda_desc">
+    <text>%c[pda_white]年老いた男の陰謀に関するメモが残されている。
+
+\n \n「2006年の事故が起きる前、アフロプロム研究所は非公式な実験の隠れ蓑として使われていたという噂がある。この研究所では極めて異様な実験が数多く行われていたようだ。トレーダーはこのような研究施設について多くの情報を掘り起こしている。
+
+\n \n私はバーキープに会いに行った。彼によれば、ダークバレーのX-18と呼ばれる地下金庫室に入ったデューティーの偵察隊が消息を絶ったらしい。さらに、脳にプサイ波を放出する装置に関する噂も聞いた。ヤンター周辺の一帯はその装置の影響下にあり、範囲内に入った者をすべてゾンビに変えてしまうそうだ。そして、赤い森のレーダーの地下にX-19と呼ばれる研究所があり、そこにも別の装置があるとのことだ。おそらく、それはブレイン・スコーチャーである可能性が高い。
+
+\n \nブレイン・スコーチャーは北へ続く道を封鎖するために存在している。その証拠もあるが、この装置が一体何なのかは未だに分かっていない。バーキープの考えによると、この装置は人工的なもので、常に最大出力で作動しているわけではないようだ。装置の冷却のために出力が低下するタイミングがあると言っていた。
+
+\n \n今こそゾーン内のすべての地下研究所を訪れ、どんな秘密が隠されているのか突き止める時だろう。しかし、私は年をとりすぎてしまった。ストレロクがいてくれたら良かったのだが･･････」\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="item_decoder_name">
+    <text>デコーダー</text>
+  </string>
+  <string id="item_decoder_desc">
+    <text>%c[pda_white]電子錠を解錠するための強力なツール。ただし、これは万能の泥棒道具ではないようだ。不思議なことに特定の電子錠を想定して作られているようで、それ以外の錠を解除することはできない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="pri_decoder_docs_conclusion_txt">
+    <text>%c[pda_white]この手記には、ファングとストレロクが極秘研究所に潜入した経緯と、そこに至るまでの道のりが簡潔に記されている。チョルノービリ原発周辺、特にコンクリートの石棺の下にモノリスが存在することが書かれており、そこが彼らの主要拠点で、何か重要なものを隠している可能性を示唆している。手記の後半では、発電所よりも北にあるジェネレーターの地下で別の研究所を発見したと記されている。しかし、特殊なデコーダーが必要だったため、その時点では侵入できなかったようだ。</text>
+  </string>
+
+  <string id="item_quest_case_02_name">
+    <text>軍事文書</text>
+	</string>
+  <string id="item_quest_case_02_desc">
+    <text>%c[pda_white]アフロプロム付近で行われた調査に関する報告書と軍事文書が入った耐火性のブリーフケース。報告書には機器や設備が研究所からどのようにして消失したのかが詳細に記されており、その所在に関する調査結果が明らかに改ざんされたものであることが言及されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+
+  <string id="item_doc_x18_name">
+    <text>生物学研究レポート</text>
+  </string>
+  <string id="item_doc_x18_desc">
+    <text>%c[pda_white]この報告書にはラボX18から送られた生体サンプルの研究結果が詳述されている。サンプルは様々な強度の情報フィールド効果を受けたようだ。また、光熱放射を浴びた後の生物の突然変異についても詳細に記録されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="item_doc_x16_name">
+    <text>プサイ研究文書</text>
+  </string>
+  <string id="item_doc_x16_desc">
+    <text>%c[pda_white]この文書には指向性のプサイ放射を発する生物がどのように発見されたかが記されている。また、ラボX16で行われた実験の一環として、大規模な生体フィールド発生装置として「脳」が培養されていたことにも触れられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="item_doc_x10_name">
+    <text>幻覚発生装置に関する書類</text>
+  </string>
+  <string id="item_doc_x10_desc">
+    <text>%c[pda_white]この文書にはアンテナの技術的特性と、当初の設計からどのように逸脱したのかが記されている。裏面にはこれらの文書がラボX19で作成されたことを示す注意書きがある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="item_doc_x8_name">
+    <text>移動命令書</text>
+  </string>
+  <string id="item_doc_x8_desc">
+    <text>%c[pda_white]この書類には研究チームとその全資料が北方の遠く離れた別の研究所へ移送されることや、その目的がノウアスフィアの影響に関する研究であることが記されている。研究所に入るには、事故が発生した日付をDD/MM/YYYY形式で入力する必要があるようだ。研究チームのメンバーはN.A.レベデフ、E.F.カランチャ、V.I.ススロフで構成されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+  <string id="item_doc_jup_ug_name">
+    <text>実験ノート</text>
+  </string>
+  <string id="item_doc_jup_ug_desc">
+    <text>%c[pda_white]地球の反対側にある物体に対し、プサイフィールドがどのような影響を及ぼすかを調査した実験の詳細な記録が記されている。カリブ海上にいたチームがその信号を受信したが、信号には何者かに修正されたかのような奇妙な変化が見られたようだ。この現象の原因に関してはノウアスフィア理論が正しいという仮説が最も有力であり、このような変化はノウアスフィア自体が引き起こしたものだと考えられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="item_doc_mon_con_name">
+    <text>試作兵器報告書</text>
+  </string>
+  <string id="item_doc_mon_con_name_desc">
+    <text>%c[pda_white]高度な電磁装置の作動機構と主な技術仕様について記された書類。この報告書には次のようなメモが挟まれている。
+\n「この書類はX-8中央研究所へ返却すること。私は忙しいので、代わりに届けてくれ。　ー　N.レベデフ」\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="quest_package_name">
+    <text>お届け物</text>
+  </string>
+  <string id="quest_package_desc">
+    <text>%c[pda_white]この荷物の中身は不明だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="st_jup_b32_scanner_device_name">
+    <text>アノマリー測定用スキャナー</text>
+  </string>
+  <string id="st_jup_b32_scanner_device_desc">
+    <text>%c[pda_white]アーティファクト検出器、バッテリー、強力な送信機を組み合わせたケース。この装置はアノマリーをスキャンし、出現したアーティファクトの数と種類を判別する。これらの情報は自動的に科学者たちの移動ラボに送信される。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="mlr_strelok_item_01">
+    <text>古い手帳</text>
+  </string>
+  <string id="mlr_strelok_item_01_desc">
+    <text>%c[pda_white]おそらくストレロクが所有していた手帳。X-18という地下複合施設に入る方法が詳しく書かれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="blackbox_mlr">
+    <text>フライトレコーダー</text>
+  </string>
+  <string id="blackbox_mlr_descr">
+    <text>%c[pda_white]フライトデータレコーダー、通称「ブラックボックス」。フライトレコーダーは内部システムや乗組員の会話の状況を記録するために使用され、事故発生時に重要な情報を残してくれる。ゾーンではストーカーと軍隊がこの装置に興味を持っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="item_pda_map_mlr_name">
+    <text>PDA</text>
+  </string>
+  <string id="item_pda_map_mlr_descr">
+    <text>%c[pda_white]マップ間の道に関する情報が入っているPDA。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+
+	<!-- DRX -->
+  <string id="drx_x8_documents_name">
+    <text>アンテナ設置文書</text>
+  </string>
+  <string id="drx_x8_documents_desc">
+    <text>%c[pda_white]この文書は大規模なレーダーと思われるものに言及している。おそらくブレイン・スコーチャーが設置されている構造物だろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="drx_x16_documents_name">
+    <text>生物学的研究</text>
+  </string>
+  <string id="drx_x16_documents_desc">
+    <text>%c[pda_white]ラットや他の動物を使った実験について書かれた古い論文。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="drx_x18_documents_name">
+    <text>実験報告書: B0-D4</text>
+  </string>
+  <string id="drx_x18_documents_desc">
+    <text>%c[pda_white]プサイ波の共鳴に関連する実験について書かれた古い文書。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="drx_x19_documents_name">
+    <text>通信ログ／2006年3月21日</text>
+  </string>
+  <string id="drx_x19_documents_desc">
+    <text>%c[pda_white]研究所の科学者たちのグループ間で行われた無線通信を書き起こしたもの。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="drx_agr_u_documents_name">
+    <text>アフロプロム研究所の文書</text>
+  </string>
+  <string id="drx_agr_u_documents_desc">
+    <text>%c[pda_white]アフロプロムに関するメモと写真、そして印が付けられた一枚の地図が含まれている。おそらくストレロクが書いたものだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="drx_jup_u_documents_name">
+    <text>輸送記録</text>
+  </string>
+  <string id="drx_jup_u_documents_desc">
+    <text>%c[pda_white]ジュピター工場への機械設備や工具の輸送に関する過去の記録が残されている。また、東側へ続くトンネルの構造を示す図も含まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="lx8_history_documents_name">
+    <text>実験（2005年11月4日）</text>
+  </string>
+  <string id="lx8_history_documents_desc">
+    <text>%c[pda_white]何年も前に行われた新型のプサイ装置に関する実験の結果が記録されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="lx8_history_2_documents_name">
+    <text>実験（2005年9月24日）</text>
+  </string>
+  <string id="lx8_history_2_documents_desc">
+    <text>%c[pda_white]何年も前に行われたプサイ波の応用に関する実験の結果が記録されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+  <string id="lx8_history_3_documents_name">
+    <text>実験（2006年5月2日）</text>
+  </string>
+  <string id="lx8_history_3_documents_desc">
+    <text>%c[pda_white]生物学的な実験の結果が記録されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+</string_table>

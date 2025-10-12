@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string id="st_cap_check_soulslike_mode">
+		<text>ソウルライクモード</text>
+	</string>
+	<string id="st_mm_ck_soulslike_mode_desc">
+		<text>%c[ui_8]ソウルライクモードでは死亡してもゲームが終わることはありません。あなたは他のストーカーによって救助され、最後に設定した復活地点に運ばれます。目を覚ますと救助者からのメッセージが届き、どこで発見され、どのように助けられたのかを知ることができます。ただし、所持していたアイテムは回収しなければならず、一部は完全に失われ、無事に残っていたものでも耐久値が低下している可能性が高いでしょう。\n \n
+		%c[ui_red]• %c[ui_gray_1]アザゼルモードには対応していない\n
+		%c[ui_red]• %c[ui_gray_1]アイアンマンモードには対応していない
+		</text>
+	</string>
+</string_table>

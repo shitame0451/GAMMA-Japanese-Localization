@@ -1,0 +1,18 @@
+<!--
+	EFT Aim Rattle Strings
+-->
+
+<string_table>
+	<string id="ui_mcm_menu_eft_rattle">
+		<text>EFT Aim Rattle</text>
+	</string>
+	<string id="ui_mcm_title_eft_rattle">
+		<text>EFT Aim Rattle Settings</text>
+	</string>
+	<string id="ui_mcm_eft_rattle_aim_rattle">
+		<text>ADS時に音を再生する</text>
+	</string>
+	<string id="ui_mcm_eft_rattle_lower_raise_rattle">
+		<text>銃を下げる/上げる時に音を再生する</text>
+	</string>
+</string_table>

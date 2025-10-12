@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+<!--
+	modxml_inject_keybinds.script
+	ui_st_keybinding.xmlに上書き、追加される文章
+-->
+
+	<string id="kb_func">
+		<text>照準スタイルの切り替え</text>
+	</string>
+
+	<string id="kb_switch_ubgl">
+		<text>アンダーバレルランチャーの切り替え</text>
+	</string>
+
+	<string id="kb_editor">
+		<text>ImGuiエディタ</text>
+	</string>
+
+<!--
+	st_items_repair.xml
+	特性の部分のみ変更
+-->
+
+	<string id="st_rasp_tool">
+		<text>やすり</text>
+	</string>
+	<string id="st_rasp_tool_descr">
+		<text>金属の荒い表面を滑らかにし、錆を落とし、形状を整えるために使用するシンプルな道具。現場での応急的な修復作業に欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
+		</text>
+	</string>
+	<string id="st_leatherman_tool">
+		<text>マルチツール</text>
+	</string>
+	<string id="st_leatherman_tool_descr">	<!-- zzzzz_jp_ui_item.scriptで置換修正 -->
+		<text>ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム分解ツール\n
+		</text>
+	</string>
+	<string id="st_ramrod_tool">
+		<text>ラムロッド</text>
+	</string>
+	<string id="st_ramrod_tool_descr">
+		<text>銃身内の異物を取り除き、清掃するための頑丈な棒。ゾーンの過酷な環境下で使い込まれた銃のメンテナンスに欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
+		</text>
+	</string>
+
+	<string id="st_solvent">
+		<text>洗浄溶剤（ホップスNo.9）</text>
+	</string>
+	<string id="st_solvent_descr">
+		<text>昔から広く使われている西側製の銃器洗浄溶剤。カーボン、鉛、火薬の残留物を効果的に分解する。適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
+		</text>
+	</string>
+	<string id="st_gun_oil">
+		<text>スプレー式潤滑剤（ブルノックスガンケア）</text>
+	</string>
+	<string id="st_gun_oil_descr">
+		<text>銃器の錆や腐食、汚れの蓄積を防ぐために設計された汎用性の高いスプレー式潤滑剤。適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
+		</text>
+	</string>
+	<string id="st_gun_oil_ru_d">
+		<text>洗浄溶剤（ドヴォイカ）</text>
+	</string>
+	<string id="st_gun_oil_ru_d_descr">
+		<text>ソ連時代に開発された銃器洗浄溶剤。強い化学成分と独特の刺激臭を持ち、頑固な汚れも除去できる優れた洗浄力を誇る。適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
+		</text>
+	</string>
+	<string id="st_gun_oil_ru">
+		<text>ガンオイル（ルサク）</text>
+	</string>
+	<string id="st_gun_oil_ru_descr">
+		<text>手頃な価格のロシア製鉱物油が入ったプラスチックボトル。銃器の潤滑と防錆を目的としているが、適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
+		</text>
+	</string>
+
+	<string id="st_sharpening_stones">
+		<text>砥石セット</text>
+	</string>
+	<string id="st_sharpening_stones_descr">
+		<text>異なる粒度の砥石が入った砥石セット。ポリエステル製の袋に収納されており、ナイフなどの刃物のメンテナンスや修復に使用する。定期的な研磨を行うことで武器やツールの切れ味を保ち、常に高い性能を維持できるようになる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ナイフや分解ツールの修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのナイフ、分解ツール\n
+		</text>
+	</string>
+
+<!--
+	st_items_tools.xml
+	特性の部分のみ変更
+-->
+
+	<string id="st_itm_repairkit_tier_1_name">
+		<text>ベーシックツール</text>
+	</string>
+	<string id="st_itm_basickit_name">
+		<text>ベーシックツール</text>
+	</string>
+	<string id="st_itm_basickit_descr">
+		<text>レンチ、ペンチ、ドライバーなどを備えたシンプルな工具セット。銃や防護スーツ、電子機器の修理作業に使用する。簡単な修理には十分だが、高度な改造や精密機器には向いていない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]作業台で使用できる\n
+		</text>
+	</string>
+	<string id="st_itm_repairkit_tier_2_name">
+		<text>アドバンスドツール</text>
+	</string>
+	<string id="st_itm_advancedkit_name">
+		<text>アドバンスドツール</text>
+	</string>
+	<string id="st_itm_advancedkit_descr">
+		<text>特殊ドライバー、はんだごて、診断メーターなどを備えた本格的な精密工具セット。高度な銃火器の修理や防護スーツの強化、各種装備の調整に最適で、熟練のストーカーや技術者に重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]作業台で使用できる\n
+		</text>
+	</string>
+	<string id="st_itm_repairkit_tier_3_name">
+		<text>エキスパートツール</text>
+	</string>
+	<string id="st_itm_expertkit_name">
+		<text>エキスパートツール</text>
+	</string>
+	<string id="st_itm_expertkit_descr">
+		<text>マイクロ溶接機、ノギス、高性能診断装置などを備えた希少な専門工具セット。扱いには熟練の技術が必要だが、銃や防護スーツ、各種装備の複雑な改造や高度な修理を可能にする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]作業台で使用できる\n
+		</text>
+	</string>
+	<string id="st_itm_drugkit">
+		<text>薬品製造ツール</text>
+	</string>
+	<string id="st_itm_drugkit_descr">
+		<text>計量容器、バーナー、試薬瓶、各種薬剤などを備えた携帯式の化学合成キット。野外で薬品や医療品を調合できるため、興奮剤や治療薬、強化剤を自作するストーカーにとっては欠かせない道具だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]作業台で使用できる\n
+		</text>
+	</string>
+	<string id="st_itm_ammokit">
+		<text>ガンスミスツール</text>
+	</string>
+	<string id="st_itm_ammokit_descr">
+		<text>銃の整備や改造、部品の製作に特化した工具セット。やすり、ピンポンチ、トルクレンチ、精密クリーニング用品などが揃っており、十分な知識と経験があれば、損傷した弾薬の再利用や高性能な弾薬の製造にも利用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]作業台で使用できる\n
+		</text>
+	</string>
+
+<!--
+	st_eft_scopes_addons.xml
+	idの指定ミス
+-->
+
+	<string id="st_addon_scope_aim_acro">
+		<text>ACRO P-1 リフレックスサイト</text>
+	</string>
+	<string id="st_addon_scope_aim_acro_descr">
+		<text>コンパクトな密閉型のレッドドットサイト。拳銃やライフル向けに設計され、優れた耐久性と長寿命バッテリーを備えている。実戦、護身、競技射撃に最適な選択肢となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スウェーデン\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Aimpoint\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+
+<!--
+	st_quests_escape.xml
+	GAMMAの仕様に応じて変更
+-->
+
+	<string id="task_fanat_training_1_10">
+		<text>トレーニング: ファナティックと話す</text>
+	</string>
+
+<!--
+	st_dialogs_deadcity.xml
+	GAMMAの仕様に応じて変更
+-->
+
+	<string id="talk_to_aslan_about_lottery_1">
+		<text>どう説明するべきか。いや、俺個人としては別に“興味”はないんだ。
+\n欲しがってるのは上の連中さ。俺は何でも任される中間管理職みたいなもんでな。
+\n正直、俺にはもっと分かりやすいもの･･････ 例えば、物資や現金のほうが性に合ってる。
+\n最近はうちの連中の士気も落ちてるし、戦利品を得られる別の手段として、
+\nこの話が使えるんじゃないかと思ってな。新しい刺激があれば、やる気を保てるだろ？
+\nほら、今どきの契約報酬なんてどれも同じで、正直つまらないしな･･････
+
+\n\n仕組みはこうだ。派閥パッチを持ってきたら、俺の部下が集めた品と交換してやる。
+\nどうだ、悪くない取引だろ？どの派閥のパッチでも構わない。20枚集めれば、
+\n医薬品、ツールキット、クラフト素材、食料品、アーティファクトのどれかが手に入る。
+\nああ、そうだった─強い派閥のパッチを持ってくれば、それだけ報酬の価値があがる。
+\nデューティーのパッチなら、バンディットのゴミパッチよりも良い報酬が期待できるぞ。
+
+\n\n「何故そんなに気前が良いのか」って？
+\nそれはな、パッチを戦闘の証として集めてる奴が多いからさ。
+\n特に、見せびらかしたくなるようなレア物はな。
+\nだからこそ、こうして交換できるようにすれば、自然と流通するようになるってわけさ。</text>
+	</string>
+
+	<string id="aslan_st_3">
+		<text>何が危険なのかは、いずれお前自身の目で確かめることになるだろう。
+\nだが覚えておけ･･････ 任務を遂行する時は、やるべきことに集中しろ。感情に流されるな。
+\n必要なのは、冷徹な思考と的確な判断力だけだ。感情や正義感なんてものは捨てろ。</text>
+	</string>
+
+	<string id="aslan_st_7">
+		<text>まあ、そんなところだな。リマンスクの近くに古い病院があるが、行っても無駄だぞ。
+\nチョルノービリ原子力発電所へ続く道は、プサイ放射のせいで通れないからな。</text>
+	</string>
+
+<!--
+	st_dialogs_pripyat.xml
+	GAMMAの仕様に応じて変更
+-->
+
+	<string id="tech_a18_meet_dialog_1_1">
+		<text>F1 手榴弾20個と引き換えに、M203 グレネード弾20発と交換できる。
+\nそれと、RGD-5 手榴弾10個なら、RPG弾頭3発と交換だな。</text>
+	</string>
+
+</string_table>

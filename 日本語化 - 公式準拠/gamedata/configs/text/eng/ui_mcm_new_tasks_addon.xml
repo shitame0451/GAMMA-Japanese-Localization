@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="ui_mcm_menu_new_tasks_addon">
+		<text>New Tasks Addon</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_replayability_title">
+		<text>繰り返すタスクを設定する</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_esc_m_trader_task_new_tasks_addon_dead_night">
+		<text>デッドナイト</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall">
+		<text>スカイフォール</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_bar_dolg_general_petrenko_stalker_task_hold_the_ground">
+		<text>持ち場を死守する</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_cit_killers_merc_trader_stalker_task_no_step_back">
+		<text>引くこと知らず</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_simulation_task_gambling_with_life">
+		<text>命がけの賭け</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_simulation_task_vengence_amplified">
+		<text>激化する復讐心</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_yan_stalker_sakharov_task_brain_game">
+		<text>頭脳ゲーム</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_urgent_orders">
+		<text>緊急指令</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_bar_visitors_barman_stalker_trader_task_baba_yaga">
+		<text>バーバ・ヤーガ</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors">
+		<text>ハウス・オブ・ホラー</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_zat_a2_stalker_barmen_task_mirage">
+		<text>ミラージュ</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_jup_b220_trapper_task_big_game">
+		<text>大物狩り</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo">
+		<text>禁輸措置を執行する</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_esc_m_trader_task_cold_blooded_betrayal">
+		<text>冷酷な裏切り</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown">
+		<text>シェイクダウン</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_yan_stalker_sakharov_task_stolen_specimen">
+		<text>奪われた標本</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_trader_pri_a15_mlr_task_blood_stained_coin">
+		<text>血塗られたコイン</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_jup_a6_stalker_barmen_task_the_keepsake">
+		<text>形見</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_jup_a6_freedom_leader_task_freedom_intel_documents">
+		<text>フリーダムの情報文書</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_guid_zan_stalker_locman_task_pilots_pda">
+		<text>パイロットの落とし物</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_repl_merc_pri_grifon_mlr_task_monolith_plans">
+		<text>モノリスの計画書</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_auto_assignment_title">
+		<text>タスクの自動割り当て</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_auto_assignment_desc">
+		<text>これらのタスクはほとんどの場合、自動割り当てによってのみ受注可能です。\nそのため、無効にすると一切受注できなくなる可能性があります。</text>
+	</string>
+	<string id="ui_mcm_new_tasks_addon_auto_assignment_urgent_orders">
+		<text>緊急指令</text>
+	</string>
+</string_table>

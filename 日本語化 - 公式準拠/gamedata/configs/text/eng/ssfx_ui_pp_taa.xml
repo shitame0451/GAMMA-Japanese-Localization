@@ -1,0 +1,44 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 23
+- @ Description: TAA - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<string_table>
+
+	<!-- TAA Title -->
+	<string id="ui_mcm_ssfx_module_taa_title">
+		<text>TAA - Settings</text>
+	</string>
+
+	<!-- TAA Settings -->
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_enabled_mcm">
+		<text>有効化</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_enabled_mcm_desc">
+		<text>テンポラルアンチエイリアス（TAA）を有効または無効にします。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_jitter_mcm">
+		<text>ジッターの強さ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_jitter_mcm_desc">
+		<text>静止しているオブジェクトのジャギーを軽減しますが、場合によってはちらつきが発生することがあります。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_sharpness_mcm">
+		<text>シャープネス</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_taa_sharpness_mcm_desc">
+		<text>TAAの後に適用される鮮明化フィルターの強さを調整します。</text>
+	</string>
+
+
+</string_table>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_recipe_basic_1">
+    <text>サバイバルガイド（第1号）</text>
+  </string>
+  <string id="st_recipe_basic_2">
+    <text>サバイバルガイド（第2号）</text>
+  </string>
+  <string id="st_recipe_basic_3">
+    <text>サバイバルガイド（第3号）</text>
+  </string>
+  <string id="st_recipe_basic_4">
+    <text>サバイバルガイド（第4号）</text>
+  </string>
+  <string id="st_recipe_basic_descr">
+    <text>使い込まれたガイド本。ゾーンで生き抜くために必要な知識やクラフト技術がまとめられている。基本的な野営地の作り方から、現地で手に入るもので道具や物資を作る方法まで幅広く網羅している。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+  </string>
+  <string id="st_recipe_advanced_1">
+    <text>機械工学マニュアル（第1版）</text>
+  </string>
+  <string id="st_recipe_advanced_2">
+    <text>機械工学マニュアル（第2版）</text>
+  </string>
+  <string id="st_recipe_advanced_3">
+    <text>機械工学マニュアル（第3版）</text>
+  </string>
+  <string id="st_recipe_advanced_4">
+    <text>機械工学マニュアル（第4版）</text>
+  </string>
+  <string id="st_recipe_advanced_descr">
+    <text>銃やスーツ、機械類を拾った部品で修理・改造する方法が詳しく解説されたマニュアル本。整備の知識があるストーカーたちは、過酷なゾーンで装備を長く使うためにこの一冊に頼っている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+  </string>
+  <string id="st_recipe_expert_1">
+    <text>産業工学マニュアル（第1版）</text>
+  </string>
+  <string id="st_recipe_expert_2">
+    <text>産業工学マニュアル（第2版）</text>
+  </string>
+  <string id="st_recipe_expert_3">
+    <text>産業工学マニュアル（第3版）</text>
+  </string>
+  <string id="st_recipe_expert_4">
+    <text>産業工学マニュアル（第4版）</text>
+  </string>
+  <string id="st_recipe_expert_descr">
+    <text>電子改造を含む装備品の作成・改良のための高度なトラブルシューティングとクラフト方法を解説した技術ハンドブック。難解かつ高度な内容のため、知恵と工夫に長けたストーカーのみが最大限に活用できる一冊だ。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+  </string>
+  <string id="st_recipe_drug_1">
+    <text>ドラッグレシピ#1</text>
+  </string>
+  <string id="st_recipe_drug_2">
+    <text>ドラッグレシピ#2</text>
+  </string>
+  <string id="st_recipe_drug_3">
+    <text>ドラッグレシピ#3</text>
+  </string>
+  <string id="st_recipe_drug_4">
+    <text>ドラッグレシピ#4</text>
+  </string>
+  <string id="st_recipe_drug_descr">
+    <text>とある本から破り取られたメモ。にじんだ青インクで手書きされており、一般的な医療用品を使って様々な薬品や治療薬を作る方法が記されている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+  </string>
+  <string id="st_recipe_ammo_1">
+    <text>弾薬安全ガイド（第1版）</text>
+  </string>
+  <string id="st_recipe_ammo_2">
+    <text>弾薬安全ガイド（第2版）</text>
+  </string>
+  <string id="st_recipe_ammo_3">
+    <text>弾薬安全ガイド（第3版）</text>
+  </string>
+  <string id="st_recipe_ammo_4">
+    <text>弾薬安全ガイド（第4版）</text>
+  </string>
+  <string id="st_recipe_ammo_descr">
+    <text>回収した火薬や薬莢を使って、安全に弾薬を作ったり手を加えたりするための実用的なガイド。暴発を避けて確実に使える弾を作りたいストーカーには欠かせない一冊だ。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+		</text>
+  </string>
+  <string id="st_recipe_cooking_1">
+    <text>シェフのノート</text>
+  </string>
+  <string id="st_recipe_cooking_descr">
+    <text>ゾーンで手に入る限られた、時には怪しげな材料を使って、まともな食事を作るための手書きレシピ集。レーションや怪しいミュータントの肉ばかりでうんざりしているストーカーにはありがたいノートだ。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]レシピ\n
+</text>
+  </string>
+  <string id="st_memoirs_1_of_2_name">
+    <text>ストーカーの日記（1/2）</text>
+  </string>
+  <string id="st_memoirs_1_of_2_desc">
+    <text>劣化を防ぐためにカバーに入れられていた、色あせた古いノート。それでも長い時間の経過には耐えられず、ひどく水に濡れて状態は悪い。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_memoirs_2_of_2_name">
+    <text>ストーカーの日記（2/2）</text>
+  </string>
+  <string id="st_memoirs_2_of_2_desc">
+    <text>劣化を防ぐためにカバーに入れられていた、色あせた古いノート。それでも長い時間の経過には耐えられず、ひどく水に濡れて状態は悪い。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_freedom_manual_1_of_2_name">
+    <text>尋問のテクニック: 基本編（1/2）</text>
+  </string>
+  <string id="st_freedom_manual_1_of_2_desc">
+    <text>Freedomの記章が押印された教本。心を揺さぶる質問や暴力で相手から情報を引き出すための基本技術が載っている。自己防衛のための手引きなのか、それとも何か恐ろしい意図を持つものなのか、その目的ははっきりしない。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_freedom_manual_2_of_2_name">
+    <text>尋問のテクニック: 基本編（2/2）</text>
+  </string>
+  <string id="st_freedom_manual_2_of_2_desc">
+    <text>Freedomの記章が押印された教本。心を揺さぶる質問や暴力で相手から情報を引き出すための基本技術が載っている。自己防衛のための手引きなのか、それとも何か恐ろしい意図を持つものなのか、その目的ははっきりしない。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_stalker_letter_1_of_2_name">
+    <text>回顧録（1/2）</text>
+  </string>
+  <string id="st_stalker_letter_1_of_2_desc">
+    <text>あるストーカーの体験をつづった、古びた手書きのメモ。個人的な思い出や生存するためのコツ、断片的なエピソードが散りばめられている。未完のままではあるが、ゾーンの過酷さを強く感じさせる内容だ。\n
+		</text>
+  </string>
+  <string id="st_stalker_letter_2_of_2_name">
+    <text>回顧録（2/2）</text>
+  </string>
+  <string id="st_stalker_letter_2_of_2_desc">
+    <text>あるストーカーの体験をつづった、古びた手書きのメモ。個人的な思い出や生存するためのコツ、断片的なエピソードが散りばめられている。未完のままではあるが、ゾーンの過酷さを強く感じさせる内容だ。\n
+		</text>
+  </string>
+  <string id="st_ecologist_report_1_of_3_name">
+    <text>歩く死体の調査報告書39B改訂2版（1/3）</text>
+  </string>
+  <string id="st_ecologist_report_1_of_3_desc">
+    <text>Ecologistの研究チームの記章が押印された機密文書。「ウォーキング・デッド」と呼ばれるゾンビ化現象について、詳細な観察記録と仮説がまとめられている。アルカディ・ツヴェトコフスキーの署名入りで、ゾンビ化したストーカーの恐るべき実例や発生原因の可能性、奇妙な放射線への長期曝露がもたらす危険性が記されている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+  </string>
+  <string id="st_ecologist_report_2_of_3_name">
+    <text>歩く死体の調査報告書39B改訂2版（2/3）</text>
+  </string>
+  <string id="st_ecologist_report_2_of_3_desc">
+    <text>Ecologistの研究チームの記章が押印された機密文書。「ウォーキング・デッド」と呼ばれるゾンビ化現象について、詳細な観察記録と仮説がまとめられている。アルカディ・ツヴェトコフスキーの署名入りで、ゾンビ化したストーカーの恐るべき実例や発生原因の可能性、奇妙な放射線への長期曝露がもたらす危険性が記されている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+  </string>
+  <string id="st_ecologist_report_3_of_3_name">
+    <text>歩く死体の調査報告書39B改訂2版（3/3）</text>
+  </string>
+  <string id="st_ecologist_report_3_of_3_desc">
+    <text>Ecologistの研究チームの記章が押印された機密文書。「ウォーキング・デッド」と呼ばれるゾンビ化現象について、詳細な観察記録と仮説がまとめられている。アルカディ・ツヴェトコフスキーの署名入りで、ゾンビ化したストーカーの恐るべき実例や発生原因の可能性、奇妙な放射線への長期曝露がもたらす危険性が記されている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+  </string>
+  <string id="st_monolith_prayer_1_of_3_name">
+    <text>モノリスへの祈り（1/3）</text>
+  </string>
+  <string id="st_monolith_prayer_1_of_3_desc">
+    <text>手書きの祈祷文で、モノリスを神聖視し、その意志を賛美する言葉であふれている。ほとんど狂信的とも言える信仰心が感じられ、モノリス信者のカルト的な精神構造が十分に伝わってくる。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_monolith_prayer_2_of_3_name">
+    <text>モノリスへの祈り（2/3）</text>
+  </string>
+  <string id="st_monolith_prayer_2_of_3_desc">
+    <text>手書きの祈祷文で、モノリスを神聖視し、その意志を賛美する言葉であふれている。ほとんど狂信的とも言える信仰心が感じられ、モノリス信者のカルト的な精神構造が十分に伝わってくる。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_monolith_prayer_3_of_3_name">
+    <text>モノリスへの祈り（3/3）</text>
+  </string>
+  <string id="st_monolith_prayer_3_of_3_desc">
+    <text>手書きの祈祷文で、モノリスを神聖視し、その意志を賛美する言葉であふれている。ほとんど狂信的とも言える信仰心が感じられ、モノリス信者のカルト的な精神構造が十分に伝わってくる。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_monolithian_thoughts_name">
+    <text>モノリス信者の手紙</text>
+  </string>
+  <string id="st_monolithian_thoughts_desc">
+    <text>モノリス狂信者による乱雑な手書きのメモ。断片的な思考や任務の記録、そしてモノリスへの執念のような賛美が書き残されている。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_letter_to_outside_name">
+    <text>ナタリーへの手紙</text>
+  </string>
+  <string id="st_letter_to_outside_desc">
+    <text>ゾーン外の恋人へ向けた手紙。残念ながら宛先には届かなかったようだ。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_letter_military_stalker_name">
+    <text>Militaryのストーカーのメモ</text>
+  </string>
+  <string id="st_letter_military_stalker_desc">
+    <text>スタッシュで見つかったメモ。長く退屈な夜の暇つぶしに書いたものだろう。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_letter_mercenary_name">
+    <text>Mercenaryのメモ</text>
+  </string>
+  <string id="st_letter_mercenary_desc">
+    <text>傭兵が残した手書きのメモ。ゾーンでの活動に関するいくつかの考えを書き残したようだ。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_letter_military_log_name">
+    <text>通信ログ／MSRC作戦／2014年5月4日 18:36:21</text>
+  </string>
+  <string id="st_letter_military_log_desc">
+    <text>ゾーンに駐留する軍の部隊間の無線交信を文字に起こした印刷資料。極秘作戦に関するものだと思われる。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+  <string id="st_letter_stalker_letter_3_name">
+    <text>ニコライへの手紙</text>
+  </string>
+  <string id="st_letter_stalker_letter_3_desc">
+    <text>ニコライに宛てた手書きの手紙。\n \n
+    %c[pda_white]特性:\n
+ </text>
+  </string>
+</string_table>

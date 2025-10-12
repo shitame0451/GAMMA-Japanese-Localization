@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="ui_mcm_weapon_cover_tilt_title">
+		<text>Weapon Cover Tilt</text>
+	</string>
+	<string id="ui_mcm_menu_weapon_cover_tilt">
+		<text>Weapon Cover Tilt</text>
+	</string>
+
+	<string id="ui_mcm_weapon_cover_tilt_enabled">
+		<text>有効</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_use_fire_bone">
+		<text>HUDモデルのサイズを使用</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_use_fire_bone_desc">
+		<text>有効にすると、銃が傾くタイミングを実際のHUDモデルのサイズに基づいて判定します。このアドオンは、「fire_bone」とその「fire_point offset」から発射方向に向けてレイキャストを行います。※この機能を使用するには、2025.04.22以降のmodded exeが必要です。非対応の場合は従来の方式が使用されます。</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_use_fire_bone_debug">
+		<text>HUDモデルのデバッグ</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_speed">
+		<text>アニメーションの慣性</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_speed_desc">
+		<text>値を小さくするほど、アニメーションの動きが速くなります。</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_weight_coeff">
+		<text>重量係数</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_animation_weight_coeff_desc">
+		<text>値を大きくするほど、銃の重量がアニメーション速度に与える影響が強くなります。</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_trigger_radius">
+		<text>トリガー半径 (メートル)</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_trigger_radius_magnitude">
+		<text>銃の長さ補正</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_trigger_radius_magnitude_desc">
+		<text>この値を大きくすると、銃の長さによるトリガー半径への影響が強まります。高い値では、短銃身と長銃身で反応範囲に大きな差が出るようになります。</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_consider_silencer">
+		<text>サプレッサーの影響を反映</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_consider_silencer_desc">
+		<text>有効にすると、サプレッサー装着時にトリガー半径が約0.1メートル増加します。</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_tilt_rattle">
+		<text>銃が傾いたときに効果音を再生する</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_x">
+		<text>銃位置のX軸オフセット</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_x_desc">
+		<text>&lt; 0 - 左 &gt; 0 - 右</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_y">
+		<text>銃位置のY軸オフセット</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_y_desc">
+		<text>&lt; 0 - 下 &gt; 0 - 上</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_z">
+		<text>銃位置のZ軸オフセット</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_offset_z_desc">
+		<text>&lt; 0 - 後 &gt; 0 - 前</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_yaw_variation">
+		<text>銃のヨー方向変化</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_yaw_variation_desc">
+		<text>銃を構えたときに、指定した角度の範囲内でヨー方向にランダムな変化が加わり、アニメーションに変化をもたらします。</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_roll_variation">
+		<text>銃のロール方向変化</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_roll_variation_desc">
+		<text>銃を構えたときに、指定した角度の範囲内でロール方向にランダムな変化が加わり、アニメーションに変化をもたらします。</text>
+	</string>
+
+	<string id="ui_mcm_weapon_cover_tilt_enable_manual_tilt">
+		<text>手動で銃を傾ける</text>
+	</string>
+	<string id="ui_mcm_weapon_cover_tilt_manual_tilt_key_bind">
+		<text>銃を傾ける (Weapon Cover Tilt)</text>
+	</string>
+	
+</string_table>

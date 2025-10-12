@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string id="st_stat_dmg">
+		<text>ダメージ</text>
+	</string>
+	<string id="st_stat_rpm">
+		<text>RPM</text>
+	</string>
+</string_table>

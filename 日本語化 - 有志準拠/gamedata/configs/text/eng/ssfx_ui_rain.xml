@@ -1,0 +1,116 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 17
+- @ Description: Rain - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Rain Title -->
+	<string id="ui_mcm_ssfx_module_rain_title">
+		<text>Rain - Settings</text>
+	</string>
+
+	<!-- Rain Settings -->
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_quality_mcm">
+		<text>レンダリング品質</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_quality_mcm_desc">
+		<text>低: 基本的な屈折のレンダリング\n中: 基本的なレンダリングに誤った屈折の破棄を追加\n高: 余分な反射サンプルを含む完全な屈折</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_max_drops_mcm">
+		<text>パーティクルの量</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_max_drops_mcm_desc">
+		<text>雨のエフェクトを作成するために使用されるパーティクルの最大量を調整します。バニラ: 2500</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_radius_mcm">
+		<text>雨の範囲</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_radius_mcm_desc">
+		<text>雨のエミッターの範囲を調整します。バニラ: 15</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_speed_mcm">
+		<text>雨の速さ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_speed_mcm_desc">
+		<text>雨が降る速さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_len_mcm">
+		<text>雨粒の長さ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_len_mcm_desc">
+		<text>雨粒の長さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_width_mcm">
+		<text>雨粒の幅</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_width_mcm_desc">
+		<text>雨粒の横幅を調整します。</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_alpha_mcm">
+		<text>雨の透明度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_alpha_mcm_desc">
+		<text>効果の全体的な透明度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_brightness_mcm">
+		<text>雨の明るさ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_brightness_mcm_desc">
+		<text>雨粒の基本色の明るさを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_refraction_mcm">
+		<text>雨の屈折</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_refraction_mcm_desc">
+		<text>屈折効果の強度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_reflection_mcm">
+		<text>雨の反射</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_reflection_mcm_desc">
+		<text>反射効果の透明度を調整します。</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_splash_alpha_mcm">
+		<text>水しぶきの透明度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_splash_alpha_mcm_desc">
+		<text>雨の水しぶきの透明度を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_splash_refraction_mcm">
+		<text>水しぶきの屈折</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_rain_module_ssfx_rain_main_splash_refraction_mcm_desc">
+		<text>雨の水しぶきの屈折の強度を調整します。</text>
+	</string>
+
+</string_table>

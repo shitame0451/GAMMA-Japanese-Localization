@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_placeable_gas_lamp">
+		<text>ガス灯</text>
+	</string>
+	<string id="st_placeable_gas_lamp_descr">
+		<text>灯油を染み込ませた芯に火をつけ、明かりを灯すことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]燃料: %c[pda_white]灯油\n</text>
+	</string>
+
+	<string id="st_placeable_metal_torch">
+		<text>金属製の懐中電灯</text>
+	</string>
+	<string id="st_placeable_metal_torch_descr">
+		<text>ソ連時代の携行型懐中電灯。このモデルは現地で組み立てることができるが、光の広がりが狭く使い勝手が悪い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[pda_white]バッテリー\n</text>
+	</string>
+
+	<string id="st_placeable_light_altar">
+		<text>小型のプサイライト</text>
+	</string>
+	<string id="st_placeable_light_altar_descr">
+		<text>正体も目的も分かっていない謎の物体。当初、この奇妙な物体は致死性のプサイ波を放ち、北部地域へと踏み込んだ多くのストーカーたちを死に至らしめた。この個体はサハロフ教授の手によって改造され、«ムーンライト»の力を利用し、今では尽きることのない光源として使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[pda_white]ガウスバッテリー\n</text>
+	</string>
+</string_table>

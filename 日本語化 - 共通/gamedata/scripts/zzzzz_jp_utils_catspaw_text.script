@@ -1,0 +1,19 @@
+-- utils_catspaw_text.script
+
+-- ===================================================================
+--  bestname （ドットマーカーに表示される「不明 スタッシュ」を「スタッシュ」に置換）
+-- ===================================================================
+local original_bestname = utils_catspaw_text.bestname
+
+utils_catspaw_text.bestname = function(id)
+	local text = original_bestname(id)
+
+	if text and text:find(game.translate_string("st_paw_unknown")) then
+		text = text:gsub(
+			game.translate_string("st_paw_unknown") .. " *" .. game.translate_string("st_paw_stash"),
+			game.translate_string("st_paw_stash")
+		)
+	end
+
+	return text
+end

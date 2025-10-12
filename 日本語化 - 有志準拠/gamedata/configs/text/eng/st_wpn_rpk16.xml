@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_rpk16">
+		<text>RPK-16</text>
+	</string>
+	<string id="st_wpn_rpk16_descr">
+		<text>強力かつ軽量な軽機関銃で、制圧射撃に最適な一丁。高い連射性能と頑丈な構造により、多数の敵に対応する際に心強い選択肢となる。モジュール設計により幅広いカスタマイズが可能で、精度と機動性を兼ね備えており、激戦の中でも優れた制圧力を発揮する。持続的な戦闘に適したRPK-16は、戦場を生き抜くための頼れる相棒となるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Vyatskiye Polyany MBP\n</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_task">
+        <text>タスクのチュートリアル</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_title">
+        <text>G.A.M.M.A. Tutorials</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_desc">
+        <text>タスク</text>
+    </string>
+	
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_task">
+        <text>G.A.M.M.A. Task</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_task_title">
+        <text>タスク</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_task_card_01_title">
+        <text>タスクとストーリー
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_task_card_01_description">
+        <text>%c[ui_white]• ゾーンへようこそ、ストーカー
+\nチュートリアルメッセージは行動に応じて順次表示される。
+\n非表示にするには、Mod設定メニュー &gt; NPE で「有効」のチェックを外す。
+
+\n\n• ゾーンをどう歩むかはタスクの選び方で決まる
+\nタスクはストーカーに話しかけるか、PDA &gt; %c[pda_red]タスクボード%c[ui_white]から開始できる。
+\n「%c[pda_red]タスク一覧を更新%c[ui_white]」で周囲の利用可能なタスクを確認・受諾できる。
+
+\n\n• ゾーンには複数の%c[d_yellow]ストーリーライン%c[ui_white]が存在する
+\nマップに表示される%c[d_cyan]重要人物%c[ui_white]や%c[d_cyan]トレーダー%c[ui_white]と接触することで始められる。
+\n%c[d_yellow]ストーリーライン%c[ui_white]は受諾後に黄色のマーカーとしてPDAに示される。
+
+\n\n• G.A.M.M.A.の世界は厳しい
+\n難易度「サバイバリスト」は、G.A.M.M.A.を熟知している者向けだ。
+		</text>
+    </string>
+    <!-- 1 -->
+</string_table>

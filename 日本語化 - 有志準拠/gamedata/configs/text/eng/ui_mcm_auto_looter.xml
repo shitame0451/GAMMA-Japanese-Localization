@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>	
+	<string id="ui_mcm_menu_auto_looter">
+		<text>Auto Looter</text>
+	</string>
+	<string id="ui_mcm_auto_looter_base_description">
+		<text>Auto Looterは以下の順序で動作します: 分解 → 部品／アタッチメントの取り外し → インベントリに移動 → 削除。スーツの分解と部品の自動回収を有効にしている場合、取り出された部品は耐久値の条件を満たすかどうかがチェックされ、その上で取得されます。</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_looter_key_title">
+		<text>キー設定</text>
+	</string>
+	<string id="ui_mcm_auto_looter_looter_key_description">
+		<text>一部のMODはインベントリ画面上で特定のキー入力をブロックします。左Altキーは通常ブロックされないため、下記のキー設定は変更しないことを推奨します。</text>
+	</string>
+	<string id="ui_mcm_auto_looter_looter_key">
+		<text>戦利品の自動回収 (Auto Looter)</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_remote_looting_title">
+		<text>遠距離回収</text>
+	</string>
+	<string id="ui_mcm_auto_looter_remote_looting_description">
+		<text>遠隔でアイテム回収を実行できる最大距離を設定します。0に設定すると遠距離回収は無効になります。注意: 死体やボックスのインベントリを開く際に追加スクリプトを実行するMODを使用している場合、遠距離回収は使用しないでください。GAMMA環境のプレイヤーは常にオフにすることを推奨します。</text>
+	</string>
+	<string id="ui_mcm_auto_looter_remote_looting_distance">
+		<text>最大距離</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_proximity_looting_title">
+		<text>実験的機能: 近距離回収</text>
+	</string>
+	<string id="ui_mcm_auto_looter_proximity_looting_description">
+		<text>遠距離回収と似た動作をしますが、自動で一定間隔ごとに再実行され、指定範囲内のすべての回収可能な死体を処理します（インベントリボックスは除外され、スタッシュから誤って回収するのを防ぎます）。範囲を0に設定するとこの機能は無効になります。注意: 死体インベントリを開くときに追加スクリプトを実行するMODと併用する場合、近距離回収は使用しないでください。GAMMA環境のプレイヤーは常にオフにすることを推奨します。</text>
+	</string>
+	<string id="ui_mcm_auto_looter_proximity_looting_distance">
+		<text>近距離回収の範囲</text>
+	</string>
+	<string id="ui_mcm_auto_looter_proximity_looting_refire_time">
+		<text>近距離回収の実行間隔</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_disassemble_title">
+		<text>自動分解の設定</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_ammo">
+		<text>弾薬を分解する</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_armor">
+		<text>スーツ／ヘッドギアを分解する</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_armor_desc">
+		<text>耐久値が50%以上、またはクラフトレシピで使用可能なスーツ部品のみが対象です。</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_weapon">
+		<text>武器を分解する</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_title">
+		<text>その他アイテムの分解</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_description">
+		<text>一部のジャンクアイテムは分解しても価値がほとんどなく、未分解のまま納品したほうが報酬が高い場合があります（例: メタル雑誌）。以下で、どのアイテムを分解対象にするかを設定できます。なお、リストの最後にあるPDAは、スタッシュの情報を得られるストーカーのPDAのみを指します。</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_strip_title">
+		<text>部品／アタッチメントの自動取り外し設定</text>
+	</string>
+	<string id="ui_mcm_auto_looter_strip_attachments">
+		<text>アタッチメントを取り外す</text>
+	</string>
+	<string id="ui_mcm_auto_looter_strip_weapon">
+		<text>銃の部品を取り外す</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_loot_title">
+		<text>自動回収の設定</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_description">
+		<text>どの種類のアイテムを（条件付きで）回収するかを設定します。スーツと武器は自動的に除外されます。以下に明記されていないアイテム（アップグレードキット、武器アタッチメント、修理アイテム、未分解のジャンクアイテムなど）は、自動的に取得されるよう設計されています。</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_ammo">
+		<text>弾薬</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_ammo_parts">
+		<text>弾薬の部品</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_grenades">
+		<text>グレネード</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_magazines">
+		<text>雑誌</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_armor_parts">
+		<text>スーツの部品</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_armor_parts_desc">
+		<text>耐久値が50%以上、またはクラフトレシピで使用可能なスーツ部品のみが対象です。</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_weapon_parts">
+		<text>銃の部品</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_title">
+		<text>その他のアイテム</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_delete_title">
+		<text>削除の設定</text>
+	</string>
+	<string id="ui_mcm_auto_looter_delete_description">
+		<text>死体が溜まるのは迫力がありますが、パフォーマンスに影響を与えることもあります。以下の設定では、すでに回収済みの死体や、拾う予定のない不要アイテムを自動的に削除できます。「残りを削除」は、Auto Looterによって取得されなかった武器やスーツ部品などに該当します。</text>
+	</string>
+	<string id="ui_mcm_auto_looter_delete_body">
+		<text>死体を丸ごと削除する</text>
+	</string>
+	<string id="ui_mcm_auto_looter_delete_armor">
+		<text>スーツ／ヘッドギアを削除する</text>
+	</string>
+	<string id="ui_mcm_auto_looter_delete_weapon">
+		<text>武器を削除する</text>
+	</string>
+	<string id="ui_mcm_auto_looter_delete_misc">
+		<text>残りを削除する</text>
+	</string>
+
+	<string id="ui_mcm_auto_looter_misc_options_title">
+		<text>その他の設定</text>
+	</string>
+	<string id="ui_mcm_auto_looter_no_valid_tool_messaging">
+		<text>有効な分解ツールがないときにメッセージを表示</text>
+	</string>
+	<string id="ui_mcm_auto_looter_usable_armor_part_condition_treshold">
+		<text>スーツ部品の有用判定／耐久値のしきい値</text>
+	</string>
+	<string id="ui_mcm_auto_looter_usable_weapon_part_condition_treshold">
+		<text>銃部品の有用判定／耐久値のしきい値</text>
+	</string>
+	<string id="ui_mcm_auto_looter_always_treat_recipe_part_as_usable">
+		<text>レシピ素材の部品は常に有用とみなす</text>
+	</string>
+	<string id="ui_mcm_auto_looter_always_treat_recipe_part_as_usable_description">
+		<text>このオプションを無効にすると、スーツ部品の有用性は耐久値のみで判断され、クラフトレシピで使用されているかどうかは無視されます。</text>
+	</string>
+
+	<!-- Dropdown options -->
+	<string id="ui_mcm_lst_auto_looter_all_label">
+		<text>すべて</text>
+	</string>
+	<string id="ui_mcm_lst_auto_looter_none_label">
+		<text>無効</text>
+	</string>
+	<string id="ui_mcm_lst_auto_looter_non_favourite_label">
+		<text>お気に入り以外</text>
+	</string>
+	<string id="ui_mcm_lst_auto_looter_with_usable_parts_label">
+		<text>有用な部品</text>
+	</string>
+	<string id="ui_mcm_lst_auto_looter_with_usable_barrel_label">
+		<text>有用なバレル</text>
+	</string>
+	<string id="ui_mcm_lst_auto_looter_usable_label">
+		<text>有用な部品</text>
+	</string>
+
+
+	<!-- To do: remove this section once RavenAscendant adds the support for "text" prop for more fields -->
+	<!-- There might be an exception required for the powder can - can't see XMLs defined for it -->
+	<!-- Other exceptions: Guitar (section: guitar_a, string id: st_guitar_name), Sleeping bag (section: itm_sleepbag, string id: st_itm_sleepbag_name),  -->
+	<!-- PDAs (existing XMLs don't mention whether they are common, uncommon or rare) -->
+	<string id="ui_mcm_auto_looter_disassemble_misc_porn">
+		<text>雑誌『Terroraiser』</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_porn2">
+		<text>雑誌『Atmosfear』</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_beadspread">
+		<text>シュラフマット</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_synthrope">
+		<text>合成繊維ロープ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_tarpaulin">
+		<text>防水シート</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_underwear">
+		<text>古い下着</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_shovel_old">
+		<text>古い金属製シャベル</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_shovel_mili">
+		<text>古い軍用シャベル</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_ball_hammer">
+		<text>鉄工ハンマー</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_boots">
+		<text>レザーブーツ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_broken_detector">
+		<text>壊れた探知機</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_cutlery">
+		<text>アウトドア用食器セット</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_explo_metalcan_powder">
+		<text>缶爆弾</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_flashlight_broken">
+		<text>壊れた懐中電灯</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_gloves">
+		<text>古い革手袋</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_hand_watch">
+		<text>腕時計</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_headlamp">
+		<text>壊れたヘッドランプ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_mirror">
+		<text>テレスコピックミラー</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_radio">
+		<text>小型ラジオ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_radio2">
+		<text>壊れたラジオ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_walkie">
+		<text>壊れたトランシーバー</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_guitar_a">
+		<text>ギター</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_compression_bag">
+		<text>寝袋（収納バッグ）</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_itm_sleepbag">
+		<text>寝袋（設置可能）</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_itm_pda_common">
+		<text>PDA - コモン</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_itm_pda_uncommon">
+		<text>PDA - アンコモン</text>
+	</string>
+	<string id="ui_mcm_auto_looter_disassemble_misc_itm_pda_rare">
+		<text>PDA - レア</text>
+	</string>
+
+
+	<string id="ui_mcm_auto_looter_loot_misc_porn">
+		<text>雑誌『Terroraiser』</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_porn2">
+		<text>雑誌『Atmosfear』</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_beadspread">
+		<text>シュラフマット</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_synthrope">
+		<text>合成繊維ロープ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_tarpaulin">
+		<text>迷彩防水シート</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_underwear">
+		<text>古い下着</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_shovel_old">
+		<text>古い金属製シャベル</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_shovel_mili">
+		<text>古い軍用シャベル</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_ball_hammer">
+		<text>鉄工ハンマー</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_boots">
+		<text>レザーブーツ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_broken_detector">
+		<text>壊れた探知機</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_cutlery">
+		<text>アウトドア用食器セット</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_explo_metalcan_powder">
+		<text>缶爆弾</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_flashlight_broken">
+		<text>壊れた懐中電灯</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_gloves">
+		<text>古い革手袋</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_hand_watch">
+		<text>腕時計</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_headlamp">
+		<text>壊れたヘッドランプ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_mirror">
+		<text>テレスコピックミラー</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_radio">
+		<text>小型ラジオ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_radio2">
+		<text>壊れたラジオ</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_walkie">
+		<text>壊れたトランシーバー</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_bolt">
+		<text>ボルト</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_bolt_bullet">
+		<text>空薬莢</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_guitar_a">
+		<text>ギター</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_compression_bag">
+		<text>寝袋（収納バッグ）</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_itm_sleepbag">
+		<text>寝袋（設置可能）</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_itm_pda_common">
+		<text>PDA - コモン</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_itm_pda_uncommon">
+		<text>PDA - アンコモン</text>
+	</string>
+	<string id="ui_mcm_auto_looter_loot_misc_itm_pda_rare">
+		<text>PDA - レア</text>
+	</string>
+</string_table>

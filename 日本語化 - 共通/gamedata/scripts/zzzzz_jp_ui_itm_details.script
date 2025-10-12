@@ -1,0 +1,53 @@
+-- ui_itm_details.script
+
+-- ===================================================================
+--  UIItemSheet:AddText （アイテムの詳細ウィンドウ）
+--  「弾薬:」(ui_ammo_types)と「交換部品:」(st_ui_awr_parts_list)の色指定
+--  ui_st_inventory.xmlで色指定できるが、テキストを共有しているアイテムチップ側で文字列として表示されてしまうため、ここで指定
+-- ===================================================================
+local original_AddText = ui_itm_details.UIItemSheet.AddText
+
+ui_itm_details.UIItemSheet.AddText = function(self, xml, path, offset, txt)
+	if txt == game.translate_string("ui_ammo_types") then
+		txt = utils_xml.get_color("pda_white") .. txt
+	end
+	if txt == game.translate_string("st_ui_awr_parts_list") then
+		txt = utils_xml.get_color("pda_white") .. txt
+	end
+	return original_AddText(self, xml, path, offset, txt)
+end
+
+-- ===================================================================
+--  UIItemSheet:AddSpec （詳細ウィンドウの重量表示）
+-- ===================================================================
+local original_AddSpec = ui_itm_details.UIItemSheet.AddSpec
+
+ui_itm_details.UIItemSheet.AddSpec = function(self, xml, path, offset, name, value, clr_1, clr_2, sign, unit)
+	if name == "ui_total_weight" then
+		local translated = game.translate_string(name)
+
+		-- ラベル部分: オレンジのドット + 白文字の「重量:」
+		local label = utils_xml.get_color("d_orange") .. " • " .. utils_xml.get_color("pda_white") .. translated
+
+		-- 値部分: グレーで表示
+		local val = utils_xml.get_color("ui_gray_1") .. (sign or "") .. tostring(value)
+		if unit then
+			val = val .. " " .. game.translate_string(unit)
+		end
+
+		-- 改行を追加
+		local str = label .. " " .. val .. "\\n"
+
+		local _st = xml:InitStatic("itm_details:form", nil)
+		local _ele = xml:InitTextWnd("itm_details:form:" .. path, _st)
+		_ele:SetText(str)
+		_ele:AdjustHeightToText()
+
+		utils_xml.sync_size(_ele, _st, 0, offset)
+		self.scroll:AddWindow(_st, true)
+		_st:SetAutoDelete(true)
+		return _ele
+	end
+
+	return original_AddSpec(self, xml, path, offset, name, value, clr_1, clr_2, sign, unit)
+end

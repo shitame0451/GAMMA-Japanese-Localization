@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="ui_mcm_patches_by_hotkey_title">
+		<text>Patches By Hotkey</text>
+	</string>
+	<string id="ui_mcm_menu_patches_by_hotkey">
+		<text>Patches By Hotkey</text>
+	</string>
+
+	<string id="ui_mcm_patches_by_hotkey_enabled">
+		<text>有効</text>
+	</string>
+	<string id="ui_mcm_patches_by_hotkey_key">
+		<text>派閥パッチの着脱 (Patches By Hotkey)</text>
+	</string>
+
+	<string id="st_patches_by_hotkey_apply_patch">
+		<text>パッチを取り付けた</text>
+	</string>
+	<string id="st_patches_by_hotkey_no_patch">
+		<text>取り付けるパッチがない</text>
+	</string>
+	<string id="st_patches_by_hotkey_remove_patch">
+		<text>パッチを取り外した</text>
+	</string>
+
+
+</string_table>

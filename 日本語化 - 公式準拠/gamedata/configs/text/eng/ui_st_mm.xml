@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="Clear">
+    <text>晴れ</text>
+  </string>
+  <string id="Cloudy">
+    <text>曇り</text>
+  </string>
+  <string id="Night">
+    <text>夜</text>
+  </string>
+  <string id="Rain">
+    <text>雨</text>
+  </string>
+  <string id="game type">
+    <text>ゲームタイプ</text>
+  </string>
+  <string id="gd_master">
+    <text>マスター</text>
+  </string>
+  <string id="gd_novice">
+    <text>ルーキー</text>
+  </string>
+  <string id="gd_veteran">
+    <text>ベテラン</text>
+  </string>
+  <string id="icon">
+    <text>アイコン</text>
+  </string>
+  <string id="map">
+    <text>マップ</text>
+  </string>
+  <string id="st_opt_high">
+    <text>高</text>
+  </string>
+  <string id="st_opt_low">
+    <text>低</text>
+  </string>
+  <string id="st_opt_medium">
+    <text>中</text>
+  </string>
+  <string id="st_opt_off">
+    <text>オフ</text>
+  </string>
+  <string id="ui_mm_action">
+    <text>アクション</text>
+  </string>
+  <string id="ui_mm_advanced">
+    <text>高度な</text>
+  </string>
+  <string id="ui_mm_alternative">
+    <text>割り当て2</text>
+  </string>
+  <string id="ui_mm_back">
+    <text>戻る</text>
+  </string>
+  <string id="ui_mm_blood">
+    <text>血液</text>
+  </string>
+  <string id="ui_mm_ok">
+    <text>OK</text>
+  </string>
+  <string id="ui_mm_next">
+    <text>次へ</text>
+  </string>
+  <string id="ui_mm_previous">
+    <text>前へ</text>
+  </string>
+  <string id="ui_mm_craft">
+    <text>クラフト</text>
+  </string>
+  <string id="ui_mm_upgrade">
+    <text>アップグレード</text>
+  </string>
+  <string id="ui_mm_repair">
+    <text>修理</text>
+  </string>
+  <string id="ui_mm_cook">
+    <text>調理</text>
+  </string>
+  <string id="ui_mm_loot_selected">
+    <text>選択した部位を剥ぎ取る</text>
+  </string>
+  <string id="ui_mm_loot_all">
+    <text>すべて取る (Enter)</text>
+  </string>
+  <string id="ui_mm_check_updates">
+    <text>ゲームのアップデート</text>
+  </string>
+  <string id="ui_mm_controls">
+    <text>コントロール</text>
+  </string>
+  <string id="ui_mm_credits">
+    <text>クレジット</text>
+  </string>
+  <string id="ui_mm_delete">
+    <text>削除する</text>
+  </string>
+  <string id="ui_mm_delete_existing_file_q">
+    <text>本当にこのファイルを削除しますか？</text>
+  </string>
+  <string id="ui_mm_difficulty">
+    <text>難易度</text>
+  </string>
+  <string id="ui_mm_disconnect">
+    <text>切断する</text>
+  </string>
+  <string id="ui_mm_disconnect_message">
+    <text>切断しますか？</text>
+  </string>
+  <string id="ui_mm_key">
+    <text>割り当て1</text>
+  </string>
+  <string id="ui_mm_keyboard_setup">
+    <text>キー設定</text>
+  </string>
+  <string id="ui_mm_last_save">
+    <text>直前のセーブデータ</text>
+  </string>
+  <string id="ui_mm_load">
+    <text>ロード</text>
+  </string>
+  <string id="ui_mm_load_game">
+    <text>ゲームをロードする</text>
+  </string>
+  <string id="ui_mm_logout">
+    <text>プロフィールを終了する</text>
+  </string>
+  <string id="ui_mm_master">
+    <text>マスター</text>
+  </string>
+  <string id="ui_mm_need_restart">
+    <text>変更はゲームが再起動された後にのみ有効になります。</text>
+  </string>
+  <string id="ui_mm_network_game">
+    <text>マルチプレイヤー</text>
+  </string>
+  <string id="ui_mm_newgame">
+    <text>ニューゲーム</text>
+  </string>
+  <string id="ui_mm_novice">
+    <text>ルーキー</text>
+  </string>
+  <string id="ui_mm_options">
+    <text>ゲーム設定</text>
+  </string>
+  <string id="ui_mm_particles_distance">
+    <text>パーティクルの距離</text>
+  </string>
+  <string id="ui_mm_quality_presets">
+    <text>クオリティ設定</text>
+  </string>
+  <string id="ui_mm_quit2windows">
+    <text>Windowsに戻る</text>
+  </string>
+  <string id="ui_mm_quit_game">
+    <text>プレイ中のゲームを終了する</text>
+  </string>
+  <string id="ui_mm_quit_game_message">
+    <text>ゲームを終了しますか？</text>
+  </string>
+  <string id="ui_mm_quit_windows_message">
+    <text>ストーカーよ、本当にゾーンを去るのか？</text>
+  </string>
+  <string id="ui_mm_return_game">
+    <text>ゲームに戻る</text>
+  </string>
+  <string id="ui_mm_save">
+    <text>セーブ</text>
+  </string>
+  <string id="ui_mm_save_game">
+    <text>ゲームをセーブする</text>
+  </string>
+  <string id="ui_mm_stalker">
+    <text>ストーカー</text>
+  </string>
+  <string id="ui_mm_veteran">
+    <text>ベテラン</text>
+  </string>
+  <string id="ui_st_reset">
+    <text>元に戻す</text>
+  </string>
+  <string id="ui_st_sell_all">
+    <text>すべて売る</text>
+  </string>
+  <string id="version">
+    <text>バージョン</text>
+  </string>
+  <string id="gd_stalker">
+    <text>ノーマル</text>
+  </string>
+  <string id="st_opt_extreme">
+    <text>最も高い</text>
+  </string>
+  <string id="st_opt_ultra">
+    <text>とても高い</text>
+  </string>
+  <string id="ui_mm_confirm_changes">
+    <text>変更を適用しますか？すべての変更は、元に戻されます</text>
+  </string>
+  <string id="st_cap_check_story">
+    <text>ストーリーモード</text>
+  </string>
+  <string id="st_cap_check_survival">
+    <text>サバイバルモード</text>
+  </string>
+  <string id="st_cap_check_hardcore">
+    <text>アイアンマンモード</text>
+  </string>
+  <string id="ui_mm_hardcore">
+    <text>アイアンマンモード</text>
+  </string>
+  <string id="ui_mm_only_campfire">
+    <text>ハードコアセーブ: キャンプファイヤー</text>
+  </string>
+  <string id="ui_mm_environment_effect">
+    <text>追加の大気効果</text>
+  </string>
+  <string id="ui_mm_faction_sel">
+    <text>派閥</text>
+  </string>
+  <string id="ui_mm_disanim">
+    <text>有効／無効 アイテムアニメーション</text>
+  </string>
+  <string id="st_cap_check_azazel_mode">
+    <text>アザゼルモード</text>
+  </string>
+  <string id="ui_mm_character_name">
+    <text>キャラクターネーム</text>
+  </string>
+  <string id="ui_mm_transitions_closed_disable">
+    <text>マップ間の通路を開く</text>
+  </string>
+</string_table>

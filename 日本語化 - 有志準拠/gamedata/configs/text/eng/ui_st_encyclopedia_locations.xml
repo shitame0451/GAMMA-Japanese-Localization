@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="encyclopedia_locations">
+		<text>場所</text>
+	</string>
+	
+	<string id="encyclopedia_locations_agroprom">
+		<text>アグロプロム</text>
+	</string>
+	<string id="encyclopedia_locations_agroprom_text">
+		<text>
+		%c[pda_white]「アグロプロム」%c[ui_gray_1]
+		\n奇妙でひどく汚染された地域であり、研究所と工場がある。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n地下の施設や通路などのネットワークが充実しているのが特徴だ。外界とは線路でつながっている。Militaryは南部にある複合施設を本部として再利用したが、未踏の地域には、危険なミュータントが多いため、調査されていない場所もある。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]グレートスワンプ
+		\n%c[pda_white] • %c[ui_gray_1]ガベージ
+		\n%c[pda_white] • %c[ui_gray_1]ヤンター
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この地域は2011年の派閥間戦争中に、本部としてDutyが占領していた。この間、複合施設の一部では、ゾーン内のミュータント専用のはく製博物館になっていた。
+		\n • 1986年の事故を受けて、照射を受けた土壌の実験を行うために、工場と研究所が正式に設置された。
+		\n • ストーカーたちの間では実際にこの地域が、2006年に発生したエミッションよりも前に実験場として使われていたと推測されている。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_agroprom_underground">
+		<text>アグロプロム地下</text>
+	</string>
+	<string id="encyclopedia_locations_agroprom_underground_text">
+		<text>
+		%c[pda_white]「アグロプロム地下」%c[ui_gray_1]
+		\nアグロプロムの地下に広がるトンネルのネットワーク的な場所だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこれらの地下墓地の様な場所が、どのような目的があり、何があるのかは誰にも知られていない。いくつかの区画は比較的きれいであり、最近まで科学的な何かに使われたいたであろうものがはっきりと残っている。
+		\n \n現在、それらの残った場所に訪れるのは、隠れ家として使用するため絶望的な状況に置かれた者たち、そして中に住み着くミュータントとの腕試しを目的とする者たちのみだ。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • Dutyがアグロプロムを占領している間、この地下施設に住むミュータントを徹底的に排除した。
+		\n • アグロプロムへの軍の関心は、これらの地下墓地を調査する様子から、何かしらの陰謀が絡んでいると考えられている。
+		\n • 何かしらの裏を持つ者たちはこのトンネルに忍び込んで来る場合があるため、警戒は怠らないようにしよう。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_army_warehouses">
+		<text>陸軍倉庫</text>
+	</string>
+	<string id="encyclopedia_locations_army_warehouses_text">
+		<text>
+		%c[pda_white]「陸軍倉庫」%c[ui_gray_1]
+		\n荒廃した村と小さな湿地の隣に、放棄された陸軍基地がある地域だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nかつてこの村には多くのブラッドサッカーがうようよしていたため、ほとんどのストーカーがこの地域を避ける要因となっている。一方、陸軍基地は何年もの間Freedomの本部として使用されている。この基地を拠点に「防衛線」から進行してくるMonolithを食い止めている。その防衛線を超えて多くの命知らずのストーカーたちが北にあるゾーンの奥地へ侵入しようとする。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]ロストク
+		\n%c[pda_white] • %c[ui_gray_1]デッドシティ
+		\n%c[pda_white] • %c[ui_gray_1]レッドフォレスト
+		\n%c[pda_white] • %c[ui_gray_1]レーダー施設
+		\n%c[pda_white] • %c[ui_gray_1]トラック墓地
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この場所は、以前はMilitaryの本部だったが、2011年の第二次大規模エミッションに巻き込まれた兵士のほとんどがゾンビ化した。
+		\n • 時折、死んだ兵士たちの声が、ゾーン内のほぼすべての地域で傍受できる無線周波数から聞こえてくると噂されている。
+		\n • ここにいるFreedomの隊員のすべてが、彼らの一般的な信念に基づいて任務をこなしているわけではない。数キロメートル先までサブリミナル効果を及ぼすというブレイン・スコーチャーによる周辺への恐怖を食い止める目的で活動している者も少なくはない。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_chernobyl_npp">
+		<text>チェルノブイリ原子力発電所</text>
+	</string>
+	<string id="encyclopedia_locations_chernobyl_npp_text">
+		<text>
+		%c[pda_white]「チェルノブイリ原子力発電所」%c[ui_gray_1]
+		\nウクライナのキエフ州プリピャチ市にある、旧ソ連時代を象徴する施設だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n1986年4月26日に発生した最初の災害で、電力サージに続いて第四原子炉が爆発し、救急停止した後、大量の放射性物質が大気中に放出された。
+		\n \n駅から半径30キロメートル以内の、住民の完全な避難が行われ、保護区域内に世界から分離された「ゾーン」が生まれた。
+		\n \nMonolithの支配地域の奥深くに存在する場所であり、彼らからは聖域と認識されているが、ストーカーは何年もこの地域に到達しようとした。そこで「願望機」を見つけることができるとまことしやかに語られている。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • Monolithの聖域とされている。迷信的なストーカーは、この場所が死者の魂によって守られていると信じている。
+		\n • ストレロックとファングとゴーストは、原子力発電所から生きて帰ってきた初めてのストーカーだった。2回目のエミッションはその報復として発生したと考えられている。
+		\n • 2011年、Clear Skyはほぼ壊滅した。3回目の大規模なエミッションにより多くのメンバーとリーダー、そしてストレロックが共に捕らえられ、または殺され、洗脳され彼らのメンバーとなった。
+		\n • ストレロックは2012年に再びここに戻り、記憶を取り戻して原子力発電所の最深部に向かった。以来、ゾーンは以前とは変わった。
+		\n • Militaryは原子力発電所を制圧するために、何度か遠征を行ったが、いずれも失敗に終わっている。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_cordon">
+		<text>コードン</text>
+	</string>
+	<string id="encyclopedia_locations_cordon_text">
+		<text>
+		%c[pda_white]「コードン」%c[ui_gray_1]
+		\nこの地域はゾーンへの入り口、いわば控室のようなものだと認識されている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nルーキーが腕慣らしをするには適した場所で、南西にはストーカーたちの村があり、そこにはトレーダーがいるため話す機会を逃さないように！しかし、コードンの最南端にはMilitaryの基地があり、兵士はちょくちょく近くの道路をパトロールしている。兵士を攻撃することは、自身が直接攻撃をされない限りは推奨されない。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]ガベージ
+		\n%c[pda_white] • %c[ui_gray_1]グレートスワンプ
+		\n%c[pda_white] • %c[ui_gray_1]ダークスケープ
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • Militaryは以前、鉄道橋と北側の検問所に強力な守備隊を配置しており、当時はコードン全体で広範囲に地域を制圧していた。
+		\n • 2012年にMercenaryたちがルーキー村を制圧しようとしたが、ストレロックとファナティックが共同でこれを撃退した。
+		\n • ゾーン内外への密輸ルートの多くはこの地域を通じて行われる。
+		</text>
+	</string>
+
+	<string id="encyclopedia_locations_dark_valley">
+		<text>ダークバレー</text>
+	</string>
+	<string id="encyclopedia_locations_dark_valley_text">
+		<text>
+		%c[pda_white]「ダークバレー」%c[ui_gray_1]
+		\nいつも陰鬱で、いつも霧がかかっていて、いつも雨が降っている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの地域には、北にはBanditの要塞があり、東には研究所がある。付近のBanditのリーダーは研究所を封印するためにあらゆる手を使っているが、中に入って行った者は誰も生きて帰っては来なかった。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]ガベージ
+		\n%c[pda_white] • %c[ui_gray_1]ダークスケープ
+		\n%c[pda_white] • %c[ui_gray_1]トラック墓地
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この地域は2011年の派閥間戦争中はFreedomの本部だった。
+		\n • Militaryがこの地域にスペツナズ部隊を派遣することはほとんどないが、もしこのような事がある場合は、研究所の確保を目的としているだろう。
+		\n • 「防衛線」を超える事故以前は、Dutyがこの地域からBanditを完全に排除する寸前だった。
+		</text>
+	</string>
+
+	<string id="encyclopedia_locations_darkscape">
+		<text>ダークスケープ</text>
+	</string>
+	<string id="encyclopedia_locations_darkscape_text">
+		<text>
+		%c[pda_white]「ダークスケープ」%c[ui_gray_1]
+		\n三日月のような形をした狭い谷である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nダークバレーの南端とコードンの廃墟トンネルを結んでいる。南と東に道路が延びているが、どこにつながっているのかは不明である。鬱蒼とした森の中で、目印となるものは少ないが、いくつか目立つものがある。谷間の最も狭い部分の端には、崩壊した鉄道橋がある。
+		\nさらに南へ行くと、丘の手前で道が分かれている。南西の荒野の奥には、何もかも失った廃墟のような農家がある。幹線道路は十字路まで続き、その隣には廃墟となったガソリンスタンドがある。そこから西に向かって道が伸びていて、そのまま「コードン」に向かう。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]コードン
+		\n%c[pda_white] • %c[ui_gray_1]ダークバレー
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 人里離れた場所であるため、この場所は賞金を懸けられた者が身を隠すために、またはゾーン内の他の派閥間のいざこざから距離を置くことを望んでいるストーカーたちにとってちょうどいい場所だ。
+		</text>
+	</string>
+
+	<string id="encyclopedia_locations_dead_city">
+		<text>デッドシティ</text>
+	</string>
+	<string id="encyclopedia_locations_dead_city_text">
+		<text>
+		%c[pda_white]「デッドシティ」%c[ui_gray_1]
+		\nかつて活気に満ちていたが、今では崩壊しつつある廃墟だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nリマンスクやプリピャチ内で住居を持つことができなかった住民たちが住んでいた。そのため、災害後ほとんど目立つことのなかったこの場所は、次第に人々の記憶から忘れられていった。ストーカーたちが現在呼称している名前は、現在の状況を的確に表している。Monolithやミュータントによる絶え間ない包囲にもかかわらず、Mercenaryたちはここに本部を設置し、小規模ながらも強力な戦力を維持している。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]リマンスク
+		\n%c[pda_white] • %c[ui_gray_1]陸軍倉庫
+		\n%c[pda_white] • %c[ui_gray_1]ヤンター
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 2012年以降までは、ほとんどのストーカーはこの地域の存在に気付いていなかった。Mercenaryたちはその状況を利用し、ここを本部として使用して、不要な訪問者が侵入するのを防いでいる。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_deserted_hospital">
+		<text>放棄された病院</text>
+	</string>
+	<string id="encyclopedia_locations_deserted_hospital_text">
+		<text>
+		%c[pda_white]「放棄された病院」%c[ui_gray_1]
+		\nリマンスクにある病院はほぼ完全に崩壊し、地面の下に沈んだ廃棄された建物だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの病院の歴史について公に知られていることはないが、設立されていた目的としては、近くのリマンスクの住民とのアクセスの良し悪しを考慮していたものと推測される。この場所の最も興味深い謎は、この地域の地震は非常に稀にしか発生せず、通常は気付かないほど小さいのにもかかわらず、地面が何らかの影響を受けて崩壊したというものだ。
+		\n \nまた、この地域はゾーン内で、放射性物質やアノマリーが存在しないことで知られており、あらゆる種類のゾーン崇拝カルト集団の集会所であるため、ほとんどのストーカーにとって危険な場所と認識されている。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この地域は、エミッションと精神波の嵐の影響が及ばない、ゾーンでも数少ない場所の１つだ。
+		\n • この地域は、かつてゾーン内でもトップクラスで危険な場所の1つで、マシンガンとヘリコプターが狭い病院の通路に沿ってキルゾーンを作っていた。
+		\n • かつての要塞としての面影はないものの、現在この病院はMonolithの補助的な聖堂になったと推測される。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_garbage">
+		<text>ガベージ</text>
+	</string>
+	<string id="encyclopedia_locations_garbage_text">
+		<text>
+		%c[pda_white]「ガベージ」%c[ui_gray_1]
+		\n広大な機械の墓場である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n最初の事故の直後に、放射性廃棄物が山を形成するくらい大量投棄された。この地域のほとんどは、ミュータントがはびこる古い建物の廃墟である。ゾーン郊外のようにこの地域には新人ストーカーが群がり、もしくはBanditが、日銭探しのためにうろついている。この地域の特徴は、地域中央にある廃棄された列車格納庫と、北側のフリーマーケットである。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]コードン
+		\n%c[pda_white] • %c[ui_gray_1]ダークバレー
+		\n%c[pda_white] • %c[ui_gray_1]アグロプロム
+		\n%c[pda_white] • %c[ui_gray_1]ロストク
+		\n%c[pda_white] • %c[ui_gray_1]ワイルドテリトリー
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 列車格納庫は、ゾーン専用のミュータントハンターの憩いの場として知られている。
+		\n • この地域はかつてヨーガの支配下だったころのBanditの本拠地であり、ストーカーたちを捕えては、アーティファクトを手に入れるための捨て石として扱っていた。
+		\n • 1986年の最初の事故以来、無数のゴミの山がこの地域に存在するようになった。
+		\n • Duty、Loner、Military、Banditそれぞれの活動地点と被ることがあるため、しばしば無秩序な状態に陥ることがある。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_generators">
+		<text>ジェネレーター</text>
+	</string>
+	<string id="encyclopedia_locations_generators_text">
+		<text>
+		%c[pda_white]「ジェネレーター」%c[ui_gray_1]
+		\nゾーンが誕生した場所。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの場所は、共同意識体がこの惑星の人間の意思を再構築しようとしたときに、ノウアスフィアのエネルギーの流れを管理する場所として作られた。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]チェルノブイリ原子力発電所
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • ゾーン内で最も未知の場所で、可能な限り終始警戒を怠らず行動を起こすことが賢明だろう。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_locations_great_swamp">
+		<text>グレートスワンプ</text>
+	</string>
+	<string id="encyclopedia_locations_great_swamp_text">
+		<text>
+		%c[pda_white]「グレートスワンプ」%c[ui_gray_1]
+		\nこの湿地帯は、ほとんどが放射線で濁った水と背の高い草むらで構成されており、細い通路が迷宮の橋のようにあちこちに伸びている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n複雑な迷路のように広がっており、そこには廃墟や入植地が点在している。北には、ハンターたちがうろつく森のすぐ向こう側にアグロプロム研究所がある。東側にはコードンが、西側には神秘的なトゥズラトンネルがある。グレートスワンプは「文明」が必要最小限あるため、身を守るためにはうってつけの場所だ。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]コードン
+		\n%c[pda_white] • %c[ui_gray_1]アグロプロム
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この地域で隠居していると言われる親切な老医師の伝説があるが、何年も目撃情報が出ていない。
+		\n • 夜、特にアグロプロムへの道の近くで、沼地から忍び寄る幽霊のような何かの伝説もある。
+		</text>
+	</string>
+
+	<string id="encyclopedia_locations_jupiter">
+		<text>ジュピター</text>
+	</string>
+	<string id="encyclopedia_locations_jupiter_text">
+		<text>
+		%c[pda_white]「ジュピター」%c[ui_gray_1]
+		\nプリピャチの西に位置するジュピターは、地域中央にヤノフ駅が位置する広い地域だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの古い鉄道駅は、トレーダー、技術者、衛生兵がいるため、多くのストーカーたちの野営地として機能している。科学者たちは駅の近くに移動研究所を設営し、アノマリーやアーティファクト、ゾーンの調査等を行っている。また、一部のストーカーたちは、北東の古いセメント工場を野営地として使用していたりする。その他の採石場、コパシー村、そしてヴォルホフ対空ミサイル施設などの場所は、長い間人の手を離れているため、現在はミュータントや「歩く死体」のみが住み着いている。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]レッドフォレスト
+		\n%c[pda_white] • %c[ui_gray_1]ザトン
+		\n%c[pda_white] • %c[ui_gray_1]プリピャチ
+		\n%c[pda_white] • %c[ui_gray_1]ジュピター地下
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 噂では、「オアシス」と呼ばれる伝説のアーティファクトがこの地域内のどこかにあると言われている。
+		\n • この地域には、空中にあるアノマリーの影響でいくつか墜落した航空機が存在する。
+		\n • ヤノフ駅はかつて「防衛線」で冷戦を繰り広げていたFreedomとDutyの両派閥で共有していたが、この緊張関係は、Monolith派閥の復活を発端に起こった混乱により壊された。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_jupiter_underground">
+		<text>ジュピター地下</text>
+	</string>
+	<string id="encyclopedia_locations_jupiter_underground_text">
+		<text>
+		%c[pda_white]「ジュピター地下」%c[ui_gray_1]
+		\nプリピャチ地下もしくはプリピャチ-1とも呼ばれているトンネルだ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n多くの遺棄された錆び付いた輸送品から推測できるとおり、かつてこの場所は極秘で密輸していた商品や物資の輸送場所として使用されていたが、第二災害後、このトンネルは有毒ガスで事実上封鎖状態にあった。
+		\nあるストーカーグループがジュピターからこのトンネルを開けたのは数年前であり、今では十分な時間換気することができたため、依然と比べ安全になった。もちろんこの「安全」とは、ゾーン内におけると言った意味合いである。地下を探索した者たちは無数のスノークやゾンビになったストーカーがはびこっていたとの報告もある。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • ジュピター工場からこの地域へ移動するエレベーターは長い間故障している。幸い別経路の階段はまだ機能している。
+		\n • Monolithはこの地下地域を使用したストーカーたちに賢く対応し始めている。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_lab_x16">
+		<text>X-16研究所</text>
+	</string>
+	<string id="encyclopedia_locations_lab_x16_text">
+		<text>
+		%c[pda_white]「X-16研究所」%c[ui_gray_1]
+		\n2006年の事件以前にヤンター湖の近くに建設された秘密研究所。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの研究所は、「ミラクル・マシン」として知られる精神波の放射装置がある場所だ。適切な防護無しで容易に近づくと、誰もが正気を失ったゾンビへと変貌してしまう。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • このミラクル・マシンは、不自然なほど大きくなった人間の脳な様な物を組み込んだ、人間の頭脳型装置だ。この装置をシャットダウンするには最も低い場所にあるレバーから順に、操作する必要がある。
+		\n • 伝説のストーカーのひとりであり、ストレロックの元仲間であるゴーストは、Ecologistの研究のためにこの場所に潜入したものの生きて帰ることはできなかった。後にストレロックがミラクル・マシンを完全に停止させた後（少なくとも当分の間は）、彼は友人の亡骸を供養するために戻ってきたのかもしれない。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_lab_x18">
+		<text>X-18研究所</text>
+	</string>
+	<string id="encyclopedia_locations_lab_x18_text">
+		<text>
+		%c[pda_white]「X-18研究所」%c[ui_gray_1]
+		\nダークバレーの地下にある秘密の研究所。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの研究所は精神波の放射装置に関する情報だけでなく、多くの貴重な物があると噂されている。それでも、この場所を知る者はこの地域を避ける傾向がある。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この研究所は、現在ゾーン内に存在するミュータント、特に超能力を持つミュータントが考案された場所だ。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_lab_x19">
+		<text>X-19研究所</text>
+	</string>
+	<string id="encyclopedia_locations_lab_x19_text">
+		<text>
+		%c[pda_white]「X-19研究所」%c[ui_gray_1]
+		\nX-10研究所としても知られている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの研究所は、知識が豊富なストーカーの間で「幻覚発生装置」として知られる、ブレイン・スコーチャーを制御する装置が設置されている場所だ。この場所はMonolithたちにとって、原子力発電所と同じくらいの重要な場所として認識されている。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • ブレイン・スコーチャーを停止することで、「防衛線」の端側の地域を移動しやすくなるが、それにより死ぬことなく戻ってこれられるわけではない。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_lab_x8">
+		<text>X-8研究所</text>
+	</string>
+	<string id="encyclopedia_locations_lab_x8_text">
+		<text>
+		%c[pda_white]「X-8研究所」%c[ui_gray_1]
+		\nプリピャチの旧ユビレイニー・サービスセンターの地下にある研究所。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nここでは、精神波の及ぶ領域やノウアスフィア、アーティファクトの破片を使って驚異的なパワーを発揮する試作兵器«アイテム62»など、様々な分野の研究が行われた。
+		\n \nまた、ブレイン・スコーチャーにつながる初期の研究もここで行われた可能性が高い。資料はわずかしか残っておらず、地元のMercenaryたちがこぞって求めている。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • «アイテム62»の研究は、後にザトンの施設で移送、継続された。
+		\n • 噂によると、2006年以前にここに駐在していた研究チームは3人のメンバーで構成されていた。N.A.レベデフ、E.F.カランチャ、V.I.ススロフがそのメンバーと噂されている。何らかの証拠があるまで、それが真実なのか判明することはないだろう。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_limansk">
+		<text>リマンスク</text>
+	</string>
+	<string id="encyclopedia_locations_limansk_text">
+		<text>
+		%c[pda_white]「リマンスク」%c[ui_gray_1]
+		\n正式には「リマンスク-13」と呼ばれる、ゾーン内にある廃墟の町である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nリマンスクは無人地帯であり、1986年に起きた最初の災害後、公式な避難は発令されなかった。2006年にゾーンが形成された後、アノマリーが都市とその周辺を覆いつくし、ほとんど外界から切り離された状況に陥ったため、さらに人が寄り付かない場所となった。
+		\n2011年9月に2回目の大規模なエミッションが発生したことにより、都市を覆っていたアノマリーが消え、ストーカーはブレイン・スコーチャーを通り抜けるための近道を探してこの町に流れ込んだ、その結果、BanditとMonolithが衝突を起こした。現在、町中にアノマリーが発生しており、都市に散らばる遺棄された建物や乗り物は、MercenaryやMonolithのパトロール隊が徘徊する状況である。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]デッドシティ
+		\n%c[pda_white] • %c[ui_gray_1]レッドフォレスト
+		\n • 放棄された病院
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • フォレスターは、この都市のソビエト時代のことを知っており、そこに住んでいた住民はいかなる辛い状況下でも政府に対しては狂信的で忠実だったと説明している。
+		\n • リマンスクはおそらく精神波アンテナが最初に建設された場所だったが、このプロトタイプは長い間使用されており、修理することができなくなったと推測される。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_monolith_control_center">
+		<text>モノリス中央制御室</text>
+	</string>
+	<string id="encyclopedia_locations_monolith_control_center_text">
+		<text>
+		%c[pda_white]「モノリス中央制御室」%c[ui_gray_1]
+		\n石棺で覆われた精密機械が設置された場所。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n正確な目的は不明だが、おそらくは以前ここにいた研究チームが残した物だろうか。Monolithたちはそれらの物を厳重に保管し維持している。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • ここは。かつてMonolithの偉大な神と指導者が深く繋がりあっていた場所だったのかもしれない。
+		\n • この地域に到達するには、ファングが作成した特別なデコーダーが必要だったらしい。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_monolith_war_lab">
+		<text>モノリス戦争研究所</text>
+	</string>
+	<string id="encyclopedia_locations_monolith_war_lab_text">
+		<text>
+		%c[pda_white]「モノリス戦争研究所」%c[ui_gray_1]
+		\nゾーンの最深部、ジェネレーターの横にある研究所。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n以前は共同意識体が安置されていた場所だった。彼らの明確な死の後、この場所はMonolithたちが神聖な場所として管理するようなった。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • いくつかのグループは、彼らの個々の精神がノウアスフィアに直接影響を与えるほど強力ではないことに気づき、集合性身体を作成するための装置を発明した。
+		\n • それ以来、彼らは自分自身を共同意識体と呼称し、すぐに周りの他のグループを従属化した。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_outskirts">
+		<text>プリピャチ郊外</text>
+	</string>
+	<string id="encyclopedia_locations_outskirts_text">
+		<text>
+		%c[pda_white]「プリピャチ郊外」%c[ui_gray_1]
+		\n郊外という名前は正確には正しい呼び方ではないが、ストーカーがこの地域がプリピャチの中心街から外れた場所にあると認識して呼称している。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの地域に生息するミュータントの数は多く、非常に危険だ。人間の存在は最小限で、そのほとんどがMonolithかゾンビストーカー、少数のLonerとMercenaryの前哨基地で構成されている。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]プリピャチ
+		\n%c[pda_white] • %c[ui_gray_1]ジュピター地下
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この地区は、2012年に原子力発電所を制圧することができなかったMilitaryが、大規模な避難地として使われた場所だ。現在は最も経験豊富で忍耐強いストーカーたちが集まり場所となっている。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_pripyat">
+		<text>プリピャチ</text>
+	</string>
+	<string id="encyclopedia_locations_pripyat_text">
+		<text>
+		%c[pda_white]「プリピャチ」%c[ui_gray_1]
+		\nウクライナのキエフ州にあるプリピャチ市という都市である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの町は、かつてチェルノブイリ原子力発電所で働いていたエンジニアたちの居住区だった。災害以前は多くの人が居住する非常に大きな都市であったが、現在は聖地と崇めるMonolithがいる以外はゴーストタウンと化している。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n • レーダー施設
+		\n%c[pda_white] • %c[ui_gray_1]ジュピター
+		\n%c[pda_white] • %c[ui_gray_1]プリピャチ郊外
+		\n%c[pda_white] • %c[ui_gray_1]チェルノブイリ原子力発電所
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • プリピャチのどこかに伝説のストーカー、ファングの墓があるらしい。また、彼の墓は陸軍倉庫にもあるとの噂だ。
+		\n • この都市はMonolithが他の領土の防衛を行うための中心拠点だ。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_red_forest">
+		<text>レッドフォレスト</text>
+	</string>
+	<string id="encyclopedia_locations_red_forest_text">
+		<text>
+		%c[pda_white]「レッドフォレスト」%c[ui_gray_1]
+		\n陸軍倉庫の北側にある森林地帯である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n実際には、レッドフォレストの最西端の通過可能な地域を指しており、通常は間違いなく安全な地域だろう。だが、沢山の危険なミュータントが生息する場所であるために、ゾーン内でも屈指の危険地域として認識されている。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]陸軍倉庫
+		\n%c[pda_white] • %c[ui_gray_1]ジュピター
+		\n%c[pda_white] • %c[ui_gray_1]リマンスク
+		\n%c[pda_white] • %c[ui_gray_1]レーダー施設
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 「レッドフォレスト」という名前は、1986年に発生したチェルノブイリ災害による、致命的なレベルの放射線を吸収した影響により、赤い色に変異した松の葉に由来している。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_radar">
+		<text>レーダー施設</text>
+	</string>
+	<string id="encyclopedia_locations_radar_text">
+		<text>
+		%c[pda_white]「レーダー施設」%c[ui_gray_1]
+		\nレッドフォレストの近くにあるレーダー施設がある場所だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nレッドフォレストの東半分も含む。非常に危険な地域である。どんなに幸運な人生を送っていても、ここでは簡単に跡形もなく消えてしまう。レッドフォレストにはブレイン・スコーチャーが潜んでいる。近づいた人はすぐに狂ってしまい、ゾンビになってゾーンをうろつき始める。残るのは人間の殻だけである。健全な精神状態で戻ってくる人はほとんどいない。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]陸軍倉庫
+		\n%c[pda_white] • %c[ui_gray_1]レッドフォレスト
+		\n%c[pda_white] • %c[ui_gray_1]プリピャチ
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この地域は暗いイメージがあるが、Monolithをどうにかできるのであれば、プリピャチやゾーンの北部への最良な通り道となるだろう。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_rostok">
+		<text>ロストク</text>
+	</string>
+	<string id="encyclopedia_locations_rostok_text">
+		<text>
+		%c[pda_white]「ロストク」%c[ui_gray_1]
+		\nDutyにとって最も重要な場所である。元は工業地域であるが、Duty自身のニーズに合わせて部分的に復元され、再利用されている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n常連のストーカーや科学者たちの安住の地であり、彼らはゾーンのあちこちから集うために定期的にここを利用している。Dutyの監視下で、100ラッズ・バーとアーニーのアリーナが繁栄している。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]ワイルドテリトリー
+		\n%c[pda_white] • %c[ui_gray_1]ガベージ
+		\n%c[pda_white] • %c[ui_gray_1]陸軍倉庫
+		\n%c[pda_white] • %c[ui_gray_1]トラック墓地
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • かつてDutyはこの地域内での「武器使用の禁止」の規則を作っていた。銃器を公に発砲すると死刑が課せられていたらしいが、現在はこの規則は廃止されている。
+		\n • 以前Dutyは、この地域に立ち入りできる者の選別を執拗に行っていた。この選別は、平凡なストーカーたちに負担をかけており、ほとんどのルーキーは門前払いされていた。
+		\n • ロストクは2011年の2回目の大規模なエミッション以降、侵入不可能な程のアノマリーに覆われ、ゾーンから切り離された状態だった。この強制的な隔離は、その年の後半に発生した3回目の大規模なエミッション前まで続いた。そのような状況も相まって、Freedomは現在の陸軍基地を比較的少ない被害で制圧することができた。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_sarcophagus">
+		<text>石棺</text>
+	</string>
+	<string id="encyclopedia_locations_sarcophagus_text">
+		<text>
+		%c[pda_white]「石棺」%c[ui_gray_1]
+		\n現在、チェルノブイリ原子力発電所の4号機を覆っているのは、爆発事故後の大気中への放射線放出を食い止めるため、1986年に緊急措置として建設された巨大な金属製のコンクリートと構造物である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n石棺はチェルノブイリ原子力発電所で、伝説的な4号炉の内部構造から成り立っている。
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 「願望機」を取り巻く伝説はこの地域に存在すると信じられている。そのため、Monolithがこの地域を死守しようとすることは想像に難くない。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_truck_cemetery">
+		<text>トラック墓地</text>
+	</string>
+	<string id="encyclopedia_locations_truck_cemetery_text">
+		<text>
+		%c[pda_white]「トラック墓地」%c[ui_gray_1]
+		\n正式にはラスソハ設備墓所という名称で、沢山の廃棄車両が打ち捨てられているスクラップ置き場だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n南西の小さくて安全な「ゴミ」地域の暗い響きであるトラック墓地は、1986年の災害後の大規模な放射線浄化作業所として使用されていた廃棄車両の廃棄場所だ。
+		\n \nここで投棄された機器のほとんどが廃棄当時、道具として機能するにもかかわらず除染する実用的な方法が見つからず、廃棄されたものばかりだが、中には完全に壊れた機器も存在する。いずれにせよ、チェルノブイリの災害を緩和するために使われた、英雄的な機械はすべてここに捨てられた。
+		\n \n2006年のゾーンの発生以降、この地域は派閥間争いの対立地域として非常に賑やかだが、通常はミュータントの繁殖地である。この地域はどの派閥からも孤立しており、到達するのが難しいにもかかわらず、多くのストーカーがここで投棄されている、スクラップが徐々にいじられているのに気付いている。おそらくだが、軍が誰かを対象にスクラップの金属を違法に販売しているのではないかとにらんでいる。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]陸軍倉庫
+		\n%c[pda_white] • %c[ui_gray_1]ロストク
+		\n%c[pda_white] • %c[ui_gray_1]ダークバレー
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • 多くのリスクがあるにもかかわらず、Banditたちはこの地域の北側に基地を設置している。これはおそらくFreedomやダークバレーとの中間拠点としているのだろう。
+		\n • ここの車両の多くは、既に放射線を失い始めている。仮に政府がこの地域の支配権を獲得した場合、すぐさま撤去し合法的に廃棄することができるだろう。
+		\n • この地域は、偏執的なストーカーが好む場所だ。理由としては単純で、この干し草が茂る場所で針を見つけようとするのは物好き以外いないからだ。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_wild_territory">
+		<text>ワイルドテリトリー</text>
+	</string>
+	<string id="encyclopedia_locations_wild_territory_text">
+		<text>
+		%c[pda_white]「ワイルドテリトリー」%c[ui_gray_1]
+		\nかつて大規模な製造工場があったが、現在は廃墟となっている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nDutyが到着する前のロストクの様子を知りたければ、この地域はかなり正確なイメージを与えてくれるだろう。この地域にはミュータントが生息していたり、BanditやMercenaryがうようよしていたりするため、通常のストーカーはここを直接通ることを嫌う。しかし、この混沌の中にこそチャンスがある。Duty幹部やロストクのバーテンダーが、ここに潜む無数の危険に賞金をかけることも珍しくない。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]ロストク
+		\n%c[pda_white] • %c[ui_gray_1]ガベージ
+		\n%c[pda_white] • %c[ui_gray_1]ヤンター
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • Dutyは以前から、ロストクの一部としてこの地域も支配下に置こうと考えているようだが、現在そのために必要な人材が常に不足している状況だ。
+		\n • この場所は2012年に、ウルフハウンドがMercenaryたちの司令官として就任したころ、発生した恐ろしい大虐殺の現場である。ウルフハウンドは、彼が率いるチームと共に報復により皆殺しにされた。最近ではMercenaryたちはいくつかの例外を除き、Ecologistたちとは友好関係を築いている。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_yantar">
+		<text>ヤンター</text>
+	</string>
+	<string id="encyclopedia_locations_yantar_text">
+		<text>
+		%c[pda_white]「ヤンター」%c[ui_gray_1]
+		\n伝説のヤンター湖はかなり前に干上がり、今は浅い湿地帯しか残っていない。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの場所は病的で死に満ちており、もはや人間ではないものに取り憑かれている。北の複合施設に防護措置無しで近づきすぎるストーカーはしばしば何者かの声を聞き取った後、発狂し歩く死者たちの仲間入りしてしまうだろう。ここに来るまともな思考をした者たちは地元のEcologistであり、ミュータントやアーティファクトのサンプルに金目の糸をつけずに気前よく報酬を払うだろう。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]デッドシティ
+		\n%c[pda_white] • %c[ui_gray_1]ワイルドテリトリー
+		\n%c[pda_white] • %c[ui_gray_1]アグロプロム
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • この地域には、悪名高い「ミラクル・マシン」という精神波の放射設備がある。これまでに数多くの者が、その影響で狂気に追いやられた。
+		\n • Ecologistの移動研究所には、それぞれ独特なスキルを持った者たちによって運営されており、研究所の総責任者である教授は、ゾーンの精神波防護装置の第一人者として有名だ。
+		\n • Ecologistの移動研究所は、人材をゾーンで失う前に、Dutyたちの保護を受けていた。現在、Ecologistはほぼすべての派閥から、護衛として働くストーカーを募集している。
+		</text>
+	</string>
+		
+	<string id="encyclopedia_locations_zaton">
+		<text>ザトン</text>
+	</string>
+	<string id="encyclopedia_locations_zaton_text">
+		<text>
+		%c[pda_white]「ザトン」%c[ui_gray_1]
+		\nバックウォーターとも呼ばれる、かつてプリピャチの川に流れていた干上がった水路だ。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの場所はいくつかのボート、はしけ、貨物船の残骸が散らばっており、以前は工業地帯として使用されていたが、現在は湿地帯の様な有様だ。
+		\n \nこの地域は、いくつかの場所や特定の水溜まりを除けば強烈な放射線地域はほとんどない。しかし多くの場合はMonolithやミュータント、ゾンビストーカーなどの被害が絶えない。
+		\n \nこの地域はゾーンの中心部付近に位置しており、Monolithの支配地域と隣接してはいるが、スカドフスクやシェフチェンコ等の集落も存在する。
+		\n \n%c[pda_blue]移動可能なマップ%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]ジュピター
+		\n%c[pda_white] • %c[ui_gray_1]チェルノブイリ原子力発電所
+		\n \n%c[pda_yellow]雑学%c[ui_gray_1]
+		\n • かつてこの地域では、ストーカーとBanditが共有地域として比較的穏やかに住んでいたが、その状況は長くは続かず、大方の予想通り2012年にその関係は崩壊した。
+		\n • ある狂ったストーカーは、浜辺の船に住んでいるが、彼を訪ねる際にこの船のドアを開けるときは、ドアの背後に立ちっぱなしでいることは推奨されていない。
+		</text>
+	</string>
+	
+</string_table>

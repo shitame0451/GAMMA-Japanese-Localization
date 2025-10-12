@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+<!--
+ UI
+-->
+
+	<string id="st_use_stove">
+		<text>ストーブを使う</text>
+	</string>
+
+<!--
+	PROPS
+-->
+
+	<string id="st_prop_dish2">
+		<text>セラミックボウル</text>
+	</string>
+	<string id="st_prop_dish2_descr">
+		<text>シンプルだが耐久性のあるセラミック製の椀。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_dish1">
+		<text>セラミックプレート</text>
+	</string>
+	<string id="st_prop_dish1_descr">
+		<text>セラミック製の皿。戦闘用ではない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_bong">
+		<text>フッカー</text>
+	</string>
+	<string id="st_prop_bong_descr">
+		<text>水タバコまたはアルガイルとも呼ばれ、シーシャを吸うために使用する器具。煙は底部に溜まった水で冷却される。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_keyboard">
+		<text>キーボード</text>
+	</string>
+	<string id="st_prop_keyboard_descr">
+		<text>古いキーボード。経年変化でうっすらと黄ばんでいる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_laptop_item">
+		<text>ノートパソコン</text>
+	</string>
+	<string id="st_prop_laptop_item_descr">
+		<text>最新のノートパソコン。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_monitor">
+		<text>モニター</text>
+	</string>
+	<string id="st_prop_monitor_descr">
+		<text>古いモニターだが、状態は良好のようだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_mice">
+		<text>マウス</text>
+	</string>
+	<string id="st_prop_mice_descr">
+		<text>古くなった普通のマウス。90年代後半の世界へようこそ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_mice_pad">
+		<text>マウスとマウスパッド</text>
+	</string>
+	<string id="st_prop_mice_pad_descr">
+		<text>古くなった普通のマウスとマウスパッド。90年代後半の世界へようこそ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_mug">
+		<text>マグカップ</text>
+	</string>
+	<string id="st_prop_mug_descr">
+		<text>普通のマグカップ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_couch_1">
+		<text>古びたソファ</text>
+	</string>
+	<string id="st_prop_couch_1_descr">
+		<text>古いソファ。驚くべきことに、状態はかなり良い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_case">
+		<text>PCケース</text>
+	</string>
+	<string id="st_prop_case_descr">
+		<text>昔のPCケース。中身は壊れているが、観賞用としては魅力的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_poster_vertical_item">
+		<text>ポスター（縦型）</text>
+	</string>
+	<string id="st_prop_poster_vertical_item_descr">
+		<text>シンプルな縦長のポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_fan">
+		<text>小型扇風機</text>
+	</string>
+	<string id="st_prop_fan_descr">
+		<text>機能する小型扇風機。晴れの日が少ないゾーンでは重宝する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_bed_3">
+		<text>木製ベッド</text>
+	</string>
+	<string id="st_prop_bed_3_descr">
+		<text>頑丈な木製ベッド。マットレスは柔らかく快適だ。寒い夜でも暖かく過ごせるよう、毛布が2枚付いている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]睡眠\n
+		</text>
+	</string>
+	<string id="st_prop_chair">
+		<text>木製の椅子</text>
+	</string>
+	<string id="st_prop_chair_descr">
+		<text>シンプルで頑丈な木製の椅子。座り心地は十分。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_counter_1">
+		<text>木製カウンター</text>
+	</string>
+	<string id="st_prop_counter_1_descr">
+		<text>シンプルな木製のカウンター。状態は良い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_table_1">
+		<text>木製デスク</text>
+	</string>
+	<string id="st_prop_table_1_descr">
+		<text>頑丈な木製の机で、まだ使えそうな状態だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_shelf_1">
+		<text>木製の棚</text>
+	</string>
+	<string id="st_prop_shelf_1_descr">
+		<text>木製のシンプルな棚。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_shelf_2">
+		<text>大きな木製の棚</text>
+	</string>
+	<string id="st_prop_shelf_2_descr">
+		<text>頑丈な木製の棚。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_table_2">
+		<text>木製テーブル</text>
+	</string>
+	<string id="st_prop_table_2_descr">
+		<text>頑丈な木製のテーブル。状態は良い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_prop_board_map">
+		<text>ゾーンの地図</text>
+	</string>
+	<string id="st_prop_board_map_descr">
+		<text>ゾーンの地形が描かれた図。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+
+<!--
+	FUNCTIONAL PROPS
+-->
+
+	<string id="st_placeable_ammo_box">
+		<text>弾薬の収納ボックス</text>
+	</string>
+	<string id="st_placeable_ammo_box_descr">
+		<text>軍で弾薬の保管に使われる広々とした木製の箱。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]保管対象: %c[ui_gray_1]弾薬\n
+		</text>
+	</string>
+	<string id="st_prop_cans_tuna">
+		<text>缶詰の収納ボックス</text>
+	</string>
+	<string id="st_prop_cans_tuna_descr">
+		<text>トレーダーが商品を陳列するためによく使う木箱。缶詰を入れるのに適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]保管対象: %c[ui_gray_1]缶詰\n
+		</text>
+	</string>
+	<string id="st_prop_lamp1">
+		<text>小型デスクランプ</text>
+	</string>
+	<string id="st_prop_lamp1_descr">
+		<text>生活空間用の小さな照明。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[pda_white]バッテリー\n
+		</text>
+	</string>
+	<string id="st_prop_lamp2">
+		<text>大型デスクランプ</text>
+	</string>
+	<string id="st_prop_lamp2_descr">
+		<text>生活空間用の大きな照明。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[pda_white]バッテリー\n
+		</text>
+	</string>
+	<string id="st_prop_prop_clock_1">
+		<text>デジタル時計</text>
+	</string>
+	<string id="st_prop_prop_clock_1_descr">
+		<text>真新しいデジタル時計。ゾーンでは珍しい。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]時間を表示できる\n
+		</text>
+	</string>
+	<string id="st_prop_med_case_1">
+		<text>医薬品の収納ボックス</text>
+	</string>
+	<string id="st_prop_med_case_1_descr">
+		<text>医薬品の収納に適した丈夫なプラスチックケース。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]保管対象: %c[ui_gray_1]医薬品\n
+		</text>
+	</string>
+	<string id="st_prop_bed_2">
+		<text>金属製のベッド</text>
+	</string>
+	<string id="st_prop_bed_2_descr">
+		<text>古い錆びた金属製のベッドに、マットレスと毛布が付いている。地面に寝るよりはましだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]睡眠\n
+		</text>
+	</string>
+	<string id="st_prop_fridge">
+		<text>古びた冷蔵庫</text>
+	</string>
+	<string id="st_prop_fridge_descr">
+		<text>頑丈な大型冷蔵庫。ミュータント肉やその他の腐りやすい食品の保存に役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[pda_white] • %c[ui_red]冷蔵庫に入れたミュータントの肉は腐らない\n
+		</text>
+	</string>
+	<string id="st_prop_bed_1">
+		<text>収納式ベッド</text>
+	</string>
+	<string id="st_prop_bed_1_descr">
+		<text>シンプルなマットレスと毛布で、軽くて持ち運びができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]睡眠\n
+		</text>
+	</string>
+	<string id="st_prop_stove2">
+		<text>ストーブ（大型）</text>
+	</string>
+	<string id="st_prop_stove2_descr">
+		<text>あらゆる燃料に対応できるように改造された、機能的な大型ストーブ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]調理\n
+		</text>
+	</string>
+	<string id="st_prop_stove1">
+		<text>ストーブ（小型）</text>
+	</string>
+	<string id="st_prop_stove1_descr">
+		<text>あらゆる燃料に対応できるように改造された、機能的な小型ストーブ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]調理\n
+		</text>
+	</string>
+	<string id="st_prop_tv">
+		<text>テレビ</text>
+	</string>
+	<string id="st_prop_tv_descr">
+		<text>ゾーン内で受信可能なチャンネルを映し出せる古いテレビ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+</string_table>

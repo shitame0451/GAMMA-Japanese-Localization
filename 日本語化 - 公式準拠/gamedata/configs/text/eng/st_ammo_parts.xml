@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<!-- Jammin -->
+	<string id="st_casing_pistol">
+		<text>ハンドガン弾の薬莢</text>
+	</string>
+	<string id="st_casing_pistol_desc">
+		<text>ハンドガン弾の薬莢。プライマー付き。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_casing_shotgun">
+		<text>ショットガン弾の薬莢</text>
+	</string>
+	<string id="st_casing_shotgun_desc">
+		<text>ショットガン弾のシェル。プライマー付き。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_casing_r5">
+		<text>小口径ライフル弾の薬莢</text>
+	</string>
+	<string id="st_casing_r5_desc">
+		<text>小口径ライフル弾の薬莢。プライマー付き。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_casing_r7">
+		<text>大口径ライフル弾の薬莢</text>
+	</string>
+	<string id="st_casing_r7_desc">
+		<text>大口径ライフル弾の薬莢。プライマー付き。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_powder_pistol">
+		<text>ハンドガン／ショットガン弾の火薬</text>
+	</string>
+	<string id="st_powder_pistol_desc">
+		<text>ハンドガンやショットガンの弾薬に使用するダブルベース推進剤。無煙火薬の一種で、ゆっくり燃焼する火薬に比べるとエネルギーは落ちるが、燃焼時に出る煙が少ない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_powder_rifle">
+		<text>小口径ライフル弾の火薬</text>
+	</string>
+	<string id="st_powder_rifle_desc">
+		<text>小口径ライフル弾や一部の大口径ハンドガン弾に使用するIMR火薬。燃焼速度は中程度で、十分なエネルギーを得られるが、ブローバック式ハンドガンやショットガンでは圧力が不足し、燃焼不良を起こすため使用できない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_powder_mag">
+		<text>大口径ライフル弾の火薬</text>
+	</string>
+	<string id="st_powder_mag_desc">
+		<text>大口径ライフル弾用の高収率、低燃焼の火薬。この火薬はエネルギーが高く、燃焼速度も遅いため、長い銃身を持つ銃で使われる大口径ライフル弾にのみ使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_handgun_rounds">
+		<text>ハンドガン弾の弾頭</text>
+	</string>
+	<string id="st_handgun_rounds_desc">
+		<text>弾薬から回収された様々な大きさのハンドガンの弾丸。新しい弾薬の製造に役立てることができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_handgun_ap_rounds">
+		<text>ハンドガンの徹甲弾の弾頭</text>
+	</string>
+	<string id="st_handgun_ap_rounds_desc">
+		<text>弾薬から回収された様々な大きさのハンドガンの弾丸。弾丸の中に合金の貫通材が埋め込まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_shotgun_rounds">
+		<text>鉛玉</text>
+	</string>
+	<string id="st_shotgun_rounds_desc">
+		<text>狩猟用散弾銃に使用される小型の鉛製バックショット弾。これを溶かしてスラグ弾に鋳造することもできる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_shotgun_ap_rounds">
+		<text>サボット付きダート弾</text>
+	</string>
+	<string id="st_shotgun_ap_rounds_desc">
+		<text>サボットに包まれた硬化鋼製のダート弾。本来は警察が使用し、ショットガンを用いてエンジンブロックを停止するために設計されたものだが、防弾装備に対してもそれなりの効果を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_rifle5_rounds">
+		<text>小口径ライフル弾の弾頭</text>
+	</string>
+	<string id="st_rifle5_rounds_desc">
+		<text>小口径ライフル弾の弾丸。軍で製造され、フルメタルジャケット加工により精度を最適化している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_rifle5_ap_rounds">
+		<text>小口径ライフルの徹甲弾の弾頭</text>
+	</string>
+	<string id="st_rifle5_ap_rounds_desc">
+		<text>合金の貫通材が埋め込まれた小口径ライフル弾の弾丸。標準的な交戦距離で装甲を破壊するために設計されているが、その代償として肉体へのダメージは薄い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+
+	<string id="st_rifle7_rounds">
+		<text>大口径ライフル弾の弾頭</text>
+	</string>
+	<string id="st_rifle7_rounds_desc">
+		<text>フルメタルジャケットで覆われた大口径ライフル弾の弾丸。狩猟用や軍の狙撃用弾として一般的に使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+	</string>
+	<string id="st_rifle7_ap_rounds">
+		<text>大口径ライフルの徹甲弾の弾頭</text>
+	</string>
+	<string id="st_rifle7_ap_rounds_desc">
+		<text>合金の貫通材が埋め込まれた大口径ライフル弾の弾丸。軍や特殊部隊の専用弾薬として使用されることが多く、遠距離からでも防弾装備を撃ち抜くことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]弾薬の素材\n
+		</text>
+    </string>
+
+	<string id="st_batch_breakdown">
+		<text>すべて分解 [!]</text>
+	</string>
+</string_table>

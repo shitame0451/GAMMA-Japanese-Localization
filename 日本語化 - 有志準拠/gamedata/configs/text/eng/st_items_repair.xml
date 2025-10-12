@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+<!--
+ WEAPON PART MAINTENANCE
+-->
+
+	<string id="st_rasp_tool">
+		<text>やすり</text>
+	</string>
+	<string id="st_rasp_tool_descr">
+		<text>金属の荒い表面を滑らかにし、錆を落とし、形状を整えるために使用するシンプルな道具。現場での応急的な修復作業に欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の部品のメンテナンス\n
+		</text>
+	</string>
+	<string id="st_leatherman_tool">
+		<text>マルチツール</text>
+	</string>
+	<string id="st_leatherman_tool_descr">
+		<text>ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム分解ツール\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の部品のメンテナンス\n
+		</text>
+	</string>
+	<string id="st_ramrod_tool">
+		<text>ラムロッド</text>
+	</string>
+	<string id="st_ramrod_tool_descr">
+		<text>銃身内の異物を取り除き、清掃するための頑丈な棒。ゾーンの過酷な環境下で使い込まれた銃のメンテナンスに欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の部品のメンテナンス\n
+		</text>
+	</string>
+	<string id="st_cleaning_kit_u">
+		<text>パーツクリーニングキット</text>
+	</string>
+	<string id="st_cleaning_kit_u_descr">
+		<text>昔のソ連製ライフルから最新のNATO製銃器まで、ゾーンで使われている様々な銃火器のメンテナンスに対応した万能クリーニングキット。ブラシや溶剤、布、工具が揃っており、汚れや蓄積したカーボン、湿気を効果的に除去できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の部品のメンテナンス\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべての銃\n
+		</text>
+	</string>
+
+<!--
+	OUTFIT PART MAINTENANCE
+-->
+
+	<string id="st_sewing_thread">
+		<text>基本縫糸</text>
+	</string>
+	<string id="st_sewing_thread_descr">
+		<text>衣類や軽装スーツ、バックパックの補修に必要な汎用性の高い糸。地味だが、サバイバルに欠かせない必需品だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]スーツの部品のメンテナンス\n
+		</text>
+	</string>
+	<string id="st_heavy_sewing_thread">
+		<text>フィールドアーマーツールキット</text>
+	</string>
+	<string id="st_heavy_sewing_thread_descr">
+		<text>携帯しやすく、現場での応急的なスーツ修理に適したキット。基本的な工具や補修パッチ、接着剤、縫製用の素材が揃っている。完全な修復はできないが、銃弾による穴を塞ぎ、縫い目を補強し、次の戦闘までスーツを持ちこたえさせることができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]スーツの部品のメンテナンス\n
+		</text>
+	</string>
+
+<!--
+	WEAPON REPAIR
+-->
+
+	<string id="st_solvent">
+		<text>洗浄溶剤（ホップスNo.9）</text>
+	</string>
+	<string id="st_solvent_descr">
+		<text>昔から広く使われている西側製の銃器洗浄溶剤。カーボン、鉛、火薬の残留物を効果的に分解する。適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の全体的な耐久値の回復\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべての銃\n
+		</text>
+	</string>
+	<string id="st_gun_oil">
+		<text>スプレー式潤滑剤（ブルノックスガンケア）</text>
+	</string>
+	<string id="st_gun_oil_descr">
+		<text>銃器の錆や腐食、汚れの蓄積を防ぐために設計された汎用性の高いスプレー式潤滑剤。適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の全体的な耐久値の回復\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべての銃\n
+		</text>
+	</string>
+	<string id="st_gun_oil_ru_d">
+		<text>洗浄溶剤（ドヴォイカ）</text>
+	</string>
+	<string id="st_gun_oil_ru_d_descr">
+		<text>ソ連時代に開発された銃器洗浄溶剤。強い化学成分と独特の刺激臭を持ち、頑固な汚れも除去できる優れた洗浄力を誇る。適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の全体的な耐久値の回復\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべての銃\n
+		</text>
+	</string>
+	<string id="st_gun_oil_ru">
+		<text>ガンオイル（ルサク）</text>
+	</string>
+	<string id="st_gun_oil_ru_descr">
+		<text>手頃な価格のロシア製鉱物油が入ったプラスチックボトル。銃器の潤滑と防錆を目的としているが、適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃の全体的な耐久値の回復\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべての銃\n
+		</text>
+	</string>
+
+<!--
+	OUTFIT REPAIR
+-->
+
+	<string id="st_sewing_kit_b">
+		<text>裁縫キット（基本）</text>
+	</string>
+	<string id="st_sewing_kit_b_descr">
+		<text>布巻き、数本の縫い針、はさみがセットになった簡易裁縫キット。柔らかい布地の弾痕や裂け目を縫い合わせるのに適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツと軽装ヘッドギアセット\n
+		</text>
+	</string>
+	<string id="st_sewing_kit_a">
+		<text>裁縫キット（上級）</text>
+	</string>
+	<string id="st_sewing_kit_a_descr">
+		<text>通常の裁縫キットよりも高品質な道具を揃えた上級裁縫キット。ナイロン糸のリールや様々なサイズの高品質な針が含まれており、厚手の丈夫な生地の補修にも対応できる。薄いミュータントの皮や人工繊維の縫製にも適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツと軽装ヘッドギアセット\n
+		</text>
+	</string>
+	<string id="st_sewing_kit_h">
+		<text>裁縫キット（軍用）</text>
+	</string>
+	<string id="st_sewing_kit_h_descr">
+		<text>現代の戦闘用アーマーに使用される防護プレートの損傷を修復するために設計された、軍規格の高度な裁縫キット。引き裂かれた装備を補修するための金属糸が含まれており、非常に硬いミュータントの皮でも縫い直すことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツと軽装ヘッドギアセット\n
+		</text>
+	</string>
+	<string id="st_glue_e">
+		<text>チューブ式接着剤（M17）</text>
+	</string>
+	<string id="st_glue_e_descr">
+		<text>ソ連の軍事産業研究プロジェクトの一環として開発された、強力な単一成分の接着剤。素材を選ばず、あらゆる状況で使用できるよう設計されており、この接着剤で修復できない損傷はほとんど存在しない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツと軽装ヘッドギアセット\n
+		</text>
+	</string>
+	<string id="st_glue_a">
+		<text>チューブ式接着剤（ター）</text>
+	</string>
+	<string id="st_glue_a_descr">
+		<text>ウクライナの化学産業が開発した高性能なエポキシ系接着剤。ほとんどの素材を素早く接着できる。特に織物やケブラーなどの軽量な防護素材には効果的だが、金属には使用できないのが難点。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツとヘッドギアセット\n
+		</text>
+	</string>
+	<string id="st_glue_b">
+		<text>チューブ式接着剤（ズヴィズダ）</text>
+	</string>
+	<string id="st_glue_b_descr">
+		<text>ゾーンで手に入る合成接着剤の中でも特に手頃な価格のエポキシ系接着剤。軽い布の破れや小さな穴の補修に適している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツと軽装ヘッドギアセット\n
+		</text>
+	</string>
+	<string id="st_light_repair_kit">
+		<text>スーツ修理キット（軽装スーツ）</text>
+	</string>
+	<string id="st_light_repair_kit_descr">
+		<text>軽装スーツの応急修理に適した道具や補修パッチ、接着剤が揃ったコンパクトなキット。小さな裂け目や防護層を素早く補修できるため、機動力を重視するストーカーにとって手放せないものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]軽装スーツ\n
+		</text>
+	</string>
+	<string id="st_medium_repair_kit">
+		<text>スーツ修理キット（中装スーツ）</text>
+	</string>
+	<string id="st_medium_repair_kit_descr">
+		<text>高耐久の糸や針、ポリマー製の補修パッチなど、スーツの修理に必要な道具がすべて含まれたキット。厚手の生地や軍規格のケブラー繊維にも使用でき、あらゆるスーツの修理に活用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]中装スーツ\n
+		</text>
+	</string>
+	<string id="st_exolight_repair_kit">
+		<text>スーツ修理キット（重装スーツ）</text>
+	</string>
+	<string id="st_exolight_repair_kit_descr">
+		<text>重装スーツやボディアーマーの修理・維持に特化した頑丈なキット。強化プレートや工業用接着剤、専門的な工具が揃っており、戦闘による深刻な損傷の補修にも対応できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]重装スーツ\n
+		</text>
+	</string>
+	<string id="st_exo_repair_kit">
+		<text>スーツ修理キット（強化外骨格）</text>
+	</string>
+	<string id="st_exo_repair_kit_descr">
+		<text>強化外骨格の機械系統と装甲の維持に特化した修理キット。作動油、サーボ機構の部品、関節シール、重装甲用の補修パッチが含まれており、スーツを正常に稼働を維持するために欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]強化外骨格\n
+		</text>
+	</string>
+	<string id="st_helmet_repair_kit">
+		<text>修理キット（ヘッドギア）</text>
+	</string>
+	<string id="st_helmet_repair_kit_descr">
+		<text>ヘルメットやガスマスクなど、ゾーンでの生存に不可欠なヘッドギアの修理用キット。レンズクリーナー、交換用ストラップ、フィルター用接着剤、装甲補修パッチが含まれており、過酷な環境下での防護性能を維持するのに役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]中／重量ヘッドギアセット\n
+		</text>
+	</string>
+	<string id="st_armor_repair_fa">
+		<text>スーツ修理キット（応急）</text>
+	</string>
+	<string id="st_armor_repair_fa_descr">
+		<text>緊急時にスーツの修理ができる便利なキット。軍規格のダクトテープと、様々な形状・サイズの厚手の布シートが含まれており、衣服の損傷を素早く補修できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツと軽装ヘッドギアセット\n
+		</text>
+	</string>
+
+<!--
+	MELEE REPAIR
+-->
+
+	<string id="st_sharpening_stones">
+		<text>砥石セット</text>
+	</string>
+	<string id="st_sharpening_stones_descr">
+		<text>異なる粒度の砥石が入った砥石セット。ポリエステル製の袋に収納されており、ナイフなどの刃物のメンテナンスや修復に使用する。定期的な研磨を行うことで武器やツールの切れ味を保ち、常に高い性能を維持できるようになる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ナイフの修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのナイフ\n
+		</text>
+	</string>
+
+<!--
+	EMPTY BOXES
+-->
+
+	<string id="st_repair_kit_p_empty">
+		<text>修理キット（空箱）</text>
+	</string>
+	<string id="st_repair_kit_p_empty_descr">
+		<text>銃のメンテナンスに使用する道具や予備部品が入っていた金属製の箱。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_repair_kit_r7_empty">
+		<text>修理キット（空箱）</text>
+	</string>
+	<string id="st_repair_kit_r7_empty_descr">
+		<text>銃のメンテナンスに使用する道具や予備部品が入っていた金属製の箱。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_repair_kit_s_empty">
+		<text>修理キット（空箱）</text>
+	</string>
+	<string id="st_repair_kit_s_empty_descr">
+		<text>銃のメンテナンスに使用する道具や予備部品が入っていた金属製の箱。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_repair_kit_r5_empty">
+		<text>修理キット（空箱）</text>
+	</string>
+	<string id="st_repair_kit_r5_empty_descr">
+		<text>銃のメンテナンスに使用する道具や予備部品が入っていた金属製の箱。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="st_cleaning_kit_s">
+		<text>「オーロラ A108/12」ショットガン クリーニングキット</text>
+	</string>
+	<string id="st_cleaning_kit_s_descr">
+		<text>銃身やその他の部分の汚れ、砂、水分、潤滑油の残留物、その他使用中に蓄積された異物を洗浄するために使用できる専用ブラシのセット。このようなキットは、銃器を常に良好な状態に保つために、ゾーンではごく一般的に使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[ui_gray_1]耐久値が低い銃の部品を洗浄することができる\n
+		%c[d_orange] • %c[ui_gray_1]銃を右クリック &gt; メンテナンス &gt; 洗浄: [部品]\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]12ゲージ\n
+		</text>
+	</string>
+	<string id="st_cleaning_kit_r7">
+		<text>中／大口径ライフル クリーニングキット</text>
+	</string>
+	<string id="st_cleaning_kit_r7_descr">
+		<text>銃身やその他の部分の汚れ、砂、水分、潤滑油の残留物、その他使用中に蓄積された異物を洗浄するために使用できる専用ブラシのセット。このようなキットは、銃器を常に良好な状態に保つために、ゾーンではごく一般的に使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[ui_gray_1]耐久値が低い銃の部品を洗浄することができる\n
+		%c[d_orange] • %c[ui_gray_1]銃を右クリック &gt; メンテナンス &gt; 洗浄: [部品]\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]7.62/7.92/9x39/.338\n
+		</text>
+	</string>
+	<string id="st_cleaning_kit_p">
+		<text>「プログレス」ハンドガン クリーニングキット</text>
+	</string>
+	<string id="st_cleaning_kit_p_descr">
+		<text>銃身内などに蓄積された汚れ、砂、湿気、固着した油や異物を除去および清掃するためのブラシセット。銃器を最良の状態で運用するためにゾーンで一般的に使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[ui_gray_1]耐久値が低い銃の部品を洗浄することができる\n
+		%c[d_orange] • %c[ui_gray_1]銃を右クリック &gt; メンテナンス &gt; 洗浄: [部品]\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]9mm/.45/.357\n
+		</text>
+	</string>
+	<string id="st_cleaning_kit_r5">
+		<text>「ヴァルプロIII」小口径ライフル クリーニングキット</text>
+	</string>
+	<string id="st_cleaning_kit_r5_descr">
+		<text>銃身やその他の部分の汚れ、砂、水分、潤滑油の残留物、その他使用中に蓄積された異物を洗浄するために使用できる専用ブラシのセット。このようなキットは、銃器を常に良好な状態に保つために、ゾーンではごく一般的に使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[ui_gray_1]耐久値が低い銃の部品を洗浄することができる\n
+		%c[d_orange] • %c[ui_gray_1]銃を右クリック &gt; メンテナンス &gt; 洗浄: [部品]\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]5.45/5.56\n
+		</text>
+	</string>
+	<string id="st_repair_kit_p">
+		<text>ハンドガン修理キット</text>
+	</string>
+	<string id="st_repair_kit_p_descr">
+		<text>このキットには、オイル、溶剤、基本的な洗浄器具、武器機構の分解とメンテナンスに使用する特殊工具が含まれている。携帯するには重いキットだが、ゾーンの奥深くに立ち入った際、損傷した銃器を再び蘇らせることは、生死を分ける上で欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[ui_gray_1]耐久値が低い銃の部品を洗浄することができる\n
+		%c[d_orange] • %c[ui_gray_1]銃を右クリック &gt; メンテナンス &gt; 交換: [部品]\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]9mm/.45/.357\n
+		</text>
+	</string>
+	<string id="st_repair_kit_s">
+		<text>ショットガン修理キット</text>
+	</string>
+	<string id="st_repair_kit_s_descr">
+		<text>このキットには、オイル、溶剤、基本的な洗浄器具、武器機構の分解とメンテナンスに使用する特殊工具が含まれている。携帯するには重いキットだが、ゾーンの奥深くに立ち入った際、損傷した銃器を再び蘇らせることは、生死を分ける上で欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[ui_gray_1]耐久値が低い銃の部品を洗浄することができる\n
+		%c[d_orange] • %c[ui_gray_1]銃を右クリック &gt; メンテナンス &gt; 交換: [部品]\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]12ゲージ\n
+		</text>
+	</string>
+	<string id="st_repair_kit_r5">
+		<text>小口径ライフル修理キット</text>
+	</string>
+	<string id="st_repair_kit_r5_descr">
+		<text>このキットには、オイル、溶剤、基本的な洗浄器具、武器機構の分解とメンテナンスに使用する特殊工具が含まれている。携帯するには重いキットだが、ゾーンの奥深くに立ち入った際、損傷した銃器を再び蘇らせることは、生死を分ける上で欠かせない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[ui_gray_1]耐久値が低い銃の部品を洗浄することができる\n
+		%c[d_orange] • %c[ui_gray_1]銃を右クリック &gt; メンテナンス &gt; 交換: [部品]\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]5.45/5.56\n
+		</text>
+	</string>
+	<string id="st_repair_kit">
+		<text>重量スーツ修理キット</text>
+	</string>
+	<string id="st_repair_kit_descr">
+		<text>この複雑で重いセットには、高耐久の糸や針からポリマー製の補修パッチまで、あらゆるアーマーの修理に必要なものがすべて含まれている。厚手の生地や軍規格のケブラー繊維など、素材に関係なく使用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]すべてのスーツとヘッドギアセット\n
+		</text>
+	</string>
+
+-->
+
+</string_table>

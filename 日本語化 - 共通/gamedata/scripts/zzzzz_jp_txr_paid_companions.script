@@ -1,0 +1,44 @@
+-- txr_paid_companions.script
+
+-- ===================================================================
+--  st_paid_companion_dialog_text_1 （報酬金額のカンマ区切り[NPCの会話文]）
+-- ===================================================================
+local original_st_paid_companion_dialog_text_1 = txr_paid_companions.st_paid_companion_dialog_text_1
+
+txr_paid_companions.st_paid_companion_dialog_text_1 = function(actor, npc)
+	local result = original_st_paid_companion_dialog_text_1(actor, npc)
+	if not result then return result end
+
+	return string.gsub(result, "(%d+)", function(num)
+		return japanese_patch.commas_to_number(num)
+	end)
+end
+
+-- ===================================================================
+-- st_paid_companion_dialog_text_3 （報酬金額のカンマ区切り[プレイヤーの選択肢]）
+-- ===================================================================
+local original_st_paid_companion_dialog_text_3 = txr_paid_companions.st_paid_companion_dialog_text_3
+
+txr_paid_companions.st_paid_companion_dialog_text_3 = function(actor, npc)
+	local result = original_st_paid_companion_dialog_text_3(actor, npc)
+	if not result then return result end
+
+	return string.gsub(result, "(%d+)", function(num)
+		return japanese_patch.commas_to_number(num)
+	end)
+end
+
+
+-- ===================================================================
+-- st_paid_companion_dialog_text_4 （報酬金額のカンマ区切り[プレイヤーの選択肢]）
+-- ===================================================================
+local original_st_paid_companion_dialog_text_4 = txr_paid_companions.st_paid_companion_dialog_text_4
+
+txr_paid_companions.st_paid_companion_dialog_text_4 = function(actor, npc)
+	local result = original_st_paid_companion_dialog_text_4(actor, npc)
+	if not result then return result end
+
+	return string.gsub(result, "(%d+)", function(num)
+		return japanese_patch.commas_to_number(num)
+	end)
+end

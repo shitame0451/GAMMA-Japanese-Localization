@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="0_insider">
+		<text>ここでスーツを交換してくれると聞いた。</text>
+	</string>
+	<string id="1_insider">
+		<text>ああ、その通りだ。持ってきたスーツと同じ種類のものを渡してやろう。
+\nただし、他の派閥のスーツとの交換になる。もちろん、こちらの在庫次第だがな。
+
+\n\nそれと、ボロボロのスーツを新品と交換してもらえるなんて思うなよ。
+\nここはお前の婆ちゃんの家じゃない、そんなに甘やかしはしないさ。
+\nガラクタを持ち込むなら、こっちもボロボロに錆びた臭いスーツを渡すことになる。
+\nだが、状態のいいスーツを持ってきたなら、それに見合う新品同様の品を用意してやる。
+
+\n\n言っておくが、このサービスはタダじゃない。料金はそこの掲示板で確認してくれ。
+\nその料金にはスーツの修理費や交換手続きだけでなく、派閥の運営資金も含まれてる。
+\n─で、どの種類のスーツと交換したいんだ？在庫があるか見てみよう。</text>
+	</string>
+	<string id="armor_exchange_light">
+		<text>軽装スーツ%c[d_orange] [5,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_medium">
+		<text>中装スーツ%c[d_orange] [10,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_specops">
+		<text>特殊部隊のスーツ%c[d_orange] [25,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_sci">
+		<text>科学者のスーツ%c[d_orange] [15,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_skat">
+		<text>Skat-9スーツ%c[d_orange] [25,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_exolight">
+		<text>エグゾスーツ%c[d_orange] [30,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_exo">
+		<text>強化外骨格%c[d_orange] [45,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_noso">
+		<text>ノゾログ 強化外骨格%c[d_orange] [65,000ルーブル]</text>
+	</string>
+	<string id="armor_exchange_exit">
+		<text>やめておこう。</text>
+	</string>
+</string_table>

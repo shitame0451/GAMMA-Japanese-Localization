@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	Overwrites 'spas-12', 'spas12_custom', 'spas_nimble'
+-->
+	<string id="st_wpn_spas12_new">
+		<text>SPAS-12</text>
+	</string>
+	<string id="st_wpn_spas12_descr_new">
+		<text>ポンプアクションとセミオートの両方の射撃モードを備えたコンバットショットガンで、軍、法執行機関、戦術用途向けに設計された。特徴的な折り畳み式ストックと頑丈な構造により、近接戦闘からブリーチング作戦まで対応可能。攻撃的なデザインと高い汎用性から、ポップカルチャーや軍事の歴史において特に知名度の高いショットガンとなっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イタリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Franchi\n
+		</text>
+	</string>
+
+</string_table>

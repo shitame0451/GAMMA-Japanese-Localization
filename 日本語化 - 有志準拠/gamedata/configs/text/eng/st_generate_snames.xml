@@ -1,0 +1,6996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="lname_private_0">
+    <text>アブドゥラフマノフ</text>
+  </string>
+  <string id="lname_private_1">
+    <text>アブドゥルマノフ</text>
+  </string>
+  <string id="lname_private_2">
+    <text>アルティニック</text>
+  </string>
+  <string id="lname_private_3">
+    <text>アンドレイチュク</text>
+  </string>
+  <string id="lname_private_4">
+    <text>アンドルスチェンコ</text>
+  </string>
+  <string id="lname_private_5">
+    <text>アニセイエフ</text>
+  </string>
+  <string id="lname_private_6">
+    <text>アニシエフ</text>
+  </string>
+  <string id="lname_private_7">
+    <text>アンダシェフ</text>
+  </string>
+  <string id="lname_private_8">
+    <text>バビチ</text>
+  </string>
+  <string id="lname_private_9">
+    <text>バラン</text>
+  </string>
+  <string id="lname_private_10">
+    <text>バラノフ</text>
+  </string>
+  <string id="lname_private_11">
+    <text>バラノフスキー</text>
+  </string>
+  <string id="lname_private_12">
+    <text>バルサック</text>
+  </string>
+  <string id="lname_private_13">
+    <text>バシャコフ</text>
+  </string>
+  <string id="lname_private_14">
+    <text>バシュマコフ</text>
+  </string>
+  <string id="lname_private_15">
+    <text>バウル</text>
+  </string>
+  <string id="lname_private_16">
+    <text>ベシェヴリィ</text>
+  </string>
+  <string id="lname_private_17">
+    <text>ベシェヴリ</text>
+  </string>
+  <string id="lname_private_18">
+    <text>ビノエフ</text>
+  </string>
+  <string id="lname_private_19">
+    <text>ビノイエフ</text>
+  </string>
+  <string id="lname_private_20">
+    <text>ブリノフ</text>
+  </string>
+  <string id="lname_private_21">
+    <text>ボブロフ</text>
+  </string>
+  <string id="lname_private_22">
+    <text>ボグダノフ</text>
+  </string>
+  <string id="lname_private_23">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_private_24">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_private_25">
+    <text>ボルドスクル</text>
+  </string>
+  <string id="lname_private_26">
+    <text>ボンダレフ</text>
+  </string>
+  <string id="lname_private_27">
+    <text>ボリソフ</text>
+  </string>
+  <string id="lname_private_28">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_private_29">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_private_30">
+    <text>ブリチ</text>
+  </string>
+  <string id="lname_private_31">
+    <text>ブロンシュテイン</text>
+  </string>
+  <string id="lname_private_32">
+    <text>ブリャク</text>
+  </string>
+  <string id="lname_private_33">
+    <text>ブトゥリン</text>
+  </string>
+  <string id="lname_private_34">
+    <text>ビャロ</text>
+  </string>
+  <string id="lname_private_35">
+    <text>デニセンコ</text>
+  </string>
+  <string id="lname_private_36">
+    <text>ドムブリク</text>
+  </string>
+  <string id="lname_private_37">
+    <text>ドツェンコ</text>
+  </string>
+  <string id="lname_private_38">
+    <text>ドヴガリュク</text>
+  </string>
+  <string id="lname_private_39">
+    <text>ドロズドゥシュ</text>
+  </string>
+  <string id="lname_private_40">
+    <text>ドゥベンチュク</text>
+  </string>
+  <string id="lname_private_41">
+    <text>ドゥドロフ</text>
+  </string>
+  <string id="lname_private_42">
+    <text>ドゥカ</text>
+  </string>
+  <string id="lname_private_43">
+    <text>ドゥムコ</text>
+  </string>
+  <string id="lname_private_44">
+    <text>ドゥナーエフ</text>
+  </string>
+  <string id="lname_private_45">
+    <text>ドゥナイエフ</text>
+  </string>
+  <string id="lname_private_46">
+    <text>ディクロフ</text>
+  </string>
+  <string id="lname_private_47">
+    <text>エフレモフ</text>
+  </string>
+  <string id="lname_private_48">
+    <text>エロフェーエフ</text>
+  </string>
+  <string id="lname_private_49">
+    <text>エロフェイエフ</text>
+  </string>
+  <string id="lname_private_50">
+    <text>フツィン</text>
+  </string>
+  <string id="lname_private_51">
+    <text>ガルキン</text>
+  </string>
+  <string id="lname_private_52">
+    <text>ガンジュク</text>
+  </string>
+  <string id="lname_private_53">
+    <text>ガルコヴェンコ</text>
+  </string>
+  <string id="lname_private_54">
+    <text>ガルクーシャ</text>
+  </string>
+  <string id="lname_private_55">
+    <text>ガチュラ</text>
+  </string>
+  <string id="lname_private_56">
+    <text>ガツラ</text>
+  </string>
+  <string id="lname_private_57">
+    <text>ゲオルゴフ</text>
+  </string>
+  <string id="lname_private_58">
+    <text>グレボフスキー</text>
+  </string>
+  <string id="lname_private_59">
+    <text>グナチュク</text>
+  </string>
+  <string id="lname_private_60">
+    <text>ゴンチャレンコ</text>
+  </string>
+  <string id="lname_private_61">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_private_62">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_private_63">
+    <text>ゴルレヴォイ</text>
+  </string>
+  <string id="lname_private_64">
+    <text>ゴロヒン</text>
+  </string>
+  <string id="lname_private_65">
+    <text>ゴローヒン</text>
+  </string>
+  <string id="lname_private_66">
+    <text>ゴリューノフ</text>
+  </string>
+  <string id="lname_private_67">
+    <text>グレイ</text>
+  </string>
+  <string id="lname_private_68">
+    <text>グレベンコ</text>
+  </string>
+  <string id="lname_private_69">
+    <text>グレベニュク</text>
+  </string>
+  <string id="lname_private_70">
+    <text>グリスチュク</text>
+  </string>
+  <string id="lname_private_71">
+    <text>グリシャチェフ</text>
+  </string>
+  <string id="lname_private_72">
+    <text>グリツセイ</text>
+  </string>
+  <string id="lname_private_73">
+    <text>グリツサイエンコ</text>
+  </string>
+  <string id="lname_private_74">
+    <text>グリツセンコ</text>
+  </string>
+  <string id="lname_private_75">
+    <text>グリツァエンコ</text>
+  </string>
+  <string id="lname_private_76">
+    <text>グリツァイ</text>
+  </string>
+  <string id="lname_private_77">
+    <text>グリツェンコフ</text>
+  </string>
+  <string id="lname_private_78">
+    <text>グバル</text>
+  </string>
+  <string id="lname_private_79">
+    <text>グンコ</text>
+  </string>
+  <string id="lname_private_80">
+    <text>グレヴィチ</text>
+  </string>
+  <string id="lname_private_81">
+    <text>イグナテンコ</text>
+  </string>
+  <string id="lname_private_82">
+    <text>イシューク</text>
+  </string>
+  <string id="lname_private_83">
+    <text>イワノフ</text>
+  </string>
+  <string id="lname_private_84">
+    <text>イゼンコ</text>
+  </string>
+  <string id="lname_private_85">
+    <text>カンディバブコ</text>
+  </string>
+  <string id="lname_private_86">
+    <text>カプーカ</text>
+  </string>
+  <string id="lname_private_87">
+    <text>カプスチャンコ</text>
+  </string>
+  <string id="lname_private_88">
+    <text>カツ</text>
+  </string>
+  <string id="lname_private_89">
+    <text>カザコフ</text>
+  </string>
+  <string id="lname_private_90">
+    <text>カザントセフ</text>
+  </string>
+  <string id="lname_private_91">
+    <text>ハラジェ</text>
+  </string>
+  <string id="lname_private_92">
+    <text>キカビゼ</text>
+  </string>
+  <string id="lname_private_93">
+    <text>キレーエフ</text>
+  </string>
+  <string id="lname_private_94">
+    <text>キレイエフ</text>
+  </string>
+  <string id="lname_private_95">
+    <text>クリメンコ</text>
+  </string>
+  <string id="lname_private_96">
+    <text>コエフ</text>
+  </string>
+  <string id="lname_private_97">
+    <text>コロンタル</text>
+  </string>
+  <string id="lname_private_98">
+    <text>コロンタレフ</text>
+  </string>
+  <string id="lname_private_99">
+    <text>コンドラテンコ</text>
+  </string>
+  <string id="lname_private_100">
+    <text>コルキン</text>
+  </string>
+  <string id="lname_private_101">
+    <text>コルネーエフ</text>
+  </string>
+  <string id="lname_private_102">
+    <text>コルネイエフ</text>
+  </string>
+  <string id="lname_private_103">
+    <text>コバルチェク</text>
+  </string>
+  <string id="lname_private_104">
+    <text>コエフ</text>
+  </string>
+  <string id="lname_private_105">
+    <text>コズロフ</text>
+  </string>
+  <string id="lname_private_106">
+    <text>クラブチェンコ</text>
+  </string>
+  <string id="lname_private_107">
+    <text>クリヴダ</text>
+  </string>
+  <string id="lname_private_108">
+    <text>クリヴォハツキー</text>
+  </string>
+  <string id="lname_private_109">
+    <text>クリヴォハツキー</text>
+  </string>
+  <string id="lname_private_110">
+    <text>クリガ</text>
+  </string>
+  <string id="lname_private_111">
+    <text>クチェルク</text>
+  </string>
+  <string id="lname_private_112">
+    <text>クルチストキー</text>
+  </string>
+  <string id="lname_private_113">
+    <text>クルチツキー</text>
+  </string>
+  <string id="lname_private_114">
+    <text>クンツェフ</text>
+  </string>
+  <string id="lname_private_115">
+    <text>クルヴィッツ</text>
+  </string>
+  <string id="lname_private_116">
+    <text>クルヴィッツ</text>
+  </string>
+  <string id="lname_private_117">
+    <text>クシュナレフ</text>
+  </string>
+  <string id="lname_private_118">
+    <text>クシュナリョフ</text>
+  </string>
+  <string id="lname_private_119">
+    <text>クズミッチ</text>
+  </string>
+  <string id="lname_private_120">
+    <text>クズネツォフ</text>
+  </string>
+  <string id="lname_private_121">
+    <text>クジャキン</text>
+  </string>
+  <string id="lname_private_122">
+    <text>ラヴリク</text>
+  </string>
+  <string id="lname_private_123">
+    <text>ラヴロフ</text>
+  </string>
+  <string id="lname_private_124">
+    <text>リシチャンスキー</text>
+  </string>
+  <string id="lname_private_125">
+    <text>リトゥヴィン</text>
+  </string>
+  <string id="lname_private_126">
+    <text>リヴシツ</text>
+  </string>
+  <string id="lname_private_127">
+    <text>リマレンコ</text>
+  </string>
+  <string id="lname_private_128">
+    <text>マカレンコ</text>
+  </string>
+  <string id="lname_private_129">
+    <text>マルツェフ</text>
+  </string>
+  <string id="lname_private_130">
+    <text>ママエフ</text>
+  </string>
+  <string id="lname_private_131">
+    <text>ママイエフ</text>
+  </string>
+  <string id="lname_private_132">
+    <text>マゼパ</text>
+  </string>
+  <string id="lname_private_133">
+    <text>メルズラエフ</text>
+  </string>
+  <string id="lname_private_134">
+    <text>メルツリヤエフ</text>
+  </string>
+  <string id="lname_private_135">
+    <text>ミチェンコ</text>
+  </string>
+  <string id="lname_private_136">
+    <text>ミロニュク</text>
+  </string>
+  <string id="lname_private_137">
+    <text>モーラー</text>
+  </string>
+  <string id="lname_private_138">
+    <text>モレル</text>
+  </string>
+  <string id="lname_private_139">
+    <text>モロゾフ</text>
+  </string>
+  <string id="lname_private_140">
+    <text>モストヴォイ</text>
+  </string>
+  <string id="lname_private_141">
+    <text>モストヴォイ</text>
+  </string>
+  <string id="lname_private_142">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_private_143">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_private_144">
+    <text>ムンチャン</text>
+  </string>
+  <string id="lname_private_145">
+    <text>ミスコフ</text>
+  </string>
+  <string id="lname_private_146">
+    <text>ナヴロツキー</text>
+  </string>
+  <string id="lname_private_147">
+    <text>ネプリツキー</text>
+  </string>
+  <string id="lname_private_148">
+    <text>ニカノロフ</text>
+  </string>
+  <string id="lname_private_149">
+    <text>ニケシン</text>
+  </string>
+  <string id="lname_private_150">
+    <text>ニクリン</text>
+  </string>
+  <string id="lname_private_151">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_private_152">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_private_153">
+    <text>ノサン</text>
+  </string>
+  <string id="lname_private_154">
+    <text>オポレフ</text>
+  </string>
+  <string id="lname_private_155">
+    <text>オルレヴィッチ</text>
+  </string>
+  <string id="lname_private_156">
+    <text>オルロフ</text>
+  </string>
+  <string id="lname_private_157">
+    <text>ペトケヴィッチ</text>
+  </string>
+  <string id="lname_private_158">
+    <text>ペトレンコ</text>
+  </string>
+  <string id="lname_private_159">
+    <text>ペトロフ</text>
+  </string>
+  <string id="lname_private_160">
+    <text>プロヘンコ</text>
+  </string>
+  <string id="lname_private_161">
+    <text>プロヘンコ</text>
+  </string>
+  <string id="lname_private_162">
+    <text>ポジャチェフ</text>
+  </string>
+  <string id="lname_private_163">
+    <text>ポリアニン</text>
+  </string>
+  <string id="lname_private_164">
+    <text>ポプラフスキー</text>
+  </string>
+  <string id="lname_private_165">
+    <text>ポポフ</text>
+  </string>
+  <string id="lname_private_166">
+    <text>ポルテニフ</text>
+  </string>
+  <string id="lname_private_167">
+    <text>ポルトニーフ</text>
+  </string>
+  <string id="lname_private_168">
+    <text>プラソロフ</text>
+  </string>
+  <string id="lname_private_169">
+    <text>プロコペンコ</text>
+  </string>
+  <string id="lname_private_170">
+    <text>プロスクリン</text>
+  </string>
+  <string id="lname_private_171">
+    <text>プロトセンコ</text>
+  </string>
+  <string id="lname_private_172">
+    <text>プリュドフ</text>
+  </string>
+  <string id="lname_private_173">
+    <text>プチェク</text>
+  </string>
+  <string id="lname_private_174">
+    <text>プストヴァル</text>
+  </string>
+  <string id="lname_private_175">
+    <text>ラビノヴィッチ</text>
+  </string>
+  <string id="lname_private_176">
+    <text>ラドケヴィッチ</text>
+  </string>
+  <string id="lname_private_177">
+    <text>レズン</text>
+  </string>
+  <string id="lname_private_178">
+    <text>ロドニャンスキー</text>
+  </string>
+  <string id="lname_private_179">
+    <text>ロゴザ</text>
+  </string>
+  <string id="lname_private_180">
+    <text>ロタン</text>
+  </string>
+  <string id="lname_private_181">
+    <text>ルブレフ</text>
+  </string>
+  <string id="lname_private_182">
+    <text>ルディク</text>
+  </string>
+  <string id="lname_private_183">
+    <text>ルサノフ</text>
+  </string>
+  <string id="lname_private_184">
+    <text>リチャギルスキー</text>
+  </string>
+  <string id="lname_private_185">
+    <text>サギトフ</text>
+  </string>
+  <string id="lname_private_186">
+    <text>サブチェンコ</text>
+  </string>
+  <string id="lname_private_187">
+    <text>サヴチュク</text>
+  </string>
+  <string id="lname_private_188">
+    <text>シェルビン</text>
+  </string>
+  <string id="lname_private_189">
+    <text>セジフ</text>
+  </string>
+  <string id="lname_private_190">
+    <text>セディック</text>
+  </string>
+  <string id="lname_private_191">
+    <text>セレダ</text>
+  </string>
+  <string id="lname_private_192">
+    <text>シドレンコ</text>
+  </string>
+  <string id="lname_private_193">
+    <text>シドロフ</text>
+  </string>
+  <string id="lname_private_194">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_private_195">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_private_196">
+    <text>シニイ</text>
+  </string>
+  <string id="lname_private_197">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_private_198">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_private_199">
+    <text>スルツキー</text>
+  </string>
+  <string id="lname_private_200">
+    <text>スメロフ</text>
+  </string>
+  <string id="lname_private_201">
+    <text>スモリイ</text>
+  </string>
+  <string id="lname_private_202">
+    <text>スモリ</text>
+  </string>
+  <string id="lname_private_203">
+    <text>ソロキン</text>
+  </string>
+  <string id="lname_private_204">
+    <text>スタトシュラ</text>
+  </string>
+  <string id="lname_private_205">
+    <text>スタッツィーラ</text>
+  </string>
+  <string id="lname_private_206">
+    <text>ステプチン</text>
+  </string>
+  <string id="lname_private_207">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_private_208">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_private_209">
+    <text>スヴィリドフ</text>
+  </string>
+  <string id="lname_private_210">
+    <text>シクラ</text>
+  </string>
+  <string id="lname_private_211">
+    <text>タルナヴスキー</text>
+  </string>
+  <string id="lname_private_212">
+    <text>タタルチュク</text>
+  </string>
+  <string id="lname_private_213">
+    <text>ティムチュク</text>
+  </string>
+  <string id="lname_private_214">
+    <text>ヴァレンティノフ</text>
+  </string>
+  <string id="lname_private_215">
+    <text>ヴァシリエフ</text>
+  </string>
+  <string id="lname_private_216">
+    <text>ヴァセロフ</text>
+  </string>
+  <string id="lname_private_217">
+    <text>ヴィノグラドフ</text>
+  </string>
+  <string id="lname_private_218">
+    <text>ヴォランチュク</text>
+  </string>
+  <string id="lname_private_219">
+    <text>ヴォロダル</text>
+  </string>
+  <string id="lname_private_220">
+    <text>ヴォロシン</text>
+  </string>
+  <string id="lname_private_221">
+    <text>ヴォロハイエフ</text>
+  </string>
+  <string id="lname_private_222">
+    <text>ヴォロカエフ</text>
+  </string>
+  <string id="lname_private_223">
+    <text>ヴォロントソフ</text>
+  </string>
+  <string id="lname_private_224">
+    <text>ヴォヴネンコ</text>
+  </string>
+  <string id="lname_private_225">
+    <text>ブリュシンスキー</text>
+  </string>
+  <string id="lname_private_226">
+    <text>ザビヤゴラ</text>
+  </string>
+  <string id="lname_private_227">
+    <text>ザビヤゴダ</text>
+  </string>
+  <string id="lname_private_228">
+    <text>ザゴロドュニュク</text>
+  </string>
+  <string id="lname_private_229">
+    <text>ザハリン</text>
+  </string>
+  <string id="lname_private_230">
+    <text>ザクハリン</text>
+  </string>
+  <string id="lname_private_231">
+    <text>ザモセンチュク</text>
+  </string>
+  <string id="lname_private_232">
+    <text>ザルビン</text>
+  </string>
+  <string id="lname_private_233">
+    <text>ザベンコ</text>
+  </string>
+  <string id="lname_private_234">
+    <text>ズミイエフ</text>
+  </string>
+  <string id="lname_private_235">
+    <text>ジュミーエフ</text>
+  </string>
+  <string id="lname_private_236">
+    <text>ズラコフスキー</text>
+  </string>
+  <string id="lname_private_237">
+    <text>ジノビエフ</text>
+  </string>
+  <string id="lname_private_238">
+    <text>ゾロタール</text>
+  </string>
+  <string id="lname_private_239">
+    <text>ゾノヴイエフ</text>
+  </string>
+  <string id="lname_private_240">
+    <text>ゾゾ</text>
+  </string>
+  <string id="lname_private_241">
+    <text>ズバレフ</text>
+  </string>
+  <string id="lname_private_242">
+    <text>ズブコフ</text>
+  </string>
+  <string id="lname_private_243">
+    <text>ズヴォニツキー</text>
+  </string>
+  <string id="lname_stalker_0">
+    <text>アブジェクト</text>
+  </string>
+  <string id="lname_stalker_1">
+    <text>アブソルート</text>
+  </string>
+  <string id="lname_stalker_2">
+    <text>アコーディオン</text>
+  </string>
+  <string id="lname_stalker_3">
+    <text>アカウンタント</text>
+  </string>
+  <string id="lname_stalker_4">
+    <text>エース</text>
+  </string>
+  <string id="lname_stalker_5">
+    <text>アックアック</text>
+  </string>
+  <string id="lname_stalker_6">
+    <text>エステート</text>
+  </string>
+  <string id="lname_stalker_7">
+    <text>エージェント</text>
+  </string>
+  <string id="lname_stalker_8">
+    <text>アラート</text>
+  </string>
+  <string id="lname_stalker_9">
+    <text>アリゲーター</text>
+  </string>
+  <string id="lname_stalker_10">
+    <text>アンバサダー</text>
+  </string>
+  <string id="lname_stalker_11">
+    <text>アナコンダ</text>
+  </string>
+  <string id="lname_stalker_12">
+    <text>アノマリー</text>
+  </string>
+  <string id="lname_stalker_13">
+    <text>アント</text>
+  </string>
+  <string id="lname_stalker_14">
+    <text>アンテロープ</text>
+  </string>
+  <string id="lname_stalker_15">
+    <text>アンチエア</text>
+  </string>
+  <string id="lname_stalker_16">
+    <text>アポストル</text>
+  </string>
+  <string id="lname_stalker_17">
+    <text>アーモラー</text>
+  </string>
+  <string id="lname_stalker_18">
+    <text>アーソニスト</text>
+  </string>
+  <string id="lname_stalker_19">
+    <text>アーティスト</text>
+  </string>
+  <string id="lname_stalker_20">
+    <text>アッセティク</text>
+  </string>
+  <string id="lname_stalker_21">
+    <text>アスピック</text>
+  </string>
+  <string id="lname_stalker_22">
+    <text>アスリート</text>
+  </string>
+  <string id="lname_stalker_23">
+    <text>アトロス</text>
+  </string>
+  <string id="lname_stalker_24">
+    <text>アトーニー</text>
+  </string>
+  <string id="lname_stalker_25">
+    <text>アローク</text>
+  </string>
+  <string id="lname_stalker_26">
+    <text>オーロックス</text>
+  </string>
+  <string id="lname_stalker_27">
+    <text>アヴィエーター</text>
+  </string>
+  <string id="lname_stalker_28">
+    <text>アール</text>
+  </string>
+  <string id="lname_stalker_29">
+    <text>アックス</text>
+  </string>
+  <string id="lname_stalker_30">
+    <text>バブラー</text>
+  </string>
+  <string id="lname_stalker_31">
+    <text>バブーン</text>
+  </string>
+  <string id="lname_stalker_32">
+    <text>バックボーン</text>
+  </string>
+  <string id="lname_stalker_33">
+    <text>ベイゲル</text>
+  </string>
+  <string id="lname_stalker_34">
+    <text>バルディ</text>
+  </string>
+  <string id="lname_stalker_35">
+    <text>バナナ</text>
+  </string>
+  <string id="lname_stalker_36">
+    <text>バンカー</text>
+  </string>
+  <string id="lname_stalker_37">
+    <text>バラバスカ</text>
+  </string>
+  <string id="lname_stalker_38">
+    <text>バーバリアン</text>
+  </string>
+  <string id="lname_stalker_39">
+    <text>バード</text>
+  </string>
+  <string id="lname_stalker_40">
+    <text>バーマリー</text>
+  </string>
+  <string id="lname_stalker_41">
+    <text>バロン</text>
+  </string>
+  <string id="lname_stalker_42">
+    <text>バレル</text>
+  </string>
+  <string id="lname_stalker_43">
+    <text>バティ</text>
+  </string>
+  <string id="lname_stalker_44">
+    <text>バトン</text>
+  </string>
+  <string id="lname_stalker_45">
+    <text>バイオネット</text>
+  </string>
+  <string id="lname_stalker_46">
+    <text>ビーンカウンター</text>
+  </string>
+  <string id="lname_stalker_47">
+    <text>ビーンポール</text>
+  </string>
+  <string id="lname_stalker_48">
+    <text>ベア</text>
+  </string>
+  <string id="lname_stalker_49">
+    <text>ビースト</text>
+  </string>
+  <string id="lname_stalker_50">
+    <text>ビートゥン</text>
+  </string>
+  <string id="lname_stalker_51">
+    <text>ビーバー</text>
+  </string>
+  <string id="lname_stalker_52">
+    <text>ベッドバグ</text>
+  </string>
+  <string id="lname_stalker_53">
+    <text>ビーキーパー</text>
+  </string>
+  <string id="lname_stalker_54">
+    <text>ビートル</text>
+  </string>
+  <string id="lname_stalker_55">
+    <text>ベリー</text>
+  </string>
+  <string id="lname_stalker_56">
+    <text>ベルセルク</text>
+  </string>
+  <string id="lname_stalker_57">
+    <text>ビッグフェロー</text>
+  </string>
+  <string id="lname_stalker_58">
+    <text>ビッグアイ</text>
+  </string>
+  <string id="lname_stalker_59">
+    <text>ビッグタイム</text>
+  </string>
+  <string id="lname_stalker_60">
+    <text>ビスケット</text>
+  </string>
+  <string id="lname_stalker_61">
+    <text>バイソン</text>
+  </string>
+  <string id="lname_stalker_62">
+    <text>ビター</text>
+  </string>
+  <string id="lname_stalker_63">
+    <text>ブラック</text>
+  </string>
+  <string id="lname_stalker_64">
+    <text>ブレスト</text>
+  </string>
+  <string id="lname_stalker_65">
+    <text>ブライター</text>
+  </string>
+  <string id="lname_stalker_66">
+    <text>ブリンプ</text>
+  </string>
+  <string id="lname_stalker_67">
+    <text>ブラインド</text>
+  </string>
+  <string id="lname_stalker_68">
+    <text>ブリングブリング</text>
+  </string>
+  <string id="lname_stalker_69">
+    <text>ブライズ</text>
+  </string>
+  <string id="lname_stalker_70">
+    <text>ブロック</text>
+  </string>
+  <string id="lname_stalker_71">
+    <text>ボア</text>
+  </string>
+  <string id="lname_stalker_72">
+    <text>ボア</text>
+  </string>
+  <string id="lname_stalker_73">
+    <text>ボーツワイン</text>
+  </string>
+  <string id="lname_stalker_74">
+    <text>ボルト</text>
+  </string>
+  <string id="lname_stalker_75">
+    <text>ボナパルト</text>
+  </string>
+  <string id="lname_stalker_76">
+    <text>ボーン</text>
+  </string>
+  <string id="lname_stalker_77">
+    <text>ボニィ</text>
+  </string>
+  <string id="lname_stalker_78">
+    <text>ブート</text>
+  </string>
+  <string id="lname_stalker_79">
+    <text>ブーズ</text>
+  </string>
+  <string id="lname_stalker_80">
+    <text>ボア</text>
+  </string>
+  <string id="lname_stalker_81">
+    <text>ボス</text>
+  </string>
+  <string id="lname_stalker_82">
+    <text>ボッスン</text>
+  </string>
+  <string id="lname_stalker_83">
+    <text>ボールダー</text>
+  </string>
+  <string id="lname_stalker_84">
+    <text>バーボン</text>
+  </string>
+  <string id="lname_stalker_85">
+    <text>バージィアス</text>
+  </string>
+  <string id="lname_stalker_86">
+    <text>ボウレッグド</text>
+  </string>
+  <string id="lname_stalker_87">
+    <text>ブレイニアック</text>
+  </string>
+  <string id="lname_stalker_88">
+    <text>ブレイブ</text>
+  </string>
+  <string id="lname_stalker_89">
+    <text>ブレイニー</text>
+  </string>
+  <string id="lname_stalker_90">
+    <text>ブレーク</text>
+  </string>
+  <string id="lname_stalker_91">
+    <text>ブリーチ</text>
+  </string>
+  <string id="lname_stalker_92">
+    <text>ブリーダー</text>
+  </string>
+  <string id="lname_stalker_93">
+    <text>ブリック</text>
+  </string>
+  <string id="lname_stalker_94">
+    <text>ブリガンド</text>
+  </string>
+  <string id="lname_stalker_95">
+    <text>ブロークン</text>
+  </string>
+  <string id="lname_stalker_96">
+    <text>ブラウンノーズ</text>
+  </string>
+  <string id="lname_stalker_97">
+    <text>ブラウニー</text>
+  </string>
+  <string id="lname_stalker_98">
+    <text>ブルーズ</text>
+  </string>
+  <string id="lname_stalker_99">
+    <text>バブル</text>
+  </string>
+  <string id="lname_stalker_100">
+    <text>バディ</text>
+  </string>
+  <string id="lname_stalker_101">
+    <text>バッファロー</text>
+  </string>
+  <string id="lname_stalker_102">
+    <text>バッファ</text>
+  </string>
+  <string id="lname_stalker_103">
+    <text>ブフォーン</text>
+  </string>
+  <string id="lname_stalker_104">
+    <text>バグ</text>
+  </string>
+  <string id="lname_stalker_105">
+    <text>バグアイドゥ</text>
+  </string>
+  <string id="lname_stalker_106">
+    <text>バールキン</text>
+  </string>
+  <string id="lname_stalker_107">
+    <text>ブル</text>
+  </string>
+  <string id="lname_stalker_108">
+    <text>ブルドッグ</text>
+  </string>
+  <string id="lname_stalker_109">
+    <text>ブルドーザー</text>
+  </string>
+  <string id="lname_stalker_110">
+    <text>ブリー</text>
+  </string>
+  <string id="lname_stalker_111">
+    <text>バム</text>
+  </string>
+  <string id="lname_stalker_112">
+    <text>バーマー</text>
+  </string>
+  <string id="lname_stalker_113">
+    <text>バンパー</text>
+  </string>
+  <string id="lname_stalker_114">
+    <text>バンドル</text>
+  </string>
+  <string id="lname_stalker_115">
+    <text>ビューワクラット</text>
+  </string>
+  <string id="lname_stalker_116">
+    <text>バーント</text>
+  </string>
+  <string id="lname_stalker_117">
+    <text>バリ</text>
+  </string>
+  <string id="lname_stalker_118">
+    <text>ブッシュ</text>
+  </string>
+  <string id="lname_stalker_119">
+    <text>ブッシュワッカー</text>
+  </string>
+  <string id="lname_stalker_120">
+    <text>バスタード</text>
+  </string>
+  <string id="lname_stalker_121">
+    <text>ビジーボディ</text>
+  </string>
+  <string id="lname_stalker_122">
+    <text>ブッチャー</text>
+  </string>
+  <string id="lname_stalker_123">
+    <text>バト</text>
+  </string>
+  <string id="lname_stalker_124">
+    <text>バターフィンガー</text>
+  </string>
+  <string id="lname_stalker_125">
+    <text>バターズ</text>
+  </string>
+  <string id="lname_stalker_126">
+    <text>キャベッジ</text>
+  </string>
+  <string id="lname_stalker_127">
+    <text>キャビー</text>
+  </string>
+  <string id="lname_stalker_128">
+    <text>カデット</text>
+  </string>
+  <string id="lname_stalker_129">
+    <text>カエサル</text>
+  </string>
+  <string id="lname_stalker_130">
+    <text>カナリー</text>
+  </string>
+  <string id="lname_stalker_131">
+    <text>キャップ</text>
+  </string>
+  <string id="lname_stalker_132">
+    <text>キャピタル</text>
+  </string>
+  <string id="lname_stalker_133">
+    <text>カーバイド</text>
+  </string>
+  <string id="lname_stalker_134">
+    <text>カーボン</text>
+  </string>
+  <string id="lname_stalker_135">
+    <text>カルダン</text>
+  </string>
+  <string id="lname_stalker_136">
+    <text>カープ</text>
+  </string>
+  <string id="lname_stalker_137">
+    <text>カーペンター</text>
+  </string>
+  <string id="lname_stalker_138">
+    <text>キャリアー</text>
+  </string>
+  <string id="lname_stalker_139">
+    <text>カートリッジ</text>
+  </string>
+  <string id="lname_stalker_140">
+    <text>カサノヴァ</text>
+  </string>
+  <string id="lname_stalker_141">
+    <text>キャット</text>
+  </string>
+  <string id="lname_stalker_142">
+    <text>ケーヴマン</text>
+  </string>
+  <string id="lname_stalker_143">
+    <text>チャンプ</text>
+  </string>
+  <string id="lname_stalker_144">
+    <text>チャンス</text>
+  </string>
+  <string id="lname_stalker_145">
+    <text>チャパエフ</text>
+  </string>
+  <string id="lname_stalker_146">
+    <text>チャパイ</text>
+  </string>
+  <string id="lname_stalker_147">
+    <text>チャパイ</text>
+  </string>
+  <string id="lname_stalker_148">
+    <text>チャパエフ</text>
+  </string>
+  <string id="lname_stalker_149">
+    <text>チャコール</text>
+  </string>
+  <string id="lname_stalker_150">
+    <text>ショウファー</text>
+  </string>
+  <string id="lname_stalker_151">
+    <text>チート</text>
+  </string>
+  <string id="lname_stalker_152">
+    <text>チェブル</text>
+  </string>
+  <string id="lname_stalker_153">
+    <text>チェブラスカ</text>
+  </string>
+  <string id="lname_stalker_154">
+    <text>ケミスト</text>
+  </string>
+  <string id="lname_stalker_155">
+    <text>チェスト</text>
+  </string>
+  <string id="lname_stalker_156">
+    <text>チーフ</text>
+  </string>
+  <string id="lname_stalker_157">
+    <text>チリ</text>
+  </string>
+  <string id="lname_stalker_158">
+    <text>チル</text>
+  </string>
+  <string id="lname_stalker_159">
+    <text>チリー</text>
+  </string>
+  <string id="lname_stalker_160">
+    <text>チムニィスイープ</text>
+  </string>
+  <string id="lname_stalker_161">
+    <text>チンガチグック</text>
+  </string>
+  <string id="lname_stalker_162">
+    <text>チンガチュック</text>
+  </string>
+  <string id="lname_stalker_163">
+    <text>チップムンク</text>
+  </string>
+  <string id="lname_stalker_164">
+    <text>チーゼル</text>
+  </string>
+  <string id="lname_stalker_165">
+    <text>チョーカー</text>
+  </string>
+  <string id="lname_stalker_166">
+    <text>チョッパー</text>
+  </string>
+  <string id="lname_stalker_167">
+    <text>クロニク</text>
+  </string>
+  <string id="lname_stalker_168">
+    <text>チュッカー</text>
+  </string>
+  <string id="lname_stalker_169">
+    <text>サイダー</text>
+  </string>
+  <string id="lname_stalker_170">
+    <text>クロー</text>
+  </string>
+  <string id="lname_stalker_171">
+    <text>クリーナー</text>
+  </string>
+  <string id="lname_stalker_172">
+    <text>クローゼット</text>
+  </string>
+  <string id="lname_stalker_173">
+    <text>クラウン</text>
+  </string>
+  <string id="lname_stalker_174">
+    <text>クラムジー</text>
+  </string>
+  <string id="lname_stalker_175">
+    <text>コーチ</text>
+  </string>
+  <string id="lname_stalker_176">
+    <text>コーチマン</text>
+  </string>
+  <string id="lname_stalker_177">
+    <text>コールマイナー</text>
+  </string>
+  <string id="lname_stalker_178">
+    <text>コブラ</text>
+  </string>
+  <string id="lname_stalker_179">
+    <text>コックローチ</text>
+  </string>
+  <string id="lname_stalker_180">
+    <text>コフィン</text>
+  </string>
+  <string id="lname_stalker_181">
+    <text>コニャック</text>
+  </string>
+  <string id="lname_stalker_182">
+    <text>カラー</text>
+  </string>
+  <string id="lname_stalker_183">
+    <text>カーネル</text>
+  </string>
+  <string id="lname_stalker_184">
+    <text>コマ</text>
+  </string>
+  <string id="lname_stalker_185">
+    <text>コマンチ</text>
+  </string>
+  <string id="lname_stalker_186">
+    <text>コマトウス</text>
+  </string>
+  <string id="lname_stalker_187">
+    <text>コーム</text>
+  </string>
+  <string id="lname_stalker_188">
+    <text>コマンドーレ</text>
+  </string>
+  <string id="lname_stalker_189">
+    <text>コンマン</text>
+  </string>
+  <string id="lname_stalker_190">
+    <text>カノサー</text>
+  </string>
+  <string id="lname_stalker_191">
+    <text>コンタクト</text>
+  </string>
+  <string id="lname_stalker_192">
+    <text>クック</text>
+  </string>
+  <string id="lname_stalker_193">
+    <text>コーナーカッター</text>
+  </string>
+  <string id="lname_stalker_194">
+    <text>コープス</text>
+  </string>
+  <string id="lname_stalker_195">
+    <text>コスモス</text>
+  </string>
+  <string id="lname_stalker_196">
+    <text>コサック</text>
+  </string>
+  <string id="lname_stalker_197">
+    <text>コッテージャー</text>
+  </string>
+  <string id="lname_stalker_198">
+    <text>カウンセラー</text>
+  </string>
+  <string id="lname_stalker_199">
+    <text>カウント</text>
+  </string>
+  <string id="lname_stalker_200">
+    <text>クーリェ</text>
+  </string>
+  <string id="lname_stalker_201">
+    <text>クラッカー</text>
+  </string>
+  <string id="lname_stalker_202">
+    <text>クランキー</text>
+  </string>
+  <string id="lname_stalker_203">
+    <text>クレスト</text>
+  </string>
+  <string id="lname_stalker_204">
+    <text>クリップル</text>
+  </string>
+  <string id="lname_stalker_205">
+    <text>クロク</text>
+  </string>
+  <string id="lname_stalker_206">
+    <text>クロコダイル</text>
+  </string>
+  <string id="lname_stalker_207">
+    <text>クロニー</text>
+  </string>
+  <string id="lname_stalker_208">
+    <text>クロックド</text>
+  </string>
+  <string id="lname_stalker_209">
+    <text>クロス</text>
+  </string>
+  <string id="lname_stalker_210">
+    <text>クロスアイ</text>
+  </string>
+  <string id="lname_stalker_211">
+    <text>クロースティ</text>
+  </string>
+  <string id="lname_stalker_212">
+    <text>クローバー</text>
+  </string>
+  <string id="lname_stalker_213">
+    <text>クルーシャン</text>
+  </string>
+  <string id="lname_stalker_214">
+    <text>クライベイビー</text>
+  </string>
+  <string id="lname_stalker_215">
+    <text>カーソル</text>
+  </string>
+  <string id="lname_stalker_216">
+    <text>カッター</text>
+  </string>
+  <string id="lname_stalker_217">
+    <text>シニック</text>
+  </string>
+  <string id="lname_stalker_218">
+    <text>ダッド</text>
+  </string>
+  <string id="lname_stalker_219">
+    <text>ダディ</text>
+  </string>
+  <string id="lname_stalker_220">
+    <text>ダンサー</text>
+  </string>
+  <string id="lname_stalker_221">
+    <text>ダンディ</text>
+  </string>
+  <string id="lname_stalker_222">
+    <text>デッド</text>
+  </string>
+  <string id="lname_stalker_223">
+    <text>デッドダック</text>
+  </string>
+  <string id="lname_stalker_224">
+    <text>デッドビート</text>
+  </string>
+  <string id="lname_stalker_225">
+    <text>ディーラー</text>
+  </string>
+  <string id="lname_stalker_226">
+    <text>デス</text>
+  </string>
+  <string id="lname_stalker_227">
+    <text>デバッター</text>
+  </string>
+  <string id="lname_stalker_228">
+    <text>デカデント</text>
+  </string>
+  <string id="lname_stalker_229">
+    <text>ディフェクター</text>
+  </string>
+  <string id="lname_stalker_230">
+    <text>デファンク</text>
+  </string>
+  <string id="lname_stalker_231">
+    <text>デグリー</text>
+  </string>
+  <string id="lname_stalker_232">
+    <text>デプティ</text>
+  </string>
+  <string id="lname_stalker_233">
+    <text>デザーター</text>
+  </string>
+  <string id="lname_stalker_234">
+    <text>デスポット</text>
+  </string>
+  <string id="lname_stalker_235">
+    <text>デクスター</text>
+  </string>
+  <string id="lname_stalker_236">
+    <text>ダイナソウ</text>
+  </string>
+  <string id="lname_stalker_237">
+    <text>ディプロマット</text>
+  </string>
+  <string id="lname_stalker_238">
+    <text>ディサイパル</text>
+  </string>
+  <string id="lname_stalker_239">
+    <text>ダイバー</text>
+  </string>
+  <string id="lname_stalker_240">
+    <text>ドク</text>
+  </string>
+  <string id="lname_stalker_241">
+    <text>ドーセント</text>
+  </string>
+  <string id="lname_stalker_242">
+    <text>ドック</text>
+  </string>
+  <string id="lname_stalker_243">
+    <text>ドクター</text>
+  </string>
+  <string id="lname_stalker_244">
+    <text>ドッグマン</text>
+  </string>
+  <string id="lname_stalker_245">
+    <text>ドリトル</text>
+  </string>
+  <string id="lname_stalker_246">
+    <text>ドルフィン</text>
+  </string>
+  <string id="lname_stalker_247">
+    <text>ドーク</text>
+  </string>
+  <string id="lname_stalker_248">
+    <text>ドウボイ</text>
+  </string>
+  <string id="lname_stalker_249">
+    <text>ドーナツ</text>
+  </string>
+  <string id="lname_stalker_250">
+    <text>ドラゴン</text>
+  </string>
+  <string id="lname_stalker_251">
+    <text>ドリル</text>
+  </string>
+  <string id="lname_stalker_252">
+    <text>ドリップ</text>
+  </string>
+  <string id="lname_stalker_253">
+    <text>ドライバー</text>
+  </string>
+  <string id="lname_stalker_254">
+    <text>ドラム</text>
+  </string>
+  <string id="lname_stalker_255">
+    <text>ドラマー</text>
+  </string>
+  <string id="lname_stalker_256">
+    <text>ドライ</text>
+  </string>
+  <string id="lname_stalker_257">
+    <text>デュード</text>
+  </string>
+  <string id="lname_stalker_258">
+    <text>デューク</text>
+  </string>
+  <string id="lname_stalker_259">
+    <text>ダミー</text>
+  </string>
+  <string id="lname_stalker_260">
+    <text>ダンプリング</text>
+  </string>
+  <string id="lname_stalker_261">
+    <text>ドゥレマー</text>
+  </string>
+  <string id="lname_stalker_262">
+    <text>ダイナマイト</text>
+  </string>
+  <string id="lname_stalker_263">
+    <text>イーグルアイドゥ</text>
+  </string>
+  <string id="lname_stalker_264">
+    <text>イアード</text>
+  </string>
+  <string id="lname_stalker_265">
+    <text>イアー</text>
+  </string>
+  <string id="lname_stalker_266">
+    <text>エルダー</text>
+  </string>
+  <string id="lname_stalker_267">
+    <text>エレクトリシアン</text>
+  </string>
+  <string id="lname_stalker_268">
+    <text>エレファント</text>
+  </string>
+  <string id="lname_stalker_269">
+    <text>エンジン</text>
+  </string>
+  <string id="lname_stalker_270">
+    <text>エプレット</text>
+  </string>
+  <string id="lname_stalker_271">
+    <text>エスニック</text>
+  </string>
+  <string id="lname_stalker_272">
+    <text>エクセキューショナー</text>
+  </string>
+  <string id="lname_stalker_273">
+    <text>エクスプローラー</text>
+  </string>
+  <string id="lname_stalker_274">
+    <text>ファクター</text>
+  </string>
+  <string id="lname_stalker_275">
+    <text>ファルコン</text>
+  </string>
+  <string id="lname_stalker_276">
+    <text>ファン</text>
+  </string>
+  <string id="lname_stalker_277">
+    <text>ファング</text>
+  </string>
+  <string id="lname_stalker_278">
+    <text>ファンタジスト</text>
+  </string>
+  <string id="lname_stalker_279">
+    <text>ファット</text>
+  </string>
+  <string id="lname_stalker_280">
+    <text>ファットソー</text>
+  </string>
+  <string id="lname_stalker_281">
+    <text>ファティ</text>
+  </string>
+  <string id="lname_stalker_282">
+    <text>フェイボリート</text>
+  </string>
+  <string id="lname_stalker_283">
+    <text>フェザー</text>
+  </string>
+  <string id="lname_stalker_284">
+    <text>フェレット</text>
+  </string>
+  <string id="lname_stalker_285">
+    <text>フィーンド</text>
+  </string>
+  <string id="lname_stalker_286">
+    <text>フィアス</text>
+  </string>
+  <string id="lname_stalker_287">
+    <text>ファイター</text>
+  </string>
+  <string id="lname_stalker_288">
+    <text>ファイアボール</text>
+  </string>
+  <string id="lname_stalker_289">
+    <text>ファイアーファイター</text>
+  </string>
+  <string id="lname_stalker_290">
+    <text>ファイアーマン</text>
+  </string>
+  <string id="lname_stalker_291">
+    <text>フィスト</text>
+  </string>
+  <string id="lname_stalker_292">
+    <text>ファイブ</text>
+  </string>
+  <string id="lname_stalker_293">
+    <text>フレーメン</text>
+  </string>
+  <string id="lname_stalker_294">
+    <text>フレックド</text>
+  </string>
+  <string id="lname_stalker_295">
+    <text>フリント</text>
+  </string>
+  <string id="lname_stalker_296">
+    <text>フロップ</text>
+  </string>
+  <string id="lname_stalker_297">
+    <text>フォグ</text>
+  </string>
+  <string id="lname_stalker_298">
+    <text>フットボーラー</text>
+  </string>
+  <string id="lname_stalker_299">
+    <text>フォレスター</text>
+  </string>
+  <string id="lname_stalker_300">
+    <text>フォーミダブル</text>
+  </string>
+  <string id="lname_stalker_301">
+    <text>フォーチュネイト</text>
+  </string>
+  <string id="lname_stalker_302">
+    <text>フラッグド</text>
+  </string>
+  <string id="lname_stalker_303">
+    <text>フレーム</text>
+  </string>
+  <string id="lname_stalker_304">
+    <text>フランティク</text>
+  </string>
+  <string id="lname_stalker_305">
+    <text>フライデー</text>
+  </string>
+  <string id="lname_stalker_306">
+    <text>フューバー</text>
+  </string>
+  <string id="lname_stalker_307">
+    <text>ガドゥフィー</text>
+  </string>
+  <string id="lname_stalker_308">
+    <text>ガファー</text>
+  </string>
+  <string id="lname_stalker_309">
+    <text>ギャグスター</text>
+  </string>
+  <string id="lname_stalker_310">
+    <text>ギャングリン</text>
+  </string>
+  <string id="lname_stalker_311">
+    <text>ギャングスター</text>
+  </string>
+  <string id="lname_stalker_312">
+    <text>ガーリック</text>
+  </string>
+  <string id="lname_stalker_313">
+    <text>ジンギス</text>
+  </string>
+  <string id="lname_stalker_314">
+    <text>ジェンティル</text>
+  </string>
+  <string id="lname_stalker_315">
+    <text>ジオロジスト</text>
+  </string>
+  <string id="lname_stalker_316">
+    <text>ジャーム</text>
+  </string>
+  <string id="lname_stalker_317">
+    <text>ゴウル</text>
+  </string>
+  <string id="lname_stalker_318">
+    <text>ジゴロ</text>
+  </string>
+  <string id="lname_stalker_319">
+    <text>ジョコンダ</text>
+  </string>
+  <string id="lname_stalker_320">
+    <text>グラディエーター</text>
+  </string>
+  <string id="lname_stalker_321">
+    <text>グライダー</text>
+  </string>
+  <string id="lname_stalker_322">
+    <text>グリッチ</text>
+  </string>
+  <string id="lname_stalker_323">
+    <text>グローブ</text>
+  </string>
+  <string id="lname_stalker_324">
+    <text>グルーミィ</text>
+  </string>
+  <string id="lname_stalker_325">
+    <text>グリュー</text>
+  </string>
+  <string id="lname_stalker_326">
+    <text>グラトン</text>
+  </string>
+  <string id="lname_stalker_327">
+    <text>グナット</text>
+  </string>
+  <string id="lname_stalker_328">
+    <text>ゴブリン</text>
+  </string>
+  <string id="lname_stalker_329">
+    <text>ゴッドファーザー</text>
+  </string>
+  <string id="lname_stalker_330">
+    <text>グーフィー</text>
+  </string>
+  <string id="lname_stalker_331">
+    <text>グース</text>
+  </string>
+  <string id="lname_stalker_332">
+    <text>ゴファー</text>
+  </string>
+  <string id="lname_stalker_333">
+    <text>ゴリニチ</text>
+  </string>
+  <string id="lname_stalker_334">
+    <text>グージ</text>
+  </string>
+  <string id="lname_stalker_335">
+    <text>グラバー</text>
+  </string>
+  <string id="lname_stalker_336">
+    <text>グラッド</text>
+  </string>
+  <string id="lname_stalker_337">
+    <text>グランプス</text>
+  </string>
+  <string id="lname_stalker_338">
+    <text>グランパ</text>
+  </string>
+  <string id="lname_stalker_339">
+    <text>グラフ</text>
+  </string>
+  <string id="lname_stalker_340">
+    <text>グラスホッパー</text>
+  </string>
+  <string id="lname_stalker_341">
+    <text>グレーター</text>
+  </string>
+  <string id="lname_stalker_342">
+    <text>グレイブ</text>
+  </string>
+  <string id="lname_stalker_343">
+    <text>グレイヴディガー</text>
+  </string>
+  <string id="lname_stalker_344">
+    <text>グレイ</text>
+  </string>
+  <string id="lname_stalker_345">
+    <text>グリーン</text>
+  </string>
+  <string id="lname_stalker_346">
+    <text>グレムリン</text>
+  </string>
+  <string id="lname_stalker_347">
+    <text>グレネード</text>
+  </string>
+  <string id="lname_stalker_348">
+    <text>グレイハウンド</text>
+  </string>
+  <string id="lname_stalker_349">
+    <text>グライス</text>
+  </string>
+  <string id="lname_stalker_350">
+    <text>グリム</text>
+  </string>
+  <string id="lname_stalker_351">
+    <text>グラインダー</text>
+  </string>
+  <string id="lname_stalker_352">
+    <text>グラインドストーン</text>
+  </string>
+  <string id="lname_stalker_353">
+    <text>グロース</text>
+  </string>
+  <string id="lname_stalker_354">
+    <text>グルッジ</text>
+  </string>
+  <string id="lname_stalker_355">
+    <text>ゲリラ</text>
+  </string>
+  <string id="lname_stalker_356">
+    <text>ゲスト</text>
+  </string>
+  <string id="lname_stalker_357">
+    <text>ガンパウダー</text>
+  </string>
+  <string id="lname_stalker_358">
+    <text>ガンスミス</text>
+  </string>
+  <string id="lname_stalker_359">
+    <text>ハッカー</text>
+  </string>
+  <string id="lname_stalker_360">
+    <text>ハグラー</text>
+  </string>
+  <string id="lname_stalker_361">
+    <text>ハムスター</text>
+  </string>
+  <string id="lname_stalker_362">
+    <text>ハンディキャップ</text>
+  </string>
+  <string id="lname_stalker_363">
+    <text>ハングマン</text>
+  </string>
+  <string id="lname_stalker_364">
+    <text>ハードウェア</text>
+  </string>
+  <string id="lname_stalker_365">
+    <text>ヘアー</text>
+  </string>
+  <string id="lname_stalker_366">
+    <text>ハーシュ</text>
+  </string>
+  <string id="lname_stalker_367">
+    <text>ハチェット</text>
+  </string>
+  <string id="lname_stalker_368">
+    <text>ハットラック</text>
+  </string>
+  <string id="lname_stalker_369">
+    <text>ホーク</text>
+  </string>
+  <string id="lname_stalker_370">
+    <text>ヘッド</text>
+  </string>
+  <string id="lname_stalker_371">
+    <text>ヒーラー</text>
+  </string>
+  <string id="lname_stalker_372">
+    <text>ハートソブ</text>
+  </string>
+  <string id="lname_stalker_373">
+    <text>ヒザン</text>
+  </string>
+  <string id="lname_stalker_374">
+    <text>ヘッジホッグ</text>
+  </string>
+  <string id="lname_stalker_375">
+    <text>ハーズマン</text>
+  </string>
+  <string id="lname_stalker_376">
+    <text>ヒーロー</text>
+  </string>
+  <string id="lname_stalker_377">
+    <text>ハイランダー</text>
+  </string>
+  <string id="lname_stalker_378">
+    <text>ヒップスター</text>
+  </string>
+  <string id="lname_stalker_379">
+    <text>ハイアリング</text>
+  </string>
+  <string id="lname_stalker_380">
+    <text>ヒットマン</text>
+  </string>
+  <string id="lname_stalker_381">
+    <text>ホーリィ</text>
+  </string>
+  <string id="lname_stalker_382">
+    <text>ホーボー</text>
+  </string>
+  <string id="lname_stalker_383">
+    <text>ホグ</text>
+  </string>
+  <string id="lname_stalker_384">
+    <text>ホリー</text>
+  </string>
+  <string id="lname_stalker_385">
+    <text>ホームボーイ</text>
+  </string>
+  <string id="lname_stalker_386">
+    <text>ホームブリュー</text>
+  </string>
+  <string id="lname_stalker_387">
+    <text>ホーマー</text>
+  </string>
+  <string id="lname_stalker_388">
+    <text>フード</text>
+  </string>
+  <string id="lname_stalker_389">
+    <text>フック</text>
+  </string>
+  <string id="lname_stalker_390">
+    <text>ホース</text>
+  </string>
+  <string id="lname_stalker_391">
+    <text>ホースマン</text>
+  </string>
+  <string id="lname_stalker_392">
+    <text>ホースパイプ</text>
+  </string>
+  <string id="lname_stalker_393">
+    <text>ホットショット</text>
+  </string>
+  <string id="lname_stalker_394">
+    <text>ハンプバック</text>
+  </string>
+  <string id="lname_stalker_395">
+    <text>ハンチバック</text>
+  </string>
+  <string id="lname_stalker_396">
+    <text>ハイブリッド</text>
+  </string>
+  <string id="lname_stalker_397">
+    <text>イカルス</text>
+  </string>
+  <string id="lname_stalker_398">
+    <text>アイス</text>
+  </string>
+  <string id="lname_stalker_399">
+    <text>イモータル</text>
+  </string>
+  <string id="lname_stalker_400">
+    <text>インポータント</text>
+  </string>
+  <string id="lname_stalker_401">
+    <text>インディアン</text>
+  </string>
+  <string id="lname_stalker_402">
+    <text>インク</text>
+  </string>
+  <string id="lname_stalker_403">
+    <text>インヴィンシブル</text>
+  </string>
+  <string id="lname_stalker_404">
+    <text>アイアン</text>
+  </string>
+  <string id="lname_stalker_405">
+    <text>アイアンストーン</text>
+  </string>
+  <string id="lname_stalker_406">
+    <text>イロコイ</text>
+  </string>
+  <string id="lname_stalker_407">
+    <text>アイソトープ</text>
+  </string>
+  <string id="lname_stalker_408">
+    <text>ジャック</text>
+  </string>
+  <string id="lname_stalker_409">
+    <text>ジャッカル</text>
+  </string>
+  <string id="lname_stalker_410">
+    <text>ジャックストロー</text>
+  </string>
+  <string id="lname_stalker_411">
+    <text>ジャミー</text>
+  </string>
+  <string id="lname_stalker_412">
+    <text>ジャニター</text>
+  </string>
+  <string id="lname_stalker_413">
+    <text>ジャーボア</text>
+  </string>
+  <string id="lname_stalker_414">
+    <text>ジェスター</text>
+  </string>
+  <string id="lname_stalker_415">
+    <text>ジッガーズ</text>
+  </string>
+  <string id="lname_stalker_416">
+    <text>ジョガー</text>
+  </string>
+  <string id="lname_stalker_417">
+    <text>ジョイント</text>
+  </string>
+  <string id="lname_stalker_418">
+    <text>ジョーカー</text>
+  </string>
+  <string id="lname_stalker_419">
+    <text>ジャッジ</text>
+  </string>
+  <string id="lname_stalker_420">
+    <text>ジャンパー</text>
+  </string>
+  <string id="lname_stalker_421">
+    <text>ジュン</text>
+  </string>
+  <string id="lname_stalker_422">
+    <text>ジャンク</text>
+  </string>
+  <string id="lname_stalker_423">
+    <text>カゴール</text>
+  </string>
+  <string id="lname_stalker_424">
+    <text>カミカゼ</text>
+  </string>
+  <string id="lname_stalker_425">
+    <text>カルマ</text>
+  </string>
+  <string id="lname_stalker_426">
+    <text>カスケイ</text>
+  </string>
+  <string id="lname_stalker_427">
+    <text>キー</text>
+  </string>
+  <string id="lname_stalker_428">
+    <text>カーン</text>
+  </string>
+  <string id="lname_stalker_429">
+    <text>キッカー</text>
+  </string>
+  <string id="lname_stalker_430">
+    <text>キラー</text>
+  </string>
+  <string id="lname_stalker_431">
+    <text>キング</text>
+  </string>
+  <string id="lname_stalker_432">
+    <text>ノット</text>
+  </string>
+  <string id="lname_stalker_433">
+    <text>ナックルズ</text>
+  </string>
+  <string id="lname_stalker_434">
+    <text>コロボーク</text>
+  </string>
+  <string id="lname_stalker_435">
+    <text>コシチェイ</text>
+  </string>
+  <string id="lname_stalker_436">
+    <text>クツゾフ</text>
+  </string>
+  <string id="lname_stalker_437">
+    <text>ラメ</text>
+  </string>
+  <string id="lname_stalker_438">
+    <text>ラマー</text>
+  </string>
+  <string id="lname_stalker_439">
+    <text>ランプ</text>
+  </string>
+  <string id="lname_stalker_440">
+    <text>ランタン</text>
+  </string>
+  <string id="lname_stalker_441">
+    <text>ロウ</text>
+  </string>
+  <string id="lname_stalker_442">
+    <text>ラックス</text>
+  </string>
+  <string id="lname_stalker_443">
+    <text>リアリー</text>
+  </string>
+  <string id="lname_stalker_444">
+    <text>リーチ</text>
+  </string>
+  <string id="lname_stalker_445">
+    <text>リーガル</text>
+  </string>
+  <string id="lname_stalker_446">
+    <text>リーガリスト</text>
+  </string>
+  <string id="lname_stalker_447">
+    <text>レジェナリー</text>
+  </string>
+  <string id="lname_stalker_448">
+    <text>レジオネラ</text>
+  </string>
+  <string id="lname_stalker_449">
+    <text>リーミング</text>
+  </string>
+  <string id="lname_stalker_450">
+    <text>レーシイ</text>
+  </string>
+  <string id="lname_stalker_451">
+    <text>リーサル</text>
+  </string>
+  <string id="lname_stalker_452">
+    <text>ライフガード</text>
+  </string>
+  <string id="lname_stalker_453">
+    <text>ライフセイバー</text>
+  </string>
+  <string id="lname_stalker_454">
+    <text>リトルマン</text>
+  </string>
+  <string id="lname_stalker_455">
+    <text>ローダー</text>
+  </string>
+  <string id="lname_stalker_456">
+    <text>ローフ</text>
+  </string>
+  <string id="lname_stalker_457">
+    <text>ローカル</text>
+  </string>
+  <string id="lname_stalker_458">
+    <text>ロック</text>
+  </string>
+  <string id="lname_stalker_459">
+    <text>ロックスミス</text>
+  </string>
+  <string id="lname_stalker_460">
+    <text>ログスプリッター</text>
+  </string>
+  <string id="lname_stalker_461">
+    <text>ロング</text>
+  </string>
+  <string id="lname_stalker_462">
+    <text>ロングジョン</text>
+  </string>
+  <string id="lname_stalker_463">
+    <text>ルーニィ</text>
+  </string>
+  <string id="lname_stalker_464">
+    <text>ロード</text>
+  </string>
+  <string id="lname_stalker_465">
+    <text>ルーザー</text>
+  </string>
+  <string id="lname_stalker_466">
+    <text>ラウドマウス</text>
+  </string>
+  <string id="lname_stalker_467">
+    <text>ロイアル</text>
+  </string>
+  <string id="lname_stalker_468">
+    <text>ラクスター</text>
+  </string>
+  <string id="lname_stalker_469">
+    <text>ラッキー</text>
+  </string>
+  <string id="lname_stalker_470">
+    <text>ラッキーバスタード</text>
+  </string>
+  <string id="lname_stalker_471">
+    <text>マシーン</text>
+  </string>
+  <string id="lname_stalker_472">
+    <text>マシニスト</text>
+  </string>
+  <string id="lname_stalker_473">
+    <text>マデーラ</text>
+  </string>
+  <string id="lname_stalker_474">
+    <text>マゴット</text>
+  </string>
+  <string id="lname_stalker_475">
+    <text>マグネート</text>
+  </string>
+  <string id="lname_stalker_476">
+    <text>メージャー</text>
+  </string>
+  <string id="lname_stalker_477">
+    <text>マンモス</text>
+  </string>
+  <string id="lname_stalker_478">
+    <text>マニアック</text>
+  </string>
+  <string id="lname_stalker_479">
+    <text>マンティス</text>
+  </string>
+  <string id="lname_stalker_480">
+    <text>マヌル</text>
+  </string>
+  <string id="lname_stalker_481">
+    <text>マーモット</text>
+  </string>
+  <string id="lname_stalker_482">
+    <text>マーシャン</text>
+  </string>
+  <string id="lname_stalker_483">
+    <text>メイスン</text>
+  </string>
+  <string id="lname_stalker_484">
+    <text>マタドール</text>
+  </string>
+  <string id="lname_stalker_485">
+    <text>メイヘム</text>
+  </string>
+  <string id="lname_stalker_486">
+    <text>ミーニー</text>
+  </string>
+  <string id="lname_stalker_487">
+    <text>メカニック</text>
+  </string>
+  <string id="lname_stalker_488">
+    <text>マーク</text>
+  </string>
+  <string id="lname_stalker_489">
+    <text>マーチャント</text>
+  </string>
+  <string id="lname_stalker_490">
+    <text>メッセンジャー</text>
+  </string>
+  <string id="lname_stalker_491">
+    <text>メット</text>
+  </string>
+  <string id="lname_stalker_492">
+    <text>マイクローブ</text>
+  </string>
+  <string id="lname_stalker_493">
+    <text>ミルクマン</text>
+  </string>
+  <string id="lname_stalker_494">
+    <text>マインピッカー</text>
+  </string>
+  <string id="lname_stalker_495">
+    <text>マイナー</text>
+  </string>
+  <string id="lname_stalker_496">
+    <text>マインスイーパ</text>
+  </string>
+  <string id="lname_stalker_497">
+    <text>ミノウ</text>
+  </string>
+  <string id="lname_stalker_498">
+    <text>マイザー</text>
+  </string>
+  <string id="lname_stalker_499">
+    <text>モデレーター</text>
+  </string>
+  <string id="lname_stalker_500">
+    <text>モホーク</text>
+  </string>
+  <string id="lname_stalker_501">
+    <text>モノクル</text>
+  </string>
+  <string id="lname_stalker_502">
+    <text>モンスター</text>
+  </string>
+  <string id="lname_stalker_503">
+    <text>ムーンシャイン</text>
+  </string>
+  <string id="lname_stalker_504">
+    <text>ムーア</text>
+  </string>
+  <string id="lname_stalker_505">
+    <text>ムース</text>
+  </string>
+  <string id="lname_stalker_506">
+    <text>モップ</text>
+  </string>
+  <string id="lname_stalker_507">
+    <text>モップトゥ</text>
+  </string>
+  <string id="lname_stalker_508">
+    <text>モレル</text>
+  </string>
+  <string id="lname_stalker_509">
+    <text>モスキート</text>
+  </string>
+  <string id="lname_stalker_510">
+    <text>モーター</text>
+  </string>
+  <string id="lname_stalker_511">
+    <text>マウンテイナー</text>
+  </string>
+  <string id="lname_stalker_512">
+    <text>マッディ</text>
+  </string>
+  <string id="lname_stalker_513">
+    <text>ママー</text>
+  </string>
+  <string id="lname_stalker_514">
+    <text>マッスルマン</text>
+  </string>
+  <string id="lname_stalker_515">
+    <text>マスクラット</text>
+  </string>
+  <string id="lname_stalker_516">
+    <text>ミュータント</text>
+  </string>
+  <string id="lname_stalker_517">
+    <text>ネイル</text>
+  </string>
+  <string id="lname_stalker_518">
+    <text>ナポレオン</text>
+  </string>
+  <string id="lname_stalker_519">
+    <text>ナーク</text>
+  </string>
+  <string id="lname_stalker_520">
+    <text>ナルシス</text>
+  </string>
+  <string id="lname_stalker_521">
+    <text>ナーク</text>
+  </string>
+  <string id="lname_stalker_522">
+    <text>ネイティブ</text>
+  </string>
+  <string id="lname_stalker_523">
+    <text>ネクロ</text>
+  </string>
+  <string id="lname_stalker_524">
+    <text>ネルソン</text>
+  </string>
+  <string id="lname_stalker_525">
+    <text>ネプチューン</text>
+  </string>
+  <string id="lname_stalker_526">
+    <text>ナーヴ</text>
+  </string>
+  <string id="lname_stalker_527">
+    <text>ニッケル</text>
+  </string>
+  <string id="lname_stalker_528">
+    <text>ニンジャ</text>
+  </string>
+  <string id="lname_stalker_529">
+    <text>ノクターナル</text>
+  </string>
+  <string id="lname_stalker_530">
+    <text>ヌードル</text>
+  </string>
+  <string id="lname_stalker_531">
+    <text>ナッシング</text>
+  </string>
+  <string id="lname_stalker_532">
+    <text>ノズル</text>
+  </string>
+  <string id="lname_stalker_533">
+    <text>ヌーサンス</text>
+  </string>
+  <string id="lname_stalker_534">
+    <text>オールドタイマー</text>
+  </string>
+  <string id="lname_stalker_535">
+    <text>ワンアイ</text>
+  </string>
+  <string id="lname_stalker_536">
+    <text>オペレーター</text>
+  </string>
+  <string id="lname_stalker_537">
+    <text>オーダリー</text>
+  </string>
+  <string id="lname_stalker_538">
+    <text>オスカー</text>
+  </string>
+  <string id="lname_stalker_539">
+    <text>アウトキャスト</text>
+  </string>
+  <string id="lname_stalker_540">
+    <text>アウル</text>
+  </string>
+  <string id="lname_stalker_541">
+    <text>オックス</text>
+  </string>
+  <string id="lname_stalker_542">
+    <text>ペースメーカー</text>
+  </string>
+  <string id="lname_stalker_543">
+    <text>パシフィスト</text>
+  </string>
+  <string id="lname_stalker_544">
+    <text>パドル</text>
+  </string>
+  <string id="lname_stalker_545">
+    <text>パディスハ</text>
+  </string>
+  <string id="lname_stalker_546">
+    <text>ペーガン</text>
+  </string>
+  <string id="lname_stalker_547">
+    <text>ペインター</text>
+  </string>
+  <string id="lname_stalker_548">
+    <text>パナドル</text>
+  </string>
+  <string id="lname_stalker_549">
+    <text>パパー</text>
+  </string>
+  <string id="lname_stalker_550">
+    <text>パラシュート</text>
+  </string>
+  <string id="lname_stalker_551">
+    <text>パラノイア</text>
+  </string>
+  <string id="lname_stalker_552">
+    <text>パラノイド</text>
+  </string>
+  <string id="lname_stalker_553">
+    <text>パラサイト</text>
+  </string>
+  <string id="lname_stalker_554">
+    <text>パライア</text>
+  </string>
+  <string id="lname_stalker_555">
+    <text>パルティザン</text>
+  </string>
+  <string id="lname_stalker_556">
+    <text>パストール</text>
+  </string>
+  <string id="lname_stalker_557">
+    <text>パスファインダー</text>
+  </string>
+  <string id="lname_stalker_558">
+    <text>パトロン</text>
+  </string>
+  <string id="lname_stalker_559">
+    <text>パチューク</text>
+  </string>
+  <string id="lname_stalker_560">
+    <text>パティ</text>
+  </string>
+  <string id="lname_stalker_561">
+    <text>ペブル</text>
+  </string>
+  <string id="lname_stalker_562">
+    <text>ペドラー</text>
+  </string>
+  <string id="lname_stalker_563">
+    <text>ピーウィー</text>
+  </string>
+  <string id="lname_stalker_564">
+    <text>ペッパー</text>
+  </string>
+  <string id="lname_stalker_565">
+    <text>パーチャー</text>
+  </string>
+  <string id="lname_stalker_566">
+    <text>パープ</text>
+  </string>
+  <string id="lname_stalker_567">
+    <text>パート</text>
+  </string>
+  <string id="lname_stalker_568">
+    <text>ファンタム</text>
+  </string>
+  <string id="lname_stalker_569">
+    <text>ピアニスト</text>
+  </string>
+  <string id="lname_stalker_570">
+    <text>ピーティスト</text>
+  </string>
+  <string id="lname_stalker_571">
+    <text>ピグミー</text>
+  </string>
+  <string id="lname_stalker_572">
+    <text>ピルグリム</text>
+  </string>
+  <string id="lname_stalker_573">
+    <text>パイロット</text>
+  </string>
+  <string id="lname_stalker_574">
+    <text>ピンプ</text>
+  </string>
+  <string id="lname_stalker_575">
+    <text>ピノキオ</text>
+  </string>
+  <string id="lname_stalker_576">
+    <text>ピントル</text>
+  </string>
+  <string id="lname_stalker_577">
+    <text>パイオニア</text>
+  </string>
+  <string id="lname_stalker_578">
+    <text>パイプ</text>
+  </string>
+  <string id="lname_stalker_579">
+    <text>ピラニア</text>
+  </string>
+  <string id="lname_stalker_580">
+    <text>パイレート</text>
+  </string>
+  <string id="lname_stalker_581">
+    <text>ピストン</text>
+  </string>
+  <string id="lname_stalker_582">
+    <text>ピットマン</text>
+  </string>
+  <string id="lname_stalker_583">
+    <text>ピトン</text>
+  </string>
+  <string id="lname_stalker_584">
+    <text>プランタン</text>
+  </string>
+  <string id="lname_stalker_585">
+    <text>プラスティシン</text>
+  </string>
+  <string id="lname_stalker_586">
+    <text>プレイヤー</text>
+  </string>
+  <string id="lname_stalker_587">
+    <text>プロダー</text>
+  </string>
+  <string id="lname_stalker_588">
+    <text>プロウマン</text>
+  </string>
+  <string id="lname_stalker_589">
+    <text>ポエット</text>
+  </string>
+  <string id="lname_stalker_590">
+    <text>ポルカン</text>
+  </string>
+  <string id="lname_stalker_591">
+    <text>ポンド</text>
+  </string>
+  <string id="lname_stalker_592">
+    <text>ポーター</text>
+  </string>
+  <string id="lname_stalker_593">
+    <text>ポストマン</text>
+  </string>
+  <string id="lname_stalker_594">
+    <text>プリック</text>
+  </string>
+  <string id="lname_stalker_595">
+    <text>プリースト</text>
+  </string>
+  <string id="lname_stalker_596">
+    <text>プリンス</text>
+  </string>
+  <string id="lname_stalker_597">
+    <text>プロフェッサー</text>
+  </string>
+  <string id="lname_stalker_598">
+    <text>プロメセウス</text>
+  </string>
+  <string id="lname_stalker_599">
+    <text>プロフェット</text>
+  </string>
+  <string id="lname_stalker_600">
+    <text>プラウド</text>
+  </string>
+  <string id="lname_stalker_601">
+    <text>サイコ</text>
+  </string>
+  <string id="lname_stalker_602">
+    <text>パンプ</text>
+  </string>
+  <string id="lname_stalker_603">
+    <text>パンプキン</text>
+  </string>
+  <string id="lname_stalker_604">
+    <text>パンク</text>
+  </string>
+  <string id="lname_stalker_605">
+    <text>プッシャー</text>
+  </string>
+  <string id="lname_stalker_606">
+    <text>パシュキン</text>
+  </string>
+  <string id="lname_stalker_607">
+    <text>パテ</text>
+  </string>
+  <string id="lname_stalker_608">
+    <text>パイソン</text>
+  </string>
+  <string id="lname_stalker_609">
+    <text>クァック</text>
+  </string>
+  <string id="lname_stalker_610">
+    <text>クォーターバック</text>
+  </string>
+  <string id="lname_stalker_611">
+    <text>クワイエット</text>
+  </string>
+  <string id="lname_stalker_612">
+    <text>ラビ</text>
+  </string>
+  <string id="lname_stalker_613">
+    <text>ラビット</text>
+  </string>
+  <string id="lname_stalker_614">
+    <text>ラビー</text>
+  </string>
+  <string id="lname_stalker_615">
+    <text>ラック</text>
+  </string>
+  <string id="lname_stalker_616">
+    <text>ラッグド</text>
+  </string>
+  <string id="lname_stalker_617">
+    <text>レインボー</text>
+  </string>
+  <string id="lname_stalker_618">
+    <text>ランボ</text>
+  </string>
+  <string id="lname_stalker_619">
+    <text>レンジャー</text>
+  </string>
+  <string id="lname_stalker_620">
+    <text>ラスカル</text>
+  </string>
+  <string id="lname_stalker_621">
+    <text>ラスタ</text>
+  </string>
+  <string id="lname_stalker_622">
+    <text>ラット</text>
+  </string>
+  <string id="lname_stalker_623">
+    <text>レイヴン</text>
+  </string>
+  <string id="lname_stalker_624">
+    <text>ラヴィオリ</text>
+  </string>
+  <string id="lname_stalker_625">
+    <text>レーザー</text>
+  </string>
+  <string id="lname_stalker_626">
+    <text>リアクター</text>
+  </string>
+  <string id="lname_stalker_627">
+    <text>レッド</text>
+  </string>
+  <string id="lname_stalker_628">
+    <text>レッドヘアー</text>
+  </string>
+  <string id="lname_stalker_629">
+    <text>レッドヘッド</text>
+  </string>
+  <string id="lname_stalker_630">
+    <text>リーファー</text>
+  </string>
+  <string id="lname_stalker_631">
+    <text>ラヴァレンド</text>
+  </string>
+  <string id="lname_stalker_632">
+    <text>ライダー</text>
+  </string>
+  <string id="lname_stalker_633">
+    <text>ライシャス</text>
+  </string>
+  <string id="lname_stalker_634">
+    <text>ローチ</text>
+  </string>
+  <string id="lname_stalker_635">
+    <text>ロビン</text>
+  </string>
+  <string id="lname_stalker_636">
+    <text>ロボット</text>
+  </string>
+  <string id="lname_stalker_637">
+    <text>ロバスト</text>
+  </string>
+  <string id="lname_stalker_638">
+    <text>ロック</text>
+  </string>
+  <string id="lname_stalker_639">
+    <text>ロッカー</text>
+  </string>
+  <string id="lname_stalker_640">
+    <text>ロケット</text>
+  </string>
+  <string id="lname_stalker_641">
+    <text>ロッド</text>
+  </string>
+  <string id="lname_stalker_642">
+    <text>ローグ</text>
+  </string>
+  <string id="lname_stalker_643">
+    <text>ロマンチック</text>
+  </string>
+  <string id="lname_stalker_644">
+    <text>ルーク</text>
+  </string>
+  <string id="lname_stalker_645">
+    <text>ルート</text>
+  </string>
+  <string id="lname_stalker_646">
+    <text>ロックフォール</text>
+  </string>
+  <string id="lname_stalker_647">
+    <text>ロトゥン</text>
+  </string>
+  <string id="lname_stalker_648">
+    <text>ラウンド</text>
+  </string>
+  <string id="lname_stalker_649">
+    <text>ラウンドボーイ</text>
+  </string>
+  <string id="lname_stalker_650">
+    <text>ランナー</text>
+  </string>
+  <string id="lname_stalker_651">
+    <text>ラスティ</text>
+  </string>
+  <string id="lname_stalker_652">
+    <text>リアザンスキー</text>
+  </string>
+  <string id="lname_stalker_653">
+    <text>セイバー</text>
+  </string>
+  <string id="lname_stalker_654">
+    <text>セールスマン</text>
+  </string>
+  <string id="lname_stalker_655">
+    <text>サムライ</text>
+  </string>
+  <string id="lname_stalker_656">
+    <text>サベージ</text>
+  </string>
+  <string id="lname_stalker_657">
+    <text>ソードオフ</text>
+  </string>
+  <string id="lname_stalker_658">
+    <text>スカベンジャー</text>
+  </string>
+  <string id="lname_stalker_659">
+    <text>スカーラー</text>
+  </string>
+  <string id="lname_stalker_660">
+    <text>スクープ</text>
+  </string>
+  <string id="lname_stalker_661">
+    <text>スクリュー</text>
+  </string>
+  <string id="lname_stalker_662">
+    <text>スクラブ</text>
+  </string>
+  <string id="lname_stalker_663">
+    <text>サイズ</text>
+  </string>
+  <string id="lname_stalker_664">
+    <text>スキタイ</text>
+  </string>
+  <string id="lname_stalker_665">
+    <text>セクレタリー</text>
+  </string>
+  <string id="lname_stalker_666">
+    <text>シャギー</text>
+  </string>
+  <string id="lname_stalker_667">
+    <text>ジャ</text>
+  </string>
+  <string id="lname_stalker_668">
+    <text>シャム</text>
+  </string>
+  <string id="lname_stalker_669">
+    <text>シャーマン</text>
+  </string>
+  <string id="lname_stalker_670">
+    <text>シャープ</text>
+  </string>
+  <string id="lname_stalker_671">
+    <text>シャープサイト</text>
+  </string>
+  <string id="lname_stalker_672">
+    <text>シャープトゥース</text>
+  </string>
+  <string id="lname_stalker_673">
+    <text>シェーヴド</text>
+  </string>
+  <string id="lname_stalker_674">
+    <text>シェイヴン</text>
+  </string>
+  <string id="lname_stalker_675">
+    <text>シープハーダー</text>
+  </string>
+  <string id="lname_stalker_676">
+    <text>シェル</text>
+  </string>
+  <string id="lname_stalker_677">
+    <text>シェファード</text>
+  </string>
+  <string id="lname_stalker_678">
+    <text>シェリフ</text>
+  </string>
+  <string id="lname_stalker_679">
+    <text>シフター</text>
+  </string>
+  <string id="lname_stalker_680">
+    <text>シップボーイ</text>
+  </string>
+  <string id="lname_stalker_681">
+    <text>シブ</text>
+  </string>
+  <string id="lname_stalker_682">
+    <text>ショートストップ</text>
+  </string>
+  <string id="lname_stalker_683">
+    <text>ショットガン</text>
+  </string>
+  <string id="lname_stalker_684">
+    <text>ショベル</text>
+  </string>
+  <string id="lname_stalker_685">
+    <text>シュリンプ</text>
+  </string>
+  <string id="lname_stalker_686">
+    <text>シュリンク</text>
+  </string>
+  <string id="lname_stalker_687">
+    <text>シュティルリッツ</text>
+  </string>
+  <string id="lname_stalker_688">
+    <text>シュターリッツ</text>
+  </string>
+  <string id="lname_stalker_689">
+    <text>シーヴ</text>
+  </string>
+  <string id="lname_stalker_690">
+    <text>シンプルトン</text>
+  </string>
+  <string id="lname_stalker_691">
+    <text>シミュレーター</text>
+  </string>
+  <string id="lname_stalker_692">
+    <text>シニイ</text>
+  </string>
+  <string id="lname_stalker_693">
+    <text>スケルトン</text>
+  </string>
+  <string id="lname_stalker_694">
+    <text>スクー</text>
+  </string>
+  <string id="lname_stalker_695">
+    <text>スキフ</text>
+  </string>
+  <string id="lname_stalker_696">
+    <text>スキニィ</text>
+  </string>
+  <string id="lname_stalker_697">
+    <text>スラッシャー</text>
+  </string>
+  <string id="lname_stalker_698">
+    <text>スライム</text>
+  </string>
+  <string id="lname_stalker_699">
+    <text>スリッパ</text>
+  </string>
+  <string id="lname_stalker_700">
+    <text>スラウチ</text>
+  </string>
+  <string id="lname_stalker_701">
+    <text>スマートアレック</text>
+  </string>
+  <string id="lname_stalker_702">
+    <text>スマータス</text>
+  </string>
+  <string id="lname_stalker_703">
+    <text>スモーカー</text>
+  </string>
+  <string id="lname_stalker_704">
+    <text>スネーク</text>
+  </string>
+  <string id="lname_stalker_705">
+    <text>スナイパー</text>
+  </string>
+  <string id="lname_stalker_706">
+    <text>スノット</text>
+  </string>
+  <string id="lname_stalker_707">
+    <text>ソックス</text>
+  </string>
+  <string id="lname_stalker_708">
+    <text>ソフティ</text>
+  </string>
+  <string id="lname_stalker_709">
+    <text>ソフティ</text>
+  </string>
+  <string id="lname_stalker_710">
+    <text>ソフォモア</text>
+  </string>
+  <string id="lname_stalker_711">
+    <text>ソーサラー</text>
+  </string>
+  <string id="lname_stalker_712">
+    <text>スペース</text>
+  </string>
+  <string id="lname_stalker_713">
+    <text>スペード</text>
+  </string>
+  <string id="lname_stalker_714">
+    <text>スパゲティ</text>
+  </string>
+  <string id="lname_stalker_715">
+    <text>スパム</text>
+  </string>
+  <string id="lname_stalker_716">
+    <text>スパークス</text>
+  </string>
+  <string id="lname_stalker_717">
+    <text>スパロー</text>
+  </string>
+  <string id="lname_stalker_718">
+    <text>スパイダー</text>
+  </string>
+  <string id="lname_stalker_719">
+    <text>スパイク</text>
+  </string>
+  <string id="lname_stalker_720">
+    <text>スパイン</text>
+  </string>
+  <string id="lname_stalker_721">
+    <text>スピナー</text>
+  </string>
+  <string id="lname_stalker_722">
+    <text>スピリット</text>
+  </string>
+  <string id="lname_stalker_723">
+    <text>スプリフ</text>
+  </string>
+  <string id="lname_stalker_724">
+    <text>スポーツマン</text>
+  </string>
+  <string id="lname_stalker_725">
+    <text>スパイ</text>
+  </string>
+  <string id="lname_stalker_726">
+    <text>スクインツ</text>
+  </string>
+  <string id="lname_stalker_727">
+    <text>スクイントアイ</text>
+  </string>
+  <string id="lname_stalker_728">
+    <text>スクワイア</text>
+  </string>
+  <string id="lname_stalker_729">
+    <text>スタグ</text>
+  </string>
+  <string id="lname_stalker_730">
+    <text>スタリオン</text>
+  </string>
+  <string id="lname_stalker_731">
+    <text>スターン</text>
+  </string>
+  <string id="lname_stalker_732">
+    <text>スティフ</text>
+  </string>
+  <string id="lname_stalker_733">
+    <text>ストーン</text>
+  </string>
+  <string id="lname_stalker_734">
+    <text>ストゥープト</text>
+  </string>
+  <string id="lname_stalker_735">
+    <text>ストーリーテラー</text>
+  </string>
+  <string id="lname_stalker_736">
+    <text>スタウト</text>
+  </string>
+  <string id="lname_stalker_737">
+    <text>ストレンジャー</text>
+  </string>
+  <string id="lname_stalker_738">
+    <text>ストラングラー</text>
+  </string>
+  <string id="lname_stalker_739">
+    <text>ストラップ</text>
+  </string>
+  <string id="lname_stalker_740">
+    <text>スタブ</text>
+  </string>
+  <string id="lname_stalker_741">
+    <text>スチューデント</text>
+  </string>
+  <string id="lname_stalker_742">
+    <text>スタント</text>
+  </string>
+  <string id="lname_stalker_743">
+    <text>スターディ</text>
+  </string>
+  <string id="lname_stalker_744">
+    <text>サブゼロ</text>
+  </string>
+  <string id="lname_stalker_745">
+    <text>サルタン</text>
+  </string>
+  <string id="lname_stalker_746">
+    <text>サマータイム</text>
+  </string>
+  <string id="lname_stalker_747">
+    <text>サージャン</text>
+  </string>
+  <string id="lname_stalker_748">
+    <text>スーザニン</text>
+  </string>
+  <string id="lname_stalker_749">
+    <text>スワンク</text>
+  </string>
+  <string id="lname_stalker_750">
+    <text>スウィーパー</text>
+  </string>
+  <string id="lname_stalker_751">
+    <text>スウィフティ</text>
+  </string>
+  <string id="lname_stalker_752">
+    <text>タッドポール</text>
+  </string>
+  <string id="lname_stalker_753">
+    <text>テイル</text>
+  </string>
+  <string id="lname_stalker_754">
+    <text>テイルズ</text>
+  </string>
+  <string id="lname_stalker_755">
+    <text>タンバリン</text>
+  </string>
+  <string id="lname_stalker_756">
+    <text>タンカー</text>
+  </string>
+  <string id="lname_stalker_757">
+    <text>ター</text>
+  </string>
+  <string id="lname_stalker_758">
+    <text>タランチュラ</text>
+  </string>
+  <string id="lname_stalker_759">
+    <text>ターゲット</text>
+  </string>
+  <string id="lname_stalker_760">
+    <text>テディ</text>
+  </string>
+  <string id="lname_stalker_761">
+    <text>テフロン</text>
+  </string>
+  <string id="lname_stalker_762">
+    <text>テレグラフィスト</text>
+  </string>
+  <string id="lname_stalker_763">
+    <text>ターミネーター</text>
+  </string>
+  <string id="lname_stalker_764">
+    <text>シーフ</text>
+  </string>
+  <string id="lname_stalker_765">
+    <text>シンカー</text>
+  </string>
+  <string id="lname_stalker_766">
+    <text>ソーン</text>
+  </string>
+  <string id="lname_stalker_767">
+    <text>ソートフル</text>
+  </string>
+  <string id="lname_stalker_768">
+    <text>スラシュ</text>
+  </string>
+  <string id="lname_stalker_769">
+    <text>サンダー</text>
+  </string>
+  <string id="lname_stalker_770">
+    <text>タイ</text>
+  </string>
+  <string id="lname_stalker_771">
+    <text>タイトワッド</text>
+  </string>
+  <string id="lname_stalker_772">
+    <text>タイムシート</text>
+  </string>
+  <string id="lname_stalker_773">
+    <text>チンマン</text>
+  </string>
+  <string id="lname_stalker_774">
+    <text>ティラナス</text>
+  </string>
+  <string id="lname_stalker_775">
+    <text>トウドゥストゥール</text>
+  </string>
+  <string id="lname_stalker_776">
+    <text>タバコ</text>
+  </string>
+  <string id="lname_stalker_777">
+    <text>トーン</text>
+  </string>
+  <string id="lname_stalker_778">
+    <text>トゥーピー</text>
+  </string>
+  <string id="lname_stalker_779">
+    <text>ツアーガイド</text>
+  </string>
+  <string id="lname_stalker_780">
+    <text>ツーリスト</text>
+  </string>
+  <string id="lname_stalker_781">
+    <text>トレイルブレザー</text>
+  </string>
+  <string id="lname_stalker_782">
+    <text>トランプ</text>
+  </string>
+  <string id="lname_stalker_783">
+    <text>トランスポーター</text>
+  </string>
+  <string id="lname_stalker_784">
+    <text>トラップ</text>
+  </string>
+  <string id="lname_stalker_785">
+    <text>トラッシャー</text>
+  </string>
+  <string id="lname_stalker_786">
+    <text>トラベラー</text>
+  </string>
+  <string id="lname_stalker_787">
+    <text>トリック</text>
+  </string>
+  <string id="lname_stalker_788">
+    <text>トリガー</text>
+  </string>
+  <string id="lname_stalker_789">
+    <text>トロンボーン</text>
+  </string>
+  <string id="lname_stalker_790">
+    <text>トルーパー</text>
+  </string>
+  <string id="lname_stalker_791">
+    <text>トゥルクレント</text>
+  </string>
+  <string id="lname_stalker_792">
+    <text>トランプ</text>
+  </string>
+  <string id="lname_stalker_793">
+    <text>チューナー</text>
+  </string>
+  <string id="lname_stalker_794">
+    <text>タード</text>
+  </string>
+  <string id="lname_stalker_795">
+    <text>ターキー</text>
+  </string>
+  <string id="lname_stalker_796">
+    <text>タイクーン</text>
+  </string>
+  <string id="lname_stalker_797">
+    <text>タイラント</text>
+  </string>
+  <string id="lname_stalker_798">
+    <text>アンクル</text>
+  </string>
+  <string id="lname_stalker_799">
+    <text>アンダーテイカー</text>
+  </string>
+  <string id="lname_stalker_800">
+    <text>アノーソドクス</text>
+  </string>
+  <string id="lname_stalker_801">
+    <text>バキューム</text>
+  </string>
+  <string id="lname_stalker_802">
+    <text>バガボンド</text>
+  </string>
+  <string id="lname_stalker_803">
+    <text>ヴァンダル</text>
+  </string>
+  <string id="lname_stalker_804">
+    <text>ベンチレーター</text>
+  </string>
+  <string id="lname_stalker_805">
+    <text>ヴァーバル</text>
+  </string>
+  <string id="lname_stalker_806">
+    <text>ベテラン</text>
+  </string>
+  <string id="lname_stalker_807">
+    <text>バイキング</text>
+  </string>
+  <string id="lname_stalker_808">
+    <text>ビジター</text>
+  </string>
+  <string id="lname_stalker_809">
+    <text>ボーランド</text>
+  </string>
+  <string id="lname_stalker_810">
+    <text>ヴォルデモート</text>
+  </string>
+  <string id="lname_stalker_811">
+    <text>ボイジャー</text>
+  </string>
+  <string id="lname_stalker_812">
+    <text>ブルチャー</text>
+  </string>
+  <string id="lname_stalker_813">
+    <text>ウォーデン</text>
+  </string>
+  <string id="lname_stalker_814">
+    <text>ウォーロック</text>
+  </string>
+  <string id="lname_stalker_815">
+    <text>ウォーリアー</text>
+  </string>
+  <string id="lname_stalker_816">
+    <text>ワイナー</text>
+  </string>
+  <string id="lname_stalker_817">
+    <text>ウィップ</text>
+  </string>
+  <string id="lname_stalker_818">
+    <text>ワールプール</text>
+  </string>
+  <string id="lname_stalker_819">
+    <text>ウイスキー</text>
+  </string>
+  <string id="lname_stalker_820">
+    <text>ウィスト</text>
+  </string>
+  <string id="lname_stalker_821">
+    <text>ホイッスル</text>
+  </string>
+  <string id="lname_stalker_822">
+    <text>ホワイト</text>
+  </string>
+  <string id="lname_stalker_823">
+    <text>ウィーズ</text>
+  </string>
+  <string id="lname_stalker_824">
+    <text>ウィンド</text>
+  </string>
+  <string id="lname_stalker_825">
+    <text>ヴィッチャー</text>
+  </string>
+  <string id="lname_stalker_826">
+    <text>ウッドチュック</text>
+  </string>
+  <string id="lname_stalker_827">
+    <text>ウッドペッカー</text>
+  </string>
+  <string id="lname_stalker_828">
+    <text>ワークホース</text>
+  </string>
+  <string id="lname_stalker_829">
+    <text>ワーム</text>
+  </string>
+  <string id="lname_stalker_830">
+    <text>ラングラー</text>
+  </string>
+  <string id="lname_stalker_831">
+    <text>リンクルド</text>
+  </string>
+  <string id="lname_stalker_832">
+    <text>ヤッカー</text>
+  </string>
+  <string id="lname_stalker_833">
+    <text>ジンガー</text>
+  </string>
+  <string id="lname_stalker_834">
+    <text>ズムール</text>
+  </string>
+  <string id="lname_stalker_835">
+    <text>ズッキーニ</text>
+  </string>
+  <string id="lname_bandit_0">
+    <text>アコーディオン</text>
+  </string>
+  <string id="lname_bandit_1">
+    <text>エース</text>
+  </string>
+  <string id="lname_bandit_2">
+    <text>エステート</text>
+  </string>
+  <string id="lname_bandit_3">
+    <text>アンテロープ</text>
+  </string>
+  <string id="lname_bandit_4">
+    <text>アーソニスト</text>
+  </string>
+  <string id="lname_bandit_5">
+    <text>アーティスト</text>
+  </string>
+  <string id="lname_bandit_6">
+    <text>アスピック</text>
+  </string>
+  <string id="lname_bandit_7">
+    <text>アトーニー</text>
+  </string>
+  <string id="lname_bandit_8">
+    <text>アール</text>
+  </string>
+  <string id="lname_bandit_9">
+    <text>バルディ</text>
+  </string>
+  <string id="lname_bandit_10">
+    <text>バナナ</text>
+  </string>
+  <string id="lname_bandit_11">
+    <text>バンカー</text>
+  </string>
+  <string id="lname_bandit_12">
+    <text>バーマリー</text>
+  </string>
+  <string id="lname_bandit_13">
+    <text>バロン</text>
+  </string>
+  <string id="lname_bandit_14">
+    <text>バティ</text>
+  </string>
+  <string id="lname_bandit_15">
+    <text>バトン</text>
+  </string>
+  <string id="lname_bandit_16">
+    <text>ビースト</text>
+  </string>
+  <string id="lname_bandit_17">
+    <text>ビートゥン</text>
+  </string>
+  <string id="lname_bandit_18">
+    <text>ビーバー</text>
+  </string>
+  <string id="lname_bandit_19">
+    <text>ベッドバグ</text>
+  </string>
+  <string id="lname_bandit_20">
+    <text>ベルセルク</text>
+  </string>
+  <string id="lname_bandit_21">
+    <text>ビスケット</text>
+  </string>
+  <string id="lname_bandit_22">
+    <text>バイソン</text>
+  </string>
+  <string id="lname_bandit_23">
+    <text>ブリンプ</text>
+  </string>
+  <string id="lname_bandit_24">
+    <text>ブラインド</text>
+  </string>
+  <string id="lname_bandit_25">
+    <text>ブリングブリング</text>
+  </string>
+  <string id="lname_bandit_26">
+    <text>ブロック</text>
+  </string>
+  <string id="lname_bandit_27">
+    <text>ボア</text>
+  </string>
+  <string id="lname_bandit_28">
+    <text>ボア</text>
+  </string>
+  <string id="lname_bandit_29">
+    <text>ボーツワイン</text>
+  </string>
+  <string id="lname_bandit_30">
+    <text>ボルト</text>
+  </string>
+  <string id="lname_bandit_31">
+    <text>ボスアイド</text>
+  </string>
+  <string id="lname_bandit_32">
+    <text>ボッスン</text>
+  </string>
+  <string id="lname_bandit_33">
+    <text>ボールダー</text>
+  </string>
+  <string id="lname_bandit_34">
+    <text>バーボン</text>
+  </string>
+  <string id="lname_bandit_35">
+    <text>バージィアス</text>
+  </string>
+  <string id="lname_bandit_36">
+    <text>ブリガンド</text>
+  </string>
+  <string id="lname_bandit_37">
+    <text>ブロークン</text>
+  </string>
+  <string id="lname_bandit_38">
+    <text>ブルーズ</text>
+  </string>
+  <string id="lname_bandit_39">
+    <text>バドゥ</text>
+  </string>
+  <string id="lname_bandit_40">
+    <text>バッファロー</text>
+  </string>
+  <string id="lname_bandit_41">
+    <text>ブル</text>
+  </string>
+  <string id="lname_bandit_42">
+    <text>ブルドッグ</text>
+  </string>
+  <string id="lname_bandit_43">
+    <text>バム</text>
+  </string>
+  <string id="lname_bandit_44">
+    <text>バーマー</text>
+  </string>
+  <string id="lname_bandit_45">
+    <text>バーント</text>
+  </string>
+  <string id="lname_bandit_46">
+    <text>バスタード</text>
+  </string>
+  <string id="lname_bandit_47">
+    <text>ブッチャー</text>
+  </string>
+  <string id="lname_bandit_48">
+    <text>バターフィンガー</text>
+  </string>
+  <string id="lname_bandit_49">
+    <text>カナリー</text>
+  </string>
+  <string id="lname_bandit_50">
+    <text>キャピタル</text>
+  </string>
+  <string id="lname_bandit_51">
+    <text>カープ</text>
+  </string>
+  <string id="lname_bandit_52">
+    <text>ケーヴマン</text>
+  </string>
+  <string id="lname_bandit_53">
+    <text>チャンプ</text>
+  </string>
+  <string id="lname_bandit_54">
+    <text>チャパイ</text>
+  </string>
+  <string id="lname_bandit_55">
+    <text>チャパイ</text>
+  </string>
+  <string id="lname_bandit_56">
+    <text>チャコール</text>
+  </string>
+  <string id="lname_bandit_57">
+    <text>ショウファー</text>
+  </string>
+  <string id="lname_bandit_58">
+    <text>チート</text>
+  </string>
+  <string id="lname_bandit_59">
+    <text>ケミスト</text>
+  </string>
+  <string id="lname_bandit_60">
+    <text>チリ</text>
+  </string>
+  <string id="lname_bandit_61">
+    <text>チル</text>
+  </string>
+  <string id="lname_bandit_62">
+    <text>チーゼル</text>
+  </string>
+  <string id="lname_bandit_63">
+    <text>チョーカー</text>
+  </string>
+  <string id="lname_bandit_64">
+    <text>クロニク</text>
+  </string>
+  <string id="lname_bandit_65">
+    <text>チュッカー</text>
+  </string>
+  <string id="lname_bandit_66">
+    <text>コーチ</text>
+  </string>
+  <string id="lname_bandit_67">
+    <text>コーチマン</text>
+  </string>
+  <string id="lname_bandit_68">
+    <text>コンマン</text>
+  </string>
+  <string id="lname_bandit_69">
+    <text>カノサー</text>
+  </string>
+  <string id="lname_bandit_70">
+    <text>コーナーカッター</text>
+  </string>
+  <string id="lname_bandit_71">
+    <text>コープス</text>
+  </string>
+  <string id="lname_bandit_72">
+    <text>カウンセラー</text>
+  </string>
+  <string id="lname_bandit_73">
+    <text>カウント</text>
+  </string>
+  <string id="lname_bandit_74">
+    <text>クラッカー</text>
+  </string>
+  <string id="lname_bandit_75">
+    <text>クランキー</text>
+  </string>
+  <string id="lname_bandit_76">
+    <text>クリップル</text>
+  </string>
+  <string id="lname_bandit_77">
+    <text>クロウニィ</text>
+  </string>
+  <string id="lname_bandit_78">
+    <text>クルッキドゥ</text>
+  </string>
+  <string id="lname_bandit_79">
+    <text>クロス</text>
+  </string>
+  <string id="lname_bandit_80">
+    <text>クロスタイ</text>
+  </string>
+  <string id="lname_bandit_81">
+    <text>クローバー</text>
+  </string>
+  <string id="lname_bandit_82">
+    <text>クルーシャン</text>
+  </string>
+  <string id="lname_bandit_83">
+    <text>デッドダック</text>
+  </string>
+  <string id="lname_bandit_84">
+    <text>デッドビート</text>
+  </string>
+  <string id="lname_bandit_85">
+    <text>デス</text>
+  </string>
+  <string id="lname_bandit_86">
+    <text>デカデント</text>
+  </string>
+  <string id="lname_bandit_87">
+    <text>デファンクト</text>
+  </string>
+  <string id="lname_bandit_88">
+    <text>デグリー</text>
+  </string>
+  <string id="lname_bandit_89">
+    <text>デスポット</text>
+  </string>
+  <string id="lname_bandit_90">
+    <text>ドリトル</text>
+  </string>
+  <string id="lname_bandit_91">
+    <text>ドリル</text>
+  </string>
+  <string id="lname_bandit_92">
+    <text>ドリップ</text>
+  </string>
+  <string id="lname_bandit_93">
+    <text>ドラム</text>
+  </string>
+  <string id="lname_bandit_94">
+    <text>ダミー</text>
+  </string>
+  <string id="lname_bandit_95">
+    <text>ダンプリング</text>
+  </string>
+  <string id="lname_bandit_96">
+    <text>ダイナマイト</text>
+  </string>
+  <string id="lname_bandit_97">
+    <text>イアード</text>
+  </string>
+  <string id="lname_bandit_98">
+    <text>イアー</text>
+  </string>
+  <string id="lname_bandit_99">
+    <text>エクセキューショナー</text>
+  </string>
+  <string id="lname_bandit_100">
+    <text>ファットソー</text>
+  </string>
+  <string id="lname_bandit_101">
+    <text>フェザー</text>
+  </string>
+  <string id="lname_bandit_102">
+    <text>フィーンド</text>
+  </string>
+  <string id="lname_bandit_103">
+    <text>フィアス</text>
+  </string>
+  <string id="lname_bandit_104">
+    <text>フィスト</text>
+  </string>
+  <string id="lname_bandit_105">
+    <text>フレーメン</text>
+  </string>
+  <string id="lname_bandit_106">
+    <text>フロップ</text>
+  </string>
+  <string id="lname_bandit_107">
+    <text>フォグ</text>
+  </string>
+  <string id="lname_bandit_108">
+    <text>フラッグド</text>
+  </string>
+  <string id="lname_bandit_109">
+    <text>フランティク</text>
+  </string>
+  <string id="lname_bandit_110">
+    <text>フーバー</text>
+  </string>
+  <string id="lname_bandit_111">
+    <text>ガファー</text>
+  </string>
+  <string id="lname_bandit_112">
+    <text>ギャグスター</text>
+  </string>
+  <string id="lname_bandit_113">
+    <text>ギャングリン</text>
+  </string>
+  <string id="lname_bandit_114">
+    <text>ギャングスター</text>
+  </string>
+  <string id="lname_bandit_115">
+    <text>ジンギス</text>
+  </string>
+  <string id="lname_bandit_116">
+    <text>ジェンティル</text>
+  </string>
+  <string id="lname_bandit_117">
+    <text>ゴウル</text>
+  </string>
+  <string id="lname_bandit_118">
+    <text>グリッチ</text>
+  </string>
+  <string id="lname_bandit_119">
+    <text>ゴブリン</text>
+  </string>
+  <string id="lname_bandit_120">
+    <text>ゴッドファーザー</text>
+  </string>
+  <string id="lname_bandit_121">
+    <text>グラバー</text>
+  </string>
+  <string id="lname_bandit_122">
+    <text>グラッド</text>
+  </string>
+  <string id="lname_bandit_123">
+    <text>グラフ</text>
+  </string>
+  <string id="lname_bandit_124">
+    <text>グレーター</text>
+  </string>
+  <string id="lname_bandit_125">
+    <text>グレイヴディガー</text>
+  </string>
+  <string id="lname_bandit_126">
+    <text>グレイ</text>
+  </string>
+  <string id="lname_bandit_127">
+    <text>グレイハウンド</text>
+  </string>
+  <string id="lname_bandit_128">
+    <text>グラインダー</text>
+  </string>
+  <string id="lname_bandit_129">
+    <text>グラインドストーン</text>
+  </string>
+  <string id="lname_bandit_130">
+    <text>グルッジ</text>
+  </string>
+  <string id="lname_bandit_131">
+    <text>ゲリラ</text>
+  </string>
+  <string id="lname_bandit_132">
+    <text>ハッカー</text>
+  </string>
+  <string id="lname_bandit_133">
+    <text>ハングマン</text>
+  </string>
+  <string id="lname_bandit_134">
+    <text>ハットラック</text>
+  </string>
+  <string id="lname_bandit_135">
+    <text>ヒップスター</text>
+  </string>
+  <string id="lname_bandit_136">
+    <text>ヒットマン</text>
+  </string>
+  <string id="lname_bandit_137">
+    <text>ホーボー</text>
+  </string>
+  <string id="lname_bandit_138">
+    <text>ホリー</text>
+  </string>
+  <string id="lname_bandit_139">
+    <text>ホームボーイ</text>
+  </string>
+  <string id="lname_bandit_140">
+    <text>フック</text>
+  </string>
+  <string id="lname_bandit_141">
+    <text>ホットショット</text>
+  </string>
+  <string id="lname_bandit_142">
+    <text>ハンプバック</text>
+  </string>
+  <string id="lname_bandit_143">
+    <text>ハンチバック</text>
+  </string>
+  <string id="lname_bandit_144">
+    <text>ジャック</text>
+  </string>
+  <string id="lname_bandit_145">
+    <text>ジャッカル</text>
+  </string>
+  <string id="lname_bandit_146">
+    <text>ジャックストロー</text>
+  </string>
+  <string id="lname_bandit_147">
+    <text>ジェスター</text>
+  </string>
+  <string id="lname_bandit_148">
+    <text>ジッガーズ</text>
+  </string>
+  <string id="lname_bandit_149">
+    <text>ジョイント</text>
+  </string>
+  <string id="lname_bandit_150">
+    <text>ジョーカー</text>
+  </string>
+  <string id="lname_bandit_151">
+    <text>ジャンク</text>
+  </string>
+  <string id="lname_bandit_152">
+    <text>カミカゼ</text>
+  </string>
+  <string id="lname_bandit_153">
+    <text>カスケイ</text>
+  </string>
+  <string id="lname_bandit_154">
+    <text>カーン</text>
+  </string>
+  <string id="lname_bandit_155">
+    <text>キッカー</text>
+  </string>
+  <string id="lname_bandit_156">
+    <text>キラー</text>
+  </string>
+  <string id="lname_bandit_157">
+    <text>ナックルズ</text>
+  </string>
+  <string id="lname_bandit_158">
+    <text>コシェイ</text>
+  </string>
+  <string id="lname_bandit_159">
+    <text>ラメ</text>
+  </string>
+  <string id="lname_bandit_160">
+    <text>ラマー</text>
+  </string>
+  <string id="lname_bandit_161">
+    <text>リアリー</text>
+  </string>
+  <string id="lname_bandit_162">
+    <text>リーチ</text>
+  </string>
+  <string id="lname_bandit_163">
+    <text>リーガリスト</text>
+  </string>
+  <string id="lname_bandit_164">
+    <text>レーシイ</text>
+  </string>
+  <string id="lname_bandit_165">
+    <text>リーサル</text>
+  </string>
+  <string id="lname_bandit_166">
+    <text>ローフ</text>
+  </string>
+  <string id="lname_bandit_167">
+    <text>ローカル</text>
+  </string>
+  <string id="lname_bandit_168">
+    <text>ロング</text>
+  </string>
+  <string id="lname_bandit_169">
+    <text>ロングジョン</text>
+  </string>
+  <string id="lname_bandit_170">
+    <text>ルーニィ</text>
+  </string>
+  <string id="lname_bandit_171">
+    <text>ラウドマウス</text>
+  </string>
+  <string id="lname_bandit_172">
+    <text>メージャー</text>
+  </string>
+  <string id="lname_bandit_173">
+    <text>マニアック</text>
+  </string>
+  <string id="lname_bandit_174">
+    <text>メイヘム</text>
+  </string>
+  <string id="lname_bandit_175">
+    <text>メッセンジャー</text>
+  </string>
+  <string id="lname_bandit_176">
+    <text>メット</text>
+  </string>
+  <string id="lname_bandit_177">
+    <text>マイザー</text>
+  </string>
+  <string id="lname_bandit_178">
+    <text>モノクル</text>
+  </string>
+  <string id="lname_bandit_179">
+    <text>モンスター</text>
+  </string>
+  <string id="lname_bandit_180">
+    <text>ムーア</text>
+  </string>
+  <string id="lname_bandit_181">
+    <text>ムース</text>
+  </string>
+  <string id="lname_bandit_182">
+    <text>マッディ</text>
+  </string>
+  <string id="lname_bandit_183">
+    <text>ナーク</text>
+  </string>
+  <string id="lname_bandit_184">
+    <text>ニッケル</text>
+  </string>
+  <string id="lname_bandit_185">
+    <text>ニンジャ</text>
+  </string>
+  <string id="lname_bandit_186">
+    <text>ナッシング</text>
+  </string>
+  <string id="lname_bandit_187">
+    <text>ワンアイ</text>
+  </string>
+  <string id="lname_bandit_188">
+    <text>アウトキャスト</text>
+  </string>
+  <string id="lname_bandit_189">
+    <text>オックス</text>
+  </string>
+  <string id="lname_bandit_190">
+    <text>パシフィスト</text>
+  </string>
+  <string id="lname_bandit_191">
+    <text>パナドル</text>
+  </string>
+  <string id="lname_bandit_192">
+    <text>パパ</text>
+  </string>
+  <string id="lname_bandit_193">
+    <text>パラサイト</text>
+  </string>
+  <string id="lname_bandit_194">
+    <text>パライア</text>
+  </string>
+  <string id="lname_bandit_195">
+    <text>パルティザン</text>
+  </string>
+  <string id="lname_bandit_196">
+    <text>パチューク</text>
+  </string>
+  <string id="lname_bandit_197">
+    <text>パティ</text>
+  </string>
+  <string id="lname_bandit_198">
+    <text>ペドラー</text>
+  </string>
+  <string id="lname_bandit_199">
+    <text>ペッパー</text>
+  </string>
+  <string id="lname_bandit_200">
+    <text>パーチャー</text>
+  </string>
+  <string id="lname_bandit_201">
+    <text>パープ</text>
+  </string>
+  <string id="lname_bandit_202">
+    <text>ピッグ</text>
+  </string>
+  <string id="lname_bandit_203">
+    <text>ピグミー</text>
+  </string>
+  <string id="lname_bandit_204">
+    <text>ピンプ</text>
+  </string>
+  <string id="lname_bandit_205">
+    <text>ピントル</text>
+  </string>
+  <string id="lname_bandit_206">
+    <text>パイレート</text>
+  </string>
+  <string id="lname_bandit_207">
+    <text>ピストン</text>
+  </string>
+  <string id="lname_bandit_208">
+    <text>プレイヤー</text>
+  </string>
+  <string id="lname_bandit_209">
+    <text>プリック</text>
+  </string>
+  <string id="lname_bandit_210">
+    <text>プリンス</text>
+  </string>
+  <string id="lname_bandit_211">
+    <text>サイコ</text>
+  </string>
+  <string id="lname_bandit_212">
+    <text>パンク</text>
+  </string>
+  <string id="lname_bandit_213">
+    <text>プッシャー</text>
+  </string>
+  <string id="lname_bandit_214">
+    <text>ラッグド</text>
+  </string>
+  <string id="lname_bandit_215">
+    <text>ランボ</text>
+  </string>
+  <string id="lname_bandit_216">
+    <text>ラスカル</text>
+  </string>
+  <string id="lname_bandit_217">
+    <text>ラット</text>
+  </string>
+  <string id="lname_bandit_218">
+    <text>ラヴィオリ</text>
+  </string>
+  <string id="lname_bandit_219">
+    <text>レーザー</text>
+  </string>
+  <string id="lname_bandit_220">
+    <text>リーファー</text>
+  </string>
+  <string id="lname_bandit_221">
+    <text>ロバスト</text>
+  </string>
+  <string id="lname_bandit_222">
+    <text>ローグ</text>
+  </string>
+  <string id="lname_bandit_223">
+    <text>ロトゥン</text>
+  </string>
+  <string id="lname_bandit_224">
+    <text>サベージ</text>
+  </string>
+  <string id="lname_bandit_225">
+    <text>スクリュー</text>
+  </string>
+  <string id="lname_bandit_226">
+    <text>シェーヴド</text>
+  </string>
+  <string id="lname_bandit_227">
+    <text>シェイヴン</text>
+  </string>
+  <string id="lname_bandit_228">
+    <text>シフター</text>
+  </string>
+  <string id="lname_bandit_229">
+    <text>シブ</text>
+  </string>
+  <string id="lname_bandit_230">
+    <text>ショートストップ</text>
+  </string>
+  <string id="lname_bandit_231">
+    <text>ショベル</text>
+  </string>
+  <string id="lname_bandit_232">
+    <text>スキュー</text>
+  </string>
+  <string id="lname_bandit_233">
+    <text>スラッシャー</text>
+  </string>
+  <string id="lname_bandit_234">
+    <text>スライム</text>
+  </string>
+  <string id="lname_bandit_235">
+    <text>スネーク</text>
+  </string>
+  <string id="lname_bandit_236">
+    <text>スノット</text>
+  </string>
+  <string id="lname_bandit_237">
+    <text>ソックス</text>
+  </string>
+  <string id="lname_bandit_238">
+    <text>スパム</text>
+  </string>
+  <string id="lname_bandit_239">
+    <text>スパロー</text>
+  </string>
+  <string id="lname_bandit_240">
+    <text>スパイク</text>
+  </string>
+  <string id="lname_bandit_241">
+    <text>スプリフ</text>
+  </string>
+  <string id="lname_bandit_242">
+    <text>スパイ</text>
+  </string>
+  <string id="lname_bandit_243">
+    <text>スクイージー</text>
+  </string>
+  <string id="lname_bandit_244">
+    <text>スクインツ</text>
+  </string>
+  <string id="lname_bandit_245">
+    <text>スクワイア</text>
+  </string>
+  <string id="lname_bandit_246">
+    <text>スタウト</text>
+  </string>
+  <string id="lname_bandit_247">
+    <text>ストラングラー</text>
+  </string>
+  <string id="lname_bandit_248">
+    <text>スタッド</text>
+  </string>
+  <string id="lname_bandit_249">
+    <text>スターディ</text>
+  </string>
+  <string id="lname_bandit_250">
+    <text>サージャン</text>
+  </string>
+  <string id="lname_bandit_251">
+    <text>スーザニン</text>
+  </string>
+  <string id="lname_bandit_252">
+    <text>タッドポール</text>
+  </string>
+  <string id="lname_bandit_253">
+    <text>テイルズ</text>
+  </string>
+  <string id="lname_bandit_254">
+    <text>タンバリン</text>
+  </string>
+  <string id="lname_bandit_255">
+    <text>ター</text>
+  </string>
+  <string id="lname_bandit_256">
+    <text>テディ</text>
+  </string>
+  <string id="lname_bandit_257">
+    <text>ターミネーター</text>
+  </string>
+  <string id="lname_bandit_258">
+    <text>シーフ</text>
+  </string>
+  <string id="lname_bandit_259">
+    <text>タイ</text>
+  </string>
+  <string id="lname_bandit_260">
+    <text>タイトワッド</text>
+  </string>
+  <string id="lname_bandit_261">
+    <text>ティラナス</text>
+  </string>
+  <string id="lname_bandit_262">
+    <text>トーン</text>
+  </string>
+  <string id="lname_bandit_263">
+    <text>トゥピー</text>
+  </string>
+  <string id="lname_bandit_264">
+    <text>ツアーガイド</text>
+  </string>
+  <string id="lname_bandit_265">
+    <text>トランプ</text>
+  </string>
+  <string id="lname_bandit_266">
+    <text>トランスポーター</text>
+  </string>
+  <string id="lname_bandit_267">
+    <text>トロンボーン</text>
+  </string>
+  <string id="lname_bandit_268">
+    <text>トランプ</text>
+  </string>
+  <string id="lname_bandit_269">
+    <text>タード</text>
+  </string>
+  <string id="lname_bandit_270">
+    <text>タイラント</text>
+  </string>
+  <string id="lname_bandit_271">
+    <text>アンダーテイカー</text>
+  </string>
+  <string id="lname_bandit_272">
+    <text>アンオーソドックス</text>
+  </string>
+  <string id="lname_bandit_273">
+    <text>バガボンド</text>
+  </string>
+  <string id="lname_bandit_274">
+    <text>ベテラン</text>
+  </string>
+  <string id="lname_bandit_275">
+    <text>ウォーロック</text>
+  </string>
+  <string id="lname_bandit_276">
+    <text>ウッドペッカー</text>
+  </string>
+  <string id="lname_bandit_277">
+    <text>ワーム</text>
+  </string>
+  <string id="lname_bandit_278">
+    <text>リンクルド</text>
+  </string>
+  <string id="lname_bandit_279">
+    <text>ヤッカー</text>
+  </string>
+  <string id="lname_bandit_280">
+    <text>ズムール</text>
+  </string>
+  <string id="lname_senior_sergeant_0">
+    <text>アブデュラクマノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_1">
+    <text>アルティニック</text>
+  </string>
+  <string id="lname_senior_sergeant_2">
+    <text>アンドレイチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_3">
+    <text>アンドルスチェンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_4">
+    <text>アニシエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_5">
+    <text>アンダシェフ</text>
+  </string>
+  <string id="lname_senior_sergeant_6">
+    <text>バビチ</text>
+  </string>
+  <string id="lname_senior_sergeant_7">
+    <text>バラン</text>
+  </string>
+  <string id="lname_senior_sergeant_8">
+    <text>バラノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_9">
+    <text>バラノフスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_10">
+    <text>バルサック</text>
+  </string>
+  <string id="lname_senior_sergeant_11">
+    <text>バシャコフ</text>
+  </string>
+  <string id="lname_senior_sergeant_12">
+    <text>バシュマコフ</text>
+  </string>
+  <string id="lname_senior_sergeant_13">
+    <text>バウル</text>
+  </string>
+  <string id="lname_senior_sergeant_14">
+    <text>ベシェヴリ</text>
+  </string>
+  <string id="lname_senior_sergeant_15">
+    <text>ビノエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_16">
+    <text>ブリノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_17">
+    <text>ボブロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_18">
+    <text>ボグダノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_19">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_20">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_senior_sergeant_21">
+    <text>ボルドスクル</text>
+  </string>
+  <string id="lname_senior_sergeant_22">
+    <text>ボンダレフ</text>
+  </string>
+  <string id="lname_senior_sergeant_23">
+    <text>ボリソフ</text>
+  </string>
+  <string id="lname_senior_sergeant_24">
+    <text>ブリチ</text>
+  </string>
+  <string id="lname_senior_sergeant_25">
+    <text>ブロンスタイン</text>
+  </string>
+  <string id="lname_senior_sergeant_26">
+    <text>ブリャク</text>
+  </string>
+  <string id="lname_senior_sergeant_27">
+    <text>ブトゥリン</text>
+  </string>
+  <string id="lname_senior_sergeant_28">
+    <text>ブヤロ</text>
+  </string>
+  <string id="lname_senior_sergeant_29">
+    <text>デニセンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_30">
+    <text>ドムブリク</text>
+  </string>
+  <string id="lname_senior_sergeant_31">
+    <text>ドトセンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_32">
+    <text>ドヴガリューク</text>
+  </string>
+  <string id="lname_senior_sergeant_33">
+    <text>ドロズドゥシュ</text>
+  </string>
+  <string id="lname_senior_sergeant_34">
+    <text>ドゥベンチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_35">
+    <text>ドゥドロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_36">
+    <text>ドゥーカ</text>
+  </string>
+  <string id="lname_senior_sergeant_37">
+    <text>ドゥムコ</text>
+  </string>
+  <string id="lname_senior_sergeant_38">
+    <text>ドゥナエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_39">
+    <text>ディクロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_40">
+    <text>エフレモフ</text>
+  </string>
+  <string id="lname_senior_sergeant_41">
+    <text>エロフェエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_42">
+    <text>フッツィン</text>
+  </string>
+  <string id="lname_senior_sergeant_43">
+    <text>ガルキン</text>
+  </string>
+  <string id="lname_senior_sergeant_44">
+    <text>ガンジュク</text>
+  </string>
+  <string id="lname_senior_sergeant_45">
+    <text>ガルコヴェンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_46">
+    <text>ガルクーシャ</text>
+  </string>
+  <string id="lname_senior_sergeant_47">
+    <text>ガツラ</text>
+  </string>
+  <string id="lname_senior_sergeant_48">
+    <text>ゲオルゴフ</text>
+  </string>
+  <string id="lname_senior_sergeant_49">
+    <text>グレボフスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_50">
+    <text>グナチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_51">
+    <text>ゴンチャレンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_52">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_53">
+    <text>ゴルレヴォイ</text>
+  </string>
+  <string id="lname_senior_sergeant_54">
+    <text>ゴローヒン</text>
+  </string>
+  <string id="lname_senior_sergeant_55">
+    <text>ゴリューノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_56">
+    <text>グレベンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_57">
+    <text>グリスチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_58">
+    <text>グリシャチェフ</text>
+  </string>
+  <string id="lname_senior_sergeant_59">
+    <text>グリッザエンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_60">
+    <text>グリッツェイ</text>
+  </string>
+  <string id="lname_senior_sergeant_61">
+    <text>グリッツェンコフ</text>
+  </string>
+  <string id="lname_senior_sergeant_62">
+    <text>グバル</text>
+  </string>
+  <string id="lname_senior_sergeant_63">
+    <text>グンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_64">
+    <text>グレヴィチ</text>
+  </string>
+  <string id="lname_senior_sergeant_65">
+    <text>イグナテンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_66">
+    <text>イシューク</text>
+  </string>
+  <string id="lname_senior_sergeant_67">
+    <text>イワノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_68">
+    <text>イゼンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_69">
+    <text>カンディバブコ</text>
+  </string>
+  <string id="lname_senior_sergeant_70">
+    <text>カプーカ</text>
+  </string>
+  <string id="lname_senior_sergeant_71">
+    <text>カプスチャンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_72">
+    <text>カツ</text>
+  </string>
+  <string id="lname_senior_sergeant_73">
+    <text>カザコフ</text>
+  </string>
+  <string id="lname_senior_sergeant_74">
+    <text>カザントセフ</text>
+  </string>
+  <string id="lname_senior_sergeant_75">
+    <text>ハラジェ</text>
+  </string>
+  <string id="lname_senior_sergeant_76">
+    <text>キカビゼ</text>
+  </string>
+  <string id="lname_senior_sergeant_77">
+    <text>キレエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_78">
+    <text>コエブ</text>
+  </string>
+  <string id="lname_senior_sergeant_79">
+    <text>コロンタル</text>
+  </string>
+  <string id="lname_senior_sergeant_80">
+    <text>コロンタレフ</text>
+  </string>
+  <string id="lname_senior_sergeant_81">
+    <text>コンドラテンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_82">
+    <text>コルキン</text>
+  </string>
+  <string id="lname_senior_sergeant_83">
+    <text>コルネフ</text>
+  </string>
+  <string id="lname_senior_sergeant_84">
+    <text>コバルチェク</text>
+  </string>
+  <string id="lname_senior_sergeant_85">
+    <text>コズロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_86">
+    <text>クラブチェンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_87">
+    <text>クリヴダ</text>
+  </string>
+  <string id="lname_senior_sergeant_88">
+    <text>クリヴォクハツキー</text>
+  </string>
+  <string id="lname_senior_sergeant_89">
+    <text>クリガ</text>
+  </string>
+  <string id="lname_senior_sergeant_90">
+    <text>クチェルク</text>
+  </string>
+  <string id="lname_senior_sergeant_91">
+    <text>クルチストキー</text>
+  </string>
+  <string id="lname_senior_sergeant_92">
+    <text>クンツェフ</text>
+  </string>
+  <string id="lname_senior_sergeant_93">
+    <text>クルビッツ</text>
+  </string>
+  <string id="lname_senior_sergeant_94">
+    <text>クシュナレフ</text>
+  </string>
+  <string id="lname_senior_sergeant_95">
+    <text>クズミッチ</text>
+  </string>
+  <string id="lname_senior_sergeant_96">
+    <text>クズネツォフ</text>
+  </string>
+  <string id="lname_senior_sergeant_97">
+    <text>クジャキン</text>
+  </string>
+  <string id="lname_senior_sergeant_98">
+    <text>ラヴリク</text>
+  </string>
+  <string id="lname_senior_sergeant_99">
+    <text>ラヴロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_100">
+    <text>リシチャンスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_101">
+    <text>リトゥヴィン</text>
+  </string>
+  <string id="lname_senior_sergeant_102">
+    <text>リヴシツ</text>
+  </string>
+  <string id="lname_senior_sergeant_103">
+    <text>リマレンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_104">
+    <text>マカレンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_105">
+    <text>マルツェフ</text>
+  </string>
+  <string id="lname_senior_sergeant_106">
+    <text>ママエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_107">
+    <text>マゼパ</text>
+  </string>
+  <string id="lname_senior_sergeant_108">
+    <text>メルズレーエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_109">
+    <text>ミチェンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_110">
+    <text>ミロニュク</text>
+  </string>
+  <string id="lname_senior_sergeant_111">
+    <text>モーラー</text>
+  </string>
+  <string id="lname_senior_sergeant_112">
+    <text>モストボイ</text>
+  </string>
+  <string id="lname_senior_sergeant_113">
+    <text>ムクハメドフ</text>
+  </string>
+  <string id="lname_senior_sergeant_114">
+    <text>ムンチャン</text>
+  </string>
+  <string id="lname_senior_sergeant_115">
+    <text>ミスコフ</text>
+  </string>
+  <string id="lname_senior_sergeant_116">
+    <text>ナヴロツキー</text>
+  </string>
+  <string id="lname_senior_sergeant_117">
+    <text>ネプリツキー</text>
+  </string>
+  <string id="lname_senior_sergeant_118">
+    <text>ニカノロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_119">
+    <text>ニケシン</text>
+  </string>
+  <string id="lname_senior_sergeant_120">
+    <text>ニクリン</text>
+  </string>
+  <string id="lname_senior_sergeant_121">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_122">
+    <text>ノサン</text>
+  </string>
+  <string id="lname_senior_sergeant_123">
+    <text>オポレフ</text>
+  </string>
+  <string id="lname_senior_sergeant_124">
+    <text>オルレヴィッチ</text>
+  </string>
+  <string id="lname_senior_sergeant_125">
+    <text>オルロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_126">
+    <text>ペトケヴィッチ</text>
+  </string>
+  <string id="lname_senior_sergeant_127">
+    <text>ペトレンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_128">
+    <text>ペトロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_129">
+    <text>プロケンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_130">
+    <text>ポジャチェフ</text>
+  </string>
+  <string id="lname_senior_sergeant_131">
+    <text>ポリアニン</text>
+  </string>
+  <string id="lname_senior_sergeant_132">
+    <text>ポプラフスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_133">
+    <text>ポポフ</text>
+  </string>
+  <string id="lname_senior_sergeant_134">
+    <text>ポルトニーフ</text>
+  </string>
+  <string id="lname_senior_sergeant_135">
+    <text>プラソロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_136">
+    <text>プロコペンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_137">
+    <text>プロスクリン</text>
+  </string>
+  <string id="lname_senior_sergeant_138">
+    <text>プロトセンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_139">
+    <text>プリュドフ</text>
+  </string>
+  <string id="lname_senior_sergeant_140">
+    <text>プチェク</text>
+  </string>
+  <string id="lname_senior_sergeant_141">
+    <text>プストヴァル</text>
+  </string>
+  <string id="lname_senior_sergeant_142">
+    <text>ラビノヴィッチ</text>
+  </string>
+  <string id="lname_senior_sergeant_143">
+    <text>ラドケヴィッチ</text>
+  </string>
+  <string id="lname_senior_sergeant_144">
+    <text>レズン</text>
+  </string>
+  <string id="lname_senior_sergeant_145">
+    <text>ロドニャンスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_146">
+    <text>ロゴザ</text>
+  </string>
+  <string id="lname_senior_sergeant_147">
+    <text>ロタン</text>
+  </string>
+  <string id="lname_senior_sergeant_148">
+    <text>ルブレフ</text>
+  </string>
+  <string id="lname_senior_sergeant_149">
+    <text>ルディク</text>
+  </string>
+  <string id="lname_senior_sergeant_150">
+    <text>ルサノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_151">
+    <text>リチャギルスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_152">
+    <text>サギトフ</text>
+  </string>
+  <string id="lname_senior_sergeant_153">
+    <text>サブチェンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_154">
+    <text>サヴチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_155">
+    <text>シェルビン</text>
+  </string>
+  <string id="lname_senior_sergeant_156">
+    <text>セディク</text>
+  </string>
+  <string id="lname_senior_sergeant_157">
+    <text>セレダ</text>
+  </string>
+  <string id="lname_senior_sergeant_158">
+    <text>シドレンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_159">
+    <text>シドロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_160">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_senior_sergeant_161">
+    <text>シニイ</text>
+  </string>
+  <string id="lname_senior_sergeant_162">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_senior_sergeant_163">
+    <text>スルツキー</text>
+  </string>
+  <string id="lname_senior_sergeant_164">
+    <text>スメロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_165">
+    <text>スモリ</text>
+  </string>
+  <string id="lname_senior_sergeant_166">
+    <text>ソロキン</text>
+  </string>
+  <string id="lname_senior_sergeant_167">
+    <text>スタツラ</text>
+  </string>
+  <string id="lname_senior_sergeant_168">
+    <text>ステプチン</text>
+  </string>
+  <string id="lname_senior_sergeant_169">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_170">
+    <text>スヴィリドフ</text>
+  </string>
+  <string id="lname_senior_sergeant_171">
+    <text>シクラ</text>
+  </string>
+  <string id="lname_senior_sergeant_172">
+    <text>タルナヴスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_173">
+    <text>タタルチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_174">
+    <text>ティムチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_175">
+    <text>ヴァレンティノフ</text>
+  </string>
+  <string id="lname_senior_sergeant_176">
+    <text>ヴァシリエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_177">
+    <text>ヴァセロフ</text>
+  </string>
+  <string id="lname_senior_sergeant_178">
+    <text>ヴィノグラドフ</text>
+  </string>
+  <string id="lname_senior_sergeant_179">
+    <text>ヴォランチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_180">
+    <text>ヴォロダル</text>
+  </string>
+  <string id="lname_senior_sergeant_181">
+    <text>ヴォロシン</text>
+  </string>
+  <string id="lname_senior_sergeant_182">
+    <text>ヴォロカエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_183">
+    <text>ヴォロントソフ</text>
+  </string>
+  <string id="lname_senior_sergeant_184">
+    <text>ヴォヴネンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_185">
+    <text>ブリュシンスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_186">
+    <text>ザビャゴダ</text>
+  </string>
+  <string id="lname_senior_sergeant_187">
+    <text>ザゴロドュニュク</text>
+  </string>
+  <string id="lname_senior_sergeant_188">
+    <text>ザクハリン</text>
+  </string>
+  <string id="lname_senior_sergeant_189">
+    <text>ザモセンチュク</text>
+  </string>
+  <string id="lname_senior_sergeant_190">
+    <text>ザルビン</text>
+  </string>
+  <string id="lname_senior_sergeant_191">
+    <text>ザベンコ</text>
+  </string>
+  <string id="lname_senior_sergeant_192">
+    <text>ジューミエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_193">
+    <text>ズラコフスキー</text>
+  </string>
+  <string id="lname_senior_sergeant_194">
+    <text>ジノビエフ</text>
+  </string>
+  <string id="lname_senior_sergeant_195">
+    <text>ゾロタール</text>
+  </string>
+  <string id="lname_senior_sergeant_196">
+    <text>ゾゾ</text>
+  </string>
+  <string id="lname_senior_sergeant_197">
+    <text>ズバレフ</text>
+  </string>
+  <string id="lname_senior_sergeant_198">
+    <text>ズブコフ</text>
+  </string>
+  <string id="lname_senior_sergeant_199">
+    <text>ズヴォニツキー</text>
+  </string>
+  <string id="lname_lieutenant_0">
+    <text>アブデュラフマノフ</text>
+  </string>
+  <string id="lname_lieutenant_1">
+    <text>アブドゥルマノフ</text>
+  </string>
+  <string id="lname_lieutenant_2">
+    <text>アルティニック</text>
+  </string>
+  <string id="lname_lieutenant_3">
+    <text>アンドレイチュク</text>
+  </string>
+  <string id="lname_lieutenant_4">
+    <text>アンドルスチェンコ</text>
+  </string>
+  <string id="lname_lieutenant_5">
+    <text>アニセイエフ</text>
+  </string>
+  <string id="lname_lieutenant_6">
+    <text>アニセーエフ</text>
+  </string>
+  <string id="lname_lieutenant_7">
+    <text>アンダシェフ</text>
+  </string>
+  <string id="lname_lieutenant_8">
+    <text>バビチ</text>
+  </string>
+  <string id="lname_lieutenant_9">
+    <text>バラン</text>
+  </string>
+  <string id="lname_lieutenant_10">
+    <text>バラノフ</text>
+  </string>
+  <string id="lname_lieutenant_11">
+    <text>バラノフスキー</text>
+  </string>
+  <string id="lname_lieutenant_12">
+    <text>バルサック</text>
+  </string>
+  <string id="lname_lieutenant_13">
+    <text>バシャコフ</text>
+  </string>
+  <string id="lname_lieutenant_14">
+    <text>バシュマコフ</text>
+  </string>
+  <string id="lname_lieutenant_15">
+    <text>バウル</text>
+  </string>
+  <string id="lname_lieutenant_16">
+    <text>ベシェヴリイ</text>
+  </string>
+  <string id="lname_lieutenant_17">
+    <text>ベシェヴリィ</text>
+  </string>
+  <string id="lname_lieutenant_18">
+    <text>ビノエフ</text>
+  </string>
+  <string id="lname_lieutenant_19">
+    <text>ビノイエフ</text>
+  </string>
+  <string id="lname_lieutenant_20">
+    <text>ブリノフ</text>
+  </string>
+  <string id="lname_lieutenant_21">
+    <text>ボブロフ</text>
+  </string>
+  <string id="lname_lieutenant_22">
+    <text>ボグダノフ</text>
+  </string>
+  <string id="lname_lieutenant_23">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_lieutenant_24">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_lieutenant_25">
+    <text>ボルドスクル</text>
+  </string>
+  <string id="lname_lieutenant_26">
+    <text>ボンダレフ</text>
+  </string>
+  <string id="lname_lieutenant_27">
+    <text>ボリソフ</text>
+  </string>
+  <string id="lname_lieutenant_28">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_lieutenant_29">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_lieutenant_30">
+    <text>ブリチ</text>
+  </string>
+  <string id="lname_lieutenant_31">
+    <text>ブロンスタイン</text>
+  </string>
+  <string id="lname_lieutenant_32">
+    <text>ブリャク</text>
+  </string>
+  <string id="lname_lieutenant_33">
+    <text>ブトゥリン</text>
+  </string>
+  <string id="lname_lieutenant_34">
+    <text>ブヤロ</text>
+  </string>
+  <string id="lname_lieutenant_35">
+    <text>デニセンコ</text>
+  </string>
+  <string id="lname_lieutenant_36">
+    <text>ドムブリク</text>
+  </string>
+  <string id="lname_lieutenant_37">
+    <text>ドトセンコ</text>
+  </string>
+  <string id="lname_lieutenant_38">
+    <text>ドヴガリューク</text>
+  </string>
+  <string id="lname_lieutenant_39">
+    <text>ドロズドゥシュ</text>
+  </string>
+  <string id="lname_lieutenant_40">
+    <text>ドゥベンチュク</text>
+  </string>
+  <string id="lname_lieutenant_41">
+    <text>ドゥドロフ</text>
+  </string>
+  <string id="lname_lieutenant_42">
+    <text>ドゥーカ</text>
+  </string>
+  <string id="lname_lieutenant_43">
+    <text>ドゥムコ</text>
+  </string>
+  <string id="lname_lieutenant_44">
+    <text>ドゥナエフ</text>
+  </string>
+  <string id="lname_lieutenant_45">
+    <text>ドゥナイエフ</text>
+  </string>
+  <string id="lname_lieutenant_46">
+    <text>ディクロフ</text>
+  </string>
+  <string id="lname_lieutenant_47">
+    <text>エフレモフ</text>
+  </string>
+  <string id="lname_lieutenant_48">
+    <text>エロフェエフ</text>
+  </string>
+  <string id="lname_lieutenant_49">
+    <text>エロフェイエフ</text>
+  </string>
+  <string id="lname_lieutenant_50">
+    <text>フッツィン</text>
+  </string>
+  <string id="lname_lieutenant_51">
+    <text>ガルキン</text>
+  </string>
+  <string id="lname_lieutenant_52">
+    <text>ガンジュク</text>
+  </string>
+  <string id="lname_lieutenant_53">
+    <text>ガルコヴェンコ</text>
+  </string>
+  <string id="lname_lieutenant_54">
+    <text>ガルクーシャ</text>
+  </string>
+  <string id="lname_lieutenant_55">
+    <text>ガチュラ</text>
+  </string>
+  <string id="lname_lieutenant_56">
+    <text>ガツラ</text>
+  </string>
+  <string id="lname_lieutenant_57">
+    <text>ゲオルゴフ</text>
+  </string>
+  <string id="lname_lieutenant_58">
+    <text>グレボフスキー</text>
+  </string>
+  <string id="lname_lieutenant_59">
+    <text>グナチュク</text>
+  </string>
+  <string id="lname_lieutenant_60">
+    <text>ゴンチャレンコ</text>
+  </string>
+  <string id="lname_lieutenant_61">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_lieutenant_62">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_lieutenant_63">
+    <text>ゴルレヴォイ</text>
+  </string>
+  <string id="lname_lieutenant_64">
+    <text>ゴロヒン</text>
+  </string>
+  <string id="lname_lieutenant_65">
+    <text>ゴローヒン</text>
+  </string>
+  <string id="lname_lieutenant_66">
+    <text>ゴリューノフ</text>
+  </string>
+  <string id="lname_lieutenant_67">
+    <text>グレイ</text>
+  </string>
+  <string id="lname_lieutenant_68">
+    <text>グレベンコ</text>
+  </string>
+  <string id="lname_lieutenant_69">
+    <text>グレベニュク</text>
+  </string>
+  <string id="lname_lieutenant_70">
+    <text>グリスチュク</text>
+  </string>
+  <string id="lname_lieutenant_71">
+    <text>グリシャチェフ</text>
+  </string>
+  <string id="lname_lieutenant_72">
+    <text>グリツセイ</text>
+  </string>
+  <string id="lname_lieutenant_73">
+    <text>グリツサイエンコ</text>
+  </string>
+  <string id="lname_lieutenant_74">
+    <text>グリツセンコ</text>
+  </string>
+  <string id="lname_lieutenant_75">
+    <text>グリッツァエンコ</text>
+  </string>
+  <string id="lname_lieutenant_76">
+    <text>グリッツェイ</text>
+  </string>
+  <string id="lname_lieutenant_77">
+    <text>グリッツェンコフ</text>
+  </string>
+  <string id="lname_lieutenant_78">
+    <text>グバル</text>
+  </string>
+  <string id="lname_lieutenant_79">
+    <text>グンコ</text>
+  </string>
+  <string id="lname_lieutenant_80">
+    <text>グレヴィチ</text>
+  </string>
+  <string id="lname_lieutenant_81">
+    <text>イグナテンコ</text>
+  </string>
+  <string id="lname_lieutenant_82">
+    <text>イシューク</text>
+  </string>
+  <string id="lname_lieutenant_83">
+    <text>イワノフ</text>
+  </string>
+  <string id="lname_lieutenant_84">
+    <text>イゼンコ</text>
+  </string>
+  <string id="lname_lieutenant_85">
+    <text>カンディバブコ</text>
+  </string>
+  <string id="lname_lieutenant_86">
+    <text>カプーカ</text>
+  </string>
+  <string id="lname_lieutenant_87">
+    <text>カプスチャンコ</text>
+  </string>
+  <string id="lname_lieutenant_88">
+    <text>カツ</text>
+  </string>
+  <string id="lname_lieutenant_89">
+    <text>カザコフ</text>
+  </string>
+  <string id="lname_lieutenant_90">
+    <text>カザントセフ</text>
+  </string>
+  <string id="lname_lieutenant_91">
+    <text>ハラジェ</text>
+  </string>
+  <string id="lname_lieutenant_92">
+    <text>キカビゼ</text>
+  </string>
+  <string id="lname_lieutenant_93">
+    <text>キレエフ</text>
+  </string>
+  <string id="lname_lieutenant_94">
+    <text>キレイエフ</text>
+  </string>
+  <string id="lname_lieutenant_95">
+    <text>クリメンコ</text>
+  </string>
+  <string id="lname_lieutenant_96">
+    <text>コエブ</text>
+  </string>
+  <string id="lname_lieutenant_97">
+    <text>コロンタル</text>
+  </string>
+  <string id="lname_lieutenant_98">
+    <text>コロンタレフ</text>
+  </string>
+  <string id="lname_lieutenant_99">
+    <text>コンドラテンコ</text>
+  </string>
+  <string id="lname_lieutenant_100">
+    <text>コルキン</text>
+  </string>
+  <string id="lname_lieutenant_101">
+    <text>コルネエフ</text>
+  </string>
+  <string id="lname_lieutenant_102">
+    <text>コルネイエフ</text>
+  </string>
+  <string id="lname_lieutenant_103">
+    <text>コバルチェク</text>
+  </string>
+  <string id="lname_lieutenant_104">
+    <text>コエフ</text>
+  </string>
+  <string id="lname_lieutenant_105">
+    <text>コズロフ</text>
+  </string>
+  <string id="lname_lieutenant_106">
+    <text>クラブチェンコ</text>
+  </string>
+  <string id="lname_lieutenant_107">
+    <text>クリヴダ</text>
+  </string>
+  <string id="lname_lieutenant_108">
+    <text>クリヴォハツキー</text>
+  </string>
+  <string id="lname_lieutenant_109">
+    <text>クリボハツキー</text>
+  </string>
+  <string id="lname_lieutenant_110">
+    <text>クリガ</text>
+  </string>
+  <string id="lname_lieutenant_111">
+    <text>クチェルク</text>
+  </string>
+  <string id="lname_lieutenant_112">
+    <text>クルチストキー</text>
+  </string>
+  <string id="lname_lieutenant_113">
+    <text>クルチツキー</text>
+  </string>
+  <string id="lname_lieutenant_114">
+    <text>クンツェフ</text>
+  </string>
+  <string id="lname_lieutenant_115">
+    <text>クルヴィッツ</text>
+  </string>
+  <string id="lname_lieutenant_116">
+    <text>クルビッツ</text>
+  </string>
+  <string id="lname_lieutenant_117">
+    <text>クシュナレフ</text>
+  </string>
+  <string id="lname_lieutenant_118">
+    <text>クシュナリョフ</text>
+  </string>
+  <string id="lname_lieutenant_119">
+    <text>クズミッチ</text>
+  </string>
+  <string id="lname_lieutenant_120">
+    <text>クズネツォフ</text>
+  </string>
+  <string id="lname_lieutenant_121">
+    <text>クジャキン</text>
+  </string>
+  <string id="lname_lieutenant_122">
+    <text>ラヴリク</text>
+  </string>
+  <string id="lname_lieutenant_123">
+    <text>ラヴロフ</text>
+  </string>
+  <string id="lname_lieutenant_124">
+    <text>リシチャンスキー</text>
+  </string>
+  <string id="lname_lieutenant_125">
+    <text>リトゥヴィン</text>
+  </string>
+  <string id="lname_lieutenant_126">
+    <text>リヴシツ</text>
+  </string>
+  <string id="lname_lieutenant_127">
+    <text>リマレンコ</text>
+  </string>
+  <string id="lname_lieutenant_128">
+    <text>マカレンコ</text>
+  </string>
+  <string id="lname_lieutenant_129">
+    <text>マルツェフ</text>
+  </string>
+  <string id="lname_lieutenant_130">
+    <text>ママエフ</text>
+  </string>
+  <string id="lname_lieutenant_131">
+    <text>ママイエフ</text>
+  </string>
+  <string id="lname_lieutenant_132">
+    <text>マゼパ</text>
+  </string>
+  <string id="lname_lieutenant_133">
+    <text>メルズライエフ</text>
+  </string>
+  <string id="lname_lieutenant_134">
+    <text>メルツリヤエフ</text>
+  </string>
+  <string id="lname_lieutenant_135">
+    <text>ミチェンコ</text>
+  </string>
+  <string id="lname_lieutenant_136">
+    <text>ミロニュク</text>
+  </string>
+  <string id="lname_lieutenant_137">
+    <text>モーラー</text>
+  </string>
+  <string id="lname_lieutenant_138">
+    <text>モレル</text>
+  </string>
+  <string id="lname_lieutenant_139">
+    <text>モロゾフ</text>
+  </string>
+  <string id="lname_lieutenant_140">
+    <text>モストボイ</text>
+  </string>
+  <string id="lname_lieutenant_141">
+    <text>モストヴォイ</text>
+  </string>
+  <string id="lname_lieutenant_142">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_lieutenant_143">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_lieutenant_144">
+    <text>ムンチャン</text>
+  </string>
+  <string id="lname_lieutenant_145">
+    <text>ミスコフ</text>
+  </string>
+  <string id="lname_lieutenant_146">
+    <text>ナヴロツキー</text>
+  </string>
+  <string id="lname_lieutenant_147">
+    <text>ネプリツキー</text>
+  </string>
+  <string id="lname_lieutenant_148">
+    <text>ニカノロフ</text>
+  </string>
+  <string id="lname_lieutenant_149">
+    <text>ニケシン</text>
+  </string>
+  <string id="lname_lieutenant_150">
+    <text>ニクリン</text>
+  </string>
+  <string id="lname_lieutenant_151">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_lieutenant_152">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_lieutenant_153">
+    <text>ノサン</text>
+  </string>
+  <string id="lname_lieutenant_154">
+    <text>オポレフ</text>
+  </string>
+  <string id="lname_lieutenant_155">
+    <text>オルレヴィッチ</text>
+  </string>
+  <string id="lname_lieutenant_156">
+    <text>オルロフ</text>
+  </string>
+  <string id="lname_lieutenant_157">
+    <text>ペトケヴィッチ</text>
+  </string>
+  <string id="lname_lieutenant_158">
+    <text>ペトレンコ</text>
+  </string>
+  <string id="lname_lieutenant_159">
+    <text>ペトロフ</text>
+  </string>
+  <string id="lname_lieutenant_160">
+    <text>プロヘンコ</text>
+  </string>
+  <string id="lname_lieutenant_161">
+    <text>プロケンコ</text>
+  </string>
+  <string id="lname_lieutenant_162">
+    <text>ポジャチェフ</text>
+  </string>
+  <string id="lname_lieutenant_163">
+    <text>ポリアニン</text>
+  </string>
+  <string id="lname_lieutenant_164">
+    <text>ポプラフスキー</text>
+  </string>
+  <string id="lname_lieutenant_165">
+    <text>ポポフ</text>
+  </string>
+  <string id="lname_lieutenant_166">
+    <text>ポルテニフ</text>
+  </string>
+  <string id="lname_lieutenant_167">
+    <text>ポルトニーフ</text>
+  </string>
+  <string id="lname_lieutenant_168">
+    <text>プラソロフ</text>
+  </string>
+  <string id="lname_lieutenant_169">
+    <text>プロコペンコ</text>
+  </string>
+  <string id="lname_lieutenant_170">
+    <text>プロスクリン</text>
+  </string>
+  <string id="lname_lieutenant_171">
+    <text>プロトセンコ</text>
+  </string>
+  <string id="lname_lieutenant_172">
+    <text>プリュドフ</text>
+  </string>
+  <string id="lname_lieutenant_173">
+    <text>プチェク</text>
+  </string>
+  <string id="lname_lieutenant_174">
+    <text>プストヴァル</text>
+  </string>
+  <string id="lname_lieutenant_175">
+    <text>ラビノヴィッチ</text>
+  </string>
+  <string id="lname_lieutenant_176">
+    <text>ラドケヴィッチ</text>
+  </string>
+  <string id="lname_lieutenant_177">
+    <text>レズン</text>
+  </string>
+  <string id="lname_lieutenant_178">
+    <text>ロドニャンスキー</text>
+  </string>
+  <string id="lname_lieutenant_179">
+    <text>ロゴザ</text>
+  </string>
+  <string id="lname_lieutenant_180">
+    <text>ロタン</text>
+  </string>
+  <string id="lname_lieutenant_181">
+    <text>ルブレフ</text>
+  </string>
+  <string id="lname_lieutenant_182">
+    <text>ルディク</text>
+  </string>
+  <string id="lname_lieutenant_183">
+    <text>ルサノフ</text>
+  </string>
+  <string id="lname_lieutenant_184">
+    <text>リチャギルスキー</text>
+  </string>
+  <string id="lname_lieutenant_185">
+    <text>サブチェンコ</text>
+  </string>
+  <string id="lname_lieutenant_186">
+    <text>サギトフ</text>
+  </string>
+  <string id="lname_lieutenant_187">
+    <text>サブチェンコ</text>
+  </string>
+  <string id="lname_lieutenant_188">
+    <text>サヴチュク</text>
+  </string>
+  <string id="lname_lieutenant_189">
+    <text>シェルビン</text>
+  </string>
+  <string id="lname_lieutenant_190">
+    <text>セジフ</text>
+  </string>
+  <string id="lname_lieutenant_191">
+    <text>セディック</text>
+  </string>
+  <string id="lname_lieutenant_192">
+    <text>セレダ</text>
+  </string>
+  <string id="lname_lieutenant_193">
+    <text>シドレンコ</text>
+  </string>
+  <string id="lname_lieutenant_194">
+    <text>シドロフ</text>
+  </string>
+  <string id="lname_lieutenant_195">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_lieutenant_196">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_lieutenant_197">
+    <text>シニイ</text>
+  </string>
+  <string id="lname_lieutenant_198">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_lieutenant_199">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_lieutenant_200">
+    <text>スルツキー</text>
+  </string>
+  <string id="lname_lieutenant_201">
+    <text>スメロフ</text>
+  </string>
+  <string id="lname_lieutenant_202">
+    <text>スモリイ</text>
+  </string>
+  <string id="lname_lieutenant_203">
+    <text>スモリ</text>
+  </string>
+  <string id="lname_lieutenant_204">
+    <text>ソロキン</text>
+  </string>
+  <string id="lname_lieutenant_205">
+    <text>スタトシュラ</text>
+  </string>
+  <string id="lname_lieutenant_206">
+    <text>スタッツィーラ</text>
+  </string>
+  <string id="lname_lieutenant_207">
+    <text>ステプチン</text>
+  </string>
+  <string id="lname_lieutenant_208">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_lieutenant_209">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_lieutenant_210">
+    <text>スヴィリドフ</text>
+  </string>
+  <string id="lname_lieutenant_211">
+    <text>シクラ</text>
+  </string>
+  <string id="lname_lieutenant_212">
+    <text>タルナヴスキー</text>
+  </string>
+  <string id="lname_lieutenant_213">
+    <text>タタルチュク</text>
+  </string>
+  <string id="lname_lieutenant_214">
+    <text>ティムチュク</text>
+  </string>
+  <string id="lname_lieutenant_215">
+    <text>ヴァレンティノフ</text>
+  </string>
+  <string id="lname_lieutenant_216">
+    <text>ヴァシリエフ</text>
+  </string>
+  <string id="lname_lieutenant_217">
+    <text>ヴァセロフ</text>
+  </string>
+  <string id="lname_lieutenant_218">
+    <text>ヴィノグラドフ</text>
+  </string>
+  <string id="lname_lieutenant_219">
+    <text>ヴォランチュク</text>
+  </string>
+  <string id="lname_lieutenant_220">
+    <text>ヴォロダル</text>
+  </string>
+  <string id="lname_lieutenant_221">
+    <text>ヴォロシン</text>
+  </string>
+  <string id="lname_lieutenant_222">
+    <text>ヴォロハイエフ</text>
+  </string>
+  <string id="lname_lieutenant_223">
+    <text>ヴォロカエフ</text>
+  </string>
+  <string id="lname_lieutenant_224">
+    <text>ヴォロントソフ</text>
+  </string>
+  <string id="lname_lieutenant_225">
+    <text>ヴォヴネンコ</text>
+  </string>
+  <string id="lname_lieutenant_226">
+    <text>ブリュシンスキー</text>
+  </string>
+  <string id="lname_lieutenant_227">
+    <text>ザビヤゴラ</text>
+  </string>
+  <string id="lname_lieutenant_228">
+    <text>ザビヤゴダ</text>
+  </string>
+  <string id="lname_lieutenant_229">
+    <text>ザゴロドュニュク</text>
+  </string>
+  <string id="lname_lieutenant_230">
+    <text>ザハリン</text>
+  </string>
+  <string id="lname_lieutenant_231">
+    <text>ザクハリン</text>
+  </string>
+  <string id="lname_lieutenant_232">
+    <text>ザモセンチュク</text>
+  </string>
+  <string id="lname_lieutenant_233">
+    <text>ザルビン</text>
+  </string>
+  <string id="lname_lieutenant_234">
+    <text>ザベンコ</text>
+  </string>
+  <string id="lname_lieutenant_235">
+    <text>ズミイエフ</text>
+  </string>
+  <string id="lname_lieutenant_236">
+    <text>ジュミーエフ</text>
+  </string>
+  <string id="lname_lieutenant_237">
+    <text>ズラコフスキー</text>
+  </string>
+  <string id="lname_lieutenant_238">
+    <text>ジノビエフ</text>
+  </string>
+  <string id="lname_lieutenant_239">
+    <text>ゾロタール</text>
+  </string>
+  <string id="lname_lieutenant_240">
+    <text>ゾノヴイエフ</text>
+  </string>
+  <string id="lname_lieutenant_241">
+    <text>ゾゾ</text>
+  </string>
+  <string id="lname_lieutenant_242">
+    <text>ズバレフ</text>
+  </string>
+  <string id="lname_lieutenant_243">
+    <text>ズブコフ</text>
+  </string>
+  <string id="lname_lieutenant_244">
+    <text>ズヴォニツキー</text>
+  </string>
+  <string id="lname_sergeant_0">
+    <text>アブデュラフマノフ</text>
+  </string>
+  <string id="lname_sergeant_1">
+    <text>アブドゥルマノフ</text>
+  </string>
+  <string id="lname_sergeant_2">
+    <text>アルティニック</text>
+  </string>
+  <string id="lname_sergeant_3">
+    <text>アンドレイチュク</text>
+  </string>
+  <string id="lname_sergeant_4">
+    <text>アンドルスチェンコ</text>
+  </string>
+  <string id="lname_sergeant_5">
+    <text>アニセイエフ</text>
+  </string>
+  <string id="lname_sergeant_6">
+    <text>アニセーエフ</text>
+  </string>
+  <string id="lname_sergeant_7">
+    <text>アンダシェフ</text>
+  </string>
+  <string id="lname_sergeant_8">
+    <text>バビチ</text>
+  </string>
+  <string id="lname_sergeant_9">
+    <text>バラン</text>
+  </string>
+  <string id="lname_sergeant_10">
+    <text>バラノフ</text>
+  </string>
+  <string id="lname_sergeant_11">
+    <text>バラノフスキー</text>
+  </string>
+  <string id="lname_sergeant_12">
+    <text>バルサック</text>
+  </string>
+  <string id="lname_sergeant_13">
+    <text>バシャコフ</text>
+  </string>
+  <string id="lname_sergeant_14">
+    <text>バシュマコフ</text>
+  </string>
+  <string id="lname_sergeant_15">
+    <text>バウル</text>
+  </string>
+  <string id="lname_sergeant_16">
+    <text>ベシェヴリイ</text>
+  </string>
+  <string id="lname_sergeant_17">
+    <text>ベシェヴリィ</text>
+  </string>
+  <string id="lname_sergeant_18">
+    <text>ビノエフ</text>
+  </string>
+  <string id="lname_sergeant_19">
+    <text>ビノイエフ</text>
+  </string>
+  <string id="lname_sergeant_20">
+    <text>ブリノフ</text>
+  </string>
+  <string id="lname_sergeant_21">
+    <text>ボブロフ</text>
+  </string>
+  <string id="lname_sergeant_22">
+    <text>ボグダノフ</text>
+  </string>
+  <string id="lname_sergeant_23">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_sergeant_24">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_sergeant_25">
+    <text>ボルドスクル</text>
+  </string>
+  <string id="lname_sergeant_26">
+    <text>ボンダレフ</text>
+  </string>
+  <string id="lname_sergeant_27">
+    <text>ボリソフ</text>
+  </string>
+  <string id="lname_sergeant_28">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_sergeant_29">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_sergeant_30">
+    <text>ブリチ</text>
+  </string>
+  <string id="lname_sergeant_31">
+    <text>ブロンスタイン</text>
+  </string>
+  <string id="lname_sergeant_32">
+    <text>ブリャク</text>
+  </string>
+  <string id="lname_sergeant_33">
+    <text>ブトゥリン</text>
+  </string>
+  <string id="lname_sergeant_34">
+    <text>ブヤロ</text>
+  </string>
+  <string id="lname_sergeant_35">
+    <text>デニセンコ</text>
+  </string>
+  <string id="lname_sergeant_36">
+    <text>ドムブリク</text>
+  </string>
+  <string id="lname_sergeant_37">
+    <text>ドトセンコ</text>
+  </string>
+  <string id="lname_sergeant_38">
+    <text>ドヴガリューク</text>
+  </string>
+  <string id="lname_sergeant_39">
+    <text>ドロズドゥシュ</text>
+  </string>
+  <string id="lname_sergeant_40">
+    <text>ドゥベンチュク</text>
+  </string>
+  <string id="lname_sergeant_41">
+    <text>ドゥドロフ</text>
+  </string>
+  <string id="lname_sergeant_42">
+    <text>ドゥーカ</text>
+  </string>
+  <string id="lname_sergeant_43">
+    <text>ドゥムコ</text>
+  </string>
+  <string id="lname_sergeant_44">
+    <text>ドゥナエフ</text>
+  </string>
+  <string id="lname_sergeant_45">
+    <text>ドゥナイエフ</text>
+  </string>
+  <string id="lname_sergeant_46">
+    <text>ディクロフ</text>
+  </string>
+  <string id="lname_sergeant_47">
+    <text>エフレモフ</text>
+  </string>
+  <string id="lname_sergeant_48">
+    <text>エロフェエフ</text>
+  </string>
+  <string id="lname_sergeant_49">
+    <text>エロフェイエフ</text>
+  </string>
+  <string id="lname_sergeant_50">
+    <text>フッツィン</text>
+  </string>
+  <string id="lname_sergeant_51">
+    <text>ガルキン</text>
+  </string>
+  <string id="lname_sergeant_52">
+    <text>ガンジュク</text>
+  </string>
+  <string id="lname_sergeant_53">
+    <text>ガルコヴェンコ</text>
+  </string>
+  <string id="lname_sergeant_54">
+    <text>ガルクーシャ</text>
+  </string>
+  <string id="lname_sergeant_55">
+    <text>ガチュラ</text>
+  </string>
+  <string id="lname_sergeant_56">
+    <text>ガツラ</text>
+  </string>
+  <string id="lname_sergeant_57">
+    <text>ゲオルゴフ</text>
+  </string>
+  <string id="lname_sergeant_58">
+    <text>グレボフスキー</text>
+  </string>
+  <string id="lname_sergeant_59">
+    <text>グナチュク</text>
+  </string>
+  <string id="lname_sergeant_60">
+    <text>ゴンチャレンコ</text>
+  </string>
+  <string id="lname_sergeant_61">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_sergeant_62">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_sergeant_63">
+    <text>ゴルレヴォイ</text>
+  </string>
+  <string id="lname_sergeant_64">
+    <text>ゴロヒン</text>
+  </string>
+  <string id="lname_sergeant_65">
+    <text>ゴローヒン</text>
+  </string>
+  <string id="lname_sergeant_66">
+    <text>ゴリューノフ</text>
+  </string>
+  <string id="lname_sergeant_67">
+    <text>グレイ</text>
+  </string>
+  <string id="lname_sergeant_68">
+    <text>グレベンコ</text>
+  </string>
+  <string id="lname_sergeant_69">
+    <text>グレベニュク</text>
+  </string>
+  <string id="lname_sergeant_70">
+    <text>グリスチュク</text>
+  </string>
+  <string id="lname_sergeant_71">
+    <text>グリシャチェフ</text>
+  </string>
+  <string id="lname_sergeant_72">
+    <text>グリツセイ</text>
+  </string>
+  <string id="lname_sergeant_73">
+    <text>グリツサイエンコ</text>
+  </string>
+  <string id="lname_sergeant_74">
+    <text>グリツセンコ</text>
+  </string>
+  <string id="lname_sergeant_75">
+    <text>グリッツァエンコ</text>
+  </string>
+  <string id="lname_sergeant_76">
+    <text>グリッツェイ</text>
+  </string>
+  <string id="lname_sergeant_77">
+    <text>グリッツェンコフ</text>
+  </string>
+  <string id="lname_sergeant_78">
+    <text>グバル</text>
+  </string>
+  <string id="lname_sergeant_79">
+    <text>グンコ</text>
+  </string>
+  <string id="lname_sergeant_80">
+    <text>グレヴィチ</text>
+  </string>
+  <string id="lname_sergeant_81">
+    <text>イグナテンコ</text>
+  </string>
+  <string id="lname_sergeant_82">
+    <text>イシューク</text>
+  </string>
+  <string id="lname_sergeant_83">
+    <text>イワノフ</text>
+  </string>
+  <string id="lname_sergeant_84">
+    <text>イゼンコ</text>
+  </string>
+  <string id="lname_sergeant_85">
+    <text>カンディバブコ</text>
+  </string>
+  <string id="lname_sergeant_86">
+    <text>カプーカ</text>
+  </string>
+  <string id="lname_sergeant_87">
+    <text>カプスチャンコ</text>
+  </string>
+  <string id="lname_sergeant_88">
+    <text>カツ</text>
+  </string>
+  <string id="lname_sergeant_89">
+    <text>カザコフ</text>
+  </string>
+  <string id="lname_sergeant_90">
+    <text>カザントセフ</text>
+  </string>
+  <string id="lname_sergeant_91">
+    <text>ハラジェ</text>
+  </string>
+  <string id="lname_sergeant_92">
+    <text>キカビゼ</text>
+  </string>
+  <string id="lname_sergeant_93">
+    <text>キレエフ</text>
+  </string>
+  <string id="lname_sergeant_94">
+    <text>キレイエフ</text>
+  </string>
+  <string id="lname_sergeant_95">
+    <text>クリメンコ</text>
+  </string>
+  <string id="lname_sergeant_96">
+    <text>コエブ</text>
+  </string>
+  <string id="lname_sergeant_97">
+    <text>コロンタル</text>
+  </string>
+  <string id="lname_sergeant_98">
+    <text>コロンタレフ</text>
+  </string>
+  <string id="lname_sergeant_99">
+    <text>コンドラテンコ</text>
+  </string>
+  <string id="lname_sergeant_100">
+    <text>コルキン</text>
+  </string>
+  <string id="lname_sergeant_101">
+    <text>コルネエフ</text>
+  </string>
+  <string id="lname_sergeant_102">
+    <text>コルネイエフ</text>
+  </string>
+  <string id="lname_sergeant_103">
+    <text>コバルチェク</text>
+  </string>
+  <string id="lname_sergeant_104">
+    <text>コエフ</text>
+  </string>
+  <string id="lname_sergeant_105">
+    <text>コズロフ</text>
+  </string>
+  <string id="lname_sergeant_106">
+    <text>クラブチェンコ</text>
+  </string>
+  <string id="lname_sergeant_107">
+    <text>クリヴダ</text>
+  </string>
+  <string id="lname_sergeant_108">
+    <text>クリヴォハツキー</text>
+  </string>
+  <string id="lname_sergeant_109">
+    <text>クリボハツキー</text>
+  </string>
+  <string id="lname_sergeant_110">
+    <text>クリガ</text>
+  </string>
+  <string id="lname_sergeant_111">
+    <text>クチェルク</text>
+  </string>
+  <string id="lname_sergeant_112">
+    <text>クルチストキー</text>
+  </string>
+  <string id="lname_sergeant_113">
+    <text>クルチツキー</text>
+  </string>
+  <string id="lname_sergeant_114">
+    <text>クンツェフ</text>
+  </string>
+  <string id="lname_sergeant_115">
+    <text>クルヴィッツ</text>
+  </string>
+  <string id="lname_sergeant_116">
+    <text>クルビッツ</text>
+  </string>
+  <string id="lname_sergeant_117">
+    <text>クシュナレフ</text>
+  </string>
+  <string id="lname_sergeant_118">
+    <text>クシュナリョフ</text>
+  </string>
+  <string id="lname_sergeant_119">
+    <text>クズミッチ</text>
+  </string>
+  <string id="lname_sergeant_120">
+    <text>クズネツォフ</text>
+  </string>
+  <string id="lname_sergeant_121">
+    <text>クジャキン</text>
+  </string>
+  <string id="lname_sergeant_122">
+    <text>ラヴリク</text>
+  </string>
+  <string id="lname_sergeant_123">
+    <text>ラヴロフ</text>
+  </string>
+  <string id="lname_sergeant_124">
+    <text>リシチャンスキー</text>
+  </string>
+  <string id="lname_sergeant_125">
+    <text>リトゥヴィン</text>
+  </string>
+  <string id="lname_sergeant_126">
+    <text>リヴシツ</text>
+  </string>
+  <string id="lname_sergeant_127">
+    <text>リマレンコ</text>
+  </string>
+  <string id="lname_sergeant_128">
+    <text>マカレンコ</text>
+  </string>
+  <string id="lname_sergeant_129">
+    <text>マルツェフ</text>
+  </string>
+  <string id="lname_sergeant_130">
+    <text>ママエフ</text>
+  </string>
+  <string id="lname_sergeant_131">
+    <text>ママイエフ</text>
+  </string>
+  <string id="lname_sergeant_132">
+    <text>マゼパ</text>
+  </string>
+  <string id="lname_sergeant_133">
+    <text>メルズライエフ</text>
+  </string>
+  <string id="lname_sergeant_134">
+    <text>メルツリヤエフ</text>
+  </string>
+  <string id="lname_sergeant_135">
+    <text>ミチェンコ</text>
+  </string>
+  <string id="lname_sergeant_136">
+    <text>ミロニュク</text>
+  </string>
+  <string id="lname_sergeant_137">
+    <text>モーラー</text>
+  </string>
+  <string id="lname_sergeant_138">
+    <text>モレル</text>
+  </string>
+  <string id="lname_sergeant_139">
+    <text>モロゾフ</text>
+  </string>
+  <string id="lname_sergeant_140">
+    <text>モストボイ</text>
+  </string>
+  <string id="lname_sergeant_141">
+    <text>モストヴォイ</text>
+  </string>
+  <string id="lname_sergeant_142">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_sergeant_143">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_sergeant_144">
+    <text>ムンチャン</text>
+  </string>
+  <string id="lname_sergeant_145">
+    <text>ミスコフ</text>
+  </string>
+  <string id="lname_sergeant_146">
+    <text>ナヴロツキー</text>
+  </string>
+  <string id="lname_sergeant_147">
+    <text>ネプリツキー</text>
+  </string>
+  <string id="lname_sergeant_148">
+    <text>ニカノロフ</text>
+  </string>
+  <string id="lname_sergeant_149">
+    <text>ニケシン</text>
+  </string>
+  <string id="lname_sergeant_150">
+    <text>ニクリン</text>
+  </string>
+  <string id="lname_sergeant_151">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_sergeant_152">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_sergeant_153">
+    <text>ノサン</text>
+  </string>
+  <string id="lname_sergeant_154">
+    <text>オポレフ</text>
+  </string>
+  <string id="lname_sergeant_155">
+    <text>オルレヴィッチ</text>
+  </string>
+  <string id="lname_sergeant_156">
+    <text>オルロフ</text>
+  </string>
+  <string id="lname_sergeant_157">
+    <text>ペトケヴィッチ</text>
+  </string>
+  <string id="lname_sergeant_158">
+    <text>ペトレンコ</text>
+  </string>
+  <string id="lname_sergeant_159">
+    <text>ペトロフ</text>
+  </string>
+  <string id="lname_sergeant_160">
+    <text>プロヘンコ</text>
+  </string>
+  <string id="lname_sergeant_161">
+    <text>プロケンコ</text>
+  </string>
+  <string id="lname_sergeant_162">
+    <text>ポジャチェフ</text>
+  </string>
+  <string id="lname_sergeant_163">
+    <text>ポリアニン</text>
+  </string>
+  <string id="lname_sergeant_164">
+    <text>ポプラフスキー</text>
+  </string>
+  <string id="lname_sergeant_165">
+    <text>ポポフ</text>
+  </string>
+  <string id="lname_sergeant_166">
+    <text>ポルテニフ</text>
+  </string>
+  <string id="lname_sergeant_167">
+    <text>ポルトニーフ</text>
+  </string>
+  <string id="lname_sergeant_168">
+    <text>プラソロフ</text>
+  </string>
+  <string id="lname_sergeant_169">
+    <text>プロコペンコ</text>
+  </string>
+  <string id="lname_sergeant_170">
+    <text>プロスクリン</text>
+  </string>
+  <string id="lname_sergeant_171">
+    <text>プロトセンコ</text>
+  </string>
+  <string id="lname_sergeant_172">
+    <text>プリュドフ</text>
+  </string>
+  <string id="lname_sergeant_173">
+    <text>プチェク</text>
+  </string>
+  <string id="lname_sergeant_174">
+    <text>プストヴァル</text>
+  </string>
+  <string id="lname_sergeant_175">
+    <text>ラビノヴィッチ</text>
+  </string>
+  <string id="lname_sergeant_176">
+    <text>ラドケヴィッチ</text>
+  </string>
+  <string id="lname_sergeant_177">
+    <text>レズン</text>
+  </string>
+  <string id="lname_sergeant_178">
+    <text>ロドニャンスキー</text>
+  </string>
+  <string id="lname_sergeant_179">
+    <text>ロゴザ</text>
+  </string>
+  <string id="lname_sergeant_180">
+    <text>ロタン</text>
+  </string>
+  <string id="lname_sergeant_181">
+    <text>ルブレフ</text>
+  </string>
+  <string id="lname_sergeant_182">
+    <text>ルディク</text>
+  </string>
+  <string id="lname_sergeant_183">
+    <text>ルサノフ</text>
+  </string>
+  <string id="lname_sergeant_184">
+    <text>リチャギルスキー</text>
+  </string>
+  <string id="lname_sergeant_185">
+    <text>サギトフ</text>
+  </string>
+  <string id="lname_sergeant_186">
+    <text>サブチェンコ</text>
+  </string>
+  <string id="lname_sergeant_187">
+    <text>サヴチュク</text>
+  </string>
+  <string id="lname_sergeant_188">
+    <text>シェルビン</text>
+  </string>
+  <string id="lname_sergeant_189">
+    <text>セジフ</text>
+  </string>
+  <string id="lname_sergeant_190">
+    <text>セディック</text>
+  </string>
+  <string id="lname_sergeant_191">
+    <text>セレダ</text>
+  </string>
+  <string id="lname_sergeant_192">
+    <text>シドレンコ</text>
+  </string>
+  <string id="lname_sergeant_193">
+    <text>シドロフ</text>
+  </string>
+  <string id="lname_sergeant_194">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_sergeant_195">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_sergeant_196">
+    <text>シニイ</text>
+  </string>
+  <string id="lname_sergeant_197">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_sergeant_198">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_sergeant_199">
+    <text>スルツキー</text>
+  </string>
+  <string id="lname_sergeant_200">
+    <text>スメロフ</text>
+  </string>
+  <string id="lname_sergeant_201">
+    <text>スモリイ</text>
+  </string>
+  <string id="lname_sergeant_202">
+    <text>スモリ</text>
+  </string>
+  <string id="lname_sergeant_203">
+    <text>ソロキン</text>
+  </string>
+  <string id="lname_sergeant_204">
+    <text>スタトシュラ</text>
+  </string>
+  <string id="lname_sergeant_205">
+    <text>スタッツィーラ</text>
+  </string>
+  <string id="lname_sergeant_206">
+    <text>ステプチン</text>
+  </string>
+  <string id="lname_sergeant_207">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_sergeant_208">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_sergeant_209">
+    <text>スヴィリドフ</text>
+  </string>
+  <string id="lname_sergeant_210">
+    <text>シクラ</text>
+  </string>
+  <string id="lname_sergeant_211">
+    <text>タルナヴスキー</text>
+  </string>
+  <string id="lname_sergeant_212">
+    <text>タタルチュク</text>
+  </string>
+  <string id="lname_sergeant_213">
+    <text>ティムチュク</text>
+  </string>
+  <string id="lname_sergeant_214">
+    <text>ヴァレンティノフ</text>
+  </string>
+  <string id="lname_sergeant_215">
+    <text>ヴァシリエフ</text>
+  </string>
+  <string id="lname_sergeant_216">
+    <text>ヴァセロフ</text>
+  </string>
+  <string id="lname_sergeant_217">
+    <text>ヴィノグラドフ</text>
+  </string>
+  <string id="lname_sergeant_218">
+    <text>ヴォランチュク</text>
+  </string>
+  <string id="lname_sergeant_219">
+    <text>ヴォロダル</text>
+  </string>
+  <string id="lname_sergeant_220">
+    <text>ヴォロシン</text>
+  </string>
+  <string id="lname_sergeant_221">
+    <text>ヴォロハイエフ</text>
+  </string>
+  <string id="lname_sergeant_222">
+    <text>ヴォロカエフ</text>
+  </string>
+  <string id="lname_sergeant_223">
+    <text>ヴォロントソフ</text>
+  </string>
+  <string id="lname_sergeant_224">
+    <text>ヴォヴネンコ</text>
+  </string>
+  <string id="lname_sergeant_225">
+    <text>ブリュシンスキー</text>
+  </string>
+  <string id="lname_sergeant_226">
+    <text>ザビヤゴラ</text>
+  </string>
+  <string id="lname_sergeant_227">
+    <text>ザビヤゴダ</text>
+  </string>
+  <string id="lname_sergeant_228">
+    <text>ザゴロドュニュク</text>
+  </string>
+  <string id="lname_sergeant_229">
+    <text>ザハリン</text>
+  </string>
+  <string id="lname_sergeant_230">
+    <text>ザクハリン</text>
+  </string>
+  <string id="lname_sergeant_231">
+    <text>ザモセンチュク</text>
+  </string>
+  <string id="lname_sergeant_232">
+    <text>ザルビン</text>
+  </string>
+  <string id="lname_sergeant_233">
+    <text>ザベンコ</text>
+  </string>
+  <string id="lname_sergeant_234">
+    <text>ズミイエフ</text>
+  </string>
+  <string id="lname_sergeant_235">
+    <text>ジュミーエフ</text>
+  </string>
+  <string id="lname_sergeant_236">
+    <text>ズラコフスキー</text>
+  </string>
+  <string id="lname_sergeant_237">
+    <text>ジノビエフ</text>
+  </string>
+  <string id="lname_sergeant_238">
+    <text>ゾロタール</text>
+  </string>
+  <string id="lname_sergeant_239">
+    <text>ゾノヴイエフ</text>
+  </string>
+  <string id="lname_sergeant_240">
+    <text>ゾゾ</text>
+  </string>
+  <string id="lname_sergeant_241">
+    <text>ズバレフ</text>
+  </string>
+  <string id="lname_sergeant_242">
+    <text>ズブコフ</text>
+  </string>
+  <string id="lname_sergeant_243">
+    <text>ズヴォニツキー</text>
+  </string>
+  <string id="lname_science_0">
+    <text>アルフェロフ</text>
+  </string>
+  <string id="lname_science_1">
+    <text>アルフィオロフ</text>
+  </string>
+  <string id="lname_science_2">
+    <text>アンドレーエフ</text>
+  </string>
+  <string id="lname_science_3">
+    <text>アンドレイエフ</text>
+  </string>
+  <string id="lname_science_4">
+    <text>アンティピン</text>
+  </string>
+  <string id="lname_science_5">
+    <text>バリツキー</text>
+  </string>
+  <string id="lname_science_6">
+    <text>ベルヤヴィン</text>
+  </string>
+  <string id="lname_science_7">
+    <text>ブリノフ</text>
+  </string>
+  <string id="lname_science_8">
+    <text>ボゴモロフ</text>
+  </string>
+  <string id="lname_science_9">
+    <text>チェルボドゥブ</text>
+  </string>
+  <string id="lname_science_10">
+    <text>チリコフ</text>
+  </string>
+  <string id="lname_science_11">
+    <text>ジャコノフ</text>
+  </string>
+  <string id="lname_science_12">
+    <text>エロヒン</text>
+  </string>
+  <string id="lname_science_13">
+    <text>エロヒン</text>
+  </string>
+  <string id="lname_science_14">
+    <text>ファデーエフ</text>
+  </string>
+  <string id="lname_science_15">
+    <text>ファデイエフ</text>
+  </string>
+  <string id="lname_science_16">
+    <text>フェイゲルマン</text>
+  </string>
+  <string id="lname_science_17">
+    <text>ヘイゲルマン</text>
+  </string>
+  <string id="lname_science_18">
+    <text>ゲシュケンベイン</text>
+  </string>
+  <string id="lname_science_19">
+    <text>イヴチェンコ</text>
+  </string>
+  <string id="lname_science_20">
+    <text>カバノフ</text>
+  </string>
+  <string id="lname_science_21">
+    <text>ラリン</text>
+  </string>
+  <string id="lname_science_22">
+    <text>レデントソフ</text>
+  </string>
+  <string id="lname_science_23">
+    <text>マンクォ</text>
+  </string>
+  <string id="lname_science_24">
+    <text>ミロノフ</text>
+  </string>
+  <string id="lname_science_25">
+    <text>オガネシアン</text>
+  </string>
+  <string id="lname_science_26">
+    <text>シロフ</text>
+  </string>
+  <string id="lname_science_27">
+    <text>シナエフ</text>
+  </string>
+  <string id="lname_science_28">
+    <text>シナイエフ</text>
+  </string>
+  <string id="lname_science_29">
+    <text>スピリン</text>
+  </string>
+  <string id="lname_science_30">
+    <text>ステクロフ</text>
+  </string>
+  <string id="lname_science_31">
+    <text>ステパネンコ</text>
+  </string>
+  <string id="lname_science_32">
+    <text>ヴァシレンヴィッチ</text>
+  </string>
+  <string id="lname_science_33">
+    <text>ザハロフ</text>
+  </string>
+  <string id="lname_science_34">
+    <text>ザイキン</text>
+  </string>
+  <string id="lname_science_35">
+    <text>ザハロフ</text>
+  </string>
+  <string id="lname_captain_0">
+    <text>アブデュラフマノフ</text>
+  </string>
+  <string id="lname_captain_1">
+    <text>アブドゥルマノフ</text>
+  </string>
+  <string id="lname_captain_2">
+    <text>アルティニック</text>
+  </string>
+  <string id="lname_captain_3">
+    <text>アンドレイチュク</text>
+  </string>
+  <string id="lname_captain_4">
+    <text>アンドルスチェンコ</text>
+  </string>
+  <string id="lname_captain_5">
+    <text>アニセイエフ</text>
+  </string>
+  <string id="lname_captain_6">
+    <text>アニセーエフ</text>
+  </string>
+  <string id="lname_captain_7">
+    <text>アンダシェフ</text>
+  </string>
+  <string id="lname_captain_8">
+    <text>バビチ</text>
+  </string>
+  <string id="lname_captain_9">
+    <text>バラン</text>
+  </string>
+  <string id="lname_captain_10">
+    <text>バラノフ</text>
+  </string>
+  <string id="lname_captain_11">
+    <text>バラノフスキー</text>
+  </string>
+  <string id="lname_captain_12">
+    <text>バルサック</text>
+  </string>
+  <string id="lname_captain_13">
+    <text>バシャコフ</text>
+  </string>
+  <string id="lname_captain_14">
+    <text>バシュマコフ</text>
+  </string>
+  <string id="lname_captain_15">
+    <text>バウル</text>
+  </string>
+  <string id="lname_captain_16">
+    <text>ベシェヴリイ</text>
+  </string>
+  <string id="lname_captain_17">
+    <text>ベシェヴリィ</text>
+  </string>
+  <string id="lname_captain_18">
+    <text>ビノエフ</text>
+  </string>
+  <string id="lname_captain_19">
+    <text>ビノイエフ</text>
+  </string>
+  <string id="lname_captain_20">
+    <text>ブリノフ</text>
+  </string>
+  <string id="lname_captain_21">
+    <text>ボブロフ</text>
+  </string>
+  <string id="lname_captain_22">
+    <text>ボグダノフ</text>
+  </string>
+  <string id="lname_captain_23">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_captain_24">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_captain_25">
+    <text>ボルドスクル</text>
+  </string>
+  <string id="lname_captain_26">
+    <text>ボルドスクル</text>
+  </string>
+  <string id="lname_captain_27">
+    <text>ボンダレフ</text>
+  </string>
+  <string id="lname_captain_28">
+    <text>ボリソフ</text>
+  </string>
+  <string id="lname_captain_29">
+    <text>ボイチェンコ</text>
+  </string>
+  <string id="lname_captain_30">
+    <text>ボイコ</text>
+  </string>
+  <string id="lname_captain_31">
+    <text>ブリチ</text>
+  </string>
+  <string id="lname_captain_32">
+    <text>ブロンスタイン</text>
+  </string>
+  <string id="lname_captain_33">
+    <text>ブリャク</text>
+  </string>
+  <string id="lname_captain_34">
+    <text>ブトゥリン</text>
+  </string>
+  <string id="lname_captain_35">
+    <text>ブヤロ</text>
+  </string>
+  <string id="lname_captain_36">
+    <text>デニセンコ</text>
+  </string>
+  <string id="lname_captain_37">
+    <text>ドムブリク</text>
+  </string>
+  <string id="lname_captain_38">
+    <text>ドトセンコ</text>
+  </string>
+  <string id="lname_captain_39">
+    <text>ドヴガリューク</text>
+  </string>
+  <string id="lname_captain_40">
+    <text>ドロズドゥシュ</text>
+  </string>
+  <string id="lname_captain_41">
+    <text>ドゥベンチュク</text>
+  </string>
+  <string id="lname_captain_42">
+    <text>ドゥドロフ</text>
+  </string>
+  <string id="lname_captain_43">
+    <text>ドゥーカ</text>
+  </string>
+  <string id="lname_captain_44">
+    <text>ドゥムコ</text>
+  </string>
+  <string id="lname_captain_45">
+    <text>ドゥナエフ</text>
+  </string>
+  <string id="lname_captain_46">
+    <text>ドゥナイエフ</text>
+  </string>
+  <string id="lname_captain_47">
+    <text>ディクロフ</text>
+  </string>
+  <string id="lname_captain_48">
+    <text>エフレモフ</text>
+  </string>
+  <string id="lname_captain_49">
+    <text>エロフェエフ</text>
+  </string>
+  <string id="lname_captain_50">
+    <text>エロフェイエフ</text>
+  </string>
+  <string id="lname_captain_51">
+    <text>フッツィン</text>
+  </string>
+  <string id="lname_captain_52">
+    <text>ガルキン</text>
+  </string>
+  <string id="lname_captain_53">
+    <text>ガンジュク</text>
+  </string>
+  <string id="lname_captain_54">
+    <text>ガルコヴェンコ</text>
+  </string>
+  <string id="lname_captain_55">
+    <text>ガルクーシャ</text>
+  </string>
+  <string id="lname_captain_56">
+    <text>ガチュラ</text>
+  </string>
+  <string id="lname_captain_57">
+    <text>ガツラ</text>
+  </string>
+  <string id="lname_captain_58">
+    <text>ゲオルゴフ</text>
+  </string>
+  <string id="lname_captain_59">
+    <text>グレボフスキー</text>
+  </string>
+  <string id="lname_captain_60">
+    <text>グナチュク</text>
+  </string>
+  <string id="lname_captain_61">
+    <text>ゴンチャレンコ</text>
+  </string>
+  <string id="lname_captain_62">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_captain_63">
+    <text>ゴルディエンコ</text>
+  </string>
+  <string id="lname_captain_64">
+    <text>ゴルレヴォイ</text>
+  </string>
+  <string id="lname_captain_65">
+    <text>ゴロヒン</text>
+  </string>
+  <string id="lname_captain_66">
+    <text>ゴローヒン</text>
+  </string>
+  <string id="lname_captain_67">
+    <text>ゴリューノフ</text>
+  </string>
+  <string id="lname_captain_68">
+    <text>グレイ</text>
+  </string>
+  <string id="lname_captain_69">
+    <text>グレベンコ</text>
+  </string>
+  <string id="lname_captain_70">
+    <text>グレベニュク</text>
+  </string>
+  <string id="lname_captain_71">
+    <text>グリスチュク</text>
+  </string>
+  <string id="lname_captain_72">
+    <text>グリシャチェフ</text>
+  </string>
+  <string id="lname_captain_73">
+    <text>グリツセイ</text>
+  </string>
+  <string id="lname_captain_74">
+    <text>グリツサイエンコ</text>
+  </string>
+  <string id="lname_captain_75">
+    <text>グリツセンコ</text>
+  </string>
+  <string id="lname_captain_76">
+    <text>グリッツァエンコ</text>
+  </string>
+  <string id="lname_captain_77">
+    <text>グリッツェイ</text>
+  </string>
+  <string id="lname_captain_78">
+    <text>グリッツェンコフ</text>
+  </string>
+  <string id="lname_captain_79">
+    <text>グバル</text>
+  </string>
+  <string id="lname_captain_80">
+    <text>グンコ</text>
+  </string>
+  <string id="lname_captain_81">
+    <text>グレヴィチ</text>
+  </string>
+  <string id="lname_captain_82">
+    <text>イグナテンコ</text>
+  </string>
+  <string id="lname_captain_83">
+    <text>イシューク</text>
+  </string>
+  <string id="lname_captain_84">
+    <text>イワノフ</text>
+  </string>
+  <string id="lname_captain_85">
+    <text>イゼンコ</text>
+  </string>
+  <string id="lname_captain_86">
+    <text>カンディバブコ</text>
+  </string>
+  <string id="lname_captain_87">
+    <text>カプーカ</text>
+  </string>
+  <string id="lname_captain_88">
+    <text>カプスチャンコ</text>
+  </string>
+  <string id="lname_captain_89">
+    <text>カツ</text>
+  </string>
+  <string id="lname_captain_90">
+    <text>カザコフ</text>
+  </string>
+  <string id="lname_captain_91">
+    <text>カザントセフ</text>
+  </string>
+  <string id="lname_captain_92">
+    <text>ハラジェ</text>
+  </string>
+  <string id="lname_captain_93">
+    <text>キカビゼ</text>
+  </string>
+  <string id="lname_captain_94">
+    <text>キレエフ</text>
+  </string>
+  <string id="lname_captain_95">
+    <text>キレイエフ</text>
+  </string>
+  <string id="lname_captain_96">
+    <text>クリメンコ</text>
+  </string>
+  <string id="lname_captain_97">
+    <text>コエブ</text>
+  </string>
+  <string id="lname_captain_98">
+    <text>コロンタル</text>
+  </string>
+  <string id="lname_captain_99">
+    <text>コロンタレフ</text>
+  </string>
+  <string id="lname_captain_100">
+    <text>コンドラテンコ</text>
+  </string>
+  <string id="lname_captain_101">
+    <text>コルキン</text>
+  </string>
+  <string id="lname_captain_102">
+    <text>コルネエフ</text>
+  </string>
+  <string id="lname_captain_103">
+    <text>コルネイエフ</text>
+  </string>
+  <string id="lname_captain_104">
+    <text>コバルチェク</text>
+  </string>
+  <string id="lname_captain_105">
+    <text>コエフ</text>
+  </string>
+  <string id="lname_captain_106">
+    <text>コズロフ</text>
+  </string>
+  <string id="lname_captain_107">
+    <text>クラブチェンコ</text>
+  </string>
+  <string id="lname_captain_108">
+    <text>クリヴダ</text>
+  </string>
+  <string id="lname_captain_109">
+    <text>クリヴォハツキー</text>
+  </string>
+  <string id="lname_captain_110">
+    <text>クリボハツキー</text>
+  </string>
+  <string id="lname_captain_111">
+    <text>クリガ</text>
+  </string>
+  <string id="lname_captain_112">
+    <text>クチェルク</text>
+  </string>
+  <string id="lname_captain_113">
+    <text>クルチツキー</text>
+  </string>
+  <string id="lname_captain_114">
+    <text>クンツェフ</text>
+  </string>
+  <string id="lname_captain_115">
+    <text>クルヴィッツ</text>
+  </string>
+  <string id="lname_captain_116">
+    <text>クルビッツ</text>
+  </string>
+  <string id="lname_captain_117">
+    <text>クシュナレフ</text>
+  </string>
+  <string id="lname_captain_118">
+    <text>クシュナリョフ</text>
+  </string>
+  <string id="lname_captain_119">
+    <text>クズミッチ</text>
+  </string>
+  <string id="lname_captain_120">
+    <text>クズネツォフ</text>
+  </string>
+  <string id="lname_captain_121">
+    <text>クジャキン</text>
+  </string>
+  <string id="lname_captain_122">
+    <text>ラヴリク</text>
+  </string>
+  <string id="lname_captain_123">
+    <text>ラヴロフ</text>
+  </string>
+  <string id="lname_captain_124">
+    <text>リシチャンスキー</text>
+  </string>
+  <string id="lname_captain_125">
+    <text>リトゥヴィン</text>
+  </string>
+  <string id="lname_captain_126">
+    <text>リヴシツ</text>
+  </string>
+  <string id="lname_captain_127">
+    <text>リマレンコ</text>
+  </string>
+  <string id="lname_captain_128">
+    <text>マカレンコ</text>
+  </string>
+  <string id="lname_captain_129">
+    <text>マルツェフ</text>
+  </string>
+  <string id="lname_captain_130">
+    <text>ママエフ</text>
+  </string>
+  <string id="lname_captain_131">
+    <text>ママイエフ</text>
+  </string>
+  <string id="lname_captain_132">
+    <text>マゼパ</text>
+  </string>
+  <string id="lname_captain_133">
+    <text>メルズライエフ</text>
+  </string>
+  <string id="lname_captain_134">
+    <text>メルツリヤエフ</text>
+  </string>
+  <string id="lname_captain_135">
+    <text>ミチェンコ</text>
+  </string>
+  <string id="lname_captain_136">
+    <text>ミロニュク</text>
+  </string>
+  <string id="lname_captain_137">
+    <text>モーラー</text>
+  </string>
+  <string id="lname_captain_138">
+    <text>モレル</text>
+  </string>
+  <string id="lname_captain_139">
+    <text>モロゾフ</text>
+  </string>
+  <string id="lname_captain_140">
+    <text>モストボイ</text>
+  </string>
+  <string id="lname_captain_141">
+    <text>モストヴォイ</text>
+  </string>
+  <string id="lname_captain_142">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_captain_143">
+    <text>ムハメドフ</text>
+  </string>
+  <string id="lname_captain_144">
+    <text>ムンチャン</text>
+  </string>
+  <string id="lname_captain_145">
+    <text>ミスコフ</text>
+  </string>
+  <string id="lname_captain_146">
+    <text>ナヴロツキー</text>
+  </string>
+  <string id="lname_captain_147">
+    <text>ネプリツキー</text>
+  </string>
+  <string id="lname_captain_148">
+    <text>ニカノロフ</text>
+  </string>
+  <string id="lname_captain_149">
+    <text>ニケシン</text>
+  </string>
+  <string id="lname_captain_150">
+    <text>ニクリン</text>
+  </string>
+  <string id="lname_captain_151">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_captain_152">
+    <text>ノルディエフ</text>
+  </string>
+  <string id="lname_captain_153">
+    <text>ノサン</text>
+  </string>
+  <string id="lname_captain_154">
+    <text>オポレフ</text>
+  </string>
+  <string id="lname_captain_155">
+    <text>オルレヴィッチ</text>
+  </string>
+  <string id="lname_captain_156">
+    <text>オルロフ</text>
+  </string>
+  <string id="lname_captain_157">
+    <text>ペトケヴィッチ</text>
+  </string>
+  <string id="lname_captain_158">
+    <text>ペトレンコ</text>
+  </string>
+  <string id="lname_captain_159">
+    <text>ペトロフ</text>
+  </string>
+  <string id="lname_captain_160">
+    <text>プロヘンコ</text>
+  </string>
+  <string id="lname_captain_161">
+    <text>プロケンコ</text>
+  </string>
+  <string id="lname_captain_162">
+    <text>ポジャチェフ</text>
+  </string>
+  <string id="lname_captain_163">
+    <text>ポリアニン</text>
+  </string>
+  <string id="lname_captain_164">
+    <text>ポプラフスキー</text>
+  </string>
+  <string id="lname_captain_165">
+    <text>ポポフ</text>
+  </string>
+  <string id="lname_captain_166">
+    <text>ポルテニフ</text>
+  </string>
+  <string id="lname_captain_167">
+    <text>ポルトニーフ</text>
+  </string>
+  <string id="lname_captain_168">
+    <text>プラソロフ</text>
+  </string>
+  <string id="lname_captain_169">
+    <text>プロコペンコ</text>
+  </string>
+  <string id="lname_captain_170">
+    <text>プロスクリン</text>
+  </string>
+  <string id="lname_captain_171">
+    <text>プロトセンコ</text>
+  </string>
+  <string id="lname_captain_172">
+    <text>プリュドフ</text>
+  </string>
+  <string id="lname_captain_173">
+    <text>プチェク</text>
+  </string>
+  <string id="lname_captain_174">
+    <text>プストヴァル</text>
+  </string>
+  <string id="lname_captain_175">
+    <text>ラビノヴィッチ</text>
+  </string>
+  <string id="lname_captain_176">
+    <text>ラドケヴィッチ</text>
+  </string>
+  <string id="lname_captain_177">
+    <text>レズン</text>
+  </string>
+  <string id="lname_captain_178">
+    <text>ロドニャンスキー</text>
+  </string>
+  <string id="lname_captain_179">
+    <text>ロゴザ</text>
+  </string>
+  <string id="lname_captain_180">
+    <text>ロタン</text>
+  </string>
+  <string id="lname_captain_181">
+    <text>ルブレフ</text>
+  </string>
+  <string id="lname_captain_182">
+    <text>ルディク</text>
+  </string>
+  <string id="lname_captain_183">
+    <text>ルサノフ</text>
+  </string>
+  <string id="lname_captain_184">
+    <text>リチャギルスキー</text>
+  </string>
+  <string id="lname_captain_185">
+    <text>サブチェンコ</text>
+  </string>
+  <string id="lname_captain_186">
+    <text>サギトフ</text>
+  </string>
+  <string id="lname_captain_187">
+    <text>サブチェンコ</text>
+  </string>
+  <string id="lname_captain_188">
+    <text>サヴチュク</text>
+  </string>
+  <string id="lname_captain_189">
+    <text>シェルビン</text>
+  </string>
+  <string id="lname_captain_190">
+    <text>セジフ</text>
+  </string>
+  <string id="lname_captain_191">
+    <text>セディック</text>
+  </string>
+  <string id="lname_captain_192">
+    <text>セレダ</text>
+  </string>
+  <string id="lname_captain_193">
+    <text>シドレンコ</text>
+  </string>
+  <string id="lname_captain_194">
+    <text>シドロフ</text>
+  </string>
+  <string id="lname_captain_195">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_captain_196">
+    <text>シニツィン</text>
+  </string>
+  <string id="lname_captain_197">
+    <text>シニイ</text>
+  </string>
+  <string id="lname_captain_198">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_captain_199">
+    <text>スカメイカ</text>
+  </string>
+  <string id="lname_captain_200">
+    <text>スルツキー</text>
+  </string>
+  <string id="lname_captain_201">
+    <text>スメロフ</text>
+  </string>
+  <string id="lname_captain_202">
+    <text>スモリイ</text>
+  </string>
+  <string id="lname_captain_203">
+    <text>スモリ</text>
+  </string>
+  <string id="lname_captain_204">
+    <text>ソロキン</text>
+  </string>
+  <string id="lname_captain_205">
+    <text>スタトシュラ</text>
+  </string>
+  <string id="lname_captain_206">
+    <text>スタッツィーラ</text>
+  </string>
+  <string id="lname_captain_207">
+    <text>ステプチン</text>
+  </string>
+  <string id="lname_captain_208">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_captain_209">
+    <text>スティチンスキー</text>
+  </string>
+  <string id="lname_captain_210">
+    <text>スヴィリドフ</text>
+  </string>
+  <string id="lname_captain_211">
+    <text>シクラ</text>
+  </string>
+  <string id="lname_captain_212">
+    <text>タルナヴスキー</text>
+  </string>
+  <string id="lname_captain_213">
+    <text>タタルチュク</text>
+  </string>
+  <string id="lname_captain_214">
+    <text>ティムチュク</text>
+  </string>
+  <string id="lname_captain_215">
+    <text>ヴァレンティノフ</text>
+  </string>
+  <string id="lname_captain_216">
+    <text>ヴァシリエフ</text>
+  </string>
+  <string id="lname_captain_217">
+    <text>ヴァセロフ</text>
+  </string>
+  <string id="lname_captain_218">
+    <text>ヴィノグラドフ</text>
+  </string>
+  <string id="lname_captain_219">
+    <text>ヴォランチュク</text>
+  </string>
+  <string id="lname_captain_220">
+    <text>ヴォロダル</text>
+  </string>
+  <string id="lname_captain_221">
+    <text>ヴォロシン</text>
+  </string>
+  <string id="lname_captain_222">
+    <text>ヴォロハイエフ</text>
+  </string>
+  <string id="lname_captain_223">
+    <text>ヴォロカエフ</text>
+  </string>
+  <string id="lname_captain_224">
+    <text>ヴォロントソフ</text>
+  </string>
+  <string id="lname_captain_225">
+    <text>ヴォヴネンコ</text>
+  </string>
+  <string id="lname_captain_226">
+    <text>ブリュシンスキー</text>
+  </string>
+  <string id="lname_captain_227">
+    <text>ザビヤゴラ</text>
+  </string>
+  <string id="lname_captain_228">
+    <text>ザビヤゴダ</text>
+  </string>
+  <string id="lname_captain_229">
+    <text>ザゴロドュニュク</text>
+  </string>
+  <string id="lname_captain_230">
+    <text>ザハリン</text>
+  </string>
+  <string id="lname_captain_231">
+    <text>ザクハリン</text>
+  </string>
+  <string id="lname_captain_232">
+    <text>ザモセンチュク</text>
+  </string>
+  <string id="lname_captain_233">
+    <text>ザルビン</text>
+  </string>
+  <string id="lname_captain_234">
+    <text>ザベンコ</text>
+  </string>
+  <string id="lname_captain_235">
+    <text>ズミイエフ</text>
+  </string>
+  <string id="lname_captain_236">
+    <text>ジュミーエフ</text>
+  </string>
+  <string id="lname_captain_237">
+    <text>ズラコフスキー</text>
+  </string>
+  <string id="lname_captain_238">
+    <text>ジノビエフ</text>
+  </string>
+  <string id="lname_captain_239">
+    <text>ゾロタール</text>
+  </string>
+  <string id="lname_captain_240">
+    <text>ゾノヴイエフ</text>
+  </string>
+  <string id="lname_captain_241">
+    <text>ゾゾ</text>
+  </string>
+  <string id="lname_captain_242">
+    <text>ズバレフ</text>
+  </string>
+  <string id="lname_captain_243">
+    <text>ズブコフ</text>
+  </string>
+  <string id="lname_captain_244">
+    <text>ズヴォニツキー</text>
+  </string>
+</string_table>

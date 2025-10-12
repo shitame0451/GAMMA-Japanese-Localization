@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!-- Mechanic -->
+  <string id="dasc_tech_mlr_task_1_name">
+    <text>技術者のために%sを見つける</text>
+  </string>
+  <string id="dasc_tech_mlr_task_1_text">
+    <text>製材所にいる技術者から、%sを持ってくるように頼まれた。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_1_about">
+    <text>あんたもすでに知ってるだろうが、この辺はまるで現実とは思えないほど奇妙だ。
+\n元は製材所だったが、今じゃ丸太しか残っちゃいない。せめて作業用のキットがあればな。
+\nもしベーシックツールを見かけたら、ここまで持ってきてくれよ。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_1_fetch_about">
+    <text>あんたもすでに知ってるだろうが、この辺はまるで現実とは思えないほど奇妙だ。
+\n元は製材所だったが、今じゃ丸太しか残っちゃいない。せめて作業用のキットがあればな。
+\nもしベーシックツールを見かけたら、ここまで持ってきてくれよ。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_1_fetch_finish">
+    <text>ありがとよ･･････ これで作業が捗るぜ。
+\nこのアーティファクトを受け取ってくれ。「ペリクル」って名前でな。レアものさ。</text>
+  </string>
+
+  <string id="dasc_tech_mlr_task_2_name">
+    <text>技術者のために%sを見つける</text>
+  </string>
+  <string id="dasc_tech_mlr_task_2_text">
+    <text>製材所にいる技術者から、%sを持ってくるように頼まれた。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_2_about">
+    <text>前にツールを見つけてもらったが、アドバンスドツールの在処は知らないかな？
+\n喉から手が出るほど欲しいんだよ。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_2_fetch_about">
+    <text>前にツールを見つけてもらったが、アドバンスドツールの在処は知らないかな？
+\n喉から手が出るほど欲しいんだよ。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_2_fetch_finish">
+    <text>ありがとな、ホントに助かるよ。お礼に少し割引してやろう。</text>
+  </string>
+
+  <string id="dasc_tech_mlr_task_3_name">
+    <text>技術者のために%sを見つける</text>
+  </string>
+  <string id="dasc_tech_mlr_task_3_text">
+    <text>製材所にいる技術者から、%sを持ってくるように頼まれた。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_3_about">
+    <text>こんな荒野で頼むのも酷かもしれないが、さらに高度なツールを探してくれないか？
+\nエキスパートツールがあれば十分なんだ。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_3_fetch_about">
+    <text>こんな荒野で頼むのも酷かもしれないが、さらに高度なツールを探してくれないか？
+\nエキスパートツールがあれば十分なんだ。</text>
+  </string>
+  <string id="dasc_tech_mlr_task_3_fetch_finish">
+    <text>色々とありがとな。いつかこの荒れ果てた場所も、ちゃんとした野営地になるはずだ。</text>
+  </string>
+
+
+</string_table>

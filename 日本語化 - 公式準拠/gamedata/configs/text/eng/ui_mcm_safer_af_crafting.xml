@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+			
+	<string id="ui_mcm_safe_af_craft_title">
+		<text>Safer Artefact Melting</text>
+	</string>
+	
+	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_enabled">
+		<text>空のアーティファクト完全隔離容器が放射線を吸収する</text>
+	</string>
+	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_enabled_desc">
+		<text>空のアーティファクト完全隔離容器と隔離容器に入っていないアーティファクトがインベントリにある場合、それらの放射線は吸収されます。\n携帯型作業台でも機能します。</text>
+	</string>
+	
+	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_wshop_only">
+		<text>アーティファクトメルターが入った作業台を開いた時のみにする</text>
+	</string>
+	<string id="ui_mcm_safe_af_craft_empty_lead_absorb_wshop_only_desc">
+		<text>アーティファクトメルター付きの作業台が開かれている場合にのみ、空のアーティファクト完全隔離容器で放射線を吸収するようにします。</text>
+	</string>
+	
+	<string id="ui_mcm_safe_af_craft_melter_absorb_enabled">
+		<text>アーティファクトメルターを開いている時はすべての放射線を吸収する</text>
+	</string>
+	<string id="ui_mcm_safe_af_craft_melter_absorb_enabled_desc">
+		<text>アーティファクトメルターを使用している場合、すべての放射線が吸収されます。（空のアーティファクト完全隔離容器は無視されます）</text>
+	</string>
+
+	
+</string_table>

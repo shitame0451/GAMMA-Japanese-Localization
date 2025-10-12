@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="encyclopedia_factions_other">
+    <text>派閥（その他）</text>
+  </string>
+  <string id="encyclopedia_factions_other_zombified">
+    <text>Zombified（ゾンビ）</text>
+  </string>
+  <string id="encyclopedia_factions_other_zombified_text">
+    <text>
+                        %c[pda_white]「Zombified（ゾンビ）」
+%c[ui_gray_1] 強烈な精神波の及ぶ領域の影響を受けたストーカーである。\n
+
+                        \n%c[pda_green]情報
+                        \n%c[ui_gray_1]高次機能を欠いており、反射神経とスキルだけで行動し、意識的な活動ができず、痛みをほとんど感じない。\n
+                        \nゾンビ化したストーカーの精神と肉体の健康状態は徐々に悪化する。最終的に人間性を完全に失い、ゾンビとなる。\n
+                        \nただし、ミュータントとは異なり、ゾンビ化ストーカーは武器や道具を使用できる。ゾンビ同士またはMonolith兵と一緒にいることが多い。\n
+
+                        \n%c[pda_green]統計
+                        \n%c[ui_gray_1・リーダー: 不明
+                        \n・本拠地: 不明
+                        \n・派閥特徴色: 様々
+                </text>
+  </string>
+</string_table>

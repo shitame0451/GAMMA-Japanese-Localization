@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="ui_mcm_menu_magnifier_switch">
+		<text>Magnifier Switch</text>
+	</string>
+	
+	<string id="ui_mcm_magnifier_switch_title">
+		<text>Magnifier Switch</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_switch_bind">
+		<text>マグニファイアの切り替え（Magnifier Switch）</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_keep_aim_toggle">
+		<text>照準中にマグニファイアを切り替えても照準状態を維持する（トグルADS用）</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_switch_sound">
+		<text>マグニファイア切り替え時に効果音を再生</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_debug">
+		<text>デバッグログ</text>
+	</string>
+
+</string_table>

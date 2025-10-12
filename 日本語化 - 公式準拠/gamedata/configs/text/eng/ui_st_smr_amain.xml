@@ -1,0 +1,85 @@
+<string_table>
+	<string id="ui_mcm_menu_SMR">
+		<text>ZCP</text>
+	</string>
+	
+	<string id="ui_mcm_menu_smr_amain">
+		<text>メイン設定</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_persist_info_mm">
+		<text>あなたは現在、インゲーム中ではありません。今行った変更はニューゲームを開始する際に適用されますが、セーブデータを読み込んだ場合、そのデータの設定に上書きされます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_persist_info_level">
+		<text>現在ゲーム中です。変更した内容はセーブファイルと一緒に保存され、読み込まれます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_tooltip_info">
+		<text>ほとんどのオプションにはツールチップがあります。\n何をするオプションか分からない場合は、その名前の上にマウスカーソルを置くと説明が表示されます。</text>
+	</string>
+	<!-- GENERAL -->
+	<string id="st_smr_glitched_pda_text">
+		<text>FATAL ERROR: INTERNAL MEMORY CORRUPTION DETECTED</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_enabled">
+		<text>ZCPを有効にする</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_debug_log">
+		<text>デバッグログを有効にする</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_debug_log_desc">
+		<text>デバッグログを有効にします。警告：これは、あなたのログファイルおよび独立したログファイル「dph_zcp.log」を非常に速く増大させるでしょう。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_persist_override">
+		<text>セーブファイルから設定を読み込まないようにする</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_smr_persist_override_desc">
+		<text>セーブファイルからの設定読み込みを無効にする。保存されたデータが破損しているなど、無効であると思われる場合に有効です。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_respawn_idle">
+		<text>リスポーンタイム</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_10800">
+		<text>3時間</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_21600">
+		<text>6時間</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_43200">
+		<text>12時間</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_86400">
+		<text>1日 (デフォルト)</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_172800">
+		<text>2日</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_345600">
+		<text>4日</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_604800">
+		<text>1週間</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_1209600">
+		<text>2週間</text>
+	</string>
+	<string id="ui_mcm_lst_smr_amain_respawn_idle_1">
+		<text>しない</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_pop_factor_info">
+		<text>ZCPが有効な場合、これらの設定は、Anomaly内蔵のものよりも優先されます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_monster_pop_factor">
+		<text>ミュータントの人口係数</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_stalker_pop_factor">
+		<text>ストーカーの人口係数</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_respawn_idle_desc">
+		<text>すべてのストーカー、ミュータント、ゾンビのリスポーンタイマーを変更します。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_glitched_pda">
+		<text>壊れたPDA</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_amain_glitched_pda_desc">
+		<text>便利なPDAを文鎮に変え、素敵なエラーメッセージを表示します。</text>
+	</string>
+</string_table>

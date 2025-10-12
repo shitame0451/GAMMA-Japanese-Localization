@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_mp7">
+		<text>MP7</text>
+	</string>
+	<string id="st_wpn_mp7_descr_new">
+		<text>接近戦を重視して設計された、高い機動力を持つコンパクトな個人防衛火器。軽量なポリマーフレームを採用し、低反動と高い連射性能を兼ね備えることで、迅速なターゲット捕捉と優れたコントロール性を実現している。モジュラー設計により、各種アタッチメントを装着可能で、特殊部隊や法執行機関、警備任務において幅広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Heckler &amp; Koch\n
+		</text>
+	</string>
+
+</string_table>

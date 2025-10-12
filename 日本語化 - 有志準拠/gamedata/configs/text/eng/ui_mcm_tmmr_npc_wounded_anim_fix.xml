@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="ui_mcm_menu_tmmr">
+		<text>Tosox Mini Mods Repo</text>
+	</string>
+
+    <string id="ui_mcm_menu_npc_wounded_anim_fix">
+        <text>NPC負傷時の修正</text>
+    </string>
+	<string id="ui_mcm_tmmr_npc_wounded_anim_fix_title">
+		<text>NPC負傷時の修正</text>
+	</string>
+	<string id="ui_mcm_tmmr_npc_wounded_anim_fix_handle_weapon">
+		<text>NPCの武器に対する処理</text>
+	</string>
+    <string id="ui_mcm_tmmr_npc_wounded_anim_fix_handle_weapon_desc">
+		<text>インベントリ - NPCのインベントリに転送する
+\nドロップ - 地面に落とす
+\nアドオンに適応 - 「Weapons Drop on Bodies」がインストールされている場合、NPCのインベントリに転送する</text>
+	</string>
+	
+    <string id="ui_mcm_lst_tmmr_inv_weapon">
+		<text>インベントリ</text>
+	</string>
+	<string id="ui_mcm_lst_tmmr_drop_weapon">
+		<text>ドロップ</text>
+	</string>
+    <string id="ui_mcm_lst_tmmr_adapt_weapon">
+		<text>アドオンに適応</text>
+	</string>
+</string_table>

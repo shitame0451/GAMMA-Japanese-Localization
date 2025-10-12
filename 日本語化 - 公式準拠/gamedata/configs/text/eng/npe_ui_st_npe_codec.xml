@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="npe_codec_btn_continue">
+		<text>スペースキーで続ける</text>
+	</string>
+	<string id="npe_codec_btn_close">
+		<text>閉じる</text>
+	</string>
+	<string id="st_mgs_codec">
+		<text>コーデック</text>
+	</string>
+	<string id="st_mgs_codec_descr">
+		<text>現場、司令部、支援要員間の命令や連絡に用いられる無線通信システム。情報収集任務で広く活用されている。\n \n
+		2000年代に米陸軍が開発したもので、対盗聴コーディングやデジタルリアルタイムバースト通信機能を備えている。FOXHOUNDの工作員に標準支給される装備であり、ハンドラーや仲間、謎の情報提供者と繋がるための命綱だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_blue] • %c[ui_gray_1]技術品\n
+		%c[d_blue] • %c[ui_gray_1]消費電力: 中\n
+		</text>
+	</string>
+</string_table>

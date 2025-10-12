@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!--
+	PROPS
+-->
+
+	<string id="st_placeable_exo_kit">
+		<text>空のエクソスケルトン補修キット</text>
+	</string>
+	<string id="st_placeable_exo_kit_descr">
+		<text>使える物は入っていないが、収納用として使うには容量もサイズも十分なケース。\n \n
+			%c[pda_white]特性:\n
+			%c[d_cyan] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+			</text>
+	</string>
+
+	<string id="st_placeable_case">
+		<text>ガンケース</text>
+	</string>
+	<string id="st_placeable_case_descr">
+		<text>何も入っていないガンケース。普通のバックパックより収納スペースは広いが、その分重量がある。\n \n
+			%c[pda_white]特性:\n
+			%c[d_cyan] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+			</text>
+	</string>
+
+	<string id="st_placeable_blue_box">
+		<text>金属製の箱</text>
+	</string>
+	<string id="st_placeable_blue_box_descr">
+		<text>物をしまうための頑丈な金属製の大型ボックス。他の収納よりも多くの物を入れられるが、かなり重いため持ち運びには向いていない。\n \n
+			%c[pda_white]特性:\n
+			%c[d_cyan] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+			</text>
+	</string>
+
+	<string id="st_placeable_sumka6">
+		<text>小型バックパック</text>
+	</string>
+	<string id="st_placeable_sumka6_descr">
+		<text>小さな布を縫い合わせて作った簡単な袋。緊急時に物を入れる隠し場所として使える。\n \n
+			%c[pda_white]特性:\n
+			%c[d_cyan] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+			</text>
+	</string>
+
+<!--
+	UI
+-->
+
+    <string id="st_place_furniture">
+		<text>設置する</text>
+	</string>
+</string_table>

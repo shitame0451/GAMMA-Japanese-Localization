@@ -1,0 +1,74 @@
+-- ui_inventory.script
+
+-- ===================================================================
+--  UpdateCharacter （プレイヤー／NPCの所持金のカンマ区切り）
+-- ===================================================================
+local original_UpdateCharacter = ui_inventory.UIInventory.UpdateCharacter
+ui_inventory.UIInventory.UpdateCharacter = function(self)
+	local result = original_UpdateCharacter(self)
+
+	-- プレイヤーの所持金をカンマ区切り
+	if self.player_money and db.actor then
+		local money = db.actor:money()
+		self.player_money:SetText(japanese_patch.commas_to_number(money))
+	end
+
+	-- NPCの所持金をカンマ区切り
+	local npc = self:GetPartner()
+	if npc and (not self.npc_is_box) then
+		local money = npc:money()
+		if (self.mode == "repair") and self.npc_up_money then
+			if money <= 999999 then
+				self.npc_up_money:SetText(japanese_patch.commas_to_number(money))
+			end
+		elseif self.npc_money then
+			if money <= 999999 then
+				self.npc_money:SetText(japanese_patch.commas_to_number(money))
+			end
+		end
+	end
+
+	return result
+end
+
+-- ===================================================================
+--  UpdateWeight （プレイヤーとNPC／スタッシュの最大重量の日本語化）
+-- ===================================================================
+local original_UpdateWeight = ui_inventory.UIInventory.UpdateWeight
+ui_inventory.UIInventory.UpdateWeight = function(self)
+	local result = original_UpdateWeight(self)
+
+	-- プレイヤーの重量
+	if self.player_weight_max then
+		local text = self.player_weight_max:GetText()
+		text = string.gsub(text, "%(max", "(最大")	-- 「(max 30 kg)」 → 「(最大 30 kg)」
+		self.player_weight_max:SetText(text)
+	end
+
+	-- NPC／スタッシュの重量
+	if self.npc_weight_max then
+		local text = self.npc_weight_max:GetText()
+		text = string.gsub(text, "%(max", "(最大")
+		self.npc_weight_max:SetText(text)
+	end
+
+	return result
+end
+
+-- ===================================================================
+--  TMode_UpdatePrice （トレード時の合計金額のカンマ区切り ルーブルの日本語化）
+-- ===================================================================
+local original_TMode_UpdatePrice = ui_inventory.UIInventory.TMode_UpdatePrice
+ui_inventory.UIInventory.TMode_UpdatePrice = function(self, ele_txt, ele_btn, bag)
+	local tot_cost = 0
+	local cc = self.CC[bag]
+	if cc then
+		for idx, ci in pairs(cc.cell) do
+			tot_cost = tot_cost + cc:GetCellCost(ci)
+		end
+	end
+	tot_cost = math.floor(tot_cost)
+
+	ele_txt:SetText( japanese_patch.commas_to_number(tot_cost) .. " ルーブル" )
+	ele_btn:Enable(tot_cost > 0)
+end

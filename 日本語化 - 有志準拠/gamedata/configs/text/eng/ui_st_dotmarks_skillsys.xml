@@ -1,0 +1,22 @@
+<!-- ====================================================================
+    Interaction Dot Marks
+    Author: Catspaw
+    Updated: 20250715
+    Permission granted to freely translate this file into any language.
+===================================================================== -->
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+    <string id="st_player_skills_hint_scavenging">
+        <text>ストーカーを漁った際のドロップ率が上昇する。
+\nDot MarksのMCMで有効にすると、ドットマーカーの表示距離も延長される。
+
+\n\nストーカーの死体を漁ることで経験値を獲得し、スキルレベルが上がる。
+\nランクの高いストーカーほど多くの経験値を得られる。\n</text>
+    </string>
+
+    <string id="st_skills_stats_dotmark_bonus_range">
+        <text>\n%c[d_purple] • %c[pda_white]ドットマーカーの表示距離ボーナス: %c[d_green]+$stat m</text>
+    </string>
+
+</string_table>

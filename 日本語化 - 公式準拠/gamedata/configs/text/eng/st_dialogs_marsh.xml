@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!-- Cold (Clear Sky Leader) -->
+	<string id="find_blackbox_mlr_reward_csky_0">
+		<text>フライトレコーダーを見つけたぞ。</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_csky_1">
+		<text>おお、素晴らしい発見だ！ようやくこの沼地で起こる空襲の原因が分かるかもしれないな。</text>
+	</string>
+
+
+<!-- Librarian (Clear Sky Barman) -->
+	<string id="story_b_cs_0">
+		<text>コールドについて何か教えてくれないか？</text>
+	</string>
+	<string id="story_b_cs_1">
+		<text>何と言えばいいか･･････
+\n今の組織を率いるリーダーとして、かなりの信頼を集めてるってのは確かだ。</text>
+	</string>
+	<string id="story_b_cs_2">
+		<text>どうやってその信頼を得たんだ？</text>
+	</string>
+	<string id="story_b_cs_3">
+		<text>実はな、前のリーダーだったレベデフには色々問題があったんだ。
+\n俺は直接会ったことはないが、奴は派閥メンバーの意見に耳を貸さなかった。
+\nチョルノービリ原子力発電所へ向かう遠征を強行したんだ。
+\nあの傭兵は確かに俺たちを助けてくれたが、結局、ついていく価値はなかったのさ。
+\n基地に残された者たちはレネゲードに対抗する力もなかった。
+\n俺たちが沼地で戦う意義も消えちまって･･････
+\nチョルノービリ原発と沼地で失われた犠牲は、全部無駄になったんだよ。</text>
+	</string>
+	<string id="story_b_cs_4">
+		<text>当時のリーダーに不満が出るのも、無理はなかったってことだな。</text>
+	</string>
+	<string id="story_b_cs_5">
+		<text>それだけじゃない･･････ 部隊が帰還した後、すべてを取り戻すための長い戦いが待っていた。
+\nコールドがいなけりゃ、日々の生活もままならなかっただろうな。
+\nあいつは無所属のストーカーにも協力を求め、ガーベジやコルドンの連中とも
+\n連絡を取り合うようになった。フリーのストーカーたちには世話になったし、
+\nカリスマ的なリーダーがいるってのは悪いもんじゃない。
+\nそして、あいつは全戦闘員にここを離れないよう命令した。例外は一切ナシだ。
+\n必要なら手は借りるが、ここにいる仲間の命を危険に晒すことは決してしない。</text>
+	</string>
+	<string id="story_b_cs_6">
+		<text>レベデフがどういう人物だったかはともかく、この派閥は以前とは別物みたいだな。</text>
+	</string>
+	<string id="story_b_cs_7">
+		<text>そいつはお前の意見だ。ある程度は当たってるにしてもな。
+\n今の俺たちには、大きな目標なんてないのかもしれないな･･････ いや、それとも･･････
+\nあー･･････ まあいい。そろそろ話を切り上げて、商談といこうじゃないか。</text>
+	</string>
+	<string id="story_b_cs_8">
+		<text>そうだな。</text>
+	</string>
+	<string id="story_dog_0">
+		<text>あのシュードドッグは誰が飼ってるんだ？</text>
+	</string>
+	<string id="story_dog_1">
+		<text>あれは「バディ」って名前で、ドクターの愛犬さ。
+\n少し老けてきたからよろしく頼むって、コールドに保護を頼んだんだ。</text>
+	</string>
+	<string id="story_dog_2">
+		<text>そうか。見たところ、その必要があるとは思えないが。</text>
+	</string>
+	<string id="story_dog_3">
+		<text>見た目に惑わされるなよ。こいつは優しい性格なんだ。
+\nそうだ、この種類の犬について興味深い話でもしようか？</text>
+	</string>
+	<string id="story_dog_4">
+		<text>聞かせてくれ。</text>
+	</string>
+	<string id="story_dog_5">
+		<text>実はな、シュードドッグは犬から進化したわけじゃないんだ。
+\n共通の祖先はいるらしいが、どちらかというと、あれは狼の変種に近いんだと。
+\nデューティーの連中が奴らを調査する過程で、それを発見したらしい。</text>
+	</string>
+	<string id="story_dog_6">
+		<text>あんたはどうやってその情報を得たんだ？</text>
+	</string>
+	<string id="story_dog_7">
+		<text>仕事柄、俺のところにはいろんな噂が入ってくるんだよ。
+\n北の方に行くと、俺たちの沼地に似た「ザトン」って場所があってな。
+\n聞いた話じゃ、そこの古いはしけに変わり者のじいさんが住んでるらしい。
+\nそのじいさんもシュードドッグを飼ってるって話だぜ。
+\nちょいと遠いが、確かめに行ってみるのも悪くないんじゃないか？</text>
+	</string>
+	<string id="story_dog_8">
+		<text>そこはゾーンの端っこだな。そのうち行ってみるよ。</text>
+	</string>
+	<string id="about_dog_marsh_part_two_0">
+		<text>ノアに会ってきたぞ。あんたが前に言ってた「変わり者のじいさん」にな。</text>
+	</string>
+	<string id="about_dog_marsh_part_two_1">
+		<text>おっと、そんな話もしたっけか、すっかり忘れてたな。
+\nそれで･･････ シュードドッグを飼いならしてるって噂は本当だったのか？</text>
+	</string>
+	<string id="about_dog_marsh_part_two_2">
+		<text>ああ。その犬はメスで、あの老人は「ラッシー」と呼んでいた。
+\n子犬が二匹いたが、どちらも攻撃的な様子はなかったな。</text>
+	</string>
+	<string id="about_dog_marsh_part_two_3">
+		<text>子犬だって？お前も、ゾーンでそんなものを見る日が来るとは思わなかっただろう。
+\nまあ、ありがとな。まさか友好的なシュードドッグがゾーンで繁殖してるとはな。
+\nこれからの旅に役立ちそうな物がある。情報をくれた礼だ、持って行きな･･････
+\nそれと、軍事倉庫と赤い森を繋ぐルートの情報も教えてやろう。
+\nこれは昔から使われていた道でな、今でも通れるはずだ。</text>
+	</string>
+
+
+<!-- (Clear Sky guide) -->
+	<string id="meet_guid_marsh_csky_0">
+		<text>なあ、どうしてそこに突っ立ってるんだ？</text>
+	</string>
+	<string id="meet_guid_marsh_csky_1">
+		<text>こうして立っていたいのさ、俺の勝手だろ･･････ なんてな、冗談だよ。
+\n俺はここのガイドだから、いつも目立つところにいないといけないんだ。
+\nそれから、装備をじろじろ見るのはやめてくれ･･････ 気が散って仕方がない。
+
+\n\n必要なら、色んな場所に案内できるぞ。この沼地にある監視哨、ポンプ場、古い教会、
+\n機械工場まで連れてってやれる。それから、コルドンのルーキー村やアフロプロム、
+\n100ラッズ・バーへの案内もやってる。もちろん、どれも有料だけどな。</text>
+	</string>
+	<string id="meet_guid_marsh_csky_list_0">
+		<text>もう一度、案内できる場所を教えてくれないか？</text>
+	</string>
+	<string id="meet_guid_marsh_csky_list_1">
+		<text>俺が案内できる場所は次のとおりだ。
+\n監視哨は300ルーブル、ポンプ場と古い教会は500ルーブル、機械工場は800ルーブル、
+\nコルドンのルーキー村は1,500ルーブル、アフロプロムは2,000ルーブル、
+\n100ラッズ・バーまでなら4,000ルーブルだ。</text>
+	</string>
+	<string id="travel_guid_marsh_csky_0">
+		<text>案内を頼みたい。</text>
+	</string>
+	<string id="travel_guid_marsh_csky_1">
+		<text>よし、どこへ行きたい？</text>
+	</string>
+	<string id="travel_guid_marsh_csky_2">
+		<text>監視哨へ。%c[d_orange] [300ルーブル]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_3">
+		<text>ポンプ場へ。%c[d_orange] [500ルーブル]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_4">
+		<text>古い教会へ。%c[d_orange] [500ルーブル]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_5">
+		<text>機械工場へ。%c[d_orange] [800ルーブル]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_6">
+		<text>コルドンのルーキー村へ。%c[d_orange] [1,500ルーブル]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_7">
+		<text>アフロプロムへ。%c[d_orange] [2,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_8">
+		<text>100ラッズ・バーへ。%c[d_orange] [4,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_marsh_csky_9">
+		<text>気が変わった。</text>
+	</string>
+	<string id="mar_csky_guide_background_1">
+		<text>俺か？そうだな･･････ クリアスカイのガイドを始めて、もう7年になる。
+\n最初の頃─2011年くらいだったか、あの頃はほとんど沼地から出ることはなかったし、
+\nストーカーを遠くに案内することもめったになかったな。だが、あの時から変わったんだ。
+\n沼の水を口いっぱいに含んだ、草まみれの傭兵野郎が見つかった時にな。
+
+\n\n当初、俺たちのリーダーはそいつのことを信用していなかった。
+\nだから、基地に出入りするたびに俺が目隠しをして案内する決まりになっていた。
+\nそれが数週間もすると、派閥の連中を言いくるめて、発電所への突撃をけしかけたんだ。
+
+\n\n当然の結果だ─奴も俺たちの仲間も、その無謀な作戦から戻ってくることはなかった。
+\n･･････全部、あのイカれた傭兵のせいだ。</text>
+	</string>
+	<string id="mar_csky_guide_background_2">
+		<text>その傭兵とは、スカーのことか？</text>
+	</string>
+	<string id="mar_csky_guide_background_3">
+		<text>そうだ･･････ あの伝説のな。
+\n顔の傷よりも、不気味な目つきのほうが記憶に残ってる。本当にゾッとさせられたもんだ。
+\nカランチャ教授の話じゃ、奴は光熱放射に対して何らかの耐性を持っていたらしい。
+\nそれどころか、光熱放射を浴びるたびに強くなっていったって話だ。
+\nまあ、脳は焼かれておかしくなっちまったみたいだけどな。
+\n結局、チョルノービリ原発で起きた最大級の光熱放射には耐えられなかったようだな。
+\nざまあみろ、って感じだ。</text>
+	</string>
+	<string id="mar_csky_guide_background_4">
+		<text>まあ、安らかに眠ってるだろうな。</text>
+	</string>
+
+
+<!-- (Clear Sky Mechanic) -->
+	<string id="marsh_stalker_tech_pragmatic_research_0">
+		<text>クリアスカイは研究に熱心なんだろう？</text>
+	</string>
+	<string id="marsh_stalker_tech_pragmatic_research_1">
+		<text>ああ、その通りだ。エコロジストと同じように、ゾーンの理解をより深めるのが目的だ。
+\nだが、俺たちはただ観察するだけじゃない。得た知識を活用することを重視している。
+
+\n\n例えば、スーツに«グラビ»の破片を埋め込むことで、その重量を大幅に軽減できる。
+\nブラッドサッカーの血液凝固剤は、戦闘中の出血を防ぐ生命維持装置に応用可能だ。
+\nそれに、フレッシュの眼の構造を研究して、高度な照準システムだって開発した。
+\nこれは、俺たちが考案した数多くのアイデアのほんの一部なんだぜ。</text>
+	</string>
+	<string id="cit_doctor_hello_dialog_11">
+		<text>ああ、何か用か？</text>
+	</string>
+	<string id="cit_doctor_hello_dialog_21">
+		<text>知っていることは全部話したぞ。</text>
+	</string>
+	<string id="cit_doctor_main_dialog_0">
+		<text>ゾーンについて教えてくれないか？</text>
+	</string>
+	<string id="cit_doctor_main_dialog_1">
+		<text>ああ･･････ ゾーンの謎を追い求めているのか？
+\n君が求める情報は持っているかもしれんが、その重荷を理解しているか確認させてくれ。</text>
+	</string>
+	<string id="cit_doctor_main_dialog_11">
+		<text>続けてくれ。</text>
+	</string>
+	<string id="cit_doctor_main_dialog_2">
+		<text>その謎は、私の大切な友人を含む多くの人々を破滅へと導いた･･････
+
+\n\nストレロクには優れたストーカーの仲間たちがいたが、生き残っているのは彼だけだ。
+\n彼らはこのゾーンで、何らかの謎や陰謀を調査していた。
+\nその旅から戻ってきた彼を最後に見たとき─明らかに、何かが変わっていた。
+\n何かが･･････ あるいは誰かが、彼を変えてしまったんだ。そうに違いない･･････
+
+\n\nここには“発見されたくない何か”が存在している。
+\nそしてゾーンそのものが、それを隠しているように思える。この意味を、理解できるか？</text>
+	</string>
+	<string id="cit_doctor_main_dialog_21">
+		<text>ああ。それでも知りたいんだ、教えてくれ。</text>
+	</string>
+	<string id="cit_doctor_main_dialog_3">
+		<text>見事な根性だな。無謀だが、褒めてやろう･･････</text>
+	</string>
+	<string id="cit_doctor_main_dialog_31">
+		<text>話してくれるのか？</text>
+	</string>
+	<string id="cit_doctor_main_dialog_4">
+		<text>いいだろう、若者よ。ストレロクが最後にここへ来たとき、
+\n彼はプリピャチにある隠し場所の鍵と座標を、私に託していった。これだ、持っていけ。
+
+\n\nそれと、モノリスについて何か話していたな。
+\n私にはよく理解できなかったが、彼自身も完全には分かっていなかったのかもしれん。
+\nそれからもう一つ･･････ 彼は長い間、地下研究所で陰謀の手がかりを探していた。
+\nおそらく、何らかの秘密に関する隠蔽工作があったと考えていたのだろう。
+\n･･････そこに、君が求めている答えがあるのかもしれんな。</text>
+	</string>
+	<string id="cit_doctor_main_dialog_41">
+		<text>そうか。ありがとう、助かるよ。</text>
+	</string>
+	<string id="cit_doctor_main_dialog_5">
+		<text>さあ、行くのだ。この老いぼれに静かな時間をくれ。</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_start_dialog_1">
+		<text>補給品や装備が必要か？情報が欲しいか？･･････それとも、情報を売りにきたのか？</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_need_health_care_0">
+		<text>治療が必要だ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_need_health_care_1">
+		<text>分かった、いつも通り治療をしてやろう。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_need_health_care_11">
+		<text>[治療を待つ]</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_need_health_care_111">
+		<text>よし、完了だ。もう行っていいぞ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_need_health_care_2">
+		<text>ちょっと見せてくれ･･････ 傷はないな。放射線障害の兆候もない。
+\n問題はなさそうだ、出発しても大丈夫だろう。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_start_1">
+		<text>ん？なんだい？</text>
+	</string>
+	<string id="marsh_stalker_barmen_start_dialog_1">
+		<text>新顔だな！俺は「ライブラリアン」って呼ばれてる。
+\nここのバーテンダーってとこだな。質問があれば何でも答えるぜ。
+\n仕事を紹介してやれるし、面白い噂が入ったりするから、たまに顔を出してくれよな。</text>
+	</string>
+	<string id="marsh_stalker_barmen_start_dialog_2">
+		<text>よう、ストーカー。何か用か？</text>
+	</string>
+	<string id="marsh_stalker_tech_start_1">
+		<text>ごきげんよう、ストーカー。何か手助けはいるか？
+\nこのゾーンじゃ良い道具は手に入れるのが難しいんだ。
+\nでもまあ、あんたの装備の修理と、少しくらいのアップグレードならできなくはないぜ。</text>
+	</string>
+	<string id="marsh_stalker_medic_background_0">
+		<text>あんたのことを教えてくれ。</text>
+	</string>
+	<string id="marsh_stalker_medic_background_1">
+		<text>私はE.F.カランチャ教授だ。レベデフやススロフと共に、クリアスカイを創設した。
+\n彼らはチョルノービリ原発への襲撃で命を落としたが、私は基地で待機していたんだ。
+\n私はこの派閥の主任研究員として、普段はアーティファクトの実験、
+\nミュータントの組織サンプルの分析、アノマリーの観察に従事している。
+\n時にはノビコフと協力し、研究成果の実用化にも取り組んでいるよ。
+
+\n\nそれと、仕方なくではあるが、この基地の衛生兵としての役割も私が担っている。
+\nもし君が負傷した場合･･････ ああ、願わくば希少なサンプルも持っていてほしいが･･････
+\n─ええと、どこに戻ってくればいいかは分かっているね？</text>
+	</string>
+	<string id="marsh_stalker_medic_about_people_0">
+		<text>ストーカーたちについてどう思う？</text>
+	</string>
+	<string id="marsh_stalker_medic_about_people_1">
+		<text>ゾーンの本質を理解したつもりでいる人間は多いが、残念ながら皆、誤っている。
+\nそれを純粋な悪の具現だと捉える者もいれば、奇跡だと称える者もいる。
+\n財宝を得ることしか考えていない者もいるが･･････ 彼らは皆、人間の持つ根本的な先入観に
+\n囚われているのだ。ゾーンという存在は、人間の認識の枠を超えた理解しきれない現象だ。
+\n人類が踏み込むには早すぎるというのに、ストーカーも政府も、
+\nその無知ゆえに無謀な行動を繰り返している。かつては、私たちも同じ過ちを犯した。
+\n他者よりも優れた知識があると過信した結果、深刻な代償を払うことになったのだよ。</text>
+	</string>
+	<string id="marsh_stalker_medic_about_zone_0">
+		<text>ゾーンについて何を知っているんだ？</text>
+	</string>
+	<string id="marsh_stalker_medic_about_zone_1">
+		<text>若者よ、私たちは何年もゾーンを研究してきたが、依然としてその本質を掴めていない。
+\n私がはっきり言えるのは、ゾーンは自然現象などではなく、むしろ･･････
+\n一部の野心的な者たちが生み出した、無意味な試みの産物だということだ。
+\nゾーンはもはや元に戻すことはできないし、破壊することもできなければ、
+\n自然に消滅することもないだろう。それに、我々は過去の経験から十分に学んでいる。
+\nゾーンを抑え込もうとする行為が、必ず破滅的な結果を招くということを。
+\n現在のクリアスカイは、人間とゾーンが共存する道を模索するしかないと考えている。</text>
+	</string>
+	<string id="marsh_stalker_medic_about_zone_2">
+		<text>光熱放射が数日ごとにこの地域を襲うことがなければ、それはもっと簡単だろうな。
+\nそういえば、光熱放射は何が原因なんだ？</text>
+	</string>
+	<string id="marsh_stalker_medic_about_zone_3">
+		<text>どう説明したらいいだろうか？例えば、こう考えてみてくれ。
+\nゾーンを含む自然界は、複雑なシステムで動いている。外部から不安定な要因が
+\n加わらない限り、自動的にバランスを保とうとするものなんだ。数年前までは、
+\nゾーンも安定していて、大きな異常は見られなかった。だが、今はどうだろうか？
+
+\n\n君も言った通り、破壊的な光熱放射が定期的にゾーンを襲っている。
+\nシステムは不安定になり、歪んでしまった･･････ いわば、“バグ”のような現象が起きている。
+\nゾーンは光熱放射を次々に吐き出し、そのたびに内部へエネルギーを溜め込んでいる。
+\nその影響で、私のセンサーは異常な速さで振れ続けている。残念ながら、レベデフと
+\nススロフの尊い犠牲をもってしても、この流れを完全に抑えることは叶わなかった。
+\nこの件で最も重要な教訓は、このバグが、自然に起きたものではないということだ。
+\n･･････これもまた、人間の手によるものなのだ。</text>
+	</string>
+	<string id="marsh_stalker_barman_background">
+		<text>俺はここのバーテンダーだ。飲み物や食い物を出して、ラジオを流すのが仕事さ。
+\n派手な仕事じゃないが、戦場に出るよりゃマシさ。ここで働き始めて、もう何年か経つな。
+
+\n\n数年前、俺は沼地の奥で光熱放射に巻き込まれて、逃げ遅れちまったんだ。
+\n他の連中と同じように南を目指して、運よくバンディットにやられずに脱出できた。
+\nそれで、なんとかこの基地を見つけて、クリアスカイに加わったってわけだ。
+\nそうでもしなきゃ、どこかで泥水をすすりながら野垂れ死んでただろうよ。
+\n最初の数週間は、下っ端として監視哨で無政府主義者どもを追い払う仕事をやってた。
+\nそれから、コールドが昇格したときに新しいバーテンダーに抜擢されたんだ。
+\nもちろん、喜んで引き受けたさ。俺は弾丸よりも、酒をぶっ放す方が性に合ってるからな。
+
+\n\nま、そんな話はこれくらいにして･･････ 冷たい一杯はどうだ？</text>
+	</string>
+	<string id="marsh_stalker_trader_background">
+		<text>俺はスポアって言うんだ。この仕事を引き継いでから、もう1年になるかな。
+\n一攫千金を夢見てゾーンに来た･･････ まあ、他の奴らと同じさ。
+\nそれで、ニンブルっていうストーカーと出会ったんだ。俺たちには共通点が多かった。
+\nゾーンの外に強力なコネがあって、物資の密輸や情報の取引が得意ってところがな。
+\nで、モノリスが復活してビジネスの場が南に移ったとき、俺たちも移動することにした。
+\nそこで、ニンブルがコールドに口を利いてくれたおかげで、この仕事にありつけたのさ。
+\nあいつは昔、クリアスカイのメンバーだったんだぜ。知ってたか？
+\n今はまたザトンに戻って、スカドフスクで活動してるがな。まったく、狂った野郎だぜ。
+
+\n\nだが、あいつはここにしっかりした密輸ルートを残していってくれた。
+\n今じゃ、軍に見つからない沼地の密輸ルートを押さえてるのは俺なんだからな。
+\nそんで、俺が仕入れた商品は、クリアスカイが最優先で選べるってことになってる。
+\nバリアを超えて北に行く機会があったら、ニンブルに会ってみるといい。
+\nあいつは今でも、ストーカーたちにレアな武器や装備を売ってるはずだ。
+\n金さえ出せば、ゾーンでも最高級の装備を揃えてくれるだろうよ。</text>
+	</string>
+	<string id="marsh_stalker_tech_background">
+		<text>俺の名前はノビコフ。だが、「グレイ」って呼ぶやつもいるな。
+\nここの技術者として、あらゆる装備のメンテナンスを一手に引き受けてる。
+\n銃がジャムったとき、ストーカーたちが頼りに来る唯一の存在─それが俺ってわけさ。
+\n昔はここで働いてたが、コールドがリーダーになる少し前に一度抜けたんだ。
+
+\n\n当時の仲間がクソ発電所に行っちまったあと、俺はもっとマシな場所を探すことにした。
+\n最終的には、ジュピターの科学者たちと契約することになったんだ。
+\n何年かそこで働いてたが、ある日、ここの連中がどうにか生き延びてるって話を聞いてな。
+\n契約期間が終わったタイミングで、飛び戻ってきたってわけだ。
+\nここに帰ってきたとき、基地の連中は何も聞かずに俺を受け入れてくれた。
+\n俺のメンテナンスの腕に加えて、科学者たちとのコネも必要だったんだろうな。
+\n今では科学者たちと組んで、昔の研究を再開できる体制も整えたんだぜ。
+\nもし興味があるなら、この辺りのアノマリーフィールドへの案内役は常に募集中だ。
+\nやってみたいなら、スポアに声をかけてみな。</text>
+	</string>
+	<string id="marsh_stalker_leader_background">
+		<text>さて、どこから話そうか？
+\n俺はここでは「コールド」と呼ばれている。今はクリアスカイのリーダーだ。
+\n昔はこの基地のバーテンダーをやっていたが、レベデフやススロフ、
+\nそれに他の幹部たちに何が起きたのかを知り、その仕事をライブラリアンに引き継いだ。
+\nそれから、ここの連中と密輸ウォッカを囲んで、何度も“話し合い”を重ねた末に、
+\n俺が組織を率いるのが一番だと決まった。それ以来、ずっとこの役を務めている。</text>
+	</string>
+	<string id="marsh_csky_history_ask1">
+		<text>クリアスカイについて教えてくれ。</text>
+	</string>
+	<string id="marsh_csky_history_ask2">
+		<text>何を知りたいんだ？</text>
+	</string>
+	<string id="marsh_csky_history_destroyed1">
+		<text>この派閥は全滅したと聞いたんだが？</text>
+	</string>
+	<string id="marsh_csky_history_destroyed2">
+		<text>ああ。全滅寸前だったが、なんとか持ちこたえた。発電所では多くの仲間が倒れたが、
+\n全員がやられたわけじゃない。別の拠点で待機していた仲間もいてな･･････
+\nだが、光熱放射で発生したアノマリーによって、他の地域から孤立してしまったんだ。
+\n当時、沼地にいた者たちは閉じ込められたことに気づき、そこから混乱が始まった。
+\n真面目だったストーカーたちが一夜にしてバンディットに変わり、
+\n残りの者たちは、基地に逃げ込むか、地域のミュータントを狩って生き延びようとした。
+
+\n\n我々は多くのストーカーを受け入れ、備蓄していた食料で彼らの信頼を得た。
+\nやがて、新しいリーダーが必要だということになり、俺がその重荷を背負うことになった。
+\nバーの管理はライブラリアンに任せることにしたよ。経験は浅かったが、あいつのことを
+\n評価してるやつは多かったしな。その後、数か月間バンディットとの小競り合いが続いた。
+\n大半は追い出せたが、それでも軍の連中は、自分たちの手で片をつけたいらしい。
+\n今でも、奴らが制圧した区域には監視のために航空機が飛び続けている。</text>
+	</string>
+	<string id="marsh_csky_history_goal1">
+		<text>現在は何を目標にしているんだ？</text>
+	</string>
+	<string id="marsh_csky_history_goal2">
+		<text>実際のところ、今の我々には明確な目標というものがない。レベデフは野心的な男だった。
+\n彼はゾーンの隠された秘密をすべて解明し、その知識を利用すれば、ゾーンを制御し、
+\n封じ込めることができると考えていた。しかし、その計画はうまくいかなかった。
+\nそして今となっては、我々は以前とほとんど変わらない活動を続けている。
+\nミュータントを狩り、アーティファクトを収集し、それらを研究する･･････ それだけだ。
+\nゾーンの“黄金時代”には、国連の支援を受けて独自の研究を進めることができていた。
+\n武器や研究機材が提供され、国連の科学者や地元のエコロジストの知見も得られた。
+\nそのおかげで、ときには古い地下研究所から興味深い文書が見つかることもあった。
+
+\n\nとはいえ、我々は他の派閥と縄張り争いをするつもりも、ゾーンの中心部への
+\n無謀な進攻を再び仕掛けるつもりもない。デューティーとは違って、我々はゾーンを
+\n破壊しようとしないし、フリーダムの連中のように、ここを遊園地にしようとも思わない。
+\n今はただ、共存の道を選んでいる。あの愚かな襲撃をする前の、古き良き時代のようにな。
+\n目立たず、慎重に動くべきだ─特に、モノリスが再び動き出した今のような時期にはな。
+
+\n\nもう、あの“黄金時代”は終わった。国連は手を引き始め、地元のPMCも新たな脅威への
+\n対応に追われている。さらには、モノリスよりも狂信的な別のカルト集団がいるという
+\n噂さえある。だが、幸いにも我々は、そういった厄介ごとから離れた立ち位置にいる。
+\n･･････さっきも言ったが、今は静かにしているのが一番なのさ。</text>
+	</string>
+	<string id="marsh_csky_history_goal3">
+		<text>現在のクリアスカイのメンバーは、好きなように活動しているということか？</text>
+	</string>
+	<string id="marsh_csky_history_goal4">
+		<text>まあ、そういうことだ。我々は同じ志を持った者の集まりだからな。
+\n俺がいちいち指示を出さなくても、各々が自分のやるべきことをきっちりこなしてくれる。
+\n今のところは、そんな感じで順調にやれてるな。</text>
+	</string>
+	<string id="cit_doctor_health_care_0">
+		<text>ドクター、医療処置をしてくれ。</text>
+	</string>
+	<string id="cit_doctor_health_care_1">
+		<text>わかった。こっちに来なさい、診てあげよう。</text>
+	</string>
+	<string id="cit_doctor_health_care_11">
+		<text>どれくらい悪いんだ？</text>
+	</string>
+	<string id="cit_doctor_health_care_111">
+		<text>応急処置が必要なようだ。放射線の除去はできないが、傷の手当てはしてやろう。</text>
+	</string>
+	<string id="cit_doctor_health_care_112">
+		<text>傷も放射線汚染もないようだ。万事順調。頑丈な男だよ。</text>
+	</string>
+	<string id="cit_doctor_health_care_1111">
+		<text>わかった、ドクター。助けてくれ。</text>
+	</string>
+	<string id="cit_doctor_health_care_1112">
+		<text>助けてくれてありがとう。</text>
+	</string>
+	<string id="cit_doctor_health_care_11111">
+		<text>もうちょっと待て･･････ これでよし。さあ行っていいぞ。</text>
+	</string>
+	<string id="st_psd_end_1">
+		<text>ようやく終わったか。この厄介事を片付けて、それから少し休憩しようか。
+\n手助けに感謝する、ストーカー。</text>
+	</string>
+	<string id="st_psd_end_2">
+		<text>クソッ、ボスがやられちまった。俺が指揮を引き継ぐことにする。
+\n手伝ってくれてありがとよ、ストーカー。</text>
+	</string>
+	<string id="st_psd_intro">
+		<text>油断するな、何者かが近づいて来ている！
+\n･･････警戒解除、どうやらバンディットどもではないらしい。
+\nストーカー、あんたが何を引き受けてここに来たのかは知らんが、急いだほうがいい。
+\nクソどもがもうすぐ来るはずだからな。</text>
+	</string>
+	<string id="st_psd_start">
+		<text>よし、来るぞ！全員、持ち場に着け！</text>
+	</string>
+	<string id="st_psd_warning">
+		<text>作戦区域から離れすぎた場合、クリアスカイのストーカーたちに逃げ出したと判断されるかもしれない</text>
+	</string>
+	<string id="st_psd_escape">
+		<text>クリアスカイを置き去りにして、バンディットとの戦いから逃げ出した</text>
+	</string>
+	<string id="st_psd_stage_0">
+		<text>ポンプ場に行く。</text>
+	</string>
+	<string id="st_psd_stage_1">
+		<text>警備隊の指揮官と話す。</text>
+	</string>
+	<string id="st_psd_stage_2">
+		<text>死亡したスナイパーの位置につく。</text>
+	</string>
+	<string id="st_psd_stage_3">
+		<text>生き残れ！</text>
+	</string>
+	<string id="st_psd_stage_5">
+		<text>指揮官に報告する。</text>
+	</string>
+	<string id="st_psd_stage_6">
+		<text>コールドのところに戻って報酬を受け取る。</text>
+	</string>
+	<string id="st_psd_dialog_1">
+		<text>ストーカー、早くここから離れたほうがいい。ここはすぐに混乱状態になるぞ。</text>
+	</string>
+	<string id="st_psd_dialog_2">
+		<text>コールドからバンディットたちの駆除の手伝いを依頼された。</text>
+	</string>
+	<string id="st_psd_dialog_3">
+		<text>素晴らしい、今は猫の手も借りたい状況だからな。
+\n我々のスナイパーがさっきの襲撃でやられてしまってな。
+\nあの場所に行って、代わりに奴らの頭を吹き飛ばしてくれると助かるんだが。</text>
+	</string>
+	<string id="st_psd_dialog_4">
+		<text>わかった、俺がやろう。</text>
+	</string>
+	<string id="st_psd_dialog_5">
+		<text>忠告に感謝する、ではまた。</text>
+	</string>
+	<string id="st_psd_dialog_6">
+		<text>どうだ？</text>
+	</string>
+	<string id="st_psd_dialog_7">
+		<text>少し待ってくれ、準備を整えてるところだ。</text>
+	</string>
+	<string id="st_psd_dialog_8">
+		<text>まあ、今日はこれで終わりだ。本当に助かった。また会おう。</text>
+	</string>
+	<string id="st_psd_dialog_9">
+		<text>ああ、じゃあな。</text>
+	</string>
+	<string id="st_psd_dialog_10">
+		<text>突撃部隊の指揮官になるのが夢だったが、こんな形でなるとはな･･････</text>
+	</string>
+	<string id="st_psd_dialog_11">
+		<text>残念だ。</text>
+	</string>
+</string_table>

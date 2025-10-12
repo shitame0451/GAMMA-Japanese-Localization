@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	MCM
+-->
+<string_table>
+
+
+	<string id="ui_mcm_rad_ai_title">
+		<text>Semi-Radiant AI</text>
+	</string>
+	<string id="ui_mcm_menu_rad_ai">
+		<text>Semi-Radiant AI</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_trader_sleep">
+		<text>トレーダーが眠るようになる</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_mechanic_sleep">
+		<text>技術者が眠るようになる</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_medic_sleep">
+		<text>衛生兵が眠るようになる</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_sleep_from">
+		<text>トレーダーが寝る時間</text>
+	</string>
+
+	<string id="ui_mcm_rad_ai_sleep_to">
+		<text>トレーダーが起きる時間</text>
+	</string>
+
+
+</string_table>

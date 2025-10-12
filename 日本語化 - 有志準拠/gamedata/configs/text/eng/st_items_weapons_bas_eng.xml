@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+<!--
+	A
+-->
+
+	<string id="st_wpn_adar2_15">
+		<text>ADAR 2-15</text>
+	</string>
+	<string id="st_wpn_adar2_15_descr">
+		<text>AR-15プラットフォームに着想を得たセミオートライフルで、狩猟と競技射撃を重視した民間用として設計されている。伝統的な木製ストックとハンドガードを備え、現代的なモデルとは異なる外観を持つ。民間用でありながら、AR規格のマガジンやアクセサリーに対応している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Molot Oruzhie\n
+		</text>
+	</string>
+	<string id="st_wpn_ak5c_bas">
+		<text>AK 5C</text>
+	</string>
+	<string id="st_wpn_ak5c_bas_descr">
+		<text>スウェーデン軍向けに開発された近代的なアサルトライフル。実績のある設計がベースになっており、過酷な環境条件に適応する信頼性の高さを誇る。調節可能なストックやモジュラー式レールシステムを備え、旧モデルよりも耐久性が向上している。その高い汎用性から、スウェーデン軍の標準装備として使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スウェーデン\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Carl Gustafs Stads Gevarsfaktori\n
+		</text>
+	</string>
+	<string id="st_wpn_ak5c_isg">
+		<text>AK 5C «ISG»</text>
+	</string>
+	<string id="st_wpn_ak5c_isg_descr">
+		<text>スウェーデン軍向けに開発された近代的なアサルトライフル。実績のある設計がベースになっており、過酷な環境条件に適応する信頼性の高さを誇る。調節可能なストックやモジュラー式レールシステムを備え、旧モデルよりも耐久性が向上している。その高い汎用性から、スウェーデン軍の標準装備として使われている。
+		\nこのモデルには改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スウェーデン\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Carl Gustafs Stads Gevarsfaktori\n
+		</text>
+	</string>
+	<string id="st_wpn_ak5c_bas_5c_tik">
+		<text>AK 5C «ISG Special»</text>
+	</string>
+	<string id="st_wpn_ak5c_bas_5c_tik_descr">
+		<text>スウェーデン軍向けに開発された近代的なアサルトライフル。実績のある設計がベースになっており、過酷な環境条件に適応する信頼性の高さを誇る。調節可能なストックやモジュラー式レールシステムを備え、旧モデルよりも耐久性が向上している。その高い汎用性から、スウェーデン軍の標準装備として使われている。
+		\nこのモデルには大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スウェーデン\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Carl Gustafs Stads Gevarsfaktori\n
+		</text>
+	</string>
+	<string id="st_wpn_akm_alfa">
+		<text>AK Alfa</text>
+	</string>
+	<string id="st_wpn_akm_alfa_descr">
+		<text>伝統的なライフルの設計を現代的に進化させたモデル。人間工学に基づいた設計、モジュラー式レールシステム、操作性の向上により、戦術的な運用に適している。信頼性の高さはそのままに、調節可能なストックや握りやすいグリップ、様々な光学機器やアクセサリーとの互換性など、現代的な機能が追加されている。このライフルは、高い汎用性を持つ武器を必要とする軍、法執行機関、民間市場向けに開発された。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ / イスラエル\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]CAA Tactical\n
+		</text>
+	</string>
+	<string id="st_wpn_val_tac">
+		<text>AS Val</text>
+	</string>
+	<string id="st_wpn_val_tac_descr">
+		<text>一体型サプレッサーを搭載した特殊作戦用ライフル。ステルス行動と近接戦闘を想定して設計され、特殊部隊で高い評価を得ている。コンパクトな構造と静音性により、発見されることなく任務を遂行できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_ak12_m1">
+		<text>AK-12</text>
+	</string>
+	<string id="st_wpn_ak12_m1_descr">
+		<text>現代の軍隊で制式採用されることを目指して開発された次世代のアサルトライフル。人間工学に基づいた設計とモジュール性の向上が特徴。改良されたレシーバー、光学機器やアクセサリーに対応するレールシステムを搭載し、旧モデルを上回る命中精度を誇る。反動の制御と幅広い運用能力も向上しており、戦場での信頼性を維持しつつ、次世代ライフルのあるべき姿を体現した。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak12">
+		<text>AK-12</text>
+	</string>
+	<string id="st_wpn_ak12_descr">
+		<text>現代の軍隊で制式採用されることを目指して開発された次世代のアサルトライフル。人間工学に基づいた設計とモジュール性の向上が特徴。改良されたレシーバー、光学機器やアクセサリーに対応するレールシステムを搭載し、旧モデルを上回る命中精度を誇る。反動の制御と幅広い運用能力も向上しており、戦場での信頼性を維持しつつ、次世代ライフルのあるべき姿を体現した。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak12_custom">
+		<text>AK-12 «Monolith»</text>
+	</string>
+	<string id="st_wpn_ak12_custom_descr">
+		<text>現代の軍隊で制式採用されることを目指して開発された次世代のアサルトライフル。人間工学に基づいた設計とモジュール性の向上が特徴。改良されたレシーバー、光学機器やアクセサリーに対応するレールシステムを搭載し、旧モデルを上回る命中精度を誇る。反動の制御と幅広い運用能力も向上しており、戦場での信頼性を維持しつつ、次世代ライフルのあるべき姿を体現した。
+		\nこのモデルは希少なもので、Monolithが所持していることが多い。拡張マガジンと安定性を高めるための垂直フォアグリップが特徴。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak12_mono_kit">
+		<text>AK-12 «Monolith's Light»</text>
+	</string>
+	<string id="st_wpn_ak12_mono_kit_descr">
+		<text>現代の軍隊で制式採用されることを目指して開発された次世代のアサルトライフル。人間工学に基づいた設計とモジュール性の向上が特徴。改良されたレシーバー、光学機器やアクセサリーに対応するレールシステムを搭載し、旧モデルを上回る命中精度を誇る。反動の制御と幅広い運用能力も向上しており、戦場での信頼性を維持しつつ、次世代ライフルのあるべき姿を体現した。
+		\nこのモデルは極めて希少で、高ランクのMonolithが所持していることが多い。巨大なマガジン、ACOGスコープ、レーザーサイト、そしてタブレット端末並みの徹底的な内部改造が施されている。«Monolith's Light»は、Monolithが持つ銃の最高峰と言えるだろう。\n \n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74_n">
+		<text>AK-74</text>
+	</string>
+	<string id="st_wpn_ak74_n_descr">
+		<text>従来の設計を洗練して軽量化されたモデルで、信頼性の高さはそのままに、命中精度と反動の抑制力が向上している。この銃の導入は軍事ドクトリンに大きな影響を与え、連射時のコントロール性を重視する方針への転換点となった。性能と耐久性のバランスに優れ、現在も多くの軍隊で使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74_pmc">
+		<text>AK-74 «PMC»</text>
+	</string>
+	<string id="st_wpn_ak74_pmc_descr">
+		<text>従来の設計を洗練して軽量化されたモデルで、信頼性の高さはそのままに、命中精度と反動の抑制力が向上している。この銃の導入は軍事ドクトリンに大きな影響を与え、連射時のコントロール性を重視する方針への転換点となった。性能と耐久性のバランスに優れ、現在も多くの軍隊で使用されている。
+		\n«PMC»はレーザーサイト、垂直フォアグリップ、マズルブレーキを装備しており、内部にも様々な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74m_n">
+		<text>AK-74M</text>
+	</string>
+	<string id="st_wpn_ak74m_n_descr">
+		<text>AKシリーズの確立された設計を基に現代化したモデルで、ポリマー製の部品、横折れ式のストック、光学機器対応のマウントレールを備えている。従来モデルの耐久性と信頼性を受け継ぎつつ、現代戦に求められるモジュール性を向上させている。軍隊では制式ライフルとして採用され、高い汎用性と信頼性を誇る装備として現在も使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74m_beard">
+		<text>AK-74M «Venom»</text>
+	</string>
+	<string id="st_wpn_ak74m_beard_descr">
+		<text>AKシリーズの確立された設計を基に現代化したモデルで、ポリマー製の部品、横折れ式のストック、光学機器対応のマウントレールを備えている。従来モデルの耐久性と信頼性を受け継ぎつつ、現代戦に求められるモジュール性を向上させている。軍隊では制式ライフルとして採用され、高い汎用性と信頼性を誇る装備として現在も使用されている。
+		\n«Venom»は軽量かつ信頼性の高いAK-74Mの派生モデルとして、ベアードの依頼によってスカドフスクとヤノフ駅で製造された。レーザーサイトと拡張マガジンを備え、ゾーンの過酷な環境下でも確実に作動するよう改良が加えられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74u_n1">
+		<text>AKS-74U</text>
+	</string>
+	<string id="st_wpn_ak74u_n1_descr">
+		<text>標準的なライフルを小型化したカービンモデルで、近接戦闘や狭い場所での取り回しやすさを重視して設計されている。短縮された銃身と折り畳み式のストックにより、車両の乗員、空挺部隊、特殊部隊にとって非常に高い機動性を提供する。サイズは小さいが、大型モデルと同等の耐久性と信頼性を保持しており、高機動を要する作戦で信頼される一丁だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74u_tac">
+		<text>AKS-74U «Tactician»</text>
+	</string>
+	<string id="st_wpn_ak74u_tac_descr">
+		<text>標準的なライフルを小型化したカービンモデルで、近接戦闘や狭い場所での取り回しやすさを重視して設計されている。短縮された銃身と折り畳み式のストックにより、車両の乗員、空挺部隊、特殊部隊にとって非常に高い機動性を提供する。サイズは小さいが、大型モデルと同等の耐久性と信頼性を保持しており、高機動を要する作戦で信頼される一丁だ。
+		\nこのモデルは大幅な改造が施され、垂直フォアグリップ、拡張マガジン、レーザーサイトなどが装着されている。その性能は並外れたものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_ak104_alfa">
+		<text>AK-104 «Alpha»</text>
+	</string>
+	<string id="st_wpn_ak104_alfa_descr">
+		<text>小型アサルトライフルを近代化した戦術モデルで、人間工学に基づいた設計、拡張されたレールシステム、そして反動制御の強化が特徴。特殊部隊や法執行機関での運用を想定し、光学機器やグリップなど、豊富なアクセサリーに対応する高い拡張性を持つ。洗練された構造とモジュール性により、火力、命中精度、機動性の最適なバランスを実現している。状況が目まぐるしく変化する戦闘環境でその真価を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_ak105">
+		<text>AK-105</text>
+	</string>
+	<string id="st_wpn_ak105_descr">
+		<text>機動性を最大限に追求したカービンモデル。持ち運びやすさと実用的な射程を両立しており、短い銃身と軽量なポリマーフレームが特徴。最新の光学機器やアクセサリーにも対応している。都市部での戦闘や特殊作戦を想定して開発されたこのライフルは、目まぐるしく変化する戦闘で高い汎用性を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak105_shakal">
+		<text>AK-105 «Shakal»</text>
+	</string>
+	<string id="st_wpn_ak105_shakal_descr">
+		<text>機動性を最大限に追求したカービンモデル。持ち運びやすさと実用的な射程を両立しており、短い銃身と軽量なポリマーフレームが特徴。最新の光学機器やアクセサリーにも対応している。都市部での戦闘や特殊作戦を想定して開発されたこのライフルは、目まぐるしく変化する戦闘で高い汎用性を発揮する。
+		\nこのモデルは大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak105_sp">
+		<text>AK-105 «Specialist»</text>
+	</string>
+	<string id="st_wpn_ak105_sp_descr">
+		<text>機動性を最大限に追求したカービンモデル。持ち運びやすさと実用的な射程を両立しており、短い銃身と軽量なポリマーフレームが特徴。最新の光学機器やアクセサリーにも対応している。都市部での戦闘や特殊作戦を想定して開発されたこのライフルは、目まぐるしく変化する戦闘で高い汎用性を発揮する。
+		\n«Specialist»は戦術家の夢を具現化したようなモデルで、折り畳み式ストック、オフセットサイト、垂直フォアグリップが装着されているほか、内部の部品に様々な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ak105_swamp">
+		<text>AK-105 «Swamp Thing»</text>
+	</string>
+	<string id="st_wpn_ak105_swamp_descr">
+		<text>機動性を最大限に追求したカービンモデル。持ち運びやすさと実用的な射程を両立しており、短い銃身と軽量なポリマーフレームが特徴。最新の光学機器やアクセサリーにも対応している。都市部での戦闘や特殊作戦を想定して開発されたこのライフルは、目まぐるしく変化する戦闘で高い汎用性を発揮する。
+		\n«Swamp Thing»はElcan製のスコープ、オフセットサイト、レーザーサイト、拡張マガジンが装着されているほか、多数の改造が施されている。このモデルはまさに怪物のような銃で、使用者にとって理想的な操作性を持っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+	<string id="st_wpn_abakan_n">
+		<text>AN-94</text>
+	</string>
+	<string id="st_wpn_abakan_n_descr">
+		<text>独自の反動抑制機構を採用し、初弾バーストを高速で行うことでフルオート射撃時の命中精度を高めた先進的なライフル。複雑な内部構造がマズルジャンプを低減し、精密射撃が求められる状況で優れた性能を発揮する。ただし、整備の難しさが普及を妨げている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_ar15_freedom">
+		<text>AR-15 HERA</text>
+	</string>
+	<string id="st_wpn_ar15_freedom_descr">
+		<text>高いカスタマイズ性が特徴のライフルで、人間工学とモジュール性を追求した先進的なシャーシシステムを備えている。精密射撃を念頭に設計されており、光学機器、グリップ、アクセサリーを簡単に装着できる最新のレールシステムが統合されている。未来的で高い汎用性を持つこの銃は、民間の競技射手や戦術的な運用を求める人々の間で人気がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Hera Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_akm_bas">
+		<text>AKM</text>
+	</string>
+	<string id="st_wpn_akm_bas_descr">
+		<text>プレス加工部品を用いた構造で従来モデルを改良し、大量生産を可能にした実戦証明済みのライフル。高い耐久性で知られ、世界各地の紛争で使用されており、現在も多くの軍隊で主力装備として使われている。単純な設計により、過酷な環境下でも容易な整備と運用が可能。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_akms_bas">
+		<text>AKMS</text>
+	</string>
+	<string id="st_wpn_akms_bas_descr">
+		<text>広く使用されているバトルライフルの派生モデル。折り畳み式ストックを採用することで、標準モデルと同様の信頼性と耐久性を保ちつつ、空挺部隊や機械化歩兵向けに携行性を向上させている。このモデルは、狭い場所や高機動作戦で行動する兵士に特に好まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_aps_bas">
+		<text>APS Stechkin</text>
+	</string>
+	<string id="st_wpn_aps_bas_descr">
+		<text>軍将校や特殊部隊向けに開発されたセレクティブファイア式マシンピストル。ホルスター兼用の着脱式ショルダーストックにより、フルオート射撃時の制御性が向上している。現在ではあまり一般的ではないが、特殊な軍事用途において歴史的価値を持つ独特な拳銃だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_aps_bas_apsabigo">
+		<text>APS Stechkin</text>
+	</string>
+	<string id="st_wpn_aps_bas_apsabigo_descr">
+		<text>軍将校や特殊部隊向けに開発されたセレクティブファイア式マシンピストル。ホルスター兼用の着脱式ショルダーストックにより、フルオート射撃時の制御性が向上している。現在ではあまり一般的ではないが、特殊な軍事用途において歴史的価値を持つ独特な拳銃だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+
+<!--
+	B
+-->
+
+<!--
+	C
+-->
+
+	<string id="st_wpn_colt1911_n">
+		<text>Colt M1911</text>
+	</string>
+	<string id="st_wpn_colt1911_n_descr">
+		<text>高い信頼性を誇る伝説的なセミオートピストルで、頑丈なスチール製の部品とシングルアクショントリガーが特徴。制圧力と握りやすいグリップで高く評価され、1世紀以上にわたって軍の標準的なサイドアームとして使用されていた。現在も軍と民間の双方で使われ、歴史上を象徴する拳銃の一つとなっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt Manufacturing Company\n
+		</text>
+	</string>
+
+<!--
+	D
+-->
+
+	<string id="st_wpn_dvl10_m1">
+		<text>DVL-10 M1 Saboteur</text>
+	</string>
+	<string id="st_wpn_dvl10_m1_descr">
+		<text>隠密作戦用に設計された高精度のボルトアクションスナイパーライフル。一体型のサプレッサーと軽量なシャーシを備え、機動性を高めている。特殊部隊やプロの狙撃手向けに作られており、秘匿性が重要となる長距離での交戦で比類なき性能を発揮する。モジュラー設計により、最新の光学機器やアクセサリーによる自由なカスタマイズが可能で、隠密任務に最適な道具となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Lobaev Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_dvl10">
+		<text>DVL-10 M2 Urbana</text>
+	</string>
+	<string id="st_wpn_dvl10_descr">
+		<text>都市部での戦闘に特化したコンパクトなボルトアクションスナイパーライフル。近距離から中距離の交戦で卓越した命中精度を発揮する。軽量なフレーム、サプレッサーへの対応、そして精密な追撃を可能にする高度な反動制御性が特徴。狭い場所での戦術作戦を想定しており、特殊部隊や法執行機関にとって理想的な機動性と火力のバランスを提供する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Lobaev Arms\n
+		</text>
+	</string>
+
+<!--
+	E
+-->
+
+<!--
+	F
+-->
+
+	<string id="st_wpn_fn57">
+		<text>FN Five-seveN</text>
+	</string>
+	<string id="st_wpn_fn57_descr">
+		<text>軽量なセミオートピストルで、ポリマーフレームにより重量が抑えられ、人間工学に基づいた設計で扱いやすくなっている。反動が少なく、装弾数が多いのが特徴。徹甲弾も使用できるため、軍や法執行機関で好んで使われるサイドアームだ。その独自の設計と性能は、同クラスの従来の拳銃とは異なる存在感を放っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal\n
+		</text>
+	</string>
+	<string id="st_wpn_scar_siber">
+		<text>FN SCAR-H</text>
+	</string>
+	<string id="st_wpn_scar_siber_descr">
+		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性を提供する。セレクティブファイア機能と頑丈な構造により、現代軍に広く採用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal / FN America\n
+		</text>
+	</string>
+	<string id="st_wpn_scar_siber_black">
+		<text>FN SCAR-H «Black»</text>
+	</string>
+	<string id="st_wpn_scar_siber_black_descr">
+		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性を提供する。セレクティブファイア機能と頑丈な構造により、現代軍に広く採用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal / FN America\n
+		</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2">
+		<text>FN SCAR-H «Expert Operator»</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2_descr">
+		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性を提供する。セレクティブファイア機能と頑丈な構造により、現代軍に広く採用されている。
+		\nこのモデルには改良が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal / FN America\n
+		</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2_custom">
+		<text>FN SCAR-H «Specialist Operator»</text>
+	</string>
+	<string id="st_wpn_scar_siber_m2_custom_descr">
+		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性を提供する。セレクティブファイア機能と頑丈な構造により、現代軍に広く採用されている。
+		\nこのモデルには大幅な改良が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal / FN America\n
+		</text>
+	</string>
+	<string id="st_wpn_scar_siber_m1">
+		<text>FN SCAR-H «Tactical»</text>
+	</string>
+	<string id="st_wpn_scar_siber_m1_descr">
+		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性を提供する。セレクティブファイア機能と頑丈な構造により、現代軍に広く採用されている。
+		\nこのモデルには改良が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal / FN America\n
+		</text>
+	</string>
+	<string id="st_wpn_scar_siber_m1_black">
+		<text>FN SCAR-H «Tactical Black»</text>
+	</string>
+	<string id="st_wpn_scar_siber_m1_black_descr">
+		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性を提供する。セレクティブファイア機能と頑丈な構造により、現代軍に広く採用されている。
+		\nこのモデルには改良が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal / FN America\n
+		</text>
+	</string>
+
+<!--
+	G
+-->
+
+	<string id="st_wpn_gauss_bas">
+		<text>ガウスライフル</text>
+	</string>
+	<string id="st_wpn_gauss_bas_descr">
+		<text>コイルの加速を利用し、超高速で弾丸を撃ち出す先進的な電磁兵器。驚異的な阻止力と高い命中精度で知られており、ゾーン内でも希少で高く評価される存在である。技術的な優位性を持つ一方で、特殊な弾薬とエネルギー源に依存するため、維持管理と運用が極めて難しい。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]/編集済み/\n
+		</text>
+	</string>
+	<string id="st_wpn_glock17_m1">
+		<text>Glock 17 «Bruder»</text>
+	</string>
+	<string id="st_wpn_glock17_m1_descr">
+		<text>軽量なポリマーフレーム、大容量マガジン、卓越した信頼性で広く知られるセミオートピストル。シンプルながらも効果的な設計は、軍、法執行機関、そしてストーカーたちの間で非常に人気がある。滑らかなトリガープルと少ない反動により、攻撃にも防御にも頼れるサイドアームとして活躍する。
+		\n«Bruder»は光学サイト取り付け用のマウントベース、タクティカルラバーグリップ、スレッドバレルが装着されているほか、様々な内部改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Glock Ges.m.b.H.\n
+		</text>
+	</string>
+	<string id="st_wpn_howa20">
+		<text>豊和 20式小銃</text>
+	</string>
+	<string id="st_wpn_howa20_descr">
+		<text>高い汎用性を追求した現代的なモジュラー式アサルトライフル。軽量なポリマーフレーム、高度な反動制御、アクセサリーを装着するためのレールシステムが特徴。あらゆる戦闘状況に対応できるよう設計されており、市街地でも野外でも優れたバランスと機動性を発揮する。その高い耐久性と先進的な機能により、軍やエリート兵士にとって頼れる武器となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]日本\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]豊和\n
+		</text>
+	</string>
+
+<!--
+	I
+-->
+
+<!--
+	J
+-->
+
+<!--
+	K
+-->
+
+	<string id="st_wpn_k98_mod_silen98">
+		<text>Karabiner 98k Forester mk.2</text>
+	</string>
+	<string id="st_wpn_k98_mod_silen98_descr">
+		<text>古典的なボルトアクションライフルを近代化したモデル。改良された素材と洗練された設計を備え、オリジナルの高い命中精度と信頼性を維持している。狩猟、射撃、収集用として人気があり、歴史的なベースモデルの価値を保持しながら、現代的な運用を考慮したわずかな改良を取り入れている。セミオートライフルに比べて連射速度は劣るが、その精密さと絶大な阻止力により、長距離戦では脅威的な武器となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ナチス・ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Mauser\n
+		</text>
+	</string>
+	<string id="st_wpn_korth">
+		<text>Korth Custom 4</text>
+	</string>
+	<string id="st_wpn_korth_descr">
+		<text>高級銃器メーカーとして名高いKorth社のカスタムピストル。銃器の愛好家なら、これ以上の説明は不要だろう。Korth社の銃は価格が高いことで知られ、それは多くの人にとって銃よりも車を連想させるものになっているが、エントリーモデルは手頃な範囲内に収まっている。洗練された機構が安定した性能を保証しており、銘品を求める愛好家にとって非常に価値の高いハンドガンだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Korth Waffen\n
+		</text>
+	</string>
+	<string id="st_wpn_korth_custom">
+		<text>Korth Custom 6</text>
+	</string>
+	<string id="st_wpn_korth_custom_descr">
+		<text>高級銃器メーカーとして名高いKorth社のカスタムピストル。銃器の愛好家なら、これ以上の説明は不要だろう。Korth社の銃は価格が高いことで知られ、それは多くの人にとって銃よりも車を連想させるものになっているが、エントリーモデルは手頃な範囲内に収まっている。洗練された機構が安定した性能を保証しており、銘品を求める愛好家にとって非常に価値の高いハンドガンだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Korth Waffen\n
+		</text>
+	</string>
+	<string id="st_wpn_saiga12s_isg">
+		<text>KS-12</text>
+	</string>
+	<string id="st_wpn_saiga12s_isg_descr">
+		<text>古典的で実績のある設計をベースにしたセミオートショットガン。高い耐久性と様々な戦術状況に対応できる汎用性を備えている。多様なマガジンタイプに対応し、マズルデバイス、光学機器、グリップなどを装着することで、性能をさらに高めることが可能。高い火力とモジュール性により、近接戦闘から狩猟まで幅広く活躍する優れた選択肢となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ / ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov USA\n
+		</text>
+	</string>
+	<string id="st_wpn_ks23">
+		<text>KS-23</text>
+	</string>
+	<string id="st_wpn_ks23_descr">
+		<text>ポンプアクション式の“ショットガン”で、特殊な23mmシェルを発射する。外見こそショットガンだが、従来の滑腔銃身とは異なり、大口径の施条銃身を備えているため、ロシアでは特殊作戦用のカービン銃に分類されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_ks23_ecolog">
+		<text>KS-23 «Eco»</text>
+	</string>
+	<string id="st_wpn_ks23_ecolog_descr">
+		<text>ポンプアクション式の“ショットガン”で、特殊な23mmシェルを発射する。外見こそショットガンだが、従来の滑腔銃身とは異なり、大口径の施条銃身を備えているため、ロシアでは特殊作戦用のカービン銃に分類されている。
+		\n«Eco»はゾーンの科学チームのニーズに合わせて特別な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_ks23_23_up">
+		<text>KS-23 Shortie</text>
+	</string>
+	<string id="st_wpn_ks23_23_up_descr">
+		<text>ポンプアクション式の“ショットガン”で、特殊な23mmシェルを発射する。外見こそショットガンだが、従来の滑腔銃身とは異なり、700mmの施条銃身を備えているため、ロシアでは特殊作戦用のカービン銃に分類されている。
+		\nこのKS-23は銃身が短縮され、510mmになっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_ks23_kaban">
+		<text>KS-23M Drozd</text>
+	</string>
+	<string id="st_wpn_ks23_kaban_descr">
+		<text>ポンプアクション式の“ショットガン”で、特殊な23mmシェルを発射する。外見こそショットガンだが、従来の滑腔銃身とは異なり、700mmの施条銃身を備えているため、ロシアでは特殊作戦用のカービン銃に分類されている。このモデルはKS-23を小型にしたもので、短縮された510mmの銃身と、標準ストックの代わりに装着されたピストルグリップが特徴。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_ks23_kaban_kab_up">
+		<text>KS-23M Drozd «Boar»</text>
+	</string>
+	<string id="st_wpn_ks23_kaban_kab_up_descr">
+		<text>ポンプアクション式の“ショットガン”で、特殊な23mmシェルを発射する。外見こそショットガンだが、従来の滑腔銃身とは異なり、700mmの施条銃身を備えているため、ロシアでは特殊作戦用のカービン銃に分類されている。このモデルはKS-23を小型にしたもので、短縮された510mmの銃身と、標準ストックの代わりに装着されたピストルグリップが特徴。
+		\n«Boar»はサプレッサー取り付け用のスレッドバレルと、より優れた標的捕捉を可能にするリフレックスサイトが装着されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+
+<!--
+	L
+-->
+
+	<string id="st_wpn_l85_m1">
+		<text>L85A2</text>
+	</string>
+	<string id="st_wpn_l85_m1_descr">
+		<text>近代化されたブルパップ式アサルトライフルで、信頼性、耐久性、そして戦闘における精度向上を目的に設計された。光学機器やアタッチメントの装着を可能にするレールシステムを備え、戦場での多様な役割に対応する汎用性を高めている。前モデルの多くの欠点を改善し、長年にわたりイギリス軍の制式ライフルとして活躍した。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イギリス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Royal Ordnance / Heckler &amp; Koch\n
+		</text>
+	</string>
+	<string id="st_wpn_l85_m2">
+		<text>L85A2</text>
+	</string>
+	<string id="st_wpn_l85_m2_descr">
+		<text>近代化されたブルパップ式アサルトライフルで、信頼性、耐久性、そして戦闘における精度向上を目的に設計された。光学機器やアタッチメントの装着を可能にするレールシステムを備え、戦場での多様な役割に対応する汎用性を高めている。前モデルの多くの欠点を改善し、長年にわたりイギリス軍の制式ライフルとして活躍した。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イギリス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Royal Ordnance / Heckler &amp; Koch\n
+		</text>
+	</string>
+	<string id="st_wpn_l85_m3">
+		<text>L85A2 Tactical</text>
+	</string>
+	<string id="st_wpn_l85_m3_descr">
+		<text>近代化されたブルパップ式アサルトライフルで、信頼性、耐久性、そして戦闘における精度向上を目的に設計された。光学機器やアタッチメントの装着を可能にするレールシステムを備え、戦場での多様な役割に対応する汎用性を高めている。前モデルの多くの欠点を改善し、長年にわたりイギリス軍の制式ライフルとして活躍した。
+		\nこのモデルには改良が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イギリス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Royal Ordnance / Heckler &amp; Koch\n
+		</text>
+	</string>
+	<string id="st_wpn_pl15">
+		<text>Lebedev PL-15</text>
+	</string>
+	<string id="st_wpn_pl15_descr">
+		<text>軍や法執行機関向けに設計された、現代的なセミオートピストル。人間工学に基づいたグリップと、反動を軽減する低銃軸設計が特徴。高い命中精度を誇り、滑らかなトリガーと優れた操作性により素早い射撃を可能にする。プロの任務や個人の護身用として、信頼性と効率性に優れた理想のサイドアームとなっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_pl15_pl15_scolaz">
+		<text>Lebedev PL-15 «Bearcat»</text>
+	</string>
+	<string id="st_wpn_pl15_pl15_scolaz_descr">
+		<text>軍や法執行機関向けに設計された、現代的なセミオートピストル。人間工学に基づいたグリップと、反動を軽減する低銃軸設計が特徴。高い命中精度を誇り、滑らかなトリガーと優れた操作性により素早い射撃を可能にする。プロの任務や個人の護身用として、信頼性と効率性に優れた理想のサイドアームとなっている。
+		\n«Bearcat»はAimpoint T1スコープとレーザーサイトが装着されているほか、様々な内部改造が施されている。これはサイドアームの枠を超えた存在だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+
+<!--
+	M
+-->
+
+	<string id="st_wpn_m4a1_siber">
+		<text>M4A1</text>
+	</string>
+	<string id="st_wpn_m4a1_siber_descr">
+		<text>汎用性を重視して設計されたフルオートカービンで、軽量フレーム、モジュラーレールシステム、そして近接から中距離戦闘に対応した操作性の向上が特徴。軍や特殊部隊に広く使用され、光学機器、サプレッサー、グレネードランチャーを含む多様なアタッチメントに対応している。信頼性、機動性、火力を兼ね備え、現代の軍隊にとって欠かせない装備となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt's Manufacturing Company\n
+		</text>
+	</string>
+	<string id="st_wpn_m4_butcher">
+		<text>M4A1 «Butcher»</text>
+	</string>
+	<string id="st_wpn_m4_butcher_descr">
+		<text>汎用性を重視して設計されたフルオートカービンで、軽量フレーム、モジュラーレールシステム、そして近接から中距離戦闘に対応した操作性の向上が特徴。軍や特殊部隊に広く使用され、光学機器、サプレッサー、グレネードランチャーを含む多様なアタッチメントに対応している。信頼性、機動性、火力を兼ね備え、現代の軍隊にとって欠かせない装備となっている。
+		\n«Butcher»は、絶え間なく射撃し続けるために作られた怪物兵器だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt's Manufacturing Company\n
+		</text>
+	</string>
+	<string id="st_wpn_m4_tac">
+		<text>M4A1 «Protector»</text>
+	</string>
+	<string id="st_wpn_m4_tac_descr">
+		<text>汎用性を重視して設計されたフルオートカービンで、軽量フレーム、モジュラーレールシステム、そして近接から中距離戦闘に対応した操作性の向上が特徴。軍や特殊部隊に広く使用され、光学機器、サプレッサー、グレネードランチャーを含む多様なアタッチメントに対応している。信頼性、機動性、火力を兼ね備え、現代の軍隊にとって欠かせない装備となっている。
+		\nこのモデルは、垂直フォアグリップ、拡張マガジン、複数のピカティニーレールを含む大規模な改造が施され、並外れた性能を持っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt's Manufacturing Company\n
+		</text>
+	</string>
+	<string id="st_wpn_pm_bas">
+		<text>Makarov PM</text>
+	</string>
+	<string id="st_wpn_pm_bas_descr">
+		<text>このソビエトの遺産は今でも最高の小型護身用拳銃の一つだ。扱いやすさと信頼性で高く評価され、簡素な構造や製造性、精度、そして十分な制止力から制式採用された。しかし、重量や装弾数、総合的な性能においては現代の拳銃に劣っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_pm_bas_custom">
+		<text>Makarov PM（カスタム）</text>
+	</string>
+	<string id="st_wpn_pm_bas_custom_descr">
+		<text>このソビエトの遺産は今でも最高の小型護身用拳銃の一つだ。扱いやすさと信頼性で高く評価され、簡素な構造や製造性、精度、そして十分な制止力から制式採用された。しかし、重量や装弾数、総合的な性能においては現代の拳銃に劣っている。
+		\nこのカスタムモデルにはスレッドバレルとトリチウムサイトが装着されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_pm_bas_actor">
+		<text>Makarov PM «Mythic»</text>
+	</string>
+	<string id="st_wpn_pm_bas_actor_descr">
+		<text>このソビエトの遺産は今でも最高の小型護身用拳銃の一つだ。扱いやすさと信頼性で高く評価され、簡素な構造や製造性、精度、そして十分な制止力から制式採用された。しかし、重量や装弾数、総合的な性能においては現代の拳銃に劣っている。
+		\nこのモデルはPMの限定生産品だと言う者もいれば、手作りで改造されたものだと言う者もいる。真偽のほどはともかく、これは優れた銃であり、サプレッサーを簡単に取り付けられるようにスレッドバレル仕様になっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_pmm_bas">
+		<text>Makarov PMM</text>
+	</string>
+	<string id="st_wpn_pmm_bas_descr">
+		<text>伝説的なMakarovの再設計モデル。より大きな12連マガジンを備え、ガス圧を25%高めて初速を大幅に向上させつつ、PMのシンプルさや製造の容易さ、精度を維持している。これらの変更によって現代の拳銃との差をある程度埋めたものの、重量や総合性能の面では依然として劣っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhevsk Mechanical Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_k98_mod">
+		<text>Mauser 98k Forester mk.1</text>
+	</string>
+	<string id="st_wpn_k98_mod_descr">
+		<text>古典的なボルトアクションライフルを直接改造し、狩猟や精密射撃に特化させたモデル。オリジナルの高い命中精度と信頼性はそのままに、洗練されたストックを備え、光学機器との互換性が向上している。軍用設計を基盤としながらも、民間用として耐久性を確保した実用的な仕様となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ナチス・ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Mauser\n
+		</text>
+	</string>
+	<string id="st_wpn_mp133_bas">
+		<text>MP-133</text>
+	</string>
+	<string id="st_wpn_mp133_bas_descr">
+		<text>耐久性と信頼性を追求したポンプアクションショットガンで、様々な種類のシェルに対応している。人間工学に基づいた設計とタクティカルアタッチメントとの互換性を特徴とし、護身用としても狩猟用としても活躍する。滑らかな操作性と堅牢な構造は、法執行機関や警備部隊の間で広く支持されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmekh Mechanical Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_mp153_bas">
+		<text>MP-153</text>
+	</string>
+	<string id="st_wpn_mp153_bas_descr">
+		<text>イジェフスク機械工場が初めて開発したセミオートショットガン。ロシア製のものとしては非常に人気があり、あらゆる狩猟で広く使用されている。ポンプアクションのMP-133と同時期に開発されたため、多くの部品を共有しており、高い信頼性と頑丈な構造には定評がある。その堅牢さと確かな信頼性から、プロと一般ユーザーの両方に広く愛用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmekh Mechanical Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_mp153_m1">
+		<text>MP-153 «Carabineer»</text>
+	</string>
+	<string id="st_wpn_mp153_m1_descr">
+		<text>イジェフスク機械工場が初めて開発したセミオートショットガン。ロシア製のものとしては非常に人気があり、あらゆる狩猟で広く使用されている。ポンプアクションのMP-133と同時期に開発されたため、多くの部品を共有しており、高い信頼性と頑丈な構造には定評がある。その堅牢さと確かな信頼性から、プロと一般ユーザーの両方に広く愛用されている。
+		\n«Carabineer»はマズルブレーキとピカティニーレールを備えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmekh Mechanical Plant\n
+		</text>
+	</string>
+
+<!--
+	N
+-->
+
+<!--
+	O
+-->
+
+<!--
+	P
+-->
+
+	<string id="st_wpn_pb_bas">
+		<text>PB</text>
+	</string>
+	<string id="st_wpn_pb_bas_custom">
+		<text>PB</text>
+	</string>
+	<string id="st_wpn_pb_bas_descr">
+		<text>隠密作戦用に設計された消音ピストルで、一体型サプレッサーにより発砲音とマズルフラッシュが大幅に抑えられている。特殊部隊や諜報員が使用し、周囲の敵に気づかれることなく静かに敵を排除することが可能。その高い信頼性とコンパクトな設計により、秘密任務に欠かせない武器とされている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal\n
+		</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_siber">
+		<text>PKM «Zenit»</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_siber_descr">
+		<text>高い信頼性と耐久性を誇り、持続射撃能力に優れた汎用機関銃。メンテナンスが容易で、高い連射速度を持つことから、世界中の軍隊で広く使用されている。数十年前の設計でありながら、現代戦においても強力な支援火器としての地位を保っている。
+		\nこのモデルは大容量の弾薬箱が装着されているほか、大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Zenit\n
+		</text>
+	</string>
+	<string id="st_wpn_pkp_siber">
+		<text>PKP Pecheneg</text>
+	</string>
+	<string id="st_wpn_pkp_siber_descr">
+		<text>実績のある機関銃をベースに近代化されたモデルで、オーバーヒートせずに持続的な射撃を可能にする特殊なバレルシステムを備えている。長引く戦闘での制圧射撃を想定して設計され、卓越した耐久性と高い実用性を誇る。命中精度が向上し、銃身を交換する手間も減ったことで、強力な歩兵支援火器としての地位を確立した。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Mikhail Kalashnikov\n
+		</text>
+	</string>
+
+<!--
+	Q
+-->
+
+<!--
+	R
+-->
+
+	<string id="st_wpn_akm_isg">
+		<text>RD-47</text>
+	</string>
+	<string id="st_wpn_akm_isg_descr">
+		<text>耐久性と信頼性を追求した近代的なアサルトライフル。改良されたガスシステムと人間工学に基づいた設計により、優れた反動制御と高いモジュール性を実現している。軍や特殊部隊向けに開発されたこの銃は、その強化された構造によって市街地から過酷な戦場まで、あらゆる状況に対応できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74_isg">
+		<text>RD-74M</text>
+	</string>
+	<string id="st_wpn_ak74_isg_descr">
+		<text>広く使われているライフルを基にした軽量化モデルで、命中精度と汎用性が向上している。折り畳み式ストック、改良されたレールシステム、長期間の使用に耐える高い耐久性が特徴。機動性を重視して作られており、通常の歩兵任務と特殊作戦の双方で優れた性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74u_isg">
+		<text>RD-74U</text>
+	</string>
+	<string id="st_wpn_ak74u_isg_descr">
+		<text>高い機動性と近接戦闘のために設計された小型のカービンモデル。短い銃身と折り畳み式ストックにより、狭い環境でも扱いやすく、素早い戦闘でも高い信頼性の維持が可能。車両の乗員や特殊部隊に愛用されており、携帯性と火力のバランスに優れている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+	<string id="st_wpn_ak74u_m1_isg">
+		<text>RD-74U Tactical</text>
+	</string>
+	<string id="st_wpn_ak74u_m1_isg_descr">
+		<text>高い機動性と近接戦闘のために設計された小型のカービンモデル。短い銃身と折り畳み式ストックにより、狭い環境でも扱いやすく、素早い戦闘でも高い信頼性の維持が可能。車両の乗員や特殊部隊に愛用されており、携帯性と火力のバランスに優れている。
+		\nこのモデルは改造により5.45x39mm弾仕様となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+	<string id="st_wpn_vintorez_isg">
+		<text>RD-939</text>
+	</string>
+	<string id="st_wpn_vintorez_isg_descr">
+		<text>絶大な制止力を追求して作られたバトルライフル。頑丈な設計と反動制御の向上が特徴。高い命中精度と耐久性により、市街地戦から長距離交戦まで、あらゆる状況で非常に有効な武器となる。高い汎用性を持つように設計されており、様々な光学機器やアクセサリーを装着することで、多様な戦闘の役割にも対応できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+	<string id="st_wpn_remington700">
+		<text>Remington 700</text>
+	</string>
+	<string id="st_wpn_remington700_descr">
+		<text>卓越した精度と比類なき信頼性を持つ、ボルトアクション式の精密ライフル。狩猟や法執行機関、軍の狙撃任務など、様々な分野で活躍している。モジュラー設計により、高性能な光学機器やストックで自由にカスタマイズ可能なため、多くの狙撃手たちに愛用されている。その安定した性能と確かな精度から、長距離射撃用ライフルとして現在も絶大な人気を誇っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Remington Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_remington700_archangel">
+		<text>Remington 700 «Archangel»</text>
+	</string>
+	<string id="st_wpn_remington700_archangel_descr">
+		<text>卓越した精度と比類なき信頼性を持つ、ボルトアクション式の精密ライフル。狩猟や法執行機関、軍の狙撃任務など、様々な分野で活躍している。モジュラー設計により、高性能な光学機器やストックで自由にカスタマイズ可能なため、多くの狙撃手たちに愛用されている。その安定した性能と確かな精度から、長距離射撃用ライフルとして現在も絶大な人気を誇っている。
+		\nこのモデルは大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Remington Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_remington700_lapua700">
+		<text>Remington 700 «Deer Hunter»</text>
+	</string>
+	<string id="st_wpn_remington700_lapua700_descr">
+		<text>卓越した精度と比類なき信頼性を持つ、ボルトアクション式の精密ライフル。狩猟や法執行機関、軍の狙撃任務など、様々な分野で活躍している。モジュラー設計により、高性能な光学機器やストックで自由にカスタマイズ可能なため、多くの狙撃手たちに愛用されている。その安定した性能と確かな精度から、長距離射撃用ライフルとして現在も絶大な人気を誇っている。
+		\nこのモデルは.338 ラプアマグナム弾に対応する改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Remington Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_remington700_magpul_pro">
+		<text>Remington 700 «Magpul PRO»</text>
+	</string>
+	<string id="st_wpn_remington700_magpul_pro_descr">
+		<text>卓越した精度と比類なき信頼性を持つ、ボルトアクション式の精密ライフル。狩猟や法執行機関、軍の狙撃任務など、様々な分野で活躍している。モジュラー設計により、高性能な光学機器やストックで自由にカスタマイズ可能なため、多くの狙撃手たちに愛用されている。その安定した性能と確かな精度から、長距離射撃用ライフルとして現在も絶大な人気を誇っている。
+		\nこのモデルは大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Remington Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_remington700_mod_x_gen3">
+		<text>Remington 700 «MOD X Gen.3»</text>
+	</string>
+	<string id="st_wpn_remington700_mod_x_gen3_descr">
+		<text>卓越した精度と比類なき信頼性を持つ、ボルトアクション式の精密ライフル。狩猟や法執行機関、軍の狙撃任務など、様々な分野で活躍している。モジュラー設計により、高性能な光学機器やストックで自由にカスタマイズ可能なため、多くの狙撃手たちに愛用されている。その安定した性能と確かな精度から、長距離射撃用ライフルとして現在も絶大な人気を誇っている。
+		\nこのモデルは大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Remington Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_rpk74_16">
+		<text>RPK-16</text>
+	</string>
+	<string id="st_wpn_rpk74_16_descr">
+		<text>人間工学に基づいた改良、モジュラー式のレールシステム、軽量化による機動性向上を特徴とする近代的な分隊支援火器。旧モデルを置き換えるために設計され、命中精度と汎用性が向上しており、多様な戦場の役割に対応できる。異なる長さの銃身に交換できるため、標準的な歩兵支援から狭い場所での戦闘まで、柔軟に使い分けることができる。
+		\nこの銃はバースト射撃モードを搭載している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_m4_ru556">
+		<text>Ruger SR-556</text>
+	</string>
+	<string id="st_wpn_m4_ru556_descr">
+		<text>ガス圧作動方式のセミオートライフルで、作動の信頼性とメンテナンス性に優れている。銃身全体にわたるレールシステムを備えており、光学機器やアクセサリーを自由に装着できるため、戦術的な運用において高い汎用性を発揮する。命中精度と耐久性を重視して設計され、戦術運用から民間利用まで幅広く使用されている。
+		\nこの銃はバースト射撃モードを搭載している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Sturm / Ruger &amp; Co.\n
+		</text>
+	</string>
+
+<!--
+	S
+-->
+
+	<string id="st_wpn_fal_aus">
+		<text>SA-58 AUS</text>
+	</string>
+	<string id="st_wpn_fal_aus_descr">
+		<text>信頼性と汎用性を追求した近代的なバトルライフルで、人間工学に基づいた改良とレールシステムの一体化が特徴。旧モデルの高い耐久性を維持しつつ、戦術的な運用を視野に入れたモジュール式の強化が施されている。専門用途から民間用途まで対応するよう設計されており、命中精度、威力、カスタマイズ性の優れたバランスを実現している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]David Selvaggio Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_sa5x_spec">
+		<text>SA-58 AUS Defender</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_sa5x_spec_descr">
+		<text>ベースモデルの堅牢な耐久性はそのままに、近接戦闘向けに設計された小型で取り回しの良い派生モデル。短い銃身と向上した操作性により、戦術任務や警備任務に適している。コンパクトなサイズながらも高い信頼性を誇り、激しい戦闘でも十分な性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]David Selvaggio Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_fal_leup">
+		<text>SA-58 AUS Marauder</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_fal_leup_descr">
+		<text>機動性と汎用性を追求したバトルライフルで、短い銃身と軽量化が特徴。素早い展開を想定して設計されており、閉所における火力と機動性のバランスに優れている。その高い適応性から、強力かつ扱いやすい銃を求める兵士たちに愛用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]David Selvaggio Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_aus_tri">
+		<text>SA-58 AUS Scout</text>
+	</string>
+	<string id="st_wpn_fal_aus_kit_aus_tri_descr">
+		<text>実績あるライフルプラットフォームをベースにした精密射撃用の派生モデルで、マークスマンや長距離戦での使用を想定して開発された。改良された光学機器用マウント、安定した射撃性能、洗練された反動制御が特徴。高い命中精度を重視して作られており、バトルライフルとスナイパーライフルの間に位置する特別な一丁と言えるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]David Selvaggio Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_fal_sa58_osw">
+		<text>SA-58 OSW</text>
+	</string>
+	<string id="st_wpn_fal_sa58_osw_descr">
+		<text>古典的なバトルライフルを大幅に改造したモデルで、モジュール性とコンパクトな火力が求められる特殊作戦向けに設計されている。短い銃身、一体型のレールシステム、強化された反動制御が特徴で、近〜中距離戦闘でその威力を発揮する。高い汎用性により、現代の戦術的な交戦において非常に有効な武器となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]David Selvaggio Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_sr2_veresk">
+		<text>SR-2M Veresk</text>
+	</string>
+	<string id="st_wpn_sr2_veresk_descr">
+		<text>特殊部隊用に設計された小型サブマシンガンで、機動性と高い連射性能を兼ね備えている。折り畳み式ストック、サプレッサーへの対応、近接戦闘における優れた制御性が特徴。市街戦や特殊作戦を想定して作られており、スピードと隠密性が鍵となる戦闘で絶大な威力を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsNIITochMash\n
+		</text>
+	</string>
+	<string id="st_wpn_sr2_m1">
+		<text>SR-2M Veresk</text>
+	</string>
+	<string id="st_wpn_sr2_m1_descr">
+		<text>特殊部隊用に設計された小型サブマシンガンで、機動性と高い連射性能を兼ね備えている。折り畳み式ストック、サプレッサーへの対応、近接戦闘における優れた制御性が特徴。市街戦や特殊作戦を想定して作られており、スピードと隠密性が鍵となる戦闘で絶大な威力を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsNIITochMash\n
+		</text>
+	</string>
+	<string id="st_wpn_sr2_veresk_sr2_upkit">
+		<text>SR-2M Veresk Tactical</text>
+	</string>
+	<string id="st_wpn_sr2_veresk_sr2_upkit_descr">
+		<text>特殊部隊用に設計された小型サブマシンガンで、機動性と高い連射性能を兼ね備えている。折り畳み式ストック、サプレッサーへの対応、近接戦闘における優れた制御性が特徴。市街戦や特殊作戦を想定して作られており、スピードと隠密性が鍵となる戦闘で絶大な威力を発揮する。
+		\nこのモデルは大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsNIITochMash\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+	<string id="st_wpn_saiga12s">
+		<text>Saiga-12</text>
+	</string>
+	<string id="st_wpn_saiga12s_descr">
+		<text>実績あるライフルプラットフォームをベースにしたセミオートショットガンで、民間と戦術的な使用の両方を想定して設計された。着脱式のマガジンを採用しているため、従来のショットガンに比べて素早いリロードと高い連射速度を誇る。その高い汎用性により、法執行機関、軍隊、競技射撃で広く用いられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_saiga12s_m2">
+		<text>Saiga-12 «Merc»</text>
+	</string>
+	<string id="st_wpn_saiga12s_m2_descr">
+		<text>実績あるライフルプラットフォームをベースにしたセミオートショットガンで、民間と戦術的な使用の両方を想定して設計された。着脱式のマガジンを採用しているため、従来のショットガンに比べて素早いリロードと高い連射速度を誇る。その高い汎用性により、法執行機関、軍隊、競技射撃で広く用いられている。
+		\n«Merc»はとあるMercenaryからの依頼で製作された。コンペンセイターが装着されているほか、大幅な改造が施されている。その職人技はまさに傑作と言えるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_saiga12s_m1">
+		<text>Saiga-12 «Nerd»</text>
+	</string>
+	<string id="st_wpn_saiga12s_m1_descr">
+		<text>実績あるライフルプラットフォームをベースにしたセミオートショットガンで、民間と戦術的な使用の両方を想定して設計された。着脱式のマガジンを採用しているため、従来のショットガンに比べて素早いリロードと高い連射速度を誇る。その高い汎用性により、法執行機関、軍隊、競技射撃で広く用いられている。
+		\n«Nerd»は、ゾーンの科学者向けに特別に改良されたもので、経験豊富なストーカーたちから羨望の的となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhmash\n
+		</text>
+	</string>
+	<string id="st_wpn_sr1m">
+		<text>Serdyukov SR1M Gyurza</text>
+	</string>
+	<string id="st_wpn_sr1m_descr">
+		<text>高い信頼性、大容量マガジン、優れたストッピングパワーを追求して開発された現代的な軍用サイドアーム。特殊部隊や警備部隊向けに設計されており、人間工学に基づいたグリップと耐久性を高める強化スライドが特徴。その高い命中精度と頑丈な設計により、戦闘にも護身用にも最適な武器となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsNIITochMash Institute\n
+		</text>
+	</string>
+	<string id="st_wpn_sr1m_sr1upgr1">
+		<text>Serdyukov SR1M Gyurza（カスタム）</text>
+	</string>
+	<string id="st_wpn_sr1m_sr1upgr1_descr">
+		<text>高い信頼性、大容量マガジン、優れたストッピングパワーを追求して開発された現代的な軍用サイドアーム。特殊部隊や警備部隊向けに設計されており、人間工学に基づいたグリップと耐久性を高める強化スライドが特徴。その高い命中精度と頑丈な設計により、戦闘にも護身用にも最適な武器となっている。
+		\nこのモデルにはスレッドバレルとレーザーサイトが装着されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsNIITochMash Institute\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+	<string id="st_wpn_sig220_n">
+		<text>SIG P220</text>
+	</string>
+	<string id="st_wpn_sig220_n_descr">
+		<text>高い命中精度、滑らかなトリガープル、頑丈な構造で知られる高品質なセミオートピストル。元々は軍や法執行機関向けに開発されたが、その優れた信頼性からプロや一般市民にも広く使われている。バランスの取れた設計と扱いやすさにより、世界中で高く評価されるサイドアームとなった。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ / スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		</text>
+	</string>
+	<string id="st_wpn_sig220_n_u2p2g0r">
+		<text>SIG P220 «Stalker»</text>
+	</string>
+	<string id="st_wpn_sig220_n_u2p2g0r_descr">
+		<text>高い命中精度、滑らかなトリガープル、頑丈な構造で知られる高品質なセミオートピストル。元々は軍や法執行機関向けに開発されたが、その優れた信頼性からプロや一般市民にも広く使われている。バランスの取れた設計と扱いやすさにより、世界中で高く評価されるサイドアームとなった。
+		\n«Stalker»はスレッドバレル、トリチウムサイト、レーザーサイト、19連マガジンが装着されているほか、様々な内部改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ / スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+	<string id="st_wpn_sig220_n_upg220">
+		<text>SIG P220 «XXX»</text>
+	</string>
+	<string id="st_wpn_sig220_n_upg220_descr">
+		<text>高い命中精度、滑らかなトリガープル、頑丈な構造で知られる高品質なセミオートピストル。元々は軍や法執行機関向けに開発されたが、その優れた信頼性からプロや一般市民にも広く使われている。バランスの取れた設計と扱いやすさにより、世界中で高く評価されるサイドアームとなった。
+		\n«XXX»はスレッドバレル、トリチウムサイト、レーザーサイト、12連マガジンが装着されているほか、様々な内部改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ / スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+	<string id="st_wpn_sig226">
+		<text>SIG P226R</text>
+	</string>
+	<string id="st_wpn_sig226_descr">
+		<text>高い評価を得ている軍用拳銃を改良したモデルで、戦術アクセサリーを装着するための一体型レールが特徴。旧モデルの高い命中精度と耐久性を保ちつつ、軍や法執行機関での使用を想定して汎用性が向上している。信頼性と人間工学に基づいた設計で高く評価されており、多くの熟練者に愛用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ / スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		</text>
+	</string>
+	<string id="st_wpn_sig226_226sig_kit">
+		<text>SIG P226R（カスタム）</text>
+	</string>
+	<string id="st_wpn_sig226_226sig_kit_descr">
+		<text>高い評価を得ている軍用拳銃を改良したモデルで、戦術アクセサリーを装着するための一体型レールが特徴。旧モデルの高い命中精度と耐久性を保ちつつ、軍や法執行機関での使用を想定して汎用性が向上している。信頼性と人間工学に基づいた設計で高く評価されており、多くの熟練者に愛用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ / スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+	<string id="st_wpn_sks_molot">
+		<text>SKS Molot</text>
+	</string>
+	<string id="st_wpn_sks_molot_descr">
+		<text>頑丈な構造とシンプルで整備しやすい設計が特徴の古典的なセミオートライフル。一体型銃剣と固定式マガジンを備え、軍から民間まで幅広く使われている。旧式の設計ではあるが、その高い信頼性から狩猟やサバイバル用の銃として、今もなお現役だ。
+		\nこのモデルは7.62x39mmを使用するように改造されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		</text>
+	</string>
+	<string id="st_wpn_sks_tac">
+		<text>SKS Tactical</text>
+	</string>
+	<string id="st_wpn_sks_tac_descr">
+		<text>頑丈な構造とシンプルで整備しやすい設計が特徴の古典的なセミオートライフル。一体型銃剣と固定式マガジンを備え、軍から民間まで幅広く使われている。旧式の設計ではあるが、その高い信頼性から狩猟やサバイバル用の銃として、今もなお現役だ。
+		\nこのモデルはトリガーを軽量化する改造が施され、発射速度が大幅に向上している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Swiss Arms AG\n
+		</text>
+	</string>
+	<string id="st_wpn_aug_a1_custom_bas">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_a1_custom_bas_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）は内蔵スコープを備えたブルパップ式アサルトライフルで、取り回しの良さと優れた命中精度を追求して設計されている。未来的な外観と耐久性の高いポリマー製のフレームにより、軽量でありながら強力な現代戦用の選択肢となっている。モジュール設計により、一般歩兵から特殊作戦部隊まで、あらゆる任務に対応可能だ。A1モデルは1.5倍スコープが統合されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_aug_a1_bas">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_a1_bas_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）は内蔵スコープを備えたブルパップ式アサルトライフルで、取り回しの良さと優れた命中精度を追求して設計されている。未来的な外観と耐久性の高いポリマー製のフレームにより、軽量でありながら強力な現代戦用の選択肢となっている。モジュール設計により、一般歩兵から特殊作戦部隊まで、あらゆる任務に対応可能だ。A1モデルは1.5倍スコープが統合されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_aug_a3_bas">
+		<text>Steyr AUG A3</text>
+	</string>
+	<string id="st_wpn_aug_a3_bas_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）はブルパップ式ライフルの改良モデルで、光学機器やアクセサリーを装着するための全長レールシステムを備えている。改良されたモジュール性、優れた人間工学、高い汎用性により、現代戦に適した柔軟性を持つ。コンパクトで軽量な設計を受け継ぎ、世界中の軍や法執行機関で広く採用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_aug_a3_custom_bas">
+		<text>Steyr AUG A3 Commando</text>
+	</string>
+	<string id="st_wpn_aug_a3_custom_bas_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）Commandoは、オーストリアの特殊部隊「ヤークトコマンド」のために特別に開発された、小型で高いモジュール性を持つブルパップ式ライフル。近接戦闘や戦術的な運用を想定して設計され、短い銃身、拡張されたピカティニーレール、そして命中精度を高める改良型トリガーが特徴。旧モデルの耐久性と信頼性はそのままに、精度を犠牲にすることなく優れた取り回しを実現している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+	<string id="st_wpn_svd_m1">
+		<text>SVD</text>
+	</string>
+	<string id="st_wpn_svd_m1_descr">
+		<text>長距離戦闘を想定して開発されたマークスマンライフル。高い命中精度とセミオート射撃を両立させることで、戦況への柔軟な対応を可能にしている。象徴的な木製のストック、頑丈なスコープマウント、従来のスナイパーライフルと比べて軽量な設計が特徴。軍隊で広く使われており、今も信頼性の高い長距離武器として現役で活躍している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_svds">
+		<text>SVDS</text>
+	</string>
+	<string id="st_wpn_svds_descr">
+		<text>古典的なマークスマンライフルの近代化モデルで、携帯性を向上させる折り畳み式ストックと人間工学に基づいた改良が特徴。旧モデルの長距離精度を継承しつつ、高い機動性が求められる空挺部隊や特殊部隊に最適化されている。小型な設計と戦場での有効性から、マークスマンにとって非常に汎用性の高い、心強い武器となっている。
+		\nこのモデルは大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_wpn_svds_pmc">
+		<text>SVDS «Retribution»</text>
+	</string>
+	<string id="st_wpn_svds_pmc_descr">
+		<text>古典的なマークスマンライフルの近代化モデルで、携帯性を向上させる折り畳み式ストックと人間工学に基づいた改良が特徴。旧モデルの長距離精度を継承しつつ、高い機動性が求められる空挺部隊や特殊部隊に最適化されている。小型な設計と戦場での有効性から、マークスマンにとって非常に汎用性の高い、心強い武器となっている。
+		\nこのモデルは大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+
+<!--
+	T
+-->
+
+	<string id="st_wpn_toz106">
+		<text>TOZ-106</text>
+	</string>
+	<string id="st_wpn_toz106_descr">
+		<text>サバイバルや様々な用途を想定して作られた小型のボルトアクションショットガン。折り畳み式ストックによって携帯性が向上している。軽量でコンパクトなため、猟師やアウトドア愛好家、そして護身用の銃を求める人々から高い評価を得ている。その小さな見た目からは想像できないほどの高い信頼性と耐久性を誇る。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tulsky Oruzheiny Zavod\n
+		</text>
+	</string>
+	<string id="st_wpn_toz106_m1">
+		<text>TOZ-106</text>
+	</string>
+	<string id="st_wpn_toz106_m1_descr">
+		<text>サバイバルや様々な用途を想定して作られた小型のボルトアクションショットガン。折り畳み式ストックによって携帯性が向上している。軽量でコンパクトなため、猟師やアウトドア愛好家、そして護身用の銃を求める人々から高い評価を得ている。その小さな見た目からは想像できないほどの高い信頼性と耐久性を誇る。
+		\nこのモデルは4発装填可能な拡張マガジンが装着されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tulsky Oruzheiny Zavod\n
+		</text>
+	</string>
+
+<!--
+	U
+-->
+
+	<string id="st_wpn_umirotvoritel_bas">
+		<text>正体不明の武器</text>
+	</string>
+	<string id="st_wpn_umirotvoritel_bas_descr">
+		<text>引き金を引いても作動しない未知の武器。注意深く見てみると、火薬の点火ではなく電磁力を利用して弾を発射する仕組みのようだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]不明\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]不明\n
+		</text>
+	</string>
+	<string id="st_wpn_usp_tac">
+		<text>USP Match «Overwatch»</text>
+	</string>
+	<string id="st_wpn_usp_tac_descr">
+		<text>広く評価されている拳銃をベースに、精度向上と競技射撃を目的として精密な調整が施されたモデル。延長された銃身と改良されたトリガー、反動制御用のコンペンセイターを備えている。洗練された機構と優れた操作性により、競技から実戦まで、あらゆる場面で卓越した性能を発揮する。
+		\n«Overwatch»はスレッドバレルと22連拡張マガジンが特徴。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Heckler &amp; Koch\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+
+<!--
+	V
+-->
+
+	<string id="st_wpn_vintorez_n1">
+		<text>VSS Vintorez</text>
+	</string>
+	<string id="st_wpn_vintorez_n1_descr">
+		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近〜中距離での静音かつ精密な射撃に適している。潜入任務のために作られており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_vintorez_m1">
+		<text>VSS Vintorez «Savant»</text>
+	</string>
+	<string id="st_wpn_vintorez_m1_descr">
+		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近〜中距離での静音かつ精密な射撃に適している。潜入任務のために作られており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
+		\n«Savant»は初期のプロトタイプで、垂直フォアグリップとレーザーサイトが装着されているほか、内部構造に大幅な改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+	<string id="st_wpn_vintorez_m2">
+		<text>VSS Vintorez «Venal»</text>
+	</string>
+	<string id="st_wpn_vintorez_m2_descr">
+		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近〜中距離での静音かつ精密な射撃に適している。潜入任務のために作られており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
+		\nこのモデルは身元不明のMercenaryの依頼で大幅に改造が施され、垂直フォアグリップとレーザーサイトが装着されている。その職人技はまさに最高級と言えるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+
+<!--
+	W
+-->
+
+	<string id="st_wpn_walther_p99">
+		<text>Walther P99</text>
+	</string>
+	<string id="st_wpn_walther_p99_descr">
+		<text>革新的なストライカー方式、人間工学に基づいたグリップ、両利き対応の操作系統が特徴の現代的なセミオートピストル。法執行機関や民間での使用を想定して設計され、滑らかなトリガーとリセットの素早さで連射性に優れている。信頼性と軽量設計、先進的な安全機構から、護身用から公務用まで広く選ばれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Carl Walther GmbH Sportwaffen\n
+		</text>
+	</string>
+	<string id="st_wpn_walther_p99_mod9">
+		<text>Walther P99（カスタム）</text>
+	</string>
+	<string id="st_wpn_walther_p99_mod9_descr">
+		<text>革新的なストライカー方式、人間工学に基づいたグリップ、両利き対応の操作系統が特徴の現代的なセミオートピストル。法執行機関や民間での使用を想定して設計され、滑らかなトリガーとリセットの素早さで連射性に優れている。信頼性と軽量設計、先進的な安全機構から、護身用から公務用まで広く選ばれている。
+		\nこのモデルにはスレッドバレル、トリチウムサイト、レーザーサイトが装着されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Carl Walther GmbH Sportwaffen\n
+		%c[d_orange] • %c[pda_white]タクティカルキットアップグレード\n
+		</text>
+	</string>
+
+<!--
+	X
+-->
+
+<!--
+	Y
+-->
+
+<!--
+	Z
+-->
+
+<!--
+	EXPLOSIVES
+-->
+
+	<string id="st_grenade_launcher">
+		<text>GP-25 グレネードランチャー</text>
+	</string>
+	<string id="st_grenade_launcher_descr">
+		<text>「カスチョール」と呼ばれる単発式のアンダーバレルグレネードランチャーで、ライフルの銃身下に取り付けて使用する。歩兵に圧倒的な破壊力をもたらし、敵の拠点を叩き潰すのに適している。シンプルで頑丈な設計により、戦闘での素早い展開が可能で、要塞化された敵の陣地を攻撃するのに非常に有効な手段となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
+		</text>
+	</string>
+	<string id="st_grenade_launcher_m203">
+		<text>M203 グレネードランチャー</text>
+	</string>
+	<string id="st_grenade_launcher_m203_descr">
+		<text>コンパクトなグレネードランチャーで、ライフルの銃身下に取り付けて使用する。専用の武器を持つことなく火力を補強でき、敵の陣地攻撃、バンカーの掃討、制圧射撃など、幅広い用途に活用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt Defense\n
+		</text>
+	</string>
+
+<!--
+	MELEE (OVERWRITTEN)
+-->
+
+	<string id="st_tomahawk">
+		<text>Gerber トマホーク</text>
+	</string>
+	<string id="st_tomahawk_descr">
+		<text>突入作戦や近接戦闘、サバイバル用に設計された現代的な戦術ツール。鋭い斧刃と頑丈なスパイクを備え、多様な状況に対応できる。高い耐久性と人間工学に基づいた握りやすいグリップにより、軍や法執行機関、アウトドアでの使用において信頼できる道具となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]90\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]137\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		</text>
+	</string>
+	<string id="st_kukri">
+		<text>ククリ</text>
+	</string>
+	<string id="st_kukri_descr">
+		<text>独特の湾曲した刃を持つナイフ。強力な切断力で知られ、道具と武器の両方として古くから用いられてきた。刃の先端に重心を置いた設計により、高い切断力を発揮する。サバイバルや戦闘、そして様々な作業において欠かせない道具となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]65\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]117\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
+		</text>
+	</string>
+	<string id="st_tactical_knife">
+		<text>モノリスブレード</text>
+	</string>
+	<string id="st_tactical_knife_descr">
+		<text>Monolithの職人によってごく少数のみ製作された重厚な戦闘用ナイフ。その素材は未知の合金で、石棺の中心部から直接抽出されたものだと噂されている。サイズが大きく、鋭い刃を備えているため、攻撃用にもサバイバル用にも理想的な性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]60\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]107\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
+		</text>
+	</string>
+	<string id="st_knifebf4">
+		<text>OTs-4 コンバットナイフ</text>
+	</string>
+	<string id="st_knifebf4_descr">
+		<text>白兵戦での耐久性と実用性を重視して設計された戦術軍用ナイフ。鋭く強化された刃を備えており、様々な作業から近接戦闘まで役に立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ミュータントの解体\n
+		%c[d_cyan] • %c[pda_white]近接武器\n
+		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]52\n
+		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]97\n
+		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
+		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->
+
+	<string id="st_not_in_use">
+		<text>Not Used</text>
+	</string>
+	<string id="st_not_in_use_descr">
+		<text>This item is not used.</text>
+	</string>
+</string_table>

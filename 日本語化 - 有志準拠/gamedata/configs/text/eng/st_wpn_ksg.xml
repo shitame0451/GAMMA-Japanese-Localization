@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="st_wpn_ksg">
+		<text>KSG-23</text>
+	</string>
+	<string id="st_wpn_ksg_descr">
+		<text>23x75弾を13発装填可能なポンプアクション式ショットガン。軽量で、近接戦闘において高い有用性を発揮する。\n \n
+		%c[pda_white]特性: \n
+		%c[d_purple] • %c[ui_gray_1]対応スコープ: ピカティニー／ウィーバー用レッドドットサイト\n
+		%c[d_purple] • %c[ui_gray_1]対応サプレッサー: Swine-23\n</text>
+	</string>
+	
+	<string id="st_wpn_ksg_nimble">
+		<text>KSG-25</text>
+	</string>
+	<string id="st_wpn_ksg_nimble_descr">
+		<text>KSG-12の大型モデルで、12ゲージ弾を24発装填可能なポンプアクション式ショットガン。軽量で、近接戦闘において高い有用性を発揮する。\n \n
+		%c[pda_white]特性: \n
+		%c[d_purple] • %c[ui_gray_1]対応スコープ: ピカティニー／ウィーバー用レッドドットサイト\n
+		%c[d_purple] • %c[ui_gray_1]対応サプレッサー: SilencerCo Salvo 12\n</text>
+	</string>
+</string_table>

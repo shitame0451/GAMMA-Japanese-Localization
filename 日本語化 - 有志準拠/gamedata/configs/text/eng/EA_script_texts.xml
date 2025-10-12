@@ -1,0 +1,59 @@
+	<string id="ui_mcm_menu_EA_settings">
+		<text>FDDA Settings</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_enable_animations">
+		<text>FDDAアニメーションを有効化</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_enable_backpack_addon">
+		<text>バックパックのアニメーションを有効化</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_enable_crouch_toggle_backpack_addon">
+		<text>バックパックのしゃがみアニメーションを有効化</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_mutant_loot">
+		<text>ミュータントの剥ぎ取りアニメーションを有効化</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_take_item_anim">
+		<text>アイテムを拾うアニメーションを有効化</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_mutant_loot_desc">
+		<text>注意: FDDAアニメーションが無効の場合、これは自動的に無効になります。</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_take_dist">
+		<text>アイテムを拾うアニメーションを再生する距離</text>
+	</string>
+	
+	<string id="ui_mcm_EA_settings_ea_debug">
+		<text>デバッグ</text>
+	</string>
+
+	<string id="ui_mcm_EA_settings_take_dist_desc">
+		<text>初期値 = 0.12\nマガジンアドオンのバグを修正するための推奨値 = 0.3~0.5</text>
+	</string>
+	
+	<string id="st_EA_ladder_item_not_allowed">
+      <text>今は手を離すことができない</text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_1">
+      <text>FDDA WRONG GAME VERSION ERROR! \nTHIS ADDON IS CREATED FOR ANOMALY 1.5.2/1.5.3\nYOUR GAME VERSION IS\n --</text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_2">
+      <text>--\nPLEASE READ THE FDDA DESCRIPTION ON MODDB\n THERE IS A LINK FOR ANOMALY 1.5.1 THERE </text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_button_ok">
+      <text>Ok, crash me</text>
+    </string>
+	
+	<string id="st_EA_game_ver_error_button_cancel">
+      <text>Ok, I don't care</text>
+    </string>

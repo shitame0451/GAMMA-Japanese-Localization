@@ -1,0 +1,84 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 22
+- @ Description: Parallax - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<string_table>
+
+	<!-- Bloom Title -->
+	<string id="ui_mcm_ssfx_module_bloom_title">
+		<text>Bloom - Settings</text>
+	</string>
+
+	<!-- Bloom Settings -->
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_use_weather_mcm">
+		<text>天候プリセットの使用</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_use_weather_mcm_desc">
+		<text>「しきい値」「露光」「空の明るさ」を天候プリセットで設定された値に上書きします。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_threshold_mcm">
+		<text>しきい値</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_threshold_mcm_desc">
+		<text>ブルームが発生する明るさの基準を調整します。[ 1.0 = すべてのピクセルにブルームを適用 ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_exposure_mcm">
+		<text>露光</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_exposure_mcm_desc">
+		<text>ブルームの強さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_blur_mcm">
+		<text>ぼかし半径</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_blur_mcm_desc">
+		<text>ブルーム効果の広がり具合を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_vibrance_mcm">
+		<text>鮮やかさ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_vibrance_mcm_desc">
+		<text>ブルームの色彩の鮮やかさを調整します。[ 0.0 = グレースケール ~ 1.0 = カラー ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_sky_mcm">
+		<text>空の明るさ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_sky_mcm_desc">
+		<text>空の明るさを調整します。</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_lens_mcm">
+		<text>レンズフレアの強さ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_lens_mcm_desc">
+		<text>ガスマスク使用時のレンズフレア効果の強さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_dirt_mcm">
+		<text>汚れの強さ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssfx_pp_ssfx_bloom_dirt_mcm_desc">
+		<text>ガスマスク使用時の汚れ効果の強さを調整します。</text>
+	</string>
+
+</string_table>

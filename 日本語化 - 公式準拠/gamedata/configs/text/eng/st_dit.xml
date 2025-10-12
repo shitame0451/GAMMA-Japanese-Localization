@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="dit_no_consume_ctrl">
+		<text>%s誤操作によるツールの消費を防ぐため、\n左Ctrlキーが押されているときにのみ分解することができる%s</text>
+	</string>
+</string_table>

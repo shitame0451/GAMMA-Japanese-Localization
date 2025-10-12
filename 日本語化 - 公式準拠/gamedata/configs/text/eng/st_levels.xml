@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="l03_agroprom">
+    <text>アフロプロム</text>
+  </string>
+  <string id="l03u_agr_underground">
+    <text>アフロプロム地下</text>
+  </string>
+  <string id="l07_military">
+    <text>軍事倉庫</text>
+  </string>
+  <string id="l12_stancia_2">
+    <text>チョルノービリ原発（北部）</text>
+  </string>
+  <string id="l12_stancia">
+    <text>チョルノービリ原発（南部）</text>
+  </string>
+  <string id="l01_escape">
+    <text>コルドン</text>
+  </string>
+  <string id="k01_darkscape">
+    <text>ダークスケープ</text>
+  </string>
+  <string id="l04_darkvalley">
+    <text>ダークバレー</text>
+  </string>
+  <string id="l09_deadcity">
+    <text>デッドシティ</text>
+  </string>
+  <string id="l11_hospital">
+    <text>荒廃した病院</text>
+  </string>
+  <string id="fake_start">
+    <text>フェイク スタート</text>
+  </string>
+  <string id="l02_garbage">
+    <text>ガーベジ</text>
+  </string>
+  <string id="l13_generators">
+    <text>ジェネレーター</text>
+  </string>
+  <string id="k00_marsh">
+    <text>沼地</text>
+  </string>
+  <string id="jupiter">
+    <text>ジュピター</text>
+  </string>
+  <string id="jupiter_underground">
+    <text>ジュピター地下</text>
+  </string>
+  <string id="l08u_brainlab">
+    <text>ラボX16（ヤンター）</text>
+  </string>
+  <string id="l04u_labx18">
+    <text>ラボX18（ダークバレー）</text>
+  </string>
+  <string id="l10u_bunker">
+    <text>ラボX19（レーダー）</text>
+  </string>
+  <string id="labx8">
+    <text>ラボX8（プリピャチ郊外）</text>
+  </string>
+  <string id="l10_limansk">
+    <text>リマンスク</text>
+  </string>
+  <string id="l12u_control_monolith">
+    <text>モノリス中央制御室</text>
+  </string>
+  <string id="l13u_warlab">
+    <text>モノリス戦争研究所</text>
+  </string>
+  <string id="pripyat">
+    <text>プリピャチ郊外</text>
+  </string>
+  <string id="l11_pripyat">
+    <text>プリピャチ</text>
+  </string>
+  <string id="l10_radar">
+    <text>レーダー</text>
+  </string>
+  <string id="l10_red_forest">
+    <text>赤い森</text>
+  </string>
+  <string id="l05_bar">
+    <text>ロストク</text>
+  </string>
+  <string id="l12u_sarcofag">
+    <text>石棺</text>
+  </string>
+  <string id="k02_trucks_cemetery">
+    <text>トラック墓地</text>
+  </string>
+  <string id="l06_rostok">
+    <text>荒廃領域</text>
+  </string>
+  <string id="l08_yantar">
+    <text>ヤンター</text>
+  </string>
+  <string id="zaton">
+    <text>ザトン</text>
+  </string>
+  <string id="y04_pole">
+    <text>メドウ</text>
+  </string>
+  <string id="mar_space_restrictor_to_agroprom_descr">
+    <text>アフロプロム</text>
+  </string>
+  <string id="space_restrictor_to_agr_ug_desc">
+    <text>アフロプロム地下</text>
+  </string>
+  <string id="space_restrictor_to_military_desc">
+    <text>軍事倉庫</text>
+  </string>
+  <string id="gen_space_restrictor_to_aes2_descr">
+    <text>チョルノービリ原子力発電所</text>
+  </string>
+  <string id="ds_space_restrictor_to_escape_descr">
+    <text>コルドン</text>
+  </string>
+  <string id="esc_space_restrictor_to_darkscape_descr">
+    <text>ダークスケープ</text>
+  </string>
+  <string id="ds_space_restrictor_to_darkvalley_desc">
+    <text>ダークバレー</text>
+  </string>
+  <string id="space_restrictor_to_deadcity_desc">
+    <text>デッドシティ</text>
+  </string>
+  <string id="space_restrictor_to_hospital">
+    <text>荒廃した病院</text>
+  </string>
+  <string id="esc_space_restrictor_to_garbage_descr">
+    <text>ガーベジ</text>
+  </string>
+  <string id="aes2_space_restrictor_to_gen_descr">
+    <text>ジェネレーター</text>
+  </string>
+  <string id="mar_teleport_from_base_to_north_descr">
+    <text>沼地</text>
+  </string>
+  <string id="space_restrictor_to_jupiter_desc">
+    <text>ジュピター</text>
+  </string>
+  <string id="space_restrictor_to_jupiter_ug_desc">
+    <text>ジュピター地下</text>
+  </string>
+  <string id="space_restrictor_to_labx16_desc">
+    <text>ラボX16</text>
+  </string>
+  <string id="space_restrictor_to_labx18_desc">
+    <text>ラボX18</text>
+  </string>
+  <string id="space_restrictor_to_labx10_desc">
+    <text>ラボX19</text>
+  </string>
+  <string id="space_restrictor_to_labx8_desc">
+    <text>ラボX8</text>
+  </string>
+  <string id="space_restrictor_to_limansk_desc">
+    <text>リマンスク</text>
+  </string>
+  <string id="space_restrictor_to_secret_lab_desc">
+    <text>モノリス中央制御室</text>
+  </string>
+  <string id="space_restrictor_to_warlab_desc">
+    <text>モノリス戦争研究所</text>
+  </string>
+  <string id="space_restrictor_to_cop_pripyat_desc">
+    <text>プリピャチ郊外</text>
+  </string>
+  <string id="space_restrictor_to_pripyat_desc">
+    <text>プリピャチ</text>
+  </string>
+  <string id="space_restrictor_to_radar_desc">
+    <text>レーダー</text>
+  </string>
+  <string id="mil_space_restrictor_to_red_1_descr">
+    <text>赤い森</text>
+  </string>
+  <string id="space_restrictor_to_bar_desc">
+    <text>ロストク</text>
+  </string>
+  <string id="space_restrictor_to_sarcophagus_desc">
+    <text>石棺</text>
+  </string>
+  <string id="space_restrictor_to_tc_desc">
+    <text>トラック墓地</text>
+  </string>
+  <string id="space_restrictor_to_rostok_desc">
+    <text>荒廃領域</text>
+  </string>
+  <string id="space_restrictor_to_yantar_desc">
+    <text>ヤンター</text>
+  </string>
+  <string id="space_restrictor_to_zaton_desc">
+    <text>ザトン</text>
+  </string>
+  <string id="pol_space_restrictor_to_esc_1_descr">
+    <text>コルドン</text>
+  </string>
+  <string id="pol_space_restrictor_to_val_1_descr">
+    <text>ダークバレー</text>
+  </string>
+  <string id="esc_space_restrictor_to_pol_1_descr">
+    <text>メドウ</text>
+  </string>
+  <string id="val_space_restrictor_to_pole_1_descr">
+    <text>メドウ</text>
+  </string>
+</string_table>

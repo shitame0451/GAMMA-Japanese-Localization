@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="ui_mcm_menu_3d_scopes">
+		<text>3D Scopes</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_title">
+		<text>Shader 3D Scopes</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_zoom_factor">
+		<text>ズーム倍率</text>
+	</string>
+
+	<string id="ui_mcm_3d_scopes_nvg_blur">
+		<text>Beefs NVGのナイトビジョンゴーグル使用時にスコープをぼかす</text>
+	</string>
+
+</string_table>

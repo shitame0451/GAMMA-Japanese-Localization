@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<string_table>
+    
+	<string id="st_sl_hidden_threat_task_1_stage_0_title">
+	    <text>内なる脅威: 始まり</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_0_descr">
+	    <text>指揮官から与えられたミッションは、「暗い部屋の中にいる黒猫を探せ」というものだった。クズネツォフ大佐に任務の詳細を聞く必要がある。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_1_title">
+	    <text>内なる脅威: 生存者</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_1_descr">
+	    <text>大佐からダークスケープでストーカーの身に何が起こったのか調査するよう指示された。\nコルドンの農場に、製材所の襲撃から生き延びたストーカーがいる。彼と話すには変装をする必要がありそうだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_2_title">
+	    <text>内なる脅威: クズネツォフ大佐のところに戻る</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_2_descr">
+	    <text>何らかの理由でストーカーが死んだ。クズネツォフに失敗を報告しよう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_3_title">
+	    <text>内なる脅威: ダークスケープにある製材所に行く</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_3_descr">
+	    <text>製材所の周辺を調査し、最近ここで起こったことに関する有益な情報がないか探す。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_4_title">
+	    <text>内なる脅威: 製材所の建物を調べる</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_4_descr">
+	    <text>製材所の周辺を調査し、最近ここで起こったことに関する有益な情報がないか探す。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_5_title">
+	    <text>内なる脅威: クズネツォフ大佐のところに戻る</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_1_stage_5_descr">
+	    <text>控えめに言っても、たいしたものは見つからなかった。大佐のところに戻って報告しよう。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_task_2_stage_0_title">
+	    <text>内なる脅威: ブレイン・スコーチャーを停止する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_2_stage_0_descr">
+	    <text>ブレイン・スコーチャーは北部の軍事作戦に深刻な支障をきたしている。これに対処するという難しい任務を与えられた。ヤンターの科学者たちなら、ブレイン・スコーチャーへの対策を知っているはずだ。サハロフ教授に話を聞く必要がある。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_2_stage_1_title">
+	    <text>内なる脅威: クズネツォフ大佐のところに戻る</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_2_stage_1_descr">
+	    <text>ブレイン・スコーチャーは停止した。大佐に報告しなければならない。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_task_3_stage_0_title">
+	    <text>内なる脅威: ジュピター工場に行く</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_0_descr">
+	    <text>デグチャレフが極秘で派遣した部隊から「SOS」の信号が届いた。ジュピター工場で何者かに襲撃され、緊急支援を必要としているとのことだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_1_title">
+	    <text>内なる脅威: ジュピター工場の施設調査</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_1_descr">
+	    <text>工場の入り口には誰もいない。管理棟からは同じ音が繰り返し聞こえてくる。さらに施設の奥へ進まなければならない。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_2_title">
+	    <text>内なる脅威: 襲撃者の遺体を調べる</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_2_descr">
+	    <text>兵士は死んでいた、間に合わなかった。彼らは工場で何かを探していたようだが、その任務の詳細はデグチャレフだけが知っている。未知のストーカーが着けていたパッチには、知らないシンボルが描かれている･･････ おそらく大佐なら何か分かるだろう。遺体を調べ、少なくとも1つは持って帰らなくては。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_3_title">
+	    <text>内なる脅威: クズネツォフ大佐と話す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_3_stage_3_descr">
+	    <text>クズネツォフ大佐に謎のシンボルが描かれたパッチについて尋ねる。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_task_4_stage_0_title">
+	    <text>内なる脅威: キリロフと話す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_0_descr">
+	    <text>キリロフ上級中尉に呼ばれた。何の用か話を聞こう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_1_title">
+	    <text>内なる脅威: 軍用無線機の配達</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_1_descr">
+	    <text>ラボX18の入り口を警備している軍の部隊にラジオを届ける。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_2_title">
+	    <text>内なる脅威: ISGの攻撃を撃退する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_2_descr">
+	    <text>防衛の準備をして、ISGの攻撃を退ける。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_3_title">
+	    <text>内なる脅威: 襲撃者を調べる</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_3_descr">
+	    <text>襲撃してきた者を調べ、有益な情報がないか探る。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_4_title">
+	    <text>内なる脅威: キリロフ上級中尉と話す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_4_descr">
+	    <text>ISGの傭兵の一人がPDAを持っていた。PDAはロックされているが、技術者なら対処できるはずだ。キリロフ上級中尉のところへ戻る。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_5_title">
+	    <text>内なる脅威: キリロフがPDAのロックを解除するのを待つ</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_5_descr">
+	    <text>キリロフがPDAのロックを解除するまで1日か2日待つ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_6_title">
+	    <text>内なる脅威: キリロフから話を聞く</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_6_descr">
+	    <text>キリロフがPDAのロックを解除したようだ。彼の話を聞こう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_7_title">
+	    <text>内なる脅威: クズネツォフ大佐から話を聞く</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_4_stage_7_descr">
+	    <text>PDAのマップにはジュピター工場がマークされていた。ISGと交戦した場所だ。他のマークはISGの目標地点に違いない。クズネツォフに報告する必要がある。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_task_5_stage_0_title">
+	    <text>内なる脅威: ゴロベッツ軍曹に会う</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_0_descr">
+	    <text>軍曹はISGの一行を見つけ、助けを求めた。集合場所はプリピャチ郊外の病院だ。そこへ行き、ゴロベッツ軍曹に会う。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_1_title">
+	    <text>内なる脅威: ネズミ捕りのネズミ</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_1_descr">
+	    <text>.</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_2_title">
+	    <text>内なる脅威: ISGのスナイパーを無力化する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_2_descr">
+	    <text>ISGはデグチャレフ大佐の暗殺を計画している。すでに彼らの特殊部隊の配備は完了していて、大佐に警告する時間はない。だが、危険を冒してスナイパーを無力化し、この暗殺を防ぐことはできる。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_3_title">
+	    <text>内なる脅威: ウクライナ保安庁の分隊への火力支援</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_3_descr">
+	    <text>スナイパーは排除したが、デグチャレフ率いるウクライナ保安庁の分隊がISG襲撃部隊に襲われた。救援に行かなければ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_4_title">
+	    <text>内なる脅威: デグチャレフ大佐と話す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_4_descr">
+	    <text>ISGの分隊を排除した。大佐と話す。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_5_title">
+	    <text>内なる脅威: デパートでケースを探す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_5_descr">
+	    <text>大佐から、ウクライナ保安庁のエージェントが残したブリーフケースをデパートから回収するよう指示された。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_6_title">
+	    <text>内なる脅威: アフロプロムにケースを持っていく</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_5_stage_6_descr">
+	    <text>アフロプロム軍事基地にいるデグチャレフにケースを届ける。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_task_6_stage_0_title">
+	    <text>内なる脅威: デグチャレフ大佐と話す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_0_descr">
+	    <text>大佐から、基地に戻って話をするようにとの命令を受けた。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_1_title">
+	    <text>内なる脅威: レコーダーを設置する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_1_descr">
+	    <text>デッドシティの南西に建っている一軒家にレコーダーを置く。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_2_title">
+	    <text>内なる脅威: 2日待つ</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_2_descr">
+	    <text>レコーダーを置いた。2日後に回収しよう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_3_title">
+	    <text>内なる脅威: レコーダーを回収する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_3_descr">
+	    <text>2日が過ぎた。レコーダーを回収し、デグチャレフ大佐に届けなくては。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_4_title">
+	    <text>内なる脅威: デグチャレフ大佐のところへ戻る</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_4_descr">
+	    <text>レコーダーを大佐に渡す。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_5_title">
+	    <text>内なる脅威: CNPPの分隊長と話す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_5_descr">
+	    <text>ISGはCNPPのモノリス部隊を突破するつもりだ。彼らはすでに到着している可能性が高い。指定場所で支援部隊と合流し、ISGを石棺から遠ざける必要がある。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_6_title">
+	    <text>内なる脅威: CNPPの北西に移動する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_6_descr">
+	    <text>ISGは見つからなかった。分隊長によると、偵察隊の隊員からの連絡が途絶えたらしい。正面からの突破が目的ではないので、病院からの道を検討するべきだろう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_7_title">
+	    <text>内なる脅威: ISGを排除する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_7_descr">
+	    <text>思った通りだ。ISGの連中が静かに病院の脇から入ってきた。ISGの分隊を排除しなくては。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_8_title">
+	    <text>内なる脅威: デグチャレフに成功を報告する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_6_stage_8_descr">
+	    <text>ISGのグループは壊滅し、任務が完了した。大佐に報告しよう。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_task_7_stage_0_title">
+	    <text>内なる脅威: クズネツォフ大佐に報告する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_0_descr">
+	    <text>デグチャレフがいない今、再びクズネツォフに従うことになった。一日たりとも安らぐことはない･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_1_title">
+	    <text>内なる脅威: ヴェレシチャーギン少佐と話す</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_1_descr">
+	    <text>驚いた。ヴェレシチャーギン少佐はプリピャチで命を救ってくれたウクライナ保安庁のエージェントだった。彼に何があったのだろうか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_2_title">
+	    <text>内なる脅威: プリピャチ地下の入口へ行く</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_2_descr">
+	    <text>そろそろISGも引き際だ。プリピャチ地下、ジュピター側の入り口で突撃隊が待機している。</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_3_title">
+	    <text>内なる脅威: プリピャチ地下に入る</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_3_descr">
+	    <text>そろそろISGも終わりだな･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_4_title">
+	    <text>内なる脅威: プリピャチ地下の敵を一掃する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_4_descr">
+	    <text>いい加減、ISGに終止符を打たないとな･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_5_title">
+	    <text>内なる脅威: ヴェレシチャーギン少佐に成功を報告する</text>
+	</string>
+	<string id="st_sl_hidden_threat_task_7_stage_5_descr">
+	    <text>襲撃は成功し、ISGは壊滅した。ヴェレシチャーギン少佐に報告しよう。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_second_task_1_stage_0_title">
+	    <text>[HT]南側検問所: 書類を渡す</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_1_stage_0_descr">
+	    <text>コルドンの南検問所にいるジュロフ少佐に会計報告書を渡す。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_second_task_2_stage_0_title">
+	    <text>[HT]アフロプロム: 運び人を探す</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_2_stage_0_descr">
+	    <text>ゴミ捨て場から基地へ向かう道のどこかで、迷子になった運び屋を見つける。</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_2_stage_1_title">
+	    <text>[HT]アフロプロム: ロジキンにパッケージを渡す</text>
+	</string>
+	<string id="st_sl_hidden_threat_second_task_2_stage_1_descr">
+	    <text>ゴミ捨て場から基地へ向かう道のどこかで、迷子になった運び屋を見つける。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_msg_start">
+	    <text>%s、基地への出動を要請する。緊急の任務がある。</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_2_start">
+	    <text>ストーカー、この事件はまだ解決していない。困難な任務がある。北部はブレイン・スコーチャーによって阻まれている。ヤンターでサハロフと話して、それを無効にする方法を見つけるんだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_3_start">
+	    <text>ストーカー、話があるから来てくれ</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_4_start">
+	    <text>%s、ちょっと来てくれ、話があるんだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_4_stg_6_msg">
+	    <text>%s、PDAのことで話がある、来てくれ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_5_start">
+	    <text>%s、久しぶりだな。ISGのグループを発見した･･････ 一人では無理だ、助けが必要だ。プリピャチ郊外の病院に行く度胸があるなら、上司から勲章がもらえるかもしれないぞ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_6_start">
+	    <text>ストーカー %s、命令は、基地に到着し、まっすぐ私のところに来ることだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_task_7_start">
+	    <text>ストーカー %s、すぐに私に報告しろ！</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_title">
+	    <text>受け取った物:</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_msg">
+	    <text>%s: 2時間の間、無所属扱いになる</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_path">
+	    <text>停戦</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_start">
+	    <text>%s お望みの通り2時間だけ停戦だ。死にたくなければ、バカな真似はするなよ。我々の部下は、馬鹿をあまり好まない。</text>
+	</string>
+	<string id="st_sl_hidden_threat_msg_armistice_end">
+	    <text>%s 休戦は終わった。</text>
+	</string>
+	<string id="st_sl_hidden_threat_spooner_notes_title">
+	    <text>受け取った物:</text>
+	</string>
+	<string id="st_sl_hidden_threat_spooner_notes_descr">
+	    <text>PDAの新着: ロジキン軍曹からのメモ</text>
+	</string>
+	<string id="st_sl_hidden_threat_darkvalley_msg_header">
+	    <text>軍隊</text>
+	</string>
+	<string id="st_sl_hidden_threat_darkvalley_msg_text">
+	    <text>敵を発見！攻撃する！</text>
+	</string>
+    
+    <string id="st_sl_hidden_threat_map_spot_cf">
+	    <text>関心のある場所</text>
+	</string>
+
+</string_table>

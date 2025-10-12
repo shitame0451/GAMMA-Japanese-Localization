@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_mag_groza_9x39_pab9">
+		<text>Groza用マガジン（9x39）</text>
+	</string>
+	<string id="st_mag_groza_9x39_pab9_descr">
+		<text> </text>
+	</string>
+
+</string_table>

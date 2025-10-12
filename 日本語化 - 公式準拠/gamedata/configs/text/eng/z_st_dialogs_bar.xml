@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="bar_arena_manager_game_0">
+		<text>ミュータントと戦うチャレンジは開催してないのか？</text>
+	</string>
+	<string id="bar_arena_manager_game_1">
+		<text>捕まえてたミュータントが騒ぎを起こしてな、ペトレンコに閉鎖させられちまったよ。
+\n運が悪かったな、ストーカー。あいつらと戦いたいなら、外で戦うしかないだろうな。</text>
+	</string>
+</string_table>

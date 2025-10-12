@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string id="ui_inv_ap_res">
+		<text>%c[pda_white]BRクラス:</text>
+	</string>
+</string_table>

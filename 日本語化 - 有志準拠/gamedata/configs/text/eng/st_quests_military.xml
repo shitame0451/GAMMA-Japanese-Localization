@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TEXT  STRINGS FOR TASKS ON MILITARY WAREHOUSES MAP -->
+
+<string_table>
+
+
+	<!-- STORYLINE TASK TEXT  STRINGS -->
+
+	<!-- Lukash (Freedom Honcho) Default Storyline Task -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_about">
+		<text>会ってもらいたい奴がいるんだ。俺の友人ではないが、お前の力を借りたいようだぞ。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_default_task_finish">
+		<text>幸運を、ストーカー。</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Assassination Storyline Task- -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_name">
+		<text>ルーカッシュからの暗殺任務</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_text">
+		<text>ルーカッシュには、排除しなければならない標的がいる。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_about">
+		<text>やあ、来てくれて嬉しいよ。頼みたいことがあるんだ。
+\n俺たちの共通の敵を排除してほしい。奴は危険だから、すぐに始末してくれ。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
+		<text>すごいな、兄弟！感謝するぞ。</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Freedom Assault on Monolith Storyline Task -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_name">
+		<text>FreedomのMonolith襲撃</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_text">
+		<text>ルーカッシュからFreedomを率いてMonolithを襲撃してほしいと頼まれた。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_about">
+		<text>Monolithの部隊が、封鎖線を何度も突破してきている。今度はこちらから仕掛ける番だ。
+\n突撃隊を編成したから、Monolithの支配地域への侵攻を率いてほしい。奴らを潰すんだ。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>おお、やるじゃないか。お見事だ。</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Search Lab X-8 (Outskirts) Storyline Task -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_name">
+		<text>X-8研究所の調査</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_text">
+		<text>プリピャチ郊外にあるX-8研究所を調査し、Clear Skyがいた証拠を探す。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
+		<text>しばらく前にClear Skyの隊員がX-8研究所を占拠していたという情報が入った。
+\n研究所を調査して、彼らが残した文書があれば回収してきてほしい。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_task_3_finish">
+		<text>素晴らしい仕事だ。よくやったぞ。</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- CHANGE FACTIONS TASK TEXT  STRINGS -->
+
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_name">
+		<text>Freedom！</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_text">
+		<text>Freedomの一員になるには、15,000ルーブルをルーカッシュに渡す必要がある。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_about">
+		<text>ほう、Freedomの素晴らしさに興味があるんだな？よし、俺が手配してやろう。
+\nその前に一つだけ、自分に問いかけてみろ･･････「自分にその覚悟があるのか？」ってな。
+\n俺たちと一緒にやっていくには、«デスランプ»よりデカい肝っ玉が必要だ。
+\nここでの暮らしは楽しいことも多いが、一度事が起きれば、狂信者やファシストども、
+\nそして政府の連中に立ち向かって、仲間を守る覚悟がいるんだ･･････
+
+\n\n俺たちは、自由なゾーンを作り上げるために戦っている。
+\nもし本気でこの地に無政府主義者のユートピアを築きたいと思うなら、
+\n15,000ルーブルを用意してくれ。それで仲間に迎えてやろう。</text>
+	</string>
+	<string id="drx_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_finish">
+		<text>よくやった。これでついに自由の身になれたな。ただし、一つだけ忠告しておく。
+\n俺たちの自由を乱すような奴は、ブラッドサッカー村で寝ることになる。
+\nここでは、周りの仲間への配慮を忘れるなよ。</text>
+	</string>
+	<!-- Lukash (Freedom Honcho) Payoff Change Factions Task -->
+
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_name">
+		<text>Freedom！</text>
+	</string>
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_text">
+		<text>Freedomの一員になるには、15,000ルーブルをルーカッシュに渡す必要がある。</text>
+	</string>
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_about">
+		<text>ほう、Freedomの素晴らしさに興味があるんだな？よし、俺が手配してやろう。
+\nその前に一つだけ、自分に問いかけてみろ･･････「自分にその覚悟があるのか？」ってな。
+\n俺たちと一緒にやっていくには、«デスランプ»よりデカい肝っ玉が必要だ。
+\nここでの暮らしは楽しいことも多いが、一度事が起きれば、狂信者やファシストども、
+\nそして政府の連中に立ち向かって、仲間を守る覚悟がいるんだ･･････
+
+\n\n俺たちは、自由なゾーンを作り上げるために戦っている。
+\nもし本気でこの地に無政府主義者のユートピアを築きたいと思うなら、
+\n15,000ルーブルを用意してくれ。それで仲間に迎えてやろう。</text>
+	</string>
+	<string id="drx_sl_sl_mil_smart_terrain_7_7_freedom_leader_stalker_cf_task_1_finish">
+		<text>よくやった。これでついに自由の身になれたな。ただし、一つだけ忠告しておく。
+\n俺たちの自由を乱すような奴は、ブラッドサッカー村で寝ることになる。
+\nここでは、周りの仲間への配慮を忘れるなよ。</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- DYNAMIC TASK TEXT  STRINGS -->
+
+	<!-- Lukash (Freedom Honcho) Stop Enemy Assault Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_name">
+		<text>敵の襲撃を撃退する</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_text">
+		<text>あるストーカーの分隊がFreedomの仲間たちに問題を起こしている。ルーカッシュは彼らを始末した者に報奨金を出すと言っていた。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_about">
+		<text>Freedomに協力して、一稼ぎする気はあるか？ちょっと手に負えない連中がいてな。
+\nそろそろ痛い目を見せてやる頃だ。あいつら、俺たちの縄張りに勝手に入り込んで
+\n仲間を襲ったり、挙句の果てには俺の部下を騙して混乱を起こそうとしやがるんだ！
+\n不法侵入したらどうなるのか、命を懸けた教訓として叩き込んでやる。やってくれるか？</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_1_finish">
+		<text>ああ、素晴らしい！これでやっと平和で静かな生活が送れるな。そうだろ？</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_name">
+		<text>敵地を強襲する</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_text">
+		<text>Freedomのために敵地を襲撃する任務を受けた。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_about">
+		<text>お前がやる気なら、危険だが重要な任務がある。
+\n北にMonolith、南にDutyがいるせいで、さすがに息苦しくなってきた。
+\nそこで、敵のキャンプを襲撃して俺たちに余裕を与えてくれる本物の戦士が必要だ。
+\nその戦士になる覚悟はあるか？</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_2_finish">
+		<text>ははっ！本当にやり遂げたな、お前は真の戦士だ！
+\nこれが報酬だ、俺からの尊敬も添えておくぜ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_name">
+		<text>Monolith改宗者の排除</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_text">
+		<text>FreedomのメンバーがMonolithによって改宗させられたようだ。ルーカッシュに彼を見つけて殺すように命じられている。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_about">
+		<text>深刻な話がある。俺たちの仲間がMonolithに洗脳されてしまった。
+\nあいつは本当にいい奴だった。だが、異質な結晶に洗脳されて殺し屋になるとは･･････
+\nそんな結末は彼自身も望んでいないはずだ。どうか、彼を見つけて殺してやってくれ。
+\nそうしなければ、彼の昔の仲間たちがその役目を担うことになるだろう。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_finish">
+		<text>終わったのか？よかった。辛い任務だったな。
+\n防衛線にいる仲間たちも、戦友に敬意を表して杯をあげるだろう。さあ、これが報酬だ。</text>
+	</string>
+
+
+	<!-- ASSASSINATE DUTY FOR FREEDOM TASK -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_name">
+		<text>ターゲットを暗殺する</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_text">
+		<text>ルーカッシュにターゲットを見つけて排除するよう命じられた。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_about">
+		<text>ここからそう遠くないところに、ある男がいる。
+\n以前、俺たちの仲間を撃ち殺した奴だ。こんなことは許されるはずがない。
+\n奴を始末する仕事を引き受けてくれるか？報酬はちゃんと払う、心配するな。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_4_finish">
+		<text>よし、やったぞ！これで俺たちに手を出そうと考える奴は減るだろう。
+\nこれが約束の報酬だ。よくやったな、ストーカー。</text>
+	</string>
+
+
+	<!-- FIND WEAPON FOR FREEDOM TASK -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_name">
+		<text>ルーカッシュのために%sを見つける</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_text">
+		<text>新品同様の銃を探すようにルーカッシュに頼まれた。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_about">
+		<text>Freedomの支援者のおかげで、仲間たちに必要な装備は一通り揃っている。
+\nだが、俺個人としてはどうしても新品の%sが欲しいんだ。
+\nもし状態の良いものを見つけたら、相当な報酬を払っても惜しくないと思っている。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_fetch_about">
+		<text>Freedomの支援者のおかげで、仲間たちに必要な装備は一通り揃っている。
+\nだが、俺個人としてはどうしても新品の%sが欲しいんだ。
+\nもし状態の良いものを見つけたら、相当な報酬を払っても惜しくないと思っている。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_5_fetch_finish">
+		<text>よくやった。この新しい銃があれば、最悪の事態が起こったときに大いに役立つだろう。
+\nこれが約束の金だ。</text>
+	</string>
+	
+	<!-- Lukash (Freedom Honcho) Decimate the Enemy Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_name">
+		<text>トリガーハッピー</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_text">
+		<text>ルーカッシュはFreedomの敵に対して積極的に攻撃を仕掛けようとしている。%sを彼に持っていけば、いい報酬がもらえるはずだ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_about">
+		<text>今、俺たちは逃げ場のない状況に追い込まれている。
+\n北には狂信者、南には過激派、さらにMilitaryの連中まで絡んできてる。そこで提案だ。
+\nあいつらの思想や作戦に対する俺たちの答えを、昔ながらのやり方で示してやらないか？
+\n最後には美味しい報酬が待ってるから、心配するなよ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_fetch_about">
+		<text>今、俺たちは逃げ場のない状況に追い込まれている。
+\n北には狂信者、南には過激派、さらにMilitaryの連中まで絡んできてる。そこで提案だ。
+\nあいつらの思想や作戦に対する俺たちの答えを、昔ながらのやり方で示してやらないか？
+\n奴らを徹底的に叩きのめして、戦利品として%sを持ち帰るんだ。
+\n最後には美味しい報酬が待ってるから、心配するなよ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_fetch_finish">
+		<text>よう、見事だったぞ。これが報酬だ。</text>
+	</string>
+	
+	<!-- Lukash (Freedom Honcho) Mortal Sin Unquenchable Flame Tasks -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_about">
+		<text>なあ、Sinの連中を覚えてるか？
+\nお前にぶちのめされたばかりなのに、まだ懲りていないようだ。
+\nロキによると、ザトンの廃墟となった変電所の作業場の周辺で騒ぎを起こしてるらしい。
+\n今度こそ、完全に叩き潰してやれ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_finish">
+		<text>新入りたちの間でお前は「ランボーの生まれ変わり」だって噂が広まってるぞ。
+\n危険な任務から何度も生還してくるのを見ると、あながち間違ってないかもしれないな。
+\nというわけで、ランボーへのちょっとした礼だ。</text>
+	</string>
+
+	<!-- Lukash (Freedom Honcho) Rescue the Freedom Agent Task -->
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_name">
+		<text>Freedom諜報員の救出</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_text">
+		<text>Freedomの諜報員を敵対勢力から救出する必要がある。彼と一緒に行動している敵分隊を排除し、基地まで護衛しなければならない。その諜報員はSVDを持っているはずだ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_about">
+		<text>俺の優秀な部下が、敵の陣営に潜り込んで情報を集めている。
+\n普段は信頼できる男なんだが、連絡が途絶え始めてから心配でな。
+\nおそらく正体がバレていて、敵は今まさに始末するタイミングを伺っているんだろう。
+\nとにかく、彼を無事に連れ戻さなければならない。場所の情報は事前に受け取っているが、
+\nどうやら他のストーカーたちと一緒にいるようだ。お前にはその連中を排除し、
+\n彼を基地まで護衛してもらいたい。SVDを持ってるから、それで見分けがつくはずだ。
+\n正体を隠すために撃ち返してくるかもしれないが、狙いは甘いはずだ。恨むなよ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_finish">
+		<text>よくやったぞ。部下が得た知識を聞き出す時が来たな。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_msg_join">
+		<text>待ってくれ、撃つな！俺がFreedomのスパイだ！
+\n撃ち返して悪かった、正体がバレないようにするためだったんだ･･････
+\nでも、あんたが来てくれて助かった。俺を陸軍倉庫まで無事に連れて行ってくれたら、
+\nルーカッシュがきっといい報酬をくれるはずだ。さあ、先導してくれ。俺はついていく！</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_8_msg_leave">
+		<text>助けてくれてありがとな、ストーカー！また会おう！</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_name">
+		<text>軍の援軍を殲滅する</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_text">
+		<text>ルーカッシュから、コードンにあるMilitaryの装甲車を破壊するように頼まれた。爆発物が必要だ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_9_about">
+		<text>爆発物は持ってるか？もしあるなら、大きな仕事があるぞ。
+\nいまMilitaryの連中が、装甲車をゾーンに持ち込んで戦力を増強してやがる。
+\nこれが公平だと思うか？こっちの倉庫にあるのは、まともに動かないガラクタばかりだぞ！
+\nゾーンでは戦車は許されない･･････ たとえそれが政府のものであってもな。
+\n我々の諜報員によれば、その装甲車はコードンの検問所に配備される予定らしい。
+\n安心しろ、無人であることは確認済みだ。反撃されて体に穴が空くことはないだろう。
+\nさあどうだ、やるか？その気なら、手榴弾を持って出発だ！</text>
+	</string>
+
+	<!-- Skinflint (Freedom Mechanic) -->
+	
+	<!-- FIND MUTANT MEAT FOR FREEDOM TASK -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_name">
+		<text>Freedomのために新鮮な肉を調達する</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_text">
+		<text>スキンフリントに%sを持っていく。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_about">
+		<text>多少のミュータントが平気なら、お前にピッタリの仕事があるぜ。興味あるか？</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_fetch_about">
+		<text>俺たちの何人かで、ボブ・マーリーの誕生日パーティーをやろうとしてるんだ。
+\n遅れてでも祝う価値はあるだろ？ごちそうの肉は、多ければ多いほどいい。
+\nそこでだ、もし外で活動するなら、ついでに%sを調達してくれ。
+\nちゃんと報酬は渡すよ。ジャーもあんたを祝福してくれるぜ！</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_1_fetch_finish">
+		<text>うちの料理人が手を加えれば、素晴らしい料理ができるぞ。これが報酬だ。
+\nウォッカでも買って、お前も一緒に祝わないか？</text>
+	</string>
+
+	<!-- Skinflint (Freedom Mechanic) Deliver Equipment Dynamic Task -->
+
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_name">
+		<text>スキンフリントに鍵のかかったケースを届ける</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_text">
+		<text>スキンフリントに配達物を回収するように頼まれた。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_about">
+		<text>今日、仲間の運び屋が荷物を運んでくる予定だったんだが･･････
+\n運悪く、Dutyの巡回に気づかれてしまってな。荷物を安全な場所に隠したそうだ。
+\nその運び屋はネットワークから姿を消す前に、隠し場所の座標を俺に送ってくれた。
+\nもしお前がそこまで行って、荷物を回収してくれるなら、報酬の一部を渡そうと思ってる。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_2_finish">
+		<text>見せてくれ･･････ ああ、これだ。ちょうど俺らが必要としてたブツだな。
+\nありがとう、ストーカー。これが報酬だ。</text>
+	</string>
+
+	<!-- Skinflint (Freedom Trader) Night Terror Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_name">
+		<text>暗闇に潜む幻影</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_text">
+		<text>スキンフリントが、ブラッドサッカー村に出没する危険なミュータントを殺せば報酬をくれると話していた。警戒を怠らないようにしなくては。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_about">
+		<text>最近、キャンプで眠れない奴が増えてきている。
+\n毎晩のように悲鳴が聞こえて、どうすることもできないうちに仲間が暗闇に飲まれ、
+\n翌朝にはブラッドサッカー村に、ぐちゃぐちゃになった遺体が転がってるんだ。
+
+\n\nルーカッシュは、村に新種のブラッドサッカーがいるんじゃないかと思ってるみたいだ。
+\nそいつは黒くて、より強く、より凶暴で、夜にしか姿を現さないらしい。
+\n「どこかに移動してくれるまで、夜の巡回を止めるべきだ」と言ってる仲間もいるよ。
+\nできれば、Dutyの基地で暴れてくれたらありがたいんだが･･････
+\nとにかく、狩りに出るには危険すぎるって話だ。
+
+\n\n俺としては、真っ暗な夜中に村に行く度胸があって、そいつを始末できる奴がいるなら、
+\n報酬をたっぷりと用意するつもりだ。ここの連中も、久しぶりにゆっくり眠れるだろう。
+\nもっとも、ブレイン・スコーチャーのせいで“最高の眠り”とまではいかないだろうけどな。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_3_finish">
+		<text>まさか･･････ 本当にやったのか！狂ってやがるぜ。キャンプのみんなにも知らせておこう。
+\nお前のようなハンターがいて本当によかった。</text>
+	</string>
+	
+	<!-- Skinflint (Freedom Trader) Scarce Supplies Task -->
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_name">
+		<text>不足した物資の調達</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_text">
+		<text>スキンフリントはFreedomの衛生兵に補給するために%sを必要としている。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_about">
+		<text>よう、俺らの仲間には時々ちょっと冒険しすぎる奴がいるんだ。
+\n全員を治療するには物資が足りない。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_fetch_about">
+		<text>なあ、Freedomでの生活がどれだけ厳しいか知ってるか？
+\n銃弾をかいくぐり、狂信者どもと戦うなんてのは日常茶飯事だ。
+\nFreedomの戦士たちはカッコよく見えるかもしれないが･･････ 医薬品が尽きそうなんだ。
+\nソリッドは薬でぶっ飛んでて、補給の手配なんてしやしない。
+\nだから今は、俺がその担当だ。もし%sを持ってきてくれたら、
+\nFreedomからの感謝と、俺からの報酬が待ってるぜ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_4_fetch_finish">
+		<text>ああ、よくやった。
+\nこれは必要になるときまで、ソリッドの目に触れないようにしておこう。
+\n本当にありがとう、ストーカー。</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_5_name">
+		<text>Freedomの潜入作戦のための装備を集める</text>
+	</string>
+	<string id="mil_smart_terrain_7_10_freedom_trader_stalker_task_5_about">
+		<text>重要な話がある。詳細は機密なんだが、ロストクへの特別な潜入作戦が計画されている。
+\nこの作戦で工作員が完璧に奴らに溶け込めるように、装備を用意しなければならない。
+
+\n\nまずは、5.45x39mm HPを10箱だな。
+\nロストクへの道中でミュータントに襲われた際、検問所の兵士にバレずに対処するためだ。
+\n事態が悪化した場合に備え、軍用の医療キットも必要になる。5つあれば十分だろう。
+
+\n\n心配するな、報酬はたっぷり渡すぞ。
+\nコカインとエロ本も用意してくれたらボーナスを付けてやる。
+\nそれでDutyの連中を買収すれば、潜入作戦の成功を確実にできるはずだ。
+\nどうだ、引き受けてくれるか？</text>
+	</string>
+	
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- MECHANIC TASK TEXT  STRINGS -->
+
+	<!-- Screw (Freedom Mechanic) Find Level 1 Toolkit Task -->
+
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_name">
+		<text>スクリューのために%sを見つける</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_text">
+		<text>スクリューは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_about">
+		<text>よう！Banditがダークバレーから新しいツールを持ってくるはずなんだが、
+\nいつまで経っても来やしない！まあ、どうせ嘘をついてたんだろうが、もし標準的な
+\nツールキットを見つけたら、できるだけ早く持ってきてくれ。報酬はしっかり支払うぜ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_fetch_about">
+		<text>%sを持ってきてくれれば、ようやくここで作業を始められる。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_1_fetch_finish">
+		<text>ありがてえ！やっぱりあんたに頼んで正解だったよ。やり遂げられると思ってたぜ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_name">
+		<text>スクリューのために%sを見つける</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_text">
+		<text>スクリューは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_about">
+		<text>なあ、おかしいと思わないか？ここは政府が昔使ってた倉庫なんだぜ。特殊部隊用の
+\n素晴らしい装備があったのに、その大半は手入れもされず、錆びてダメになっている。
+
+\n\nこの状況を変えないとな。次はもっと高度なツールキットを持ってきてくれ。
+\n俺たちが政府の連中よりも装備をうまく扱えるってことを、証明してやる時だ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_fetch_about">
+		<text>次はアドバンスドツールを持ってきてくれ。
+\n俺たちが政府の連中よりも装備をうまく扱えるってことを、証明してやる時だ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_2_fetch_finish">
+		<text>その調子で続けてくれれば、ここの連中はみんな、あんたのことが好きになるだろうさ。
+\n改めて、礼を言うよ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_name">
+		<text>スクリューのために%sを見つける</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_text">
+		<text>スクリューは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_about">
+		<text>武器庫に保管されてた銃のほとんどは、もう手遅れで修理できそうにない。
+\nだが、まだ動く装備─強化外骨格なんかは、使えるようになる見込みがある。
+\nただし、そのためにはもっと精密なツールが必要だ。
+
+\n\nもう一度、Freedomの技術向上に協力してくれないか？
+\n報酬は前回よりもいいし、現場で役立つメンテナンスのレッスンもしてやるぞ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_about">
+		<text>エキスパートツールを持ってきたら、優秀な技術者がどんなことをできるか見せてやるよ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_mechanic_stalker_task_3_fetch_finish">
+		<text>やったな、Freedomの仲間もこれを気に入るぞ。
+\nパラシュート付きのショットガンや、装甲付きのサブマシンガンだって作れるぜ！
+\nほら、これがお前の報酬だ。よくやったぞ。</text>
+	</string>
+	
+	
+	<!-- Defend the barrier -->
+	<string id="barrier_defense_monolith_announce">
+		<text>これを聞いている友好的なストーカー諸君、Monolith兵の集団が防衛線に接近中だ。
+\n助けてもらえるとありがたい。もちろん、報酬も出そう。</text>
+	</string>
+	<string id="barrier_defense_monolith_title">
+		<text>防衛線を守る</text>
+	</string>
+	<string id="barrier_defense_monolith_descr">
+		<text>FreedomがMonolithの襲撃を撃退するために協力を求めている。</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_1">
+		<text>Monolithだって？俺はパスだな･･････</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_2">
+		<text>おっと、タダで金がもらえるのか。今すぐ行くぜ！</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_3">
+		<text>俺はやめとく。どうせ最初から陸軍倉庫に行くつもりなんてなかったしな。</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_4">
+		<text>報酬は何だ？現金か、アーティファクトか、銃か？ただのウォッカじゃ俺は動かねぇぞ。</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_5">
+		<text>ダメだ、ここからは遠すぎる。着く頃にはもう片付いてるだろうな。
+\n新しいライフルを試したかったのに･･････</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_6">
+		<text>Monolithどもを殺す？タダでもやってやるよ、クソ野郎どもめ。</text>
+	</string>
+	<string id="barrier_defense_monolith_chatter_7">
+		<text>死体から見つけたものは、俺のものにしてもいいのか？</text>
+	</string>
+	<string id="barrier_defense_monolith_intro_1">
+		<text>あんたらの通信を聞いて、防衛線を守るために来た。</text>
+	</string>
+	<string id="barrier_defense_monolith_intro_2">
+		<text>素晴らしい。偵察隊から、複数のMonolith分隊が接近しているとの報告があった。
+\n銃の数は多いに越したことはない。配置について、狂信者どもが現れるのを待てばいい。
+\n簡単だろう？･･････とはいえ、手に負えないと感じて逃げたくなっても、責めはしない。
+\nだがそのときは、報酬は諦めてもらうぞ。</text>
+	</string>
+	<string id="barrier_defense_monolith_outro_1">
+		<text>防衛線は安全だ･･････ 少なくとも今のところはな。</text>
+	</string>
+	<string id="barrier_defense_monolith_outro_2">
+		<text>いい腕だ、ストーカー。これを、あいつらにぶち込んだ弾代の足しにしてくれ。
+\nそれと、ちょっとしたおまけもつけておいた。お前のおかげで本当に助かったぞ！</text>
+	</string>
+	<string id="barrier_defense_monolith_start_announce">
+		<text>偵察隊によると、奴らが動き出したらしい。全員、配置につけ！</text>
+	</string>
+	<string id="barrier_defense_monolith_midchatter">
+		<text>くそっ、気をつけろ！奴らRPGを持っているぞ！</text>
+	</string>
+	<string id="barrier_defense_monolith_run_announce">
+		<text>ここはサマーキャンプじゃないんだぞ、ストーカー。
+\n命を張ってお前を守ってくれる、肝の据わった仲間たちがいることに感謝しろよ。</text>
+	</string>
+	<string id="barrier_defense_monolith_end_announce">
+		<text>よくやったぞ、兄弟たち。そして、逃げなかった志願者の皆に感謝する。
+\n報酬を取りに戻ってきてくれ。</text>
+	</string>
+	<string id="barrier_defense_zombie_announce">
+		<text>これを聞いている友好的なストーカー諸君、ゾンビの集団が防衛線に接近中だ。
+\n助けてもらえればありがたい、もちろん報酬も出そう。</text>
+	</string>
+	<string id="barrier_defense_zombie_title">
+		<text>防衛線を守る</text>
+	</string>
+	<string id="barrier_defense_zombie_descr">
+		<text>Freedomは、ゾンビの襲撃を撃退するために協力を求めている。</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_1">
+		<text>かわいそうな奴らだ･･････</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_2">
+		<text>俺は遠慮しておく、なんか気が乗らなくてな。</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_3">
+		<text>まあ、少なくともMonolithが相手じゃないわけだ。</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_4">
+		<text>ちゃんとした報酬は出るのか？
+\n前回は弾を使いすぎて、報酬じゃ足りないくらいの金がかかったんだ。</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_5">
+		<text>くそっ！ここからじゃ遠すぎる。着く頃にはもう終わってるだろうな。
+\n新しいライフルを試したかったのに。</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_6">
+		<text>レーダー施設から来たゾンビだと？
+\nまずいな･･････ 俺の友人が数日前にそこに行ったばかりなんだ。</text>
+	</string>
+	<string id="barrier_defense_zombie_chatter_7">
+		<text>死体から見つけたものは、俺のものにしてもいいのか？</text>
+	</string>
+	<string id="barrier_defense_zombie_intro_1">
+		<text>あんたらの通信を聞いて、ゾンビ退治に協力するために来た。</text>
+	</string>
+	<string id="barrier_defense_zombie_intro_2">
+		<text>助かるよ。普段ならあいつらは大した相手じゃないんだが、
+\nMonolithやDutyの連中のせいで人手が足りなくてな。
+\nまあ、やること自体は射撃場で撃つのと同じくらい簡単なはずだ。</text>
+	</string>
+	<string id="barrier_defense_zombie_start_announce">
+		<text>群れが突破してきた、全員持ち場につけ！</text>
+	</string>
+	<string id="barrier_defense_zombie_midchatter">
+		<text>まだ終わらないのか？</text>
+	</string>
+	<string id="barrier_defense_zombie_run_announce">
+		<text>どうした、撃ち返してこない奴が怖いのか？</text>
+	</string>
+	<string id="barrier_defense_zombie_end_announce">
+		<text>よくやったぞ、兄弟たち。これで奴らもようやく安らかに眠れるだろう。
+\n志願者の皆は報酬を取りに戻ってきてくれ。</text>
+	</string>
+	<string id="barrier_defense_zombie_outro_1">
+		<text>奴らはみんな死んだぞ、今度こそ本当にな。</text>
+	</string>
+	<string id="barrier_defense_zombie_outro_2">
+		<text>そうだな、お前の知り合いがそこにいないことを祈るよ。
+\nゾンビとの戦いは、Monolithとやり合うよりも精神的にきついんだ。
+\n彼らの魂に乾杯して･･････ ついでに、お前もああならないように一杯やろうか。</text>
+	</string>
+	<string id="barrier_defense_reinforcements_1">
+		<text>待ってろ、すぐ助けに行くぞ！</text>
+	</string>
+	<string id="barrier_defense_reinforcements_2">
+		<text>基地を出発したところだ、すぐそっちに着く。</text>
+	</string>
+	<string id="barrier_defense_reinforcements_3">
+		<text>そっちはそんなにヤバいのか？お前たちだけで十分だと思ってたのに！</text>
+	</string>
+	<string id="barrier_defense_reinforcements_4">
+		<text>もう始まってるぞ！急げ、さもなきゃ全部終わっちまうぞ！</text>
+	</string>
+	
+	<!-- Solid (Freedom Medic) -->
+	<string id="mil_freedom_medic_task_1_name">
+		<text>ソリッドのために%sを見つける</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_text">
+		<text>ソリッドは医薬品を作成するために%sを必要としている。</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_about">
+		<text>毎日これだけ多くの負傷者を治療していると、医薬品の在庫を維持できるのか心配だ。
+\nそのうち包帯や医療キットが足りなくなるだろう。
+\n薬品製造ツールを探してくれないかな。きっと役に立つはずだ。</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_fetch_about">
+		<text>俺はずっと%sを探している。
+\nこいつには、薬を作るのに必要な材料が一通り揃ってるはずなんだ。
+
+\n\nもちろん、医療目的で使うつもりだぞ。
+\nここの連中が俺についていろいろ噂してるのは知ってるが、あんなデタラメは聞き流せ。
+\n俺に必要なのはちゃんとしたキットだ。それさえあれば、この小さな診療所を立て直せる。</text>
+	</string>
+	<string id="mil_freedom_medic_task_1_fetch_finish">
+		<text>よくやってくれた！あんたには大きな借りができたな。</text>
+	</string>
+</string_table>

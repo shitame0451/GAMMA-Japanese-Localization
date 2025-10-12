@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_placeable_piano">
+		<text>携帯型キーボード</text>
+	</string>
+	<string id="st_placeable_piano_descr">
+		<text>ゾーンではあまり見かけない豪華な楽器。ミュータントや敵対するストーカーから身を守ることはできないが、ゾーンの脅威の中で少しだけリラックスできる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]演奏できる\n</text>
+	</string>
+</string_table>

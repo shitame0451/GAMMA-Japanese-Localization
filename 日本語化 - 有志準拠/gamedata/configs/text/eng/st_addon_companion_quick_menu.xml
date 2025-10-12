@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_addon_companion_quick_menu_tooFar">
+    <text>分隊に命令が届かないみたいだ。近づくかPDAを通して連絡しなければ。</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_followMe">
+    <text>付いてこい</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_waitHere">
+    <text>ここで待ってろ</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_stopStealth">
+    <text>隠密中止</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_stealth">
+    <text>隠密</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_stayClose">
+    <text>近くにいろ</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_stayFar">
+    <text>遠くにいろ</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_fireAtWill">
+    <text>自由射撃</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_ignoreCombatButHelpMe">
+    <text>戦闘禁止（救助を除く）</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_ignoreCombat">
+    <text>戦闘禁止</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_doNotLootCorpses">
+    <text>死体を漁るな</text>
+  </string>
+  <string id="st_addon_companion_quick_menu_lootCorpses">
+    <text>死体を漁れ</text>
+  </string>
+</string_table>

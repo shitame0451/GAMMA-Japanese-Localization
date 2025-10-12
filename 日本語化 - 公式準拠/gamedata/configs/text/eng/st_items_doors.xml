@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+   <string id="st_placeable_door">
+		<text>木製のドア</text>
+	</string>
+	<string id="st_placeable_door_descr">
+		<text>ボロボロの紙が貼られた小さな木製のドア。サイズは1x1.9メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[ui_gray_1]設置可能なドア枠に対応している\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]ドアを取り外すには近接武器で攻撃する必要がある\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door02">
+		<text>金属製のドア</text>
+	</string>
+	<string id="st_placeable_door02_descr">
+		<text>大きな錆びた金属製のドア。かつては白く塗装されていたようだ。サイズは1.5x2.5メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]ドアを取り外すには近接武器で攻撃する必要がある\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door03">
+		<text>木製のドア</text>
+	</string>
+	<string id="st_placeable_door03_descr">
+		<text>日焼けで変色した木製のドア。優れた職人技で作られている。サイズは1.15x2.15メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]ドアを取り外すには近接武器で攻撃する必要がある\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door04">
+		<text>木製のドア</text>
+	</string>
+	<string id="st_placeable_door04_descr">
+		<text>日焼けで変色した木製のシンプルなドア。下部に湿気による腐食の跡が見られる。サイズは1.45x2.2メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]ドアを取り外すには近接武器で攻撃する必要がある\n
+		</text>
+	</string>
+	
+   <string id="st_placeable_door05">
+		<text>強固なドア</text>
+	</string>
+	<string id="st_placeable_door05_descr">
+		<text>ゾーンにある木材と鉄くずを組み合わせて作られた大きなドア。サイズは1.76x3メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]ドアを取り外すには近接武器で攻撃する必要がある\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="st_mag_mp7_5.7x28_ss190">
+		<text>MP7用改造マガジン（5.7x28）</text>
+	</string>
+	<string id="st_mag_mp7_5.7x28_ss190_descr">
+		<text> </text>
+	</string>
+</string_table>

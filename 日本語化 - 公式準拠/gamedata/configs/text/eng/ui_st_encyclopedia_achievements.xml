@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="encyclopedia_achievements">
+		<text>実績</text>
+	</string>
+
+	<string id="encyclopedia_achievements_bookworm_food">
+		<text>読書好きな人の糧</text>
+	</string>
+	<string id="encyclopedia_achievements_bookworm_food_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]すべての百科事典の記事をアンロックする。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]メモリースティックがすべてレアなPDAに置き換わる。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_completionist">
+		<text>完璧主義者</text>
+	</string>
+	<string id="encyclopedia_achievements_completionist_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]すべての実績をアンロックする。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]成すべきことはすべて成し遂げた。長い道のりだったが、ついに栄光の終着点へと辿り着いた。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_down_to_earth">
+		<text>大地への落下</text>
+	</string>
+	<string id="encyclopedia_achievements_down_to_earth_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]小火器でヘリコプターを3機撃墜するか、爆発物でヘリコプターを1機撃墜する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]Mi-24ハインドの代わりにMi-2ホプライトが登場するようになる。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_duga_free">
+		<text>ドゥーガ・レーダーの解放</text>
+	</string>
+	<string id="encyclopedia_achievements_duga_free_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ミラクル・マシンとブレイン・スコーチャーの両方を停止させる。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]ストーカーたちがヤンターやレーダーを通ることが多くなり、北部地域の人口が増加する可能性がある。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_geologist">
+		<text>地質学者</text>
+	</string>
+	<string id="encyclopedia_achievements_geologist_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]アーティファクトを50個検出する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]光熱放射の後にアーティファクトが出現する確率が上昇する。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_heavy_pockets">
+		<text>お金持ち</text>
+	</string>
+	<string id="encyclopedia_achievements_heavy_pockets_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]10,000,000ルーブルを所持する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]トレーダーが所属する派閥の好感度条件を満たしていなくても、高性能な装備を販売してもらえるようになる。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_infopreneur">
+		<text>情報屋</text>
+	</string>
+	<string id="encyclopedia_achievements_infopreneur_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]トレーダーに50台のPDAを渡す。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]トレーダーは、今後引き渡すPDAごとに少額のボーナスを支払ってくれるようになる。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_mechanized_warfare">
+		<text>機械化された戦争</text>
+	</string>
+	<string id="encyclopedia_achievements_mechanized_warfare_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ひとりの技術者に3つのツールを渡す。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]修理時に使用する素材アイテムのボーナス効果がさらに上がる。\n
+		</text>
+	</string>
+
+	<string id="encyclopedia_achievements_patriarch">
+		<text>みんなの英雄</text>
+	</string>
+	<string id="encyclopedia_achievements_patriarch_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]最高ランクに到達する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]通常の上限以上の仲間を追加で2人連れていけるようになる。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_radiotherapy">
+		<text>放射線治療</text>
+	</string>
+	<string id="encyclopedia_achievements_radiotherapy_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]光熱放射や精神波の嵐を25回生き延びる。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]光熱放射や精神波の嵐から避難しなくても生き延びられる可能性がある。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_rag_and_bone">
+		<text>クズ拾い</text>
+	</string>
+	<string id="encyclopedia_achievements_rag_and_bone_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]スタッシュから100回アイテムを入手する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]隠し場所を調べるとき、時折追加のアイテムが見つかることがある。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_silver_or_lead">
+		<text>金か弾丸か</text>
+	</string>
+	<string id="encyclopedia_achievements_silver_or_lead_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ストーカーを500人殺すか、50人降伏させる。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]降伏したストーカーが、時折2つ目の隠し場所の位置を明かすことがある。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_tourist">
+		<text>観光客</text>
+	</string>
+	<string id="encyclopedia_achievements_tourist_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ゾーンの33か所のマップをすべて訪れる。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]3つのユニークな隠し場所の座標を受け取る。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_well_dressed">
+		<text>下ごしらえ上手</text>
+	</string>
+	<string id="encyclopedia_achievements_well_dressed_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ミュータントを500体殺す、もしくはミュータントを250回剥ぎ取る。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]ミュータントの皮剥ぎを通常よりも素早く行えるようになる。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_wishful_thinking">
+		<text>希望的観測</text>
+	</string>
+	<string id="encyclopedia_achievements_wishful_thinking_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ストーリー「生ける伝説」をクリアする。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]プレイ可能な派閥として「レネゲード」が開放される。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_infantile_pleasure">
+		<text>幼稚な遊び</text>
+	</string>
+	<string id="encyclopedia_achievements_infantile_pleasure_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]木箱を200個破壊する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]木箱の中身に追加のアイテムが入っている確率が25%増加する。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_recycler">
+		<text>油断のないリサイクル業者</text>
+	</string>
+	<string id="encyclopedia_achievements_recycler_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]アイテムを200個分解する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]分解時に追加の素材を入手できる確率が33%増加する。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_artificer_eagerness">
+		<text>熟練工の熱意</text>
+	</string>
+	<string id="encyclopedia_achievements_artificer_eagerness_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]アイテムを50個クラフトする。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]多くの高度なクラフトレシピで必要な材料が少なくなる。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_unforeseen_guest">
+		<text>予期せぬゲスト</text>
+	</string>
+	<string id="encyclopedia_achievements_unforeseen_guest_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]変装で騙している状態で合計5時間を過ごす。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]変装中の行動がより怪しまれにくくなる。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_absolver">
+		<text>罪を赦すもの</text>
+	</string>
+	<string id="encyclopedia_achievements_absolver_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ストーリー「死すべきシン」をクリアする。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]プレイ可能な派閥として「シン」が解放される。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_collaborator">
+		<text>協力者</text>
+	</string>
+	<string id="encyclopedia_achievements_collaborator_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ストーリー「アフターグロー作戦」をクリアする。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]プレイ可能な派閥として「UNISG」が解放される。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_iron_curtain">
+		<text>鉄のカーテン</text>
+	</string>
+	<string id="encyclopedia_achievements_iron_curtain_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]ゾーンの半分の領土を制圧する。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]50,000ルーブルを受け取る。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_murky_spirit">
+		<text>闇の生命力</text>
+	</string>
+	<string id="encyclopedia_achievements_murky_spirit_text">
+		<text>
+%c[pda_white] • 達成条件:%c[d_cyan]
+\n • %c[ui_gray_1]アイアンマンモードで「ゾーンに消えゆくもの」の3つのストーリーをすべてクリアする。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]ランクが大幅に上昇する。\n
+		</text>
+	</string>
+	
+	<string id="encyclopedia_achievements_invictus">
+		<text>負けざる者</text>
+	</string>
+	<string id="encyclopedia_achievements_invictus_text">
+		<text>
+%c[pda_white] • 達成条件:%c[ui_red]
+\n • %c[ui_gray_1]ストーリーモードで「ゾーンに消えゆくもの」の3つのストーリーをすべてクリアする。%c[ui_red]
+\n • %c[ui_gray_1]ゾーン到達初日からストーリークリアまでアイアンマンモードを有効にする。%c[ui_red]
+\n • %c[ui_gray_1]ゲームプレイ難易度とゲーム進行難易度を最高に設定し、一切変更せずにクリアする。%c[ui_red]
+\n • %c[ui_gray_1]1回以上死亡しない。%c[ui_red]
+\n • %c[ui_gray_1]デバッグモードを使用しない。%c[pda_white]
+
+\n \n • 報酬:%c[d_cyan]
+\n • %c[ui_gray_1]みんなに自慢する権利が得られる。\n
+		</text>
+	</string>
+
+</string_table>

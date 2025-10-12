@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+		<string id="st_wpn_benelli_m1014">
+		<text>M1014</text>
+	</string>
+	<string id="st_wpn_benelli_m1014_descr">
+		<text>Benelli社が軍や法執行機関向けに開発したセミオートショットガンで、伝説的なM4をベースに設計されている。12ゲージ弾の使用とガス圧作動方式の採用により、反動を最小限に抑え、素早い連射を可能にしている。その高い耐久性、優れた汎用性、近接戦闘での圧倒的な性能から高く評価されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]イタリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Benelli\n
+		</text>
+	</string>	
+</string_table>

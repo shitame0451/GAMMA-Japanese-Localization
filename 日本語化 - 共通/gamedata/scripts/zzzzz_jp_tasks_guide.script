@@ -1,0 +1,78 @@
+-- tasks_guide.script
+
+-- ===================================================================
+--  prepare_follower （先導タスクの開始メッセージ）
+--  news_manager.send_tipにフック
+-- ===================================================================
+local original_send_tip = news_manager.send_tip
+
+news_manager.send_tip = function(actor, text, a3, npc, time)
+	local t = text
+	if type(t)=="string"
+	and npc
+	and t:find("まで先導してくれるストーカーはいないか？", 1, true)
+	and t:find("俺の名前は", 1, true)
+	and t:find("今は", 1, true) then
+		local name  = npc:character_name()
+		local place = (dynamic_news_helper and dynamic_news_helper.GetPointDescription)
+					  and dynamic_news_helper.GetPointDescription(npc) or "???"
+		-- 名前と現在地の順番を入れ替え
+		t = t:gsub("俺の名前は.-だ。今は.-にいる。", "俺の名前は"..name.."だ。今は"..place.."にいる。")
+	end
+	return original_send_tip(actor, t, a3, npc, time)
+end
+
+-- ===================================================================
+--  activate （マップ上のタスクマーカーのメッセージ）
+--  level.map_add_object_spot_serにフック
+-- ===================================================================
+local original_map_add = level.map_add_object_spot_ser
+
+level.map_add_object_spot_ser = function(id, spot, hint)
+	local h = hint
+	if spot == "secondary_task_location"
+	and type(h)=="string"
+	and h:find("^"..game.translate_string('st_jg_29'))	--「ストーカーから」
+	and not h:find("まで案内するように頼まれた", 1, true) then
+		h = h .. "まで案内するように頼まれた"
+	end
+	return original_map_add(id, spot, h)
+end
+
+-- ===================================================================
+--  get_phrase_1 （先導タスクのメッセージ、金額のカンマ区切り化）
+-- ===================================================================
+local original_get_phrase_1 = tasks_guide.get_phrase_1
+
+tasks_guide.get_phrase_1 = function(actor, npc)
+	local txt = original_get_phrase_1(actor, npc) or ""
+
+	local wrong_timer = txt:match("俺は(.-)に行かないといけない。")
+	local wrong_money_word = txt:match("報酬は(.-)ルーブルだが")
+	local wrong_hours_num = txt:match("、(.-)時間以内に到着できなければ")
+							or txt:match("、(.-)時間以内")
+	if wrong_timer and wrong_money_word and wrong_hours_num then
+		local dest  = wrong_money_word
+		local money = tonumber(wrong_hours_num) or wrong_hours_num
+		local hours = wrong_timer
+		return string.format(
+			game.translate_string('st_jg_16'),
+			dest,
+			japanese_patch.commas_to_number(money),
+			hours
+		)
+	end
+
+	return txt
+end
+
+-- ===================================================================
+--  get_phrase2 （空白を削除、語尾を追加）
+-- ===================================================================
+local original_get_phrase2 = tasks_guide.get_phrase2
+
+tasks_guide.get_phrase2 = function(actor, npc)
+	local txt = original_get_phrase2(actor, npc) or ""
+	txt = txt:gsub("^%s*目的地は%s*(.-)%s*$", "目的地は%1だ。")
+	return txt
+end

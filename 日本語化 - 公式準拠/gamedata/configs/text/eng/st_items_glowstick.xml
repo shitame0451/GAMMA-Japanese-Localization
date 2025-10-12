@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_device_glowstick">
+		<text>グロースティック（緑）</text>
+	</string>
+	<string id="st_device_glowstick_descr">
+		<text>小型の使い捨てケミカルライト。控えめながらも安定した光源として機能し、ストーカーたちは道しるべや味方への合図、地下探索などに活用している。これは緑色に発光し、適度な範囲と明るさで周囲を照らす。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]持続時間: %c[ui_gray_1]~40 分\n
+		</text>
+	</string>
+	<string id="st_device_glowstick_red">
+		<text>グロースティック（赤）</text>
+	</string>
+	<string id="st_device_glowstick_red_descr">
+		<text>小型の使い捨てケミカルライト。控えめながらも安定した光源として機能し、ストーカーたちは道しるべや味方への合図、地下探索などに活用している。これは赤色に発光し、広範囲を照らすがはっきりした明るさはない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]持続時間: %c[ui_gray_1]~60 分\n
+		</text>
+	</string>
+	<string id="st_device_glowstick_orange">
+		<text>グロースティック（オレンジ）</text>
+	</string>
+	<string id="st_device_glowstick_orange_descr">
+		<text>小型の使い捨てケミカルライト。控えめながらも安定した光源として機能し、ストーカーたちは道しるべや味方への合図、地下探索などに活用している。これはオレンジ色に発光し、広範囲をしっかりと照らすことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]持続時間: %c[ui_gray_1]~40 分\n
+		</text>
+	</string>
+	<string id="st_device_glowstick_blue">
+		<text>グロースティック（シアン）</text>
+	</string>
+	<string id="st_device_glowstick_blue_descr">
+		<text>小型の使い捨てケミカルライト。控えめながらも安定した光源として機能し、ストーカーたちは道しるべや味方への合図、地下探索などに活用している。これはシアン色に発光し、狭い範囲を強く照らす性質がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]持続時間: %c[ui_gray_1]~30 分\n
+		</text>
+	</string>
+
+<!--
+	MCM
+-->
+
+	<string id="ui_mcm_menu_glowsticks">
+		<text>Glowsticks</text>
+	</string>
+	<string id="ui_mcm_glowsticks_enable_bs_mm_flicker">
+		<text>ブレイン・スコーチャーとミラクル・マシンによる光のちらつき</text>
+	</string>
+	<string id="ui_mcm_glowsticks_enable_bs_mm_flicker_desc">
+		<text>ブレイン・スコーチャーとミラクル・マシンが稼働している間、ヘッドランプや懐中電灯の光がちらつくようになり、グロースティックを使用する理由を提供します。</text>
+	</string>
+	<string id="ui_mcm_glowsticks_throw_force">
+        <text>グロースティックの投擲距離</text>
+    </string>
+	<string id="ui_mcm_glowsticks_stash_chance">
+        <text>グロースティックがスタッシュから見つかる確率</text>
+    </string>
+	<string id="ui_mcm_glowsticks_stash_chance_desc">
+        <text>スタッシュからグロースティックを見つけられる確率を設定します。</text>
+    </string>
+	<string id="ui_mcm_glowsticks_loot_chance">
+        <text>グロースティックが死体から見つかる確率</text>
+    </string>
+	<string id="ui_mcm_glowsticks_loot_chance_desc">
+        <text>死体からグロースティックを発見する確率を設定します。</text>
+    </string>
+	<string id="ui_mcm_glowsticks_throw_key">
+        <text>投擲キー</text>
+    </string>
+    <string id="ui_mcm_glowsticks_throw_key_desc">
+        <text>グローティックを投擲する際に使用するキーを設定します。</text>
+    </string>
+</string_table>

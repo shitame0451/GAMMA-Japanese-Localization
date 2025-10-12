@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Weapons upgrades
+-->
+
+<string_table>
+
+	<string id="st_prop_binoc_gamma_nightvision">
+		<text>ナイトビジョン</text>
+	</string>	
+	<string id="st_prop_binoc_gamma_nightvision_0">
+		<text>%c[0,255,255,255]ナイトビジョン</text>
+	</string>
+	<string id="st_prop_binoc_gamma_nightvision_1">
+		<text>第1世代ナイトビジョン</text>
+	</string>
+	<string id="st_prop_binoc_gamma_nightvision_2">
+		<text>第2世代ナイトビジョン</text>
+	</string>
+	<string id="st_prop_binoc_gamma_nightvision_3">
+		<text>第3世代ナイトビジョン</text>
+	</string>
+	
+	<string id="st_up_binoc_b1_gamma_name">
+		<text>第1世代ナイトビジョン装置</text>
+	</string>
+	<string id="st_up_binoc_b1_gamma_descr">
+		<text>ナイトビジョン技術を導入する。可視光を増幅することで、夜間や人間の目で見えない暗い環境で視覚を確保する。</text>
+	</string>
+	<string id="st_up_binoc_b2_gamma_name">
+		<text>第2世代ナイトビジョン装置</text>
+	</string>
+	<string id="st_up_binoc_b2_gamma_descr">
+		<text>ナイトビジョン技術の改良でより優れた明るさ、解像度、感光性を導入し、視覚品質を向上させる。</text>
+	</string>
+	<string id="st_up_binoc_b3_gamma_name">
+		<text>第3世代ナイトビジョン装置</text>
+	</string>
+	<string id="st_up_binoc_b3_gamma_descr">
+		<text>ナイトビジョン技術の改良でより優れた明るさ、解像度、感光性を導入し、視覚品質を向上させる。さらに白色蛍光を採用して視認性を向上させ、目への障害を軽減する。</text>
+	</string>
+
+</string_table>
+
+

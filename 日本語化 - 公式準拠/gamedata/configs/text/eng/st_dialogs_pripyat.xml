@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+
+	<string id="grifon_meet_dialog_0">
+		<text>あんたのメッセージを見た。どうしてそんな善人ぶるようになったんだ？</text>
+	</string>
+	<string id="grifon_meet_dialog_1">
+		<text>･･････調子に乗るなよ。
+\nお前が平然とここに立っていられるのは、我々が最悪の状況に追い込まれているからだ。
+\n以前、この辺りを徘徊していた軍の連中に、何人もの大切な仲間を奪われた･･････
+\nしかも、我々はいまだに肝心な情報を得られていない。
+\nこのままドゥシュマンのところに戻れば、タマを引きちぎって喉に突っ込まれるだろう。
+\nだから、ここに留まるしかない。今のところ、無関係なストーカーと争う理由もないしな。</text>
+	</string>
+	<string id="grifon_meet_dialog_2">
+		<text>どんな手助けが必要だ？</text>
+	</string>
+	<string id="grifon_meet_dialog_3">
+		<text>なんでもいい。ここには物資も、最低限の装備すらない。
+\nあるのは、作戦が成功したときに手に入れた戦利品だけだ。
+\n補給係に話しかけてみろ･･････ 金はかかるが、余った物資を分けてもらえるはずだ。</text>
+	</string>
+	<string id="task_find_inf_inx_8_mlr_1_0">
+		<text>特別な仕事はあるか？</text>
+	</string>
+	<string id="task_find_inf_inx_8_mlr_1_1">
+		<text>実は、ここにはラボX8から情報を持ち出すために来た。
+\n場所は北にあるユビレイニー・サービスセンターだ。
+\n中には地下へ降りるエレベーターがあったんだが、軍のクソ野郎どもに邪魔された。
+\n奴らのせいで、我々はこんなひどい状況に追い込まれたんだ。
+\nどうせドゥシュマンに殺される運命だが、せめて文書さえ手に入れば･･････
+\n少なくとも、手ぶらで帰るのは避けられるな。だが、もう一度あそこに行くのは無理だ。
+\n我々はすでに仲間を失いすぎている。これ以上人員を割くことはできない。
+\nこの場所から抜け出すだけでも精一杯だ･･････ そこで提案がある。X-8に行く気はないか？
+\n研究所には、きっと何かがあるはずなんだ。それに、報酬も悪くないぞ。やってみるか？</text>
+	</string>
+	<string id="task_find_inf_inx_8_mlr_1_2">
+		<text>やろう。</text>
+	</string>
+	<string id="task_find_inf_inx_8_mlr_1_3">
+		<text>悪いが、遠慮しておく。</text>
+	</string>
+	<string id="task_find_inf_inx_8_mlr_2_0">
+		<text>これが見つけたものだ。</text>
+	</string>
+	<string id="task_find_inf_inx_8_mlr_2_1">
+		<text>その文書、あまり厚みはないが･･････ 興味深い内容がいくつかあるな。
+\nこれなら買い手を見つけるのも難しくないだろう。よし、これがお前の取り分だ。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_0">
+		<text>あんたがここの技術者か？どんなサービスをしてくれるんだ？</text>
+	</string>
+	<string id="tech_a18_meet_dialog_1">
+		<text>その通りだ。修理業と弾薬の交換サービスをやってる。
+\n弾薬は、うちの連中が襲撃で手に入れた戦利品だ。外国製の弾薬を持ってくれば、
+\nそれと引き換えに交換するって仕組みだな。うちにも外国製の弾薬は少しあるが、
+\nRPGの弾頭を除けば、全部1対1のレートで交換だ。銃はどれも問題なく使えるが、
+\n中には国産の銃を好む奴もいる。国産用の弾薬の方が手に入りやすいからな。
+\nどんな銃でも常に使えるようにしておくこと─それが生き残る秘訣だ。
+\nそれと、任務中に手に入れたRPGの弾頭やM209のグレネード弾も提供してる。
+\n悪いが、グレネードランチャー本体はもう在庫切れだ。
+\nああ、それから･･････ 医療支援も提供できるサービスのひとつだ。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_1_0">
+		<text>どんな弾薬と交換できるんだ？</text>
+	</string>
+	<string id="tech_a18_meet_dialog_1_1">
+		<text>9x19mm弾を200発持ってくれば、同数の9x18mm +P+弾と交換できる。
+\nそれから、5.56x45mm弾を300発なら、5.45x39mm弾と交換だ。
+\nF1 手榴弾を20個なら、M209 グレネード弾20発と交換できる。
+\n最後に、RGD-5 手榴弾10個なら、RPG弾頭3発と交換だな。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_2_0">
+		<text>よし、交換しよう。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_2_1">
+		<text>わかった、どれと交換する？</text>
+	</string>
+	<string id="tech_a18_meet_dialog_2_2">
+		<text>9x18mm +P+弾100発と引き換えに、9x19mm弾100発を交換してくれ。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_2_3">
+		<text>5.45x39mm弾100発と引き換えに、5.56x45mm弾100発を交換してくれ。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_2_4">
+		<text>F1 手榴弾20個と引き換えに、M203 グレネード弾20発を交換してくれ。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_2_5">
+		<text>RGD-5 手榴弾10個と引き換えに、RPG弾頭3発を交換してくれ。</text>
+	</string>
+	<string id="tech_a18_meet_dialog_2_6">
+		<text>気が変わった。</text>
+	</string>
+	<string id="pri_special_trader_mlr1_0">
+		<text>あんたは誰だ？</text>
+	</string>
+	<string id="pri_special_trader_mlr1_1">
+		<text>新しい客か･･････ まず覚えておけ、俺はお前の素性や出身地には興味がない。
+\nお前は俺が提示するリストから必要なブツを選んで、届くまで1日待てばいい。
+\nそれと、注文のキャンセルは受け付けない。
+\nふざけた取引に時間を割くつもりはないし、こっちは前払い無しでやってるんだ。
+\n品物は時間通りに用意してやるが、注文は1回につき1品までだ。</text>
+	</string>
+	<string id="pri_special_trader_mlr4_0">
+		<text>特別なスーツや銃はどうやって仕入れるんだ？モノリスと取引しているのか？</text>
+	</string>
+	<string id="pri_special_trader_mlr4_1">
+		<text>俺がお前に興味がないのと同じように、お前も俺に興味を持つべきではない。そうだろ？
+\nまあ、安心させるためにこれだけは言っておこうか。俺は仲介人だ。
+\n取引相手は慎重に選んでるから、俺と取引できるってことは幸運なんだ。信じていいぞ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_0">
+		<text>注文がしたい。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_1">
+		<text>興味のあるものを選びな。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_2">
+		<text>ピストルを見せてくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_7">
+		<text>選べるのは1つだけだぞ、ほらよ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_8">
+		<text>Steppe Eagle: Desert Eagleをベースにしたハンドメイドのピストル。
+\n驚異的な精度を実現するために精巧に微調整されている。価格は8,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_11">
+		<text>ちょうど24時間後、あんたのPDAにメッセージを送ろう。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_9">
+		<text>Alpine: SIG P220を改造し、マガジンを拡張したモデル。価格は65,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_10">
+		<text>March: UDP Compactの改造モデル。大口径で連射性が高い。価格は7,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_3">
+		<text>ショットガンとサブマシンガンを見せてくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_28">
+		<text>いいぞ、この中から選んでくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_12">
+		<text>Frasier: MP5をベースにしたハンドメイドのサブマシンガン。
+\n大口径になったこのモデルは、標準モデルより性能が良い。価格は9,500ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_13">
+		<text>Carabiner: 軍用に改造されたSPAS-12。
+\n反動を軽減し、オートマチック射撃モードを搭載している。価格は11,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_14">
+		<text>Armsel Protecta: Strikerをベースに改良したモデル。価格は17,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_15">
+		<text>欲しいものはないな。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_4">
+		<text>スナイパーライフルとアサルトライフルを見せてくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_29">
+		<text>これが用意できるリストだ、選んでくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_16">
+		<text>Storm: スペツナズ特殊部隊用に製造されたOTs-14 Grozaの改造モデルだが、
+\n密かに流出して一般に出回っている。マガジン容量が増加しているのが特徴。
+\n価格は19,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_17">
+		<text>H&amp;amp;K G36: ゾーンでは珍しい銃だ。値段は14,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_18">
+		<text>FN F2000: ベルギー製の希少品で、性能が良いアサルトライフル。
+\n価格は17,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_19">
+		<text>Tide: VSS Vintorezの特殊改造モデル。発射速度は落ちたが、威力は上がっている。
+\n価格は20,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_20">
+		<text>SVU2-A: SVUmk-2ナイパーライフルの改良モデル。
+\nこの銃はフリーダムの伝説の守護者、マックスが所有していたものだ。
+\n価格は24,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_21">
+		<text>SVD Lynx: 精度とストッピングパワーを兼ね備えた軍用の改造モデル。
+\n価格は18,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_27">
+		<text>ガウスライフル: ゾーンには指で数えられるほどしか存在しない、最強の武器。
+\n驚異的な精度と威力を持ち、反動もほとんどない。価格は150,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_5">
+		<text>スーツを見せてくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_30">
+		<text>いいぞ、ひとつ選んでくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_22">
+		<text>モノリス エクソスケルトン: 防護性能でこのスーツに並ぶものはない。
+\nこれは奴らの「兄弟」でもない限り、手に入れるのは不可能だ。価格は100,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_23">
+		<text>傭兵用エクソスケルトン: おそらく一番信頼性の高い防護手段だ。
+\n価格は75,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_24">
+		<text>盗まれたエクソスケルトン: このユニークなスーツは他に類を見ない、希少品だ。
+\n価格は65,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_25">
+		<text>モノリス 科学スーツ: 閉鎖循環式呼吸システムを備えたスーツで、
+\nエクソスケルトンと同様に他ではお目にかかれない品物。価格は70,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_26">
+		<text>傭兵用SEVAスーツ: 閉鎖循環式呼吸システムを備えたスーツで、アノマリーからの
+\n防護性能に優れている。普通のストーカーにとってはかなり珍しい品だろう。
+\n価格は50,000ルーブル。</text>
+	</string>
+	<string id="pri_special_trader_mlr2_6">
+		<text>気が変わった。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_0">
+		<text>メッセージを受け取った。注文の品は用意できたか？</text>
+	</string>
+	<string id="pri_special_trader_mlr3_1">
+		<text>ああ、あんたが支払う金額を覚えているといいがな。
+\n価格は%c[d_orange] [%sルーブル] %c[DEFAULT]だ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_2">
+		<text>これが金だ。Steppe Eagleをもらおう。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_20">
+		<text>また来てくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_3">
+		<text>これが代金だ。SIG-220 Alpineをもらおう。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_4">
+		<text>ほらよ、金だ。USP Marchをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_5">
+		<text>こいつが代金だ。MP-5 Frasierをもらおう。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_6">
+		<text>こいつが金だ。Carabinerをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_7">
+		<text>こいつが金だ。Protectaをもらおうか。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_8">
+		<text>ほら、代金だ。OTs-14 Groza Stormをもらう。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_9">
+		<text>ほらよ、金だ。HK G36をもらおう。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_10">
+		<text>これが代金だ。FN-2000をもらおう。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_11">
+		<text>ほら、金だ。VSS Vintorez «Tide»をもらうぞ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_12">
+		<text>これが金だ。SVU2-Aをもらおう。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_13">
+		<text>こいつが代金だ。SVD Lynxをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_14">
+		<text>これが金だ。モノリス エクソスケルトンをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_15">
+		<text>これが金だ。傭兵用エクソスケルトンが欲しい。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_16">
+		<text>これが金だ。盗まれたエクソスケルトンをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_17">
+		<text>ほら、代金だ。モノリス 科学スーツをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_18">
+		<text>ほら、金だ。傭兵用SEVAスーツをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_19">
+		<text>ほら、代金だ。ガウスライフルをくれ。</text>
+	</string>
+	<string id="pri_special_trader_mlr3_21">
+		<text>えーっと･･････ まだだ。金の準備ができていない。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_start_0">
+		<text>どうも、兄弟。私は兄弟たちの装備を守ることで“意志”を遂行しているのだ。</text>
+	</string>
+	<string id="meet_guid_prikbo_mon_0">
+		<text>兄弟よ、どこに行けるのか教えてくれないか？</text>
+	</string>
+	<string id="meet_guid_prikbo_mon_1">
+		<text>私が案内することはできないが、兄弟たちが行くべき場所を示してくれるだろう･･････
+\nもちろん、料金は必要だ。我々は赤い森、ジュピター、
+\nそしてプリピャチに拠点を設けている。いつでも喜んで手助けしよう。</text>
+	</string>
+	<string id="meet_guid_prikbo_mon_list_0">
+		<text>どこまで案内してくれるんだ？</text>
+	</string>
+	<string id="meet_guid_prikbo_mon_list_1">
+		<text>赤い森なら5,000ルーブル、ジュピターは2,000ルーブル、
+\nプリピャチは1,000ルーブルだ。</text>
+	</string>
+	<string id="travel_guid_prikbo_mon_mon_0">
+		<text>移動したい場所がある。</text>
+	</string>
+	<string id="travel_guid_prikbo_mon_mon_1">
+		<text>そうか。案内人に連れて行ってほしい場所を教えてくれ。</text>
+	</string>
+	<string id="travel_guid_prikbo_mon_mon_2">
+		<text>赤い森へ。%c[d_orange] [5,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_prikbo_mon_mon_3">
+		<text>ジュピターへ。%c[d_orange] [2,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_prikbo_mon_mon_4">
+		<text>プリピャチへ。%c[d_orange] [1,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_prikbo_mon_mon_5">
+		<text>気が変わった。</text>
+	</string>
+	<string id="meet_guid_l11pri_mon_haron_0">
+		<text>兄弟よ、どこかへ移動することはできるだろうか？</text>
+	</string>
+	<string id="meet_guid_l11pri_mon_haron_1">
+		<text>もちろんだ。寄付をすれば、他の兄弟たちに案内を頼むことができる。
+\n行き先は東のプリピャチ郊外、西のジュピター、そして南西の赤い森だ。</text>
+	</string>
+	<string id="meet_guid_l11pri_mon_haron_list_0">
+		<text>兄弟よ、案内先を教えてくれないか？</text>
+	</string>
+	<string id="meet_guid_l11pri_mon_haron_list_1">
+		<text>東のプリピャチ郊外、西のジュピター、そして南西の赤い森への道がある。</text>
+	</string>
+	<string id="travel_guid_l11pri_mon_haron_0">
+		<text>行きたい場所がある。</text>
+	</string>
+	<string id="travel_guid_l11pri_mon_haron_1">
+		<text>兄弟よ、どこへ行きたいのだ？</text>
+	</string>
+	<string id="travel_guid_l11pri_mon_haron_2">
+		<text>プリピャチ郊外へ。%c[d_orange] [1,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_l11pri_mon_haron_3">
+		<text>ジュピターへ。%c[d_orange] [1,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_l11pri_mon_haron_4">
+		<text>赤い森へ。%c[d_orange] [5,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_l11pri_mon_haron_5">
+		<text>気が変わった。</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_haron_0">
+		<text>兄弟よ、ヘリコプターの残骸からフライトレコーダー装置を見つけた。</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_haron_1">
+		<text>喜ばしいことだ。これで異教徒たちは滅びるだろう。</text>
+	</string>
+	<string id="meet_guid_pri_stalker_0">
+		<text>あんたが案内人だな？</text>
+	</string>
+	<string id="meet_guid_pri_stalker_1">
+		<text>ああ、俺はツーリストって呼ばれてる。未開拓のエリアを歩き回って、
+\n他のストーカーが知らない秘密のルートを見つけるのが趣味なんだ。
+\nさて、俺が案内できる場所を教えてやるよ。原子力発電所には12,000ルーブル、
+\nプリピャチまでは3,000ルーブル、ジュピターのヤニフ駅には4,000ルーブル、
+\nレーダーなら8,000ルーブル、ジュピター地下ならたったの1,000ルーブル、
+\nそしてザトンへはギャリー経由で4,000ルーブルってところだな。</text>
+	</string>
+	<string id="meet_guid_pri_stalker_list_0">
+		<text>どこへ案内できるか、もう一度教えてくれないか？</text>
+	</string>
+	<string id="meet_guid_pri_stalker_list_1">
+		<text>原子力発電所には12,000ルーブル、プリピャチまでは3,000ルーブル、
+\nジュピターのヤニフ駅には4,000ルーブル、レーダーなら8,000ルーブル、
+\nジュピター地下なら1,000ルーブル、そしてザトンへはギャリー経由で4,000ルーブルだ。</text>
+	</string>
+	<string id="travel_guid_pri_stalker_0">
+		<text>案内してくれ。</text>
+	</string>
+	<string id="travel_guid_pri_stalker_1">
+		<text>場所は？</text>
+	</string>
+	<string id="travel_guid_pri_stalker_2">
+		<text>チョルノービリ原子力発電所へ。%c[d_orange] [12,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_pri_stalker_3">
+		<text>プリピャチへ。%c[d_orange] [3,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_pri_stalker_4">
+		<text>レーダーへ。%c[d_orange] [8,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_pri_stalker_5">
+		<text>ジュピターへ。%c[d_orange] [4,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_pri_stalker_6">
+		<text>ジュピター地下へ。%c[d_orange] [1,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_pri_stalker_7">
+		<text>ザトンへ。%c[d_orange] [4,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_pri_stalker_8">
+		<text>気が変わった。</text>
+	</string>
+	<string id="monolith_eidolon_st_1">
+		<text>我が名はエイドロン。モノリスに選ばれし者。
+\n我こそがブレイン・スコーチャーを復旧させたのだ。モノリスの導きの下、謁見を求め、
+\n願いは叶えられた。そして授けられたのは贈り物─透き通るような明瞭な視界。
+\n守るため、罰するため、そして偉大なる目的に仕えるためだ。
+\n我はゾーンを巡り、危険な異教徒を探し出す。
+\n彼らは我々を、そして崇高なるモノリスを滅ぼそうとする愚か者だ。
+\n我は彼らに教え、説く。武器を手にし、この祝福された精神をもって。
+\n我には見える。彼らが逃げ、隠れようとしているのが。
+\n無駄な行為だ。我は必ず追い詰める。モノリスの名のもとに、守るために彼らを排除する。</text>
+	</string>
+</string_table>

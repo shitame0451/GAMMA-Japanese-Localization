@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="mechanic_monolith_jup_depo_start_0">
+		<text>兄弟よ。私の任務は、この地域の同志たちに技術支援を提供することだ。</text>
+	</string>
+	<string id="meet_guid_jupdepo_mon_0">
+		<text>どこまで連れて行ってくれるんだ？</text>
+	</string>
+	<string id="meet_guid_jupdepo_mon_1">
+		<text>どこへでも連れてってやるぜ。いい道を知ってるからな。
+\nまずはレッドフォレスト、次にプリピャチ郊外。プリピャチにだって行けるぞ。
+\nお前ひとりじゃ到底辿り着けっこない場所でも、俺がいるなら話は別さ。
+\nもちろん無料ってわけにはいかないが、お前にとってはこの程度、はした金だろう？</text>
+	</string>
+	<string id="meet_guid_jupdepo_mon_list_0">
+		<text>どこへ連れて行ってくれるんだ？</text>
+	</string>
+	<string id="meet_guid_jupdepo_mon_list_1">
+		<text>レッドフォレストへ行くなら6,000ルーブル、プリピャチ郊外なら2,000ルーブル。
+\nプリピャチだったら1,000ルーブルでいいぞ。</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_0">
+		<text>連れて行ってほしい場所がある。</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_1">
+		<text>大歓迎さ。どこへ行きたいんだ？</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_2">
+		<text>レッドフォレストへ。%c[d_orange] [6,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_3">
+		<text>プリピャチ郊外へ。%c[d_orange] [2,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_4">
+		<text>プリピャチへ。%c[d_orange] [1,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_jupdepo_mon_mon_5">
+		<text>やっぱりやめておく。</text>
+	</string>
+	<string id="meet_guid_jup_0">
+		<text>あんたは誰だ？</text>
+	</string>
+	<string id="meet_guid_jup_1">
+		<text>よお兄弟、俺の名前はギャリー。ガイドをやってる。ゾーン中を歩き回るのが仕事だな。
+\n俺はあんたを100ラッズ・バーかプリピャチ、レッドフォレスト、ザトン、
+\nそしてジュピター地下まで連れて行ってやれるぞ。</text>
+	</string>
+	<string id="meet_guid_jup_list_0">
+		<text>もう一度教えてくれ、どこへ連れて行ってくれると言った？</text>
+	</string>
+	<string id="meet_guid_jup_list_1">
+		<text>6,000ルーブルで100ラッズ・バーへの旅、3,000ルーブルでプリピャチ、
+\n2,500ルーブルでレッドフォレスト、2,000ルーブルでザトンのスカドフスク、
+\nあとは1,500ルーブルでジュピター地下ってとこだな。</text>
+	</string>
+	<string id="travel_guid_jup_0">
+		<text>連れて行ってほしい場所がある。</text>
+	</string>
+	<string id="travel_guid_jup_1">
+		<text>いいぜ、どこに行きたい？</text>
+	</string>
+	<string id="travel_guid_jup_2">
+		<text>100ラッズ・バーへ。%c[d_orange] [6,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_jup_3">
+		<text>プリピャチへ。%c[d_orange] [3,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_jup_4">
+		<text>レッドフォレストへ。%c[d_orange] [2,500ルーブル]</text>
+	</string>
+	<string id="travel_guid_jup_5">
+		<text>ジュピター地下へ。%c[d_orange] [1,500ルーブル]</text>
+	</string>
+	<string id="travel_guid_jup_6">
+		<text>ザトンへ。%c[d_orange] [2,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_jup_7">
+		<text>やっぱりやめておく。</text>
+	</string>
+	<string id="loki_st_0">
+		<text>ここはあんたが仕切ってるのか？</text>
+	</string>
+	<string id="loki_st_1">
+		<text>ああ、そうだ。俺の名前はロキ、ここでルーカッシュの右腕を務めている。</text>
+	</string>
+	<string id="loki_st_2">
+		<text>ロキ？面白い名前だな。北欧神話に出てきそうだ。</text>
+	</string>
+	<string id="loki_st_3">
+		<text>ああ、それが由来なんだ。ブレイン・スコーチャーが現れた頃からそう呼ばれている。
+\nあの頃はまさに狂気の時代だったな。</text>
+	</string>
+	<string id="loki_st_4">
+		<text>ブレイン・スコーチャーが停止した後、何があったのか聞かせてくれないか？</text>
+	</string>
+	<string id="loki_st_5">
+		<text>ああ、いいだろう。
+\n2012年にブレイン・スコーチャーが停止し、俺たちの部隊は北へ進行し始めた。
+\n色んな場所を訪れ、歩みを進めていった･･････ チェルノブイリ原発が見えてきた頃、
+\n野営地を設営できる場所を探し、最終的に無人だったこの駅に辿り着いた。
+
+\n\nその後、すぐにDutyの連中が現れた。俺たちはそこで戦闘を始めたが、
+\n突然エミッションが発生してな。ゾンビになることは、誰にとっても最悪な死に方だ。
+\nそこで、俺は危険を承知で･･････ エミッションが来る前にDutyを中に入れた。
+\nそしてこの駅内での休戦協定を呼びかけ、ここにいる間は武装を解除することになった。
+\nもちろん、駅の外では今でも睨み合いを続けているがな。</text>
+	</string>
+	<string id="loki_st_6">
+		<text>それなら、ここにいたDutyたちはどうなったんだ？彼らは今はどこにいる？</text>
+	</string>
+	<string id="loki_st_7">
+		<text>それは答えにくい質問だな。少し前、アレクサンダーと名乗るストーカーが現れ、
+\nここにいる者たちの手助けをしてくれた。あの男は本当に多くの善い行いをしてくれたな。
+\n彼のおかげでこの駅内の調和が保たれていたんだ。派閥間の緊張も少しずつ和らいできて
+\nいるところだった･･････ しかし、Monolithの連中が再び現れてこちらに侵攻を始めた。</text>
+	</string>
+	<string id="loki_st_8">
+		<text>その後、どうなったんだ？</text>
+	</string>
+	<string id="loki_st_9">
+		<text>ああ、シュルガ中佐─Dutyの指導者が、カルト集団が再びゾーンを自由に
+\n歩き回るのを見逃すわけにはいかないと、ある決断をした。彼は多くの仲間を連れて
+\n「心配するな、夕飯の時間までには戻ってくる」と言い、プリピャチに向けて出発した。
+\nその直後にブレイン・スコーチャーが再稼働して･･････ それ以来、彼らの姿を見ていない。</text>
+	</string>
+	<string id="loki_st_10">
+		<text>彼の犠牲は報われたのか？</text>
+	</string>
+	<string id="loki_st_11">
+		<text>･･････いいや。
+\nあの時、彼らを受け入れるのにどれだけのリスクを冒したかと思うと、やりきれんな･･････
+\n今頃、あいつらは洗脳された仲間やゾンビたちと一緒に酒を飲んでるかもな･･････</text>
+	</string>
+	<string id="loki_st_12">
+		<text>･･････残念だな。</text>
+	</string>
+	<string id="devushka_loki_help_0">
+		<text>やあ、ロキ。ルーカッシュからのお届け物だ。</text>
+	</string>
+	<string id="devushka_loki_help_1">
+		<text>ああ、助かるよ。「情けは人の為ならず」って言葉があるだろう？
+\nほら、このスーツを持っていけ。前の持ち主にはもう必要ないだろうしな。</text>
+	</string>
+	<string id="jup_a6_freedom_trader_ashot_start_dialog_0">
+		<text>今日は何を買ってくれるんだ？</text>
+	</string>
+	<string id="jup_b19_freedom_yar_start_dialog_0">
+		<text>やあ、ストーカー。何か用かね？</text>
+	</string>
+	<string id="jup_b220_trapper_start_11">
+		<text>俺はトラッパーだ･･････ これ以上の自己紹介は必要ないだろう。</text>
+	</string>
+	<string id="jup_b220_trapper_start_12">
+		<text>何の用だ？</text>
+	</string>
+	<string id="jup_trapper_about_himself_0">
+		<text>ここで何をしているんだ？</text>
+	</string>
+	<string id="jup_trapper_about_himself_1">
+		<text>以前はストーカーたちを脅かすミュータントを狩っていた･･････
+\n今は若いハンターに仕事を割り振り、訓練や狩りの戦術を教えている。</text>
+	</string>
+	<string id="jup_trapper_about_retire_0">
+		<text>なぜ若者に行かせる？あんたはもう狩りをしないのか？</text>
+	</string>
+	<string id="jup_trapper_about_retire_1">
+		<text>俺はもう、狩りをするには歳を取りすぎた。
+\nそのせいでフォックスを失った･･････ あいつは俺の相棒で、最高の友だった。
+\n一緒に肩を並べ、数え切れないほどの獣を狩ってきたんだ･･････
+\nだが、ザトンで2匹のキメラに遭遇しちまった。18か月もの間、姿を見せなかった奴らだ。
+\nショットガンを構える間もなく、その内の1匹がフォックスを地面に叩き伏せた。
+\n俺がもう1匹を負傷させた途端、逃げていったが･･････
+\n正直、奴らを地獄の業火に叩き落としてやらないと死んでも死に切れん！</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_ask">
+		<text>ミュータント狩りについて教えてくれ･･････</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_1">
+		<text>キメラはかなり危険な夜行性の捕食者だ。
+\n奴らは暗闇に紛れて背後に回り込み、お前に跳びかかってくるだろう。
+\n近くにキメラがいると気づいたら、背後に注意して、仲間のケツも守ってやることだ･･････</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_2">
+		<text>バーラーは重力を利用して攻撃するんだ･･････
+\n近くにいるときはお前を吹き飛ばし、遠くにいるときは周りの物を投げつけてくる･･････
+\n重い物でぶん殴られるのが嫌なら、中距離を保って動き続けるのが一番安全だ。
+\nただし、体力の消耗には気をつけろ！バーラーは重力で武器を取り上げようとしてくる。
+\n疲れ切っているときにその攻撃を防ぐのは難しいからな。</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_3">
+		<text>ポルターガイストには2つの種類が存在する。
+\n重力を使って物を投げつけるタイプと、火を操って獲物を焼き尽くすタイプだ。
+\n未熟なハンターは、攻撃を避けようとして奴らの周りをぐるぐる回ろうとするが･･････
+\n重要なのは、奴らに視覚や聴覚がないことを理解し、それを利用することだ。
+\nポルターガイストは重力場の中で動く物体を感知している･･････
+\n熟練のハンターは、ポルターガイストを見つけた瞬間に動きを止め、発砲し、また止まる。
+\nこれを何度も繰り返して対処するんだ。</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_4">
+		<text>スードウジャイアントを狩る時の最大の難関は、奴を殺すことだ。
+\n奴らは並外れた耐久力を持っていて、どれだけダメージを与えてもびくともしない･･････
+\n俺が言えるのは、至近距離ならショットガンが有効かもしれない、ということくらいだ。
+\nだが注意しろ。奴の攻撃は凄まじく、コンクリートにでも固定していなければ、
+\nどんなものでも簡単に吹き飛ばしてしまう。高所から攻撃するのが得策だ･･････
+\nその時は、自分の立っている場所が奴の攻撃に耐えられるか確認しておけよ。</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_5">
+		<text>コントローラーはお前の思考を逆手に取って攻撃してくる。
+\n狩るときは遮蔽物を利用しろ。奴は対象を視認しないと精神に干渉できないからな･･････
+\nそれに、動きはかなり鈍い。もし命の危機を感じたら、迷わず手榴弾を投げるんだな。</text>
+	</string>
+	<string id="st_jup_b220_trapper_life_end">
+		<text>外に出て、俺が教えたことを実践してこい。ミュータントの話はまた今度だ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_start_dialog_0">
+		<text>薬が必要かな？それともお喋りをしに来ただけかい？</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_0">
+		<text>治療が必要だ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1">
+		<text>どれ、診てみよう･･････</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_2">
+		<text>ふむふむ･･････ 君の肝臓は平均より少し大きいようだね。
+\nストーカーの職業病というやつかな。それ以外はバーラー並みに健康だよ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_111">
+		<text>えーっと、君にはたしかに治療が必要のようだが、無料というわけにはいかない。
+\n私のところでは傷の程度に関係なく、治療費は一律で1,850ルーブルだよ。
+\nただし、放射線を除去したいとなると、さらに1,480ルーブルかかることになっている。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11">
+		<text>どういう意味だ？俺はもう死んでるって言いたいのか？</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1111">
+		<text>わかった、払うよ。どうせ金を墓に持っていっても意味がないからな。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1112">
+		<text>くそ、高すぎて払えないぞ！</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1115">
+		<text>そんな高額、払うくらいなら死んだ方がマシだ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1114">
+		<text>手持ちが足りないんだ。放射線の除去だけやってくれ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_1113">
+		<text>応急処置キットがあるから怪我の方はいい。放射線の除去だけやってくれ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11111">
+		<text>もう少しだ･･････ よし。君は今、新品同様に生まれ変わったよ。
+\n私からの二年間保証付きだ。この駅から離れない限りはね。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11112">
+		<text>ローンを組むつもりはない。別のところを診てくれ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11113">
+		<text>なら･･････ せめて良い最期を迎えてくれよ。</text>
+	</string>
+	<string id="jup_a6_stalker_medik_need_health_care_11114">
+		<text>さあ、来てくれ。もう抗放射線薬はいらなくなるぞ。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_start_dialog_11">
+		<text>何か言いたいことがあるのか？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_start_dialog_12">
+		<text>何の用でここに来た？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_0">
+		<text>Freedomにおけるあんたの役割を教えてほしい。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1">
+		<text>長い話になるぞ。何から知りたい？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1111">
+		<text>ここで何をやってるんだ？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11111">
+		<text>役人どもがゾーン外の人々に隠し事をしないように監視している。分かるだろう？
+\n奴らはゾーンで新しい研究所や秘密の文書を見つけると、すぐに大規模な軍事作戦を
+\n展開して証拠を跡形もなく消し去るんだ。掃除機で吸うよりも、綺麗さっぱりな。
+\n真実を知る唯一の方法は、奴らより先にゾーンの核心に辿り着くしかないってわけだ。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1112">
+		<text>ゾーンの中心に来ることになったのは何がきっかけだ？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11121">
+		<text>まあ、みんな新しい場所を散歩したくなったってところかな･･････ 冗談さ。
+\n本当はここでしか見つからない、世界がまだ知らないものを見つけるチャンスだからだ。
+\nこの辺りはゾーンの中でもほとんど手つかずでな、どこを見ても新しい発見がある。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_111211">
+		<text>それで、何か収穫はあったか？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1112111">
+		<text>あえて言うなら、鍵のかかったドアと、未知のアーティファクトといったところだな。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1113">
+		<text>あんたはどうしてFreedomに加入したんだ？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11131">
+		<text>そうだな、まだゾーンができる前の話だ。俺は今のFreedomの幹部たちと友人だった。
+\nあの頃のあいつらはリーダーなんて洒落たもんじゃなかった。ただのイカレたヒッピーさ。
+\nそれから俺がアーティファクト探しにゾーンへ入るようになった頃、そいつらと再会した。
+\n成長したなじみの顔に出会って分かったよ。こいつらと一緒にいなきゃってな。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1114">
+		<text>Dutyについてはどう思っている？</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11141">
+		<text>あいつらはバカの集まりだな。ヴォロニンが少しでもまともな判断力を持っていれば、
+\nMonolithが復活したときのFreedomのように、ここに増援を送っていただろう。
+\nシュルガ中佐も無謀な行動を取らなければ、この駅を救うために姿を消すことはなかった！
+\nDutyの兵士どもがもう少し頭の回る連中なら、仲間の捜索に全力を注ぐはずだ。
+\n俺たちに無駄な威嚇射撃をしてる暇など当然ないだろう。ほんの少しでも賢ければ、
+\nこの素晴らしいゾーンを破壊するのではなく、楽しむことに目を向けるはずなんだがな。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_1115">
+		<text>わかったよ。もうこの話はやめよう。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_about_you_11151">
+		<text>好きにすればいいさ。</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_start_dialog_11">
+		<text>ようこそ、楽しみと喜びにあふれた俺のささやかな楽園へ！
+\nお目当ては楽しみか？それとも喜び？いや、両方かい？</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_start_dialog_12">
+		<text>一息つきに来たのか？大した飲み物はねえが、ここは誰でも歓迎する。
+\n居心地のいい場所だぜ！</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_start_dialog_13">
+		<text>欲しいもんは何でも揃ってるぜ！何が目当てだ？飯か？酒か？
+\nそれとも一丁、銃をぶっ放したいってか？</text>
+	</string>
+	<string id="hawaiian_yanov_0">
+		<text>ここはどういう場所なんだ？</text>
+	</string>
+	<string id="hawaiian_yanov_1">
+		<text>ストーカーさんよ、ようこそヤノフ駅へ！ここには陽気な連中がいっぱいいるぜ！
+\nイエース･･････ 陽気な連中がぎっしりだ！ゾーンの冒険の合間に語り合ったり、飲んだり、
+\nギャンブルしたりできるお仲間が揃ってるぞ。そうだ、何か役に立つ物が欲しいんだろ？
+\nアショットと俺がきっちり揃えてるから任せとけ！備えあれば憂いなしってな！</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_start_11">
+		<text>何か言いたいことがあるのか？</text>
+	</string>
+	<string id="hermann_lab_0">
+		<text>この場所について教えてくれ。</text>
+	</string>
+	<string id="hermann_lab_1">
+		<text>うーん、特に言うことはないがね。ブレイン・スコーチャーが無力化された後、
+\nウクライナ教育省と交渉を重ね、なんとか説得して出来たのがこの研究施設だ。
+\nしかし、その際に予定されていた軍の護衛作戦がすべて失敗に終わり、
+\n我々には何の保護も提供されなかったのだ。最新鋭の設備はあるが、肝心の人員が
+\n全く足りていないのでな、普段は雇われのストーカーに頼るしかないのが現状だ。
+\n正直なところ、我々の能力も労働環境も満足できるものとは程遠い。このような状況で
+\n外部からの支援も得られないとなると、どうやって大きな成果を上げろと言うんだ？</text>
+	</string>
+	<string id="jup_b16_biochemist_oasis_start_11">
+		<text>どうしてここに来たんだ？</text>
+	</string>
+	<string id="ozersky_oasis_0">
+		<text>あんたは「オアシス」について何か知ってるのか？</text>
+	</string>
+	<string id="ozersky_oasis_1">
+		<text>もちろんだとも。
+\n我々はかつて、その場所で発見されたアーティファクトを研究したこともある。しかし、
+\n残念ながらそのアーティファクトは外の世界で使用するために回収されてしまったんだ。
+\nそれを持ってきてくれたストーカー、アレクサンダー・デグチャレフという男は
+\nオアシスの場所を決して明かさなかったがね。もし君がオアシスを見つけて
+\n«ハート・オブ・オアシス»を持ち帰ってくれるなら、我々は喜んで高額の報酬を支払うよ。</text>
+	</string>
+	<string id="jup_b6_scientist_medic_start_11">
+		<text>何の用かね？</text>
+	</string>
+	<string id="st_jup_yar_reply_1">
+		<text>おい、%sに伝えてくれ、さっさとここに来いってな。</text>
+	</string>
+	<string id="st_jup_yar_reply_2">
+		<text>忙しいってことが分からないのか？ここまで来いって言っとけ。</text>
+	</string>
+	<string id="st_jup_yar_reply_3">
+		<text>俺は足で稼ぐ商売はやってないんだ。ここに来るように言ってくれよ。</text>
+	</string>
+	<string id="st_jup_yar_reply_4">
+		<text>何だ？車椅子が必要か？%sを連れてくるんだよ。</text>
+	</string>
+	<string id="st_jup_yar_reply_5">
+		<text>%sはどこにいる？あいつが直接持ってこないと直せないんだよ。</text>
+	</string>
+	<string id="st_jup_ashot_reply_1">
+		<text>%sがそれを望んでいるなら、こっちに来て持っていくよう彼に言ってくれ。</text>
+	</string>
+	<string id="st_jup_ashot_reply_2">
+		<text>また来たのか？欲しいなら自分で取りに来るんだな、分かったか？</text>
+	</string>
+	<string id="st_jup_ashot_reply_3">
+		<text>あのハゲ野郎に言っとけ、這ってでもここに来いってな。</text>
+	</string>
+	<string id="st_jup_ashot_reply_4">
+		<text>店を離れるわけにはいかないんだよ。あいつはこっちに来られないのか？</text>
+	</string>
+	<string id="st_jup_ashot_reply_5">
+		<text>俺が執事にでも見えたか？自分で取りに来るよう%sに伝えてくれ。</text>
+	</string>
+</string_table>

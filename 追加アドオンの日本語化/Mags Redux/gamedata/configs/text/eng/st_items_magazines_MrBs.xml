@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+		<!--
+Aug x10 5,56
+-->
+
+	<string id="st_mag_aug_5.56x45_short">
+		<text>Steyr AUG用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_short_descr">
+		<text> </text>
+	</string>
+
+		<!--
+Aug x42 5,56
+-->
+
+	<string id="st_mag_aug_5.56x45_ext">
+		<text>Steyr AUG用拡張マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_aug_5.56x45_ext_descr">
+		<text> </text>
+	</string>
+
+
+<!--
+MP5 x40 9mm
+-->
+
+	<string id="st_mag_mp5_9x19_fmjext">
+		<text>MP5用拡張マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mp5_9x19_fmjext_descr">
+		<text> </text>
+	</string>
+
+<!--
+MP5 x50 9mm
+-->
+	<string id="st_mag_mp5_9x19_fmjext50">
+		<text>MP5用ドラムマガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mp5_9x19_fmjext50_descr">
+		<text> </text>
+	</string>
+
+
+<!--
+Glock x33 9mm
+-->
+
+	<string id="st_mag_glock_9x19_fmjext">
+		<text>Glock用拡張マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_glock_9x19_fmjext_descr">
+		<text> </text>
+	</string>
+
+<!--
+Glock x50 9mm
+-->
+
+	<string id="st_mag_glock_9x19_fmjext50">
+		<text>Glock用ドラムマガジン（9x19）</text>
+	</string>
+	<string id="st_mag_glock_9x19_fmjext50_descr">
+		<text> </text>
+	</string>
+
+<!--
+MP5 x40 9mm alt
+-->
+
+	<string id="st_mag_mp5_9x18_fmjext">
+		<text>MP5用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mp5_9x18_fmjext_descr">
+		<text> </text>
+	</string>
+
+<!--
+MP5 x50 9mm alt
+-->
+	<string id="st_mag_mp5_9x18_fmjext50">
+		<text>MP5用改造ドラムマガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mp5_9x18_fmjext50_descr">
+		<text> </text>
+	</string>
+
+
+<!--
+Glock x33 9mm alt
+-->
+
+	<string id="st_mag_glock_9x18_fmjext">
+		<text>Glock用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_glock_9x18_fmjext_descr">
+		<text> </text>
+	</string>
+
+<!--
+Glock x50 9mm alt
+-->
+
+	<string id="st_mag_glock_9x18_fmjext50">
+		<text>Glock用改造ドラムマガジン（9x18）</text>
+	</string>
+	<string id="st_mag_glock_9x18_fmjext50_descr">
+		<text> </text>
+	</string>
+
+</string_table>

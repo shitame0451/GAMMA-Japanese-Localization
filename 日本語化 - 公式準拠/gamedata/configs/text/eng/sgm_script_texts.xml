@@ -1,0 +1,582 @@
+<string_table>
+
+	<string id="ui_mcm_menu_21_game">
+		<text>Blackjack</text>
+	</string>
+	
+	<string id="ui_mcm_21_game_card_game_21_minimum_rate">
+		<text>最低ベット</text>
+	</string>
+	
+	<string id="ui_mcm_21_game_value_card_21_max_rate">
+		<text>ベット上限</text>
+	</string>
+
+	<string id="st_minigames_21_point_accept_bets">
+		<text>ベットを確定</text>
+	</string>
+	
+	<string id="st_minigames_21_point_start">
+		<text>ゲームを開始</text>
+	</string>
+
+	<string id="st_minigames_21_point_exit">
+		<text>終了</text>
+	</string>
+	
+	<string id="st_minigames_21_point_more">
+		<text>1枚引く</text>
+	</string>
+	
+	<string id="st_minigames_21_point_pass">
+		<text>パス</text>
+	</string>
+
+	<string id="st_minigames_21_point_cont">
+		<text>続ける</text>
+	</string>
+
+<!--
+	DIALOGUE
+-->
+
+    <string id="zat_sich_minigame_21_point_dialog_1">
+		<text>ちょっと聞いてもいいかな･･････%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_2">
+		<text>何の用だ？</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_3">
+		<text>ブラックジャックで暇つぶしでもどうだ？</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_4">
+		<text>いいぞ、やるか！あんたは金を用意しておけ、俺はカードをシャッフルしよう。</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_5">
+		<text>ああ、やろう。</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_6">
+		<text>よし、準備はできてる。やろう。</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_7">
+		<text>時間はあるか？カードゲームでもどうだ？</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_8">
+		<text>もちろん！</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_9">
+		<text>準備はできてる。やろう。</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_10">
+		<text>いや、またの機会にしておこう。</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_11">
+		<text>またの機会にしておこう。</text>
+	</string>
+        <string id="zat_sich_minigame_21_point_dialog_12">
+		<text>やっぱりやめておく。</text>
+	</string>
+
+
+    <string id="skraga_21_point_dialog_1">
+		<text>なあ、ちょっと聞いてもいいか･･････%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="skraga_21_point_dialog_2">
+		<text>何だ？</text>
+	</string>
+        <string id="skraga_21_point_dialog_3">
+		<text>そこにカードがあるみたいだな。ブラックジャックはどうだ？</text>
+	</string>
+        <string id="skraga_21_point_dialog_4">
+		<text>よし、勝負だ！</text>
+	</string>
+        <string id="skraga_21_point_dialog_5">
+		<text>いつでも準備はできている。</text>
+	</string>
+        <string id="skraga_21_point_dialog_6">
+		<text>ああ、やろう！</text>
+	</string>
+        <string id="skraga_21_point_dialog_7">
+		<text>今か？</text>
+	</string>
+        <string id="skraga_21_point_dialog_8">
+		<text>おう！</text>
+	</string>
+
+       
+    <string id="xolod_21_point_dialog_1">
+		<text>なあ、コールド。ちょっと時間あるか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="xolod_21_point_dialog_2">
+		<text>何の用だ？</text>
+	</string>
+        <string id="xolod_21_point_dialog_3">
+		<text>トランプゲームはどうだ？</text>
+	</string>
+        <string id="xolod_21_point_dialog_4">
+		<text>面白そうだな。さあ、金を用意しよう。</text>
+	</string>
+        <string id="xolod_21_point_dialog_5">
+		<text>よし！</text>
+	</string>
+        <string id="xolod_21_point_dialog_6">
+		<text>準備はできたぞ。</text>
+	</string>
+        <string id="xolod_21_point_dialog_7">
+		<text>またか？</text>
+	</string>
+        <string id="xolod_21_point_dialog_8">
+		<text>ああ！</text>
+	</string>
+
+
+    <string id="lesnik_21_point_dialog_1">
+		<text>ちょっと聞いてもいいか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="lesnik_21_point_dialog_2">
+		<text>どうした、何の用だ？</text>
+	</string>
+        <string id="lesnik_21_point_dialog_3">
+		<text>机にトランプが置いてあるな。少しやらないか？</text>
+	</string>
+        <string id="lesnik_21_point_dialog_4">
+		<text>いいぞ。やろう！金を準備してくれ、ワシはカードをシャッフルしよう。</text>
+	</string>
+        <string id="lesnik_21_point_dialog_5">
+		<text>もう準備はできている。</text>
+	</string>
+        <string id="lesnik_21_point_dialog_6">
+		<text>よし、準備はできてる。</text>
+	</string>
+
+
+	<string id="cit_killers_21_point_dialog_1">
+		<text>ちょっと聞いてもいいか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="cit_killers_21_point_dialog_2">
+		<text>何の用だ？</text>
+	</string>
+        <string id="cit_killers_21_point_dialog_3">
+		<text>あんたの後ろにトランプがあるな。ブラックジャックでもどうだ？</text>
+	</string>
+        <string id="cit_killers_21_point_dialog_4">
+		<text>よし、勝負だ。金を出しな。</text>
+	</string>
+        <string id="cit_killers_21_point_dialog_5">
+		<text>そのつもりだ。</text>
+	</string>
+        <string id="cit_killers_21_point_dialog_6">
+		<text>よし、勝負だ。</text>
+	</string>
+
+
+	<string id="saxarov_21_point_dialog_1">
+		<text>教授、少し時間はあるか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="saxarov_21_point_dialog_2">
+		<text>なんだ、聞こうじゃないか。</text>
+	</string>
+        <string id="saxarov_21_point_dialog_3">
+		<text>ブラックジャックはどうだ？</text>
+	</string>
+        <string id="saxarov_21_point_dialog_4">
+		<text>まあ、忙しくないこともないが･･････ 1試合くらいなら時間はある。</text>
+	</string>
+        <string id="saxarov_21_point_dialog_5">
+		<text>よし、やろう。</text>
+	</string>
+        <string id="saxarov_21_point_dialog_6">
+		<text>よし、やろう。</text>
+	</string>
+
+
+	<string id="zat_sich_minigame_21_point_dialog_1">
+		<text>ちょっと聞いてもいいか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_2">
+		<text>ああ？質問は何だ？</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_3">
+		<text>バーの後ろにトランプがあるだろ、ブラックジャックでもどうだ？</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_4">
+		<text>じゃあ、カードをシャッフルするから金を出しな。何度負けてもいいようにたくさん用意しろよ。</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_5">
+		<text>乗ったぜ。準備はできてるぞ。</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_6">
+		<text>それはいい！やろう！</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_7">
+		<text>何だって？</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_8">
+		<text>もう一度だ！</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_9">
+		<text>良さそうだ、やろう。</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_10">
+		<text>今は忙しいんだ。また今度。</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_11">
+		<text>また別の機会にするよ。</text>
+	</string>
+        <string id="sich_minigame_21_point_dialog_12">
+		<text>いや、今はやりたくない。</text>
+	</string>
+
+
+	<string id="jup_barmen_minigame_21_point_dialog_1">
+		<text>ちょっと聞いてもいいか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_2">
+		<text>ああ、言ってみな。</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_3">
+		<text>この店のどこかにトランプがあるはずなんだが･･････ ゲームでもどうだ？</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_4">
+		<text>いいぞ、やるか！</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_5">
+		<text>よし、やろう。</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_6">
+		<text>よし、勝負だ。</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_7">
+		<text>再戦しないか？</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_8">
+		<text>ああ、やろう。</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_9">
+		<text>よし、勝負だ。</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_10">
+		<text>今は無理だ。また今度な。</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_11">
+		<text>今はやめておく。また後で。</text>
+	</string>
+        <string id="jup_barmen_minigame_21_point_dialog_12">
+		<text>いや、今はブラックジャックをやりたくないんだ。</text>
+	</string>
+
+
+    <string id="petrenko_21_point_dialog_1">
+		<text>ブラックジャックはどうだ？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="petrenko_21_point_dialog_2">
+		<text>今はやることもないしな。もちろんだ、やろう。</text>
+	</string>
+
+
+    <string id="sidor_21_point_dialog_1">
+		<text>なあ、ブラックジャックでもどうだ？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="sidor_21_point_dialog_2">
+		<text>よし、やってやるか。手加減はしないからな。</text>
+	</string>
+        <string id="shustriy_21_point_dialog_1">
+		<text>ニンブル、ブラックジャックをやらないか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="shustriy_21_point_dialog_2">
+		<text>いいぞ、今は何もすることがないしな。やろう。</text>
+	</string>
+
+
+    <string id="maslina_21_point_dialog_1">
+		<text>よう、時間あるか？ブラックジャックはどうだ？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="maslina_21_point_dialog_2">
+		<text>ああ、やろうぜ。どうせ今日は何も売れないんだ。</text>
+	</string>
+
+
+    <string id="military_21_point_dialog_1">
+		<text>この辺は静かだな。ブラックジャックをやる時間はあるか？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="military_21_point_dialog_2">
+		<text>ああ、この辺りはもう誰もいないんだ。やろう。</text>
+	</string>
+
+
+    <string id="propovednik_21_point_dialog_1">
+		<text>ブラックジャックはどうだ？%c[d_orange] [ブラックジャック]</text>
+	</string>
+        <string id="propovednik_21_point_dialog_2">
+		<text>いいぞ。モノリスも最近かなり静かだしな、ゲームをする時間はある。</text>
+	</string>	
+
+	<string id="st_minigames_21_point_accept_step">
+		<text>200ずつ変更する</text>
+	</string>
+	
+	<string id="st_minigames_21_point_rem">
+		<text>ベットを記憶</text>
+	</string>
+
+	
+	<string id="st_unique_treasure_spot_descr">
+		<text>Cache. Access Code</text>
+	</string>
+	<string id="st_question_game_reward_advice">
+		<text>Advice Earned:</text>
+	</string>
+	<string id="st_question_game_reward_money">
+		<text>Extra Money Received:</text>
+	</string>
+	<string id="st_remote_charge_delay_deactivated">
+		<text>Timer: Disabled</text>
+	</string>
+	<string id="st_remote_charge_delay_timer">
+		<text>Timer:</text>
+	</string>
+	<string id="st_remote_charge_delay_value">
+		<text>sec.</text>
+	</string>
+	<string id="st_remote_charge_spot">
+		<text>Charge RS-15</text>
+	</string>
+	<string id="st_21_point_your_card_value">
+		<text>YOU:</text>
+	</string>
+	<string id="st_21_point_enemy_card_value">
+		<text>OPPONENT:</text>
+	</string>
+	<string id="st_21_point_rate_field">
+		<text>Your Bet:</text>
+	</string>
+	<string id="st_21_point_infoline_1">
+		<text>In Wallet:</text>
+	</string>
+	<string id="st_21_point_infoline_2">
+		<text>Minimum Bet - 50, Maximum Bet -</text>
+	</string>
+	<string id="st_21_point_money">
+		<text>rubles.</text>
+	</string>
+	<string id="st_21_point_info_about_your">
+		<text>Degtyarev: Rate</text>
+	</string>
+	<string id="st_21_point_info_about_enemy">
+		<text>: ñòàâêàrate</text>
+	</string>
+	<string id="st_21_point_web_money">
+		<text>electronic rubles.</text>
+	</string>
+	<string id="st_21_point_winner_your_1">
+		<text>You Won!  -</text>
+	</string>
+	<string id="st_21_point_winner_your_2">
+		<text>rubles. Points Total: YOU -</text>
+	</string>
+	<string id="st_21_point_winner_your_3">
+		<text>, OPPONENT -</text>
+	</string>
+	<string id="st_21_point_winner_enemy_1">
+		<text>You lost! Losses -</text>
+	</string>
+	<string id="st_21_point_winner_enemy_2">
+		<text>rubles. Points Total: YOU -</text>
+	</string>
+	<string id="st_21_point_winner_enemy_3">
+		<text>, OPPONENT -</text>
+	</string>
+	<string id="st_21_point_winner_equally_1">
+		<text>Friendship Gained. Points Total: YOU -</text>
+	</string>
+	<string id="st_21_point_winner_equally_2">
+		<text>, OPPONENT -</text>
+	</string>
+	<string id="st_help_wounded_payment">
+		<text>Rescue Money Received</text>
+	</string>
+	<string id="st_mechanic_stripping_count">
+		<text>Number of boxes with details</text>
+	</string>
+	<string id="st_rank_event_present">
+		<text>Rank promoted</text>
+	</string>
+	<string id="st_bankir_web_money_course_1">
+		<text>Exchange rate:</text>
+	</string>
+	<string id="st_bankir_web_money_course_2">
+		<text>Your Electronic Money:</text>
+	</string>
+	<string id="st_bankir_web_money_course_3">
+		<text>1 electronic ruble -</text>
+	</string>
+	<string id="st_bankir_web_money_course_4">
+		<text>kopecks in cash rubles.</text>
+	</string>
+	<string id="st_bankir_web_money_course_5">
+		<text>rubles.</text>
+	</string>
+	<string id="st_event_headshot">
+		<text>You have earned a headshot</text>
+	</string>
+	<string id="st_event_iam_find">
+		<text>You found</text>
+	</string>
+	<string id="st_event_find_secret">
+		<text>-th SGM cache.</text>
+	</string>
+	<string id="st_event_find_deserve">
+		<text>-nd personal cache.</text>
+	</string>
+	<string id="st_custom_goods_need_rank">
+		<text>Required Rank:</text>
+	</string>
+	<string id="st_booty_count">
+		<text>Number of trophies</text>
+	</string>
+	<string id="st_booty_costs">
+		<text>For the amount:</text>
+	</string>
+	<string id="st_add_damage">
+		<text>to damage</text>
+	</string>
+	<string id="st_booty_shtuk">
+		<text>PC.</text>
+	</string>
+	<string id="st_need_rank">
+		<text>Rank Required >=</text>
+	</string>
+	<string id="st_currert_rank">
+		<text>Current Rank:</text>
+	</string>
+	<string id="st_af_type_1">
+		<text>Supports Anomaly Type: 1st</text>
+	</string>
+	<string id="st_af_type_2">
+		<text>Supports Anomaly Type: 2nd</text>
+	</string>
+	<string id="st_af_type_3">
+		<text>Supports Anomaly Type: 3rd</text>
+	</string>
+	<string id="st_af_type_all">
+		<text>Supports Anomaly Types: 1st, 2nd, and 3rd</text>
+	</string>
+	<string id="st_bodyguard_price">
+		<text>Service Cost:</text>
+	</string>
+	<string id="st_bankir_deposit_title">
+		<text>Deposit Amount: </text>
+	</string>
+	<string id="st_bankir_percent_title">
+		<text>Deposit Income: </text>
+	</string>
+	<string id="st_bankir_money">
+		<text>In Wallet =</text>
+	</string>
+	<string id="st_bankir_counter">
+		<text>Savings Account :</text>
+	</string>
+	<string id="st_bankir_counter2">
+		<text>Deposit Account :</text>
+	</string>
+	<string id="st_bankir_ru">
+		<text>rubles</text>
+	</string>
+	<string id="st_bankir_last">
+		<text>Last Contributed Capital :</text>
+	</string>
+	<string id="st_bankir_result">
+		<text>Total =</text>
+	</string>
+	<string id="st_bankir_percent">
+		<text>Total Percentage (Tomorrow) :</text>
+	</string>
+	<string id="st_bankir_percent_today">
+		<text>Total Percentage (Today) :</text>
+	</string>
+	<string id="st_trader_order_count">
+		<text>In Stock: </text>
+	</string>
+	<string id="st_order_cost">
+		<text>Order Price:</text>
+	</string>
+	<string id="st_statistic_value_of">
+		<text>of</text>
+	</string>
+	<string id="st_weapon_damage">
+		<text>Damage Dealt </text>
+	</string>
+	<string id="st_weapon_distance">
+		<text>Range </text>
+	</string>
+	<string id="st_detonation_radius">
+		<text>Blast Radius </text>
+	</string>
+	<string id="st_detonation_scraps">
+		<text>Fragments </text>
+	</string>
+	<string id="st_def_meters">
+		<text>m</text>
+	</string>
+	<string id="st_detonation_time">
+		<text>Time of Action </text>
+	</string>
+	<string id="st_def_second">
+		<text>ñ</text>
+	</string>
+	<string id="st_actor_box_currert_weight">
+		<text>Current Personal Box Storage Amount =</text>
+	</string>
+	<string id="st_actor_box_currert_mass">
+		<text>Volume =</text>
+	</string>
+	<string id="st_actor_box_transportation_cost">
+		<text>|  Cost =</text>
+	</string>
+	<string id="st_mod_version_title">
+		<text>Version</text>
+	</string>
+	<string id="st_sigerous_mod_successfully_started">
+		<text>Sigerous Mod Loaded Successfully...</text>
+	</string>
+        <string id="st_pri_zone_cleaning_add">
+		<text>Zombified Left:</text>
+	</string>
+	<string id="st_pri_zone_cleaning_add2">
+		<text>human</text>
+	</string>
+	<string id="st_task_execution_time_add1">
+		<text>(left</text>
+	</string>
+	<string id="st_task_execution_time_add2">
+		<text>minutes)</text>
+	</string>
+	<string id="st_task_execution_time_add3">
+		<text>bonus minutes)</text>
+	</string>
+	<string id="st_get_employer_kill_stalker">
+		<text>Stalker</text>
+	</string>
+	<string id="st_get_employer_kill_bandit">
+		<text>バンディット</text>
+	</string>
+	<string id="st_get_employer_kill_merc">
+		<text>傭兵</text>
+	</string>
+	<string id="st_get_employer_kill_army">
+		<text>ミリタリー</text>
+	</string>
+	<string id="st_get_employer_kill_monolith">
+		<text>モノリス</text>
+	</string>
+	<string id="st_get_employer_kill_dolg">
+		<text>デューティー</text>
+	</string>
+	<string id="st_get_employer_kill_freedom">
+		<text>フリーダム</text>
+	</string>
+	<string id="st_get_employer_kill_renegade">
+		<text>レネゲード</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!-- Miscellaneous gear -->
+	<string id="st_psy_helmet_name">
+		<text>プサイ防護ヘルメット（調整済み）</text>
+	</string>
+	<string id="st_psy_helmet_desc">
+		<text>ヤンターの研究所でサハロフ教授の指揮のもとに開発されたプサイ防護装置。チョルノービリ立入禁止区域内に点在するドゥーガ施設が発する特殊なプサイ周波数に対する耐性を持っている。装置を起動すると、目に見えないドーム状の空間が使用者の周辺に展開され、«シェル»から放出されるエネルギーを帯びた粒子によって放射線のほとんどを消滅させる。残った放射線は、ヘルメットに直接組み込まれた防護システムによって反射される。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+	</text>
+	</string>
+	<string id="st_bad_psy_helmet_name">
+		<text>プサイ防護ヘルメット（未調整）</text>
+	</string>
+	<string id="st_bad_psy_helmet_desc">
+		<text>ヤンターの研究所でサハロフ教授の指揮のもとに開発された未調整のプサイ防護装置。チョルノービリ立入禁止区域内に点在するドゥーガ施設が発する特殊なプサイ周波数に対する耐性を持っている。装置を起動すると、目に見えないドーム状の空間が使用者の周辺に展開され、«シェル»から放出されるエネルギーを帯びた粒子によって放射線のほとんどを消滅させる。残った放射線は、ヘルメットに直接組み込まれた防護システムによって反射される。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+	</text>
+	</string>
+
+<!-- Headgear -->
+	<string id="st_helm_exo_name">
+		<text>エクソヘルメット</text>
+	</string>
+	<string id="st_helm_exo_descr">
+		<text>エクソスケルトンと同じウクライナの工場で生産された分厚い鋼鉄製のヘルメット。ガスマスク部分はイギリス製のSF10で、これはGSR（General Service Respirator）に置き換えられた後、市場で簡単に手に入る。\n \n</text>
+	</string>
+	<string id="st_helm_battle">
+		<text>スフィアM12ヘルメット</text>
+	</string>
+	<string id="st_helm_battle_dolg">
+		<text>デューティー スフィアM12ヘルメット</text>
+	</string>
+	<string id="st_helm_battle_freedom">
+		<text>フリーダム スフィアM12ヘルメット</text>
+	</string>
+	<string id="st_helm_battle_descr">
+		<text>アルミニウムとチタンでできたヘルメット。迷彩柄の布で覆われ、装甲を追加するためのポケットが付いている。軍のストーカーたちやスペツナズで広く使用され、PSZシリーズのボディアーマーとセットで使われることが多い。総合的に、このヘルメットは戦闘用としてゾーン内で最高の防護性能を提供する。\n \n</text>
+	</string>
+	<string id="st_helm_hardhat">
+		<text>旧式スチールヘルメット</text>
+	</string>
+	<string id="st_helm_hardhat_descr">
+		<text>時代遅れな鋼鉄製の軍用ヘルメットで、開閉式のバイザーが付いている。\n \n</text>
+	</string>
+	<string id="st_helm_protective">
+		<text>SSP-99 スクリーンヘルメット</text>
+	</string>
+	<string id="st_helm_protective_descr">
+		<text>SEVAボディスーツと同じ防衛研究所で作られた、高品質のカーテンヘルメット。アノマリーによる特殊な環境から完全に隔離できる。密閉式の空気ろ過システムにより、着用者には常に清潔な涼しい空気が供給される。\n \n</text>
+	</string>
+	<string id="st_helm_respirator">
+		<text>改修型PBFガスマスク</text>
+	</string>
+	<string id="st_helm_respirator_freedom">
+		<text>フリーダム PBFガスマスク</text>
+	</string>
+	<string id="st_helm_respirator_dolg">
+		<text>デューティー PBFガスマスク</text>
+	</string>
+	<string id="st_helm_respirator_descr">
+		<text>ShMBガスマスクに40mmフィルターを装着し、機能性を高めたもの。このようなガスマスクは、放射線量の高い場所ではそれなりの防護能力を発揮するが、有毒環境では故障しやすくなっている。\n \n</text>
+	</string>
+	<string id="st_helm_resp">
+		<text>送気マスク</text>
+	</string>
+	<string id="st_helm_resp_descr">
+		<text>プラスチックとゴムでできた一般的な呼吸用保護具。有害な粉塵、煙、蒸気、ガスの吸入を防ぐために使用する。軽量で安価なため、ルーキーたちに広く使用されている。物理的な防護性能はほとんどなく、放射線量の高い場所で使用すると必ず故障する。\n \n</text>
+	</string>
+	<string id="st_helm_respirator_gp5">
+		<text>GP-5 ガスマスク</text>
+	</string>
+	<string id="st_helm_respirator_gp5_descr">
+		<text>もともとは、ソ連の人々を放射性降下物から防護する目的で作られた。このガスマスクのフィルター部分は細心の注意を払って修復されている。同価格帯のガスマスクキットと比較すると、放射線に対する防護性能は高いが、有毒な環境では故障しやすい。\n \n</text>
+	</string>
+	<string id="st_helm_bandana">
+		<text>バンダナ</text>
+	</string>
+	<string id="st_helm_bandana_descr">
+		<text>徴集兵、支援部隊、後方部隊が身につける普通の布製のバンダナ。ストーカーたちは口と鼻をこれで覆い、有毒物質や放射性物質を吸い込まないようにしているが、この防護手段はあまり確実ではない。\n \n</text>
+	</string>
+	<string id="st_helm_rp_bala">
+		<text>バラクラバ</text>
+	</string>
+	<string id="st_helm_rp_bala_descr">
+		<text>普通の布製のバラクラバ。ストーカーたちは口と鼻をこれで覆い、有毒物質や放射性物質を吸い込まないようにしているが、この防護手段はあまり確実ではない。\n \n</text>
+	</string>
+	<string id="st_helm_cloth_mask">
+		<text>布マスク</text>
+	</string>
+	<string id="st_helm_cloth_mask_descr">
+		<text>一枚の布を折りたたんでマスクにしたシンプルなもの。ストーカーたちは口と鼻をこれで覆い、有毒物質や放射性物質を吸い込まないようにしているが、この防護手段はあまり確実ではない。\n \n</text>
+	</string>
+	<string id="st_helm_m40">
+		<text>M40 ガスマスク</text>
+	</string>
+	<string id="st_helm_m40_descr">
+		<text>長時間にわたって放射線や化学物質から身を守ることができ、損傷を受けた後でも機能する。多層構造の40mmフィルターを備えている。\n \n</text>
+	</string>
+	<string id="st_helm_metro">
+		<text>«アポカリプス» ヘルメット</text>
+	</string>
+	<string id="st_helm_metro_descr">
+		<text>チェコのM10ガスマスクに重装甲化を施したようなヘルメットで、「ファイナル・デイ」と呼ばれる派閥によって作られたとされている。その派閥が解散した後、このヘルメットは徐々に流通するようになった。\n \n</text>
+	</string>
+	<string id="st_helm_tactic">
+		<text>スフィア08ヘルメット</text>
+	</string>
+	<string id="st_helm_tactic_descr">
+		<text>空気ろ過システムを内蔵した最新の高品質ヘルメット。形状は西洋の製品を基にしており、複数の層に重ねられたケブラーと複合誘電体材料で構成されている。ゾーンのスペツナズ隊員に広く使用され、PS5シリーズのボディアーマーとセットで使われることが多い。\n \n</text>
+	</string>
+	<string id="helm_spartan">
+		<text>Cz-M10 スパルタンヘルメット</text>
+	</string>
+	<string id="helm_spartan_descr">
+		<text>絶大な影響力を持つストーカーたちから発注されたヘルメットで、「ファイナル・デイ」という派閥が使用していた«アポカリプス» ヘルメットの設計を基にしている。軽量で、スフィアシリーズなどの最新の戦闘用ヘルメットと比べても遜色ないほど防護性能が高い。\n \n</text>
+	</string>
+	<string id="helm_dolg_battle">
+		<text>デューティー スフィアM12</text>
+	</string>
+	<string id="helm_dolg_battle_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_dolg_battle_redline">
+		<text>デューティー スフィアM12「レッドライン」</text>
+	</string>
+	<string id="helm_dolg_battle_redline_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_dolg_vintage">
+		<text>PSM-4コンバットヘルメット</text>
+	</string>
+	<string id="helm_dolg_vintage_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_ach7">
+		<text>ACH-7 ヘッドギア</text>
+	</string>
+	<string id="helm_ach7_descr">
+		<text>旧式スチールヘルメットの改良版だが、呼吸装置が備わっていないため、ゾーンの環境には適していない。\n \n</text>
+	</string>
+	<string id="helm_ach7ex">
+		<text>ACH-7EX ヘッドギア</text>
+	</string>
+	<string id="helm_ach7ex_descr">
+		<text>旧式スチールヘルメットの改良版で、通常のACH-7とは違い、呼吸装置が備わっている。化学物質と放射線からの防護において、GP-5とPBFの中間的な性能を有している。\n \n</text>
+	</string>
+	<string id="helm_eo21">
+		<text>EO-21 PBFMガスマスク</text>
+	</string>
+	<string id="helm_eo21_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_dolg_eo21_red">
+		<text>EO-21 PBFMクラズニー</text>
+	</string>
+	<string id="helm_dolg_eo21_red_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_eo21sawnoff">
+		<text>EO-21 PBFLガスマスク</text>
+	</string>
+	<string id="helm_eo21sawnoff_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_dolg_eo21sawnoff">
+		<text>デューティー EO-21 PBFL</text>
+	</string>
+	<string id="helm_dolg_eo21sawnoff_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_gp5">
+		<text>GP-5 ガスマスク</text>
+	</string>
+	<string id="helm_gp5_descr">
+		<text>.\n \n</text>
+	</string>
+	<string id="helm_ppm88">
+		<text>PPM-88 ガスマスク</text>
+	</string>
+	<string id="helm_ppm88_descr">
+		<text>ロシア製のガスマスクで、ゾーンの環境に合わせて調整されている。ストーカーの間では、GP-5の精神的後継機と言われている。\n \n</text>
+	</string>
+	<string id="helm_m50">
+		<text>M50z ガスマスク</text>
+	</string>
+	<string id="helm_m50_descr">
+		<text>ゾーンでの機能性を高めるために微調整されたM50ガスマスク。全体的にM40より改良されている。\n \n</text>
+	</string>
+	<string id="helm_ranger">
+		<text>GP-10z レンジャーガスマスク</text>
+	</string>
+	<string id="helm_ranger_descr">
+		<text>GP-10をベースに、主にコントローラーやポルターガイストから着用者を防護する目的で設計されたガスマスク。\n \n</text>
+	</string>
+	<string id="helm_dolg_tactic_red">
+		<text>デューティー スフィア08クラズニー</text>
+	</string>
+	<string id="helm_dolg_tactic_red_descr">
+		<text>.\n \n</text>
+	</string>
+
+
+<!-- Novice outfits -->
+	<string id="novice_outfit_name">
+		<text>レザージャケット</text>
+	</string>
+	<string id="novice_outfit_description">
+		<text>タートルネックのセーターに暖かい革製のアノラック（フード付きジャケット）を羽織り、セーターはジーンズにタックインし、ハイキングブーツを履く。未熟で経験の浅いストーカーの間でよく使われるが、ゾーンの過酷な環境には適していない。\n \n</text>
+	</string>
+	<string id="novice_outfit_camo_name">
+		<text>銃器愛好家のジャケット</text>
+	</string>
+	<string id="novice_outfit_camo_description">
+		<text>タートルネックのセーターに暖かい革製のアノラック（フード付きジャケット）を羽織り、セーターはジーンズにタックインし、ハイキングブーツを履く。銃器愛好家が所持していたもので、迷彩柄、上質な素材、持ち物を入れるポケットの多さなど、普通のジャケットより優れている点がいくつかある。しかし、ゾーンの過酷な環境にはまだ不十分だ。\n \n</text>
+	</string>
+	<string id="novice_outfit_tourist_name">
+		<text>旅行者のジャケット</text>
+	</string>
+	<string id="novice_outfit_tourist_description">
+		<text>タートルネックのセーターにバックパックが一体型になった暖かい革製のアノラック（フード付きジャケット）を羽織り、セーターはジーンズにタックインし、ハイキングブーツを履く。以前の所有者はハイキング愛好家だったようで、その素材選びと重量管理システムにより、一般的なレザージャケットよりも使い勝手がいい。しかし、ゾーンの過酷な環境にはまだ不十分だ。\n \n</text>
+	</string>
+	<string id="csky_novice_outfit_name">
+		<text>クリアスカイ レザージャケット</text>
+	</string>
+	<string id="csky_novice_outfit_description">
+		<text>タートルネックのセーターに薄青色の革製のアノラック（フード付きジャケット）を羽織り、セーターはジーンズにタックインし、ハイキングブーツを履く。このシンプルなスーツは、派閥内で使用するためにクリアスカイの仕立屋が大量に仕立てている。ゾーンの過酷な環境には適していない。\n \n</text>
+	</string>
+	<string id="dolg_novice_outfit_name">
+		<text>デューティー レザージャケット</text>
+	</string>
+	<string id="dolg_novice_outfit_description">
+		<text>タートルネックのセーターに濃暗色の革製のアノラック（フード付きジャケット）を羽織り、セーターはジーンズにタックインし、コンバットブーツを履く。このシンプルなスーツは普段着として使用され、現場での任務に使用することは想定されていない。ゾーンの過酷な環境には適していない。\n \n</text>
+	</string>
+	<string id="bandit_novice_outfit_name">
+		<text>ブラック・レザージャケット</text>
+	</string>
+	<string id="bandit_novice_outfit_description">
+		<text>ゾーンではバンディットやペテン師がよく着ている黒い革製のジャケット。他派閥のルーキーを威嚇する目的で着用されることが多いが、防御力はほとんどない。ゾーンの過酷な環境には適していない。\n \n</text>
+	</string>
+	<string id="bandit_novice_alt_outfit_name">
+		<text>アーマーレザージャケット</text>
+	</string>
+	<string id="bandit_novice_alt_outfit_description">
+		<text>標準的な軍服と同等の防護性能を持つが、ゾーンの過酷な環境には適していない。このようなジャケットは、かつてデューティーに所属していた補給係のモーガンによってバンディットたちの間で流通するようになった。\n \n</text>
+	</string>
+	<string id="redline_novice_outfit_name">
+		<text>レッドライン・レザージャケット</text>
+	</string>
+	<string id="redline_novice_outfit_description">
+		<text>タートルネックのセーターにおしゃれな真っ赤の革製のアノラック（フード付きジャケット）を羽織り、セーターはジーンズにタックインし、ハイキングブーツを履く。ゾーンの過酷な環境には適していない。\n \n</text>
+	</string>
+	<string id="svoboda_novice_outfit_name">
+		<text>フリーダム レザージャケット</text>
+	</string>
+	<string id="svoboda_novice_outfit_description">
+		<text>タートルネックのセーターに迷彩柄の革製のアノラック（フード付きジャケット）を羽織り、セーターはジーンズにタックインし、コンバットブーツを履く。このような服は、一般的にフリーダムのメンバーのみが着用する。ゾーンの過酷な環境には適していない。\n \n</text>
+	</string>
+
+
+<!-- Overcoats -->
+	<string id="monolith_trenchcoat_outfit_name">
+		<text>モノリス オーバーコート</text>
+	</string>
+	<string id="trenchcoat_freedom_brown_outfit_name">
+		<text>フリーダム ヘビーオーバーコート</text>
+	</string>
+	<string id="trenchcoat_dolg_brown_outfit_name">
+		<text>デューティー ヘビーオーバーコート</text>
+	</string>
+	<string id="trenchcoat_outfit_name">
+		<text>オーバーコート</text>
+	</string>
+	<string id="trenchcoat_outfit_description">
+		<text>厚手の長いオーバーコート。\n \n</text>
+	</string>
+	<string id="trenchcoat_brown_outfit_name">
+		<text>ブラウン・ヘビーオーバーコート</text>
+	</string>
+	<string id="trenchcoat_brown_outfit_description">
+		<text>解体された科学者スーツの上に羽織る厚手の長いオーバーコート。閉鎖循環式呼吸システムをはじめ、いくつかの機能が削ぎ落とされているが、それでも多くの基本的なストーカースーツと比べても遜色のない仕上がりになっている。\n \n</text>
+	</string>
+	<string id="trenchcoat_green_outfit_name">
+		<text>グリーン・ヘビーオーバーコート</text>
+	</string>
+	<string id="trenchcoat_green_outfit_description">
+		<text>解体された科学者スーツの上に羽織る厚手の長い緑のオーバーコート。閉鎖循環式呼吸システムをはじめ、いくつかの機能が削ぎ落とされているが、それでも多くの基本的なストーカースーツと比べても遜色のない仕上がりになっている。\n \n</text>
+	</string>
+	<string id="greh_trenchcoat_outfit_name">
+		<text>シン ヘビーオーバーコート</text>
+	</string>
+	<string id="greh_trenchcoat_outfit_description">
+		<text>解体された科学者スーツの上に羽織る厚手の長い血まみれのオーバーコート。閉鎖循環式呼吸システムをはじめ、いくつかの機能が削ぎ落とされているが、それでも多くの基本的なストーカースーツと比べても遜色のない仕上がりになっている。\n \n</text>
+	</string>
+	
+
+<!-- Exploration -->
+	<string id="travel_outfit_name">
+		<text>«ボイジャー» ストーカースーツ</text>
+	</string>
+	<string id="travel_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。高品質で、ゾーン内での長距離遠征を想定して作られている。多くのアーティファクトハンターやミュータントハンターによって使われている。\n \n</text>
+	</string>
+	<string id="nomad_outfit_name">
+		<text>«ノーマッド» ストーカースーツ</text>
+	</string>
+	<string id="nomad_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。高品質で非常に軽く、着心地が良い。このスーツを設計した人物はゾーンの性質を熟知しており、誇りを持って丁寧に作られていることがわかる。\n \n</text>
+	</string>
+	<string id="antirad_outfit_name">
+		<text>GP-5MvC 放射線防護ボディスーツ</text>
+	</string>
+	<string id="antirad_outfit_description">
+		<text>100ラッズの常連客とバーキープが開発したもので、«サンライズ»スーツをベースにデザインされている。バーキープはこのプロジェクトを資金面で支援している。一般的で古いが信頼性の高いGP-5ガスマスクと、背中に背負う軽量酸素タンクが一体化している。\n \n</text>
+	</string>
+	<string id="hybrid_outfit_name">
+		<text>ハイブリッドアーマースーツ</text>
+	</string>
+	<string id="hybrid_outfit_description">
+		<text>キーウの防衛研究機関のひとつが、ゾーン内の研究者を保護する目的で作成したスーツ。しかし、予算の制約により、これらのスーツがウクライナ政府によって正式に発注されたことはない。それでもいくつかのスーツはゾーンに持ち込まれたようだ。\n \n</text>
+	</string>
+	<string id="wastelander_outfit_name">
+		<text>«ウェイストランダー» ストーカースーツ</text>
+	</string>
+	<string id="wastelander_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。一般的なストーカースーツに比べ軽量だが、クラスIIIAベストと軽量の挿入物を備えている。基本的にはストーカーが製作したベリル-5Mスーツの機動力を向上させたものだと言える。\n \n</text>
+	</string>
+
+<!-- CS outfits -->
+	<string id="csky_light_novice_outfit_name">
+		<text>CS-1 ボディアーマー</text>
+	</string>
+	<string id="csky_light_novice_outfit_description">
+		<text>クリアスカイの見習い研究者が着用する軽装スーツ。湿地帯のアノマリー現象から十二分に身を守ってくれる。\n \n</text>
+	</string>
+	<string id="csky_light_outfit_name">
+		<text>CS-2a ボディアーマー</text>
+	</string>
+	<string id="csky_light_outfit_description">
+		<text>危険度の低い地域での迅速な捜索活動を目的としたCS-1スーツの改良版。\n \n</text>
+	</string>
+	<string id="csky_medium_outfit_name">
+		<text>CS-3a ボディアーマー</text>
+	</string>
+	<string id="csky_medium_outfit_description">
+		<text>クリアスカイのメンバーが着用する、重いが着心地が良いスーツ。\n \n</text>
+	</string>
+	<string id="csky_heavy_outfit_name">
+		<text>CS-3b ボディアーマー</text>
+	</string>
+	<string id="csky_heavy_outfit_description">
+		<text>クリアスカイの攻撃分隊に支給されていた標準の装備。2011年の原子力発電所での失敗により、優れた防護スーツであってもゾーン内では身を守る事はできないという教訓を残した。\n \n</text>
+	</string>
+	
+
+<!-- NBC outfits -->
+	<string id="nbc_outfit_name">
+		<text>タクティカルストーカースーツ</text>
+	</string>
+	<string id="nbc_outfit_description">
+		<text>«サンライズ» ストーカースーツのベストを特殊なポケット付き耐荷重ベストに交換したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+	</string>
+	<string id="monolith_nbc_outfit_name">
+		<text>モノリス タクティカルスーツ</text>
+	</string>
+	<string id="monolith_nbc_outfit_description">
+		<text>ベストを特殊なポケット付き耐荷重ベストに変更したモノリススーツ。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+	</string>
+	<string id="cs_nbc_outfit_name">
+		<text>CS-2t スーツ</text>
+	</string>
+	<string id="cs_nbc_outfit_description">
+		<text>CS-2bストーカースーツのベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+	</string>
+	<string id="nbc_merc_outfit_name">
+		<text>«トワイライト» 耐荷重性タクティカルスーツ</text>
+	</string>
+	<string id="nbc_merc_outfit_description">
+		<text>傭兵用のスーツで、ベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+	</string>
+	<string id="nbc_freedom_outfit_name">
+		<text>キーパー・オブ・フリーダム</text>
+	</string>
+	<string id="nbc_freedom_outfit_description">
+		<text>フリーダム用のスーツで、ベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+	</string>
+	<string id="nbc_dolg_outfit_name">
+		<text>PS5-Mt スーツ</text>
+	</string>
+	<string id="nbc_dolg_outfit_description">
+		<text>PS5-Mのベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+	</string>
+	<string id="bandit_nbc_outfit_name">
+		<text>«サンセット» 耐荷重性タクティカルスーツ</text>
+	</string>
+	<string id="bandit_nbc_outfit_description">
+		<text>バンディット用のスーツで、ベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+	</string>
+	
+	
+<!-- Assault vest -->
+	<string id="light_loner_outfit_name">
+		<text>インターセプター・ボディアーマー</text>
+	</string>
+	<string id="light_loner_outfit_description">
+		<text>西側諸国から輸入した古いIBAスーツをゾーンの状況に合わせて改良したもの。\n \n</text>
+	</string>
+	<string id="light_freedom_outfit_name">
+		<text>ディフェンダー・オブ・フリーダム</text>
+	</string>
+	<string id="light_freedom_outfit_description">
+		<text>出所不明のままフリーダムに提供されたと噂されるこのスーツは、やや時代遅れのIBAシステムをベースに、ゾーンの環境下でより快適に活動できるように改良されている。\n \n</text>
+	</string>
+	<string id="light_voen_outfit_name">
+		<text>軍用IBAzスーツ</text>
+	</string>
+	<string id="light_voen_outfit_description">
+		<text>軍が所有する特殊なインターセプターボディアーマーシステム。標準モデルに比べて着心地が良く、精神的な干渉に対する高い防護能力を持つ。\n \n</text>
+	</string>
+	<string id="light_monolit_outfit_name">
+		<text>モノリス IBAzアサルトスーツ</text>
+	</string>
+	<string id="light_monolit_outfit_description">
+		<text>モノリスが所有する特殊なインターセプターボディアーマーシステム。標準モデルに比べて着心地が良く、精神的な干渉に対する高い防護能力を持つ。\n \n</text>
+	</string>
+	<string id="light_dolg_outfit_name">
+		<text>IBAzユニバーサル防護スーツ</text>
+	</string>
+	<string id="light_dolg_outfit_description">
+		<text>西側諸国から輸入した古いIBAスーツをゾーンの状況に合わせて改良したもの。不快なほど重いが、化学兵器から身を守るために大幅に改良が加えられている。\n \n</text>
+	</string>
+	<string id="light_merc_outfit_name">
+		<text>傭兵用IBAzスーツ</text>
+	</string>
+	<string id="light_merc_outfit_description">
+		<text>よく手入れされた特殊なインターセプターボディアーマーシステムで、西側諸国の様々な供給源から傭兵たちに直接販売されている。少し着心地は悪いが、ゾーン内で流通している標準的なモデルよりも全体的に優れている。\n \n</text>
+	</string>
+	<string id="light_isg_outfit_name">
+		<text>UNISG IBAzスーツ</text>
+	</string>
+	<string id="light_isg_outfit_description">
+		<text>頑丈ではあるが、やや時代遅れの戦闘スーツ。ウクライナ保安庁の武装勢力との衝突が避けられない状況において、最低限着用すべき装備だと考えられている。\n \n</text>
+	</string>
+
+
+<!-- Sunrise suits -->
+	<string id="stalker_outfit_name">
+		<text>«サンライズ» ストーカースーツ</text>
+	</string>
+	<string id="stalker_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。「サンライズ」は、現存するストーカースーツの中で最も古いものの一つで、ゾーンで本格的な遠征に行くストーカーが持つべき最低限の防護服としても広く知られている。\n \n</text>
+	</string>
+	<string id="stalker_outfit_camo_name">
+		<text>«カメレオン» ストーカースーツ</text>
+	</string>
+	<string id="stalker_outfit_camo_description">
+		<text>.\n \n</text>
+	</string>
+	<string id="stalker_outfit_alt_name">
+		<text>«ヒップスター» ストーカースーツ</text>
+	</string>
+	<string id="stalker_outfit_alt_description">
+		<text>.\n \n</text>
+	</string>
+	<string id="stalker_drought_outfit_name">
+		<text>«ドラウト» ストーカースーツ</text>
+	</string>
+	<string id="stalker_drought_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。ストーカースーツとしては平均以上の防弾性能を持つが、着心地はかなり劣る。\n \n</text>
+	</string>
+	<string id="stalker_predator_outfit_name">
+		<text>«プレデター» ストーカースーツ</text>
+	</string>
+	<string id="stalker_predator_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。全体的に「ドラウト」よりも改良され、着心地も格段に良くなっている。「プレデター」は、維持費の安さと改造のポテンシャルの高さから、初心者から上級者まで幅広い人気を誇る。\n \n</text>
+	</string>
+	<string id="stalker_autumn_outfit_name">
+		<text>«オータム» ストーカースーツ</text>
+	</string>
+	<string id="stalker_autumn_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。新米のアーティファクトハンターや巧妙な殺し屋たちに愛用され、化学アノマリーを容易に通過できる。\n \n</text>
+	</string>
+	<string id="stalker_vineleaf_outfit_name">
+		<text>«ヴァインリーフ» ストーカースーツ</text>
+	</string>
+	<string id="stalker_vineleaf_outfit_description">
+		<text>.\n \n</text>
+	</string>
+	<string id="stalker_bear_outfit_name">
+		<text>«ベア» ストーカースーツ</text>
+	</string>
+	<string id="stalker_bear_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。このスーツの防弾性能の向上は、手作りの変則化合物によって実現された。\n \n</text>
+	</string>
+	<string id="stalker_salamander_outfit_name">
+		<text>«サラマンダー» ストーカースーツ</text>
+	</string>
+	<string id="stalker_salamander_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。コストパフォーマンスに優れ、高いアップグレードの可能性を秘めている。皮肉なことに「サラマンダー」と呼ばれている割には、熱を安全に逃がす能力が低い。\n \n</text>
+	</string>
+	<string id="stalker_graphite_outfit_name">
+		<text>«グラファイト» ストーカースーツ</text>
+	</string>
+	<string id="stalker_graphite_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。元々は楽観的なストーカーたちによって精神波の嵐の計測を目的として設計されたもの。当然、この試みは失敗に終わったが、後に彼らの設計図が回収され、着用者の神経系を保護できるストーカースーツの製造に使用された。\n \n</text>
+	</string>
+	<string id="stalker_tigerstripe_outfit_name">
+		<text>«タイガーストライプ» ストーカースーツ</text>
+	</string>
+	<string id="stalker_tigerstripe_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。ストーカースーツの中でも重めの部類に入るこのスーツは、アーティファクトを略奪したりミュータントの皮を剥いだりするよりも、雇われの殺し屋やファイターとして金を稼ぐことを好む人々のために設計された。\n \n</text>
+	</string>
+	<string id="ecologist_guard_outfit_name">
+		<text>ISRIT 護衛用ジャンプスーツ</text>
+	</string>
+	<string id="ecologist_guard_outfit_description">
+		<text>基本的なスーツで、元々はハーマン教授の「イスクラ科学研究調査チーム」の予備装備として作られたもの。今では安価な防護スーツとして、ゾーン全域で働くエコロジストの護衛たちが使用している。\n \n</text>
+	</string>
+	<string id="cs_stalker_outfit_name">
+		<text>CS-2b ボディアーマー</text>
+	</string>
+	<string id="cs_stalker_outfit_description">
+		<text>CSシリーズの他のスーツとは異なり、このボディアーマーはチョルノービリ原子力発電所において派閥が壊滅的な打撃を受けた後に作られた。戦闘での防護よりも、アノマリー環境から着用者の安全を守ることに重点を置いているため、CS-1スーツ初の正当な後継モデルとして広く知られている。\n \n</text>
+	</string>
+
+
+<!-- STS (Special Tactical Suits) -->
+	<string id="svoboda_light_outfit_name">
+		<text>ウィンド・オブ・フリーダム</text>
+	</string>
+	<string id="svoboda_light_outfit_description">
+		<text>フリーダムの職人によって手作りされたスーツ。この快適なボディスーツは、「ホライゾン」と呼ばれる特殊な溶液で処理され、化学アノマリーに対する耐性を向上させている。\n \n</text>
+	</string>
+	<string id="monolith_outfit_name">
+		<text>モノリス X-18スーツ</text>
+	</string>
+	<string id="monolith_outfit_description">
+		<text>モノリスに属する謎のスーツ。ダークバレーのラボX18の地下にあるコンテナやロッカーで発見された。ストーカーたちの間では、このスーツがゾーンの誕生よりも前から存在していたという噂が語られている。\n \n</text>
+	</string>
+	<string id="bandit_sun_outfit_name">
+		<text>«サンセット» タクティカルスーツ</text>
+	</string>
+	<string id="bandit_sun_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。設計はモノリス X-18スーツに似ており、熱や電気的脅威からの絶縁性を向上させるため、従来のNBC機能が削ぎ落とされている。主にダークバレーのバンディットたちが、地元の研究所から逃げ出すポルターガイストを排除するために使用している。\n \n</text>
+	</string>
+	<string id="merc_sun_outfit_name">
+		<text>«トワイライト» タクティカルスーツ</text>
+	</string>
+	<string id="merc_sun_outfit_description">
+		<text>ゾーンの職人によって手作りされたスーツ。設計はモノリス X-18スーツに似ている。傭兵たちがリマンスクでの経済的に厳しい戦闘からできるだけ多くのものを回収しようと努めたのは間違いない。\n \n</text>
+	</string>
+	<string id="merc_nighthunter_outfit_name">
+		<text>傭兵用STS-Nボディアーマー</text>
+	</string>
+	<string id="merc_nighthunter_outfit_description">
+		<text>傭兵たちが夜間や市街地での戦闘で使用する、やや重めの特殊なタクティカルスーツ。「ナイトハンター」という愛称で呼ばれることもある。\n \n</text>
+	</string>
+	<string id="merc_wolven_outfit_name">
+		<text>傭兵用STS-Wボディアーマー</text>
+	</string>
+	<string id="merc_wolven_outfit_description">
+		<text>傭兵たちが探検やステルス作戦に使用する、快適な特殊タクティカルスーツ。「ウォルベン」という愛称で呼ばれることもある。\n \n</text>
+	</string>
+	<string id="isg_outfit_name">
+		<text>UNISG Mk1 タクティカルボディアーマー</text>
+	</string>
+	<string id="isg_outfit_description">
+		<text>西側の特殊部隊で使用される標準的なスーツのデザインに基づいており、世界中の多くの軍隊で一般的に使用されている。これはUNISG諜報員が装備する最低限のスーツだ。\n \n</text>
+	</string>
+	<string id="isg_merc_outfit_name">
+		<text>UNISG Mk2 タクティカルボディアーマー</text>
+	</string>
+	<string id="isg_merc_outfit_description">
+		<text>Mk1の設計を改良したこのスーツは、ゾーンの環境に非常に適している。これらの改良は不運な先行者から回収できた限られたデータを元に、UNISGが依頼して製作された。\n \n</text>
+	</string>
+	
+	
+<!-- LCS (Light Combat Suit) -->
+	<string id="merc_outfit_name">
+		<text>傭兵用LCスーツ</text>
+	</string>
+	<string id="merc_outfit_description">
+		<text>この軽量戦闘（Light Combat）スーツはゾーンの傭兵たちが使用する最も一般的なスーツのひとつで、設計は西側諸国の特殊部隊が使用するスーツをベースにしている。基本的な作戦には十分な性能を持つが、スペツナズの標準装備と比べると品質は劣る。\n \n</text>
+	</string>
+	<string id="merc_fighter_outfit_name">
+		<text>傭兵用LC-Fスーツ</text>
+	</string>
+	<string id="merc_fighter_outfit_description">
+		<text>標準的なLCスーツのバリエーションで、ステルス性とスピードが要求される作戦では驚くべき性能を発揮する。傭兵たちからは「ファイター」と呼ばれている。\n \n</text>
+	</string>
+	<string id="banditmerc_outfit_name">
+		<text>密売LCスーツ</text>
+	</string>
+	<string id="banditmerc_outfit_description">
+		<text>バンディットたちを支援するために入手された軽量戦闘スーツで、設計は西側諸国の特殊部隊が使用するスーツをベースにしている。品質が悪化しているため、このスーツを提供した者は客から金をだまし取っていたようだ。\n \n</text>
+	</string>
+	<string id="renegademerc_outfit_name">
+		<text>レネゲード LCスーツ</text>
+	</string>
+	<string id="renegademerc_outfit_description">
+		<text>レネゲードたちを支援するため、怪しげな手段で入手された軽量戦闘スーツ。設計は西側諸国の特殊部隊が使用するスーツをベースにしており、意外と着心地がいい。\n \n</text>
+	</string>
+	<string id="merc_sunset_outfit_name">
+		<text>傭兵用LCzスーツ</text>
+	</string>
+	<string id="merc_sunset_outfit_description">
+		<text>ゾーンでの使用を想定して改良された傭兵用の軽量戦闘スーツ。新人の傭兵にとっては、派閥のタクティカルスーツの代替として十分な性能を持つほど、全体的に改善されている。\n \n</text>
+	</string>
+	<string id="merc_scout_outfit_name">
+		<text>傭兵用LC-Sスーツ</text>
+	</string>
+	<string id="merc_scout_outfit_description">
+		<text>より専門な用途向けに改造されたLC-Fスーツ。非常に快適なスーツであり、限られた予算内でゾーンのアノマリーフィールドを探索したい傭兵たちにとっては良い選択肢となっている。「スカウト」という愛称で呼ばれることもある。\n \n</text>
+	</string>
+	<string id="merc_jackal_outfit_name">
+		<text>傭兵用LTS-Jボディスーツ</text>
+	</string>
+	<string id="merc_jackal_outfit_description">
+		<text>この軽量なタクティカルスーツは、6年以上前にラボX8の爆破任務で亡くなった傭兵のリーダーにちなんで「ジャッカル」という愛称で呼ばれている。高度な重量分散システムを備えていて着心地が良く、経験豊富な傭兵たちに人気がある。\n \n</text>
+	</string>
+	<string id="merc_coyote_outfit_name">
+		<text>傭兵用MTS-Cボディスーツ</text>
+	</string>
+	<string id="merc_coyote_outfit_description">
+		<text>“コヨーテ”の愛称を持つ中型のタクティカルスーツで、LTS-Jの後継モデルとして広く知られている。当然、価格は前モデルよりも高くなっているが、多くの傭兵たちがこのスーツを手に入れようとしている。\n \n</text>
+	</string>
+	<string id="greh_armored_outfit_name">
+		<text>イリジ・防弾アーマー</text>
+	</string>
+	<string id="greh_armored_outfit_description">
+		<text>シンの信者たちに大量に供給される、人間工学に基づいた快適な武装スーツ。環境用ボディスーツの上に防弾ベストを重ねたもので、すでに耐久力のあるシンの戦士たちをさらに強化するのに効果を発揮する。\n \n</text>
+	</string>
+	<string id="greh_armored_camo_outfit_name">
+		<text>ヴィリー・防弾アーマー</text>
+	</string>
+	<string id="greh_armored_camo_outfit_description">
+		<text>通常のシンの防弾アーマーをさらに進化させたもので、派閥の中でも忠実で信心深いメンバーに贈られる。このスーツは、すでに耐久力のあるシンの戦士たちをさらに強化するのに効果を発揮する。\n \n</text>
+	</string>
+	<string id="dolg_voin_outfit_name">
+		<text>PS6-V ウォリアースーツ</text>
+	</string>
+	<string id="dolg_voin_outfit_description">
+		<text>PS5-M ユニバーサル防護スーツを現代的に改良したモデル。ゾーン内のあらゆる状況に対応できるだけでなく、デューティースーツとしても非常に快適なものとなっている。元々は前モデルを完全に置き換える予定だったが、生産コストが高くなったため、近年のデューティーにおける多数の損失を考慮し、この目標は保留となった。\n \n</text>
+	</string>
+	<string id="isg_lcs_outfit_name">
+		<text>UNISG LCスーツ</text>
+	</string>
+	<string id="isg_lcs_outfit_description">
+		<text>軽量戦闘スーツをUNISG部隊が使用するために適応させたモデル。設計は西側諸国の特殊部隊が使用するスーツをベースにしている。\n \n</text>
+	</string>
+	<string id="isg_lcs_camo_outfit_name">
+		<text>UNISG LC-Cスーツ</text>
+	</string>
+	<string id="isg_lcs_camo_outfit_description">
+		<text>軽量戦闘スーツをUNISG部隊が使用するために適応させたモデルの改良型。設計は西側諸国の特殊部隊が使用するスーツをベースにしており、軽量で着心地が良い。\n \n</text>
+	</string>
+	<string id="isg_lcs_urban_outfit_name">
+		<text>UNISG LC-UCスーツ</text>
+	</string>
+	<string id="isg_lcs_urban_outfit_description">
+		<text>軽量戦闘スーツをUNISG部隊が使用するために適応させたモデルの改良型。設計は西側諸国の特殊部隊が使用するスーツをベースにしている。同クラスの他のスーツに比べれば戦闘能力は高いが、スペツナズ隊員が着用するにはまだ不十分だ。\n \n</text>
+	</string>
+
+
+<!-- Berill-5M Armored Suits -->
+	<string id="army_outfit_name">
+		<text>軍用サービススーツ</text>
+	</string>
+	<string id="army_outfit_description">
+		<text>政府官僚が最低価格で契約した業者に委託した質の低い防護スーツ。ヘリコプターの操縦士、戦車の運転手、後方部隊の隊員、徴集兵、下士官に支給されるのが一般的。\n \n</text>
+	</string>
+	<string id="specops_outfit_name">
+		<text>ベリル-5Mアーマースーツ</text>
+	</string>
+	<string id="specops_outfit_description">
+		<text>軍用PS5シリーズの防護スーツをゾーンに適応させるため、ベリリウムでスパッタリング加工を施したもの。激しい急襲作戦用として設計され、ゾーンで活動するほとんどのスペツナズ隊員に標準で支給されている。\n \n</text>
+	</string>
+	<string id="specops_dolg_outfit_name">
+		<text>PS5-B バトルアーマー</text>
+	</string>
+	<string id="specops_dolg_outfit_description">
+		<text>軍用のPS5シリーズの防護スーツをゾーンに適応させるため、ベリリウムでスパッタリング加工を施したもの。標準的なPS5-M ユニバーサル防護スーツに比べて着心地が良く、全体的に防護性能が高い。\n \n</text>
+	</string>
+	<string id="specops_merc_outfit_name">
+		<text>傭兵用B-5Mアーマースーツ</text>
+	</string>
+	<string id="specops_merc_outfit_description">
+		<text>傭兵たちによって改修されたスペツナズのボディアーマー。優れた防護性能を持ち、着心地も抜群。かつてウクライナ保安庁に所属していた傭兵がよく着用している。\n \n</text>
+	</string>
+	<string id="specops_bandit_outfit_name">
+		<text>逃亡者のB-5Mアーマースーツ</text>
+	</string>
+	<string id="specops_bandit_outfit_description">
+		<text>ベリリウムのスパッタリング加工が施されたPS5シリーズのボディアーマーで、バンディットたちが秘密裏に入手したもの。修復不可能な損傷が見られるが、それでも戦闘用としては十分な性能を持っている。\n \n</text>
+	</string>
+	<string id="svoboda_heavy_outfit_name">
+		<text>ガーディアン・オブ・フリーダム</text>
+	</string>
+	<string id="svoboda_heavy_outfit_description">
+		<text>フリーダムで使用するために「解放」されたスペツナズのボディアーマーのセット。このスーツはフリーダムが発明した化合物「ソヴリン」で処理されている。「バリア」の防衛に貢献することを期待されているフリーダムたちは、このスーツを手に入れるために最善を尽くすだろう。\n \n</text>
+	</string>
+	<string id="dolg_specops_red_outfit_name">
+		<text>PS5-B2 ベテランバトルスーツ</text>
+	</string>
+	<string id="dolg_specops_red_outfit_description">
+		<text>元スペツナズのボディアーマーをベースに、防護性能を強化した戦闘用スーツ。優秀な装備だが、アノマリー活動が激しい地域では故障しやすいことで知られている。しかし、このスーツは今でも一部のベテランデューティーに愛用されており、彼らは「アノマリーを見極める方法さえ知っていれば、そもそも防護などいらない」と主張している。\n \n</text>
+	</string>
+
+
+<!-- PS5-M Universal protection suit -->
+	<string id="dolg_outfit_name">
+		<text>PS5-M ユニバーサル防護スーツ</text>
+	</string>
+	<string id="dolg_outfit_description">
+		<text>デューティーのボディスーツの旧型で、最前線で使用するバトルアーマーよりもストーカースーツの親しみやすさを好む新兵に適している。\n \n</text>
+	</string>
+	<string id="dolg_scout_outfit_name">
+		<text>PS5-R スカウトベスト</text>
+	</string>
+	<string id="dolg_scout_outfit_description">
+		<text>PS5-M ユニバーサル防護スーツと共に開発されたデューティーの旧型スーツで、ゾーンが誕生して間もない頃、デューティーの偵察隊を保護することを目的としていた。しかし、このような軽装スーツではゾーン内の危険なエリアに対処することが難しいため、現在ではほとんど使われていない。デューティーの新入隊員が困難な状況に遭遇した際に備え、最終手段として保管されている。\n \n</text>
+	</string>
+	<string id="dolg_red_outfit_name">
+		<text>PS5-M ハンタースーツ</text>
+	</string>
+	<string id="dolg_red_outfit_description">
+		<text>PS5-M ユニバーサル防護スーツを少し重くしたモデルで、特にミュータント狩りを目的としたデューティーの兵士のために設計されている。ミュータントの攻撃に対する優れた防護能力を持つが、防弾耐性はわずかに低くなっている。現行のデューティースーツと比較しても遜色ない性能だ。\n \n</text>
+	</string>
+	<string id="svoboda_heavy_outfit_2_name">
+		<text>センチネル・オブ・フリーダム</text>
+	</string>
+	<string id="svoboda_heavy_outfit_2_description">
+		<text>フリーダムの職人によって大昔に作られた、やや重い年代物のストーカー用ボディスーツ。ところどころ擦り切れた跡はあるものの、基本的なストーカースーツとほぼ同等の品質を維持している。この由緒あるスーツはフリーダムの若手にとって魅力的なものであり、高額な代金を支払ってでも手に入れる価値があるとされている。\n \n</text>
+	</string>
+	<string id="bandit_ps5_outfit_name">
+		<text>密売PS5-Mユニバーサル防護スーツ</text>
+	</string>
+	<string id="bandit_ps5_outfit_description">
+		<text>このようなスーツは、かつてデューティーに所属していた補給係のモーガンによってバンディットたちの間で流通するようになった。これは物理的な防護を一部犠牲にし、快適性とアノマリーに対する保護性能を高めている。このスーツが出回ることはデューティーにとって大きな悩みの種であり、無政府主義者や犯罪者、殺人者の手に渡らないようにすることが暗黙の優先事項となっている。\n \n</text>
+	</string>
+	<string id="greh_ps5_outfit_name">
+		<text>ヴォロス・防弾アーマー</text>
+	</string>
+	<string id="greh_ps5_outfit_description">
+		<text>このスーツの設計はPS5-M ユニバーサル防護スーツをベースにしているが、どのようにしてシンの手に渡ったのかは不明。デューティーは自分たちのアーマーのデザインがゾーンを崇拝する狂信者たちに流用されていることを快く思っておらず、このスーツの回収は彼らの暗黙の優先事項となっている。スーツ自体の質は良く、ゾーンの環境には十分すぎるほどだ。\n \n</text>
+	</string>
+	
+	
+<!-- Skat-9 Military Armored Suits -->
+	<string id="military_outfit_name">
+		<text>Skat-9 アーマースーツ</text>
+	</string>
+	<string id="military_merc_outfit_name">
+		<text>傭兵用Skat-9 アーマースーツ</text>
+	</string>
+	<string id="military_monolit_outfit_name">
+		<text>モノリス Skat-9 アーマースーツ</text>
+	</string>
+	<string id="military_freedom_outfit_name">
+		<text>流出したSkat-9 アーマースーツ</text>
+	</string>
+	<string id="military_sky_outfit_name">
+		<text>CS-4b アーマースーツ</text>
+	</string>
+	<string id="military_bandit_outfit_name">
+		<text>略奪されたSkat-9 アーマースーツ</text>
+	</string>
+	<string id="military_outfit_description">
+		<text>ゾーンで使用することを想定した、優れた防護スーツ。この軍用グレードの重装甲スーツはアノマリーフィールドにおける大規模戦闘を伴う作戦用に設計されている。PSZ-12p アーマースーツ、内蔵型補正スーツ、アノマリー防護スーツで構成されている。本来は軍のストーカーやスペツナズのベテラン隊員にのみ支給されていたが、不明なルートで軍以外の派閥に流入することがある。\n \n</text>
+	</string>
+	<string id="dolg_heavy_outfit_name">
+		<text>PSZ-9d ボディアーマー</text>
+	</string>
+	<string id="dolg_heavy_outfit_description">
+		<text>このデューティースーツはキーウの防衛研究機関によって開発され、最初のモデルはスペツナズのPSZ-9 ボディアーマーをゾーン用に改造したものだった。最新の設計ではライフルの弾丸を止めることができ、ゾーンの様々な脅威に対する優れた防護性能を備えている。これほど貴重なスーツは、よほどの実績がないと支給されることはない。\n \n</text>
+	</string>
+	<string id="dolg_pantsir_outfit_name">
+		<text>PSZ-7p シェルアーマー</text>
+	</string>
+	<string id="dolg_pantsir_outfit_description">
+		<text>PS5-M ユニバーサル防護スーツとPSZ-9d ボディアーマーの中間に位置するモデルで、防御力の高さとコストの低さを兼ね備えている。小規模戦闘に最適で、メンテナンスや修理が比較的容易なため、ヤニフやその周辺を探索する調査員など、友好的なエリアから遠く離れた場所で活動するデューティー隊員にとっては大いに役立つ。\n \n</text>
+	</string>
+	<string id="dolg_heavy_redline_outfit_name">
+		<text>PSZ-9kl コマンドアーマー</text>
+	</string>
+	<string id="dolg_heavy_redline_outfit_description">
+		<text>このスーツは故シュルガ中佐のお気に入りだった。彼は常にフリーダムによる暗殺を恐れ、ヤニフの作戦基地の外に出ることはほとんどなかった。そのため、このような重厚な防護は彼のニーズにぴったりだった。運命のいたずらか、後に彼は自ら率いる部隊と共にプリピャチへの大規模攻撃を行い、死亡したと推定された。デューティーのベテランは時折、彼の名誉のためにこのスーツを着て戦っている。\n \n</text>
+	</string>
+
+
+<!-- Scientific outfits -->
+	<string id="scientific_outfit_name">
+		<text>SEVAボディスーツ</text>
+	</string>
+	<string id="scientific_outfit_description">
+		<text>キーウの防衛研究機関が設計・製造したもので、手作りのストーカースーツに代わる優れた代物。CBRNジャンプスーツと特殊加工を施したクラスIIケブラーベストを組み合わせたものだ。高品質の素材を使用しているため、このボディスーツはアノマリーフィールド内でも優れた耐久性を発揮する。\n \n</text>
+	</string>
+	<string id="svoboda_scientific_outfit_name">
+		<text>ウォッチマン・オブ・フリーダム</text>
+	</string>
+	<string id="svoboda_scientific_outfit_description">
+		<text>ゾーンのアノマリー現象を観測するために、フリーダムの職人が特別に製作した見張り用の防護スーツ。特殊加工が施された素材により、長時間のアノマリーフィールドの探索において優れた防御力とスーツの耐久性を発揮する。\n \n</text>
+	</string>
+	<string id="monolith_scientific_outfit_name">
+		<text>モノリス 科学スーツ</text>
+	</string>
+	<string id="monolith_scientific_outfit_description">
+		<text>起源不明の防弾ベストが備わっており、プサイフィールドに対して脆弱になる代わりに、放射線への耐性を高める独自の改造が施されている。不思議なことに、このスーツはレーダーのブレイン・スコーチャーを守る兵士がよく着用していると言われているが、モノリス以外の者がこれを確認することは容易ではない。\n \n</text>
+	</string>
+	<string id="cs_scientific_outfit_name">
+		<text>CS-4a SEVAスーツ</text>
+	</string>
+	<string id="cs_scientific_outfit_description">
+		<text>密輸ルートから持ち出されたSEVA化学防護服の非公式モデル。通常、クリアスカイの分隊によって使用されている。\n \n</text>
+	</string>
+	<string id="cs_scientific_outfit_good_name">
+		<text>CS-4a パスファインダー</text>
+	</string>
+	<string id="cs_scientific_outfit_good_description">
+		<text>クリアスカイの専属技術者であるノビコフによって大幅に改良されたSEVAスーツの非公式モデル。非常に動きやすく、派閥によっては需要の高いスーツとなっている。\n \n</text>
+	</string>
+	<string id="bandit_scientific_outfit_name">
+		<text>略奪されたSEVAスーツ</text>
+	</string>
+	<string id="bandit_scientific_outfit_description">
+		<text>バンディットたちはアノマリーフィールドの科学的研究にはあまり興味がないが、それでもアノマリーフィールドや放射線地域の中で待ち伏せをしたり、ストーカーを攻撃したりするために、このような防護スーツを使用する。\n \n</text>
+	</string>
+	<string id="isg_scientific_outfit_name">
+		<text>UNISG SEVAスーツ</text>
+	</string>
+	<string id="isg_scientific_outfit_description">
+		<text>UNISGがゾーンの研究のためにキーウの防衛研究機関に特別に依頼したもの。特殊処理素材により、放射線やアノマリーの影響に対する保護と耐久性が強化されている。\n \n</text>
+	</string>
+	<string id="merc_scientific_outfit_name">
+		<text>傭兵用SEVAスーツ</text>
+	</string>
+	<string id="merc_scientific_outfit_description">
+		<text>傭兵によって発注された特殊なSEVAボディスーツ。ベテランの傭兵がアーティファクトハントの任務で使用する。SEVAスーツとしては防御力が高いが、新型のSEVAに搭載されているプサイ防護機能が一部欠落している。\n \n</text>
+	</string>
+	<string id="merc_combat_scientific_outfit_name">
+		<text>傭兵用パスファインダー</text>
+	</string>
+	<string id="merc_combat_scientific_outfit_description">
+		<text>クリアスカイは親善の証として（または研究費を賄うために）傭兵たちが使用する「パスファインダー」スーツを委託生産することがある。クラスIIIAの防弾ベストが内蔵されており、純正のSEVAスーツと比較して全体的に優れている。\n \n</text>
+	</string>
+	<string id="dolg_scientific_outfit_name">
+		<text>PS5-9Md ユニバーサル科学スーツ</text>
+	</string>
+	<string id="dolg_scientific_outfit_description">
+		<text>標準的なSEVAスーツのデューティー派閥モデル。他のモデルと同様に、アノマリー耐性に優れたCBRNジャンプスーツと、特殊加工を施したクラスII防弾ベストで構成されている。アノマリーフィールドでの長時間任務に適した頑丈なスーツだ。\n \n</text>
+	</string>
+	<string id="dolg_scientific_red_outfit_name">
+		<text>PS5-9Md 軽量科学スーツ</text>
+	</string>
+	<string id="dolg_scientific_red_outfit_description">
+		<text>防護性能をわずかに低下させる代わりに、重さを約半分にまで削減したデューティー科学スーツの軽量版。アーマーはクラスIIA防弾ベストに変更され、多数のポケットが備わっている。\n \n</text>
+	</string>
+	<string id="dolg_scientific_wood_outfit_name">
+		<text>PS5-9Md 軽量パスファインダー</text>
+	</string>
+	<string id="dolg_scientific_wood_outfit_description">
+		<text>クリアスカイは親善の証として（または研究費を賄うために）デューティーが使用する「パスファインダー」スーツを委託生産することがある。デューティーのニーズに合わせて改良され、防護性能を犠牲にしてほぼ半分の重さに軽量化されている。これはデューティーの探求心の強いメンバーにとって快適で優れたスーツとなっている。\n \n</text>
+	</string>
+	<string id="bandit_scientific_dark_outfit_name">
+		<text>パッチワークアノマリースーツ</text>
+	</string>
+	<string id="bandit_scientific_dark_outfit_description">
+		<text>SEVAに似たスーツで、バンディットの才能ある職人によって一から作られた。略奪したSEVAスーツを修復するのに比べ、この継ぎはぎのスーツは驚くほど軽量で、アノマリーに対する平均的な保護能力を持っている。スタイリッシュで着心地も良いため、それを買う余裕のある犯罪者の間で人気を博している。\n \n</text>
+	</string>
+	<string id="renegade_scientific_outfit_name">
+		<text>レネゲード SEVAスーツ</text>
+	</string>
+	<string id="renegade_scientific_outfit_description">
+		<text>この快適なボディスーツは、本来はゾーンでの研究用に開発されたもので、他の様々な軽戦闘用スーツや手作りのスーツの代替品として適している。標準的なSEVAスーツに比べ、熱的な危険や鈍的外傷に対する防護能力が向上しているが、その他の防護性能はオリジナルのSEVAスーツに劣る。\n \n</text>
+	</string>
+	<string id="merc_scientific_armored_outfit_name">
+		<text>傭兵用SEVAボディアーマー</text>
+	</string>
+	<string id="merc_scientific_armored_outfit_description">
+		<text>傭兵が発注したSEVAボディスーツの特別なモデル。ゾーンの危険なエリアで研究者やアーティファクトハンターの護衛をするベテランの傭兵が着用している。\n \n</text>
+	</string>
+	<string id="monolith_scientific_light_outfit_name">
+		<text>モノリス パッチワーク科学スーツ</text>
+	</string>
+	<string id="monolith_scientific_light_outfit_description">
+		<text>SEVAに似たスーツで、無名の職人によって一から作られた。このスーツがモノリス派閥の中でどのような役割を果たしているのかは不明だが、その目的は主に儀式的なものではないかと推測されている。
+\n \n</text>
+	</string>
+	<string id="ace_outfit_name">
+		<text>傭兵用ACE科学スーツ</text>
+	</string>
+	<string id="ace_outfit_description">
+		<text>ゾーンで最も技術的に進んだボディスーツのひとつ。ACEアーマーシステムは、次世代のCBRNとポケット付き防弾ベストにクラスIIIプレートを組み込んだもの。透過性コーティングなどの最先端素材を使用することで、最大限のアノマリー防護性能と快適な着心地を両立させている。裕福な傭兵のみが使用している。\n \n</text>
+	</string>
+
+
+<!-- SSP-99 -->
+	<string id="st_ecologist_outfit_orange_name">
+		<text>SSP-99 ボディスーツ</text>
+	</string>
+	<string id="st_ecologist_outfit_orange_description">
+		<text>SSP-99は、ゾーンの環境に合わせて特別に設計された現行のCBRNスーツで、科学調査隊がアノマリーフィールドに長期滞在する際に使用される。SSP-99 スクリーンヘルメットと組み合わせることで、空気フィルターと空調システムが統合されている。熱、化学、電気的な環境に対して最大限の耐久性を発揮するよう特別に設計されている。\n \n</text>
+	</string>
+	<string id="st_ecologist_outfit_grn_name">
+		<text>SSP-99M ボディスーツ</text>
+	</string>
+	<string id="st_ecologist_outfit_grn_description">
+		<text>高品質な改良型SSP-99スーツ。ミュータントの攻撃に対する耐久性を強化するため、ケブラー製の裏地が追加されている。SSP-99に比べ、化学アノマリーに対する防護能力が向上している。\n \n</text>
+	</string>
+	<string id="st_ecologist_outfit_white_name">
+		<text>SSP-99 ダイヤモンド</text>
+	</string>
+	<string id="st_ecologist_outfit_white_description">
+		<text>SSP-99は、ゾーンの環境に合わせて特別に設計された現行のCBRNスーツで、科学調査隊がアノマリーフィールドに長期滞在する際に使用される。SSP-99 スクリーンヘルメットと組み合わせることで、空気フィルターと空調システムが統合されている。熱や化学的な環境に対して最大限の耐久性を発揮するよう特別に設計されている。「ダイヤモンド」モデルは電気的な環境からの保護に優れている。\n \n</text>
+	</string>
+	<string id="st_ecologist_outfit_blue_name">
+		<text>SSP-99M サファイア</text>
+	</string>
+	<string id="st_ecologist_outfit_blue_description">
+		<text>高品質な改良型SSP-99スーツ。ミュータントの攻撃に対する耐久性を強化するため、ケブラー製の裏地が追加されている。「サファイア」モデルは、優れたプサイ防護能力を発揮する。\n \n</text>
+	</string>
+	<string id="st_ecologist_outfit_red_name">
+		<text>SSP-99М ルビー</text>
+	</string>
+	<string id="st_ecologist_outfit_red_description">
+		<text>高品質な改良型SSP-99スーツ。ミュータントの攻撃に対する耐久性を強化するため、ケブラー製の裏地が追加されている。「ルビー」モデルは近接攻撃に対する防護能力が向上し、創傷治療システムがスーツに組み込まれている。\n \n</text>
+	</string>
+	<string id="st_ecologist_outfit_yello_name">
+		<text>SSP-99 トパーズ</text>
+	</string>
+	<string id="st_ecologist_outfit_yello_description">
+		<text>SSP-99は、ゾーンの環境に合わせて特別に設計された現行のCBRNスーツで、科学調査隊がアノマリーフィールドに長期滞在する際に使用される。SSP-99 スクリーンヘルメットと組み合わせることで、空気フィルターと空調システムが統合されている。「トパーズ」モデルは放射線からの保護性能が強化されている。\n \n</text>
+	</string>
+
+
+<!-- Heavy combat suits -->
+	<string id="exolight_outfit_name">
+		<text>エクソスーツ</text>
+	</string>
+	<string id="exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。\n \n</text>
+	</string>
+	<string id="dolg_exolight_outfit_name">
+		<text>PSZ-10d デューティー・バトルスーツ</text>
+	</string>
+	<string id="dolg_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、要人警護や非常に危険な強襲任務に割り当てられるデューティーの精鋭隊員がよく着用している。\n \n</text>
+	</string>
+	<string id="svoboda_exolight_outfit_name">
+		<text>ウォーリアー・オブ・フリーダム</text>
+	</string>
+	<string id="svoboda_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、フリーダムでも最高級の尊敬を集める者だけが着用している。\n \n</text>
+	</string>
+	<string id="merc_exolight_outfit_name">
+		<text>傭兵用エクソスーツ</text>
+	</string>
+	<string id="merc_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、最高級の防弾性能を必要とする傭兵の隊長や護衛隊員に選ばれている。\n \n</text>
+	</string>
+	<string id="bandit_exolight_outfit_name">
+		<text>略奪されたエクソスーツ</text>
+	</string>
+	<string id="bandit_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、堂々とした外見と威圧的な風貌から、ゾーンでも最高クラスの冷酷なアウトローの間で流行している。\n \n</text>
+	</string>
+	<string id="monolith_exolight_outfit_name">
+		<text>モノリス エクソスーツ</text>
+	</string>
+	<string id="monolith_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。モノリスの戦闘伝道師と戦術指導者たちの間で愛用されており、彼らはスーツの中は石棺の中と同じくらい快適であると主張している。\n \n</text>
+	</string>
+	<string id="military_exolight_outfit_name">
+		<text>軍用エクソスーツ</text>
+	</string>
+	<string id="military_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。ウクライナ政府から見れば試験段階に過ぎないスーツであり、個人はもちろんのこと、部隊であろうと決して支給されることはない。そのため、このようなスーツを使いたい兵士（主に軍のストーカーやベテラン兵士）は自力で探し出し、購入しなければならない。\n \n</text>
+	</string>
+	<string id="cs_exolight_outfit_name">
+		<text>CS-5 エクソスーツ</text>
+	</string>
+	<string id="cs_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、ゾーン境界付近のウクライナの工場から密輸されている。\n \n</text>
+	</string>
+	<string id="isg_exolight_outfit_name">
+		<text>UNISG エクソスーツ</text>
+	</string>
+	<string id="isg_exolight_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。ISGのほとんどの隊員は防護能力よりも機動性を重視するため、このようなスーツを着用することは珍しい。\n \n</text>
+	</string>
+	<string id="exo_wood_outfit_name">
+		<text>ウッドランド・エクソスーツ</text>
+	</string>
+	<string id="exo_wood_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、裏地にケブラーを使用した初期型のCBRNジャンプスーツが含まれている。\n \n</text>
+	</string>
+	<string id="bandit_exo_earth_outfit_name">
+		<text>密売エクソスーツ</text>
+	</string>
+	<string id="bandit_exo_earth_outfit_description">
+		<text>.\n \n</text>
+	</string>
+	<string id="freedom_exo_vineleaf_outfit_name">
+		<text>ヒーロー・オブ・フリーダム</text>
+	</string>
+	<string id="freedom_exo_vineleaf_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、裏地にケブラーを使用した旧型のCBRNジャンプスーツと、追加のアタッチメントスロットが備わっている。\n \n</text>
+	</string>
+	<string id="exo_dolg_outfit_name">
+		<text>PSZ-10d デューティー・バトルスーツ</text>
+	</string>
+	<string id="exo_dolg_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、要人警護や非常に危険な強襲任務に割り当てられるデューティーの精鋭隊員がよく着用している。\n \n</text>
+	</string>
+	<string id="exo_dolg_red_outfit_name">
+		<text>PSZ-10d ヴェネター・バトルスーツ</text>
+	</string>
+	<string id="exo_dolg_red_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルはデューティーの精鋭ハンターがよく着用しており、ミュータントに対する高い防護能力を持っている。\n \n</text>
+	</string>
+	<string id="exo_dolg_wood_outfit_name">
+		<text>PSZ-10l フォレスト・バトルスーツ</text>
+	</string>
+	<string id="exo_dolg_wood_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルには、ケブラー素材と鋼鉄の補強が施された旧式のCBRNジャンプスーツが含まれている。通常はデューティーのエリート隊員、特にゾーンの北部で短期作戦を行う隊員が着用する。\n \n</text>
+	</string>
+	<string id="exo_dolg_urban_outfit_name">
+		<text>PSZ-10g アーバン・バトルスーツ</text>
+	</string>
+	<string id="exo_dolg_urban_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは近接戦闘と射撃戦に適しているが、アノマリーに対する防護能力は一切ない。非常に古くて重いことから、このようなスーツは2012年にデューティーがプリピャチを襲撃してフリーダムと衝突した際に使用されたと考えられている。\n \n</text>
+	</string>
+	<string id="exo_merc_outfit_name">
+		<text>傭兵用TB-1ヘビーアーマー</text>
+	</string>
+	<string id="exo_merc_outfit_description">
+		<text>.\n \n</text>
+	</string>
+	<string id="exo_merc_urban_outfit_name">
+		<text>傭兵用アーバン・エクソスーツ</text>
+	</string>
+	<string id="exo_merc_urban_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは近接戦闘と射撃戦に適しているが、アノマリーに対する防護能力は一切ない。リマンスクやプリピャチなどで活動する傭兵の隊長や護衛隊員に選ばれている。\n \n</text>
+	</string>
+	<string id="exo_merc_wood_outfit_name">
+		<text>傭兵用ウッドランド・エクソスーツ</text>
+	</string>
+	<string id="exo_merc_wood_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルは、残念ながら旧型のCBRNが使用されているため、ゾーンの環境には適していない。\n \n</text>
+	</string>
+	<string id="exo_merc_grass_outfit_name">
+		<text>傭兵用グラスランド・エクソスーツ</text>
+	</string>
+	<string id="exo_merc_grass_outfit_description">
+		<text>鋼鉄で補強されたクラスIVプレートを含む重い防弾ベストで、「放射線防護服」としても知られている。エクソスケルトンを取り付けるための装着部が多数備わっているが、動力のないエクソスケルトンでは重量負担が大きく、長時間の運用には適していない。このモデルはアスベスト繊維を使用したジャンプスーツが含まれている。\n \n</text>
+	</string>
+
+
+<!-- Proptotype Exoskeleton -->
+	<string id="stalker_proto_exo_outfit_name">
+		<text>«サンライズ» エクソスケルトン</text>
+	</string>
+	<string id="stalker_proto_exo_outfit_description">
+		<text>エクソスケルトンのサーボモーターとバッテリーを搭載するため、特別に設計されたストーカー用のボディスーツ。通常では運搬できないほどの多くの装備を持ち運ぶことができる。完全なエクソスケルトンと比較して、防護能力は劣るが重量はかなり軽い。\n \n</text>
+	</string>
+	<string id="svoboda_light_proto_exo_outfit_name">
+		<text>ウィンド・オブ・フリーダム エクソスケルトン</text>
+	</string>
+	<string id="svoboda_light_proto_exo_outfit_description">
+		<text>エクソスケルトンのサーボモーターとバッテリーを搭載するため、特別に設計された「ウィンド・オブ・フリーダム」スーツ。通常では運搬できないほどの多くの装備を持ち運ぶことができる。完全なエクソスケルトンと比較して、防護能力は劣るが重量はかなり軽い。\n \n</text>
+	</string>
+	<string id="dolg_proto_exo_outfit_name">
+		<text>PS5-M エクソスケルトン</text>
+	</string>
+	<string id="dolg_proto_exo_outfit_description">
+		<text>エクソスケルトンのサーボモーターとバッテリーを搭載するため、特別に設計されたPS5-M ユニバーサル防護スーツ。通常では運搬できないほどの多くの装備を持ち運ぶことができる。完全なエクソスケルトンと比較して、防護能力は劣るが重量はかなり軽い。\n \n</text>
+	</string>
+	<string id="dolg_heavy_proto_exo_outfit_name">
+		<text>PSZ-9d エクソスケルトン</text>
+	</string>
+	<string id="dolg_heavy_proto_exo_outfit_description">
+		<text>エクソスケルトンのサーボモーターとバッテリーを搭載するため、特別に設計されたPSZ-9d ボディアーマー。通常では運搬できないほどの多くの装備を持ち運ぶことができる。完全なエクソスケルトンと比較して、素の防弾性能を犠牲にすることで、アノマリーフィールドでの機能性を高めている。\n \n</text>
+	</string>
+	<string id="military_proto_exo_outfit_name">
+		<text>Skat-9 エクソスケルトン</text>
+	</string>
+	<string id="military_proto_exo_outfit_description">
+		<text>初期型の軍用エクソスケルトンで、最新のエクソスケルトンのサーボモーターとバッテリーに適合するように改造されている。第3世代のエクソスケルトンと比較して、素の防弾性能を犠牲にすることで、アノマリーフィールドでの機能性を高めている。\n \n</text>
+	</string>
+	<string id="monolith_proto_exo_outfit_name">
+		<text>X-18 エクソスケルトン</text>
+	</string>
+	<string id="monolith_proto_exo_outfit_description">
+		<text>モノリス信者か未知の製造者によって作られたスーツで、エクソスケルトンのサーボモーターとバッテリーに適合するように改造されている。通常では運搬できないほどの多くの装備を持ち運ぶことができる。完全なエクソスケルトンと比較して、防護能力は劣るが重量はかなり軽い。\n \n</text>
+	</string>
+	<string id="cs_stalker_proto_exo_outfit_name">
+		<text>CS-2b エクソスケルトン</text>
+	</string>
+	<string id="cs_stalker_proto_exo_outfit_description">
+		<text>エクソスケルトンのサーボモーターとバッテリーに適合するため、特別に改造されたCS-2b ボディアーマーのセット。通常では運搬できないほどの多くの装備を持ち運ぶことができる。完全なエクソスケルトンと比較して、素の防弾性能を犠牲にすることで、アノマリーフィールドでの機能性を高めている。\n \n</text>
+	</string>
+	<string id="ecolog_proto_exo_outfit_name">
+		<text>SSP-99M エクソスケルトン</text>
+	</string>
+	<string id="ecolog_proto_exo_outfit_description">
+		<text>エクソスケルトンを搭載したSSP-99M ジャンプスーツに、アノマリーに耐性のあるクラスIIAケブラーベストを組み合わせた独自のアーマーシステム。頑丈なエクソスケルトンにより、アノマリーフィールドを通過する際にも重い荷物を運ぶための機械的な支援を受けることができる。ゾーンの奥へ深く潜入する研究者の補助に最適。\n \n</text>
+	</string>
+	<string id="isg_proto_exo_outfit_name">
+		<text>UNISG タクティカルエクソスケルトン</text>
+	</string>
+	<string id="isg_proto_exo_outfit_description">
+		<text>エクソスケルトンのサーボモーターとバッテリーを搭載するため、特別に設計されたUNブランドの特殊戦術ボディスーツ。通常では運搬できないほどの多くの装備を持ち運ぶことができる。完全なエクソスケルトンと比較して、防護能力は劣るが重量はかなり軽い。\n \n</text>
+	</string>
+
+	
+<!-- Exoskeletons -->
+	<string id="exo_outfit_name">
+		<text>エクソスケルトン</text>
+	</string>
+	<string id="exo_outfit_description">
+		<text>軍用エクソスケルトンの実験サンプルで、鋼鉄で補強されたケブラージャンプスーツとクラスIVの防弾プレートを備えたタクティカルベストで構成されており、動力を持つ手足とサーボモーターによって支えられている。ウクライナ国外の地下施設で少量生産されたが、異常なコストと設計上の欠陥のため大量生産されることはなかった。\n \n</text>
+	</string>
+	<string id="dolg_exo_outfit_name">
+		<text>PSZ-10d エクソスケルトン</text>
+	</string>
+	<string id="dolg_exo_outfit_description">
+		<text>優れた高性能アーマーで、鋼鉄で補強されたケブラージャンプスーツとクラスIVの防弾プレートを備えたタクティカルベストで構成されており、動力を持つ手足とサーボモーターによって支えられている。国内の研究機関によってデューティー派閥のために特別に開発されたが、より安価で実用的なスーツに押されて徐々に廃止されており、現役のエクソスーツはデューティーの中でも古いベテランの手に委ねられている傾向にある。\n \n</text>
+	</string>
+	<string id="svoboda_exo_outfit_name">
+		<text>パラゴン・オブ・フリーダム</text>
+	</string>
+	<string id="svoboda_exo_outfit_description">
+		<text>フリーダムの最高の職人によって製作されたボディスーツで、鋼鉄で補強されたケブラージャンプスーツとクラスIVの防弾プレートを備えたタクティカルベストで構成されており、動力を持つ手足とサーボモーターによって支えられている。維持するには最も実用的なスーツとは言えないが、紛れもなく強力であり、フリーダムで最も優れた兵士と警備隊にのみ託されている。\n \n</text>
+	</string>
+	<string id="merc_exo_outfit_name">
+		<text>傭兵用エクソスケルトン</text>
+	</string>
+	<string id="merc_exo_outfit_description">
+		<text>西側で製造された軍用エクソスケルトンの実験サンプルで、鋼鉄で補強されたケブラージャンプスーツとクラスIVの防弾プレートを備えたタクティカルベストで構成されており、動力を持つ手足とサーボモーターによって支えられている。ゾーンで最も実用的なスーツとは言えないが、重武装と優れた装甲を同時に実現し、1週間分の物資を持ち運ぶのに十分な強度を備えている。地獄のような状況下で部下を率いることを期待されるベテランの傭兵の隊長が着用することが多い。\n \n</text>
+	</string>
+	<string id="monolith_exo_outfit_name">
+		<text>モノリス エクソスケルトン</text>
+	</string>
+	<string id="monolith_exo_outfit_description">
+		<text>この革新的なアーマーは、鋼鉄で補強されたケブラージャンプスーツとクラスIVの防弾プレートを備えたタクティカルベストで構成されており、動力を持つ手足とサーボモーターによって支えられている。搭載されているサーボモーターは、世界中のどの科学分野でも知られていない合金で作られていることが明らかになっている。このスーツを着ていると、石棺のコンクリートの下に埋もれているような感覚になる。ほとんどのストーカーにとっては恐ろしいほど窮屈だが、モノリスの真の信者にとっては不気味なほど心地よい。\n \n</text>
+	</string>
+	<string id="bandit_exo_outfit_name">
+		<text>盗まれたエクソスケルトン</text>
+	</string>
+	<string id="bandit_exo_outfit_description">
+		<text>盗まれた軍用のエクソスケルトンで、無法者たちが警備の厳重な施設を攻撃したり、武装したストーカーを襲撃するために改造されている。好戦的で野心的なバンディットの支配者はこのスーツを好む傾向があり、より身分の低い犯罪者たちに対する自らの強さと権威を示すシンボルとして使用している。\n \n</text>
+	</string>
+	<string id="military_exo_outfit_name">
+		<text>軍用エクソスケルトン</text>
+	</string>
+	<string id="military_exo_outfit_description">
+		<text>軍用エクソスケルトンの公式モデル。自費で購入した軍のストーカーに数量限定で発売された。重火器と、部隊を長期間維持するのに十分な弾薬、食料、医薬品を搭載できるように設計されている。軽車両の代わりに配備されることもある。\n \n</text>
+	</string>
+	<string id="cs_exo_outfit_name">
+		<text>CS-5 エクソスケルトン</text>
+	</string>
+	<string id="cs_exo_outfit_description">
+		<text>ウクライナの工場からゾーンに密輸された軍用エクソスケルトンの実験的なモデルで、クリアスカイの技術者によって改修されている。通常、このようなスーツは予備として保管され、本当の危機が訪れたときにのみ配備される。十分な信頼を得た同志や派閥の仲間であれば、このスーツを個人用として取得する許可を得ることができるかもしれないが、その際には莫大な費用がかかるだろう。\n \n</text>
+	</string>
+	<string id="ecolog_exo_outfit_name">
+		<text>研究用エクソスケルトン</text>
+	</string>
+	<string id="ecolog_exo_outfit_description">
+		<text>エコロジストの護衛たちが使用することを目的とした、軍用エクソスケルトンの公式モデル。このスーツは小火器による攻撃をほとんど通さず、高度なサーボモーターを搭載しているため、重装備の使用を大幅に補助することができる。このスーツの着用者は、一緒にゾーンを探索する科学者が必要とするバッテリー、アーティファクト隔離容器、その他の消耗品などを持ち運ぶのが一般的。\n \n</text>
+	</string>
+	<string id="renegade_exo_outfit_name">
+		<text>レネゲード エクソスケルトン</text>
+	</string>
+	<string id="renegade_exo_outfit_description">
+		<text>2011年にレネゲードがクリアスカイの基地への最終進攻を確実なものにするために組み立てた数少ないエクソスケルトンのひとつ。残念ながら、トレンチコートを着てライフル銃を持ったとある傭兵の妨害により、彼らは最終的な勝利を得る前に事実上全滅してしまった。このスーツを着た現代のレネゲードは、過去の敗北に対する復讐を熱望しており、常に戦いに身を投じている。\n \n</text>
+	</string>
+	<string id="isg_exo_outfit_name">
+		<text>UNISG エクソスケルトン</text>
+	</string>
+	<string id="isg_exo_outfit_description">
+		<text>国連の特別発注により限定的に配備されたUNISG用エクソスケルトンの正式モデル。他のエクソスケルトンと同様に設計上の欠陥が多いものの、指揮車両や偵察車両に代わる優れた代替手段として注目されている。\n \n</text>
+	</string>
+	<string id="greh_exo_outfit_name">
+		<text>ヴィーラージ・パワーアーマー</text>
+	</string>
+	<string id="greh_exo_outfit_description">
+		<text>この革新的なアーマーは、鋼鉄で補強されたケブラージャンプスーツとクラスIVの防弾プレートを備えたタクティカルベストで構成されており、動力を持つ手足とサーボモーターによって支えられている。搭載されているサーボモーターは、世界中のどの科学分野でも知られていない合金で作られていることが明らかになっている。このスーツを着ていると、不自然なほどの至福感と安心感が生まれるが、これが本物かどうかはまだ解明されていない。\n \n</text>
+	</string>
+
+
+<!-- Nosorog exskeletal armor -->
+	<string id="dolg_nosorog_outfit_name">
+		<text>PSZ-10d ノゾログ</text>
+	</string>
+	<string id="merc_nosorog_outfit_name">
+		<text>傭兵用ノゾログ</text>
+	</string>
+	<string id="army_nosorog_outfit_name">
+		<text>軍用ノゾログ</text>
+	</string>
+	<string id="monolith_nosorog_outfit_name">
+		<text>モノリス ノゾログ</text>
+	</string>
+	<string id="isg_nosorog_outfit_name">
+		<text>UNISG ノゾログ</text>
+	</string>
+	<string id="nosorog_outfit_description">
+		<text>二重に補強されたエクソスーツからなる次世代のエクソスケルトン。今は亡き「ファング」というストーカーが発明したものと言われており、後にその設計はゾーン中のあらゆる派閥によって所有権が主張されている。通常のエクソスケルトンが軽車両とするならば、ノゾログは莫大な兵器を搭載しながらも驚異的な衝撃に耐えることのできる主力戦車だと言えるだろう。\n \n</text>
+	</string>
+	<string id="freedom_nosorog_outfit_name">
+		<text>チャンピオン・オブ・フリーダム</text>
+	</string>
+	<string id="freedom_nosorog_outfit_desc">
+		<text>二重に補強されたエクソスーツからなる次世代のエクソスケルトン。今は亡き「ファング」というストーカーが発明したものと言われており、後にその設計はゾーン中のあらゆる派閥によって所有権が主張されている。通常のエクソスケルトンが軽車両とするならば、ノゾログは莫大な兵器を搭載しながらも驚異的な衝撃に耐えることのできる主力戦車だと言えるだろう。\n \n</text>
+	</string>
+
+
+<!-- No group -->
+	<string id="ghillie_outfit_name">
+		<text>ギリースーツ</text>
+	</string>
+	<string id="ghillie_outfit_description">
+		<text>このスーツは「草木の塊」を模してデザインされている。通常このタイプのスーツは、スナイパーやハンターが環境に溶け込み、敵から身を隠すために着用する。ギリースーツは市販されているが、通常は軍人も民間人も自分のニーズに合わせてカスタマイズし、改良している。\n \n</text>
+	</string>
+</string_table>

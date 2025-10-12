@@ -1,0 +1,65 @@
+-- zzzz_arti_jamming_repairs.script
+
+-- ===================================================================
+--  zzzz_arti_jamming_repairs.ui_item.build_desc_header （文字の視認性改善）
+--  ui_item.scriptのbuild_desc_headerがオリジナル
+-- ===================================================================
+local original_build_desc_header = ui_item.build_desc_header
+
+ui_item.build_desc_header = function(obj, sec, str)
+	local result = original_build_desc_header(obj, sec, str)
+
+	-- 「部品の耐久値」の色を紫から白に置換
+	result = result:gsub("%%c%[[^%]]-%]" .. game.translate_string("st_name_issues"),
+		"%%c[0,255,255,255]" .. game.translate_string("st_name_issues"))
+
+	return result
+end
+
+-- ===================================================================
+--  process_part （日本語化と字間調整）
+-- ===================================================================
+local original_process_part = zzzz_arti_jamming_repairs.process_part
+
+zzzz_arti_jamming_repairs.process_part = function(name, condition)
+	local str = original_process_part(name, condition)
+
+	-- DMG/AP 書式変更
+	str = str:gsub(" %(%d+%% DMG and AP%)", function(match)
+		local num = match:match("(%d+)")
+		return "（DMG&AP: " .. tostring(num) .. "%）"
+	end)
+
+	-- 部品の状態と部品名のスペースを削除
+	str = str:gsub(
+		"([一-龠々〆ヵヶぁ-んァ-ヶー])" .. " +" .. "([一-龠々〆ヵヶぁ-んァ-ヶー])",
+		"%1%2"
+	)
+
+	-- "st_dot" の先頭のスペースを2個に （部品の状態）
+	str = str:gsub(
+		" *" .. "(.-)" .. game.translate_string("st_dot"),
+		"  " .. "%1" .. game.translate_string("st_dot")
+	)
+
+	return str
+end
+
+-- ===================================================================
+--  process_jam_chance （字間調整）
+-- ===================================================================
+local original_process_jam_chance = zzzz_arti_jamming_repairs.process_jam_chance
+
+zzzz_arti_jamming_repairs.process_jam_chance = function(wpn)
+	local str = original_process_jam_chance(wpn)
+
+	if str then
+		-- "st_jam" の先頭のスペースを2個に （弾詰まりの発生確率）
+		str = str:gsub(
+		" *" .. "(.-)" .. game.translate_string("st_jam"),
+		"  " .. "%1" .. game.translate_string("st_jam")
+	)
+	end
+
+	return str
+end

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="Btn_Cancel">
+    <text>キャンセル</text>
+  </string>
+  <string id="Btn_No">
+    <text>いいえ</text>
+  </string>
+  <string id="Btn_OK">
+    <text>OK</text>
+  </string>
+  <string id="Btn_Yes">
+    <text>はい</text>
+  </string>
+  <string id="global_map">
+    <text>ゾーンの地図</text>
+  </string>
+  <string id="mm_mp_pda_hunt">
+    <text>PDAボーナス</text>
+  </string>
+  <string id="mp_only_one_voting">
+    <text>有効な投票は1回のみ。</text>
+  </string>
+  <string id="st_game">
+    <text>ゲーム</text>
+  </string>
+  <string id="st_item_used">
+    <text>使用</text>
+  </string>
+  <string id="st_level">
+    <text>マップ</text>
+  </string>
+  <string id="st_loading_ai_objects">
+    <text>LOADING AI OBJECTS</text>
+  </string>
+  <string id="st_loading_alife_simulator">
+    <text>SERVER: LOADING ALIFE SIMULATOR</text>
+  </string>
+  <string id="st_loading_cform">
+    <text>LOADING CFORM</text>
+  </string>
+  <string id="st_loading_details">
+    <text>LOADING DETAILS</text>
+  </string>
+  <string id="st_loading_geometry">
+    <text>LOADING GEOMETRY</text>
+  </string>
+  <string id="st_loading_saved_game">
+    <text>LOADING SAVED GAME</text>
+  </string>
+  <string id="st_loading_sectors_portals">
+    <text>LOADING SECTORS &amp; PORTALS</text>
+  </string>
+  <string id="st_loading_shaders">
+    <text>LOADING SHADERS</text>
+  </string>
+  <string id="st_loading_spatial_db">
+    <text>LOADING SPATIAL-DB</text>
+  </string>
+  <string id="st_loading_textures">
+    <text>LOADING TEXTURES</text>
+  </string>
+  <string id="st_mp_direct_ip">
+    <text>Direct IP</text>
+  </string>
+  <string id="st_no_active_task">
+    <text>進行中のタスクはない</text>
+  </string>
+  <string id="st_not_enough_money">
+    <text>お金が足りない</text>
+  </string>
+  <string id="st_not_enough_money_npc">
+    <text>NPCに十分なお金がない</text>
+  </string>
+  <string id="st_opening_stream">
+    <text>Opening stream</text>
+  </string>
+  <string id="st_prefetching_objects">
+    <text>Prefetching objects</text>
+  </string>
+  <string id="st_rubles">
+    <text>ルーブル</text>
+  </string>
+  <string id="st_server_connecting">
+    <text>SERVER: Connecting</text>
+  </string>
+  <string id="st_server_starting">
+    <text>SERVER: Starting</text>
+  </string>
+  <string id="st_validating_cdkey">
+    <text>Validating CD Key</text>
+  </string>
+  <string id="st_video">
+    <text>ビデオ</text>
+  </string>
+  <string id="ui_inv_repair">
+    <text>修理</text>
+  </string>
+  <string id="ui_st_cant_run_r2">
+    <text>You can't run Render 2 on your PC</text>
+  </string>
+  <string id="ui_st_conn_cdkey_disabled">
+    <text>Connection error: Your CD-Key is disabled. Contact customer service.</text>
+  </string>
+  <string id="ui_st_conn_cdkey_in_use">
+    <text>Connection error: CD-Key already in use.</text>
+  </string>
+  <string id="ui_st_conn_cdkey_invalid">
+    <text>接続エラー: 無効なCDキー</text>
+  </string>
+  <string id="ui_st_conn_invalid_host">
+    <text>接続エラー: 無効なホスト</text>
+  </string>
+  <string id="ui_st_conn_invalid_pass">
+    <text>接続エラー: 無効なパスワード</text>
+  </string>
+  <string id="ui_st_conn_new_patch">
+    <text>A new patch is available.\n Version: %s\n Location: %s\nDo you want to download it now?</text>
+  </string>
+  <string id="ui_st_conn_no_new_patch">
+    <text>現在利用可能な新しいパッチはない</text>
+  </string>
+  <string id="ui_st_conn_rejected_server">
+    <text>接続エラー: サーバーによって接続が拒否された</text>
+  </string>
+  <string id="ui_st_conn_sess_full">
+    <text>接続エラー: サーバーがいっぱいである。</text>
+  </string>
+  <string id="ui_st_conn_version_differs">
+    <text>接続エラー: バージョンが異なる。</text>
+  </string>
+  <string id="ui_st_connecting_to_masterserver">
+    <text>マスターサーバーへの接続</text>
+  </string>
+  <string id="ui_st_days">
+    <text>日</text>
+  </string>
+  <string id="ui_st_error">
+    <text>エラー</text>
+  </string>
+  <string id="ui_st_error_loading">
+    <text>ロードエラー</text>
+  </string>
+  <string id="ui_st_file_exist_owerwrite_q">
+    <text>この名前のファイルは既に存在します。上書きしますか？</text>
+  </string>
+  <string id="ui_st_file_name_is_empty">
+    <text>ファイル名を入力してください</text>
+  </string>
+  <string id="ui_st_hours">
+    <text>時間</text>
+  </string>
+  <string id="ui_st_kicked_by_battleye">
+    <text>BattleEye保護システムによって切断された :</text>
+  </string>
+  <string id="ui_st_kicked_by_server">
+    <text>切断された。理由 :</text>
+  </string>
+  <string id="ui_st_leave">
+    <text>立ち去る</text>
+  </string>
+  <string id="ui_st_load_game_confirm">
+    <text>このゲームをロードすると、保存されていないデータが失われます。続行しますか？</text>
+  </string>
+  <string id="ui_st_mins">
+    <text>分</text>
+  </string>
+  <string id="ui_st_months">
+    <text>月</text>
+  </string>
+  <string id="ui_st_opponent_items">
+    <text>バックパック</text>
+  </string>
+  <string id="ui_st_params">
+    <text>パラメーター</text>
+  </string>
+  <string id="ui_st_patch_download_error">
+    <text>パッチをダウンロードできない。</text>
+  </string>
+  <string id="ui_st_patch_download_success">
+    <text>パッチが正常にダウンロードされた。インストールしてよいか？</text>
+  </string>
+  <string id="ui_st_price">
+    <text>価格</text>
+  </string>
+  <string id="ui_st_secs">
+    <text>秒</text>
+  </string>
+  <string id="mp_si_sec">
+    <text>秒</text>
+  </string>
+  <string id="ui_st_select_one_map">
+    <text>少なくとも1つのマップを選択すること</text>
+  </string>
+  <string id="ui_st_time_remains">
+    <text>残り</text>
+  </string>
+  <string id="ui_st_voting_disabled">
+    <text>投票に失敗した</text>
+  </string>
+  <string id="ui_st_want_to_leave_game_q">
+    <text>本当にゲームから離脱するか？</text>
+  </string>
+  <string id="st_key_notbinded">
+    <text>･･････</text>
+  </string>
+  <string id="st_save_uni_travel_generic">
+    <text>エリア内を移動する</text>
+  </string>
+  <string id="st_travel_lost">
+    <text>まだその道を知らない</text>
+  </string>
+  <string id="st_level_changer_descr">
+    <text>%sに移動する</text>
+  </string>
+  <string id="st_future_maps_descr">
+    <text>そこに行くことはできない</text>
+  </string>
+  <string id="st_save_uni_travel_zat_to_jup">
+    <text>ザトンからヤニフへ移動</text>
+  </string>
+  <string id="st_save_uni_travel_zat_to_pri">
+    <text>ザトンからプリピャチへ移動</text>
+  </string>
+  <string id="st_save_uni_travel_jup_to_zat">
+    <text>ヤニフからザトンへ移動</text>
+  </string>
+  <string id="st_save_uni_travel_jup_to_pri">
+    <text>ヤニフからプリピャチへ移動</text>
+  </string>
+  <string id="st_save_uni_travel_pri_to_zat">
+    <text>プリピャチからザトンへ移動</text>
+  </string>
+  <string id="st_save_uni_travel_pri_to_jup">
+    <text>プリピャチからヤニフへ移動</text>
+  </string>
+  <string id="st_save_uni_pri_to_labx8">
+    <text>プリピャチからラボX8へ移動</text>
+  </string>
+  <string id="st_save_uni_labx8_to_pri">
+    <text>ラボX8からプリピャチへ移動</text>
+  </string>
+  <string id="st_save_uni_surge_start">
+    <text>光熱放射</text>
+  </string>
+  <string id="st_save_zat_a1_game_start">
+    <text>ゲーム序盤</text>
+  </string>
+  <string id="st_save_zat_a2_reached_skadovsk">
+    <text>スカドフスクに到着</text>
+  </string>
+  <string id="st_save_jup_b9_searched_heli_1">
+    <text>「スティングレイ1」検査済み</text>
+  </string>
+  <string id="st_save_zat_b100_searched_heli_2">
+    <text>「スティングレイ2」検査済み</text>
+  </string>
+  <string id="st_save_zat_b28_searched_heli_3">
+    <text>「スティングレイ3」検査済み</text>
+  </string>
+  <string id="st_save_jup_b8_searched_heli_4">
+    <text>「スティングレイ4」検査済み</text>
+  </string>
+  <string id="st_save_zat_b101_searched_heli_5">
+    <text>「スティングレイ5」検査済み</text>
+  </string>
+  <string id="st_save_zat_b18_noah_showed_teleport">
+    <text>高原に到着</text>
+  </string>
+  <string id="st_save_jup_b217_arrived_to_jup">
+    <text>ヤニフに到着</text>
+  </string>
+  <string id="st_save_jup_a9_got_underpass_docs">
+    <text>プリピャチへの道を発見</text>
+  </string>
+  <string id="st_save_jup_b15_drunk_with_zulu">
+    <text>ズールーが分隊に加わった</text>
+  </string>
+  <string id="st_save_jup_a10_gonna_return_debt">
+    <text>ヴァノの借金返済</text>
+  </string>
+  <string id="st_save_jup_b218_vano_in_squad">
+    <text>ヴァノが分隊に加わった</text>
+  </string>
+  <string id="st_save_jup_b206_got_anomalous_plant">
+    <text>採取した異常な植物</text>
+  </string>
+  <string id="st_save_jup_b218_sokolov_in_squad">
+    <text>ソコロフが分隊に加わった</text>
+  </string>
+  <string id="st_save_jup_b218_strider_in_squad">
+    <text>ストライダーが分隊に加わった</text>
+  </string>
+  <string id="st_save_jup_b218_travel_jup_to_pas">
+    <text>分隊集合</text>
+  </string>
+  <string id="st_save_pas_b400_underpass_start">
+    <text>地下道に到着</text>
+  </string>
+  <string id="st_save_uni_travel_pas_to_pri">
+    <text>プリピャチに到着</text>
+  </string>
+  <string id="st_save_pri_a16_arrived_to_pri">
+    <text>配置された軍の部隊</text>
+  </string>
+  <string id="st_save_pri_a17_hospital_start">
+    <text>正体不明の武器を入手</text>
+  </string>
+  <string id="st_save_pri_a20_found_dead_recon">
+    <text>偵察部隊発見</text>
+  </string>
+  <string id="st_save_pri_a18_met_reinforcement">
+    <text>援軍到着</text>
+  </string>
+  <string id="st_save_pri_a18_searched_antenna">
+    <text>「アンテナ」の検査</text>
+  </string>
+  <string id="st_save_pri_a21_approached_mad_sentry">
+    <text>行方不明の見張りを発見</text>
+  </string>
+  <string id="st_save_pri_a21_killed_controller">
+    <text>見張り付近のコントローラーが死亡</text>
+  </string>
+  <string id="st_save_zat_a23_entered_test_center">
+    <text>テスト作業場にアクセス</text>
+  </string>
+  <string id="st_save_zat_a23_got_gauss_docs">
+    <text>ガウスライフルの資料を発見</text>
+  </string>
+  <string id="st_save_pri_a22_found_dead_squad">
+    <text>死んだ兵士を発見</text>
+  </string>
+  <string id="st_save_pri_a25_gonna_place_explosive">
+    <text>入園</text>
+  </string>
+  <string id="st_save_pri_a25_freed_medic">
+    <text>救出された軍医</text>
+  </string>
+  <string id="st_save_pri_a28_talked_with_ssu">
+    <text>本部との通信を確立</text>
+  </string>
+  <string id="st_save_pri_a28_evacutaion_start">
+    <text>プリピャチからの避難開始</text>
+  </string>
+  <string id="st_save_pri_a28_evacuation_end">
+    <text>避難用のヘリコプターが到着</text>
+  </string>
+  <string id="st_save_uni_zone_to_reality">
+    <text>避難完了</text>
+  </string>
+  <string id="st_save_jup_b209_placed_mutant_scanner">
+    <text>ミュータント検出器</text>
+  </string>
+  <string id="st_save_jup_a12_gave_artefact_for_hostage">
+    <text>人質に身代金を支払う</text>
+  </string>
+  <string id="st_save_jup_a12_met_with_liberators">
+    <text>人質解放</text>
+  </string>
+  <string id="st_save_jup_b6_arrived_to_ash_heap">
+    <text>「燃え殻の山」アノマリーフィールドの測定</text>
+  </string>
+  <string id="st_save_jup_b6_arrived_to_fen">
+    <text>「プラビニ」アノマリーフィールドの測定</text>
+  </string>
+  <string id="st_save_zat_b38_met_with_grouse">
+    <text>ブラッドサッカーの巣</text>
+  </string>
+  <string id="st_save_jup_b19_arrived_to_kopachy">
+    <text>コパシーに送る</text>
+  </string>
+  <string id="st_save_zat_b40_warned_by_mercs">
+    <text>廃棄物処理場に近づく</text>
+  </string>
+  <string id="st_save_zat_b7_met_with_robbers">
+    <text>ストーカー命中</text>
+  </string>
+  <string id="st_save_zat_b33_got_container">
+    <text>スタッシュの中にある容器</text>
+  </string>
+  <string id="st_save_zat_b106_arrived_to_chimera_lair">
+    <text>キメラを狩れ</text>
+  </string>
+  <string id="st_save_jup_b16_passed_labyrinth">
+    <text>「オアシス」発見</text>
+  </string>
+  <string id="st_save_pri_b35_ready_to_snipe">
+    <text>ワンショット作戦開始</text>
+  </string>
+  <string id="st_save_jup_b1_entered_railroad_tunnel">
+    <text>プサイ放射の原因を調査する</text>
+  </string>
+  <string id="st_save_jup_b47_got_admin_docs">
+    <text>行政文書</text>
+  </string>
+  <string id="st_save_zat_b103_warned_by_mercs">
+    <text>変電所の作業場への接近</text>
+  </string>
+  <string id="st_save_zat_b5_met_with_others">
+    <text>森林管理場での取引</text>
+  </string>
+  <string id="st_save_jup_b207_arrived_to_duty_depot">
+    <text>デューティー倉庫</text>
+  </string>
+  <string id="st_save_zat_b14_got_altered_wheel">
+    <text>奇妙な光源を見つけた</text>
+  </string>
+  <string id="st_save_pri_b301_arrived_to_help_zulu">
+    <text>ズールーを発見</text>
+  </string>
+  <string id="st_save_zat_b42_arrived_to_controler_lair">
+    <text>危険な洞窟</text>
+  </string>
+  <string id="ui_st_upgrade">
+    <text>修理 改造</text>
+  </string>
+  <string id="ui_st_trade">
+    <text>トレード</text>
+  </string>
+  <string id="ui_st_exit_hint">
+    <text>ウィンドウを閉じる ($$ACTION_USE$$)</text>
+  </string>
+  <string id="ui_st_trade_hint">
+    <text>取引ウィンドウを開く ($$ACTION_SPRINT_TOGGLE$$)</text>
+  </string>
+  <string id="ui_st_upgrade_hint">
+    <text>修理と改造のウィンドウを開く ($$ACTION_SPRINT_TOGGLE$$)</text>
+  </string>
+  <string id="st_save_pri_a28_evacuation_heli">
+    <text>避難ヘリコプター離陸</text>
+  </string>
+  <string id="st_hold_then_release">
+    <text>押したまま、移動先が決まったら離す</text>
+  </string>
+  <string id="st_set_companion_to_stealth_state">
+    <text>ステルス</text>
+  </string>
+  <string id="st_sleep">
+    <text>寝る ($$ACTION_USE$$)</text>
+  </string>
+  <string id="st_ui_save">
+    <text>セーブ</text>
+  </string>
+  <string id="st_ui_selected">
+    <text>選択済み</text>
+  </string>
+  <string id="st_ui_arts">
+    <text>アーティファクト</text>
+  </string>
+  <string id="st_ui_remove_art">
+    <text>アーティファクトを取得</text>
+  </string>
+  <string id="st_ui_place_art">
+    <text>アーティファクトを入れる</text>
+  </string>
+  <string id="st_body_loot">
+    <text>解体する</text>
+  </string>
+  <string id="st_body_kick">
+    <text>蹴る</text>
+  </string>
+  <string id="st_invalid_position">
+    <text>AIマップ上にない位置</text>
+  </string>
+  <string id="st_cfm">
+    <text>携行食器セットを使用するには焚き火が必要</text>
+  </string>
+  <string id="st_full_charge">
+    <text>バッテリーはフル充電されている</text>
+  </string>
+  <string id="st_charging">
+    <text>現在の料金 :</text>
+  </string>
+  <string id="st_rad_level">
+    <text>放射線レベル</text>
+  </string>
+  <string id="st_dont_has_knife">
+    <text>ナイフが必要</text>
+  </string>
+  <string id="st_repair_mod_message_box_ask">
+    <text>次のアイテムを修理する %s？\n %c[255,1,255,1]+%s%</text>
+  </string>
+  <string id="st_repair_mod_message_box_condition_to_low">
+    <text>選択したアイテムはこれ以上このツールで修理できない</text>
+  </string>
+  <string id="st_repair_mod_message_box_condition_to_high">
+    <text>これらのツールではこのアイテムをさらに修理することはできない。</text>
+  </string>
+  <string id="st_trx_input_symbols">
+    <text>1234567890</text>
+  </string>
+  <string id="st_trx_output_symbols">
+    <text>1234567890</text>
+  </string>
+  <string id="st_trx_input_symbols_full">
+    <text>1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</text>
+  </string>
+  <string id="st_trx_output_symbols_full">
+    <text>1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-.</text>
+  </string>
+  <string id="selfroll_making">
+    <text>今、葉っぱを巻いている。すぐに終わる。</text>
+  </string>
+  <string id="sleepbag_making">
+    <text>この寝袋の縫製には時間がかかるだろう。</text>
+  </string>
+  <string id="backpack_making">
+    <text>このバックパックを作るにはしばらく時間がかかるだろう。</text>
+  </string>
+  <string id="ammo12x70_making">
+    <text>カートリッジを作っているので、ちょっと時間がかかるかもしれない。</text>
+  </string>
+  <string id="selfroll_making_end">
+    <text>巻き終わった。</text>
+  </string>
+  <string id="sleepbag_making_end">
+    <text>寝袋が完成した。</text>
+  </string>
+  <string id="backpack_making_end">
+    <text>バックパックが完成した。</text>
+  </string>
+  <string id="ammo12x70_making_end">
+    <text>カートリッジが完成した。</text>
+  </string>
+  <string id="st_fast_travel_discovered">
+    <text>を発見した</text>
+  </string>
+  <string id="ui_st_invalid_saved_game">
+    <text>無効なセーブデータであるためロードできない。</text>
+  </string>
+</string_table>

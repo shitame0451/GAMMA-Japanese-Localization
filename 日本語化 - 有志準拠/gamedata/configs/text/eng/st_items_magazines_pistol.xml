@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+	<string id="st_mag_aps_9x18_fmj">
+		<text>APS用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_aps_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_aps_9x19_fmj">
+		<text>APS用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_aps_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_beretta_9x19_fmj">
+		<text>Beretta 92F用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_beretta_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_beretta_9x18_fmj">
+		<text>Beretta 92F用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_beretta_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+
+	<string id="st_mag_colt1911_11.43x23_fmj">
+		<text>Colt 1911用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_colt1911_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_colt_kimber_11.43x23_fmj">
+		<text>Colt Kimber用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_colt_kimber_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_cz52_7.62x25_p">
+		<text>CZ-52用マガジン（7.62x25）</text>
+	</string>
+	<string id="st_mag_cz52_7.62x25_p_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_cz75_9x19_fmj">
+		<text>CZ-75用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_cz75_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_cz75_9x18_fmj">
+		<text>CZ-75用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_cz75_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_desert_eagle_357_hp">
+		<text>Desert Eagle用マガジン（.357）</text>
+	</string>
+	<string id="st_mag_desert_eagle_357_hp_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_fn57_5.7x28_ss190">
+		<text>Five-seveN用マガジン（5.7x28）</text>
+	</string>
+	<string id="st_mag_fn57_5.7x28_ss190_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_fnp45_11.43x23_fmj">
+		<text>FNP-45用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_fnp45_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_fnx45_11.43x23_fmj">
+		<text>FNX-45用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_fnx45_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_fort_9x18_fmj">
+		<text>Fort-17用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_fort_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_fort_9x19_fmj">
+		<text>Fort-17用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_fort_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_glock_9x19_fmj">
+		<text>Glock用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_glock_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_glock_9x18_fmj">
+		<text>Glock用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_glock_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_gsh18_9x19_fmj">
+		<text>Gsh-18用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_gsh18_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_hpsa_9x19_fmj">
+		<text>Browning Hi-Power用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_hpsa_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_hpsa_9x18_fmj">
+		<text>Browning Hi-Power用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_hpsa_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp443_9x19_fmj">
+		<text>MP-443用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mp443_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp443_9x18_fmj">
+		<text>MP-443用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mp443_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_oc33_9x18_fmj">
+		<text>OTs-33 Pernach用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_oc33_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_oc33_9x19_fmj">
+		<text>OTs-33 Pernach用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_oc33_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+
+	<string id="st_mag_pm_9x18_fmj">
+		<text>PM用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_pm_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_pm_9x19_fmj">
+		<text>PM用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_pm_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_pmm_9x18_fmj">
+		<text>PMM用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_pmm_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_pmm_9x19_fmj">
+		<text>PMM用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_pmm_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_pp2000_9x19_fmj">
+		<text>PP-2000用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_pp2000_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_pp2000_9x18_fmj">
+		<text>PP-2000用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_pp2000_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_sig220_11.43x23_fmj">
+		<text>SIG Sauer P220用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_sig220_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_tt33_7.62x25_p">
+		<text>TT-33用マガジン（7.62x25）</text>
+	</string>
+	<string id="st_mag_tt33_7.62x25_p_descr">
+		<text> </text>
+	</string>
+
+
+	<string id="st_mag_usp_11.43x23_fmj">
+		<text>USP用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_usp_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_usp_9x19_fmj">
+		<text>USP用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_usp_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+
+	<string id="st_mag_walther_9x19_fmj">
+		<text>Walther P99用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_walther_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<!-- begin smgs -->
+
+	<string id="st_mag_bizon_9x18_fmj">
+		<text>PP-19用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_bizon_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_bizon_9x19_fmj">
+		<text>PP-19用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_bizon_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_bizon_7.62x25_p">
+		<text>PP-19用改造マガジン（7.62x25）</text>
+	</string>
+	<string id="st_mag_bizon_7.62x25_p_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_kiparis_9x18_fmj">
+		<text>Kiparis用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_kiparis_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_kiparis_9x19_fmj">
+		<text>Kiparis用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_kiparis_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_vityaz_9x19_fmj">
+		<text>Vityaz-SN用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_vityaz_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_vityaz_9x18_fmj">
+		<text>Vityaz-SN用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_vityaz_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_vz61_9x19_fmj">
+		<text>vz.61用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_vz61_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_vz61_9x18_fmj">
+		<text>vz.61用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_vz61_9x18_fmj_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_p90_5.7x28_ss190">
+		<text>P90用マガジン（5.7x28）</text>
+	</string>
+	<string id="st_mag_p90_5.7x28_ss190_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_ppsh41_7.62x25_p">
+		<text>PPSh41用ドラムマガジン（7.62x25）</text>
+	</string>
+	<string id="st_mag_ppsh41_7.62x25_p_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp5_9x19_fmj">
+		<text>MP5用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mp5_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp5_9x18_fmj">
+		<text>MP5用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mp5_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp7_9x19_fmj">
+	<!-- Mags Redux Fixesによる変更 GAMMAJP -->
+		<text>MP7用改造マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_mp7_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp7_9x18_fmj">
+		<text>MP7用改造マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mp7_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mp5_11.43x23_fmj">
+		<text>MP5 «Frasier»用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_mp5_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ump45_11.43x23_fmj">
+		<text>UMP用マガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_ump45_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+	
+</string_table>

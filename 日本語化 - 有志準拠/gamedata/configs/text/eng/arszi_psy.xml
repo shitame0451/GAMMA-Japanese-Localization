@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_anabiotic_combat">
+    <text>敵が近くにいる状況でアナバイオティクスを服用するのは危険だ</text>
+  </string>
+  <string id="st_psy_death_scene">
+    <text>死よりもむごい運命を免れた･･････</text>
+  </string>
+  <string id="st_psy_zombification_scene">
+    <text>ゾーンから2度目のチャンスを与えられた･･････</text>
+  </string>
+</string_table>

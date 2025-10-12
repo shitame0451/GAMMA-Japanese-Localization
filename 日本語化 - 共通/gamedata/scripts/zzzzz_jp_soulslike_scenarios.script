@@ -1,0 +1,13 @@
+-- soulslike_scenarios.script
+
+-- ===================================================================
+--  level.map_add_object_spot_ser
+--  PDAのマーカー表示を "'s items" → "の所持品" に置換
+-- ===================================================================
+local original_map_add_object_spot_ser = level.map_add_object_spot_ser
+level.map_add_object_spot_ser = function(stash_id, spot, text, ...)
+	if text and string.match(text, "'s items$") then
+		text = text:gsub("'s items$", "の所持品")
+	end
+	return original_map_add_object_spot_ser(stash_id, spot, text, ...)
+end

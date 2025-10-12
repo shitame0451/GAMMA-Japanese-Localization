@@ -1,0 +1,184 @@
+-- STALKER GAMMA日本語化
+
+-- ===================================================================
+--  名前と階級のリスト
+-- ===================================================================
+local name_group = {
+	"army",
+	"private",
+	"stalker",
+	"bandit",
+	"senior_sergeant",
+	"sergeant",
+	"lieutenant",
+	"captain",
+	"science",
+	"woman",
+	"d_isg_private",
+	"d_isg_sergeant",
+	"d_isg_lieutenant",
+	"d_isg_captain"
+}
+
+local milrank_group = {
+	private = true,
+	senior_sergeant = true,
+	sergeant = true,
+	lieutenant = true,
+	captain = true,
+	d_isg_private = true,
+	d_isg_sergeant = true,
+	d_isg_lieutenant = true,
+	d_isg_captain = true
+}
+
+-- ===================================================================
+--  辞書初期化
+-- ===================================================================
+local fnames, snames = {}, {}
+
+local function load_group(prefix, group, target)
+	for i = 0, 1000 do
+		local key = string.format("%s_%s_%d", prefix, group, i)
+		local text = game.translate_string(key)
+		if not text or text == "" or text == key then
+			break
+		end
+		target[text] = group
+	end
+end
+
+local function get_name_dictionary()
+	fnames, snames = {}, {}
+	for _, g in ipairs(name_group) do
+		load_group("name", g, fnames)
+		load_group("lname", g, snames)
+	end
+end
+
+-- ===================================================================
+--  名前の変換
+-- ===================================================================
+local function milrank_name_patch(name)
+	if not name then return "" end
+
+	-- 「名前, 派閥」→「名前（派閥）」に変換
+	local main, faction = string.match(name, "^(.-),%s*(.+)$")
+	if main then
+		return string.format("%s（%s）", milrank_name_patch(main), faction)
+	end
+
+	-- 名と姓を分離
+	local first, second = string.match(name, "^(%S+)%s+(%S+)$")
+	if not first or not second then return name end
+
+	local g_first, g_second = fnames[first], snames[second]
+	if not (g_first and g_second) then
+		return name
+	end
+
+	-- 「名」が階級の場合:「姓 + 名（階級）」に変換
+	if milrank_group[g_first] then
+		return second .. first
+	end
+
+	-- 「名」が通常の場合:「名 + ・ + 姓」に変換
+	return first .. "・" .. second
+end
+
+-- ===================================================================
+--  外部からの文字列／オブジェクトを安全に milrank_name_patch に渡す
+--  既存の character_name() を差し替えて使用する
+--  例: npc:character_name() → japanese_patch.character_name_jp(npc)
+-- ===================================================================
+function character_name_jp(input)
+	if not input then return "" end
+	if type(input) == "userdata" or (type(input)=="table" and input.character_name) then
+		local ok, name = pcall(function() return input:character_name() end)
+		if not ok or not name then return "" end
+		return milrank_name_patch(name)
+	elseif type(input) == "string" then
+		return milrank_name_patch(input)
+	end
+	return ""
+end
+
+-- ===================================================================
+--  数字のカンマ区切り用
+-- ===================================================================
+function commas_to_number(n)
+	local s = tostring(n)
+	local left, num, right = string.match(s, '^([^%d]*%d)(%d*)(.-)$')
+	return left .. (num:reverse():gsub("(%d%d%d)", "%1,"):reverse()) .. right
+end
+
+-- =========================================================
+--  オンラインNPCの名前を milrank_name_patch に渡す
+-- =========================================================
+local function localize_online_npc_name(npc, se_obj)
+	if IsStalker(nil, se_obj:clsid()) then
+		local name = se_obj:character_name()
+		if name and string.find(name, "%s") then
+			local jp_name = milrank_name_patch(name)
+			if jp_name ~= name then
+				se_obj:set_character_name(jp_name)
+				--printf("[NAME_PATCH_ONLINE] %s → %s", name, jp_name)
+			end
+		end
+	end
+end
+
+-- =========================================================
+--  オフラインNPCの名前を milrank_name_patch に渡す
+-- =========================================================
+local scan_counter = 0
+
+local function localize_offline_npc_name()
+	local sim = alife()
+	if not sim then return end
+
+	scan_counter = scan_counter + 1
+	local replaced = 0
+
+	for i = 1, 65534 do
+		local se_obj = sim:object(i)
+		if se_obj and IsStalker(nil, se_obj:clsid()) then
+			local name = se_obj:character_name()
+			if name and string.find(name, "%s") then
+				local jp_name = milrank_name_patch(name)
+				if jp_name ~= name then
+					se_obj:set_character_name(jp_name)
+					replaced = replaced + 1
+					--printf(string.format("[NAME_PATCH_OFFLINE_%d] %s → %s", scan_counter, name, jp_name))
+				end
+			end
+		end
+	end
+
+	if replaced == 0 then
+		--printf(string.format("[NAME_PATCH_OFFLINE_%d] 変換対象なし 実行終了", scan_counter))
+		return true
+	else
+		--printf(string.format("[NAME_PATCH_OFFLINE_%d] %d個の名前を変換 次の実行を予約", scan_counter, replaced))
+		CreateTimeEvent("jp_name_patch_scan_"..scan_counter, "scan_all_names_loop", 3, function()
+			return localize_offline_npc_name()
+		end)
+		return true
+	end
+end
+
+-- =========================================================
+--  ゲーム開始時に実行
+-- =========================================================
+function on_game_start()
+	get_name_dictionary()
+
+	RegisterScriptCallback("npc_on_net_spawn", localize_online_npc_name)
+
+	RegisterScriptCallback("on_game_load", function()
+		scan_counter = 0
+		CreateTimeEvent("jp_name_patch_scan_0", "scan_all_names_loop", 3, function()
+			return localize_offline_npc_name()
+		end)
+	end)
+end

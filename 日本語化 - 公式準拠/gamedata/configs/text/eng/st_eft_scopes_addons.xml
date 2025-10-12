@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	SCOPES
+-->
+
+<string_table>
+
+	<string id="st_addon_scope_pk1_obzor">
+		<text>PK-1 "Obzor" (1P63) コリメーターサイト</text>
+	</string>
+	<string id="st_addon_scope_pk1_obzor_descr">
+		<text>素早い標的捕捉を目的に設計された、ロシア製のコリメーターサイト。発光レティクルと高い耐久性が特徴。AK系ライフルに広く使用され、近～中距離戦闘で優れた性能を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NPZ Optics State Plant\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pk6">
+		<text>PK-06 リフレックスサイト</text>
+	</string>
+	<string id="st_addon_scope_pk6_descr">
+		<text>コンパクトで軽量なリフレックスサイト。複数のレティクルを選択でき、様々な射撃状況に対応できる汎用性を持つ。オープンデザインと視差のない光学構造により、接近戦や戦術的な運用において素早い標的捕捉を可能にする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]BelOMO\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pilad_p1x42">
+		<text>Pilad P1x42</text>
+	</string>
+	<string id="st_addon_scope_pilad_p1x42_descr">
+		<text>耐久性に優れた密閉型のリフレックスサイト。広い視野と明るいレッドドットレティクルを備え、民間用途から戦術運用まで幅広く対応する。ライフルやカービンに装着することで、安定したパフォーマンスを発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]VOMZ\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_1p87">
+		<text>PK-120 (1P87)</text>
+	</string>
+	<string id="st_addon_scope_1p87_descr">
+		<text>ロシア軍仕様のリフレックスサイトで、優れた耐久性と視認性の高さで知られている。状況が変化しやすい戦場で迅速に目標を狙えるように設計され、鮮明なレティクルによって近～中距離での精度を向上させることができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Valday\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_pilad_p4x32">
+		<text>Pilad P4x32</text>
+	</string>
+	<string id="st_addon_scope_pilad_p4x32_descr">
+		<text>中距離射撃時の精度を向上させる4倍スコープ。耐久性の高い設計と鮮明な光学性能を特徴とし、狩猟用ライフルやタクティカルライフルで広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]VOMZ\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_po4x34">
+		<text>PO4x34</text>
+	</string>
+	<string id="st_addon_scope_po4x34_descr">
+		<text>ソ連時代の固定4倍率スコープで、距離計付きのレティクルが特徴。マークスマンライフル用に設計され、中距離戦闘において安定した精度を発揮する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsKIB SOO\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_valday_ps320">
+		<text>PS-320</text>
+	</string>
+	<string id="st_addon_scope_valday_ps320_descr">
+		<text>先進的なイルミネーションレティクルと頑丈な設計を特徴とする高性能なロシア製光学照準器。戦術作戦向けに最適化されており、様々な照明条件下で標的の視認性を向上させる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Valday\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x／6.0x\n
+		%c[d_cyan] • %c[pda_white]LED切り替え可能\n
+		</text>
+	</string>
+	<string id="st_addon_scope_burris_tac30">
+		<text>TAC30 1-4x24</text>
+	</string>
+	<string id="st_addon_scope_burris_tac30_descr">
+		<text>1～4倍の倍率調整が可能な汎用性の高いLPVO（低倍率可変光学スコープ）。近～中距離の射撃に適しており、素早い標的捕捉と精密な射撃を可能にする。戦術射撃や競技射撃の分野で高く評価されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Burris\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 4.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_romeo4">
+		<text>ROMEO4 リフレックスサイト</text>
+	</string>
+	<string id="st_addon_scope_romeo4_descr">
+		<text>動的な射撃状況において素早い標的捕捉を可能にする高性能なレッドドットサイト。動作検知式の照明機能と耐久性の高い設計を備え、戦術運用からスポーツ射撃まで幅広く対応する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_romeo8">
+		<text>ROMEO8T リフレックスサイト</text>
+	</string>
+	<string id="st_addon_scope_romeo8_descr">
+		<text>広い視野と複数のレティクルオプションを備えた軍用グレードのリフレックスサイト。過酷な環境にも耐えうる設計で、プロのオペレーターに迅速かつ正確な照準を可能にする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SIG Sauer\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_acro">
+		<text>ACRO P-1 リフレックスサイト</text>
+	</string>
+	<string id="st_addon_scope_acro_descr">
+		<text>コンパクトな密閉型のレッドドットサイト。拳銃やライフル向けに設計され、優れた耐久性と長寿命バッテリーを備えている。実戦、護身、競技射撃に最適な選択肢となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スウェーデン\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Aimpoint\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_specter_hco">
+		<text>Specter HCO ホロサイト</text>
+	</string>
+	<string id="st_addon_scope_specter_hco_descr">
+		<text>軍や法執行機関向けに設計された高性能ホログラフィックサイト。優れた耐久性と鮮明なイルミネーションレティクルを備え、近接戦闘から中距離戦闘まで迅速な標的捕捉を可能にする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Raytheon ELCAN Optical Technologies\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_monstrum_2x32">
+		<text>コンパクトプリズムスコープ 2x32</text>
+	</string>
+	<string id="st_addon_scope_monstrum_2x32_descr">
+		<text>コンパクトな2倍率のプリズムスコープ。32mmの対物レンズを備え、近～中距離での迅速な標的捕捉を可能にする。ガラスプリズムを採用した光学設計により、鮮明な視界を確保しつつ、耐久性と軽量性を両立している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Monstrum Tactical\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]2.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_trihawk_3x30">
+		<text>Trihawk プリズムスコープ 3x30</text>
+	</string>
+	<string id="st_addon_scope_trihawk_3x30_descr">
+		<text>広い視野とイルミネーションレティクルを備えた頑丈な3倍プリズムスコープ。素早い標的捕捉と高い耐久性を兼ね備え、戦術運用からスポーツ射撃まで幅広く対応する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]SwampFox Optics\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_ncstar_ado">
+		<text>ADO P4 スナイパースコープ 3-9x42</text>
+	</string>
+	<string id="st_addon_scope_ncstar_ado_descr">
+		<text>可変倍率スコープにレッドドットサイトを統合したモデル。精密射撃向けに設計されており、近距離から長距離まで幅広い状況に対応できる高い汎用性を持つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]NcSTAR\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0 - 9.0x\n
+		</text>
+	</string>
+	<string id="st_addon_scope_vulcan">
+		<text>Vulcan MG 3.5x Bravo ナイトビジョンスコープ</text>
+	</string>
+	<string id="st_addon_scope_vulcan_descr">
+		<text>3.5倍の倍率を備えたナイトビジョンスコープ。暗闇での戦術的な作戦や偵察任務を目的として設計され、先進的な画像処理技術により、遠距離での標的検出と射撃精度が向上している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Armasight\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.5x\n
+		</text>
+	</string>
+</string_table>

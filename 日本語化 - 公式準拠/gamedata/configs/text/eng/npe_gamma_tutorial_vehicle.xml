@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_vehicle">
+        <text>車両のチュートリアル</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_title">
+        <text>G.A.M.M.A. Tutorials</text>
+    </string>
+
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_desc">
+        <text>車両</text>
+    </string>
+	
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle">
+        <text>G.A.M.M.A. Vehicle</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_vehicle_title">
+        <text>車両のチュートリアル</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_vehicle_card_01_title">
+        <text>車両の操作方法
+		</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_vehicle_card_01_description">
+        <text>%c[ui_white]• 車両が配置されている地域
+\nダークスケープ、ジュピター、ザトン、チョルノービリ原発に点在する。
+\n車両を他のマップへ移動させることはできない。
+
+\n\n• 車両の乗り方
+\n近づいて「使用」キー（デフォルト: F）を押すと搭乗できる。
+\n使用可能な車両（車・トラック・トラクターなど）であることが条件。
+
+\n\n• 操作方法
+\n「検出器」キー（デフォルト: 6）でエンジンを始動。
+\n「ヘッドランプ」キー（デフォルト: L）でライトを点灯。
+\n燃料管理はないが、ダメージが蓄積すると爆発の危険がある。
+\n車両を遮蔽物として使うのは避けたほうがいいだろう。
+
+\n\n• 注意事項
+\n運転中にアノマリーへ突入すれば、まず助からない。十分に注意すること。
+		</text>
+    </string>
+    <!-- 1 -->
+</string_table>

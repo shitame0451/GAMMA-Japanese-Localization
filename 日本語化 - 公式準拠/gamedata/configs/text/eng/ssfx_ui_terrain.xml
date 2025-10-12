@@ -1,0 +1,88 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 22
+- @ Description: Terrain - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_terrain">
+		<text>地形</text>
+	</string>
+
+	<!-- Terrain Settings -->
+	<string id="ui_mcm_ssfx_module_terrain_title">
+		<text>Terrain Settings</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_distance_mcm">
+		<text>レンダリング品質</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_distance_mcm_desc">
+		<text>高品質な地形描画の最大距離を調整します。</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_quality_mcm">
+		<text>視差効果の品質</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_quality_mcm_desc">
+		<text>視差効果の品質を設定します。高い設定では結果を滑らかにするためのサンプル数が増加します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_refine_mcm">
+		<text>視差効果の繊細化</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_refine_mcm_desc">
+		<text>視差効果を改善するための繊細化の工程を追加します。このオプションを有効にすることで、パフォーマンスを犠牲に視差効果の品質を向上させることができます。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_range_mcm">
+		<text>視差効果の距離</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_range_mcm_desc">
+		<text>視差効果の最大描画距離を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_height_mcm">
+		<text>視差効果の高さ</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_height_mcm_desc">
+		<text>視差効果の高さの最大値を調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_water_level_mcm">
+		<text>視差の水位</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_pom_water_level_mcm_desc">
+		<text>水たまりの深さの最大値を調整します。</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_align_mcm">
+		<text>草の地形整列（マップの再読み込みが必要）</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_align_mcm_desc">
+		<text>草を地形の傾斜に沿わせます。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_slope_mcm">
+		<text>草の傾斜制限（マップの再読み込みが必要）</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_terrain_grass_slope_mcm_desc">
+		<text>この値を超える角度の地形では、草を配置しないようにします。</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_ithacam37">
+		<text>Ithaca M37 «Riot»</text>
+	</string>
+	<string id="st_wpn_ithacam37_descr">
+		<text>警察や軍、一般市民向けに設計され、史上最も長く生産され続けたアメリカを代表するポンプアクションショットガン。この銃は排莢口と装填口を兼ね備えた斬新な構造を底部に備えており、側面は密閉されているのが特徴。«Riot»は、短縮された銃身とピストルグリップを備えたものであり、標準的なM37として広く認識されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Ithaca Gun Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_trench">
+		<text>Ithaca M37 «Trenchgun»</text>
+	</string>
+	<string id="st_wpn_ithacam37_trench_descr">
+		<text>警察や軍、一般市民向けに設計され、史上最も長く生産され続けたアメリカを代表するポンプアクションショットガン。この銃は排莢口と装填口を兼ね備えた斬新な構造を底部に備えており、側面は密閉されているのが特徴。«Trenchgun»には、銃身に銃剣を取り付けるためのバヨネットラグと、銃器の冷却を助けるためのヒートシールドが含まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Ithaca Gun Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_extmag">
+		<text>Ithaca M37 «Defense»</text>
+	</string>
+	<string id="st_wpn_ithacam37_extmag_descr">
+		<text>警察や軍、一般市民向けに設計され、史上最も長く生産され続けたアメリカを代表するポンプアクションショットガン。この銃は排莢口と装填口を兼ね備えた斬新な構造を底部に備えており、側面は密閉されているのが特徴。«Defense»は7発の弾薬を装填可能で、軽量化と信頼性向上のために素材を木からポリマーへ変更し、ステンレススチール仕上げになっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Ithaca Gun Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_stakeout">
+		<text>Ithaca M37 «Stakeout»</text>
+	</string>
+	<string id="st_wpn_ithacam37_stakeout_descr">
+		<text>警察や軍、一般市民向けに設計され、史上最も長く生産され続けたアメリカを代表するポンプアクションショットガン。この銃は排莢口と装填口を兼ね備えた斬新な構造を底部に備えており、側面は密閉されているのが特徴。«Stakeout»は短縮された330mmの銃身とピストルグリップ型のストックが特徴。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Ithaca Gun Company\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ithacam37_sawnoff">
+		<text>Ithaca M37（ソードオフ）</text>
+	</string>
+	<string id="st_wpn_ithacam37_sawnoff_descr">
+		<text>警察や軍、一般市民向けに設計され、史上最も長く生産され続けたアメリカを代表するポンプアクションショットガン。この銃は排莢口と装填口を兼ね備えた斬新な構造を底部に備えており、側面は密閉されているのが特徴。この個体は軽量化のため、ストックが切り詰められている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Ithaca Gun Company\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_wpn_vihrn">
+		<text>SR-3M Vikhr</text>
+	</string>
+	<string id="st_wpn_vihrn_descr">
+		<text>SR-3M Vikhr（ロシア語で「つむじ風」を意味する）は、サプレッサーを搭載したAS Valアサルトライフルをベースとし、特殊VIP保護チームや国家安全保障の工作員による隠匿携帯を目的として、SR-3、AS VAL、VSS Vintorezの特性を組み合わせたもの。SR-3Mはマガジンが大型化されたことで、オートマチック射撃時の給弾がより確実に行われるようになった。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n
+		</text>
+	</string>
+</string_table>

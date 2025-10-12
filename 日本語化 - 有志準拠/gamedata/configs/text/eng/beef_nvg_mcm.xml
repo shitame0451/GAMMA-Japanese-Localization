@@ -1,0 +1,168 @@
+<!-- 
+	Anomaly Modconfiguration Menu strings
+	
+-->
+
+<string_table>
+
+	<string id="ui_mcm_beef_nvg_title">
+		<text>Beef's NVG Settings</text>
+	</string>	
+	
+	<string id="ui_mcm_beef_nvg_title_2">
+		<text>Shader Based 2D Scopeとの互換性</text>
+	</string>	
+	
+	<string id="ui_mcm_menu_beef_nvg">
+		<text>Beef's NVG</text>
+	</string>
+
+
+	<string id="ui_mcm_beef_nvg_nvg_gain_max_mcm">
+		<text>NVGに適用可能な最大ゲイン</text>
+	</string>
+	<string id="ui_mcm_beef_nvg_nvg_gain_max_mcm_desc">
+		<text>値を高くすると、より多くの“明るさ”が得られますが、最終的には上限が設定されます。真夜中のcloudly_dark_2天候に基づいてこれを設定することをおすすめします。</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_min_mcm">
+		<text>NVGに適用可能な最小ゲイン</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_min_mcm_desc">
+		<text>低い値では、NVGをより小さくすることができます。非常に低い値では、日中もNVGを使用することができます。</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_offset_mcm">
+		<text>ワールドの輝度に適用されるオフセット</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gain_offset_mcm_desc">
+		<text>1.0は世界の明るさをそのまま、それ以上の値はワールドの明るさを倍増させます（光源は倍増しません）。</text>
+	</string>
+
+
+	<string id="ui_mcm_beef_nvg_nvg_washout_thresh_mcm">
+		<text>光源ウォッシュアウトのしきい値</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_washout_thresh_mcm_desc">
+		<text>一般的には0.1を維持することをおすすめしますが、光源でのウォッシュアウトを若干減らすために増やすことができます。
+		この値はNVGのゲインに比例し、高いゲインはより多くのウォッシュアウトを、低いゲインはより少ないウォッシュアウトを持つようになります。</text>
+	</string>
+	
+	
+	<string id="ui_mcm_beef_nvg_nvg_view_through_scope_mcm">
+		<text>ADS中にNVGを使用可能</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_view_through_scope_mcm_desc">
+		<text>このボックスをオンにすると、ADS中にNVGをオンにしたままにすることができます。チェックを外すと、銃を構えている間、NVGは無効となります。</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_stays_pda_mcm">
+		<text>PDA閲覧時にNVGをつけたままにする</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_stays_pda_mcm_desc">
+		<text>このボックスのチェックが外れていると、PDAを見るときにNVGが自動的に無効になります。</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_tubes_mcm">
+		<text>Gen 1 チューブのセットアップ: (初期値=シングルチューブセンター)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_tubes_mcm_desc">
+		<text>Gen 1 NVGのチューブの本数を選択します。</text>
+	</string>
+
+	<string id="ui_mcm_beef_nvg_nvg_gen2_tubes_mcm">
+		<text>Gen 2 チューブのセットアップ: (初期値=デュアルチューブセンター)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen2_tubes_mcm_desc">
+		<text>Gen 2 NVGのチューブの本数を選択します。</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_tubes_mcm">
+		<text>Gen 3 チューブのセットアップ: (初期値=クアッドチューブセンター)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_tubes_mcm_desc">
+		<text>Gen 3 NVGのチューブの本数を選択します。</text>
+	</string>
+
+	
+	<string id="ui_mcm_lst_single_centered">
+		<text>シングルチューブ、センター</text>
+	</string>
+	
+	<string id="ui_mcm_lst_single_left">
+		<text>シングルチューブ、左</text>
+	</string>
+	
+	<string id="ui_mcm_lst_single_right">
+		<text>シングルチューブ、右</text>
+	</string>
+	
+	<string id="ui_mcm_lst_dual_centered">
+		<text>デュアルチューブ、センター</text>
+	</string>
+	
+	<string id="ui_mcm_lst_quad_centered">
+		<text>クアッドチューブ、センター</text>
+	</string>
+	
+	
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_mode_mcm">
+		<text>Gen 1 オーバーレイの背景: (初期値=オーバーレイなし)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen1_mode_mcm_desc">
+		<text>どのような背景のオーバーレイを使用するかを選択します。</text>
+	</string>
+
+	<string id="ui_mcm_beef_nvg_nvg_gen2_mode_mcm">
+		<text>Gen 2 オーバーレイの背景: (初期値=ぼかしオーバーレイ)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen2_mode_mcm_desc">
+		<text>どのような背景のオーバーレイを使用するかを選択します。</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_mode_mcm">
+		<text>Gen 3 オーバーレイの背景: (初期値=ぼかしオーバーレイ)</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_nvg_gen3_mode_mcm_desc">
+		<text>どのような背景のオーバーレイを使用するかを選択します。</text>
+	</string>
+	
+	
+	<string id="ui_mcm_lst_blurred_background">
+		<text>ぼかしオーバーレイ</text>
+	</string>
+	
+	<string id="ui_mcm_lst_black_background">
+		<text>黒背景</text>
+	</string>
+	
+	<string id="ui_mcm_lst_image_overlay">
+		<text>(未実装) 画像オーバーレイ</text>
+	</string>
+	
+	<string id="ui_mcm_lst_clear_vision">
+		<text>オーバーレイなし（鮮明な視界）</text>
+	</string>
+	
+	
+	<string id="ui_mcm_beef_nvg_shader_scope_compat">
+		<text>Shader Based 2D Scopeとの互換性</text>
+	</string>
+	
+	<string id="ui_mcm_beef_nvg_shader_scope_compat_desc">
+		<text>Shader Based 2D Scopesを使用している場合は、このボックスにチェックを入れる必要があります。そうでない場合は、このボックスをチェックしないでください。</text>
+	</string>
+	
+</string_table>

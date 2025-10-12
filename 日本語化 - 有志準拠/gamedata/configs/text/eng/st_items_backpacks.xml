@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_itm_backpack_name">
+    <text>バックパック</text>
+  </string>
+  <string id="st_itm_backpack_desc">
+    <text>厳しい気象条件にも耐えられる耐久性のある素材で作られたバックパック。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n \n
+		</text>
+  </string>
+  <string id="st_equ_smallpack_name">
+    <text>キャンピング バックパック</text>
+  </string>
+  <string id="st_equ_smallpack_desc">
+    <text>このバックパックは広い保管スペースがあり、内側は防水加工が施されている。ストーカーや初心者の間では一定の人気がある。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n \n
+		</text>
+  </string>
+  <string id="st_equ_smilpack_name">
+    <text>トラベル バックパック</text>
+  </string>
+  <string id="st_equ_smilpack_desc">
+    <text>長旅用の大きなバックパック。重量配分システムのおかげで、着用者はより多くの物資や装備を運ぶことができる。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n \n
+		</text>
+  </string>
+  <string id="st_equ_milpack_name">
+    <text>軍用バックパック</text>
+  </string>
+  <string id="st_equ_milpack_desc">
+    <text>この戦闘用のバックパックは主に軍で使用されている。弾薬や医薬品を保管するスペースが十分ある。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n \n
+		</text>
+  </string>
+  <string id="st_equ_touristpack_name">
+    <text>旅人用バックパック</text>
+  </string>
+  <string id="st_equ_touristpack_desc">
+    <text>たくさんの収納スペースがある旅行者用バックパック。扱いにくい大きさのため、あまり使われていない。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n \n
+		</text>
+  </string>
+  <string id="st_kit_hunt">
+    <text>狩猟用キット</text>
+  </string>
+  <string id="st_kit_hunt_descr">
+    <text>ミュータントの解体に特化したフックやナイフなどが詰まったツールバッグ。用途に応じた多様な道具が揃っており、皮を剥ぐ際に追加のミュータントの部位を回収できる。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+    %c[d_orange] • %c[pda_white]ミュータントから得られる身体部位の数が増える\n \n
+		</text>
+  </string>
+  <string id="st_itm_actor_backpack_name">
+    <text>クイックリリースシステム</text>
+  </string>
+  <string id="st_itm_actor_backpack_descr">
+    <text>予期せぬ事態に備え、ストーカーたちに重宝されている装備。どんな状況でも瞬時にバックパックを取り外せる。\nキーを押すと作動し、その場にバックパックを落とす。\n \n
+  	%c[pda_white]特性:\n
+  	%c[d_cyan] • %c[pda_white]GPS内蔵\n
+  	%c[d_cyan] • %c[pda_white]戦闘用の装備は手元に残る\n
+    %c[d_cyan] • %c[pda_white]補足: %c[ui_gray_1]装備中の武器、弾薬、スーツとアタッチメント、PDAは手元に残るため、\n一瞬で戦闘に備えることができる。\n
+	</text>
+  </string>
+  <string id="st_itm_actor_backpack_desc_mlr">
+    <text>不測の事態に備えてストーカーたちがよく使用する装備。どんな状況でも瞬時にバックパックを取り外すことができる。\nキーを押すと作動し、バックパックをその場に落とす。\n \n
+    %c[pda_white]特性:\n
+    %c[d_cyan] • %c[pda_white]GPS内蔵\n
+    %c[d_cyan] • %c[pda_white]戦闘用の装備は手元に残る\n
+    %c[d_cyan] • %c[pda_white]補足: %c[ui_gray_1]装備中の武器、弾薬、スーツとアタッチメント、PDAは手元に残るため、\n一瞬で戦闘に備えることができる。\n
+    </text>
+  </string>
+  <string id="st_itm_backpack_stash_name">
+    <text>GPS内蔵バックパック</text>
+  </string>
+  <string id="st_itm_backpack_stash_desc">
+    <text>GPSデバイスを搭載した非常に丈夫なバックパック。設置すると自動的にPDAと同期し、マップに位置が表示される。バックパックは丈夫で耐久性のある素材でできており、設置した場所の環境に左右される事がない。さらに、迷彩が施されているため目立ちにくい。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]GPS内蔵\n
+		</text>
+  </string>
+</string_table>

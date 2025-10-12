@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	SORTER
+-->
+
+<string_table>
+
+	<string id="st_ui_craft_furniture">
+		<text>隠れ家の設備</text>
+	</string>
+
+</string_table>

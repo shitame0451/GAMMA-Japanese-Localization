@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>	
+    <string id="ui_mcm_menu_aol_hf">
+        <text>Hideout Furniture</text>
+    </string>
+
+	<!-- Controls -->
+	<string id="ui_mcm_menu_controls">
+		<text>コントロール</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_controls_bind_collision">
+		<text>衝突判定の切り替え</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_controls_bind_alignment">
+		<text>アライメントモードの切り替え: プレーヤー、平面</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_controls_bind_place_mode">
+		<text>配置モードの切り替え: ノーマル、アドバンス、プレビュー</text>
+	</string>
+
+	<!-- Gameplay -->
+	<string id="ui_mcm_menu_gameplay">
+		<text>ゲームプレイ</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_gameplay_uniform_trade_profiles">
+		<text>統一されたトレードプロファイルを使用する</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_gameplay_use_ingame_time">
+		<text>ライトがゲーム内時間を表示する</text>
+	</string>
+
+	<!-- World Objects -->
+	<string id="ui_mcm_menu_world_obj">
+		<text>ワールドオブジェクト</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_world_obj_flag_record_on_place">
+		<text>配置時にオブジェクトを記録する</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_world_obj_flag_record_on_keypress">
+		<text>キー操作によるオブジェクトの記録を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_world_obj_bind_record">
+		<text>オブジェクトを記録する</text>
+	</string>
+
+	<!-- Debug -->
+	<string id="ui_mcm_menu_debug">
+		<text>デバッグ</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_debug_bind_creative_mode">
+		<text>クリエイティブモード</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_debug_location_offset">
+		<text>位置オフセット</text>
+	</string>
+
+	<string id="ui_mcm_aol_hf_update_mcm">
+		<text>キー設定を設定するにはMCMを更新してください。\n衝突判定の切り替えにはTAB、配置の切り替えにはCAPS LOCKがデフォルトで設定されています。</text>
+	</string>
+</string_table>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+    
+<!--
+M1A1
+-->
+
+	<string id="st_mag_m1a1_11.43x23_fmj">
+		<text>M1A1用スティックマガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_m1a1_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_1921_11.43x23_fmj">
+		<text>1921用ドラムマガジン（.45ACP）</text>
+	</string>
+	<string id="st_mag_1921_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+	
+</string_table>

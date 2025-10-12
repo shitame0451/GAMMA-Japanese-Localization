@@ -1,0 +1,75 @@
+-- TB_RF_Receiver_Packages.script
+
+-- ===================================================================
+--  tb_radio_thing （支援物資の生成メッセージ）
+--  db.actor.give_game_newsにフック
+-- ===================================================================
+local original_tb_radio_thing = tb_rf_receiver_packages.tb_radio_thing
+
+tb_rf_receiver_packages.tb_radio_thing = function(...)
+	local backup = db.actor.give_game_news
+
+	db.actor.give_game_news = function(self, title, msg, sender, unk, duration, ...)
+		local jp_can_be_found = game.translate_string("tb_package_can_be_found")	-- 支援物資は
+		local jp_use_rf = game.translate_string("tb_use_rf_on_freq")				-- だ。RF受信機の周波数を
+		local jp_mhz_to_search = game.translate_string("tb_mhz_to_search")			-- MHzに設定して探索せよ。
+
+		if msg and msg:find(jp_can_be_found) then
+			-- 元のメッセージ: "支援物資は [場所] [マップ]だ。RF受信機の周波数を [数字]MHzに設定して探索せよ。"
+			-- 置換後: "支援物資は[マップ][場所]だ。RF受信機の周波数を[数字]MHzに設定して探索せよ。"
+			msg = msg:gsub(
+				jp_can_be_found .. " *(.-) +(.-)" .. jp_use_rf .. " *(%d+)" .. jp_mhz_to_search,
+				jp_can_be_found .. "%2%1" .. jp_use_rf .. "%3" .. jp_mhz_to_search
+			)
+		end
+
+		return backup(self, title, msg, sender, unk, duration, ...)
+	end
+
+	local ok, result = pcall(original_tb_radio_thing, ...)
+
+	db.actor.give_game_news = backup
+
+	if not ok then
+		--printf("[RF PATCH ERROR] tb_radio_thing failed: %s", tostring(result))
+		return
+	end
+	return result
+end
+
+-- ===================================================================
+--  remindaboutpackage （支援物資のリマインダーメッセージ）
+--  db.actor.give_game_newsにフック
+-- ===================================================================
+local original_remindaboutpackage = tb_rf_receiver_packages.remindaboutpackage
+
+tb_rf_receiver_packages.remindaboutpackage = function(...)
+	local backup = db.actor.give_game_news
+
+	db.actor.give_game_news = function(self, title, msg, sender, unk, duration, ...)
+		local jp_dont_forget = game.translate_string("tb_dont_forget")	-- にある支援物資を忘れるなよ。
+		local jp_freq_was_on = game.translate_string("tb_freq_was_on")	-- 周波数を
+		local jp_the_mhz = game.translate_string("tb_the_mhz")			-- MHzに設定して探索せよ。
+
+		if msg and msg:find(jp_dont_forget) then
+			-- 元のメッセージ: "にある支援物資を忘れるなよ。 [場所] [マップ]周波数を [数字]MHzに設定して探索せよ。"
+			-- 置換後: "[マップ][場所]にある支援物資を忘れるなよ。周波数を[数字]MHzに設定して探索せよ。"
+			msg = msg:gsub(
+				jp_dont_forget .. " *(.-) +(.-)" .. jp_freq_was_on .. " *(%d+)" .. jp_the_mhz,
+				"%2%1" .. jp_dont_forget .. jp_freq_was_on .. "%3" .. jp_the_mhz
+			)
+		end
+
+		return backup(self, title, msg, sender, unk, duration, ...)
+	end
+
+	local ok, result = pcall(original_remindaboutpackage, ...)
+
+	db.actor.give_game_news = backup
+
+	if not ok then
+		--printf("[RF PATCH ERROR] remindaboutpackage failed: %s", tostring(result))
+		return
+	end
+	return result
+end

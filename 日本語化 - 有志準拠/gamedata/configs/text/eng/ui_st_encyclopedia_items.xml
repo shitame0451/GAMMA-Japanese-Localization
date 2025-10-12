@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="encyclopedia_items">
+		<text>アイテム</text>
+	</string>
+	
+	<string id="encyclopedia_items_pda">
+		<text>PDA</text>
+	</string>
+	<string id="encyclopedia_items_pda_text">
+		<text>
+		%c[pda_white]「PDA」%c[ui_gray_1]
+		\n携帯情報端末は、コンピュータの基本的かつ最も重要な機能を包含することを目的としたポケットサイズの電子機器である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nPDAは日々の情報共有に欠かせない。そのため、ゾーン内のストーカーのほとんどがPDAを所有している。
+		\n \nGPSモジュールを搭載しており、位置情報や時間情報を得ることができる。PDAには、基本的な機能のほかに、ストーカーが簡単に通信できるローカルネットワークへのアクセスなど、多くの機能がある。また、FMラジオ受信機を搭載しており、地元のラジオ局を視聴することができる。
+		\n \n%c[pda_white] • %c[ui_gray_1]1秒あたり%c[pda_white]0.1mAh%c[ui_gray_1]の電力を消費する。改良版では、より高い消費電力となる。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_upd">
+		<text>ユニバーサルパワーデバイス</text>
+	</string>
+	<string id="encyclopedia_items_itm_upd_text">
+		<text>
+		%c[pda_white]「ユニバーサルパワーデバイス」%c[ui_gray_1]
+		\n小型トランシーバーほどの大きさの電源ユニットである。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nUPDは、マイクロワイヤーを通して電子機器に電力を供給する。これは構造の複雑さや使用年数に関係なく、あらゆる機器に接続できる。たとえバッテリーを1つしか持っていなくても、多数の電子機器を使用し操作することを可能にする。
+		\n \nすべての電子機器はUPDから電力を消費すし、その消費電力量は機器によって異なる。UPDの充電がなくなると、接続されているすべての電子機器が動作しなくなる。
+		\n \n%c[pda_white] • %c[ui_gray_1]UPDの総電力容量は3Ahである。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_basickit">
+		<text>ベーシックツール</text>
+	</string>
+	<string id="encyclopedia_items_itm_basickit_text">
+		<text>
+		%c[pda_white]「ベーシックツール」%c[ui_gray_1]
+		\n基本的な装備や電子機器、スーツのアップグレード部品の製作に使用できる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n高度なメンテナンスには向いていないが、倹約家の技術者には役立つだろう。様々な種類とサイズのペンチ、ネジ、接着剤、各種ファスナーなどが入っている。
+		\n \n『サバイバルガイド』には基本的な装備やサバイバルキットについての情報が掲載されている。十分な知識があれば、倹約家のストーカーはこのキットを大いに活用することができる。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_advancedkit">
+		<text>アドバンスドツール</text>
+	</string>
+	<string id="encyclopedia_items_itm_advancedkit_text">
+		<text>
+		%c[pda_white]「アドバンスドツール」%c[ui_gray_1]
+		\nより優れた装備や電子機器、スーツのアップグレード部品の製作に使用できる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n高度なメンテナンスに適した工具セット。このキットには、プローブとピックのセット、そして小さなペンチや先のとがったピンセットが数本含まれている。
+		\n \n「機械工マニュアル」は機械工学に関する情報を集めたものである。十分な知識があれば、倹約家のストーカーはこのキットを大いに活用することができる。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_expertkit">
+		<text>エキスパートツール</text>
+	</string>
+	<string id="encyclopedia_items_itm_expertkit_text">
+		<text>
+		%c[pda_white]エキスパートツール%c[ui_gray_1]
+		\n高度な装備や電子機器、スーツのアップグレード部品の製作に使用できる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n機器を微調整するための高品質なツールを集めたプロ仕様のセットである。ドリルビットセット、精密ピンセット、はんだごて、4mmドライバービット、マルチメーターが含まれている。
+		\n \n「産業工学マニュアル」は、産業工学に関する情報を提供する。十分な知識があれば、倹約家のストーカーはこのキットを大いに活用することができる。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_drugkit">
+		<text>薬品製造ツール</text>
+	</string>
+	<string id="encyclopedia_items_itm_drugkit_text">
+		<text>
+		%c[pda_white]「薬品製造ツール」%c[ui_gray_1]
+		\n様々な種類の薬剤や薬を作ることができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nプラスチックのパッケージや錠剤、アンプルなどが入ったキット。薬物に関する十分な知識があれば、これらのキットを活用することができる。ドラッグレシピを持っている人には注意が必要である。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_itm_ammokit">
+		<text>ガンスミスツール</text>
+	</string>
+	<string id="encyclopedia_items_itm_ammokit_text">
+		<text>
+		%c[pda_white]「ガンスミスツール」%c[ui_gray_1]
+		\n弾薬を他の種類にリサイクルするために使用することができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nピンポンチセット、ハンマー、プレスツール、黒色火薬測定キットなどが含まれた、鉄砲鍛冶の道具とアクセサリーのセットである。
+		\n \n「弾薬の安全ガイド」では、様々な種類の弾薬についての情報と、カートリッジの基本的な構成要素についての詳細な見解を提供している。十分な知識があれば、倹約家のストーカーはこのキットを大いに活用することができる。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_kit_hunt">
+		<text>狩猟用キット</text>
+	</string>
+	<string id="encyclopedia_items_kit_hunt_text">
+		<text>
+		%c[pda_white]「狩猟用キット」%c[ui_gray_1]
+		\n所持していると、ミュータントから得られる身体部位の数が増える。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n動物やミュータントの皮を剥いだり、内臓を取り出したりするためのフックやナイフなどの道具がバッグいっぱいに入っている。武器やアーマーのメンテナンスを効率的に行うための道具も充実している。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_fieldcooker">
+		<text>マルチ燃料ストーブ</text>
+	</string>
+	<string id="encyclopedia_items_fieldcooker_text">
+		<text>
+		%c[pda_white]「マルチ燃料ストーブ」%c[ui_gray_1]
+		\nミュータントの肉を調理することができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nガスストーブは非常に頑丈で信頼性が高く、過酷な状況、極端な高度、低温と高温の両方に対応できるように設計されており、ほとんどすべての種類の燃料で使用することができる。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n高温を必要としない調理法で調理されたミュータント肉は「低レベル」、高温を必要とするものは「高レベル」と区分される。
+		\n \n%c[pda_white] • %c[ui_gray_1]使用回数の制限なし（燃料がある限り）
+		\n%c[pda_white] • %c[ui_gray_1]あらゆる種類の肉を調理することができる
+		\n%c[pda_white] • 使用可能な燃料: %c[ui_gray_1]ジェリカン、ガスボンベ
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_cooking">
+		<text>野外調理キット</text>
+	</string>
+	<string id="encyclopedia_items_cooking_text">
+		<text>
+		%c[pda_white]「野外調理キット」%c[ui_gray_1]
+		\nミュータントの肉を調理することができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n旅行用の野外調理キット。キャンプや旅行に使用する調理器具や小物が入っている。重くて扱いにくい。
+		\n木炭はゾーンで安価に入手可能で比較的軽いため、ゾーン深部への旅には向いている。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n高温を必要としない調理法で調理されたミュータント肉は「低レベル」、高温を必要とするものは「高レベル」と区分される。
+		\n \n%c[pda_white] • 最大使用回数: %c[ui_gray_1]3
+		\n%c[pda_white] • 使用可能な燃料: %c[ui_gray_1]木炭
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_army_bowler">
+		<text>軍用飯ごう</text>
+	</string>
+	<string id="encyclopedia_items_army_bowler_text">
+		<text>
+		%c[pda_white]「軍用飯ごう」%c[ui_gray_1]
+		\nミュータントの肉を調理することができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n食材を加熱するのに便利な飯ごう。蓋に付いている取っ手はフライパンとしても使えるように設計されている。また、取っ手の特殊な穴にはスプーンが差し込めるようになっている。
+		\n木炭はゾーンで安価に入手可能で比較的軽いため、ゾーン深部への旅には向いている。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n高温を必要としない調理法で調理されたミュータント肉は「低レベル」、高温を必要とするものは「高レベル」と区分される。
+		\n \n%c[pda_white] • 最大使用回数: %c[ui_gray_1]7
+		\n%c[pda_white] • 使用可能な燃料: %c[ui_gray_1]木炭、焚き火
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_geiger">
+		<text>ガイガーカウンター</text>
+	</string>
+	<string id="encyclopedia_items_detector_geiger_text">
+		<text>
+		%c[pda_white]「ガイガーカウンター」%c[ui_gray_1]
+		\n放射線量を測定する。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nガイガーカウンターは、電離（放射性）放射線を測定する装置。1908年に発明されたガイガーカウンターは、健康、物理学、産業、地質学などの分野の測定に使用される人気の高い技術品である。
+		\n \n%c[pda_blue]使用方法
+        \n%c[ui_gray_1]ガイガーカウンターには3つのモードがある:
+		\n%c[pda_white] • 動作中: %c[ui_gray_1]アイテムを手に持っている間、放射線量を表示する
+		\n%c[pda_white] • 常時: %c[ui_gray_1]アイテムがインベントリにあり、バッテリーが消耗していない限り、放射線量を常に表示する
+		\n%c[pda_white] • ボタン連動: %c[ui_gray_1]割り当てられているキーを押したときに放射線量を表示する「ゲーム設定→操作→キー設定」
+		\n%c[pda_white] • %c[ui_gray_1]1回の使用で%c[pda_white]0.1mAh%c[ui_gray_1]の電力を消費する。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_simple">
+		<text>エコー探知機</text>
+	</string>
+	<string id="encyclopedia_items_detector_simple_text">
+		<text>
+		%c[pda_white]「エコー探知機」%c[ui_gray_1]
+		\n近くにあるアーティファクトの位置を特定する機能を持つ電子機器である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの年代物のアノマリー探知機は異質な粒子がチャンバー内に入ると警報信号を発する。これによりアーティファクトの存在を探知し、最も近いアーティファクトまでの距離を測定することができる。距離は探知機が発する音の周波数で示される。
+		\n \n%c[pda_white] • %c[ui_gray_1]最も一般的なアーティファクトしか探知できない。
+		\n%c[pda_white] • %c[ui_gray_1]1秒あたり%c[pda_white]0.1mAh%c[ui_gray_1]の電力を消費する。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_advanced">
+		<text>ベアー探知機</text>
+	</string>
+	<string id="encyclopedia_items_detector_advanced_text">
+		<text>
+		%c[pda_white]「ベアー探知機」%c[ui_gray_1]
+		\n近くにあるアーティファクトの位置を特定する機能を持つ電子機器である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの最終世代のアノマリー探知機は、アーティファクトを見つけるために使用することができる。カラーダイオードパネルを備えており、アーティファクトの方向を示すだけでなく、アーティファクトまでの距離を測定することができる。本体の前面カバーを開けると、アーティファクト探知モードに切り替わる。残念ながら、この電子機器では、一部のアーティファクトしか探知できない。
+		\n \n%c[pda_white] • %c[ui_gray_1]多くの種類のアーティファクトを探知できるが、すべてではない。
+		\n%c[pda_white] • %c[ui_gray_1]1秒あたり%c[pda_white]0.15mAh%c[ui_gray_1]の電力を消費する。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_elite">
+		<text>ベルズ探知機</text>
+	</string>
+	<string id="encyclopedia_items_detector_elite_text">
+		<text>
+		%c[pda_white]「ベルズ探知機」%c[ui_gray_1]
+		\n近くにあるアーティファクトを正確に見つけることができる高度な電子機器である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n次世代の科学探知スキャナーである。近代化された3つの探知チャンバーにより、アーティファクトの位置が特別なディスプレイ画面に表示される。閉じた状態では、放射線とアノマリーだけを記録する。
+		\n \n%c[pda_white] • %c[ui_gray_1]多くの種類のアーティファクトを探知できるが、すべてではない。
+		\n%c[pda_white] • %c[ui_gray_1]1秒あたり%c[pda_white]0.15mAh%c[ui_gray_1]の電力を消費する。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_scientific">
+		<text>スヴァログ探知機</text>
+	</string>
+	<string id="encyclopedia_items_detector_scientific_text">
+		<text>
+		%c[pda_white]「スヴァログ探知機」%c[ui_gray_1]
+		\n近くにあるアーティファクトを正確に見つけることができる高度な電子機器である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n機能拡張された変則的な周波数スキャナーの試作機。この装置には、アーティファクトの位置を特定する機能はそのままに、データベースに保存された静的なアノマリー領域を特定するためのプログラムが搭載されている。アノマリーやアーティファクトの位置が専用画面に表示される。
+		\n \n%c[pda_white] • %c[ui_gray_1]現代科学では解明されていないアーティファクトを探知できる。
+		\n%c[pda_white] • %c[ui_gray_1]1秒あたり%c[pda_white]0.2mAh%c[ui_gray_1]の電力を消費する。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_gps_tracker">
+		<text>軍用GPSモジュール</text>
+	</string>
+	<string id="encyclopedia_items_gps_tracker_text">
+		<text>
+		%c[pda_white]「軍用GPSモジュール」%c[ui_gray_1]
+		\n近くにいるストーカーの位置を特定することができる。
+		\n%c[pda_green]情報%c[ui_gray_1]
+		\n次世代GPSナビゲーション機器の試作機で、数台しか作られていない。軍の最高階級にのみ配布されているが、一部は外部に流出している。この改良型モジュールは改良されたフレームワークと高感度センサーを特徴とし、劣悪な環境でも信頼性の高い動作を保証している。通常のGPSモジュールとは異なり、これはモジュールが接続されたネットワーク上で特別な権限を獲得することを可能にするコードセットに依存している。モジュール内部の自動切り替え回路は電力を節約するため、20秒間スキャンを続けると電源がオフになる。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n%c[pda_white] • スキャン時間: %c[ui_gray_1]20 秒
+		\n%c[pda_white] • スキャン半径: %c[ui_gray_1]300 m
+		\n \n%c[pda_white] • %c[ui_gray_1]1回の使用で%c[pda_white]0.25mAh%c[ui_gray_1]の電力を消費する。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_lead_box">
+		<text>アーティファクト完全隔離容器</text>
+	</string>
+	<string id="encyclopedia_items_lead_box_text">
+		<text>
+		%c[pda_white]「アーティファクト完全隔離容器」%c[ui_gray_1]
+		\nアーティファクトを保管し、完全に隔離するために使用される。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n金属製の箱に厚い壁と発泡スチロールを入れ、さらに圧力密閉機構を備えた重い蓋を付けたシンプルな容器である。放射性物質を輸送するために設計されたもので、ゾーンではアーティファクトの保管や輸送のために使用されることが多い。放射性物質の漏洩を完全に防ぐことができるため、アーティファクトを持ち歩く際の安全性を確保することができる。ただし、この装置はベルトに取り付けることができないため、アーティファクトの持つ良い特性も悪い特性も適用されない。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]売却する前に、容器からアーティファクトを取り出す必要がある。
+		\n%c[pda_white] • %c[ui_gray_1]容器にアイテムをドラッグ＆ドロップすると、アイテムが容器に収納される。
+		\n%c[pda_white] • 重量: %c[ui_gray_1]2.12 kg
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_af_iam">
+		<text>アーティファクト低レベル活用容器</text>
+	</string>
+	<string id="encyclopedia_items_af_iam_text">
+		<text>
+		%c[pda_white]「アーティファクト低レベル活用容器」%c[ui_gray_1]
+		\nアーティファクトを保管し、低レベルの放射線を遮蔽するために使用され、低レベルのアーティファクトであれば、使用者はベルトに安全に装備することができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nIAMは効果の低いアーティファクトの能力を利用するための最も安価な容器で、放出される放射線の一部を遮蔽する。より性能の高い容器の代替として使われる低コストの製品で、複数層の鉛で構成されている。アーティファクトを中に入れてベルトに取り付けることで、放射線出力の影響を軽減しながら、アーティファクトの恩恵を受けることができる。品質が低いため、ベータ粒子しか遮蔽することができない。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]売却する前に、容器からアーティファクトを取り出す必要がある。
+		\n%c[pda_white] • %c[ui_gray_1]容器にアイテムをドラッグ＆ドロップすると、アイテムが容器に収納される。
+		\n%c[pda_white] • 重量: %c[ui_gray_1]2.4 kg
+		\n%c[pda_white] • 最大許容放射線量: %c[ui_gray_1]7 mSv
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_af_aac">
+		<text>アーティファクト中レベル活用容器</text>
+	</string>
+	<string id="encyclopedia_items_af_aac_text">
+		<text>
+		%c[pda_white]「アーティファクト中レベル活用容器」%c[ui_gray_1]
+		\nアーティファクトを保管し、中レベルの放射線を遮蔽するために使用され、中レベルのアーティファクトであれば、使用者はベルトに安全に装備することができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nより強力なアーティファクトの能力を利用するための最もコストパフォーマンスに優れた容器で、放出される放射線を適度に遮蔽する。低レベル活用容器と高レベル活用容器の中間に位置する製品で、複数層の鉛と1層のトリウムで構成されている。アーティファクトを中に入れてベルトに取り付けることで、放射線出力の影響を軽減しながら、アーティファクトの恩恵を受けることができる。低レベル活用容器に比べ、ガンマ線も遮蔽することができる。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]売却する前に、容器からアーティファクトを取り出す必要がある。
+		\n%c[pda_white] • %c[ui_gray_1]容器にアイテムをドラッグ＆ドロップすると、アイテムが容器に収納される。
+		\n%c[pda_white] • 重量: %c[ui_gray_1]2.73 kg
+		\n%c[pda_white] • 最大許容放射線量: %c[ui_gray_1]12 mSv
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_af_aam">
+		<text>アーティファクト高レベル活用容器</text>
+	</string>
+	<string id="encyclopedia_items_af_aam_text">
+		<text>
+		%c[pda_white]「アーティファクト高レベル活用容器」%c[ui_gray_1]
+		\nアーティファクトを保管し、高レベルの放射線を遮蔽するために使用され、高レベルのアーティファクトであれば、使用者はベルトに安全に装備することができる。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n最も強力なアーティファクトの能力を利用するための高度な容器で、放出される放射線のほとんどを遮蔽する。複数層のナノカーボンで構成され、ゾーンではこれを所有することは富裕の証だと見なされている。アーティファクトを中に入れてベルトに取り付けることで、放射線出力の影響を軽減しながら、アーティファクトの恩恵を受けることができる。中レベル活用容器に比べ、中性子も遮蔽することができる。
+		\n \n%c[pda_blue]詳細%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]売却する前に、容器からアーティファクトを取り出す必要がある。
+		\n%c[pda_white] • %c[ui_gray_1]容器にアイテムをドラッグ＆ドロップすると、アイテムが容器に収納される。
+		\n%c[pda_white] • 重量: %c[ui_gray_1]3.06 kg
+		\n%c[pda_white] • 最大許容放射線量: %c[ui_gray_1]24 mSv
+		</text>
+	</string>
+	
+	<string id="encyclopedia_items_detector_radio">
+		<text>RF受信機</text>
+	</string>
+	<string id="encyclopedia_items_detector_radio_text">
+		<text>
+%c[pda_white]「RF受信機」%c[ui_gray_1]
+\n高感度のRFモジュールを搭載した小型機器で、基本的な通信に使用できる。
+
+\n \n%c[pda_green]情報%c[ui_gray_1]
+\n古い技術品であるにもかかわらず、兵士たちの間ではいまだに使用されている。
+\nこのデバイスは半径200m内の無線信号と通信する機能を持ち、1MHz~999MHzの範囲の周波数を処理することができる。
+
+\n \n%c[pda_blue]使用方法%c[ui_gray_1]
+\n受信機を装備し、手に持つことで周波数を調整できる。
+\n%c[pda_white] • %c[ui_gray_1]マウスの左クリックか、上スクロールで周波数が上がる
+\n%c[pda_white] • %c[ui_gray_1]マウスの右クリックか、下スクロールで周波数が下がる
+\n%c[pda_white] • %c[ui_gray_1]左Shiftキーを押しながら操作すると、周波数の増減幅が10Hzになる
+\n%c[pda_white] • %c[ui_gray_1]左Altキーを押しながら操作すると、周波数の増減幅が50Hzになる
+\n%c[pda_white] • %c[ui_gray_1]1秒あたり%c[pda_white]0.1uAh%c[ui_gray_1]の電力を消費する
+		</text>
+	</string>
+	
+</string_table>

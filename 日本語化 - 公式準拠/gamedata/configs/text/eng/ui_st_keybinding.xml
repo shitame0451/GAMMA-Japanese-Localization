@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="kb_grp_direction">
+    <text>方向</text>
+  </string>
+  <string id="kb_left">
+    <text>左を向く</text>
+  </string>
+  <string id="kb_right">
+    <text>右を向く</text>
+  </string>
+  <string id="kb_up">
+    <text>上を向く</text>
+  </string>
+  <string id="kb_down">
+    <text>下を向く</text>
+  </string>
+  <string id="kb_grp_movement">
+    <text>移動</text>
+  </string>
+  <string id="kb_forward">
+    <text>前に歩く</text>
+  </string>
+  <string id="kb_backward">
+    <text>後ろに歩く</text>
+  </string>
+  <string id="kb_left_strafe">
+    <text>左に並行移動</text>
+  </string>
+  <string id="kb_right_strafe">
+    <text>右に並行移動</text>
+  </string>
+  <string id="kb_jump">
+    <text>ジャンプ</text>
+  </string>
+  <string id="kb_crouch">
+    <text>しゃがむ</text>
+  </string>
+  <string id="kb_walk">
+    <text>歩く／伏せる</text>
+  </string>
+  <string id="kb_sprint">
+    <text>ダッシュ</text>
+  </string>
+  <string id="kb_left_lookout">
+    <text>左にリーン</text>
+  </string>
+  <string id="kb_right_lookout">
+    <text>右にリーン</text>
+  </string>
+  <string id="kb_freelook">
+    <text>フリールック</text>
+  </string>
+  <string id="kb_grp_weapons">
+    <text>武器</text>
+  </string>
+  <string id="kb_weapon1">
+    <text>武器1</text>
+  </string>
+  <string id="kb_weapon2">
+    <text>武器2</text>
+  </string>
+  <string id="kb_weapon3">
+    <text>武器3</text>
+  </string>
+  <string id="kb_weapon4">
+    <text>手榴弾</text>
+  </string>
+  <string id="kb_weapon5">
+    <text>双眼鏡</text>
+  </string>
+  <string id="kb_weapon6">
+    <text>ボルト</text>
+  </string>
+  <string id="kb_wpn_next">
+    <text>弾薬メニュー</text>
+  </string>
+  <string id="kb_next_slot">
+    <text>武器の切り替え（次）</text>
+  </string>
+  <string id="kb_prev_slot">
+    <text>武器の切り替え（前）</text>
+  </string>
+  <string id="kb_fire">
+    <text>撃つ</text>
+  </string>
+  <string id="kb_zoom">
+    <text>ズーム</text>
+  </string>
+  <string id="kb_reload">
+    <text>リロード</text>
+  </string>
+  <string id="kb_func">
+    <text>アンダーバレル グレネードランチャー</text>
+  </string>
+  <string id="kb_firemode_next">
+    <text>射撃モードの切り替え（次）</text>
+  </string>
+  <string id="kb_firemode_prev">
+    <text>射撃モードの切り替え（前）</text>
+  </string>
+  <string id="kb_suppressor">
+    <text>サプレッサーの着脱</text>
+  </string>
+  <string id="kb_grenade_throw">
+    <text>グレネードを即座に投げる</text>
+  </string>
+  <string id="kb_unload_all">
+    <text>インベントリ内のすべての銃から弾を抜く</text>
+  </string>
+  <string id="kb_lower_weapon">
+    <text>銃を下ろす／銃を構える</text>
+  </string>
+  <string id="kb_grp_inventory">
+    <text>インベントリ</text>
+  </string>
+  <string id="kb_inventory">
+    <text>インベントリ</text>
+  </string>
+  <string id="kb_torch">
+    <text>ヘッドランプ</text>
+  </string>
+  <string id="kb_detector">
+    <text>検出器／懐中電灯</text>
+  </string>
+  <string id="kb_night_vision">
+    <text>ナイトビジョン</text>
+  </string>
+  <string id="kb_geiger">
+    <text>ガイガーカウンター</text>
+  </string>
+  <string id="kb_mask_clean">
+    <text>防護マスクを掃除する</text>
+  </string>
+  <string id="kb_drop">
+    <text>アイテムを落とす</text>
+  </string>
+  <string id="kb_quick_use_1">
+    <text>クイックアクセス（1）</text>
+  </string>
+  <string id="kb_quick_use_2">
+    <text>クイックアクセス（2）</text>
+  </string>
+  <string id="kb_quick_use_3">
+    <text>クイックアクセス（3）</text>
+  </string>
+  <string id="kb_quick_use_4">
+    <text>クイックアクセス（4）</text>
+  </string>
+  <string id="kb_item_anim">
+    <text>アイテム使用アニメーションの有効化／無効化</text>
+  </string>
+  <string id="kb_grp_pda">
+    <text>PDA</text>
+  </string>
+  <string id="kb_active_jobs">
+    <text>PDA</text>
+  </string>
+  <string id="kb_scores">
+    <text>タスク情報を表示する</text>
+  </string>
+  <string id="kb_radio">
+    <text>ラジオの再生／停止</text>
+  </string>
+  <string id="kb_music_player">
+    <text>音楽プレイヤーの再生／停止</text>
+  </string>
+  <string id="kb_volume_up">
+    <text>音量を上げる</text>
+  </string>
+  <string id="kb_volume_down">
+    <text>音量を下げる</text>
+  </string>
+  <string id="kb_next_track">
+    <text>次のトラック</text>
+  </string>
+  <string id="kb_prev_track">
+    <text>前のトラック</text>
+  </string>
+  <string id="kb_switch_playlist">
+    <text>チャンネル／プレイリストの切り替え</text>
+  </string>
+  <string id="kb_grp_companions">
+    <text>同行NPC</text>
+  </string>
+  <string id="kb_companion_wheel">
+    <text>コマンドメニュー</text>
+  </string>
+  <string id="kb_companion_combat">
+    <text>戦闘モード</text>
+  </string>
+  <string id="kb_companion_movement">
+    <text>移動モード</text>
+  </string>
+  <string id="kb_companion_move">
+    <text>指定した位置に移動</text>
+  </string>
+  <string id="kb_companion_cover">
+    <text>援護モード</text>
+  </string>
+  <string id="kb_companion_loot">
+    <text>略奪モード</text>
+  </string>
+  <string id="kb_grp_common">
+    <text>全般</text>
+  </string>
+  <string id="kb_use">
+    <text>使う（インタラクト）</text>
+  </string>
+  <string id="kb_hud">
+    <text>HUDの表示／非表示</text>
+  </string>
+  <string id="kb_cam_1">
+    <text>一人称視点</text>
+  </string>
+  <string id="kb_cam_2">
+    <text>三人称視点（1）</text>
+  </string>
+  <string id="kb_cam_3">
+    <text>三人称視点（2）</text>
+  </string>
+  <string id="kb_cam_autoaim">
+    <text>三人称オートエイム</text>
+  </string>
+  <string id="kb_console">
+    <text>コンソール</text>
+  </string>
+  <string id="kb_debugger">
+    <text>デバッグメニュー</text>
+  </string>
+  <string id="kb_pause">
+    <text>一時停止</text>
+  </string>
+  <string id="kb_quit">
+    <text>取り消す／戻る</text>
+  </string>
+  <string id="kb_screenshot">
+    <text>スクリーンショット</text>
+  </string>
+  <string id="kb_contacts">
+    <text>PDAでのコンタクト</text>
+  </string>
+  <string id="kb_grp_multiplayer">
+    <text>マルチプレイヤー</text>
+  </string>
+  <string id="kb_map">
+    <text>マップ</text>
+  </string>
+  <string id="kb_pda">
+    <text>PDA</text>
+  </string>
+  <string id="kb_repair">
+    <text>修理する</text>
+  </string>
+  <string id="kb_skin_menu">
+    <text>モデル選択メニュー</text>
+  </string>
+  <string id="kb_team_menu">
+    <text>チーム選択メニュー</text>
+  </string>
+  <string id="kb_turn_engine">
+    <text>有効にする</text>
+  </string>
+  <string id="kb_use_bandage">
+    <text>包帯を使用する</text>
+  </string>
+  <string id="kb_use_medkit">
+    <text>医療キット使用する</text>
+  </string>
+  <string id="kb_vote_begin">
+    <text>投票開始</text>
+  </string>
+  <string id="kb_vote_menu">
+    <text>投票する</text>
+  </string>
+  <string id="kb_vote_no">
+    <text>「No」に投票</text>
+  </string>
+  <string id="kb_vote_yes">
+    <text>「Yes」に投票</text>
+  </string>
+  <string id="speech_menu_group">
+    <text>ボイスメッセージ（1）</text>
+  </string>
+  <string id="speech_menu_personal">
+    <text>ボイスメッセージ（2）</text>
+  </string>
+  <string id="kb_buy_menu">
+    <text>購入メニュー</text>
+  </string>
+  <string id="kb_chat">
+    <text>チャット</text>
+  </string>
+  <string id="kb_chat_team">
+    <text>チームチャット</text>
+  </string>
+  <string id="kb_crouch_toggle">
+    <text>しゃがみ状態の切り替え</text>
+  </string>
+  <string id="kb_wpn_prev">
+    <text>前の武器（同じタイプ）</text>
+  </string>
+  <string id="kb_alife_command">
+    <text>攻撃命令</text>
+  </string>
+  <string id="kb_artefact">
+    <text>アーティファクト</text>
+  </string>
+  <string id="kb_binoculars">
+    <text>双眼鏡</text>
+  </string>
+</string_table>

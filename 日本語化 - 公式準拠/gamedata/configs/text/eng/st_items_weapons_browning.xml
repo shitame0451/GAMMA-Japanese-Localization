@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+<!--UNUSED
+	<string id="st_wpn_browning_p35">
+		<text>Browning P-35</text>
+	</string>
+	<string id="st_wpn_browning_p35_descr">
+		<text>Browning Hi-Powerは、単発式9mmセミオートピストルだ。アメリカの銃器発明家ジョン・ブローニングのアイデアに基づいて1922年に作られ特許を取得、後にFN Herstalが特許を取得した。ブローニングは量産型の開発を終えることなく1926年に死去したが、FN社の兵器設計者ディウドンヌ・サイヴが全面的に開発した。Hi-Powerピストルは、LugerやMauser 1910のような同時代の設計の2倍である13発の弾倉容量で注目された。そのブルーイング仕上げとバレルサイトから、これがベルギー製のクラシックなオリジナルP-35であることは明らかだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー / アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Browning Arms / FN Herstal\n
+		%c[d_cyan] • %c[pda_white]年代: %c[ui_gray_1]1914\n
+		</text>
+	</string>
+
+	<string id="st_wpn_browning_mk3">
+		<text>Browning Hi-Power Mark III</text>
+	</string>
+	<string id="st_wpn_browning_mk3_descr">
+		<text>Browning Hi-Power Mark IIIは、1988年に製造された古典的なBrowning HPの近代化モデルだ。オーストラリア国防軍の標準支給銃でもある。大きな変更点は、オリジナルのBrowningには欠けていた信頼性が向上したこと、アイアンサイトが改良されたこと、アクションが改良されたこと、リコイルが改善されたことだ。ゾーンで言えば、この銃は古典的な銃であり、何でも屋だ。第1次チョルノービリ包囲戦以前は、ほぼすべての派閥がこの銃を使う傾向にあったが、第2次チョルノービリ包囲戦では不思議なことに、北への道への移動後に新しいサプリメントが登場するまで、驚くほどレアだった。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー / アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Browning Arms / FN Herstal\n
+		%c[d_cyan] • %c[pda_white]年代: %c[ui_gray_1]1988\n
+		</text>
+	</string>
+-->
+</string_table>

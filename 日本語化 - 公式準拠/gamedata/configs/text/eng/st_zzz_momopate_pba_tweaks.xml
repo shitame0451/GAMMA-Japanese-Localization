@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<string_table>
+<!--	st_items_artefacts2.xml
+	<string id="st_af_sandstone_descr">
+		<text>極度な高温のアノマリーで形成されたアーティファクトで、微量の金を含んでいる。\n \n
+			%c[pda_white]特性:\n
+		</text>
+	</string>
+-->
+	<string id="st_pba_af_sandstone_perk">
+		<text>%c[pda_white] 特殊能力: %c[d_orange]リーサルテンポ\n
+			%c[d_orange] • %c[pda_white]ストーカーやミュータントを殺すと大きな力が宿り、効果は5秒間持続する\n
+			%c[d_orange] • %c[pda_white]受けるダメージが25%増加\n
+			%c[pda_white] %c[pda_white] - 1体: %c[ui_gray_1]移動速度上昇\n
+			%c[pda_white] %c[pda_white] - 2体: %c[ui_gray_1]体力の自動回復\n
+			%c[pda_white] %c[pda_white] - 3体: %c[ui_gray_1]ランダムな身体の部位をわずかに回復\n
+			%c[pda_white] %c[pda_white] - 4体: %c[ui_gray_1]別のランダムな身体の部位をわずかに回復\n
+			%c[pda_white] %c[pda_white] - 5体: %c[ui_gray_1]被ダメージ25%増加のデバフ解除\n
+			%c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
+			%c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
+		</text>
+	</string>
+
+	<string id="st_pba_af_elektron_perk">
+		<text>%c[pda_white] 特殊能力: %c[d_orange]ハイボルテージ\n
+			%c[d_orange] • %c[pda_white]エレクトロアノマリーに触れるとバッテリーと装備中のデバイスが充電される\n
+			%c[d_orange] • %c[pda_white]エレクトロアノマリーに触れると短時間の間無限に走ることができる\n
+			%c[d_orange] • %c[pda_white]5つ持っていればエクソスケルトンのバッテリーを充電できる\n
+			%c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する %c[ui_red](例外有り)\n
+		</text>
+	</string>
+
+	<string id="st_pba_af_repei_perk">
+		<text>%c[pda_white] 特殊能力: %c[d_orange]軽度の裂傷\n
+			%c[d_orange] • %c[pda_white]銃で与えるダメージが50%減少するが、出血ダメージを与える効果を得る\n
+			%c[d_orange] • %c[pda_white]出血ダメージは銃のダメージに比例する\n
+			%c[d_orange] • %c[pda_white]敵が降伏する確率が上がる\n
+			%c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
+			%c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
+		</text>
+	</string>
+
+</string_table>

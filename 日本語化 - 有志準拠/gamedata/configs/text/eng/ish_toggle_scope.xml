@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string id="ui_mcm_menu_toggle_scope">
+		<text>Toggle Scope</text>
+	</string>
+	<string id="ui_mcm_toggle_scope_key_bind_toggle">
+		<text>スコープの着脱／切り替え (Toggle Scope)</text>
+	</string>
+	<string id="ui_mcm_toggle_scope_key_bind_toggle_desc">
+        <text>%c[d_green]•%c[DEFAULT] 1回押し: 現在のスコープを着脱します。\n\n%c[d_green]•%c[DEFAULT] 2回押し: 次の互換性のあるスコープに切り替えます。</text>
+	</string>
+</string_table>

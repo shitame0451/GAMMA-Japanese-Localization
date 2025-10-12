@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_paw_waypoint_set">
+		<text>目的地を設置</text>
+	</string>
+
+	<string id="st_paw_waypoint_mov">
+		<text>目的地をこの場所に移動</text>
+	</string>
+
+	<string id="st_paw_waypoint_del">
+		<text>目的地を削除</text>
+	</string>
+
+	<string id="st_paw_placed_waypoint">
+		<text>目的地</text>
+	</string>
+
+	<string id="st_paw_proceed">
+		<text>目的地</text>
+	</string>
+
+<!-- Added in 1.2 -->
+	<string id="st_paw_missing_waypoint_error">
+		<text>設定した目的地が現在のデータから消えてしまっていたため、クラッシュを避けるためにタスクはキャンセルされました。
+\nこれは安全装置であり、次のセーブ後に再び起こる可能性は低いです。</text>
+	</string>
+
+<!-- Added in 1.3 -->
+	<string id ="ui_mcm_menu_pawsys">
+		<text>Adjustable Waypoint</text>
+	</string>
+
+	<string id ="ui_mcm_menu_pawgen">
+		<text>基本設定</text>
+	</string>
+
+	<string id ="ui_mcm_menu_pawpins">
+		<text>ピンのアイコン</text>
+	</string>
+
+	<string id ="ui_mcm_menu_pawmenu">
+		<text>コンテキストメニュー</text>
+	</string>
+
+	<string id ="ui_mcm_menu_pawbinds">
+		<text>キー設定/マウス</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_enabled">
+		<text>Personal Adjustable Waypoint Systemを有効化</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_uninstall_desc">
+		<text>このオプションを有効にすると、現在の目的地データがクリアされ、すべての目的地マップマーカーが削除され、アクティブな目的地タスクがキャンセルされます。</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_milpda">
+		<text>Milspec PDAアドオンと統合する</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_milpda_desc">
+		<text>Milspec PDAアドオンとの統合/互換性を有効にします。\n\nhttps://www.moddb.com/mods/stalker-anomaly/addons/milspec-pda-for-anomaly-151-152-and-gamma</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_debuglogs">
+		<text>デバッグログを有効化</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_debuglogs_desc">
+		<text>トラブルシューティング用の設定です。PAWでクラッシュやその他の問題が発生した場合は、以下の手順に従ってください:\n1. この設定を有効化する\n2. 問題を再現する\n3. ログをアップロードして作者に送る\n\nデバッグログが無効の場合、ログに有用な情報が記録されることはないでしょう。</text>
+	</string>
+
+	<string id="st_paw_pin_add">
+		<text>この場所にピンを置く</text>
+	</string>
+
+	<string id="st_paw_pin_del">
+		<text>削除</text>
+	</string>
+
+	<string id="st_paw_pin_ren">
+		<text>名前を変更</text>
+	</string>
+
+	<string id="st_paw_pin_dbg">
+		<text>この場所からすべてのマップアイコンを削除</text>
+	</string>
+
+	<string id="st_paw_pin_clr">
+		<text>すべてのピンを削除します。元に戻すことはできません。</text>
+	</string>
+
+	<string id = "ui_mcm_pawsys_pawbinds_bind_wptoggle">
+		<text>現在のアクティブなウェイポイントを切り替えるためのキー</text>
+	</string>
+
+	<string id = "ui_mcm_pawsys_pawbinds_bind_wptoggle_desc">
+		<text>このキーを押すと、現在の目的地が無効になります（もしアクティブなものがある場合）。現在アクティブな目的地がない場合は直前の目的地が再度アクティブになります。目的地を設定していない場合、影響はありません。</text>
+	</string>
+
+	<string id = "ui_mcm_pawsys_pawbinds_bind_quickpin">
+		<text>クイックピンを設置するためのキー</text>
+	</string>
+
+	<string id = "ui_mcm_pawsys_pawbinds_bind_quickpin_desc">
+		<text>このキーを押すと、プレイヤーの現在位置に一番近いスマート地形ポイントにクイックピンが配置されます。Fair Fast Travelアドオンを使用している場合、クイックピンはオプションとしてファストトラベル地点としても使用できます。</text>
+	</string>
+
+	<string id = "ui_mcm_pawsys_pawbinds_bind_cartmode">
+		<text>カートグラフィーモードのキー設定</text>
+	</string>
+
+	<string id = "ui_mcm_pawsys_pawbinds_bind_cartmode_desc">
+		<text>このキーを押している間、カートグラフィーモードが有効になり、すべての有効なスマート地形ポイントや、プレイヤーがピンを設定および管理するための他のツールが表示されます。デフォルトのホールド操作をトグル操作に変更することもできます。</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_use_custom_pin_icon">
+		<text>マップピンにカスタムマップスポットアイコンを使用する</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_use_custom_pin_icon_desc">
+		<text>有効にすると、PAWはピンのアイコンに指定されたマップスポットIDを使用します。有効なマップスポットはmap_spots.xml内か、このModに含まれています。ここに無効なものを入れるとゲームがクラッシュする可能性があります。自己責任で使用してください。</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_custom_pin_icon">
+		<text>使用するマップスポットID</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_custom_pin_icon_desc">
+		<text>マップスポットのファイルから有効なマップスポットIDの名前を知っている場合は、ここに入力してください。警告: 無効な値はゲームをクラッシュさせる可能性があります。上手く動作しない場合は"user_defined"と入力してリセットしてください。</text>
+	</string>
+
+	<string id ="st_paw_pin_default_name">
+		<text>ピン</text>
+	</string>
+
+	<string id ="st_paw_pin_quick_name">
+		<text>クイックピン</text>
+	</string>
+
+	<string id ="st_paw_pin_dropped">
+		<text>現在地にクイックピンを設置</text>
+	</string>
+
+	<string id ="st_paw_pin_already">
+		<text>すでに付近のスマート%sにピンがあります</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_1">
+		<text>PDA 1.0で目的地とピン機能を有効化</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_1_desc">
+		<text>有効にすると、PDA 1.0はすべての目的地およびピン機能を使用できるようになります。無効の場合、既存のピンの情報は記憶されますが、互換性のあるデバイスを装備するまでは非表示のままになります。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_2">
+		<text>PDA 2.0で目的地とピン機能を有効化</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_2_desc">
+		<text>有効にすると、PDA 2.0はすべての目的地およびピン機能を使用できるようになります。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_3">
+		<text>PDA 3.1で目的地とピン機能を有効化</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_3_desc">
+		<text>有効にすると、PDA 3.1はすべての目的地およびピン機能を使用できるようになります。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_milspec">
+		<text>Milspec PDAで目的地とピン機能を有効化</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_s_device_pda_milspec_desc">
+		<text>有効にすると、Milspec PDA（インストールされていて利用可能な場合）はすべての目的地およびピン機能を使用できるようになります。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_pins">
+		<text>ピンスタイルセットのデフォルトアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_pins_desc">
+		<text>ピンスタイルのアイコンセットが有効の場合、ピンの作成時にどのアイコンを割り当てるか設定します。各ピンは異なるアイコンを持つことができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_patches">
+		<text>派閥パッチセットのデフォルトアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_patches_desc">
+		<text>派閥パッチのアイコンセットが有効の場合、ピンの作成時にどのアイコンを割り当てるか設定します。各ピンは異なるアイコンを持つことができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_bwhr">
+		<text>BW高解像度POIセットのデフォルトアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_bwhr_desc">
+		<text>BW高解像度POIのアイコンセットが有効の場合、ピンの作成時にどのアイコンを割り当てるか設定します。各ピンは異なるアイコンを持つことができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_faves">
+		<text>お気に入りセットのデフォルトアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_faves_desc">
+		<text>お気に入りのアイコンセットが有効の場合、ピンの作成時にどのアイコンを割り当てるか設定します。各ピンは異なるアイコンを持つことができます。\n\n注意: configs\scripts\paw\icon_set_*.ltxを編集することで、お気に入りや他のアイコンセットをカスタマイズすることができます。</text>
+	</string>
+
+	<string id="ui_mcm_lst_pawsys_pg_faves">
+		<text>お気に入り</text>
+	</string>
+
+	<string id="st_paw_no_last_wp">
+		<text>以前の目的地または有効な目的地がありません</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_pin_redround32">
+		<text>赤色の丸ピン</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_pin_stalker32">
+		<text>STALKERスタイルのピン</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_pin_redmodern32">
+		<text>Googleマップのピン</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_pin_redpush32">
+		<text>赤色の押しピン</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_pin_yelpush32">
+		<text>黄色の押しピン</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_pin_whtsimple32">
+		<text>シンプルなピン</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_badge_stalker">
+		<text>ローナー</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_army">
+		<text>ミリタリー</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_bandit">
+		<text>バンディット</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_csky">
+		<text>クリアスカイ</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_dolg">
+		<text>デューティー</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_ecolog">
+		<text>エコロジスト</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_freedom">
+		<text>フリーダム</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_killer">
+		<text>傭兵</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_monolith">
+		<text>モノリス</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_greh">
+		<text>シン</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_isg">
+		<text>UNISG</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_renegade">
+		<text>レネゲード</text>
+	</string>
+	<string id="ui_mcm_lst_pawsys_cmenu_cart">
+		<text>カートグラフィーモード時のみ</text>
+	</string>
+	<string id="ui_mcm_lst_pawsys_cmenu_norm">
+		<text>通常時のみ</text>
+	</string>
+	<string id="ui_mcm_lst_pawsys_cmenu_all">
+		<text>常に表示する</text>
+	</string>
+	<string id="ui_mcm_lst_pawsys_cmenu_off">
+		<text>表示しない</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_pin_icon_group">
+		<text>有効なアイコンセット</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_pin_icon_group_desc">
+		<text>以下の各アイコンセット（例: ピンスタイル、ワッペン）には、現在ドロップダウンリストで選択されているアイコンがあります。このオプションは、新しいピンを配置する際にどのセットのアイコンを使用するかを設定します。\n\nお気に入りセットは常にリストの一番上に置かれ、どのアイコンを含むかは以下のファイルを編集することで自由に変更することができます:\n configs\scripts\paw\icon_set_faves.ltx.</text>
+	</string>
+
+	<string id="ui_mcm_lst_pawsys_pg_pins">
+		<text>ピンスタイル</text>
+	</string>
+
+	<string id="ui_mcm_lst_pawsys_pg_patches">
+		<text>派閥パッチ</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_headertxt">
+		<text>このメニューでは、PAWのゲーム内コンテキストメニューをカスタマイズできます。各オプションを無効にしてメニューを整理したり、それぞれを常に表示させるか、カートグラフィーモードがアクティブな場合のみ、または通常のPDAビューの場合のみに表示させるかを選択することができます。</text>
+	</string>
+	<string id="ui_mcm_pawsys_pawmenu_wp_set">
+		<text>目的地を設置</text>
+	</string>
+	<string id="ui_mcm_pawsys_pawmenu_wp_mov">
+		<text>目的地をこの場所に移動</text>
+	</string>
+	<string id="ui_mcm_pawsys_pawmenu_wp_del">
+		<text>目的地を削除</text>
+	</string>
+	<string id="ui_mcm_pawsys_pawmenu_pn_add">
+		<text>ピンを設置</text>
+	</string>
+	<string id="ui_mcm_pawsys_pawmenu_pn_del">
+		<text>ピンを削除</text>
+	</string>
+	<string id="ui_mcm_pawsys_pawmenu_pn_ren">
+		<text>ピンの名前を変更</text>
+	</string>
+	<string id="ui_mcm_pawsys_pawmenu_pn_clr">
+		<text>すべてのピンを削除</text>
+	</string>
+
+<!-- Added in 1.4 -->
+	<string id="ui_mcm_lst_pawsys_pg_bwhr">
+		<text>BW高解像度POI</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_info">
+		<text>BWHR インフォメーション</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_signal">
+		<text>BWHR 信号源</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_loot">
+		<text>BWHR 戦利品/貴重品</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_death">
+		<text>BWHR 危険</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_ak">
+		<text>BWHR 武器</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_ammo">
+		<text>BWHR 弾薬</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_bio">
+		<text>BWHR 生物危険</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_rad">
+		<text>BWHR 放射線</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_warn">
+		<text>BWHR 警告</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_magn">
+		<text>BWHR 拡大鏡</text>
+	</string>
+
+<!-- Added in 1.5 -->
+
+	<string id="ui_mcm_lst_paw_badge_hr_stalker">
+		<text>HR ローナー</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_army">
+		<text>HR 軍隊</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_bandit">
+		<text>HR バンディット</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_csky">
+		<text>HR クリアスカイ</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_dolg">
+		<text>HR デューティー</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_ecolog">
+		<text>HR エコロジスト</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_freedom">
+		<text>HR フリーダム</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_killer">
+		<text>HR 傭兵</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_monolith">
+		<text>HR モノリス</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_greh">
+		<text>HR シン</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_isg">
+		<text>HR UNISG</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_hr_renegade">
+		<text>HR レネゲード</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_badge_uhr_stalker">
+		<text>UHR ローナー</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_army">
+		<text>UHR 軍隊</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_bandit">
+		<text>UHR バンディット</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_csky">
+		<text>UHR クリアスカイ</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_dolg">
+		<text>UHR デューティー</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_ecolog">
+		<text>UHR エコロジスト</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_freedom">
+		<text>UHR フリーダム</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_killer">
+		<text>UHR 傭兵</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_monolith">
+		<text>UHR モノリス</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_greh">
+		<text>UHR シン</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_isg">
+		<text>UHR UNISG</text>
+	</string>
+	<string id="ui_mcm_lst_paw_badge_uhr_renegade">
+		<text>UHR レネゲード</text>
+	</string>
+
+	<string id ="st_paw_pingspot">
+		<text>マップピン - 右クリックで目的地またはピンを設定</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawmenu_mping">
+		<text>周辺のグリッドを表示</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_pingsound">
+		<text>マップにピンを置く時に効果音を再生する</text>
+	</string>
+
+<!-- Added in 1.6 -->
+
+	<string id ="ui_mcm_pawsys_pawpins_milpda_body_icon">
+		<text>Milspec PDAで使用される死体のアイコンを設定</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_milpda_body_icon_desc">
+		<text>このオプション機能はMilspec PDAのKill Tracker機能で使用される死体マーカーのアイコンを設定できます。\n\n無効: Milspec PDAの通常動作のままにする\n\n犠牲者の派閥パッチ: ストーカーの死体に所属している派閥のワッペンを表示する\n\n死体マーカーセット: Milspec PDAはすべての死体に対して死体マーカーのアイコンセットのデフォルトアイコンを使用する</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_get_milpda">
+		<text>Milspec PDA 1.7.3またはそれ以上が必要です:\nhttps://www.moddb.com/mods/stalker-anomaly/addons/milspec-pda-for-anomaly-151-152-and-gamma</text>
+	</string>
+
+	<string id ="ui_mcm_lst_pawsys_pg_bodies">
+		<text>死体マーカー</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_poi_icon_bodies">
+		<text>死体マーカーセットのデフォルトアイコン</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_patch_res">
+		<text>派閥パッチに使用される解像度</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_patch_res_desc">
+		<text>このオプションは派閥パッチに使われるアイコンの品質を設定します。低解像度のインベントリアイコン、高解像度の64x64バージョン、または超高解像度の128x128バージョン(白い輪郭付き)があります。低解像度と高解像度のアイコンは同じ大きさで、超高解像度バージョンは約25%大きくなります。</text>
+	</string>
+
+	<string id ="ui_mcm_lst_pawsys_cfg_badge_res">
+		<text>低解像度 (インベントリのアイコンと同じ)</text>
+	</string>
+
+	<string id ="ui_mcm_lst_pawsys_cfg_badge_hr_res">
+		<text>高解像度</text>
+	</string>
+
+	<string id ="ui_mcm_lst_pawsys_cfg_badge_uhr_res">
+		<text>超高解像度 (白い輪郭付き)</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_milpda_body_icon">
+		<text>Milspec PDAで使用されている死体アイコンを設定</text>
+	</string>
+
+	<string id ="ui_mcm_lst_pawsys_cfg_bodyoff">
+		<text>無効</text>
+	</string>
+
+	<string id ="ui_mcm_lst_pawsys_cfg_bodyfac">
+		<text>犠牲者の派閥パッチ</text>
+	</string>
+
+	<string id ="ui_mcm_lst_pawsys_cfg_bodyset">
+		<text>死体マーカーセット</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawmenu_waypoint_rename">
+		<text>目的地の名前を変更</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawmenu_waypoint_redesc">
+		<text>目的地の概要を変更</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_death_small">
+		<text>BWHR デスマーク (小)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_blue_circle">
+		<text>青い円</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_crosshair_white">
+		<text>クロスヘア (白)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_crosshair_red">
+		<text>クロスヘア (赤)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_crosshair_green">
+		<text>クロスヘア (緑)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_crosshair_green">
+		<text>クロスヘア (緑)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_stash_green">
+		<text>スタッシュ (緑)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_stash_white">
+		<text>スタッシュ (白)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_stash_purple">
+		<text>スタッシュ (紫)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_stash_red">
+		<text>スタッシュ (赤)</text>
+	</string>
+
+<!-- Added in 1.6.1 -->
+
+	<string id ="ui_mcm_pawsys_pawgen_wipe_all">
+		<text>すべてのピンを削除</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_wipe_all_desc">
+		<text>マップからすべてのピンを削除し、ピンの情報を消去します。これは元に戻せません。</text>
+	</string>
+
+	<string id="ui_mcm_lst_deadbody_location_sdot">
+		<text>[MPDA] 青いドット (小)</text>
+	</string>
+
+	<string id="ui_mcm_lst_deadbody_location_mdot">
+		<text>[MPDA] 青いドット (中)</text>
+	</string>
+
+	<string id="ui_mcm_lst_deadbody_location_ldot">
+		<text>[MPDA] 青いドット (大)</text>
+	</string>
+
+	<string id="ui_mcm_lst_deadbody_location_whtx">
+		<text>[MPDA] 白いXマーク</text>
+	</string>
+
+	<string id="ui_mcm_lst_deadbody_location_skul">
+		<text>[MPDA] 無地のドクロマーク (小)</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_togglehold">
+		<text>カートグラフィーモードのキー設定の動作</text>
+	</string>
+
+	<string id="ui_mcm_lst_pawsys_toggle">
+		<text>トグル</text>
+	</string>
+
+	<string id="ui_mcm_lst_pawsys_hold">
+		<text>ホールド</text>
+	</string>
+
+<!-- Added in 1.7 -->
+
+	<string id="ui_mcm_pawsys_pawbinds_mwheel_enabled">
+		<text>マウスホイールサポート（改造バイナリが必要）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_mwheel_enabled_desc">
+		<text>有効にすると、マウスホイールを上下にスクロールしてアクティブなアイコンやセットを切り替えることができます。\nこの機能を使用するには、改変されたバイナリのバージョンが20230701以降である必要があります。また、GAMMAも0.9.1以降でこの機能をサポートしています。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_mwheel_notify">
+		<text>マウスホイールでの切り替え時にメッセージを表示する</text>
+	</string>
+
+	<string id="ui_mcm_paw_modded_binaries">
+		<text>demonizedによる改造バイナリ（マウスホイールサポートに必要）:\n https://github.com/themrdemonized/xray-monolith
+		</text>
+	</string>
+
+	<string id="st_paw_change_set">
+		<text>セットは%sに変更された\n
+		</text>
+	</string>
+
+	<string id="st_paw_change_icon">
+		<text>現在のアイコン:</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_set_next">
+		<text>次のセットへ切り替える</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_set_next_desc">
+		<text>次のセットへ切り替えることができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_set_prev">
+		<text>前のセットへ切り替える</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_set_prev_desc">
+		<text>前のセットへ切り替えることができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_ico_next">
+		<text>現在のセットの次のアイコンに切り替える</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_ico_next_desc">
+		<text>現在のセットの次のアイコンに切り替えることができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_ico_prev">
+		<text>現在のセットの前のアイコンに切り替える</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_ico_prev_desc">
+		<text>現在のセットの前のアイコンに切り替えることができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_set_scroll">
+		<text>マウスホイールでセットを変更するのに使用するキー</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_set_scroll_desc">
+		<text>マウスホイールサポートが有効の場合、このキーを押したままスクロールすることでセットのリストを切り替えることができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_ico_scroll">
+		<text>マウスホイールでアイコンを変更するのに使用するキー</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_ico_scroll_desc">
+		<text>マウスホイールサポートが有効の場合、このキーを押したままスクロールすることでアクティブセット内のアイコンを切り替えることができます。</text>
+	</string>
+
+	<string id="st_paw_cycling_sets">
+		<text>現在マウスホイールはセットを切り替える動作をします</text>
+	</string>
+
+	<string id="st_paw_cycling_icons">
+		<text>現在マウスホイールはアイコンを切り替える動作をします</text>
+	</string>
+
+	<string id="st_paw_mwheel_normal">
+		<text>現在マウスホイールはデフォルトの動作をします</text>
+	</string>
+
+	<string id ="ui_mcm_menu_pawhud">
+		<text>HUDウィジェット</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_widget_enable">
+		<text>HUDウィジェットを有効化</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_autohide">
+		<text>自動非表示までの遅延時間（秒）（0は非表示にしない）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_hudsound">
+		<text>UIの操作時に効果音を再生する</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawhud_pingsound">
+		<text>マップにピンを置く際に効果音を再生する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_active_theme">
+		<text>ウィジェットのビジュアルテーマ（詳細は以下を参照）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_custompos">
+		<text>テーマのデフォルトではなく、以下のカスタム位置を使用する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_widgetinfo">
+		<text>HUDウィジェットは現在アクティブなアイコンを表示し、テーマによってはその他の情報も表示することができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_pos_x_desc">
+		<text>ウィジェットの左上隅のX（水平）座標を設定します。0,0は画面の左上隅で、1024,768は右下隅です。ゲームはこれをディスプレイの解像度に変換します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_pos_y_desc">
+		<text>ウィジェットの左上隅のY（垂直）座標を設定します。0,0は画面の左上隅で、1024,768は右下隅です。ゲームはこれをディスプレイの解像度に変換します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_pos_x">
+		<text>X（水平、左右）座標</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_pos_y">
+		<text>Y（垂直、上下）座標</text>
+	</string>
+
+	<string id="ui_mcm_themes_list">
+		<text>各利用可能なテーマの詳細な説明は以下で読むことができます。\n</text>
+	</string>
+
+	<string id="ui_mcm_themes_classicauto">
+		<text>
+			Classic Stalker, Auto-Switch: 138x75 (default pos 890,620)\n
+			Icon and Set text, Next/Current/Prev icons\n
+			Auto-switches to Classic Vertical Right when PDA is open\n
+			Select "Classic" theme if you don't want the auto-switch\n
+			Recommended default
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_classic">
+		<text>
+			Classic Stalker, Horizontal: 138x75 (default pos 890,620)\n
+			Icon and Set text, Next/Current/Prev icons\n
+			Does not auto-switch, but blocked by PDA in its default position
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_vertright">
+		<text>
+			Classic Vertical, Right-aligned: 100x154 (default pos 922,440)\n
+			Icon text, Next/Current/Prev icons\n
+			PDA mode for Classic Stalker Auto-Switch, but can be used on its own
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_vertleft">
+		<text>
+			Classic Vertical, Left-aligned: 100x154 (default pos 4,570)\n
+			Icon text, Next/Current/Prev icons\n
+			Can block news messages in its default position\n
+			Custom position recommended
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_gamma_right">
+		<text>
+			GAMMA Style, Right-aligned: 136x150 (default pos 888,440)\n
+			Icon and Set text, Next/Current/Prev icons\n
+			Visible both with and without PDA open
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_gamma_left">
+		<text>
+			GAMMA Style, Left-aligned: 136x150 (default pos 4,440)\n
+			Icon and Set text, Next/Current/Prev icons\n
+			Can block news messages in its default position\n
+			Custom position recommended
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_minimal_h">
+		<text>
+			Minimalist, Horizontal: 94x52 (default pos 924,645)\n
+			Icon text, Next/Current/Prev icons on drop shadow\n
+			Blocked by PDA in its default position\n
+			Custom position recommended
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_minimal_v">
+		<text>
+			Minimalist, Vertical: 92x112 (default pos 924,440)\n
+			Icon text, Next/Current/Prev icons on drop shadow\n
+			No left-aligned version
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_minicom">
+		<text>
+			Minimalist, Compact: 38x38 (default pos 890,440)\n
+			Displays current icon only, on drop shadow\n
+			blocked by PDA in its default position
+		</text>
+	</string>
+
+	<string id="ui_mcm_themes_compact_noui">
+		<text>
+			Compact, No UI Frame: 32x32 (default pos 890,440)\n
+			Displays current icon only, no other UI or background\n
+			Suitable for positioning nearly anywhere, easy to integrate with custom HUDs
+		</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_classicauto">
+		<text>クラシックSTALKER、H/V自動切替</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_classic">
+		<text>クラシックSTALKER、横長 (890,620)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_vertright">
+		<text>クラシック、縦型、右揃え (922,440)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_vertleft">
+		<text>クラシック、縦型、左揃え (4,570)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_gamma_right">
+		<text>GAMMAスタイル、右揃え (888,440)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_gamma_left">
+		<text>GAMMAスタイル、左揃え (4,574)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_minimal_h">
+		<text>ミニマリスト、横型 (890,650)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_minimal_v">
+		<text>ミニマリスト、縦型 (890,440)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_minicom">
+		<text>ミニマリスト、コンパクト (820,725)</text>
+	</string>
+
+	<string id="ui_mcm_lst_theme_compact_noui">
+		<text>コンパクト、UIフレーム無し (820,725)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_enabled">
+		<text>Enabled</text>
+	</string>
+
+<!-- Added in 1.7.1 -->
+
+	<string id="st_paw_waypoint_cleared">
+		<text>現在の目的地を消去しました</text>
+	</string>
+
+<!-- Added in 1.7.2 -->
+
+	<string id="ui_mcm_paw_moddb_link">
+		<text>PAW: https://www.moddb.com/mods/stalker-anomaly/addons/personal-adjustable-waypoint-for-anomaly-151-152-and-gamma
+		</text>
+	</string>
+
+	<string id="ui_mcm_paw_milpda_link">
+		<text>Milspec PDA: https://www.moddb.com/mods/stalker-anomaly/addons/milspec-pda-for-anomaly-151-152-and-gamma
+		</text>
+	</string>
+
+<!-- Added in 1.7.3 -->
+
+	<string id="ui_mcm_pawsys_pawgen_disable_mcmups">
+		<text>MCMの即時アップデートを無効にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_disable_mcmups_desc">
+		<text>ゲームプレイ中に現在のアイコン/設定を変更すると、PAWはMCMの同じ設定を更新します。これはゲームがクラッシュしても変更が保存されるようにするためですが、マシンによってはパフォーマンスに影響を与える可能性があります。この設定を有効にすると、この機能はオフになりますが、ゲームのセーブ時に設定は保存されます。ただし、セーブする前にMCMのメニューに入ると、変更は反映されません。</text>
+	</string>
+
+<!-- Added in 1.7.4 -->
+
+	<string id="ui_mcm_pawsys_pawmenu_show_all_pins">
+		<text>すべてのピンを表示</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_hide_all_pins">
+		<text>すべてのピンを非表示</text>
+	</string>
+
+<!-- Added in 1.8 -->
+
+	<string id="ui_mcm_pawsys_pawgen_wp_clear_dist">
+		<text>目的地のマーカーが自動で消える距離（メートル）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_hud_icon_enabled">
+		<text>目的地のマーカーをHUDに表示</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_welcome_msg_shown">
+		<text>ゲームのロード時にPAWのメッセージを表示しない</text>
+	</string>
+
+	<string id="st_pawsys_welcome_msg">
+		<text>$clr_prp[ Personal Adjustable Waypoint System が設定されました ]$clr_wht
+\n \n• 表示されているマップアイコンを右クリックして、カスタムマーカー($clr_lbl目的地$clr_wht)を設定したり、$clr_lblピン$clr_whtを配置して名前を付けることができます。
+\n• $clr_yel%s$clr_wht を押すと、目的地のオン/オフがいつでも切り替えられます。HUDマーカーを表示したくない場合は、MCMで無効にできます。
+\n• $clr_yel%s$clr_wht を押すと、現在地に$clr_lblクイックピン$clr_whtで地図に印を付けることができます。
+\n• $clr_yel%s$clr_wht を押し続けている間は$clr_lblカートグラフィーモード$clr_whtになります。
+\n $clr_wht このモードではピンや目的地を正確に配置するための$clr_lbl一時的なグリッド表示$clr_whtなど、より多くのマップ機能を使用できます。
+
+\n\nMCMにある$clr_lblAdjustable Waypoint$clr_whtメニューで様々な設定をすることができます。
+
+\n\nこのメッセージは一度しか表示されません。グッドハンティング、%s。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_hud_vis_on">
+		<text>HUDに表示する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_hud_vis_off">
+		<text>HUDから消去</text>
+	</string>
+
+	<string id="st_paw_system_disabled">
+		<text>PAWシステムが無効です</text>
+	</string>
+
+
+<!-- Added in 1.10 -->
+
+
+	<string id="ui_mcm_paw_current_active_pin">
+		<text>現在有効になっているピン:</text>
+	</string>
+
+	<string id="ui_mcm_paw_pinmenu_header">
+		<text>ピンを置くと、現在設定されているセットのデフォルトアイコンが使用されます。ここでアイコンを変更することもできますが、お好みのキー設定を使用してゲーム内でピンとセットを切り替えることもできます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_cartmode_toggle">
+		<text>カートグラフィーモードをトグル操作に変更</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_cartmode_toggle_desc">
+		<text>デフォルトでは、カートグラフィーモードを有効にするためにはキーを押し続ける必要があります。このオプションを有効にすると、代わりにトグル動作として機能します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_cart_shows_smarts">
+		<text>カートグラフィーモードでスマート地形を表示</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_cart_shows_smarts_desc">
+		<text>デフォルトでは、カートグラフィーモードでは、スマート地形スポットを示すアイコン（拡大鏡のついた白い地図）が表示されます。何らかの理由でこれらを必要としない場合、このオプションで表示をオフにすることができます。</text>
+	</string>
+
+<!-- Added in 1.11 -->
+
+	<string id="st_paw_meters_abbr">
+		<text>m</text>
+	</string>
+
+	<string id="st_paw_unknown">
+		<text>未知:</text>
+	</string>
+
+	<string id="st_paw_stash">
+		<text>スタッシュ</text>
+	</string>
+
+	<string id="st_paw_squad">
+		<text>敵</text>
+	</string>
+
+	<string id="st_paw_npc_pda_equipped">
+		<text>現在NPCから略奪したPDAを使用しています。
+\n目的地やピン、またはその他のPAWシステムの機能を使用するには、プレイヤーのPDAを装備してください。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_show_dist_wp">
+		<text>目的地のHUDマーカーに距離を表示</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_show_dist_wp_desc">
+		<text>HUD上の目的地のマーカーに距離のインジケータを表示する条件を、[表示しない]、[常に表示する]、[カートグラフィーモード時のみ]、[通常時のみ(カートグラフィーモードが無効の状態)]から選択します。HUDに目的地マーカーが表示されていない状態では、効果はありません。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_show_dist_pins">
+		<text>ピンのHUDマーカーに距離を表示</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_show_dist_pins_desc">
+		<text>HUD上のピンのマーカーに距離のインジケータを表示し、その条件を[表示しない]、[常に表示する]、[カートグラフィーモード時のみ]、[通常時のみ(カートグラフィーモードが無効の状態)]から選択します。HUDに表示するピンが存在しない場合は効果がありません。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_show_hint_pins">
+		<text>HUDマーカーにピンの名前を表示</text>
+	</string>
+	
+	<string id="ui_mcm_pawsys_pawgen_show_hint_pins_desc">
+		<text>HUD上のピンのマーカーの上部にピンの名前を表示し、その条件を[表示しない]、[常に表示する]、[カートグラフィーモード時のみ]、[通常時のみ(カートグラフィーモードが無効の状態)]から選択します。HUDに表示するピンが存在しない場合は効果がありません。</text>
+	</string>
+
+<!-- Added in 1.12 -->
+
+	<string id="ui_mcm_lst_pawsys_pg_npcs">
+		<text>NPCと各種サービス</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_npcs">
+		<text>NPCと各種サービスセットのデフォルトアイコン</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_diamond_friendly">
+		<text>味方 (ダイヤモンド)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_diamond_neutral">
+		<text>中立 (ダイヤモンド)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_diamond_enemy">
+		<text>敵 (ダイヤモンド)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_chevron_friendly">
+		<text>味方 (シェブロン)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_chevron_neutral">
+		<text>中立 (シェブロン)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_chevron_enemy">
+		<text>敵 (シェブロン)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_flag_friendly">
+		<text>味方 (旗)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_flag_neutral">
+		<text>中立 (旗)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_flag_enemy">
+		<text>敵 (旗)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_npc_mechanic">
+		<text>NPC 技術者</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_npc_trader">
+		<text>NPC トレーダー</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_npc_guide">
+		<text>NPC ガイド</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_npc_food_trader">
+		<text>NPC 食品トレーダー</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_npc_medic">
+		<text>NPC 衛生兵</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_sleep_zone">
+		<text>寝所</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_obj_briefcase">
+		<text>ブリーフケース</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_obj_lock">
+		<text>南京錠</text>
+	</string>
+
+	<string id="ui_mcm_paw_cartmode_head">
+		<text>カートグラフィーモード</text>
+	</string>
+
+	<string id="ui_mcm_paw_cartmode_desc">
+		<text>カートグラフィーモードは、プレイ中にHUDやメニューを散らかすことなく、追加のマッピング機能を有効にします。このモード（または通常のPDAモード）で表示される機能は、MCMのサブメニューにある"コンテキストメニュー"で設定できます。</text>
+	</string>
+
+	<string id="ui_mcm_paw_mousewheel_head">
+		<text>マウスホイールサポート</text>
+	</string>
+
+	<string id="ui_mcm_paw_crosshair_target_head">
+		<text>目的地とピンの設置 - クロスヘア</text>
+	</string>
+
+	<string id="ui_mcm_paw_crosshair_target_desc">
+		<text>このキー設定を使用し、クロスヘアの中心にあるオブジェクトに目的地やピンを設置することができます。目的地はどこにでも設定が可能ですが、ピンを設定する際にはクロスヘアの中央に正確に有効なオブジェクトが存在している必要があります。ストーカーに対して使用する場合、派閥の識別が表示される程度にクロスヘアの中心に寄せる必要があります。</text>
+	</string>
+
+	<string id="ui_mcm_paw_generalbinds_head">
+		<text>目的地とピンの設置 - 一般的なキー設定</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_wp_target_obj">
+		<text>オブジェクトに目的地を設置するキー</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_wp_target_obj_desc">
+		<text>このキーを押すと、目的地はクロスヘアの中心にあるオブジェクトに設置されるか、移動されます。すでに対象のオブジェクトに設定されている場合、それは削除されます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_pin_target_obj">
+		<text>オブジェクトにピンを設置するキー</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_bind_pin_target_obj_desc">
+		<text>このキーを押すと、現在アクティブなアイコンを使用して、クロスヘアの中心にあるオブジェクトにピンが設置されます（もしまだ存在していない場合）。対象のオブジェクトにすでにピンがある場合、それは削除されます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_pin_auto_visible">
+		<text>注視して作成されたピンをデフォルトでHUD上に表示する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_pin_auto_visible_desc">
+		<text>オブジェクトを視認して直接ピンを作成した場合（手動またはオートタグ）、自動的にHUDに表示されるようになります。PDAからいつでもHUD上のピンを表示または非表示にすることができます。</text>
+	</string>
+
+
+	<string id="st_paw_pin_removed_from_target">
+		<text>$clr_yel%s$clr_whtのピンが$clr_lbl%s$clr_whtから削除されました。</text>
+	</string>
+
+	<string id="st_paw_pin_added_to_target">
+		<text>ピンが$clr_lbl%s$clr_whtに追加されました。使用中のアイコン: $clr_lbl%s$clr_wht\n
+		現在のアクティブなアイコンを変更するには$clr_yel%s$clr_wht/$clr_yel%s$clr_whtを使用できます。</text>
+	</string>
+
+	<string id="ui_mcm_paw_pin_target_desc">
+		<text>$clr_yel%s$clr_whtのピンが$clr_lbl%s$clr_whtから削除されました。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_tip_on_icoset_change">
+		<text>ショートカットキーでピン設置やアイコン変更をする際に通知する</text>
+	</string>
+
+<!-- Added in 1.13 -->
+
+	<string id="ui_mcm_pawsys_pawgen_pin_near_fade_dist">
+		<text>近距離でピンがフェードアウトする距離 (メートル)</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_pin_near_fade_dist_desc">
+		<text>プレイヤーがこの距離まで近づくと、ピンは徐々にフェードアウトします。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_pin_far_fade_dist">
+		<text>遠距離でピンがフェードアウトする距離 (メートル)</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_pin_far_fade_dist_desc">
+		<text>プレイヤーがこの距離から遠ざかると、ピンは徐々にフェードアウトします。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_pin_far_hide_dist">
+		<text>ピンが消える距離 (メートル)</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_pin_far_hide_dist_desc">
+		<text>プレイヤーがこの距離から遠ざかると、ピンは完全に消えます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_cartmode_unfade">
+		<text>カートグラフィーモードでHUDのピンをフェードアウトしない</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_cartmode_unfade_desc">
+		<text>HUD上にピンがある場合、通常はフェードアウトする設定になっていますが、カートグラフィーモードが有効の間はフェードアウトしなくなります。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_lock_pin">
+		<text>ピンを保護する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_unlock_pin">
+		<text>ピンの保護を解除</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_reticle_mode">
+		<text>有効なオブジェクトに注視した時にスマートレティクルを表示する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_reticle_mode_desc">
+		<text>このオプションは、スマートレティクルが表示される条件を設定します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_reticle_alpha">
+		<text>レティクルの透明度</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_reticle_alpha_desc">
+		<text>レティクルの最大アルファ値（透明度）を設定します。0は完全に透明、255は透過しない状態を表します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_ret_fade_attack_time">
+		<text>オブジェクトのレティクルのフェードインにかかる時間</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_ret_fade_attack_time_desc">
+		<text>有効なオブジェクトを視認した時に、レティクルがフェードインするまでにかかる時間（ミリ秒単位）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_ret_fade_decay_time">
+		<text>オブジェクトのレティクルのフェードアウトにかかる時間</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_ret_fade_decay_time_desc">
+		<text>有効なオブジェクトから視線を逸らした時に、レティクルがフェードアウトするまでにかかる時間（ミリ秒単位）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_preview_aspect">
+		<text>以下の画面プレビューのアスペクト比</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_aspect_4_3">
+		<text>4:3 (標準定義)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_aspect_16_10">
+		<text>16:10 (1920x1200, 2560x1600)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_aspect_16_9">
+		<text>16:9 (1080p, 1440p, 2160p)</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_aspect_21_9">
+		<text>21:9 (ウルトラワイド)</text>
+	</string>
+
+<!-- Added in 1.14 -->
+
+	<string id="ui_mcm_paw_resolutions">
+		<text>このアスペクト比における解像度の例:\n</text>
+	</string>
+
+	<string id="ui_mcm_paw_resolutions_4_3">
+		<text>\n1024x768\n1600x1200</text>
+	</string>
+
+	<string id="ui_mcm_paw_resolutions_16_9">
+		<text>\n1920x1080\n1280x720\n1600x900\n2560x1440\n3840x2160</text>
+	</string>
+
+	<string id="ui_mcm_paw_resolutions_16_10">
+		<text>\n1280x800\n1920x1200\n2560x1600\n3840x2400</text>
+	</string>
+
+	<string id="ui_mcm_paw_resolutions_21_9">
+		<text>\n2560x1080\n3440x1440\n3840x1600</text>
+	</string>
+
+<!-- Added in 1.16 -->
+
+	<string id="ui_mcm_menu_pawret">
+		<text>レティクル/自動タグ機能</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_enable_autotag">
+		<text>レティクルIDでの自動スマートタグ機能を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_enable_autotag_desc">
+		<text>この機能を有効にすると、PAWのHUDレティクルは、有効なターゲットオブジェクトが識別された際に、以下の設定に従って自動的に適切なピンで「タグ付け」します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_reticle_info1">
+		<text>クロスヘア下の有効なオブジェクトにピンや目的地を設定するための設定可能なホットキーを使用します。デフォルトでは、レティクルが点滅することで有効なオブジェクトをターゲットしていることを示します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_reticle_info2">
+		<text>対象となるオブジェクトに自動的にマークを付けるには、以下の"自動タグ機能(AUTOTAGGING)"設定を参照してください。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_autotag_info">
+		<text>自動タグ機能は特定の種類のオブジェクトを自動的に識別し、事前に選択したピンでマークします。これによりキー設定を減らし、PDAやメニューに囚われることなくゾーンに集中できます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawhud_autotag_facid">
+		<text>PAWは、Faction Identificationアドオンと同様に機能し、そのMCM設定を読み取り、PAWとFacIDが協力して動作できるようにします。FacIDのMCMメニューで行った変更は、PAWでも考慮されます。</text>
+	</string>
+
+	<string id="ui_mcm_lst_pawsys_pg_smartpins">
+		<text>スマートピン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawpins_poi_icon_smartpins">
+		<text>スマートピンセットのデフォルトアイコン</text>
+	</string>
+
+
+	<string id="ui_mcm_pawsys_pawret_human_f_enable">
+		<text>友好的なストーカーに対して自動タグ機能を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_human_f">
+		<text>人間 (味方)に割り当てるアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_human_f_desc">
+		<text>自動タグ機能は、このアイコンを友好的なストーカーに割り当てます。</text>
+	</string>
+
+
+	<string id="ui_mcm_pawsys_pawret_human_n_enable">
+		<text>中立のストーカーに対して自動タグ機能を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_human_n">
+		<text>人間 (中立)に割り当てるアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_human_n_desc">
+		<text>自動タグ機能は、このアイコンを中立のストーカーに割り当てます。</text>
+	</string>
+
+
+	<string id="ui_mcm_pawsys_pawret_human_e_enable">
+		<text>敵対するストーカーに対して自動タグ機能を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_human_e">
+		<text>人間 (敵)に割り当てるアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_human_e_desc">
+		<text>自動タグ機能は、このアイコンを敵対するストーカーに割り当てます。</text>
+	</string>
+
+
+	<string id="ui_mcm_pawsys_pawret_monster_enable">
+		<text>モンスターに対して自動タグ機能を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_monster">
+		<text>モンスターに割り当てるアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_monster_desc">
+		<text>自動タグ機能は、このアイコンをミュータント、モンスター、その他人間以外の生き物に割り当てます。</text>
+	</string>
+
+
+	<string id="ui_mcm_pawsys_pawret_stash_enable">
+		<text>スタッシュに対して自動タグ機能を有効にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_stash">
+		<text>スタッシュに割り当てるアイコン</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_stash_desc">
+		<text>自動タグ機能は、このアイコンをスタッシュやその他のインベントリボックスに割り当てます。</text>
+	</string>
+
+
+	<string id="ui_mcm_pawsys_pawret_reticle_mustzoom">
+		<text>スコープ/双眼鏡使用時のみ有効</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_reticle_mustzoom_desc">
+		<text>このオプションを有効にすると、レティクル（およびそのタグ機能）は双眼鏡やスコープ付きの武器でズームしている間のみ有効になります。これは、NPCに近づいたり話しかけたりするだけでタグ付けがされないようにするために推奨されています。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_manual_smart_pins">
+		<text>手動でターゲットしたピンもスマート化する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_manual_smart_pins_desc">
+		<text>設定が有効になっていると、対象のキー設定でレティクルのピンを作成する際、そのピンは自動タグ機能の設定を使います。現在のアクティブなアイコンではなく、対象オブジェクトに選択されたアイコンが使われます。</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_pin_redskull">
+		<text>赤いドクロマーク</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_crosshair_gradient">
+		<text>クロスヘア (グラデーション)</text>
+	</string>
+
+<!-- Added in 1.16.3 -->
+
+	<string id="st_paw_texture_load_error_tip">
+		<text>$clr_yelPersonal Adjustable Waypoint$clr_whtアドオンは$clr_redテクスチャデータの読み込みに失敗$clr_whtし、ゲームがクラッシュしないように機能を無効にしました。\n \nログでエラーを確認し、PAWの後に$clr_yelmap_spots_relations.xml$clr_whtを変更する何かが読み込まれていないか確認してください。\n \nこれは通常、ロードオーダーの変更で解決できます。ただし、PAWの機能を使用するつもりがなく、他の何かがそれを妨害していることを気にしない場合は、MCMの$clr_yelAdjustable Waypoint$clr_whtメニューでこのエラーメッセージを無効にすることができます。</text>
+	</string>
+
+	<string id="st_paw_texture_load_error_mcmhead1">
+		<text>警告: マップスポットのテクスチャデータがありません。</text>
+	</string>
+
+	<string id="st_paw_texture_load_error_mcmhead2">
+		<text>クラッシュを避けるため、この問題が解決するまでPAWとそのMCMメニューの多くの部分が無効になります。</text>
+	</string>
+
+	<string id="st_paw_texture_load_error1">
+		<text>Personal Adjustable Waypointはmap_spots_relations.xmlからテクスチャデータを読み込むことができませんでした。
+\nこれはほとんどの場合、PAWの後にそのファイルを変更する別のアドオンを読み込んでいることが原因です。
+\n例としてはKill TrackerやMilspec PDAなどが挙げられます。</text>
+	</string>
+
+	<string id="st_paw_texture_load_error2">
+		<text>Mod Organizer 2（またはそれを使用するGAMMAなどのModパック）を使用している場合は、PAWがmap_spots_relations.xmlを変更するすべてのアドオンよりも後に（下に）ロードされるようにロードオーダーを調整してください。
+\nMO2を使用していない場合は、使用するようにしてください。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_disable_load_warning">
+		<text>このエラーに対するゲーム内の警告を無効にする（推奨されません）</text>
+	</string>
+
+<!-- Added in 1.17 -->
+
+	<string id="ui_mcm_pawsys_pawret_autotag_persistence">
+		<text>自動タグ機能で付けられたピンを永続的にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_autotag_persistence_desc">
+		<text>このオプションが有効でない限り、自動タグ機能によって追加されたすべてのピンは一時的なものです。つまり、マップ変更やセーブゲームの読み込み時、または以下で指定された秒数が経過した後に自動的に消えます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_autotag_lifetime">
+		<text>自動タグ機能で付けられたピンの有効期限（秒）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawret_autotag_lifetime_desc">
+		<text>「自動タグ機能で付けられたピンを永続的にする」が有効でない場合、タグはこの設定で指定された秒数後に自動的に消去されます。これを0に設定すると時間制限は無効になりますが、一時的なタグは次のマップ変更またはセーブゲームの読み込み時に消去されます。</text>
+	</string>
+
+<!-- Added in 2.0 -->
+
+	<string id="ui_mcm_pawsys_pawgen_headertxt">
+		<text>$clr_yelPAW$clr_whtは単なるマップマーカー機能ではありません。
+\nマップとHUDを自由にコントロールできるナビゲーションツールのパッケージです。
+\n自分だけのゾーンの地図を作りましょう。
+\n$clr_yel以下の機能はすべてオプションで、好みに合わせてカスタマイズできます。$clr_wht
+\n • $clr_lblいつでもどこでも目的地マーカーを設置し、自由に名前を付ける$clr_wht
+\n • $clr_lblマップの好きな場所にピンを配置し、アイコンや名前の変更、削除が可能$clr_wht
+\n • $clr_lbl識別したターゲットを自動的にスマートピンでタグ付けし、HUDに表示する$clr_wht
+
+\n\n$clr_yelNPCに行き先を指示されるのではなく、目的地を置いてマップを自分だけのものにしましょう。$clr_wht
+		</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_clear_dist_desc">
+		<text>プレイヤーがこの距離よりもマーカーに近付いた時、マーカーは自動的に削除されます。これを0にすると、マーカーは自動で削除されなくなります。</text>
+	</string>
+
+<!-- Added in 2.1 -->
+
+	<string id="ui_mcm_pawsys_pawmenu_show_label">
+		<text>ラベルを表示する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_hide_label">
+		<text>ラベルを非表示</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_pn_settings">
+		<text>ピンの設定画面</text>
+	</string>
+
+	<string id="st_paw_argb_a">
+		<text>A</text>
+	</string>
+
+	<string id="st_paw_argb_r">
+		<text>R</text>
+	</string>
+
+	<string id="st_paw_argb_g">
+		<text>G</text>
+	</string>
+
+	<string id="st_paw_argb_b">
+		<text>B</text>
+	</string>
+
+	<string id="ui_paw_use_custom_color">
+		<text>色を変更する</text>
+	</string>
+
+	<string id="ui_paw_reset_defaults">
+		<text>デフォルト設定</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_tag">
+		<text>BWHR ターゲットタグ</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_convert_to_pin">
+		<text>ピンに変換してカスタマイズ</text>
+	</string>
+
+	<string id="ui_paw_hint_sidebar_desc">
+		<text>ピンを開閉し、コントロールサイドバーを設定します。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_wp_settings">
+		<text>目的地の設定画面</text>
+	</string>
+
+	<string id="st_paw_target">
+		<text>対象</text>
+	</string>
+
+	<string id="st_paw_wp_active">
+		<text>目的地を表示</text>
+	</string>
+
+	<string id="st_paw_none">
+		<text>無し</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_use_custom_backpack_icon">
+		<text>プレイヤーのバックパックスタッシュのアイコンをカスタマイズする</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_use_custom_backpack_icon_desc">
+		<text>有効にすると、バックパックスタッシュを配置する際に、PAWは通常の一般的なスタッシュアイコンを任意のアイコンに置き換えます。</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_custom_backpack_icon">
+		<text>お気に入りセットから使用するアイコン</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawpins_custom_backpack_icon_desc">
+		<text>ここに希望のアイコンがない場合は、configs\ui\icon_set_faves.ltxを編集してリストに追加してください。</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_stash_backpack">
+		<text>バックパックスタッシュ</text>
+	</string>
+
+	<string id="ui_mcm_lst_paw_bwhr_stash">
+		<text>BWHR スタッシュアイコン</text>
+	</string>
+
+	<string id="ui_paw_hint_btn_sidebar_desc">
+		<text>\n$clr_yelサイドバーを開閉$clr_whtし、アイコンライブラリから
+\nすべてのセットを参照して、ピンのアイコンを
+\n他のアイコンに変更することができます。
+\n特定の位置にカーソルを置いてマウスホイールを
+\nスクロールすることで、セットやアイコンを
+\n切り替えることができます。</text>
+	</string>
+
+	<string id="ui_paw_hint_btn_delete_desc">
+		<text>\n$clr_whtこのピンを$clr_orn永久に削除$clr_whtします。
+\n確認メッセージはなく、元に戻せません。
+\n誤操作を防ぐために$clr_yel保護$clr_whtすることもできます。</text>
+	</string>
+
+	<string id="ui_paw_hint_btn_ok_desc">
+		<text>\n$clr_wht変更内容を確定し、ウィンドウを閉じます。</text>
+	</string>
+
+	<string id="ui_paw_hint_btn_cancel_desc">
+		<text>\n$clr_wht変更内容を放棄し、ウィンドウを閉じます。</text>
+	</string>
+
+	<string id="ui_paw_hint_btn_sound_desc">
+		<text>\n$clr_yelUIの操作音$clr_whtを切り替えます。
+\nこれはPAWのMCMメニューでも設定できます。</text>
+	</string>
+
+	<string id="ui_paw_hint_check_lock_desc">
+		<text>\n$clr_yel保護されたピン$clr_whtはMCMでの消去以外のすべての
+\n操作から保護されます。右クリックメニューの
+\n「$clr_yelすべてのピンを削除$clr_wht」からも保護されます。</text>
+	</string>
+
+	<string id="ui_paw_hint_check_text_desc">
+		<text>\n$clr_whtピンの名前を$clr_yelラベル$clr_whtとしてPDAのマップ上に
+\n表示または非表示にします。</text>
+	</string>
+
+	<string id="ui_paw_hint_check_hud_desc">
+		<text>\n$clr_whtピンを$clr_yelHUD$clr_whtに表示するかしないかを設定します。</text>
+	</string>
+
+	<string id="ui_paw_hint_input_desc">
+		<text>\n$clr_whtここをクリックして$clr_yelピンの名前を編集$clr_whtします。</text>
+	</string>
+
+	<string id="ui_paw_hint_check_argb_desc">
+		<text>\n$clr_whtこのピンのアイコンの$clr_yel色と透明度のカスタマイズ$clr_wht
+\nを有効または無効にします。色の変更は元の色に
+\n対して行われるため、設定次第では見栄えが
+\n良くなるものもありますが、基本的に任意の色に
+\n変更できるのは白黒のアイコンのみです。</text>
+	</string>
+
+	<string id="ui_paw_hint_input_a_desc">
+		<text>\n$clr_whtここをクリックして$clr_yel透明度$clr_whtを編集します。
+\n0に設定するとピンが見えなくなり、
+\n255に設定すると完全に不透明になります。</text>
+	</string>
+
+	<string id="ui_paw_hint_input_r_desc">
+		<text>\n$clr_whtここをクリックして$clr_yel赤色$clr_whtを編集します。
+\nこの変更はアイコンの色に対して行われます。
+\n白黒のアイコンのみ任意の色に変更可能です。</text>
+	</string>
+
+	<string id="ui_paw_hint_input_g_desc">
+		<text>\n$clr_whtここをクリックして$clr_yel緑色$clr_whtを編集します。
+\nこの変更はアイコンの色に対して行われます。
+\n白黒のアイコンのみ任意の色に変更可能です。</text>
+	</string>
+
+	<string id="ui_paw_hint_input_b_desc">
+		<text>\n$clr_whtここをクリックして$clr_yel青色$clr_whtを編集します。
+\nこの変更はアイコンの色に対して行われます。
+\n白黒のアイコンのみ任意の色に変更可能です。</text>
+	</string>
+
+	<string id="ui_paw_hint_btn_wpreset_desc">
+		<text>\n$clr_whtすべての目的地の設定をリセットします。
+\nこの画面のテキストの設定も対象になります。
+\n設定中の目的地がある場合は保持されます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_near_fade_dist">
+		<text>近距離で目的地がフェードアウトする距離（メートル単位）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_near_fade_dist_desc">
+		<text>プレイヤーがこの距離内に入ると、目的地がフェードアウトし始めます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_far_fade_dist">
+		<text>遠距離で目的地がフェードアウトする距離（メートル単位）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_far_fade_dist_desc">
+		<text>プレイヤーが目的地からこの距離より離れると、目的地がフェードアウトし始めます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_far_hide_dist">
+		<text>目的地を非表示にする距離（メートル単位）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_wp_far_hide_dist_desc">
+		<text>プレイヤーがフェードアウトが始まる場所からこの距離以上離れると、目的地は完全に消えます。</text>
+	</string>
+
+
+<!-- Added in 2.1.2 -->
+
+	<string id="ui_paw_mapspot_tooltip_mode">
+		<text>ツールチップモード</text>
+	</string>
+
+	<string id="ui_mcm_lst_pawsys_msttmode_text">
+		<text>ピンのテキストを使用する</text>
+	</string>
+	<string id="ui_mcm_lst_pawsys_msttmode_obj">
+		<text>オブジェクトの名前を使用する</text>
+	</string>
+
+<!-- Added in 2.2 -->
+
+	<string id="ui_mcm_pawsys_pawbinds_raytrace_wp_targets">
+		<text>目的地の設定に対象となるオブジェクトを必要としない</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawbinds_raytrace_wp_targets_desc">
+		<text>通常、PAWの目的地を設定するには、NPCなどのクロスヘア下に有効なオブジェクトが必要です。このオプションが有効になっている場合、クロスヘア下にオブジェクトがないときは、プレイヤーが指している空間にカスタム目的地が設定されます。</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_uninstall">
+		<text>PAWをアンインストールする（セーブデータから削除）</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawgen_uninstall_desc">
+		<text>セーブデータからすべてのPAWのデータを完全に削除し、ゲームをセーブする際にPAWのデータが書き込まれないように一時的なフラグを設定します。必要に応じてセーブデータを「クリーン」にすることができます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_clear_nearby">
+		<text>周囲のピンを削除</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_clear_radius">
+		<text>周囲のピンを削除する半径（メートル単位）</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_clear_radius_desc">
+		<text>「周囲のピンを削除」機能を使用すると、クリックした地点の周囲にある半径内のすべてのピンが完全に削除されます。
+
+\n\nすべてのマーカーを確実に削除するため、これらのピンからマップスポットも同様に取り除かれます。なお、この操作でシステムのマップスポットが削除された場合、次のセーブロードやマップの移行時にAnomalyによって再度追加されます。
+		</text>
+	</string>
+
+	<string id ="ui_mcm_pawsys_pawret_notify_pin_target">
+		<text>ターゲットを手動でタグ付けする際にメッセージを表示する</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_verbose">
+		<text>冗長（Verbose）なデバッグログ</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_verbose_desc">
+		<text>「Verbose」はプログラマー用語で「本当にスパムっぽい」という意味です。これはログに最大限の情報を入れるためのもので、問題を報告する場合は必ず有効にしてください。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawmenu_persistent">
+		<text>ピンが消えずに残る</text>
+	</string>
+
+	<string id="ui_paw_hint_check_pers_desc">
+		<text>\n$clr_whtピンを$clr_yel自動的に消去$clr_whtするかどうかを設定します。
+\nオンにすると手動で削除しない限り消えません。
+\nオフにするとMCMで設定した時間で消去され、
+\nまたマップ移動やロード時に必ず削除されます。</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_hide_intro_header">
+		<text>PAWのMCMイントロを非表示にする</text>
+	</string>
+
+	<string id="ui_mcm_pawsys_pawgen_hide_intro_header_desc">
+		<text>PAWには新しいユーザー向けのカラフルなイントロメッセージがありますが、PAWに慣れている場合は邪魔になるだけです。このオプションはヘッダーを非表示または表示を切り替えます。</text>
+	</string>
+
+	<string id="ui_paw_hide_intro_header">
+		<text>$clr_tgrこのメッセージを再表示しない</text>
+	</string>
+
+</string_table>
+
+<!-- Added in 2.3 -->
+
+<string_table>
+	<string id="encyclopedia_addons">
+		<text>アドオン</text>
+	</string>
+
+	<string id="encyclopedia_addons_addon_name">
+		<text>Personal Adjustable Waypoint</text>
+	</string>
+
+	<string id="encyclopedia_addons_addon_name_text">
+		<text>c[pda_yellow]Personal Adjustable Waypoint:\n
+		%c[ui_gray_1]目的地を好きな場所に設定し、タスクとして追跡できます。マップやHUDに自分のメモをピン留めし、アイコンやラベルをカスタマイズすることも可能です。マップアイコンをカスタマイズして使いやすくしましょう。\n \n
+		%c[pda_yellow]Mod設定メニュー > Adjustable Waypoint%c[pda_white]: %c[pda_yellow]基本設定[pda_white]から設定を変更できます。\n
+		</text>
+	</string>
+
+</string_table>

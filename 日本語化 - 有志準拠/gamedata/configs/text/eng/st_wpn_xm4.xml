@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_xm4">
+		<text>XM177e2</text>
+	</string>
+	<string id="st_wpn_xm4_descr">
+		<text>ベトナム戦争中にCAR-15シリーズの一環として開発されたコンパクトなカービン銃。M16よりも軽量で取り回しやすく、兵士にとってより扱いやすい代替品となるよう設計されている。短い銃身に、発射音とマズルフラッシュを軽減する独特なモデレーターを装備し、携帯性を向上させる伸縮式ストックを備えている。現在は後継モデルにその座を譲ったが、特殊作戦用銃器の発展に大きく貢献した歴史的なモデルだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt's Manufacturing LLC\n
+		</text>
+
+	</string>
+
+</string_table>

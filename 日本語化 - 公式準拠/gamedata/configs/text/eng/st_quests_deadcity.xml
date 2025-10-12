@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TEXT  STRINGS FOR TASKS ON DEAD CITY MAP -->
+
+<string_table>
+
+
+	<!-- STORYLINE TASK TEXT  STRINGS -->
+
+	<!-- Dushman (Merc Trader) Default Storyline Task -->
+
+	<string id="drx_sl_cit_killers_merc_trader_stalker_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_default_task_about">
+		<text>俺たちの仕事に見合う報酬を出すと言っている顧客がいる。
+\n直接会って、話をつけてきてくれ。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_default_task_finish">
+		<text>幸運を、ストーカー。</text>
+	</string>
+
+	<!-- Dushman (Merc Trader) Commando Raid Storyline Task -->
+
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_1_name">
+		<text>精鋭部隊への襲撃</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_1_text">
+		<text>敵の野営地に密かに潜入する。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_1_about">
+		<text>仕事を用意したぞ。
+\n特定の派閥が、顧客にとって都合の悪い場所に入り込んでいる。排除が必要だ。
+\n今回は、お前に単独で動いてもらう。
+\n相手は大規模な攻撃には備えているが、単独の侵入者までは想定していないはずだ。
+\n奴らの野営地に潜入し、可能な限り多くの敵を排除してこい。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_1_finish">
+		<text>よくやった。我々の顧客も満足している。お前のためにボーナスを出してくれたぞ。</text>
+	</string>
+
+	<!-- Dushman (Merc Trader) Assault Bandit Camp Storyline Task -->
+
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_2_name">
+		<text>バンディットの野営地への強襲</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_2_text">
+		<text>傭兵たちを率いて、バンディットの野営地を襲撃する。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_2_about">
+		<text>バンディットどもがこの地域に入り込んできている。
+\n普段なら、お互い干渉しない取り決めになっているが、今回は少し近づきすぎている。
+\n部下を連れて行って、奴らを一掃してくれ。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_task_2_finish">
+		<text>素晴らしい働きだ。この報酬はお前のものだ。</text>
+	</string>
+
+	<!-- Hog (Merc Mechanic) Default Storyline Task -->
+
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_default_task_about">
+		<text>あんたに会いたがってる客がいる。場所は地図にマークしておいたぞ。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_default_task_finish">
+		<text>健闘を祈るぞ、ストーカー。</text>
+	</string>
+
+	<!-- Hog (Merc Mechanic) Ambush Raid Storyline Task -->
+
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_1_name">
+		<text>奇襲攻撃</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_1_text">
+		<text>傭兵たちと連携し、この地域にある敵の野営地を奇襲する。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_1_about">
+		<text>よう。仲間たちがここの近くで敵の野営地を発見した。
+\n今まさに奇襲をかけに向かっているところだ。あんたも急げば追いつけるかもしれないぞ。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_1_finish">
+		<text>よくやった、これがあんたの分け前だ。</text>
+	</string>
+
+	<!-- Hog (Merc Mechanic) Extract Mercenary Prisoner Storyline Task -->
+
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_2_name">
+		<text>捕虜の傭兵を救出する</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_2_text">
+		<text>ある傭兵が軍の捕虜になっている。彼を助け出さなければならない。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_2_about">
+		<text>軍のクソ野郎どもに俺たちの仲間が捕まった！突入して彼を救出してきてくれ、頼む。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_2_finish">
+		<text>よくやった。誰も置き去りにはしないぞ。</text>
+	</string>
+
+	<!-- Hog (Merc Mechanic) Mutant Part Storyline Task -->
+
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_3_name">
+		<text>ホグのために%sを集める</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_3_text">
+		<text>ホグを襲ったミュータントを殺し、%sを持ち帰る。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_3_about">
+		<text>お前は現場に出ることが多いだろう。例のミュータントを見つけたら殺してほしい。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_3_fetch_about">
+		<text>先週、ミュータントに襲われたんだ。
+\n危うく奴にやられるところだったが、仕返しする前にどっかに行っちまった。
+\nこの傷は一生残るだろうな。もしあのクソ野郎を見かけたら、内蔵を引きずり出してやれ。
+\n%sをここに持ってくるんだ。報酬はしっかり出すからな。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_mechanic_stalker_task_3_fetch_finish">
+		<text>あいつを仕留めたんだな！よし！思い知ったか、クソ野郎が！
+\nありがとう、あんたはよくやってくれたよ。</text>
+	</string>
+
+	<!-- CHANGE FACTIONS TASK TEXT  STRINGS -->
+
+	<!-- Dushman (Merc Trader) Payoff Change Factions Task -->
+
+	<string id="drx_sl_cit_killers_merc_trader_stalker_cf_task_1_name">
+		<text>傭兵への加入</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_cf_task_1_text">
+		<text>傭兵として正式に認められるには、契約の担保として12,000ルーブルをドゥシュマンに渡す必要がある。</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_cf_task_1_about">
+		<text>それなら、12,000ルーブルだ。ゾーンにいる間は、通常の身元調査ができないからな。
+\n契約を途中で放棄した場合の担保として考えてくれ。
+\nここでは、プロ意識と準備こそがすべてだ。武器は自分で用意しろよ。さあ、どうする？</text>
+	</string>
+	<string id="drx_sl_cit_killers_merc_trader_stalker_cf_task_1_finish">
+		<text>お前が契約してくれてよかったよ。これで我々との契約が結ばれたな、傭兵。</text>
+	</string>
+
+	<!-- DYNAMIC TASK TEXT  STRINGS -->
+
+	<!-- Dushman (Merc Trader) Contract Killing Dynamic Task -->
+
+	<string id="cit_killers_merc_trader_stalker_task_1_name">
+		<text>殺害契約</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_1_text">
+		<text>ターゲットを見つけて排除する。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_1_about">
+		<text>我々の顧客が、まだ処理していない賞金首のリストを持っている。
+\n契約の義務を果たすため、これを秘密裏に実行できる協力者が必要だ。興味はあるか？</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_1_finish">
+		<text>終わったか？よし、これが分け前だ。</text>
+	</string>
+
+
+	<!-- ASSAULT TERRITORY FOR MERCS TASK -->
+	<string id="cit_killers_merc_trader_stalker_task_2_name">
+		<text>敵野営地を急襲する</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_2_text">
+		<text>指定された区域にいる敵勢力をすべて排除する。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_2_about">
+		<text>お前には襲撃の先陣を任せたい。目標区域にいる敵勢力をすべて排除してくれ。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_2_finish">
+		<text>素晴らしい働きだった。これが報酬だ。</text>
+	</string>
+
+	<!-- Dushman (Merc Trader) Capture Enemy Documents Dynamic Task -->
+
+	<string id="cit_killers_merc_trader_stalker_task_3_name">
+		<text>敵の文書を奪取する</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_3_text">
+		<text>敵の機密文書を確保し、ドゥシュマンのもとへ届ける。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_3_about">
+		<text>顧客から、敵の手にある重要書類を確保してほしいとの要請があった。
+\n書類をここへ持ち帰ってくれば、報酬を渡そう。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_3_finish">
+		<text>よくやった。素晴らしい成果だ。</text>
+	</string>
+
+	<!-- MECHANIC TASK TEXT  STRINGS -->
+
+	<!-- Hog (Merc Mechanic) Find Level 1 Toolkit Task -->
+
+	<string id="cit_killers_merc_mechanic_stalker_task_1_name">
+		<text>ホグのために%sを見つける</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_1_text">
+		<text>ホグは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_1_about">
+		<text>提案があるんだ。新しい工具を持ってきてくれれば、報酬を渡そう。どうだ？</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_1_fetch_about">
+		<text>%sをずっと探してるんだ。
+\n銃の整備に必要なオイルと工具が入ってるはずなんだ。持ってきてくれたら金を払おう。</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_1_fetch_finish">
+		<text>素晴らしい！これこそ俺が探してたものだ。ありがとな！</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_2_name">
+		<text>ホグのために%sを見つける</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_2_text">
+		<text>ホグは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_2_about">
+		<text>もう一つ頼みがあるんだ。前に持ってきてくれた工具は役に立ってるが、
+\nまだ足りないものがあってな。もっと良い工具を探してきてくれないか？</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_2_fetch_about">
+		<text>%sが必要なんだ。
+\nどこで手に入るかは分からないが、もし見つけられるなら、ぜひ頼む。</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_2_fetch_finish">
+		<text>これで必要なものが揃ったぜ。ありがとな。</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_3_name">
+		<text>ホグのために%sを見つける</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_3_text">
+		<text>ホグは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_3_about">
+		<text>もう一つ頼みがあるんだ。前に持ってきてくれた工具は役に立ってるが、
+\nまだ足りないものがあってな。もっと良い工具を探してきてくれないか？</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_3_fetch_about">
+		<text>%sが必要なんだ。
+\nどこで手に入るかは分からないが、もし見つけられるなら、ぜひ頼む。</text>
+	</string>
+	<string id="cit_killers_merc_mechanic_stalker_task_3_fetch_finish">
+		<text>これで必要なものが揃ったぜ。ありがとな。</text>
+	</string>
+	
+	
+<!-- Aslan (Barman) -->
+	<string id="cit_killers_merc_barman_mlr_task_1_name">
+		<text>ターゲットを排除する</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_1_text">
+		<text>アスランのために標的を排除する。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_1_about">
+		<text>ああ、俺たちはいつだって仕事を抱えてる。
+\n座標を教えるから、そいつを始末してくれればいい。単純な任務だ。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_1_finish">
+		<text>よくやった、これが報酬だ。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_2_name">
+		<text>奨励目標</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_2_text">
+		<text>%sを集めてアスランに届ける。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_2_about">
+		<text>人間狩りに興味はあるか？
+\n必要なパッチの数を教えるから、それを持ってきてくれ。報酬は出すぞ。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_2_fetch_about">
+		<text>最近、俺たちの“競争相手”が少し調子に乗ってきているようだな。
+\n余計なことにまで首を突っ込んできやがる。そろそろ奴らに釘を刺してやろう。
+\nいくつか%sを持ってくれば、それ相応の報酬を用意してやる。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_2_fetch_finish">
+		<text>よくやった、これが報酬だ。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_3_name">
+		<text>モンスターハンター</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_3_text">
+		<text>%sの需要があるようだ。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_3_about">
+		<text>ああ、あんた向けの仕事ならいつでも用意してあるぞ。
+\n金持ちの顧客が、珍しいミュータントの身体部位に興味を持っていてな。
+\nそれを持ってきてくれれば、ちゃんと労力に見合った報酬を渡そう。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_3_fetch_about">
+		<text>ああ、あんた向けの仕事ならいつでも用意してあるぞ。
+\n金持ちの顧客が、珍しいミュータントの身体部位に興味を持っていてな。
+\n%sを持ってきてくれれば、ちゃんと労力に見合った報酬を渡そう。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_3_fetch_finish">
+		<text>よくやった、これがあんたの報酬だ。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_4_name">
+		<text>恐怖の元凶</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_4_text">
+		<text>アスランは赤い森に出没する危険なミュータントを排除したいと考えている。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_4_about">
+		<text>聞いてくれ。最近、赤い森に凶悪なキメラが出没しているという噂がある。
+\nストーカーのチームでさえ無事に戻ってこれなかったほどだ。生き延びた者の話では、
+\nそいつは暗闇に紛れて襲ってくるらしい。我々の偵察隊からも同様の報告を受けている。
+\nこのままでは仕事にならん。そこで、そのミュータントを始末してほしい。
+\n手段は問わない。あの化け物を仕留めた者にはボーナスを支払おう。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_4_finish">
+		<text>素晴らしい働きだ。本来ならチームを雇ってやらせる任務を、あんたは一人でやり遂げた。
+\nもしゾーンを離れることがあったら、ぜひ連絡してくれ。
+\nあんたのような腕利きを欲しがってる顧客を何人か知ってるんだ。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_5_name">
+		<text>基地を確保する</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_5_text">
+		<text>基地の周辺にいるすべてのミュータントを一掃する。</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_5_about">
+		<text>そろそろ基地の周辺を徹底的に掃除する時期だ。
+\nミュータントどもが廃墟に居座って、仲間たちの安眠を妨げている。
+\nあの凶暴な連中を追い払って、周辺をきれいにしてくれる者が必要だ。
+\n骨の折れる仕事だが、誰かがやらなきゃならない。もちろん、報酬はちゃんと出す。
+\nどうだ、引き受けるか？</text>
+	</string>
+	<string id="cit_killers_merc_barman_mlr_task_5_finish">
+		<text>これが報酬だ。これからも頑張ってくれよ。</text>
+	</string>
+	
+<!-- Surgeon (Mercenary Medic) -->
+	<string id="cit_killers_merc_medic_stalker_task_1_name">
+		<text>サージャンのために%sを見つける</text>
+	</string>
+	<string id="cit_killers_merc_medic_stalker_task_1_text">
+		<text>サージャンは医薬品を作成するために%sを必要としている。</text>
+	</string>
+	<string id="cit_killers_merc_medic_stalker_task_1_about">
+		<text>頼みたいことがあるんだ。ヤンターの移動ラボはそれほど遠くないが、
+\nあそこの医療物資に頼りきりになるのは避けたくてな。
+\n%sがあれば、ここにいる全員分の十分な薬を作ることができる。
+\n心配するな、金はちゃんと用意してある。持ってきてくれたら支払うつもりだ。</text>
+	</string>
+	<string id="cit_killers_merc_medic_stalker_task_1_fetch_about">
+		<text>頼みたいことがあるんだ。ヤンターの移動ラボはそれほど遠くないが、
+\nあそこの医療物資に頼りきりになるのは避けたくてな。
+\n%sがあれば、ここにいる全員分の十分な薬を作ることができる。
+\n心配するな、金はちゃんと用意してある。持ってきてくれたら支払うつもりだ。</text>
+	</string>
+	<string id="cit_killers_merc_medic_stalker_task_1_fetch_finish">
+		<text>どれどれ･･････ よし、いいだろう。助かったよ、これが報酬だ。</text>
+	</string>
+</string_table>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="ui_mcm_RF_package_patch_title">
+		<text>RF Receiver</text>
+	</string>
+	
+	<string id="ui_mcm_menu_RF_package_patch">
+		<text>RF Receiver Options</text>
+	</string>
+	
+	<string id="ui_mcm_RF_package_patch_reminders">
+		<text>リマインダーメッセージを表示</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_transition">
+		<text>指定エリア以外のエリアに侵入した時</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_local">
+		<text>指定エリアに侵入した時</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_never">
+		<text>リマインダーを表示しない</text>
+	</string>
+	
+	<string id="ui_mcm_RF_package_patch_upgrades">
+		<text>アップグレードアイテムの種類</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_vanilla">
+		<text>バニラのアップグレードアイテム</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_streamlined">
+		<text>Artiによる効率化されたアップグレードアイテム</text>
+	</string>
+	
+	<string id="ui_mcm_RF_package_patch_unpacking">
+		<text>パッケージの開封モード</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_manual_unpack">
+		<text>右クリックによる手動開封</text>
+	</string>
+	
+	<string id="ui_mcm_lst_switch_mode_auto_unpack">
+		<text>パッケージの回収時に自動的に開封</text>
+	</string>
+	
+</string_table>

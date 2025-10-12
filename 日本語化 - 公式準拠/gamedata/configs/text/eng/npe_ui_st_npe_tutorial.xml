@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+    <string id="npe_tutorial_btn_close">
+		<text>閉じる</text>
+	</string>
+	<string id="npe_tutorial_btn_pause">
+		<text>一時停止</text>
+	</string>
+	<string id="npe_tutorial_btn_resume">
+		<text>停止解除</text>
+	</string>
+	<string id="npe_tutorial_btn_next">
+		<text>次へ</text>
+	</string>
+	<string id="npe_tutorial_btn_prev">
+		<text>前へ</text>
+	</string>
+</string_table>

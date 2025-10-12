@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_interact">
+		<text>使う ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_place_popup">
+		<text>置く ($$ACTION_USE$$)</text>
+	</string>
+	<string id="st_far_popup">
+		<text>位置が遠すぎて設置できない</text>
+	</string>
+	<string id="st_collision_warning">
+		<text>何かと重なって設置できない</text>
+	</string>
+    <string id="st_reject_pickup_world_obj">
+		<text>拾うことができない</text>
+	</string>
+	<string id="st_enable_collision">
+		<text>衝突判定を有効化</text>
+	</string>
+    <string id="st_disable_collision">
+        <text>衝突判定を無効化</text>
+    </string>
+	<string id="st_align_actor">
+		<text>設置物の向きをプレイヤーに合わせる</text>
+	</string>
+    <string id="st_align_surface">
+		<text>設置物の向きを面に合わせる</text>
+	</string>
+</string_table>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	MCM
+-->
+<string_table>
+
+
+	<string id="ui_mcm_wepl_hit_effect_title">
+		<text>Wepl Hit Effects</text>
+	</string>
+	<string id="ui_mcm_menu_wepl_hit_effect">
+		<text>Wepl Hit Effects</text>
+	</string>
+
+
+	<!-- Main configs -->
+	<string id="ui_mcm_wepl_hit_effect_enable_stalker">
+		<text>プレイヤーが攻撃を受けた時にヒットサウンドを再生する</text>
+	</string>
+
+	<string id="ui_mcm_wepl_hit_effect_enable_npc">
+		<text>プレイヤーがNPCに攻撃した時にヒットサウンドを再生する</text>
+	</string>
+
+	<string id="ui_mcm_wepl_hit_effect_volume">
+		<text>ヒットサウンドの音量</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<!-- Kuznetsov (Military Honcho) Default Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_default_task_about">
+		<text>現場に出ている人物に報告してこい。居場所はPDAにマークしておいた。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_default_task_finish">
+		<text>幸運を祈る、ストーカー。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Sniper Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_name">
+		<text>狙撃手</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_text">
+		<text>遠距離から標的を排除する。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_about">
+		<text>最重要目標を発見したが、容易に接近できる相手ではない。
+\nそこで、非常に精密な長距離射撃が可能な人員を求めている。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_finish">
+		<text>素晴らしい腕前だ。よくやった。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Assault Enemy Camp Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_name">
+		<text>敵の野営地を襲撃する</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_text">
+		<text>分隊を率いて敵の野営地を襲撃する。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_about">
+		<text>現在、我々は敵の野営地に対する攻撃に向けた準備を進めている。
+\nこの作戦のために、全隊員に新たな武器を支給してある。
+\nそしてお前には、最前線に立って攻撃の先陣を切ってもらいたい。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_finish">
+		<text>素晴らしい仕事ぶりだったぞ。お前は立派な戦士だ。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Defend Military Base Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_name">
+		<text>Militaryの基地を防衛する</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_text">
+		<text>敵の攻撃からMilitaryの基地を守る。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_about">
+		<text>この地域で敵の活動が確認された。我々の基地への攻撃を計画している可能性が高い。
+\n部隊を率いて敵と接触し、脅威を排除しろ。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_finish">
+		<text>よくやった。見事な働きだ。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Save the Military Agent Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_name">
+		<text>ウクライナの極秘任務</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_text">
+		<text>敵勢力に潜入している諜報員を救出しなくてはならない。彼と一緒に行動している敵分隊を排除し、基地まで護衛する必要がある。その諜報員はSVDを持っているはずだ。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_about">
+		<text>敵陣に潜入している我々の諜報員だが、どうやら疑いをかけられているらしい。
+\nここ数回、こちらからの連絡に応じず、それ以降も一切メッセージを送ってきていない。
+\nおそらく敵の監視下にあり、不審に思われないよう身を潜めているのだろう。
+\nだが、このままでは証拠が揃う前に始末されてしまう。早急に救出しなくてはならない。
+\n近くで彼の姿を確認できたが、他のストーカーたちと行動を共にしているようだ。
+\nお前の任務は、その連中を排除し、諜報員を基地まで護衛して帰還させることだ。
+\n識別の手がかりとして、彼はSVDを装備している。それが目印になるはずだ。
+\nただし、戦闘になれば彼も応戦せざるを得ないだろう。その点は肝に銘じておけ。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_finish">
+		<text>よくやった。すぐに報告させるとしよう。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_msg_join">
+		<text>撃つな！俺が諜報員だ！悪かったな、奴らのフリを続けなきゃならなかったんだ。
+\nさあ、基地へ戻ろう。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_msg_leave">
+		<text>ここでお別れだ。またな！</text>
+	</string>
+
+	<!-- Kirilov (Military Mechanic) Default Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_default_task_about">
+		<text>我々の味方が支援を必要としている。
+\n彼のもとへ向かい、何か助けになれることがないか確認してこい。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_default_task_finish">
+		<text>健闘を祈るぞ、新入り。</text>
+	</string>
+
+	<!-- Kirilov (Military Mechanic) Battle Plans Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_1_name">
+		<text>作戦計画書</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_1_text">
+		<text>敵の作戦計画書の場所を知ったキリロフ上級中尉は、それを手に入れたいと考えている。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_1_about">
+		<text>情報提供者の働きにより、敵の作戦が記された計画書の所在が判明した。
+\nお前にはその場所へ潜入し、計画書を回収してもらいたい。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_1_finish">
+		<text>よくやった！お前は多くの命を救ったぞ。</text>
+	</string>
+
+	<!-- Kirilov (Military Mechanic) Patrol Local Area Storyline Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_2_name">
+		<text>周辺地域の巡回</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_2_text">
+		<text>アグロプロム周辺の巡回を任された。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_2_about">
+		<text>見張りの順番が回ってきたぞ。周辺を巡回し、侵入者がいないか監視するんだ。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_2_finish">
+		<text>よくやった。指揮官も喜ぶだろう。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Payoff Change Factions Task -->
+
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_cf_task_1_name">
+		<text>Militaryへの加入</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_cf_task_1_text">
+		<text>Militaryのストーカーになるには、実力の証明として8,000ルーブルをクズネツォフ大佐に渡す必要がある。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_cf_task_1_about">
+		<text>ほう、今どきの若者にしては珍しく愛国心があるな。なかなか感心なことだ！
+\nそうだな･･････ お前は放射線を浴びすぎている。これでは、入隊前の身体検査に通らんぞ。
+\nとなると、軍所属のストーカーとして志願するつもりか？
+\n分かっているだろうが、誰彼かまわず入隊を許可するわけにはいかん。
+
+\n\nまずはゾーンで生き抜く力があることを証明してもらおうか･･････
+\n8,000ルーブルを持ってこい。それができれば話を進めてやろう。</text>
+	</string>
+	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_cf_task_1_finish">
+		<text>ふん、なるほどな。凡庸な兵士なら死ぬような状況で、お前は利益まで得たというわけだ。
+\nこれでお前は正式な仲間だ、兵士よ。外では問題を起こさないようにしろよ。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Stop Unauthorized Incursions Task -->
+
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_name">
+		<text>不都合な真実</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_text">
+		<text>指定された場所に行き、ストーカーたちを排除する。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_about">
+		<text>一つ、厄介な問題がある。
+\n我々の基地周辺に不法滞在者がいる現状は、今後の作戦遂行に支障をきたす恐れがある。
+\n任務はこうだ･･････ 指定された場所に向かい、正式な許可を得ていない者をすべて排除しろ。
+\n正式な許可を受けている者やDutyの隊員は見逃して構わない。
+\nそれ以外の者は、どんな事情や合意があったとしても、例外なく始末しろ。理解したな？</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_finish">
+		<text>よくやった。その調子で続ければ、表彰も夢じゃないぞ。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Capture Territory Task -->
+
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_name">
+		<text>犯罪集団に報復する</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_text">
+		<text>Ecologistが襲撃された現場に向かい、報復を行う必要がある。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_about">
+		<text>最近、ゾーン内でストーカーによる違法行為が増加している。
+\nその影響で、我々の科学者がある犯罪集団に襲撃された。
+\n襲撃を行った者はすでに姿を消しているが、その罪を見逃すわけにはいかない。
+\n現場へ向かい、滞在しているストーカーどもに戒厳令を執行しろ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_finish">
+		<text>任務は終わったのか？よくやった。
+\nこれで奴らも、我々の民間人に手を出す前に、少しは考えるようになるだろう。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Capture Enemy Combatant Task -->
+
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_name">
+		<text>制裁執行</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_text">
+		<text>クズネツォフ大佐の命により、標的を処刑する。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_about">
+		<text>俺はウクライナ保安庁から、最重要指名手配者のリストを定期的に受け取っている。
+\n敵のスパイや戦術家だけでなく、戦友を見捨てて逃げた恥知らずの脱走兵も含まれている。
+\n外の世界で罪を犯し、裁きから逃れるためにゾーンへと逃げ込んだ犯罪者もな。
+\n奴らがかつて何をしでかしたかは、もはや重要ではない。
+\n重要なのは･･････ そのリストの一人が今、隙を見せているということだ。
+\nお前に処刑人としての覚悟があるなら、次の給与にボーナスをつけてやろう。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_3_finish">
+		<text>素晴らしい仕事ぶりだ！内務省の大臣たちも喜ぶだろう。</text>
+	</string>
+
+	<!-- Kuznetsov (Military Honcho) Tight Security Task -->
+
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_name">
+		<text>過剰な警備</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_text">
+		<text>%sを集め、クズネツォフ大佐に届けて報酬を受け取る。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_about">
+		<text>上層部にいる友人が非公式の取り組みを始めたんだが、参加してみないか？
+\nストーカーのクズどもを始末するのが目的だ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_fetch_about">
+		<text>上層部にいる友人が、非公式の新しい取り組みを考案した。
+\n警備任務は月日が経つとどうしても退屈になるものだからな。
+\n兵士たちの集中力を維持するため、これまで以上に巡回任務に出てもらうことになる。
+\n%sを一番多く回収した分隊に報酬が支給される仕組みだ。
+\n興味があるなら、お前も参加してみるといい。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_fetch_finish">
+		<text>ふむ、パッチの数を確認しよう･･････ よくやった、兵士よ。この報酬はお前のものだ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_5_name">
+		<text>報告書の回収任務</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_5_text">
+		<text>クズネツォフ大佐の元に報告書を持ち帰る。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_5_about">
+		<text>コードンにいる連絡員から、周辺地域でのストーカーの活動に関する重要な情報が届いた。
+\nPDAに示したデッドドロップ地点へ向かい、そこにある報告書を回収して戻ってこい。
+\n地味な仕事だが、最小限のリスクでそれなりの報酬を得られるぞ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_5_finish">
+		<text>素晴らしい仕事だ、兵士よ。内容を少しでも見たのなら、口外しない方が身のためだぞ。</text>
+	</string>
+
+	<!-- Kirilov (Military Mechanic) Find Level 1 Toolkit Task -->
+
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_name">
+		<text>キリロフ上級中尉のために%sを見つける</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_text">
+		<text>キリロフ上級中尉は基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_about">
+		<text>ウクライナ保安庁の連中に基地の工具を持ち去られて、新しいものが必要な状況だ。
+\n補給を待っているところだが、大佐もイライラしてきてな。そこで、大佐が補給部隊を
+\n急かしている間、俺には巡回中に工具を見つけた奴に報酬を出す権限が与えられた。
+\nお前も見つけたら拾ってきてくれないか？</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_fetch_about">
+		<text>今のところ、必要なのはシンプルなツールキットだ。分かるよな？
+\n高度なものは後回しといこう。気をつけて探してくれよ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_1_fetch_finish">
+		<text>よし、見せてみろ･･････ うん、大丈夫だ。これで問題ない。報酬を受け取ってくれ。
+\nそれと、お前の装備にも基本的な改良を施せるようになったぞ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_name">
+		<text>キリロフ上級中尉のために%sを見つける</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_text">
+		<text>キリロフ上級中尉は高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_about">
+		<text>新兵には十分な工具を用意できたが、スペツナズとなると話は別だ。
+\nだから、今度はもっと高度なツールキットが必要になる。
+\nそれ以下じゃ話にならないんだ、分かるよな？
+\n前回と同じく、持ち帰ってくれれば相応の報酬を支払うぜ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_fetch_about">
+		<text>頼んだぞ、兵士よ。出発前に装備のチェックでもしておくか？</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_2_fetch_finish">
+		<text>もう見つけたのか？よし、見せてみろ･･････ 素晴らしい、これなら問題ないな！
+\nボーナスを受け取れ。ご苦労だったな。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_name">
+		<text>キリロフ上級中尉のために%sを見つける</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_text">
+		<text>キリロフ上級中尉は専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_about">
+		<text>司令部に必要な工具が一通り揃ったな。
+\nしかし、軍のストーカーが使うような特殊装備にはもっと高度なものが必要だ。
+\n今必要なのは、調整作業に使うエキスパートツールだな。
+\nお前は頼りになる奴だ。だからこそ、この仕事を任せられる。やってくれるな？</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_fetch_about">
+		<text>ツールを持ち帰ってくれたら、フィールドメンテナンスの基礎を教えてやる。
+\nすでに別の技術者から習っていなければ、だがな。気をつけて行ってこいよ、同志。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_army_mechanic_stalker_task_3_fetch_finish">
+		<text>大佐に見せれば、少しは笑顔を見せてくれるかもしれんな。
+\nこれで、ストーカーどもは何が起こったのか理解する間もなく叩き潰されるだろう。
+\n他にもツールを見つけたら、コードンの検問所かヤンターの移動研究所に立ち寄るといい。
+\n聞いた話じゃ、あそこの技術者たちもツールを欲しがっているようだからな。</text>
+	</string>
+
+<!-- (Military Medic) -->
+	<string id="agr_1_6_medic_army_mlr_task_1_name">
+		<text>ロゴヴェッツ中尉のために%sを見つける</text>
+	</string>
+	<string id="agr_1_6_medic_army_mlr_task_1_text">
+		<text>ロゴヴェッツ中尉は医薬品の品揃えを増やすために%sを欲しがっている。</text>
+	</string>
+	<string id="agr_1_6_medic_army_mlr_task_1_about">
+		<text>医薬品が不足しているんだが、次の輸送ヘリが来るのはまだ先になりそうだ。
+\n最近、ストーカーやトレーダーたちが、薬品製造ツールをゾーンに密輸しているらしい。
+\nそれが手に入ればきっと役に立つはずだ。協力してくれないか？</text>
+	</string>
+	<string id="agr_1_6_medic_army_mlr_task_1_fetch_about">
+		<text>基地にいる隊員の治療はできるが、野外となると物資が不足していて難しいのが現状だ。
+\nだから、俺はずっと%sの支給を申請しているんだ。あれさえあれば、
+\n巡回任務中の兵士が直面する、あらゆる脅威や負傷に使える医薬品を用意してやれる。
+
+\n\nただ、その申請が何度も後回しにされていてな。
+\n一刻でも早く手に入れば、それだけ多くの命を救える。
+\nそこで提案なんだが･･････ もし使えそうなツールを見つけたら、俺が自腹で買い取ろう。
+\n面倒な手続きはいらない。ただ、できるだけ早く持ってきてくれればいい。</text>
+	</string>
+	<string id="agr_1_6_medic_army_mlr_task_1_fetch_finish">
+		<text>使えそうなツールを見つけたのか？見せてくれ･･････ おお、こいつはいい。
+\n今日から我々の巡回兵の生存率が飛躍的に上がるぞ。</text>
+	</string>
+</string_table>

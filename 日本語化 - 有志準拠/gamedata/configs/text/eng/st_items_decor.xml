@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+<!--
+	TROPHIES
+-->
+
+	<string id="st_placeable_trophie9">
+		<text>トロフィー（ボア）</text>
+	</string>
+	<string id="st_placeable_trophie9_descr">
+		<text>ボアの剥製。ゾーンに広く生息する巨大なミュータントだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie1">
+		<text>トロフィー（ボアの頭）</text>
+	</string>
+	<string id="st_placeable_trophie1_descr">
+		<text>ボアの頭の剥製。ゾーンに広く生息する巨大なミュータントだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie7">
+		<text>トロフィー（ブラインドドッグ）</text>
+	</string>
+	<string id="st_placeable_trophie7_descr">
+		<text>ブラインドドッグの剥製。ゾーンを象徴する最も身近な存在だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie5">
+		<text>トロフィー（ブラッドサッカーの頭）</text>
+	</string>
+	<string id="st_placeable_trophie5_descr">
+		<text>誰もが恐れるブラッドサッカーの頭の剥製。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie6">
+		<text>トロフィー（ブラッドサッカー）</text>
+	</string>
+	<string id="st_placeable_trophie6_descr">
+		<text>ブラッドサッカーの剥製。ゾーン全域で恐れられる、伝説に近い獣だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie4">
+		<text>トロフィー（キャット）</text>
+	</string>
+	<string id="st_placeable_trophie4_descr">
+		<text>猫の剥製。ゾーンに生息する猫は、元々住んでいた野生の猫が変異したものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie2">
+		<text>トロフィー（キメラ）</text>
+	</string>
+	<string id="st_placeable_trophie2_descr">
+		<text>キメラの剥製。成獣のライオンに匹敵する大きさを持つ怪物だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie8">
+		<text>トロフィー（フレッシュ）</text>
+	</string>
+	<string id="st_placeable_trophie8_descr">
+		<text>フレッシュの剥製。異常なほど変異した豚だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_trophie3">
+		<text>トロフィー（スードウドッグ）</text>
+	</string>
+	<string id="st_placeable_trophie3_descr">
+		<text>スードウドッグの剥製。ゾーンで最も危険な変異種のひとつだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->
+
+	<string id="st_placeable_documents_1">
+		<text>紙の束</text>
+	</string>
+	<string id="st_placeable_documents_1_descr">
+		<text>ボロボロの紙が束ねられたもので、謎めいたメモや図が書かれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_cabinet">
+		<text>キッチン用の棚</text>
+	</string>
+	<string id="st_placeable_cabinet_descr">
+		<text>キッチンによくある木製の棚。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_ashtray">
+		<text>灰皿</text>
+	</string>
+	<string id="st_placeable_ashtray_descr">
+		<text>タバコや葉巻の灰を捨てるためのシンプルな灰皿。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_barrel_metal">
+		<text>ドラム缶</text>
+	</string>
+	<string id="st_placeable_barrel_metal_descr">
+		<text>金属製のドラム缶。中身が何だったのかは不明。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_shelves_b">
+		<text>浴室用の棚</text>
+	</string>
+	<string id="st_placeable_shelves_b_descr">
+		<text>浴室から持ち出されたと思われる頑丈な棚。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_biliard">
+		<text>ビリヤード台</text>
+	</string>
+	<string id="st_placeable_biliard_descr">
+		<text>使い古されたビリヤード台。ゾーンでまともなキューを見つけるのは難しく、ましてやビリヤードボールのフルセットは望み薄だろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_pot">
+		<text>鍋</text>
+	</string>
+	<string id="st_placeable_pot_descr">
+		<text>鋳鉄製の調理用鍋。使用感はあるが、まだ使えそうだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_countertop">
+		<text>カウンター</text>
+	</string>
+	<string id="st_placeable_countertop_descr">
+		<text>今でも使える頑丈なソビエト製のカウンター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_cuttingboard">
+		<text>まな板</text>
+	</string>
+	<string id="st_placeable_cuttingboard_descr">
+		<text>使い古されたカバ材のまな板。ジャガイモを切った跡で傷だらけだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_fchair">
+		<text>椅子</text>
+	</string>
+	<string id="st_placeable_fchair_descr">
+		<text>現代的なデザインの椅子。状態はかなり良い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_game">
+		<text>ボードゲーム</text>
+	</string>
+	<string id="st_placeable_game_descr">
+		<text>古いボードゲーム。ほとんどの駒が無くなっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_fuel">
+		<text>ジェリカン</text>
+	</string>
+	<string id="st_placeable_fuel_descr">
+		<text>空のジェリカン。わずかにガソリンの匂いがする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_shooting_target_1">
+		<text>射撃用ターゲット</text>
+	</string>
+	<string id="st_placeable_shooting_target_1_descr">
+		<text>出発する前のゼロイン調整や、溜まったストレスを発散するための木製ターゲット。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_bidon">
+		<text>ミルク缶</text>
+	</string>
+	<string id="st_placeable_bidon_descr">
+		<text>古びたミルク缶。怪しげな密造ウォッカの匂いがする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_gaz_balon">
+		<text>古びたガスタンク</text>
+	</string>
+	<string id="st_placeable_gaz_balon_descr">
+		<text>かつて調理や暖房に使用されていた空のガスタンク。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_radiola">
+		<text>ラジオ</text>
+	</string>
+	<string id="st_placeable_radiola_descr">
+		<text>正常に動くラジオ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_kartina03">
+		<text>写真フレーム</text>
+	</string>
+	<string id="st_placeable_kartina03_descr">
+		<text>顔が隠された軍人たちの写真が入った額縁。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_dev_guitar">
+		<text>装飾用ギター</text>
+	</string>
+	<string id="st_placeable_dev_guitar_descr">
+		<text>このギターはトラスロッドが折れてブリッジも浮き上がっているため、装飾以外の使い道がない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_stool">
+		<text>スツール</text>
+	</string>
+	<string id="st_placeable_stool_descr">
+		<text>小さいが、頑丈な木製のスツール。表面の仕上げは劣化しているが、普通に使えるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_metal_table1">
+		<text>金属製のテーブル</text>
+	</string>
+	<string id="st_placeable_metal_table1_descr">
+		<text>古びた金属製のテーブル。錆びはあるものの、問題なく使用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_metal_table2">
+		<text>大きな金属製のテーブル</text>
+	</string>
+	<string id="st_placeable_metal_table2_descr">
+		<text>おそらく工場などで使用されていた、古びた金属製のテーブル。錆びはあるものの、問題なく使用できる。ディスプレイや計器類は長い間機能していないようだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_stalker_outfit">
+		<text>ストーカースーツ一式</text>
+	</string>
+	<string id="st_placeable_stalker_outfit_descr">
+		<text>ボロボロの«サンライズ» ストーカースーツ。これは装飾用だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_merc_outfit">
+		<text>Mercenaryスーツ一式</text>
+	</string>
+	<string id="st_placeable_merc_outfit_descr">
+		<text>ボロボロのMercenary LCスーツ。これは装飾用だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_exoskelet">
+		<text>強化外骨格一式</text>
+	</string>
+	<string id="st_placeable_exoskelet_descr">
+		<text>電気系統が完全に故障した強化外骨格。これは装飾用だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_stretcher">
+		<text>病院用の担架</text>
+	</string>
+	<string id="st_placeable_stretcher_descr">
+		<text>ソ連時代に使われていた古い担架。おそらくクリニックや病院から持ち出されたものだろう。汚れを気にしなければ、休む場所として使える。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_gun_parts">
+		<text>銃の部品</text>
+	</string>
+	<string id="st_placeable_gun_parts_descr">
+		<text>壊れたAKS-74の部品の山。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_teapot">
+		<text>やかん</text>
+	</string>
+	<string id="st_placeable_teapot_descr">
+		<text>チェルノブイリ事故前からある錆びたやかん。放射能汚染の可能性があるため、使用は推奨されない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_psi_helmet">
+		<text>精神波防護ヘルメット</text>
+	</string>
+	<string id="st_placeable_psi_helmet_descr">
+		<text>故障した試作型の精神波防護ヘルメット。ゾンビ化ストーカーから回収したもので、調査結果が記録されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_documents_2">
+		<text>書類</text>
+	</string>
+	<string id="st_placeable_documents_2_descr">
+		<text>軍の書類の束。興味を持つ者にとっては特に価値のないありふれた内容。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_notes_writing_book">
+		<text>リングノート</text>
+	</string>
+	<string id="st_placeable_notes_writing_book_descr">
+		<text>何も書かれていないノート。ゾーンの発見を記録する日誌として使用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_survivalguide">
+		<text>サバイバルガイド</text>
+	</string>
+	<string id="st_placeable_survivalguide_descr">
+		<text>ジョン・ワイズマン著『SAS サバイバル・ハンドブック』のロシア版。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_guidebook1">
+		<text>銃器設計ガイド</text>
+	</string>
+	<string id="st_placeable_guidebook1_descr">
+		<text>『小火器に使う弾薬設計の基礎』というロシアの本。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_guidebook2">
+		<text>機械工ガイド</text>
+	</string>
+	<string id="st_placeable_guidebook2_descr">
+		<text>『歯車の仕組み』というロシアの本。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_lead_box_open">
+		<text>装飾用隔離容器</text>
+	</string>
+	<string id="st_placeable_lead_box_open_descr">
+		<text>蓋が破損しており、この隔離容器は装飾用としてしか使えない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_suit">
+		<text>展示用SSP-99Mスーツ</text>
+	</string>
+	<string id="st_placeable_suit_descr">
+		<text>SSP-99Mスーツが展示されたスタンド。観賞用。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_poster1">
+		<text>ソビエト宣伝ポスター</text>
+	</string>
+	<string id="st_placeable_poster1_descr">
+		<text>「平和と友情を！」「経験を友人と分かち合おう！」と書かれたソ連の昔のポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_poster2">
+		<text>『堕落した人類』のポスター</text>
+	</string>
+	<string id="st_placeable_poster2_descr">
+		<text>映画の宣伝ポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_poster3">
+		<text>『マシンガン』のポスター</text>
+	</string>
+	<string id="st_placeable_poster3_descr">
+		<text>映画の宣伝ポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_poster4">
+		<text>ソビエト宣伝ポスター</text>
+	</string>
+	<string id="st_placeable_poster4_descr">
+		<text>「我々は怠け者を打ち倒す！」と書かれたソ連の昔のポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_poster5">
+		<text>『感染者』のポスター</text>
+	</string>
+	<string id="st_placeable_poster5_descr">
+		<text>映画の宣伝ポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_poster6">
+		<text>『侵された思考』のポスター</text>
+	</string>
+	<string id="st_placeable_poster6_descr">
+		<text>映画の宣伝ポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_poster7">
+		<text>『天国からは逃げられない』のポスター</text>
+	</string>
+	<string id="st_placeable_poster7_descr">
+		<text>映画の宣伝ポスター。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_sink">
+		<text>シンク</text>
+	</string>
+	<string id="st_placeable_sink_descr">
+		<text>ゾーンのどこかにある古家やトイレから持ち出されたと思われるシンク。Banditは冷酷な略奪者で、キッチンのシンクさえも持ち去ることがある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_sidetable1">
+		<text>背の高いサイドテーブル</text>
+	</string>
+	<string id="st_placeable_sidetable1_descr">
+		<text>使い古されたサイドテーブル。廃墟から持ち出されたものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_sidetable2">
+		<text>背の低いサイドテーブル</text>
+	</string>
+	<string id="st_placeable_sidetable2_descr">
+		<text>使い古されたサイドテーブル。廃墟から持ち出されたものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_shelves">
+		<text>金属製の棚</text>
+	</string>
+	<string id="st_placeable_shelves_descr">
+		<text>3段の収納スペースがある大きな収納棚。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_box_wood">
+		<text>丈夫な木箱</text>
+	</string>
+	<string id="st_placeable_box_wood_descr">
+		<text>ゾーンで見つかる木箱は簡単に壊せるが、中にはほぼ破壊不可能なものもある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_box_paper">
+		<text>段ボール箱</text>
+	</string>
+	<string id="st_placeable_box_paper_descr">
+		<text>普通の段ボール箱で、ゾーンに密輸される物資のほとんどはこの箱に入れて運ばれる。後のために保管されることが多く、軽量かつ安価にアイテムを保管する手段として重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_microscope">
+		<text>顕微鏡</text>
+	</string>
+	<string id="st_placeable_microscope_descr">
+		<text>ゾーンを研究する科学者にとって便利な、頑丈で高品質の光学顕微鏡。アーティファクトの奇妙な微細構造は非常に興味深いものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_map1">
+		<text>グレートスワンプの地図</text>
+	</string>
+	<string id="st_placeable_map1_descr">
+		<text>グレートスワンプが描かれた大きな地図。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_map2">
+		<text>ゾーンの地図</text>
+	</string>
+	<string id="st_placeable_map2_descr">
+		<text>チェルノブイリ立入禁止区域の中心部が描かれた大きな地図。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_grave1">
+		<text>ストーカーの墓標</text>
+	</string>
+	<string id="st_placeable_grave1_descr">
+		<text>正教会の十字架を模した間に合わせの墓標。ストーカーが使用する防護マスクが添えられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_grave2">
+		<text>十字架の墓標</text>
+	</string>
+	<string id="st_placeable_grave2_descr">
+		<text>十字架を模した間に合わせの墓標。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_junk">
+		<text>電気工作</text>
+	</string>
+	<string id="st_placeable_junk_descr">
+		<text>天才的な発明か、もしくは大規模な電気火災のもととなる代物。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_money_5000">
+		<text>札束</text>
+	</string>
+	<string id="st_placeable_money_5000_descr">
+		<text>5,000ルーブル紙幣の束がいくつも積み重ねられた山。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_plant2">
+		<text>奇妙な植物</text>
+	</string>
+	<string id="st_placeable_plant2_descr">
+		<text>ストーカーが絶縁布で作った粗雑な観葉植物。芸術作品として作られたのか、見る目のないアーティファクト収集家に売るためのものなのかは不明。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_plant3">
+		<text>植物</text>
+	</string>
+	<string id="st_placeable_plant3_descr">
+		<text>アルミ製のビーンズ缶に植えられた小さな植物。ゾーンのあらゆる生命は、たとえ困難な環境でも生き抜く道を見つけるものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_plant4">
+		<text>大きな植物</text>
+	</string>
+	<string id="st_placeable_plant4_descr">
+		<text>古いソビエト製の容器に植えられた植物。ゾーンのあらゆる生命は、たとえ困難な環境でも生き抜く道を見つけるものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_rug">
+		<text>敷物</text>
+	</string>
+	<string id="st_placeable_rug_descr">
+		<text>使い古され、ボロボロになったソビエト時代の敷物。埃を払う必要はあるが、部屋の雰囲気をまとめるのにぴったりかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n \n
+		%c[ui_red]警告: CTDを引き起こすため、インベントリから捨てないこと\n
+		</text>
+	</string>
+	<string id="st_placeable_clinic_equipments">
+		<text>臨床機器</text>
+	</string>
+	<string id="st_placeable_clinic_equipments_descr">
+		<text>古いソビエト製の医療機器。機能していない可能性が高いが、見た目は立派なものだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_wall_divider">
+		<text>部屋の仕切り（2x2m）</text>
+	</string>
+	<string id="st_placeable_wall_divider_descr">
+		<text>部屋を2つの空間に分けるのに使える薄い合板の仕切り。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage01">
+		<text>金属製収納ボックス</text>
+	</string>
+	<string id="st_placeable_storage01_descr">
+		<text>アイテムの整理や戦利品の保管に便利な収納コンテナ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage02">
+		<text>大型の金属製収納ボックス</text>
+	</string>
+	<string id="st_placeable_storage02_descr">
+		<text>大量のアイテムの整理や戦利品の保管に便利な大型の収納コンテナ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage03">
+		<text>緑の金属製収納ボックス</text>
+	</string>
+	<string id="st_placeable_storage03_descr">
+		<text>軍用と思われる小さな金属製の箱。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage04">
+		<text>小型の金庫</text>
+	</string>
+	<string id="st_placeable_storage04_descr">
+		<text>ちょっとした貴重品を保管するのに適した小型の金庫。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage05">
+		<text>ツールボックス</text>
+	</string>
+	<string id="st_placeable_storage05_descr">
+		<text>使い古されてはいるが、まだ十分使える金属製の工具箱。側面にある記述によると、自動車工場で使われていたもののようだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage06">
+		<text>緑の収納ボックス</text>
+	</string>
+	<string id="st_placeable_storage06_descr">
+		<text>緑色に塗装された頑丈な金属製の箱。軍の施設から持ち出されたものだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage07">
+		<text>ロッカー</text>
+	</string>
+	<string id="st_placeable_storage07_descr">
+		<text>ジムや学校で使われる縦長のロッカー。ストーカースーツを収納するのに最適だが、他の用途にも使用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_storage08">
+		<text>大型の金庫</text>
+	</string>
+	<string id="st_placeable_storage08_descr">
+		<text>多数の貴重品を保管できる大型の金庫。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_wooden_board">
+		<text>木製のパネル</text>
+	</string>
+	<string id="st_placeable_wooden_board_descr">
+		<text>木の板を組み合わせたパネル。窓を塞ぐのに役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]窓や入り口の封鎖\n
+		</text>
+	</string>
+	<string id="st_placeable_wooden_plank">
+		<text>木製の板</text>
+	</string>
+	<string id="st_placeable_wooden_plank_descr">
+		<text>木製の板。入口を塞いだり、拠点の防御を強化するのに役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]窓や入り口の封鎖\n
+		</text>
+	</string>
+	<string id="st_placeable_metal_plate">
+		<text>金属製の板</text>
+	</string>
+	<string id="st_placeable_metal_plate_descr">
+		<text>窓を塞ぐのに使えるトタン屋根の一部。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]窓や入り口の封鎖\n
+		</text>
+	</string>
+	<string id="st_placeable_shield">
+		<text>金属バリケード</text>
+	</string>
+	<string id="st_placeable_shield_descr">
+		<text>スクラップ金属を寄せ集めて雑に作られたバリケード。防弾性能は期待できないが、ミュータントから身を守る、もしくは身を隠すのに役立つかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_toilet">
+		<text>トイレ</text>
+	</string>
+	<string id="st_placeable_toilet_descr">
+		<text>陶器製のトイレで、便座はない。ゾーンでは水道が通っていないため、これは外の世界の贅沢を思い出させるだけの存在だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_shower">
+		<text>シャワー</text>
+	</string>
+	<string id="st_placeable_shower_descr">
+		<text>かなり錆びついたシャワーヘッド。水タンクと接続すれば、なんとか使えるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_tv_box">
+		<text>ブラウン管テレビ</text>
+	</string>
+	<string id="st_placeable_tv_box_descr">
+		<text>かなり古いブラウン管式のテレビ。まだ動くようだが、ゾーンで受信できる放送がない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+	<string id="st_placeable_light1">
+		<text>壁掛け照明</text>
+	</string>
+	<string id="st_placeable_light1_descr">
+		<text>壁に取り付けるランプ。屋外の照明に便利。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_light2">
+		<text>シアターライト</text>
+	</string>
+	<string id="st_placeable_light2_descr">
+		<text>劇場や講堂で使われる投光器。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_light3">
+		<text>吊り下げランプ</text>
+	</string>
+	<string id="st_placeable_light3_descr">
+		<text>小型だが、驚くほど強力なシーリングライト。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_light4">
+		<text>吊り下げ電球</text>
+	</string>
+	<string id="st_placeable_light4_descr">
+		<text>電池式の電球を紐で吊るしただけのシンプルな照明。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_light5">
+		<text>3灯式蛍光灯</text>
+	</string>
+	<string id="st_placeable_light5_descr">
+		<text>3本の蛍光灯とバッテリーパックが収められたシーリングライト。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_light6">
+		<text>壁掛け電球</text>
+	</string>
+	<string id="st_placeable_light6_descr">
+		<text>保護ケージに収められた電球。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_light7">
+		<text>黄色の壁掛け電球</text>
+	</string>
+	<string id="st_placeable_light7_descr">
+		<text>保護ケージに収められた大型の黄色い電球。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_light8">
+		<text>蛍光灯</text>
+	</string>
+	<string id="st_placeable_light8_descr">
+		<text>バッテリーに直結された一本の蛍光灯。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+
+</string_table>

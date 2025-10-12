@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<!-- The Living Fire -->
+	<string id="baraholka_trader_the_living_fire_1_0">
+		<text>スニッチからあんたに会うように言われて来た。
+\n噂の「炎を操るストーカー」について何か知ってるんだよな？</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_1_1">
+		<text>ああ、そうだ･･････ 情報はあるが、あまり期待しないでくれよ。
+\n先日の夜、南にある大きなゴミの山の裏で奇妙な閃光が見えたんだ。
+\nその直後にミュータントの恐ろしい遠吠えも聞こえてきた。
+\n何人かのストーカーたちが気になって昼間にその場所に行ってみたんだが、
+\nそこで見つけたのは･･････ フレッシュの死体で、少し焼かれたような痕が残っていた。
+\nアノマリーに巻き込まれたか、炎のポルターガイストとやりあったんだろうと
+\n思ってたが、そのうちの1匹の背中に人の手の形をした焼印のようなものがあったんだ。
+\n何かの偶然が重なってそう見えたのか、それとも･･････ 誰にも分からんさ。
+
+\n\n詳しく調べたいなら、夜にその場所に行ってみるといい。
+\n噂の男が実在するなら、この件に関係がありそうだし、何か手がかりが見つかるかもな。</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_1_2">
+		<text>なるほど･･････ ルーキーを怖がらせるための作り話のように思えるな。
+\nとにかく、もう少し調べてみるよ。情報をありがとう。</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_1_3">
+		<text>ああ･･････ 確かに馬鹿げてるよな。
+\nそれでも用心はしておけよ。ゾーンは奇妙な場所だからな･･････
+\nまあ、調査の結果がどうであれ、今回の件でスニッチには一杯分の借りができたな。</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_0">
+		<text>調査から戻ったぞ･･････</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_1">
+		<text>当ててやろう。スニッチの噂を追いかけて時間を無駄にしたって感じだな？</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_2">
+		<text>見たんだ･･････ 噂のストーカーを。</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_3">
+		<text>見た･･････ だと？本気で言ってるのか？待てよ･･････ あんた少し顔色が悪いな･･････
+\nそれなら、本当なのか！？俺たちが聞いたあの爆発音と関係があるのか？</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_4">
+		<text>ああ。あの男は･･････ 「ギリシャの火」で何か･･････ 儀式のようなことをしていた。
+\n周囲に炎が噴き出していた。そこにフレッシュが現れて･･････ あれは蒸発したんだろうか？</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_5">
+		<text>それでよく無事に帰ってこれたな。その男とは話したのか？</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_6">
+		<text>会話と言っていいのかわからない。
+\n俺の方を見ていないはずなのに、最初から存在に気づいているようだった。
+\n「お前は何者だ？」と聞こうとしたが、俺の言葉を遮るように
+\n「誰もが俺の名を知ることになる」と言い残し、激しい爆発を起こして消えてしまった。</text>
+	</string>
+	<string id="baraholka_trader_the_living_fire_2_7">
+		<text>「誰もが俺の名を知ることになる」だって？それは何だか嫌な感じだな。
+\nまあ、少なくともスニッチはあんたが手がかりを掴んだと聞いて喜ぶだろう。
+\nこれで間違いなく1本分は奢ってもらえるぞ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_0">
+		<text>スニッチ、話がある。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_1">
+		<text>噂は本当だったんだな･･････ ああ、友人からすでに知らせが来てたよ。
+\nよくやったな。さて、これが報酬だ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_2">
+		<text>5,000ルーブルだって？気でも狂ったのか？俺は死にかけたんだぞ！</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_3">
+		<text>シッ･･････ 静かにしろ。話は終わってないぜ。もう少し動いてくれれば、報酬は増える。
+\nもっと情報が必要なんだよ。謎の男が実在するってだけじゃ、大した金にならない。
+\nまあ･･････ ペトレンコ大佐なら、2人の部下を失ってるから金を払うかもな。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_4">
+		<text>それなら次はどうする？
+\nあの男がどこに行ったのか、何が目的なのかもわからないし、手がかりもないぞ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_5">
+		<text>まだ手はある。あんたが調査をしている間に、2人の科学者の話を偶然耳にしてな。
+\n例の男と遭遇した場所で、奇妙なアノマリー活動が起きてるって話だ。
+\nサハロフのところに行って、その件の調査を手伝いたいって持ちかけてみろよ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_6">
+		<text>わかった。それじゃ行ってくる。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_2_7">
+		<text>おっと、まだ終わってないぞ。
+\nその科学者たちの話を盗み聞きしていたのが俺だってことはバラすなよ。
+\n変に警戒されるのはごめんだ。科学に関する情報ってのは結構な価値があるんでね。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_0">
+		<text>教授、ちょっといいか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_1">
+		<text>今は無理なんだ。最近起きた事件の調査で忙しくてね。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_2">
+		<text>その件はもしかして、「ギリシャの火」というアノマリーフィールドに関係することか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_3">
+		<text>どうしてそんなことを知っている？
+\n私が助手に送ったメッセージを傍受したのか！？この情報は機密なのだぞ！</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_4">
+		<text>教授、落ち着いてくれ。俺がどうやって知ったかは関係ない。
+\n大事なのは、俺がその場所で奇妙な出来事に遭遇したってことだ。情報を共有しないか？
+\nきっと互いの利益に繋がるはずだ。俺なら調査の手伝いをすることもできるぞ･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_5">
+		<text>聞こえなかったのか！？この情報は機密･･････ いや、待て･･････
+\n君はそこで何か見たというのか？それは何だ？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_6">
+		<text>情報の交換だ、教授。俺の情報にはそれだけの価値があると保証しよう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_7">
+		<text>そうきたか･･････ 仕方がないな。
+\n数日前から、そのアノマリーフィールドで急激なエネルギーの変動が観測されていた。
+\nまるでアノマリーが膨張しては元の状態に戻っていくかのようにね。
+\n他のアノマリーでも似た現象を見たことはあるが、これほど頻繁に起こるのは初めてだ。
+\n最初は気にしないことにしていたが･･････ 先日の夜、一時的に規格外の値を示したのだ。
+\nすぐに正常値に戻ったとはいえ、この状況はあまり安心できない。
+\nこの活動が拡大を続け、制御できなくなるとすれば･･････ 大変な事態になるだろう。
+
+\n\n─それでは君の番だ。そこで一体何を見た？
+\n君は今まであらゆる種類のアノマリーを見てきただろうから、相当なものだったはずだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_8">
+		<text>ああ、まさにその通りだ。あのアノマリーフィールドは異常なほど活発だった。
+\n炎が噴き出していて、その中心に一人の男がいた。何か儀式のようなことをしていたな。
+\nこれは後で分かったことだが、その男は火を自由自在に操れるんだ。
+\nフレッシュが丸ごと焼き尽くされるのをこの目で見た。
+\nしばらくして、男は炎に包まれて姿を消した･･････ そのときに炎も収まったんだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_9">
+		<text>それは興味深い！つまり彼がアノマリー活動を活性化させていたのだな。
+\n彼と話す機会はあったのだろうか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_10">
+		<text>いいや、残念だが･･････
+\nただ、あの男は「誰もが俺の名を知ることになる」と言っていたな。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_11">
+		<text>そのような力を持っているとすれば、かなり不穏な発言だな。
+\n男が何を企んでいるのか、突き止める必要があるだろう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_12">
+		<text>同感だ。それで、次にどこへ向かうべきか教えてくれるか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_13">
+		<text>･･････すまないが、今のところは君に力を貸せそうにない。
+\n我々のスキャナーには何も─待て･･････ 反応があったぞ！
+\n「欠陥」アノマリーフィールドで異常な活動が起きている。急いで現場へ向かってくれ！</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_1_14">
+		<text>ありがとう、教授！行ってくるよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_0">
+		<text>教授、悪い知らせだ。あの男に追いつけず、会うことができなかった。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_1">
+		<text>それはむしろ朗報だと言いたいところだ。我々の観測によれば、
+\nあのアノマリーフィールドで放出されるエネルギーはとんでもない値を記録していた。
+\nもし近くにいたら、君は粉々になっていたかもしれないぞ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_2">
+		<text>ああ、そうなのか･･････ それなら運が良かったな･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_3">
+		<text>君が無事に戻れて何よりだ。さて、どうやってアノマリーの分岐を止めたんだ？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_4">
+		<text>分岐だって？ただ、あそこで炎のポルターガイストを何体か倒しただけだ。
+\n特に珍しいものではないように見えたが。今までに何度も見たことがある。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_5">
+		<text>いや、あれは実に特異な現象だったのだよ。
+\nスキャナーは、それらを他の熱性アノマリーとは独立した別の存在として検出していた。
+\n反応は弱いが、エネルギーの性質は同じものだ。「プロトアノマリー」とでも呼ぶべきかな。
+\nもし君がそこで止めていなければ、別の巨大なアノマリーフィールドになっていただろう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_6">
+		<text>そうか･･････ あの男は思っている以上に危険な存在かもしれないな。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_7">
+		<text>そのようだ。できるだけ早く彼の目的を突き止める必要がある。
+\n残念ながら、今はもう彼の居場所を追う手助けはできそうにないがね。
+\nスキャナーの測定値が元に戻ってしまったのだよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_2_8">
+		<text>心配ないさ、教授。俺が引き続き調査を進めるよ。それじゃ、またな。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_0">
+		<text>ヤンターから戻ったぞ。新しい情報を持ってきた。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_1">
+		<text>そいつは良い知らせだ！でも、まず俺から話させてくれよ。
+\n実は「炎の使者」に興味を持つ連中が続々と現れて金を払ってくれるようになったんだ。
+\nなかなかキャッチーな呼び名だろ？まだ名前が分からないみたいだから、
+\n俺が考えてやったんだ。さて、これが報酬だ。それで、何を掴んだ？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_2">
+		<text>ようやくまともな報酬だな。
+\n確かに、科学者たちはガーベジでアノマリー活動が増加してることに気づいていた。
+\nそれだけじゃなく、沼地でアノマリー活動の調査を任されることになった。
+\n俺が到着する頃にはすでに“パーティー”は始まってたが、今となっては逆に良かったな。
+\nでなければ、今ここであんたと話せていないだろうからな。
+\n今回は、例の男が「プロトアノマリー」と呼ばれるものを作り出したらしい。
+\nそれは後に大きなアノマリーフィールドに発展する可能性があったようだ。
+\n俺はそれをなんとか早い段階で処理することができたんだ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_3">
+		<text>なんてこった！つまり、俺ら全員が地獄で焼かれるような終末が迫ってるってことか？
+\nこいつは金の匂いがするぜ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_4">
+		<text>な･･････ 本気か？不安にならないのか？少しも？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_5">
+		<text>みんな遅かれ早かれ死ぬもんさ、相棒よ。
+\nでも、金を持ってる奴はそのちょっと先まで生きられる。
+\nあんたと組んでるおかげで、俺もすぐに立派な金持ちになれそうだしな。
+\nもし本当に何か起きそうになったら、ゾーンを抜け出すさ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_6">
+		<text>ああ･･････ お前の楽観主義には共感できないな。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_7">
+		<text>別にいいさ。これはビジネスだしな。
+\nあんたも、ゾーンの謎を解き明かすのは好きなんだろ？なら二重に得してるってわけだ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_8">
+		<text>もしかしたら、お前の言う通りかもな。いずれにせよ、科学者たちはもう不自然な
+\nアノマリー活動を観測できていないようだし、今のところは行き詰まりってとこだな。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_9">
+		<text>俺のことをお忘れか？まだ希望はあるぜ。
+\nペトレンコ大佐がここに立ち寄ってな、たまたま近くにいた俺が面白い話を聞いたのさ。
+\n大佐はトランシーバーで上層部とやり取りしてたんだが･･････
+\nどうやらラボX18を警備していた軍の部隊が、思いがけない“訪問者”に遭遇したらしい。
+\n唯一生き残った兵士が救難信号を送ったそうだが、「仲間が灰になった」と報告した直後、
+\n通信が途絶えたんだとよ。これって、まさに俺たちが追ってる奴の仕業じゃねえのか？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_10">
+		<text>なるほど─それで、俺にそいつを追えと？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_11">
+		<text>行かないのか？前回奴に会った時も生き延びたんだろ？
+\nもしかしたら何か理由があるのかもな。奴はあんたに関する何かを知っていて、
+\nそれで見逃されたのかもしれないぞ。それに、この謎をそのままにしておきたいのか？
+\n世界の終わりを忘れたのか？ハハ！</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_12">
+		<text>おい、スニッチ。もう少し真剣に考えろ。
+\nだが他に方法がないな･･････ 俺が行くしかないか。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_3_13">
+		<text>その意気だ！また有益な情報を持って帰ってくるのを楽しみにしてるぜ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_0">
+		<text>何かの策略じゃないだろうな？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_1">
+		<text>どうしてそう思う？もし俺が殺すつもりなら、今こうして話していないだろう。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_2">
+		<text>それなら、なぜ俺を殺さなかった？
+\nお前の力を見たんだ･･････ ガーベジであのミュータントが炎に包まれるのをな。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_3">
+		<text>お前のことは知っているぞ、ストーカー。
+\n願望機を目の前にして、他の者たちのように自己中心的な願いをしなかった。
+\nお前の心は純粋だ。さて、聞きたいことがあるんだろう？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_4">
+		<text>その通りだが･･････ お前は何者なんだ！？
+\n何のためにこんなことをしているんだ･･････ そして、一体何がしたいんだ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_5">
+		<text>俺はただのストーカーだ、お前と同じようにな。
+\nあの事故が起こるまではゾーンの南で活動していて、その時は「ボリス」と名乗っていた。
+\n借金を返済するためにゾーンにやってきた、どこにでもいる新人だった。
+\nトレーダーの雑用係でな･･････ そう、主にあのクズのシドロヴィッチのために働いてた。
+
+\n\nある日、ヤンターの科学者たちに荷物を届ける仕事を頼まれた。
+\n楽な仕事だと思ったが･･････ うまくいかなかった。軍の部隊に捕まり、
+\n金を払えば見逃すと言われた。奴らは金を奪うと、持ち物まで全部取り上げて、
+\n歩けなくなるほど殴りやがった･･････ 堕落したクソ野郎どもだ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_6">
+		<text>だろうな･･････ 兵士や役人に筋の通った行動を期待するなんて、最初から無理な話だ。
+\nそれで─その後、何があったんだ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_7">
+		<text>何とかしてガーベジに辿り着き、列車格納庫に留まった。
+\nブッチャーが面倒を見てくれて、傷の回復を手伝ってくれた。彼はゾーンに詳しく、
+\nミュータントの脂肪を使った軟膏の作り方まで熟知していた。おかげで早く治ったんだ。
+
+\n\n身体が回復すると、再びコルドンに戻ることにした。
+\nそこに隠していた物資を取りに行ったが、誰かに全部盗まれてしまっていたんだ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_8">
+		<text>それは不運だったな。ゾーンではそういうこともあるさ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_9">
+		<text>･･････でも、それを盗んだのが仲間だったとしたら？
+\n実は物資を盗んだのは俺の“友達”で、そいつは北に逃げたんだ。
+\n銃も金もなかった俺はシドロヴィッチに借金を頼んだが、届け物を軍に
+\n奪われた件を持ち出されて拒否された。だが彼は別の仕事をくれた･･････
+\n熱性アノマリーにしかない珍しいアーティファクトを取って来るという仕事だ。
+\nボロボロのPMと弾を1箱分渡されて、仕事が終わったら返却しろと言われた。
+\nさらに、3日以内にアーティファクトを持って戻らないと賞金首にするとも言ってきた。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_10">
+		<text>シドロヴィッチは欲張りな奴だが、それにしても極端だな･･････ それで、どうしたんだ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_11">
+		<text>俺は断れなかった･･････
+\nコルドンには熱性アノマリーがないから、別の場所に行くしかなかった。
+\nダークスケープや沼地は危険で、PMだけじゃ厳しい。
+\nそこで「ギリシャの火」アノマリーフィールドに目をつけた。フリーマーケットの周りを
+\nうろつきながら残飯を食べ、戦いを避けつつ、アノマリーを時々見に行ったりした。
+\nそこにいるトレーダーたちは俺の惨めな様子を見て、一度だけパンを分けてくれたな。
+
+\n\n3日目になって、ようやく運が味方してくれた･･････ はずだった。
+\n狙っていたアーティファクトが現れ、焼かれる前に手に入れようと近づいた。
+\n伸ばした手の方へアーティファクトが漂ってきて、ついに手にしたその瞬間、
+\n突然ミュータントが茂みから飛び出して俺をアノマリーの中に突き飛ばした。
+\n体中に激痛が走り、すぐに意識を失った。
+
+\n\nこれで終わりか･･････ 炎に飲み込まれて死ぬんだと思ったよ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_12">
+		<text>その状況から、どうやって生き残ったんだ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_13">
+		<text>まあ焦るな、友よ。俺は翌日、何も着ていない姿で目を覚ました。
+\n炎に包まれていたが、何も感じなかった･･････ だが胸には燃えるような痛みを感じた。
+\n何が起きたのか、気持ちを落ち着かせようとしていたそのとき、一人のストーカーが
+\nこちらに近づいて銃口を向けていた─シドロヴィッチが送り込んだ賞金稼ぎだった。
+\n俺は慈悲を乞いながら手を伸ばしたが、それでも奴は撃ってきた。
+
+\n\nだが、弾は俺に届かなかった･･････ 目の前に炎の壁が現れて、弾を一瞬で溶かしたんだ。
+\nその時、理解した─ゾーンが新しい力を俺に与えたのだと。
+\n炎が消えた後も俺が生きているのを見て、賞金稼ぎは驚いていた。
+\n奴が再び引き金を引く前に、俺の手から火の玉が飛び出して奴を一瞬で灰に変えたんだ。
+\nゾーンは俺に苦しみと屈辱の代償を与えてくれた。俺はゾーンに選ばれたんだ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_14">
+		<text>選ばれただって？それが運命だとでも思ってるのか？
+\nゾーンでは毎日おかしなことが起こる･･････ ただの偶然かもしれないだろう。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_15">
+		<text>そうかもしれないが、あの日ボリスが死んだことは確かだ。
+\nそして新しい名で生まれ変わった─プロメテウスとして。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_16">
+		<text>プロメテウス？神秘的な名前だな。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_17">
+		<text>ああ･･････ 俺に力を授けたアノマリーに敬意を込めた名前だ。
+
+\n\nそれから何日かそこで過ごし、力を正確に、自分の意思で操る方法を身につけた。
+\n俺たちが出会ったあの日には、俺は新たな段階に達していた･･････
+\nアノマリーからエネルギーを引き出し、それを強化することを覚えたんだ。
+\n沼地で気配を感じたから、俺の実験を邪魔したのはお前だろうな。
+\nそれからここに来て、さらに力を深めるために瞑想していたところ、
+\nまたしてもお前が現れた。なぜ俺を追いかけるんだ、ストーカーよ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_18">
+		<text>俺は･･････ そうだな、好奇心が主な理由だと思う。お前の最終的な目標は何だ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_19">
+		<text>最終的な目標か？いいだろう、それは─はぁ･･････ どうやら招かれざる客が来たようだ。
+\n次に会う日まで･･････ さらばだ、ストーカーよ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_1_20">
+		<text>待て！おい─</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_0">
+		<text>よう、スニッチ。俺は─</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_1">
+		<text>救世主の帰還だ！やっぱりまた生き延びたんだな、素晴らしいぜ！
+\nついにあの伝説野郎を片付けたのか？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_2">
+		<text>奴は軍の部隊を灰に変えてしまった。察しはつくだろうが、倒せなかった･･････
+\nだが、奴と話す機会はあった。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_3">
+		<text>その方が盛り上がるじゃねえか！何か分かったのか？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_4">
+		<text>まずは奴の名前だ。「プロメテウス」って言うんだ。彼は─</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_5">
+		<text>炎の使者、プロメテウス─ギリシャの火から生まれた男！
+\n最高にイカしてるじゃねえか！これでもっと話題になるぜ！それで、他には─</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_6">
+		<text>ふざけるな、スニッチ！どうかしてるぞ！
+\nお前が気にしてるのは金のことだけだ！もう何も教えないぞ！</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_7">
+		<text>なんだそれ？俺たちの取引はどうするんだよ？あんたも金を稼ぎたかったんだろ？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_8">
+		<text>もうやめだ。その汚れた金は自分で持ってろ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_4_9">
+		<text>後悔するぞ、ストーカー･･････</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_0">
+		<text>シドロヴィッチ、話がある。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_1">
+		<text>何だよ？今はかなり忙しいんだ。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_2">
+		<text>ボリスって名前の新米ストーカーを覚えてるか？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_3">
+		<text>いいや･･････ うちの村には新米がたくさん通り過ぎるからな、いちいち覚えてないな。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_4">
+		<text>なら、「炎の使者」の話は聞いたことあるか？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_5">
+		<text>最近流れてるくだらない噂だろ？ああ、聞いたさ。
+\n何でそんな馬鹿げた質問をしてくるんだ？そんな暇はないんだよ。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_6">
+		<text>あんたの命が危ないと言ってもか？ボリスは今「プロメテウス」と名乗っていて、
+\nその噂の「炎の使者」なんだ。どうやら、あんたのことが気に食わないらしいな･･････
+\nそれはあんたが奴を死に追いやった張本人だからだ。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_7">
+		<text>黙れ！そんな話を信じるやつがどこにいる？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_8">
+		<text>俺は奴と話す機会があった。どうやら、あんたの不運な運び屋だったらしいな。
+\n軍の兵士にボコボコにされた挙句、あんたはそいつにPMたった一丁を持たせて、
+\n滅多に見つからないアーティファクトを探しに行かせたんだ。これでピンときたか？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_9">
+		<text>どうしてそんなこと知ってんだ！？まさか･･････ 本当なのか！
+\n絶好のチャンスがあったのに、なぜ奴の頭に弾を打ち込まなかった？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_10">
+		<text>あんたは、あの噂の重要な部分を見逃しているようだな。
+\n命が惜しいのはあんただけじゃない。奴は普通の武器で殺せるような相手じゃないんだ。
+\n話し合いをするしか道はないだろうな。
+\n思い出したところで、奴を再び見つけるのに役立つ手がかりを知らないか？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_11">
+		<text>あの惨めな腰抜けには「アンドレイ」って仲間がいたのを覚えてる。
+\nどっちも運が悪くて金もなかったから、つるんでたってわけさ。もうここにはいないがな。
+\n最近になって北の方へ向かったって話だ。まあ、あの間抜けは今頃死んでるだろうよ。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_12">
+		<text>くそ･･････ その情報は大して役に立たないな。
+\nとりあえず、護衛を雇って扉を耐熱仕様にでもしたらどうだ。
+\n奴がここを訪ねてきたとき、あんたの命を救ってくれるかもな･･････ まあ、望みは薄いが。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_the_living_fire_1_13">
+		<text>はは･･････ 面白い奴だよ･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_0">
+		<text>教授、状況はどうなってる？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_1">
+		<text>若者よ、会えて嬉しいよ。一刻を争う状況だ、手短に話そう。
+
+\n\nラボX16で、アノマリー活動が極端に増加しているのを確認した。
+\nこのようなものは見たことがない。あの謎のストーカーの仕業と見て間違いないだろう。
+\nこれほどのエネルギーがアノマリーフィールドに変化したら、ここは地獄になってしまう！
+
+\n\n我々は傭兵部隊を派遣して調査に当たらせたが、施設の入口でストーカーと遭遇した。
+\nなんと、そのストーカーは部隊に向かっていきなり発砲してきたのだ。
+\n敵は一人だったから、傭兵部隊はそのまま突入したが･･････ それが命取りだった。
+\nそのストーカーを排除し、遺体のそばに集まった瞬間─死体が爆発したんだ。
+\n部隊で生き残ったのは一人だけで、彼も全身に重度の火傷を負ってしまったよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_2">
+		<text>それは明らかにプロメテウスの仕業だな･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_3">
+		<text>プロメテウス？それが探していたストーカーの名前なのか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_4">
+		<text>教授には悪いが、詳しく説明する時間がないんだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_5">
+		<text>ああ、君の言う通りだ。君は一度アノマリーの分岐を止めることに成功している。
+\n今回もそれができることを願っているよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_3_6">
+		<text>そうだといいな。すぐに行ってくる。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_0">
+		<text>な･･････ ここで何が起こったんだ？この焼けた死体は何だ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_1">
+		<text>これは俺の理想を共有するストーカーの仲間たちだ。
+\n友人のアンドレイが俺のメッセージを広めたおかげで、彼らが俺を探しに来てくれた。
+\n俺はこの世界から不正な汚れをすべて浄化するつもりで、彼らもそれを手伝うことに
+\n同意してくれた。俺と同じように、彼らも十分に苦しんできたのだ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_2">
+		<text>それなら、なぜ彼らは死んでいるんだ？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_3">
+		<text>全員ではない─これは実験の失敗作の一部に過ぎない。
+\nここに来る途中で成功例に会っただろう？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_4">
+		<text>彼らに何をしたんだ？人を殺すことは最悪の罪だ。
+\nそんなことをして爆弾に変える行為は、お前が浄化したい“汚れ”そのものじゃないのか？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_5">
+		<text>口の利き方に気をつけろ･･････ 今、お前は崩れそうな薄い氷の上に立ってるんだからな･･････
+\n彼らは皆、自分の意思で俺のところに来て、どんな結果も受け入れると誓ったんだ。
+\nそれに、まだ生きていた者たちを殺したのはお前の方だ。
+\n俺はお前のことを少し気に入ってきたんだ。だから、この場で殺しはしない。
+
+\n\n─代わりに、俺の最高傑作を見せてやるよ。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_6">
+		<text>最高傑作だって？何を企んでる？</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_7">
+		<text>俺は彼らに自分の力を注ぎ込んだ。
+\n残念ながら彼ら全員の肉体が耐えられるわけではなかったが、いずれ時が来れば、
+\n力の中継器として役立つだろう。もう一箇所、俺が行かなければならない場所がある。
+\nその場所は、中継器ではとても力を制御しきれないからな。
+
+\n\nそして･･････ その時が来れば、お前にも次に何が起こるか分かるだろう。
+\nさらばだ、ストーカー。</text>
+	</string>
+	<string id="the_living_fire_prometheus_the_living_fire_2_8">
+		<text>必ずお前を止めてみせるぞ、プロメテウス･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_0">
+		<text>教授･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_1">
+		<text>若者よ、またやってくれたな！測定値が正常に戻り始めているよ。私も─</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_2">
+		<text>まだ終わっていない。プロメテウスはどこかに消えて、何かを企んでいる様子だった。
+\n詳しいことはわからないが、良いことじゃないのは確かだな。あんたの助けが必要だ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_3">
+		<text>そうか･･････ 私に何ができるだろうか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_4">
+		<text>傭兵たちが殺したストーカーはプロメテウスの信奉者だった。
+\nプロメテウスは力を信奉者たちに注ぎ込み、何かしらの力の中継器として
+\n使おうとしているらしい。あんたの政府との繋がりを使う必要がある。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_5">
+		<text>なるほど。つまり、できるだけ多くの熱性アノマリーを軍の兵士たちに監視させ、
+\n怪しいストーカーが近づいたら排除するように依頼すればいいんだな？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_6">
+		<text>少し違うな。信奉者との繋がりが切れれば、プロメテウスはそれを感じ取れるだろう。
+\nだから、計画が順調に進んでいると思わせる必要がある。
+\n奴は一度にすべての力を使おうとするはずだ。力の中継役を同時に排除すれば、
+\n何が起きたのか気付く前に力を使い果たすだろう。それが奴を仕留めるチャンスになる。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_7">
+		<text>かなり危険な作戦だな･･････ だが、他に選択肢はないようだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_8">
+		<text>ああ、これしかない。成功する可能性を上げるために強力な武器を使うつもりだ。
+\nガウスライフルなら十分だろう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_9">
+		<text>いい作戦だ。それで、彼がどこにいるか分かるのか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_10">
+		<text>奴は力を得るために、あるアノマリーフィールドに行くと言っていたな。
+\nどのアノマリーフィールドのことを言っていたのか、心当たりはあるか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_11">
+		<text>非常に高いエネルギーを持つアノマリーフィールドがある。場所は赤い森だ。
+\nあそこは危険すぎるから、軍が人員を送るとは思えないがね。
+\nまずは君がそこの安全を確保するしかないだろう。
+\nまた分岐が始まったら、もう一度それを止めてくれると助かるよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_4_12">
+		<text>ありがとう、教授。その場所が安全になったら連絡するよ。またな。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_0">
+		<text>この裏切り者め。今ここでお前の頭に弾をぶち込まない理由があるか、言ってみろ！</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_1">
+		<text>はあ？何の話だよ？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_2">
+		<text>お前が俺に差し向けた賞金稼ぎの連中に会った。だが、あいつらは全員死んだぞ。
+\n次はお前の番だ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_3">
+		<text>待て！俺は賞金稼ぎなんて雇ってないぞ！
+\n少し前に怖そうな連中がここに来て、プロメテウスのことを聞かれたんだ。
+\nそれで、プロメテウスについて一番詳しいのはあんただって伝えただけだ。
+\nあいつらがあんたを襲うなんて知らなかった。俺はただ仕事をしただけさ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_4">
+		<text>そんなこと知るか。こっちは死にかけたんだ･･････ だからもう一度聞くぞ。
+\n今すぐお前を殺さない理由はあるのか？</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_5">
+		<text>待ってくれ！命の代わりにタダで情報を提供するってのはどうだ？
+\n損害に対する補償ってことでさ。きっとお前の役に立つ、保証するよ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_6">
+		<text>聞いてやるよ･･････</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_7">
+		<text>フリーダムの連中が、基地で何かの伝道師を捕まえたらしい。
+\nどうやらそいつはプロメテウスの友人だったみたいでな。
+\nフリーダムはそいつから更に情報を引き出したんだが、連中がプリピャチ郊外で
+\n“壮大な行い”をするために集まるんだとさ。プロメテウス映画館って言ってたぞ。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_8">
+		<text>くそ･･････ 奴の“最高傑作”か･･････ これ以上にふさわしい場所はないだろうな。</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_9">
+		<text>最高傑作？それってどういう─</text>
+	</string>
+	<string id="bar_informator_mlr_the_living_fire_5_10">
+		<text>汚名返上だな、スニッチ。もう行かないと。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_0">
+		<text>戻ったぞ、教授。プロメテウスはもういない─奴が爆発するのをこの目で見た。
+\nあんたの協力なしでは無理だったよ。何か用があるんだったな？</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_1">
+		<text>感謝を伝えたかったのだ、若者よ。プロメテウスを止めるには軍の支援もあったが、
+\n実際に現場を調査し、命がけで解決に導いたのは他でもない君だ。
+
+\n\nあの時プロメテウスが何をしていたのかは分からんが、チョルノービリ原子力発電所の
+\n北にあるゾーン最大級のアノマリーを、遠隔で活性化させることに成功していたようだ。
+\n君が彼を止めていなければ、多くの人が死んでいただろう。本当に感謝している。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_2">
+		<text>まあ、奴も俺を殺そうとしてたから、他に選択肢はなかったけどな。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_3">
+		<text>ふふ、そうかもしれないな。
+
+\n\nともかく、君には報酬を受け取る資格がある。
+\nプロメテウスが訪れたアノマリーフィールドの近辺で軍を支援していた同僚がいてね。
+\n彼の死後、「ギリシャの火」で特別なアーティファクトが生まれたんだ。
+\nそれを君に渡したい。なにやら同僚たちに悪い影響を与えているようで、
+\nまた力に狂う者が現れるのは勘弁願いたいのでね。
+
+\n\n君はプロメテウスと幾度も遭遇して無事に生き延びた。
+\n彼は君の中に“何か”を見出したのだろう･･････
+\nそれがこのアーティファクトの影響から君を守ってくれると信じているよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_the_living_fire_5_4">
+		<text>ありがとう、教授。俺も狂気に飲み込まれないことを祈っておくよ。</text>
+	</string>
+
+	<!-- Mystery of the Swamps -->
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_0">
+		<text>どうした、バーキープ。何か用があるのか？</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_1">
+		<text>仕事を探してるんじゃないか？サハロフ教授から連絡があってな。
+\n測定を行う科学チームを守るために傭兵を雇いたいらしい。
+\n現地に行けば、もっと詳しく話してくれると思うぞ。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_2_0">
+		<text>ちょうど金が欲しかったんだ。ありがとう─会いに行ってみるよ。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_2_1">
+		<text>悪いが、今は忙しいんだ。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_1_3">
+		<text>そいつは残念だ。気が変わったら、彼に話を持ちかけてみるんだな。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_0">
+		<text>やあ、教授。少し不安そうな表情だな。何か手伝うことはあるか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_1">
+		<text>実はそうなんだ。科学チームの護衛を任せられる傭兵を探していてね。
+\n軍の人手が足りず、代わりにストーカーを雇わざるを得なくなっているのだよ。
+
+\n\n最近、ゾーンの湿地帯で奇妙な現象が起き始めているんだ。
+\n見た目は穏やかな場所でも、アノマリー活動が増加しているというデータが出ている。
+\nストーカーたちの中には、そこにカーリックが引き寄せられていると報告する者もいてね。
+\nそのような場所のデータを収集したいのだが、この仕事に興味はあるかね？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_2_0">
+		<text>面白そうだな。やってみよう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_2_1">
+		<text>沼を走り回って小人を追いかけろだって？時間の無駄に思えるな･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_3">
+		<text>素晴らしい！すでにいくつかのチームを編成して任務に向かわせている。
+\n確認しよう･･････ ダークスケープ、アフロプロム、ガーベジはすでに調査の範囲内だ。
+\nクリアスカイも沼地の調査に同意してくれたよ。
+\n君には軍事倉庫に行ってもらおう。科学者ともう一人の護衛が外で待っている。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_4">
+		<text>了解だ。すぐに戻るよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_1_5">
+		<text>損をしたな、若者よ。
+\n気が変わったらまた来てくれ･･････ 傭兵の枠が埋まっていなければの話だがね。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_0">
+		<text>護衛の任務についてなんだが･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_1">
+		<text>どうしたのかね？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_2_0">
+		<text>やっぱり気が変わった。参加させてくれ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_2_1">
+		<text>何でもない･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_3">
+		<text>素晴らしい！すでにいくつかのチームを編成して任務に向かわせている。
+\n確認しよう･･････ ダークスケープ、アフロプロム、ガーベジはすでに調査の範囲内で、
+\nクリアスカイも沼地の調査に同意してくれた。
+\n君には軍事倉庫に行ってもらおう。科学者ともう一人の護衛が外で待っているよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_4">
+		<text>了解だ。すぐに戻るよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_2_5">
+		<text>時間を無駄にするでないぞ、若者よ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_0">
+		<text>教授、戻ったぞ。あんたの同僚が必要なデータを集めてくれた。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_1">
+		<text>よし！見せてくれ･･････ 何だ？全く意味が分からないぞ。
+\nアノマリー活動そのものには特に変わったことはないようだ。
+\nこちらにあるスキャナーも、君が行った後は異常を検出しなくなったのだよ。
+
+\n\n教えてくれ─アノマリーの近くで何か奇妙なものを見ていないか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_2">
+		<text>特には･･････ カーリックが少し多かったくらいだが、
+\nそれはすでに教授も予想していたと思う。事前に警告してくれたしな。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_3">
+		<text>そうか･･････ 確かに奇妙だな･･････
+
+\n\nスキャナーが奇妙な値を示したのはカーリックが原因だったのかもしれない･･････
+\nもう少し詳しいデータが必要だな。
+
+\n\nアフロプロムに派遣したチームも、沼地を調査したクリアスカイの
+\nストーカーたちも、測定エリア付近でカーリックと遭遇している。
+\n彼らがカーリックを片付けた後、しばらくして状況は元に戻ったらしい。
+\nただ、そもそも今回はあまり目立った異常は見られなかったが･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_4">
+		<text>えっと･･････ 教授。話を邪魔して悪いが、この話は俺に関係ないよな？
+\nそれに、何か忘れてないか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_5">
+		<text>ああ、そうだね･･････ 若者はせっかちだな･･････ ほれ、これが報酬だ。
+
+\n\n改めて、話を聞いてくれないか？もう少し稼げるかもしれないぞ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_6">
+		<text>まあ、聞いてみようか。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_7">
+		<text>よし、話はどこまでしたかな？
+\nそうだ、アフロプロムと沼地のデータはあまり役に立たなそうだが、
+\n別の任務を依頼したいと思ってね。
+
+\n\n実は、我々が雇った傭兵が護衛任務に失敗したんだ。
+\n彼はここに戻って報酬を要求してきた。こちらが任務について嘘をついたと主張してね。
+\n話を聞くと、彼はカーリックを排除して、我々の科学者がデータを収集したのだが、
+\n科学者が立ち上がろうとしたところで幽霊のようなものが現れ、首をへし折ったそうだ。
+
+\n\n信じられるかね？幽霊が同僚を殺したなんて話を。私の見解では、彼はカーリックの
+\nプサイ攻撃を受けたか、アノマリーから出たガスを吸いすぎただけだと思うのだが･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_8">
+		<text>そうだな･･････ 信じがたい奇妙な現象はこれまでに何度も見てきた。
+\nその男の話も、もしかしたら本当だったのかもしれないぞ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_9">
+		<text>大丈夫か？若者よ。君も医者に診てもらったほうがいいかもしれんぞ･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_10">
+		<text>教授、からかうのはやめてくれ。本気で言ってるんだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_11">
+		<text>そうか･･････ 君は奇妙な経験が豊富だから、この任務にふさわしいのかもしれない。
+\n我々の科学者が集めたデータを回収してもらえないだろうか。
+\nそのデータは非常に重要で、失うわけにはいかないのだよ。君には十分な報酬を出そう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_12">
+		<text>分かった。手伝おう。面白くなってきたしな･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_3_13">
+		<text>素晴らしい！前回の任務での仲間も同行することになっている。
+\nお互いに気をつけて、急いでくれ！</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_0">
+		<text>教授、俺は･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_1">
+		<text>なんてことだ！無事だったんだな！
+\n我々の装置がダークスケープで非常に強いプサイ活動を検出していたぞ。
+\nそこで何があった？他の傭兵たちはどうしたんだ？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_2">
+		<text>信じてもらえないかもしれないが･･････
+\nあんたがガーベジに派遣した傭兵は嘘をついてなかったみたいだ。
+\n俺もそこで幽霊に出くわした。一緒に行った仲間は契約を破棄して帰ったぞ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_3">
+		<text>ではダークスケープについては？あの莫大なエネルギーは一体何だったのだ？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_4">
+		<text>あそこでも何体か幽霊を見たが、俺はそいつらの仕業じゃないと思う。
+\n俺たちが出発しようとした時、あんたの部下が･･････ バーバ・ヤーガに引き裂かれたんだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_5">
+		<text>失礼？･･････何と言ったか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_6">
+		<text>だから、バーバ･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_7">
+		<text>君の発言は理解している！だが、私をからかってるのか？バーバ・ヤーガだと？
+\nあのスラヴの童話に出てくる魔女が、私の部下を殺したとでも言うのか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_8">
+		<text>俺が冗談を言ってるように聞こえたか！？本当なんだ、教授。バーキープが以前、
+\nバーバ・ヤーガと呼ばれているミュータントの調査を頼んできたことがあった。
+\n俺はそいつを倒したつもりだったが、どうやらそう簡単にはいかないらしいな･･････</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_9">
+		<text>私は･･････ すまない、若者よ。科学者として幽霊の存在を肯定するのは難しくてな。
+\nこのゾーンは確かに奇妙な場所だが･･････ 幽霊だと？</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_10">
+		<text>ああ･･････ もう何が起きても驚かないさ。
+\nゾーンには沼地が多いし、この魔女に沼地との結びつきがあるとするなら、
+\nこれ以上の被害が出る前に何とかする必要があるな。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_11">
+		<text>科学の力では君の役に立てないと思うがね、若者よ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_12">
+		<text>心配するな、教授。俺はゾーンの謎を解くのが好きだし、助けてくれる人がいるはずだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_mystery_of_the_swamps_4_13">
+		<text>そうか･･････ では健闘を祈っているよ。それと、集めたデータの報酬を忘れずにな。</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_0">
+		<text>やあ、ブッチャー！ちょっと話があるんだ。</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_1">
+		<text>どうした？新鮮な肉が欲しいのか？それとも狩りのアドバイスか？</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_2">
+		<text>狩りに関することだな。だが、少し変わった質問になる。
+\nなあ、幽霊に遭遇したことはあるか？</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_3">
+		<text>幽霊？いや、そんなことはねえが、復讐に燃える霊を追い払う昔話なら知ってるぞ。
+\nお前、誰を怒らせたんだ？</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_4">
+		<text>少なくとも、からかってないだけマシか･･････ まあいい、バーバ・ヤーガを覚えてるか？
+\n俺はまた奴に遭遇したんだ。しかも、彼女はただのミュータントなんかじゃなかった。
+\n強力な精神力を持っていて、カーリックを引き寄せる力もあるみたいだ。
+\nそれだけじゃなく、どうやら他の幽霊を呼び寄せることもできるらしい･･････</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_5">
+		<text>面白い･･････ 今度は魔女が相手ってわけか。
+\n銃で仕留められないとなると、なおさら厄介だな。ただの魔女じゃなく、その“幽霊”か。</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_6">
+		<text>まったく･･････ 幽霊なんてどうすれば殺せるんだ？</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_7">
+		<text>殺すことはできねえだろうさ。
+\n遺骨を焼くとか、やり残したことを叶えてやれば成仏させられるって話は聞いたな。
+\nまあ、昔からの言い伝えだけどな。</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_8">
+		<text>話が通じる相手じゃないし、何があの魔女を縛っているのか探るのは難しそうだな。
+\n彼女の遺体を探してみるとしよう。何か心当たりのある場所はないか？
+\n一つだけ確かなのは、彼女が沼地と何らかの結びつきを持っているということだ。</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_9">
+		<text>そんな簡単に見つかるとは思えんな。ゾーンには沼地が死ぬほどあるんだ。
+\n全部掘り起こしてたらお前もジジイになっちまうぞ。
+
+\n\n誰かに聞くのが一番だろうな。何か手がかりになる話を知ってるかもしれん･･････
+\n例えば、ずっと昔からここにいるヤツとかな。</text>
+	</string>
+	<string id="hunter_gar_trader_mystery_of_the_swamps_1_10">
+		<text>アドバイスをありがとう。それじゃ、またな。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_0">
+		<text>よう、バーキープ。ゾーンに長いこといるみたいだし、いろんな話を知ってるだろう？
+\nちょっと聞きたいことがあるんだ。いいか？</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_1">
+		<text>ハッ！酔っ払いの話に興味があるのか？いいぜ、質問してみな。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_2">
+		<text>この辺りに住んでいた女性で、魔女みたいな力を持ってたって話を聞いたことはあるか？</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_3">
+		<text>そうだな･･････ プリピャチの方にはたくさんの人が住んでたが、
+\nそんな話は聞いたことないな･･････ あんたが退治したバーバ・ヤーガの話を除けばな。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_mystery_of_the_swamps_2_4">
+		<text>ああ、そうか･･････ いや、なんでもない。ありがとう。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_0">
+		<text>よう、シド。ちょっと聞きたいことがある。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_1">
+		<text>何だよ？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_2">
+		<text>あんたはここに長いこと住んでるんだろう？
+\nこの辺りに住んでいた女性で、何か精神的な力を持ってたって話を聞いたことはあるか？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_3">
+		<text>力がなんだって？お前は何の話をしてるんだ？</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_4">
+		<text>分かるだろ、その･･････ テレパシーみたいなさ･･････</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_5">
+		<text>この辺にはまだコントローラーがいてな、かなり元気に暮らしてるらしいぞ。
+\nいいか、くだらないことを言う暇があったら何か役に立つことでもしてこい。
+\n･･････そいつらを狩りに行くとかな。</text>
+	</string>
+	<string id="esc_2_12_stalker_trader_mystery_of_the_swamps_1_6">
+		<text>役に立たないな･･････</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_0">
+		<text>やあ、フォレスター。ここには昔から住んでるんだよな？ちょっと質問してもいいか？</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_1">
+		<text>ここには滅多に人が来なくてな･･････ まして、長話してくれるような相手は珍しい。
+\nさて、おぬしは何を知りたいのかね？</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_2">
+		<text>遠い昔に亡くなった、ある物知りな女性についての情報を探している。
+\n信じがたい話だが、その霊は安らかに眠れず、正義を求めて彷徨っているみたいなんだ。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_3">
+		<text>信じておる、若者よ。ワシも人生で説明しがたいことをたくさん見てきたからな。
+\nおぬしの質問だが、その女性とは･･････ 囁き声のことか、それとも魔女のことか？</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_4">
+		<text>そうだ！まさにそれだ！そんな人物を知っているのか？</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_5">
+		<text>知っているとも･･････ 遥か昔のことだ。
+\nワシがまだ小さな子供だった頃、近くの村にそんな女性が住んでいた。
+\nおぬしも聞いたことがあるかもしれんが、ここから北にあるコパシー村の話だ。
+
+\n\nあの頃は、ちょうど戦争が終わって平和になりつつあった時期でな。
+\nしかし、こんな僻地ではろくな医者もおらん。だから村の人々は、地元の魔女や長老、
+\n祈祷師に運命を託すことが多かった。その女性も、そんな治療師の一人であった。
+\n誤解するなよ。彼女の知識は代々受け継がれてきたもので、実際に自然療法で
+\n多くの人々を助けておった。彼女はあの辺りではよく知られていたのだ。
+
+\n\nしかし、人々の信頼は得るのも早ければ、失うのも早い･･････
+\n疫病と食糧不足に苦しむ村で、健康体でいられる彼女を怪しむ者が出てきてな･･････
+\n中には、すべて彼女の仕業だと騒ぎ出す者もおった。
+
+\n\nそういう嘘にすがる者たちは、いずれは我慢の限界に達するものだ･･････
+\nある日、村の男が行方不明になった息子を探し回るようになり、そうなってしまった。
+\n男は「魔女が子供を喰らっている」だの、「村に悲しみをもたらして楽しんでいる」だの、
+\nそんな戯言を言いふらすようになった･･････ ああ、こんな昔話でおぬしは退屈しないか？</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_6">
+		<text>そんなことはない！是非続けてくれ。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_7">
+		<text>それは良かった。話も終わりに近づいてきたな。ワシには理解しがたいが、
+\n村の人々はその狂った男の言葉を信じ始め、彼女に背を向けるようになった。
+\n村で語られる噂話は、どんどん陰惨なものになっていった。時が経つにつれ、
+\nかつて尊敬されていた治療師は、人々に悪魔の化身だと思われるようになったのだ。
+
+\n\nそして、決定的な悲劇が起きた。別の子供が森で行方不明になってしまってね。
+\n両親が働いている間のことだった。人々は狼や熊の仕業ではなく、彼女の仕業だと考えた。
+\n怒り狂った村人は夜中に彼女の小屋に押し入り、証拠もなしに彼女を犯人に仕立て上げた。
+\n彼女がどれだけ否定しても、誰も聞こうとしなかった･･････
+\n行方不明の子供たちの父親が2人、彼女を近くの沼まで引きずり、そこで溺れさせた。
+\n彼らの言い分では、それが「魔女にふさわしい罰」だったと･･････
+
+\n\n避けられたはずの、悲惨で恐ろしい出来事だった。あれほど人のために尽くした人間が、
+\nこんな風に裏切られるとはな･･････ 人間は動物以下の存在なのではないかと思わされるよ。
+\nとにかく、おぬしが対峙しようとしているのがその女性の霊だとすると･･････
+\n彼女が人々を憎む理由は、今ので十分よくわかったろう。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_8">
+		<text>悲しい話だな･･････ 彼女に同情するよ。
+\nブッチャーは霊を鎮める方法が2つあると言っていた。
+\n遺骨を焼くか、この世に留まっている未練を解消してやることだと。
+\n彼女は被害者のようだが、その未練が何なのか心当たりはあるか？</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_9">
+		<text>直接的であれ間接的であれ、彼女の死に関わった者は、皆とうの昔に亡くなっておる。
+\nしかし、ゾーンには今も仲間を裏切るような者たちで溢れておる。
+\nもしかすると、彼女の目的はそういった者たちを罰することなのかもしれん。
+\nその場合、おぬしが彼女の目的を果たす手助けをするのは難しいだろう。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_10">
+		<text>なるほど･･････ 俺が最後に彼女に会った時、他の幽霊を引き寄せていた。
+\nもしかすると、彼女は死後もそういう魂を苦しめているのか？</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_11">
+		<text>ひどい扱いを受けたことを考えると、彼女が復讐を望むのも無理はない。
+\nもしかすると、そのまま復讐をさせてやる方が良いのかもしれん。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_12">
+		<text>できればそうしたいんだが、彼女は俺も殺そうとした。
+\n俺は悪人じゃない･･････ 少なくとも、そう思っている。
+\n彼女は科学者たちや俺の仲間も殺したんだ。全員が罰を受けるべきだとは思えないんだが。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_13">
+		<text>ふむ･･････ 確かに一理ある。
+\nワシが子供の頃に聞いた話だが、魂というのはあまりに長くこの世に留まりすぎると、
+\nやがて堕落してしまうらしい。彼女が戻ってきたのは最近のことだと思っておったが、
+\n誰にでも襲う様子を見る限り、もう彼女の魂は救いようがないのだろう。
+
+\n\n他に方法はない。彼女の骨を焼かねばならん。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_14">
+		<text>だが、どうやって見つければいい？彼女はずっと昔に沼に沈んだはずだろう。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_15">
+		<text>おぬしの話によると、彼女の超能力は死後も残っているようだな。
+\nそれなら、科学者たちに相談してみるといい。彼らなら骨の場所を突き止められるだろう。
+\n彼らの移動ラボはコパチー村のすぐ隣にあり、もう一つも巨大な湿地帯に隣接している。
+\nつまり、この件は彼らにとっても他人事ではないのだよ。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_16">
+		<text>ありがとう、フォレスター。助かったよ。</text>
+	</string>
+	<string id="red_forester_tech_mystery_of_the_swamps_1_17">
+		<text>こちらこそありがとう、若者よ。たまには立ち寄って長話でもしとくれ。
+\n幸運を祈る。骨を焼くときはマッチを忘れんようにな！</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_0">
+		<text>やあ、教授。少し時間はあるか？</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_1">
+		<text>手短に頼むよ。近くの村の廃墟で大量のカーリックが出没して困ってるんだ。</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_2">
+		<text>実はその件に関係があるんだ。
+\nあんたの測定器は村の周辺で異常なプサイフィールドを検知してるんじゃないか？</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_3">
+		<text>ほう、どうしてそれを知っているんだ？</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_4">
+		<text>そこは重要じゃないんだ。ただ、俺はあんたの問題を解決する方法を知っている。
+\nそのためにはもう少し情報が欲しいんだ。</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_5">
+		<text>よし、いいだろう。
+\nここ数週間、微弱なプサイフィールドが徐々に広がっていくのを検知していた。
+\nしばらくの間、その範囲は村全体に分散していたが、最近になってその中心が
+\n現れた場所を特定できた。それは、まだ比較的形が残っている大きな家の中にある。
+
+\n\n我々はその場所を調査するために部隊を派遣しようとしたが･･････
+\n村に近づいた途端、地面や瓦礫の隙間からカーリックが這い出してきてね。
+\n幻覚を見たと報告してきた者もいる･･････  では、君が知っていることを教えてもらおうか？</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_6">
+		<text>教授には申し訳ないが、説明している時間はない。
+\n今すぐに行動しないと大変なことになる。戦える人員はいるか？</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_7">
+		<text>残念だが、力を貸せそうにない。我々は人手不足なんだ。
+\n君が危険だと言うのなら、なおさら移動ラボを無防備にするわけにはいかないのだよ。</text>
+	</string>
+	<string id="jup_b6_scientist_nuclear_physicist_mystery_of_the_swamps_1_8">
+		<text>わかった。それじゃ、俺は行くよ。</text>
+	</string>
+</string_table>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="encyclopedia_features_options">
+    <text>機能（ゲーム設定）</text>
+  </string>
+  <string id="encyclopedia_features_options_aoe_pickup_mode">
+    <text>範囲取得モード</text>
+  </string>
+  <string id="encyclopedia_features_options_aoe_pickup_mode_text">
+    <text>
+                        %c[d_cyan]「範囲取得モード」
+%c[ui_gray_1]複数のアイテムを一度に取得できる。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]この機能を有効にすると、「Call of Pripyat」と同じように、複数のアイテムを1回のキー操作で取得しインベントリに入れることができる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_ai_die_in_anomaly">
+    <text>AIがアノマリーで死ぬ</text>
+  </string>
+  <string id="encyclopedia_features_options_ai_die_in_anomaly_text">
+    <text>
+                       %c[d_cyan]「AIがアノマリーで死ぬ」
+%c[ui_gray_1]ミュータントと同じようにストーカーもアノマリーの影響を受けるようになる。\n
+
+                        \n%c[d_red]警告
+                        \n%c[ui_gray_1]ストーカーはアノマリーフィールドを避けようとするが、大抵の場合、AIがアノマリーの境界を検出できずに死ぬこととなる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。
+                        \nゲーム中にゲーム設定を変更する場合、ゲームを再起動する必要がある。
+                </text>
+  </string>
+  <string id="encyclopedia_features_options_artefact_degradation">
+    <text>アーティファクトの劣化</text>
+  </string>
+  <string id="encyclopedia_features_options_artefact_degradation_text">
+    <text>
+                        %c[d_cyan]「アーティファクトの劣化」
+%c[ui_gray_1]アクティブにすると、アーティファクトの能力とボーナスが低下していく。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]この機能を有効にすると、最高のアーティファクトを持つことは、アーティファクトハンターの終点ではなくなる。\n
+                        \nアーティファクトは使用されるほど弱くなり、さらなる狩猟と蓄積を促進させるため、単なる収入源ではなくなる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_day_radiation">
+    <text>昼間の放射線</text>
+  </string>
+  <string id="encyclopedia_features_options_day_radiation_text">
+    <text>
+                        %c[d_cyan]「昼間の放射線」
+%c[ui_gray_1]昼間は大気が放射線を含む。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]昼間に外に出ると、周囲の放射線を常に受け、体力に悪影響を及ぼす。\n
+                        \n昼間は外に出るのを避けるか、放射線対策のために抗放射線薬などを持ち歩く必要がある。\n\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_debug_hud">
+    <text>デバックHUD／デバッグマップ</text>
+  </string>
+  <string id="encyclopedia_features_options_debug_hud_text">
+    <text>
+                        %c[d_cyan]「デバッグHUD」
+%c[ui_gray_2名称のある地点の情報と位置をマップ上に表示する。\n
+
+                        \n%c[d_cyan]「デバッグマップHUD」
+                        \n%c[ui_gray_1]アーティファクトとスタッシュの位置と情報を表示する。マップ上でShift、Alt、Ctrlなどのキーを使用する必要がある。\n
+                        \nこれら2つの機能はゲーム設定から変更でき、デフォルトでは無効になっている。
+                        \nデバッグモードでゲームを起動し、このゲーム設定が有効になっていると詳細情報が表示される。</text>
+  </string>
+  <string id="encyclopedia_features_options_delayed_repairs">
+    <text>修理による遅延</text>
+  </string>
+  <string id="encyclopedia_features_options_delayed_repairs_text">
+    <text>
+                        %c[d_cyan]「修理による遅延」
+%c[ui_gray_1]技術者はあなたの装備を修理するのに時間を要するようになる。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]これを有効にすると、技術者に修理を頼んだ武器、アーマー、その他のアイテムは、修理が完了するまで預けたままになる。\n
+                        \nアイテムを渡した後、修理が完了したかどうか聞くことができる。それに対して、アイテムを返すか、あとどれくらい時間がかかるか答えてくれる。\n
+                        \nこれにより、従来の修理システムに少し現実的な機能が追加される。これは、より辛い経験を求めている場合に適している。瞬時に修理されなくなり、代わりにガンスミスと裁縫セットの使用に重点を置いている。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_dynamic_news">
+    <text>オフライン戦闘</text>
+  </string>
+  <string id="encyclopedia_features_options_dynamic_news_text">
+    <text>
+                        %c[d_cyan]「オフライン戦闘」
+%c[ui_gray_1]ストーカーもしくはミュータントがプレイヤーのいないマップで戦うことを許可する。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]有効にすると、プレイヤーがいないマップで分隊間の戦闘を行う。結果は、ストーカーもしくはミュータント両方の人口倍率に依存する。
+                        \nプレイヤーは、遠い場所にいるストーカーから銃撃戦に関するニュースを受け取れる。
+                        \nゲーム設定で「動的な派閥関係」が有効になっている場合、派閥間の争いが関係に影響する。</text>
+  </string>
+  <string id="encyclopedia_features_options_extended_hud">
+    <text>拡張HUD</text>
+  </string>
+  <string id="encyclopedia_features_options_extended_hud_text">
+    <text>
+                        %c[d_cyan]「拡張HUD」
+                        %c[ui_gray_1]追加の画面情報を表示する。
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]有効にすると、同行NPCの情報と小型のアーティファクトベルトがヘッドアップディスプレイに表示される。\n
+                        \nこの機能は、「ゲーム設定→ビデオ→UIとHUD」から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_full_alife">
+    <text>A-lifeの完全シミュレーション</text>
+  </string>
+  <string id="encyclopedia_features_options_full_alife_text">
+    <text>
+                        %c[d_cyan]「A-lifeの完全シミュレーション」
+%c[ui_gray_1]すべてのマップでA-lifeシステムを有効にする。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]通常A-lifeシミュレーションは、現在プレイヤーのいるマップと直接繋がっている他のマップでのみ有効になる。\n
+                        \nプレイヤーがそこにいなくても、あらゆる場所でA-lifeシミュレーションが有効になる。これにより、ゾーン全体でストーカーやミュータントが動き、生き、活動するようになり、ゾーンのダイナミックな体験が広がる。\n
+
+                        \n%c[d_red]注意
+                        \n%c[ui_gray_1]この機能は、PCへの負荷が増加する。もし、パフォーマンス問題に直面した場合は、倍率を減らす必要がある。\n
+                        \nこの機能を変更した場合は、ゲームを再起動する必要がある。</text>
+  </string>
+  <string id="encyclopedia_features_options_hardcore_ai_aim">
+    <text>ハードコアAIエイム</text>
+  </string>
+  <string id="encyclopedia_features_options_hardcore_ai_aim_text">
+    <text>
+                        %c[d_cyan]「ハードコアAIエイム」
+                        %c[ui_gray_1]AIのエイムの精度を高め、反応時間を短縮する。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]有効にすると、射撃中や走っているときに被弾を避けることが難しくなり、生き残るには援護の使用がより重要になる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_harcore_campfire">
+    <text>キャンプファイヤーモード</text>
+  </string>
+  <string id="encyclopedia_features_options_harcore_campfire_text">
+    <text>
+                        %c[d_cyan]「キャンプファイヤーモード」
+                        %c[ui_gray_1]焚き火でしか進行状況をセーブできなくなる！\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]この機能は、ゲームのハードコア要素を増やし、サバイバル生活を体験できる。
+                        \n有効にすると、メインメニューからのセーブやクイックセーブができなくなる。セーブするには、薪にマッチ箱を使う必要がある。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。\n
+                        \n苦痛モードと完全に連動する。
+                </text>
+  </string>
+  <string id="encyclopedia_features_options_harcore_conditions">
+    <text>苦痛モード</text>
+  </string>
+  <string id="encyclopedia_features_options_harcore_conditions_text">
+    <text>
+                        %c[d_cyan]「苦痛モード」
+%c[ui_gray_1]特定の条件が満たされた時のみセーブできる。\n
+
+                        \n%c[d_green]情報%
+                        \nc[ui_gray_2]この機能は、ゲームのハードコア要素を増やし、サバイバル生活を体験できる。
+                        \n有効にすると、以下の条件に当てはまる場合は、メインメニューからのセーブやクイックセーブができなくなる。
+                        \n・体力が少ない
+                        \n・放射線を浴びている
+                        \n・出血している
+                        \n・危険な状態（敵に見つかっている）
+                        \n・光熱放射の最中\n\n
+
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。\n
+                        \nキャンプファイヤーモードと完全に連動する。
+                </text>
+  </string>
+  <string id="encyclopedia_features_options_helicopter_patrols">
+    <text>ヘリコプターパトロール</text>
+  </string>
+  <string id="encyclopedia_features_options_helicopter_patrols_text">
+    <text>
+                        %c[d_cyan]「ヘリコプターパトロール」
+%c[ui_gray_1]派閥が戦略的地域を守るために航空支援を利用できるようにする。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]その地域をパトロールする友好的なヘリを持っている派閥は、敵のストーカー（プレイヤーを含む）やミュータントを攻撃したり、防衛するために、航空支援を求めることができる。\n
+                        \n脅威的な外見だが、テールローター（後部）に軽いダメージを与えれば簡単に堕とせる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは有効になっている。\n
+
+                        \n%c[d_green]場所
+                        \n%c[ui_gray_1]・アフロプロム
+\n・コルドン
+\n・ダークスケープ
+\n・沼地
+\n・リマンスク</text>
+  </string>
+  <string id="encyclopedia_features_options_lootmoney">
+    <text>死体から現金を略奪する</text>
+  </string>
+  <string id="encyclopedia_features_options_lootmoney_text">
+    <text>
+                        %c[d_cyan]「死体から現金を略奪する」
+                        %c[ui_gray_1]死んだ人のポケットから現金を見つけられる。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]見つけられる金額は、死んだストーカーのランクに依存する。ランクが高いほど、多額の現金を見つけられる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_online_exclusion">
+    <text>オンライン除外</text>
+  </string>
+  <string id="encyclopedia_features_options_online_exclusion_text">
+    <text>
+                        %c[d_cyan]「オンライン除外」
+                        %c[ui_gray_1]プレイヤーの周りに出現禁止領域を作る。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]マップの端とその出入口付近を探索すると、他のマップから来た敵に攻撃されることがある。有効にすると、これらの敵はプレイヤーが安全な所に移動するまで出現しない。\n
+                        \nこのシステムは完全にプレイヤー中心に展開しているため注意すること。マップを変更している時に既にその場所にいた敵は、到着時に消えたりはしない。\n
+                        \nこの機能はゲーム設定から調整でき、デフォルトでは75に設定されている。
+                </text>
+  </string>
+  <string id="encyclopedia_features_options_population_factors">
+    <text>人口係数</text>
+  </string>
+  <string id="encyclopedia_features_options_population_factors_text">
+    <text>
+                        %c[d_cyan]「人口係数」
+                        %c[ui_gray_1]ゾーンにいるストーカーとミュータントの数を変更する。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]ストーカーとミュータントの人口係数は別々に調整できるため、ゲームファイルを変更すること無く、ゾーンをどの程度荒々しくまたは穏やかにするか設定できる。\n
+                        \n注意すべきは、ゲームのプレイ中に変更された場合は、ストーカーやミュータントが死亡し、多かれ少なかれ出現することでのみ、人口の増減は実現されるため、新しいゲームを開始した時に最大の効果を発揮することである。\n
+                        \nこの機能はゲーム設定から調整できる。</text>
+  </string>
+  <string id="encyclopedia_features_options_portrait_by_outfit">
+    <text>スーツを見た目に反映</text>
+  </string>
+  <string id="encyclopedia_features_options_portrait_by_outfit_text">
+    <text>
+                        %c[d_cyan]「スーツを見た目に反映」
+                        %c[ui_gray_1]現在のスーツをキャラの見た目に反映する。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]有効にすると、スーツ（ヘッドギアを含まない）を着脱するたびに、キャラの見た目が更新され、AI用の見た目と一致するようになる。
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_radio_music">
+    <text>ラジオ音楽</text>
+  </string>
+  <string id="encyclopedia_features_options_radio_music_text">
+    <text>
+                        %c[d_cyan]「ラジオ音楽」
+                        %c[ui_gray_1]好きな音楽を特定の場所で再生できる。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]ゾーン内の一部のくつろいだ場所にはラジオが設置されており、ストーカーを楽しませるための音楽を流している。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは有効になっている。\n
+
+                        \n%c[d_green]場所
+                       \n%c[ui_gray_1]・アフロプロムの軍の基地
+\n・コルドンのシドロヴィッチの地下壕
+\n・沼地のクリアスカイ基地
+\n・ダークバレーのバンディット基地
+\n・ロストクの100ラッズ・バー
+\n・赤い森のフォレスターのタワー</text>
+  </string>
+  <string id="encyclopedia_features_options_thirst">
+    <text>喉の渇き</text>
+  </string>
+  <string id="encyclopedia_features_options_thirst_text">
+    <text>
+                        %c[d_cyan]「喉の渇き」
+                        %c[ui_gray_1]名前の通り、喉の渇きを実現する、ハードコアなゲーム設定である。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]これはプレイヤーに、様々な必需品と共に水資源も探すように促し、ゲームの難易度を上げるものである。
+                        \nHUDに表示された渇きのアイコンで、喉の渇き具合を判断する。喉が渇くほど、体力とスタミナの状態が悪化する。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは有効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_sleep_deprivation">
+    <text>睡眠不足</text>
+  </string>
+  <string id="encyclopedia_features_options_sleep_deprivation_text">
+    <text>
+                        %c[d_cyan]「睡眠不足」
+                        %c[ui_gray_1]時間経過と消耗品の使用がプレイヤーキャラを疲労させる。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]ゾーンの至る所にベッドと寝袋がある。通常これらは、睡眠によって時間をスキップするためにのみ使用されるが、この機能を有効にするとゲームプレイの重要な部分となる。\n
+                        \n時間が経つにつれて、キャラは徐々に疲労していき画面がぼやけたり揺れたりする。これらの影響は、いい休息場所が見つかるまで、または睡眠不足の影響で疲労困ぱいし倒れるまで悪化し続ける。\n
+                        \n疲労は、医療キットやウォッカ等を使用することで蓄積し、高カフェインのエナジードリンクなどで打ち消すことができる。しかし、多量摂取すると、効果が切れるまで休めなくなる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは無効になっている。</text>
+  </string>
+  <string id="encyclopedia_features_options_use_battery">
+    <text>バッテリーを使用する</text>
+  </string>
+  <string id="encyclopedia_features_options_use_battery_text">
+    <text>
+                        %c[d_cyan]「バッテリーを使用」
+                        %c[ui_gray_1] 有効にすると、電子機器の機能を維持するためにはバッテリーが必要になる。\n
+
+                        \n%c[d_green]情報
+                        \n%c[ui_gray_1]検出器や懐中電灯などの電子機器は、ユニバーサルパワーデバイス（UPD）から動作に必要な電圧と電力を得る。そのため、ユニバーサルパワーデバイス本体は常に消費されている。
+                        \nUPDの機能を維持するには、完全に電力が無くなる前にバッテリーを使用し充電する必要がある。
+                        \n常にバッテリーを何個か持ち歩くといいだろう。バッテリーは購入するか、どこかで見つけられる。\n
+                        \nこの機能はゲーム設定から変更でき、デフォルトでは有効になっている。
+                </text>
+  </string>
+</string_table>

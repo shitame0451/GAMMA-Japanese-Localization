@@ -1,0 +1,29 @@
+<!-- 
+	Anomaly Modconfiguration Menu strings
+	
+-->
+
+<string_table>
+
+
+	<string id="ui_mcm_gggf_title">
+		<text>Actor Speed Config</text>
+	</string>
+	<string id="ui_mcm_menu_gggf">
+		<text>Grok Gotta Go Fast</text>
+	</string>
+	<string id="ui_mcm_gggf_gotta_go_fast_run">
+		<text>歩行スピードの倍率設定</text>
+	</string>
+	<string id="ui_mcm_gggf_gotta_go_fast_run_desc">
+		<text>指定された倍率でアクターの歩行速度（他のキーを押さずに移動する場合の速度）を増やします。</text>
+	</string>
+	<string id="ui_mcm_gggf_gotta_go_fast_sprint">
+		<text>走行スピードの倍率設定</text>
+	</string>
+	<string id="ui_mcm_gggf_gotta_go_fast_sprint_desc">
+		<text>指定した倍率でアクターの走行速度（「走る」キーを押して移動する場合の速度）を増やします。</text>
+	</string>
+
+
+</string_table>

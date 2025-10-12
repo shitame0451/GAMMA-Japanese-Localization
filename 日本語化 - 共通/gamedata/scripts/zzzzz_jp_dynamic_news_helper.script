@@ -1,0 +1,16 @@
+-- dynamic_news_helper.script
+
+-- ===================================================================
+--  send_tip （「名前, 派閥」を変換させる）
+-- ===================================================================
+local original_send_tip = dynamic_news_helper.send_tip
+
+dynamic_news_helper.send_tip = function(msg, header, timeout, showtime, sender, sound, icon_by)
+	if header then
+		local ok, patched = pcall(japanese_patch.character_name_jp, header)
+		if ok and patched and patched ~= "" then
+			header = patched
+		end
+	end
+	return original_send_tip(msg, header, timeout, showtime, sender, sound, icon_by)
+end

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--UNUSED
+
+	<string id="st_wpn_desert_eagle_gold">
+		<text>Desert Eagle</text>
+	</string>
+	
+	<string id="st_wpn_desert_eagle_black">
+		<text>Desert Eagle</text>
+	</string>
+
+	<string id="st_wpn_desert_eagle_dhampyr">
+		<text>Desert Eagle "Dhampyr"</text>
+	</string>
+	<string id="st_wpn_desert_eagle_dhampyr_descr">
+		<text>ガス圧作動式のセミオートマチックピストルで、マガジンを装填するピストルとしては最大サイズの弾を装填できることで知られている。通常はライフル銃にしか見られないガス圧作動による排莢・装填機構を採用しているため、従来のセミオートマチックピストルよりもはるかに強力な弾を使用することができる。これにより、Desert Eagleはそれまでマグナムリボルバーが独占していた分野で競争できるようになった。 Oddly, this model has been customized to fire .357 magnum.\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]United States, Israel\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Israel Military Industries\n
+		</text>
+	</string>
+	
+	<string id="st_up_deagle_127_name">
+		<text>Rechamber to 12.7x55</text>
+	</string>
+
+	<string id="st_up_deagle_127_descr">
+		<text>Rechamber weapon to use 12.7x55mm</text>
+	</string>
+-->
+
+</string_table>

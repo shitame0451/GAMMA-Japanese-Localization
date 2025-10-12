@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="st_wpn_adar2_15">
+		<text>ADAR 2-15</text>
+	</string>
+	<string id="st_wpn_adar2_15_descr">
+		<text>民間向けに製造されたロシアのセミオートライフルで、AR-15を基に設計されている。高い命中精度と軽量な設計で知られ、木製の部品を採用し、5.56x45mm NATO弾を使用する。現代的な性能とクラシックな外観を両立しているため、競技射撃や銃器愛好家に人気がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Molot Oruzhie\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pkp_siber">
+		<text>PKP Pecheneg</text>
+	</string>
+	<string id="st_wpn_pkp_siber_descr">
+		<text>PKMをベースに近代化されたロシアの汎用機関銃。銃身の冷却構造が改良され、持続的な射撃が可能になった。7.62x54mmR弾とベルト給弾方式は継承しているが、銃身の交換を想定しない設計に変更することで放熱効率を高めている。ロシア軍で広く使われており、その高い耐久性、信頼性、攻撃と防御の両方に対応できる汎用性が評価されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Mikhail Kalashnikov\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pkm_siber">
+		<text>PKM</text>
+	</string>
+	<string id="st_wpn_pkm_siber_descr">
+		<text>7.62x54mmR弾を使用するソ連時代の汎用機関銃。頑丈さ、シンプルな構造、高い信頼性で知られている。1960年代に設計されたにもかかわらず、同クラスの機関銃としては軽量で整備も容易なため、今も世界各国の軍隊で使われ続けている。ベルト給弾方式と高い汎用性を活かし、歩兵の火力支援から車両への搭載まで、幅広い任務で活躍する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Degtyaryov Plant\n
+		</text>
+	</string>
+
+	<string id="st_wpn_pkm_zenit_siber">
+		<text>PKM «Zenit»</text>
+	</string>
+	<string id="st_wpn_pkm_zenit_siber_descr">
+		<text>7.62x54mmR弾を使用するソ連時代の汎用機関銃。頑丈さ、シンプルな構造、高い信頼性で知られている。1960年代に設計されたにもかかわらず、同クラスの機関銃としては軽量で整備も容易なため、今も世界各国の軍隊で使われ続けている。ベルト給弾方式と高い汎用性を活かし、歩兵の火力支援から車両への搭載まで、幅広い任務で活躍する。
+		\nこのモデルはピカティニーレール、垂直フォアグリップ、マズルブレーキ、レーザーサイトが装着されているほか、発射速度を向上させるための内部改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsNIITochMash / Degtyaryov Plant\n
+		</text>
+	</string>
+
+
+</string_table>

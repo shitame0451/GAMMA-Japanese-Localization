@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_brewed_coffee">
+		<text>淹れたてのコーヒー</text>
+	</string>
+	<string id="st_brewed_coffee_descr">
+		<text>ゾーンでは貴重な贅沢品で、一時的にスタミナを回復させ、意識をはっきりさせる効果がある。その香ばしい香りと温もりは、荒廃した地で寒さと疲労にさらされるストーカーたちにとって、ささやかながらもかけがえのない安らぎをもたらす。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]飲料\n
+		%c[d_green] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+		</text>
+	</string>
+
+</string_table>

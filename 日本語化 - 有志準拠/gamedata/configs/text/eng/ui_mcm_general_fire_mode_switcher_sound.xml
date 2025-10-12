@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="ui_mcm_fmode_sound_title">
+		<text>General Fire Mode Switcher Sound</text>
+	</string>
+	<string id="ui_mcm_menu_fmode_sound">
+		<text>Fire Mode Switch Sound</text>
+	</string>
+	<string id="ui_mcm_fmode_sound_sound">
+		<text>サウンド</text>
+	</string>
+	<string id="ui_mcm_fmode_sound_volume">
+		<text>音量</text>
+	</string>
+	<string id="ui_mcm_lst_switch_mode_gfmss0">
+		<text>サウンド 1</text>
+	</string>
+	<string id="ui_mcm_lst_switch_mode_gfmss1">
+		<text>サウンド 2</text>
+	</string>
+	<string id="ui_mcm_lst_switch_mode_gfmss2">
+		<text>サウンド 3</text>
+	</string>
+	<string id="ui_mcm_lst_switch_mode_gfmss3">
+		<text>サウンド 4</text>
+	</string>
+	<string id="ui_mcm_lst_switch_mode_gfmss4">
+		<text>サウンド 5</text>
+	</string>
+	<string id="ui_mcm_lst_switch_mode_gfmss5">
+		<text>サウンド 6</text>
+	</string>
+</string_table>

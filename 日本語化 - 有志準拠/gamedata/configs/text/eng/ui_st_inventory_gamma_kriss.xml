@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_kriss">
+		<text>KRISS Vector</text>
+	</string>
+	<string id="st_wpn_kriss_descr">
+		<text>フランスの設計者、ルノー・ケルブラによって設計されたVectorは、従来にないディレードブローバック方式を採用し、エネルギーを後方ではなく下方に伝えることで、反動とマズルクライムを軽減させている。小型で取り回しが良く、近距離戦闘に適した銃を求める法執行機関や軍隊には理想的な選択肢だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kriss USA Inc.\n
+		</text>
+	</string>
+
+</string_table>

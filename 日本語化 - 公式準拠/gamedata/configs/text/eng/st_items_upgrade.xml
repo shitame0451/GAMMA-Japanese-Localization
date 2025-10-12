@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_broneplastina_seva">
+    <text>SEVAの装甲板（アップグレード）</text>
+  </string>
+  <string id="st_broneplastina_seva_descr">
+    <text>SEVAスーツの特性を向上させる装甲板。</text>
+  </string>
+  <string id="upgr_1_01_name">
+    <text>鋼鉄製の装甲板</text>
+  </string>
+  <string id="upgr_1_01_description">
+    <text>様々な長さ、幅、厚さ、形状の鋼鉄製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鋼鉄製
+\n%c[d_blue] ・ 軽装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_01_name">
+    <text>高密度フレーム</text>
+  </string>
+  <string id="upgr_2_01_description">
+    <text>スーツの特性を向上させるための様々なフレームや機器のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 金属製、プラスチック製
+\n%c[d_blue] ・ 軽装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_01_name">
+    <text>チェーンシャツ</text>
+  </string>
+  <string id="upgr_3_01_description">
+    <text>手作りのチェーンシャツ、小さな鉄の輪で作られている。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鉄製
+\n%c[d_blue] ・ 軽装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_02_name">
+    <text>ゴム引き挿入材</text>
+  </string>
+  <string id="upgr_1_02_description">
+    <text>ゴム加工された丈夫なロール状の工業用生地。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ゴム製
+\n%c[d_blue] ・ 軽装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_02_name">
+    <text>防水生地</text>
+  </string>
+  <string id="upgr_2_02_description">
+    <text>丈夫な工業用キャンバス生地の大判サイズ。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 布製
+\n%c[d_blue] ・ 軽装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_03_name">
+    <text>耐火繊維</text>
+  </string>
+  <string id="upgr_2_03_description">
+    <text>耐火性の生地をロール状にしたものであり、短時間の高温に耐えることができる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 布製
+\n%c[d_blue] ・ 軽装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_03_name">
+    <text>分散型ベスト</text>
+  </string>
+  <string id="upgr_1_03_description">
+    <text>ベストには裏地がついていて、大きなポケットがいくつもついている。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 布製
+\n%c[d_blue] ・ 軽装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_04_name">
+    <text>ポリカーボネート製の装甲板</text>
+  </string>
+  <string id="upgr_1_04_description">
+    <text>長さ、幅、厚さ、形状が異なるポリカーボネート製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリカーボネート製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_04_name">
+    <text>ポリカーボネート積層装甲</text>
+  </string>
+  <string id="upgr_2_04_description">
+    <text>装甲化スーツと組み合わせて使用するために、防護要素を追加した特別な裏地を持つアーマー。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリカーボネート製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_02_name">
+    <text>セラミック製の装甲板</text>
+  </string>
+  <string id="upgr_3_02_description">
+    <text>長さ、幅、厚さ、形状が異なるセラミック製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ セラミック製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_05_name">
+    <text>軽量ポリマー素材</text>
+  </string>
+  <string id="upgr_1_05_description">
+    <text>異なる長さ、幅、厚さ、形状と様々な特性を持つ、軽量なポリマー素材のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_05_name">
+    <text>マグネシウム挿入材</text>
+  </string>
+  <string id="upgr_2_05_description">
+    <text>長さ、幅、厚さ、形状が異なるマグネシウム元素を含む耐火材料のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ マグネシウムを含む
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_06_name">
+    <text>プラスチック挿入材</text>
+  </string>
+  <string id="upgr_2_06_description">
+    <text>長さ、幅、厚さ、形状が異なるプラスチック製の板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ プラスチック製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_03_name">
+    <text>布地処理の材料</text>
+  </string>
+  <string id="upgr_3_03_description">
+    <text>繊維製品を処理するための化合物であり、スーツの化学物質に対する防護性能を向上させることができる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 化合物製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_04_name">
+    <text>ゴム引き布</text>
+  </string>
+  <string id="upgr_3_04_description">
+    <text>耐久性のあるゴム製の生地をロール状にしたもの。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 布製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_06_name">
+    <text>ガスボンベ</text>
+  </string>
+  <string id="upgr_1_06_description">
+    <text>酸素を充填したガスバルーン。化学的に有毒な環境や、山のように空気の消費が著しい場所での呼吸を想定している。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 特別製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_07_name">
+    <text>統合人体治療システム</text>
+  </string>
+  <string id="upgr_2_07_description">
+    <text>人体に薬を自動的に投与するための複合医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 複合医療製品
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_08_name">
+    <text>負荷分散用固定システム</text>
+  </string>
+  <string id="upgr_2_08_description">
+    <text>負荷分散を目的とした各種ファスナーのセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_05_name">
+    <text>アタッチメントの固定具（強化型）</text>
+  </string>
+  <string id="upgr_3_05_description">
+    <text>モジュールとアーティファクト容器を同時に使用できように数を増やすためのスーツベルト用アタッチメント。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_07_name">
+    <text>強化サーボドライブ（プロトタイプ、v1）</text>
+  </string>
+  <string id="upgr_1_07_description">
+    <text>第1世代、第2世代のエクソスケルトン用駆動装置の試作品を強化し、使用者のダッシュを可能にする。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_06_name">
+    <text>ソブリン化合物</text>
+  </string>
+  <string id="upgr_3_06_description">
+    <text>強度と耐久性を向上させるために開発された生地用の特殊な補強材。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 化合物製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_09_name">
+    <text>アタッチメントの留め具（通常品）</text>
+  </string>
+  <string id="upgr_2_09_description">
+    <text>モジュールとアーティファクト容器を同時に使用できように数を増やすためのスーツベルト用アタッチメント。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_08_name">
+    <text>ケブラー製の装甲板</text>
+  </string>
+  <string id="upgr_1_08_description">
+    <text>長さ、幅、厚さ、形状が異なるケブラー製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ケブラー製
+\n%c[d_blue] ・ 軽装アーマーと中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_10_name">
+    <text>第2積層装甲</text>
+  </string>
+  <string id="upgr_2_10_description">
+    <text>装甲化スーツと組み合わせて使用するために、防護要素を追加した特別な裏地を持つ装甲。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 装甲板
+\n%c[d_blue] ・ 軽装アーマーと中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_09_name">
+    <text>衝撃緩衝材</text>
+  </string>
+  <string id="upgr_1_09_description">
+    <text>防弾ベスト用の特殊裏地付きゴム製挿入材。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ゴム製
+\n%c[d_blue] ・ 軽装アーマーと中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_11_name">
+    <text>ラバースーツ</text>
+  </string>
+  <string id="upgr_2_11_description">
+    <text>放射線や化学物質を寄せ付けない特殊なゴム製のスーツの裏地であり、装甲化スーツの防護性能を高めるために装着するように設計されている。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ゴム製
+\n%c[d_blue] ・ 軽装アーマーと中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_07_name">
+    <text>防護フレーム</text>
+  </string>
+  <string id="upgr_3_07_description">
+    <text>防弾ベストの形状に合わせたフレームであり、装甲化スーツの防護性能を向上させることを目的としている。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_08_name">
+    <text>ヴァリャーグ生命維持装置</text>
+  </string>
+  <string id="upgr_3_08_description">
+    <text>人体に薬を自動的に投与するための複合医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_09_name">
+    <text>ビスマス含有ポリマー製挿入材</text>
+  </string>
+  <string id="upgr_3_09_description">
+    <text>ビスマスを用いたポリマー製防護材であり、化学耐性と熱耐性が向上する。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_10_name">
+    <text>鉛製メッシュ</text>
+  </string>
+  <string id="upgr_3_10_description">
+    <text>浅いセルの通常の鉛メッシュ。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鉛製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_10_name">
+    <text>補正積層装甲</text>
+  </string>
+  <string id="upgr_1_10_description">
+    <text>特殊加工された装甲板であり、銃弾耐性が若干向上する。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 金属製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_12_name">
+    <text>アルミフレーム</text>
+  </string>
+  <string id="upgr_2_12_description">
+    <text>中装アーマーに挿入する汎用アルミフレーム。同じようなスチールやチタン製のフレームの代わりになり、アーマーの重量を減らすことができる。ただし、アルミフレームは強度が落ちる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ アルミニウム製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_11_name">
+    <text>チタンとベリルの複合材</text>
+  </string>
+  <string id="upgr_3_11_description">
+    <text>チタンとベリルの複合材を、高品質で堅牢な装甲板に接合したセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 強化装甲板
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_11_name">
+    <text>ポリマー挿入材</text>
+  </string>
+  <string id="upgr_1_11_description">
+    <text>生地の代わりに軽量 中量の装甲化スーツに埋め込むための特殊なポリマー製挿入材。装甲化スーツの耐久性と寿命を向上させる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_13_name">
+    <text>コンスタンタン断熱材</text>
+  </string>
+  <string id="upgr_2_13_description">
+    <text>特殊なコンスタンタン断熱層。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ コンスタンタン製
+\n%c[d_blue] ・ 中装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_12_name">
+    <text>SBK 防護スーツ</text>
+  </string>
+  <string id="upgr_3_12_description">
+    <text>化学物質や放射性物質の影響から身を守るための特殊なサポートスーツ。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ゴム製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_12_name">
+    <text>「医師」創傷治療システム</text>
+  </string>
+  <string id="upgr_1_12_description">
+    <text>現場で継続的に薬を投与するための医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_13_name">
+    <text>炭素繊維</text>
+  </string>
+  <string id="upgr_3_13_description">
+    <text>高粘度と優れた制動力を特徴とするカーボンファイバー製の軽量な防護装甲板。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_14_name">
+    <text>プレキシガラス</text>
+  </string>
+  <string id="upgr_2_14_description">
+    <text>様々な長さ、幅、厚さ、形状のプレキシグラス製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_15_name">
+    <text>フレキシブル プラスチック製の挿入材</text>
+  </string>
+  <string id="upgr_2_15_description">
+    <text>長さ、幅、厚さ、形状が異なる弾性プラスチック素材のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_14_name">
+    <text>耐火ニッケル製の挿入材</text>
+  </string>
+  <string id="upgr_3_14_description">
+    <text>ニッケル製の軽い難燃性の挿入材。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ニッケル製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_13_name">
+    <text>「マラソン選手」複合体</text>
+  </string>
+  <string id="upgr_1_13_description">
+    <text>現場で継続的に薬を投与するための医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_16_name">
+    <text>SKAT抗電防御システム</text>
+  </string>
+  <string id="upgr_2_16_description">
+    <text>電流を読み取り、感電防止効果を高める特殊な装置。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 科学機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_14_name">
+    <text>血流促進装置</text>
+  </string>
+  <string id="upgr_1_14_description">
+    <text>現場で継続的に薬を投与するための医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_17_name">
+    <text>ソーラー式バイオ促進装置</text>
+  </string>
+  <string id="upgr_2_17_description">
+    <text>現場での継続的な薬剤投与を可能にする独立型電源を搭載した医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_15_name">
+    <text>精神的な波動の放射体</text>
+  </string>
+  <string id="upgr_3_15_description">
+    <text>プサイ波の生体への影響を調べるための携帯型調査装置。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 科学機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_1_15_name">
+    <text>アルミとチタンの合金</text>
+  </string>
+  <string id="upgr_1_15_description">
+    <text>チタンとアルミの合金による丈夫な装甲板。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 金属合金
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_16_name">
+    <text>アーティファクト座標検出器</text>
+  </string>
+  <string id="upgr_1_16_description">
+    <text>アーティファクトの三次元的な位置を測定するための携帯型科学機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 科学機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_16_name">
+    <text>絶縁マグネシウム製の挿入材</text>
+  </string>
+  <string id="upgr_3_16_description">
+    <text>電荷がアーマーに与える影響を軽減するために設計された、防護用マグネシウム製の挿入材のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ マグネシウム製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_17_name">
+    <text>ポリマー製の挿入材</text>
+  </string>
+  <string id="upgr_1_17_description">
+    <text>有機ポリマーを使用した特殊で軽量な挿入材。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_18_name">
+    <text>関節防護材</text>
+  </string>
+  <string id="upgr_2_18_description">
+    <text>互いに連結してより大きな装甲板を形成することができる、防護用の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_19_name">
+    <text>チタンおよびアルミ製の装甲板</text>
+  </string>
+  <string id="upgr_2_19_description">
+    <text>チタンとアルミニウムで作られた防護用装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 金属製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_17_name">
+    <text>サファイアガラス</text>
+  </string>
+  <string id="upgr_3_17_description">
+    <text>サファイアの合成結晶。とても丈夫。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ マグネシウム製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_20_name">
+    <text>コンスタンタン製の絶縁体</text>
+  </string>
+  <string id="upgr_2_20_description">
+    <text>電気耐性を強化したコンスタンタン製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_21_name">
+    <text>ガラス繊維製の断熱材</text>
+  </string>
+  <string id="upgr_2_21_description">
+    <text>ガラス繊維製のプレートであり、熱耐性を増加させる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_22_name">
+    <text>毒物ろ過システム</text>
+  </string>
+  <string id="upgr_2_22_description">
+    <text>人体に付着した毒物を現場でろ過する携帯型医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_1_18_name">
+    <text>「激怒」注入器</text>
+  </string>
+  <string id="upgr_1_18_description">
+    <text>現場での静脈注射を可能にする携帯型医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_23_name">
+    <text>「激怒」注入器</text>
+  </string>
+  <string id="upgr_2_23_description">
+    <text>現場での静脈注射を可能にする携帯型医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_18_name">
+    <text>「不死鳥」回復システム</text>
+  </string>
+  <string id="upgr_3_18_description">
+    <text>現場での静脈注射を可能にする携帯型医療機器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_24_name">
+    <text>鉛製の挿入材</text>
+  </string>
+  <string id="upgr_2_24_description">
+    <text>とても重い鉛の板材。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鉛製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_25_name">
+    <text>「第2の皮膚」ベスト</text>
+  </string>
+  <string id="upgr_2_25_description">
+    <text>ベストの裏地には装甲が施されており、銃弾からの防護を強化する。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 裏地
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_26_name">
+    <text>予備の装甲板の多層化</text>
+  </string>
+  <string id="upgr_2_26_description">
+    <text>ケブラー製の装甲板であり、中装アーマーと重装アーマーの追加的予備的な装甲として装着される。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 装甲板
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_19_name">
+    <text>強化セラミック製の装甲板</text>
+  </string>
+  <string id="upgr_3_19_description">
+    <text>装甲化スーツに挿入するための、厚く強化されたセラミック製の装甲板。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ セラミック製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_20_name">
+    <text>プラスチック製や合成物質製の部品</text>
+  </string>
+  <string id="upgr_3_20_description">
+    <text>装甲の軽量化と運動性 耐久性の向上を目的とした、各種装甲化スーツの、プラスチック製や合成物質製の部品。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_19_name">
+    <text>合成層化（布）</text>
+  </string>
+  <string id="upgr_1_19_description">
+    <text>スーツやアーマーに縫い付けるための丈夫な合成織物。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_27_name">
+    <text>「骨組み」重量分散装置</text>
+  </string>
+  <string id="upgr_2_27_description">
+    <text>装甲化スーツに挿入して可搬能力を高める装置。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_20_name">
+    <text>防塵システム</text>
+  </string>
+  <string id="upgr_1_20_description">
+    <text>フィルター交換が可能な防塵システムを内蔵する。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_28_name">
+    <text>オラクル神経刺激装置</text>
+  </string>
+  <string id="upgr_2_28_description">
+    <text>プサイ効果の影響をわずかに軽減する科学的アイテム。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_21_name">
+    <text>軽量型生命維持装置</text>
+  </string>
+  <string id="upgr_3_21_description">
+    <text>重篤な状態を安定させるための携帯型生命維持装置。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_1_21_name">
+    <text>アクティブフィルター</text>
+  </string>
+  <string id="upgr_1_21_description">
+    <text>アクティブフィルター システム搭載。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_29_name">
+    <text>防護コーティング</text>
+  </string>
+  <string id="upgr_2_29_description">
+    <text>ヘルメットや装甲化スーツを覆うことで、プサイ作用をわずかに軽減することができる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 特殊アイテム
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_30_name">
+    <text>1PN93-1アナログ暗視ゴーグル</text>
+  </string>
+  <string id="upgr_2_30_description">
+    <text>暗闇で任務を遂行するための軍用暗視装置。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 軍用品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_22_name">
+    <text>防護ドーム</text>
+  </string>
+  <string id="upgr_3_22_description">
+    <text>ヘルメットの裏地に、プサイ作用の影響を軽減する特殊な素材を使用する。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 特殊アイテム
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_3_23_name">
+    <text>イオン空冷システム</text>
+  </string>
+  <string id="upgr_3_23_description">
+    <text>中型 大型の装甲スーツに搭載され、耐久性を向上させる冷却システム。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 科学機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_31_name">
+    <text>PN21KL暗視ゴーグル</text>
+  </string>
+  <string id="upgr_2_31_description">
+    <text>暗闇の中で任務を遂行するためのデジタル軍用ナイトビジョン。グレーの色が出せる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 軍用品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_2_32_name">
+    <text>PN2KLデジタル暗視ゴーグル</text>
+  </string>
+  <string id="upgr_2_32_description">
+    <text>暗闇の中で任務を遂行するためのデジタル軍用ナイトビジョン。グレーの色が出せる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 軍用品
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+  <string id="upgr_1_22_name">
+    <text>呼吸マスク清浄化システム</text>
+  </string>
+  <string id="upgr_1_22_description">
+    <text>防毒マスクとヘルメットの一体型クリーニングシステム。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_33_name">
+    <text>活性炭フィルター</text>
+  </string>
+  <string id="upgr_2_33_description">
+    <text>交換可能な炭フィルターの補充。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_24_name">
+    <text>防護アンテナ</text>
+  </string>
+  <string id="upgr_3_24_description">
+    <text>ガスマスクやヘルメットへの装着を想定した防護用アンテナ。プサイ作用の影響を最小限に抑えることができる。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 科学機器
+\n%c[d_blue] ・ 中装アーマーと重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_23_name">
+    <text>マスク用ダブルフィルター</text>
+  </string>
+  <string id="upgr_1_23_description">
+    <text>シングルフィルターの呼吸器に代わる、2つのフィルターの呼吸器。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_24_name">
+    <text>有害粒子フィルター</text>
+  </string>
+  <string id="upgr_1_24_description">
+    <text>有害な粒子が呼吸器系から体内に侵入するのを防ぐための防護フィルター。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_34_name">
+    <text>有毒物質フィルター</text>
+  </string>
+  <string id="upgr_2_34_description">
+    <text>様々な毒物や化学物質が呼吸器を介して体内に侵入するのを防ぐ、防護フィルター。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_35_name">
+    <text>コンスタンタン製マスク</text>
+  </string>
+  <string id="upgr_2_35_description">
+    <text>様々な毒物や化学物質が呼吸器を介して体内に侵入するのを防ぐ、防護フィルター。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ コンスタンタン製
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_25_name">
+    <text>有毒物質フィルター</text>
+  </string>
+  <string id="upgr_1_25_description">
+    <text>フィルターに補助的な防護膜を施し、様々な毒物や化学物質が呼吸器を介して体内に侵入するのを防ぐ。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_36_name">
+    <text>SPB-VPZ.m.IV機器</text>
+  </string>
+  <string id="upgr_2_36_description">
+    <text>最新の防護システム、プサイ作用に対する防護を強化。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 科学機器
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_26_name">
+    <text>強化チタン部品</text>
+  </string>
+  <string id="upgr_1_26_description">
+    <text>最新の防護システム、プサイ作用に対する防護を強化。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 科学機器
+\n%c[d_blue] ・ ヘッドギアの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_37_name">
+    <text>機動装甲板</text>
+  </string>
+  <string id="upgr_2_37_description">
+    <text>エクソスケルトンや重装甲化スーツに挿入する追加の防護用の鋼鉄製装甲板。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鋼鉄製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_38_name">
+    <text>関節防護材</text>
+  </string>
+  <string id="upgr_2_38_description">
+    <text>エクソスケルトンや重装甲化スーツに挿入するための様々な長さ、幅、形状である、薄い装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鋼鉄製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_25_name">
+    <text>チタンアーマー</text>
+  </string>
+  <string id="upgr_3_25_description">
+    <text>エクソスケルトンや重装甲化スーツに挿入するための様々な長さ、幅、形状である、強化されたチタン製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ チタン製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_26_name">
+    <text>多重積層防護材</text>
+  </string>
+  <string id="upgr_3_26_description">
+    <text>エクソスケルトンや重装甲化スーツに挿入するための様々な長さ、幅、形状である、強化されたポリマーセラミック製の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ セラミック製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_27_name">
+    <text>シリコン製ショックアブソーバー</text>
+  </string>
+  <string id="upgr_1_27_description">
+    <text>強化型シリコンダンパーは、ゴム製の同種のダンパーに代わるものである。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_27_name">
+    <text>ビスマス挿入材付きポリマースーツ</text>
+  </string>
+  <string id="upgr_3_27_description">
+    <text>ビスマスを大量に含んだポリマー素材である防護スーツの裏地。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ ポリマー製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_28_name">
+    <text>アルミ挿入材</text>
+  </string>
+  <string id="upgr_3_28_description">
+    <text>エクソスケルトンや重装甲化スーツ用に開発された、数少ないプラスチック部品のアルミバージョン。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ アルミ製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_1_28_name">
+    <text>統合温度制御システム</text>
+  </string>
+  <string id="upgr_1_28_description">
+    <text>エクソスケルトンや重装甲化スーツの生命維持装置に搭載される統合温度制御システム。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 医療機器
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_2_39_name">
+    <text>動力部防護システム</text>
+  </string>
+  <string id="upgr_2_39_description">
+    <text>エクソスケルトンや重装甲化スーツの可動部に挿入するための様々な長さ、幅、形状である防護用の装甲板のセット。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鋼鉄製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_29_name">
+    <text>歩行用動力システム</text>
+  </string>
+  <string id="upgr_3_29_description">
+    <text>エクソスケルトンや重装甲化スーツにバネや可動部を追加するシステム。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 鋼鉄製
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される</text>
+  </string>
+  <string id="upgr_3_30_name">
+    <text>油圧式駆動装置増幅システム</text>
+  </string>
+  <string id="upgr_3_30_description">
+    <text>エクソスケルトンや重装甲化スーツの駆動装置のための油圧増幅システム。
+
+                \n\n%c[ui_gray_3]特性: 
+\n%c[d_blue] ・ 技術品
+\n%c[d_blue] ・ 重装アーマーの特性を向上させるために使用される
+\n%c[d_blue] ・ 貴重品</text>
+  </string>
+</string_table>

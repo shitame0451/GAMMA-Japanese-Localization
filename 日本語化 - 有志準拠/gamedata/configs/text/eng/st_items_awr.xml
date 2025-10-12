@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_current_condition">
+    <text>現在の耐久値: </text>
+  </string>
+  <string id="st_detail_success">
+    <text>（＋）部品［%s］は正常に組み込まれた</text>
+  </string>
+  <string id="st_detail_fail">
+    <text>（－）部品［%s］は交換中に破損した</text>
+  </string>
+  <string id="st_quality_worn">
+    <text>（＋）1つ以上の部品が使い古したものと交換された。武器の品質は「使い古し」に変更された。</text>
+  </string>
+  <string id="st_quality_good">
+    <text>（＋）すべての部品は頑丈な部品と交換された。武器は新品同様だ。</text>
+  </string>
+  <string id="st_quality_wgood">
+    <text>（＋）すべての部品が交換された。武器の品質は変わらない。</text>
+  </string>
+  <string id="st_already_repair">
+    <text>（－）部品交換手順が完了した。武器の品質を高めるためには、耐久値は100［%］でなければならない。</text>
+  </string>
+  <string id="st_no_barrel">
+    <text>（－）銃身を交換する前に部品を交換することはできない！</text>
+  </string>
+  <string id="st_bar_no_need_new">
+    <text>（－）この銃身は交換する必要がない</text>
+  </string>
+  <string id="st_part_no_need_new">
+    <text>（－）この部品は交換する必要がない</text>
+  </string>
+  <string id="st_bar_no_need_old">
+    <text>（－）この武器の銃身は交換する必要がない。武器の質を高めるためには、耐久値は100［%］でなければならない</text>
+  </string>
+  <string id="st_part_no_need_old">
+    <text>（－）武器部品は交換を必要としない。武器の品質を高めるためには、耐久値は100［%］でなければならない。</text>
+  </string>
+  <string id="st_no_barrel_to_kit">
+    <text>（－）［%s］口径と互換性のある銃身がない</text>
+  </string>
+  <string id="st_no_details">
+    <text>（－）［%s］に使用可能な部品がない</text>
+  </string>
+  <string id="st_selected_worn">
+    <text>（－）%s［%s］が選択された、修理に成功する確率は%i［%］、修理するには修理部品が必要</text>
+  </string>
+  <string id="st_selected_good">
+    <text>（－）%s［%s］が選択された、修理に成功する確率は%i［%］</text>
+  </string>
+  <string id="st_selected_r_kit">
+    <text>（－）［%s］が選択された</text>
+  </string>
+  <string id="st_sel_detail">
+    <text>（－）対応する部品の画像をクリックして交換する</text>
+  </string>
+  <string id="st_cond_grow">
+    <text>耐久値: %i［%］</text>
+  </string>
+  <string id="st_awr_back">
+    <text>戻る</text>
+  </string>
+  <string id="st_awr_exit">
+    <text>終了</text>
+  </string>
+  <string id="st_awr_ctrl">
+    <text>%sアイテムの意図しない分解を防ぐため、Altキーが押されているときにのみ実行できる。%s</text>
+  </string>
+  <string id="st_unload">
+    <text>メンテナンスの前に、弾薬を抜きアタッチメントを外しておく必要がある。</text>
+  </string>
+  <string id="st_no_weap">
+    <text>万力に武器を固定するには、銃を手に持っている必要がある。</text>
+  </string>
+  <string id="st_handsfree">
+    <text>両手はふさがっている。</text>
+  </string>
+  <string id="st_stolen_1">
+    <text>撃発機構はあなたがいない間に武器から盗まれた。耐久値が悪化した。</text>
+  </string>
+  <string id="st_stolen_2">
+    <text>ブリーチヘッドはあなたがいない間に武器から盗まれた。耐久値が悪化した。</text>
+  </string>
+  <string id="st_stolen_3">
+    <text>ブリーチブロックはあなたがいない間に武器から盗まれた。耐久値が悪化した。</text>
+  </string>
+  <string id="st_not_in_list">
+    <text>あなたはこの武器を修理するための知識を持っていない</text>
+  </string>
+  <string id="st_awr_timer_msg_on">
+    <text>%s残り5分%s</text>
+  </string>
+  <string id="st_awr_timer_msg_off">
+    <text>%sタイムアップ%s</text>
+  </string>
+  <string id="st_awr_dead_mechanic">
+    <text>%s技術者である%sは%sに殺された。%s彼の作業台を使用する許可はもう必要ない。</text>
+  </string>
+  <string id="st_by_unknown">
+    <text>不明</text>
+  </string>
+  <string id="st_mech_tiski">
+    <text>技術者の作業台</text>
+  </string>
+  <string id="st_mech_tiski_w">
+    <text>技術者の作業台と%s</text>
+  </string>
+  <string id="st_ending_1">
+    <text>ы</text>
+  </string>
+  <string id="st_ending_2">
+    <text>а</text>
+  </string>
+  <string id="st_ending_3">
+    <text>о</text>
+  </string>
+  <string id="st_text_status">
+    <text>［耐久値］: %s%s%%</text>
+  </string>
+  <string id="st_text_wpn">
+    <text>［武器］: %s%s</text>
+  </string>
+  <string id="st_text_mode">
+    <text>［モード］: %s%s</text>
+  </string>
+  <string id="st_text_mode_1">
+    <text>修復</text>
+  </string>
+  <string id="st_text_mode_2">
+    <text>修復の可能性のある修理</text>
+  </string>
+  <string id="st_text_mode_3">
+    <text>利用不可</text>
+  </string>
+  <string id="st_text_warning_mode_1_4">
+    <text>%sアップグレード後、武器の耐久値は%s［%］、品質は新品になる。</text>
+  </string>
+  <string id="st_text_warning_mode_1_3">
+    <text>%sアップグレード時に、機能する部品のみを使用することが可能。</text>
+  </string>
+  <string id="st_text_warning_mode_1_1">
+    <text>［注意］: このモードでは、「錆付き」か「使い古し」の武器のみアップグレードできる。</text>
+  </string>
+  <string id="st_text_warning_mode_2_5">
+    <text>%sアップグレードして修理を終えた後:「使い古し」の場合は%i［%］、新品の場合は%i［%］</text>
+  </string>
+  <string id="st_text_warning_mode_2_4">
+    <text>%sアップグレードなしで修理が完了した後、武器の耐久値は %i［%］と等しくなる</text>
+  </string>
+  <string id="st_text_warning_mode_2_3">
+    <text>%s武器の品質は、同時に最も低い品質の交換部品と一緒になる。</text>
+  </string>
+  <string id="st_text_warning_mode_2_1">
+    <text>[注意］: このモードでは武器の修理とアップグレードが可能。</text>
+  </string>
+  <string id="st_text_warning_mode_3_3">
+    <text>%sのアップグレードは以下の耐久値になるまで不可能: 100%［%］</text>
+  </string>
+  <string id="st_text_warning_mode_3_2">
+    <text>［警告］: この品質において武器の耐久値は最良であるため、この武器の修理はこれ以上出来ない。</text>
+  </string>
+  <string id="st_text_warning_mode_3_1">
+    <text>［警告］: 武器の品質はすでに最良だ。それ以上の修復は不可能。</text>
+  </string>
+  <string id="st_text_warning_mode_help">
+    <text>ヘルプが必要な場合はF1を押せ。</text>
+  </string>
+  <string id="st_dis_news">
+    <text>［AWR］</text>
+  </string>
+  <string id="st_dis_count">
+    <text>шт。</text>
+  </string>
+  <string id="st_dis_text_1">
+    <text>%s%s %s%sは分解された</text>
+  </string>
+  <string id="st_dis_text_2">
+    <text>アイテムの分解はできなかった: %s- %s%s\n何も得られなかった</text>
+  </string>
+  <string id="st_dis_text_3">
+    <text>%s必要なツールがない%s%s </text>
+  </string>
+  <string id="st_dis_text_4">
+    <text>\nカートリッジが取り外された: %iPC type %s\n受け取ったアイテム: </text>
+  </string>
+  <string id="st_dis_text_5">
+    <text>%s%sをなんとか修理することができた\n%s</text>
+  </string>
+  <string id="st_dis_text_6">
+    <text>%s%sを修理できなかった</text>
+  </string>
+  <string id="st_dis_text_7">
+    <text>アイテムを分解した: %s%s %s %s%s</text>
+  </string>
+  <string id="st_dis_text_8">
+    <text>アイテムを分解した: %s%s %s %s%s</text>
+  </string>
+  <string id="st_dis_text_9">
+    <text>\n入手した部品: </text>
+  </string>
+  <string id="st_dis_text_10">
+    <text>アイテムの分解に失敗した: %s- %s%s\n何も得られなかった</text>
+  </string>
+  <string id="st_dis_text_11">
+    <text>アイテムを分解した: %s%s %s %s%s</text>
+  </string>
+  <string id="st_awr_dialog_1">
+    <text>作業台を使わせてもらえないか？修理したい物があるんだ。</text>
+  </string>
+  <string id="st_awr_dialog_2">
+    <text>よし･･････ 1,000ルーブルならいいぞ。</text>
+  </string>
+  <string id="st_awr_dialog_3">
+    <text>ほらよ、金だ。</text>
+  </string>
+  <string id="st_awr_dialog_4">
+    <text>いいぜ。俺はちょっと休んでくることにするよ。その間、貸しといてやるが、さっさと済ませてくれよ。今日はまだ終わらせなければならない仕事が山ほどあるからな。</text>
+  </string>
+  <string id="st_awr_dialog_5">
+    <text>持ち合わせがない。</text>
+  </string>
+  <string id="st_awr_dialog_6">
+    <text>わかった。</text>
+  </string>
+  <string id="st_awr_dialog_7">
+    <text>といっても、俺を手伝ってくれるわけじゃないんだろ？だよな！でも、早くしてくれよ。今日はまだ仕事が残っているんだ。</text>
+  </string>
+  <string id="st_awr_sell_dialog_1">
+    <text>予備部品を持ってるんだが、誰か買い取ってくれるやつを知らないか？</text>
+  </string>
+  <string id="st_awr_sell_dialog_2">
+    <text>俺のような技術者は、あらゆる種類のジャンクを保管している。あんたが持ってきた部品を、適正な価格で買い取ってやるぞ。</text>
+  </string>
+  <string id="st_awr_sell_dialog_3">
+    <text>で、見返りは？</text>
+  </string>
+  <string id="st_awr_sell_dialog_4">
+    <text>さて、使える部品の場合、うちじゃあ新品には300ルーブル、使い古しは150で買い取ってる。他のジャンク品なら新しい部品は250、使い古しで125、あー、錆付きみたいなクズは60でいいだろ？こういうのはアンタが思ってるほど使えるわけじゃなくてね。</text>
+  </string>
+  <string id="st_awr_sell_dialog_5">
+    <text>ふむ･･････ そうだな、アンタの言い分もわからなくはない。俺には必要ないものだしな。これがそのブツだ。代金をくれ。</text>
+  </string>
+  <string id="st_awr_sell_dialog_6">
+    <text>ちょっと足元を見すぎじゃないか？考えさせてくれ。</text>
+  </string>
+  <string id="st_awr_sell_dialog_7">
+    <text>アンタと取引できてよかった。もしまた予備部品を見つけたら、うちのところへ来てくれ。</text>
+  </string>
+  <string id="st_awr_sell_dialog_8">
+    <text>ああ、考えておこう。ありがとう。</text>
+  </string>
+  <string id="st_awr_help_0">
+    <text>説明書</text>
+  </string>
+  <string id="st_awr_help_1">
+    <text>修理において、武器の全体的な品質（新品、使い古し、錆付き）と現在の損耗耐久値が影響を及ぼす。さらに、0~65、0~75、0~85という範囲は、武器の品質に合わせて区切られる。錆付き武器の場合: 0~65［%］。使い古し武器の場合: 0~75［%］。新しい武器の場合: 0~85［%］。</text>
+  </string>
+  <string id="st_awr_help_2">
+    <text>修理およびアップグレード手順（0~65、0~75、0~85の耐久値の武器）</text>
+  </string>
+  <string id="st_awr_help_3">
+    <text>1．武器の耐久値が0~20、0~25、0~30のときに、武器の銃身を同じ口径の別の銃身に交換する修理キットを選択するか、20~65、25~75、30~85の耐久値で武器のアップグレードキットを使用するか、リストのセット名をダブルクリックして選択する。
+\n2．リスト内の部品をシングルクリックで選択する。耐久値の悪い武器を修理する際の部品交換は、一定の順序で行われる。
+\n\n0~20、0~25、0~30［%］の耐久値: バレルの交換
+\n20~35、25~45、30~55［%］の耐久値: トリガーの交換（ショックトリガー メカニズム）
+\n35~45、45~60、55~70［%］の耐久値: ブリーチヘッドの交換
+\n45~55、60~70、70~80［%］の耐久値: ガスチューブの交換
+\n55~55、60~70、70~80［%］の耐久値: ブリーチブロックの交換
+
+\n\n3．現在交換している部品の画像をクリックする（交換に選択されている部品のうち、交換が可能なものは緑色のランプで表示される）。1つの部品を交換しようとすると、ベルトセットの料金が1回分消費される。
+
+\n\n4．交換が成功した場合は、指定した順序ですべての部品を交換される。部品が破損した場合は、修理キットとそれ以上の武器部品があれば再度試してみてみる。交換された部品はすべて、武器の耐久値が下がるまで保持される。この場合、品質を向上させるためには、新たに部品を交換する必要がある。5つの部品をすべて交換すると、それに応じた武器の品質に変更される。なお、交換した部品のうち1つでも消耗しているものがあれば、他の部品を新品に交換しても、武器の品質は「使い古し」になる。</text>
+  </string>
+  <string id="st_awr_help_4">
+    <text>武器部品を交換する順番があらかじめ決められているのは、これまでに悪癖で部分的に修理した各武器の交換した部品がすべてゲーム内メモリーに保存されているため、武器の耐久値に合わせて部品を交換する必要があるためである。これにより、修理後に武器の耐久値が下がっていなければ、部品を交換することなく、同じところから修理を続けることができる。</text>
+  </string>
+  <string id="st_awr_help_5">
+    <text>武器のアップグレードは、「錆付き」または「使い古し」品質の武器に対して実行できるが、武器の耐久値が95~100［%］の場合でのみ実行可能だ。</text>
+  </string>
+  <string id="st_awr_help_6">
+    <text>1．リスト内のセット名をダブルクリックして、バレル交換用の修理キットや武器アップグレードキットを選択する。アップグレードの場合、交換の順番は選べない。
+\n2．修理キットに対応する部品をリストの中からシングルクリックで選択する。アップグレード時には、動作する部品のみ使用できる。
+\n3．現在交換している部品の画像をクリックする。
+\n4．交換が成功した場合、この手順は他のすべての武器部品と同じである。
+\n5．部品が破損した場合は、修理キットや他の武器部品があれば再度試してみる。
+\n6．交換された部品は、武器の耐久値が下がるまですべて保持される。この場合、品質を向上させるために、さらに部品の交換が必要になる。
+\n7．5つの部品をすべて新しいものに交換すると、武器の品質が「新品」になる。</text>
+  </string>
+</string_table>

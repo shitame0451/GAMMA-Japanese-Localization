@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+    
+<!--
+Pistols and MP's
+-->
+
+	<string id="st_mag_ppp_1911_357_fmj">
+		<text>Coonan用マガジン（.357）</text>
+	</string>
+	<string id="st_mag_ppp_1911_357_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppp_svi_45">
+		<text>Strayer Voight用マガジン（.45）</text>
+	</string>
+	<string id="st_mag_ppp_svi_45_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppp_px4_9x19_fmj">
+		<text>PX4用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_ppp_px4_9x19_fmj_descr">
+		<text> </text>
+	</string>
+    
+	<string id="st_mag_ppp_px4_45">
+		<text>PX4用マガジン（.45）</text>
+	</string>
+	<string id="st_mag_ppp_px4_45_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppp_sig_9x19_fmj">
+		<text>SIG P229用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_ppp_sig_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppp_signimble_9x19_fmj">
+		<text>SIG P320用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_ppp_signimble_9x19_fmj_descr">
+		<text> </text>
+	</string>
+    
+	<string id="st_mag_ppp_signimble_45_fmj">
+		<text>SIG P320用マガジン（.45）</text>
+	</string>
+	<string id="st_mag_ppp_signimble_45_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppp_mk23_45">
+		<text>Mark 23用マガジン（.45）</text>
+	</string>
+	<string id="st_mag_ppp_mk23_45_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_ppp_colt1911_762x25_fmj">
+		<text>Colt用改造マガジン（7.62x25）</text>
+	</string>
+	<string id="st_ppp_colt1911_762x25_fmj_descr">
+		<text> </text>
+	</string>
+    
+	<string id="st_ppp_sw_45_fmj">
+		<text>S&amp;W用マガジン（.45）</text>
+	</string>
+	<string id="st_ppp_sw_45_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_ppp_sw_919_fmj">
+		<text>S&amp;W用マガジン（9x19）</text>
+	</string>
+	<string id="st_ppp_sw_919_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_ppp_xd9_9x19_fmj">
+		<text>XD9用マガジン（9x19）</text>
+	</string>
+	<string id="st_ppp_xd9_9x19_fmj_descr">
+		<text> </text>
+	</string>
+    
+	<string id="st_ppp_glock_45_fmj">
+		<text>Glock 21用マガジン（.45）</text>
+	</string>
+	<string id="st_ppp_glock_45_fmj_descr">
+		<text> </text>
+	</string>
+
+    
+</string_table>

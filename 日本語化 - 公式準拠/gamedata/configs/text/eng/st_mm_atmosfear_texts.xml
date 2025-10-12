@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_cap_af_weather_options">
+    <text>天気</text>
+  </string>
+  <string id="st_cap_af_event_options">
+    <text>イベント</text>
+  </string>
+  <string id="st_cap_af_moon_options">
+    <text>夜</text>
+  </string>
+  <string id="st_cap_af_default_options">
+    <text>効果</text>
+  </string>
+  <string id="st_cap_af_blowout">
+    <text>光熱放射</text>
+  </string>
+  <string id="st_cap_af_fallout">
+    <text>放射性降下物</text>
+  </string>
+  <string id="st_cap_af_psi_storm">
+    <text>精神波の嵐</text>
+  </string>
+  <string id="st_cap_check_enable_blowout">
+    <text>光熱放射を有効にする</text>
+  </string>
+  <string id="st_cap_check_enable_fallout">
+    <text>放射性降下物を有効にする</text>
+  </string>
+  <string id="st_cap_check_enable_psi_storm">
+    <text>精神波の嵐を有効にする</text>
+  </string>
+  <string id="st_cap_fate">
+    <text>NPCの運命</text>
+  </string>
+  <string id="st_cap_warning">
+    <text>警告</text>
+  </string>
+  <string id="st_cap_task">
+    <text>クエスト</text>
+  </string>
+  <string id="st_cap_freq">
+    <text>頻度</text>
+  </string>
+  <string id="st_list_freq_12">
+    <text>6 ~ 12時間ごと</text>
+  </string>
+  <string id="st_list_freq_24">
+    <text>12 ~ 24時間ごと</text>
+  </string>
+  <string id="st_list_freq_48">
+    <text>1 ~ 2日ごと</text>
+  </string>
+  <string id="st_list_freq_96">
+    <text>2 ~ 4日ごと</text>
+  </string>
+  <string id="st_list_fate_killatend">
+    <text>終了時に死亡</text>
+  </string>
+  <string id="st_list_fate_killatwave">
+    <text>波が進むにつれて死亡</text>
+  </string>
+  <string id="st_list_fate_turntozombie">
+    <text>ゾンビに変身</text>
+  </string>
+  <string id="st_list_fate_explode">
+    <text>バラバラになる</text>
+  </string>
+  <string id="st_list_fate_poison">
+    <text>Rad./chem. 中毒</text>
+  </string>
+  <string id="st_list_fate_none">
+    <text>無傷</text>
+  </string>
+  <string id="st_list_fate_kill">
+    <text>渦巻アノマリーで死亡</text>
+  </string>
+  <string id="st_list_fate_killorturn">
+    <text>ゾンビに変身か死亡</text>
+  </string>
+  <string id="st_list_warning_radio_siren">
+    <text>ラジオとサイレン</text>
+  </string>
+  <string id="st_list_warning_radio">
+    <text>無線</text>
+  </string>
+  <string id="st_list_warning_siren">
+    <text>サイレン</text>
+  </string>
+  <string id="st_list_warning_none">
+    <text>警告なし</text>
+  </string>
+  <string id="st_list_task_give">
+    <text>クエストを与える</text>
+  </string>
+  <string id="st_list_task_none">
+    <text>クエストを与えない</text>
+  </string>
+  <string id="st_cap_moon_phases">
+    <text>月の満ち欠け</text>
+  </string>
+  <string id="st_cap_night_brightness">
+    <text>周囲の夜の明るさ</text>
+  </string>
+  <string id="st_list_night_brightness_dark">
+    <text>暗い夜</text>
+  </string>
+  <string id="st_list_night_brightness_slight">
+    <text>やや明るい夜</text>
+  </string>
+  <string id="st_list_night_brightness_medium">
+    <text>中程に明るい夜</text>
+  </string>
+  <string id="st_list_night_brightness_bright">
+    <text>とても明るい夜</text>
+  </string>
+  <string id="st_cap_weather_presets">
+    <text>プリセット : </text>
+  </string>
+  <string id="st_cap_weather_balance_presets">
+    <text>バランス</text>
+  </string>
+  <string id="st_cap_weather_length_presets">
+    <text>期間</text>
+  </string>
+  <string id="st_period_length_2h">
+    <text>2時間</text>
+  </string>
+  <string id="st_period_length_3h">
+    <text>3時間</text>
+  </string>
+  <string id="st_period_length_4h">
+    <text>4時間</text>
+  </string>
+  <string id="st_period_length_5h">
+    <text>5時間</text>
+  </string>
+  <string id="st_period_length_6h">
+    <text>6時間</text>
+  </string>
+  <string id="st_period_length_7h">
+    <text>7時間</text>
+  </string>
+  <string id="st_period_length_8h">
+    <text>8時間</text>
+  </string>
+  <string id="st_period_length_9h">
+    <text>9時間</text>
+  </string>
+  <string id="st_period_length_10h">
+    <text>10時間</text>
+  </string>
+  <string id="st_period_length_11h">
+    <text>11時間</text>
+  </string>
+  <string id="st_period_length_12h">
+    <text>12時間</text>
+  </string>
+  <string id="st_period_length">
+    <text>周期長</text>
+  </string>
+  <string id="st_cap_moon_cycle_length">
+    <text>月周期の長さ</text>
+  </string>
+  <string id="st_cap_moon_cycle_length_8">
+    <text>2019/01/08 0:00:00</text>
+  </string>
+  <string id="st_cap_moon_cycle_length_28">
+    <text>2019/01/28 0:00:00</text>
+  </string>
+  <string id="st_cap_moon_static">
+    <text>変化なし</text>
+  </string>
+  <string id="st_cap_moon_phase_0">
+    <text>新月</text>
+  </string>
+  <string id="st_cap_moon_phase_1">
+    <text>（新月と上弦の間の）三日月</text>
+  </string>
+  <string id="st_cap_moon_phase_2">
+    <text>上弦の月</text>
+  </string>
+  <string id="st_cap_moon_phase_3">
+    <text>十三夜</text>
+  </string>
+  <string id="st_cap_moon_phase_4">
+    <text>満月</text>
+  </string>
+  <string id="st_cap_moon_phase_5">
+    <text>十八夜</text>
+  </string>
+  <string id="st_cap_moon_phase_6">
+    <text>下弦の月</text>
+  </string>
+  <string id="st_cap_moon_phase_7">
+    <text>二十六夜</text>
+  </string>
+  <string id="st_list_weather_balance_preset_default">
+    <text>様々なバランス</text>
+  </string>
+  <string id="st_list_weather_balance_preset_good">
+    <text>だいたい良い</text>
+  </string>
+  <string id="st_list_weather_balance_preset_bad">
+    <text>ほとんど悪い</text>
+  </string>
+  <string id="st_list_weather_balance_preset_custom">
+    <text>カスタム</text>
+  </string>
+  <string id="st_list_weather_length_preset_default">
+    <text>様々な期間の長さ</text>
+  </string>
+  <string id="st_list_weather_length_preset_short">
+    <text>短い</text>
+  </string>
+  <string id="st_list_weather_length_preset_long">
+    <text>長い</text>
+  </string>
+  <string id="st_list_weather_length_preset_custom">
+    <text>カスタム</text>
+  </string>
+  <string id="st_list_periods_clear">
+    <text>晴れ</text>
+  </string>
+  <string id="st_list_periods_clear_foggy">
+    <text>晴れ/霧</text>
+  </string>
+  <string id="st_list_periods_foggy">
+    <text>霧</text>
+  </string>
+  <string id="st_list_periods_foggy_rainy">
+    <text>霧/雨</text>
+  </string>
+  <string id="st_list_periods_rainy">
+    <text>雨</text>
+  </string>
+  <string id="st_list_periods_stormy">
+    <text>嵐</text>
+  </string>
+  <string id="st_btn_load_color_balance">
+    <text>デフォルトのカラーバランスと明るさの設定を読み込む</text>
+  </string>
+  <string id="st_btn_load_default_settings">
+    <text>デフォルトの天気、イベント、月の設定を復元する</text>
+  </string>
+  <string id="st_msg_after_save">
+    <text>設定は次回のセーブゲームで保存される</text>
+  </string>
+  <string id="st_msg_load_user">
+    <text>デフォルトのコンソールカラーバランスと明るさの設定をロードするか？</text>
+  </string>
+  <string id="st_msg_load_default_settings">
+    <text>デフォルトの天気、イベント、月の設定をロードするか？</text>
+  </string>
+  <string id="st_msg_load_user_done">
+    <text>デフォルトのコンソールカラーバランスと明るさの設定がロードされた</text>
+  </string>
+  <string id="st_msg_load_default_settings_done">
+    <text>デフォルトの天気、イベント、および月の設定が復元された</text>
+  </string>
+  <string id="st_cap_weather_occurrence">
+    <text>発生頻度</text>
+  </string>
+  <string id="st_cap_weather_period">
+    <text>期間</text>
+  </string>
+  <string id="st_occurrence_rare">
+    <text>低い</text>
+  </string>
+  <string id="st_occurrence_zero">
+    <text>発生しない</text>
+  </string>
+  <string id="st_occurrence_regular">
+    <text>定期的</text>
+  </string>
+  <string id="st_wthr_clear">
+    <text>晴れ</text>
+  </string>
+  <string id="st_wthr_partly">
+    <text>晴れ時々曇り</text>
+  </string>
+  <string id="st_wthr_cloudy">
+    <text>曇り</text>
+  </string>
+  <string id="st_wthr_rain">
+    <text>雨</text>
+  </string>
+  <string id="st_wthr_storm">
+    <text>嵐</text>
+  </string>
+  <string id="st_wthr_foggy">
+    <text>霧</text>
+  </string>
+  <string id="st_cap_af_eff_tiny">
+    <text>ダイナミックなダストエフェクト</text>
+  </string>
+  <string id="st_cap_af_eff_fog">
+    <text>ダイナミックな霧エフェクト</text>
+  </string>
+  <string id="st_cap_af_eff_wind">
+    <text>ダイナミックな風の音</text>
+  </string>
+  <string id="st_cap_af_eff_rain">
+    <text>ダイナミックな雨音</text>
+  </string>
+</string_table>

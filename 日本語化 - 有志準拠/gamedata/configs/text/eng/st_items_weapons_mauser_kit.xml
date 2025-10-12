@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_addon_scope_mauser_kit">
+		<text>タクティカルキット</text>
+	</string>
+	<string id="st_addon_scope_mauser_kit_descr">
+		<text>グリップやレール、ストックなどの改良パーツを含む総合アップグレードパッケージ。銃の操作性や安定性を向上させ、戦闘時の総合的な扱いやすさを改善する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]軽量ポリマーストック&amp;レシーバー\n
+		%c[d_cyan] • %c[ui_gray_1]高倍率ズームの可変スコープ\n
+		%c[d_cyan] • %c[ui_gray_1]Elcan SpecterDR DFOV14-C2 サイト\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]Mauser K98\n
+		</text>
+	</string>
+
+</string_table>

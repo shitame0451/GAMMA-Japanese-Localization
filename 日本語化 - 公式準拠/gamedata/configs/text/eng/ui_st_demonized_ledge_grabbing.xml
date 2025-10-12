@@ -1,0 +1,131 @@
+
+<!--
+    Ledge Grabbing
+    Generated with AnomalyModCreator
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	MCM
+-->
+<string_table>
+
+	<string id="ui_mcm_ledge_grabbing_title">
+		<text>Ledge Grabbing</text>
+	</string>
+	<string id="ui_mcm_menu_demonized_ledge_grabbing">
+		<text>Ledge Grabbing</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_enable">
+		<text>有効</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_alternativeClimbDetection">
+		<text>別の方法で段差を検出する</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_alternativeClimbDetection_desc">
+		<text>別の方法では、プレイヤーのクロスヘアに近い位置の段差を検出します。標準的な方法は、事前に指定された高さで段差を検出します。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_playerWidthCheck">
+		<text>プレイヤーの制限チェック</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_playerWidthCheck_desc">
+		<text>有効にすると、プレイヤーが段差にフィットするかどうかを確認するために追加のレイキャストを実行します。登れる段差が限定される可能性があります。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_unstuckCheck">
+		<text>スタックチェック</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_unstuckCheck_desc">
+		<text>有効にすると、よじ登りが正しく行われなかった場合、プレーヤーのスタックを解除しようとするようになります。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_hardcoreMode">
+		<text>ハードコアモード</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_hardcoreMode_desc">
+		<text>有効にすると、よじ登りに追加の制限が加わります: \n1. 重量が90kgを超えている場合はよじ登りができない \n2. プレイヤーの体力が60%以下の場合はよじ登りができない \n3. スタミナ消費量の増加</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_BHSMode">
+		<text>BHSの機能と組み合わせる</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_BHSMode_desc">
+		<text>有効にすると、Body Health Systemでプレイヤーの片腕が使えなくなった場合、よじ登ることができなくなります。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_throttleCheck">
+		<text>よじ登りのチェックの遅延時間</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_throttleCheck_desc">
+		<text>チェック間の時間（ミリ秒）。数字を大きくすると検出の精度は下がりますが、パフォーマンスは向上します。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_climbTriggerDistance">
+		<text>最大距離</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_climbTriggerDistance_desc">
+		<text>よじ登りを実行する最大距離を設定します。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_raySteps">
+		<text>よじ登りの精度</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_raySteps_desc">
+		<text>数字が大きいほど掴む位置と検出の質が良くなりますが、パフォーマンスに少し影響があります。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_jumpTriggerTime">
+		<text>長押しする時間</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_jumpTriggerTime_desc">
+		<text>この時間より長い間キーを押し続けると、よじ登りが発動します。</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_soundVolume">
+		<text>音の大きさ</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_gruntVolume">
+		<text>唸り声の大きさ</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_gruntProbability">
+		<text>唸り声が出る確率</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_staminaDrain">
+		<text>スタミナ消費量</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_inputMethod">
+		<text>入力方法</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_keybind">
+		<text>よじ登り (Ledge Grabbing)</text>
+	</string>
+	<string id="ui_mcm_lst_demonized_ledge_grabbing_inputMethod_jumpHold">
+		<text>長押し</text>
+	</string>
+	<string id="ui_mcm_lst_demonized_ledge_grabbing_inputMethod_buttonPress">
+		<text>単押し</text>
+	</string>
+	<string id="ui_mcm_lst_demonized_ledge_grabbing_inputMethod_both">
+		<text>両方</text>
+	</string>
+
+	<string id="ui_mcm_demonized_ledge_grabbing_animationRandomization">
+		<text>アニメーションのランダム化</text>
+	</string>
+	<string id="ui_mcm_demonized_ledge_grabbing_animationRandomization_desc">
+		<text>カメラの動きをランダムにします。</text>
+	</string>
+
+</string_table>
+                        

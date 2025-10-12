@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_open_adv_ui">
+		<text>詳細メニューを開く</text>
+	</string>
+    <string id="st_freeze">
+		<text>フリーズ</text>
+	</string>
+    <string id="st_unfreeze">
+		<text>フリーズ解除</text>
+	</string>
+    <string id="st_open_connections">
+		<text>接続を管理</text>
+	</string>
+
+    <string id="st_not_implemented">
+		<text>実装予定</text>
+	</string>
+</string_table>

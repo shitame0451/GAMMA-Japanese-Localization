@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+  <string id="st_cash_name">
+    <text>財布</text>
+  </string>
+  <string id="st_cash_descr">
+    <text>%c[pda_white]使い古された革の財布だ。紙幣を入れるのに使う。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣の保管\n
+		</text>
+	</string>
+
+  <string id="st_roubles">
+    <text>ルーブル紙幣</text>
+  </string>
+  <string id="st_roubles_descr">
+    <text>ゾーンでの取引は安全上の理由から主に電子取引によって行われているが、ストーカーたちの多くは小物を買うときのために、少なくとも数ルーブルをポケットに忍ばせている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣\n
+		</text>
+	</string>
+  <string id="st_roubles_5000_name">
+    <text>5,000ルーブル</text>
+  </string>
+  <string id="st_roubles_5000_descr">
+    <text>ゾーンでの取引は安全上の理由から主に電子取引によって行われているが、ストーカーたちの多くは小物を買うときのために、少なくとも数ルーブルをポケットに忍ばせている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣\n
+		</text>
+  </string>
+  <string id="st_roubles_1000_name">
+    <text>1,000ルーブル</text>
+  </string>
+  <string id="st_roubles_1000_descr">
+    <text>ゾーンでの取引は安全上の理由から主に電子取引によって行われているが、ストーカーたちの多くは小物を買うときのために、少なくとも数ルーブルをポケットに忍ばせている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣\n
+ </text>
+  </string>
+  <string id="st_roubles_500_name">
+    <text>500ルーブル</text>
+  </string>
+  <string id="st_roubles_500_descr">
+    <text>ゾーンでの取引は安全上の理由から主に電子取引によって行われているが、ストーカーたちの多くは小物を買うときのために、少なくとも数ルーブルをポケットに忍ばせている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣\n
+ </text>
+  </string>
+  <string id="st_roubles_100_name">
+    <text>100ルーブル</text>
+  </string>
+  <string id="st_roubles_100_descr">
+    <text>ゾーンでの取引は安全上の理由から主に電子取引によって行われているが、ストーカーたちの多くは小物を買うときのために、少なくとも数ルーブルをポケットに忍ばせている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣\n
+ </text>
+  </string>
+  <string id="st_roubles_50_name">
+    <text>50ルーブル</text>
+  </string>
+  <string id="st_roubles_50_descr">
+    <text>ゾーンでの取引は安全上の理由から主に電子取引によって行われているが、ストーカーたちの多くは小物を買うときのために、少なくとも数ルーブルをポケットに忍ばせている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣\n
+ </text>
+  </string>
+  <string id="st_roubles_10_name">
+    <text>10ルーブル</text>
+  </string>
+  <string id="st_roubles_10_descr">
+    <text>ゾーンでの取引は安全上の理由から主に電子取引によって行われているが、ストーカーたちの多くは小物を買うときのために、少なくとも数ルーブルをポケットに忍ばせている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]紙幣\n
+ </text>
+  </string>
+</string_table>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="ui_inv_outfit_speed">
+		<text>%c[pda_white]移動速度倍率:</text>
+	</string>
+
+<!--
+	MCM
+-->
+
+	<string id="ui_mcm_menu_speed">
+		<text>Speed</text>
+	</string>
+	<string id="ui_mcm_menu_speed_title">
+		<text>スーツ/武器の移動速度への影響度</text>
+	</string>
+	<string id="ui_mcm_speed_title">
+		<text>スーツ/武器の移動速度への影響度</text>
+	</string>
+	<string id="ui_mcm_speed_encumbrance">
+		<text>所持重量は移動速度に影響する</text>
+	</string>
+	<string id="ui_mcm_speed_encumbrance_desc">
+		<text>この機能は、所持重量が軽い時（総負荷量の25%未満）にはボーナスを、重い時（総負荷量の70%以上）にはペナルティを与えます。\nこのオプションを有効にすると、軽装時に非現実的な速度で移動することになりますのでご注意ください。</text>
+	</string>
+	<string id="ui_mcm_speed_weapon">
+		<text>武器が走る速度に影響を与える</text>
+	</string>
+	<string id="ui_mcm_speed_weapon_desc">
+		<text>有効にすると、武器の種類と重量に応じて、走る速度に補正がかかります。</text>
+	</string>
+	<string id="ui_mcm_speed_debug">
+		<text>(開発者向け) 追加コンソールログ</text>
+	</string>
+	<string id="ui_mcm_speed_debug_desc">
+		<text>デバッグに使えるログを出力します。</text>
+	</string>
+
+</string_table>

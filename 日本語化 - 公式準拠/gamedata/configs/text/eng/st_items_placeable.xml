@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	PROPS
+-->
+
+	<string id="st_placeable_light_altar">
+		<text>小型のプサイライト</text>
+	</string>
+	<string id="st_placeable_light_altar_descr">
+		<text>正体も目的も分かっていない謎の物体。当初、この奇妙な物体は致死性のプサイ波を放ち、北部地域へと踏み込んだ多くのストーカーたちを死に至らしめた。この個体はサハロフ教授の手によって改造され、«ムーンライト»の力を利用し、今では尽きることのない光源として使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]ガウスバッテリー\n
+		</text>
+	</string>
+	<string id="st_placeable_gas_lamp">
+		<text>ガス灯</text>
+	</string>
+	<string id="st_placeable_gas_lamp_descr">
+		<text>灯油を染み込ませた芯に火をつけ、明かりを灯すことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]燃料: %c[ui_gray_1]灯油\n
+		</text>
+	</string>
+
+	<string id="st_placeable_metal_torch">
+		<text>金属製の懐中電灯</text>
+	</string>
+	<string id="st_placeable_metal_torch_descr">
+		<text>ソ連時代の携行型懐中電灯。このモデルは現地で組み立てることができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_cyan] • %c[pda_white]電源: %c[ui_gray_1]バッテリー\n
+		</text>
+	</string>
+
+	<string id="st_placeable_radio">
+		<text>ラジオ</text>
+	</string>
+	<string id="st_placeable_radio_descr">
+		<text>正常に動作するラジオ。ゾーン各地の基地で流れているものと同じ信号を受信できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+
+<!--
+	FUNCTIONAL PROPS
+-->
+
+	<string id="st_placeable_exo_kit">
+		<text>空のエクソスケルトン補修キット</text>
+	</string>
+	<string id="st_placeable_exo_kit_descr">
+		<text>使える物は入っていないが、収納用として使うには容量もサイズも十分なケース。\n \n
+			%c[pda_white]特性:\n
+			%c[d_orange] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+
+	<string id="st_placeable_case">
+		<text>ガンケース</text>
+	</string>
+	<string id="st_placeable_case_descr">
+		<text>何も入っていないガンケース。普通のバックパックより収納スペースは広いが、その分重量がある。\n \n
+			%c[pda_white]特性:\n
+			%c[d_orange] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+
+	<string id="st_placeable_blue_box">
+		<text>金属製の箱</text>
+	</string>
+	<string id="st_placeable_blue_box_descr">
+		<text>物をしまうための頑丈な金属製の大型ボックス。他の収納よりも多くの物を入れられるが、かなり重いため持ち運びには向いていない。\n \n
+			%c[pda_white]特性:\n
+			%c[d_orange] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+
+	<string id="st_placeable_piano">
+		<text>キーボード</text>
+	</string>
+	<string id="st_placeable_piano_descr">
+		<text>ゾーンではあまり見かけない豪華な楽器。ミュータントや敵対するストーカーから身を守ることはできないが、ゾーンの脅威の中で少しだけリラックスできる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]演奏できる\n
+		</text>
+	</string>
+
+	<string id="st_placeable_workshop">
+		<text>携帯型ワークショップ</text>
+	</string>
+	<string id="st_placeable_workshop_descr">
+		<text>作業台、ツール、スタッシュがセットになった設備。危険な場所でも装備のメンテナンスやクラフトを行えるが、重量があるため持ち運びには向いていない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]アイテム保管用\n
+		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]装備の修理\n
+		</text>
+	</string>
+
+	<string id="st_placeable_sumka6">
+		<text>小型バックパック</text>
+	</string>
+	<string id="st_placeable_sumka6_descr">
+		<text>小さな布を縫い合わせて作った簡単な袋。緊急時に物を隠せるスタッシュとして使える。\n \n
+			%c[pda_white]特性:\n
+			%c[d_orange] • %c[pda_white]アイテム保管用\n
+			%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n
+			%c[d_orange] • %c[pda_white]設置できる\n
+		</text>
+	</string>
+
+<!--
+	UI
+-->
+
+    <string id="st_place_furniture">
+		<text>設置する</text>
+	</string>
+
+</string_table>

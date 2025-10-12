@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="ui_mcm_menu_remember_outfit_belt">
+		<text>Remember Outfit Belt</text>
+	</string>
+
+	<string id="ui_mcm_remember_outfit_belt_title">
+		<text>Remember Outfit Belt</text>
+	</string>
+
+	<string id="ui_mcm_remember_outfit_belt_title_desc">
+		<text>装備中のベルトアタッチメントをスーツごとに記憶し、スーツを再び着用した時に自動で装備します。</text>
+	</string>
+
+	<string id="ui_mcm_remember_outfit_belt_memory_limit">
+		<text>記憶上限</text>
+	</string>
+	<string id="ui_mcm_remember_outfit_belt_memory_limit_desc">
+		<text>ベルトアタッチメントの構成を記憶するスーツの最大数を調整します。\nこの数を超えると、最後に着用した日時が最も古いスーツのベルトアタッチメント構成が削除されます。</text>
+	</string>
+
+</string_table>

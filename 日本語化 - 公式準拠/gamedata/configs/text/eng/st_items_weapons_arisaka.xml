@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_arisaka">
+		<text>三八式歩兵銃</text>
+	</string>
+	<string id="st_wpn_arisaka_descr">
+		<text>優れた耐久性、滑らかな作動、長距離での高い命中精度を誇るボルトアクションライフル。軍用として開発されたこの銃は、強化された頑丈なレシーバーと長い銃身を備え、優れた弾道性能を実現している。その古い設計にもかかわらず、高い信頼性と優れた職人技は今もコレクターや歴史愛好家に人気のある銃となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]大日本帝国\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]大日本帝国\n
+		</text>
+	</string>
+	
+	<string id="st_up_add_arisaka_name">
+		<text>7.92x57mm弾用に改造</text>
+	</string>
+	
+</string_table>

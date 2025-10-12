@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="mag_kriss45">
+		<text>KRISS Vector用マガジン（.45ACP）</text>
+	</string>
+	<string id="mag_kriss45_descr">
+		<text> </text>
+	</string>
+	
+	<string id="mag_kriss9">
+		<text>KRISS Vector用マガジン（9x19）</text>
+	</string>
+	<string id="mag_kriss9_descr">
+		<text> </text>
+	</string>
+
+	<string id="ext_mag_kriss_drum">
+		<text>KRISS Vector用拡張マガジン（.45ACP）</text>
+	</string>
+	<string id="ext_mag_kriss_drum_descr">
+		<text> </text>
+	</string>
+
+	<string id="ext_mag_kriss9_drum">
+		<text>KRISS Vector用拡張マガジン（9x19）</text>
+	</string>
+	<string id="ext_mag_kriss9_drum_descr">
+		<text> </text>
+	</string>
+
+</string_table>

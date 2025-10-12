@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+   <string id="st_placeable_wall02">
+		<text>木製の壁</text>
+	</string>
+	<string id="st_placeable_wall02_descr">
+		<text>木の板で作られた小さな壁。サイズはおよそ2x3メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]部屋の増設\n
+		</text>
+	</string>
+
+   <string id="st_placeable_wall">
+		<text>木製の壁</text>
+	</string>
+	<string id="st_placeable_wall_descr">
+		<text>木の板で作られた大きな壁。サイズはおよそ5x3メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]部屋の増設\n 
+		</text>
+	</string>
+
+   <string id="st_placeable_wall_doorway">
+		<text>木製の壁（ドア枠付き）</text>
+	</string>
+	<string id="st_placeable_wall_doorway_descr">
+		<text>木の壁にドアを取り付けるための枠が空いている。サイズはおよそ5x3メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]対応しているドアのサイズ: %c[ui_gray_1]1x1.9メートル\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]部屋の増設\n
+		</text>
+	</string>
+
+   <string id="st_placeable_wall02_metal">
+		<text>金属板の壁</text>
+	</string>
+	<string id="st_placeable_wall02_metal_descr">
+		<text>頑丈な金属板で作られた壁。サイズはおよそ2x3メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]部屋の増設\n
+		</text>
+	</string>
+
+   <string id="st_placeable_wall_metal">
+		<text>金属板の壁</text>
+	</string>
+	<string id="st_placeable_wall_metal_descr">
+		<text>トタン屋根材で作られた大きな壁。サイズはおよそ5x3メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]部屋の増設\n
+		</text>
+	</string>
+
+   <string id="st_placeable_wall_doorway_metal">
+		<text>金属板の壁（ドア枠付き）</text>
+	</string>
+	<string id="st_placeable_wall_doorway_metal_descr">
+		<text>トタン屋根材で作られた大きな壁で、ドアを取り付けるための枠が空いている。サイズはおよそ5x3メートル。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]設置できる\n
+		%c[d_orange] • %c[pda_white]対応しているドアのサイズ: %c[ui_gray_1]1x1.9メートル\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]部屋の増設\n
+		</text>
+	</string>
+
+</string_table>

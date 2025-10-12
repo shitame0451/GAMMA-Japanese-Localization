@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_pba_sacrifice">
+		<text>生贄に捧げる</text>
+	</string>
+
+	<string id="st_pba_transmutate">
+		<text>変性する</text>
+	</string>
+
+	<string id="st_af_lucifer_name">
+		<text>«ルシフェル»</text>
+	</string>
+
+	<string id="st_af_lucifer_descr">
+		<text>ゾーンと契約を交わし、生命力と引き換えに驚異的な能力を授かった。死を遠ざけるためには、ゾーンの財宝を生贄として捧げなければならない。生贄の価値が高ければ高いほど、より大きな恩恵を受けることができる。«ルシフェル»を身に着ければ、圧倒的な力を得て、まるで半神のごとき存在となるだろう。しかし忘れてはならない･･････ 時間は刻々と過ぎていく。\n \n
+			%c[pda_white]特殊能力: %c[d_orange]ルシフェルの恩恵\n
+			%c[pda_white] • %c[pda_white]耐久値が100% - 51%のとき:\n
+			%c[d_green] %c[d_green] - %c[pda_white]ダメージ軽減: %c[ui_gray_1]15%\n
+			%c[d_green] %c[d_green] - %c[pda_white]移動速度上昇: %c[ui_gray_1]35%\n
+			%c[d_green] %c[d_green] - %c[pda_white]体力回復: %c[ui_gray_1]1%/秒\n
+			%c[d_green] %c[d_green] - %c[pda_white]プサイ回復: %c[ui_gray_1]3%/秒\n
+			%c[d_green] %c[d_green] - %c[pda_white]最大重量: %c[ui_gray_1]+50kg\n
+			%c[pda_white] • %c[pda_white]耐久値が50% - 40%のとき:\n
+			%c[ui_red] %c[ui_red] - %c[pda_white]すべてのバフがなくなる\n
+			%c[ui_red] %c[ui_red] - %c[pda_white]スタミナが減っていく\n
+			%c[pda_white] • %c[pda_white]耐久値が39% - 0%のとき:\n
+			%c[ui_red] %c[ui_red] - %c[pda_white]すべてのバフがなくなる\n
+			%c[ui_red] %c[ui_red] - %c[pda_white]体力とスタミナが減っていく\n \n
+			%c[pda_white] • %c[pda_white]捧げるアーティファクトの効果\n
+			%c[d_cyan] %c[d_cyan] - %c[pda_white]ティア1アーティファクト: %c[ui_gray_1]3%-5%\n
+			%c[d_cyan] %c[d_cyan] - %c[pda_white]ティア2アーティファクト: %c[ui_gray_1]6%-9%\n
+			%c[d_cyan] %c[d_cyan] - %c[pda_white]ティア3アーティファクト: %c[ui_gray_1]10%-13%\n
+			%c[d_cyan] %c[d_cyan] - %c[pda_white]«ノット»: %c[ui_gray_1]20%-30%\n
+			%c[d_cyan] %c[d_cyan] - %c[pda_white]«デスランプ»: %c[ui_gray_1]アーティファクトを+100%オーバーチャージする\n
+			%c[d_cyan] %c[d_cyan] - %c[pda_white]«セラフィム»: %c[ui_gray_1]生贄にできない\n \n
+			%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]このアーティファクトはインベントリに存在するだけで効果を発揮する\n \n
+			%c[ui_red]ルシフェルはいかなる方法でも処分することができない\n
+		</text>
+	</string>
+
+</string_table>

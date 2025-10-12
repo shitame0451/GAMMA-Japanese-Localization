@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!-- Sergeant Spooner (Military Trader) -->
+	<string id="guid_agr_mlr_military_0">
+		<text>移動を手配できるか？乗せていってもらいたい場所があるんだ。</text>
+	</string>
+	<string id="guid_agr_mlr_military_1">
+		<text>ああ、コルドンとヤンターなら連れて行けるぜ･･････ いや、ちょっと待て、お前は誰だ？
+\n輸送はやってるが、お前みたいな凡人の兵士を乗せることはできねえな。
+\nほら、あっちへ行きやがれ。シッ！シッ！</text>
+	</string>
+	<string id="guid_agr_mlr_military_list_0">
+		<text>どこまで乗せていってくれるんだ？</text>
+	</string>
+	<string id="guid_agr_mlr_military_list_1">
+		<text>5,000ルーブルでコルドンの検問所、7,000ルーブルならヤンターの基地だ。</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_0">
+		<text>パイロットが必要だ。</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_1">
+		<text>よし、次の便はもうすぐ出るぜ。どこへ行きたい？</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_2">
+		<text>コルドンの検問所へ。%c[d_orange] [5,000ルーブル]</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_3">
+		<text>ヤンターの基地へ。%c[d_orange] [7,000ルーブル]</text>
+	</string>
+	<string id="guid_agr_mlr_military_vert_4">
+		<text>気が変わった。</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_army_0">
+		<text>ヘリの残骸からフライトレコーダーを見つけた。</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_army_1">
+		<text>いいぞ！よくやってくれた、兵士よ。</text>
+	</string>
+
+	
+<!-- Military - Medic -->
+	<string id="rogovets_about_himself_1_6_army_mlr_0">
+		<text>あんたの事を教えてくれ。</text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_1">
+		<text>俺はこの基地に配属された衛生兵だ。数年前に、ある契約でゾーンに来ることになった。
+\n度重なる訓練を経て、名誉ある「フェアウェイ作戦」に参加したが･･････ 肝心の作戦は
+\n失敗に終わった。生き残った俺たちは、プリピャチでただ身を潜めるしかなかった。
+\nウクライナ保安庁から調査員が送られてきて、俺たちはようやく避難できたんだ。
+
+\n\nあそこから抜け出せてほっとしたよ。あの呪われた街では、妙な出来事が絶えず起きる。
+\n一番不可解だったのは、目を覚ましたら冷蔵庫の中に閉じ込められていたことだ。
+\nどうやってそこに入ったのか、直前まで何をしていたのか、今でもまったく思い出せない。
+\n仲間には散々笑われたが･･････ あの汗まみれの感覚、息苦しさ、目の前が霞むあの感じは、
+\n今でも鮮明に覚えている。しばらくして、あいつらが「ただの噂話」だと言っていた
+\nコントローラーと遭遇し始めてからは、誰もこの話を笑わなくなったがな。</text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_2">
+		<text>それからはどうした？なぜ軍を辞めなかったんだ？</text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_3">
+		<text>ああ、しばらくは辞めていたさ。というより、裏方に回ることにしたんだ。
+\nフェアウェイ作戦の失敗を理由に指揮官が更迭されたとき、俺も嫌気が差してな。
+\n早く戦場を離れて医療の道に進もうと思った。でも、兵士の治療ってのは特別なんだよ。
+\n俺が現場に戻らなかったら、あいつらを見捨てたことになるような気がしたのさ。
+\n前線の兵士には何の責任もないんだが、問題はあの将官どもが･･････ ゴホン。
+
+\n\nまあ、何が言いたいかというと･･････
+\nクズネツォフ大佐のやり方は、俺の元上官だったコヴァルスキー大佐とは違うってことだ。
+\nそれでも、今こうして兵士たちを支援できてるなら、俺はそれで満足だ。
+\nウクライナ保安庁のデグチャレフ大佐には、もっと前線で指揮を執ってもらいたいが･･････
+\nゾーンのどこかで活動してるだけでも十分心強いけどな。彼には何度も命を救われたよ。</text>
+	</string>
+	<string id="rogovets_about_himself_1_6_army_mlr_4">
+		<text>わかった。話してくれてありがとう。そろそろ任務に戻るよ。</text>
+	</string>
+	<string id="rogovets_hello_1_6_army_mlr_0">
+		<text>ん？ああ、お前か･･････</text>
+	</string>
+	
+	
+<!-- Commander, barman in Agroprom -->
+	<string id="barmen_about_himself_1_6_army_mlr_0">
+		<text>あんたは何者だ？</text>
+	</string>
+	<string id="barmen_about_himself_1_6_army_mlr_1">
+		<text>そうだな、俺はこの基地のバーテンダー･･････ いや、物資管理人とでも言うべきか。
+\n好きな方で呼んでくれ。ここの兵士たちには「コマンダー」って呼ばれてるがな。
+\nゾーンに初めて来たのは1986年、チョルノービリ事故に対処する除染作業員としてだ。
+\n俺はここの出身じゃないが、ソ連が崩壊した後も、契約でゾーンに残ることにした。
+\nまあ、それなりに場数は踏んできたってわけさ。</text>
+	</string>
+	<string id="barmen_about_himself_1_6_army_mlr_2">
+		<text>その事故の除染作業はどんな感じだったんだ？</text>
+	</string>
+	<string id="barmen_about_himself_1_6_army_mlr_3">
+		<text>あの頃の俺はまだ若くてな･･････ 徴兵されたばかりの兵士さ。
+\n今みたいな五十路のオヤジじゃない。分かるだろ？俺は運がよかった方でな。
+\nそこでの仕事は誰もいなくなった村の塵を水で洗い流し、土を掘り返すことくらいだった。
+\n放射線量を測るのは指揮官で、俺は指示通りに掃除するだけさ。
+\nだが、原発の近くで作業してた連中にとっては地獄だったろうな。想像してみろよ。
+\n放射線のせいで機械すらまともに動かないんだ、人間が耐えられるはずがない。
+
+\n\nあの作業員たちは、屋根に積もった黒鉛をシャベルで掻き落としていた。
+\nそれが「国家のため」だったからな─今となっちゃ、その意味もわからんが。
+\n昔は、放射線ってのは妙なもんだと思ってたよ。人々を死に追いやる一方で、
+\n特定の人物は見逃したりする。刑務所送りになって生き延びたディアトロフのようにな。
+\nしかし、2006年からここで起きていることに比べたら･･････ 放射線なんて些細な問題だ。
+\n今じゃ、もっと奇妙なことがそこら中で起きてるからな。</text>
+	</string>
+</string_table>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <!-- SERIOUS: If anybody wants to edit this please make sure that you save it in `windows-1251` encoding. Otherwise the dots for card 5 get fcked up.-->
+
+    <!-- MCM -->
+    <!-- Name of the toggle that sets if tutorial has been completed-->
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_armor">
+        <text>スーツの修理のチュートリアル</text>
+    </string>
+    <!-- MCM -->
+
+    <!-- Title of the whole tutorial -->
+    <string id="ui_mcm_npe_module_gamma_tutorial_repair_armor_title">
+        <text>スーツの修理とメンテナンス</text>
+    </string>
+
+    <!-- Cards -->
+    <!-- 1 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_01_title">
+        <text>スーツの修理</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_01_description">
+        <text>初めてスーツを回収したようだ。おめでとう。
+\nだが、使えるとは限らない。ここではスーツの修理方法を紹介する。
+
+\n\n• カーソルを合わせて左Ctrlを押すと、スーツ本来の性能を確認できる
+\n「耐久値が100%の時」の性能から、修理する価値を見極められる。
+
+\n\n• 耐久値が50%未満のスーツを修理する方法
+\n%c[242,53,227,255]スーツ修理キット%c[ui_white]を用いて、作業台で%c[yellow]良好な状態の部品%c[ui_white]と交換する。
+\nまずは%c[d_orange]ツールキット%c[ui_white]を入手しなければ、%c[242,53,227,255]スーツ修理キット%c[ui_white]を使用できない。
+
+\n\n• 耐久値が65%以上のスーツを修理する方法
+\n%c[d_blue]メンテナンスキット%c[ui_white]（裁縫キットや接着剤など）を使用する。
+\n修理の際、%c[pda_green]補助材料%c[ui_white]を使うことで回復効果を高められる。
+
+\n\n• ヘルメットの修理やメンテナンスも同様の手順で行える</text>
+    </string>
+    <!-- 1 -->
+
+    <!-- 2 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_02_title">
+        <text>耐久値50%未満のスーツの修理</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_02_description">
+        <text>%c[242,53,227,255]スーツ修理キット%c[ui_white]を使用して作業台で%c[yellow]スーツの部品%c[ui_white]を交換できる。
+\n修理後の耐久値は、すべての部品の平均値に基づいて決まる。
+\n部品を交換するだけなら%c[242,53,227,255]スーツ修理キット%c[ui_white]の使用回数は消費されない。
+
+\n\n• 各スーツにはアイコンに表示される「スーツクラス」がある
+\nそれぞれに対応する修理キットが存在する: 軽量・中量・重量・エグゾスーツ。
+
+\n\n• %c[d_orange]ツールキット%c[ui_white]と%c[242,53,227,255]スーツ修理キット%c[ui_white]の対応関係は以下の通り:
+\n| - ベーシックツール > スーツ修理キット（軽装）
+\n| - アドバンスドツール > スーツ修理キット（中装／重装）
+\n| - エキスパートツール > スーツ修理キット（重装／強化外骨格）
+\n（※エグゾスーツ用の修理キットを作るには特殊なレシピが必要）
+
+\n\n• %c[d_orange]ツールキット%c[ui_white]の入手方法
+\nタスク達成時に報酬として入手できるイエロースタッシュから入手可能。
+
+\n\n• スーツの耐久値が50%以上の場合
+\n%c[d_blue]メンテナンスキット%c[ui_white]と同じ方法で修理できる（後に解説）。
+\nこの方法で修理した場合は%c[242,53,227,255]修理キット%c[ui_white]の使用回数を1つ消費する。</text>
+		
+    </string>
+    <!-- 2 -->
+    
+    <!-- 3 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_03_title">
+        <text>スーツ部品の修理</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_03_description">
+        <text>• インベントリ画面で修理できる
+\n%c[yellow]スーツ部品%c[ui_white]はインベントリ内の様々な修理アイテムを使って修理できる。
+\n部品を右クリックして詳細を見れば、どのアイテムで修理できるかが分かる。
+
+\n\n• %c[yellow]スーツ部品%c[ui_white]にカーソルを合わせると、修理アイテムがハイライトされる
+
+\n\n• %c[yellow]スーツ部品%c[ui_white]を修理する方法
+\n対応する修理アイテムを右クリックして「使用」を選択。
+\nその後、%c[yellow]スーツ部品%c[ui_white]の修理画面で作業を行う。
+
+\n\n• 耐久値が50%未満の%c[yellow]スーツ部品%c[ui_white]は修理できない
+\n技術者に売ることはできる。大金にはならないが、小銭稼ぎにはなる。</text>
+    </string>
+    <!-- 3 -->
+
+    <!-- 4 -->
+    <string id="ui_gamma_tutorial_repair_armor_card_04_title">
+        <text>耐久値65%以上のスーツの修理</text>
+    </string>
+
+    <string id="ui_gamma_tutorial_repair_armor_card_04_description">
+        <text>%c[ui_white]• %c[d_blue]メンテナンスキット%c[ui_white]
+\nスーツの耐久値を回復させるために使用する。
+\nこれらのキットは、各地の技術者から簡単に購入できる。
+\n%c[d_blue]メンテナンスキット%c[ui_white]には裁縫キットや接着剤が含まれる。
+
+\n\n• 修理に%c[pda_green]補助材料%c[ui_white]を使用する
+\n%c[d_blue]メンテナンスキット%c[ui_white]と併用すれば、耐久値の回復量を高めることができる。
+
+\n\n• %c[pda_green]補助材料%c[ui_white]の効果量
+\n%c[d_blue]メンテナンスキット%c[ui_white]を右クリックし、「詳細」を見ることで確認できる。
+
+\n\n%c[yellow]この画面はMod設定メニュー &gt; NPE Modulesから再表示を切り替えできる。
+			  </text>
+    </string>
+    <!-- 4 -->
+    <!-- Cards -->
+</string_table>

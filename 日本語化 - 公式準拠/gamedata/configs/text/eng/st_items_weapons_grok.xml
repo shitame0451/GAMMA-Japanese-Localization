@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="st_wpn_raptr">
+		<text>RAPTR</text>
+	</string>
+	<string id="st_wpn_raptr_descr">
+		<text>未来的な外観を持つマガジン給弾式のショットガンで、素早い戦闘やあらゆる戦闘状況に対応できるよう設計されている。高い連射速度、大容量マガジン、優れた操作性、軽量フレームにより、近接戦はもちろん中距離の銃撃戦でも圧倒的な強さを発揮する。ゾーンで入手できる12x70mm口径の武器としては最高級の品だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ウクライナ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TriStar Arms\n
+		</text>
+	</string>
+	<string id="mag_raptr">
+		<text>RAPTR用ドラムマガジン（12ゲージ）</text>
+	</string>
+	<string id="mag_raptr_descr">
+		<text> </text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,23 @@
+<string_table>
+	<string id="st_wpn_guns_groza">
+		<text>OTs-14 Groza</text>
+	</string>
+	<string id="st_wpn_groza_guns_descr">
+		<text>Groza（ロシア語で「雷」を意味する）は、特殊部隊向けに設計されたコンパクトなブルパップ式アサルトライフル。サプレッサーやグレネードランチャーなどの各種アタッチメントを装着できるモジュラーシステムを採用しており、優れたバランスと反動制御を実現している。特に接近戦において高い機動力を発揮し、市街戦やジャングル戦などの特殊作戦で活用されている。\n \n
+		%c[pda_white] 特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsKIB SOO\n
+		</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble">
+		<text>OTs-14 Groza «Storm»</text>
+	</string>
+	<string id="st_wpn_groza_guns_nimble_descr">
+		<text>Groza（ロシア語で「雷」を意味する）は、特殊部隊向けに設計されたコンパクトなブルパップ式アサルトライフル。サプレッサーやグレネードランチャーなどの各種アタッチメントを装着できるモジュラーシステムを採用しており、優れたバランスと反動制御を実現している。特に接近戦において高い機動力を発揮し、市街戦やジャングル戦などの特殊作戦で活用されている。
+		\n«Storm»は試作型のGroza-1を大幅に改造したモデルで、大容量マガジンを備えている。これは、Dutyのベテラン隊員なら誰もが憧れる銃であり、組織の中でも限られた者だけが手にすることを許されている。\n \n
+		%c[pda_white] 特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]TsKIB SOO\n
+		</text>
+	</string>
+</string_table>

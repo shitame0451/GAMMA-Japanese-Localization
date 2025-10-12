@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_af_surge_name">
+		<text>サージ抑制装置</text>
+	</string>
+	<string id="st_af_surge_descr">
+		<text>周囲の電気エネルギーを吸収し、使用者を電撃から守る高度な装置。電流を完全に遮断、または地面へ逃がすことで、身体に流れ込む電圧を大幅に低減する。これにより、通常なら致命傷となる電撃を受けても生存できる可能性が高まる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_surge_up_name">
+		<text>改良型サージ再生装置</text>
+	</string>
+	<string id="st_af_surge_up_descr">
+		<text>周囲の電気エネルギーを吸収し、使用者を電撃から守る高度な装置。電流を完全に遮断、または地面へ逃がすことで、身体に流れ込む電圧を大幅に低減する。これにより、通常なら致命傷となる電撃を受けても生存できる可能性が高まる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_frames_name">
+		<text>アルミフレーム</text>
+	</string>
+	<string id="st_af_frames_descr">
+		<text>バックパックの運搬能力を最適化させるアルミフレーム。軽量なアルミ製のフレームを採用し、外部には一部プラスチックを使用することで、走行時の動きを妨げない柔軟性を確保している。快適な装着感を実現するため、ウェビングストラップによる調整も可能になっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_frames_up_name">
+		<text>改良型アルミフレーム</text>
+	</string>
+	<string id="st_af_frames_up_descr">
+		<text>バックパックの運搬能力を最適化させるアルミフレーム。軽量なアルミ製のフレームを採用し、外部には一部プラスチックを使用することで、走行時の動きを妨げない柔軟性を確保している。快適な装着感を実現するため、ウェビングストラップによる調整も可能になっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_grid_name">
+		<text>チタングリッド</text>
+	</string>
+	<string id="st_af_grid_descr">
+		<text>バックパックの運搬能力を最適化させるチタンフレーム。軽量かつ耐久性のあるチタン製のフレームを採用し、外部には一部プラスチックを使用することで、走行時の動きを妨げない柔軟性を確保している。快適な装着感を実現するため、ウェビングストラップによる調整も可能になっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_grid_up_name">
+		<text>改良型チタングリッド</text>
+	</string>
+	<string id="st_af_grid_up_descr">
+		<text>バックパックの運搬能力を最適化させるチタンフレーム。軽量かつ耐久性のあるチタン製のフレームを採用し、外部には一部プラスチックを使用することで、走行時の動きを妨げない柔軟性を確保している。快適な装着感を実現するため、ウェビングストラップによる調整も可能になっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_freon_name">
+		<text>フロン発生器</text>
+	</string>
+	<string id="st_af_freon_descr">
+		<text>周囲の熱を吸収し、体温を24℃に保つ装置。フロンで冷却された空気粒子の層を身体の周囲に形成し、真空を作り出すことで余分な熱を吸収する。極度の高温環境下での影響を最小限に抑えられるため、追加の防護が求められる状況において非常に効果的。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_freon_up_name">
+		<text>改良型フロン発生器</text>
+	</string>
+	<string id="st_af_freon_up_descr">
+		<text>周囲の熱を吸収し、体温を20℃に保つ装置。フロンで冷却された空気粒子の層を身体の周囲に形成し、真空を作り出すことで余分な熱を吸収する。極度の高温環境下での影響を最小限に抑えられるため、追加の防護が求められる状況において非常に効果的。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_cooler_name">
+		<text>ボディクーラー</text>
+	</string>
+	<string id="st_af_cooler_descr">
+		<text>周囲の熱を吸収し、体温を18℃に保つ装置。高速の電気インパルスを放出し、真空を作り出すことで余分な熱を吸収する。極度の高温環境下での影響を最小限に抑えられるため、追加の防護が求められる状況において非常に効果的。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_cooler_up_name">
+		<text>改良型ボディクーラー</text>
+	</string>
+	<string id="st_af_cooler_up_descr">
+		<text>周囲の熱を吸収し、体温を14℃に保つ装置。高速の電気インパルスを放出し、真空を作り出すことで余分な熱を吸収する。極度の高温環境下での影響を最小限に抑えられるため、追加の防護が求められる状況において非常に効果的。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_kevlar_name">
+		<text>ケブラープレート</text>
+	</string>
+	<string id="st_af_kevlar_descr">
+		<text>ケブラープレートは優れた防護性能を持ち、スチールプレートに代わる軽量な代替品として広く知られている。これを装着すると、小火器に対する耐性が向上する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]+1 BRクラス\n
+		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
+		</text>
+	</string>
+	<string id="st_af_kevlar_up_name">
+		<text>改良型ケブラープレート</text>
+	</string>
+	<string id="st_af_kevlar_up_descr">
+		<text>ケブラープレートは優れた防護性能を持ち、スチールプレートに代わる軽量な代替品として広く知られている。これを装着すると、小火器に対する耐性が向上する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]+3 BRクラス\n
+		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
+		</text>
+	</string>
+	<string id="st_af_plates_name">
+		<text>カーボンスチールプレート</text>
+	</string>
+	<string id="st_af_plates_descr">
+		<text>弾道耐性の向上を目的として、特殊な加工と熱処理が施されたスチールプレート。幅広い防護用途に対応できるが、その重量のため機動性が低下するという欠点がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]+4 BRクラス\n
+		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
+		</text>
+	</string>
+	<string id="st_af_plates_up_name">
+		<text>改良型カーボンスチールプレート</text>
+	</string>
+	<string id="st_af_plates_up_descr">
+		<text>弾道耐性の向上を目的として、特殊な加工と熱処理が施されたスチールプレート。幅広い防護用途に対応できるが、その重量のため機動性が低下するという欠点がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]+6 BRクラス\n
+		%c[d_cyan] • %c[pda_white]防護は腕、脚、胴体のみに適用される\n
+		</text>
+	</string>
+	<string id="st_af_camelbak_name">
+		<text>キャメルバック</text>
+	</string>
+	<string id="st_af_camelbak_descr">
+		<text>「ラクダのコブには水が蓄えられている」という俗説にちなんで名付けられた袋。内部にはタンクがあり、水を貯めて持ち運ぶことができる。飲み口が付いた柔らかいチューブが付属しており、急を要する状況でも素早く水分を補給することができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_camelbak_up_name">
+		<text>改良型キャメルバック</text>
+	</string>
+	<string id="st_af_camelbak_up_descr">
+		<text>「ラクダのコブには水が蓄えられている」という俗説にちなんで名付けられた袋。内部にはタンクがあり、水を貯めて持ち運ぶことができる。飲み口が付いた柔らかいチューブが付属しており、急を要する状況でも素早く水分を補給することができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_af_iam_name">
+		<text>アーティファクト低レベル活用容器（空）</text>
+	</string>
+	<string id="st_af_iam_descr">
+		<text>UNUSED. UNUSED. UNUSED.</text>
+	</string>
+	<string id="st_af_aac_name">
+		<text>アーティファクト中レベル活用容器（空）</text>
+	</string>
+	<string id="st_af_aac_descr">
+		<text>UNUSED. UNUSED. UNUSED.</text>
+	</string>
+	<string id="st_af_aam_name">
+		<text>アーティファクト高レベル活用容器（空）</text>
+	</string>
+	<string id="st_af_aam_descr">
+		<text>UNUSED. UNUSED. UNUSED.</text>
+	</string>
+	<string id="st_hide_flesh_name">
+		<text>フレッシュの皮</text>
+	</string>
+	<string id="st_hide_flesh_descr">
+		<text>突然変異した豚、「フレッシュ」から剥ぎ取った皮。比較的柔らかいが、薄い皮膚の下には厚い脂肪の層があるため、それが重量の増加に繋がっている。物理的な防御力は低いが、化学・熱性・電気アノマリーによるダメージを大幅に軽減する特性を持つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_boar_name">
+		<text>ボアの皮</text>
+	</string>
+	<string id="st_hide_boar_descr">
+		<text>ゾーンに生息するイノシシから剥ぎ取った皮。ほとんどが厚い毛に覆われているが、皮自体はかなり薄く、スーツの補強にはあまり向いていない。体温調節を効果的に行えるように適応しているためか、優れた断熱性能を持っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_bloodsucker_name">
+		<text>ブラッドサッカーの皮膚</text>
+	</string>
+	<string id="st_hide_bloodsucker_descr">
+		<text>ブラッドサッカーの皮膚は驚くほど柔らかく、心地よい手触りをしている。しかし、その下には発達した筋肉の層があるため、防護装備として加工すれば近接攻撃に対して優れた耐久力を発揮する。この特性から、熟練のハンターの間では貴重な素材とされ、実用性だけでなく、自らの腕前を示す証としても扱われている。ただし、この皮膚は温度変化に敏感で、高温下では燃えにくい特性を持つものの、極端に熱を帯びることがあり、着用者や装備に悪影響を及ぼす危険性がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_psysucker_name">
+		<text>プサイサッカーの皮膚</text>
+	</string>
+	<string id="st_hide_psysucker_descr">
+		<text>プサイサッカーの皮膚は柔らかく心地よい手触りだが、その下には筋肉の層があり、近接攻撃に対して一定の防御力を持っている。ただし、温度変化に非常に敏感で、高温時には極端に熱を帯びる危険性がある。それでも、熟練のハンターの間では腕前の証として価値のある素材とされている。最大の特徴はプサイ波を吸収・拡散する性質を持つことであり、この皮膚で頭部を覆うことで精神攻撃への耐性を高めることができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_lurker_name">
+		<text>ラーカーの皮</text>
+	</string>
+	<string id="st_hide_lurker_descr">
+		<text>ラーカーの皮は分厚く頑丈で、毛皮による高い防御力と優れた断熱性を持つ。この特性により、スーツの補強や簡単な修理に適した素材となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_burer_name">
+		<text>ブーラーの皮膚</text>
+	</string>
+	<string id="st_hide_burer_descr">
+		<text>ブーラーの皮は、その強烈な悪臭とブーラーそのものの希少性のために収集が困難とされている。物理的な防御力はほとんどなく、電気耐性も低いため、着用者は電撃に対して脆弱になる。しかし、この皮膚で頭部を覆うことで強力なプサイ波を吸収・拡散し、精神攻撃に対する耐性を高めることができる。その希少性から、科学研究の分野でも高い価値を持っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_chimera_name">
+		<text>キメラの皮</text>
+	</string>
+	<string id="st_hide_chimera_descr">
+		<text>ゾーン屈指の凶悪なミュータントであるキメラの皮。科学的に貴重な標本であり、その耐久性と軽量性からスーツの補強材として高く評価されている。最大の特徴は、内部の有機繊維が非常に効果的な電気伝導体として機能することであり、これは「キメラが電撃を放出していた」という目撃証言の根拠と考えられている。しかし、この現象の調査に向かった偵察部隊はすべて消息を絶っており、これを裏付ける確証は得られていない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_pseudogiant_name">
+		<text>シュードジャイアントの皮</text>
+	</string>
+	<string id="st_hide_pseudogiant_descr">
+		<text>シュードジャイアントの皮は約2cmの厚みを持ち、極めて高い耐久性を誇るが、その分重量も大きい。また、放射線や毒性物質が含まれる環境に適応しており、スーツの補強材として高い価値を持っている。ただし、加工には特殊な技術と最高級のツールが必要となる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_controller_name">
+		<text>コントローラーの頭皮</text>
+	</string>
+	<string id="st_hide_controller_descr">
+		<text>コントローラーにはかつて人間だった頃の特徴が残っているため、その頭皮を剥ぎ取ることは精神的に大きな苦痛を伴う。しかし、適切に処理された頭皮を複数枚組み合わせることで、プサイエネルギーを吸収・ろ過し、優れたプサイ防御効果を発揮する。ただし、物理的な防御力はほとんどなく、電気を通しやすいという欠点がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_pseudodog_name">
+		<text>シュードドッグの毛皮</text>
+	</string>
+	<string id="st_hide_pseudodog_descr">
+		<text>シュードドッグの毛皮は意外にも柔らかく、密集したビロードのような手触りを持ち、ゾーンの過酷な環境から身を守る優れた断熱性を備えている。ゾーンの外では高級ファッション市場で珍重される一方、その放射線や汚染物質への耐性は科学者たちの研究対象になっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_hide_psy_dog_name">
+		<text>プサイドッグの毛皮</text>
+	</string>
+	<string id="st_hide_psy_dog_descr">
+		<text>プサイドッグの毛皮は、白や灰色を基調とした美しい外見と希少性から高値で取引されることが多く、密輸業者を通じてファッション業界にまで流通することもある。ゾーンでは防寒用の毛布として重宝され、裂傷に対する防護性能にも優れている。マスクやフードとして加工すればプサイ作用に対する軽度な耐性を得られるが、放射性物質や有害物質を吸着しやすいため、汚染地域では着用を避けるべきだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		%c[d_cyan] • %c[pda_white]複数装備: %c[ui_red]不可能\n
+		</text>
+	</string>
+	<string id="st_powder_poltergeist">
+		<text>ダイヤモンドパウダー</text>
+	</string>
+	<string id="st_powder_poltergeist_descr">
+		<text>プサイ波を使用する生物の体内、特に腹部から時折発見される結晶状の物質。その形成に関わる代謝プロセスは未だ解明されていないが、科学者たちはこの現象を研究するため、高額な報酬を提示することがある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+<!-- (Bandit ground leader) -->
+	<string id="st_agr_u_bandit_boss_dialog_start_0">
+		<text>誰だお前･･････ こんなクソみたいな場所に何の用だ！？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_start_1a">
+		<text>宝探しだよ。そっちは何か手に入れたか？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_start_1a_1">
+		<text>いや。そんなもん見つかるわけねえだろ。何かの冗談か？
+\nまずは地下から聞こえる唸り声を聞いてみろ、お宝のことを考えるのはそれからだ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_start_1b">
+		<text>ただの探索だ。こんなとこでも、何が見つかるか分からないからな。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_start_1b_1">
+		<text>ゾーンの中なら行ける場所は山ほどあるってのに、わざわざここを選ぶとはな･･････
+\nお前、変わってるな。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_start_1c">
+		<text>任務で来たんだ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_start_1c_1">
+		<text>あー、そうか･･････ ここに来るとはツイてないな。俺らも似たようなもんさ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_0">
+		<text>それで、あんたは？どうしてここに来たんだ？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_1">
+		<text>俺はリーファーだ。数日前に仲間とここに来たんだが･･････ 全部スルタンのせいさ。
+\n「安心しろよ、あそこはもう廃墟だ」とか、「怖いものなんて何もねえよ」って言われてな。
+\nどこが廃墟だよ？ふざけやがって･･････ 昨日の夜、どっから湧いたか分からねえ化け物に
+\n襲われて、命からがら逃げてきた。ここまで引き返して、それっきり身動きが取れねえ。
+
+\n\n一応、この辺に落ちてる使えそうなブツを探せって指示なんだがな。
+\n噂じゃ、この辺にストレロックの隠れ家があって、ヤツの私物が残ってるんだとよ。
+\nスルタンがそれを欲しがってる理由は分からねえが･･････
+\n手ぶらで帰ったらスードウドッグのエサにするって脅されたんだ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_2">
+		<text>それはひどいな。俺が手伝おうか？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_5">
+		<text>お前が？そうだな･･････ 猫の手でも借りたい気分だが、マジで危険だぞ？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_6">
+		<text>様子を見ながら、一緒に探すのはどうだ？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_7">
+		<text>クソッ･･････ どうすりゃいいんだよ･･････ あんな奴ら、俺はもう二度と見たくねえんだ･･････</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_72">
+		<text>･･････</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_73">
+		<text>ああ、クソが･･････ どうせ手ぶらじゃ戻れねえしな。やるしかねえか。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_71">
+		<text>行くぞ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_8">
+		<text>ちょっと周りを見てくる。何か見つかったらあんたに知らせるさ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_81">
+		<text>お前、自分で何言ってるか分かってんのか？まあ、頑張って見つけろよ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_3">
+		<text>そうか。無事に何か見つかるといいな。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_4">
+		<text>あんたが話してたのはこの書類のことか？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_0">
+		<text>ほら。ブリーフケースを見つけたぞ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_9">
+		<text>なんだそりゃ･･････ 偽物じゃねえよな！？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_10">
+		<text>それは考えすぎだな。ほら、自分で見てみろ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_11">
+		<text>悪いが、これは俺が預かっておく。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_12">
+		<text>おい･･････ 本気でそう言ってるのかよ？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_13">
+		<text>そうだ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_14">
+		<text>冗談さ。持っていけよ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_ask_15">
+		<text>おい、ふざけんなよ。こっちは忙しいんだ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_1">
+		<text>マジで･･････ 何て言ったらいいか分からねえ。
+\nやっとこのクソったれな場所から出られる。俺はこれを持ってスルタンのところに戻る。
+\nここにいる仲間たちには、色々と片付けてから合流させよう。
+
+\n\nお前はどうする？一緒に来ないか？スルタンにはたっぷり払うように言っておくぜ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_2">
+		<text>他に用事があるんでな。また今度な。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_3">
+		<text>そうか。じゃあその前に･･････ これをやるよ。
+\n探索してたときに、光ってるアノマリーの中で見つけたんだ。
+\n助けてくれた礼だと思ってくれ。お前ならうまく使えるだろう。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_4">
+		<text>ありがたくもらっておこう。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_give_docs_5">
+		<text>わかった。一緒に行こう。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_reask">
+		<text>よし、あんたらの任務を手伝ってやるよ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_arrived_0">
+		<text>よし、着いたな。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_arrived_1">
+		<text>助かったよ、相棒。お前のことは忘れねえ。ほら、これを受け取ってくれ。
+\n俺が･･････ あー･･････ 俺らが探索してたときに見つけた、キラキラ光るアーティファクトだ。
+\n迷惑をかけた礼だと思ってくれ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_arrived_2">
+		<text>ありがとな。それで、これからどうするつもりだ？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_arrived_3">
+		<text>このブリーフケースをスルタンに渡して、今回のことを報告するさ。
+\nとにかく終わってホッとしてるぜ。また会ったら、一杯奢ってくれよな。
+\nこんなクソみたいなことの後じゃ、酒が必要だろ？</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_dialog_arrived_4">
+		<text>分かったよ、元気でな。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_news_on_going">
+		<text>いいか、お前ら。俺はこの相棒と一緒にトンネルに潜る。ここをしっかり見張っとけ。</text>
+	</string>
+	<string id="st_agr_u_bandit_boss_news_on_going_reply">
+		<text>無事に帰ってきてくれよ。</text>
+	</string>
+	<string id="agr_u_bandit_boss_task_1_name">
+		<text>地下の探検</text>
+	</string>
+	<string id="agr_u_bandit_boss_task_1_desc_0">
+		<text>リーファーはアグロプロム地下にある文書の捜索に助けを必要としている。研究所の古い資料でも、ストレロックのような有名なストーカーのメモでも構わないそうだ。トンネルを隅々まで調べて、何か有用な情報を探そう。</text>
+	</string>
+	<string id="agr_u_bandit_boss_task_1_desc_1">
+		<text>見つけた文書をリーファーに渡す。</text>
+	</string>
+	<string id="agr_u_bandit_boss_task_1_desc_2">
+		<text>リーファーをダークバレーにあるBandit基地まで護衛する。</text>
+	</string>
+	<string id="agr_u_bandit_boss_task_1_desc_3">
+		<text>リーファーと話す。</text>
+	</string>
+</string_table>

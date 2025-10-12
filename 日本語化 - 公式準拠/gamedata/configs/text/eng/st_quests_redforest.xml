@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+
+	<!-- Stribog (Sin Trader) Default Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_default_task_about">
+		<text>シンの集団のリーダーに会う必要がある。すぐに彼のところへ行かなくては。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_default_task_finish">
+		<text>幸運を祈る。</text>
+	</string>
+
+
+	<!-- Stribog (Sin Trader) Retrieve the Secrets of Lab X-16 Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_1_name">
+		<text>ラボX16の秘密を回収する</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_1_text">
+		<text>ラボX16の秘密を見つけ出し、ストリボグに渡す。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_1_about">
+		<text>私たちはゾーンの真の守護者として迅速に行動し、この堕落した世界の目から秘密を
+\n守らねばならない。その秘密のうちの一つが、「X-16」と呼ばれる研究所に眠っている。
+\nそれを私のもとへ持ってきてくれ、同胞よ。私たちの手で安全に保管するのだ。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_1_finish">
+		<text>よくやってくれた。</text>
+	</string>
+
+
+	<!-- Stribog (Sin Trader) Escort The Believer Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_2_name">
+		<text>信奉者を護衛する</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_text">
+		<text>ある男が悟りを求めている。彼は所属する分隊から抜け出し、仲間を殺し、ストリボグに会うため護衛を望んでいる。その男はSVDライフルを所持しているようだ。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_about">
+		<text>私たちの大義を信じる男が、こちらに接触してきた。
+\nこの世界から解放されることを望んでいるが、過去を断ち切る術が分からないようだ。
+\n彼の仲間を始末し、信奉者を救え。彼はSVDを所持している、すぐに分かるはずだ。
+\nただし、彼が監視下にある間は正体を悟られぬよう撃ち返してくる可能性がある。
+\nだが、やがて彼も真理に目覚めることになるだろう。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_finish">
+		<text>あなたの尽力が私たちをより強くする。よくやった！</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_msg_join">
+		<text>ありがとう。本当に感謝している･･････ 案内してくれ。この古い世界を捨てる時が来た。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_2_msg_leave">
+		<text>改めて感謝する。俺は仲間たちに会いに行く。さらばだ。</text>
+	</string>
+
+
+	<!-- Stribog (Sin Trader) Avange the Sinners Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_3_name">
+		<text>シンの仇を討つ</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_3_text">
+		<text>シンの仲間たちを殺した異端者を見つけ出し、奴らに報復する。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_3_about">
+		<text>私たちの勇敢な同胞が、冷酷にも殺された。異端者を逃がすわけにはいかない。
+\n同胞の無念を晴らすのだ。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_3_finish">
+		<text>あなたは私たちの大義のためによく尽くしてくれた。</text>
+	</string>
+
+
+	<!-- Stribog (Sin Trader) Limansk Purge Storyline Task -->
+
+	<string id="drx_sl_red_greh_trader_task_4_name">
+		<text>リマンスクの粛清</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_text">
+		<text>リマンスクに潜む敵を殲滅する。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_about">
+		<text>時は来た、同胞よ。
+\nモノリスの長老たちが、リマンスクの粛清に向けて私たちの助力を求めている。
+\nこの地に潜む敵を討ち、私たちの誇りとなるのだ。</text>
+	</string>
+	<string id="drx_sl_red_greh_trader_task_4_finish">
+		<text>あなたは優れた戦士だ。</text>
+	</string>
+
+	<!-- Stribog (Sin Trader) Payoff Change Factions Task -->
+
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_name">
+		<text>シンの加入費を支払う</text>
+	</string>
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_text">
+		<text>シンのメンバーになる。もはや金は不要だ。大義に参加するため、ストリボグに1,000ルーブルを渡す。</text>
+	</string>
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_about">
+		<text>悟りに至ったのは良いことだ。私たちはあなたをゾーンの秩序に迎え入れよう。
+\nだが、その前に1,000ルーブルを手放さねばならない。
+\nそれはあなたが過去の自分から完全に開放され、新たな始まりを迎えるための代償なのだ。</text>
+	</string>
+	<string id="drx_sl_pri_red_greh_trader_stalker_cf_task_1_finish">
+		<text>よくやった。あなたはこれから、この混沌とした世界に光をもたらすことになる。</text>
+	</string>
+
+
+	<!-- Dazhbog (Sin Mechanic) Default Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_default_task_about">
+		<text>我が同胞よ、あなたはシンとモノリスのためによく尽くしている。
+\n長老の一人と話し、私たちの偉大な目的のために何をすべきか尋ねるがよい。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_default_task_finish">
+		<text>成功を祈る、我が同胞よ。</text>
+	</string>
+
+	<!-- Dazhbog (Sin Mechanic) Retrieve the Secrets of Lab X-18 Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_task_1_name">
+		<text>ラボX18の秘密を回収する</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_1_text">
+		<text>ラボX18の秘密を見つけ出し、ダズボグに渡す。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_1_about">
+		<text>私たちはゾーンの真の守護者として迅速に行動し、この堕落した世界の目から秘密を
+\n守らねばならない。その秘密のうちの一つが、「X-18」と呼ばれる研究所に眠っている。
+\nそれを私のもとへ持ってきてくれ、同胞よ。私たちの手で安全に保管するのだ。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_1_finish">
+		<text>素晴らしい働きだ！</text>
+	</string>
+
+
+	<!-- Dazhbog (Sin Mechanic) Hunt the Forest Beast Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_task_2_name">
+		<text>森の獣を狩る</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_2_text">
+		<text>赤い森でダズボグの部下を襲った獣を狩る。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_2_about">
+		<text>この森は時に、私たちの同胞にとってさえ過酷な場所となる。
+\n仲間の一人が危険な獣に襲われた。現場へ向かい、それを狩るのだ。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_2_finish">
+		<text>よくやった、同胞よ。これで森は安全になるだろう。</text>
+	</string>
+
+
+	<!-- Dazhbog (Sin Mechanic) Slay the Enemy Informer Storyline Task -->
+
+	<string id="drx_sl_red_greh_tech_task_3_name">
+		<text>敵の密告者を始末する</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_3_text">
+		<text>ダズボグのために異端者を始末する。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_3_about">
+		<text>異端者の一人が、遠くから私たちの同胞を監視していた。
+\n奴は臆病にも仲間のもとへ逃げ帰ったが、どんな手を使ってでも始末しなければならない。</text>
+	</string>
+	<string id="drx_sl_red_greh_tech_task_3_finish">
+		<text>よくやってくれた。もう誰も私たちに近づこうとは思わないだろう。</text>
+	</string>
+
+
+	<!-- Dazhbog (Sin Mechanic) Find Toolkit Tasks -->
+
+	<string id="red_greh_tech_task_1_name">
+		<text>ダズボグのために%sを見つける</text>
+	</string>
+	<string id="red_greh_tech_task_1_text">
+		<text>ダズボグは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="red_greh_tech_task_1_about">
+		<text>あなたに頼みたいことがある。武器の調整に必要な特別なツールが必要だ。</text>
+	</string>
+	<string id="red_greh_tech_task_1_fetch_about">
+		<text>よし、%sが必要だ。行け、今すぐだ。</text>
+	</string>
+	<string id="red_greh_tech_task_1_fetch_finish">
+		<text>よくやったな。</text>
+	</string>
+	<string id="red_greh_tech_task_2_name">
+		<text>ダズボグのために%sを見つける</text>
+	</string>
+	<string id="red_greh_tech_task_2_text">
+		<text>ダズボグは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="red_greh_tech_task_2_about">
+		<text>もっと良いツールが必要だ。同胞よ、探してきてくれないか？</text>
+	</string>
+	<string id="red_greh_tech_task_2_fetch_about">
+		<text>同胞たちのために、アドバンスドツールが必要だ。
+\n探し出し、私のもとへ届けよ。さあ、行け。</text>
+	</string>
+	<string id="red_greh_tech_task_2_fetch_finish">
+		<text>よし、持ってきてくれたな。あなたはよく尽くしてくれた。その忠誠は忘れない。</text>
+	</string>
+	<string id="red_greh_tech_task_3_name">
+		<text>ダズボグのために%sを見つける</text>
+	</string>
+	<string id="red_greh_tech_task_3_text">
+		<text>ダズボグは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="red_greh_tech_task_3_about">
+		<text>純粋なる報復の武器を作り出すためのツールが必要だ。
+\nもう一度、私たちに力を貸してくれ、同胞よ。</text>
+	</string>
+	<string id="red_greh_tech_task_3_fetch_about">
+		<text>最高級の工具がいる。エキスパートツールだ。これさえあれば完璧だ。
+\n持ち帰ってくれれば、必ず報いは与えよう。</text>
+	</string>
+	<string id="red_greh_tech_task_3_fetch_finish">
+		<text>よし、頼んだ通りに持ってきてくれたな。その忠誠心、確かに見届けた。</text>
+	</string>
+
+</string_table>

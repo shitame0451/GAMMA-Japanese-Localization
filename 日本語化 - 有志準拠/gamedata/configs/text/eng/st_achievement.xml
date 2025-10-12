@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="st_achievement_1_name">
+		<text>「お金持ち」</text>
+	</string>
+	<string id="st_achievement_1_hint">
+		<text>トレーダーは、彼らが所属する派閥の友好度に関係なく、高いサプライレベルの商品を売ってくれるようになる</text>
+	</string>
+	<string id="st_achievement_1_descr">
+		<text>ゾーンのトレーダーたちの間で大富豪としての評判が広まっている。彼らはあなたを客にしたいと熱望しており、派閥との関係に左右されることなく、最高の品物を提供してくれるだろう。</text>
+	</string>
+	<string id="st_achievement_1_unlock">
+		<text>実績「お金持ち」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_2_name">
+		<text>「放射線治療」</text>
+	</string>
+	<string id="st_achievement_2_hint">
+		<text>精神波の嵐やエミッションが起きたとき、避難しなくても生き延びられる可能性がある</text>
+	</string>
+	<string id="st_achievement_2_descr">
+		<text>ゾーンの囁きに対する感覚が薄れ、もはやエミッションや精神波の嵐を恐れなくなった。時には、その到来が心に平穏をもたらすことさえあるだろう。</text>
+	</string>
+	<string id="st_achievement_2_unlock">
+		<text>実績「放射線治療」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_3_name">
+		<text>「情報屋」</text>
+	</string>
+	<string id="st_achievement_3_hint">
+		<text>トレーダーは、持ち込んだPDAに対して少額のボーナスを支払うようになる</text>
+	</string>
+	<string id="st_achievement_3_descr">
+		<text>アーティファクトは目を引くものだが、知識こそが真の力だ。このことを経験から学んだあなたは、売り渡す情報に対してより高い料金を請求することができる。</text>
+	</string>
+	<string id="st_achievement_3_unlock">
+		<text>実績「情報屋」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_4_name">
+		<text>「ドゥーガ・レーダーの解放」</text>
+	</string>
+	<string id="st_achievement_4_hint">
+		<text>ヤンターとレーダー施設を通るストーカーが増え、北部地域の人口が増加する可能性がある</text>
+	</string>
+	<string id="st_achievement_4_descr">
+		<text>無謀な実験がゾーンにもたらした結果を目の当たりにしたあなたは、その朽ち果てた科学プロジェクトを停止することを選択した。2つの主要な精神波の及ぶ領域が無効化されたことで、ヤンターとレーダー施設を通る道は以前よりも通りやすくなった。</text>
+	</string>
+	<string id="st_achievement_4_unlock">
+		<text>実績「ドゥーガ・レーダーの解放」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_5_name">
+		<text>「下ごしらえ上手」</text>
+	</string>
+	<string id="st_achievement_5_hint">
+		<text>ミュータントの身体部位をより速く剥ぎ取ることができるようになる</text>
+	</string>
+	<string id="st_achievement_5_descr">
+		<text>ゾーンの野生動物があなたを恐れるのも無理はない。慣れた手つきで素早く仕事をこなすあなたは、まさに熟練の域に達している。</text>
+	</string>
+	<string id="st_achievement_5_unlock">
+		<text>実績「下ごしらえ上手」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_6_name">
+		<text>「金か弾丸か」</text>
+	</string>
+	<string id="st_achievement_6_hint">
+		<text>降伏したストーカーが2つ目の隠し場所の座標を教えてくれることがある</text>
+	</string>
+	<string id="st_achievement_6_descr">
+		<text>無慈悲な殺し屋として恐れられたあなたの背後には、死体や薬莢が散らばっている。その恐るべき攻撃から生き残った者たちは、自分の持ち物を手放すことをより積極的に受け入れるようになった。</text>
+	</string>
+	<string id="st_achievement_6_unlock">
+		<text>実績「金か弾丸か」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_7_name">
+		<text>「機械化された戦争」</text>
+	</string>
+	<string id="st_achievement_7_hint">
+		<text>修理に使用するボーナスアイテムの効果が向上する</text>
+	</string>
+	<string id="st_achievement_7_descr">
+		<text>技術者はあなたの熱心な支援に感謝し、見返りとして野外活動での効率的な装備のメンテナンス方法についていくつか教えてくれた。</text>
+	</string>
+	<string id="st_achievement_7_unlock">
+		<text>実績「機械化された戦争」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_8_name">
+		<text>「観光客」</text>
+	</string>
+	<string id="st_achievement_8_hint">
+		<text>ゾーンを熟知し、いくつかの特別な隠し場所の座標を得た</text>
+	</string>
+	<string id="st_achievement_8_descr">
+		<text>危険を顧みず、ゾーンのあらゆる場所を探索してきた。濁ったグレートスワンプからジェネレーターの異質な風景まで･･････ あなたはゾーンを知り尽くしている。</text>
+	</string>
+	<string id="st_achievement_8_unlock">
+		<text>実績「観光客」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_9_name">
+		<text>「クズ拾い」</text>
+	</string>
+	<string id="st_achievement_9_hint">
+		<text>隠し場所を調べると、追加のアイテムを見つけることがある</text>
+	</string>
+	<string id="st_achievement_9_descr">
+		<text>ストーカーたちの隠し場所を探る経験を重ねるうちに、二重底や秘密の小物入れなど、追加のアイテムが隠されている場所について知識を深めた。</text>
+	</string>
+	<string id="st_achievement_9_unlock">
+		<text>実績「クズ拾い」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_10_name">
+		<text>「完璧主義者」</text>
+	</string>
+	<string id="st_achievement_10_hint">
+		<text>すべての実績をアンロックした</text>
+	</string>
+	<string id="st_achievement_10_descr">
+		<text>あらゆる目標をすべて達成した。道のりは長かったが、あなたは最後までそれを成し遂げた。</text>
+	</string>
+	<string id="st_achievement_10_unlock">
+		<text>実績「完璧主義者」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_11_name">
+		<text>「希望的観測」</text>
+	</string>
+	<string id="st_achievement_11_hint">
+		<text>プレイ可能な派閥として「Renegade」をアンロックした</text>
+	</string>
+	<string id="st_achievement_11_descr">
+		<text>ゾーンで最も古参のストーカーから秘密の知識を得るため、必要なことを何でもやった。彼がすべての真実を明かしたかどうかは疑わしいが、この旅で成し遂げたことは間違いなく価値があるものだ。</text>
+	</string>
+	<string id="st_achievement_11_unlock">
+		<text>実績「希望的観測」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_12_name">
+		<text>「大地への落下」</text>
+	</string>
+	<string id="st_achievement_12_hint">
+		<text>Mi-24ハインドの代わりにMi-2ホプライトが登場するようになる</text>
+	</string>
+	<string id="st_achievement_12_descr">
+		<text>高く飛べば飛ぶほど、撃墜しにくくなる。これ以上高価な装備を無駄にしないため、彼らはヘリコプターを安価な機種に変更したようだ。</text>
+	</string>
+	<string id="st_achievement_12_unlock">
+		<text>実績「大地への落下」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_13_name">
+		<text>「地質学者」</text>
+	</string>
+	<string id="st_achievement_13_hint">
+		<text>エミッションの後にアーティファクトを発見する確率が高くなる</text>
+	</string>
+	<string id="st_achievement_13_descr">
+		<text>ブオーン、ブンブン、ジュージュー。ゾーンのアノマリーはもう怖くない。探知機を使った豊富な経験により、アーティファクトを見つけやすくなった。</text>
+	</string>
+	<string id="st_achievement_13_unlock">
+		<text>実績「地質学者」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_14_name">
+		<text>「みんなの英雄」</text>
+	</string>
+	<string id="st_achievement_14_hint">
+		<text>より多くの仲間と一緒に行動することができる</text>
+	</string>
+	<string id="st_achievement_14_descr">
+		<text>あなたの活躍は伝説として知られるようになり、明確な自信を持って行動するようになった。ストーカーたちは、あなたの指揮下で行動することを積極的に受け入れるようになり、成功に導いてくれると信じている。</text>
+	</string>
+	<string id="st_achievement_14_unlock">
+		<text>実績「みんなの英雄」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_15_name">
+		<text>「読書好きな人の糧」</text>
+	</string>
+	<string id="st_achievement_15_hint">
+		<text>メモリースティックがレアなPDAに置き換わる</text>
+	</string>
+	<string id="st_achievement_15_descr">
+		<text>自分自身や他者の経験を通じて、ゾーンとその住民について多くのことを学んだ。そろそろこの知識を共有するべきかもしれない。</text>
+	</string>
+	<string id="st_achievement_15_unlock">
+		<text>実績「読書好きな人の糧」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_16_name">
+		<text>「幼稚な遊び」</text>
+	</string>
+	<string id="st_achievement_16_hint">
+		<text>破壊した木箱から追加のアイテムを回収できる可能性が高くなる</text>
+	</string>
+	<string id="st_achievement_16_descr">
+		<text>木箱はあなたが近づくことを恐れている。なぜならあなたの手で何百もの仲間たちが破壊されてきたからだ。あなたは木箱を壊すことを芸術の域にまで高め、中身の損傷を最小限に抑えて木箱を割る技術を身につけた。</text>
+	</string>
+	<string id="st_achievement_16_unlock">
+		<text>実績「幼稚な遊び」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_17_name">
+		<text>「油断のないリサイクル業者」</text>
+	</string>
+	<string id="st_achievement_17_hint">
+		<text>分解時に追加の材料を回収できる可能性がわずかにある</text>
+	</string>
+	<string id="st_achievement_17_descr">
+		<text>すべての部品が必要なものだと信じているあなたは、経験を重ねるうちにより精密にジャンク品を分解できるようになった。無駄にするな、欲しがるな。</text>
+	</string>
+	<string id="st_achievement_17_unlock">
+		<text>実績「油断のないリサイクル業者」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_18_name">
+		<text>「熟練工の熱意」</text>
+	</string>
+	<string id="st_achievement_18_hint">
+		<text>クラフトに必要な部品が1つか2つ少なくなる</text>
+	</string>
+	<string id="st_achievement_18_descr">
+		<text>装備品を作ることはとても大変だが、経験を積んだ結果、部品をより効率的に活用できるようになった。</text>
+	</string>
+	<string id="st_achievement_18_unlock">
+		<text>実績「熟練工の熱意」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_19_name">
+		<text>「予期せぬゲスト」</text>
+	</string>
+	<string id="st_achievement_19_hint">
+		<text>変装している間、怪しまれたり、発見される可能性が低くなる</text>
+	</string>
+	<string id="st_achievement_19_descr">
+		<text>敵の微細な慣習に対する理解が深まった結果、あなたの変装はより説得力を持つようになった。そのため、他の部分での様々な不手際は見過ごされる可能性が高く、ただの静かで無害な客人の気まぐれに過ぎないと見なされるだろう。</text>
+	</string>
+	<string id="st_achievement_19_unlock">
+		<text>実績「予期せぬゲスト」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_20_name">
+		<text>「罪を赦すもの」</text>
+	</string>
+	<string id="st_achievement_20_hint">
+		<text>プレイ可能な派閥として「Sin」をアンロックした</text>
+	</string>
+	<string id="st_achievement_20_descr">
+		<text>Sinのダークストーカーたちが彼らの構想を世界にもたらそうとしたとき、あなたは彼らに立ち向かい、世界がノウアスフィアに操られることなく自然に問題を解決する機会を与えた。</text>
+	</string>
+	<string id="st_achievement_20_unlock">
+		<text>実績「罪を赦すもの」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_21_name">
+		<text>「協力者」</text>
+	</string>
+	<string id="st_achievement_21_hint">
+		<text>プレイ可能な派閥として「UNISG」をアンロックした</text>
+	</string>
+	<string id="st_achievement_21_descr">
+		<text>良くも悪くも、あなたは自分の立場を選び、決断した。それが正しかったのか、間違いなのかは分からない･･････ それでも、あなたは成し遂げた。</text>
+	</string>
+	<string id="st_achievement_21_unlock">
+		<text>実績「協力者」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_22_name">
+		<text>「鉄のカーテン」</text>
+	</string>
+	<string id="st_achievement_22_hint">
+		<text>派閥への功績がたたえられ、50,000ルーブルのボーナスが授与された</text>
+	</string>
+	<string id="st_achievement_22_descr">
+		<text>あなたの派閥はゾーン内で紛れもない勢力となり、下位の派閥からは地域の大勢力とさえ見なされている。戦利品はすでに分配され始め、あなたにも健全な配当が支給された。</text>
+	</string>
+	<string id="st_achievement_22_unlock">
+		<text>実績「鉄のカーテン」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_23_name">
+		<text>「闇の生命力」</text>
+	</string>
+	<string id="st_achievement_23_hint">
+		<text>あなたのランクが大幅に上がった</text>
+	</string>
+	<string id="st_achievement_23_descr">
+		<text>あなたは、ほとんどのストーカーが命を落とすような危険を何度も乗り越えてきた。一部のストーカーたちは、あなたが不死身なのではないかと疑い始めている。</text>
+	</string>
+	<string id="st_achievement_23_unlock">
+		<text>実績「闇の生命力」をアンロックした</text>
+	</string>
+	
+	<string id="st_achievement_24_name">
+		<text>「負けざる者」</text>
+	</string>
+	<string id="st_achievement_24_hint">
+		<text>スクリーンショットを撮って、ストーカー仲間に自慢できるようになった</text>
+	</string>
+	<string id="st_achievement_24_descr">
+		<text>厳しい状況に置かれながらも、あなたは見事に成功を収めた。もうゾーンの中にはあなたが挑戦するようなことは何も残されていない。もっと大きなことに立ち向かう時が来たのかもしれない。</text>
+	</string>
+	<string id="st_achievement_24_unlock">
+		<text>実績「負けざる者」をアンロックした</text>
+	</string>
+	
+</string_table>

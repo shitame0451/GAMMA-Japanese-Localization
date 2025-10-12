@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="find_blackbox_mlr_reward_killer_0">
+		<text>ドゥシュマン、これを見てくれ。フライトレコーダーを見つけた。
+\n組織が大金を払ってでも欲しがるような情報が入ってると思うが、どうだ？</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_killer_1">
+		<text>軍のやつか？そりゃいいな。確かに、なかなか価値のある代物だ･･････
+\nいくらか金を出してやる、そいつを引き取らせてもらおう。</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_0">
+		<text>ここから抜け出すにはどうしたらいい？</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_1">
+		<text>この地域は危険だらけだが、地下に張り巡らされた下水道を使えば街から脱出できる。
+\n俺なら、ザトンの南にある他の拠点まであんたを連れ出してやれるぞ。</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_list_0">
+		<text>もう一度聞かせてくれ、どの場所に案内できる？</text>
+	</string>
+	<string id="meet_ds_killer_guide_main_base_list_1">
+		<text>行ける場所はザトン南東部の廃棄物処理場だけだ。料金は8,000ルーブルだな。</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_0">
+		<text>街を出たい。</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_1">
+		<text>本当にいいのか？俺たちが通れるルートは北への道だけだ。
+\n目的地はザトン南部の廃棄物処理場になる。料金は8,000ルーブルだ。</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_2">
+		<text>準備ができた。ザトンに行こう。%c[d_orange] [8,000ルーブル]</text>
+	</string>
+	<string id="travel_ds_killer_guide_main_base_3">
+		<text>気が変わった。</text>
+	</string>
+	<string id="talk_to_aslan_on_main_base_merk_0">
+		<text>あんたの事を教えてくれ。</text>
+	</string>
+	<string id="talk_to_aslan_on_main_base_merk_1">
+		<text>何を話せってんだ？俺はここのバーテンダーだが、このクソみたいな状況で誰が信じる？
+\nもう何日もここで立ち往生したまま、なんとか自給自足で持ちこたえてるってとこだ。
+
+\n\n俺は昔、大統領官邸の防衛任務に参加して、その後はスイスに移住した。
+\nそれからゾーンに来たんだ。バーで仲間と集まって、昔話を肴に酒を酌み交わす日々･･････
+\nそんなある日、シンジケートへの参加を持ちかけられてな。
+\n当時は組織としてはギリギリの状態で、ドゥシュマンと俺は創設メンバーみたいなもんだ。
+\n大した話じゃないだろ？多少複雑な経歴でも、この場所には合ってるんだよ。
+\n俺たちの中には、アフガニスタンやジョージアを経験してきた奴らもいるしな。
+\nただ、バルト三国の出身者はほとんどいないな。ましてや先進国の人間なんてなおさらだ。</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_0">
+		<text>派閥パッチに興味があると聞いたが。</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_1">
+		<text>どう説明するべきか。いや、俺個人としては別に“興味”はないんだ。
+\n欲しがってるのは上の連中さ。俺は何でも任される中間管理職みたいなもんでな。
+\n正直、俺にはもっと分かりやすいもの･･････ 例えば、物資や現金のほうが性に合ってる。
+\n最近はうちの連中の士気も落ちてるし、戦利品を得られる別の手段として、
+\nこの話が使えるんじゃないかと思ってな。新しい刺激があれば、やる気を保てるだろ？
+\nほら、今どきの契約報酬なんてどれも同じで、正直つまらないしな･･････
+
+\n\n仕組みはこうだ。派閥パッチを持ってきたら、俺の部下が集めた品と交換してやる。
+\nどうだ、悪くない取引だろ？どの派閥のパッチでも構わない。15枚集めれば、
+\nアーティファクト隔離容器や医薬品、ツールキット、アーティファクトのどれかと交換だ。
+\n30枚なら、質の良い品物と交換してやれるし、高性能な武器やスーツも手に入るかもな。
+\nああ、そうだった─強い派閥のパッチを持ってくれば、それだけ報酬の価値があがる。
+\nデューティーのパッチなら、バンディットのゴミパッチよりも良い報酬が期待できるぞ。
+
+\n\n「何故そんなに気前が良いのか」って？
+\nそれはな、パッチを戦闘の証として集めてる奴が多いからさ。
+\n特に、見せびらかしたくなるようなレア物はな。
+\nだからこそ、こうして交換できるようにすれば、自然と流通するようになるってわけさ。</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_2">
+		<text>あんたはどうなんだ？パッチを自慢したりしないのか？</text>
+	</string>
+	<string id="talk_to_aslan_about_lottery_3">
+		<text>お前には関係のないことだ。パッチを持ってきて、いい物が手に入るように祈っとけ。
+\nそれがこの宝くじの仕組みってもんだ─話は終わりだ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_0">
+		<text>派閥パッチを持ってきたぞ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_1">
+		<text>よくやった。どの派閥だ？</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_2">
+		<text>クリアスカイ。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_3">
+		<text>フリーダム。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_4">
+		<text>ローナー。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_5">
+		<text>エコロジスト。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_6">
+		<text>バンディット。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_7">
+		<text>デューティー。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_8">
+		<text>モノリス。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_9">
+		<text>軍隊。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_50">
+		<text>傭兵。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_53">
+		<text>レネゲード。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_51">
+		<text>シン。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_52">
+		<text>UNISG。20枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_11">
+		<text>クリアスカイ。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_12">
+		<text>フリーダム。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_13">
+		<text>ローナー。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_14">
+		<text>エコロジスト。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_15">
+		<text>バンディット。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_16">
+		<text>デューティー。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_17">
+		<text>モノリス。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_18">
+		<text>軍隊。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_56">
+		<text>レネゲード。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_54">
+		<text>シン。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_55">
+		<text>UNISG。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_57">
+		<text>傭兵。30枚だ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_10">
+		<text>気が変わった。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_19">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_20">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_21">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_22">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_23">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_24">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_25">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_26">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_27">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_28">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_29">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_30">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_31">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_34">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_35">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_36">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_40">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_41">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_42">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_43">
+		<text>ほら、持っていけ。</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_44">
+		<text>ほら、持っていけ。</text>
+	</string>
+  <!-- 未使用 -->
+	<string id="lottery_ds_aslan_mlr_45">
+		<text>You landed on an artefact application container. The materials here are better than the improvised stuff from what I've been told by the scientists, should provide some pretty good radiation shielding from artefacts.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_46">
+		<text>Here's an army medical package, we've stockpiled plenty of these off dead Military and Duty soldiers. Contains most of the staple items you'd find in a basic med pack, but got some extra utility items as well.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_47">
+		<text>An advanced tool set here for ya. This one includes some precision tools for working with more complex equipment.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_48">
+		<text>You now got your hands on an artefact application module, a piece of brilliant engineering from some the best scientists. You will not find anything better in the Zone for personal carry of Artefacts. Let's add three empty artefacts to that, you just hit the jackpot!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_49">
+		<text>Ding ding ding! We got a winner, prestine MP7 with some attachments and AP ammo!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_58">
+		<text>This advanced toolkit is pretty sweet, and it's now yours! Got some of the best tools an electrical or mechanical technician could ask for, at least in the Zone anyway.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_59">
+		<text>Here's some AP 7.62x51 ammo and some grenades, that's a whole lot of damage!</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_60">
+		<text>AP Slugs for you, that's about 30 dead freedomers pal.</text>
+	</string>
+	<string id="lottery_ds_aslan_mlr_61">
+		<text>God damn, you won the gun lottery jackpot, congratulations, Stalker! Don't ask me where I found this beast of a gun though, I didn't find it, someone else did, two identical one in fact! He owed me 25,000 rubles though, with some heavy interests, and made due with one of them to pay off his debt. Hopefully you'll never have to give up this monster of a gun to pay off your debt, eh? </text>
+	</string>
+  <!-- 未使用終わり -->
+	<string id="aslan_st_0">
+		<text>現在の状況はどうなってる？</text>
+	</string>
+	<string id="aslan_st_1">
+		<text>シンジケートがゾーン内に所有する唯一の中央基地─それがここだ。
+\nヤンターにはプサイ装置があってな、その影響で近づけないようになってる。
+\nあの場所からはゾンビやミュータントの群れがこっちまで流れてくることもあるんだ。
+\nリマンスクなんてもう最悪だ。あそこは罠だらけの迷路みたいなもんさ。
+\n赤い森はもっと危険だぞ。モノリスがリマンスクに通じる橋を占拠していて、
+\nその周辺もミュータントだらけだ。東にある軍事倉庫も、全部フリーダムの縄張りだな。</text>
+	</string>
+	<string id="aslan_st_2">
+		<text>続けてくれ。</text>
+	</string>
+	<string id="aslan_st_3">
+		<text>何が危険なのかは、いずれお前自身の目で確かめることになるだろう。
+\nだが覚えておけ･･････ 任務を遂行する時は、やるべきことに集中しろ。感情に流されるな。
+\n必要なのは、冷徹な思考と的確な判断力だけだ。感情や正義感なんてものは捨てろ。
+\nルートについてだが、リマンスクを通るのが安全だろう。
+\nあそこは閉所が多く、狙撃されにくい。銃撃戦やアノマリーから身を隠せる遮蔽物もある。
+\nただし、状況が変わりやすい場所だ。曲がり角の先に何があるか、誰にも分からんさ。</text>
+	</string>
+	<string id="aslan_st_4">
+		<text>ここが中央基地だと言っていたが、他にも拠点があるのか？</text>
+	</string>
+	<string id="aslan_st_5">
+		<text>俺が知っている限りでは、小さな拠点が2つある。1つ目はザトンで、湿地帯の端にある。
+\nもう1つはプリピャチ郊外の南西だ。荒廃領域にも部隊を駐留させてるし、
+\nゾーンの各地を回れば、契約任務中の部隊に遭遇することもあるだろう。</text>
+	</string>
+	<string id="aslan_st_6">
+		<text>要するに、リマンスクの北にあるものはすべてモノリスの縄張りってわけか。</text>
+	</string>
+	<string id="aslan_st_7">
+		<text>まあ、そんなところだな。リマンスクの近くに古い病院があるが、行っても無駄だぞ。
+\nチョルノービリ原発とヤンター、どちらへ続く道もプサイ放射のせいで通れないんだ。</text>
+	</string>
+	<string id="aslan_st_8">
+		<text>分かった、情報をありがとう。</text>
+	</string>
+	<string id="information_about_stash_aslan_0">
+		<text>あんたが隠し場所の情報を持っていると聞いた。</text>
+	</string>
+	<string id="information_about_stash_aslan_1">
+		<text>その通りだ。俺たちは襲撃の後、必ず戦利品を確認するようにしている。
+\n6,500ルーブルで情報を譲ってやろう。</text>
+	</string>
+	<string id="information_about_stash_aslan1_0">
+		<text>隠し場所の座標を教えてくれないか？%c[d_orange] [6,500ルーブル]</text>
+	</string>
+	<string id="information_about_stash_aslan1_1">
+		<text>そうこなくっちゃな。楽しんでくれ。</text>
+	</string>
+</string_table>

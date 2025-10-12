@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="ui_st_community">
+    <text>派閥</text>
+  </string>
+  <string id="actor">
+    <text>ローナー</text>
+  </string>
+  <string id="actor_army">
+    <text>ミリタリー</text>
+  </string>
+  <string id="actor_bandit">
+    <text>バンディット</text>
+  </string>
+  <string id="actor_csky">
+    <text>クリアスカイ</text>
+  </string>
+  <string id="actor_dolg">
+    <text>デューティー</text>
+  </string>
+  <string id="actor_ecolog">
+    <text>エコロジスト</text>
+  </string>
+  <string id="actor_freedom">
+    <text>フリーダム</text>
+  </string>
+  <string id="actor_killer">
+    <text>傭兵</text>
+  </string>
+  <string id="actor_monolith">
+    <text>モノリス</text>
+  </string>
+  <string id="actor_monster">
+    <text>ミュータント</text>
+  </string>
+  <string id="actor_stalker">
+    <text>ローナー</text>
+  </string>
+  <string id="actor_renegade">
+    <text>レネゲード</text>
+  </string>
+  <string id="actor_greh">
+    <text>シン</text>
+  </string>
+  <string id="actor_isg">
+    <text>UNISG</text>
+  </string>
+  <string id="actor_zombied">
+    <text>ゾンビ</text>
+  </string>
+  <string id="army">
+    <text>ミリタリー</text>
+  </string>
+  <string id="bandit">
+    <text>バンディット</text>
+  </string>
+  <string id="csky">
+    <text>クリアスカイ</text>
+  </string>
+  <string id="dolg">
+    <text>デューティー</text>
+  </string>
+  <string id="ecolog">
+    <text>エコロジスト</text>
+  </string>
+  <string id="freedom">
+    <text>フリーダム</text>
+  </string>
+  <string id="killer">
+    <text>傭兵</text>
+  </string>
+  <string id="monolith">
+    <text>モノリス</text>
+  </string>
+  <string id="monster">
+    <text>ミュータント</text>
+  </string>
+  <string id="zombied">
+    <text>ゾンビ</text>
+  </string>
+  <string id="greh">
+    <text>シン</text>
+  </string>
+  <string id="isg">
+    <text>UNISG</text>
+  </string>
+  <string id="renegade">
+    <text>レネゲード</text>
+  </string>
+  <string id="greh_npc">
+    <text>シン</text>
+  </string>
+  <string id="army_npc">
+    <text>ウクライナ保安庁</text>
+  </string>
+  <string id="ui_st_relation">
+    <text>関係</text>
+  </string>
+  <string id="st_goodwill_enemy">
+    <text>敵対</text>
+  </string>
+  <string id="st_goodwill_indifferent">
+    <text>中立</text>
+  </string>
+  <string id="st_goodwill_friendly">
+    <text>友好</text>
+  </string>
+  <string id="ui_st_rank">
+    <text>ランク</text>
+  </string>
+  <string id="st_rank_novice">
+    <text>ルーキー</text>
+  </string>
+  <string id="st_rank_trainee">
+    <text>見習い</text>
+  </string>
+  <string id="st_rank_experienced">
+    <text>経験者</text>
+  </string>
+  <string id="st_rank_professional">
+    <text>プロフェッショナル</text>
+  </string>
+  <string id="st_rank_veteran">
+    <text>ベテラン</text>
+  </string>
+  <string id="st_rank_expert">
+    <text>エキスパート</text>
+  </string>
+  <string id="st_rank_master">
+    <text>マスター</text>
+  </string>
+  <string id="st_rank_legend">
+    <text>レジェンド</text>
+  </string>
+  <string id="ui_st_reputation">
+    <text>評判</text>
+  </string>
+  <string id="st_reputation_terrible">
+    <text>最悪</text>
+  </string>
+  <string id="st_reputation_really_bad">
+    <text>とても悪い</text>
+  </string>
+  <string id="st_reputation_very_bad">
+    <text>悪い</text>
+  </string>
+  <string id="st_reputation_bad">
+    <text>少し悪い</text>
+  </string>
+  <string id="st_reputation_neutral">
+    <text>普通</text>
+  </string>
+  <string id="st_reputation_good">
+    <text>少し良い</text>
+  </string>
+  <string id="st_reputation_very_good">
+    <text>良い</text>
+  </string>
+  <string id="st_reputation_really_good">
+    <text>とても良い</text>
+  </string>
+  <string id="st_reputation_excellent">
+    <text>最高</text>
+  </string>
+  <string id="st_rank_increased">
+    <text>ランクが上がった</text>
+  </string>
+  <string id="st_rank_decreased">
+    <text>ランクが下がった</text>
+  </string>
+  <string id="st_reputation_increased">
+    <text>評判が上がった</text>
+  </string>
+  <string id="st_reputation_decreased">
+    <text>評判が下がった</text>
+  </string>
+  <string id="st_relations_and">
+    <text>と</text>
+  </string>
+  <string id="st_relations_declared_war">
+    <text>は互いに戦争を宣言した</text>
+  </string>
+  <string id="st_relations_alliance">
+    <text>は同盟を結んだ</text>
+  </string>
+  <string id="st_relations_deteriorating">
+    <text>の関係が悪化している</text>
+  </string>
+  <string id="st_relations_cease_fire">
+    <text>は停戦を宣言した</text>
+  </string>
+  <string id="st_ui_goodwill_name">
+    <text>友好度</text>
+  </string>
+  <string id="st_ui_goodwill_5">
+    <text>最高</text>
+  </string>
+  <string id="st_ui_goodwill_4">
+    <text>高い</text>
+  </string>
+  <string id="st_ui_goodwill_3">
+    <text>普通</text>
+  </string>
+  <string id="st_ui_goodwill_2">
+    <text>低い</text>
+  </string>
+  <string id="st_ui_goodwill_1">
+    <text>最悪</text>
+  </string>
+</string_table>

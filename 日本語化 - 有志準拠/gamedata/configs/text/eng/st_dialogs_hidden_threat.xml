@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Storyline: Hidden Threat
+	Version:   1.0
+    Autor:     Longreed
+	Last Edit: 01/11/2021
+-->
+<string_table>
+	<!-- D1 -->
+    <string id="st_sl_hidden_threat_dialog_kuznetsov_d1_first_1">
+        <text>初めまして、同志大佐！ストーカー %s があなたの指揮下に入ります！</text>
+    </string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_1_0">
+	    <text>落ち着け、兵士よ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_1_1">
+        <text>よく聞いてくれ、Mercenaryの情報屋から情報提供があったんだ。デッドシティの基地に、見知らぬ人物が来たそうだ。情報提供者が訪問者の派閥を特定できない時点でおかしい。見た目は十分な装備と特殊な能力を備えているが、情報提供者はMercenaryではないと主張している。彼はダッシュマンからいくつかのケースを受け取り、部外者との接触を避けて去っていった。君の仕事は、この人物が何者で、ゾーンで何をしているかを突き止めることだ。分かったか？</text>
+    </string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_2_1">
+	    <text>任務について質問があります。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_4_1">
+	    <text>どこから探せばいいのか、目星があれば教えてください。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_5_1">
+	    <text>なぜ、ウクライナ保安庁ではなく、私たちがこのようなことをするのでしょうか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_6_1">
+	    <text>この人物が誰なのか、見当はつきますか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_7_1">
+	    <text>何か見落としがあるかもしれません、ブリーフィングを受けたいのですが？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_8_1">
+	    <text>数日前、ダークスケープでストーカーの野営地が襲撃されたという報告があった。生存者は一人だ。彼はコードンの農場にいる。襲撃者について情報はない。犯人はBanditやMercenaryかもしれないし、我々の事件に関係する人間かもしれない。生き残ったストーカーと話す方法を見つけ、襲撃について詳しく調べてきてくれ。ゾーンのありふれた事件だが、手がかりはそれしかない。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_9_1">
+	    <text>私は本部に報告し情報提供者の情報をすべて伝えたが、ウクライナ保安庁の隊員がゾーンに入るには数週間かかるそうだ。もう時間がないんだ、何かが起きようとしている。我々の目から逃れようとしているんだ。だから我々の手でやるんだ、私の責任でね。君は最も経験豊富な軍人の一人だ、この任務を任せられるのは君しかいない。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_10_1">
+	    <text>デグチャレフ大佐、彼はウクライナ保安庁からの？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_11_1">
+	    <text>先日、デグチャレフ大佐が人を集めてゾーンの北の方へ向かって行った。どことは言ってなかったがね。ウクライナ保安庁が秘密主義な事は知ってるだろう？方角からしてプリピャチ郊外にいるだろう。まだ接触はとれてないが、いつ現れるかもわからない。今すぐ行動しなければならない。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_12_1">
+	    <text>思うところはあるが、今は胸にしまっておこう。もし、君が見つけた情報が私の推測を裏づけるものであれば、徹底的に話し合おう。</text>
+	</string>	
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_13_1">
+	    <text>分かりました、大佐。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_13_2">
+	    <text>分かりました。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_13_3">
+	    <text>了解しました。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_13_4">
+	    <text>了解しました、大佐。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d1_14_1">
+	    <text>もう質問はありません。</text>
+	</string>
+	<!-- D2 -->
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d2_first_1">
+	    <text>報告します。ストーカーは死亡、情報は得られず。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d2_1_1">
+	    <text>兵士よ！もう一度失敗したら、もっと責任のある人物にこの任務を譲る。覚えておけ！製材所に行って、何か役に立つ情報がないか探してくるんだ。早くしろ！</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d2_2_1">
+	    <text>はい、大佐、はい･･･</text>
+	</string>
+	<!-- D3 -->
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d3_first_1">
+	    <text>大佐、ダークバレーの製材所を確認しましたが、何か奇妙です。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d3_1_1">
+	    <text>続けろ･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d3_2_1">
+	    <text>特殊部隊はNATOの小火器を使用していた。どう考えてもMercenaryの武器です。ストーカーは製材所を追い出されたのでしょう。攻撃者は製材所に拠点を置きたかったようです。私が到着する少し前に、彼らはそこを去ったようです。なぜMercenaryがこんなところに？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d3_3_1">
+	    <text>うーん･･････ どうだろうな･･････ Mercenaryじゃなかったら何も不思議はないのだがな。製材所の基地は隠れ家として最適だ。生き残りのストーカーがそれを邪魔したことを除けば。よし、この辺にしておこう。続報を待ちたいところだが、今は謎ばかりだ。必要な時は知らせよう。そうだ、ストーカー、ロジキン軍曹に会いに行け。新しい装備を手配するよう命じた。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d3_4_1">
+	    <text>感謝します、同志大佐！</text>
+	</string>
+	<!-- D4 -->
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d4_first_1">
+	    <text>同志大佐！任務は完了です。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d4_first_2">
+	    <text>同志大佐、例の件について進展は？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d4_1_1">
+	    <text>これを受け取れ、兵士よ、君はそれに値する。何か問題が発生したようだ、すぐに対処する必要がある。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d4_2_1">
+	    <text>早急な対処を要する事態が発生した。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d4_3_1">
+	    <text>聞いています。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d4_4_1">
+	    <text>デグチャレフは北部に向かう前に、私から一分隊を借りていった。どこに行くのか、どんな任務なのか、私は聞かされていない。黙っているよう命じられた。今日、この分隊から「SOS」信号が届いた。ジュピター工場の敷地内にいて、何者かに襲撃されたという内容だった。今はなんとか持ちこたえているが、緊急の応援が必要だ。君の任務は分隊を救助することだ。それと“何者か”の正体を突き止めろ。彼らが我々が探している人物かもしれない。何か質問は？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d4_5_1">
+	    <text>ありません、大佐、了解しました。</text>
+	</string>
+	<!-- D5 -->
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d5_first_1">
+	    <text>分隊は全滅していました。救助信号が遅かったようです。しかし、私は彼らを排除した男を捕まえました。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d5_1_1">
+	    <text>ジュピター工場は近くない。彼らを救うことはもとより不可能だっただろう。襲撃者について何かわかったか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d5_2_1">
+	    <text>奇妙なストーカーたちが現場に陣取り、入り口を塞ぎ、防御の準備をしていました。彼らはその中で何かを探していたようです。何者かはわかりません、装備は上等なものでした。行動はプロのそれでした。ここに、そのうちの一人のシェブロンがあります。見慣れない記章です。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d5_3_1">
+	    <text>うーむ･･････ 見覚えがある。私の予感が的中したわけだ。よく聞いてくれ。ゾーンには国際研究グループがある。略称ISGだ。ISGは国連の援助で設立されたが、実質的には米国が支配している。ISGは公式にはゾーンで活動しているが、そのストーカーたちが科学者に見えたか？ISGの戦闘部隊だ。違法にゾーンを占領している。ウクライナは自国の領土に軍事組織を置くことを国際機関に認めていないから、違法だ。ISGの傭兵は、ジュピターの工場を嗅ぎ回っていて、偶然にも私の分隊とぶつかったのだろう。彼らは露見してしまったのだ。相手が誰かはわかったが、あとは「ゾーンに何を忘れてきたか」だ。君が無事なのはいいことだ。良い仕事だった。必要な時は連絡する。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d5_4_1">
+	    <text>了解しました、大佐！</text>
+	</string>
+	<!-- D6 -->
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_first_1">
+	    <text>大佐、何か見つけました！</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_1_1">
+	    <text>まあ、単刀直入に聞こう。何が入っていて、どこで手に入れたのだ？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_2_1">
+	    <text>私はキリロフの命令で、我々が警備する工場にいました。X-18研究所の上にある工場です。私がいた時、工場はISGによって攻撃されたが、撃退しました。その際、ISGの特殊部隊の一人がPDAを所持しており、フラッシュドライブにそのPDAから情報の一部が保存されているのが発見されました。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_3_1">
+	    <text>続けてくれ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_4_1">
+	    <text>フラッシュドライブにはゾーンのマップが入っています。どこで手に入れたのかは不明です。マップには様々なものが記され、それに対する暗号化されたコメントもあります。私が知っているのは、そこでISGと遭遇した2つの施設、この工場、ジュピターとX-18研究所への入り口です。ISGはゾーン内の様々な場所で、何かを探しているようです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_5_1">
+	    <text>なるほどな。ISGは地図と任務に必要な情報をダッシュマンから買ったんだろう。あの人物を覚えているか？機密保持のため、放送の傍受を恐れて、デッドシティの物理メディアでデータを取ったんだろう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_6_1">
+	    <text>次はどうしますか、大佐？ええと･･････ 彼らの活動拠点が見つかればいいんですが、どこに隠れているのか･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_7_1">
+	    <text>施設の警備を強化し、常に耳を傾けておく必要があるな。ウクライナ保安庁には干渉しない方がいいというヒントを広い視野から得た、彼らはISGの活動を知っていたんだ。いいか、何か大きなパーティが起きているようだ。この命がけのパーティーで俺たちは歓迎されない。だからゆっくり休め。よくやった、君の情報をウクライナ保安庁に転送しておくよ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d6_8_1">
+	    <text>了解しました、大佐。</text>
+	</string>
+	<!-- D7 -->
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d7_first_1">
+	    <text>ご命令の通り、報告します！</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d7_1_1">
+	    <text>ウクライナ保安庁の少佐が待機している、身元は確認済みだ。さらに、デグチャレフに連絡したところ、彼は少佐が基地に現れたことに非常に驚き、警戒している。少佐は大佐に暗号を告げた、「レッド2」と。その後、デグチャレフ大佐からウクライナ保安庁少佐の指示に全面的に従えという前代未聞の命令が下りた。大きな作戦が進行中だ、詳細は少佐から聞いてくれ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kuznetsov_d7_2_1">
+	    <text>了解です。少佐のことは知っています、プリピャチ病院で命を救われたことがあります。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_survived_first_1">
+	    <text>え･･････ どうやって･･････ どうしたらいいんだ･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_survived_1_1">
+	    <text>よう、ストーカー、少し話し合おう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_survived_2_1">
+	    <text>話し合うって、何を？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_survived_2_2">
+	    <text>Militaryか！あ、そうだ･･････ シドロヴィッチに注意されてたな。Militaryと話すことは何もない！</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_survived_3_1">
+	    <text>誰が製材所を襲った？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_survived_3_2">
+	    <text>弾丸か、口か。どっちだ？誰が製材所であんたの部隊を攻撃したのか知りたい。人を探しているんだ･･････ おそらく君を攻撃した人物で、仲間から遠くにいるはずだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_survived_4_1">
+	    <text>誰が攻撃してきたかわからない。リーダーが、食料を調達するために俺をコードンに送った。途中、トイレがしたくなったんだ。藪の中に座っていると製材所で銃声が聞こえた。すぐに落ち着いたから、自分のPDAで連絡を取ろうとしたが･･････ 怖くなったんだ･･････ その場から逃げ出した。茂みとコードンに。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_survived_5_1">
+	    <text>それだけか？とりあえず、感謝する。じゃあな、ストーカー</text>
+	</string>
+	
+	<!-- D1 -->
+    <string id="st_sl_hidden_threat_dialog_spooner_d1_first_1">
+	    <text>聞いてくれ、あんたがコードンに行くという噂を耳にしたんだ。あんたに頼みがある。南の検問所にいるジュロフ少佐に会計報告を持って行ってくれ、もし行く途中であれば。どうだ、少佐には恩があるんだろう？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d1_1_1">
+	    <text>よし、報告書をくれ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d1_2_1">
+	    <text>今は時間がない、他を当たってくれ。</text>
+	</string>
+	<!-- D2 -->
+	<string id="st_sl_hidden_threat_dialog_spooner_d2_first_1">
+	    <text>軍曹、装備を調達したいのですが。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d2_first_2">
+	    <text>軍曹、他に何か御用は？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d2_1_1">
+	    <text>ちょっと待て、さて･･････ Militaryのストーカーの%s、リストに載っているな。大佐によって承認されている。ここにサインしろ･･････ よし、持って行け。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d2_2_1">
+	    <text>ありがとうございます、軍曹。それでは。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d2_3_1">
+	    <text>待て、兵士！小遣い稼ぎはどうだ？運び屋が来ているんだ。アグロプロムにいるからすぐ来るって言ってたが、2時間経っても来ないんだ。彼に何が起こったのか調べてくれ。彼に頼んでいた荷物がある。ジャンクヤードから届く予定だったから、ジャンクヤード沿いの道に行って、見てきてくれ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d2_4_1">
+	    <text>わかった、やってみるよ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d2_5_1">
+	    <text>時間がないんだ。</text>
+	</string>
+	<!-- D3 -->
+	<string id="st_sl_hidden_threat_dialog_spooner_d3_first_1">
+	    <text>運び屋は死んでいた。ミュータントに殺された。これが荷物だ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d3_first_2">
+	    <text>軍曹、他に何か必要なものは？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d3_1_1">
+	    <text>荷物ありがとう、報酬だ。ああ･･････ 残念だ、最後の供給源を失ってしまった。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d3_2_1">
+	    <text>供給元、ですか？私に何かできることはないでしょうか。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d3_3_1">
+	    <text>たまにヤンターから科学者の護衛が来て、物資を補充してくれる。金払いもいいし、ケチることもない。中にはNATOの武器を持っている人もいて、その弾薬に興味があるようだ。知っての通り、我々はほとんど在庫がなく、ゾーンの外から調達もできない状況だから、できるものでやりくりしている。そこで提案だが、君がNATOの弾薬を持ってくれば、私たちも同じ種類の弾薬を同量渡そう。バラバラではなく、パック単位で頼む。最低20パック（280-300発）だ。カートリッジとアンダーバレル用弾薬は3パックずつだ。:
+\n1. 9x19弾を300発、代わりに9x18弾を320発と交換する。
+\n2. 5.56x45弾を300発、代わりに同量の5.45x39弾と交換する。
+\n3. 45口径の弾丸280発、代わりに9x39の弾丸90発と交換する。
+\n4. 7.62x51弾を300発、代わりに同量の7.62x54弾と交換する。
+\n5. M209グレネードを3個渡す、代わりにVOG-25を同量交換する。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d3_4_1">
+	    <text>わかりました、覚えておきます。</text>
+	</string>
+	<!-- D4 -->
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_first_1">
+	    <text>弾薬の交換をしたいのですが。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_1_1">
+	    <text>何と交換する？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_2_1">
+	    <text>9x19mm FMJ弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_3_1">
+	    <text>9x19mm ダム弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_4_1">
+	    <text>9x19mm bp弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_5_1">
+	    <text>5.56x45mm FMJ弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_6_1">
+	    <text>5.56x45mm EP弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_7_1">
+	    <text>5.56x45mm EPR弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_8_1">
+	    <text>.45ACP弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_9_1">
+	    <text>.45 Hydra-shock弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_10_1">
+	    <text>7.62x51mm NATO FMJを交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_11_1">
+	    <text>7.62x51mm NATO APを交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_12_1">
+	    <text>M209アンダーバレルグレネード弾を交換したいです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spooner_d4_13_1">
+	    <text>気が変わりました。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_jurov_first_1">
+	    <text>少佐！アグロプロムから書類を持ってきました。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jurov_1_1">
+	    <text>タ～ア～ア～･･････ ロジキン軍曹の会計報告を読んでいたんだ･･････ ありがとう、兵士。何がほしい？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jurov_1_2">
+	    <text>タ～ラ～ラ～･･････ ロジキン軍曹の会計報告を読んでいたんだ･･････ ありがとう、ストーカー、報酬をもらって早くいけ。私の顔に泥を塗るなよ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jurov_2_1">
+	    <text>農場にいるストーカーと話したいことがあるのですが、体に風穴を開けたくないんです。あのたかり屋と休戦協定を結べませんか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jurov_3_1">
+	    <text>お金を使うかもしれない。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jurov_4_1">
+	    <text>好意で、2時間だけ休戦させてあげよう。ストーカーに接近して基地に行くことは許すが、お前がドンパチを始めたら休戦は終わりだ。以上。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jurov_5_1">
+	    <text>ありがとうございます、同志少佐。</text>
+	</string>
+	
+	<!-- D1 -->
+	<string id="st_sl_hidden_threat_dialog_kirillov_d1_first_1">
+	    <text>兵隊、個人的な頼みがある。工場を警備しているダークバレーの部隊の無線機の1つが故障している。新しいものを送ってほしいといわれた。運び手が必要だ、できるか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kirillov_d1_1_1">
+	    <text>包んでリボンで結んでくれれば、最高の形でお届けしよう。</text>
+	</string>
+	<!-- D2 -->
+	<string id="st_sl_hidden_threat_dialog_kirillov_d2_first_1">
+	    <text>聞いてくれキリロフ、君は優秀な技術者だ。PDAを持っている、おそらく貴重な情報だろう。解除できるか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kirillov_d2_1_1">
+	    <text>やってみよう、早くても24時間、それ以上かかるかもしれない。終わったら教える。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kirillov_d2_2_1">
+	    <text>わかった、あまり長く待たせるなよ。</text>
+	</string>
+	<!-- D3 -->
+	<string id="st_sl_hidden_threat_dialog_kirillov_d3_first_1">
+	    <text>PDAはどうなった？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kirillov_d3_1_1">
+	    <text>あのPDAの解除は大変だった･･････ マジでな。特別な追加セキュリティモジュールがあってその中に少量の爆発物があった。それを解除しようとしたが、しくってな。それで消えたんだ。外付けドライブしか取り出せなかったが、情報が満載だった。カードはすべてマークアップされている。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_kirillov_d3_2_1">
+	    <text>マークされたカードか。PDAのことは気にするな。大佐に会いに行く。さよなうら、ありがとう。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_val_leader_squad_first_1">
+	    <text>はじめまして、Militaryのストーカーだよな？なぜここに来たんだ？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_val_leader_squad_1_1">
+	    <text>連絡用の無線を届けに来たんだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_val_leader_squad_2_1">
+	    <text>そういうことだったか、ありがとう！</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_val_leader_squad_3_1">
+	    <text>例はいらないさ。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_gorobez_first_1">
+	    <text>来てくれないと思っていた･･････ すまない･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_gorobez_1_1">
+	    <text>何を言ってるんだ？</text>
+	</string>
+	
+	<!-- D1 -->
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d1_first_1">
+	    <text>君は我々の2つの作戦を妨害した。迅速な対応だった。我々はそういう人材が必要なんだ。我々のために働くなら、安全を保障しよう。ゾーンから脱出させ世界各国の口座に送金しよう。選択肢は2つだけだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d1_1_1">
+	    <text>もう一つの選択肢は？</text>
+	</string>
+	<!-- D2 -->
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d2_first_1">
+	    <text>他に質問は？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d2_1_1">
+	    <text>遠慮しておこう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d2_2_1">
+	    <text>あまり時間がないので、君のことを待っている暇はないんだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d2_3_1">
+	    <text>(沈黙･･････)</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d2_4_1">
+	    <text>わかった、腹を割って話す気はないか。30分考える時間をやる。後でまた話そう。もう少し詳しくな、君次第だが。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_isg_leader_d2_5_1">
+	    <text>(沈黙･･････)</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_isg_agent_d1_first_1">
+	    <text>聞いてくれ！私はウクライナ保安庁の幹部だ。以前ならお互いのために指一本触れなかっただろう。ISGの潜入捜査も危うくなるからな。でも今日はちがう。我々の活動は台無しだ、ISGはどういうわけかストーカーの情報を得ていた。彼らが知ってるはずがない、デグチャレフとそのストーカーの会談についてもだ。デグチャレフ排除とストーカー拘束のため特別部隊を送った会談はホテルで行われる。特殊部隊は裏口から侵入し、デグチャレフとその宿敵を戦闘で絞り出し、中庭の狙撃用のオープンポジションに行く予定だ。狙撃手は向かいの家に待機する
+\n命を救ってやった恩があるよな？お前の任務は、大佐に罠を警告することだ。「死は待てず、生も待つべからず」 という言葉を忘れるな。合言葉がなければデグチャレフは君の額に弾丸を撃ち込むかもしれない、万一に備えてな。また、私は特に重要な情報を持っている、ISG pelenguetの通信を介しての裏切りは通用しない。私はデパートにケースを隠し、チャンスが来るのを待った。君はそのチャンスだ、デグチャレフにデパートの事件の情報を渡すんだ。わかったか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_isg_agent_d1_1_1">
+	    <text>はい、やります･･････ ありがとうございます。</text>
+	</string>
+	
+	<!-- D1 -->
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_first_1">
+	    <text>なぜここにいるのか説明してくれ。行ってはいけない場所に行ったのか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_1_1">
+	    <text>待ってください、大佐。“ラブレター”をお持ちしました。「死は待ってくれないし、生も待ってくれない」と。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_2_1">
+	    <text>よし、これで多少は信用できるな。どうやら、我々の身の安全を守ってくれたようだ。ありがとう。どんな状況でコードを覚えた？どんな情報を持っている？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_3_1">
+	    <text>病院では、ISGに捕まりました。ISGの隊員が不意に護衛を撃ち殺し、私の持ち物と武器を返してくれたのです。ウクライナ保安庁の少佐と名乗っておりました。ISGが用意している罠について、大佐に警告する任務を与え、暗号文を渡してきました。私は全速力で駆けつけましたが間に合わず、主な脅威であるあなたの後方のスナイパーを排除するため、独自の判断を下しました。もうひとつ、“ISGの幹部”から、デパートに隠したケースのことを教えてくれと言われました。彼によると、そこにはISGの活動に関する特別に重要な情報が入っているそうです。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_4_1">
+	    <text>なるほど、工作員が危険を冒してまで行ったのは正解だったようだ。ここには部下がいないので、この事件は君がやるしかない。アグロプロムの基地で会おう。頼んだぞ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d1_5_1">
+	    <text>分かりました、同志大佐！</text>
+	</string>
+	
+	<!-- D2 -->
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d2_first_1">
+	    <text>ケースは手に入れたか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d2_1_1">
+	    <text>はい、ここに。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d2_2_1">
+	    <text>よろしい、これは君のためだ。君は優秀な兵士だ、私の特別班に入れることにした。私の直属の部下になるんだ。クズネツォフが転属書類を手配する。とりあえず、後で連絡する。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d2_3_1">
+	    <text>はい、同志大佐！</text>
+	</string>
+	<!-- D3 -->
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d3_first_1">
+	    <text>お聞きしたいのですが･･･</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d3_2_1">
+	    <text>諜報員を通してISGの作戦本部がどこにあるかわかるはずなのに、なぜ彼らを始末しないのですか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d3_3_1">
+	    <text>ISGがゾーン内のいろいろなものを調査していて、目的を持って何かを探していることがわかりました。ISGがゾーンで行っている主な目的について教えてください。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d3_4_1">
+	    <text>プリピャチのあのストーカー、見覚えがある。ライフル兵だ！彼がISGにとってそれほど重要なのですか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d3_5_1">
+	    <text>基地を破壊することは、問題を遅らせるだけで、解決にはならない。ISGは新しいグループを投入するだろうし、そちらの方が成果を出していくかもしれない。ISGの準軍事組織が違法にゾーンにいるにもかかわらず、それを破壊すれば国際的なスキャンダルになる。我々の仕事は、外交官にISGの活動を信用させないような情報を提供することだ。そうすれば、彼らは勝手に出て行くし、我々も手伝うし、国連では誰も何も言わない。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d3_6_1">
+	    <text>ウクライナ保安庁の分析官は、ISGが到着したときからその目的を把握していたんだ。ISGが探しているのは、「ゾーン」が大量破壊兵器の開発の結果であり、国際安全保障の脅威であることを少しでも示唆するような情報だ。真実である必要はない。ISGがゾーンに関する国際調査を開始し、得られた資料を利用して、国際機関が調査を行うためにゾーンへの立ち入り権をウクライナに強制させるつもりのようだ。そうすれば、ウクライナの独占的な権利は事実上失われ、国連に支配権が移る。ISGの活動も自由にできるようになる。そして、調査が完了するまでは、ゾーンから出るようにとほかの派閥に強く勧告するつもりだろう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d3_7_1">
+	    <text>ISGの手に渡れば大惨事になり、作戦全体が失敗に終わる。しかし、それは君が心配することではない。私からのアドバイスは、このストーカーと彼に関係するすべてのことを忘れることだ。そうすれば長生きできる。</text>
+	</string>
+    <!-- D4 -->
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_first_1">
+	    <text>ストーカー %s が到着しました！</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_1_1">
+	    <text>楽にしてくれ！堅苦しいことは抜きだ。君に任務がある。諜報員からISGの活動に関する豊富な情報を得た。私はあるグループに興味があるのだが、諜報員は彼らの任務の目的を知ることができなかった、ISGの他のメンバーには秘密にされているのだ。彼の報告によると、このグループは2日おきに定期的に基地を出て、24時間後に戻ってくるそうだ。あなたの任務は、彼らの目的を突き止めることだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_2_1">
+	    <text>それだけですか、大佐？情報が少なすぎます。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_3_1">
+	    <text>それだけではない。先ほど、Mercenaryの情報提供者から、デッドシティに定期的に現れるISGの集団について聞いた。ダッシュマンは、私たちにデッドシティの南西にある一軒の家には近づかないよう厳重に警告してきたのだ。私はこれまで、ISGがそこに物資を供給しているのだと思い、この情報をあまり気にしていなかった。しかし、どうやらつながりがあるようだ。時間がある限り、静かにその場所を確認しに行って、そこにテープレコーダーのしおりを置いてきてくれ。今からちょうど2日後、それを拾って、持ってきてくれ。何か出てくるかもしれない。何か質問は？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_3_2">
+	    <text>他に質問は？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_4_1">
+	    <text>任務に関する質問はあるか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_5_1">
+	    <text>質問はありません、任務に赴きます。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_7_1">
+	    <text>なぜテープレコーダーなのですか、大佐？ホームレスみたいな連絡手段よりもっと高性能な無線機があるのでは？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d4_8_1">
+	    <text>ウクライナ保安庁より遥かに装備の整った組織を相手にしているのだ。彼らは探知機でどんな無線設備も検知する。脅かせば場所を変えてくれるだろう。キリロフはこの任務のために特別にレコーダーを作った。音を拾って録音を開始する。電波を発しないから、探知はほぼ不可能だ。</text>
+	</string>
+	<!-- D5 -->
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d5_first_1">
+	    <text>任務完了です。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d5_1_1">
+	    <text>よくやった。君とは別に、様子をビデオに撮っていた監視員も残してきた。今、私は技術者とともにすべての音声と映像の資料を分析する時間が必要だ。ISGは小規模ですが、Mercenaryがバックについていて、十分な資金を持っている。不穏な情報を得た。ISGとMercenaryはリマンスクに集中している。理由は明快だ。彼らはCNPPをターゲットにしている。そして、それは我々の活動全体を危うくするかもしれない。君がブレイン・スコーチャーを破壊してくれたおかげで分隊をCNPPに送ることができた。彼らに君を待つよう命令してある。そして、君の命令に従うようにも伝えた。君の任務はISGが石棺に到達するのを阻止することだ。主な目的はISGグループの排除だ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d5_2_1">
+	    <text>はい、同志大佐。</text>
+	</string>
+	<!-- D6 -->
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d6_first_1">
+	    <text>ISGは排除しました。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d6_1_1">
+	    <text>ご苦労だった。資料の分析が終わったぞ。ISGはMercenaryを使った闇ルートでの流通と供給を確立している。君がレコーダーを仕掛けた家では武器や弾薬とアーティファクトの取引をしていた。まあ･･････ 国連は自身の「手練手管」の組織が密輸組織であることを好まないだろうな。十分な情報が揃った、外交の時間だ。私はビッグアースへ行く。戻るまでクズネツォフの管轄に戻れ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_degtyarev_d6_2_1">
+	    <text>地獄を見せてやりましょう、大佐。</text>
+	</string>
+	
+	<!-- D1 -->
+	<string id="st_sl_hidden_threat_dialog_vereshagin_d1_first_1">
+	    <text>状況を説明しよう。お前たちが少しばかりウンチクを垂れていたので、私が介入することになった。君たちがCNPPグループにちょっかいを出している間に、それも隠れ蓑にして、本隊がインテリたちと一緒にX-8に乗り込んで、どうやら探す必要のないものを見つけてしまったようなんだ。そこで、ゾーンでのISG戦闘任務の責任者であるヘルナンデスから、総括と避難の準備が命じられた。臭わないか？何か強烈な臭いがする。ウクライナ保安庁のトップは作戦連絡で、ISG本部を清算し、今までのことは水に流し、ゾーンから口外するなとゴーサインを出したんだ。ウクライナはその後、外交的な影響を受けるだろうが、ISGが持っているかもしれない情報、それが国連に流出した場合よりもはるかに些細だろうな。
+\n ISGが拠点に選んだのは、身を潜めるには絶好の場所だが、戦略という点ではうんざりするような場所だ。プリピャチ側とジュピター側に「ケージ」を置いたが、簡単だったな。ネズミが抜ける穴一つないだろうよ。さて、難しいのは、お前が何をしなければならないかだ。経験豊富な戦闘員で構成される突撃隊を率いて、このネズミの巣を一掃してくれ。突入したら、撃ってくる奴は全員排除しろ。それとも他の者に任せるか？ママに会いたいか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_vereshagin_d1_1_1">
+	    <text>俺を止められる奴はいません、同志少佐！</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_vereshagin_d1_2_1">
+	    <text>いい姿勢だ、戦士よ。認めよう。早くいけ、時間がないぞ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_vereshagin_d1_3_1">
+	    <text>イエッサー</text>
+	</string>
+	<!-- D2 -->
+	<string id="st_sl_hidden_threat_dialog_vereshagin_d2_first_1">
+	    <text>同志少佐･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_vereshagin_d2_1_1">
+	    <text>ISGの本部が破壊されたと無線で連絡を受けている。部隊とウクライナ保安庁を派遣した。彼らはそこで価値のあるものをすべて持ち帰るだろう。ISGの残党はまだ残っているだろうが、供給がない今、脅威には値しない。よくやった。みんなよくやった。作戦は終了した。作戦の詳細は国家機密だ、死にたくなければ口外するな。喋るとウクライナ保安庁に目を付けられるぞ。これは俺からの個人的なプレゼントだ。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_vereshagin_d2_2_1">
+	    <text>ありがとうございます、同志少佐。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_first_1">
+	    <text>偵察情報を報告します！監視員によると、Monolithは正面入り口を押さえています。Mercenaryは彼らと戦闘しています。戦いは順調のようですが、Monolithは戦力を結集しており、間もなくMercenaryは敗北するでしょう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_1_1">
+	    <text>むむ、ISGグループはどこだ？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_2_1">
+	    <text>言えません。偵察隊は彼らの居場所を突き止められませんでした。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_3_1">
+	    <text>まずいな･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_4_1">
+	    <text>偵察者の一人から通信が途絶えました。彼の仕事は病院までの道のりを連絡することです。最後の連絡は1時間前で、応答がありません。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_aes_leader_squad_5_1">
+	    <text>時間がない、確認する余裕もない、思い切って目隠しのごとく行くしかない。どうせここでやることはないのだから、このままお互い削りあってもらった方がいい。行くぞ！</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_jup_agent_d1_first_1">
+	    <text>攻撃班、警戒中。攻撃を開始しますか？</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jup_agent_d1_1_1">
+	    <text>行こう。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_jup_agent_d1_2_1">
+	    <text>まだだ。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_spirit_d1_first_1">
+	    <text>何かあったのか？建物の外に血痕があるのに薬莢がないのは不意を突かれたからだ。反撃はしていないようだ。次に何が起こるか･･････</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spirit_d1_1_1">
+	    <text>[続ける･･････]</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_spirit_d2_first_1">
+	    <text>建物内にいたストーカーたちは、すぐに事態に気づかず、2つの入り口から攻撃され、ほとんど抵抗できなかった。5.56x45 NATOの薬莢･･････ Mercenaryのようだ。ふむ･･････ 攻撃は2日前で、弾痕はまだ暖かい。襲撃者はここでキャンプしていたから、見逃していたのか。なんであれ、もうここにはだれもいない。大佐に報告しないと。</text>
+	</string>
+	
+	<string id="st_sl_hidden_threat_dialog_all_1_1">
+	    <text>了解しました。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_all_1_2">
+	    <text>わかった。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_all_1_3">
+	    <text>了解です。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_all_1_4">
+	    <text>了解です、大佐。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_all_2_1">
+	    <text>続けてください。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_all_2_2">
+	    <text>続けてください。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_all_2_3">
+	    <text>続けてください。</text>
+	</string>
+	<string id="st_sl_hidden_threat_dialog_all_3_1">
+	    <text>気が変わったんです。</text>
+	</string>
+	
+	<string id="encyclopedia__notes_note_from_spooner">
+		<text>ロジキン軍曹のメモ</text>
+	</string>
+	<string id="encyclopedia__notes_note_from_spooner_text">
+		<text>ロジキン軍曹は交換を提案してきた。9x19弾薬を300発持っていくと、9x18弾薬を320発もらう。5.56x45弾薬を300発持っていくと、同量の5.45x39をもらう。.45弾薬を280発持っていくと、その代わりに9x39弾薬を90発もらう。
+\n - 7.62x51弾を300発渡す、その代わりに同量の7.62x54弾をもらう。
+\n - M209手榴弾を5個渡す、その代わりにVOG-25手榴弾を同量もらう。</text>
+	</string>
+</string_table>

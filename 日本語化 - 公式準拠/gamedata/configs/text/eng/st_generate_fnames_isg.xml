@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="name_d_isg_private_0">
+        <text>二等兵</text>
+    </string>
+    <string id="name_d_isg_private_1">
+        <text>二等兵</text>
+    </string>
+    <string id="name_d_isg_private_2">
+        <text>一等兵</text>
+    </string>
+    <string id="name_d_isg_private_3">
+        <text>上等兵</text>
+    </string>
+    <string id="name_d_isg_private_4">
+        <text>上等兵</text>
+    </string>
+    <string id="name_d_isg_private_5">
+        <text>伍長</text>
+    </string>
+    <string id="name_d_isg_sergeant_0">
+        <text>軍曹</text>
+    </string>
+    <string id="name_d_isg_sergeant_1">
+        <text>軍曹</text>
+    </string>
+    <string id="name_d_isg_sergeant_2">
+        <text>軍曹</text>
+    </string>
+    <string id="name_d_isg_sergeant_3">
+        <text>曹長</text>
+    </string>
+    <string id="name_d_isg_sergeant_4">
+        <text>曹長</text>
+    </string>
+    <string id="name_d_isg_sergeant_5">
+        <text>准尉</text>
+    </string>
+    <string id="name_d_isg_lieutenant_0">
+        <text>少尉</text>
+    </string>
+    <string id="name_d_isg_lieutenant_1">
+        <text>中尉</text>
+    </string>
+    <string id="name_d_isg_lieutenant_2">
+        <text>中尉</text>
+    </string>
+    <string id="name_d_isg_captain_0">
+        <text>大尉</text>
+    </string>
+</string_table>

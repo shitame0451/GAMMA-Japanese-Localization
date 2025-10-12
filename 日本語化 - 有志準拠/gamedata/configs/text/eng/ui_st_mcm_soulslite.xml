@@ -1,0 +1,439 @@
+<string_table>
+	<string id="ui_mcm_menu_soulslike">
+		<text>Soulslike</text>
+	</string>
+
+    <!--General-->
+	<string id="ui_mcm_soulslike_general">
+		<text>全般設定</text>
+	</string>
+	<string id="ui_mcm_soulslike_general_title">
+		<text>Soulslike Settings</text>
+	</string>
+	<string id="ui_mcm_soulslike_general_description">
+		<text>ソウルライクモードでは、厳密には死は起こりません。“死亡”した場合、ゾーン内にいるストーカーがあなたを救助します。\n彼らはあなたを復活地点に連れて行き、目を覚ましたあなたは、救助者から見つかった場所や、あなたを安全な場所に連れて行くために彼らがどれだけの努力をしたのかを知ることができるメッセージを受け取ります。\n所持していたアイテムは回収しなければなりません。一部は失われ、耐久値が劣化していることもあります。</text>
+	</string>
+	<string id="ui_mcm_soulslike_general_disclaimer">
+		<text>%c[d_red]注意事項: %c[ui_gray_1]このModはゲームを難しくすることを意図しているため、予期せずに装備が失われる状況に陥る可能性は100%あり得ます。\n死亡時のランダムなアイテムロストは武器や防具の紛失を意味し、アノマリーの中で死亡すると装備が回収できなくなる可能性があります。\n予備の装備を用意することをおすすめします。常に最悪の事態を想定し、最善の策を講じてください。</text>
+	</string>
+
+    <!--Character-->
+	<string id="ui_mcm_soulslike_character">
+		<text>キャラクター</text>
+	</string>
+	<string id="ui_mcm_soulslike_character_title">
+		<text>Character Settings</text>
+	</string>
+	<string id="ui_mcm_soulslike_character_rank_loss_percent">
+		<text>ランクの損失率 (%)</text>
+	</string>
+	<string id="ui_mcm_soulslike_character_rank_loss_percent_desc">
+		<text>復活時に失われるキャラクターのランクの量を調整します。</text>
+	</string>
+	<string id="ui_mcm_soulslike_character_rep_loss_percent">
+		<text>評判の損失率 (%)</text>
+	</string>
+	<string id="ui_mcm_soulslike_character_rep_loss_percent_desc">
+		<text>復活時に失われるキャラクターの評判の量を調整します。これは個人の評判であり、派閥の評価・評判ではありません。</text>
+	</string>
+	<string id="ui_mcm_soulslike_character_health_loss_on_respawn">
+		<text>復活時の体力減少率 (%)</text>
+	</string>
+	<string id="ui_mcm_soulslike_character_health_loss_on_respawn_desc">
+		<text>復活時に減少する体力の量を調整します。\n例: 25%に設定した場合、復活時には体力が75%残ります。この設定は、あなたが復活時にまだ負傷しており、アイテムの回収を試みる前に医薬品が必要であるという考え方が元になっています。</text>
+	</string>
+    <string id="ui_mcm_soulslike_character_allow_rep_loss">
+        <text>評判の低下を有効化</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_allow_rank_loss">
+        <text>ランクの低下を有効化</text>
+    </string>
+    <!--Items-->
+	<string id="ui_mcm_soulslike_items">
+		<text>アイテム</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_title">
+		<text>Item Settings</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_keep_equipped_items_on_death">
+		<text>死亡時に装備アイテムを保持する</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_allow_desc">
+		<text>以下の設定は死亡時に落とされるアイテムに適用されます。以下の各アイテムは、チェックを外さない限り永久に失われる可能性があります。</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_allow_weapon_loss">
+		<text>武器の紛失を許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_allow_outfit_loss">
+		<text>スーツの紛失を許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_allow_headgear_loss">
+		<text>ヘッドギアの紛失を許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_allow_artifact_loss">
+		<text>アーティファクトの紛失を許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_allow_tool_loss">
+		<text>ツールの紛失を許可する</text>
+	</string>
+    <string id="ui_mcm_soulslike_items_allow_money_loss">
+        <text>所持金の紛失を許可する</text>
+    </string>
+	<string id="ui_mcm_soulslike_items_scalar_description">
+		<text>アイテムの紛失はプレイヤーのランクに基づいています。復活すると、ランクが高いほどアイテムを失ったり、耐久値が低下する可能性が高くなります。これにより、新しいゲームを開始した直後は簡単になりますが、進むにつれてより難しくなります。</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_item_loss_scalar">
+		<text>アイテムを失う確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_item_loss_scalar_desc">
+		<text>キャラクターのランクが最大のとき、死亡時に各アイテムを失う基本確率は75%です。この値を調整することで、確率を好みに合わせて変更できます。初期設定は0.20（20%）で、アイテム1つあたりの紛失確率は最大15%です。\nこの値は自由に調整することができます。例として、値を0.10（10%）に設定すると、1アイテムあたりの紛失確率は7.5%になります。0.30（30%）に設定すれば22.5%に増加し、0.40（40%）なら30%まで上がります。プレイスタイルに合ったリスクと報酬のバランスを見つけましょう。</text>
+	</string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_loss_chance">
+        <text>アイテムを失う確率にランクを考慮しない</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_loss_chance_desc">
+        <text>ガラスにタマを擦り付けて、アルコールに浸すのがあなたの趣味なのかもしれませんが･･････ そこはご自由に。この設定を有効にすると、アイテムを失う確率の計算時にキャラクターのランクを無視するため、紛失するリスクが上がります。</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_item_condition_loss_scalar">
+		<text>アイテムが劣化する確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_item_condition_loss_scalar_desc">
+		<text>キャラクターのランクが最大のとき、死亡時に各アイテムの耐久値が18ポイント減少します。この値を調整することで、劣化量を好みに合わせて変更できます。初期設定は0.05（5%）で、アイテム1つあたりの劣化率は最大3.7ポイントです。\nこの値は自由に調整することができます。例として、値を0.05（5%）に設定すると、1アイテムあたりの劣化率は最大3.7ポイントになります。0.10（10%）に設定すれば7.4ポイントに増加し、0.15（15%）なら11ポイントまで上がります。プレイスタイルに合ったリスクと耐久値のバランスを見つけましょう。</text>
+	</string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_condition_loss">
+        <text>アイテムが劣化する確率にランクを考慮しない</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_ignore_rank_when_computing_item_condition_loss_desc">
+        <text>ハイヒールでタマを踏みつけられるのがあなたの趣味なのかもしれませんが･･････ 好みは人それぞれですからね。この設定を有効にすると、アイテムが劣化する確率の計算時にキャラクターのランクを無視するため、耐久値が減りやすくなります。</text>
+    </string>
+    
+    <!--Scenarios-->
+	<string id="ui_mcm_soulslike_scenarios">
+		<text>シナリオ</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_title">
+		<text>Scenario Settings</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_description">
+		<text>ソウルライクのシナリオはその性質上、動的に変化します。復活イベントは以下の要因に基づいて発生します:\n %c[0,255,255,255]• %c[ui_gray_1]あなたを “殺した” 相手\n %c[0,255,255,255]• %c[ui_gray_1]あなたが “殺された” 方法\n %c[0,255,255,255]• %c[ui_gray_1]あなたが “死んだ” 場所\n %c[0,255,255,255]• %c[ui_gray_1]あなたが “死んだ” 時、復活地点にどれだけ近かったか\n %c[0,255,255,255]• %c[ui_gray_1]あなたが “死んだ” 時、屋内にいたか屋外にいたか\n以下では、いくつかのシナリオの比重を変更することができます。</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight">
+		<text>RF受信機シナリオの比重</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
+		<text>このシナリオでは、あなたを救助した人物は、すべての持ち物を発見されたマップ上のスタッシュに保管します。それを見つけるためのRF周波数が設定されています。</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_hidden_stash_scenario_weight">
+		<text>スタッシュシナリオの比重</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
+		<text>このシナリオでは、あなたを救助した人物は、すべての持ち物をスタッシュに移動し、その場所をあなたのPDAにマークします。</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_looter_npcs_marked">
+		<text>略奪したNPCをPDAでマークする</text>
+	</string>
+	<string id="ui_mcm_soulslike_scenarios_rf_detector_scenario_weight_desc">
+		<text>あなたの持ち物を略奪したNPCをPDAマップに表示します。</text>
+	</string>
+
+    <!--Ambush-->
+	<string id="ui_mcm_soulslike_ambush">
+		<text>待ち伏せ</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_title">
+		<text>Ambush Settings</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_description">
+		<text>シナリオ中での出来事や、キャラクターが持っているアイテムによって、あなたの死体が発見された場所で待ち伏せイベントが発生する可能性があります。</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_mutant_ambush_chance">
+		<text>ミュータントが待ち伏せをする確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_boar_ambush">
+		<text>ボアの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_flesh_ambush">
+		<text>フレッシュの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_dogs_ambush">
+		<text>犬の待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_cats_ambush">
+		<text>キャットの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_snorks_ambush">
+		<text>スノークの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_bloodsucker_ambush">
+		<text>ブラッドサッカーの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_burer_ambush">
+		<text>バーラーの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_chimera_ambush">
+		<text>キメラの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_controller_ambush">
+		<text>コントローラーの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_stalker_ambush_chance">
+		<text>ストーカーが待ち伏せをする確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_stalker_novice_ambush">
+		<text>初級のストーカーの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_stalker_advanced_ambush">
+		<text>経験豊富なストーカーの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_stalker_veteran_ambush">
+		<text>マスターストーカーの待ち伏せを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_ambush_allow_stalker_sniper_ambush">
+		<text>スナイパーストーカーの待ち伏せを許可する</text>
+	</string>
+
+    <!--Hardcore-->
+	<string id="ui_mcm_soulslike_hardcore">
+		<text>ハードコア</text>
+	</string>
+	<string id="ui_mcm_soulslike_hardcore_title">
+		<text>Hardcore Settings</text>
+	</string>
+	<string id="ui_mcm_soulslike_hardcore_save_description">
+		<text>%c[ui_gray_1]クイックセーブとキャンプファイヤーセーブは無効化され、同時に存在できるのは1つのセーブファイルのみになります。「ハードコアセーブ」では、睡眠時と復活時にのみセーブが許可されます。すべての装備を失い、回復や食事のためのお金がない場合、進行が難しいか不可能な状況に陥る可能性があることに注意してください。</text>
+	</string>
+	<string id="ui_mcm_soulslike_hardcore_is_enabled">
+		<text>ハードコアセーブを有効にする</text>
+	</string>
+	<string id="ui_mcm_soulslike_hardcore_override_campfire_hardcore_saves">
+		<text>ハードコアセーブ中にキャンプファイヤーセーブを許可する</text>
+	</string>
+	<string id="ui_mcm_soulslike_hardcore_override_campfire_hardcore_saves_desc">
+		<text>時折、頻繁にセーブすることで得られる安心感が必要です。これにより、「ハードコアセーブ」が有効であっても、キャンプファイヤーでのセーブが可能となります。ただし、「ハードコアセーブ」が有効の場合、睡眠時と復活時にキャンプファイヤーのセーブは削除されることに注意してください。</text>
+	</string>
+    <string id="ui_mcm_soulslike_hardcore_lose_all_items_on_death">
+        <text>死亡時にすべてのアイテムを失う</text>
+    </string>
+    <string id="ui_mcm_soulslike_hardcore_lose_all_items_on_death_desc">
+        <text>この設定を有効にすると、死亡時にすべてのアイテムを失います。このオプションは「アイテム」カテゴリ内の設定より優先されます。</text>
+    </string>
+
+    <!--Debug-->
+	<string id="ui_mcm_soulslike_debug">
+		<text>開発者用</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_title">
+		<text>Developer Settings</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_is_enabled">
+		<text>デバッグモード</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_enable_tips">
+		<text>PDAメッセージを表示</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_hidden_stashes">
+		<text>(デバッグ用) Hidden Stashes</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_item_loss">
+		<text>(デバッグ用) Item Loss</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_the_tarkov_looter">
+		<text>(デバッグ用) Tarkov Looter</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_the_noloss_scenario">
+		<text>(デバッグ用) No Loss Scenario</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_the_default_scenario">
+		<text>(デバッグ用) Default Loss Scenario</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_the_rf_scenario">
+		<text>(デバッグ用) RF Detector Scenario</text>
+	</string>
+	<string id="ui_mcm_soulslike_debug_debug_the_hidden_stash_scenario">
+		<text>(デバッグ用) Hidden Stash Scenario</text>
+	</string>
+    <string id="ui_mcm_soulslike_items_outfit_loss_chance">
+        <text>スーツの紛失確率</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_outfit_loss_chance_desc">
+        <text>死亡時にスーツを失う確率の倍率を調整します。0にすると紛失しなくなり、1にすると計算された確率がそのまま適用されます。</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_loss_chance">
+        <text>武器の紛失確率</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_loss_chance_desc">
+        <text>死亡時に武器を失う確率の倍率を調整します。0にすると紛失しなくなり、1にすると計算された確率がそのまま適用されます。</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_loss_chance">
+        <text>Artefact Loss Chance</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_loss_chance_desc">
+        <text>Multiplier for the chance to lose an artefact on death. 0 disables loss, 1 uses the full calculated chance.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_loss_chance">
+        <text>Headgear Loss Chance</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_loss_chance_desc">
+        <text>Multiplier for the chance to lose headgear on death. 0 disables loss, 1 uses the full calculated chance.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_toolkit_loss_chance">
+        <text>Toolkit Loss Chance</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_toolkit_loss_chance_desc">
+        <text>Multiplier for the chance to lose a toolkit on death. 0 disables loss, 1 uses the full calculated chance.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_other_loss_chance">
+        <text>Other Item Loss Chance</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_other_loss_chance_desc">
+        <text>Multiplier for the chance to lose other items on death. 0 disables loss, 1 uses the full calculated chance.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_outfit_condition_loss_chance">
+        <text>スーツの劣化倍率</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_outfit_condition_loss_chance_desc">
+        <text>死亡時にスーツが劣化する確率の倍率を調整します。0にすると劣化しなくなり、1にすると計算された確率がそのまま適用されます。</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_condition_loss_chance">
+        <text>Weapon Condition Loss Multiplier</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_weapon_condition_loss_chance_desc">
+        <text>Scales the condition loss chance for weapons on death. 0 disables, 1 uses the full calculated chance.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_condition_loss_chance">
+        <text>Artefact Condition Loss Multiplier</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_artefact_condition_loss_chance_desc">
+        <text>Scales the condition loss chance for artefacts on death. 0 disables, 1 uses the full calculated chance.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_condition_loss_chance">
+        <text>Headgear Condition Loss Multiplier</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_headgear_condition_loss_chance_desc">
+        <text>Scales the condition loss chance for headgear on death. 0 disables, 1 uses the full calculated chance.</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_loss_chance_per_type_desc">
+        <text>アイテムを失う確率を種類別に調整できます。最終的な確率は、基礎確率にこのスライダーの値を掛けたものになります。0に設定するとそのアイテムの紛失を無効化、1にすると計算された確率がそのまま適用されます。</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_condition_loss_per_type_desc">
+        <text>アイテムが劣化する確率を種類別に調整できます。最終的な劣化量は、基礎劣化値にこのスライダーの値を掛けたものになります。0に設定するとそのアイテムの劣化を無効化、1にすると計算された劣化量がそのまま適用されます。</text>
+    </string>
+
+    <!-- Ignored Items -->
+    <string id="ui_mcm_soulslike_ignored_items">
+        <text>アイテムの除外設定</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_title">
+        <text>Ignored Items Settings</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_desc">
+        <text>チェックを入れたアイテムは、他の設定に関わらず、死亡しても絶対に失われません。</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_bolt">
+        <text>ボルト</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_itm_actor_backpack">
+        <text>クイックリリースシステム</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda">
+        <text>PDA</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_1">
+        <text>PDA 1</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_2">
+        <text>PDA 2</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_device_pda_3">
+        <text>PDA 3</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_detector_radio">
+        <text>RF受信機</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife">
+        <text>ナイフ</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife2">
+        <text>ナイフ 2</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife3">
+        <text>ナイフ 3</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife4">
+        <text>ナイフ 4</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife5">
+        <text>ナイフ 5</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife6">
+        <text>ナイフ 6</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife7">
+        <text>ナイフ 7</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife8">
+        <text>ナイフ 8</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_knife9">
+        <text>ナイフ 9</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_axe">
+        <text>斧</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_axe2">
+        <text>斧 2</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_wpn_axe3">
+        <text>斧 3</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_bandage">
+        <text>包帯</text>
+    </string>
+    <string id="ui_mcm_soulslike_ignored_items_medkit">
+        <text>医療キット</text>
+    </string>
+    <string id="ui_mcm_soulslike_character_allow_nighttime_respawn_desc">
+        <text>夜間の復活を許可する</text>
+    </string>
+    <string id="ui_mcm_soulslike_allow_nighttime_respawn_desc">
+        <text>無効にすると、夜間に復活する場合は時間が自動的に朝（7～9時）に進められます。</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_max_percent">
+        <text>失う所持金の量（%）</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_chance">
+        <text>所持金を失う確率</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_max_percent_desc">
+        <text>死亡時に失う所持金の最大割合を調整します。実際に失う金額の量は、ここで設定した値までのランダムな割合になります。</text>
+    </string>
+    <string id="ui_mcm_soulslike_items_money_loss_chance_desc">
+        <text>死亡時に所持金を失う確率を調整します。1.0なら必ず失い、0.5なら50%の確率で失います。</text>
+    </string>
+    
+	<string id="ui_mcm_soulslike_items_outfit_keep_chance">
+		<text>死亡時にスーツを保持する確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_outfit_keep_chance_desc">
+		<text>「スーツの紛失を許可する」が有効な場合、このスライダーで復活時にスーツが残る確率を設定します。0 = 必ず失う、1 = 必ず保持</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_headgear_keep_chance">
+		<text>死亡時にヘッドギアを保持する確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_headgear_keep_chance_desc">
+		<text>「ヘッドギアの紛失を許可する」が有効な場合、このスライダーで復活時にヘッドギアが残る確率を設定します。0 = 必ず失う、1 = 必ず保持</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_weapon_keep_chance">
+		<text>死亡時に武器を保持する確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_weapon_keep_chance_desc">
+		<text>「武器の紛失を許可する」が有効な場合、このスライダーで復活時に武器が残る確率を設定します。0 = 必ず失う、1 = 必ず保持</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_artifact_keep_chance">
+		<text>死亡時にアーティファクトを保持する確率</text>
+	</string>
+	<string id="ui_mcm_soulslike_items_artifact_keep_chance_desc">
+		<text>「アーティファクトの紛失を許可する」が有効な場合、このスライダーで復活時にアーティファクトが残る確率を設定します。0 = 必ず失う、1 = 必ず保持</text>
+	</string>
+    
+</string_table>

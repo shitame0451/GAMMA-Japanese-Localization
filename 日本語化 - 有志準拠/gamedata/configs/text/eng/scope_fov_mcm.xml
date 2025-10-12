@@ -1,0 +1,78 @@
+<!-- 
+	Anomaly Modconfiguration Menu strings
+	
+-->
+
+<string_table>
+
+
+	<string id="ui_mcm_scop_title">
+		<text>Scope HUD Settings</text>
+	</string>	
+	<string id="ui_mcm_menu_scop">
+		<text>Adjust Scope HUD</text>
+	</string>
+
+	<string id="ui_mcm_scop_iron_fov">
+		<text>アイアンサイトと一体型3Dサイト</text>
+	</string>
+	<string id="ui_mcm_scop_iron_fov_desc">
+		<text>低い値にするほどアイアンサイトや一体型3Dサイトを使用する際にスコープの表示が近くなります。</text>
+	</string>
+
+	<string id="ui_mcm_scop_scope_fov">
+		<text>3Dスコープ</text>
+	</string>
+	<string id="ui_mcm_scop_scope_fov_desc">
+		<text>低い値にするほど3Dスコープを使用する際にスコープの表示が近くなります。</text>
+	</string>
+
+	<string id="ui_mcm_scop_bad_scope_fov">
+		<text>一部の3D光学スコープ用設定</text>
+	</string>
+	<string id="ui_mcm_scop_bad_scope_fov_desc">
+		<text>技術的な制限のため、ACOGのような特定のスコープは、デフォルトではより遠くにないと正常に見えません。この設定はそのようなスコープのためのものです。</text>
+	</string>
+
+	<string id="ui_mcm_scop_pistol_fov">
+		<text>ピストル</text>
+	</string>
+	<string id="ui_mcm_scop_pistol_fov_desc">
+		<text>ピストルを表示する距離の設定です。</text>
+	</string>
+
+	<string id="ui_mcm_scop_grenade_fov">
+		<text>グレネードランチャー</text>
+	</string>
+	<string id="ui_mcm_scop_grenade_fov_desc">
+		<text>数値が低いほど、付属のグレネードランチャーを使用する際にスコープが近くなります。</text>
+	</string>
+	<string id="ui_mcm_scop_alt_fov">
+		<text>Alternate Aim sights</text>
+	</string>
+	<string id="ui_mcm_scop_alt_fov_desc">
+		<text>Lower values bring the scope closer when using attached grenade launchers.</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_add">
+		<text>武器をより遠くに表示 (Adjust Scope HUD)</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_add_desc">
+		<text>HUD FOVのズームを増加させることで、持っている武器をより遠くへ表示させます。</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_subtract">
+		<text>武器をより近くに表示 (Adjust Scope HUD)</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_subtract_desc">
+		<text>HUD FOVのズームを減少させることで、持っている武器をより近くへ表示させます。</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_reset">
+		<text>現在の武器の表示位置をリセット (Adjust Scope HUD)</text>
+	</string>
+	<string id="ui_mcm_scop_keybind_reset_desc">
+		<text>持っている武器のズーム値を通常に戻します。</text>
+	</string>
+
+	<string id="ui_mcm_scop_snk_update_mcm">
+		<text>MCMをアップデートしてこの機能を確認してください。キーのデフォルトはNumpadの+と-、持っている銃をリセットするキーはBackspaceに設定されています。</text>
+	</string>
+</string_table>

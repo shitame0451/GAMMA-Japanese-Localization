@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--===========================================================
+<
+< TEXT STRINGS FOR LOST TO THE ZONE: MORTAL SIN TASKS
+<	Anomaly 1.5 - Lost to the Zone: Mortal Sin
+<
+<===========================================================-->
+
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="drekavac_notes_name">
+		<text>ドレカヴァクの手記</text>
+	</string>
+	<string id="drekavac_notes_desc">
+		<text>%c[pda_white]「数年の辛い準備期間を経て、ようやく指導者たちの計画を継続することができた。多くの人に信じてもらえないのは残念だが、言葉だけでは足りないこともある。彼らは人間の下らない欲望に目がくらんでいる。どうしても暴力を振るうのであれば、私たちも暴力を振るう。そうすれば、彼らも理解してくれるかもしれない。ヴィーラージの種が芽吹き、その楽園をさらに遠くへと広げるために私はここにいる。私は槍の穂先である。」\n \n
+%c[pda_white]特性:\n
+%c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
+	</string>
+	<string id="chernobog_notes_name">
+		<text>チェルノボグの手記</text>
+	</string>
+	<string id="chernobog_notes_desc">
+		<text>%c[pda_white]「ゾーンは奇跡だ。指導者たちが我々を浄化してくれた。すぐに、ゾーンが世界を浄化するだろうと思っていた。しかし、そうではなかった。我々の小さな楽園は、罪深い世界の欠陥ある人々によって、すぐに侵害された。ストレロックという名の獣がMonolithを倒し、指導者たちの部屋に入って彼らを殺したのだ。しかし、私は絶望しない。この奇跡を、価値のない者たちの悪徳と汚物に食い尽くさせるわけにはいかない。だから、我々Sinは、指導者たちの願いを叶えるために、旅に出なければならない。我々は暴力を振るい、永遠の平和をもたらすために戦争を仕掛けなければならない。」\n \n
+%c[pda_white]特性:\n
+%c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
+	</string>
+	<string id="attackers_pda_name">
+		<text>Sinの分隊長のPDA</text>
+	</string>
+	<string id="attackers_pda_desc">
+		<text>%c[pda_white]このPDAはSinの分隊長が持っていたものだ。レッドフォレストの地図が入っており、いくつかの場所がマークされている。その中にまだ未確認の地点が一つある。この分隊は誰かを追跡しており、その人物を見つける寸前だったようだ。さらに、暗号化された貴重なデータもたくさん含まれている。\n \n
+%c[pda_white]特性:\n
+%c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
+	</string>
+	<string id="contact_lost_pda_name">
+		<text>偵察隊リーダーのPDA</text>
+	</string>
+	<string id="contact_lost_pda_desc">
+		<text>%c[pda_white]このPDAは偵察隊のリーダーが持っていたものだ。彼は不運にも命を落とす前に、敵勢力に関する情報の記録に成功していたようだ。\n \n
+%c[pda_white]特性:\n
+%c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
+	</string>
+	<string id="vodnik_notes_name">
+		<text>ヴォドニクの手記</text>
+	</string>
+	<string id="vodnik_notes_desc">
+		<text>%c[pda_white]「ゾーンの素晴らしさを初めから理解していた者も、説明を求めた者も、多くの者が私たちの大義に加わった。私は創設者たちが羨ましい。彼らは指導者たちによって作られ、ヴィーラージの誕生を目の当たりにすることができたのだから！しかし、彼らは私たちを浄化し、私たちが価値ある存在であると認めてくれた。そして新たな仲間たちも浄化してくれるだろう。私たちは共に、この言葉を世界中に広めよう。」\n \n
+%c[pda_white]特性:\n
+%c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+	<!-- Mortal Sin Task 1 -->
+	<string id="lttz_ms_start_title">
+		<text>死すべきSin: 謎の使者</text>
+	</string>
+	<string id="lttz_ms_start_dolg_descr">
+		<text>ヴォロニン将軍は、100ラッズ・バーでストーカーたちを困らせている謎の特使を尋問してほしいと言っている。</text>
+	</string>
+	<string id="lttz_ms_start_dolg_descr_talk">
+		<text>特使から有益な情報を得た。ヴォロニン将軍に報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_dolg_descr_kill">
+		<text>有益な情報を入手し、謎の使者を殺害した。ヴォロニン将軍に報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_killer_descr">
+		<text>ダッシュマンは、デッドシティの基地で傭兵たちを困らせている謎の特使を尋問してほしいと言っている。</text>
+	</string>
+	<string id="lttz_ms_start_killer_descr_talk">
+		<text>特使から有益な情報を得た。ダッシュマンに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_killer_descr_kill">
+		<text>有益な情報を入手し、謎の使者を殺害した。ダッシュマンに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_stalker_descr">
+		<text>シドロヴィッチは、ルーキー村でストーカーたちを困らせている謎の特使を尋問してほしいと言っている。</text>
+	</string>
+	<string id="lttz_ms_start_stalker_descr_talk">
+		<text>特使から有益な情報を得た。シドロヴィッチに報告する</text>
+	</string>
+	<string id="lttz_ms_start_stalker_descr_kill">
+		<text>有益な情報を入手し、謎の使者を殺害した。シドロヴィッチに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_csky_descr">
+		<text>コールドは秘密基地のストーカーたちを困らせている謎の特使を尋問してほしいと言っている。</text>
+	</string>
+	<string id="lttz_ms_start_csky_descr_talk">
+		<text>特使から有益な情報を得た。コールドに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_csky_descr_kill">
+		<text>有益な情報を入手し、謎の使者を殺害した。コールドに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_freedom_descr">
+		<text>ルーカッシュは、Freedom本部でストーカーたちを困らせている謎の特使を尋問してほしいと言っている。</text>
+	</string>
+	<string id="lttz_ms_start_freedom_descr_talk">
+		<text>特使から有益な情報を得た。ルーカッシュに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_freedom_descr_kill">
+		<text>有益な情報を入手し、謎の使者を殺害した。ルーカッシュに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_ecolog_descr">
+		<text>サハロフ教授は、移動研究所の近くで護衛たちを困らせている謎の特使を尋問してほしいと言っている。</text>
+	</string>
+	<string id="lttz_ms_start_ecolog_descr_talk">
+		<text>特使から有益な情報を得た。サハロフ教授に報告しよう。</text>
+	</string>
+	<string id="lttz_ms_start_ecolog_descr_kill">
+		<text>有益な情報を入手し、謎の使者を殺害した。サハロフ教授に報告しよう。</text>
+	</string>
+
+	<!-- Mortal Sin Task 2 -->
+	<string id="lttz_ms_red_forester_title">
+		<text>死すべきSin: レッドフォレスト</text>
+	</string>
+	<string id="lttz_ms_red_forester_descr">
+		<text>レッドフォレストで起きているSinの活動についてフォレスターに話を聞く。</text>
+	</string>
+
+	<!-- Mortal Sin Task 3 -->
+	<string id="lttz_ms_red_forest_attackers_title">
+		<text>死すべきSin: レッドフォレストのハンターたち</text>
+	</string>
+	<string id="lttz_ms_red_forest_attackers_descr">
+		<text>フォレスターは謎のストーカーが野営地を設置した場所を突き止めた。彼らに立ち向かわなくては。</text>
+	</string>
+	<string id="lttz_ms_red_forest_attackers_descr2">
+		<text>死体を調べて有益な情報を見つける。</text>
+	</string>
+
+	<!-- Mortal Sin Task 4 -->
+	<string id="lttz_ms_runaway_title">
+		<text>死すべきSin: 逃亡者</text>
+	</string>
+	<string id="lttz_ms_runaway_descr">
+		<text>Sinは誰かを追っていたようだ。次に西の鉱山を調べる予定だったらしい。彼らの代わりに調査に行こう。</text>
+	</string>
+
+	<!-- Mortal Sin Task 5 -->
+	<string id="lttz_ms_needle_haystack_title">
+		<text>死すべきSin: 干し草の中の針</text>
+	</string>
+	<string id="lttz_ms_needle_haystack_descr">
+		<text>スティッチは重要な任務のためにハッキング装置を必要としている。それはトラック墓地の中央にある壊れたバスに置いてあるようだ。</text>
+	</string>
+	<string id="lttz_ms_return_stitch_descr">
+		<text>ハッキング装置をスティッチに届ける。</text>
+	</string>
+	<string id="stitch_decoder_name">
+		<text>スティッチのデコーダー</text>
+	</string>
+	<string id="stitch_decoder_desc">
+		<text>この旧式のハッキング装置はスティッチのものだ。ゾーン中に散らばっている時代遅れの技術のほとんどと互換性があるだろう。\n \n</text>
+	</string>
+
+	<!-- Mortal Sin Task 6 -->
+	<string id="lttz_ms_report_title">
+		<text>死すべきSin: 状況報告</text>
+	</string>
+	<string id="lttz_ms_report_dolg_descr">
+		<text>スティッチによると、Sinは大規模な作戦を準備しているらしい。ヴォロニン将軍に調査結果を報告しよう。</text>
+	</string>
+	<string id="lttz_ms_report_killer_descr">
+		<text>スティッチによると、Sinは大規模な作戦を準備しているらしい。ダッシュマンに調査結果を報告しよう。</text>
+	</string>
+	<string id="lttz_ms_report_stalker_descr">
+		<text>スティッチによると、Sinは大規模な作戦を準備しているらしい。シドロヴィッチに調査結果を報告しよう。</text>
+	</string>
+	<string id="lttz_ms_report_csky_descr">
+		<text>スティッチによると、Sinは大規模な作戦を準備しているらしい。コールドに調査結果を報告しよう。</text>
+	</string>
+	<string id="lttz_ms_report_freedom_descr">
+		<text>スティッチによると、Sinは大規模な作戦を準備しているらしい。ルーカッシュに調査結果を報告しよう。</text>
+	</string>
+	<string id="lttz_ms_report_ecolog_descr">
+		<text>スティッチによると、Sinは大規模な作戦を準備しているらしい。サハロフ教授に調査結果を報告しよう。</text>
+	</string>
+
+	<!-- Mortal Sin Task 7 -->
+	<string id="lttz_ms_ambush_title">
+		<text>死すべきSin: 待ち伏せ</text>
+	</string>
+	<string id="lttz_ms_ambush_dolg_descr">
+		<text>Sinの部隊がバーを侵略している。奴らを撃退しなければ。</text>
+	</string>
+	<string id="lttz_ms_ambush_dolg_done_descr">
+		<text>敵の襲撃を撃退した。ヴォロニン将軍に報告する</text>
+	</string>
+	<string id="lttz_ms_ambush_killer_descr">
+		<text>Sinの部隊がデッドシティを侵略している。奴らを撃退しなければ。</text>
+	</string>
+	<string id="lttz_ms_ambush_killer_done_descr">
+		<text>敵の襲撃を撃退した。ダッシュマンに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_ambush_stalker_descr">
+		<text>Sinの部隊がルーキー村を侵略している。奴らを撃退しなければ。</text>
+	</string>
+	<string id="lttz_ms_ambush_stalker_done_descr">
+		<text>敵の襲撃を撃退した。シドロヴィッチに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_ambush_csky_descr">
+		<text>Sinの部隊が釣り堀集落を侵略している。奴らを撃退しなければ。</text>
+	</string>
+	<string id="lttz_ms_ambush_csky_done_descr">
+		<text>敵の襲撃を撃退した。コールドに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_ambush_freedom_descr">
+		<text>Sinの部隊が本部を侵略している。奴らを撃退しなければ。</text>
+	</string>
+	<string id="lttz_ms_ambush_freedom_done_descr">
+		<text>敵の襲撃を撃退した。ルーカッシュに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_ambush_ecolog_descr">
+		<text>Sinの部隊が移動研究所を侵略している。奴らを撃退しなければ。</text>
+	</string>
+	<string id="lttz_ms_ambush_ecolog_done_descr">
+		<text>敵の襲撃を撃退した。サハロフ教授に報告しよう。</text>
+	</string>
+
+	<!-- Mortal Sin Task -->
+	<string id="lttz_ms_dark_crusade_title">
+		<text>死すべきSin: 闇の十字軍</text>
+	</string>
+	<string id="lttz_ms_dark_crusade_descr">
+		<text>Sinはストーカーのコミュニティ全体にとって大きな脅威だ。彼らを止めるためにできることをしなければ。</text>
+	</string>
+	<string id="lttz_ms_dark_crusade_descr2">
+		<text>チェルノボグはゾーンを全世界に広げようと計画している。彼を止めなければならない。</text>
+	</string>
+
+	<!-- Mortal Sin Task 8 -->
+	<string id="lttz_ms_preemptive_strike_title">
+		<text>死すべきSin: 先制攻撃</text>
+	</string>
+	<string id="lttz_ms_protect_miracle_machine_descr">
+		<text>Sinはミラクル・マシンを再起動しようとしている。研究所の入口付近で見張りを排除しよう。</text>
+	</string>
+	<string id="lttz_ms_protect_miracle_machine_descr2">
+		<text>Sinはミラクル・マシンを再起動しようとしている。研究所に入り、遭遇する敵をすべて排除しよう。</text>
+	</string>
+	<string id="lttz_ms_protect_miracle_machine_descr3">
+		<text>Sinはミラクル・マシンを再起動しようとしている。最後の部隊の作戦を阻止しなければならない。</text>
+	</string>
+	<string id="lttz_ms_protect_brain_scorcher_descr">
+		<text>Sinはブレイン・スコーチャーを再起動しようとしている。レーダー施設へ行き、すべての敵対勢力を排除して計画を阻止しなければならない。</text>
+	</string>
+
+	<!-- Mortal Sin Task 9 -->
+	<string id="lttz_ms_to_war_title">
+		<text>死すべきSin: 戦争へ</text>
+	</string>
+	<string id="lttz_ms_to_war_descr">
+		<text>精神波の放射設備の再起動に失敗したSinは全面戦争を宣言した。リマンスクへ向かい、ローグと連携して共同戦線を築こう。</text>
+	</string>
+
+	<!-- Mortal Sin Task 10 -->
+	<string id="lttz_ms_urban_warfare_title">
+		<text>死すべきSin: 市街戦</text>
+	</string>
+	<string id="lttz_ms_urban_warfare_descr">
+		<text>Sinの部隊がリマンスクの大部分を占領している。リーダーを暗殺すれば、混乱を引き起こせるだろう。</text>
+	</string>
+	<string id="lttz_ms_urban_warfare_descr2">
+		<text>Sinの懲罰者たちを倒した。ローグに報告しよう。</text>
+	</string>
+
+	<!-- Mortal Sin Task 11 -->
+	<string id="lttz_ms_war_prisoner_title">
+		<text>死すべきSin: 戦争捕虜</text>
+	</string>
+	<string id="lttz_ms_war_prisoner_descr">
+		<text>ローグがSinのメンバーを捕まえることに成功した。彼を尋問すれば有益な情報を得られるかもしれない。</text>
+	</string>
+
+	<!-- Mortal Sin Task 12 -->
+	<string id="lttz_ms_contact_lost_title">
+		<text>死すべきSin: 接点の喪失</text>
+	</string>
+	<string id="lttz_ms_contact_lost_descr">
+		<text>ローグが派遣した偵察隊が任務から戻ってこない。状況を調査しなくては。</text>
+	</string>
+	<string id="lttz_ms_contact_lost_descr2">
+		<text>偵察隊から情報を得ることができた。ローグのところに戻ろう。</text>
+	</string>
+
+	<!-- Mortal Sin Task 13 -->
+	<string id="lttz_ms_destruction_site_title">
+		<text>死すべきSin: 破壊する場所</text>
+	</string>
+	<string id="lttz_ms_destruction_site_descr">
+		<text>Sinの部隊が古い建設現場に要塞化した拠点を築いている。彼らを排除してリマンスクを確保し、北への道を開かなければならない。</text>
+	</string>
+
+	<!-- Mortal Sin Task 14 -->
+	<string id="lttz_ms_hospital_assault_title">
+		<text>死すべきSin: 北の病院</text>
+	</string>
+	<string id="lttz_ms_hospital_assault_descr">
+		<text>リマンスクに残るSinの残党を排除し、放棄された病院への道を切り開く。</text>
+	</string>
+	<string id="lttz_ms_hospital_assault_descr2">
+		<text>放棄された病院からSinの部隊を排除し、彼らの拠点を奪いつつ、チェルノブイリ原子力発電所へと突き進む。</text>
+	</string>
+	<string id="lttz_ms_hospital_assault_descr3">
+		<text>テレパシーの声に導かれ、謎のストーカーがいる場所へ向かうことになった。調査が必要だ。</text>
+	</string>
+
+	<!-- Mortal Sin Task 15 -->
+	<string id="lttz_ms_heart_zone_title">
+		<text>死すべきSin: ゾーンの心臓部</text>
+	</string>
+	<string id="lttz_ms_heart_zone_descr">
+		<text>チェルノブイリ原子力発電所の北側に向かう途中でSinの巡回部隊を排除し、帰路の安全を確保する。</text>
+	</string>
+	<string id="lttz_ms_heart_zone_descr2">
+		<text>「ジェネレーター」と呼ばれる不吉な場所に行く。</text>
+	</string>
+	<string id="lttz_ms_heart_zone_descr3">
+		<text>正体不明のストーカーがPDAで連絡してきた。味方であることを願いたい。</text>
+	</string>
+
+	<!-- Mortal Sin Task 16 -->
+	<string id="lttz_ms_decisive_blow_title">
+		<text>死すべきSin: 決定的な一撃</text>
+	</string>
+	<string id="lttz_ms_decisive_blow_descr">
+		<text>Sinの残存兵力が戦争研究所の正面入口付近に集まっている。ストレロックの妨害工作から目をそらすため、奴らを攻撃する。</text>
+	</string>
+
+	<!-- Mortal Sin Task 17 -->
+	<string id="lttz_ms_confrontation_title">
+		<text>死すべきSin: 対立</text>
+	</string>
+	<string id="lttz_ms_confrontation_descr">
+		<text>Sinの使命は完全に失敗した。チェルノボグと対決する時だ。</text>
+	</string>
+
+	<!-- Mortal Sin Task 18 -->
+	<string id="lttz_ms_endgame_title">
+		<text>死すべきSin: エンドゲーム</text>
+	</string>
+	<string id="lttz_ms_endgame_descr">
+		<text>チェルノボグを追いかけて、彼が願いを叶えるのを阻止しなくては。</text>
+	</string>
+
+	<!-- Mortal Sin Task 19 -->
+	<string id="lttz_ms_choice_title">
+		<text>死すべきSin: 選択</text>
+	</string>
+	<string id="lttz_ms_choice_descr">
+		<text>チェルノボグは死んだ。願望機を使うかどうかは、自分の選択に委ねられている。</text>
+	</string>
+	<string id="lttz_ms_choice_descr2">
+		<text>願望機に話しかける。</text>
+	</string>
+
+	<!-- Mortal Sin Task 20 -->
+	<string id="lttz_ms_zone_hero_title">
+		<text>死すべきSin: ゾーンのヒーロー</text>
+	</string>
+	<string id="lttz_ms_zone_hero_dolg_descr">
+		<text>Sinによるゾーンの拡大を阻止することに成功した。この成果をヴォロニン将軍に報告しよう。</text>
+	</string>
+	<string id="lttz_ms_zone_hero_killer_descr">
+		<text>ゾーンは今の状態を維持することができた。この成果をダッシュマンに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_zone_hero_stalker_descr">
+		<text>ストーカーの脅威に立ち向かい、勝利を収めた。この成果をシドロヴィッチに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_zone_hero_csky_descr">
+		<text>ゾーンの均衡が崩れるのを防ぐことに成功した。この成果をコールドに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_zone_hero_freedom_descr">
+		<text>世界を侵食しようとする暴君の野望を阻止した。この成果をルーカッシュに報告しよう。</text>
+	</string>
+	<string id="lttz_ms_zone_hero_ecolog_descr">
+		<text>普通の科学者なら死んでしまうような冒険を生き抜き、ゾーンを研究のために安全に封じ込めた。この成果をサハロフ教授に報告しよう。</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+	<!-- Mortal Sin Unquenchable Flame Tasks -->
+	<string id="unquenchable_flame_task_name">
+		<text>消えない炎</text>
+	</string>
+	<string id="unquenchable_flame_task_text">
+		<text>Sinの生存者たちがザトンに集まっている。奴らを排除しなければ。</text>
+	</string>
+	<string id="esc_m_trader_task_4_about">
+		<text>聞いてくれ、ストーカー･･････ お前はSinの狂信者どもと散々戦ってきたそうだな。
+\nだが、ベアードによると奴らの残党がかなり活発に動いているらしい。
+\n何人かのストーカーから、ザトンにある変電所の作業場に拠点があるとの報告があった。
+\n連中のせいで俺の交易路が危険にさらされているんだ。
+\nそれを放っておくわけにはいかない。今度こそ完全に黙らせてくれ。</text>
+	</string>
+	<string id="esc_m_trader_task_4_finish">
+		<text>さすが、ワンマンアーミーとでも呼ぶべき腕前だな？よくやった、ストーカー。
+\nあいつらの噂話はこれで最後にしたいところだな。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_4_about">
+		<text>お前はほとんど一人で狂信者の派閥を壊滅させて、かなりの評判を築いたよな。
+\nだが、奴らは完全には壊滅していない。ザトンの前哨基地にいる我々の仲間が、
+\n近くにある変電所の作業場で不審な動きがあると報告してきた。Sinの連中だろうな。
+\n奴らがまた血なまぐさい聖戦を始める前に、排除してくれ。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_4_finish">
+		<text>常にプロとして完璧に仕事をこなしてくれる、お前は頼りになる男だ。これが報酬だ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_3_about">
+		<text>くそっ、数年前の悪夢を繰り返さずに済んだと思った矢先に、あいつらがまた現れた。
+\nザトンの放棄された変電所の作業場に、Sinの残党が集結しているらしい。
+\nそこまで行くのは骨が折れるだろうが、奴らが悪性腫瘍のように勢力を
+\n伸ばしていくのは容認できない。何人かの仲間を連れて、徹底的に潰してくれ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_3_finish">
+		<text>ああ、よくやった。
+\nこれで今後数年間は戦争ごっこに付き合わなくて済むだろう、そう思わないか？</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+</string_table>

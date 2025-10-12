@@ -1,0 +1,137 @@
+<string_table>
+	<string id="ui_mcm_menu_smr_loot">
+		<text>ルート</text>
+	</string>
+	<!-- GENERAL -->
+	<string id="ui_mcm_SMR_smr_loot_random_items">
+		<text>ワールドルート</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_random_items_desc">
+		<text>ワールドに転がっているアイテムの量を変更します。新規にゲームを開始したときのみ効果があります。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_general_info">
+		<text>以下のオプションは、スタッシュや死んだNPCから余分なアイテムを見つけるチャンスを追加するものです。\n基本人口が「なし」のプリセットでプレイしている場合、非常に便利です。</text>
+	</string>
+	<!-- PDA MESSAGES -->
+	<string id="ui_mcm_SMR_smr_loot_send_message">
+		<text>PDAの通知を表示する</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_send_message_desc">
+		<text>プレイヤーが追加アイテムを発見したときに通知を表示します。</text>
+	</string>
+	<string id="st_smr_loot_found_repair">
+		<text>修理キットを発見</text>
+	</string>
+	<string id="st_smr_loot_found_ammo">
+		<text>弾薬を発見</text>
+	</string>
+	<string id="st_smr_loot_found_useful">
+		<text>便利なアイテムを発見</text>
+	</string>
+	<string id="st_smr_loot_found_meds">
+		<text>医薬品を発見</text>
+	</string>
+	<string id="st_smr_loot_found_mags">
+		<text>武器用のマガジンを発見</text>
+	</string>
+	<string id="st_smr_loot_found_lootbox">
+		<text>戦利品ボックスを発見</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_npc_spawn">
+		<text>NPCで追加アイテムを発見</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_npc_chance">
+		<text>NPCアイテムの生成確率</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_npc_chance_desc">
+		<text>NPCの隠されたアイテムを発見する確率です。\n成功した場合、再度通常の確率でスタッシュからアイテムを発見することができます。</text>
+	</string>
+	<!-- ITEMS -->
+	<string id="ui_mcm_SMR_smr_loot_items_title">
+		<text>スタッシュ内に追加アイテムが出現</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_spawn">
+		<text>修理キットを生成する</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_spawn_desc">
+		<text>スタッシュから修理キットを見つける確率が追加されます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_parts_spawn">
+		<text>部品修理アイテムを生成する</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_parts_spawn_desc">
+		<text>部品修理アイテムを小修理キットとして有効/無効にします。銃やスーツの部品を修理・交換するのが面倒な場合は、関連アイテムの出現を無効化することができます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_chance">
+		<text>修理キットが生成される確率</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_chance_desc">
+		<text>スタッシュ内に修理キットが生成される確率を設定します。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_spawn">
+		<text>小規模修理キットを生成する</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_spawn_desc">
+		<text>スタッシュからチューブ式接着剤やパーツキットなど、ちょっとした修理キットを見つける確率を追加します。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_chance">
+		<text>小物修理キットが生成される確率</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_repair_minor_chance_desc">
+		<text>チューブ式接着剤やパーツキットなど、ちょっとした修理キットが手に入る確率を追加します。</text>
+	</string>
+	<!-- AMMO -->
+	<string id="ui_mcm_SMR_smr_loot_ammo_spawn">
+		<text>追加の弾薬を生成する</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_ammo_spawn_desc">
+		<text>スタッシュ内で追加の弾薬が発生する確率が追加されます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_loot_ammo_chance">
+		<text>弾薬が生成される確率</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_chance_desc">
+		<text>スタッシュから弾薬を発見する確率を設定します。</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_bad_spawn">
+		<text>古い弾薬を生成する</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_bad_chance">
+		<text>古い弾薬が生成される確率</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_bad_chance_desc">
+		<text>発見された弾薬が古いものである確率を設定します。</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_amount">
+		<text>生成される弾薬の数</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_ammo_amount_desc">
+		<text>発見した弾薬の量の倍率を設定します。</text>
+	</string>
+    <!-- USEFUL -->
+    <string id="ui_mcm_SMR_smr_loot_useful_spawn">
+		<text>便利なアイテムを生成する</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_useful_spawn_desc">
+		<text>トレーダーがいないと入手困難なアイテムがスタッシュで見つかる確率が追加されます。ナイフ、バックパック、検出器、ヘッドランプなどが含まれます。</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_useful_chance">
+		<text>便利なアイテムが生成される確率</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_useful_chance_desc">
+		<text>スタッシュから便利なアイテムが見つかる確率を設定します。</text>
+	</string>
+	<!-- MEDS -->
+    <string id="ui_mcm_SMR_smr_loot_meds_spawn">
+		<text>医薬品を生成する</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_meds_spawn_desc">
+		<text>スタッシュから医療アイテムを発見する確率が追加されます。</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_meds_chance">
+		<text>医薬品が生成される確率</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_loot_meds_chance_desc">
+		<text>スタッシュから医療アイテムが出る確率が追加されます。</text>
+	</string>
+</string_table>

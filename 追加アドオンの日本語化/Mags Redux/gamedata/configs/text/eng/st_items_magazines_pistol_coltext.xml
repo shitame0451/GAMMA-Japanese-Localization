@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+Pistols and MP's
+-->
+
+
+	<string id="ext_mag_colt1911_11.43x23_fmj">
+		<text>Colt 1911用拡張マガジン（.45 ACP）</text>
+	</string>
+	<string id="ext_mag_colt1911_11.43x23_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="ext_mag_ppp_1911_357_fmj">
+		<text>Coonan .357用拡張マガジン（.357）</text>
+	</string>
+	<string id="ext_mag_ppp_1911_357_fmj_descr">
+		<text> </text>
+	</string>
+
+</string_table>

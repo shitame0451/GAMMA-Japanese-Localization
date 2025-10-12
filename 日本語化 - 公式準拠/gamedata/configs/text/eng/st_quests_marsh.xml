@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- TEXT  STRINGS FOR TASKS ON MARSH (SWAMPS) MAP -->
+<string_table>
+
+	<!-- Cold (Clear Sky Honcho) Default Storyline Task -->
+
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_default_task_about">
+		<text>ああ、俺の友人がお前の助けを必要としている。彼に会いに行ってくれ。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_default_task_finish">
+		<text>健闘を祈る、ストーカー。</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Covert Agent Storyline Task -->
+
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_1_name">
+		<text>秘密工作員</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_1_text">
+		<text>クリアスカイの工作員が残した文書を回収し、レベデフに届ける。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_1_about">
+		<text>我々の工作員が引き渡し地点にいくつかの文書を残してくれている。
+\nそれを回収してくれ。誰にも尾行されるなよ。付けてくる者がいたら即座に排除しろ。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_1_finish">
+		<text>誰にも尾行されていないな？よくやった。</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Protect Clear Sky Base Storyline Task -->
+
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_name">
+		<text>クリアスカイ基地の防衛</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_text">
+		<text>クリアスカイの基地が発見されないよう、このエリアの敵勢力を排除しなくては。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_about">
+		<text>この沼地での敵の活動は増加傾向にある。
+\nそのうち我々の基地が見つかるリスクを潰しておかなくてはならない。
+\nクリアスカイに敵対する連中を排除してくれ。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_2_finish">
+		<text>よくやってくれた。ありがとう、ストーカー。</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Find Artefact Storyline Task -->
+
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_name">
+		<text>コールドのために%を探す</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_text">
+		<text>コールドは%sを必要としている。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_about">
+		<text>ストーカー、あるアーティファクトを持ってきてもらいたい。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_fetch_about">
+		<text>%sを探してきてくれ。研究のために調達する必要があってな。
+\nこいつには、まだ解明されていない特性があるはずだ。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_fetch_finish">
+		<text>ああ、素晴らしい、よく見つけてくれた。上出来だ。</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Search Agroprom Underground Storyline Task -->
+
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_4_name">
+		<text>アフロプロム地下の捜索</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_4_text">
+		<text>盗まれた軍事文書がアフロプロム地下のトンネルに隠されている。それを回収してコールドに渡そう。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_4_about">
+		<text>我々の工作員が軍から重要な文書を入手したが、持ち帰る前に殺されてしまった。
+\n現在、その文書はアフロプロム地下のトンネル内に隠されている。
+\n極秘裏に現地へ潜入し、軍が発見する前に文書を回収してほしい。
+\n見つけ次第、速やかにここへ持ち帰ってくれ。任務の成功を祈る。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_4_finish">
+		<text>素晴らしい仕事だ。首尾は上々だな。</text>
+	</string>
+
+	<!-- Cold (Clear Sky Honcho) Blood Red Sky Storyline Task -->
+
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_5_name">
+		<text>血に染まる空</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_5_text">
+		<text>沼地からレネゲードを追い出す。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_5_about">
+		<text>我々は深刻な問題を抱えている。レネゲードどもが再びこの沼地に姿を現したのだ。
+\n結局のところ、長い年月を経て戻ってきたのは我々だけではなかったようだ。
+\n我々の勇敢な警備部隊が、お前に同行することになっている。
+\n何としても奴らを食い止めなければならない。幸運を祈る、ストーカー。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_5_finish">
+		<text>ああ、安心したぞ！お前は勇敢なストーカーだな。感謝するよ。</text>
+	</string>
+
+	<!-- Librarian (Clear Sky Trader) Default Storyline Task -->
+
+	<string id="drx_sl_mar_base_stalker_barmen_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_default_task_about">
+		<text>あんたの手助けが必要な人物がいるんだ、会いに行ってみな。
+\n彼は結構な報酬を出すことで有名だぞ。</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_default_task_finish">
+		<text>幸運を、ストーカー。</text>
+	</string>
+
+	<!-- Librarian (Clear Sky Trader) Clear Out Mutant Lair Storyline Task -->
+
+	<string id="drx_sl_mar_base_stalker_barmen_task_1_name">
+		<text>ライブラリアンのためにミュータントの巣を駆除する</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_task_1_text">
+		<text>ライブラリアンはこの地域にミュータントの巣があることを突き止めていて、それを排除してほしいと考えている。</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_task_1_about">
+		<text>この近くにミュータントの巣がある。軽く手を出して様子を見てきてくれよ。</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_task_1_finish">
+		<text>へえ、いい仕事をしたな。これがあんたの報酬だ。</text>
+	</string>
+
+	<!-- Librarian (Clear Sky Trader) Procure Supplies Storyline Task -->
+
+	<string id="drx_sl_mar_base_stalker_barmen_task_2_name">
+		<text>クリアスカイのために%sを手に入れる</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_task_2_text">
+		<text>ライブラリアンから%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_task_2_about">
+		<text>物資が少なくなってきていてな･･････
+\nあんたの力を借りたい。この場所じゃ、補給を受けるのも簡単じゃないんだ。</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_task_2_fetch_about">
+		<text>%sが必要だ。持ってきてくれ。</text>
+	</string>
+	<string id="drx_sl_mar_base_stalker_barmen_task_2_finish">
+		<text>よくやった、ありがとよ。</text>
+	</string>
+
+	<!-- CHANGE FACTIONS TASK TEXT  STRINGS -->
+
+	<!-- Cold (Clear Sky Honcho) Payoff Change Factions Task -->
+
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_cf_task_1_name">
+		<text>クリアスカイへの加入</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_cf_task_1_text">
+		<text>クリアスカイに加入するには、手数料として15,000ルーブルをコールドに渡す必要がある。</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_cf_task_1_about">
+		<text>ああ、お前のことは前から注目していた。
+\n適度な好奇心を持っていて、クリアスカイに向いているだろう。
+\nだが、加入希望者には入隊金として15,000ルーブルを支払ってもらう決まりがある。
+\nこれは我々の研究資金や基地の防衛費に充てられるものだ。さあ、どうする？</text>
+	</string>
+	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_cf_task_1_finish">
+		<text>よし、やるべき研究はたくさんあるぞ。協力できそうなことがあるか探してみてくれ。</text>
+	</string>
+
+	<!-- DYNAMIC TASK TEXT  STRINGS -->
+	
+	<!-- Cold (Clear Sky Honcho) Decimate the Enemy Task -->
+	
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_name">
+		<text>沼地のゴミ掃除</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_text">
+		<text>コールドは沼地からクリアスカイの敵を根絶したいと考えている。%sを集めなくては。</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_about">
+		<text>我々は、軍がバンディットの掃討に協力してくれることをありがたく思っていた。
+\nだが、奴らが北に前哨基地を構えるようになると、状況は一変した。
+\n軍の巡回隊は我々に友好的とは言えず、その働きぶりもお粗末だ。
+\nそのせいで、バンディットどもが我々の哨戒基地を絶えず悩ませている。
+\nそろそろ、奴らに我々の力を思い知らせてやる時だ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_fetch_about">
+		<text>我々は、軍がバンディットの掃討に協力してくれることをありがたく思っていた。
+\nだが、奴らが北に前哨基地を構えるようになると、状況は一変した。
+\n軍の巡回隊は我々に友好的とは言えず、その働きぶりもお粗末だ。
+\nそのせいで、バンディットどもが我々の哨戒基地を絶えず悩ませている。
+\nそろそろ、奴らに我々の力を思い知らせてやる時だ。
+\n任務を終えた証として、%sを持ち帰るんだ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_fetch_finish">
+		<text>目標を達成したな。さすが、我らが誇るプロの殺し屋だ。
+\nこれで、あの連中も懲りて沼地に近づこうとは思わなくなるだろう･･････ おそらくな。
+\nさて、これが報酬だ。</text>
+	</string>
+	
+	<!-- Cold (Clear Sky Honcho) Night Terror Task -->
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_name">
+		<text>闇夜の恐怖</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_text">
+		<text>コールドは、秘密基地の近くを徘徊する危険なミュータントを排除したいと考えている。</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_about">
+		<text>ミュータントが我々の基地に近づくことはほとんどないのだが、
+\n昨晩、北西の監視塔を担当していた部隊が巨大な獣に全滅させられたとの報告が入った。
+\n4人の武装した隊員が無惨に散らばっていたそうだ。犬の仕業でないことは確かだ。
+\nお前は腕が立つから、現場に行ってその忌々しい奴を片付けてくれないか？</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_finish">
+		<text>おお、よくやってくれたな！この報酬で足りるといいんだが。
+\nそれから、お前の活躍はここの皆の語り草になるだろう。</text>
+	</string>
+	
+	<!-- Cold (Clear Sky Honcho) Defend the pump station Task -->
+
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_4_title">
+		<text>ポンプ場を防衛する</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_4_descr">
+		<text>我々の巡回隊がポンプ場の周辺で数名のバンディットを捕まえた。
+\n奴らを徹底的に尋問した結果、ようやく襲撃の準備を進めていることを自白した。
+\n襲撃がいつ行われるかは不明だが、すでに何人かを現場に派遣している。
+\nとはいえ、追加の支援は大歓迎だ。協力には報酬が支払われることを保証しよう。</text>
+	</string>
+	
+	<!-- Kalancha (Clear Sky Medic) Lost to the Zone Tasks -->
+	
+	<string id="mar_smart_terrain_base_doctor_task_1_name">
+		<text>不自然な選択</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_1_text">
+		<text>カランチャ教授のために%sのサンプルを集める。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_1_about">
+		<text>このゾーンの極めて特殊な環境下で、ミュータントは独特な適応能力を発揮している。
+\nその仕組みを解明するために、いくつかの組織サンプルを採取してきてほしいんだ。
+\nそれが、この環境で人間が生き延びるための手がかりになるかもしれない。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_1_fetch_about">
+		<text>このゾーンの極めて特殊な環境下で、ミュータントは独特な適応能力を発揮している。
+\nその仕組みを解明するために、いくつかの組織サンプルを採取してきてほしいんだ。
+\nそれが、この環境で人間が生き延びるための手がかりになるかもしれない。
+\n%sのサンプルを集めてくれ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_1_fetch_finish">
+		<text>サンプルは良好な状態だ･･････ 素晴らしい。
+\nよし、すぐに研究に取りかかるとしよう。感謝するよ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_2_name">
+		<text>科学の進歩</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_2_text">
+		<text>カランチャ教授のために%sを見つける。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_2_about">
+		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源となる存在だ。
+\nだが、外は危険が多すぎて、隊員たちを採取に送り出す余裕がないのが現状でね。
+\nそこで、手を貸してもらえないだろうか？</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_2_fetch_about">
+		<text>アーティファクトは、私たちの研究にとって極めて貴重な情報源となる存在だ。
+\nだが、外は危険が多すぎて、隊員たちを採取に送り出す余裕がないのが現状でね。
+\nそこで、手を貸してもらえないだろうか？%sを見つけてくれ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_2_fetch_finish">
+		<text>長年研究していても、アーティファクトにはいつも驚かされる。
+\nこれは実に見事な標本だ。協力に感謝するよ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_3_name">
+		<text>物資の不足</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_3_text">
+		<text>カランチャ教授は%sを必要としている。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_3_about">
+		<text>知っての通り、スポアは物資の調達に全力を尽くしてくれている。
+\nしかし、何年経っても我々の状況は厳しいままだ。負傷者が増え続ける一方で、
+\n医療物資はもう残りわずかだ。どうか、在庫の補充を手伝ってもらえないだろうか。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_3_fetch_about">
+		<text>知っての通り、スポアは物資の調達に全力を尽くしてくれている。
+\nしかし、何年経っても我々の状況は厳しいままだ。負傷者が増え続ける一方で、
+\n医療物資はもう残りわずかだ。どうか、在庫の補充を手伝ってもらえないだろうか。
+\n%sが必要なんだ、頼む。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_3_fetch_finish">
+		<text>我々は皆、君の助力に心から感謝しているよ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_5_name">
+		<text>カランチャ教授のために%sを見つける</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_5_text">
+		<text>カランチャ教授は医薬品を作成するために%sを必要としている。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_5_about">
+		<text>薬品製造ツールを探してきて欲しいんだ。我々の仕事は決して安全ではない。
+\n火傷や切り傷、銃創を負った者が次々と運ばれてきていて、物資が減ってきている。
+\n手を貸してくれないか？</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_5_fetch_about">
+		<text>私はずっと%sを探しているんだ。
+\n中には、医薬品を調合するために必要な錠剤やアンプルが入っているだろう。
+\nちゃんとしたキットを持ち帰ってくれたら、代金を払うよ。</text>
+	</string>
+	<string id="mar_smart_terrain_base_doctor_task_5_fetch_finish">
+		<text>素晴らしい！ありがとう、君に大きな借りができたな。</text>
+	</string>
+
+	<!-- Spore (Clear Sky Trader) Deliver PDA Task -->
+
+	<string id="mar_base_owl_stalker_trader_task_1_name">
+		<text>PDAをニンブルへ配達する</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_task_1_text">
+		<text>スポアは、暗号化されたPDAをザトンにいるニンブルに届けるよう求めている。</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_task_1_about">
+		<text>凄腕さんよ、仕事が欲しいか？ザトンにいる「ニンブル」って奴に、このPDAを届けてくれ。
+\n無事に渡せば、あいつが報酬を払ってくれるはずだ。くれぐれも水たまりに落としたり、
+\n妙なトラブルを起こしたりするなよ。やらかしたらタダじゃ済まさんからな。
+\nあいつのところに行ったら、ついでに扱ってる品物も見てくるといい。
+\nなかなかの代物が手に入るぜ･･････ 金さえ払えばな。</text>
+	</string>
+
+	<!-- DESTROY HELICOPTER FOR SPORE TASK -->
+	<string id="mar_base_owl_stalker_trader_task_2_name">
+		<text>軍用ヘリコプターを破壊する</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_task_2_text">
+		<text>スポアはもう我慢の限界だ。ヘリを破壊すれば、見返りとして割引をしてくれるらしい。</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_task_2_about">
+		<text>あのクソヘリコプターのせいで気が狂いそうだ。
+\n元々ひどい耳鳴り持ちでな。野郎が南の境界を飛ぶたびに耳が裂けそうになるんだよ！
+\nフレッシュの赤ん坊でもぶっ飛ばしたくなるくらいだ！
+\nあれを撃ち落としてくれ、そしたら割引してやる。頼むよ、このままじゃ我を失いそうだ。</text>
+	</string>
+
+	<!-- ESCORT SCIENTISTS FOR CLEAR SKY TASK -->
+	<string id="mar_base_owl_stalker_trader_task_3_name">
+		<text>エコロジストたちを護衛する</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_task_3_text">
+		<text>クリアスカイの科学者たちに雇われ、研究対象となる場所まで護衛任務をすることになった。彼らの調査が終わるまで見守り、安全に基地に送り届けなくてはならない。</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_task_3_about">
+		<text>この基地にいる科学者が、現地調査に同行してくれる腕利きのストーカーを探している。
+\nやってみるか？あんたの任務は、彼らを無事に目的地まで案内し、生還させることだ。
+\n失敗は絶対に許されないぞ。</text>
+	</string>
+	<string id="mar_base_owl_stalker_trader_task_3_finish">
+		<text>ありがとう、ストーカー。これはあんたの働きに対する報酬だ。受け取ってくれ。</text>
+	</string>
+
+	<!-- HUNT MUTANTS FOR CLEAR SKY TASK -->
+	<string id="mar_base_stalker_barmen_task_1_name">
+		<text>ミュータントの脅威を排除する</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_1_text">
+		<text>この場所の近くでミュータントが目撃され、周辺の者たちにとって危険な状況となっている。このミュータントの脅威を排除する任務を与えられた。</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_1_about">
+		<text>なあ、狩りの腕に自信あるか？仲間たちがよく使うルートにミュータントが出るもんでな。
+\n沼地の安全を確保してくれる奴を探してるところなんだ。どうだ、やってくれるか？</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_1_finish">
+		<text>すごいな！こいつが報酬だ。
+\nあの道が安全になったと、みんなに知らせておくよ。ありがとな、ストーカー。</text>
+	</string>
+
+	<!-- ASSAULT BANDIT CAMP FOR CLEAR SKY TASK -->
+	<string id="mar_base_stalker_barmen_task_2_name">
+		<text>バンディットの脅威を排除する</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_2_text">
+		<text>この地域のバンディットの脅威を排除する任務を与えられた。</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_2_about">
+		<text>この地域では、最近バンディットどもが厄介な動きを見せている。
+\nあの殺人集団は基地の外にあるキャンプを襲って俺たちの領地を奪おうとしているんだ。
+\nこのまま放っておいたら、安全なルートが通れなくなっちまう。
+\n俺たちには手を汚すことを恐れない熟練のストーカーが必要だ。手を貸してくれないか？</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_2_finish">
+		<text>すごいな！こいつが報酬だ。
+\nあの道が安全になったと、みんなに知らせておくよ。ありがとな、ストーカー。</text>
+	</string>
+
+	<!-- FIND MUTANT MEAT FOR CLEAR SKY TASK -->
+	<string id="mar_base_stalker_barmen_task_3_name">
+		<text>%sを手に入れる</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_3_text">
+		<text>%sを集めて、クリアスカイの基地にいるライブラリアンに届ける。</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_3_about">
+		<text>あんたにピッタリの仕事があるぜ。
+\n銃の扱いに慣れていて、ミュータントを恐れないってんならな。どうだ、やってみるか？</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_3_fetch_about">
+		<text>食料が不足してきている。俺はこの基地の連中を腹一杯にしてやらなきゃならないんだ。
+\n仲間が時々獲物を狩ってきてくれるが、最近はその数も減ってきていてな。
+\nもし手が空いてるなら、%sを手に入れてきてくれないか？
+\nそうすりゃ、キッチンで肉を処理して食えるようにするからよ。
+\n一応言っとくが、ミュータントを興奮させるとアドレナリンが出て、肉が硬くなっちまう。
+\nそれに、出血は少ないほうが肉の味も良くなる。撃つときは慎重に狙うんだ。いいな？</text>
+	</string>
+	<string id="mar_base_stalker_barmen_task_3_fetch_finish">
+		<text>でかしたぞ！あんたはやっぱり凄腕のハンターだな！こいつが報酬だ。</text>
+	</string>
+
+	<!-- FIND LEVEL 1 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_1_name">
+		<text>ノビコフのために%sを見つける</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_1_text">
+		<text>ノビコフは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_1_about">
+		<text>ゾーンでは工具を手に入れるのは本当に難しいんだ。
+\n新しい工具さえあれば、より多くの装備をアップグレードできる。
+\nこの仕事に興味があるなら、何が必要か教えるよ。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_1_fetch_about">
+		<text>ベーシックツールが欲しい。俺に必要なものが一通り揃ってるはずだ。
+\nもし持ってきてくれたら本当に助かる。それと、割引もしてやるからな。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_1_fetch_finish">
+		<text>すごいな！さあ、苦労してくれたあんたに報酬を渡そう。</text>
+	</string>
+	<!-- FIND LEVEL 2 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_2_name">
+		<text>ノビコフのために%sを見つける</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_2_text">
+		<text>ノビコフは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_2_about">
+		<text>もっと良い工具が欲しい。
+\n前回持ってきてくれた物も素晴らしいが、今回はさらに高品質なセットが必要なんだ。
+\nこの仕事に興味があるなら、必要なものを教えるよ。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_2_fetch_about">
+		<text>アドバンスドツールが欲しい。
+\n持ってきてくれたら本当にありがたい。今度はもっと割引もつけてやるぞ。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_2_fetch_finish">
+		<text>さすがだな、相棒！また持ってきてくれたのか！さあ、報酬を受け取ってくれ。</text>
+	</string>
+	<!-- FIND LEVEL 3 TOOLS FOR NOVIKOV TASK -->
+	<string id="mar_base_stalker_tech_task_3_name">
+		<text>ノビコフのために%sを見つける</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_3_text">
+		<text>ノビコフは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_3_about">
+		<text>もっと良い工具が欲しい。
+\n前回持ってきてくれた物も素晴らしいが、今回はさらに高品質なセットが必要なんだ。
+\nこの仕事に興味があるなら、必要なものを教えるよ。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_3_fetch_about">
+		<text>エキスパートツールが欲しい。これが最後の頼みだ。
+\nどうか協力してくれ。必ず見返りは約束する。</text>
+	</string>
+	<string id="mar_base_stalker_tech_task_3_fetch_finish">
+		<text>あんたはすごいな！本当に助かったよ。いくら言っても足りないくらいだ。</text>
+	</string>
+
+	<!-- ESCORT SCIENTISTS DIALOGS -->
+	<string id="ecolog_companion_task_1_start_dialog_1">
+		<text>君が護衛を担当してくれるのか？目的地はPDAに記録してあるから、案内を頼むよ。
+\n調査が終わり次第、帰り道の護衛も頼みたい。無事に戻れたら、改めて声をかけてくれ。</text>
+	</string>
+	<string id="ecolog_companion_task_1_start_dialog_2">
+		<text>どうしたんだ？早く移動したほうがいい、長く留まると危険が増すだけだ。</text>
+	</string>
+	<string id="ecolog_companion_task_1_complete">
+		<text>ありがとう、ストーカー。よくやってくれたな。これが君への支払いだ。</text>
+	</string>
+	<string id="ecolog_companion_task_1_actor_reply">
+		<text>分かった。</text>
+	</string>
+
+		<!-- FIND SWAMP DOCTOR -->
+	<string id="mar_doctor_task">
+		<text>ゾーンの謎</text>
+	</string>
+	<string id="mar_doctor_task_0">
+		<text>ゾーンには、数々の謎を解き明かすためにやってきた。求めている答えは、顔馴染みのある人物が知っているかもしれない。</text>
+	</string>
+
+	<!-- MARSH DOCTOR STASH IN PRIPYAT -->
+	<string id="cit_doctor_task">
+		<text>ホテル ポリーシャ</text>
+	</string>
+	<string id="cit_doctor_task_1">
+		<text>ドクターが渡してくれた鍵と座標は、ストレロクがプリピャチのホテル ポリーシャの部屋に情報を隠していたことが示されている。</text>
+	</string>
+	<string id="cit_doctor_task_2">
+		<text>ホテルを見つけた。ここのどこかに、鍵に書かれた文字と一致する部屋があるはずだ。</text>
+	</string>
+	<string id="cit_doctor_task_3">
+		<text>部屋にはストレロクが残した物品が散らばっている。手がかりがないか調べてみよう。</text>
+	</string>
+	<!-- MARSH DOCTOR VISIT LABS -->
+	<string id="st_main_1_search_agr_ug_name">
+		<text>アフロプロム地下を調査する</text>
+	</string>
+	<string id="st_main_1_search_agr_ug_text">
+		<text>アフロプロム地下を調査し、陰謀の確かな証拠を探す。</text>
+	</string>
+	<string id="st_main_2_search_labx18_name">
+		<text>ラボX18を調査する</text>
+	</string>
+	<string id="st_main_2_search_labx18_text">
+		<text>ラボX18を調査し、陰謀の確かな証拠を探す。</text>
+	</string>
+	<string id="st_main_3_search_labx16_name">
+		<text>ラボX16を調査する</text>
+	</string>
+	<string id="st_main_3_search_labx16_text">
+		<text>ラボX16を調査し、陰謀の確かな証拠を探す。</text>
+	</string>
+	<string id="st_main_4_search_labx10_name">
+		<text>ラボX19を調査する</text>
+	</string>
+	<string id="st_main_4_search_labx10_text">
+		<text>ラボX19を調査し、陰謀の確かな証拠を探す。</text>
+	</string>
+	<string id="st_main_5_search_labx8_name">
+		<text>ラボX8を調査する</text>
+	</string>
+	<string id="st_main_5_search_labx8_text">
+		<text>ラボX8を調査し、陰謀の確かな証拠を探す。</text>
+	</string>
+	<string id="st_main_6_search_jup_ug_name">
+		<text>ジュピター地下を調査する</text>
+	</string>
+	<string id="st_main_6_search_jup_ug_text">
+		<text>ジュピター地下を調査し、陰謀の確かな証拠を探す。</text>
+	</string>
+	<string id="st_main_7_search_mon_con_name">
+		<text>チョルノービリ原子力発電所を調査する</text>
+	</string>
+	<string id="st_main_7_search_mon_con_text">
+		<text>チョルノービリ原子力発電所を調査し、陰謀の確かな証拠を探す。</text>
+	</string>
+</string_table>

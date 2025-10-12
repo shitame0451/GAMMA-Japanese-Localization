@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	SORTER
+-->
+	<string id="st_ui_craft_artefacts_container">
+		<text>Artefacts (in containers)</text>
+	</string>
+    <string id="st_item_use_empower">
+		<text>アーティファクトの強化</text>
+	</string>
+	<string id="st_item_use_fuse">
+		<text>アーティファクトの融合</text>
+	</string>
+	<string id="st_item_use_craft">
+		<text>作業台を開く</text>
+	</string>
+    <string id="st_ui_itm_repair_support_grok_artefacts">
+		<text>使用するアーティファクト</text>
+	</string>
+    <string id="st_ui_itm_repair_base_grok_artefacts">
+		<text>強化するアーティファクト</text>
+	</string>
+    <string id="st_melter">
+		<text>アーティファクトメルター</text>
+	</string>
+    <string id="st_melter_desc">
+		<text>サハロフ教授が開発した奇妙な高性能デバイス。アーティファクトのエネルギーを動力源とし、同じ種類のアーティファクトを強化したり、異なる種類を融合させて新しいアーティファクトを生み出すことができる。その化学的・物理的な仕組みは未だ解明されていないが、最近の研究では、この装置がノウアスフィアの力を利用している可能性が示唆されている。\n \n
+			%c[pda_white]特性:\n
+		    %c[d_cyan] • %c[pda_white]アーティファクトの融解:
+		    \n%c[ui_gray_1]左Altキーを押しながらアーティファクトメルターを任意のアーティファクトにドラッグ&amp;ドロップすると、アーティファクトを溶かしてメルターの使用回数を補充できる。そのアーティファクトが希少でユニークであるほど、装置の使用回数が多く回復する。\n \n
+		    %c[d_cyan] • %c[pda_white]アーティファクトの強化:
+		    \n%c[ui_gray_1]右クリックメニューから「アーティファクトを強化」を選ぶと、同じ種類のアーティファクトを組み合わせて性能を向上させることができる。\n \n
+		    %c[d_cyan] • %c[pda_white]アーティファクトの融合:
+		    \n%c[ui_gray_1]右クリックメニューから「アーティファクトを融合」を選択し、レシピメニューを開くと、2つ以上のアーティファクトから新しいアーティファクトを生み出すことができる。出来上がったアーティファクトの耐久値は作成に使用したアーティファクトの平均となる。装置には安全なアーティファクトの組み合わせリストがあらかじめ用意されている。\n \n
+		    %c[d_cyan] • %c[pda_white]注意:
+		    \n%c[ui_gray_1]この装置のOSには誤動作を防ぐ安全プロトコルが組み込まれている。装置が動作しない場合は、使用回数の残量が10%以上（1回分）あるのを確認すること。\n \n
+		</text>
+	</string>
+	    <string id="st_grizzly">
+		<text>グリズリー探知機</text>
+	</string>
+    <string id="st_grizzly_desc">
+		<text>このアーティファクト探知機はベアー探知機の改良モデルで、既知のアーティファクトの痕跡をすべて検出することができる。その性能は名高いスヴァログ探知機やベルズ探知機にも匹敵し、多くの熟練ストーカーに愛用されている。洗練されたディスプレイはナイトビジョンゴーグルと完全に互換性があり、夜間のアーティファクト探索に最適化されているのが特徴だ。最先端の探知精度と低照度環境での実用性を兼ね備えた、ゾーンで手に入る最高級の探知機といえる。\n \n
+		%c[pda_white]特性:\n
+		%c[pda_white] • %c[pda_white]ティア IV+\n
+		%c[d_orange] • %c[pda_white]科学的に未確認のものを含め、すべてのアーティファクトを検出する\n
+		%c[d_cyan] • %c[pda_white]ナイトビジョンゴーグルに対応している\n
+	</text>
+	</string>
+
+	<string id="ui_mcm_menu_grok_artefacts_bip">
+		<text>Artefact Passive Detect</text>
+	</string>
+
+	<string id="ui_mcm_menu_grok_artefacts_bip_title">
+		<text>Artefacts Passive Detection</text>
+	</string>
+
+	<string id="ui_mcm_grok_artefacts_bip_title">
+		<text>Artefacts Passive Detection</text>
+	</string>
+
+	<string id="ui_mcm_grok_artefacts_bip_enabled">
+		<text>アーティファクトのアイコンインジケーターの表示</text>
+	</string>
+
+</string_table>

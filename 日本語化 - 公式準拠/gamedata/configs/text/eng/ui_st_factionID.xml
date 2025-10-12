@@ -1,0 +1,107 @@
+<string_table>
+
+	<string id="ui_mcm_menu_targetID">
+		<text>Faction Identification</text>
+	</string>
+
+	<string id="ui_mcm_targetID_deadID">
+		<text>死亡したストーカーを識別する</text>
+	</string>
+
+	<string id="ui_mcm_targetID_nameID">
+		<text>ストーカーの名前を識別する</text>
+	</string>
+
+	<string id="ui_mcm_targetID_timeID">
+		<text>距離に応じて識別を遅延させる</text>
+	</string>
+	<string id="ui_mcm_targetID_timeID_desc">
+		<text>有効にすると、ストーカーを識別するまでに時間がかかるようになります。この時間は距離によって変わります。</text>
+	</string>
+
+	<string id="ui_mcm_targetID_rankID">
+		<text>ストーカーのランクを識別する</text>
+	</string>
+
+	<string id="ui_mcm_targetID_talkName">
+		<text>接触するまでは識別しない</text>
+	</string>
+	<string id="ui_mcm_targetID_talkName_desc">
+		<text>有効にすると、プレイヤーはストーカーと話したり、その死体を調べることで初めて名前とランクがわかるようになります。</text>
+	</string>
+
+	<string id="ui_mcm_targetID_speedID">
+		<text>識別の早さ</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xo">
+		<text>位置 X</text>
+	</string>
+	<string id="ui_mcm_targetID_yo">
+		<text>位置 Y</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xp">
+		<text>派閥パッチ オフセット X</text>
+	</string>
+	<string id="ui_mcm_targetID_yp">
+		<text>派閥パッチ オフセット Y</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xn">
+		<text>名前 オフセット X</text>
+	</string>
+	<string id="ui_mcm_targetID_yn">
+		<text>名前 オフセット Y</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_xr">
+		<text>ランク オフセット X</text>
+	</string>
+	<string id="ui_mcm_targetID_yr">
+		<text>ランク オフセット Y</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_flipAlign">
+		<text>文字の整列を反転させる</text>
+	</string>
+	<string id="ui_mcm_targetID_flipAlign_desc">
+		<text>名前とランクが右揃えになり、HUDを画面の右側に配置できるようになります。</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_colorR">
+		<text>名前の文字色 R</text>
+	</string>
+	<string id="ui_mcm_targetID_colorG">
+		<text>名前の文字色 G</text>
+	</string>
+	<string id="ui_mcm_targetID_colorB">
+		<text>名前の文字色 B</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_RcolorR">
+		<text>ランクの文字色 R</text>
+	</string>
+	<string id="ui_mcm_targetID_RcolorG">
+		<text>ランクの文字色 G</text>
+	</string>
+	<string id="ui_mcm_targetID_RcolorB">
+		<text>ランクの文字色 B</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_targL">
+		<text>ターゲットの識別範囲</text>
+	</string>
+	<string id="ui_mcm_targetID_targL_desc">
+		<text>ターゲットの識別に必要な照準の正確さを調整します。\n値が高いほど識別範囲が狭くなり、値が低いほどターゲットを簡単に識別できるようになります。\n値が1.0の場合、ターゲットを画面の中心で正確に捉える必要があります。</text>
+	</string>
+	
+	<string id="ui_mcm_targetID_unknown">
+		<text>不明</text>
+	</string>
+	<string id="ui_mcm_targetID_scan">
+		<text>識別中...</text>
+	</string>
+	
+	
+</string_table>

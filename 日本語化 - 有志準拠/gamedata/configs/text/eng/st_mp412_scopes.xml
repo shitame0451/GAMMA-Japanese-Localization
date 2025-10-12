@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	MP412 REX SIGHTS
+-->
+
+<string_table>
+	<string id="st_integrated_docter">
+		<text>DOCTER Sight</text>
+	</string>
+	<string id="st_integrated_docter_descr">
+		<text>%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Noblex\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n \n
+		</text>
+	</string>
+
+    <string id="st_integrated_compact">
+		<text>Compact Sight</text>
+	</string>
+	<string id="st_integrated_compact_descr">
+		<text>%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]様々な国\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]様々なメーカー\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n \n
+		</text>
+	</string>
+	
+</string_table>

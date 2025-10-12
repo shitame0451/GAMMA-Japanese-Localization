@@ -1,0 +1,36 @@
+-- dialogs.script
+
+-- ===================================================================
+--  text_npc_has_cancel_task （タスクキャンセル時の個数表示・周波数表示・条件付き括弧）
+-- ===================================================================
+local original_text_npc_has_cancel_task = dialogs.text_npc_has_cancel_task
+dialogs.text_npc_has_cancel_task = function(a, b)
+	local text = original_text_npc_has_cancel_task(a, b)
+	if not text then
+		return game.translate_string("st_task_none_active")
+	end
+
+	-- タスクがない場合は加工しない
+	if text == game.translate_string("st_task_none_active") then
+		return text
+	end
+
+	-- freqを埋め込む
+	local npc = dialogs.who_is_npc(a, b)
+	local task_id = axr_task_manager.ongoing_tasks[npc:id()] 
+					and axr_task_manager.ongoing_tasks[npc:id()][1]
+	local var = task_id and load_var(db.actor, task_id)
+	local freq = (var and var.freq) and tostring(var.freq) or ""
+
+	-- 個数を埋め込む
+	local count = task_id and load_var(db.actor, task_id.."_fetch_count") or 1
+	if count > 1 then
+		text = text .. "（x" .. tostring(count) .. "）"
+	end
+
+	-- freqを置換
+	text = utils_data.parse_string_keys(text, { ["freq"] = freq })
+
+	-- カギ括弧で囲んで語尾を追加
+	return "「" .. text .. "」の件か？"
+end

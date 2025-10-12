@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_wpn_g36nimble_rwap">
+		<text>G36C «Merc»</text>
+	</string>
+	<string id="st_wpn_g36nimble_rwap_descr">
+		<text>G3の後継として開発されたG36は驚異的な信頼性を誇り、アサルトライフルの新たな基準を築いた。軽量かつ高精度で、メンテナンスも容易なことから、世界各国の法執行機関で採用されている。名称に「C」が付くモデルはバレル、ハンドガード、ストックを短縮し、フラッシュハイダーを装備したコンパクト仕様になっている。«Merc»にはフォアグリップとレーザーサイトが追加され、ボルトが改良されたことで発射速度が向上している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Heckler &amp; Koch\n
+		</text>
+	</string>
+
+<!-- UNUSED
+	<string id="st_wpn_g36v">
+		<text>G36V</text>
+	</string>
+	<string id="st_wpn_g36v_descr">
+		<text>H&amp;K G-36は、1990年代初頭にはHK-50プロジェクトとして知られていた。G11とG41のプロジェクトが中止された後、ドイツ連邦軍には時代遅れのG3ライフルが残された。Heckler &amp; Kochは、ドイツ軍と輸出の両方のために新しいアサルトライフルを開発することになった。以前はG36E（E-Export）として知られていたこのバージョンは、標準的なG36の輸出バージョンだ。G36Vは標準小銃の特徴をすべて備えており、銃剣マウントは標準的なNATOタイプ。このモデルはスペインとラトビア向けに最初に生産された。今のところ、このライフルに対する不評はほとんどない。正確で信頼性が高く、メンテナンスも簡単だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Heckler &amp; Koch\n
+		</text>
+	</string>
+	<string id="st_wpn_g36ka4k">
+		<text>G36KA4</text>
+	</string>
+	<string id="st_wpn_g36ka4_descr">
+		<text>H&amp;K G-36は、1990年代初頭にはHK-50プロジェクトとして知られていた。G11とG41のプロジェクトが中止された後、ドイツ連邦軍には時代遅れのG3ライフルが残された。Heckler &amp; Kochは、ドイツ軍と輸出の両方のために新しいアサルトライフルを開発することになった。2016年から2017年にかけて、G36Kを改良したG36KA4が登場した。ハンドガードに独自のHKey改造システムを追加し、より多くのタクティカルアクセサリーを追加し、バレルを重くし、キャリーハンドルのx3スコープを取り外し、より薄型のKAC BUISレール、グレネードランチャーを取り付け可能にした。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Heckler &amp; Koch\n
+		</text>
+	</string>
+-->
+
+</string_table>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="ui_mcm_menu_rad_status_icon_msv">
+		<text>Millisieverts over Radiation Status Icon</text>
+	</string>
+
+	<string id="ui_mcm_rad_status_icon_msv_title">
+		<text>Millisieverts over Radiation Status Icon</text>
+	</string>
+
+	<string id="ui_mcm_rad_status_icon_msv_title_desc">
+		<text>ステータスインジケーター上にプレイヤーの放射線被曝量（mSv）を表示します。</text>
+	</string>
+
+	<string id="ui_mcm_rad_status_icon_msv_faster_refresh_rate">
+		<text>更新頻度を高速化</text>
+	</string>
+	<string id="ui_mcm_rad_status_icon_msv_faster_refresh_rate_desc">
+		<text>ステータスインジケーター全体の更新頻度とは別に、数値表示をより高速に更新できるようにします。</text>
+	</string>
+
+	<string id="ui_mcm_rad_status_icon_msv_icon_msv_requirement">
+		<text>表示条件</text>
+	</string>
+	<string id="ui_mcm_rad_status_icon_msv_icon_msv_requirement_desc">
+		<text>mSv数値を表示するために必要な条件を設定します。</text>
+	</string>
+
+	<string id="ui_mcm_lst_rad_status_icon_msv_no_requirement_label">
+		<text>条件なし</text>
+	</string>
+	<string id="ui_mcm_lst_rad_status_icon_msv_geiger_in_inv_label">
+		<text>ガイガーカウンター所持時</text>
+	</string>
+	<string id="ui_mcm_lst_rad_status_icon_msv_charged_geiger_label">
+		<text>充電済みガイガーカウンター所持時</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="st_prt_i_ammo">
+		<text>弾薬の部品</text>
+	</string>
+	<string id="st_prt_i_ammo_descr">
+		<text>薬莢、雷管、弾頭などの部品。ゾーンでの弾薬の作成や修理に欠かせない。\n \n</text>
+	</string>
+	<string id="st_prt_i_paper">
+		<text>ペーパーシート</text>
+	</string>
+	<string id="st_prt_i_paper_descr">
+		<text>メモを取ったり、地図を描いたり、ちょっとした包みに使ったりと、様々な用途に使える普通の紙。\n \n</text>
+	</string>
+	<string id="st_prt_i_textolite">
+		<text>基板</text>
+	</string>
+	<string id="st_prt_i_textolite_descr">
+		<text>綿と熱硬化性樹脂が多層に重なった複合素材。\n \n</text>
+	</string>
+	<string id="st_textile_patch_b">
+		<text>布生地</text>
+	</string>
+	<string id="st_textile_patch_b_descr">
+		<text>普通の布。衣類の修繕や、オイルや洗浄溶剤を塗布する際に使われる。\n \n</text>
+	</string>
+	<string id="st_textile_patch_m">
+		<text>軍用生地</text>
+	</string>
+	<string id="st_textile_patch_m_descr">
+		<text>軍用規格の繊維シート。価格が安い上に様々な用途に使えるため、多目的に活用されている。\n \n</text>
+	</string>
+	<string id="st_textile_patch_e">
+		<text>強化された軍用生地</text>
+	</string>
+	<string id="st_textile_patch_e_descr">
+		<text>ケブラーで補強された頑丈な織物。過酷な環境から身を守るため、装甲や服の強化に使用する。\n \n</text>
+	</string>
+	<string id="st_prt_i_capacitors">
+		<text>コンデンサ</text>
+	</string>
+	<string id="st_prt_i_capacitors_descr">
+		<text>電気を一時的に蓄えたり放出したりする小型の電子部品。装備品の修理に使用する。\n \n</text>
+	</string>
+	<string id="st_prt_i_transistors">
+		<text>トランジスタ</text>
+	</string>
+	<string id="st_prt_i_transistors_descr">
+		<text>ラジオや検出器、その他の電子機器で電気の流れを正しく調整・制御するために欠かせない部品。\n \n</text>
+	</string>
+	<string id="st_prt_i_resistors">
+		<text>抵抗器</text>
+	</string>
+	<string id="st_prt_i_resistors_descr">
+		<text>電子機器でも特に頻繁に使用される部品。電流を制御し、回路内の他の部品に適切な電圧を供給する役割を持つ。\n \n</text>
+	</string>
+	<string id="st_prt_i_copper">
+		<text>銅線</text>
+	</string>
+	<string id="st_prt_i_copper_descr">
+		<text>電気の流れを制御する柔らかい導電線。様々な機器で使われ、古くなったラジオやトランシーバーから取り出されることが多い。\n \n</text>
+	</string>
+	<string id="st_prt_i_wood">
+		<text>木材の欠片</text>
+	</string>
+	<string id="st_prt_i_wood_descr">
+		<text>木の端材を集めたもの。即席で物を組み立てたり、補修や工作に使われる。\n \n</text>
+	</string>
+	<string id="st_prt_i_scrap">
+		<text>金属の破片</text>
+	</string>
+	<string id="st_prt_i_scrap_descr">
+		<text>鋼やアルミ合金など、様々な金属の破片や部品を拾い集めた資材。\n \n</text>
+	</string>
+	<string id="st_prt_i_fasteners">
+		<text>止金具</text>
+	</string>
+	<string id="st_prt_i_fasteners_descr">
+		<text>ねじ、ワッシャー、ナット、釘、金属板の切れ端など、多種多様な金属部品の詰め合わせ。\n \n</text>
+	</string>
+	<string id="st_prt_i_plastic">
+		<text>プラスチックフィルム</text>
+	</string>
+	<string id="st_prt_i_plastic_descr">
+		<text>柔らかいポリエチレン製のシート。精密機器を水や熱から守るために使われる。\n \n</text>
+	</string>
+	<string id="st_prt_i_glass">
+		<text>ガラス片</text>
+	</string>
+	<string id="st_prt_i_glass_descr">
+		<text>様々な形や大きさのガラス片。工作や装飾、修理などに使われる。\n \n</text>
+	</string>
+	<string id="st_prt_i_ceramic">
+		<text>セラミックベース</text>
+	</string>
+	<string id="st_prt_i_ceramic_descr">
+		<text>熱や衝撃に強いセラミックの破片。機械の表面や部品を保護するための素材として使われる。\n \n</text>
+	</string>
+	<string id="st_prt_i_leather">
+		<text>革のロール</text>
+	</string>
+	<string id="st_prt_i_leather_descr">
+		<text>工作や修理などに使われる、しなやかで丈夫な革のシート。\n \n</text>
+	</string>
+	<string id="st_prt_i_rubber">
+		<text>ゴム</text>
+	</string>
+	<string id="st_prt_i_rubber_descr">
+		<text>電気機器の絶縁や密閉に使える、しなやかな断熱素材。\n \n</text>
+	</string>
+	<string id="st_prt_i_triggermechanism">
+		<text>トリガー機構</text>
+	</string>
+	<string id="st_prt_i_triggermechanism_descr">
+		<text>銃のトリガー機構およびその周辺部品。どの銃のものかは不明だが、ほとんどのトリガーは構造が似ているため、加工すれば他の銃にも使える。\n
+		</text>
+	</string>
+	<string id="st_prt_i_spring">
+		<text>スプリング</text>
+	</string>
+	<string id="st_prt_i_spring_descr">
+		<text>銃のトリガー機構や内部構造から取り出された小さなばね。どの銃のものかは不明だが、他の銃に流用できるかもしれない。\n
+		</text>
+	</string>
+	<string id="st_prt_i_pistolgrip">
+		<text>ピストルグリップ</text>
+	</string>
+	<string id="st_prt_i_pistolgrip_descr">
+		<text>どの銃のものかは分からない、拳銃のグリップ。形を整えたり成形することで、ほとんどの銃に取り付けられる。\n
+		</text>
+	</string>
+
+<!--
+	WEAPONS (RIFLES)
+-->
+
+<!--
+	BARRELS
+-->
+	<string id="st_barrel_1">
+		<text>上下二連用12ゲージバレル [SG]</text>
+	</string>
+	<string id="st_barrel_1_descr">
+		<text>上下二連式の12ゲージショットガンに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_2">
+		<text>水平二連用12ゲージバレル [SG]</text>
+	</string>
+	<string id="st_barrel_2_descr">
+		<text>水平二連式の12ゲージショットガンに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_3">
+		<text>12ゲージバレル [SG]</text>
+	</string>
+	<string id="st_barrel_3_descr">
+		<text>12ゲージショットガンに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_4">
+		<text>7.62mmバレル [HR]</text>
+	</string>
+	<string id="st_barrel_4_descr">
+		<text>7.62mmライフルに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_5">
+		<text>7.92mmバレル [HR]</text>
+	</string>
+	<string id="st_barrel_5_descr">
+		<text>ドイツ製7.92mmライフルに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_6">
+		<text>サプレッサー内蔵9mmバレル [9x39/SMG]</text>
+	</string>
+	<string id="st_barrel_6_descr">
+		<text>9mm銃に対応する特殊作戦用バレル。サプレッサーが組み込まれている。\n \n</text>
+	</string>
+	<string id="st_barrel_7">
+		<text>7.62mmバレル [R]</text>
+	</string>
+	<string id="st_barrel_7_descr">
+		<text>セミオートまたはフルオートの7.62mmライフルに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_8">
+		<text>5.45mmバレル [LR]</text>
+	</string>
+	<string id="st_barrel_8_descr">
+		<text>5.45mmライフルに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_9">
+		<text>5.56mmバレル [LR]</text>
+	</string>
+	<string id="st_barrel_9_descr">
+		<text>5.56mmライフルに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_10">
+		<text>7.62mmバレル [MG]</text>
+	</string>
+	<string id="st_barrel_10_descr">
+		<text>7.62mm機関銃に対応するバレル。ガスレギュレーター付き。\n \n</text>
+	</string>
+	<string id="st_barrel_11">
+		<text>9mmバレル [9x39/SMG]</text>
+	</string>
+	<string id="st_barrel_11_descr">
+		<text>9mm銃に対応する特殊作戦用バレル。\n \n</text>
+	</string>
+	<string id="st_barrel_12">
+		<text>7.62mmバレル [SMG]</text>
+	</string>
+	<string id="st_barrel_12_descr">
+		<text>伝説的なPPShサブマシンガンに対応するバレル。\n \n</text>
+	</string>
+	<string id="st_barrel_13">
+		<text>12.7x55mmバレル</text>
+	</string>
+	<string id="st_barrel_13_descr">
+		<text>12.7x55mmライフル（50口径）に対応するバレル。\n \n</text>
+	</string>
+
+<!--
+	TRIGGER MECHANISMS
+-->
+
+	<string id="st_trigger_components_1">
+		<text>シングルモード用ハンマー式トリガー</text>
+	</string>
+	<string id="st_trigger_components_1_descr">
+		<text>シングルモード用のハンマー式トリガー機構。\n \n</text>
+	</string>
+	<string id="st_trigger_components_2">
+		<text>デュアルモード用ハンマー式トリガー</text>
+	</string>
+	<string id="st_trigger_components_2_descr">
+		<text>デュアルモード用のハンマー式トリガー機構。フルオートと単発射撃の両方に対応するよう設計されている。\n \n</text>
+	</string>
+	<string id="st_trigger_components_3">
+		<text>トリプルモード用ハンマー式トリガー</text>
+	</string>
+	<string id="st_trigger_components_3_descr">
+		<text>トリプルモード用のハンマー式トリガー機構。フルオート、単発、バースト射撃に対応するよう設計されている。\n \n</text>
+	</string>
+	<string id="st_trigger_components_4">
+		<text>シングルモード用ストライカー式トリガー</text>
+	</string>
+	<string id="st_trigger_components_4_descr">
+		<text>シングルモード用のストライカー式トリガー機構。\n \n</text>
+	</string>
+	<string id="st_trigger_components_5">
+		<text>デュアルモード用ストライカー式トリガー</text>
+	</string>
+	<string id="st_trigger_components_5_descr">
+		<text>デュアルモード用のストライカー式トリガー機構。フルオートおよび単発での射撃が可能。\n \n</text>
+	</string>
+	<string id="st_trigger_components_6">
+		<text>ダブルバレルショットガン用トリガー</text>
+	</string>
+	<string id="st_trigger_components_6_descr">
+		<text>ダブルバレルショットガンに対応するデュアルトリガー機構。\n \n</text>
+	</string>
+
+
+<!--
+	BREECH BLOCKS
+-->
+
+	<string id="st_bolt_carrier_1">
+		<text>WP製ボルトキャリア</text>
+	</string>
+	<string id="st_bolt_carrier_1_descr">
+		<text>東側諸国が製造した、回転ボルトロック機構を備えたボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_2">
+		<text>回転ボルトロック付きボルトキャリア [9x39]</text>
+	</string>
+	<string id="st_bolt_carrier_2_descr">
+		<text>特殊な自動火器用に東側諸国が製造した、回転ボルトロック機構を備えたボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_3">
+		<text>NATO製ボルトキャリア [LR]</text>
+	</string>
+	<string id="st_bolt_carrier_3_descr">
+		<text>一般的な口径のライフル用に西側諸国が製造した、回転ボルトロック機構を備えたボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_4">
+		<text>バトルライフル用ボルトキャリア</text>
+	</string>
+	<string id="st_bolt_carrier_4_descr">
+		<text>ロッキングバイアスを備えたボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_5">
+		<text>ディレードブローバック用ボルトキャリア</text>
+	</string>
+	<string id="st_bolt_carrier_5_descr">
+		<text>ディレードブローバック方式の銃に対応するボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_6">
+		<text>ボルトアクション用ボルトキャリア</text>
+	</string>
+	<string id="st_bolt_carrier_6_descr">
+		<text>ボルトハンドル付きの回転式ボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_7">
+		<text>ショットガン用ボルトキャリア</text>
+	</string>
+	<string id="st_bolt_carrier_7_descr">
+		<text>ウェッジロックを備えたショットガンに対応するボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_8">
+		<text>上下二連ショットガン用レシーバー</text>
+	</string>
+	<string id="st_bolt_carrier_8_descr">
+		<text>上下二連ショットガンに対応するレシーバー。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_9">
+		<text>水平二連ショットガン用レシーバー</text>
+	</string>
+	<string id="st_bolt_carrier_9_descr">
+		<text>水平二連ショットガンに対応するレシーバー。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_10">
+		<text>NATO製ボルトキャリア [HR]</text>
+	</string>
+	<string id="st_bolt_carrier_10_descr">
+		<text>大口径のライフル用に西側諸国が製造した、回転ボルトロック機構を備えたボルトキャリア。\n \n</text>
+	</string>
+	<string id="st_bolt_carrier_11">
+		<text>非ロック式サブマシンガン用ボルトキャリア [SMG]</text>
+	</string>
+	<string id="st_bolt_carrier_11_descr">
+		<text>サブマシンガンに対応するフリーボルト式ボルトキャリア。サブマシンガンは低威力の弾薬を使用するため、ほとんどの場合ロック機構を必要としない。\n \n</text>
+	</string>
+
+<!--
+	BREECH HEADS
+-->
+
+	<string id="st_bolt_1">
+		<text>ショットガン用シェルリフター [SG]</text>
+	</string>
+	<string id="st_bolt_1_descr">
+		<text>ショットガンに弾薬を装填するための小さなトラップドア。銃を作動させたとき、マガジンチューブから薬室へ弾薬を運ぶ役割を持つ。\n \n</text>
+	</string>
+	<string id="st_bolt_2">
+		<text>機関銃用ボルト [MG]</text>
+	</string>
+	<string id="st_bolt_2_descr">
+		<text>軽機関銃または中機関銃に対応するボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_3">
+		<text>オートショットガン用ボルト [SG]</text>
+	</string>
+	<string id="st_bolt_3_descr">
+		<text>セミオートショットガンに対応するロッキングボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_4">
+		<text>2-ロッキングラグボルト [HR]</text>
+	</string>
+	<string id="st_bolt_4_descr">
+		<text>フルパワーライフルに対応する、2つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_5">
+		<text>3-ロッキングラグボルト [HR]</text>
+	</string>
+	<string id="st_bolt_5_descr">
+		<text>SVDのようなフルパワーライフルに対応する、3つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_6">
+		<text>2-ロッキングラグボルト [LR]</text>
+	</string>
+	<string id="st_bolt_6_descr">
+		<text>軽量な中口径ライフルに対応する、2つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_7">
+		<text>4-ロッキングラグボルト</text>
+	</string>
+	<string id="st_bolt_7_descr">
+		<text>ライフルに対応する、4つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_8">
+		<text>6-ロッキングラグボルト [LR]</text>
+	</string>
+	<string id="st_bolt_8_descr">
+		<text>ライフルに対応する、6つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_9">
+		<text>7-ロッキングラグボルト</text>
+	</string>
+	<string id="st_bolt_9_descr">
+		<text>AR-15のようなライフルに対応する、7つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_10">
+		<text>8-ロッキングラグボルト</text>
+	</string>
+	<string id="st_bolt_10_descr">
+		<text>ライフルに対応する、8つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_11">
+		<text>上下二連ショットガン用内部ハンマー [SG]</text>
+	</string>
+	<string id="st_bolt_11_descr">
+		<text>上下二連ショットガンに対応する内部ハンマー。\n \n</text>
+	</string>
+	<string id="st_bolt_12">
+		<text>水平二連ショットガン用ハンマー [SG]</text>
+	</string>
+	<string id="st_bolt_12_descr">
+		<text>水平二連ショットガンに対応する左右のハンマー。\n \n</text>
+	</string>
+	<string id="st_bolt_13">
+		<text>NATO製2-ロッキングラグボルト [HR]</text>
+	</string>
+	<string id="st_bolt_13_descr">
+		<text>NATO製のフルパワーライフルに対応する、2つのロッキングラグを備えたボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_14">
+		<text>ディレードブローバック用ボルト [R/SMG]</text>
+	</string>
+	<string id="st_bolt_14_descr">
+		<text>ディレードブローバック方式のサブマシンガンやライフルに対応するボルトヘッド。\n \n</text>
+	</string>
+	<string id="st_bolt_15">
+		<text>WP製サブマシンガン用ボルト [SMG]</text>
+	</string>
+	<string id="st_bolt_15_descr">
+		<text>東側諸国製のサブマシンガンに対応するリコイルスプリングと撃針。\n \n</text>
+	</string>
+	<string id="st_bolt_16">
+		<text>NATO製サブマシンガン用ボルト [SMG]</text>
+	</string>
+	<string id="st_bolt_16_descr">
+		<text>西側諸国製のサブマシンガンに対応するリコイルスプリングと撃針。\n \n</text>
+	</string>
+	<string id="st_bolt_17">
+		<text>PPSh-41用リコイルスプリング&amp;撃針 [SMG]</text>
+	</string>
+	<string id="st_bolt_17_descr">
+		<text>PPShサブマシンガンに対応する、頑丈でシンプルなリコイルスプリングと撃針。\n \n</text>
+	</string>
+
+<!--
+	GAS TUBES, ETC
+-->
+
+	<string id="st_gas_tube_1">
+		<text>ショットガン用ガスチューブ [SG]</text>
+	</string>
+	<string id="st_gas_tube_1_descr">
+		<text>ショットガンに対応するガスチューブ。\n \n</text>
+	</string>
+	<string id="st_gas_tube_2">
+		<text>ショットガン用ハンドガード [SG]</text>
+	</string>
+	<string id="st_gas_tube_2_descr">
+		<text>ポンプアクションショットガンに対応するスライド式ハンドガード。\n \n</text>
+	</string>
+	<string id="st_gas_tube_3">
+		<text>ガスチューブ [HR]</text>
+	</string>
+	<string id="st_gas_tube_3_descr">
+		<text>セミオートフルパワーライフルに対応するガスチューブ。\n \n</text>
+	</string>
+	<string id="st_gas_tube_4">
+		<text>ガスチューブ [9x39/SMG]</text>
+	</string>
+	<string id="st_gas_tube_4_descr">
+		<text>ロシア特殊部隊向けの9mm口径銃に対応するガスチューブ。\n \n</text>
+	</string>
+	<string id="st_gas_tube_5">
+		<text>WP製ガスチューブ [R]</text>
+	</string>
+	<string id="st_gas_tube_5_descr">
+		<text>東側諸国製のセミオートまたはフルオートライフルに対応するガスチューブ。\n \n</text>
+	</string>
+	<string id="st_gas_tube_6">
+		<text>NATO製ガスチューブ [R]</text>
+	</string>
+	<string id="st_gas_tube_6_descr">
+		<text>西側諸国製のセミオートまたはフルオートライフルに対応するガスチューブ。\n \n</text>
+	</string>
+	<string id="st_gas_tube_7">
+		<text>機関銃用ガスチューブ [MG]</text>
+	</string>
+	<string id="st_gas_tube_7_descr">
+		<text>機関銃に対応するガスチューブ。\n \n</text>
+	</string>
+	<string id="st_gas_tube_8">
+		<text>ボルトアクションライフル用エジェクター [HR]</text>
+	</string>
+	<string id="st_gas_tube_8_descr">
+		<text>ボルトハンドル付きの回転式ボルトキャリアを備えたライフルのエジェクター。\n \n</text>
+	</string>
+	<string id="st_gas_tube_9">
+		<text>上下二連ショットガン用エキストラクター [SG]</text>
+	</string>
+	<string id="st_gas_tube_9_descr">
+		<text>上下二連ショットガンに対応するエキストラクター。\n \n</text>
+	</string>
+	<string id="st_gas_tube_10">
+		<text>水平二連ショットガン用エキストラクター [SG]</text>
+	</string>
+	<string id="st_gas_tube_10_descr">
+		<text>水平二連ショットガンに対応するエキストラクター。\n \n</text>
+	</string>
+	<string id="st_gas_tube_11">
+		<text>サブマシンガン用エジェクター [SMG]</text>
+	</string>
+	<string id="st_gas_tube_11_descr">
+		<text>サブマシンガンに対応するエジェクター。\n \n</text>
+	</string>
+
+<!--
+	WEAPONS (PISTOLS)
+-->
+
+<!--
+	BARRELS
+-->
+
+	<string id="st_prt_w_p_barrel_1">
+		<text>9x18mmバレル</text>
+	</string>
+	<string id="st_prt_w_p_barrel_1_descr">
+		<text>9x18mmマカロフ弾に対応するバレル。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_barrel_2">
+		<text>9x19mmバレル</text>
+	</string>
+	<string id="st_prt_w_p_barrel_2_descr">
+		<text>9x19mmパラベラム弾に対応するバレル。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_barrel_3">
+		<text>.45ACPバレル</text>
+	</string>
+	<string id="st_prt_w_p_barrel_3_descr">
+		<text>.45ACP弾に対応するバレル。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_barrel_4">
+		<text>5.7x28mmバレル</text>
+	</string>
+	<string id="st_prt_w_p_barrel_4_descr">
+		<text>5.7x28mm弾に対応するバレル。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_barrel_5">
+		<text>7.62x25mmバレル</text>
+	</string>
+	<string id="st_prt_w_p_barrel_5_descr">
+		<text>7.62x25mmトカレフ弾に対応するバレル。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_barrel_6">
+		<text>サプレッサー内蔵9x18mmバレル</text>
+	</string>
+	<string id="st_prt_w_p_barrel_6_descr">
+		<text>9x18mmマカロフ弾に対応するバレル。サプレッサーが組み込まれている。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_barrel_7">
+		<text>.357バレル</text>
+	</string>
+	<string id="st_prt_w_p_barrel_7_descr">
+		<text>.357弾に対応するバレル。\n \n</text>
+	</string>
+
+<!--
+	TRIGGER MECHANISMS
+-->
+
+	<string id="st_prt_w_p_trigger_1">
+		<text>シングルアクション用トリガー</text>
+	</string>
+	<string id="st_prt_w_p_trigger_1_descr">
+		<text>シングルアクション用のトリガー機構。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_trigger_2">
+		<text>ダブルアクション用トリガー</text>
+	</string>
+	<string id="st_prt_w_p_trigger_2_descr">
+		<text>ダブルアクション用のトリガー機構。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_trigger_3">
+		<text>ダブルアクション／シングルアクション用トリガー</text>
+	</string>
+	<string id="st_prt_w_p_trigger_3_descr">
+		<text>ダブルアクションまたはシングルアクションに対応するトリガー機構。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_trigger_4">
+		<text>リボルバー用トリガー</text>
+	</string>
+	<string id="st_prt_w_p_trigger_4_descr">
+		<text>リボルバー銃に対応するダブルアクション用トリガー機構。\n \n</text>
+	</string>
+	
+	
+<!--
+	RECOIL SPRING ASSEMBLYS
+-->
+
+	<string id="st_prt_w_p_spring_1">
+		<text>WP製9x18mm用リコイルスプリング</text>
+	</string>
+	<string id="st_prt_w_p_spring_1_descr">
+		<text>9x18mmマカロフ弾に対応するソ連製のリコイルスプリングアセンブリ。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_spring_2">
+		<text>ロシア製9x19mmリコイルスプリング</text>
+	</string>
+	<string id="st_prt_w_p_spring_2_descr">
+		<text>9x19mmパラベラム弾に対応するロシア製のリコイルスプリングアセンブリ。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_spring_3">
+		<text>.45ACP用リコイルスプリング</text>
+	</string>
+	<string id="st_prt_w_p_spring_3_descr">
+		<text>.45ACP弾に対応するリコイルスプリングアセンブリ。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_spring_4">
+		<text>NATO製9x19mm用リコイルスプリング</text>
+	</string>
+	<string id="st_prt_w_p_spring_4_descr">
+		<text>9x19mmパラベラム弾に対応する西側諸国製のリコイルスプリングアセンブリ。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_spring_5">
+		<text>7.62x25mm用リコイルスプリング</text>
+	</string>
+	<string id="st_prt_w_p_spring_5_descr">
+		<text>7.62x25mmトカレフ弾に対応するリコイルスプリングアセンブリ。\n \n</text>
+	</string>
+	<string id="st_prt_w_p_spring_6">
+		<text>Desert Eagle用リコイルスプリング</text>
+	</string>
+	<string id="st_prt_w_p_spring_6_descr">
+		<text>Desert Eagleに対応するリコイルスプリングアセンブリ。\n \n</text>
+	</string>
+	
+<!--
+	OUTFITS
+-->
+
+<!--
+	FABRICS AND HARDWARE
+-->
+
+	<string id="st_prt_o_fabrics_1">
+		<text>布シート</text>
+	</string>
+	<string id="st_prt_o_fabrics_1_descr">
+		<text>スーツの最も基本となる素材。快適さと耐久性を持たせるため、綿、ポリコットン、ウール、革などの様々な素材が使用されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_fabrics_2">
+		<text>合成繊維シート</text>
+	</string>
+	<string id="st_prt_o_fabrics_2_descr">
+		<text>スーツの最も基本となる素材。ポリエステルやライクラファイバーなどの合成素材を使用し、汎用性と耐久性を備えている。\n \n</text>
+	</string>
+	<string id="st_prt_o_fabrics_3">
+		<text>丈夫な織物</text>
+	</string>
+	<string id="st_prt_o_fabrics_3_descr">
+		<text>ポリエステル、革、キャンバスなどの様々な素材で作られており、過酷な環境条件での耐久性に優れている。\n \n</text>
+	</string>
+	<string id="st_prt_o_fabrics_4">
+		<text>ミルスペック繊維</text>
+	</string>
+	<string id="st_prt_o_fabrics_4_descr">
+		<text>軍用規格の繊維シート。ゴムやバリスティックナイロンなどの防護素材が使用されており、関節保護用途に適している。比較的低価格でありながら高い汎用性が評価されている。\n \n</text>
+	</string>
+	
+<!--
+	RETARDANTS / PROTECTIVE TEXTILES
+-->
+
+	<string id="st_prt_o_retardant_1">
+		<text>難燃性の積層繊維</text>
+	</string>
+	<string id="st_prt_o_retardant_1_descr">
+		<text>化学処理や耐火繊維の使用により、火に対する耐性を高めた繊維製品。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_2">
+		<text>耐化学・耐電性の積層繊維</text>
+	</string>
+	<string id="st_prt_o_retardant_2_descr">
+		<text>化学処理や特殊繊維の使用により、電撃や化学粒子に対する耐性を高めた繊維製品。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_3">
+		<text>グレードBのRPVC加工生地</text>
+	</string>
+	<string id="st_prt_o_retardant_3_descr">
+		<text>RPVC（硬質ポリ塩化ビニル）は耐候性に優れた不燃性の素材で、アノマリーに対する防護性能を高めるために紫外線吸収剤を添加する加工が施されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_4">
+		<text>グレードAのRPVC加工生地</text>
+	</string>
+	<string id="st_prt_o_retardant_4_descr">
+		<text>RPVC（硬質ポリ塩化ビニル）は耐候性に優れた不燃性の素材で、アノマリーに対する防護性能を高めるために紫外線吸収剤を添加する加工が施されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_5">
+		<text>ゴム繊維製のPVC加工生地</text>
+	</string>
+	<string id="st_prt_o_retardant_5_descr">
+		<text>ポリエステルとゴム繊維で作られた丈夫で耐久性のある生地にPVCコーティングを施したもの。危険に対する防護のために設計されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_6">
+		<text>カーボンファイバー製のPVC加工生地</text>
+	</string>
+	<string id="st_prt_o_retardant_6_descr">
+		<text>ポリエステルとカーボンファイバーで作られた丈夫で耐久性のある生地にPVCコーティングを施したもの。危険に対する防護のために設計されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_7">
+		<text>絶縁性の格子状マグネシウム挿入材</text>
+	</string>
+	<string id="st_prt_o_retardant_7_descr">
+		<text>格子状のマグネシウムが絶縁層として機能し、強力な電撃やプサイ波からスーツおよびその着用者を保護する。また、その他の危険からも身を守ることができる。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_8">
+		<text>強化された絶縁性の格子状酸化マグネシウム挿入材</text>
+	</string>
+	<string id="st_prt_o_retardant_8_descr">
+		<text>格子状のマグネシウムが絶縁層として機能し、強力な電撃やプサイ波からスーツおよびその着用者を保護する。また、その他の危険からも身を守ることができる。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_9">
+		<text>ポリマーシート（硫酸ビスマスコーティング）</text>
+	</string>
+	<string id="st_prt_o_retardant_9_descr">
+		<text>硫酸ビスマスの熱分解特性は環境的な危険に対する防護に優れているため、ゾーンで使用するスーツに適している。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_10">
+		<text>ポリマーシート（硫酸バリウムコーティング）</text>
+	</string>
+	<string id="st_prt_o_retardant_10_descr">
+		<text>硫酸バリウムの熱分解特性は環境的な危険に対する防護に優れているため、ゾーンで使用するスーツに適している。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_11">
+		<text>アルミナイズ処理された難燃性の多層生地</text>
+	</string>
+	<string id="st_prt_o_retardant_11_descr">
+		<text>火災や化学物質に関連する危険な環境で使用する防護服や防護盾用に特別に設計された生地。プサイ波に対しても優れた遮蔽性を持つ。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_12">
+		<text>アルミナイズ処理されたガラス繊維製の生地</text>
+	</string>
+	<string id="st_prt_o_retardant_12_descr">
+		<text>火災や化学物質に関連する危険な環境で使用する防護服や防護盾用に特別に設計された生地。プサイ波に対しても優れた遮蔽性を持つ。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_13">
+		<text>PBI混紡生地</text>
+	</string>
+	<string id="st_prt_o_retardant_13_descr">
+		<text>高性能な防炎繊維として業界を牽引し、消防機関から長年にわたる信頼を得ている。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_14">
+		<text>ポリエステル加工されたPBI混紡生地</text>
+	</string>
+	<string id="st_prt_o_retardant_14_descr">
+		<text>高性能な防炎繊維として業界を牽引し、消防機関から長年にわたる信頼を得ている。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_15">
+		<text>活性炭布生地</text>
+	</string>
+	<string id="st_prt_o_retardant_15_descr">
+		<text>元々は化学戦用スーツのために開発されたが、防衛、産業、医療など幅広い分野で使用されている。創傷被覆材の効果を大幅に向上させると同時に、放射線からの優れた防護性能を持つ。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_16">
+		<text>活性炭処理された不織布</text>
+	</string>
+	<string id="st_prt_o_retardant_16_descr">
+		<text>元々は化学戦用スーツのために開発されたが、防衛、産業、医療など幅広い分野で使用されている。創傷被覆材の効果を大幅に向上させると同時に、放射線からの優れた防護性能を持つ。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_17">
+		<text>絶縁コンスタンタン挿入材</text>
+	</string>
+	<string id="st_prt_o_retardant_17_descr">
+		<text>コンスタンタン製シートを使用した挿入材。絶縁層として機能し、スーツおよびその着用者を電撃、プサイ波、放射性物質から保護する。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_18">
+		<text>絶縁コンスタンタン挿入材（ガラス繊維コーティング）</text>
+	</string>
+	<string id="st_prt_o_retardant_18_descr">
+		<text>コンスタンタン製シートとガラス繊維でコーティングされた生地を使用した挿入材。絶縁層として機能し、スーツおよびその着用者を電撃、プサイ波、放射性物質から保護する。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_19">
+		<text>断熱ガラス繊維製の生地（ポリエステル）</text>
+	</string>
+	<string id="st_prt_o_retardant_19_descr">
+		<text>Eガラス繊維で織られ、バーミキュライトベースのフィルムでコーティングされた高温耐性のある生地。815℃までの高温に耐え、20Kvまでの衝撃に対しても優れた耐性を発揮する。ゾーンのような過酷な環境下において、アノマリーによる危険から身を守るのに重宝されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_retardant_20">
+		<text>断熱ガラス繊維製の生地（サテン織り）</text>
+	</string>
+	<string id="st_prt_o_retardant_20_descr">
+		<text>Eガラス繊維で織られ、バーミキュライトベースのフィルムでコーティングされた高温耐性のある生地。926℃までの高温に耐え、25Kvまでの衝撃に対しても優れた耐性を発揮する。ゾーンのような過酷な環境下において、アノマリーによる危険から身を守るのに重宝されている。\n \n</text>
+	</string>
+	
+<!--
+	BALLISTIC INSERTS
+-->
+
+	<string id="st_prt_o_ballistic_1">
+		<text>ケブラー129製プレート（強化セラミック挿入材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_1_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはセラミックで補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_2">
+		<text>ケブラープロテラ製プレート（強化セラミック挿入材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_2_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはプロテラ製素材で補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_3">
+		<text>ケブラー129製プレート（ポリカーボネート複合材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_3_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはポリカーボネートで補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_4">
+		<text>ケブラー129製プレート（カーボンファイバー複合材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_4_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはカーボンファイバーで補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_5">
+		<text>ケブラーAP製スチールプレート</text>
+	</string>
+	<string id="st_prt_o_ballistic_5_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはカーボンファイバーで補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_6">
+		<text>ケブラーAP製プレート（強化チタン複合材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_6_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはチタンで補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_7">
+		<text>ケブラー119製プレート（ポリカーボネート挿入材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_7_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはポリカーボネート挿入材で補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_8">
+		<text>ケブラー119製プレート（カーボンファイバー挿入材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_8_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはカーボンファイバー挿入材で補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_9">
+		<text>グレードBのポリエチレンプレート（拡張キャリア付き）</text>
+	</string>
+	<string id="st_prt_o_ballistic_9_descr">
+		<text>身体の重要な部位を守るために用いられる。この硬い装甲プレートは拳銃弾や一部のライフル弾に対して有効であることが証明されており、軍の標準装備として防弾ベストに使用されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_10">
+		<text>グレードAのポリエチレンプレート（拡張キャリア付き）</text>
+	</string>
+	<string id="st_prt_o_ballistic_10_descr">
+		<text>身体の重要な部位を守るために用いられる。この硬い装甲プレートは拳銃弾や一部のライフル弾に対して有効であることが証明されており、軍の標準装備として防弾ベストに使用されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_11">
+		<text>ケブラー119製プレート</text>
+	</string>
+	<string id="st_prt_o_ballistic_11_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_12">
+		<text>強化されたケブラー119製プレート</text>
+	</string>
+	<string id="st_prt_o_ballistic_12_descr">
+		<text>ケブラープレートはその防護能力の高さで広く知られており、銃弾の衝撃を比較的容易に吸収することができる。重いスチールプレートに代わる軽量な代替品だ。これはケブラーでさらに補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_13">
+		<text>ポリエチレンプレート（軽量）</text>
+	</string>
+	<string id="st_prt_o_ballistic_13_descr">
+		<text>身体の重要な部位を守るために用いられる。この硬い装甲プレートは拳銃弾や一部のライフル弾に対して有効であることが証明されており、軍の標準装備として防弾ベストに使用されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_14">
+		<text>ポリエチレンプレート（即席）</text>
+	</string>
+	<string id="st_prt_o_ballistic_14_descr">
+		<text>身体の重要な部位を守るために用いられる。この硬い装甲プレートは拳銃弾や一部のライフル弾に対して有効であることが証明されており、軍の標準装備として防弾ベストに使用されている。これはゾーンで発見された中古品や摩耗した部品を組み合わせて作られている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_15">
+		<text>カーボンナノチューブ層（ケブラー49）</text>
+	</string>
+	<string id="st_prt_o_ballistic_15_descr">
+		<text>カーボンナノチューブ（CNT）は、防弾素材として大きな可能性を秘めている。CNTの優れた特性はポリマーや他の素材の強化に最適で、防弾ベストなどに使われることが多い。これはケブラー49製の生地で補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_16">
+		<text>カーボンナノチューブ層（ケブラー29）</text>
+	</string>
+	<string id="st_prt_o_ballistic_16_descr">
+		<text>カーボンナノチューブ（CNT）は、防弾素材として大きな可能性を秘めている。CNTの優れた特性はポリマーや他の素材の強化に最適で、防弾ベストなどに使われることが多い。これはケブラー29製の生地で補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_17">
+		<text>ポリエチレン繊維層（ポリカーボネート挿入材）</text>
+	</string>
+	<string id="st_prt_o_ballistic_17_descr">
+		<text>身体の重要な部位を守るために用いられる。この硬い装甲プレートは拳銃弾や一部のライフル弾に対して有効であることが証明されており、軍の標準装備として防弾ベストに使用されている。これはポリカーボネート製素材で補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_18">
+		<text>強化されたポリエチレン繊維層</text>
+	</string>
+	<string id="st_prt_o_ballistic_18_descr">
+		<text>身体の重要な部位を守るために用いられる。この硬い装甲プレートは拳銃弾や一部のライフル弾に対して有効であることが証明されており、軍の標準装備として防弾ベストに使用されている。これはポリカーボネート製素材で補強されている。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_19">
+		<text>カーボンファイバー層</text>
+	</string>
+	<string id="st_prt_o_ballistic_19_descr">
+		<text>カーボンファイバーは軽量で柔軟性があり、高温に耐えることができる。\n \n</text>
+	</string>
+	<string id="st_prt_o_ballistic_20">
+		<text>強化されたカーボンファイバー層</text>
+	</string>
+	<string id="st_prt_o_ballistic_20_descr">
+		<text>カーボンファイバーは軽量で柔軟性があり、高温に耐えることができる。これはさらに層を追加して補強されている。\n \n</text>
+	</string>
+
+<!--
+	SUPPORTIVE INSTALLATIONS
+-->
+
+	<string id="st_prt_o_support_1">
+		<text>エクソスケルトンフレーム</text>
+	</string>
+	<string id="st_prt_o_support_1_descr">
+		<text>サーボモーター、空気圧、レバー、油圧装置で駆動する機械フレーム。装着者に優れた防護と大幅な身体能力の向上を提供する。\n \n</text>
+	</string>
+
+</string_table>

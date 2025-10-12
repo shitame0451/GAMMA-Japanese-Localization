@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+<string id="ui_mcm_key_wrapper_v">
+        <text>ソフトラップに変換</text>
+</string>
+
+
+<string id="ui_mcm_key_wrapper_v_desc">
+        <text>このキー割り当ては本来ハードラップとして機能しますが、ソフトラップと非常に近い動作をさせる方法があります。キーが正しく動作しない場合は、この設定をオフにしてください。</text>
+</string>
+<string id="ui_mcm_key_wrapper_enable">
+        <text>有効化</text>
+</string>
+<string id="ui_mcm_key_wrapper_bind">
+        <text>ラップ用キー</text>
+</string>
+<string id="ui_mcm_key_wrapper_geiger">
+        <text>ガイガーカウンタースクリプトの仕様上、このキーのモードや修飾キーは選択できません。代わりに「単押し」と「Shiftを押しながらの単押し」の両方に自動で割り当てられます。</text>
+</string>
+<string id="ui_mcm_key_wrapper_toggle">
+        <text>このキーは現在、Anomalyの設定で「長押し」に割り当てられています。
+        \nKey Wrapperで利用するには、切り替え（トグル）設定に変更する必要があります。</text>
+</string>
+<string id="ui_mcm_key_wrapper_modkey">
+        <text>Shift、Alt、Ctrlに割り当てた場合、このラップは無効になります。</text>
+</string>
+<string id="ui_mcm_key_wrapper_bind_modifier">
+        <text>修飾キーに割り当てることはできません！\n</text>
+</string>
+<string id="ui_mcm_key_wrapper_bind_conflict">
+        <text>同じキー／モード／修飾キーの組み合わせに2つのラップを設定することはできません。\n</text>
+</string>
+<string id="ui_mcm_key_wrapper_too_many_redirects">
+        <text>ハードラップの上限に達しました。リダイレクトに使用できるキーがこれ以上ありません。Readmeを参照してください。\n</text>
+</string>
+<string id="ui_mcm_key_wrapper_bind_toggle">
+        <text>Anomalyの設定でキーが切り替え（トグル）に設定されていないため、無効になっています。\n</text>
+</string>
+<string id="ui_mcm_key_wrap_about_text">
+        <text>「MCM Key Wrapper」は、Anomalyエンジンのキー設定をMCMキーとして割り当てられるようにするツールです。
+        \n\nこれはキー入力をリダイレクトするコードでキーを「ラップ（包み込む）」することで実現しています。
+        \nラップには「ソフト」と「ハード」の2種類があります。
+        \n\nソフトリダイレクトは、エンジンではなくスクリプトだけが監視しているキーに対して機能します。これらのスクリプトに「キーの役割」を偽装することで動作します。ソフトリダイレクトを使用するラップは無制限に有効化できます。
+        \n\nハードリダイレクトは、キーを「¥」のような特殊なキーに再割り当てし、MCMキーが発動したときにそのキーをトリガーする方式です。この特殊なキーにはデフォルトで17個という数の制限があり、使用できるハードリダイレクトの数に上限があります。
+        \n上限を超えたラップは無効化されます。詳細はReadmeを参照してください。
+        \n\n\n実験的に導入されている3つ目のラップがあり、これはハードラップまたはソフトラップのいずれかとして動作できます。ソフトラップに設定すると、スクリプトがエンジンのキー動作を模倣します。これは完全な動作ではない場合があるため、互換性のためにハードラップとして設定する必要があるかもしれません。</text>
+</string>
+
+<string id="ui_mcm_mcm_key_wrapper_about_unbind_disabled">
+        <text>無効化されたラップを解除</text>
+</string>
+<string id="ui_mcm_mcm_key_wrapper_about_unbind_disabled_desc">
+        <text>競合リストをクリーンアップします。元に戻すことはできません。</text>
+</string>
+
+
+<string id="ui_mcm_key_wrap_about">
+        <text>概要</text>
+</string>
+<string id="ui_mcm_key_wrapper_virtual">
+        <text>これはソフトラップであり、有効化できるハードラップの上限には含まれません。</text>
+</string>
+<string id="ui_mcm_key_wrapper_redirect">
+        <text>これはハードラップであり、一度に有効化できる数には制限があります。</text>
+</string>
+<string id="ui_mcm_key_wrapper">
+        <text>Key Wrapper</text>
+</string>
+
+<string id="ui_mcm_key_wrapper_wraps_were_disabled">
+        <text>無効化されたラップ:\n\n</text>
+</string>	
+<string id="ui_mcm_key_wrapper_not_level_present">
+        <text>ラップはゲームロード中のみ利用可能です。</text>
+</string>	
+	
+
+	
+</string_table>

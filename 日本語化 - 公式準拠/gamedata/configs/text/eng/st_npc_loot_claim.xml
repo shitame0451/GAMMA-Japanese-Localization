@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+
+	<string id="st_npc_loot_claim_warn_1">
+		<text>その戦利品はこっちのものだ！下がれ！</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_2">
+		<text>おい、その戦利品はこっちのものだ！そいつから離れろ！</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_3">
+		<text>そいつから離れろ！その戦利品はこっちのものだ！</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_4">
+		<text>ネコババしようだなんて考えるなよ。</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_5">
+		<text>手を離せ、その戦利品はこっちのものだ。</text>
+	</string>
+	<string id="st_npc_loot_claim_warn_6">
+		<text>そいつはこっちのものだ！ほっとけよ。</text>
+	</string>
+	
+	<string id="st_npc_loot_claim_last_1">
+		<text>最後の警告だ、その戦利品に近づくな！</text>
+	</string>
+	<string id="st_npc_loot_claim_last_2">
+		<text>これが最後の警告だ、その死体から離れろ！</text>
+	</string>
+	<string id="st_npc_loot_claim_last_3">
+		<text>警告しておくが･･････ もし戦利品を盗もうとしたら、発砲するからな。</text>
+	</string>
+	<string id="st_npc_loot_claim_last_4">
+		<text>最後のチャンスだ･･････ その戦利品に手を出すな。</text>
+	</string>
+	<string id="st_npc_loot_claim_last_5">
+		<text>最後の警告だ！その死体に触れるな、さもなければ撃つぞ！</text>
+	</string>
+
+	<string id="st_npc_loot_claim_attack_1">
+		<text>警告しただろ！俺たちから盗ませはしない！</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_2">
+		<text>戦利品を盗もうとしている！発砲しろ！</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_3">
+		<text>おい、あいつは俺たちのものを盗もうとしてるんだ！捕まえろ！</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_4">
+		<text>あの泥棒を撃て！</text>
+	</string>
+	<string id="st_npc_loot_claim_attack_5">
+		<text>俺たちから盗んで逃げられないぞ！</text>
+	</string>
+	
+	<string id="st_npc_loot_claim_far">
+		<text>役に立つものは何も見つからなかった</text>
+	</string>
+	
+
+</string_table>

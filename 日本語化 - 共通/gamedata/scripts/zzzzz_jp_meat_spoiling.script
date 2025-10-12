@@ -1,0 +1,37 @@
+-- meat_spoiling.script
+
+-- ===================================================================
+--  meat_spoiling.ui_item.build_desc_footer （生肉のアイテムチップの腐敗タイマー）
+--  ui_item.scriptのbuild_desc_footerがオリジナル
+-- ===================================================================
+local original_build_desc_footer = ui_item.build_desc_footer
+
+ui_item.build_desc_footer = function(obj, sec, str)
+	local text = original_build_desc_footer(obj, sec, str)
+	if not text then return text end
+
+	-- 腐敗タイマーがあるときだけ整形
+	if text:find(game.translate_string("cxv_rotting_timer_title"), 1, true) then
+		-- 前半の複数改行（\n \n \n\n）を単一の改行に置換
+		text = text:gsub(
+			"\\n" .. " *" .. "\\n" .. " *" .. "\\n" .. " *" .. "\\n",
+			"\\n"
+		)
+
+		-- スペース追加 + カラーコードを置換
+		text = text:gsub(
+			"• %%c%[[^%]]-%]" .. game.translate_string("cxv_rotting_timer_title") .. " %%c%[[^%]]-%]",
+			" • %%c[pda_white]" .. game.translate_string("cxv_rotting_timer_title") .. " %%c[255,170,170,170]"
+		)
+
+		-- 後半の余分な改行を削除（〇〇 時間\n \n → 〇〇 時間\n）
+		text = text:gsub(
+			game.translate_string("cxv_rotting_hrs") .. "\\n" .. " *" .. "\\n",
+			game.translate_string("cxv_rotting_hrs") .. "\\n"
+		)
+	end
+
+	--printf("[JP Patch] build_desc_footer: [%s]", text)
+
+	return text
+end

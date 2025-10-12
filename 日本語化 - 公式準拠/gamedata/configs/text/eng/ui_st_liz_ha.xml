@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+    <string id="liz_ha_text_cant_consume_item">
+        <text>ヘルメット装着中は使用できない</text>
+    </string>
+
+</string_table>

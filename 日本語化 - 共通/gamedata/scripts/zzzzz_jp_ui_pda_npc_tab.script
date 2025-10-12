@@ -1,0 +1,197 @@
+-- ui_pda_npc_tab.script
+
+-- ===================================================================
+--  generate_msg （日本語環境で $fname と $lname を表示できるようにする）
+-- ===================================================================
+local original_generate_msg = ui_pda_npc_tab.generate_msg
+
+ui_pda_npc_tab.generate_msg = function(contact, older_date, special, special_functor)
+	local info = original_generate_msg(contact, older_date, special, special_functor)
+	if not info then return nil end
+
+	-- contact.name から fname と lname を抽出
+	if contact and contact.name then
+		-- 中黒で区切る
+		local first, last = string.match(contact.name, "^(.-)・(.-)$")
+		if first and last then
+			info.fname = first
+			info.lname = last
+		else
+			-- 中黒がない場合（◯◯中尉など）は全部 fname に入れる
+			info.fname = contact.name
+			info.lname = ""
+		end
+	end
+
+	return info
+end
+
+-- ===================================================================
+--  pda_npc_tab:Reset （PDA の NPC タブに日本語名変換を適用）
+-- ===================================================================
+local original_Reset = ui_pda_npc_tab.pda_npc_tab.Reset
+
+ui_pda_npc_tab.pda_npc_tab.Reset = function(self, info)
+	local result = original_Reset(self, info)
+
+	if not info then
+		return result
+	end
+
+	-- contact.name の切り捨て（文字数が多いと"..."で省略される処理）無効化
+	if self.contact and self.contact_info and self.contact_info.name then
+		local name = self.contact.name
+		if name then
+			self.contact_info.name:SetText(name)
+		end
+	end
+
+	-- sender の名前変換
+	if info.msg and self.message_list then
+		self.message_list:RemoveAll()
+
+		local st_date = game.translate_string("date")
+		local name = self.contact and self.contact.name or ""
+
+		for i=1,#info.msg do
+			local title = info.msg[i].topic_title
+			local msg_date = strformat(st_date .. ": %s", self.msg[i].msg_date)
+
+			local sender = (not self.msg[i].stash)
+				and strformat("%s %s", self.msg[i].c1_fname, self.msg[i].c1_lname)
+				or name
+
+			sender = japanese_patch.character_name_jp(sender)
+
+			local item = ui_pda_npc_tab.pda_message_entry(game.translate_string(title), sender, msg_date, i)
+			self.message_list:AddExistingItem(item)
+		end
+	end
+
+	return result
+end
+
+-- ===================================================================
+--  pda_npc_tab:OnSelectMessage （fname + lname と c2_fname + c2_lname を変換して表示するキーを追加）
+--  オリジナルをコピーして改変したもの
+-- ===================================================================
+local original_OnSelectMessage = ui_pda_npc_tab.pda_npc_tab.OnSelectMessage
+
+ui_pda_npc_tab.pda_npc_tab.OnSelectMessage = function(self)
+	if self.message_list:GetSize()==0 then return end
+
+	local item = self.message_list:GetSelectedItem()
+	if not (item) then
+		return
+	end
+	
+	local indx = item.indx
+	local finale_content = ""
+	local keys = {}
+	
+	local topic = self.msg[indx].topic
+	local content = ""
+	for i=1,#topic do
+		content = content .. " \\n" .. game.translate_string(topic[i])
+	end
+	
+	keys["fname"]       = self.msg[indx].fname
+	keys["lname"]       = self.msg[indx].lname
+------------------------------------------------------------------------------------------	--japanGAMMA
+		local raw_name = string.format("%s %s", self.msg[indx].fname, self.msg[indx].lname)
+		-- lnameが空文字列ではない（姓が存在する）場合にのみ、日本語化パッチの処理を適用する
+		if #self.msg[indx].lname > 0 then
+			keys["fullname"] = japanese_patch.character_name_jp(raw_name)
+		else
+			keys["fullname"] = self.msg[indx].fname
+		end
+------------------------------------------------------------------------------------------	--japanGAMMA
+	keys["c1_fname"]    = self.msg[indx].c1_fname
+	keys["c1_lname"]    = self.msg[indx].c1_lname
+	keys["c2_fname"]    = self.msg[indx].c2_fname
+	keys["c2_lname"]    = self.msg[indx].c2_lname
+------------------------------------------------------------------------------------------	--japanGAMMA
+		local raw_c2_name = string.format("%s %s", self.msg[indx].c2_fname, self.msg[indx].c2_lname)
+		keys["c2_fullname"] = japanese_patch.character_name_jp(raw_c2_name)
+------------------------------------------------------------------------------------------	--japanGAMMA
+	keys["leader"]      = game.translate_string(self.msg[indx].leader)
+	keys["base"]        = game.translate_string(self.msg[indx].base)
+	keys["trader"]      = game.translate_string(self.msg[indx].trader)
+	keys["mechanic"]    = game.translate_string(self.msg[indx].mechanic)
+	keys["map"]         = game.translate_string(self.msg[indx].map)
+	keys["pointer"]     = game.translate_string(self.msg[indx].pointer)
+	keys["directional"] = game.translate_string(self.msg[indx].directional)
+	keys["enemy"]       = game.translate_string(self.msg[indx].enemy)
+	
+	-- Map route messages
+	if self.msg[indx].route then
+		local route = self.msg[indx].route
+		txr_routes.open_route(route[1],route[2])
+		keys["map_route_1"] = game.translate_string(txr_routes.get_section(route[1]))
+		keys["map_route_2"] = game.translate_string(txr_routes.get_section(route[2]))
+	end
+	
+	-- RF source messages
+	if self.msg[indx].rf_map and self.msg[indx].rf_freq then
+		keys["rf_map"] = game.translate_string(self.msg[indx].rf_map)
+		keys["rf_freq"] = tostring(self.msg[indx].rf_freq)
+	end
+	
+	finale_content = utils_data.parse_string_keys(content, keys)
+	
+	-- Stash messages
+	if self.msg[indx].stash and (not self.msg[indx].stash_read) then
+		local hint = "%c[255,255,160,0]" .. game.translate_string(self.msg[indx].topic_title) .. "\\n%c[default]" .. (finale_content or "") .. "\\n%c[160,100,100,200]" .. game.translate_string("st_stash_of") .. " " .. self.contact.name
+		treasure_manager.set_random_stash( nil , hint , nil , self.msg[indx].stash)
+		self.msg[indx].stash_read = true
+		self.msg[indx].topic[1] = self.msg[indx].topic[1] or (game.translate_string("st_stash_of") .. " " .. self.contact.name)
+	end
+
+	if self.msg[indx].pic then
+		-- Set the message's image.
+		-- A bit hacky, but to allow for dynamic width/height we have to initialise the texture twice.
+		-- We load the texture, grab its dimensions, set the window size then reinitialise it a second time.
+		-- If we don't do this then for whatever weird and wonderful reason the image refuses to draw on the UI.
+		self.image:InitTexture(self.msg[indx].pic)
+		
+		-- Grab the dimensions of the image to resize the container.
+		local image_width = self.image_frame:GetWidth() --self.image:GetTextureRect().x2 - self.image:GetTextureRect().x1
+		local image_height = self.image_frame:GetHeight() --self.image:GetTextureRect().y2 - self.image:GetTextureRect().y1
+		
+		-- Offset is used to add "padding" around the image when text is present.
+		-- If images appear above text and there is no height to the image, then use no offset.
+		local image_offset = (image_height > 0 and 7 or 0) 
+		
+		-- Resize the image and container, and then reinitialise the texture so it gets drawn.
+		-- The x_coefficient variable is used to fix image stretchiness when using widescreen resolutions.
+		local x_coefficient = (device().height / device().width) / (768 / 1024)
+		self.image_container:SetWndSize(vector2():set(image_width, image_height + image_offset))
+		self.image:SetWndSize(vector2():set(image_width, image_height))
+		self.image:SetStretchTexture(true)
+		self.image:InitTexture(self.msg[indx].pic)
+	end
+
+	local information_offset = 10
+	
+	-- Adjust the text component size.
+	self.information:SetText(finale_content)
+	self.information:AdjustHeightToText()
+	self.information:SetWndSize(vector2():set(self.information:GetWidth(), self.information:GetHeight() + information_offset))
+	self.information2:SetText("")
+	self.information2:AdjustHeightToText()
+	self.information2:SetWndSize(vector2():set(self.information2:GetWidth(), self.information2:GetHeight() + information_offset))
+	
+	-- Clear the scrollbar.
+	self.scrollbar:Clear()
+	
+	-- Add the text and image to the article window.
+	if self.msg[indx].pic then
+		self.scrollbar:AddWindow(self.image_container, true)
+		self.image_container:SetAutoDelete(false)
+		self.image:SetAutoDelete(false)
+	end
+	self.scrollbar:AddWindow(self.information, true)
+	self.information:SetAutoDelete(false)
+	self.scrollbar:AddWindow(self.information2, true)
+	self.information2:SetAutoDelete(false)
+end

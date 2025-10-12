@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="st_itms_campfire_name">
+		<text>薪</text>
+	</string>
+	<string id="st_itms_campfire_descr">
+		<text>焚き火に最適な薪。夜間に身体を温めたり肉の調理に利用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]焚き火の設置\n
+		</text>
+	</string>
+
+	<string id="st_bad_surface">
+		<text>この場所は焚き火に適していない</text>
+	</string>
+
+	<string id="st_gather_wood">
+		<text>木を切る</text>
+	</string>
+
+</string_table>

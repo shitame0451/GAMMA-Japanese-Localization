@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+    AMMO_CHECK MESSAGES
+-->
+
+    <string id="st_ac_overfull">
+        <text>過度に詰め込まれている</text>
+    </string>
+    <string id="st_ac_plus1">
+        <text>フル装填 + 1</text>
+    </string>
+    <string id="st_ac_oitc">
+        <text>残り1発</text>
+    </string>
+    <string id="st_ac_just_one">
+        <text>残り1発</text>
+    </string>
+    <string id="st_ac_full">
+        <text>フル装填</text>
+    </string>
+    <string id="st_ac_nearly_full">
+        <text>残弾多数</text>
+    </string>
+    <string id="st_ac_more_half">
+        <text>半分以上</text>
+    </string>
+    <string id="st_ac_about_half">
+        <text>約半分</text>
+    </string>
+    <string id="st_ac_less_half">
+        <text>半分以下</text>
+    </string>
+    <string id="st_ac_near_empty">
+        <text>残りわずか</text>
+    </string>
+    <string id="st_ac_empty">
+        <text>残弾なし</text>
+    </string>
+    <string id="st_ac_jammed">
+        <text>弾詰まりが起きている</text>
+    </string>
+    <string id="st_ac_noMag">
+        <text>マガジンが入っていない</text>
+    </string>
+    <string id="st_ac_grenade">
+        <text>グレネード弾装填済み</text>
+    </string>
+    <string id="st_ac_noAmmo">
+        <text>これは弾薬を必要としない</text>
+    </string>
+    <string id="st_ac_ammoLeft">
+        <text>残り</text>
+    </string>
+    <string id="ui_mcm_menu_rax_ammo_check">
+        <text>Ammo Check</text>
+    </string>
+    <string id="ui_mm_title_rax_ammo_check">
+        <text>Ammo Check</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_usecolor">
+        <text>メッセージに色を使用する</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_hidecounter">
+        <text>弾薬のカウンターを隠す</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_hideicon">
+        <text>弾薬のアイコンを隠す</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_busy_hands_fix">
+        <text>Busy Hands修正</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_busy_hands_fix_desc">
+        <text>Ammo Checkの“アニメーション”が動かなくなった場合、このボックスをチェックしてください。FDDAがインストールされている場合に起こりやすいです。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_keybind">
+        <text>残弾を確認する（Ammo Check）</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_keybind_desc">
+        <text>このキー設定は競合を回避するために、追加の修飾キーを必要とするように設定することができます。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_update_mcm">
+        <text>MCMを更新し、ここでキー設定を変更してください。Tキーがデフォルトとして設定されています。</text>
+    </string>
+
+</string_table>

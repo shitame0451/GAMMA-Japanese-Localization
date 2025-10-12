@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_favorite_parts">
+		<text>部品のお気に入り設定</text>
+	</string>
+	<string id="st_part_missing">
+		<text>不足している</text>
+	</string>
+	<string id="st_unfavorite_part">
+		<text>お気に入りから外す:</text>
+	</string>
+	<string id="st_favorite_part">
+		<text>お気に入りに指定:</text>
+	</string>
+	<string id="st_unfavorite_all_part">
+		<text>%以上の部品をお気に入りから外す</text>
+	</string>
+	<string id="st_favorite_all_part">
+		<text>%未満の部品と不足部品をお気に入りに指定</text>
+	</string>
+	<string id="st_part_condition">
+		<text>耐久値が</text>
+	</string>
+</string_table>

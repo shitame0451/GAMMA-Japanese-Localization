@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="pda_btn_encyclopedia">
+    <text>百科事典</text>
+  </string>
+  <string id="pda_btn_encyclopedia_hint">
+    <text>百科事典を表示</text>
+  </string>
+  <string id="pda_encyclopedia_title">
+    <text>ゾーンの百科事典</text>
+  </string>
+  <string id="st_pda_encyclopedia_image_checkbox">
+    <text>画像を上に表示</text>
+  </string>
+  <string id="st_pda_encyclopedia_message_checkbox">
+    <text>通知を表示</text>
+  </string>
+  <string id="pda_encyclopedia_notify">
+    <text>記事がアンロックされた: %s - %s</text>
+  </string>
+  <string id="pda_encyclopedia_notify_note">
+    <text>新しいメモ: %s</text>
+  </string>
+  <string id="pda_encyclopedia_info">
+    <text>情報</text>
+  </string>
+  <string id="pda_encyclopedia_properties">
+    <text>特性</text>
+  </string>
+  <string id="pda_encyclopedia_subject">
+    <text>対象</text>
+  </string>
+  <string id="pda_encyclopedia_content">
+    <text>目次</text>
+  </string>
+  <string id="pda_encyclopedia_ironman_lifes">
+    <text>与えられた命</text>
+  </string>
+  <string id="pda_encyclopedia_ironman_life">
+    <text>残りの命</text>
+  </string>
+  <string id="pda_encyclopedia_ironman_deaths">
+    <text>死亡数</text>
+  </string>
+  <string id="pda_encyclopedia_ironman_cycle">
+    <text>命を与えられる周期（何時間ごと）</text>
+  </string>
+  <string id="pda_encyclopedia_ironman_1">
+    <text>1つのミスですべてが終わる･･････</text>
+  </string>
+  <string id="pda_encyclopedia_ironman_2">
+    <text>もっと気をつけろ！</text>
+  </string>
+  <string id="pda_encyclopedia_ironman_3">
+    <text>今は大丈夫だ。</text>
+  </string>
+  <string id="pda_encyclopedia_locked">
+    <text>？？？？？</text>
+  </string>
+  <string id="pda_encyclopedia_locked_text">
+    <text>
+                        \nまだこの記事をアンロックしていない。
+
+                        \n\n記事は、以下のような方法でアンロックできる:
+                        \n • 新しい場所を発見する。
+                        \n • メモリースティックからデータをダウンロードする。
+                        \n • ミュータントの身体部位や肉を剥ぎ取る。
+                        \n • ストーカーと話したり交流したりする。
+                        \n • アイテムを使用したり、派閥のアーマーを装備する。</text>
+  </string>
+</string_table>

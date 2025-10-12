@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	Strings for "Dead Air Knives"
+-->
+
+
+<string_table>
+
+	<string id="st_mag_overlylarge_95_545_drum">
+		<text>RPK-16用ドラムマガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_overlylarge_95_545_drum_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_overlylarge_95_556_drum">
+		<text>RPK-16用ドラムマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_overlylarge_95_556_drum_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_overlylarge_75_762x39_drum">
+		<text>AK用ドラムマガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_overlylarge_75_762x39_drum_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_overlylarge_50_762x51_drum">
+		<text>SA58用ドラムマガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_overlylarge_50_762x51_drum_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_overlylarge_50_762x51_drum2">
+		<text>STANAGドラムマガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_overlylarge_50_762x51_drum2_descr">
+		<text> </text>
+	</string>
+		
+	<string id="st_mag_overlylarge_sks_75_762x39_drum">
+		<text>SKS用ドラムマガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_overlylarge_sks_75_762x39_drum_descr">
+		<text> </text>
+	</string>
+		
+	<string id="st_mag_overlylarge_sks_75_762x39_drum2">
+		<text>SKS用ドラムマガジン（7.62x54）</text>
+	</string>
+	<string id="st_mag_overlylarge_sks_75_762x39_drum2_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_overlylarge_100_556x45_drum">
+		<text>STANAGマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_overlylarge_100_556x45_drum_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_overlylarge_100_556x45_drum2">
+		<text>改造STANAGマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_overlylarge_100_556x45_drum2_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_saiga12_drum">
+		<text>Saiga-12用ドラムマガジン</text>
+	</string>
+	<string id="st_mag_saiga12_drum_descr">
+		<text> </text>
+	</string>
+	
+	<string id="st_mag_nato_5.56x45_drum">
+		<text>MAGPUL PMAGドラムマガジン</text>
+	</string>
+	<string id="st_mag_nato_5.56x45_drum_descr">
+		<text> </text>
+	</string>
+	
+	 <string id="st_mag_nato_5.56x45_drum_ext">
+		<text>KCI Gen 2ドラムマガジン</text>
+	</string>
+	
+	<string id="st_mag_nato_5.56x45_drum_ext_descr">
+		<text> </text>
+	</string>
+
+</string_table>

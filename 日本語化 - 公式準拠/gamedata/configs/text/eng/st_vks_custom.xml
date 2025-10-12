@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_cortex_scope">
+		<text>Cortex サイト</text>
+	</string>
+	<string id="st_cortex_scope_desc">
+		<text>VKSライフル用に設計された高性能スコープ。長距離射撃の精度と目標捕捉能力を向上させる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]様々なメーカー\n
+		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x - 8.0x\n
+		</text>
+	</string>
+
+</string_table>

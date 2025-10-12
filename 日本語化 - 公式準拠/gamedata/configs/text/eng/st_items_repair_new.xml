@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	CLEANING KITS
+-->
+
+<string_table>
+	<string id="st_cleaning_kit_p_new">
+		<text>クリーニングキット（タイプA）</text>
+	</string>
+	<string id="st_cleaning_kit_p_new_descr">
+		<text>銃身内やその他の部品に蓄積した汚れ、砂、湿気、溶剤の残留物を取り除くための専用ブラシセット。一般的なツールと併用することで内部機構にアクセスしやすくなり、アルコールを使えばこびりついた潤滑油を簡単に溶かすことができる。ゾーンでは銃を良好な状態に保つためにこのようなセットが広く使用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品（60%以上）の洗浄\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプAの銃\n
+		%c[d_orange] • %c[pda_white]タイプAの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]洗浄する: [部品]\n
+		</text>
+	</string>
+
+	<string id="st_cleaning_kit_s_new">
+		<text>クリーニングキット（タイプB）</text>
+	</string>
+	<string id="st_cleaning_kit_s_new_descr">
+		<text>銃身内やその他の部品に蓄積した汚れ、砂、湿気、溶剤の残留物を取り除くための専用ブラシセット。一般的なツールと併用することで内部機構にアクセスしやすくなり、アルコールを使えばこびりついた潤滑油を簡単に溶かすことができる。ゾーンでは銃を良好な状態に保つためにこのようなセットが広く使用されている。このセットは「オーロラ」キットとも呼ばれており、射撃後のクリーニング、飛び散った潤滑油の清掃、サビの除去に特化した3種類のブラシが含まれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品（60%以上）の洗浄\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプBの銃\n
+		%c[d_orange] • %c[pda_white]タイプBの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]洗浄する: [部品]\n
+		</text>
+	</string>
+
+	<string id="st_cleaning_kit_r5_new">
+		<text>クリーニングキット（タイプC）</text>
+	</string>
+	<string id="st_cleaning_kit_r5_new_descr">
+		<text>銃身内やその他の部品に蓄積した汚れ、砂、湿気、溶剤の残留物を取り除くための専用ブラシセット。一般的なツールと併用することで内部機構にアクセスしやすくなり、アルコールを使えばこびりついた潤滑油を簡単に溶かすことができる。ゾーンでは銃を良好な状態に保つためにこのようなセットが広く使用されている。この特殊なセットはウクライナ軍の標準的な支給品であり、再利用可能な硬いプラスチックケースに収納されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品（60%以上）の洗浄\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプCの銃\n
+		%c[d_orange] • %c[pda_white]タイプCの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]洗浄する: [部品]\n
+		</text>
+	</string>
+
+	<string id="st_cleaning_kit_r7_new">
+		<text>クリーニングキット（タイプD）</text>
+	</string>
+	<string id="st_cleaning_kit_r7_new_descr">
+		<text>銃身内やその他の部品に蓄積した汚れ、砂、湿気、溶剤の残留物を取り除くための専用ブラシセット。一般的なツールと併用することで内部機構にアクセスしやすくなり、アルコールを使えばこびりついた潤滑油を簡単に溶かすことができる。ゾーンでは銃を良好な状態に保つためにこのようなセットが広く使用されている。製造元は不明だが、シンプルな設計と高品質な素材が使われていることから、軍や特殊部隊向けの製品であることが推測できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品（60%以上）の洗浄\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプDの銃\n
+		%c[d_orange] • %c[pda_white]タイプDの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]洗浄する: [部品]\n
+		</text>
+	</string>
+
+<!--
+	REPAIR KITS
+-->
+
+    <string id="st_toolkit_p_new">
+        <text>修理キット（タイプA）</text>
+    </string>
+    <string id="st_toolkit_p_new_descr">
+        <text>銃を分解してメンテナンスするための特殊工具や洗浄道具、溶剤、潤滑油が含まれたキット。標準的な銃器の予備部品も同梱されている。持ち運ぶには少し重いものの、損傷した銃を蘇らせることは生死を分けるため、ゾーンの奥深くへ踏み込むなら欠かせない存在だ。使用する際には他のキットと組み合わせることで、その効果をさらに高めることができる。\n \n
+        %c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品を新品と交換する\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプAの銃\n
+		%c[d_orange] • %c[pda_white]タイプAの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]交換する: [部品]\n
+        </text>
+   </string>
+
+    <string id="st_toolkit_s_new">
+        <text>修理キット（タイプB）</text>
+    </string>
+    <string id="st_toolkit_s_new_descr">
+        <text>銃を分解してメンテナンスするための特殊工具や洗浄道具、溶剤、潤滑油が含まれたキット。標準的な銃器の予備部品も同梱されている。持ち運ぶには少し重いものの、損傷した銃を蘇らせることは生死を分けるため、ゾーンの奥深くへ踏み込むなら欠かせない存在だ。使用する際には他のキットと組み合わせることで、その効果をさらに高めることができる。このキットは、ゾーンで生計を立てるハンターや銃職人たちに広く使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品を新品と交換する\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプBの銃\n
+		%c[d_orange] • %c[pda_white]タイプBの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]交換する: [部品]\n
+        </text>
+    </string>
+
+    <string id="st_toolkit_r5_new">
+        <text>修理キット（タイプC）</text>
+    </string>
+    <string id="st_toolkit_r5_new_descr">
+        <text>銃を分解してメンテナンスするための特殊工具や洗浄道具、溶剤、潤滑油が含まれたキット。標準的な銃器の予備部品も同梱されている。持ち運ぶには少し重いものの、損傷した銃を蘇らせることは生死を分けるため、ゾーンの奥深くへ踏み込むなら欠かせない存在だ。使用する際には他のキットと組み合わせることで、その効果をさらに高めることができる。このキットはウクライナ軍の兵站部に支給されるもので、デューティーは軍との取引を通じて入手している。しかし、中には不正を働く兵士がアーティファクトやウォッカのケースと交換してくれることもあるようだ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品を新品と交換する\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプCの銃\n
+		%c[d_orange] • %c[pda_white]タイプCの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]交換する: [部品]\n
+        </text>
+    </string>
+
+    <string id="st_toolkit_r7_new">
+        <text>修理キット（タイプD）</text>
+    </string>
+    <string id="st_toolkit_r7_new_descr">
+        <text>銃を分解してメンテナンスするための特殊工具や洗浄道具、溶剤、潤滑油が含まれたキット。標準的な銃器の予備部品も同梱されている。持ち運ぶには少し重いものの、損傷した銃を蘇らせることは生死を分けるため、ゾーンの奥深くへ踏み込むなら欠かせない存在だ。使用する際には他のキットと組み合わせることで、その効果をさらに高めることができる。このキットは非常に貴重なもので、装備が整った派閥でさえも備蓄が限られている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]銃内部の部品を新品と交換する\n
+		%c[d_orange] • %c[pda_white]使用対象: %c[ui_gray_1]タイプDの銃\n
+		%c[d_orange] • %c[pda_white]タイプDの銃を右クリック %c[ui_gray_1]> %c[pda_white]メンテナンス %c[ui_gray_1]> %c[pda_white]交換する: [部品]\n
+        </text>
+    </string>
+</string_table>

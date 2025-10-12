@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_pickup">
+		<text>拾う</text>
+	</string>
+    <string id="st_close">
+		<text>閉じる</text>
+	</string>
+    <string id="st_turn_on">
+		<text>明かりをつける</text>
+	</string>
+    <string id="st_turn_off">
+		<text>明かりを消す</text>
+	</string>
+    <string id="st_take_fuel">
+		<text>燃料を取る</text>
+	</string>
+    <string id="st_add_fuel">
+		<text>燃料を補充する</text>
+	</string>
+	<string id="st_access_stash">
+		<text>スタッシュを開く</text>
+	</string>
+	<string id="st_use_workshop">
+		<text>作業台を使う</text>
+	</string>
+	<string id="st_fuel">
+		<text>燃料</text>
+	</string>
+	<string id="st_duration">
+		<text>残り時間</text>
+	</string>
+	<string id="st_place_furniture">
+		<text>置く</text>
+	</string>
+</string_table>

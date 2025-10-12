@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+<!--
+ MUTANT MEAT
+-->
+
+	<string id="mutant_boar_chop">
+		<text>ボアの肉</text>
+	</string>
+	<string id="mutant_boar_chop_description">
+		<text>変異したイノシシから切り落とした肉の塊。硬くて臭みがあるが、適切に調理すれば食べることができる。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]低ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_krovosos_meat">
+		<text>ブラッドサッカーの肉</text>
+	</string>
+	<string id="mutant_krovosos_meat_description">
+		<text>ブラッドサッカーから切り落とした肉。ゴムのような弾力があって筋が多く、食欲をそそらないため、食用には向いていない。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_chimera_meat">
+		<text>キメラの肉</text>
+	</string>
+	<string id="mutant_chimera_meat_description">
+		<text>凶暴なキメラから切り落とした希少な肉で、硬い筋繊維と独特な風味が特徴。キメラは特に危険な生物とされているため、この肉はベテランストーカーの間で非常に価値が高い。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_dog_meat">
+		<text>ブラインドドッグの肉</text>
+	</string>
+	<string id="mutant_dog_meat_description">
+		<text>ゾーンに生息する犬から切り落とした肉。筋が多くて食べにくいが、ボアの肉より安く手に入るため、代わりにこの肉を食べる者が多い。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]低ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_flesh_meat">
+		<text>フレッシュの肉</text>
+	</string>
+	<string id="mutant_flesh_meat_description">
+		<text>動きの遅いフレッシュから切り落とした肉。一般的なタンパク質の供給源とされており、適切に調理すれば驚くほど美味しくなる。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]低ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_lurker_meat">
+		<text>ルーカーの肉</text>
+	</string>
+	<string id="mutant_lurker_meat_description">
+		<text>ルーカーから切り落とした硬くて筋っぽい肉。ゴムのような食感のため、煮込み料理に適している。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_psevdodog_meat">
+		<text>スードウドッグの肉</text>
+	</string>
+	<string id="mutant_psevdodog_meat_description">
+		<text>スードウドッグから切り落とした肉。栄養価が高く、通常のイヌ科ミュータントの肉に比べて食べやすい。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]低ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_psysucker_meat">
+		<text>サイサッカーの肉</text>
+	</string>
+	<string id="mutant_psysucker_meat_description">
+		<text>ブラッドサッカーの肉と同様に、ゴムのような弾力があって筋が多く、食用には向いていない。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_tushkano_meat">
+		<text>トゥシュカノの肉</text>
+	</string>
+	<string id="mutant_tushkano_meat_description">
+		<text>トゥシュカノから切り落とした、一食分にも満たない大きさの肉。大型ミュータントの肉に比べると安全だが、スカベンジャーの食べ物とみなされることが多い。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]低ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+	<string id="mutant_snork_hand">
+		<text>スノークの手</text>
+	</string>
+	<string id="mutant_snork_hand_description">
+		<text>スノークから切り落とした鉤爪付きの手。戦利品や討伐の証として扱われるのが一般的で、食用とすることも可能だが、食人に近い行為として抵抗を覚えるストーカーが多い。ミュータントの肉を調理せずに食べると、有害な汚染や放射線被曝のリスクを伴うため注意が必要。\n \n
+		%c[ui_red]警告: この肉は調理されていない\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]低ランクのミュータント肉\n
+		%c[d_cyan] • %c[pda_white]調理用素材\n
+		</text>
+	</string>
+
+<!--
+	MUTANT MEALS
+-->
+
+	<string id="st_meat_bloodsucker">
+		<text>ブラッドサッカーのグヤーシュ</text>
+	</string>
+	<string id="st_meat_bloodsucker_descr">
+		<text>ブラッドサッカーの筋肉質な肉を使った鉄分豊富なシチュー。濃厚な味わいで、ハーブやキノコの風味も楽しめる。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクの料理\n
+		</text>
+	</string>
+	<string id="st_meat_boar">
+		<text>ボアの骨付き肉</text>
+	</string>
+	<string id="st_meat_boar_descr">
+		<text>厚く切ったボアの肉に塩やハーブで味付けした料理。ストーカーの間で特に人気のある温かい一品。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]料理\n
+		</text>
+	</string>
+	<string id="st_meat_dog">
+		<text>ブラインドドッグの骨付き肉</text>
+	</string>
+	<string id="st_meat_dog_descr">
+		<text>脂身の少ない筋張った犬の肉をハーブで味付けし、独特の獣臭さを抑えた料理。手に入りやすいため、人気のボア肉の代用品として重宝されている。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]料理\n
+		</text>
+	</string>
+	<string id="st_meat_flesh">
+		<text>フレッシュのベーコン</text>
+	</string>
+	<string id="st_meat_flesh_descr">
+		<text>脂が乗ったフレッシュの肉を薄くスライスし、カリカリになるまで焼いた料理。ミュータントの肉とは思えないほど風味がよく、食べやすい。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]料理\n
+		</text>
+	</string>
+	<string id="st_meat_snork">
+		<text>加熱したスノークの手</text>
+	</string>
+	<string id="st_meat_snork_descr">
+		<text>グロテスクな見た目の珍味。皮が剥がれ、骨から肉がほろりと外れる状態になるまでじっくり焼かれている。ストーカーたちは度胸試しや仲間内での優越感を示すためにこれを口にする。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]料理\n
+		</text>
+	</string>
+	<string id="st_meat_lurker">
+		<text>ルーカーの骨付き肉</text>
+	</string>
+	<string id="st_meat_lurker_descr">
+		<text>ルーカーの肉を厚く切り、低温でじっくり火を通して柔らかく仕上げた一品。マリネ液に漬け込み、塩とハーブで味を整えれば悪くない味になるが、ほとんどのストーカーは好みが分かれる味だと考えている。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクの料理\n
+		</text>
+	</string>
+	<string id="st_meat_chimera">
+		<text>キメラのグヤーシュ</text>
+	</string>
+	<string id="st_meat_chimera_descr">
+		<text>キメラの肉を使った珍しい異国風料理。じっくり煮込んだ柔らかい肉と、キノコや各種スパイスの効いた風味が特徴。困難な任務を終えたベテランのストーカーが、ささやかな祝宴として味わう贅沢な一品だ。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクの料理\n
+		</text>
+	</string>
+	<string id="st_meat_pseudodog">
+		<text>スードウドッグの骨付き肉</text>
+	</string>
+	<string id="st_meat_pseudodog_descr">
+		<text>スードウドッグの肉を厚く切り、十分に加熱して仕上げた一品。筋肉質な肉ならではの高い栄養価と、獣肉特有の力強い味わいが特徴だ。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]料理\n
+		</text>
+	</string>
+	<string id="st_meat_psysucker">
+		<text>サイサッカーのグヤーシュ</text>
+	</string>
+	<string id="st_meat_psysucker_descr">
+		<text>サイサッカーの肉をじっくり煮込んだシチューで、独特の風味を抑えるために大量のハーブを加えている。食用に問題はないが、食べた日の夜に不快な夢を見たというストーカーがいる。ただし、これはあくまで憶測にすぎない。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]高ランクの料理\n
+		</text>
+	</string>
+	<string id="st_meat_tushkano">
+		<text>トゥシュカノの串焼き</text>
+	</string>
+	<string id="st_meat_tushkano_descr">
+		<text>トゥシュカノの肉を串に刺して焼いた一品。独特のクセを抑えるためにしっかり味付けされている。安価で手に入れやすく、空腹のストーカーが活動を続けるには十分な量だ。\n \n
+		%c[pda_white]注意: %c[ui_gray_1]料理の品質や健康への影響は、調理方法によって変化する。\n
+		%c[d_orange] • %c[pda_white]ゾーン産の料理: %c[ui_gray_1]加熱することで放射線量を抑えるが、健康には不十分\n
+		%c[pda_yellow] • %c[pda_white]煮込み料理: %c[ui_gray_1]清潔な水を使用することで、放射線の影響を大幅に軽減する\n
+		%c[d_green] • %c[pda_white]清浄な料理: %c[ui_gray_1]ウォッカを使用することで放射線を除去し、追加効果を付与する\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]料理\n
+		</text>
+	</string>
+
+<!--
+	SCIENTIFIC SPECIMENS
+-->
+
+	<string id="mutant_boar_leg">
+		<text>ボアの蹄</text>
+	</string>
+	<string id="mutant_boar_leg_description">
+		<text>ボアから採取した脚の一部。蹄にはケラチンなどの生体化合物が含まれており、分解・精製することで医薬品の材料として使える。ゾーンでは鎮痛剤や止血剤、簡単な覚醒剤の製造に使われる貴重な資源だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_heart_bloodsucker">
+		<text>ブラッドサッカーの心臓</text>
+	</string>
+	<string id="mutant_heart_bloodsucker_description">
+		<text>ブラッドサッカーの心臓からは血液の凝固を防ぐ珍しい酵素が分泌されており、これによって効率的に獲物の血を吸うことができる。この酵素は強力な抗凝固薬への応用や、輸血時の血液型不適合による凝固を防ぐ手段としての活用が期待されており、希少な血液型の患者を救う鍵になるとして科学者たちの注目を集めている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_krovosos_jaw">
+		<text>ブラッドサッカーの触手</text>
+	</string>
+	<string id="mutant_krovosos_jaw_description">
+		<text>ブラッドサッカーの心臓と同様に、口元の触手からも血液の凝固を防ぐ珍しい酵素が分泌されており、より効率的に獲物の血を吸うことができる。この酵素は強力な抗凝固薬への応用や、輸血時の血液型不適合による凝固を防ぐ手段としての活用が期待されており、希少な血液型の患者を救う鍵になるとして科学者たちの注目を集めている。また、一部のストーカーはその歯をネックレスやお守りとして加工している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_tusk_boar">
+		<text>ボアの牙</text>
+	</string>
+	<string id="mutant_tusk_boar_description">
+		<text>ボアの牙は平均して30cmほどの長さがある。組成や強度に特筆すべき特徴がないため、科学者の関心は薄いが、ストーカーの間では戦利品やゾーン外のコレクター向けの収集品として広く流通している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_brain_burer">
+		<text>バーラーの脳</text>
+	</string>
+	<string id="mutant_brain_burer_description">
+		<text>バーラーの脳はテレパシー能力を持つとされているが、その仕組みは今も科学では解明されていない。人間の脳の1.5〜2.5倍の重さがあり、構造にも大きな異常が見られることから、ゾーンが認知機能に与える影響を示す重要な手がかりと考えられている。そのため、科学者の間で非常に高い需要がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_burer_hand">
+		<text>バーラーの手</text>
+	</string>
+	<string id="mutant_burer_hand_description">
+		<text>バーラーから採取した手。乾燥して鉤爪のように変形しており、念動力の源と考えられている。その独特な筋肉構造や神経叢は、研究対象として科学者たちの強い関心を集めている。一方で、神秘的な力を宿すお守りとして収集するストーカーもいる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_cat_claw">
+		<text>キャットの鉤爪</text>
+	</string>
+	<string id="mutant_cat_claw_description">
+		<text>変異した猫から採取した鉤爪で、鋭く湾曲している。分子構造は解明されていないものの、ギザギザとした刃の形状は、過酷なゾーンでの狩猟に適応した結果だと考えられている。科学者や軍関係者の間では、この鉤爪の研究が高耐久の新素材や装甲技術の開発に役立つと考えられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_cat_tail">
+		<text>キャットの尻尾</text>
+	</string>
+	<string id="mutant_cat_tail_description">
+		<text>ゾーンに生息する猫は通常の猫より大きく、気配を消して素早く狩りを行う危険な存在だ。この尻尾はストーカーたちの間で周囲への警戒心と戦闘技術の証と見なされている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_cat_thyroid">
+		<text>キャットの甲状腺</text>
+	</string>
+	<string id="mutant_cat_thyroid_description">
+		<text>変異した猫から採取した希少な甲状腺。高放射線環境下でも代謝を調整できる機能を持つと考えられている。科学者たちは、この機能がキャットの優れた反射神経や攻撃性に関係していると推測しており、これらの特性によってキャットが他の猫種を駆逐し、食物連鎖の頂点に立ったと考えている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_chimera_claw">
+		<text>キメラの鉤爪</text>
+	</string>
+	<string id="mutant_chimera_claw_description">
+		<text>キメラの鉤爪。分子構造は解明されていないが、ダイヤモンドのように硬く鋭い性質を持つ。その骨組織は異常な密度を持ち、装甲や肉体を容易に引き裂くことができるため、研究素材や戦利品として高い価値を持つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_heart_chimera">
+		<text>キメラの心臓</text>
+	</string>
+	<string id="mutant_heart_chimera_description">
+		<text>キメラの心臓は2つの心臓が融合したかのような構造へと変異しており、驚異的な速さで血液を送り出している。この構造により、巨大な筋肉への酸素供給を絶え間なく行い、極めて高い瞬発力と持続的なパワーを可能にしている。また、この心臓は結合双生児の死亡率に関する研究資料としても重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_chimera_cogot">
+		<text>キメラの角</text>
+	</string>
+	<string id="mutant_chimera_cogot_description">
+		<text>キメラの角。分子構造は解明されていないが、先端はダイヤモンドのように硬く鋭い。神秘的な力が宿っていると信じるストーカーもいるが、科学者たちは極限環境へ適応した結果だと考えている。ゾーン外のコレクターからの需要も高く、非常に高値で取引されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_part_controller_brain_tissue">
+		<text>コントローラーの脳組織</text>
+	</string>
+	<string id="mutant_part_controller_brain_tissue_description">
+		<text>コントローラーから採取した脳組織のサンプル。研究者たちは、大きく変異したこの組織を解析することで、マインドコントロール能力が発現する仕組みを解明しようとしている。精神波に関する能力を持つミュータントの脳にはいずれも共通する特徴が見られ、このサンプルの入手には多額の報酬が提示されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_controller_hand">
+		<text>コントローラーの手</text>
+	</string>
+	<string id="mutant_controller_hand_description">
+		<text>コントローラーから採取した、骸骨のように不気味な手。異様に長い指先は感覚が鋭いとも言われており、精神波の伝導に関与している可能性も指摘されているが、確かな証拠は得られていない。研究者たちは変異の原因を解明すべく、熱心に調査を行っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_dog_heart">
+		<text>ブラインドドッグの心臓</text>
+	</string>
+	<string id="mutant_dog_heart_description">
+		<text>変異した犬は追跡時に、心拍数が1分間に最大250回に達する。これは同等の体重を持つ健康な個体ではありえない数値だ。この異常な心拍数は素早い反応、長時間の追跡、そして疲労からの迅速な回復を可能にし、研究対象として極めて興味深い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_dog_liver">
+		<text>ブラインドドッグの肝臓</text>
+	</string>
+	<string id="mutant_dog_liver_description">
+		<text>ゾーンに生息する犬の肝臓。有毒な食べ物や清潔な水が不足していることから、著しく変異・劣化している。研究者たちは、変異した犬がゾーンという過酷な環境にどう適応したのかを探っており、同時に肝疾患の治療研究にも応用できないか模索している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_dog_tail">
+		<text>ブラインドドッグの尻尾</text>
+	</string>
+	<string id="mutant_dog_tail_description">
+		<text>変異した犬の皮膚は電気や化学物質に強い耐性を持つことが知られており、長らく研究対象とされてきた。脂肪分がほとんどないため、尻尾は特に実験用の材料として重宝されている。研究用途以外では、ストーカーが狩猟の証として持ち帰ることが多い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_flesh_eye">
+		<text>フレッシュの眼</text>
+	</string>
+	<string id="mutant_flesh_eye_description">
+		<text>フレッシュから採取した巨大な眼球。人間に酷似した特徴を持ち、その驚異的な再生能力によって科学者たちの関心を集めている。この特性を解明することは現代医療に大きな革新をもたらすかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_fracture_hand">
+		<text>フラクチャーの手</text>
+	</string>
+	<string id="mutant_fracture_hand_description">
+		<text>フラクチャーから採取した手。形状はねじれており、長く伸びた指は獲物の捕獲に特化している。その変異した骨格や筋肉構造は、ゾーンの生物が示す急速な適応進化の一例として、生物学者たちの関心を集めている。元は人間だったという説もあり、チェルノブイリの第二災害に起因する産物と考えられている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_lurker_eye">
+		<text>ルーカーの眼</text>
+	</string>
+	<string id="mutant_lurker_eye_description">
+		<text>ルーカーから採取した小さな眼球。極めて高い感度を持ち、待ち伏せに適した視覚をもたらすとされている。ミュータントの視覚構造を探る研究に有用で、瞳孔を取り巻く微かな輝きがハンターや科学者の関心を引いている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_lurker_tail">
+		<text>ルーカーの尻尾</text>
+	</string>
+	<string id="mutant_lurker_tail_description">
+		<text>ルーカーの尻尾は鞭のような形状で、姿勢の維持や戦闘に用いられる。柔軟な筋肉と鋭く隆起した骨で構成されており、これはルーカーをトゥシュカノの突然変異種とする仮説を裏付ける根拠となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="st_mutant_part_crow_beak">
+		<text>変異したカラスのくちばし</text>
+	</string>
+	<string id="st_mutant_part_crow_beak_description">
+		<text>ほとんどのストーカーはカラスを害鳥とみなしているが、洞察力のある者はそのくちばしを粉砕し、特殊な調合の原料として活用している。科学者たちはこれを研究し、ゾーンの影響が空を飛ぶ生物に及ぶ仕組みを解明しようとしている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_fang_psevdodog">
+		<text>スードウドッグの牙</text>
+	</string>
+	<string id="mutant_fang_psevdodog_description">
+		<text>スードウドッグの牙は並程度の強度で、生涯を通じて定期的に生え変わる。科学者の関心は薄いが、ストーカーの中にはこれをネックレスや装飾品に加工する者もいる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_psevdodog_tail">
+		<text>スードウドッグの尻尾</text>
+	</string>
+	<string id="mutant_psevdodog_tail_description">
+		<text>スードウドッグから採取した尻尾。凶暴な性格とは裏腹に、驚くほど柔らかい毛皮に包まれている。これはゾーンの過酷な環境や放射線から身を守るための適応と考えられており、科学者たちはこの特性を解析して汚染を防ぐ仕組みの解明や新たな防護素材への応用を探っている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_pseudogigant_eye">
+		<text>スードウジャイアントの眼</text>
+	</string>
+	<string id="mutant_pseudogigant_eye_description">
+		<text>巨大なスードウジャイアントから採取した眼球。人間の目に似ているが、充血しており、虹彩は様々な色で、涙腺は異常なほどに発達している。地下環境での暗闇に対する視覚適応能力が高く、研究者たちは強い興味を示している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_pseudogigant_hand">
+		<text>スードウジャイアントの手</text>
+	</string>
+	<string id="mutant_pseudogigant_hand_description">
+		<text>スードウジャイアントから採取した巨大な手。歪んだ形状と、分厚く硬化した皮膚に覆われた関節が特徴。圧倒的な握力と高い骨密度を備えており、異常な肉体変化の仕組みを解明する手がかりとして研究に活用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_psysucker_hand">
+		<text>サイサッカーの手</text>
+	</string>
+	<string id="mutant_psysucker_hand_description">
+		<text>サイサッカーから採取した鉤爪状の手。ねじれた形状で、現在も微弱な精神波エネルギーを放出している。科学者たちは、このサンプルを通じて精神波の放射が生体組織に与える影響を解明できると期待している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_snork_leg">
+		<text>スノークの腱</text>
+	</string>
+	<string id="mutant_snork_leg_description">
+		<text>スノークから採取した腱。非常にしなやかで、元の形に戻る力も強い。この特性は、長期にわたるアノマラス・エネルギーへの曝露によって生じたものと考えられており、この腱を研究することで遺伝子変異や生体工学の新たな知見が得られる可能性がある。将来的には腱の再生や人工筋肉の開発など、医学分野への応用も期待されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_snork_mask">
+		<text>スノークのマスク</text>
+	</string>
+	<string id="mutant_snork_mask_description">
+		<text>スノークの頭蓋骨に貼り付いていたGP-5 ガスマスク。破損しているが、スノークがかつて人間だったという説を裏付ける証拠となっている。これは二度目のチェルノブイリ事故当時、ゾーンで活動していた兵士や研究者が装備していたものだ。科学者たちはこれを回収し、ゾーンが装備品や生物に及ぼす影響を解明しようとしている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_tushkano_head">
+		<text>トゥシュカノの頭</text>
+	</string>
+	<string id="mutant_tushkano_head_description">
+		<text>トゥシュカノの頭部には、群れ全体で意識を共有する神経回路が存在する。この集団意識によって、彼らは脅威や好機に対して瞬時に反応し、小柄で知能が低いとは思えないほど見事に統率された行動を取る。科学者たちは、この現象の解明に強い関心を寄せている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="mutant_zombi_hand">
+		<text>ゾンビの手</text>
+	</string>
+	<string id="mutant_zombi_hand_description">
+		<text>ゾンビ化したストーカーから採取した手。腐敗が進んでいるが、人間だった頃の面影がかすかに残っており、不気味さを際立たせている。科学者たちは、ゾーンにおけるゾンビ化の過程や神経系への影響を探る手がかりとしてこれを研究している。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+
+<!-- UNUSED
+
+	<string id="mutant_part_psy_dog_brain">
+		<text>サイドッグの脳</text>
+	</string>
+	<string id="mutant_part_psy_dog_brain_description">
+		<text>サイドッグは強力な念力を操り、獲物に極めて現実的な幻覚を見せることができる。その仕組みは解明されていないが、幻覚は実際に深刻なトラウマを引き起こすことがある。興味深いことに、科学者たちはこの能力を担う脳の領域を特定しているが、その領域は発達・進化の観点から「未成熟」とされている。彼らなら、この組織サンプルに喜んで大金を投じるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+	<string id="st_meat_tark">
+		<text>馬の肉</text>
+	</string>
+	<string id="st_meat_descr_tark">
+		<text>栄養価は高いが、強い放射線を帯びた馬の肉。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]低ランクのミュータント肉\n
+		%c[ui_red] • %c[ui_gray_1]調理できない\n
+		</text>
+	</string>
+	<string id="mutant_tark_tail">
+		<text>馬の尻尾</text>
+	</string>
+	<string id="mutant_tark_tail_description">
+		<text>馬の尻尾。長く、毛先がほつれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_purple] • %c[pda_white]科学標本\n
+		</text>
+	</string>
+-->
+
+</string_table>

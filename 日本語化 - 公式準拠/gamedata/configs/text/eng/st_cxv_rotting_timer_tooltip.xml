@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="cxv_tooltip_dot">
+		<text>•</text>
+	</string>
+	<string id="cxv_rotting_timer_title">
+		<text>腐るまでの時間:</text>
+	</string>
+	<string id="cxv_rotting_hrs">
+		<text>時間</text>
+	</string>
+	
+	
+</string_table>

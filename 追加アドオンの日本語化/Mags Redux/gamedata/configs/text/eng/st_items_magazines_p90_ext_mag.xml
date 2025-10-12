@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_mag_p90_ext">
+		<text>P90用拡張マガジン</text>
+	</string>
+	<string id="st_mag_p90_ext_descr">
+		<text> </text>
+	</string>
+	
+	
+</string_table>	

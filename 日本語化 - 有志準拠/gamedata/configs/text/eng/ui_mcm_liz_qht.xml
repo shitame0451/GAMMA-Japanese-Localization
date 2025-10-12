@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+    <string id="ui_mcm_menu_liz_qht">
+        <text>Headgear Animations</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_keybind">
+        <text>ヘッドギアの着脱（Headgear Animations）</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_keybind_desc">
+        <text>このキーには修飾キーの同時押しを必要とする設定が可能です。キーの競合を防ぐためにご利用ください。</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_update_mcm">
+        <text>使用中のMCMバージョンが古すぎます。最新版にアップグレードしてください。</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_strict_helmets">
+        <text>厳格なヘルメット制限を有効化</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_strict_helmets_desc">
+        <text>このオプションを有効にすると、ヘッドギア（ヘルメット）を装着中は飲食・薬の服用・喫煙ができなくなります。統合型ヘルメット付きのスーツも含まれます。一部、口元を覆わないヘッドギアは例外となります。</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_icon_state">
+        <text>ヘッドギア状態アイコンを表示</text>
+    </string>
+    
+    <string id="ui_mcm_liz_qht_icon_state_desc">
+        <text>ヘッドギア状態アイコンの表示モードを設定します。このアイコンはステータスインジゲーターに表示され、ヘッドギアの装備状態を示します（選択内容に応じて装備時または非装備時に表示）。</text>
+    </string>
+
+    <string id="ui_mcm_liz_qht_icon_state_none">
+        <text>表示しない</text>
+    </string>
+    
+    <string id="ui_mcm_liz_qht_icon_state_enabled">
+        <text>ヘッドギア装備時に表示</text>
+    </string>
+    
+    <string id="ui_mcm_liz_qht_icon_state_inverted">
+        <text>ヘッドギア非装備時に表示</text>
+    </string>
+    
+
+</string_table>

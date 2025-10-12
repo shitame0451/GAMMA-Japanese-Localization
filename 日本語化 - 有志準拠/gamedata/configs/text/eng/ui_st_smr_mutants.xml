@@ -1,0 +1,154 @@
+<string_table>
+	<string id="ui_mcm_menu_smr_mutants">
+		<text>ミュータント</text>
+	</string>
+    <string id="ui_mcm_smr_mutants_types_title">
+		<text>ミュータントタイプ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_squad_size">
+		<text>ミュータントの群れの規模</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_squad_size_variance">
+		<text>群れのサイズのばらつき</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_squad_size_variance_desc">
+		<text>この値が高いほど、ミュータントの群れの大きさがよりランダムになります。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_random_mutants">
+		<text>ミュータントの群れのランダム生成</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_random_mutants_desc">
+		<text>ミュータントの群れを他のランダムなミュータントの群れで置き換えます。\nこれにより、以前は予想もしなかった場所で、別のミュータントを見つけることができるかもしれません。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_random_mutants_chance">
+		<text>ミュータントの群れのランダム確率</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_balanced_mutants">
+		<text>ミュータント生成のバランス調整</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_balanced_mutants_desc">
+		<text>ロケーションの外側には弱いミュータントが生成されます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_types_info">
+		<text>以下では、ミュータントの種類を有効または無効にすることができます。無効化されたミュータントはゾーンに現れません。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_types_replace_squads">
+		<text>削除された群れの置換</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_types_replace_squads_desc">
+		<text>無効化されたミュータントを含む群れのみを、有効化されたミュータントを含む群れに置き換えます。</text>
+	</string>
+	<!-- TYPES -->
+	<string id="ui_mcm_SMR_smr_mutants_dogp">
+		<text>ドッグ</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_psydogp">
+		<text>サイドッグ</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_tushkanop">
+		<text>トゥシュカノ</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_fracturep">
+		<text>フラクチャー</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_catp">
+		<text>キャット</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_fleshp">
+		<text>フレッシュ</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_boarp">
+		<text>ボア</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_snorkp">
+		<text>スノーク</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_psysuckerp">
+		<text>サイサッカー</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_bloodsuckerp">
+		<text>ブラッドサッカー</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_lurkerp">
+		<text>ルーカー</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_karlikp">
+		<text>カーリクス</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_burerp">
+		<text>バーラー</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_poltergeistp">
+		<text>ポルターガイスト</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_controllerp">
+		<text>コントローラー</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_chimerap">
+		<text>キメラ</text>
+	</string>
+    <string id="ui_mcm_SMR_smr_mutants_gigantp">
+		<text>スードウジャイアント</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_ratp">
+		<text>ラット</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_zombiep">
+		<text>ゾンビ</text>
+	</string>
+	<!-- UNUSED -->
+	<string id="ui_mcm_smr_mutants_unused_title">
+		<text>未使用のミュータント</text>
+	</string>
+	<string id="ui_mcm_smr_mutants_unused_info">
+		<text>以下では、ゲームファイルには存在するが、どこにも使用されていないミュータントを有効にすることができます。\n有効にすると、ランダムなミュータントの群れとしてゾーンに出現します。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_bibliotekarp">
+		<text>ビブリオテカス</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_boryap">
+		<text>ボリャス</text>
+	</string>
+	<string id="ui_mcm_smr_mutants_unused_types_info">
+		<text>以下では、ゲームファイルには存在するが、どこにも使用されていないミュータントのバリエーションを有効にすることができます。\n有効にすると、使用されているバリエーションと一緒にゾーンに出現します。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_unused_types_chance">
+		<text>未使用のミュータントバリエーションの出現確率</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_unused_types_chance_desc">
+		<text>通常のミュータントが未使用のものに置き換わる確率を設定します。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_bloodsucker_strong_bigp">
+		<text>ビッグブラッドサッカー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_burer_electrap">
+		<text>エレクトロバーラー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_burer_firerp">
+		<text>ファイヤバーラー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_flesh_bolotp">
+		<text>ボロトフレッシュ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_gigant_jumperp">
+		<text>スードウジャイアント・ジャンパー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_snork_no_maskp">
+		<text>マスクレス・スノーク</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_zombie_babkap">
+		<text>女性ゾンビ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_zombie_gholp">
+		<text>グールゾンビ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_zombie_ghostp">
+		<text>ゴーストゾンビ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_zombie_tetap">
+		<text>テタゾンビ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_mutants_zombie_wichp">
+		<text>ウィッチゾンビ</text>
+	</string>
+</string_table>

@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="cc_generic-bandit-meet_hello_1">
+    <text>話そうか相棒。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hello_2">
+    <text>聞いてるよ兄弟。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hello_3">
+    <text>ああ、よう！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hide_weapon_1">
+    <text>合図するのはやめろ！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hide_weapon_2">
+    <text>俺の前に立つんじゃねぇ！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hide_weapon_3">
+    <text>おい、何のつもりだ？銃をしまいな！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hide_weapon_4">
+    <text>ここに戻りたいって言うんなら、その獲物をしまいな！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hide_weapon_5">
+    <text>お前がそいつを向けるってんなら、こちらにも考えがあるぞ！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_hide_weapon_6">
+    <text>おいおい、そんな物騒なものを向けないでくれ！もう十分だろ！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_default_1">
+    <text>他の暇そうな奴を探してくれ兄弟。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_default_2">
+    <text>今はおしゃべりする気がないんだ。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_default_3">
+    <text>失せな！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_fight_1">
+    <text>いったい何をしている？</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_fight_2">
+    <text>おしゃべりしている場合か！いいから撃て！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_fight_3">
+    <text>話すにはいいタイミングだ･･････</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_talk_leader_1">
+    <text>ボスと話しな。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_talk_leader_2">
+    <text>うるせぇな、あんたとお喋りする時間はねぇんだよ、ボスに相手してもらいな。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_talk_leader_3">
+    <text>何か用事があるんなら、ボスのところに行きな。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_weapon_1">
+    <text>今話す余裕がねぇんだ、見りゃ分かるだろうが！</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_weapon_2">
+    <text>まず銃をしまいな、話はそれからだ。</text>
+  </string>
+  <string id="cc_generic-bandit-meet_use_no_weapon_3">
+    <text>そのおもちゃを無くさない内にホルスターにしまいな！</text>
+  </string>
+  <string id="cc_generic-csky-meet_hello_1">
+    <text>何が必要だい、ストーカー？</text>
+  </string>
+  <string id="cc_generic-csky-meet_hello_2">
+    <text>何のようだ、ストーカー？</text>
+  </string>
+  <string id="cc_generic-csky-meet_hello_3">
+    <text>なんのようだい？</text>
+  </string>
+  <string id="cc_generic-csky-meet_hide_weapon_1">
+    <text>武器を下ろしな。</text>
+  </string>
+  <string id="cc_generic-csky-meet_hide_weapon_2">
+    <text>馬鹿な真似はよして、武器をしまいな！</text>
+  </string>
+  <string id="cc_generic-csky-meet_hide_weapon_3">
+    <text>なあ、たのむから銃をしまってくれ！</text>
+  </string>
+  <string id="cc_generic-csky-meet_use_no_talk_leader_1">
+    <text>何か用があるならボスと話せ･･････</text>
+  </string>
+  <string id="cc_generic-csky-meet_use_no_talk_leader_2">
+    <text>ボスと話しな。</text>
+  </string>
+  <string id="cc_generic-csky-meet_use_no_talk_leader_3">
+    <text>ボスは向こうだ、彼と話しな。</text>
+  </string>
+  <string id="cc_generic-csky-meet_use_no_weapon_1">
+    <text>銃を下ろしな、話はそれからだ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_use_no_weapon_2">
+    <text>俺にようがあるんなら先に武器をしまいな。</text>
+  </string>
+  <string id="cc_generic-csky-meet_use_no_weapon_3">
+    <text>先ずは武器を下ろしな、話しはそれからだ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_start_1">
+    <text>武器を下ろしてからお話といこうじゃないか。</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_start_2">
+    <text>俺と話したいのなら武器をホルスターにしまえ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_start_3">
+    <text>先ずは武器をしまえ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_wait_1">
+    <text>その得物をしまえ！</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_wait_2">
+    <text>武器をしまえ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_wait_3">
+    <text>武器を下ろせ！</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_wait_4">
+    <text>その武器をしまってから話しな！</text>
+  </string>
+  <string id="cc_generic-csky-meet_weapon_wait_5">
+    <text>仕事の話は武器をしまってからだ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_stop_1">
+    <text>ゾーンにはあらゆる「最悪」を抱えている奴らが集まってくるんだ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_stop_2">
+    <text>まぁ確かにその通りだが ･･････ そう言ってくれるな。</text>
+  </string>
+  <string id="cc_generic-csky-meet_stop_3">
+    <text>ああそうか、あんた今までに英語を学んだことがないのか。</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_wait_1">
+    <text>どのくらいここで待てばいい？</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_wait_2">
+    <text>なんだ昼寝でもしているのか？</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_wait_3">
+    <text>おい、起きろや！</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_wait_4">
+    <text>やあ、休憩でもしようや。</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_wait_5">
+    <text>何がしたいんだ？</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_stop_1">
+    <text>のろのろと何をしている？</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_stop_2">
+    <text>少し黙るべきだな、お前に言ってんだぞ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_stop_3">
+    <text>おいおい！音を立てるなよ</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_start_1">
+    <text>それで、何が必要だ？</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_start_2">
+    <text>とにかく、何がしたいんだ？</text>
+  </string>
+  <string id="cc_generic-csky-meet_general_start_3">
+    <text>どうした、ストーカー？</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_wait_1">
+    <text>何がしたいのか教えてくれ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_wait_2">
+    <text>ほら、話そうぜ！</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_wait_3">
+    <text>何か仕事はないかい？</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_wait_4">
+    <text>どうした、何か悩み事かい？</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_wait_5">
+    <text>何を待っているんだ？</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_stop_1">
+    <text>ゾーンにはいろんな「最悪」を抱えた奴等が転がり込んでくるからな。</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_stop_2">
+    <text>まぁその通りなんだが･･････ そう言うなよ。</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_stop_3">
+    <text>ああそうか、あんた今まで英語のお勉強はしたことがないのか。</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_start_1">
+    <text>何が必要だい、ストーカー？</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_start_2">
+    <text>ストーカー、あんたのためにできることはあるかい？</text>
+  </string>
+  <string id="cc_generic-csky-meet_comander_start_3">
+    <text>何が必要だ？</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hello_1">
+    <text>何かニュースでもあるかい？</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hello_2">
+    <text>また会ったな！</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hello_3">
+    <text>時は金なり、とっとと話しな！</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_1">
+    <text>なぁ友よ、武器を下ろしてくれ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_2">
+    <text>武器はしまえ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_3">
+    <text>武器はしまえ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_7">
+    <text>武器はしまえ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_8">
+    <text>今すぐ銃をしまえ！</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_9">
+    <text>今すぐ武器をしまえ！</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_10">
+    <text>あんたと話をするのに武器は必要ないだろう？</text>
+  </string>
+  <string id="cc_generic-dolg-meet_hide_weapon_11">
+    <text>あんた･･････ 武器を下ろしな。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_default_1">
+    <text>だめだ、今は話せない。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_default_2">
+    <text>すまん、今は話す気分じゃないんだ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_default_3">
+    <text>すぐには話せない。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_fight_1">
+    <text>別の機会に話そう。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_fight_2">
+    <text>後で話そう。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_fight_3">
+    <text>今は話せない。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_talk_leader_1">
+    <text>何か要件があるなら司令官と話せ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_talk_leader_2">
+    <text>ストーカー、質問があるなら司令官と直接話せ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_talk_leader_3">
+    <text>司令官と話せ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_weapon_1">
+    <text>俺の前では銃をしまいな、そしたら話相手になってやる。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_weapon_2">
+    <text>ここから出ていくか武器をしまうか、どっちかにしな！</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_weapon_3">
+    <text>武器をしまったら話相手になってやる。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_weapon_6">
+    <text>おい、エモノをしまい忘れてるぜ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_weapon_7">
+    <text>俺たちはお喋りするつもりはなぜ。</text>
+  </string>
+  <string id="cc_generic-dolg-meet_use_no_weapon_8">
+    <text>あんたが武器をしまうなら、話し相手になってやるよ！</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_hello_1">
+    <text>あんたは何が言いたいんだ？</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_hello_2">
+    <text>聞いてるぜ。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_hello_3">
+    <text>じゃあな。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_hide_weapon_1">
+    <text>へい、今そんな物を構える必要はないだろう。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_hide_weapon_2">
+    <text>先ずは武器を下げようぜ。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_hide_weapon_3">
+    <text>まずは銃を片付けな。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_default_1">
+    <text>いいか？今話すことはないんだ。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_default_2">
+    <text>すまんが、お喋りは後にしよう。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_default_3">
+    <text>なぁ、俺はいちいちあんたと話さないといかんのか。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_fight_1">
+    <text>真剣に話しをしたいのか？あきらめろバカ！</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_fight_2">
+    <text>お喋りは後だ後！</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_fight_3">
+    <text>お前はバカか？今はやめろ！</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_talk_leader_1">
+    <text>いいか？今話すことはないんだ。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_talk_leader_2">
+    <text>すまんが、お喋りは後にしよう。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_talk_leader_3">
+    <text>話してくれ</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_weapon_1">
+    <text>話しがしたいんなら、武器を下ろせ。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_weapon_2">
+    <text>銃器を下ろせ、それができないんならあんたとは仕事はできん。</text>
+  </string>
+  <string id="cc_generic-ecolog-meet_use_no_weapon_3">
+    <text>おい、武器はいらないだろ。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hello_1">
+    <text>ちゃんと教えろ！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hello_2">
+    <text>聞いてるよ。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hello_3">
+    <text>何のようだ兄弟？</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hide_weapon_1">
+    <text>ヒーローごっこじゃないんだ、銃をしまいな。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hide_weapon_2">
+    <text>銃をおさめろくそったれ！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hide_weapon_3">
+    <text>あんたのおもちゃを下ろせ、それができないならここから出ていきな！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hide_weapon_9">
+    <text>銃はしまったままでいてくれよ、な？</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hide_weapon_10">
+    <text>そのエモノを振り回すのはやめろ！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hide_weapon_11">
+    <text>そのおもちゃをしまいな！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_hide_weapon_12">
+    <text>その忌々しいのをしまいな。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_default_1">
+    <text>立ち去れ！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_default_2">
+    <text>話しかけてんじゃねぇ、これが終わってからにしろ！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_default_3">
+    <text>兄弟今は話せない</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_fight_1">
+    <text>あんた頭おかしいのか！？それどころじゃねぇだろ！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_fight_2">
+    <text>ここにあるのは撃ち合いと物資ぐらいだ。知ってたか？</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_fight_3">
+    <text>話す時間はないんだ。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_talk_leader_1">
+    <text>ボスと話しな！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_talk_leader_2">
+    <text>俺と話すのがあんたの徳になるとは思えないんでな、司令官と話せ。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_talk_leader_3">
+    <text>今はひとりでいたくてな、ボス向こうにいるから様があるなら話してきな。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_weapon_1">
+    <text>オメェは話がしたいのかそいつで遊びたいのかどっちだ？武器はしまいな！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_weapon_2">
+    <text>俺は銃を構えた奴と会話するつもりはねぇぞ。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_weapon_3">
+    <text>銃をしまったら話し相手になってやるよ。</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_weapon_6">
+    <text>あんたはここでドンパチするつもりか会話するつもりか、どっちだ？</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_weapon_7">
+    <text>おい。お前の銃をどこかにしまえ！</text>
+  </string>
+  <string id="cc_generic-freedom-meet_use_no_weapon_8">
+    <text>あんたはそのデカいおもちゃで何するつもりだ？</text>
+  </string>
+  <string id="cc_generic-killer-meet_hello_1">
+    <text>噛みついたはしねぇよ、こっちに来な。</text>
+  </string>
+  <string id="cc_generic-killer-meet_hello_2">
+    <text>よう兄弟！</text>
+  </string>
+  <string id="cc_generic-killer-meet_hello_3">
+    <text>あんたは誰だ？</text>
+  </string>
+  <string id="cc_generic-killer-meet_hide_weapon_1">
+    <text>銃をしまいな！</text>
+  </string>
+  <string id="cc_generic-killer-meet_hide_weapon_2">
+    <text>話しがしたいならゆっくり銃を下ろしな！</text>
+  </string>
+  <string id="cc_generic-killer-meet_hide_weapon_3">
+    <text>話しがしたいならゆっくり銃を下ろしな！</text>
+  </string>
+  <string id="cc_generic-killer-meet_hide_weapon_4">
+    <text>銃を下ろしな！</text>
+  </string>
+  <string id="cc_generic-killer-meet_hide_weapon_5">
+    <text>話しがしたいならゆっくり銃を下ろしな！</text>
+  </string>
+  <string id="cc_generic-killer-meet_hide_weapon_6">
+    <text>銃を下ろしな！</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_default_1">
+    <text>あんたと話すつもりはないよ。</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_default_2">
+    <text>あんたと話すつもりはないよ。</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_default_3">
+    <text>ガム打ちする気はない。</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_fight_1">
+    <text>今じゃない！</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_fight_2">
+    <text>頭でも沸騰してんのか？そんな場合じゃねえ！</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_fight_3">
+    <text>俺たちが戦ってるのが見えねぇのか？</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_talk_leader_1">
+    <text>今話す気分じゃねぇ、司令官と話せ。</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_talk_leader_2">
+    <text>なにか要件があるなら司令官と話せ。</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_talk_leader_3">
+    <text>今話す気分じゃねぇ、司令官と話せ。</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_weapon_1">
+    <text>あんたが俺にそのエモノ向ける間は喋るつもりはないぞ！</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_weapon_2">
+    <text>話したんいんなら、その銃を置きな。</text>
+  </string>
+  <string id="cc_generic-killer-meet_use_no_weapon_3">
+    <text>銃をしまうか失せな！</text>
+  </string>
+  <string id="cc_generic-military-meet_hello_1">
+    <text>なんだい？</text>
+  </string>
+  <string id="cc_generic-military-meet_hello_2">
+    <text>なんのようだい？</text>
+  </string>
+  <string id="cc_generic-military-meet_hello_3">
+    <text>はい？聞いてるよ･･････</text>
+  </string>
+  <string id="cc_generic-military-meet_hide_weapon_1">
+    <text>武器を下ろせ。</text>
+  </string>
+  <string id="cc_generic-military-meet_hide_weapon_2">
+    <text>銃を下ろしな！</text>
+  </string>
+  <string id="cc_generic-military-meet_hide_weapon_3">
+    <text>銃をしまえ。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_default_1">
+    <text>喋る時間がない。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_default_2">
+    <text>あんたの手伝いはできないよ。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_default_3">
+    <text>放っておいてくれよ。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_fight_1">
+    <text>戦闘後に話そう。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_fight_2">
+    <text>駄弁ってないで集中しろ！</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_fight_3">
+    <text>今は話すタイミングじゃない。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_talk_leader_1">
+    <text>司令官と会え。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_talk_leader_2">
+    <text>あんたの質問は司令官が答えるはずだ。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_talk_leader_3">
+    <text>撮影する。司令官はQ&amp;amp;Aのセッションを行う。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_weapon_1">
+    <text>話相手になってほしいのなら武器を下ろせ。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_weapon_2">
+    <text>あんたと話すつもりはないよ。</text>
+  </string>
+  <string id="cc_generic-military-meet_use_no_weapon_3">
+    <text>お喋りしたいんなら銃をしまいな。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_hello_1">
+    <text>あんたのお仲間とMonolithが一緒にいたってことは誰も信じないだろうよ、誰もな。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_hello_2">
+    <text>ここは静かすぎるな。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_hello_3">
+    <text>あまり覚えてちゃいないが、このいくつかのポイントには行ったことがある気がする。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_hello_4">
+    <text>妙だ･･････ ここはすべてが変な感じだ。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_use_no_fight_1">
+    <text>モノリス･･････ 偉大なモノリス様。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_use_no_fight_2">
+    <text>敵が近くにいる、たぶんMonolithだ。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_use_no_fight_3">
+    <text>モノリス様･･････ 私は忠実な信徒です。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_use_no_talk_leader_1">
+    <text>我々はらしく行こう。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_use_no_talk_leader_2">
+    <text>話す必要はない。</text>
+  </string>
+  <string id="cc_generic-monolith-meet_use_no_talk_leader_3">
+    <text>今は話したくない。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hello_1">
+    <text>なんだい？</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hello_2">
+    <text>よう兄弟！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hello_3">
+    <text>聞いてるって。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hide_weapon_1">
+    <text>武器を下ろしなオッサン。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hide_weapon_2">
+    <text>ふざけるのはやめろ！とっとと武器を下ろせ！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hide_weapon_3">
+    <text>おいおいたのむぜ、武器は下ろしてくれよ！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hide_weapon_7">
+    <text>武器をしまえ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hide_weapon_6">
+    <text>そのおもちゃを俺に向けるな！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_hide_weapon_8">
+    <text>そのおもちゃで何をするつもりだ？</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_default_1">
+    <text>あんたと話すつもりはないよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_default_2">
+    <text>お喋りする気分じゃないんだ</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_default_3">
+    <text>ガム打ちする気はない。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_fight_1">
+    <text>わちゃわちゃと話す時間はないんだ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_fight_2">
+    <text>あんたバカか？話は後だ！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_fight_3">
+    <text>あんたはここでくだらねぇ戯言でもしに来たのか。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_talk_leader_1">
+    <text>何か用があるんならボスと話せ･･････</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_talk_leader_2">
+    <text>ボスと話しな。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_talk_leader_3">
+    <text>ボスと話しな、向こうにいるからよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_weapon_1">
+    <text>武器を収めてから話そう。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_weapon_2">
+    <text>俺は銃を向けてくる相手とは話したくねぇんだよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_weapon_3">
+    <text>銃をチラつかす奴とは話す気分にはなれねぇんだよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_use_no_weapon_9">
+    <text>おいあんた！そいつを下ろしてくれよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_start_1">
+    <text>ビビらせんなよ、武器をしまいな。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_start_2">
+    <text>武器をしまいな、気を煩わせるんじゃねぇ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_start_3">
+    <text>武器を収めるんなら、話し相手になってやるよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_wait_1">
+    <text>武器を振り回すのが趣味なのか？</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_wait_2">
+    <text>その銃はなんだ？</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_wait_3">
+    <text>銃を持って奴と話すことはねぇ！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_wait_4">
+    <text>そのおもちゃを俺に向けるな！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_weapon_wait_5">
+    <text>武器をしまえ！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_1">
+    <text>聞いてるよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_2">
+    <text>おいおい、そんな事をバラすなよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_3">
+    <text>俺が暇そうに見えるのか？別のところに行け。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_4">
+    <text>恥ずかしがりやか何かか？来なよ、話そうぜ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_5">
+    <text>あうあうすんなって、話そうぜ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_6">
+    <text>仕事の話がしたいってんならいいぜ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_7">
+    <text>良しもういいだろう、話そうぜ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_8">
+    <text>起きてコーヒーの香りでも嗅ごう。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_9">
+    <text>いいぜ、話そう。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_10">
+    <text>よし、喋ろうか。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_11">
+    <text>さてと、あんたの要件はなんだい？</text>
+  </string>
+  <string id="cc_generic-stalker-meet_wait_12">
+    <text>ここで俺たちが話す必要はあるか？</text>
+  </string>
+  <string id="cc_generic-stalker-meet_stop_1">
+    <text>静かに話そうか。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_stop_2">
+    <text>話せそうな時に戻って来てくれ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_stop_3">
+    <text>話したくてウズウズしていたんだ、嘘だよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_stop_4">
+    <text>ふーむ、いい会話だ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_stop_5">
+    <text>これは沈黙大会かな？オーケーあんたの勝ちだ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_stop_6">
+    <text>あんたが知りたい事が何なのかわからん。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_wait_1">
+    <text>コーヒーの匂いだぞ、起きるんだ！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_wait_2">
+    <text>来なよ、話す準備はできてるぜ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_wait_3">
+    <text>ようし、話そうか。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_wait_4">
+    <text>ああ、あんたの要件はなんだ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_wait_5">
+    <text>ここで俺たちが話す必要はあるか？</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_stop_1">
+    <text>いいだろう話そう。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_stop_2">
+    <text>これは沈黙大会かな？オーケーあんたの勝ちだ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_stop_3">
+    <text>あんたが知りたいのが何なのか分からん。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_start_1">
+    <text>何か用があるならいいな、ほら。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_start_2">
+    <text>聞いてるよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_general_start_3">
+    <text>聞いてるよ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_comander_wait_1">
+    <text>俺が暇そうに見えるのか？別のところに行け。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_comander_wait_2">
+    <text>何恥ずかしがってるんだ？ほら、話そうぜ！</text>
+  </string>
+  <string id="cc_generic-stalker-meet_comander_wait_3">
+    <text>そんな恥ずかしがるなって、話そうか。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_comander_wait_4">
+    <text>仕事の話がしたいってんならいいぜ。</text>
+  </string>
+  <string id="cc_generic-stalker-meet_comander_wait_5">
+    <text>もう十分か、話そうぜ！</text>
+  </string>
+</string_table>

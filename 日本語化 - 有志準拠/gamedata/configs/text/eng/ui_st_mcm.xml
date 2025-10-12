@@ -1,0 +1,198 @@
+<!-- 
+	Anomaly Mod Configuration Menu strings
+	
+-->
+
+<string_table>
+
+	<string id="ui_mcm_desc_mcm">
+		<text>「Anomaly Mod Configuration Menu（MCM）」へようこそ。
+		\nMCMは他のアドオンの設定メニューを表示するためのツールであり、単体では機能しません。
+		\n左側には、MCMを利用して設定を変更できるアドオンの一覧が表示されます。</text>
+	</string>
+	<string id="ui_mcm_desc_mcm2">
+		<text>MCMの不具合や、ログに「ui_mcm.script」が原因と表示されるクラッシュの大半は、
+		\nMCMを利用しているアドオン側に問題があります。その際は、該当するアドオンの作者に報告してください。</text>
+	</string>
+	<string id="ui_mm_menu_mcm">
+		<text>Mod設定メニュー</text>
+	</string>
+
+	<string id="ui_mcm_menu_mcm">
+		<text>MCM</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_about">
+		<text>説明</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_about_dxml">
+		<text>アドオン名を強制的に英語で表示</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_about_dxml_desc">
+		<text>この設定は、言語設定がロシア語の場合にのみ有効です。</text>
+	</string>
+
+
+	<string id="ui_mcm_menu_mcm_log">
+		<text>ログ出力</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_log">
+		<text>アドオン製作者向けのログ機能です。通常のXrayログやコンソールとは別のログを出力します。
+		\nパフォーマンスへの影響やSSDへの書き込み負荷を考慮し、ログの動作を調整できるオプションを用意しています。
+		\nログファイルはスクリプト名とMCMのセッションIDを元に命名され、「appdata/logs/mcm/」に保存されます。</text>
+	</string>
+
+	<string id="ui_mcm_mcm_mcm_log_enable">
+		<text>MCMログを有効化</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_enable_desc">
+		<text>無効にすると新しいログの作成や更新が行われなくなります。（変更は新しいセーブを読み込むまで反映されない場合があります）</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_numlogs">
+		<text>保持するログの数</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_numlogs_desc">
+		<text>スクリプトが生成したログ数がこの数を超えると、古いログは自動的に削除されます。（ゲームがクラッシュした場合は削除されません）</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_continuous">
+		<text>ログの常時書き込みを許可</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_continuous_desc">
+		<text>ログファイルは通常、まとめて保存されます。そのため、ゲームがクラッシュした場合に一部の情報が失われる可能性があります。ログを即時更新させるため、アドオン制作者がこの設定を有効化するように求めることがあります。</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_savefreq">
+		<text>ログ自動保存の間隔（ミリ秒）</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_savefreq_desc">
+		<text>ログはここで設定した間隔にかかわらず、UI画面の切り替え時やセーブ／ロード時に保存されます。</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_timestamp">
+		<text>Xrayログのタイムスタンプの頻度</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_timestamp_desc">
+		<text>MCMは、MCMログとXrayログのイベントを同期しやすくするために、Xrayログにタイムスタンプを追加します。これはタイムスタンプ間の最小間隔です。コンソールに他に何も出力されていない場合、MCMも出力を行いません。</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_debug_logging2">
+		<text>デバッグログを有効にする</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_log_debug_logging2_desc">
+		<text>MCM自体のデバッグログを出力します。MCMの不具合報告を行う際は有効にしてください。他のアドオンがこの設定を利用して独自のログを有効化する場合もあります。</text>
+	</string>
+
+
+	<string id="ui_mcm_menu_mcm_kb">
+		<text>MCM キー設定</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_kb_main">
+		<text>メイン設定</text>
+	</string>
+
+	<string id="ui_mcm_mcm_desc_kb">
+		<text>新しいキーを割り当てるには、設定したいボックスをクリックしてから任意のキーを押してください。
+		\nEscキーを押すか、ボックスを再度クリックするとキャンセルできます。
+		\n押したキーと表示されるキーが一致しない、または一部のキーが反応しない場合は、
+		\nキーボードのレイアウトに合わせて「mcm_key_localization.ltx」を編集する必要があります。
+		\n複数のMCMキー設定やゲーム本体のキー設定に同じキーが割り当てられている場合、そのキーは赤色で表示されます。</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb2">
+		<text>赤色で表示されるキーの競合についての注意点:
+		\n1. 競合があっても必ずしも問題になるわけではありません。異なるUIで使われている場合や、Shiftとの組み合わせでのみ動作する場合などは、同じキーが割り当てられていても支障はありません。
+		\n2. MCMは各アドオンがキーをどう利用しているかを判断できません。競合が実際に影響するかどうかは、プレイヤー自身がアドオンの仕様を理解する必要があります。
+		\n3. 複数の変更を同時に保留している場合、キーの色表示が正しく更新されないことがあります。その場合は一度変更を適用し、MCMを再度開いて競合状況を確認してください。</text>
+	</string>
+
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_presstime">
+		<text>長押し判定時間</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_presstime_desc">
+		<text>ダブルタップ判定時間に倍率をかけて「長押し」として認識される時間を決定します。MCMを利用して長押し判定を行うアドオンにのみ適用されます。</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_dtaptime2">
+		<text>ダブルタップ判定時間</text>
+	</string>
+	<string id="ui_mcm_mcm_mcm_kb_mcm_kb_main_dtaptime2_desc">
+		<text>最初の入力からどれくらいの間に2回目の入力があれば「ダブルタップ」と認識するかを設定します。MCMを利用してダブルタップ判定を行うアドオンにのみ適用されます。この数値が大きいと単押し入力の反応が遅れる場合があるため、可能な限り小さく設定することを推奨します。
+		</text>
+	</string>
+
+	<string id="ui_mcm_menu_mcm_all_kb">
+		<text>すべてのキー設定</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_all">
+		<text>このパネルではMCMで設定されたすべてのキーをまとめて表示します。順番は左側のアドオン一覧と同じです。
+		\nただし、このリストには各アドオン側にある追加設定（キーの挙動に影響するもの）は含まれません。
+		\n元のアドオン設定やそのアドオンの説明を必ず確認してください。</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_all2">
+		<text>他のパネルで保留中の変更はここに反映されず、このパネルでの変更も他のパネルには反映されません。
+		\nこのパネルを使う前後には、必ず変更を適用してください。適用しないと予期しない動作の原因になります。
+		\n\n赤色で表示されるキーの競合についての注意点:
+		\n1. 競合があっても必ずしも問題になるわけではありません。異なるUIで使われている場合や、Shiftとの組み合わせでのみ動作する場合などは、同じキーが割り当てられていても支障はありません。
+		\n2. MCMは各アドオンがキーをどう利用しているかを判断できません。競合が実際に影響するかどうかは、プレイヤー自身がアドオンの仕様を理解する必要があります。
+		\n3. 複数の変更を同時に保留している場合、キーの色表示が正しく更新されないことがあります。その場合は一度変更を適用し、MCMを再度開いて競合状況を確認してください。</text>
+	</string>
+	<string id="ui_mcm_menu_mcm_kb_conflicts">
+		<text>キー設定の競合</text>
+	</string>
+	<string id="ui_mcm_mcm_desc_kb_conflicts">
+		<text>このパネルでは、競合しているすべてのMCMキー設定をキーごとに並べて表示します。
+		\nこのリストに1回だけ表示されるキーは、ゲーム本体のキー設定と競合している可能性があります。そちらは通常のゲーム設定で確認できます。
+		\nただし、このリストには各アドオン側にある追加設定（キーの挙動に影響するもの）は含まれません。
+		\n元のアドオン設定やそのアドオンの説明を必ず確認してください。</text>
+	</string>
+
+	
+	
+	<string id="ui_mcm_mcm_kb_modifier">
+		<text>修飾キー</text>
+	</string>
+	<string id="ui_mcm_mcm_kb_modifier_desc">
+		<text>上記のキー設定は、このキーが押されている場合にのみ有効になります。</text>
+	</string>
+
+	<string id="ui_mcm_lst_mcm_kb_mod_none">
+		<text>なし</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_ctrl">
+		<text>Ctrlキー</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_shift">
+		<text>Shiftキー</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mod_alt">
+		<text>Altキー</text>
+	</string>
+
+
+
+	
+	<string id="ui_mcm_mcm_kb_mode">
+		<text>入力モード</text>
+	</string>
+	<string id="ui_mcm_mcm_kb_mode_desc">
+		<text>上記のキー設定を入力する方法を選択します。</text>
+	</string>
+	
+	<string id="ui_mcm_lst_mcm_kb_mode_press">
+		<text>単押し</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mode_dtap">
+		<text>ダブルタップ</text>
+	</string>
+	<string id="ui_mcm_lst_mcm_kb_mode_hold">
+		<text>長押し</text>
+	</string>
+	
+	<string id="ui_mcm_menu_search">
+		<text>検索...</text>
+	</string>
+
+	<string id="ui_mcm_menu_search_clear">
+		<text>右クリックでクリア</text>
+	</string>
+
+
+
+
+</string_table>
+
+

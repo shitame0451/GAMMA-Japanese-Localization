@@ -1,0 +1,13 @@
+<string_table>
+
+	<string id="st_wpn_mp155">
+		<text>MP-155</text>
+	</string>
+	<string id="st_wpn_mp155_descr">
+		<text>信頼性が高く安価でありながら、様々な弾薬を扱えるセミオートショットガン。その優れた汎用性から、猟師や競技射撃の愛好家に広く愛用されている。軽量な設計、調整可能なストック、頑丈な設計により、あらゆる環境や射撃スタイルに柔軟に対応することができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Baikal\n</text>
+	</string>
+
+</string_table>

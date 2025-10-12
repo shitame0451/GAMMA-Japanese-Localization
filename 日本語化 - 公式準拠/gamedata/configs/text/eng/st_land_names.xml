@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_zat_b55_name_land">
+    <text>「クロー」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b100_name_land">
+    <text>「アイアンフォレスト」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b104_name_land">
+    <text>製材所</text>
+  </string>
+  <string id="st_zat_b38_name_land">
+    <text>クルーグ複合アンテナ施設</text>
+  </string>
+  <string id="st_zat_b40_name_land">
+    <text>廃棄物処理場</text>
+  </string>
+  <string id="st_zat_b56_name_land">
+    <text>「サーカス」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b5_name_land">
+    <text>森林管理場</text>
+  </string>
+  <string id="st_zat_a2_name_land">
+    <text>スカドフスク</text>
+  </string>
+  <string id="st_zat_b20_name_land">
+    <text>焼けた農場</text>
+  </string>
+  <string id="st_zat_fire_name_land">
+    <text>「火の海のはしけ」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b53_name_land">
+    <text>「蒸気」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b101_name_land">
+    <text>沼地</text>
+  </string>
+  <string id="st_zat_waste_name_land">
+    <text>「廃物」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b106_name_land">
+    <text>イズムルドノエ</text>
+  </string>
+  <string id="st_zat_b7_name_land">
+    <text>シェフチェンコ</text>
+  </string>
+  <string id="st_zat_b14_name_land">
+    <text>浚渫所</text>
+  </string>
+  <string id="st_zat_tide_name_land">
+    <text>「激流」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b52_name_land">
+    <text>ドッククレーン</text>
+  </string>
+  <string id="st_zat_b39_name_land">
+    <text>「オークパイン」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b33_name_land">
+    <text>給油所</text>
+  </string>
+  <string id="st_zat_b18_name_land">
+    <text>古いはしけ</text>
+  </string>
+  <string id="st_zat_b54_name_land">
+    <text>「スカー」アノマリーフィールド</text>
+  </string>
+  <string id="st_zat_b12_name_land">
+    <text>プレオブラジェンスキー橋</text>
+  </string>
+  <string id="st_zat_b28_name_land">
+    <text>南部の台地</text>
+  </string>
+  <string id="st_zat_b103_name_land">
+    <text>変電所の作業場</text>
+  </string>
+  <string id="st_jup_b1_name_land">
+    <text>「燃え殻の山」アノマリーフィールド</text>
+  </string>
+  <string id="st_jup_b46_name_land">
+    <text>冷却塔</text>
+  </string>
+  <string id="st_jup_b202_name_land">
+    <text>変電所</text>
+  </string>
+  <string id="st_jup_b211_name_land">
+    <text>「プラビニ」アノマリーフィールド</text>
+  </string>
+  <string id="st_jup_b200_name_land">
+    <text>セメント工場</text>
+  </string>
+  <string id="st_jup_b19_name_land">
+    <text>コパシー村</text>
+  </string>
+  <string id="st_jup_a6_name_land">
+    <text>ヤニフ</text>
+  </string>
+  <string id="st_jup_b25_name_land">
+    <text>採石場</text>
+  </string>
+  <string id="st_jup_earth_name_land">
+    <text>「ひび割れた大地」アノマリーフィールド</text>
+  </string>
+  <string id="st_jup_b6_name_land">
+    <text>科学者の移動ラボ</text>
+  </string>
+  <string id="st_jup_b205_name_land">
+    <text>ヴォルホフ対空ミサイル施設</text>
+  </string>
+  <string id="st_jup_b206_name_land">
+    <text>特異な果樹園</text>
+  </string>
+  <string id="st_jup_grove_name_land">
+    <text>「腐った果樹園」アノマリーフィールド</text>
+  </string>
+  <string id="st_jup_b32_name_land">
+    <text>駐車場</text>
+  </string>
+  <string id="st_jup_a10_name_land">
+    <text>検問所</text>
+  </string>
+  <string id="st_jup_b209_name_land">
+    <text>「歴青」アノマリーフィールド</text>
+  </string>
+  <string id="st_jup_b208_name_land">
+    <text>東部トンネル</text>
+  </string>
+  <string id="st_jup_a12_name_land">
+    <text>コンテナ倉庫</text>
+  </string>
+  <string id="st_jup_b212_name_land">
+    <text>換気複合施設</text>
+  </string>
+  <string id="st_jup_b9_name_land">
+    <text>ヘリポート</text>
+  </string>
+  <string id="st_jup_b201_name_land">
+    <text>「コンクリート風呂」アノマリーフィールド</text>
+  </string>
+  <string id="st_jup_a9_name_land">
+    <text>ジュピター工場</text>
+  </string>
+  <string id="st_pri_a28_name_land">
+    <text>プロメテウス映画館</text>
+  </string>
+  <string id="st_pri_b36_name_land">
+    <text>河川港</text>
+  </string>
+  <string id="st_pri_b303_name_land">
+    <text>旧サービスセンター</text>
+  </string>
+  <string id="st_pri_b301_name_land">
+    <text>学校</text>
+  </string>
+  <string id="st_pri_a17_name_land">
+    <text>病院</text>
+  </string>
+  <string id="st_pri_b306_name_land">
+    <text>ユビレイニー・サービスセンター</text>
+  </string>
+  <string id="st_pri_plug_name_land">
+    <text>「スパークプラグ」アノマリーフィールド</text>
+  </string>
+  <string id="st_pri_a16_name_land">
+    <text>コインランドリー</text>
+  </string>
+  <string id="st_pri_a25_name_land">
+    <text>幼稚園</text>
+  </string>
+  <string id="st_pri_b35_name_land">
+    <text>アパート団地</text>
+  </string>
+  <string id="st_pri_a21_name_land">
+    <text>食料品店</text>
+  </string>
+  <string id="st_pri_b304_name_land">
+    <text>百貨店</text>
+  </string>
+  <string id="st_pri_bath_name_land">
+    <text>「酸の風呂」アノマリーフィールド</text>
+  </string>
+  <string id="st_pri_a18_name_land">
+    <text>書店</text>
+  </string>
+  <string id="st_pri_b302_name_land">
+    <text>「ツタ植物」アノマリーフィールド</text>
+  </string>
+  <string id="st_pri_b307_name_land">
+    <text>「火山」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_2c_01_anomaly_spot_name">
+    <text>「教会墓地」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_2c_02_anomaly_spot_name">
+    <text>「探検家の運命」アノマリーフィールド</text>
+  </string>
+  <string id="st_ds_2c_01_anomaly_spot_name">
+    <text>「岩石罠」アノマリーフィールド</text>
+  </string>
+  <string id="st_ds_2c_02_anomaly_spot_name">
+    <text>「輝ける道」アノマリーフィールド</text>
+  </string>
+  <string id="st_ds_2c_03_anomaly_spot_name">
+    <text>「ハゲ山」アノマリーフィールド</text>
+  </string>
+  <string id="st_ds_2c_04_anomaly_spot_name">
+    <text>「ドラムスティック」アノマリーフィールド</text>
+  </string>
+  <string id="st_trc_2c_01_rift_anom_spot_name">
+    <text>「バスのわだち」アノマリーフィールド</text>
+  </string>
+  <string id="st_trc_2c_02_chem_anom_spot_name">
+    <text>「イバラの風呂」アノマリーフィールド</text>
+  </string>
+  <string id="st_trc_2c_03_desolation_anom_spot_name">
+    <text>「木炭の忍耐」アノマリーフィールド</text>
+  </string>
+  <string id="st_esc_2c_01_high_hopes_anomaly_spot_name">
+    <text>「高望み」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_2c_01_nwi_anomaly_spot_name">
+    <text>「押し引き」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_2c_02_toaster_anomaly_spot_name">
+    <text>「ギリシャの火」アノマリーフィールド</text>
+  </string>
+  <string id="st_agr_2c_01_hg_anomaly_spot_name">
+    <text>「重い草」アノマリーフィールド</text>
+  </string>
+  <string id="st_labx18_2c_01_deep_burn_anomaly_spot_name">
+    <text>「深層火傷」アノマリーフィールド</text>
+  </string>
+  <string id="st_labx18_2c_02_ff_anomaly_spot_name">
+    <text>「炎の噴水」アノマリーフィールド</text>
+  </string>
+  <string id="st_labx18_2c_03_elders_anomaly_spot_name">
+    <text>「蛆の餌」アノマリーフィールド</text>
+  </string>
+  <string id="st_labx18_2c_04_bioh_anomaly_spot_name">
+    <text>「バイオハザード」アノマリーフィールド</text>
+  </string>
+  <string id="st_bar_2c_01_grant_anomaly_spot_name">
+    <text>「人狩り罠」アノマリーフィールド</text>
+  </string>
+  <string id="st_ros_2c_01_tunnel_anomaly_spot_name">
+    <text>「閃光の手詰まり」アノマリーフィールド</text>
+  </string>
+  <string id="st_ros_2c_02_crispy_train_anomaly_spot_name">
+    <text>「サクサク列車」アノマリーフィールド</text>
+  </string>
+  <string id="st_ros_2c_03_yc_anomaly_spot_name">
+    <text>「火葬場」アノマリーフィールド</text>
+  </string>
+  <string id="st_mil_2c_01_hw_anomaly_spot_name">
+    <text>「地獄の壁」アノマリーフィールド</text>
+  </string>
+  <string id="st_yan_2c_01_cd_anomaly_spot_name">
+    <text>「コンクリート捨て場」アノマリーフィールド</text>
+  </string>
+  <string id="st_x16_lab_2c_01_fb_anomy_spot_name">
+    <text>「足湯」アノマリーフィールド</text>
+  </string>
+  <string id="st_cit_2c_01_ch_anomaly_spot_name">
+    <text>「庭園散水機」アノマリーフィールド</text>
+  </string>
+  <string id="st_cit_2c_02_pg_anomaly_spot_name">
+    <text>「実験場」アノマリーフィールド</text>
+  </string>
+  <string id="st_lim_2c_01_ls_anomaly_spot_name">
+    <text>「最後の一歩」アノマリーフィールド</text>
+  </string>
+  <string id="st_lim_2c_02_ib_anomaly_spot_name">
+    <text>「ブラーティ」アノマリーフィールド</text>
+  </string>
+  <string id="st_rad_2c_01_bl_anomaly_spot_name">
+    <text>「徘徊する亡霊」アノマリーフィールド</text>
+  </string>
+  <string id="st_rad_2c_02_pp_anomaly_spot_name">
+    <text>「苦痛の淀み」アノマリーフィールド</text>
+  </string>
+  <string id="st_bun_2c_01_f_anomaly_spot_name">
+    <text>「溶鉱炉」アノマリーフィールド</text>
+  </string>
+  <string id="st_bun_2c_02_gp_anomaly_spot_name">
+    <text>「重力パイプ」アノマリーフィールド</text>
+  </string>
+  <string id="st_pri_2c_01_pp_anomaly_spot_name">
+    <text>「根腐れ」アノマリーフィールド</text>
+  </string>
+  <string id="st_pri_2c_02_gt_anomaly_spot_name">
+    <text>「バリケード」アノマリーフィールド</text>
+  </string>
+  <string id="st_pri_2c_03_wr_anomaly_spot_name">
+    <text>「衝突型加速器」アノマリーフィールド</text>
+  </string>
+  <string id="st_pri_2c_04_o_anomaly_spot_name">
+    <text>「オリンピック」アノマリーフィールド</text>
+  </string>
+  <string id="st_aes_2c_01_ce_anomaly_spot_name">
+    <text>「門番」アノマリーフィールド</text>
+  </string>
+  <string id="st_aes_2c_02_p_anomaly_spot_name">
+    <text>「パイロン」アノマリーフィールド</text>
+  </string>
+  <string id="st_aes2_2c_01_bo_anomaly_spot_name">
+    <text>「手回しオルガン」アノマリーフィールド</text>
+  </string>
+  <string id="st_aes2_2c_02_at_anomaly_spot_name">
+    <text>「酸性トロッコ」アノマリーフィールド</text>
+  </string>
+  <string id="st_sar_2c_01_r_anomaly_spot_name">
+    <text>「原子炉」アノマリーフィールド</text>
+  </string>
+  <string id="st_gen_2c_01_ss_anomaly_spot_name">
+    <text>「魂の階段」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_smart_terrain_11_3_anomaly_spot_name">
+    <text>「欠陥」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_smart_terrain_12_2_anomaly_spot_name">
+    <text>「テラボルト」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_smart_terrain_10_10_anomaly_spot_name">
+    <text>「雷鳴」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_smart_terrain_base_anomaly_spot_name">
+    <text>「沼地叩き」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_smart_terrain_8_8_anomaly_spot_name">
+    <text>「フェルミ」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_smart_terrain_3_7_anomaly_spot_name">
+    <text>「騒々しい足音」アノマリーフィールド</text>
+  </string>
+  <string id="st_mar_smart_terrain_3_3_anomaly_spot_name">
+    <text>「ラングロット」アノマリーフィールド</text>
+  </string>
+  <string id="st_esc_smart_terrain_1_11_anomaly_spot_name">
+    <text>「ゴミ圧縮機」アノマリーフィールド</text>
+  </string>
+  <string id="st_esc_smart_terrain_8_9_anomaly_spot_name">
+    <text>「岩石粉砕機」アノマリーフィールド</text>
+  </string>
+  <string id="st_esc_smart_terrain_5_4_anomaly_spot_name">
+    <text>「ルーキーイーター」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_smart_terrain_3_7_anomaly_spot_name">
+    <text>「熱い雌鹿」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_smart_terrain_3_7_anomaly_spot_2_name">
+    <text>「溶融した自動車」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_smart_terrain_2_4_anomaly_spot_name">
+    <text>「シナプス」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_smart_terrain_6_7_anomaly_spot_name">
+    <text>「殴打」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_smart_terrain_5_6_anomaly_spot_name">
+    <text>「魔女のゼリー」アノマリーフィールド</text>
+  </string>
+  <string id="st_gar_smart_terrain_1_7_anomaly_spot_name">
+    <text>「刑務所」アノマリーフィールド</text>
+  </string>
+  <string id="st_agr_smart_terrain_1_3_anomaly_spot_name">
+    <text>「どん底の鉤爪」アノマリーフィールド</text>
+  </string>
+  <string id="st_agr_smart_terrain_4_4_near_3_anomaly_spot_name">
+    <text>「神経衰弱」アノマリーフィールド</text>
+  </string>
+  <string id="st_agr_smart_terrain_5_7_anomaly_spot_name">
+    <text>「奇襲隊」アノマリーフィールド</text>
+  </string>
+  <string id="st_agr_smart_terrain_5_2_anomaly_spot_name">
+    <text>「犬の肉砕き器」アノマリーフィールド</text>
+  </string>
+  <string id="st_agr_smart_terrain_1_2_anomaly_spot_name">
+    <text>「毒沼地」アノマリーフィールド</text>
+  </string>
+  <string id="st_val_smart_terrain_9_10_anomaly_spot_name">
+    <text>「白熱する穴」アノマリーフィールド</text>
+  </string>
+  <string id="st_val_smart_terrain_6_4_anomaly_spot_name">
+    <text>「狂暴」アノマリーフィールド</text>
+  </string>
+  <string id="st_val_smart_terrain_8_6_anomaly_spot_name">
+    <text>「害虫駆除」アノマリーフィールド</text>
+  </string>
+  <string id="st_val_smart_terrain_9_4_anomaly_spot_name">
+    <text>「泡風呂」アノマリーフィールド</text>
+  </string>
+  <string id="st_val_smart_terrain_8_9_anomaly_spot_name">
+    <text>「破壊者」アノマリーフィールド</text>
+  </string>
+  <string id="st_mil_smart_terrain_4_7_anomaly_spot_name">
+    <text>「死体処理機」アノマリーフィールド</text>
+  </string>
+  <string id="st_mil_smart_terrain_2_1_anomaly_spot_name">
+    <text>「ショック療法」アノマリーフィールド</text>
+  </string>
+  <string id="st_mil_smart_terrain_2_6_anomaly_spot_name">
+    <text>「ニュートン」アノマリーフィールド</text>
+  </string>
+  <string id="st_mil_smart_terrain_7_4_anomaly_spot_name">
+    <text>「潰し器」アノマリーフィールド</text>
+  </string>
+  <string id="st_mil_smart_terrain_8_3_anomaly_spot_name">
+    <text>「褐炭色の喪服」アノマリーフィールド</text>
+  </string>
+  <string id="st_yan_smart_terrain_2_5_anomaly_spot_name">
+    <text>「テスラ」アノマリーフィールド</text>
+  </string>
+  <string id="st_yan_smart_terrain_zombi_spawn_anomaly_spot_name">
+    <text>「エジソン」アノマリーフィールド</text>
+  </string>
+  <string id="st_yan_smart_terrain_5_3_anomaly_spot_name">
+    <text>「黒い水」アノマリーフィールド</text>
+  </string>
+  <string id="st_yan_smart_terrain_4_2_anomaly_spot_name">
+    <text>「大かがり火」アノマリーフィールド</text>
+  </string>
+  <string id="st_red_smart_terrain_6_3_anomaly_spot_name">
+    <text>「共生生物」アノマリーフィールド</text>
+  </string>
+  <string id="st_red_smart_terrain_4_5_anomaly_spot_name">
+    <text>「超伝導体」アノマリーフィールド</text>
+  </string>
+  <string id="st_red_smart_terrain_monsters_anomaly_spot_name">
+    <text>「ブランコ」アノマリーフィールド</text>
+  </string>
+  <string id="st_red_smart_terrain_3_2_anomaly_spot_name">
+    <text>「死んだカナリア」アノマリーフィールド</text>
+  </string>
+  <string id="st_red_smart_terrain_6_6_anomaly_spot_name">
+    <text>「回転木馬」アノマリーフィールド</text>
+  </string>
+  <string id="st_red_smart_terrain_3_1_anomaly_spot_name">
+    <text>「スルツキーの休憩所」アノマリーフィールド</text>
+  </string>
+  <string id="st_gen_smart_terrain_urod_anomaly_spot_name">
+    <text>「ひき肉製造機」アノマリーフィールド</text>
+  </string>
+  <string id="st_trc_sim_13_anomal_zone_spot_name">
+    <text>「熱狂者の迷宮」アノマリーフィールド</text>
+  </string>
+  <string id="st_pol_smart_terrain_1_1_anomaly_spot_name">
+    <text>「肉挽き機」アノマリーフィールド</text>
+  </string>
+  <string id="st_pol_smart_terrain_1_2_anomaly_spot_name">
+    <text>「ボルト」アノマリーフィールド</text>
+  </string>
+</string_table>

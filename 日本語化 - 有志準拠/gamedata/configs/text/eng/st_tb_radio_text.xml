@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<!-- PDA UI -->
+
+	<string id="cb_pda_cancel">
+		<text>RF支援物資を拒否</text>
+	</string>
+
+	<string id="cb_cancel_package_inactive">
+		<text>現在有効なRF支援物資がない</text>
+	</string>
+
+	<string id="cb_cancel_package_underground">
+		<text>地下からは電波が届かない</text>
+	</string>
+
+	<string id="cb_cancel_package_success">
+		<text>なんだ、いらないのか？それなら他の誰かに取りに行かせるとしよう。</text>
+	</string>
+
+	<!-- PDA MESSAGES -->
+
+	<string id="tb_anon_sender">
+		<text>匿名</text>
+	</string>
+
+	<!-- PDA MESSAGES -->
+
+	<string id="tb_sooner_rf">
+		<text>RF受信機を手に入れるのが早ければ早いほど、こちらもそれだけ多くの支援を提供できるだろう。</text>
+	</string>
+
+
+	<string id="tb_package_can_be_found">
+		<text>支援物資は</text>
+	</string>
+
+	<string id="tb_use_rf_on_freq">
+		<text>だ。RF受信機の周波数を</text>
+	</string>
+
+	<string id="tb_mhz_to_search">
+		<text>MHzに設定して探索せよ。</text>
+	</string>
+
+
+	<string id="tb_dont_forget">
+		<text>にある支援物資を忘れるなよ。</text>
+	</string>
+
+	<string id="tb_freq_was_on">
+		<text>周波数を</text>
+	</string>
+
+	<string id="tb_the_mhz">
+		<text>MHzに設定して探索せよ。</text>
+	</string>
+
+	<string id="cb_package_lost">
+		<text>支援物資を拒否した。新しい物資は次の場所にある: </text>
+	</string>
+
+	<!-- ROUGH LOCATION TEXTS -->
+
+	<string id="tb_loc_n_r">
+		<text>の北側</text>
+	</string>
+	<string id="tb_loc_ne_r">
+		<text>の北東側</text>
+	</string>
+	<string id="tb_loc_e_r">
+		<text>の東側</text>
+	</string>
+	<string id="tb_loc_se_r">
+		<text>の南東側</text>
+	</string>
+	<string id="tb_loc_s_r">
+		<text>の南側</text>
+	</string>
+	<string id="tb_loc_sw_r">
+		<text>の南西側</text>
+	</string>
+	<string id="tb_loc_w_r">
+		<text>の西側</text>
+	</string>
+	<string id="tb_loc_nw_r">
+		<text>の北西側</text>
+	</string>
+
+	<!-- LEVEL NAMES -->
+
+	<string id="tb_loc_mar">
+		<text>グレートスワンプ</text>
+	</string>
+	<string id="tb_loc_dsc">
+		<text>ダークスケープ</text>
+	</string>
+	<string id="tb_loc_esc">
+		<text>コードン</text>
+	</string>
+	<string id="tb_loc_gar">
+		<text>ガベージ</text>
+	</string>
+	<string id="tb_loc_agr">
+		<text>アグロプロム</text>
+	</string>
+	<string id="tb_loc_val">
+		<text>ダークバレー</text>
+	</string>
+	<string id="tb_loc_bar">
+		<text>ロストク</text>
+	</string>
+	<string id="tb_loc_ros">
+		<text>ワイルドテリトリー</text>
+	</string>
+	<string id="tb_loc_mil">
+		<text>陸軍倉庫</text>
+	</string>
+	<string id="tb_loc_yan">
+		<text>ヤンター</text>
+	</string>
+	<string id="tb_loc_cit">
+		<text>デッドシティ</text>
+	</string>
+	<string id="tb_loc_lim">
+		<text>リマンスク</text>
+	</string>
+	<string id="tb_loc_rad">
+		<text>レーダー施設</text>
+	</string>
+	<string id="tb_loc_red">
+		<text>レッドフォレスト</text>
+	</string>
+	<string id="tb_loc_pri">
+		<text>プリピャチ</text>
+	</string>
+	<string id="tb_loc_aes1">
+		<text>チェルノブイリ原子力発電所（南部）</text>
+	</string>
+	<string id="tb_loc_aes2">
+		<text>チェルノブイリ原子力発電所（北部）</text>
+	</string>
+	<string id="tb_loc_gen">
+		<text>発電所</text>
+	</string>
+	<string id="tb_loc_zat">
+		<text>ザトン</text>
+	</string>
+	<string id="tb_loc_jup">
+		<text>ジュピター</text>
+	</string>
+	<string id="tb_loc_out">
+		<text>郊外</text>
+	</string>
+	<string id="tb_loc_trc">
+		<text>トラック墓地</text>
+	</string>
+	<string id="tb_loc_pol">
+		<text>メドウ</text>
+	</string>
+	<string id="tb_loc_dbg">
+		<text>the Debug Level</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_name">
+		<text>デッドナイト</text>
+	</string>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_text">
+		<text>夜のダークスケープでストーカーが跡形もなく消えてしまうらしい。シドロヴィッチに何が起こっているのか調べるように頼まれた。</text>
+	</string>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_about">
+		<text>うちの仲間の報告によると、ダークスケープの製材所とこの村の間で、
+\n数人のストーカーが行方不明になってるらしい。あの道はそこそこ安全だったからな･･････
+\n夜間にBanditやMilitaryの連中を避けて移動できるから、あいつらがよく使ってたんだ。
+\n製材所にいた仲間たちが闇の中から叫び声を聞いたそうだが、助けに行く勇気がある奴は
+\n誰もいなかった。そして夜が明けても失踪したストーカーの遺体は見つかっていない。
+\n小遣い程度だが、この件を調べてくれる誰かさんのために報酬を用意してある。
+\nここにいるストーカーの連中が少しずつ金を出し合ったんだぜ。</text>
+	</string>
+	<string id="esc_m_trader_task_new_tasks_addon_dead_night_finish">
+		<text>なんて恐ろしい運命だ･･････ 礼を言うよ。
+\nこれで死者は安らかに眠り、これ以上犠牲が出ずに済むってわけだ。
+\nほら、これがお前の報酬だ。</text>
+	</string>
+	<string id="dead_night_details">
+		<text>夜間に現場を調査する</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_name">
+		<text>スカイフォール</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_text">
+		<text>MilitaryがMi-24ヘリコプターを導入し、Freedomが拠点としている陸軍倉庫の襲撃に使用する可能性がある。ルーカッシュからこの空飛ぶ怪物を破壊する任務を受けた。できるだけ早くアグロプロムに向かわなくては。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_about">
+		<text>分かっているだろうが、俺たちの問題はDutyだけではない。
+\nMilitaryの連中もゾーンを支配を狙って、この基地を奪い返そうとしてるんだ。
+\n奴らの弱点は資源が不足していることだったが･･････ それも最近までの話だ。
+\n俺たちの部隊がMi-24ヘリコプターの襲撃で壊滅した。生き残ったのはたった1人だ。
+\n奴らがこれ以上戦力を増強する前に、こっちが先手を打つ必要がある。
+
+\n\nさて、簡単な任務だとは言えないが･･････ 正直、無事に戻ってこられる可能性は低い。
+\nだが成功すれば、かなりの報酬が待っているぞ。</text>
+	</string>
+	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_skyfall_finish">
+		<text>さすがだな！お前が打ち上げた花火を見たぞ。もう奴らに心配する必要はなくなったな。</text>
+	</string>
+	<string id="skyfall_details">
+		<text>ヘリコプターを破壊する</text>
+	</string>
+	<string id="skyfall_stealth_message">
+		<text>抜け目のない奴だな！静かに片付けることにしたのか。そんな作戦は思いつかなかったぞ！
+\nしくじるなよ。誰にも見られないところに爆薬を仕掛けるんだ。</text>
+	</string>
+	<string id="skyfall_run_fail_message">
+		<text>逃げ出したか･･････ 任務の人選を間違えたようだな･･････</text>
+	</string>
+	<string id="skyfall_confrontation_message">
+		<text>ストーカーよ、我々に気付かれないとでも思ったか？ここに来たのが貴様の最後の過ちだ。</text>
+	</string>
+	<string id="skyfall_cover_blow_message">
+		<text>卑劣なネズミ野郎がいるぞ！</text>
+	</string>
+	<string id="skyfall_blow_cover_run_message">
+		<text>いるのは分かってるぞ！逃げられると思うなよ、ストーカー！</text>
+	</string>
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_name">
+		<text>持ち場を死守する</text>
+	</string>
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_text">
+		<text>Banditが大勢でガベージを襲撃し、完全に支配しようとしている。ペトレンコからフリーマーケットで位置につき、奴らを撃退するように頼まれた。</text>
+	</string>
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_about">
+		<text>偵察隊の報告によると、ダークバレーとガベージの間にBanditが集まっている。
+\n相当な数がいるようだが、奴らにガベージを支配させるわけにはいかない。
+\nしかし、今は北にいる無政府主義者どものせいで人手が足りていない･･････
+\nだからお前一人にこの任務を任せることにした。狂気じみてるように聞こえるだろうが、
+\nそこにいるLonerたちがすでに襲撃されていなければ、お前に協力してくれるはずだ。</text>
+	</string>
+	<string id="bar_dolg_general_petrenko_stalker_task_hold_the_ground_finish">
+		<text>よくやったぞ、同志よ！これがお前の報酬だ。</text>
+	</string>
+	<string id="hold_the_ground_on_position_message">
+		<text>敵が進軍を開始した！戦闘準備だ、ストーカー！</text>
+	</string>
+	<string id="hold_the_ground_defended_position_message">
+		<text>今のが最後だろう。すぐに報告に戻れ、ストーカー！</text>
+	</string>
+	<string id="hold_the_ground_run_fail_message">
+		<text>情けない･･････ この仕事をお前に任せるべきではなかったな。</text>
+	</string>
+	<string id="hold_the_ground_details">
+		<text>フリーマーケットで防衛する</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_name">
+		<text>引くこと知らず</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_text">
+		<text>Mercenaryたちはリマンスクでの影響力を失いつつあり、ダッシュマンはデッドシティが間もなくMonolithに襲撃されるのではないかと心配している。橋までの領土を奪還し、Monolithの増援をすべて殲滅しなければならない。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_about">
+		<text>聞いてくれ、お前に個人的な契約があるんだ。
+\nリマンスクの戦況はMonolithが優勢だ。装備は俺たちの方が優れているかもしれんが･･････
+\n奴らには、俺たちが今まで甘く見てきた“狂信”という最大の武器がある。
+
+\n\nこのままだと、この辺ではもう稼げなくなるかもしれない。
+\nもう何人かの顧客は、狂信者が現れることを恐れてここを去ってしまった。
+\nだからお前に頼みたい。リマンスクに行って、現状を取り戻してくれ。
+\n橋の向こうにMonolithを押し戻し、再び橋を渡ろうとする部隊を片っ端から叩き潰すんだ。</text>
+	</string>
+	<string id="cit_killers_merc_trader_stalker_task_no_step_back_finish">
+		<text>よくやった。これでいつもの稼業を再開できる。ほら、これを受け取れ。
+\n新しい顧客がここを安全だと知ったら、すぐに元が取れるようになるさ。</text>
+	</string>
+	<string id="no_step_back_on_position_message">
+		<text>レーダーに大規模なMonolith部隊が映っている。拠点を奪い返す気だぞ。覚悟を決めろ！</text>
+	</string>
+	<string id="no_step_back_defended_position_message">
+		<text>素晴らしい仕事だったぞ。レーダーによると、この地域での敵の動きはもうないようだ。</text>
+	</string>
+	<string id="no_step_back_run_fail_message">
+		<text>お前の契約は無効になった。本物の戦士を雇うべきだったな･･････</text>
+	</string>
+	<string id="no_step_back_details">
+		<text>陣地を防衛する</text>
+	</string>
+	<string id="simulation_task_gambling_with_life_name">
+		<text>命がけの賭け</text>
+	</string>
+	<string id="simulation_task_gambling_with_life_text">
+		<text>無傷のブラッドサッカーをナイフだけで倒す賭けを引き受けた。Freedomの連中はハイになると変なアイデアを思いつくが、金は金だ･･････</text>
+	</string>
+	<string id="simulation_task_gambling_with_life_about">
+		<text>昨日は仲間と一緒に、人生最高のトリップを経験したんだ。
+\nあいつがどこでアレを手に入れたのかは知らんが、とにかくヤバかったぜ･･････
+
+\n\nおっと、話が逸れたぜ。
+\n俺たちはギャンブル好きでな、あいつがめちゃくちゃな賭けを思いついたんだよ。
+\n「ナイフだけでブラッドサッカーを倒した奴に大金を賭ける」ってな。
+\nそんで、たまたま話を聞いてた別の仲間が、その日の夜に基地を飛び出ていった。
+\nまだ帰ってきてないが、賭けはまだ終わっちゃいない。可哀想な奴だよ･･････
+
+\n\nあの後どうなったんだろうな･･････ ああ、どこまで話したっけ？
+\nそうだ、賭けだ！お前、なかなか強そうだな。運試ししてみないか？
+\nスーツに小型カメラを取り付けて、後でその映像をあいつに見せてやるんだ。
+\n･･････何？今ここでそいつの名前を教えるとでも思ったのか？俺にも少しは得させてくれよ。
+
+\n\n注意点が1つある。倒すミュータントは健康なヤツじゃなきゃダメだ。
+\n映像を見れば一発で分かるからな、傷だらけの個体を倒したところで報酬はナシだぞ。</text>
+	</string>
+	<string id="simulation_task_gambling_with_life_finish">
+		<text>マジで感動したぜ！さて、この映像はあいつのところに持っていくよ。これがお前の分だ。</text>
+	</string>
+	<string id="gambling_with_life_details">
+		<text>賭けを果たす</text>
+	</string>
+	<string id="simulation_task_vengence_amplified_name">
+		<text>激化する復讐心</text>
+	</string>
+	<string id="simulation_task_vengence_amplified_text">
+		<text>Banditから、友人の仇を討つためにキメラを斧で切り刻むように頼まれた。この仕事を引き受けたのは間違いだったかもしれない･･････</text>
+	</string>
+	<string id="simulation_task_vengence_amplified_about">
+		<text>キメラのことは知ってるよな？あのクソでかくて気持ちわりいヤツだ･･････
+\n地獄に落ちろってんだ！ヤツは、オレの仲間をあの世送りにしやがった。
+
+\n\nオレたちは夜の巡回中に襲われた。急に飛びかかってきて仲間の足を引きちぎったんだ。
+\nアイツの叫び声がキャンプにいる他の連中にまで届いてな･･････
+\n撃退はできたが、手こずってる間に仲間は血を垂れ流して死んじまった･･････
+
+\n\nアンタに頼みがある。スーツにこのカメラを取り付けてヤツの足を斬り落としてくれ！
+\nいや、もうバラバラにしてくれ！ヤツが耐えがたい痛みに苦しむ様が見たくて仕方がねえ！</text>
+	</string>
+	<string id="simulation_task_vengence_amplified_finish">
+		<text>アンタの残酷なやり方は見事だった。礼を言うぜ。
+\nこのバケモンの目が恐怖に満ちて、苦しんでいくのが見れて、俺は･･････ 満足したさ･･････</text>
+	</string>
+	<string id="vengence_amplified_details">
+		<text>キメラを切り刻む</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_brain_game_name">
+		<text>頭脳ゲーム</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_brain_game_text">
+		<text>サハロフは、コントローラーの超能力を研究するために無傷の脳を必要としている。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_brain_game_about">
+		<text>若者が科学プロジェクトに熱心に貢献してくれるのは嬉しいものだよ。
+\nゾーンの謎は長年研究してきたが、それでもまだ学ぶべきことが山ほどある。
+\nその中でも特に興味深く、かつ危険な存在がコントローラーだ。ストーカーたちは通常、彼らと対峙することを避け、やむを得ず戦う際は頭を撃って即座に倒そうとする。
+\nそれが理由で、ここに送られる脳のサンプルのほとんどは役に立たない状態なのだ。
+
+\n\nもし君がコントローラーの頭を傷つけずに倒せたら、その場で我々に知らせてほしい。
+\nそうすれば、すぐにチームを派遣して腐敗が始まる前に回収できるだろう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_brain_game_finish">
+		<text>君の科学界への貢献に感謝するよ、若者よ。</text>
+	</string>
+	<string id="brain_game_details">
+		<text>標本を手に入れる</text>
+	</string>
+	<string id="brain_game_success_report">
+		<text>教授、頼まれた標本を回収できるぞ。座標を送る。</text>
+	</string>
+	<string id="brain_game_success_response">
+		<text>素晴らしい！すぐにチームを送るよ。ぜひ移動研究所まで来てくれ─報酬を渡そう。</text>
+	</string>
+	<string id="urgent_orders_name">
+		<text>緊急指令</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_text">
+		<text>Dutyの仲間が新種のブラッドサッカーに重症を負わされ、科学者の医療処置を必要としている。急がなければ！</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_finish">
+		<text>よくやった、兵士よ！お前は仲間を救ったんだ。この調子で頼むぞ。</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_report">
+		<text>兵士よ！こちらはヴォロニン将軍だ！緊急命令だ。
+\n我々の仲間が新種のブラッドサッカーに襲われ、毒で重傷を負っている。
+\n衛生兵では手の施しようがない状態だ。サハロフ教授に支援を求めたところ、
+\n彼の実験薬なら仲間を救えるかもしれないとのことだ。
+
+\n\n急いでヤンターに向かい、科学者の一団を基地まで護衛せよ。失敗は許されない！</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_scientists_response">
+		<text>やあ、若者よ！君が来ることは将軍から聞いているよ。
+\n助手たちが君の仲間を治療するための準備を整えている、すぐに合流するだろう。</text>
+	</string>
+	<string id="bar_dolg_leader_task_urgent_orders_fail">
+		<text>同志が今、息を引き取った。貴様には失望したぞ、兵士よ･･････
+\n我々全員を裏切ったも同然だ。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_text">
+		<text>仲間の兵士が新種のブラッドサッカーに重症を負わされ、科学者の医療処置を必要としている。急がなければ！</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_finish">
+		<text>よくやったぞ、兵士よ！お前は仲間を救ったんだ。解散！</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_report">
+		<text>兵士よ！こちらはクズネツォフ大佐だ！緊急命令だ。
+\n我々の隊員が新種のブラッドサッカーに襲われて毒にやられた。衛生兵では手に負えん。
+\nサハロフ教授に支援を求めたところ、実験薬を提供してくれるそうだ。
+\nこれが効けば、助かる可能性がある。
+
+\n\n急いでヤンターへ向かい、科学者の一団を基地まで護衛しろ。失敗は許されんぞ、兵士よ！</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_scientists_response">
+		<text>やあ、若者よ！君が来ることはクズネツォフ大佐から聞いているよ。
+\n助手たちが君の仲間を治療するための準備を整えている、すぐに合流するだろう。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_fail">
+		<text>遅かったな、兵士よ･･････ 衛生兵が隊員の死亡を確認した。
+\nさて、軍法会議にかけられないことを祈っておくんだな。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_name">
+		<text>バーバ・ヤーガ</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_text">
+		<text>夜になると「魔女のゼリー」アノマリー領域の周辺でストーカーが突然姿を消すという。そのストーカーは不自然に置かれていたアーティファクトを手に取ろうとしていたらしい。原因を解明するために調査が必要だ。</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_about">
+		<text>こういう場所で毎日過ごしてると、面白い話をいろいろ聞くもんだよ。
+\nほとんどはただのデタラメだが、ブッチャーが語る話だけは本物だ。
+\nあの男はここじゃ伝説さ･･････ ガベージをある程度マシな場所にした、タフな男だ。
+
+\n\n話に戻るが･･････ その日、ブッチャーは仕事を終えて格納庫の外で一服しようとしてた。
+\nそこから「魔女のゼリー」でアーティファクトを探すルーキーたちが見えたそうだ。
+\nところが、そいつらの1人が手を伸ばした瞬間、突然ものすごい閃光が走って、
+\nまるで煙みたいに全員が消えちまったんだ。森の奥から叫び声が聞こえたそうだが、
+\nブッチャーは助けられないと悟って、その場で立ち尽くすしかなかったってわけだ。
+\n一瞬、老女の細い影が見えたらしいが、真夜中に幽霊を追う気にはならなかったんだと。
+\n翌朝その場所に行ってみると、残ってたのはルーキーたちの骨だけだったそうだ。
+
+\n\nブッチャーは日中にそいつを仕留めようと試みたが、その怪物は姿を見せなかった。
+\n格納庫を通っていくストーカーたちにこの話を警告として広めていったが、
+\nいつの間にかそれが「バーバ・ヤーガ」の話として語られるようになったんだ･･････
+\n沼や森に潜み、家から離れた子供をさらうっていう、あの恐ろしい魔女さ。
+
+\n\n最近、ブッチャーも俺のところに来て「そいつが何なのか突き止めたい」と言ってたが、
+\nそいつは殺し屋を避けているようでな。ロストクには腕の立つストーカーが集まるから、
+\n誰か頼れる奴を見つけてくれって言われたんだ。どうだ、挑戦してみる気はあるか？</text>
+	</string>
+	<string id="bar_visitors_barman_stalker_trader_task_baba_yaga_finish">
+		<text>やっぱり、魔女は実在したってわけか･･････ ゾーンは次々と驚かせてくれるもんだ。
+\n遺体も見つからなかったって？残念だが･･････ その怪物が戻ってこないことを祈るさ。
+
+\n\nバーバ・ヤーガ･･････ まったく、恐ろしい話だ･･････</text>
+	</string>
+	<string id="baba_yaga_details">
+		<text>夜間に現地を調査する</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_name">
+		<text>ハウス・オブ・ホラー</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_text">
+		<text>Clear Skyのメンバーの無惨な死体が北東の検問所で見つかった。コールドに、夜間に何が起こっているのか調査してほしいと頼まれた。</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_about">
+		<text>お前も知っているだろうが、沼地はもともと危険な場所だった。
+\n我々が基地を作り、周囲を防衛し、今ではミュータントがほとんど寄り付かない･･････
+\nたまにRenegadeが哨戒地点を襲ってくるがな。まあ、毎回後悔させてやってるさ。
+
+\n\nさて、最近妙な報告が上がってきている。
+\n仲間が「どこからともなく不気味な遠吠えや囁き声が聞こえる」と言い出すようになった。
+\n周囲にミュータントの痕跡はなかったから、放っておいたんだが･･････
+\nある晩、小便に行った哨兵が戻らず、しばらくして建物の裏で無残な姿で見つかった。
+
+\n\nそのことがあって、ちょっと思い出したことがあってな･･････
+\nレベデフがリーダーだった頃、古参のLonerがバーでこんなことを話してたんだ。
+\nチェルノブイリ原発事故の前にこの辺りに住んでた、穏やかな一家とその飼い犬の話だ。
+\nその家の男も声に悩まされ、狂気に取り憑かれて家族と犬を手にかけてしまったらしい。
+\nそして翌日、自分のやったことに気づいて、首を吊ったって話だ･･････
+
+\n\n俺にはどうも、最近の事件とこの話と関係してるんじゃないかと不安なんだ。
+\n哨戒地点の見張りは続ける必要があるが、これ以上仲間を失うわけにはいかない。
+\nそこで頼みたい。この件を調査してくれないか？</text>
+	</string>
+	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors_finish">
+		<text>あの老人が話してたことは本当だったんだな･･････ すごい話だ。
+\n今後同じことが起きないように、あそこの警備は倍に強化しないとな。
+\nほら、これはお前に渡しておこう。</text>
+	</string>
+	<string id="house_of_horrors_details">
+		<text>夜間に現地を調査する</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_mirage_name">
+		<text>ミラージュ</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_mirage_text">
+		<text>救助されたアーティファクトハンターが、自分とそっくりなストーカーに撃たれたと主張している。ベアードにその場所を調査するよう頼まれた。</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_mirage_about">
+		<text>頼みたい仕事がある。知ってるかもしれんが、俺はいつもレアなアーティファクトを
+\n欲しがる収集家たちから契約を受けててな。そんなモノを探すにはここ以上の場所はない。
+\nで、最近雇った奴が「アイアンフォレスト」に行ったんだが･･････ 腹に弾を食らっちまった。
+\n運の良いことにそいつは救助されたが、意識が戻ると、信じがたい話をし始めたんだ。
+
+\n\nそいつの話だと、アーティファクトを拾おうとした瞬間、誰かに名前を呼ばれたらしい。
+\n振り向くと、少し離れた場所に銃を構えた人物が立っていた。
+\nその人物が自分にそっくりだと気付いたが、パニックになる暇もなく撃たれたんだと。
+
+\n\n倒れた後にもう一度見ようとしたが、とっくに姿を消していたらしい。
+\nそいつは救難信号を送って意識を失い、たまたま近くにいた分隊に拾われて助かったんだ。
+\nその分隊も現場を離れるときに妙な囁き声を聞いたそうだ･･････
+\nでも、その正体を確かめる気にはならなかったみたいだな。
+
+\n\nそういうわけだ。その場所に行って、何が起きているのか調べてきてくれないか？
+\nちゃんとした報酬は用意してあるぜ。どうだ？</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_task_mirage_finish">
+		<text>おお･･････ バーラーが物体を操れるのは知ってたが、そんなことまでできるとはな！
+\n他の奴に言っても信じてもらえないかもしれんな。ほら、これはお前の報酬だ。</text>
+	</string>
+	<string id="mirage_details">
+		<text>現地に行って調査する</text>
+	</string>
+	<string id="jup_b220_trapper_task_big_game_name">
+		<text>大物狩り</text>
+	</string>
+	<string id="jup_b220_trapper_task_big_game_text">
+		<text>ジュピターの南にある鉄道トンネルにスードウジャイアントの群れが潜んでいるらしい。トラッパーから奴らを排除するように頼まれた。</text>
+	</string>
+	<string id="jup_b220_trapper_task_big_game_about">
+		<text>狩りの腕を磨きたいと思わないか？
+\n移動研究所の科学者たちが、南の鉄道トンネルから轟音と咆哮が聞こえると報告してきた。
+\n現地に行って脅威の排除に乗り出してくれる者には、多額の報酬が支払われるらしい。
+\n間違いなくスードウジャイアントだろうな･･････ もしかしたら、2体いるかもしれない。
+\n危険なミュータントだ、絶好の腕試しになるぞ。どうだ？大物狩りに挑戦してみないか？</text>
+	</string>
+	<string id="jup_b220_trapper_task_big_game_finish">
+		<text>おいおい、なんてこった！
+\nスードウジャイアントがそんなにデカくなるとは知らなかったな･･････
+\n俺も引退しないで、自分で仕留めに行けばよかったと少し後悔してるよ。
+\nともかく、これはお前の報酬だ。お疲れさん。</text>
+	</string>
+	<string id="big_game_details">
+		<text>現地を調査する</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_name">
+		<text>禁輸措置を執行する</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_text">
+		<text>あるストーカーがアーティファクトをゾーン外のコレクターに売る計画を立てている。それを阻止し、アーティファクトを大佐の元へ持ち帰らなければならない。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_about">
+		<text>兵士よ。やってもらいたい任務がある。
+\n我々の潜入工作員が、100ラッズ・バーでストーカーたちの会話を盗み聞いた。
+\n仕事の話をしていたそうだが、奴らは境界線の外にいるコレクターと契約を結び、
+\n珍しいアーティファクトを運ぶことになっているらしい。そこでお前の出番というわけだ。
+\nそのアーティファクトを押収し、ここまで持って来い。分かったな？
+
+\n\n1つ注意点がある。対象が死んで他の誰かに荷物を奪われるようなことがあれば、
+\nそれはお前の責任だ。それと、荷物は決して開けてはならない。
+\nそのコレクターには後でこちらから直接“挨拶”しに行く予定だからな。</text>
+	</string>
+	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_enforce_embargo_finish">
+		<text>よくやったぞ、兵士よ。引き続きその調子で頼む。解散！</text>
+	</string>
+	<string id="esc_m_trader_task_cold_blooded_betrayal_name">
+		<text>冷酷な裏切り</text>
+	</string>
+	<string id="esc_m_trader_task_cold_blooded_betrayal_text">
+		<text>シドロヴィッチから、仲間を殺した元Lonerを裁きにかけ、彼の犯行の原因となったアーティファクトを回収するように頼まれた。</text>
+	</string>
+	<string id="esc_m_trader_task_cold_blooded_betrayal_about">
+		<text>ちょっと変わり種のアーティファクト探しの依頼がある。
+\nゾーンの外にいる依頼主から、珍しいアーティファクトの注文が入ってな。
+\nリーダーの男と新人が2人の計3人、そいつらが契約を引き受けることになった。
+\nその2日後に「ガベージでアーティファクトを発見した、明日戻る」って連絡が来たんだよ。
+\n正直言って驚いたな･･････ あの辺なんて、ただのゴミしか見つからないからな。
+
+\n\nさて、ここからが面白いところさ。そいつらは列車格納庫で夜を過ごすことにしたんだ。
+\nこれはブッチャーから聞いたんだが、新人の1人がリーダーと揉めてピリついてたらしい。
+\nそんで寝ようとしたら、焚き火の方から銃声が聞こえ、誰かの走り去る足音がしたんだと。
+\n慌てて銃を手にして焚き火に行ってみると、そこには死体が2つ転がってた。
+\nそして、妙な動きを見せてた新米野郎だけが姿を消してたってわけだ。
+\nリーダーの死体から仕事の契約書が見つかって、それでこの事件が俺の耳に入ったのさ。
+
+\n\nあのクズは、そのアーティファクトを初めて見て、欲に駆られて仲間を殺したんだろう。
+\nついでに俺のことまで裏切ったんだな･･････ そこは奴の最大の過ちだったみたいだが。
+\nさて、お前は裏切り者の頭に弾をぶち込んで、盗まれたブツを取り戻してくれ。</text>
+	</string>
+	<string id="esc_m_trader_task_cold_blooded_betrayal_finish">
+		<text>正義が果たされたってわけだ･･････ よくやった、ストーカー。</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_name">
+		<text>シェイクダウン</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_text">
+		<text>オリビアスから、Banditの縄張りで科学者が発見したアーティファクトを持ってくるように頼まれた。</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_about">
+		<text>よーく聞け。ここがオレらの縄張りだってことはお前も分かってるよな？
+\nオレらはこの場所を本気で守ってんだ。時々、それがわからねえバカどもが
+\nのこのことやってくるが、そういうヤツらは大抵悲惨な結末を迎えるもんさ。
+\nでな、オレらの仲間が「白熱する穴」を嗅ぎ回ってる科学者どもを見つけたんだよ。
+\nヤツらはいい探知機を持ってるし、あの場所はかなりヤバいってのも知ってたから、
+\nまずは頭でっかちどもに仕事をさせて、あとで死体から回収するつもりだったわけだ。
+
+\n\nヤツらがキラキラ光るアーティファクトを鉛の箱に詰め始めた。
+\nうちの腕利きの狙撃手がSKSを構えて準備完了･･････
+\nってとこで、そいつの頭がパッと弾け飛んだ･･････ 逆に狙撃されちまったんだ。
+\n他の仲間はパニックになってどこから撃たれたかも分からず、とにかく全力で逃げ帰った。
+\n後で大勢を連れて戻ってみたら、奴らの影も形もねえんだよ。
+\nしまいにゃ、やられた仲間の装備まで持ち去られちまってたんだ。
+
+\n\nなあ、略奪と言ったらオレらの専売特許だぜ。逆にやられるなんてありえねえだろ？
+\nあのインテリどもに思い知らせてやれ。例の箱は忘れずにオレのところに持って来いよ。</text>
+	</string>
+	<string id="val_smart_terrain_7_4_bandit_trader_stalker_task_shakedown_finish">
+		<text>おお･･････ 見つけたか。
+\n失った仲間が戻ってくるわけじゃねえが、これであいつらの士気はグッと上がるだろうよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_stolen_specimen_name">
+		<text>奪われた標本</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_stolen_specimen_text">
+		<text>科学者たちはSinの部隊に珍しいアーティファクトを奪われたようだ。それを取り戻す仕事を引き受けた。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_stolen_specimen_about">
+		<text>君に頼みたい仕事がある。
+\n私はリマンスクに遠征隊を送り、アノマリー活動を測定してもらっていた。
+\nあそこはMercenaryとMonolithの戦闘が絶えない危険な場所だから、遠征隊には何人か
+\n傭兵を護衛として雇ったんだ。すべては順調に進んでいた･･････ ある時点まではね。
+
+\n\n遠征隊の同僚たちは目的のデータを収集し、さらに珍しいアーティファクトまで発見した。
+\nそして帰還の準備を整えていた矢先、突如として強力なエミッションが発生した。
+\n遠征隊は、近くにあった建物の地下室に避難することを強いられたのだ。
+\n静けさを取り戻した頃、護衛の傭兵たちは周囲を偵察するために外に出た･･････
+\nしかし、その直後に激しい銃撃戦の音が響いた。同僚たちは地下室で身を潜めていたが、
+\n銃を取る間もなく手榴弾が投げ込まれ、2人の科学者がその場で命を落とした。
+
+\n\n最後の1人は瀕死の状態で、アーティファクト容器を持って壁際まで這いずっていった。
+\nやがて、3人の青白い顔をした狂信者たちが地下室に入ってきて、彼に銃を向けた。
+\nリーダーと思しき男が容器に目をやると、ただそれを指差したそうだ。
+\n彼はすぐに容器をその場に投げ、あとは祈ることしかできなかった。
+\nしかし、狂信者たちは何も言わずに容器を受け取ると、静かに去っていった。
+\n同僚は気を失ったが、あとから現場に来た傭兵部隊に発見された。奇跡的に助かったよ。
+
+\n\nさて、私が君に頼みたいのは･･････ そのアーティファクトの奪還だ。
+\nあれは収集したデータの参考資料として欠かせないものでね。
+\n容器にはGPSトラッカーを付けてあるから、あの狂信者たちを簡単に追跡できるだろう。
+\n私は平和主義者だが、彼らとは話が通じない。君がやるべきことをやってくれたまえ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_stolen_specimen_finish">
+		<text>よくやったぞ、若者よ。
+\nこれで研究を続けることができる･･････ 亡くなった同僚たちのためにもね。</text>
+	</string>
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_name">
+		<text>血塗られたコイン</text>
+	</string>
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_text">
+		<text>キャッシャーから、ISGの特殊部隊に奪われた希少なアーティファクトを取り戻すように頼まれた。</text>
+	</string>
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_about">
+		<text>あんたはリスクを楽しむタイプに見えるが、どうかな？
+\n実は、かなり儲かる契約があってな。珍しいアーティファクト絡みのヤツだよ。
+\n数日前に、あるストーカーがそのアーティファクトを持ってきたんだ･･････
+\n─なら、契約は終わったんじゃないのかって思うだろ？
+\nところがな･･････ そいつはとんでもなく危険な連中に尾行されてたんだ。
+\n俺が金を渡そうとした瞬間、突然その連中が突入してきて全員が不意を突かれた。
+\n奴らは最高級の装備を身に着けていて、腕利きの連中なんだと一目でわかった･･････
+\n銃は撃たれなかったが、逆らったら全員やられるのはわかってた。だから降伏したんだ。
+\nすると、そいつらのリーダーがゆっくり近づいてきて、俺は顔を殴られた。
+\nそしてアーティファクト容器と、ストーカーに渡そうとしてた報酬まで奪いやがった。
+\n奴は「追ってくる者がいれば全員殺す」と言い捨てて去っていった。
+\nそれで俺たちは一日中、その場でじっとしてるしかなかったってわけさ。
+
+\n\n当然のことだが、あのストーカーはこの結末に納得いかなかったらしく、
+\n容器に付いていたGPSを頼りに奴らを追いかけていった･･････ だが、それっきり姿を見ない。
+\n多分、もう死んでるな。代わりのアーティファクトも見つからず、依頼主も我慢の限界だ。
+\nそれで考えたんだが･･････ あの連中を叩きのめして、容器を持ち帰ってくれないか？</text>
+	</string>
+	<string id="trader_pri_a15_mlr_task_blood_stained_coin_finish">
+		<text>感心したよ、ストーカー。無事に戻ってくるとは思わなかった。ほら、報酬だ。</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_name">
+		<text>形見</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_text">
+		<text>あるストーカーの弟の仇を討ち、彼の死の原因を形見として持ち帰ることに同意した。</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_about">
+		<text>なぁ聞いてくれよ、相棒。金が絡むなら、人を始末するのも平気だよな？
+\nましてや相手がクズ野郎なら、むしろやりやすいはずだ･･････
+
+\n\nさてと、こんな話がある。数日前にな、あるストーカーがここにやって来たんだ。
+\n顔が真っ白でな･･････ もう見るからにひどい目に遭ってきたのがわかった。
+\nそいつは俺のカウンターに来るとウォッカを2本頼んでさ。無言でちびちび飲みながら、
+\nずーっとグラスの底を見てるんだよ。1本空けるのに1時間もかからなかったな。
+\nで、ようやく口を開いたんだ。こう言ったよ。
+\n「今日は･･････ 弟を失った･･････ ただの仲間じゃない、本当の弟だ･･････」ってな。
+
+\n\nそれから少しずつ話し始めたんだ。
+\nそいつはゾーンを出る前の最後の仕事として、兄弟でジュピターに来たらしくてな。
+\n珍しいアーティファクトを探す契約で、結構な報酬が出る話だったんだと。
+\nジュピターなら北寄りだし、比較的安全だってことで、ちょうどいい条件だったらしい。
+\n何日か探索した末に、「コンクリート風呂」でようやく発見したんだ･･････
+\nいや、正確には弟の方が見つけたんだ。そいつが用を足しに茂みに入った時にな。
+\nで、戻ろうとした瞬間だ。スナイパーライフルの銃声が響いて、
+\n弟がその場に倒れるのが見えた。そいつは慌てて茂みに身を潜めた。
+\nそしたら重装備のMonolith兵の部隊が弟の死体に近づいてきたんだ。
+\nアーティファクト容器を回収した後、弟の体をアノマリーに放り込みやがったんだよ。
+\n奴らが去った後すぐに駆け寄ったが、弟はもう溶けて跡形もなかったって話だ･･････
+
+\n\nもう契約なんてどうでもよくなったんだろうな。そいつ、大金を置いてこう言ったよ。
+\n「あのクソどもを始末して、アーティファクトを取り戻してくれた奴にこの金を渡す」
+\nってな。形見として手元に置きたいらしい。どうだい？なかなか人情味のある話だろう？
+\nしかもな、容器にはGPSがついてるから目標を見つけるのもそう難しくない。
+\nまぁ、ちょっと危険な場所に行くことになるかもしれないけどさ。</text>
+	</string>
+	<string id="jup_a6_stalker_barmen_task_the_keepsake_finish">
+		<text>今日、あんたはいいことをしたぜ、ストーカー。
+\n依頼人はすでにゾーンを去ったが、この荷物は必ずあいつに届けると約束するよ。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_name">
+		<text>Freedomの情報文書</text>
+	</string>
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_text">
+		<text>ロキから、偵察部隊が隠した情報文書を回収するように頼まれた。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_about">
+		<text>俺たちはゾーンの最北端にあるFreedomの前哨基地にいる。
+\nここではMonolithやSinとの衝突がやたらと多くてな･･････ 問題は山積みだ。
+\nだから、俺たちは偵察部隊を定期的に派遣することにしている。
+\n敵の動きを探ったり、小規模な敵部隊を奇襲することで、負担を減らしてくれてるんだ。
+
+\n\nところが、そのうちの一隊が最近、消息を絶ってしまった。
+\n彼らは戦利品を保管する隠し場所に、今回の任務で回収すべきデータも残しているはずだ。
+\nやってほしいのは単純な仕事だ─その文書を回収してきてくれ。
+\n他の物は好きにして構わない。役に立ちそうなものがあれば、遠慮せず持っていってくれ。</text>
+	</string>
+	<string id="jup_a6_freedom_leader_task_freedom_intel_documents_finish">
+		<text>よくやった。これが報酬だ。</text>
+	</string>
+	<string id="guid_zan_stalker_locman_task_pilots_pda_name">
+		<text>パイロットの落とし物</text>
+	</string>
+	<string id="guid_zan_stalker_locman_task_pilots_pda_text">
+		<text>パイロットは他のストーカーを北に案内しているときに襲撃され、PDAを失くしてしまった。それを回収するように頼まれた。</text>
+	</string>
+	<string id="guid_zan_stalker_locman_task_pilots_pda_about">
+		<text>ストーカー、死と隣り合わせの冒険に挑む覚悟はあるか？
+\n内容は単純だが、かなり危険な任務を頼みたいんだ。
+
+\n\n詳しい経緯は省くが、客を北へ案内している最中、Monolithに待ち伏せされてな。
+\nなんとか生き延びたが、そのときの混乱でPDAを落としちまったんだ。
+\nあれには結構ヤバい情報が詰まってる─だから、どうしても取り戻したい。
+\nGPSはオンにしてたから、バッテリーが切れる前の位置をベアードに特定してもらった。
+
+\n\n良い知らせは、PDAの位置が止まったままってことだ。つまり、どこかに隠されてる。
+\n悪い知らせは、その場所が“石棺”のど真ん中ってことだな･･････ さて、どうする？</text>
+	</string>
+	<string id="guid_zan_stalker_locman_task_pilots_pda_finish">
+		<text>見事だな。ガイドになろうと思ったことはないか？
+\nあんたは危険を回避する術を熟知してるみたいだ。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_name">
+		<text>Monolithの計画書</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_text">
+		<text>グリフィンの部下が、Monolithの高官が所有する隠し場所に関する情報を引き出したらしい。その中には襲撃計画が含まれていると報告されている。それを彼に持ち帰る必要がある。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_about">
+		<text>ああ、ちょうどお前に頼みたいことがあるんだ。
+\n最近、俺たちはMonolithの偵察部隊と交戦し、そのうちの1人を捕虜にした。
+\n尋問したところ、連中はこの地域を調査して襲撃計画を仕上げようとしていたらしい。
+\nその捕虜の話では、指揮官の隠し場所に計画書が入っているそうだ。
+\nお前には計画書を回収してきてほしい。他に見つけた物は好きにして構わない。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_monolith_plans_finish">
+		<text>よくやった。あの狂信者どもが俺たちをそう簡単に排除できるわけがない。</text>
+	</string>
+
+	<!-- The Living Fire -->
+	<string id="bar_informator_mlr_task_the_living_fire_name">
+		<text>炎の使者</text>
+	</string>
+	<string id="bar_informator_mlr_task_the_living_fire_text">
+		<text>スニッチから、火を操るという謎のストーカーに関する噂についての調査を頼まれた。</text>
+	</string>
+	<string id="bar_informator_mlr_task_the_living_fire_about">
+		<text>あんたもよく分かってるだろうが、知識は力だ･･････
+\nそんで俺は力をもっと有意義なもの、つまり“金”に変えるのが好きな人間だ。ところが、
+\nまだハッキリとしないことが1つあってな。それさえ分かれば一儲けできそうなんだよ。
+
+\n\n最近現れたストーカーの噂があるんだが、どうやらそいつには火を操る能力があるらしい。
+\nいつものホラ話かと思ってたが、名の知れた連中がこの件について俺のところに
+\n聞きに来るようになってな、これは何か裏があるんじゃないかと気づいたんだ。
+\nついこの間も、ペトレンコ大佐がやってきて質問攻めにされちまったよ。
+\n話を聞いてみると、トラック墓地で大佐の部下が2人焼け死んでたらしいんだが、
+\n周りには炎を生み出すアノマリーがなかったそうだ。
+\n大佐に「何も分からない」と答えるたびに金が逃げていくのは言うまでもないよな？
+\nそういうわけで、あんたに頼みがある。この謎のストーカーについて調べてもらいたい。
+\nもし手がかりを掴んでくれたら相応の報酬を用意するぜ。どうだ？
+
+\n\nそうだ、フリーマーケットにいる友人が「最近妙なことが起きた」と言ってたな。
+\nまずはガベージに行って、そいつに話を聞いてみるといい。</text>
+	</string>
+	<string id="the_living_fire_prometheus_name">
+		<text>プロメテウス</text>
+	</string>
+	<string id="the_living_fire_mysterious_stalker_name">
+		<text>謎のストーカー</text>
+	</string>
+	<string id="the_living_fire_garbage_actor_msg_1">
+		<text>この音は何だ？</text>
+	</string>
+	<string id="the_living_fire_garbage_prometheus_msg_1">
+		<text>薄汚いミュータントめ、消し飛べ･･････</text>
+	</string>
+	<string id="the_living_fire_garbage_actor_msg_2">
+		<text>お前は─</text>
+	</string>
+	<string id="the_living_fire_garbage_prometheus_msg_2">
+		<text>すぐに分かるだろう･･････ 誰もが俺の名を知ることになる･･････</text>
+	</string>
+	<string id="the_living_fire_garbage_actor_msg_3">
+		<text>今のは一体何だったんだ？嫌な予感がするな･･････</text>
+	</string>
+	<string id="the_living_fire_swamp_actor_msg_1">
+		<text>くそっ･･････ 間に合わなかったか。</text>
+	</string>
+	<string id="the_living_fire_swamp_sakharov_msg_1">
+		<text>そこで何が起きている？測定値が狂い始めたぞ！
+\nアノマリーが分岐しているようだ。なんとかして止めなければ！</text>
+	</string>
+	<string id="the_living_fire_swamp_sakharov_msg_2">
+		<text>でかした！測定値は正常に戻りつつある。
+\n移動研究所に戻ってきてくれたまえ。話があるんだ。</text>
+	</string>
+	<string id="the_living_fire_yantar_snitch_msg_1">
+		<text>おい、ストーカー！まだ生きてるか？ヤンターで何があったのかそろそろ教えてくれよ。</text>
+	</string>
+	<string id="the_living_fire_yantar_actor_msg_1">
+		<text>ああ･･････ ちょうど戻るところだ。また後でな。</text>
+	</string>
+	<string id="the_living_fire_dark_valley_actor_msg_1">
+		<text>不運な兵士たちだな･･････</text>
+	</string>
+	<string id="the_living_fire_x18_prometheus_msg_1">
+		<text>ストーカー、また来たのか･･････ まあいい、ここに来い。話がしたいんだろう？</text>
+	</string>
+	<string id="the_living_fire_x18_military_msg_1">
+		<text>第1部隊と第2部隊は退却ルートを確保、他は最下層を捜索しろ。
+\n見つけ次第射殺しろ、捕虜はいらないぞ。</text>
+	</string>
+	<string id="the_living_fire_bar_actor_msg_1">
+		<text>シドロヴィッチに会って、プロメテウスのことを聞いてみるか。
+\n自分がどれだけ深刻な状況にいるか理解すれば、すぐにでも思い出すだろう。</text>
+	</string>
+	<string id="the_living_fire_escape_sakharov_msg_1">
+		<text>ストーカー、今すぐ移動研究所に来てくれ！この近くでアノマリー活動が急増している！</text>
+	</string>
+	<string id="the_living_fire_yantar_barman_msg_1">
+		<text>おい、ストーカー。スニッチが怪しい連中と話してるのを見たぞ。
+\nかなり大金が絡んでる感じだ─あんたら、何やら少し揉めたみたいだな。
+\nプロメテウスの情報源があんただってことも知ってる。気をつけたほうがいいかもしれん。</text>
+	</string>
+	<string id="the_living_fire_x16_prometheus_msg_1">
+		<text>ストーカー、またお前か。その執念には感服するよ。
+\n前回の話の続きがしたいんだろうが･･････</text>
+	</string>
+	<string id="the_living_fire_red_forest_actor_msg_1">
+		<text>教授、アノマリー領域の周辺を片付けたぞ。ここは安全だ。</text>
+	</string>
+	<string id="the_living_fire_red_forest_sakharov_msg_1">
+		<text>よくやった、若者よ。Militaryを説得して、この件の緊急性をなんとか理解してもらった。
+\n協力してくれることになったよ。君の合図があるまで待機させよう。</text>
+	</string>
+	<string id="the_living_fire_red_forest_actor_msg_2">
+		<text>バーキープが警告していたのはこいつらだったか。スニッチに報いを受けさせるときが来たな･･････</text>
+	</string>
+	<string id="the_living_fire_bar_actor_msg_2">
+		<text>教授、プロメテウスが最後の計画を実行する場所が分かった。
+\nできるだけ早く向かう。俺の合図に備えておいてくれ。</text>
+	</string>
+	<string id="the_living_fire_bar_sakharov_msg_1">
+		<text>素晴らしい知らせだ、若者よ。健闘を祈っている。
+\n例の武器を忘れずにな。頭を狙うんだ。彼を止めるチャンスは一度しかないだろう。</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_1">
+		<text>教授、Militaryを配置につかせてくれ。</text>
+	</string>
+	<string id="the_living_fire_outskirts_prometheus_msg_1">
+		<text>来たか･･････ 新たな世界秩序の誕生を見届けよ。</text>
+	</string>
+	<string id="the_living_fire_outskirts_prometheus_msg_2">
+		<text>もう止められない･･････ 同志たちよ、俺を守れ！</text>
+	</string>
+	<string id="the_living_fire_outskirts_sakharov_msg_1">
+		<text>兵士たちは配置についたぞ。君の合図を─</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_2">
+		<text>今だ！今すぐやってくれ！</text>
+	</string>
+	<string id="the_living_fire_outskirts_prometheus_msg_3">
+		<text>何だと？何が･･････ お前か！お前の仕業だな！</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_3">
+		<text>今しかチャンスはない！奴を仕留めるぞ！</text>
+	</string>
+	<string id="the_living_fire_outskirts_actor_msg_4">
+		<text>終わったよ、教授。プロメテウスは消えた。</text>
+	</string>
+	<string id="the_living_fire_outskirts_sakharov_msg_2">
+		<text>でかしたぞ、若者よ！移動研究所で待っている。君に渡したいものがあるんだ。</text>
+	</string>
+	<string id="st_af_tlf_prometheus">
+		<text>«プロメテウス»</text>
+	</string>
+	<string id="st_af_tlf_prometheus_descr">
+		<text>同名の伝説のストーカーが倒された後、「ギリシャの火」アノマリー領域で形成されたユニークなアーティファクト。使用者に強力な熱耐性を与え、傷の回復を早める効果がある。</text>
+	</string>
+	<!-- The Living Fire end -->
+	
+	<!-- Mystery of the Swamps -->
+	<string id="task_mystery_of_the_swamps_name">
+		<text>沼に隠された真実</text>
+	</string>
+	<string id="task_mystery_of_the_swamps_text">
+		<text>サハロフ教授から、ゾーンの沼地で起きている奇妙な現象の調査を頼まれた。</text>
+	</string>
+	<string id="mystery_of_the_swamps_barman_msg_1">
+		<text>おう、相棒！寄っていけ、話がある。</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_1">
+		<text>もうすぐ着くぞ。気をつけろよ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_2">
+		<text>これで最後のようだな。サハロフ教授の言った通りだ･･････ カーリックが多すぎる。
+\nとにかく、調査を始めてくれ。ここに長居はしたくない。</text>
+	</string>
+	<string id="mystery_of_the_swamps_ecolog_msg_1">
+		<text>了解だ！</text>
+	</string>
+	<string id="mystery_of_the_swamps_ecolog_msg_2">
+		<text>データはすべて揃った。移動研究所に戻ろう。</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_fail_1">
+		<text>君には失望したよ、ストーカー･･････ 護衛を任せたのは間違いだったようだ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_1">
+		<text>近くにいた方がいいぜ、相棒。あの科学者を殺したのが何なのか、まだ分からないからな。</text>
+	</string>
+	<string id="mystery_of_the_swamps_data_collected_1">
+		<text>データを回収した</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_2">
+		<text>くそっ！気をつけろ！</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_3">
+		<text>何だ、今のは！？</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_3">
+		<text>今のは･･････ 幽霊みたいだったな･･････ 嫌な予感がする･･････</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_4">
+		<text>幽霊？またか？悪い予感がするな･･････</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_1">
+		<text>ストーカー！聞こえるか？計画変更だ！ダークバレーの農場へ向かってくれ。
+\n我々の科学者が緊急の医療を必要としている！座標を送ろう。報酬のことは後にしてくれ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_5">
+		<text>手遅れだ、教授。あんたの部下はもう死んでいる。
+\nしかし、体に傷がない･･････ 一体何が起きてるんだ？</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_2">
+		<text>またしても悲劇が起きてしまった･･････
+\n彼は2人の護衛と一緒にダークスケープの湿地帯で調査をしていたが、獣のようなものに襲われたらしい。
+\nなんとか助かったようだが、しばらくして「感覚が鈍くなってきた、全身が激しく痛む」と言ってきてな。
+\nその後、通信が途絶えたよ。ただ、最後に記録された座標だけは確認することができた。
+\nだから君に連絡したんだ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_6">
+		<text>そうか･･････ 俺が到着するよりもずっと前に死んでたんだろうな。
+\n今はどうすることもできない。すぐに移動研究所に戻るよ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_3">
+		<text>待ってくれ。そこにいるのなら、ついでにそのミュータントを片付けてもらえないだろうか？
+\n報酬は出すつもりだ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_7">
+		<text>たぶん、あんたの部下を殺したのと同じ奴だろう。やってやるさ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_4">
+		<text>ちょっと待て！これ以上巻き込まれるつもりはないぞ！
+\nおかしなことばかり起きてるし、俺は関わりたくない！もう降りる！</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_4_1">
+		<text>心配するな。ダークバレーの湿地帯で調査をしていた別のチームに連絡を取った。
+\nそこにいる2人の護衛が助けに向かってくれている。すぐに合流するはずだ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_4_2">
+		<text>ダークバレーの湿地帯で調査をしていた別のチームに連絡を取った。
+\nそこにいる2人の護衛が助けに向かってくれている。すぐに合流するはずだ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_8">
+		<text>もうすぐ到着する。防御態勢をとって、周囲を確保しろ。
+\n俺は科学者たちの遺体と、彼らを殺したミュータントを探そう。</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_fail_2">
+		<text>任務中止だ、ストーカー。君には向いてないようだな･･････</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_9">
+		<text>これで完了だ。準備して出発するぞ。すぐにそっちに行く。</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_10">
+		<text>全員、準備できてるか？出発するぞ･･････</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_5">
+		<text>待て！無線が何か拾ってるぞ。</text>
+	</string>
+	<string id="mystery_of_the_swamps_sakharov_msg_5">
+		<text>任─務･･････ 止･･････！応･･････ 答･･････</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_6">
+		<text>サハロフだ。この峡谷から出て信号を─</text>
+	</string>
+	<string id="mystery_of_the_swamps_stalker_msg_7">
+		<text>今のは何だ！？</text>
+	</string>
+	<string id="mystery_of_the_swamps_actor_msg_11">
+		<text>逃げろ！</text>
+	</string>
+	<string id="st_af_tlf_lost_soul">
+		<text>«ロストソウル»</text>
+	</string>
+	<string id="st_af_tlf_lost_soul_descr">
+		<text>このアーティファクトは«ソウル»に似ているが、特別な特性を持っている。より強力な精神防護の効果があり、使用者に負の効果を与えることはない。</text>
+	</string>
+	<!-- Mystery of the Swamps end -->
+
+	<string id="nta_intercept_item">
+		<text>対象アイテム:\n</text>
+	</string>
+	<string id="nta_search_the_stash">
+		<text>スタッシュを探す</text>
+	</string>
+	<string id="nta_quest_documents_name">
+		<text>暗号化された文書</text>
+	</string>
+	<string id="nta_quest_documents_desc">
+		<text>%c[pda_white]高度に暗号化された文書。適切な暗号がなければ解読は不可能だ。</text>
+	</string>
+</string_table>

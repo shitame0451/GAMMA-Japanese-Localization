@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TEXT  STRINGS FOR TASKS ON PRIPYAT MAP -->
+
+<string_table>
+
+
+	<!-- STORYLINE TASK TEXT STRINGS -->
+
+	<!-- Rabbit (Monolith Trader) Default Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_default_task_about">
+		<text>モノリスの長老に会う必要がある。すぐに彼のところへ行かなくては。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_default_task_finish">
+		<text>成功を祈る。</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Destroy the Non-Believers Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_name">
+		<text>異教徒たちを殲滅する</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_text">
+		<text>モノリスの襲撃を先導し、異教徒を排除する。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_about">
+		<text>時は来た、若者よ。お前は兄弟を率いて戦場に向かわねばならない。
+\n厳しく戦い、降伏を受け入れるな。モノリスのために異教徒を打ち倒すのだ。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_1_finish">
+		<text>素晴らしい働きだ。お前は優れた戦士だ。</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Collect Supplies Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_name">
+		<text>モノリスのために%sを集める</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_text">
+		<text>ラビットに%sを届ける。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_about">
+		<text>若者よ、兄弟たちは補給物資を必要としている。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_fetch_about">
+		<text>若者よ、兄弟たちは補給物資を必要としている。
+\n%sを持ってきてくれ。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_2_fetch_finish">
+		<text>よくやった。</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Venture into the Zone Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_name">
+		<text>ゾーンへの挑戦</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_text">
+		<text>ゾーンへの旅を乗り越え、自分の価値を証明しなければならない。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_about">
+		<text>若者よ、お前は全能なるモノリスにその力を示さねばならない。
+\nゾーンの奥深くへ進み、待ち受ける試練に立ち向かえ。遭遇する敵はすべて排除するのだ。
+\nこれは、モノリスのために果たすべき使命である。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_task_3_finish">
+		<text>よくやったぞ、若者よ。</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Default Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_default_task_about">
+		<text>若者よ、お前のモノリスへの忠誠は確かだ。
+\n今こそ長老のもとを訪れ、我らが偉大なる大義のために、己がなすべきことを尋ねるのだ。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_default_task_finish">
+		<text>成功を祈る。</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Recover Stolen Equipment Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_1_name">
+		<text>盗まれたモノリスの設備を回収する</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_1_text">
+		<text>ストーカーがブレイン・スコーチャーの動きを妨害した。持ち去られた設備を回収しなくては。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_1_about">
+		<text>ストーカーがブレイン・スコーチャーから重要な設備を盗み出した。
+\n全能なるモノリスのために、それを必ず取り戻さねばならない。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_1_finish">
+		<text>よくやった。</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Hunt for Food Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_2_name">
+		<text>食料調達</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_2_text">
+		<text>モノリスの兄弟のために、狩りを率いて肉を集める。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_2_about">
+		<text>若者よ、我々は食料庫を補充しなければならない。
+\n兄弟たちが食事にありつけるように、狩りの指揮をとってくれないか？</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_2_finish">
+		<text>お前はモノリスに忠誠を尽くしている。持ち帰った肉は今夜の宴で供されるだろう。
+\n褒美として、目玉はお前のために取っておこう。</text>
+	</string>
+
+	<!-- Cleric (Monolith Mechanic) Monolith Weapon Arsenal Storyline Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_name">
+		<text>モノリスの武器庫</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_text">
+		<text>クレリックは、モノリスの武器庫を拡張するために%sを求めている。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_about">
+		<text>若者よ、我々は栄光ある目標を達成するため、強力な武器庫を築かなければならない。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_fetch_about">
+		<text>%sを持ってくるのだ。
+\n任務が成功すれば、モノリスの大義に大いに貢献できるだろう。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_fetch_finish">
+		<text>よくやった、若者よ。</text>
+	</string>
+
+	<!-- Olivar (Monolith Trader) Default Storyline Task -->
+
+	<string id="drx_sl_trader_monolith_kbo_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_default_task_about">
+		<text>モノリスのリーダーに会う必要がある。すぐに彼のところへ行かなくては。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_default_task_finish">
+		<text>幸運を祈る。</text>
+	</string>
+	
+
+	<!-- Olivar (Monolith Trader) Eliminate the Intruders Storyline Task -->
+
+	<string id="drx_sl_trader_monolith_kbo_task_1_name">
+		<text>侵入者を排除する</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_1_text">
+		<text>侵入者を何としても排除しなければ。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_1_about">
+		<text>侵入者の集団が目撃されている。彼らを生かしておくわけにはいかない。排除しろ。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_1_finish">
+		<text>よくやった。お前は自分の力を証明した。</text>
+	</string>
+	
+
+	<!-- Olivar (Monolith Trader) Investigate the Scouts' Location Storyline Task -->
+
+	<string id="drx_sl_trader_monolith_kbo_task_2_name">
+		<text>偵察隊の場所を調査する</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_text">
+		<text>オリバーから、行方不明になった偵察隊の捜索を頼まれた。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_text_0">
+		<text>オリバーから、行方不明になった偵察隊の捜索を頼まれた。捜索には$item_1が必要だ。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_text_1">
+		<text>オリバーから、行方不明になった偵察隊の捜索を頼まれた。$mapに向かおう。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_text_2">
+		<text>オリバーから、行方不明になった偵察隊の捜索を頼まれた。$item_1を使って周波数を$freqMHzに設定し、発信源を探そう。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_text_3">
+		<text>見つけた$item_2を回収して、オリバーに見せなければならない。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_text_4">
+		<text>調査結果を持って、オリバーのところに戻る。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_about">
+		<text>兄弟よ、お前に託すべき重要な使命がある。
+\n我々はこの地域で発生している異常な活動を調査するため、偵察隊を送り出した。
+\nしかし、彼らは1日経っても戻らぬままだ。この失態は我々の誇りを汚すものだ！
+\n彼らがまだ名誉を取り戻す機会を得られるか、それを確かめるのは我々の責務だ。
+\nここに偵察隊のひとりのPDA周波数がある。それを追跡し、何が起きたのかを突き止めろ。</text>
+	</string>
+	<string id="drx_sl_trader_monolith_kbo_task_2_finish">
+		<text>この情報は役に立つだろう。感謝する、兄弟。</text>
+	</string>
+
+
+	<!-- Griffith (Mercenary Operator) Default Storyline Task -->
+
+	<string id="drx_sl_merc_pri_grifon_mlr_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_default_task_about">
+		<text>我々のサービスに高額の報酬を支払ってくれる客がいる。彼に会いに行け。</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_default_task_finish">
+		<text>幸運を祈る。</text>
+	</string>
+	
+
+	<!-- Griffith (Mercenary Operator) Hunt Down the Dangerous Mutant Storyline Task -->
+
+	<string id="drx_sl_merc_pri_grifon_mlr_task_1_name">
+		<text>危険なミュータントの追跡</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_task_1_text">
+		<text>グリフィンと彼の傭兵たちは、夜な夜な襲ってくるミュータントにうんざりしている。追跡し、始末しなくては。</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_task_1_about">
+		<text>あのクソッタレな化け物は毎晩戻ってきて、我々の守備隊を襲撃している。
+\nこれ以上放置するわけにはいかない。見つけ次第、確実に殺せ。</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_task_1_finish">
+		<text>やっとか！これで安心して眠れるな。さあ、報酬だ。</text>
+	</string>
+	
+
+	<!-- Griffith (Mercenary Operator) Search Lab X-8 Location Storyline Task -->
+
+	<string id="drx_sl_merc_pri_grifon_mlr_task_2_name">
+		<text>ラボX8を調査する</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_task_2_text">
+		<text>グリフィンはドゥシュマンのもとへ手ぶらで戻るつもりはないようだ。ラボX8を調査し、残された文書を探そう。</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_task_2_about">
+		<text>我々がここに来たのは、北のユビレイニー・サービスセンターにあるラボX8から
+\n情報を回収するためだ。少なくとも、何か有用な情報を持ち帰れると思っていたんだがな。
+\n再び仲間と共に向かうことも考えたが、生存者は少なく、手に負えそうにない。
+\nこれ以上、貴重な人員を失いたくはない。X-8へ行き、手がかりを探し出してきてくれ。</text>
+	</string>
+	<string id="drx_sl_merc_pri_grifon_mlr_task_2_finish">
+		<text>この文書、興味深いな･･････ 適切な人物が扱えば、かなり価値のある品だろう。よくやった。</text>
+	</string>
+	
+	<!-- CHANGE FACTIONS TASK TEXT STRINGS -->
+
+	<!-- Rabbit (Monolith Trader) Payoff Change Factions Task -->
+
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_cf_task_1_name">
+		<text>モノリスに加入するための財産放棄</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_cf_task_1_text">
+		<text>モノリスに加われば、金の必要性などほとんど感じなくなるだろう。ラビットはモノリスに加わるのにわずか1,000ルーブルしか要求しなかった。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_cf_task_1_about">
+		<text>よくぞ正気に戻ってくれた、若者よ。我々はあなたをモノリスの秩序に迎え入れよう。
+\nしかしその前に、あなたは1,000ルーブルを現世の財産として放棄しなければならない。</text>
+	</string>
+	<string id="drx_sl_pri_monolith_monolith_trader_stalker_cf_task_1_finish">
+		<text>よろしい。モノリスの兄弟として歓迎する。</text>
+	</string>
+
+	<!-- DYNAMIC TASK TEXT STRINGS -->
+	
+	<!-- Eidolon (Elite Monolith Soldier) Purge the Infidels Task -->
+	<string id="monolith_eidolon_task_1_name">
+		<text>異教徒たちを粛清する</text>
+	</string>
+	<string id="monolith_eidolon_task_1_text">
+		<text>エイドロンのために%sを集める。</text>
+	</string>
+	<string id="monolith_eidolon_task_1_about">
+		<text>我々は包囲されている。異教徒は神聖なるモノリスを利用しようと企んでいるのだ。
+\n貪欲。無知。卑しい欲望に駆られた者たちだ。
+\nモノリスの名のもとに、我々はその守護者として行動する。異教徒を粛清せよ。
+\nそして、彼らのパッチを集めるのだ。それは我々の揺るぎない優越性を示す証となる。
+\n行け、兄弟よ。奴らをすべて滅ぼせ。</text>
+	</string>
+	<string id="monolith_eidolon_task_1_fetch_about">
+		<text>我々は包囲されている。異教徒は神聖なるモノリスを利用しようと企んでいるのだ。
+\n貪欲。無知。卑しい欲望に駆られた者たちだ。
+\nモノリスの名のもとに、我々はその守護者として行動する。異教徒を粛清せよ。
+\nそして、彼らのパッチを集めるのだ。それは我々の揺るぎない優越性を示す証となる。
+\n行け、兄弟よ。奴らをすべて滅ぼせ。%sを持ってくるのだ。</text>
+	</string>
+	<string id="monolith_eidolon_task_1_fetch_finish">
+		<text>このような献身的な姿勢は、我々の輝かしい目的のために、報われるであろう。</text>
+	</string>
+	
+	<!-- Eidolon (Elite Monolith Soldier) Hunt the Mutants Task -->
+	
+	<string id="monolith_eidolon_task_2_name">
+		<text>偉大な戦士</text>
+	</string>
+	<string id="monolith_eidolon_task_2_text">
+		<text>エイドロンのために%sを集める。</text>
+	</string>
+	<string id="monolith_eidolon_task_2_about">
+		<text>命を奪う危険な獣たち。それはゾーンから授けられた贈り物だ。
+\n我々の前に姿を現し、手に入れるために存在している。
+\n彼らは守護者であり、糧をもたらす者であり、また試練の象徴でもある。
+\n強さ、覚悟、そして戦いの技を証明するための道なのだ。
+\n行け、兄弟よ。強靭なハンターを討ち取るのだ。人と獣との戦いが待っている。</text>
+	</string>
+	<string id="monolith_eidolon_task_2_fetch_about">
+		<text>命を奪う危険な獣たち。それはゾーンから授けられた贈り物だ。
+\n我々の前に姿を現し、手に入れるために存在している。
+\n彼らは守護者であり、糧をもたらす者であり、また試練の象徴でもある。
+\n強さ、覚悟、そして戦いの技を証明するための道なのだ。
+\n行け、兄弟よ。強靭なハンターを討ち取るのだ。人と獣との戦いが待っている。
+\n%sを手に入れ、自分の価値を証明しろ。</text>
+	</string>
+	<string id="monolith_eidolon_task_2_fetch_finish">
+		<text>素晴らしい戦利品だ。モノリスは誇りに思っている。そして私もだ。
+\nこれがお前への報酬だ。</text>
+	</string>
+
+	<!-- Eidolon (Elite Monolith Soldier) Harvest the Fruit Task -->
+
+	<string id="monolith_eidolon_task_3_name">
+		<text>果実の収穫</text>
+	</string>
+	<string id="monolith_eidolon_task_3_text">
+		<text>エイドロンのために%sを手に入れる。</text>
+	</string>
+	<string id="monolith_eidolon_task_3_about">
+		<text>我々はモノリスを守る。そしてモノリスは我々を守る。
+\n我々は奉仕し、ゾーンは恵みを与える。見事な果実、それは比類なき輝きに満ちている。
+\n我々に力を与えてくれるものだ。今すぐ行け、その果実を収穫するのだ、兄弟よ。</text>
+	</string>
+	<string id="monolith_eidolon_task_3_fetch_about">
+		<text>我々はモノリスを守る。そしてモノリスは我々を守る。
+\n我々は奉仕し、ゾーンは恵みを与える。見事な果実、それは比類なき輝きに満ちている。
+\n我々に力を与えてくれるものだ。今すぐ行け、その果実を収穫するのだ、兄弟よ。
+\n力を高めるため、%sを収穫するのだ。</text>
+	</string>
+	<string id="monolith_eidolon_task_3_fetch_finish">
+		<text>素晴らしい。なんと素晴らしい。これは目を見張るものがある。
+\n私は感謝しているぞ、忠実な兄弟よ。</text>
+	</string>
+	
+	<!-- Eidolon (Elite Monolith Soldier) Keeper of Secrets Task -->
+	<string id="monolith_eidolon_task_4_name">
+		<text>秘密の守護者</text>
+	</string>
+	<string id="monolith_eidolon_task_4_text">
+		<text>ゾーンの秘密が記された文書を回収し、エイドロンに渡す。</text>
+	</string>
+	<string id="monolith_eidolon_task_4_about">
+		<text>ある場所に、ゾーンの驚異について詳細に記された文書が存在する。秘められた知識だ。
+\n異教徒に知られてはならない。その文書を回収し、我に届ければ報酬を与えよう。</text>
+	</string>
+	<string id="monolith_eidolon_task_4_finish">
+		<text>これでゾーンは守られた。お前のおかげだな。</text>
+	</string>
+
+	<!-- Rabbit (Monolith Trader) Assault Territory Task -->
+	<string id="pri_monolith_monolith_trader_stalker_task_1_name">
+		<text>敵を制圧する</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_1_text">
+		<text>全能なるモノリスのため、指定された区域を制圧することを命じられた。任務が終わったらラビットに報告しよう。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_1_about">
+		<text>重要な任務がある。お前はゾーンに赴き、その区域を制圧しなければならない。
+\n我々の部隊が進軍できるようにするためだ。準備はいいな？</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_1_finish">
+		<text>任務は完了したのか？いいぞ。モノリスを讃えよ。</text>
+	</string>
+
+
+
+	<!-- ASSASSINATION FOR MONOLITH TASK -->
+	<string id="pri_monolith_monolith_trader_stalker_task_2_name">
+		<text>計画者を殺す</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_2_text">
+		<text>ストーカーがブレイン・スコーチャーを停止させようとしている。排除しなくては。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_2_about">
+		<text>ゾーンの偉業を脅かすものは数多く存在する。
+\nそして今、再びブレイン・スコーチャーを停止しようと計画している者がいる。
+\n彼を止めなければならない。見つけ出して排除しろ。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_2_finish">
+		<text>見事な成果だ。兄弟たちは感謝している。</text>
+	</string>
+
+
+	<!-- FIND WEAPON FOR MONOLITH TASK -->
+	<string id="pri_monolith_monolith_trader_stalker_task_3_name">
+		<text>ラビットに%sを持っていく</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_3_text">
+		<text>モノリスの武器庫を拡張するため、ラビットが新しいライフルを要求している。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_3_about">
+		<text>我々は日々、力をつけている。
+\n我々の目標を達成し続けるためには、さらに多くの武器が必要だ。
+\n我々の武器庫を成長させるため、お前は新しい武器を見つけて持ってこなければならない。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_3_fetch_about">
+		<text>新品の%sを見つけて、持ってこい。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_3_fetch_finish">
+		<text>これがあれば上手くいくだろう。</text>
+	</string>
+
+
+	<!-- FIND MUTANT MEAT FOR MONOLITH TASK -->
+	<string id="pri_monolith_monolith_trader_stalker_task_4_name">
+		<text>ラビットのために%sを集める</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_4_text">
+		<text>ミュータントを狩り、%sをラビットに渡そう。彼がそれを調理するはずだ。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_4_about">
+		<text>我々の食糧は底をつきかけている。
+\nゾーンで肉を調達し、モノリスの兄弟たちが食事にありつけるようにしなければならない。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_4_fetch_about">
+		<text>狩りをして%sを持ってこい。
+\n生き物はゾーンの贈り物だということを忘れるな。迅速に殺し、感謝を捧げよ。
+\n終わったらその肉を持ってこい。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_4_fetch_finish">
+		<text>任務を成功させたな。よくやった。</text>
+	</string>
+
+
+	<!-- FIND SUPPLIES FOR MONOLITH TASK -->
+	<string id="pri_monolith_monolith_trader_stalker_task_5_name">
+		<text>ラビットのために%sを集める</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_5_text">
+		<text>%sを手に入れ、ラビットに渡す。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_5_about">
+		<text>我々が偉大な使命を続けるためには、さらなる物資が必要だ。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_5_fetch_about">
+		<text>%sを回収して持ってこい。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_5_fetch_finish">
+		<text>モノリスのため、よくやってくれた。</text>
+	</string>
+
+
+	<!-- FIND ARTEFACT FOR MONOLITH TASK -->
+	<string id="pri_monolith_monolith_trader_stalker_task_6_name">
+		<text>ラビットのために%sを見つける</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_6_text">
+		<text>%sを見つける。それをラビットに渡せば、儀式の捧げ物として準備してくれるだろう。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_6_about">
+		<text>我々は供物として捧げるアーティファクトを探さねばならない。
+\nモノリスのために奉仕する意志はあるか？</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_6_fetch_about">
+		<text>%sを見つけろ。
+\nそれを持ってくれば、儀式を執り行うことができる。</text>
+	</string>
+	<string id="pri_monolith_monolith_trader_stalker_task_6_fetch_finish">
+		<text>お前はモノリスによく奉仕している。今夜の儀式に参加せよ。祈りの声が響き渡るだろう。</text>
+	</string>
+
+	<!-- MECHANIC TASK TEXT  STRINGS -->
+
+	<!-- Cleric (Monolith Mechanic) Find Level 1 Toolkit Task -->
+
+	<string id="pri_monolith_monolith_mechanic_stalker_task_1_name">
+		<text>クレリックのために%sを見つける</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_1_text">
+		<text>クレリックは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_1_about">
+		<text>頼みがある。我々の武器を調整するための特別なツールが必要だ。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_1_fetch_about">
+		<text>%sが必要だ。行け、今すぐだ。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_1_fetch_finish">
+		<text>よくやった。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_2_name">
+		<text>クレリックのために%sを見つける</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_2_text">
+		<text>クレリックは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_2_about">
+		<text>さらに良いツールが必要だ。私が求めるものを、もう一度探してくれないか？</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_2_fetch_about">
+		<text>アドバンスドツールが必要だ。それがモノリスと兄弟たちへの奉仕に繋がる。
+\n見返りとして割引を約束しよう。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_2_fetch_finish">
+		<text>よし、持ってきたな。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_3_name">
+		<text>クレリックのために%sを見つける</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_3_text">
+		<text>クレリックは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_3_about">
+		<text>さらに特別なツールが必要だ。私が求めるものを、もう一度探してくれないか？</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_3_fetch_about">
+		<text>エキスパートツールが必要だ。
+\n私に届けてくれれば、お前は再びモノリスと兄弟たちに奉仕することができる。</text>
+	</string>
+	<string id="pri_monolith_monolith_mechanic_stalker_task_3_fetch_finish">
+		<text>よし、持ってきたな。感謝するぞ、兄弟よ。</text>
+	</string>
+	<string id="lider_monolith_haron_task_1_name">
+		<text>敵を殲滅する</text>
+	</string>
+	<string id="lider_monolith_haron_task_1_text">
+		<text>カロンから、ゾーンの重要なポジションを解放するように頼まれた。</text>
+	</string>
+	<string id="lider_monolith_haron_task_1_about">
+		<text>兄弟よ。異教徒を滅ぼすためにお前の助けが必要だ。</text>
+	</string>
+	<string id="lider_monolith_haron_task_1_finish">
+		<text>モノリスの加護があらんことを、兄弟よ！お前に相応しい報酬を受け取るのだ。</text>
+	</string>
+	<string id="lider_monolith_haron_task_2_name">
+		<text>%sを集める</text>
+	</string>
+	<string id="lider_monolith_haron_task_2_text">
+		<text>カロンから、%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="lider_monolith_haron_task_2_about">
+		<text>偉大なるモノリスは、この聖地から異教徒を浄化する兄弟たちに報酬を与えてくださる。
+\nお前の行動の証として、あの虫けらどものパッチを持ってくるのだ。</text>
+	</string>
+	<string id="lider_monolith_haron_task_2_fetch_about">
+		<text>偉大なるモノリスは、この聖地から異教徒を浄化する兄弟たちに報酬を与えてくださる。
+\nお前の行動の証として、%sを持ってくるのだ。</text>
+	</string>
+	<string id="lider_monolith_haron_task_2_fetch_finish">
+		<text>素晴らしいぞ、兄弟よ。これはモノリスからの贈り物だ。</text>
+	</string>
+	
+<!-- Griffith -->
+	<string id="merc_pri_grifon_mlr_task_1_name">
+		<text>%sを集める</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_1_text">
+		<text>グリフィンから、%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_1_about">
+		<text>狂信者どもが多すぎて、まともに仕事ができない。
+\n奴らに一発お見舞いして、少し引っ込ませてくれないか？
+\n証拠としてパッチを剥ぎ取って持ち帰るんだ。ここにまとまった金を隠してある。
+\nそれをお前にやるから、%sを持ってきてくれ。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_1_fetch_about">
+		<text>狂信者どもが多すぎて、まともに仕事ができない。
+\n奴らに一発お見舞いして、少し引っ込ませてくれないか？
+\n証拠としてパッチを剥ぎ取って持ち帰るんだ。ここにまとまった金を隠してある。
+\nそれをお前にやるから、%sを持ってきてくれ。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_1_fetch_finish">
+		<text>ありがとう、ストーカー。約束した金だ、受け取ってくれ。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_2_name">
+		<text>«ソウル»を見つける</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_2_text">
+		<text>グリフィンから、«ソウル»を見つけて持ってくるように頼まれた。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_2_fetch_about">
+		<text>ここには医者がいない。我々はどうにかして生き延びるしかないんだ。
+\n普通の医療器具では足りず、正しい使い方を知る者もほとんどいない。
+\nこの場所にいる連中の面倒を見るのも一苦労だ。そこで、お前の力を貸してほしい。
+\n俺は«ソウル»というアーティファクトの噂を聞いたことがある。
+\nそれには傷を癒す力があるらしくてな。探して持ってきてくれないか？</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_2_fetch_finish">
+		<text>本当に見つけたのか？信じられない･･････ 感謝するぞ、ストーカー！
+\nこれで他の連中も助かるだろう。お前には当然、報酬を渡そう。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_3_name">
+		<text>食料品店を掃討する</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_3_text">
+		<text>食料品店にいる犬を始末する。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_3_about">
+		<text>また問題が起きた･･････ 食料品店に住み着いた犬どもがいて、こいつがかなり厄介だ。
+\n奴らがずっと吠え続けるせいで、我々が余計な注意を引いてしまう。
+\nお前があそこから犬を追い払ってくれると助かるんだがな。</text>
+	</string>
+	<string id="merc_pri_grifon_mlr_task_3_finish">
+		<text>ありがとう、素晴らしい働きだ。これはお前の手間賃だ。</text>
+	</string>
+	
+	
+<!-- (Mercenary Mechanic) -->
+	<string id="merc_pri_a18_mech_mlr_task_1_name">
+		<text>傭兵の技術者のために%sを見つける</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_1_text">
+		<text>プリピャチ郊外にいる傭兵の技術者から、%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_1_about">
+		<text>ここプリピャチで、俺たちは時間を無駄にしている･･････ グリフィンからも聞いただろう。
+\n俺もツールを探してあちこち歩き回ったんだが、見つかったのはしょぼい品ばかりで、
+\nちゃんとしたメンテナンスや改造にはまるで使えやしない。正直言って頭にくるぜ。
+\n俺は技術者だ。仕事をするなら、まともなツールが必要だ。助けてくれないか？</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_1_fetch_about">
+		<text>ここプリピャチで、俺たちは時間を無駄にしている･･････ グリフィンからも聞いただろう。
+\n俺もツールを探してあちこち歩き回ったんだが、見つかったのはしょぼい品ばかりで、
+\nちゃんとしたメンテナンスや改造にはまるで使えやしない。正直言って頭にくるぜ。
+\n俺は技術者だ。仕事をするなら、まともなツールが必要だ。助けてくれないか？</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_1_fetch_finish">
+		<text>ありがとう。これでここの連中も少しは気が楽になるだろう。
+\nお前の努力に応えて、これからは割引をしてやるよ。</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_2_name">
+		<text>傭兵の技術者のために%sを見つける</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_2_text">
+		<text>プリピャチ郊外にいる傭兵の技術者から、%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_2_about">
+		<text>いくつかの問題は解決したが、まだやるべきことが山積みだ。
+\n装備をアップグレードをするためには、もっと良いツールが必要なんだ。
+\nまた手伝ってくれるか？</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_2_fetch_about">
+		<text>いくつかの問題は解決したが、まだやるべきことが山積みだ。
+\n装備をアップグレードをするためには、もっと良いツールが必要なんだ。
+\nまた手伝ってくれるか？</text>
+	</string>
+	<string id="merc_pri_a18_mech_mlr_task_2_fetch_finish">
+		<text>よくやってくれた。これでツールが揃ったよ。そしてお前には割引を約束しよう。</text>
+	</string>
+	
+	
+<!-- (Monolith Mechanic) -->
+	<string id="mechanic_monolith_kbo_task_1_name">
+		<text>モノリスの技術者のために%sを見つける</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_1_text">
+		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_1_about">
+		<text>兄弟よ、力を貸してくれ。我々の装備を整えるためのツールが求められている。
+\nそれがあれば、我々の兄弟がモノリスの教えをより効果的に広めることができるはずだ。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_1_fetch_about">
+		<text>兄弟よ、力を貸してくれ。我々の装備を整えるためのツールが求められている。
+\nそれがあれば、我々の兄弟がモノリスの教えをより効果的に広めることができるはずだ。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_1_fetch_finish">
+		<text>素晴らしい働きだ、兄弟よ。
+\n今後の改良で得られる成果はすべて我々の慈善活動に使われるだろう。
+\nお前の貢献には少しばかりの割引を約束しよう。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_2_name">
+		<text>モノリスの技術者のために%sを見つける</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_2_text">
+		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_2_about">
+		<text>以前に見つけてくれたツールでは不十分だった。
+\nさらに精密な作業をするためには、より優れたツールが必要だ。
+\n我々がモノリスの教えを広め続けるために、再び力を貸してくれないか？</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_2_fetch_about">
+		<text>以前に見つけてくれたツールでは不十分だった。
+\nさらに精密な作業をするためには、より優れたツールが必要だ。
+\n我々がモノリスの教えを広め続けるために、再び力を貸してくれないか？</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_2_fetch_finish">
+		<text>素晴らしい働きだ、兄弟よ。
+\nその貢献に免じて、追加の割引を提供しよう。よく仕えてくれた。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_3_name">
+		<text>モノリスの技術者のために%sを見つける</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_3_text">
+		<text>ユビレイニー・サービスセンターにいる技術者から、%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_3_about">
+		<text>以前持ってきてくれたツールは･･････ 十分使えるものだった。
+\nしかし、現状に満足する必要はあるだろうか？もっと優れたツールを手に入れるべきだ。
+\n我々に必要なのはゾーンで最高のツールだ。力を貸してほしい、兄弟よ。最後の願いだ。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_3_fetch_about">
+		<text>以前持ってきてくれたツールは･･････ 十分使えるものだった。
+\nしかし、現状に満足する必要はあるだろうか？もっと優れたツールを手に入れるべきだ。
+\n我々に必要なのはゾーンで最高のツールだ。力を貸してほしい、兄弟よ。最後の願いだ。</text>
+	</string>
+	<string id="mechanic_monolith_kbo_task_3_fetch_finish">
+		<text>驚くべき働きだ、兄弟よ。お前の貢献は仲間たちにしっかりと伝えよう。
+\nそして、私にできる限りの援助を約束しよう。</text>
+	</string>
+</string_table>

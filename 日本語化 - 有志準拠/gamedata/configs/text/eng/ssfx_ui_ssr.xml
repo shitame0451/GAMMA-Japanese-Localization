@@ -1,0 +1,95 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 20
+- @ Description: SSR - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_ssr">
+		<text>SSR</text>
+	</string>
+
+	<!-- SSR Settings -->
+	<string id="ui_mcm_ssfx_module_ssr_title">
+		<text>Screen Space Reflections Settings</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_quality_mcm">
+		<text>品質 ( ステップ数 )</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_quality_mcm_desc">
+		<text>[再起動が必要] 反射のレンダリングに使用するステップ数。このオプションはパフォーマンスに大きく影響します。[ 8, 16, 24, 32, 48, 64 ]</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_render_scale_mcm">
+		<text>レンダリングスケール</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_render_scale_mcm_desc">
+		<text>SSRレンダリングのスケール。このオプションは、エフェクトの視覚的な品質を低下させますが、パフォーマンスを向上させます。レンダリングのスケールを下げる場合は、SSRの低画質を隠すためにブラーの強度を上げることを検討してください。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_blur_mcm">
+		<text>ブラー</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_blur_mcm_desc">
+		<text>すべての反射をどの程度ぼかすかを設定するオプション。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_temporal_mcm">
+		<text>時間的蓄積</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_temporal_mcm_desc">
+		<text>反射を安定させるためにどれだけ古いフレームを使用するかを調整します。このオプションはノイズを減らし、一般的にSSRの結果を改善するのに役立ちますが、高い値はゴーストを生成する可能性があります。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_use_noise_mcm">
+		<text>ノイズを使用</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_use_noise_mcm_desc">
+		<text>SSRの再構成を改善するためにノイズを有効/無効にする。このオプションは、ブラーの値を高くして使用することをおすすめします。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_general_int_mcm">
+		<text>反射の強度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_general_int_mcm_desc">
+		<text>一般的な反射の強さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_sky_int_mcm">
+		<text>空の反射強度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_sky_int_mcm_desc">
+		<text>スカイボックスの反射の強さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_weapon_int_mcm">
+		<text>武器の反射強度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_weapon_int_mcm_desc">
+		<text>武器の反射の強さを調整します。</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_weapon_int_max_mcm">
+		<text>武器の最大強度</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_ssr_weapon_int_max_mcm_desc">
+		<text>武器の反射の最大強度を調整します。</text>
+	</string>
+
+
+</string_table>

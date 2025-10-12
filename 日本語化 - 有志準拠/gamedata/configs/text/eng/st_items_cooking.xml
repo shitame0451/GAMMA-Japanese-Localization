@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_matches">
+    <text>火起こしセット</text>
+  </string>
+  <string id="st_matches_descr">
+    <text>樹脂を染み込ませた松材の束。小さいながらも安定した焚き火を作ることができる。湿っていても簡単に火を起こせるのが特徴だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]火をつける</text>
+  </string>
+  <string id="st_wood_stove">
+    <text>六角薪ストーブ</text>
+  </string>
+  <string id="st_wood_stove_descr">
+    <text>乾燥した木材を燃料とする、折りたたみ式のコンパクトなオーブン。ある程度の高温で調理できるため、変異の少ないミュータント肉を焼くには十分な火力が出るが、より強く変異した肉を安全に調理するには専用の設備が必要になるだろう。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]燃料: %c[ui_gray_1]木炭\n
+    %c[d_orange] • %c[pda_white]調理対象: %c[ui_gray_1]低ランクのミュータント肉\n
+ </text>
+  </string>
+  <string id="st_cooking">
+    <text>野外調理キット</text>
+  </string>
+  <string id="st_cooking_descr">
+    <text>キャンプや移動中の調理に必要な道具や食器が揃ったキット。重量があるため持ち運びには不便だが、複数人で行動するストーカーたちの間で根強い人気がある。変異の少ないミュータント肉を焼くには十分な火力が出るが、より強く変異した肉を安全に調理するには専用の設備が必要になるだろう。\n \n
+    %c[pda_white]特性:\n
+    %c[d_cyan] • %c[pda_white]燃料: %c[ui_gray_1]木炭\n
+    %c[d_orange] • %c[pda_white]調理対象: %c[ui_gray_1]低ランクのミュータント肉\n
+ </text>
+  </string>
+  <string id="st_army_bowler">
+    <text>軍用飯ごう</text>
+  </string>
+  <string id="st_army_bowler_descr">
+    <text>軍用に設計された丈夫な飯ごう。焚き火などを利用してお湯を沸かしたり、簡単な食事を作るのに適している。頑丈な構造で高い信頼性がある。持ち手には特殊な穴があり、スプーンが差し込まれている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]燃料: %c[ui_gray_1]木炭\n
+    %c[d_orange] • %c[pda_white]調理対象: %c[ui_gray_1]低ランクのミュータント肉\n
+ </text>
+  </string>
+  <string id="st_fieldcooker">
+    <text>ガスコンロ</text>
+  </string>
+  <string id="st_fieldcooker_descr">
+    <text>あらゆる食材を調理できるガスコンロ。使用する液体燃料はゾーンで比較的入手しやすいが、そのほとんどが重い金属容器に入っているため、野外よりも拠点での使用に適している。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]燃料: %c[ui_gray_1]ガスボンベ、ジェリカン、灯油\n
+    %c[d_orange] • %c[pda_white]調理対象: %c[ui_gray_1]すべてのミュータント肉\n
+ </text>
+  </string>
+  <string id="st_box_matches">
+    <text>マッチ箱</text>
+  </string>
+  <string id="st_box_matches_descr">
+    <text>小さな箱にマッチが入っている。ライターがない状況で火をつけるには欠かせないものだ。暖を取ったり調理をする際、確実に火をつけられるマッチ箱はゾーンでは命綱となる。\n \n
+    %c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]火をつける、タバコを吸う\n
+		</text>
+  </string>
+  <string id="st_kerosene">
+    <text>灯油</text>
+  </string>
+  <string id="st_kerosene_descr">
+    <text>携帯ストーブやランプに使われる可燃性の液体。調理や暖を取る際に信頼できる燃料となる。ストーカーたちは灯油を用いてガスコンロで調理し、ゾーンの汚染された食料よりも安全な食事を作るようにしている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]調理用燃料\n
+    </text>
+  </string>
+  <string id="st_charcoal">
+    <text>木炭</text>
+  </string>
+  <string id="st_charcoal_descr">
+    <text>調理や暖房用の燃料に使用する素材。ゾーンでは汚染された木材よりも安全で安定した熱源になるため、ストーカーたちに重宝されている。\n \n
+    %c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]調理用燃料\n
+    </text>
+  </string>
+  <string id="st_fuel_tier_1">
+    <text>すべての可燃物</text>
+  </string>
+  <string id="st_fuel_tier_1_desc">
+    <text>%c[d_blue] • %c[pda_white]焚き火\n
+      %c[d_blue] • %c[pda_white]木炭\n
+      %c[d_blue] • %c[pda_white]ガスボンベ\n
+      %c[d_blue] • %c[pda_white]ジェリカン\n
+      %c[d_blue] • %c[pda_white]灯油\n
+    </text>
+  </string>
+  <string id="st_fuel_tier_2">
+    <text>液体燃料限定</text>
+  </string>
+  <string id="st_fuel_tier_2_desc">
+    <text>%c[d_blue] • %c[pda_white]灯油\n
+      %c[d_blue] • %c[pda_white]ジェリカン\n
+      %c[d_blue] • %c[pda_white]ガスボンベ\n
+    </text>
+  </string>
+</string_table>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	SUPPRESSORS
+-->
+
+	<string id="st_addon_sil_ash12">
+		<text>CKIB ASH-12 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_ash12_descr">
+		<text>%c[pda_white] 特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]12.7x55mm\n</text>
+	</string>
+
+	<string id="st_addon_sil_silencerco">
+		<text>SilencerCO Salvo 12 サプレッサー</text>
+	</string>
+	<string id="st_addon_sil_silencerco_descr">
+		<text>%c[pda_white] 特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]12ゲージ\n
+		</text>
+	</string>
+
+<!--
+	KITS
+-->
+
+	<string id="st_addon_scope_sup">
+		<text>S.U.P. スペシャルアップグレードパック 照準器キット</text>
+	</string>
+	<string id="st_addon_scope_sup_descr">
+		<text>対応する銃に様々なサプレッサーの取り付けを可能にするモジュラーアタッチメントシステム。汎用性を高め、効果的な消音性能を実現する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]Elcan SpecterDR DFOV14-C2 サイト\n
+		%c[d_cyan] • %c[ui_gray_1]Trijicon RMR サイト\n
+		</text>
+	</string>
+
+	<string id="st_addon_scope_specterup">
+		<text>SA-58 タクティカルキット</text>
+	</string>
+	<string id="st_addon_scope_specterup_descr">
+		<text>グリップやレール、ストックなどの改良パーツを含む総合アップグレードパッケージ。銃の操作性や安定性を向上させ、戦闘時の総合的な扱いやすさを改善する。\n \n
+		%c[pda_white]キットの内容:\n
+		%c[d_cyan] • %c[ui_gray_1]Elcan SpecterDR DFOV14-C2 サイト\n
+		%c[d_cyan] • %c[ui_gray_1]Trijicon RMR サイト\n
+		%c[d_cyan] • %c[ui_gray_1]ANPEQ15 LAM\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[ui_gray_1]SA-58\n
+		</text>
+	</string>
+
+</string_table>

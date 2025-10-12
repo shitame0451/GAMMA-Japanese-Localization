@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="meet_zaton_killer_guide_station_0">
+		<text>あんたは何者だ？</text>
+	</string>
+	<string id="meet_zaton_killer_guide_station_1">
+		<text>俺もお前に質問していいか？「何の用だ」ってな。
+\nでも、それが聞きたいわけじゃないんだろ？俺はここで商売をやってる。
+\nデッドシティにある前哨基地までのガイドもできるぞ。</text>
+	</string>
+	<string id="meet_zaton_killer_guide_station_list_0">
+		<text>どこに案内できるのか教えてくれ。</text>
+	</string>
+	<string id="meet_zaton_killer_guide_station_list_1">
+		<text>お前はブレイン・スコーチャーを通り抜けてここに来たのか？
+\n案内先はひとつしかない。デッドシティまでだ。料金は8,000ルーブルだ。</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_0">
+		<text>デッドシティに連れて行ってくれ。</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_1">
+		<text>よし、長い下水道の旅が待ってるぞ。
+\nいつかまともな防護マスクを買う金が貯まればいいんだがな。準備はいいか？</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_2">
+		<text>準備はできてる。%c[d_orange] [8,000ルーブル]</text>
+	</string>
+	<string id="travel_zaton_killer_guide_station_base_3">
+		<text>気が変わった。</text>
+	</string>
+	<string id="meet_guid_zat_0">
+		<text>あんた、ただ者じゃなさそうだな。</text>
+	</string>
+	<string id="meet_guid_zat_1">
+		<text>俺は案内人のパイロットだ。行ける場所はあまり多くないが、確実に安全だ。
+\nプリピャチや郊外への案内はガイド仲間のギャリーが担当してるが、
+\nジュピターのヤノフ駅までは俺が案内できるぜ。</text>
+	</string>
+	<string id="meet_guid_zat_list_0">
+		<text>移動できる場所を教えてくれ。</text>
+	</string>
+	<string id="meet_guid_zat_list_1">
+		<text>ギャリーに頼めば4,000ルーブルでプリピャチまで、
+\nプリピャチ郊外なら5,000ルーブルで案内できる。
+\nジュピターのヤノフ駅なら俺が案内するぜ、料金は2,000ルーブルだ。</text>
+	</string>
+	<string id="travel_guid_zat_0">
+		<text>俺を連れて行ってくれ。</text>
+	</string>
+	<string id="travel_guid_zat_1">
+		<text>どこに行きたい？</text>
+	</string>
+	<string id="travel_guid_zat_2">
+		<text>プリピャチへ。%c[d_orange] [4,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_zat_3">
+		<text>プリピャチ郊外へ。%c[d_orange] [5,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_zat_4">
+		<text>ジュピターへ。%c[d_orange] [2,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_zat_5">
+		<text>気が変わった。</text>
+	</string>
+	<string id="stalker_guide_about_himself_0">
+		<text>あんたのことを教えてくれ。</text>
+	</string>
+	<string id="stalker_guide_about_himself_1">
+		<text>訳あって「パイロット」と呼ばれてる。俺は安全なルートしか使わない。
+\nアーティファクトを集めたり、Banditと戦う力はないからな･･････
+\nみんな自分の才能を活かして生きてるもんだ。どんな才能にもそれなりの代償はあるがな。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1116">
+		<text>わかった、この話は終わりにしよう。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1111">
+		<text>熱性アノマリーについて教えてほしい。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11111">
+		<text>暑い日に揺らめく空気のような光が見えたら、それはバーナーアノマリーだ。
+\n何かが中に入れば、突然、猛烈な炎が噴き出してくる。
+\n昔は天然ガスの噴出だと考えられていたが、その説も今では聞かなくなったな。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1112">
+		<text>酸性アノマリーについて教えてほしい。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11121">
+		<text>この種類のアノマリーは、常に奇妙な化学反応が起きていることから、そう呼ばれている。
+\nこいつは皮膚を数秒で溶かす酸や、肺を瞬時で蝕む有毒ガスを発生させるんだ･･････
+\n幸いなことに、ガスアノマリーは開けた場所なら視認しやすい。
+\nただし、真っ暗なトンネルでうっかり踏み込めば、命取りになるだろうな。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1113">
+		<text>電気アノマリーについて教えてほしい。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11131">
+		<text>非常に興味深いアノマリーの一種で、大量の静電気を蓄えている。
+\n多くのストーカーは、エレクトロアノマリーが金属に反応して放電する性質を利用する。
+\nまずはボルトを投げて放電を誘発するんだ。反応が終わったら、再び電気を帯びる
+\nまでの短い隙を狙って一気に通り抜けろ。まあ･･････ 俺なら遠回りするのを選ぶがな。
+\nこいつの再充電は、あまりにも早すぎるんだよ。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1114">
+		<text>重力アノマリーについて教えてほしい。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11141">
+		<text>この種類のアノマリーは通常、その場から動かないことが多い。
+\n物体が歪んで見える場所があるなら、それがアノマリーだ。距離を取るのが賢明だろうな。
+\n種類は3つ確認されていて、いずれも何かが触れた瞬間に反応する。
+\nスプリングボードアノマリーは周囲の物体を吹き飛ばし、稀に遠くまで飛ばすこともある。
+\nボルテックスアノマリーは物体を吸い込み、恐ろしい圧力で潰し、粉々にして吹き飛ばす。
+\nワーリギグアノマリーは巻き込んだものを空中で回転させ、ズタズタに引き裂く･･････
+\nどんな形であれ、巻き込まれれば悲惨な最期を迎えることになる。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1">
+		<text>アノマリーに近づくときは、その周囲が高温環境か、有毒ガスで満ちているか、
+\nあるいは放射線に汚染された場所かもしれないということを覚えておけ。
+\n精神に干渉してくる場合もあるが、それについては今は触れないでおこう。
+\n熱性、酸性、電気･･････ あるいは重力など、アノマリーの性質にもよるが、
+\nあんたがその被害に悩まされることがないように祈ってるぜ。
+\nそれと、移動するアノマリーもあるんだが･･････ それはまた別の話だ。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_0">
+		<text>アノマリーについて教えてくれ。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_1115">
+		<text>移動するアノマリーについて教えてほしい。</text>
+	</string>
+	<string id="stalker_guide_about_anomalies_11151">
+		<text>コメットアノマリーとテスラアノマリーなら見かけたことがある。
+\nコメットは直径約3フィートの火の玉で、遠くからでもその熱を感じることができる。
+\nテスラは良い表現が思いつかないが、雷の玉だ。完全な球体で、電気的な性質を持つ。
+\nどちらのアノマリーも常に動き続けているが、同じルートを移動しているだけだ。
+\n注意深いストーカーなら簡単に回避できるだろうな･･････ ただ見失わないようにすればいい。</text>
+	</string>
+	<string id="gonta_about_himself_0">
+		<text>あんたのことを教えてくれ。</text>
+	</string>
+	<string id="gonta_about_himself_1">
+		<text>俺はゴンタだ。狩猟チームのリーダーをやってる。
+\n金と引き替えに、ミュータントどもの駆除を請け負ってるのさ。生け捕りだってできるぞ。
+\n科学者の実験用とか、ゲテモノをペットにしたがる物好きのためにな･･････
+\nトラッパーがよく言ってたぜ。「ミュータントには、それぞれに合った弾を使え」ってな。</text>
+	</string>
+	<string id="gonta_about_mutants_0">
+		<text>ミュータント狩りについて教えてくれ。</text>
+	</string>
+	<string id="gonta_about_mutants_1">
+		<text>そうだな、俺はそこまで経験豊富なハンターってわけじゃないが、
+\n群れで行動するミュータントのことなら結構詳しいぞ。フレッシュ、ボア、
+\nブラインドドッグ、スードウドッグ、スノーク、トゥシュカノ･･････
+\nそれにブラッドサッカーのことも、少しだけ知ってるぜ。</text>
+	</string>
+	<string id="gonta_about_mutants_1111">
+		<text>ボアとフレッシュについて教えてほしい。</text>
+	</string>
+	<string id="gonta_about_mutants_11111">
+		<text>いいか、フレッシュはゾーンの中でも特におとなしいミュータントだ。
+\nちょっかいを出せば反撃してくるが、基本的にはストーカーに近寄ろうとしない。
+\nただし、群れの中にボアが混ざってたら、ちょいと厄介な話になる。
+\nボアは怒り狂った300キロの肉塊だ。遊びで手を出すような相手じゃない。
+\n突進してきたら、正面に立つな･･････ ヤツの勢いを利用してやるんだ。
+\nあれだけの巨体じゃ急には曲がれない。そうだろ？
+\nヤツの突進をさっと横に避けて、それからありったけの弾をぶち込んでやれ。</text>
+	</string>
+	<string id="gonta_about_mutants_1112">
+		<text>ブラインドドッグとスードウドッグについて教えてほしい。</text>
+	</string>
+	<string id="gonta_about_mutants_11121">
+		<text>1匹だけなら大して危険じゃないが、群れを相手にしたら尻を噛まれるぜ。
+\n奴らは空腹のときにしか襲ってこない･･････ ただ最悪なことに、いつも腹を空かせてやがる。
+\n大群に出くわしたら、高所に陣取って1匹ずつ確実に仕留めてやれ。
+\nそれができなきゃ、押し倒されて終わりだな。
+\nそれから、群れの中に成体のスードウドッグが混ざっていたら注意しろ。
+\nブラインドドッグと比べて特に頑丈ってわけでもねえが、ズル賢くてヤバいんだ･･････
+\nもし1匹の犬がいきなり“群れ”に変わったように見えたら、これから言うことを思い出せ。
+\nお前に襲い掛かってくるのは幻だ。スードウドッグの本体は後方に潜んでいる。
+\nたまに前に出てきて噛みつこうとしてくる･･････ そいつを見極めるんだ。
+\n本体さえ殺せば、幻影は全部消えてなくなるさ。</text>
+	</string>
+	<string id="gonta_about_mutants_1113">
+		<text>スノークについて教えてほしい。</text>
+	</string>
+	<string id="gonta_about_mutants_11131">
+		<text>スノークは人間の成れの果てさ･･････
+\nあいつらが1体いたところで、経験を積んだハンターには大した相手じゃない。
+\n跳びかかってくるのを待って、空中にいる間にぶち込んでやればいい。
+\nだが、複数いるとなると厄介だな。攻撃をかわしつつ、とにかく撃ちまくって数を減らせ。
+\n奴らもそれを理解しているようでな、一斉に連携して襲いかかってくるぞ。</text>
+	</string>
+	<string id="gonta_about_mutants_1114">
+		<text>トゥシュカノについて教えてほしい。</text>
+	</string>
+	<string id="gonta_about_mutants_11141">
+		<text>ハンターにとっては悪夢みたいなもんだ･･････
+\n理由は色々あるが、特に最悪なのは、小さいからとナメてかかることだな。
+\n奴らは信じられないほど素早く、機敏な上、常に群れで行動する。
+\nあの小さな牙が何十本も身体に食い込んでからようやく、油断していたことに気づくんだ。
+\n本当に震え上がるのはそれからだぜ･･････ 奴らに弾を当てるのは、とにかく難しい。
+\nだから俺はいつもストーカーに言ってるんだ。装填済みのショットガンを持ち歩けってな。</text>
+	</string>
+	<string id="gonta_about_mutants_1115">
+		<text>ブラッドサッカーについて教えてほしい。</text>
+	</string>
+	<string id="gonta_about_mutants_11151">
+		<text>あいつらは生まれつきのハンターだ。その上、最高の擬態能力まで持っていやがる。
+\n一度姿を消されたら、かろうじて見えるかどうかってところだ。ブラッドサッカーを
+\n狩るつもりなら、不意を突くことだな。動いてるときなら、まだ目で追えるんだが･･････
+\n忘れるな─奴らは背後から忍び寄って、首に触手を巻きつけてくる･･････ ゾッとするぜ。
+\nもし複数のブラッドサッカーに出くわすようなことがあったら、常に背後に気を配れよ。</text>
+	</string>
+	<string id="gonta_about_mutants_1116">
+		<text>分かった、もう大丈夫だ。</text>
+	</string>
+	<string id="owl_story_0">
+		<text>この静かな港について教えてくれ。</text>
+	</string>
+	<string id="owl_story_1">
+		<text>一体どこの誰が、俺に情報を求めてるってんだ？
+\nまあ、ここにいる誰もが知ってる話をひとつ教えてやるよ。
+
+\n\n昔、妙なストーカーがいてな─実は、そいつの正体はウクライナ保安庁の少佐だった。
+\nあいつはかなり頼りになるヤツで、危険な任務もいくつか片付けてくれた。
+\nだが最近になって、何もかもが悪い方向に向かい始めた･･････
+\nブレイン・スコーチャーとヤンターのミラクル・マシンが、また動き出したからだ。
+
+\n\nチェルノブイリ原子力発電所でも、明らかに“何か”の活動が行われている。
+\nその影響が目と鼻の先にまで迫ってるんだ。熟練のストーカー部隊が行方不明になった後、
+\n別の部隊が製材所の近くでMonolithと遭遇したらしい。その件で人々はザトンを去り、
+\n今ではミュータントどもがそれを好機とばかりに繁殖を続けている状況だ。
+\n･･････ここがルーキーの来るような場所じゃないのは、間違いないだろうな。</text>
+	</string>
+	<string id="owl_story_2">
+		<text>それでもここは完全には廃れていないようだな。他に覚えておくべきことは？</text>
+	</string>
+	<string id="owl_story_3">
+		<text>ああ。俺は情報屋だ。
+\n見渡せば分かるだろうが、ここに来る連中の中には一攫千金を狙ってる奴もいる。
+\nだがな、ここには危険が山ほどある─カルト、ミュータント、ゾンビ･･････ 何でもありだ。
+\nこの辺の湿地じゃ、ストーカーが命を落とすなんてことは珍しくない。
+\nだから、まぁ･･････ もしどこかで、そういう連中の死体を“見つけたら”でいいんだが･･････
+\nそいつらのPDAを持ってきてくれれば、俺は金を払う。何も聞かずにな。分かったか？</text>
+	</string>
+	<string id="owl_story_4">
+		<text>ああ、言いたいことは分かった。</text>
+	</string>
+	<string id="information_about_stash_owl_zat_0">
+		<text>隠し場所に関する情報は持ってるか？</text>
+	</string>
+	<string id="information_about_stash_owl_zat_1">
+		<text>情報なら何でも揃ってるぜ─金さえ払えば、だけどな。
+\nいろんな場所から仕入れた情報がたっぷりある。
+\n情報料は8,000ルーブルだ。値引きは一切しないぞ。</text>
+	</string>
+	<string id="information_about_stash_owl_zat1_0">
+		<text>これで頼む。%c[d_orange] [8,000ルーブル]</text>
+	</string>
+	<string id="information_about_stash_owl_zat1_1">
+		<text>よし、これが隠し場所の座標だ。</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_owl_0">
+		<text>フライトレコーダーのデータに興味はあるか？</text>
+	</string>
+	<string id="find_blackbox_mlr_reward_owl_1">
+		<text>おお、もちろんだ！こっちに寄こしてくれ。</text>
+	</string>
+	<string id="boroda_story_0">
+		<text>あんたがベアードだな。</text>
+	</string>
+	<string id="boroda_story_1">
+		<text>その通りだ。見ない顔だな･･････ スカドフスクへようこそ。</text>
+	</string>
+	<string id="boroda_story_2">
+		<text>ここでは何ができる？</text>
+	</string>
+	<string id="boroda_story_3">
+		<text>お前の好きなようにやればいいさ。
+\nスルタンがいなくなってからは、この辺でアーティファクトを探すのも楽になったしな。
+\nただし、変電所の作業場や廃棄物処理場の方に行くつもりなら、注意しろよ。
+\nあの辺は傭兵どもが陣取っていて、かなり手強い連中だからな。もしアーティファクトを
+\n見つけたら、ここに持ってこい。いい値段で買い取ってやる。気をつけろよ、ストーカー。</text>
+	</string>
+	<string id="boroda_story_4">
+		<text>ありがとう。</text>
+	</string>
+	<string id="devushka_boroda_help_0">
+		<text>よお、ベアード！まだ間に合うよな？プレゼントがあるんだ。</text>
+	</string>
+	<string id="devushka_boroda_help_1">
+		<text>ちょうどいいタイミングだな。ほら、お前ら2人に、骨折り料だ。</text>
+	</string>
+	<string id="noah_start_dialog_0">
+		<text>あんたは何を撃ったんだ？危うく死ぬところだったぞ！</text>
+	</string>
+	<string id="noah_start_dialog_1">
+		<text>それなら、お前は何しにここへ来た？俺の時間を無駄にするな。</text>
+	</string>
+	<string id="noah_start_dialog_2">
+		<text>わかった、落ち着け。俺はただ通りかかっただけだ。
+\n何か手助けはいるか？それと、少し質問してもいいか？</text>
+	</string>
+	<string id="noah_start_dialog_3">
+		<text>答えてやるよ･･････ だが、妙な真似はするなよ。</text>
+	</string>
+	<string id="noah_start_dialog1_0">
+		<text>それじゃあ、質問に答えてくれ。</text>
+	</string>
+	<string id="noah_start_dialog1_1">
+		<text>･･････</text>
+	</string>
+	<string id="noah_start_dialog1_2">
+		<text>この犬はどこで拾ったんだ？</text>
+	</string>
+	<string id="noah_start_dialog1_7">
+		<text>そいつはラッシーって名前だ。かわいい雌犬さ･･････
+\nこの子がいなかったら、俺はきっと寝てる間にむさぼり食われてただろうな。
+\n忌々しいミュータントどもめ･･････ 俺はアイツらが大嫌いだ！
+\n目を閉じた途端に、あの汚ねえ爪や牙、触手で襲いかかってくるんだからよ･･････</text>
+	</string>
+	<string id="noah_start_dialog1_8">
+		<text>なるほどな。</text>
+	</string>
+	<string id="noah_start_dialog1_9">
+		<text>ラッシーはいつもあんたと一緒にいるんだろ･･････ なら、あの仔犬は一体誰の子なんだ？</text>
+	</string>
+	<string id="noah_start_dialog1_3">
+		<text>どうしてこんなゴミ捨て場で暮らしてるんだ？</text>
+	</string>
+	<string id="noah_start_dialog1_10">
+		<text>ここは方舟だ！それと、これだけは覚えておけ･･････ 生き残りたいならな！
+\n襲撃が始まったら、ここから離れるな。ここにいれば、生き残るチャンスはある。
+\nミュータントは絶対に中に入ってこれないからな。</text>
+	</string>
+	<string id="noah_start_dialog1_11">
+		<text>襲撃とは何だ？何の話をしている？</text>
+	</string>
+	<string id="noah_start_dialog1_12">
+		<text>化け物どもだ。昼も夜も、奴らにずっと見張られてる。お前には分からんだろうがな･･････
+\n南の台地から来たスノークどもが、俺をこの方舟まで追ってきやがった！
+\n俺は熟練のハンター。あいつらがここまで執拗に獲物を追うなんて普通じゃない。
+\n何かがおかしい･･････ 奴らには“集団意識”のようなものがあるに違いない。
+\n最近、奴らが「はしけ」を襲ったことで、俺の考えは確信に変わったってわけだ。</text>
+	</string>
+	<string id="noah_start_dialog1_13">
+		<text>ゾーンでは何が起きてもおかしくないが、あんたの予測が正しければまずいことになるな。</text>
+	</string>
+	<string id="noah_start_dialog1_4">
+		<text>なぜ人を信用しないんだ？</text>
+	</string>
+	<string id="noah_start_dialog1_14">
+		<text>そのうち、お前にも分かるだろう。</text>
+	</string>
+	<string id="noah_start_dialog1_5">
+		<text>そろそろ行くよ。</text>
+	</string>
+	<string id="tasks_noah_dialog_0">
+		<text>何か助けがいるか？</text>
+	</string>
+	<string id="tasks_noah_dialog_1">
+		<text>そうだな･･････ いくつか頼みたいことがある。</text>
+	</string>
+	<string id="tasks_noah_dialog_2">
+		<text>[新しい散弾銃を見つける]</text>
+	</string>
+	<string id="tasks_noah_dialog_5">
+		<text>俺が今使っている銃はガラクタ同然だ。Saigaみたいな銃を持ってきてくれたらな･･････
+\nまぁ、ゾーンでそんな良い武器が都合よく手に入るわけがない。
+\nだが、俺はArmsel Protectaを持ったBanditを何人か見たことがある。
+\nそいつを手に入れてきてくれ。</text>
+	</string>
+	<string id="tasks_noah_dialog_3">
+		<text>[南部の台地でスノークに対処する]</text>
+	</string>
+	<string id="tasks_noah_dialog_6">
+		<text>あの忌まわしい化け物どもに終止符を打つ時だ。
+\n毎晩、はしけを這い回る音がするんだ･･････ 息を殺し、鼻を鳴らして待ち構えているのがな。
+\n南部の台地へ行くには、テレポートアノマリーを使わないと辿り着けないぞ。
+\n地図に印をつけておこう─場所は焼けた農場のすぐ近くだ。</text>
+	</string>
+	<string id="tasks_noah_dialog_4">
+		<text>気が変わった。</text>
+	</string>
+	<string id="task_1_noah_done_0">
+		<text>ほら、Armsel Protectaを持ってきたぞ。</text>
+	</string>
+	<string id="task_1_noah_done_1">
+		<text>･･････素晴らしい、助かったぞ。
+\nこれであいつらも、ここに手を出す前に少なくとも3回は考え直すようになるだろうな。</text>
+	</string>
+	<string id="task_2_noah_done_0">
+		<text>スノークどもを片付けたぞ。かなりの数がいたが、なぜ奴らはあんたを狙っていたんだ？</text>
+	</string>
+	<string id="task_2_noah_done_1">
+		<text>見当もつかんな。昔はたまに奴らを片付けていたが、今はそんな暇もなくてな･･････
+\n子犬たちの面倒を見なきゃならん─というわけで、世話になったな。</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_0">
+		<text>ここでの生活はどんな感じだ？</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1">
+		<text>漠然としてるな。具体的に聞いてくれれば答えられるが。</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1111">
+		<text>ストーカーたちはここで何をしているんだ？</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11111">
+		<text>それはお前自身がよく分かってることだろう。
+\nストーカーたちはスカドフスクを出発して、アーティファクトを探しに行く。
+\n襲いかかってくる連中がいれば反撃し、ここへ戻っては酒を飲み、くっちゃべって･･････
+\n次のお出かけまでの間はだらだらと過ごしている。
+
+\n\nだが、エミッションが来ると状況は一変する。
+\nその時は皆がここに身を隠し、避難が間に合わなかった奴らのことを考えてるのさ･･････</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1112">
+		<text>何がストーカーたちをゾーンの中心へ駆り立てるんだ？</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11121">
+		<text>面白い質問だ･･････ ある者は貴重なアーティファクトを求め、
+\nある者は“オアシス”の噂に惹かれ、ある者は願いを叶えるためにここに来る。
+\nあぁ、ただの好奇心で来る奴もいるな･･････ 皆、それぞれの理由があるのさ。
+\nお前も、何か目的があってここに辿り着いたんだろう？</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1113">
+		<text>あんたはどういう経緯でここに来たんだ？</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11131">
+		<text>ブレイン・スコーチャーが止まったあと、グラウスと一緒にやって来たんだ。
+\nだが、お前が聞きたいのはそこじゃないんだろう？俺の狙いはアーティファクトだ。
+\nゾーンの外には、こういった珍しい品に目がない金持ちがうじゃうじゃいる。
+\nそこで俺はストーカーたちのために拠点を設け、他では手に入らない品を扱うことにした。
+\nストーカーが帰ってきたとき、求めるものは何だと思う？
+\n冷えた一杯と仲間との語らいだ。それがここ、スカドフスクの魅力なんだよ。</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1114">
+		<text>Banditたちについてどう思う？</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11141">
+		<text>なんと言ったもんか。スカドフスクの中をうろつくだけなら、あいつらに文句はないさ。
+\n･･････人間らしく振舞っている間はな。結局、根っからのクソ野郎なんてそういないだろう。
+\n中にはストーカーだった奴もいる。そのうち、鉛弾を食らって死ぬ前に悪事から
+\n足を洗おうって考える奴が出てくるかもしれない･･････ ありえない話じゃないさ。</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_1115">
+		<text>あぁ、分かった。この話はやめよう。</text>
+	</string>
+	<string id="zat_a2_stalker_barmen_actor_info_11151">
+		<text>そうしよう。</text>
+	</string>
+	<string id="zat_b7_stalkers_victims_dialog_11">
+		<text>よお、ストーカー。俺は今忙しいんだ。後で話そう、いいよな？</text>
+	</string>
+	<string id="zat_b22_stalker_medic_start_1">
+		<text>何の用だ？</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_21">
+		<text>話を聞こう。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_22">
+		<text>やあ、助けが必要か？</text>
+	</string>
+	<string id="zat_b22_stalker_medic_dialog_start_23">
+		<text>やあ。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_0">
+		<text>医療処置を頼む。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1">
+		<text>傷を見せてくれ。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_2">
+		<text>ちょっと診てみよう･･････ ふむ、見たところ異常はなさそうだな。
+\n外傷もないし、放射線障害の兆候も見られない。これなら問題なく動けるだろう。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_111">
+		<text>正直に言おう─医療キットを何個か使えば治る怪我だ。
+\nでも俺なら、1,850ルーブルで大抵の不調を治してやれる。とびきり効く血清があるんだ。
+\nすぐに歩けるようになるぞ･･････ ただし、体内に残った放射性物質までは取り除けない。
+\nそれを除去したいなら、さらに1,480ルーブルが必要だな。さて、どうする？</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_11">
+		<text>何？そんなに悪いのか？</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1111">
+		<text>そうか。金を払うから、すぐに手当てしてくれ。健康が一番大事だ。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1112">
+		<text>それなら、放射線の除去だけ頼む。怪我の方は自分でなんとかする。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_1113">
+		<text>何を言ってるか分かってるのか、お医者さんよ？テメエ自身を治せよ！</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_11111">
+		<text>少し待ってくれ･･････ よし、もう大丈夫だ。行っていいぞ。</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_11112">
+		<text>よし、この程度の放射線なら死ぬことはないだろう。少なくとも今のところはな。
+\nただし、出血で死んでも俺は責任を取れないぜ。じゃあ、頑張れよ、相棒！</text>
+	</string>
+	<string id="zat_b22_stalker_medic_need_health_care_11113">
+		<text>お望み通りに。ただし、いきなり死んでも俺を責めないでくれよ。</text>
+	</string>
+	<string id="zat_b18_noah_start_11">
+		<text>お前は誰だ？</text>
+	</string>
+	<string id="zat_b18_noah_start_111">
+		<text>ストーカーだ、前にも会っただろう。</text>
+	</string>
+	<string id="zat_b18_noah_start_1111">
+		<text>思い出せん･･････ まあいい、何か必要なのか？</text>
+	</string>
+	<string id="zat_b18_noah_start_112">
+		<text>俺はただのストーカーだ。</text>
+	</string>
+	<string id="zat_b18_noah_start_1121">
+		<text>ほう。避難場所を探して我が“方舟”にやってきたのか？
+\n自分の家だと思ってくつろいでくれ。</text>
+	</string>
+	<string id="zat_b18_noah_start_113">
+		<text>あんたには関係ないだろう。</text>
+	</string>
+	<string id="zat_b18_noah_start_21">
+		<text>ああ、あんたか。何か用か？</text>
+	</string>
+	<string id="zat_b3_stalker_tech_start_15">
+		<text>賢い選択だな、相棒。銃は常に完璧な状態にしておかないとな･･････
+\nそれに、酒を1本か2本持ってきてくれりゃ、ここで色々とアップグレードしてやるよ。
+\nショットガンにパラシュートを縫い付けるってのはどうだ？俺ならできるぜ、へへっ。</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_1_0">
+		<text>酒があるんだが、一杯やるか？</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_1_2">
+		<text>いや、もう酒はやめたんだよ。
+\n«アイテム62»を見たときに思ったんだ。「もうダメだ、手が震えてやがる」ってな･･････
+\n結局、酒ってのは体をダメにするだけなんだよ。健康的な生活には不要だしな。
+\nそれに俺がくたばったら、ガウスライフルのバッテリーを誰が作るってんだ？</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_2_0">
+		<text>もう1本あるぞ。</text>
+	</string>
+	<string id="zat_b3_stalker_tech_drink_3_0">
+		<text>3本目を持ってきたぞ。あんたが飲むならな。</text>
+	</string>
+
+<!-- Nimble -->
+	<string id="player_inquiry">
+		<text>銃のアップグレードを頼みたい。</text>
+	</string>
+	<string id="nimble_response">
+		<text>よし、どの銃をアップグレードしたいんだ？
+\nちなみに、使えなくなった銃を持ってくるのはやめてくれよ。
+\nアップグレードするなら、銃も部品も、最低でも90%以上の耐久値がないとダメだ。</text>
+	</string>
+	<string id="option_pistol_0">
+		<text>ピストルを頼む。</text>
+	</string>
+	<string id="option_cqc_0">
+		<text>近距離戦闘用銃を頼む。</text>
+	</string>
+	<string id="option_rifle_0">
+		<text>アサルトライフルを頼む。</text>
+	</string>
+	<string id="option_sniper_0">
+		<text>スナイパーライフルを頼む。</text>
+	</string>
+	<string id="option_pistol_1">
+		<text>どのピストルだ？</text>
+	</string>
+	<string id="option_cqc_1">
+		<text>どの近距離戦闘用銃だ？</text>
+	</string>
+	<string id="option_rifle_1">
+		<text>どのアサルトライフルだ？</text>
+	</string>
+	<string id="option_sniper_1">
+		<text>どのスナイパーライフルだ？</text>
+	</string>
+	<string id="option_pistol_2_1">
+		<text>M1911のダメージ改良型を頼む。%c[d_orange] [50,000ルーブル]</text>
+	</string>
+	<string id="option_pistol_2_2">
+		<text>M1911の発射速度改良型を頼む。%c[d_orange] [70,000ルーブル]</text>
+	</string>
+	<string id="option_pistol_2_3">
+		<text>Desert Eagleを頼む。%c[d_orange] [50,000ルーブル]</text>
+	</string>
+	<string id="option_pistol_2_4">
+		<text>USPを頼む。%c[d_orange] [30,000ルーブル]</text>
+	</string>
+	<string id="option_cqc_2_1">
+		<text>Protectaを頼む。%c[d_orange] [30,000ルーブル]</text>
+	</string>
+	<string id="option_cqc_2_2">
+		<text>SPAS-12を頼む。%c[d_orange] [30,000ルーブル]</text>
+	</string>
+	<string id="option_cqc_2_3">
+		<text>TOZ-34を頼む。%c[d_orange] [45,000ルーブル]</text>
+	</string>
+	<string id="option_cqc_2_4">
+		<text>MP5を頼む。%c[d_orange] [65,000ルーブル]</text>
+	</string>
+	<string id="option_rifle_2_1">
+		<text>G36を頼む。%c[d_orange] [45,000ルーブル]</text>
+	</string>
+	<string id="option_rifle_2_2">
+		<text>Grozaを頼む。%c[d_orange] [45,000ルーブル]</text>
+	</string>
+	<string id="option_rifle_2_3">
+		<text>PKMを頼む。%c[d_orange] [100,000ルーブル]</text>
+	</string>
+	<string id="option_sniper_2_1">
+		<text>DVL-10 Urbanaを頼む。%c[d_orange] [45,000ルーブル]</text>
+	</string>
+	<string id="option_sniper_2_2">
+		<text>DVL-10 Saboteurを頼む。%c[d_orange] [45,000ルーブル]</text>
+	</string>
+	<string id="option_sniper_2_3">
+		<text>SVUを頼む。%c[d_orange] [45,000ルーブル]</text>
+	</string>
+	<string id="convo_exit">
+		<text>やっぱりやめておく。</text>
+	</string>
+	<string id="convo_back">
+		<text>アップグレードできる銃の種類を教えてくれ。</text>
+	</string>
+	<string id="nimble_rant_missing_gun_and_money">
+		<text>金も持たずに、しかも持ってもいない銃のアップグレードを頼みに来たってんなら、
+\n俺はルカシェンコになるべきだな。そしてあんたを逮捕してやるさ。</text>
+	</string>
+	<string id="nimble_rant_missing_gun">
+		<text>在庫があるわけじゃないんだ。銃を持ってきて出直してくれないか？</text>
+	</string>
+	<string id="nimble_rant_missing_money">
+		<text>金がないなら、どうやって部品を調達しろってんだ？金を持ってこい、話はそれからだ。</text>
+	</string>
+	<string id="player_acknowledge">
+		<text>分かった。</text>
+	</string>
+</string_table>

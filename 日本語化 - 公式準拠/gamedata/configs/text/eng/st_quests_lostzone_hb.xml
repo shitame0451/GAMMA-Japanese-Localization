@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--===========================================================
+<
+< TEXT STRINGS FOR LOST TO THE ZONE: HOLLOW BOUNDARIES TASKS
+<	Anomaly 1.5 - Lost to the Zone: Hollow Boundaries
+<
+<===========================================================-->
+
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+	<string id="st_hb_isg_dushman_intel_name">
+		<text>ドゥシュマンの機密情報</text>
+	</string>
+	<string id="st_hb_isg_dushman_intel_desc">
+		<text>%c[pda_white]ドゥシュマンが約束を守ったなら、重要な地図やメモが入っているはずだ。これがあれば、今後のUNISGの任務に伴うリスクを大幅に軽減できるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
+	</string>
+
+<!--
+	QUEST
+-->
+
+	<!-- Hollow Boundaries Arc 1 -->
+	<string id="lttz_hb_task_1_1_dushman_intel_name">
+		<text>中空の境界線: 機密情報</text>
+	</string>
+	<string id="lttz_hb_task_1_1_dushman_intel_desc">
+		<text>「ドゥシュマン」という人物を探し出し、国連が彼から買い取った重要な情報を受け取る。</text>
+	</string>
+
+	<string id="lttz_hb_task_1_2_recruit_name">
+		<text>中空の境界線: 待ち合わせ</text>
+	</string>
+	<string id="lttz_hb_task_1_2_recruit_desc">
+		<text>機密情報をジュピターの指定場所に届ける。</text>
+	</string>
+
+
+	<!-- Hollow Boundaries Arc 2 -->
+	<string id="lttz_hb_task_2_1_guarded_secrets_name_1">
+		<text>中空の境界線: ジュピター工場を調査</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_name_2">
+		<text>中空の境界線: ヘルナンデス少佐のところに戻る</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_desc_1">
+		<text>ジュピター工場を調べ、ブリーフケースを見つける必要がある。目撃者はすべて排除しなければならない。</text>
+	</string>
+	<string id="lttz_hb_task_2_1_guarded_secrets_desc_2">
+		<text>ブリーフケースをヘルナンデス少佐に渡す。</text>
+	</string>
+
+	<string id="lttz_hb_task_2_2_breakthrough_name_1">
+		<text>中空の境界線: 突破</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_name_2">
+		<text>中空の境界線: ヘルナンデス少佐と話す</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_desc_1">
+		<text>ジュピター地下に書類が残されている可能性がある。それを見つけなくてはならない。</text>
+	</string>
+	<string id="lttz_hb_task_2_2_breakthrough_desc_2">
+		<text>見つけた文書をヘルナンデス少佐に届ける。</text>
+	</string>
+
+	<!-- Hollow Boundaries Arc 3 -->
+	<string id="st_lttz_hb_task_3_1_search_agr_ug_name">
+		<text>アフロプロム地下を調査</text>
+	</string>
+	<string id="st_lttz_hb_task_3_1_search_agr_ug_text">
+		<text>アフロプロム地下を調査し、陰謀の決定的な証拠を探し出す。</text>
+	</string>
+	<string id="st_lttz_hb_task_3_2_search_labx18_name">
+		<text>ラボX18を調査する</text>
+	</string>
+	<string id="st_lttz_hb_task_3_2_search_labx18_text">
+		<text>ラボX18を調査し、陰謀を裏付ける証拠を突き止める。</text>
+	</string>
+	<string id="st_lttz_hb_task_3_3_search_labx16_name">
+		<text>ラボX16を調査する</text>
+	</string>
+	<string id="st_lttz_hb_task_3_3_search_labx16_text">
+		<text>ラボX16を調査し、陰謀を裏付ける証拠を突き止める。</text>
+	</string>
+	<string id="st_lttz_hb_task_3_4_search_labx10_name">
+		<text>ラボX19を調査する</text>
+	</string>
+	<string id="st_lttz_hb_task_3_4_search_labx10_text">
+		<text>ラボX19を調査し、陰謀を裏付ける証拠を突き止める。</text>
+	</string>
+	<string id="st_lttz_hb_task_3_5_search_labx8_name">
+		<text>ラボX8を調査する</text>
+	</string>
+	<string id="st_lttz_hb_task_3_5_search_labx8_text">
+		<text>ラボX8を調査し、陰謀を裏付ける証拠を突き止める。</text>
+	</string>
+	<string id="lttz_hb_task_3_8_handle_docs_name">
+		<text>暴かれた謎</text>
+	</string>
+	<string id="lttz_hb_task_3_8_handle_docs_text">
+		<text>発見した証拠を持って少佐のもとに戻る。</text>
+	</string>
+
+	<!-- Hollow Boundaries Arc 4 -->
+	<string id="lttz_hb_task_4_1_crossfire_1_name">
+		<text>十字砲火: 軍の部隊を殲滅する</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_2_name">
+		<text>十字砲火: ストレロクと取引する</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_3_name">
+		<text>十字砲火: ストレロクを護衛する</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_4_name">
+		<text>十字砲火: ストレロクと話す</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_5_name">
+		<text>十字砲火: ストレロクを殺す</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_6_name">
+		<text>十字砲火: ストレロクの死体を調査する</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_7_name">
+		<text>十字砲火: ヘルナンデス少佐のところに戻る</text>
+	</string>
+
+	<string id="lttz_hb_task_4_1_crossfire_1_desc">
+		<text>プリピャチ郊外でストレロクを追っている軍の分隊を排除する。</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_2_desc">
+		<text>軍の分隊を排除した。ストレロクから情報を聞き出そう。</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_3_desc">
+		<text>ストレロクを赤い森まで護衛するか、ジュピター地下のUNISG基地に誘導して拘束する。</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_4_desc">
+		<text>ストレロクに話を聞く。</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_5_desc">
+		<text>ストレロクを排除する。</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_6_desc">
+		<text>ストレロクは死んだ。彼を調べ、有用な情報を探す。</text>
+	</string>
+	<string id="lttz_hb_task_4_1_crossfire_7_desc">
+		<text>入手したフラッシュドライブをヘルナンデス少佐に渡す。</text>
+	</string>
+
+
+	<!-- Maus (ISG Mechanic) Find Level 1 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_1_name">
+		<text>マウスのために%sを見つける</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_text">
+		<text>マウスは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_about">
+		<text>提案があるんだ。新しいツールを持ってきてくれたら、報酬を出すぜ。どうだ？</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_fetch_about">
+		<text>%sをあちこち探し回ってるんだがな。
+\n銃の修理に必要なもので、中にはオイルと工具が入ってるはずだ。
+\n持ってきてくれたら、報酬は弾むぜ。</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_1_fetch_finish">
+		<text>最高だ！これを待ってたんだよ。感謝するぜ！</text>
+	</string>
+
+	<!-- Maus (ISG Mechanic) Find Level 2 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_2_name">
+		<text>マウスのために%sを見つける</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_text">
+		<text>マウスは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_about">
+		<text>もうひとつ提案があるんだ。
+\n持ってきてくれたツールのおかげでうまくやれてるが、必要なものがまだ足りなくてな。
+\nもっと良いツールを探してくれないか？</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_fetch_about">
+		<text>%sがどうしても必要なんだ。
+\nどこで手に入るか分からないが、もし手に入るなら、喉から手が出るほど欲しい。</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_2_fetch_finish">
+		<text>必要なものが全部揃ってるな。助かったぜ。</text>
+	</string>
+
+	<!-- Maus (ISG Mechanic) Find Level 3 Toolkit Task -->
+	<string id="jup_depo_isg_tech_task_3_name">
+		<text>マウスのために%sを見つける</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_text">
+		<text>マウスは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_about">
+		<text>もうひとつ提案があるんだ。
+\n持ってきてくれたツールのおかげでうまくやれてるが、必要なものがまだ足りなくてな。
+\nもっと良いツールを探してくれないか？</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_fetch_about">
+		<text>%sがどうしても必要なんだ。
+\nどこで手に入るか分からないが、もし手に入るなら、喉から手が出るほど欲しい。</text>
+	</string>
+	<string id="jup_depo_isg_tech_task_3_fetch_finish">
+		<text>必要なものが全部揃ってるな。助かったぜ。</text>
+	</string>
+
+</string_table>

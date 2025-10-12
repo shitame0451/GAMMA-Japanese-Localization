@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<string_table>
+
+	<string id="st_addon_scope_lazup_generic">
+		<text>レーザーモジュール</text>
+	</string>
+	<string id="st_addon_scope_lazup_generic_descr">
+		<text>集光レーザーを照射するアタッチメント。腰撃ち時の精度を高め、特に低照度環境での素早いターゲット捕捉を可能にする。反応射撃を重視する者に人気があり、サイトを覗く余裕のない近距離戦闘では特に重宝される。ほとんどの状況でナイトビジョンとの併用が可能。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+</string_table>

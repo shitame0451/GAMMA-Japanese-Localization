@@ -1,0 +1,29 @@
+-- placeable_furniture.script
+
+-- ===================================================================
+--  placeable_furniture.scriptからそのままコピー
+-- ===================================================================
+gc = game.translate_string
+
+local function print_msg(string_id)
+	local msg = gc(string_id)
+	if ui_popup_messages then
+		ui_popup_messages.GUI:AddMessage(msg)
+	else
+		actor_menu.set_msg(1, msg, 3)
+	end
+end
+
+-- ===================================================================
+--  pickup_obj （家具を拾う時のメッセージ）
+-- ===================================================================
+local original_pickup_obj = placeable_furniture.pickup_obj
+
+placeable_furniture.pickup_obj = function(obj)
+	local wrapper = bind_hf_base.get_wrapper(obj:id())
+	if not wrapper then return end
+	if wrapper:is_pickupable() then
+		wrapper:pickup()
+		print_msg("アイテムを拾った")	-- 文章のみ変更
+	end
+end

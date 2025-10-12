@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="ui_mcm_extra_level_transitions_title">
+		<text>Extra Level Transitions</text>
+	</string>
+	<string id="ui_mcm_menu_extra_level_transitions">
+		<text>Level Transitions</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_enable_time_advance">
+		<text>時間経過を有効にする</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_enable_time_advance_desc">
+		<text>マップ移動で時間が進むようになります。</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_delete_level_transitions">
+		<text>Extra Level Transitionsを削除する</text>
+	</string>
+	<string id="ui_mcm_extra_level_transitions_delete_level_transitions_desc">
+		<text>Extra Level Transitionsをゲームから削除します。\nこのオプションはMODを安全に削除するためのものです。</text>
+	</string>
+	
+</string_table>

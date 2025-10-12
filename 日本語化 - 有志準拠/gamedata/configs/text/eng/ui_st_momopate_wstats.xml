@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<string_table>
+
+	<string id="ui_inv_wrange">
+		<text>%c[pda_white]最大射程:</text>
+	</string>
+	<string id="ui_inv_bspeed">
+		<text>%c[pda_white]初速:</text>
+	</string>
+	<string id="ui_inv_drag">
+		<text>%c[pda_white]空気抵抗:</text>
+	</string>
+	<string id="ui_inv_reli">
+		<text>%c[pda_white]信頼性:</text>
+	</string>
+	<string id="ui_inv_recoil">
+		<text>%c[pda_white]反動制御:</text>
+	</string>
+
+	<string id="st_stat_meters">
+		<text>m</text>
+	</string>
+	<string id="st_stat_speed">
+		<text>m/秒</text>
+	</string>
+
+</string_table>

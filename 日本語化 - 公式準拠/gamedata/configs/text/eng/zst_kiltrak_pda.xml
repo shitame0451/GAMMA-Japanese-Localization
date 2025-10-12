@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+	<string id="st_pda_3_name">
+		<text>PDA v3.1 KilTrak™</text>
+	</string>
+	<string id="st_pda_3_descr">
+		<text>PDA（Personal Digital Assistant）はストーカーに必要不可欠なデバイスで、ゾーンでの移動や通信をサポートする機能を備えている。マップや任務ログ、メッセージ機能が搭載されており、行動の管理や目標の把握に役立つ。コンパクトで持ち運びやすく、日々の活動に欠かせない存在だ。
+\nこのモデルは大幅に改良され、ネットワークに接続された他のモジュールの位置を取得・処理できるようになっている。ただし、高度な機能を利用するには専用の認証コードが求められる。さらに、IMI社の「KilTrak」の海賊版がインストールされている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]中立派閥の分隊と排除した標的の位置を表示する\n
+		</text>
+	</string>
+</string_table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="st_addon_scope_sup_new">
+		<text>S.U.P. スペシャルアップグレードパック</text>
+	</string>
+	<string id="st_addon_scope_sup_new_descr">
+		<text>様々な銃のアップグレードに使用できる工具、部品、スコープが含まれたアタッチメントキット。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+</string_table>

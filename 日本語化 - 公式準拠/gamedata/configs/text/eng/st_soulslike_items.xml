@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<string id="st_soulslike_rescuers_radio_frequency_note_name">
+		<text>救助者のメモ</text>
+	</string>
+
+	<string id="st_soulslike_rescuers_radio_frequency_note_desc">
+		<text>救出してくれたストーカーが書いたメモだ。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_soulslike_rescuers_radio_frequency_note_message">
+		<text>所持品の場所に関する情報だ RF受信機の周波数を%sに合わせ、%sで使用するように書かれている</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+	<!-- FIND LEVEL 1 TOOLKIT FOR BANDIT MLR TASK -->
+
+  <string id="trucks_cemetery_bandit_mechanic_task_1_name">
+    <text>Banditの技術者のために%sを見つける</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_1_text">
+    <text>トラック墓地にいる技術者から、%sを持ってくるように頼まれた。</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_1_about">
+    <text>なあ兄弟、ここにある装備のほとんどはバラバラになってやがるんだよ。
+\nそんで、俺にはここの連中のためにマジでツールが必要なんだ。助けてくれねえか？</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_1_fetch_about">
+    <text>なあ兄弟、ここにある装備のほとんどはバラバラになってやがるんだよ。
+\nそんで、俺にはここの連中のためにマジでツールが必要なんだ。助けてくれねえか？</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_1_fetch_finish">
+    <text>おっ！そうそう、こいつが欲しかったんだよ！
+\nよし･･････ 助けてくれた礼に、アンタには割引してやるぜ。</text>
+  </string>
+
+
+	<!-- FIND LEVEL 2 TOOLKIT FOR BANDIT MLR TASK -->
+
+  <string id="trucks_cemetery_bandit_mechanic_task_2_name">
+    <text>Banditの技術者のために%sを見つける</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_2_text">
+    <text>トラック墓地にいる技術者から、%sを持ってくるように頼まれた。</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_2_about">
+    <text>この地域は辺境もいいとこだが、ここだけは別だぜ･･････ 戦略的拠点ってやつだ！
+\n仲間に思いっきり火力をぶっ放してもらうためには、もっといいツールが必要だ。
+\nなあ、あんた。もっかい助けちゃくれねえか？</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_2_fetch_about">
+    <text>この地域は辺境もいいとこだが、ここだけは別だぜ･･････ 戦略的拠点ってやつだ！
+\n仲間に思いっきり火力をぶっ放してもらうためには、もっといいツールが必要だ。
+\nなあ、あんた。もっかい助けちゃくれねえか？</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_2_fetch_finish">
+    <text>おいおい、マジかよ。アンタは最高だぜ。
+\n間違いなく割引するぜ！もちろん、今までの値引きからもっとだ。</text>
+  </string>
+
+
+	<!-- FIND LEVEL 3 TOOLKIT FOR BANDIT BANDIT TASK -->
+
+  <string id="trucks_cemetery_bandit_mechanic_task_3_name">
+    <text>Banditの技術者のために%sを見つける</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_3_text">
+    <text>トラック墓地にいる技術者から、%sを持ってくるように頼まれた。</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_3_about">
+    <text>のんびり座って悪党気取りでくつろいでたらさ、何かが足りねえって気づいたんだよ。
+\nそうだ、イカしたツールが必要だ！ってな。で、どうだ？探すのを手伝ってくれねえか？</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_3_fetch_about">
+    <text>のんびり座って悪党気取りでくつろいでたらさ、何かが足りねえって気づいたんだよ。
+\nそうだ、イカしたツールが必要だ！ってな。で、どうだ？探すのを手伝ってくれねえか？</text>
+  </string>
+  <string id="trucks_cemetery_bandit_mechanic_task_3_fetch_finish">
+    <text>うお！マジで見つけてくれたのかよ！ありがとな、相棒。アンタは最高だ。
+\n今までで一番の大サービスしてやるよ。たっぷり使ってくれ。また助かったぜ、ホント。</text>
+  </string>
+
+</string_table>

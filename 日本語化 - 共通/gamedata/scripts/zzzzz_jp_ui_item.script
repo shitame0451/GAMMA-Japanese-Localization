@@ -1,0 +1,133 @@
+-- ui_item.script
+
+-- ===================================================================
+--  build_desc_footer （アイテムチップの整形）
+-- ===================================================================
+local original_build_desc_footer = ui_item.build_desc_footer
+
+ui_item.build_desc_footer = function(obj, sec, str)
+	local text = original_build_desc_footer(obj, sec, str)
+	if not text then return text end
+
+	-- 文頭の余分な改行を削除
+	text = text:gsub("^\\n+", "")
+
+	-- 「トリガーメカニズム」と「基本価格」の間の改行を2つにする
+	text = text:gsub(
+		game.translate_string("st_name_trigger") .. "\\n(%%c%[[^%]]-%])",
+		game.translate_string("st_name_trigger") .. "\\n\\n%1"
+	)
+
+	-- アイテム基本価格のカンマ区切り&日本語化
+	text = text:gsub(
+		"基本価格: *" .. "(%d+)" .. " *RU", function(num)
+		return "基本価格: " .. japanese_patch.commas_to_number(num) .. " ルーブル"
+	end
+	)
+
+	-- 「  •  "色指定" 」→「  • "色指定"」 （置換前の"•"は文字化けしているので"."で「任意の1文字」として指定）
+	text = text:gsub(
+		"  . (%%c%[[^%]]-%]) ",
+		"  • %1"
+	)
+
+	-- 「: "色指定" 」→「: "色指定"」
+	text = text:gsub(
+		": (%%c%[[^%]]-%]) ",
+		": %1"
+	)
+
+	-- 「ダッシュ 」→「ダッシュ: 」
+	text = text:gsub(
+		"ダッシュ ",
+		"ダッシュ: "
+	)
+
+	-- 特殊アーティファクトの余分な改行を削除
+	text = text:gsub(
+		"\\n *\\n *\\n%%c%[pda_white%] 特殊能力",
+		"\\n \\n%%c[pda_white] 特殊能力"
+	)
+
+	-- 部品の所有情報の余分な改行を削除（Workshop's Parts Inventory）
+	text = text:gsub(
+		"\\n *\\n *\\n" .. game.translate_string("st_zk_tooltip_section"),
+		"\\n \\n" .. "%%c[pda_white] " .. game.translate_string("st_zk_tooltip_section")
+	)
+	text = text:gsub(
+		"%%c%[[^%]]-%]インベントリに",
+		"%%c[255,238,153,26]" .. "  • " .. "%%c[255,250,250,250]インベントリに"
+	)
+	text = text:gsub(
+		"%%c%[[^%]]-%]ワークショップに",
+		"%%c[255,238,153,26]" .. "  • " .. "%%c[255,250,250,250]ワークショップに"
+	)
+	text = text:gsub(
+		"%%c%[[^%]]-%]所有 (%(%%c%[[^%]]-%]%d+%%%%c%[[^%]]-%]%))",
+		"%%c[255,250,250,250]所有 %1\\n"
+	)
+
+	-- 文末の余分な改行を一つにまとめる
+	text = text:gsub(
+		"\\n *\\n *\\n$",
+		"\\n"
+	)
+	text = text:gsub(
+		"\\n *\\n$",
+		"\\n"
+	)
+
+	-- マルチツールの特性部分（応急処置）
+	text = text:gsub("ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\\n \\n %%c%[pda_white%]特性:\\n %%c%[d_cyan%] • %%c%[pda_white%]アイテム分解ツール\\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]耐久値の回復量: %%c%[255,170,170,170%]%+%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理に最低限必要な耐久値: %%c%[255,170,170,170%]%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理ボーナス: %%c%[255,170,170,170%]%+%d+%% \\n",
+	"ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\\n \\n %%c[pda_white]特性:\\n %%c[d_cyan] • %%c[pda_white]アイテム分解ツール\\n")
+
+	--printf("[JP Patch] build_desc_footer: [%s]", text)
+
+	return text
+end
+
+-- ===================================================================
+--  get_article_name （日本語には不要な処理 remove_parentheses に渡すだけ）
+-- ===================================================================
+local original_get_article_name = ui_item.get_article_name
+
+ui_item.get_article_name = function(str)
+	if not str then return "" end
+
+	str = ui_item.remove_parentheses(str)
+
+	--printf("[JP Patch] get_article_name: %s", str)
+
+	return str
+end
+
+-- ===================================================================
+--  get_plural_name （日本語には不要な処理 remove_parentheses に渡すだけ）
+-- ===================================================================
+local original_get_plural_name = ui_item.get_plural_name
+
+ui_item.get_plural_name = function(str)
+	if not str then return "" end
+
+	str = ui_item.remove_parentheses(str)
+
+	--printf("[JP Patch] get_plural_name: %s", str)
+
+	return str
+end
+
+-- ===================================================================
+--  remove_parentheses （日本語用の処理を追加）
+-- ===================================================================
+local original_remove_parentheses = ui_item.remove_parentheses
+
+ui_item.remove_parentheses = function(str)
+	if not str then return "" end
+
+	str = original_remove_parentheses(str)	-- 一応オリジナルの処理を走らせる
+
+	str = str:gsub("（ソードオフ）", "")
+	str = str:gsub("（カスタム）", "")
+
+	return str
+end

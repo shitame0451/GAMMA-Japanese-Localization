@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<string id="st_wpn_steyr_scout">
+		<text>Steyr Scout 5.56</text>
+	</string>
+	<string id="st_wpn_steyr_scout_descr">
+		<text>アメリカ海兵隊の伝説的な人物であるジェフ・クーパー中佐と共同開発されたScoutは、未来志向の設計と革新的な技術的解決策が組み合わさっている。汎用性、軽量さ、そして800mまでの精度を誇るこのライフルは、まさに職人技の結晶だ。このモデルは5.56x45mm弾を使用する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Mannlicher\n
+		</text>
+	</string>
+
+<string id="st_wpn_steyr_scout_big">
+		<text>Steyr Scout 7.62</text>
+	</string>
+	<string id="st_wpn_steyr_scout_big_descr">
+		<text>アメリカ海兵隊の伝説的な人物であるジェフ・クーパー中佐と共同開発されたScoutは、未来志向の設計と革新的な技術的解決策が組み合わさっている。汎用性、軽量さ、そして800mまでの精度を誇るこのライフルは、まさに職人技の結晶だ。このモデルは7.62x51mm弾を使用する。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Mannlicher\n
+		</text>
+	</string>
+
+<string id="st_mag_steyr_556">
+		<text>Steyr Scout用マガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_steyr_556_descr">
+		<text> </text>
+	</string>
+
+<string id="st_mag_steyr_762">
+		<text>Steyr Scout用マガジン（7.62x51）</text>
+	</string>
+	<string id="st_mag_steyr_762_descr">
+		<text> </text>
+	</string>
+
+</string_table>

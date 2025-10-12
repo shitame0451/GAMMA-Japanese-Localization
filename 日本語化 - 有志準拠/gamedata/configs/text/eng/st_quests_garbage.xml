@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!-- Butcher -->
+	<string id="hunter_gar_trader_task_1_name">
+		<text>ミュータント駆除</text>
+	</string>
+	<string id="hunter_gar_trader_task_1_text">
+		<text>ブッチャーは駆除が必要なミュータントの巣を突き止めた。</text>
+	</string>
+	<string id="hunter_gar_trader_task_1_about">
+		<text>最近ミュータントの巣を一つ見つけたんだが、あれは掃除する必要がありそうだな。
+\n地元のストーカーたちが手を焼き始めてるみたいだが、
+\n腕の立つハンターなら、準備を整えていけば問題なく片付けられるだろうよ。
+
+\n\nどうだ、今日は狩りに出る気分か？
+\nアンタの腕前に見合った報酬は払うし、手に入れた肉や戦利品は俺が買い取ってやるぞ。</text>
+	</string>
+	<string id="hunter_gar_trader_task_1_finish">
+		<text>この地域の生態系が元に戻ったな･･････ へへっ。お手柄だ、報酬を受け取りな。</text>
+	</string>
+	<string id="hunter_gar_trader_task_2_name">
+		<text>ブッチャーのために%sを見つける</text>
+	</string>
+	<string id="hunter_gar_trader_task_2_text">
+		<text>ブッチャーから%sを持ってくるように頼まれた。</text>
+	</string>
+	<string id="hunter_gar_trader_task_2_about">
+		<text>ミュータントの肉に大金を払う奴らがいるぜ。</text>
+	</string>
+	<string id="hunter_gar_trader_task_2_fetch_about">
+		<text>俺はたまにミュータント肉を加工してバーキープや他のトレーダーに送ってるんだ。
+\nあいつら、輸入食品だけじゃやってけねえからな。
+\nちょうど今、%sを大量に用意しようと思ってる。
+\nそれを持ってきてくれたら、アンタのポケットに金が入るってわけだ。どうだい？</text>
+	</string>
+	<string id="hunter_gar_trader_task_2_fetch_finish">
+		<text>ああ、見事だな！今はまだ不味そうな肉に見えるだろうが、調理するまで待ってくれ。
+\nきっと最高の味になるぞ！</text>
+	</string>
+
+	
+<!-- Flea Market -->
+	<string id="baraholka_trader_night_task_1_name">
+		<text>%sを見つける</text>
+	</string>
+	<string id="baraholka_trader_night_task_1_text">
+		<text>フリーマーケットのトレーダーは%sを必要としている。</text>
+	</string>
+	<string id="baraholka_trader_night_task_1_about">
+		<text>貴重なアーティファクトを探して報酬を得たいか？いい装備をいくつか提供できるぜ。</text>
+	</string>
+	<string id="baraholka_trader_night_task_1_fetch_about">
+		<text>珍しいアーティファクトを捜索して報酬を得ることに興味はあるか？
+\n%sを持ってきたら報酬をやるぜ。</text>
+	</string>
+	<string id="baraholka_trader_night_task_1_fetch_finish">
+		<text>ああストーカー、素晴らしい仕事っぷりだ。これをあんたにやろう。</text>
+	</string>
+</string_table>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TEXT  STRINGS FOR TASKS ON ESCAPE (CORDON) MAP -->
+
+<string_table>
+
+
+	<!-- STORYLINE TASK TEXT  STRINGS -->
+
+	<!-- Sidorovich (Loner Trader) Default Storyline Task -->
+
+	<string id="drx_sl_esc_m_trader_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_default_task_text">
+		<text>シドロヴィッチが仕事を用意しているという人物の連絡先を教えてくれた。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_default_task_about">
+		<text>今はお前にやらせる仕事はないが、仕事をくれそうな奴なら紹介できるぞ。
+\n地図に場所を入力しておこう。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_default_task_finish">
+		<text>幸運を祈るぞ、ストーカー。</text>
+	</string>
+
+	<!-- Sidorovich (Loner Trader) Mutant Safari Storyline Task -->
+
+	<string id="drx_sl_esc_m_trader_task_1_name">
+		<text>ミュータント動物園</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_task_1_text">
+		<text>観光客のグループを率いてミュータント狩りに行くように頼まれた。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_task_1_about">
+		<text>ミュータントを殺すところを見たいという観光客が来る。
+\nお前が連中を狩りに連れて行って、スリルを味わわせてやれ。
+\nただし、観光客が死なないように気をつけろよ。商売に悪影響だからな。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_task_1_finish">
+		<text>狩りから戻ったのか？いいぞ。これが報酬だ。</text>
+	</string>
+
+	<!-- Sidorovich (Loner Trader) Rookie Initiation Storyline Task- -->
+
+	<string id="drx_sl_esc_m_trader_task_2_name">
+		<text>新人研修</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_task_2_text">
+		<text>新人たちをゾーンに連れて行き、生き延びる方法を教えることになった。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_task_2_about">
+		<text>この野営地に来たばかりのルーキーどもは、まだまだ青二才だ。
+\nゾーンで一日持ちこたえるのも難しいかもしれない。俺は心配なんだよ。
+\nあいつらが死んじまったら、ビジネスに悪影響が出かねないだろ、なあ？
+\n要するに、客が減るってことだ。そこでだ、お前にはあいつらを
+\nゾーン見学へ連れていってもらいたい。何に気をつけるべきかを教え、
+\nアノマリーを見せ、ゾーンで生き延びるコツを教えてやってくれ。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_task_2_finish">
+		<text>おお、俺の客はまだ生きているな。
+\nそんで、あいつらは俺からさらに弾薬を買う必要ができたわけだ。
+\n助かったぜ、ストーカー。こいつはその礼だ。</text>
+	</string>
+
+	<!-- Xenotech (Loner Mechanic) Default Storyline Task -->
+
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_default_task_text">
+		<text>ゼノテックが助けを必要としている人物の連絡先を教えてくれた。</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_default_task_about">
+		<text>俺の友人があんたの助けを必要としている。地図に彼の位置を記しておいた。</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_default_task_finish">
+		<text>元気でな、ストーカー。</text>
+	</string>
+
+	<!-- Xenotech (Loner Mechanic) Rescue Missing Stalker Storyline Task -->
+
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_name">
+		<text>行方不明のストーカーを救出する</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_text">
+		<text>ゼノテックの野営地にいたストーカーが行方不明になっている。彼を見つけなければならない。</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_about">
+		<text>あんたの助けが必要だ。俺の野営地の仲間が物資を求めて出かけたが、まだ戻ってこない。
+\n何かあったんじゃないかと心配でな。
+\n最後にあいつを確認した位置を地図に記しておくから、確かめてきてくれ。</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_finish">
+		<text>あんた、あいつを救ってくれたのか！素晴らしい仕事だ、ストーカー。
+\nこれは俺の感謝の気持ちだ。</text>
+	</string>
+
+	<!-- Xenotech (Loner Mechanic) Track Wounded Attacker Storyline Task -->
+
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_name">
+		<text>負傷者の追跡</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_text">
+		<text>Militaryがゼノテックの野営地を襲撃してストーカーを虐殺した。逃げ延びた襲撃者の一人を追跡し、排除するように頼まれた。</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_about">
+		<text>あんた、今までどこにいた？
+\nMilitaryの分隊がここを通って、この野営地をめちゃくちゃにしたんだ。奴らのせいで、
+\nここのみんなはほとんど殺された。俺たちはなんとか奴らの大半を始末したが、
+\n1人逃がしちまった。怪我をしてるから、血痕を辿ってみてくれ。逃げた方向を教えよう。</text>
+	</string>
+	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_finish">
+		<text>ありがとな、ストーカー。こいつはお礼だ、受け取ってくれ。</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- CHANGE FACTIONS TASK TEXT  STRINGS -->
+
+	<!-- Sidorovich (Loner Trader) Payoff Change Factions Task -->
+
+	<string id="drx_sl_esc_m_trader_cf_task_1_name">
+		<text>燃える橋</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_cf_task_1_text">
+		<text>シドロヴィッチは、10,000ルーブルの手数料で現在の派閥から解放してくれると言っていた。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_cf_task_1_about">
+		<text>それなら、俺のところに来たのは正解だ。ゾーンにはコネがたくさんあってな。
+\nお前を派閥から脱退させてやることはできるが、安くはないぞ。
+\nいくらか袖の下が必要なんだよ。そうだな･･････ 10,000ルーブルで何とかしてやろう。</text>
+	</string>
+	<string id="drx_sl_esc_m_trader_cf_task_1_finish">
+		<text>よし、これでいい。お膳立てしておこう。
+\nフリーのストーカーとしての新しい生活を楽しんでくれ。</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- DYNAMIC TASK TEXT  STRINGS -->
+
+	<!-- Sidorovich (Loner Trader) Eliminate Car Park Bandits Task -->
+
+	<string id="esc_m_trader_task_1_name">
+		<text>駐車場を襲撃する</text>
+	</string>
+	<string id="esc_m_trader_task_1_text">
+		<text>駐車場に攻撃を仕掛け、その場所を占領しているBanditたちを排除する。</text>
+	</string>
+	<string id="esc_m_trader_task_1_about">
+		<text>Banditが古い駐車場を拠点にしている。
+\nあのクソども、野営地の周辺を通る者を襲っては、金品を奪ったり殺したりしてやがる。
+\nおかげで、俺の客や野営地に身を寄せるストーカーの活動が邪魔されて、商売に悪影響だ！
+\nお前には奴らを“処理”してもらいたい。助けが必要ならファナティックに相談するといい。</text>
+	</string>
+	<string id="esc_m_trader_task_1_finish">
+		<text>よくやったな、ストーカー！この調子なら、俺とお前は最高の友達になれそうだ！
+\nこれが約束の報酬だ。</text>
+	</string>
+	<string id="esc_m_trader_task_2_name">
+		<text>殺人請負人</text>
+	</string>
+	<string id="esc_m_trader_task_2_text">
+		<text>シドロヴィッチの邪魔者を排除する取引をした。</text>
+	</string>
+	<string id="esc_m_trader_task_2_about">
+		<text>すぐに手を付けなきゃならん賞金首のリストがある。陰謀を企てたり、詐欺を働いたり、
+\n俺が雇った運び屋や観光客に手を出した輩もいる。つまり、俺の商売の邪魔になる奴らさ。
+
+\n\nこのクズの中から1人消してくれないか？
+\n俺は喜ぶし、ゾーンは綺麗になるし、お前は良い報酬がもらえる。誰もが得する取引だ！</text>
+	</string>
+	<string id="esc_m_trader_task_2_finish">
+		<text>あの薄汚い変人どもを追い出したのか？ざまあみろだ！これが約束した報酬だ。
+\nシドロヴィッチおじさんは良い働きにしっかりと報いるんだ、覚えておけよ。</text>
+	</string>
+	
+	<!-- Sidorovich (Loner Trader) Decimate the Enemy Task -->
+
+	<string id="esc_m_trader_task_3_name">
+		<text>マフィア狩り</text>
+	</string>
+	<string id="esc_m_trader_task_3_text">
+		<text>シドロヴィッチはBanditのリーダーにメッセージを送りたいようだ。彼に協力し、%sを集めることにした。</text>
+	</string>
+	<string id="esc_m_trader_task_3_about">
+		<text>聞け、ストーカー。ここはルーキーがゾーンを学ぶための安全な場所のはずだ。
+\nだが、今やBanditに銃口を向けられる場所になっている。
+\n奴らは俺たちの取引ルートを妨害し、物資を盗んでいきやがる。
+\nそこでだ、奴らに教訓を与えてやれないか？</text>
+	</string>
+	<string id="esc_m_trader_task_3_fetch_about">
+		<text>ダークバレーにいるBanditの親玉が、俺の商売を邪魔しようとしてやがる。
+\n名前も馬鹿げててな、たしか･･････ 「サルタナ」とか言ってたか。
+\n次は「リースリング」か「マスカディン」とでも名乗るつもりかよ？
+
+\n\nまあいい。あのブドウみたいな名前のふざけた野郎に、誰が本当のボスか教えてやろう。
+\n奴の手下の行動は把握済みだ─ダークスケープかメドウを抜けてコードンに入り込み、
+\nルーキーたちに嫌がらせし、俺の取引ルートを妨害してるんだ。
+\nお前には、そいつらを何人か始末して%sを持ってきてもらいたい。
+\n後の処理は俺に任せとけ。</text>
+	</string>
+	<string id="esc_m_trader_task_3_fetch_finish">
+		<text>やっと戻ってきたか。パッチは持ってきたな？
+\nよし、これがお前の報酬だ。あとは俺に任せろ。</text>
+	</string>
+	
+	<!-- Wolf (Loner Honcho) -->
+	
+	<string id="esc_2_12_stalker_wolf_task_1_name">
+		<text>コードンからミュータントの脅威を排除する</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_1_text">
+		<text>ウルフからミュータントの巣を一掃してほしいと頼まれた。これでコードンのストーカーたちの生活も楽になるだろう。</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_1_about">
+		<text>ここはゾーンの入口に近いが、初心者にとってはここでさえ厳しい場所だ。
+\nBanditどもが問題の半分を占めているが、奴らは少なくともロシア語を理解できる。
+\nしかし、ミュータントとなると全く別問題だ。あんたが腕の立つハンターなら、
+\n近くにあるミュータントの巣をなんとかしてくれないか。それができたら礼をするよ。</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_1_finish">
+		<text>ありがとう、ストーカー。
+\nこれでこの辺の新人たちも、豚の餌になる前に少しは学ぶ機会が増えるだろう。
+\nああ、そうだ。礼をするんだったな、これがその報酬だ。</text>
+	</string>
+
+	<!-- Wolf (Loner Honcho) Stalker Search and Rescue Dynamic Task -->
+
+	<string id="esc_2_12_stalker_wolf_task_2_name">
+		<text>春の大掃除</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_2_text">
+		<text>Banditはコードンにいるストーカーたちを長い間悩ませてきた。そろそろ報いを与える時だ。</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_2_about">
+		<text>ここコードンでは、Banditがいつも問題になっている。
+\n仲間たちが拠点の周辺をただ歩いているだけで、奴らの待ち伏せに遭ってしまうんだ。
+\n運が良ければ生き延びられるが、俺たちはこの卑劣な奴らのせいで多くの友を失ってきた。
+\n今こそ奴らに報いを与える時だ。Banditの集団をコードンから一掃してくれないか？
+\nあんたがやらないなら俺が出向くしかないが、村の警備が手薄になるのは避けたい。</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_2_finish">
+		<text>よくやった、ストーカー。Banditが俺たちを困らせることはもうないだろう。
+\n任務は完了だ。報酬を受け取ってくれ。</text>
+	</string>
+
+	<!-- Wolf (Loner Honcho) Stalker Guide Dynamic Task -->
+
+	<string id="esc_2_12_stalker_wolf_task_3_name">
+		<text>動物園観光</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_3_text">
+		<text>ウルフから観光客をミュータント狩りに案内するように頼まれた。</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_3_about">
+		<text>外から来た観光客の中には、シドロヴィッチに大金を払ってゾーンで軽い狩りを
+\n楽しみたいって連中がいる。射撃の腕は悪くないんだが、アノマリーやミュータントに
+\n関することはさっぱり分かってないんだ。まるで子守りをしてるみたいだよ。
+
+\n\nあんた、彼らのガイドをやってくれないか？特別なことは必要ない、
+\nこういう連中はコードンを少し散策して、最後にちょっと銃を撃てれば満足するもんだ。
+\nただ何か馬鹿なことをしないように見張ってくれればいい。
+\n俺の手間は省けるし、あんたも簡単な仕事で十分な報酬がもらえるぞ。</text>
+	</string>
+	<string id="esc_2_12_stalker_wolf_task_3_finish">
+		<text>よし、観光客は満足したみたいだな。シドロヴィッチも喜ぶだろう。
+\nあんたの取り分はこれだ。</text>
+	</string>
+
+	<!-- Nimble (Loner Trader) Find Weapon Task -->
+
+	<string id="esc_2_12_stalker_nimble_task_1_name">
+		<text>%sを見つける</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_task_1_text">
+		<text>ニンブルから特定の銃を探してほしいと頼まれた。その銃は新品同様でなければならない。</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_task_1_about">
+		<text>特定の銃を探している客がいるんだが、あんたにその銃を探す手伝いをしてもらいたい。
+\n興味があるなら、詳しい話をしよう。どうだい？</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_task_1_fetch_about">
+		<text>%s･･････ こいつが俺が必要としてるものだ。
+\nただし、新品同様のブツじゃないとダメだ。客は大金を払う気だが、
+\n錆びついて命の危機でジャムるクソみたいな代物は要らないってさ。
+\nほとんどの利益はあんたに渡すよ。何しろ全部あんたがやるんだからな。
+\n見つけたら戻ってきてくれ。</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_task_1_fetch_finish">
+		<text>こいつはいいブツだな。これならあの客も満足してくれるはずだ。ほら、約束の報酬だ。</text>
+	</string>
+
+	<!-- Nimble (Loner Trader) Retrieve PDA Dynamic Task -->
+
+	<string id="esc_2_12_stalker_nimble_task_2_name">
+		<text>ニンブルのためにPDAを入手する</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_task_2_text">
+		<text>ニンブルからPDAの回収を頼まれた。</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_task_2_about">
+		<text>PDAを取ってきてほしい。ここから少し離れた場所に隠してある。</text>
+	</string>
+	<string id="esc_2_12_stalker_nimble_task_2_finish">
+		<text>ありがとな、ストーカー！</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- MECHANIC TASK TEXT  STRINGS -->
+
+	<!-- Xenotech (Loner Mechanic) Find Level 1 Toolkit Task -->
+
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_name">
+		<text>ゼノテックのために%sを見つける</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_text">
+		<text>ゼノテックは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_about">
+		<text>頼みがあるんだ。多くのストーカーがここに来て、武器をカスタマイズできないかって
+\n聞いてくるんだが、現状じゃ無理なんだ。BanditやMilitaryのせいで、俺は道具を全部
+\n失ったからな。もし何か道具を持ってきてくれれば、基本的な装備のアップグレードが
+\nできるし、コードンもただのルーキーの集まる場所じゃなくなるかもしれない。
+\nどうだ、手伝ってくれるか？</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_fetch_about">
+		<text>まずはベーシックツールが必要だ。
+\nシドロヴィッチや他のトレーダーに売るよりも、はるかに高い値段で買い取るぜ。
+\n手に入れたら、えーと･･････ 俺の居場所は分かるよな？</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_1_fetch_finish">
+		<text>いよいよだな！まともな道具が手に入るのをずっと待ってたんだ。
+\n感謝の気持ちを込めて、あんたにはこれをやるよ。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_name">
+		<text>ゼノテックのために%sを見つける</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_text">
+		<text>ゼノテックは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_about">
+		<text>あんたが持ってきてくれた道具のおかげで、俺の商売は少しずつ軌道に乗り始めてきたが、
+\n需要に追いつくにはもっと良い工具セットが必要だ。
+\n前回はそこそこの道具一式を持ってきてくれたが、今度はもっと質の高いものが必要だ。
+\nそれを見つけてくれたら、しっかり報酬を払うよ。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_fetch_about">
+		<text>次に必要なのはアドバンスドツールだ。
+\nあんたはいつも良い知らせを持ってくるからな。気をつけて、無事に帰ってこいよ。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_fetch_finish">
+		<text>よしよし！まさにこれが必要だったんだ！
+\n遠慮なく金を持っていきな、ストーカー。あんたの手助けに感謝するよ。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_name">
+		<text>ゼノテックのために%sを見つける</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_text">
+		<text>ゼノテックは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_about">
+		<text>今、俺の商売は絶好調だ。多くのストーカーが銃を調整しにやってくる･･････
+\nだが、俺はまだ上を目指せると思っている。前回は良い工具セットを持ってきてくれたが、
+\n今度は専門家にふさわしい、さらに高品質な工具セットが必要だ。
+\nあんたにその気があるなら、探してきてくれないか？</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_fetch_about">
+		<text>最後に必要なのはエキスパートツールだ。
+\n精密調整用の工具だから、間違ってもスードウジャイアントに踏みつけられたりするなよ。
+\n冗談はさておき─引き受けてくれて助かるよ。気をつけていってくれ。</text>
+	</string>
+	<string id="esc_smart_terrain_5_7_loner_mechanic_stalker_task_3_fetch_finish">
+		<text>あんたは真の友人だ、ストーカー。俺の作業場にはいつでも歓迎するからな。</text>
+	</string>
+	
+	
+<!-- (Military Trader - Southern Outpost) -->
+	<string id="esc_3_16_military_trader_task_1_name">
+		<text>コードンの取り締まり</text>
+	</string>
+	<string id="esc_3_16_military_trader_task_1_text">
+		<text>検問所の指揮官であるズーロフ少佐から、%sを持ってくるように頼まれた。これでストーカーたちに誰が支配しているか思い出させることができるだろう。</text>
+	</string>
+	<string id="esc_3_16_military_trader_task_1_about">
+		<text>上層部が非公式の作戦を立ち上げた、お前も参加するか？
+\nゾーンにいる犯罪者たちのパッチが必要だ。</text>
+	</string>
+	<string id="esc_3_16_military_trader_task_1_fetch_about">
+		<text>上層部が非公式の作戦を立ち上げた。近くの村に手を出すことは禁じられているが、
+\n我々が依然として尊敬され、従うべき存在であることを奴らに示す必要がある。
+\n不法滞在者を見つけ次第射殺し、そのパッチを証拠として回収しろ。
+\n十分な数の%sが集まったら、俺のところに戻ってこい。
+\nお前の給与にボーナスをつけてやる。</text>
+	</string>
+	<string id="esc_3_16_military_trader_task_1_fetch_finish">
+		<text>お前の働きは期待以上だった。これがその証だ、今日という日を誇りに思え。</text>
+	</string>
+
+	
+<!-- (Military Mechanic - Southern Outpost) -->
+	<string id="army_south_mechan_mlr_task_1_name">
+		<text>セリョーガのために%sを見つける</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_1_text">
+		<text>Militaryの技術者であるセリョーガは%sを必要としている。</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_1_about">
+		<text>少し前に、うちの工具はすべてヤンターの研究施設に移送されてしまってな。
+\nそのせいで、ここじゃ装甲兵員輸送車すら修理できない有様だ。
+\nベーシックツールが欲しいんだが、手伝ってくれるか？</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_1_fetch_about">
+		<text>少し前に、うちの工具はすべてヤンターの研究施設に移送されてしまってな。
+\nそのせいで、ここじゃ装甲兵員輸送車すら修理できない有様だ。
+\nベーシックツールが欲しいんだが、こっそり手に入れてきてくれないか？</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_1_fetch_finish">
+		<text>うーんと･･････ これは本当にベーシックツールなんだよな？
+\n需品係将校からもらったものよりはマシか。礼として、これを受け取ってくれ。</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_2_name">
+		<text>セリョーガのために%sを見つける</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_2_text">
+		<text>Militaryの技術者であるセリョーガは%sを必要としている。</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_2_about">
+		<text>残念ながら、お前がくれたツールでは基本的な改造しかできない。
+\nもっと高度な工具セットが必要だ。資材部門がすぐに送ってくれるとは思えないから、
+\n探してきてくれないか？</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_2_fetch_about">
+		<text>残念ながら、お前がくれたツールでは基本的な改造しかできない。
+\nもっと高度な工具セットが必要だ。
+\n資材部門がすぐに送ってくれるとは思えないから、探してきてくれないか？</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_2_fetch_finish">
+		<text>よし、見てみよう･･････ これなら使えそうだ。装甲兵員輸送車の修理にはまだ不十分だが、
+\nこれで周りの徴集兵の装備を強化できるかもしれない。士気を高めるにはいいことだ。
+\n風に吹かれるだけで死んじまうような装備は誰も望んでないからな。
+\n報酬を持っていけ。お前はよくやってくれた。</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_3_name">
+		<text>セリョーガのために%sを見つける</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_3_text">
+		<text>Militaryの技術者であるセリョーガは%sを必要としている。</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_3_about">
+		<text>悪いニュースだが、この装甲兵員輸送車はもうどうやっても復活しない。
+\nだが良いニュースもある。もう復活させる必要がなくなった。
+\nそれに、ここのストーカーたちが俺の仕事に興味を示し始めたんだ。
+\n隊員たちに適切な装備で武装させる時が来たってわけだ。
+\nただ、そのためにはゾーンでも特に優れた工具一式が必要だ。校正用の道具さ。
+\nお前にはその回収を任せたい。やってくれるか？</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_3_fetch_about">
+		<text>悪いニュースだが、この装甲兵員輸送車はもうどうやっても復活しない。
+\nだが良いニュースもある。もう復活させる必要がなくなった。
+\nそれに、ここのストーカーたちが俺の仕事に興味を示し始めたんだ。
+\n隊員たちに適切な装備で武装させる時が来たってわけだ。
+\nただ、そのためにはゾーンでも特に優れた工具一式が必要だ。校正用の道具さ。
+\nお前にはその回収を任せたい。やってくれるか？</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_3_fetch_finish">
+		<text>こんなに洗練された工具を再び手にする日が来るとは思ってもみなかった。
+\nゾーンにいるMilitaryの全部隊を代表して感謝する。
+\nお前の今日の貢献が、多くの命を救うことになるだろう。</text>
+	</string>
+
+	
+<!-- Fanatic -->
+	<string id="task_fanat_training_1_1">
+		<text>トレーニング: ボア狩り</text>
+	</string>
+	<string id="task_fanat_training_1_3">
+		<text>トレーニング: ファナティックと話す</text>
+	</string>
+	<string id="task_fanat_training_1_4">
+		<text>トレーニング: アノマリー領域に到達する</text>
+	</string>
+	<string id="task_fanat_training_1_5">
+		<text>トレーニング: ファナティックと話す</text>
+	</string>
+	<string id="task_fanat_training_1_9">
+		<text>トレーニング: «ジェリーフィッシュ»を入手する</text>
+	</string>
+	<string id="task_fanat_training_1_6">
+		<text>トレーニング: 村に戻る</text>
+	</string>
+	<string id="task_fanat_training_1_7">
+		<text>トレーニング: ファナティックと話す</text>
+	</string>
+	<string id="task_fanat_training_1_8">
+		<text>トレーニング: ファナティックと話す</text>
+	</string>
+	<string id="task_fanat_training_1_10">
+		<text>トレーニング: «ジェリーフィッシュ»を鉛の容器に入れる</text>
+	</string>
+	<string id="task_fanat_training_1_descr">
+		<text>ファナティックは経験豊富なストーカーだ。彼がいくつかコツを教えてくれることになった。</text>
+	</string>
+	<string id="task_fanat_training_2_1">
+		<text>トレーニング「挑戦」: スタッシュを見つける</text>
+	</string>
+	<string id="task_fanat_training_2_2">
+		<text>トレーニング「挑戦」: ファナティックと話す</text>
+	</string>
+	<string id="task_fanat_training_2_descr">
+		<text>次の課題は感覚を試されるものだ。ルーキー村のどこかにある隠し場所（スタッシュ）を見つけなければならない。ファナティックはそれを「へそくり」と呼んでいた･･････ これは手がかりかもしれない。</text>
+	</string>
+	<string id="task_fanat_training_3_1">
+		<text>トレーニング「通過儀礼」: 車両基地を一掃する</text>
+	</string>
+	<string id="task_fanat_training_3_2">
+		<text>トレーニング「通過儀礼」: ファナティックと話す</text>
+	</string>
+	<string id="task_fanat_training_3_3">
+		<text>トレーニング「通過儀礼」: 村に戻る</text>
+	</string>
+	<string id="task_fanat_training_3_4">
+		<text>トレーニング「通過儀礼」: ファナティックと話す</text>
+	</string>
+	<string id="task_fanat_training_3_descr">
+		<text>これがファナティックから与えられた最後の、そして最も重要な課題だ。共に車両基地に行き、Banditたちを始末しなくてはならない。</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_1_name">
+		<text>ミュータントの巣を壊滅させる</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_1_text">
+		<text>コードンのストーカーたちのために、ミュータントの巣を壊滅させる。</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_1_about">
+		<text>ちょっとした問題があってな。コードンはゾーンの中でも比較的安全な場所のはず
+\nなんだが、この近くに新しいミュータントの巣を確認した。早めに手を打たないと、
+\nルーキーたちが厳しい状況に追い込まれるだろう。どうだ？なんとかしてくれるか？</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_1_finish">
+		<text>よくやった。これで新入りは危険にさらされることなく、余裕を持って活動できるだろう。
+\nここにあんたへの報酬がある。みんなが少しずつ出し合ったものだ。</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_2_name">
+		<text>ファナティックのために«バッテリー»を見つける</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_2_text">
+		<text>ファナティックは、旧友たちがゾーンから抜け出すため«バッテリー»を必要としている。</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_2_fetch_about">
+		<text>話を聞いてくれ。この村を兵士から守るためには汚れ仕事が必要だ。シドロヴィッチは
+\nそうやって村を守っているが、仲間たちの中にはここから出たいと思っている者もいる。
+\nだが、困ったことに彼らには脱出する手段がないんだ。
+
+\n\nMilitaryの国境警備隊の問題は、外からの侵入にはあまり厳しくないが、出ようとすれば
+\n容赦なく殺しにかかってくるところだ。それで仲間たちはこの村に閉じ込められている。
+
+\n\n検問所の警備隊は«バッテリー»で買収しない限り、生きて通してはくれないだろう。
+\n聞いたことはあるか？エレクトロアノマリーで見つかるアーティファクトだ。
+\nこれはかなり希少なものでな、手の空いているストーカーたちに探させているが、
+\nまだ誰からも連絡がない。あんたも手を貸してくれないか？</text>
+	</string>
+	<string id="esc_2_12_stalker_fanat_task_2_fetch_finish">
+		<text>ああ、«バッテリー»を見つけたのか？素晴らしい！仲間に知らせておこう。
+\n彼らと離れるのは寂しいが、外で普通の生活を取り戻せるはずだ。
+\nありがとう、ストーカー。</text>
+	</string>
+	
+<!-- Hip -->
+	<string id="toz34_sk2_return">
+		<text>TOZ-194と弾薬をヒップに渡す</text>
+	</string>
+	<string id="toz34_sk2_find">
+		<text>ヒップの依頼人のためにTOZ-194と弾薬を見つける</text>
+	</string>
+	<string id="toz34_return_descr">
+		<text>ヒップによると、金持ちの客がTOZ-194と12x70 バックショット弾20発に大金を払うつもりらしい。防衛線の南部にいるトレーダーたちはそれを扱っていないようだ。</text>
+	</string>
+	<string id="artefacts_to_sidor_return">
+		<text>シドロヴィッチにアーティファクトを渡す</text>
+	</string>
+	<string id="artefacts_to_sidor_find">
+		<text>シドロヴィッチのためにアーティファクトを見つける</text>
+	</string>
+	<string id="artefacts_to_sidor_return_descr">
+		<text>ヒップと共に、シドロヴィッチのためにアーティファクトを探すことになった。彼は«グラビ»、«ロブスターアイ»、«ムーンライト»を要求しているようだ。</text>
+	</string>
+	<string id="go_to_barmen_1">
+		<text>バーキープに会う</text>
+	</string>
+	<string id="go_to_barmen_2">
+		<text>バーキープに会う</text>
+	</string>
+	<string id="go_to_barmen_descr">
+		<text>ヒップはゾーンでの人脈を広げるため、バーキープに会いに行きたいらしい。この仕事は緊急のようだ、早めに向かった方がいいだろう。</text>
+	</string>
+	<string id="go_to_lukash_1">
+		<text>ルーカッシュと話す</text>
+	</string>
+	<string id="go_to_lukash_2">
+		<text>ルーカッシュと話す</text>
+	</string>
+	<string id="go_to_lukash_descr">
+		<text>ヒップはルーカッシュに会って、防衛線の北にいるストーカーたちに薬を届けたいと言っている。この仕事は緊急のようだ、早めに向かった方がいいだろう。</text>
+	</string>
+	<string id="go_to_boroda_1">
+		<text>アーティファクト容器をベアードに届ける</text>
+	</string>
+	<string id="go_to_boroda_2">
+		<text>アーティファクト容器をベアードに届ける</text>
+	</string>
+	<string id="go_to_boroda_descr">
+		<text>バーキープは、ザトンのスカドフスクにいるベアードにアーティファクト隔離容器を届けてほしいと言っている。</text>
+	</string>
+	<string id="go_to_loki_1">
+		<text>薬の入ったバッグをロキに届ける</text>
+	</string>
+	<string id="go_to_loki_2">
+		<text>薬の入ったバッグをロキに届ける</text>
+	</string>
+	<string id="go_to_loki_descr">
+		<text>ルーカッシュは、ジュピターのヤノフ駅にいるロキに薬品を届けてほしいと言っている。</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_4_about">
+		<text>誰かが検問所のスピーカーを撃ちまくってるんだが、
+\nそれがルーキー村のストーカーなのか、仲間内の誰かなのか見当がつかない。
+\nまあとにかく、修理するための部品が必要なんだ。探してきてくれないか？</text>
+	</string>
+	<string id="army_south_mechan_mlr_task_4_name">
+		<text>セリョーガのために修理部品を見つける</text>
+	</string>
+</string_table>

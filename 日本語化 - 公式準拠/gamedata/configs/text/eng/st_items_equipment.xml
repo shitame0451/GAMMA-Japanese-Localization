@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+  <string id="st_poxod_rukzak">
+    <text>特異なバックパック</text>
+  </string>
+  <string id="st_poxod_rukzak_descr">
+    <text>普通のバックパックに見えるが、中に入れた物が時間とともに軽くなるという特性を持っている。噂によると、これは輸送品の軍用バックパックが誤ってアノマリーに巻き込まれた結果だそうだ。しかし、この独特な特性を再現しようとする科学者たちの実験は失敗に終わっている。\n \n
+	</text>
+  </string>
+  <string id="st_bolt">
+    <text>ボルト</text>
+  </string>
+  <string id="st_bolt_descr">
+    <text>普通のボルト。アノマリーフィールドを安全に移動するために使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]アノマリーの一時的な無力化、位置の特定\n
+		</text>
+  </string>
+  <string id="st_bolty">
+    <text>ボルト</text>
+  </string>
+  <string id="st_bolty_descr">
+    <text>普通のボルト。アノマリーフィールドを安全に移動するために使われている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]アノマリーの一時的な無力化、位置の特定\n
+		</text>
+  </string>
+  <string id="st_bolt_bullet">
+    <text>空薬莢</text>
+  </string>
+  <string id="st_bolt_bullet_descr">
+    <text>中身が入っていない薬莢。アノマリーフィールドを安全に移動するため、ボルトの代わりに使われることが多い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]アノマリーの一時的な無力化、位置の特定\n
+		</text>
+  </string>
+  <string id="st_energy">
+    <text>無し</text>
+  </string>
+  <string id="st_energy_descr">
+    <text>蓄えられる電気の量（Ah）</text>
+  </string>
+
+  <string id="sleep_itm_warning_blowout">
+    <text>今眠るのは危険だ！</text>
+  </string>
+  <string id="st_itm_campfire">
+    <text>キャンプファイヤー</text>
+  </string>
+  <string id="st_itm_campfire_descr">
+		<text>You should not have this!\n \n
+	</text>
+  </string>
+  <string id="green_bug_name">
+    <text>緑のカブトムシ</text>
+  </string>
+  <string id="green_bug_description">
+    <text>緑のカブトムシはすべてのストーカーと切っても切り離せない存在だ。ゾーンの誰ひとりとして、コイツを見つけた者はいないだろう。あなたが一生に一度か二度発見できれば、それは幸運と見なすべきだ。しかし、あなたの気分はこの緑のカブトムシの発見の喜びと反比例して落ちていくだろう･･････
+    </text>
+  </string>
+
+<!-- UNUSED
+
+  <string id="st_identity_card">
+    <text>USS 身分証明書</text>
+  </string>
+  <string id="st_identity_card_descr">
+    <text>身元を保証するIDカードは大切に保管すること。あなたはアサルトライフルと重火器を運用するUSSアサルターで、銃器の反動制御に長けているが、走るのは速くない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]個人の所有物\n
+		</text>
+  </string>
+	<string id="st_identity_card_assaulter_descr">
+		<text>USSアサルターは、以下の長所と短所を持っている。\n \n
+		%c[d_cyan]装備\n
+		%c[default]重いアーマーでの敏速さ: %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]閉鎖型呼吸での敏捷性: %c[d_red_1]C\n
+		%c[d_blue] • %c[default]アーティファクトの取り扱い: %c[d_red_1]C\n \n
+		%c[d_cyan]武器S\n
+		%c[d_blue] • %c[default]ナイフスキル: %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]得意な武器: %c[d_red_1]重火器\n
+		%c[d_blue] • %c[default]メンテナンスが得意なもの: %c[d_red_1]重火器\n \n
+		%c[d_cyan]薬\n
+		%c[d_blue] • %c[default]包帯/医療キット使用時の手早さ: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]回復する量: %c[d_red_1]C\n
+		%c[d_blue] • %c[default]薬物使用時の手早さ: %c[d_red_1]C\n \n
+		%c[d_cyan]運動神経\n
+		%c[d_blue] • %c[default]持久力: %c[pda_white]%c[d_red_1]非常に高い\n
+		%c[d_blue] • %c[default]移動速度: %c[d_red_1]遅い\n
+		%c[d_blue] • %c[default]ジャンプ力: %c[d_red_1]低い\n
+		%c[d_blue] • %c[default]落下/ジャンプ時の敏捷性: %c[d_red_1]低い\n
+		%c[d_blue] • %c[default]基本的なスタミナ消費量: %c[d_red_1]低い\n
+		%c[d_blue] • %c[default]最大所持重量: %c[pda_white]%c[d_red_1]多い\n \n
+		%c[d_cyan]健康面\n
+		%c[d_blue] • %c[default]食料消費率: %c[d_red_1]高い\n
+		%c[d_blue] • %c[default]睡眠の必要性: %c[d_red_1]高い\n \n
+		%c[d_cyan]免疫系の抵抗力\n
+		%c[d_blue] • %c[default]薬/アルコール: %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]不健康な食品: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]アーティファクト: %c[d_red_1]C\n
+		%c[d_blue] • %c[default]放射線: %c[pda_white]%c[d_red_1]C\n
+		</text>
+	</string>
+	<string id="st_identity_card_recon_descr">
+		<text>USSリコンは、以下の長所と短所を持っている。\n \n
+		%c[d_cyan]装備\n
+		%c[default]重いアーマーでの敏速さ: %c[d_red_1]C\n
+		%c[d_blue] • %c[default]閉鎖型呼吸での敏捷性: %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]アーティファクトの取り扱い: %c[d_red_1]A+\n \n
+		%c[d_cyan]武器S\n
+		%c[d_blue] • %c[default]ナイフスキル: %c[d_red_1]A\n
+		%c[d_blue] • %c[default]得意な武器: %c[d_red_1]サブマシンガン\n
+		%c[d_blue] • %c[default]メンテナンスが得意なもの: %c[d_red_1]サブマシンガン\n \n
+		%c[d_cyan]薬\n
+		%c[d_blue] • %c[default]包帯/医療キット使用時の手早さ: %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]回復する量: %c[d_red_1]A\n
+		%c[d_blue] • %c[default]薬物使用時の手早さ: %c[d_red_1]A\n \n
+		%c[d_cyan]運動神経\n
+		%c[d_blue] • %c[default]持久力: %c[pda_white]%c[d_red_1]低い\n
+		%c[d_blue] • %c[default]移動速度: %c[d_red_1]速い\n
+		%c[d_blue] • %c[default]ジャンプ力: %c[d_red_1]高い\n
+		%c[d_blue] • %c[default]落下/ジャンプ時の敏捷性: %c[d_red_1]高い\n
+		%c[d_blue] • %c[default]基本的なスタミナ消費量: %c[d_red_1]高い\n
+		%c[d_blue] • %c[default]最大所持重量: %c[pda_white]%c[d_red_1]少ない\n \n
+		%c[d_cyan]健康面\n
+		%c[d_blue] • %c[default]食料消費率: %c[d_red_1]低い\n
+		%c[d_blue] • %c[default]睡眠の必要性: %c[d_red_1]普通\n \n
+		%c[d_cyan]免疫系の抵抗力\n
+		%c[d_blue] • %c[default]薬/アルコール: %c[d_red_1]C\n
+		%c[d_blue] • %c[default]不健康な食品: %c[d_red_1]C\n
+		%c[d_blue] • %c[default]アーティファクト: %c[d_red_1]A\n
+		%c[d_blue] • %c[default]放射線: %c[pda_white]%c[d_red_1]A\n
+		</text>
+	</string>
+	<string id="st_identity_card_sniper_descr">
+		<text>USSスナイパーは、以下の長所と短所を持っている。\n \n
+		%c[d_cyan]装備\n
+		%c[default]重いアーマーでの敏速さ: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]閉鎖型呼吸での敏捷性: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]アーティファクトの取り扱い: %c[d_red_1]B\n \n
+		%c[d_cyan]武器S\n
+		%c[d_blue] • %c[default]ナイフスキル: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]得意な武器: %c[d_red_1]狙撃銃\n
+		%c[d_blue] • %c[default]メンテナンスが得意なもの: %c[d_red_1]狙撃銃\n \n
+		%c[d_cyan]薬\n
+		%c[d_blue] • %c[default]包帯/医療キット使用時の手早さ: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]回復する量: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]薬物使用時の手早さ: %c[d_red_1]B+\n \n
+		%c[d_cyan]運動神経\n
+		%c[d_blue] • %c[default]持久力: %c[pda_white]%c[d_red_1]普通\n
+		%c[d_blue] • %c[default]移動速度: %c[d_red_1]普通\n
+		%c[d_blue] • %c[default]ジャンプ力: %c[d_red_1]普通\n
+		%c[d_blue] • %c[default]落下/ジャンプ時の敏捷性: %c[d_red_1]普通\n
+		%c[d_blue] • %c[default]通常移動のスタミナ消費量: 
+		%c[d_red_1]高い\n
+		%c[d_blue] • %c[default]走行時のスタミナ消費量: 
+		%c[d_red_1]普通\n
+		%c[d_blue] • %c[default]最大所持重量: %c[pda_white]%c[d_red_1]普通\n \n
+		%c[d_cyan]健康面\n
+		%c[d_blue] • %c[default]食料消費率: %c[d_red_1]普通\n
+		%c[d_blue] • %c[default]睡眠の必要性: %c[d_red_1]低い\n \n
+		%c[d_cyan]免疫系の抵抗力\n
+		%c[d_blue] • %c[default]薬/アルコール: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]不健康な食品: %c[d_red_1]A+\n
+		%c[d_blue] • %c[default]アーティファクト: %c[d_red_1]B\n
+		%c[d_blue] • %c[default]放射線: %c[pda_white]%c[d_red_1]B\n
+		</text>
+  </string>
+
+-->
+
+</string_table>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_9a91n">
+		<text>9A-91</text>
+	</string>
+	<string id="st_wpn_9a91n_descr">
+		<text>特殊部隊や法執行機関向けに設計された、コンパクトかつ軽量なアサルトライフル。小さなフレームながら高い火力を持つ。シンプルで頑丈な設計が特徴で、市街戦や至近距離での戦闘において信頼性の高いパフォーマンスを発揮する。サプレッサーや光学照準器の装着にも対応しており、隠密行動から直接交戦まで柔軟に運用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]KBP Instrument Design Bureau\n
+	</text>
+	</string>
+
+	<string id="st_wpn_vsk94n">
+		<text>VSK-94</text>
+	</string>
+	<string id="st_wpn_vsk94n_descr">
+		<text>9A-91をベースに開発された、サプレッサー一体型のマークスマンライフル。中距離での静音性と精確な射撃を目的に設計されている。高倍率の光学照準器を装着できるため、隠密作戦や偵察任務に適している。コンパクトで反動も抑えられており、発砲時に射手の位置を悟られにくいのが特徴だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]KBP Instrument Design Bureau\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,57 @@
+<string_table>
+	<string id="ui_mcm_menu_smr_zombies">
+		<text>ゾンビ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombie_spawn">
+		<text>ゾンビの出現を有効にする</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombie_chance">
+		<text>ゾンビの出現確率</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombie_chance_desc">
+		<text>ストーカー/ミュータントのスポーンがゾンビに置き換わる確率を設定します。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_seek_enabled">
+		<text>ゾンビがプレイヤーを探すようになる</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_seek_enabled_desc">
+		<text>サバイバルモードでは、ゾンビは特定の半径内に入るとプレイヤーに向かって移動します（警戒していない場合でも）。これはその挙動を再現したものです。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_seek_distance">
+		<text>敵の探索距離</text>
+	</string>
+	<!-- ZOMBIE TYPES -->
+	<string id="ui_mcm_smr_zombies_zombie_types_title">
+		<text>ゾンビのバリエーション</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombie_types_info">
+		<text>以下では、どのゾンビの亜種が生まれるかをコントロールできます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombiesp">
+		<text>通常ゾンビ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombies_amount">
+		<text>通常ゾンビの量</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombies_amount_desc">
+		<text>基本的なゾンビの発生（有効な場合）を、他のバリエーションと比較して倍増させる係数です。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_blindp">
+		<text>盲目（Psy）ゾンビ</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_zombifiedp">
+		<text>ゾンビストーカー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_fracturep">
+		<text>フラクチャー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_snorkp">
+		<text>スノーク</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_bloodsuckerp">
+		<text>ブラッドサッカー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_zombies_psysuckerp">
+		<text>プサイサッカー</text>
+	</string>
+</string_table>

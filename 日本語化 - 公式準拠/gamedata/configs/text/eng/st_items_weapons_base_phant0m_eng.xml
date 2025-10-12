@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_akm_isg">
+		<text>RD 706 «ISG»</text>
+	</string>
+	<string id="st_wpn_akm_isg_descr">
+		<text>アメリカのRifle Dynamics社が手掛けたRD 706のカスタムモデル。RD社は高品質なAK系ライフルの製造を専門とし、精密な技術と人間工学に基づいた改良で知られている。アメリカを拠点とする同社は、旧式の信頼性、命中精度、拡張性を現代的に進化させることに注力しているため、銃器愛好家や法執行機関、兵士たちにとって最高の選択肢となっている。
+		\nこのモデルは西側と東側のアクセサリーを組み合わせた大幅な改造が施されており、ISGの特殊部隊でしか確認されない特別仕様となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_ak74_isg">
+		<text>RD 5.45 Custom «ISG»</text>
+	</string>
+	<string id="st_wpn_ak74_isg_descr">
+		<text>アメリカのRifle Dynamics社が手掛けた5.45mm弾を使用するAKのカスタムモデル。RD社は高品質なAK系ライフルの製造を専門とし、精密な技術と人間工学に基づいた改良で知られている。アメリカを拠点とする同社は、旧式の信頼性、命中精度、拡張性を現代的に進化させることに注力しているため、銃器愛好家や法執行機関、兵士たちにとって最高の選択肢となっている。
+		\nこのモデルは西側と東側のアクセサリーを組み合わせた大幅な改造が施されており、ISGの特殊部隊でしか確認されない特別仕様となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_ak74u_isg">
+		<text>RD Quickhatch 5.45 «ISG»</text>
+	</string>
+	<string id="st_wpn_ak74u_isg_descr">
+		<text>アメリカのRifle Dynamics社が手掛けた5.45x39 Quickhatchのカスタムモデル。RD社は高品質なAK系ライフルの製造を専門とし、精密な技術と人間工学に基づいた改良で知られている。アメリカを拠点とする同社は、旧式の信頼性、命中精度、拡張性を現代的に進化させることに注力しているため、銃器愛好家や法執行機関、兵士たちにとって最高の選択肢となっている。
+		\nこのモデルは西側と東側のアクセサリーを組み合わせた大幅な改造が施されており、ISGの特殊部隊でしか確認されない特別仕様となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+
+	<string id="st_wpn_ak74u_m1_isg">
+		<text>RD Quickhatch 7.62 «ISG»</text>
+	</string>
+	<string id="st_wpn_ak74u_m1_isg_descr">
+		<text>アメリカのRifle Dynamics社が手掛けた7.62x39 Quickhatchのカスタムモデル。RD社は高品質なAK系ライフルの製造を専門とし、精密な技術と人間工学に基づいた改良で知られている。アメリカを拠点とする同社は、旧式の信頼性、命中精度、拡張性を現代的に進化させることに注力しているため、銃器愛好家や法執行機関、兵士たちにとって最高の選択肢となっている。
+		\nこのモデルは西側と東側のアクセサリーを組み合わせた大幅な改造が施されており、ISGの特殊部隊でしか確認されない特別仕様となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Rifle Dynamics\n
+		</text>
+	</string>
+
+</string_table>

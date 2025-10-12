@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="voronin_operation_afterglow_0">
+		<text>謎の無線通信に関するメッセージを受け取りました。
+\n将軍、何か新しい特別な任務はありますか？</text>
+	</string>
+	<string id="voronin_operation_afterglow_1">
+		<text>ああ、我々の任務が尽きることはない。
+\n前線偵察部隊が、ザトンの「アイアンフォレスト」で正体不明の無線通信を探知した。
+\nしかし、彼らにはそれを解読するための装備がない。そこでお前に調査を頼みたい。</text>
+	</string>
+	<string id="voronin_operation_afterglow_2">
+		<text>了解しました。</text>
+	</string>
+	<string id="voronin_operation_afterglow_21">
+		<text>申し訳ありません、指揮官。今は準備が整っていません。</text>
+	</string>
+	<string id="voronin_operation_afterglow_3">
+		<text>素晴らしい。この無線機を持っていけ、我々の技術者が適切に改造しておいたものだ。
+\n何かわかったことがあればすぐに報告してくれ。
+\n場所はチェルノブイリ原子力発電所のすぐそばだ、何が起きているのか誰にも予測できん。</text>
+	</string>
+	<string id="voronin_operation_afterglow_transmission_report_0">
+		<text>ザトンから戻りました。</text>
+	</string>
+	<string id="voronin_operation_afterglow_transmission_report_1">
+		<text>何か興味深い情報は得られたか？</text>
+	</string>
+	<string id="voronin_operation_afterglow_transmission_report_2">
+		<text>はい、将軍。デグチャレフ大佐が指揮する軍事作戦に一時的に参加しました。
+\nUNISGという外国の特殊工作員の部隊が、最近のゾーンの出来事を調査しているようです。
+\nMilitaryは彼らが何かを発見することを恐れているようでした。</text>
+	</string>
+	<string id="voronin_operation_afterglow_transmission_report_21">
+		<text>指揮官、特に何もありませんでした。ただの雑音だったようです。</text>
+	</string>
+	<string id="voronin_operation_afterglow_transmission_report_3">
+		<text>なるほど。それは非常に興味深い発見だ。
+\n我々もゾーンの動向をより注意深く監視することにしよう。
+\nその間、通常の活動を再開して構わない。以上で解散だ。</text>
+	</string>
+	<string id="voronin_operation_afterglow_transmission_report_31">
+		<text>報告ご苦労だった。今のところ、他に頼むことはない。
+\n通常の活動に戻ってくれ。では解散。</text>
+	</string>
+	<string id="voronin_operation_afterglow_transmission_report_4">
+		<text>了解しました。</text>
+	</string>
+	<string id="dushman_operation_afterglow_0">
+		<text>謎の無線通信についてのメッセージを受け取った。何か新しい特別な契約はあるか？</text>
+	</string>
+	<string id="dushman_operation_afterglow_1">
+		<text>ああ、もちろんだ。我々の仕事は常にあるぞ。
+\nザトンにいるチームが、「アイアンフォレスト」の周辺で断続的な無線通信を傍受した。
+\nだが、聞こえたのはただの雑音だったそうだ。
+\nお前はそこへ行って、適切な機器を使って何が起きているのか調べてほしい。</text>
+	</string>
+	<string id="dushman_operation_afterglow_2">
+		<text>わかった、確認してくる。</text>
+	</string>
+	<string id="dushman_operation_afterglow_21">
+		<text>悪いな、ダッシュマン。今は別の契約があるんだ。</text>
+	</string>
+	<string id="dushman_operation_afterglow_3">
+		<text>いいぞ。情報も金になるからな。この無線機を持っていけ。
+\nホグが改造して、高度な解読装置を取り付けたものだ。何か分かったら戻ってこい。</text>
+	</string>
+	<string id="dushman_operation_afterglow_transmission_report_0">
+		<text>ザトンに行ってきた。</text>
+	</string>
+	<string id="dushman_operation_afterglow_transmission_report_1">
+		<text>何か興味深い話はあったか？</text>
+	</string>
+	<string id="dushman_operation_afterglow_transmission_report_2">
+		<text>ああ、あったぞ。デグチャレフ大佐に雇われて、ある極秘作戦に協力した。
+\n彼らはUNISGという外国の特殊部隊の調査を阻止しようとしていた。
+\nどうやらゾーンの裏の秘密を探られたくないらしい。</text>
+	</string>
+	<string id="dushman_operation_afterglow_transmission_report_21">
+		<text>いや、特に何もなかった。ただの雑音だったな、大したことはなかったぞ。</text>
+	</string>
+	<string id="dushman_operation_afterglow_transmission_report_3">
+		<text>国連がもう来てるのか？彼らの偵察隊員が俺に情報を受け取りに来ることになってたが、
+\n結局来なかったな。なるほど、かなり早い段階で軍に見つかったというわけか。
+\nもし国連が協力を求めてくるなら、俺たちは手を貸すつもりだ。
+\nまあ、お前がどう動くかは自由だが･･････ 西側の企業と政府の間で渦巻く陰謀に感謝だな。
+\nおかげで、どちらに転んでも俺たちは利益を得られるってわけだ。</text>
+	</string>
+	<string id="dushman_operation_afterglow_transmission_report_31">
+		<text>どうやら今回の情報はハズレだったようだな。
+\nまあいい、お前にはもっと面白い契約があるだろう。</text>
+	</string>
+	<string id="dushman_operation_afterglow_transmission_report_4">
+		<text>そうか。それじゃ、またな。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_0">
+		<text>謎の無線通信についてのメッセージを受け取った。何か新しい仕事はあるか？</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_1">
+		<text>相変わらず金稼ぎに熱心だな、ストーカー？ああ、ちょうど気になってる話ならあるぞ。
+\nベアードから聞いたんだが、ザトンの「アイアンフォレスト」で奇妙な無線ノイズを
+\n拾ったって話がストーカーたちの間で話題になってる。アノマリーの仕業かもしれんし、
+\nもっと面白い何かが起きてるのかもな。ちょっと調べてきてくれないか？</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_2">
+		<text>わかったよ、シド。俺がのんびりゾーンを横断している間、気長に待っててくれ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_21">
+		<text>悪いな、シド。まだ準備ができてないんだ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_3">
+		<text>さすが俺の相棒だ。ほら、この無線機を持っていけ。
+\n歯に埋め込んだ金属で電波でも拾えるってんなら話は別だけどな。
+\n何か価値のある情報を掴んだら戻ってこいよ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_transmission_report_0">
+		<text>ザトンに行ってきたぞ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_transmission_report_1">
+		<text>何か面白い話はあったか、ストーカー？</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_transmission_report_2">
+		<text>ああ、かなり興味深い話だ。
+\nデグチャレフ大佐という男が、ゾーンの中心部で極秘作戦を遂行している。
+\n彼は外国の特殊部隊、UNISGと戦っていた。ゾーンの裏の事情を暴こうとしている連中だ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_transmission_report_21">
+		<text>いや、特に何もなかったな。ただの雑音を聞くために長旅をしたようなもんだ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_transmission_report_3">
+		<text>いいネタを持ってきたな、ストーカー。
+\nお前も知っての通り、情報には高い価値がある。特に極秘情報ならなおさらな。
+\nこれをどう利用するか考えさせてもらうぜ、へへ。さて、お前はもう行っていいぞ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_transmission_report_31">
+		<text>あー、ちくしょう。どうせストーカーの作り話だろうと思ってたが、やっぱりそうか。
+\nまあいい、お前はもう行っていいぞ。</text>
+	</string>
+	<string id="sidorovich_operation_afterglow_transmission_report_4">
+		<text>じゃあな。</text>
+	</string>
+	<string id="cold_operation_afterglow_0">
+		<text>謎の無線通信についてのメッセージを受け取った。何か特別な仕事はあるか？</text>
+	</string>
+	<string id="cold_operation_afterglow_1">
+		<text>ああ、お前に調査してほしいことがある。Ecologistから聞いた情報によると、
+\nザトンの「アイアンフォレスト」で妙な無線通信が行われているそうだ。
+\n･･････分かっている。あそこはここと同じ沼地だ。しかし、ゾーンの反対側にあるんだ。
+\nチェルノブイリ原子力発電所の近くにあることを考えると、調べてみる価値はあるぞ。</text>
+	</string>
+	<string id="cold_operation_afterglow_2">
+		<text>面白そうだな、話に乗ろう。</text>
+	</string>
+	<string id="cold_operation_afterglow_21">
+		<text>悪いな、コールド。まだそんな旅はするつもりはない。もう少し経ってからだな。</text>
+	</string>
+	<string id="cold_operation_afterglow_3">
+		<text>新たな冒険ってわけだな。そうだ、これを持っていけ。ノヴィコフから預かったものだ。
+\nこれがあれば向こうで受信する無線通信を解読できるはずだ。頑張ってくれよ。</text>
+	</string>
+	<string id="cold_operation_afterglow_transmission_report_0">
+		<text>ザトンに行ってきたぞ。</text>
+	</string>
+	<string id="cold_operation_afterglow_transmission_report_1">
+		<text>何か気になることはあったか？</text>
+	</string>
+	<string id="cold_operation_afterglow_transmission_report_2">
+		<text>ああ。Militaryの無線を傍受して、デグチャレフ大佐という男の極秘作戦に加わった。
+\n彼らは外国から来たUNISGという特殊部隊を排除しようとしていた。
+\nゾーンを徹底的に調査してたから、ウクライナ保安庁にとっては都合が悪かったようだな。</text>
+	</string>
+	<string id="cold_operation_afterglow_transmission_report_21">
+		<text>いや、特に何もなかった。ただの変な雑音くらいだな。</text>
+	</string>
+	<string id="cold_operation_afterglow_transmission_report_3">
+		<text>それは興味深い話だな。まあ、少しだけスパイごっこを楽しめたんじゃないか？
+\nご褒美に後頭部を撃たれることもなかったようだし、良しとしよう。
+\n今はゆっくり休んでくれ。この情報をどう活かせるか考えておく。</text>
+	</string>
+	<string id="cold_operation_afterglow_transmission_report_31">
+		<text>ああ、そうか。カランチャですら興味を持たなそうな話だな。
+\n一応、調査してくれて助かった。もう行っていいぞ。</text>
+	</string>
+	<string id="cold_operation_afterglow_transmission_report_4">
+		<text>じゃあな、コールド。</text>
+	</string>
+	<string id="lukash_operation_afterglow_0">
+		<text>謎の無線通信についてのメッセージを受け取った。何か新しい冒険はあるか？</text>
+	</string>
+	<string id="lukash_operation_afterglow_1">
+		<text>じっとしていられない性分だな？その冒険心、気に入ったぞ。
+\nロキが言ってたが、ザトンの「アイアンフォレスト」周辺でやたらと妙な音がしてるらしい。
+\nアノマリーが出す音かもしれないし、もしかしたらスペツナズ部隊の極秘通信かもな。
+\nちょっと調べてきてくれよ。</text>
+	</string>
+	<string id="lukash_operation_afterglow_2">
+		<text>いいね、すぐに取り掛かろう。</text>
+	</string>
+	<string id="lukash_operation_afterglow_21">
+		<text>悪いな、ルーカッシュ。まずはこの二日酔いを治させてくれ。</text>
+	</string>
+	<string id="lukash_operation_afterglow_3">
+		<text>その意気だ！ああ、そうだ、このラジオを持っていけ。
+\n頭に金属板でも埋め込んでるわけじゃないだろうしな、これは役に立つぞ。
+\n何か面白いものが見つかったら教えてくれよ。</text>
+	</string>
+	<string id="lukash_operation_afterglow_transmission_report_0">
+		<text>ザトンに行ってきたぞ。</text>
+	</string>
+	<string id="lukash_operation_afterglow_transmission_report_1">
+		<text>何か面白いことはあったか？</text>
+	</string>
+	<string id="lukash_operation_afterglow_transmission_report_2">
+		<text>信じられないかもしれないが、極秘の軍事作戦に巻き込まれた！
+\nデグチャレフという男が、UNISGの捜査官を片付けるのに協力しろと言ってきた。
+\nそいつらはゾーンを調査している国際的な特殊部隊らしい。
+\nそれで、Militaryはそれを快く思っていないというわけだ。</text>
+	</string>
+	<string id="lukash_operation_afterglow_transmission_report_21">
+		<text>いや、大したことはなかったな。
+\nアノマリーの雑音が聞こえただけで、退屈だから帰ってきたんだ。</text>
+	</string>
+	<string id="lukash_operation_afterglow_transmission_report_3">
+		<text>政府の支援を受けた勢力同士が、ゾーンの秘密を巡って潰し合ってるのか？
+\nハハッ、笑えるな！デグチャレフがまだ生きてるってのは朗報だな。
+\n軍の連中と言ったらクソ野郎ばかりだが、あいつは最高のクソ野郎だからな。
+\nもしまた会うことがあったら、たまには休めって伝えてくれ。
+\nそれと、ヤノフにまた手を貸してやれってな。あの辺は日に日に荒れていくらしいしな。</text>
+	</string>
+	<string id="lukash_operation_afterglow_transmission_report_31">
+		<text>まあ、ゾーンの歌声を聞くのもたまには良いんじゃないか？ダメか？
+\nいいさ、忘れるんだ。何か面白いことでもやっててくれ。退屈しすぎて死なれたら困る。
+\nそんな死に方はゾーンらしくないからな･･････</text>
+	</string>
+	<string id="lukash_operation_afterglow_transmission_report_4">
+		<text>またな。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_0">
+		<text>謎の無線通信についてのメッセージを受け取った。何か重要な任務はあるか？</text>
+	</string>
+	<string id="sakharov_operation_afterglow_1">
+		<text>ああ、あるとも、若者よ。
+\n君はヘルマン教授を知っているかね？北にある彼の移動研究所の報告によると、
+\nザトンの「アイアンフォレスト」で興味深い無線通信が発生しているらしい。
+\nアノマリー活動が活発な地域であることを考慮すると、ますます興味が湧いてくる。
+\n君には現地での調査をしてもらいたい。我々にとっても貴重な発見があるかもしれん。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_2">
+		<text>すぐに行くよ、教授。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_21">
+		<text>申し訳ない、教授。今はそんな長旅に出られる準備ができていないんだ。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_3">
+		<text>ありがとう。これを持っていくように。
+\n君が傍受する信号を解析し、記録してくれる装置だ。健闘を祈っているよ。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_transmission_report_0">
+		<text>ザトンに行ってきた。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_transmission_report_1">
+		<text>若者よ、何か興味深い発見はあったか？</text>
+	</string>
+	<string id="sakharov_operation_afterglow_transmission_report_2">
+		<text>あったぞ、教授。
+\nMilitaryの無線通信を傍受し、一時的にデグチャレフ大佐の極秘任務に参加したんだ。
+\nUNISGという特殊部隊と戦った。ゾーン深部の秘密を調査している外国の特別捜査隊だ。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_transmission_report_21">
+		<text>何もなかったぞ、教授。現地のアノマリーが出す雑音が聞こえただけだった。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_transmission_report_3">
+		<text>なるほど。ゾーンやその現象を研究することには意義があるが、ゾーンの起源に
+\n関する情報が間違った者の手に渡ることを考えると、身震いせずにはいられないな。
+\nありがとう、若者よ。もう大丈夫だ。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_transmission_report_31">
+		<text>厄介なことになったな。ヘルマンの仮説は否定せざるを得ないようだ。</text>
+	</string>
+	<string id="sakharov_operation_afterglow_transmission_report_4">
+		<text>ではまた、教授。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_psycho_0">
+		<text>俺の･･････ 頭が･･････ 私の･･････ 頭が･･････</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_0">
+		<text>おい、タフガイ。</text>
+	</string>
+	<string id="stalker_rogue_repair_oa_0">
+		<text>やあローグ、まだツールキットは使えるか？</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_0">
+		<text>な･･････ 何をしているんだ？</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_1">
+		<text>頭が･･････ クソッ･･････ 精神アノマリー･･････ 薬を･･････ 薬が･･････ いる･･････</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_2">
+		<text>ああ、まずいぞ。もう少し耐えてくれ、何か探してくる！</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_20">
+		<text>気をしっかり持て！耐えるんだ！</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_21">
+		<text>ああ･･････ 助けて･･････ くれ･･････</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_22">
+		<text>頼むから、しっかりしろ！</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_23">
+		<text>うるさい･･････ 俺は･･････ うーん･･････ んん･･････ モノリス！</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_help_psycho_24">
+		<text>ちくしょう！</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_heal_psycho_0">
+		<text>薬があるぞ、ほら飲め！</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_heal_psycho_1">
+		<text>あ、ありがとう･･････ もう少しで危ないところだった。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_heal_psycho_2">
+		<text>何があったんだ？</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_heal_psycho_3">
+		<text>ああ･･････ Monolithの連中と戦ってる最中に、俺たちはバラバラになったんだ。
+\n俺は弾幕を張りながら後退し、あいつらを食い止めていたが･･････
+\n思わず精神アノマリーに足を踏み入れちまった。その瞬間、頭に声が囁き始めた･･････
+\nMonolithの野郎どもは俺をここまで引きずって、そのまま去っていった。
+\n俺を洗脳するつもりだったんだろう。
+\nこんなことになるなら、いっそ他のアノマリーに飛び込んだ方がマシだったな。クソッ。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_heal_psycho_4">
+		<text>あんたの精神波防護ヘルメットはどうしたんだ？</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_heal_psycho_5">
+		<text>あのクソヘルメットのせいで、いつも歯がムズムズしてたんだ。
+\nブレイン・スコーチャーは止まったし、もう必要ないと思ったが･･････ 判断ミスだったな。
+\nとにかく、コインランドリーに行こう。チームと合流するぞ。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_heal_psycho_6">
+		<text>行こう。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_saved_0">
+		<text>着いたな。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_saved_1">
+		<text>ありがとう、タフガイ。お前のおかげで、死よりも酷い運命を免れた。それは忘れない。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_saved_2">
+		<text>どういたしまして、ローグ。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_join_0">
+		<text>急がないとな。行くぞ。</text>
+	</string>
+	<string id="stalker_rogue_dialog_oa_join_1">
+		<text>なんか嫌な予感がしてきたな。</text>
+	</string>
+	<string id="pri_a17_strelok_dialogue_0">
+		<text>やあ、ストレロック。相変わらずMonolithと戦ってるんだな？</text>
+	</string>
+	<string id="pri_a17_strelok_dialogue_1">
+		<text>助かった、まさか来てくれるとはな。
+\nこの場所は危険だ、コインランドリーに移動しよう。話がある。</text>
+	</string>
+	<string id="pri_a17_strelok_dialogue_2">
+		<text>わかった、行こう。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_0">
+		<text>それで、何があった？他の仲間はどうした？</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_1">
+		<text>俺たちはMonolithの連中を餓死させるつもりで、補給線を片っ端から潰していた。
+\nだが、奴らも分隊を編成して反撃を始め、その戦闘で俺たちは分断されてしまった。
+\nこのエリアでは長距離通信は危険だし、ここまでの戦闘で俺の疲労も限界に達している。
+\nローグとスティッチを自力で探しに行くのは無理だ。
+\n最後に別れたのは廃病院の近くだから、そう遠くには行ってないだろう。
+\n頼む、周囲を捜索してあの二人を見つけ出してくれ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_2">
+		<text>わかった、あんたはここにいてくれ。俺が連れ戻してくる。</text>
+	</string>
+	<string id="pri_a18_rogue_fallen_0">
+		<text>幼稚園でローグを見つけたが、奇妙な像に祈りを捧げていた。
+\n精神アノマリーにやられたんだ。</text>
+	</string>
+	<string id="pri_a18_rogue_fallen_1">
+		<text>クソッ。「ゾーンの何が来ようが、俺は死なない」なんて言っていたのに。
+\nミュータントにも、Monolithにもやられずにきたのにな･･････
+\n結局、アノマリーに脳を焼かれるとは･･････ 安らかに眠ってくれ。</text>
+	</string>
+	<string id="pri_a18_rogue_fallen_2">
+		<text>同感だ。</text>
+	</string>
+	<string id="pri_a28_stitch_fallen_0">
+		<text>プロメテウス映画館の近くでスティッチを見つけた。
+\nゾンビの大群に囲まれていて･･････ 助けられなかった。</text>
+	</string>
+	<string id="pri_a28_stitch_fallen_1">
+		<text>あいつがいなくなったら、ゾーンはもっとつまらない場所になるな。安らかに眠ってくれ。</text>
+	</string>
+	<string id="pri_a28_stitch_fallen_2">
+		<text>同感だ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_0">
+		<text>プリピャチは相変わらず死の街だな。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_1">
+		<text>そうだな。幸運なことに、今回は全員生き延びた。もう仲間を埋葬するのはごめんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_100">
+		<text>ローグはどんな時でもタフだった。あいつのサポートなしでは今後苦戦するだろうな。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_110">
+		<text>スティッチは最高の仲間だった。あいつのユーモアがないと寂しくなるな。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_120">
+		<text>またしても仲間がゾーンに消えた･･････ 次は何を奪うつもりだ？
+\nもう俺に残されたものなんて、ほとんどないはずだ･･････</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_2">
+		<text>ストレロック、大丈夫だ。
+\n俺もこのチームの一員になった気分だし、役に立てて何よりだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_200">
+		<text>ローグが死ぬとは思わなかった、それも戦闘で･･････ クソッ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_210">
+		<text>スティッチが･･････ あんなに陽気な奴が死ぬなんて間違ってる。クソッ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_220">
+		<text>ゾーンは容赦ないな。あれほどの試練を乗り越えてきた二人が、
+\nこんなにもあっけなく死ぬとは･･････ これがゾーンの恐ろしさってわけか。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_3">
+		<text>前に進むしかない。共同意識体を滅ぼし、MonolithやSinに決定打を与え、
+\nすべての精神波の放射設備を停止させても･･････ ゾーンは存在し続ける。
+\nこの恐怖を完全に消し去ることができるのか、いよいよわからなくなってきたな。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_4">
+		<text>ゾーンはこのまま存在し続ける運命なのかもしれない。良くも悪くもな。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_5">
+		<text>そうだろうな･･････ 少し休んでから次の行動を考えよう。
+\nお前はDutyだから簡単には抜けられないだろうが、
+\n俺たちに加わることも考えてみてくれ。助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_51">
+		<text>そうだろうな･･････ 少し休んでから次の行動を考えよう。
+\nお前はMercenaryだ。ダッシュマンとの契約を破るのは気が引けるだろうが、
+\n俺たちに加わることも考えてみてくれ。力を貸してほしい。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_52">
+		<text>そうだろうな･･････ 少し休んでから次の行動を考えよう。
+\nお前はフリーのストーカーだ。一人で行動する方がやりやすいのかもしれないが、
+\n俺たちに加わることも考えてみてくれ。力を貸してほしい。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_53">
+		<text>そうだろうな･･････ 少し休んでから次の行動を考えよう。
+\nお前はClear Skyのメンバーだから気が進まないだろうが、
+\n俺たちに加わることも考えてみてくれ。助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_54">
+		<text>そうだろうな･･････ 少し休んでから次の行動を考えよう。
+\nお前はFreedomだから俺の考えには賛同できないかもしれないが、
+\n俺たちに加わることも考えてみてくれ。助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_55">
+		<text>そうだろうな･･････ 少し休んでから次の行動を考えよう。
+\nお前はEcologistだから簡単には抜けられないだろうが、
+\n俺たちに加わることも考えてみてくれ。助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_500">
+		<text>そうかもな。俺も今後どうするか考えよう。
+\nお前はDutyだから簡単には抜けられないだろうが、
+\n俺と一緒に行動することも考えてみてくれ。チームはもういない･･････ 助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_501">
+		<text>そうかもな。俺も今後どうするか考えよう。
+\nお前はMercenaryだ。ダッシュマンとの契約を破るのは気が引けるだろうが、
+\n俺と一緒に行動することも考えてみてくれ。チームはもういない･･････ 助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_502">
+		<text>そうかもな。俺も今後どうするか考えよう。
+\nお前はフリーのストーカーだ。一人で行動する方がやりやすいのかもしれないが、
+\n俺と一緒に行動することも考えてみてくれ。チームはもういない･･････ 助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_503">
+		<text>そうかもな。俺も今後どうするか考えよう。
+\nお前はClear Skyのメンバーだから気は進まないだろうが、
+\n俺と一緒に行動することも考えてみてくれ。チームはもういない･･････ 助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_504">
+		<text>そうかもな。俺も今後どうするか考えよう。
+\nお前はFreedomだから俺の考えには賛同できないかもしれないが、
+\n俺と一緒に行動することも考えてみてくれ。チームはもういない･･････ 助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_505">
+		<text>そうかもな。俺も今後どうするか考えよう。
+\nお前はEcologistだから簡単には抜けられないだろうが、
+\n俺と一緒に行動することも考えてみてくれ。チームはもういない･･････ 助けが必要なんだ。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_6">
+		<text>わかったよ、ストレロック。考えてみる。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_61">
+		<text>すまない、ストレロック。他の仕事を放棄することはできないんだ。じゃあな。</text>
+	</string>
+	<string id="pri_a16_strelok_dialogue_team_7">
+		<text>そうか。じゃあ、またな。</text>
+	</string>
+	<string id="strelok_finale_dialogue_0">
+		<text>外にいるウクライナ保安庁の調査官、デグチャレフ大佐は命令を受けてここに来た。
+\nあんたを政府の管理下に戻すか･･････ 抹殺するかだ。</text>
+	</string>
+	<string id="strelok_finale_dialogue_1">
+		<text>もうMilitaryと組む気はない。破壊しては、何事もなかったかのように振る舞う連中だ。
+\nそうやって隠蔽を繰り返している。壊れたものを直すのは手間がかかるし、金もかかる。
+\nあいつらには、そんなことに労力を割く気なんてないんだろうよ。</text>
+	</string>
+	<string id="strelok_finale_dialogue_2">
+		<text>わかってる、ストレロック。でも聞いてくれ。</text>
+	</string>
+	<string id="strelok_finale_dialogue_3">
+		<text>なんだ？</text>
+	</string>
+	<string id="strelok_finale_dialogue_4">
+		<text>俺はデグチャレフの信頼を得ている。
+\nうまくやれば、奇襲を仕掛けて奴らの意表を突くことができるかもしれない。
+\nこんなことはしたくないが、あんたがこのまま捕まるのを見過ごすわけにもいかないしな。</text>
+	</string>
+	<string id="strelok_finale_dialogue_400">
+		<text>デグチャレフの作戦はここまで順調に進んでいる。彼にもある程度の融通は効くだろう。
+\nあんたが身を隠し、ゾーンについて知っていることを一切口外しないと約束すれば、
+\n見逃してくれるはずだ。もし彼が約束を破ろうとしたら、俺があんたを守る。</text>
+	</string>
+	<string id="strelok_finale_dialogue_401">
+		<text>デグチャレフの作戦はここまで順調に進んでいる。彼にもある程度の融通は効くだろう。
+\nあんたが身を隠し、ゾーンについて知っていることを一切口外しないと約束すれば、
+\n見逃してくれるはずだ。もし彼が約束を破ろうとしたら、俺があんたを守る。</text>
+	</string>
+	<string id="strelok_finale_dialogue_402">
+		<text>デグチャレフの作戦はここまで順調に進んでいる。彼にもある程度の融通は効くだろう。
+\nあんたが身を隠し、ゾーンについて知っていることを一切口外しないと約束すれば、
+\n見逃してくれるはずだ。もし彼が約束を破ろうとしたら、俺があんたを守る。</text>
+	</string>
+	<string id="strelok_finale_dialogue_5">
+		<text>そうか。結局こうなる運命だったんだな。なら、これで終わらせよう。</text>
+	</string>
+	<string id="strelok_finale_dialogue_500">
+		<text>どちらにせよ、そうするつもりだった。あの男に了承すると伝えよう。</text>
+	</string>
+	<string id="strelok_finale_dialogue_6">
+		<text>よし、やってみよう。付いて来てくれ。</text>
+	</string>
+	<string id="strelok_finale_fight_dialogue_0">
+		<text>大佐は死んだ。これでしばらくはMilitaryの追跡も遅れるだろう。</text>
+	</string>
+	<string id="strelok_finale_fight_dialogue_1">
+		<text>彼は良識のある人物だったが、Militaryが作戦を中止するにはこうするしかなかった。
+\n俺のために力を貸してくれて感謝する。</text>
+	</string>
+	<string id="strelok_finale_fight_dialogue_100">
+		<text>こんな結末になってしまったのは残念だが、お前を頼れてよかった。礼を言う。</text>
+	</string>
+	<string id="strelok_finale_fight_dialogue_2">
+		<text>これまで一緒に乗り越えてきただろう？当然のことさ。</text>
+	</string>
+	<string id="strelok_finale_fight_dialogue_3">
+		<text>ああ、本当にいろいろあったな。終わるのは寂しいが、一緒に旅ができてよかった。
+\n俺はまた身を隠さないとな。次はゾーンであまり開拓されていない拠点を探すつもりだ。
+
+\n\n次に会うのはずっと先になるだろう。
+\nドクターに会いに行って、一緒に身を潜めるべきかもな･･････ どうなるかは分からないが。
+\nさて、お別れだ･･････ また会おう。</text>
+	</string>
+	<string id="strelok_finale_fight_dialogue_4">
+		<text>またな、ストレロック。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_0">
+		<text>軍の連中はあんたを無罪放免にしてくれるようだ。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_1">
+		<text>別の結末になっていた可能性もあったが、デグチャレフなら納得するだろうと思っていた。
+\nとはいえ、これでようやく一息つけるな。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_100">
+		<text>ああ、よかった。できることなら、仲間全員でこの結果を見届けたかったが･･････
+\nしかし、これが一番マシな終わり方なのかもしれないな。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_101">
+		<text>ああ、よかった。できることなら、仲間全員でこの結果を見届けたかったが･･････
+\nしかし、これが一番マシな終わり方なのかもしれないな。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_102">
+		<text>あと少しで平和的に解決できたというのに、スティッチとローグが命を落とすとはな。
+\n時間を見つけて、ファングやゴーストと一緒に埋葬してやらないと。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_2">
+		<text>ああ、かなり危険な状況だったな。解決の手助けができてよかったよ。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_202">
+		<text>きっと彼らも伝説として語り継がれるだろうさ、ストレロック。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_3">
+		<text>俺たちはここを離れるつもりだ。
+\nゾーンの連中に知られていないような、新しい隠れ家を見つけないとな。
+\nお前とは本当に色々あったな。この旅が終わるのは寂しいが、ここまで来られてよかった。
+\n次はドクターに会いに行くのもいいかもしれないな。
+\n新しい仲間を紹介すればきっと喜ぶだろう。その後のことは･･････ ゾーンに委ねるとしよう。
+
+\n\n俺の選択が正しかったのかはわからないが、それでも俺たちはやり遂げた･･････
+\nそれで十分だ。じゃあな。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_300">
+		<text>俺とスティッチはここを離れるつもりだ。
+\nゾーンの連中に知られていないような、新しい隠れ家を見つけないとな。
+\nお前とは本当に色々あったな。この旅が終わるのは寂しいが、ここまで来られてよかった。
+\n次はドクターに会いに行くのもいいかもしれないな。スティッチとは共通点が多いし、
+\n気も合うだろう。その後のことは･･････ ゾーンに委ねるとしよう。
+
+\n\n俺の選択が正しかったのかはわからないが、それでも俺たちはやり遂げた･･････
+\nそれで十分だ。じゃあな。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_301">
+		<text>俺とローグはここを離れるつもりだ。
+\nゾーンの連中に知られていないような、新しい隠れ家を見つけないとな。
+\nお前とは本当に色々あったが、一緒に旅ができてよかった。
+\nこの旅が終わるのは寂しいし、全員で生き延びることができなかったのは残念だけどな。
+\n次はドクターに会いに行くのもいいかもしれない。
+\n彼もきっとローグのことを気に入るだろう。その後のことは･･････ ゾーンに委ねるとしよう。
+
+\n\n俺の選択が正しかったのかはわからないが、それでも俺たちはやり遂げた･･････
+\nそれで十分だ。じゃあな。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_302">
+		<text>俺はここを離れるつもりだ。
+\nゾーンの連中に知られていないような、新しい隠れ家を見つけないとな。
+\nお前とは本当に色々あったが、一緒に旅ができてよかった。
+\nこの旅が終わるのは寂しいし、新しい仲間が最後まで生き残れなかったのは残念だけどな。
+\n次はドクターに会いに行くのもいいかもしれない。
+\n数は少なくなったが、生き残った友人の顔を見るのも悪くないだろう。
+\nその後のことは･･････ ゾーンに委ねるとしよう。
+
+\n\n俺の選択が正しかったのかはわからないが、それでも俺たちはやり遂げた･･････
+\nそれで十分だ。じゃあな。</text>
+	</string>
+	<string id="strelok_finale_negotiator_dialogue_4">
+		<text>また近いうちに会えるといいな。じゃあな、ストレロック。</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_0">
+		<text>大変だったな。どうしてこんなことになったんだ？</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_1">
+		<text>ああ、俺たちはMonolithの大群と戦ってたんだが、すぐにめちゃくちゃな状況になってな。
+\n銃弾が飛び交い、手榴弾が爆発し、Monolithの奴らは意味不明なことばかり叫んでる･･････
+\nそれで、一息つこうと思って劇場に逃げ込んだが･･････ そこがゾンビだらけだったんだよ。
+\n慌てて逃げ出したら、今度は別のゾンビの群れに遭遇しちまってな。
+\nお前が来てくれて助かったよ、マジでもう逃げ場がなかった･･････
+\nなあ、もうコインランドリーに行かないか？頼むよ。</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_2">
+		<text>そうだな、行こう。</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_saved_0">
+		<text>無事に着いたな。ところで、どこか噛まれたりしてないよな？
+\n衛生兵が感染したら、治療できるやつがいなくなるぞ。</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_saved_1">
+		<text>ハハ！大笑いしたいところだが、まだ体が震えててな･･････ ふぅ。
+\n助けてくれてありがとよ、借りができたな。</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_saved_2">
+		<text>どういたしまして、スティッチ。</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_join_0">
+		<text>急がないとな。行くぞ。</text>
+	</string>
+	<string id="stalker_stitch_dialog_oa_join_1">
+		<text>ああ、やるぞ！</text>
+	</string>
+	<string id="degtyarev_start_0">
+		<text>時間がない。ここは手短に済ませるぞ。</text>
+	</string>
+	<string id="degtyarev_start_jup_0">
+		<text>やあ。</text>
+	</string>
+	<string id="degtyarev_start_pri_0">
+		<text>ああ、お前か。これ以上首を突っ込むのはやめておけ。</text>
+	</string>
+	<string id="degtyarev_transmission_0">
+		<text>あんたは何者だ？</text>
+	</string>
+	<string id="degtyarev_transmission_1">
+		<text>それは俺のセリフだ、ストーカー。どうやら余計な注目を集めてしまったようだな。
+\n俺はデグチャレフ大佐だ。悠長にしている暇はない。
+\nお前に提案があるが、断る選択肢はない。俺の部下と共に敵部隊を排除するんだ。
+\nDutyの一員として頼りにしているぞ。</text>
+	</string>
+	<string id="degtyarev_transmission_100">
+		<text>それは俺のセリフだ、傭兵。どうやら余計な注目を集めてしまったようだな。
+\n俺はデグチャレフ大佐だ。悠長にしている暇はない。
+\nお前に提案があるが、断る選択肢はない。俺の部下と共に敵部隊を排除するんだ。
+\n当然、報酬は用意してある。</text>
+	</string>
+	<string id="degtyarev_transmission_110">
+		<text>それは俺のセリフだ、ストーカー。どうやら余計な注目を集めてしまったようだな。
+\n俺はデグチャレフ大佐だ。悠長にしている暇はない。
+\nお前に提案があるが、断る選択肢はない。俺の部下と共に敵部隊を排除するんだ。
+\n当然、報酬は用意してある。</text>
+	</string>
+	<string id="degtyarev_transmission_120">
+		<text>それは俺のセリフだ、ストーカー。どうやら余計な注目を集めてしまったようだな。
+\n俺はデグチャレフ大佐だ。悠長にしている暇はない。
+\nお前に提案があるが、断る選択肢はない。俺の部下と共に敵部隊を排除するんだ。
+\nClear Skyの一員なら、秘密は隠しておくのが一番だということは理解しているだろう。</text>
+	</string>
+	<string id="degtyarev_transmission_130">
+		<text>それは俺のセリフだ、ストーカー。どうやら余計な注目を集めてしまったようだな。
+\n俺はデグチャレフ大佐だ。悠長にしている暇はない。
+\nお前に提案があるが、断る選択肢はない。俺の部下と共に敵部隊を排除するんだ。
+\nFreedomが軍を好まないのは承知しているが、ヤノフでの借りを返す良い機会だと思え。</text>
+	</string>
+	<string id="degtyarev_transmission_140">
+		<text>それは俺のセリフだ。どうやら余計な注目を集めてしまったようだな。
+\n俺はデグチャレフ大佐だ。悠長にしている暇はない。
+\nお前に提案があるが、断る選択肢はない。俺の部下と共に敵部隊を排除するんだ。
+\n何らかの調査でここに来たのだろうが、Sinとの戦いぶりを見れば実力は明らかだ。
+\nどんな形であれ、手を貸すなら歓迎しよう。</text>
+	</string>
+	<string id="degtyarev_transmission_2">
+		<text>わかった、協力しよう。</text>
+	</string>
+	<string id="degtyarev_transmission_21">
+		<text>この件には関わりたくないな。</text>
+	</string>
+	<string id="degtyarev_transmission_3">
+		<text>よし。敵は南東にある放棄された森林管理場に駐留している。
+\n先導してくれ、俺の部隊が後ろから援護する。</text>
+	</string>
+	<string id="degtyarev_transmission_31">
+		<text>お前は既に巻き込まれている。残念だが、断る余地はない。
+\n協力するなら、お前がここに来たことは上に報告しないでおいてやる。よく考えろ。</text>
+	</string>
+	<string id="degtyarev_transmission_4">
+		<text>わかった、大佐。行こう。</text>
+	</string>
+	<string id="degtyarev_transmission_41">
+		<text>ああ、納得したよ。どうせなら、知ってる方の悪党を手伝うことにしよう。</text>
+	</string>
+	<string id="degtyarev_rally_point_middle_0">
+		<text>全員、仕留めたな。これからどうなる？</text>
+	</string>
+	<string id="degtyarev_rally_point_middle_1">
+		<text>今戦ったのはただの見張りだ。
+\nここで待機するぞ、奴らの偵察部隊がすぐに戻ってくるはずだ。</text>
+	</string>
+	<string id="degtyarev_rally_point_middle_2">
+		<text>何人いる？</text>
+	</string>
+	<string id="degtyarev_rally_point_middle_3">
+		<text>武装した兵士が9人、そして指揮官は強化外骨格を着ている。厳しい戦いに備えろ。</text>
+	</string>
+	<string id="degtyarev_rally_point_middle_4">
+		<text>奴らが気づく前に決着がつくことを祈ろう。</text>
+	</string>
+	<string id="degtyarev_rally_point_0">
+		<text>これで全員片付いたな。他にやることは？</text>
+	</string>
+	<string id="degtyarev_rally_point_1">
+		<text>死体を調べろ。隊長が持っているPDAだ、それを確認したい。</text>
+	</string>
+	<string id="degtyarev_rally_point_2">
+		<text>分かった。</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_0">
+		<text>隊長のPDAを見つけたぞ。</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_1">
+		<text>よし、見せてくれ。これで奴らの次の動きが予測できる。</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_2">
+		<text>こいつらは一体何者なんだ？</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_3">
+		<text>奴らの制服のパッチを見ただろう？</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_4">
+		<text>ああ、「UNISG」と書いてあった。
+\nそれにしても、こいつらが科学者だって言うなら、俺はバーラーとでも名乗ろうかな。</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_5">
+		<text>2011年の設立当初は科学者だったのかもしれん。最近の混乱、Sinとの戦争、
+\nそして巨大なエミッションを経て、国連はUNISGを特殊偵察部隊として再編したようだ。
+\n俺が捕えた偵察員は、Ecologistと同じゾーンの研究をしていると主張していたが･･････
+\n奴らが何よりも関心を持っているのは、ゾーンの起源だ。
+\nそれは我々にとって、謎のままにしておくべきものだ。今のところはな。</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_6">
+		<text>おいおい、そんなことを俺に教えていいのか。
+\nこの後、後頭部を撃たれて始末されるんじゃないだろうな？</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_7">
+		<text>安心しろ。地元の連中と協力するのはこれが初めてではない。
+\nお前の働きには感謝しているし、相応の報酬も支払うつもりだ。
+\nそれに、お前が関与したことは報告しないでおく。ただ、一つだけ忠告しておこう。
+\n今回の作戦も含め、お前が知ったことは決して口外するな。
+\n余計なことを喋らなければ、我々が“後始末”に動くこともないだろう。</text>
+	</string>
+	<string id="degtyarev_rally_point_pda_8">
+		<text>なるほどな、了解したよ。じゃあな、大佐。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_0">
+		<text>ここで会うとは思わなかったな。ヤノフで何をしているんだ？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_1">
+		<text>ちょっと立ち寄っただけだ。探検したり、危険な獲物を狩ったり、そんなところだな。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_2">
+		<text>他のストーカーたちはあんたを気にしないのか？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_3">
+		<text>そんなことはない。
+\nむしろ、俺はこの辺りでは「頼りになる中立のストーカー」として好意的に見られている。
+\n願わくば、このままそう思われていたいものだな。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_4">
+		<text>そうなのか。しかし、なぜ俺にメッセージを送った？
+\nあんたに旅の相棒が必要だとは思えないが。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_5">
+		<text>見ての通り、俺は忙しい身だ。同時に片付けなければならないことが山ほどある。
+\nお前はゾーンで多くの成果を上げているようだな。
+\nその力を貸してくれれば助かるし、働きに見合った報酬も用意している。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_6">
+		<text>何をすればいい？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_7">
+		<text>ある友人に荷物を届けてほしい。ここからそう遠くない場所で待機しているはずだ。
+\n問題は、彼が“悪党”に追われていると言っていたことだ。
+\n俺とお前が最近相手にした連中と同じ奴らだな。
+\nつまり、この配達は迅速かつ目立たずに行う必要がある。やるか？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_8">
+		<text>わかった、引き受けよう。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_special_delivery_9">
+		<text>終わったら戻ってこい。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_0">
+		<text>配達について･･････</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_1">
+		<text>どうした、ストーカー？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_11">
+		<text>お前ほどの腕なら、問題なくこなせるだろう？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_2">
+		<text>いや、なんでもない。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_20">
+		<text>荷物をその“友人”に届けてきた。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_200">
+		<text>あんたの友人は捕まった。俺が着いたときには、すでに死んでいた。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_210">
+		<text>すまない、荷物を届けるのに間に合わなかった。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_3">
+		<text>よくやった、これが報酬だ。早速だが次の仕事を頼みたい。
+\n現在、別の友人が“悪党”の部隊に潜り込んで、しばらく奴らの悪事を探っている。
+\n彼と接触し、情報が入ったフラッシュドライブを受け取ってくれ。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_4">
+		<text>その友人と一緒にいる“悪党”はどうする？俺を見たら撃ってくるんじゃないのか？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_5">
+		<text>状況を考えれば、単独で来るような者には危害を加えないはずだ。
+\nただし、目的を悟られないようにしろ。
+\n友人はこの辺りの危険なミュータントについて質問してくるだろう。
+\nそこでお前は「途中でブラインドドッグの群れに襲われた」と答えるんだ。忘れるなよ。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_6">
+		<text>わかった、やってみる。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_undercover_agent_300">
+		<text>クソッ、厄介なことになったな。別の手段で荷物を届ける方法を考えなければ。
+\nとはいえ、試みたこと自体は評価しよう。わずかだが報酬を渡しておく。
+\n次の任務のやる気を削ぐわけにはいかないからな。
+\n現在、別の友人が“悪党”の部隊に潜り込んで、しばらく奴らの悪事を探っている。
+\n彼と接触し、情報が入ったフラッシュドライブを受け取ってくれ。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_0">
+		<text>友人について･･････</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_1">
+		<text>どうした？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_2">
+		<text>いや、気にしないでくれ。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_20">
+		<text>フラッシュドライブを持ってきた。奴らに怪しまれることもなかったぞ。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_200">
+		<text>フラッシュドライブは手に入れたが、合言葉を間違えて面倒なことになったんだ。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_3">
+		<text>よくやった。このエリアでの仕事も終わりが近いが、最後に片付けておきたいことがある。
+\n“悪党”がジュピター工場を徹底的に捜索しているようだ。
+\nそこに何らかの機密情報が残っている可能性を考慮し、奴らを排除しておくべきだろう。
+\n念には念を入れたほうがいい。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_4">
+		<text>いいだろう、行こう。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_300">
+		<text>おい･･････ クソッ、簡単な合言葉だろう！
+\nお前の実力を考えれば、難なくこなせると思っていたんだがな。
+\nまあいい、持ち帰った情報にはまだ使い道があるかもしれん。
+\nこのエリアでの仕事も終わりが近いが、最後に片付けておきたいことがある。
+\n“悪党”がジュピター工場を徹底的に捜索しているようだ。
+\nそこに何らかの機密情報が残っている可能性を考慮し、奴らを排除しておくべきだろう。
+\n念には念を入れたほうがいい。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_middle_0">
+		<text>まったく、死体の山ばかり増えていくな。これで終わりか？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_middle_1">
+		<text>差し迫った脅威は取り除いた。次は工場を調べて、何か文書が残っていないか確認するぞ。
+\n俺は数年前にここを訪れているが、何か見落としがあるかもしれん。
+\nあの時は忙しかったからな。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_search_unit_middle_2">
+		<text>了解。血まみれになるまで死体漁りだな。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_final_0">
+		<text>ほら、これが書類だ。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_final_1">
+		<text>よし、これでジュピターでの仕事は終わりだ。俺はそろそろ出発する。
+\n「アフターグロー作戦」はまだ進行中だ。プリピャチ郊外でも対処すべき案件があるが、
+\nお前を巻き込むつもりはない。ここまでの協力に感謝する。また会おう。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_final_2">
+		<text>またな、大佐。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_final_bad_0">
+		<text>どうやら遅かったようだ。何か重要なものがあったとしても、
+\n今頃はUNISGの研究員どもが調べ尽くしてるだろう。これからどうする？</text>
+	</string>
+	<string id="degtyarev_further_cooperation_final_bad_1">
+		<text>仕事がさらに厄介になったな。どちらにせよ、ジュピターでやることはなくなった。
+\n俺はここを離れる。作戦をどうにかして立て直さなくてはな。
+\nプリピャチ郊外でも対処すべき案件があるが、お前の協力はここまでだ。また会おう。</text>
+	</string>
+	<string id="degtyarev_further_cooperation_final_bad_2">
+		<text>またな、デグチャレフ。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_0">
+		<text>どういうことだ、大佐？</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_1">
+		<text>忘れがちだが、俺はウクライナ保安庁の将校で、命令を受けてここにいる。
+\nこのゾーンには秘匿すべき機密が数多く存在するが、すでに知りすぎてしまった者がいる。
+\nストレロックはその一人であり、UNISGもそのことを知っている。
+\n俺の任務は、機密情報が不適切な者の手に渡るのを防ぐことだ。そして現在の命令は、
+\nストレロックを政府の管理下に戻し、正式な研究顧問として活動を再開させること･･････
+\nもしくは、抹殺することだ。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_2">
+		<text>本気でストレロックを捕らえるつもりか？彼はゾーンでも指折りの熟練ストーカーだ。
+\n何年もMonolithと戦い、勝ち続けてきたんだぞ！</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_3">
+		<text>アフターグロー作戦は失敗続きだ。
+\n現時点で、UNISGはゾーンの国際的な共同占領を正当化するのに十分な情報を掴んでいる。
+\n最悪の状況だと言えるだろう。もはや作戦の被害を抑えるための対策を講じるしかない。
+\nストレロックと接触する者は誰であろうと許されない。お前も含めてな。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_300">
+		<text>アフターグロー作戦は順調に進んでいる。我々は機密情報をUNISGから守り抜いた。
+\n奴らはゾーンでの軍事展開を縮小せざるを得ないだろう。完全に撤退することもあり得る。
+\n状況は安定しており、あとは残った問題を片付けて作戦を終わらせるだけだ。
+\nそのためにも、ストレロックと接触する者は誰一人としていてはならない。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_310">
+		<text>アフターグロー作戦は失敗続きだ。
+\nUNISGは十分な情報を手に入れ、国連からさらなる資金と支援を確保できる状況にある。
+\n事態は深刻だ。これ以上の失敗は許されない。
+\nストレロックと接触する者は誰一人としていてはならない。お前も含めてな。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_320">
+		<text>アフターグロー作戦は今のところ順調だ。
+\nUNISGには少しばかり情報を掴まれたが、それだけでは今後1、2年の維持が限界だろう。
+\n状況は我々に有利だ。作戦の後始末を済ませ、完全に終わらせるとしよう。
+\nそのためにも、ストレロックと接触する者は誰一人としていてはならない。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_4">
+		<text>役に立てなくてすまない。それにしても、これは本当に必要なことなのか？</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_400">
+		<text>あんたの力になれてよかったよ。見返りに、俺の頼みを聞いてくれないか？</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_410">
+		<text>そこまで悪い状況じゃないだろう？こんなことをする必要はないはずだ！</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_420">
+		<text>少しでも役に立ててよかったよ。見返りに、俺の頼みを聞いてくれないか？</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_5">
+		<text>ああ、もちろんだ。ただし、お前にも全面的な協力をしてもらう。
+\nさもなければ、お前も“口封じ”されることになるかもしれないぞ。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_500">
+		<text>これは軍の作戦だぞ。しかし、お前は作戦の成功に大きく貢献してくれたな。
+\nその頼みとはなんだ？</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_510">
+		<text>ああ、聞こう。できればお前にも協力してもらいたい。
+\nお前まで“口封じ”の対象になるのは避けたいからな。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_520">
+		<text>これは軍の作戦だぞ。個人的な“頼み”を聞く余裕はないと思うが･･････ 試しに言ってみろ。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_6">
+		<text>ああ、クソッ。他に選択肢はなさそうだな。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_61">
+		<text>もううんざりだ、デグチャレフ。
+\n最初からあんたを始末すべきだった。ここで終わらせてやる。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_600">
+		<text>ストレロックが大人しく従うはずがない、それはお互い分かってるだろう。
+\nなら、俺に交渉させてくれ。説得して妥協案を探るんだ。
+\n彼には秘密とともに身を隠してもらう。その代わり、あんたは手を引く。これでどうだ？</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_7">
+		<text>それは合理的な取引だな。上層部は気に入らないだろうが･･････
+\n作戦全体の成功を考えれば、ストレロックを“取り逃がす”程度の融通は利くだろう。
+\nよし、お前に10分だけ時間をやる。しっかり話をつけてこい。</text>
+	</string>
+	<string id="degtyarev_finale_dialogue_8">
+		<text>ありがとう、大佐。これが最善の解決策になるはずだ。</text>
+	</string>
+	<string id="degtyarev_finale_military_dialogue_0">
+		<text>あんたの思い通りになったな。ストレロックが秘密を明かすことは二度とないだろう。</text>
+	</string>
+	<string id="degtyarev_finale_military_dialogue_1">
+		<text>最善の解決策とは言えんが、我々に選択の余地はなかった。
+\n少なくとも、アフターグロー作戦が完全な失敗に終わることは避けられた･･････
+\nお前も無事にここを出られる。ただし、余計なことは一切口外しないと誓え。
+\n我々はお前を見張っている、それを忘れるなよ。</text>
+	</string>
+	<string id="degtyarev_finale_military_dialogue_100">
+		<text>最善の解決策ではないが、この結果がすべてだ･･････
+\n少なくとも、アフターグロー作戦はある程度の成功を収めたと言えるだろう。
+\nお前の貢献を考慮し、今回は見逃してやる。ただし、余計なことは一切口外しないと誓え。
+\n我々はお前を見張っている、それを忘れるなよ。</text>
+	</string>
+	<string id="degtyarev_finale_military_dialogue_2">
+		<text>あんたと仲間の兵士たちの監視から逃れるためだけに、この取引に乗ったんだ。
+\nゾーンで見聞きしたことは誰にも話さない。それは約束する。</text>
+	</string>
+	<string id="degtyarev_finale_military_dialogue_3">
+		<text>よろしい。悪気はないが、もう二度と会わないことを願おう。</text>
+	</string>
+	<string id="degtyarev_finale_military_dialogue_300">
+		<text>よろしい。我々が再開することはないだろうが、お前にとってはその方が気が楽だろう。</text>
+	</string>
+	<string id="degtyarev_finale_military_dialogue_4">
+		<text>じゃあな、大佐。</text>
+	</string>
+	<string id="degtyarev_finale_negotiator_dialogue_0">
+		<text>またUNISGの分隊を片付けたな。それに、これ以上の戦闘はもう必要ない。
+\nストレロックが姿をくらませば、奴らが見つけることはないだろう。</text>
+	</string>
+	<string id="degtyarev_finale_negotiator_dialogue_1">
+		<text>自分で言うのもなんだが、いい仕事をしたと思う。
+\nストレロックはもう自由だ、我々が追うことはない。お前も好きにしてくれ。</text>
+	</string>
+	<string id="degtyarev_finale_negotiator_dialogue_100">
+		<text>よくやった。
+\nストレロックは見逃すことにするが、今後も監視は続ける。お前も例外ではないぞ。</text>
+	</string>
+	<string id="degtyarev_finale_negotiator_dialogue_2">
+		<text>なるほどな。一緒に仕事ができてよかったよ、大佐。</text>
+	</string>
+	<string id="degtyarev_finale_negotiator_dialogue_3">
+		<text>もう一度言っておこう、よくやった。
+\nまたいつか協力する日が来るかもしれない。それじゃあな。</text>
+	</string>
+	<string id="degtyarev_finale_negotiator_dialogue_300">
+		<text>お前には世話になったな。これからは自由だ、いつもの活動に戻るといい。じゃあな。</text>
+	</string>
+	<string id="degtyarev_finale_negotiator_dialogue_4">
+		<text>またな、大佐。</text>
+	</string>
+	<string id="army_lt_jup_special_delivery_0">
+		<text>ん？何か用か？</text>
+	</string>
+	<string id="army_lt_jup_special_delivery_1">
+		<text>デグチャレフ大佐からの荷物を届けに来た。</text>
+	</string>
+	<string id="army_lt_jup_special_delivery_2">
+		<text>よし、渡してくれ。</text>
+	</string>
+	<string id="army_lt_jup_special_delivery_3">
+		<text>これで終わりか？</text>
+	</string>
+	<string id="army_lt_jup_special_delivery_4">
+		<text>ああ、時間を無駄にすることはない。もう行っていいぞ。</text>
+	</string>
+	<string id="army_lt_jup_special_delivery_5">
+		<text>良い旅を。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_0">
+		<text>ストーカー、ここで何をしている？今日は野営地の雰囲気がピリピリしてるんだ。
+\nトラブルに巻き込まれたくなければ、近寄らないほうがいいぞ。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_1">
+		<text>ただの伝令だ。
+\n共通の知り合いから、この辺りのミュータントの活動について知らせるように言われてな。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_2">
+		<text>ああ、そうなのか。それで、道中はどうだった？危険なものはいたか？</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_3">
+		<text>ここに来る途中、ブラインドドッグの群れに襲われたんだ。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_301">
+		<text>実は、ここに来る途中でブラインドドッグの群れに襲われたんだ。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_30">
+		<text>ここに来る途中、スードウドッグの群れに襲われたんだ。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_31">
+		<text>ここに来る途中、スードウジャイアントに襲われたんだ。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_40">
+		<text>おい･･････ 本気で言ってるのか？</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_50">
+		<text>くそっ、この馬鹿野郎！これを持ってすぐに出ていけ！</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_4">
+		<text>ふむ、そうか。気を付けるとしよう。これを受け取って、すぐに出ていってくれ。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_5">
+		<text>じゃあな。</text>
+	</string>
+	<string id="army_isg_spy_undercover_agent_60">
+		<text>ああ、クソッ。</text>
+	</string>
+	<string id="military_tarasov_dialog_start_0">
+		<text>また1つ、ゾーンでの任務が終わったか･･････</text>
+	</string>
+	<string id="military_tarasov_dialog_oa_join_0">
+		<text>移動しよう。</text>
+	</string>
+	<string id="military_tarasov_dialog_oa_join_1">
+		<text>あのストーカー、数年前は俺たちを助けてくれたんだよな･･････ まあ、命令は命令だ。</text>
+	</string>
+</string_table>

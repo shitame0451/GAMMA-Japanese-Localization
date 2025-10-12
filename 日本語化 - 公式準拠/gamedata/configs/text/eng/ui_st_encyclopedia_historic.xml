@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="encyclopedia_historic">
+		<text>歴史的</text>
+	</string>
+	
+	<string id="encyclopedia_historic_final_day">
+		<text>ファイナル・デイ（Final Day）</text>
+	</string>
+	<string id="encyclopedia_historic_final_day_text">
+		<text>
+		%c[pda_white]「ファイナル・デイ（Final Day）」%c[ui_gray_1]
+		\n科学者たちの一派で、「ラスト・デイ（Last Day）」や「ワイルドストーカー（wild stalkers）」とも呼ばれていた。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n彼らは、ゾーンが最終的に世界の終わりをもたらし、光熱放射が通過するたびにさらに多くの土地に拡大し、領域を広げるだろうと信じていた。研究目的でゾンビ化ストーカーたちを狩ることに魅入られたこと、そして今や忘れ去られたリーダーがゴーストと呼ばれるストーカーに暗殺されたことを除けば、彼らについてはほとんど知られていない。
+		\n \nクリアスカイの大部分を消し去った光熱放射の直後に活動を起こしたので、惨状を目撃し錯乱してしまった生存者たちの小さな分派であった可能性がある。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • リーダー: %c[ui_gray_1]不明
+		\n%c[pda_white] • 本拠地: %c[ui_gray_1]不明
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]不明
+		\n \n%c[pda_green]雑学%c[ui_gray_1]
+		\n%c[pda_white] • %c[ui_gray_1]この派閥について知られているのは、ゲームデザインの資料だけである。
+		\n%c[pda_white] • %c[ui_gray_1]この派閥は『S.T.A.L.K.E.R.: Shadow of Chernobyl』からカットされ、登場することはなかった。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_isg">
+		<text>ISG（国際科学グループ）</text>
+	</string>
+	<string id="encyclopedia_historic_isg_text">
+		<text>
+		%c[pda_white]「ISG（国際科学グループ）」%c[ui_gray_1]
+		\nゾーンの研究のために設立された。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n突然のゾーンの出現を受けて、国連はこの奇妙な新現象の研究と説明を唯一の目的とする新しい研究機関を設立した。
+		\n6台の大型発電機を取り巻くはるか北側の地域が最も科学的に興味深いとされ、彼らの調査地として選ばれた。わずか数か月の滞在だったが、彼らの研究は、準備することを知らなかった問題に悩まされることになった。研究者たちは、目に見えないアノマリーに飲み込まれたり、恐ろしいほど変異した野生生物に蹂躙されたりした。他の研究者は不可解にも姿を消し、数日後にゾンビ化したトランス状態で戻ってきて同僚を殺そうとした。
+		\n \n遠征隊はほとんど成果を上げられず、容認できないほど死者が多くなってしまったため、最終的には中止になってしまった。彼らの失敗にとらわれず、調査を継続するためにウクライナ政府は研究所を設立した。現在では一般的にエコロジストと呼ばれている。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • リーダー: %c[ui_gray_1]不明
+		\n%c[pda_white] • 本拠地: %c[ui_gray_1]ジェネレーター
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]白、赤
+		\n \n%c[pda_yellow]雑学
+		\n%c[pda_white] • %c[ui_gray_1]この派閥は『S.T.A.L.K.E.R.: Clear Sky』からカットされ、登場することはなかった。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_renegade">
+		<text>レネゲード</text>
+	</string>
+	<string id="encyclopedia_historic_renegade_text">
+		<text>
+		%c[pda_white]「レネゲード（Renegade）」%c[ui_gray_1]
+		\nゾーンの中で最も卑劣なストーカーたちだった。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\n制限やモラルを持たない彼らは主に、元々の派閥から追い出されたほどの凶悪な犯罪を犯したストーカーたちを中心に構成されていた。彼らが尊重する唯一の法律は武力であり、ゾーンの周辺で弱者を食い物にしていた。多くの場合、若くて経験が浅いために、彼らに対抗するチャンスは無かった。
+		\n \n多数の敵によって沼地に追いやられたジャッカルたちは、クリアスカイに直面して初めて、生き残りたいという思いから、独自の派閥として団結することを余儀なくされた。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • リーダー: %c[ui_gray_1]不明
+		\n%c[pda_white] • 本拠地: %c[ui_gray_1]沼地
+		\n%c[pda_white] • 派閥カラー: %c[ui_gray_1]色々
+		\n \n%c[pda_yellow]雑学
+		\n%c[pda_white] • %c[ui_gray_1]『S.T.A.L.K.E.R.: Clear Sky』でほんの少しだけ登場している。
+		\n%c[pda_white] • %c[ui_gray_1]この派閥は、プレイヤーがバンディットと仲良くなるために存在していた。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_rat_wolf">
+		<text>ラットウルフ</text>
+	</string>
+	<string id="encyclopedia_historic_rat_wolf_text">
+		<text>
+		%c[pda_white]「ラットウルフ」%c[ui_gray_1]
+		\n突然変異したネズミの珍しい亜種である。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nゾーンに生息する既存のネズミよりもはるかに危険で、無差別な殺戮マシンである。普通のネズミの群れを率いていることが多く、2~3倍の大きさになっていることが多いので見分けがつきやすい。
+		\n \nそのほかには、目玉が大きくて真っ黒であることや、上半身が膨らんで太っていることなど、わずかな違いしかなかった。不自然な大きさのために目立ち、ゾーンの猫や他の類似したミュータントに狙われやすかったため、自然淘汰が進んだ。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 攻撃: %c[ui_gray_1]近接
+		\n%c[pda_white] • 体力: %c[ui_gray_1]平均的
+		\n%c[pda_white] • スピード: %c[ui_gray_1]平均的
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]なし
+		\n \n%c[pda_yellow]雑学
+		\n%c[pda_white] • %c[ui_gray_1]このミュータントについては、ゲームデザインの資料でしか知られていない。
+		\n%c[pda_white] • %c[ui_gray_1]このミュータントは『S.T.A.L.K.E.R.: Shadow of Chernobyl』からカットされ、登場することはなかった。
+		</text>
+	</string>
+	
+	<string id="encyclopedia_historic_tark">
+		<text>ターク</text>
+	</string>
+	<string id="encyclopedia_historic_tark_text">
+		<text>
+		%c[pda_white]「ターク」%c[ui_gray_1]
+		\n絶滅した馬のような生き物で、プジェヴァルスキー馬から突然変異したものと考えられている。
+		\n \n%c[pda_green]情報%c[ui_gray_1]
+		\nこの生物は、ゾーン開始時に大量の放射線を浴びたため、祖先とは似ても似つかぬ姿になっていた。後肢は萎縮し、前肢は目に見えて誇張され、尾と口の大部分は腐敗または消失していた。
+		\n \nフレッシュに似たタークの体は大きく膨らみ、大きな集団で狩りをしている姿がよく見られた。
+		\n \nゾーン内の他のミュータントとは異なり、信じられないほど野性的な動物であり、その狂気はしばしば恐怖感を圧倒し、最終的な絶滅の原因となった。
+		\n \n%c[pda_blue]統計データ
+		\n%c[pda_white] • 攻撃: %c[ui_gray_1]近接
+		\n%c[pda_white] • 体力: %c[ui_gray_1]平均的
+		\n%c[pda_white] • スピード: %c[ui_gray_1]速い
+		\n%c[pda_white] • 特徴: %c[ui_gray_1]激しく興奮している
+		\n \n%c[pda_yellow]雑学
+		\n%c[pda_white] • %c[ui_gray_1]このミュータントについては、提出書類に添付されていた以上の情報はない。
+		\n%c[pda_white] • %c[ui_gray_1]GSC Game Worldが開催したMonster Ballというデザインコンテストでスノークに負けた。
+		</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,27 @@
+-- item_exo_device.script
+
+-- ===================================================================
+--  item_exo_device.ui_item.build_desc_header （スーツのエクソスケルトン情報）
+--  ui_item.scriptのbuild_desc_headerがオリジナル
+-- ===================================================================
+local original_build_desc_header = ui_item.build_desc_header
+
+ui_item.build_desc_header = function(obj, sec, str)
+	local text = original_build_desc_header(obj, sec, str)
+
+	if obj and type(item_exo_device) == "table" and item_exo_device.is_exo and item_exo_device.is_exo(obj) then
+		-- スラッシュの置換
+		text = text:gsub("([%d%.]+)/(%d+)", "%1 / %2")
+
+		-- 見出しを追加
+		text = text:gsub(
+			"  %%c%[255,255,255,0%]•",
+			" %%c[0,255,255,255]" .. game.translate_string("exo_outfit_name") .. ":\\n" .. "  %%c[255,255,255,0]•",
+			1
+		)
+
+		--printf("[DEBUG]\n%s", text)
+	end
+
+	return text
+end

@@ -1,0 +1,27 @@
+-- zzz_craft_use_in_tooltip_mcm.script
+
+-- ===================================================================
+--  UIInfoItem.SyncRecipesText （アイテムチップの表示調整）
+--  「◯◯に使用:」の色指定 （st_used_for_craft.xmlでの色指定が効かないため、ここで指定）
+-- ===================================================================
+local original_SyncRecipesText = utils_ui.UIInfoItem.SyncRecipesText
+
+utils_ui.UIInfoItem.SyncRecipesText = function(self, vertical, cont, text)
+	original_SyncRecipesText(self, vertical, cont, text)
+
+	local txt_wnd = self and self[cont.."_txt"]
+	if not txt_wnd then return end
+
+	local current_text = txt_wnd:GetText()
+	if current_text and not current_text:find("^  ") then
+		txt_wnd:SetText(" " .. current_text)
+	end
+
+	if cont == "recipes" then
+		txt_wnd:SetTextColor(GetARGB(255, 255, 255, 255))
+	elseif cont == "cooking" then
+		txt_wnd:SetTextColor(GetARGB(255, 255, 255, 255))
+	else
+		txt_wnd:SetTextColor(GetARGB(255, 255, 255, 255))
+	end
+end

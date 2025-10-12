@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+    <string id="ui_mcm_menu_liz_body_search">
+        <text>Body Search Animation</text>
+    </string>
+
+    <string id="ui_mcm_title_liz_body_search">
+        <text>死体調査アニメーション</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_mode">
+        <text>調査中に武器を下げる</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_anm_for_containers">
+        <text>コンテナにもアニメーションを適用</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_crouch">
+        <text>しゃがみを有効化</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_disable_walk">
+        <text>調査中の移動を無効化</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_random_search_time">
+        <text>インベントリ表示前にランダムな遅延を追加</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_enable_random_search_time_desc">
+        <text>死体調査の開始からインベントリ画面が開くまでの時間にランダムな遅延を追加できます。
+\nこの項目を有効にした後、MCM設定を再度開くと遅延スライダーが表示されます。</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_random_search_time_max">
+        <text>遅延時間の範囲</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_none">
+        <text>武器を下げない</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_pistols">
+        <text>ピストルのみ下げる</text>
+    </string>
+
+    <string id="ui_mcm_liz_body_search_wpn_lower_type_all">
+        <text>すべての武器を下げる</text>
+    </string>
+</string_table>

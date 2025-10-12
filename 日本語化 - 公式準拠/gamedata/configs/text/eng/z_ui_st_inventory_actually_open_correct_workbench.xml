@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="st_item_use_medical_craft">
+		<text>医療用作業台を開く</text>
+	</string>
+	<string id="st_item_use_ammo_craft">
+		<text>弾薬用作業台を開く</text>
+	</string>
+</string_table>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="ui_mcm_demonized_dialog_fov_title">
+		<text>Dialogs Dynamic UI</text>
+	</string>
+	<string id="ui_mcm_menu_demonized_dialog_fov">
+		<text>Dialog UI</text>
+	</string>
+
+	<string id="ui_mcm_demonized_dialog_fov_enabled">
+		<text>有効化</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_zoom_fov_enabled">
+		<text>ズームを有効化</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_zoom_fov_modifier">
+		<text>ズーム倍率</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_min_zoom_fov">
+		<text>最小ズーム倍率</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_min_zoom_fov_desc">
+		<text>ズームを有効にすると、FOVは少なくともこの値に変更されます。</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_distance_fov">
+		<text>距離基準のズーム</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_distance_fov_desc">
+		<text>FOVを変更し、キャラクターがプレイヤーからどれだけ離れていても同じ大きさになるようにします。</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_fov_smoothing">
+		<text>ズームの滑らかさ</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_track_npc">
+		<text>NPCへのカメラフォーカス</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_turn_modifier">
+		<text>カメラ回転係数</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_turn_modifier_desc">
+		<text>キャラクターの位置を調整するためのカメラ回転係数、0は回転なし、負の値はカメラを反対方向に回転させます。</text>
+	</string>
+	<string id="ui_mcm_demonized_dialog_fov_smoothing">
+		<text>カメラフォーカスの滑らかさ</text>
+	</string>
+	
+</string_table>

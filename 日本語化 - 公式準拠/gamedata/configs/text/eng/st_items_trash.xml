@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	USABLE
+-->
+
+	<string id="st_guitar_name">
+		<text>ギター</text>
+	</string>
+	<string id="st_guitar_descr">
+		<text>アコースティックギター。ストーカーたちが焚き火のそばで暇を潰したり、気分を高めるためによく弾いている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]娯楽用\n
+		%c[d_orange] • %c[pda_white]演奏できる\n
+		</text>
+	</string>
+
+	<string id="st_harmonica_name">
+		<text>ハーモニカ</text>
+	</string>
+	<string id="st_harmonica_descr">
+		<text>扱いやすく、哀愁を帯びた音色でストーカーたちに好まれる携帯用楽器。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]娯楽用\n
+		%c[d_orange] • %c[pda_white]演奏できる\n
+		</text>
+	</string>
+
+	<string id="st_survival_kit">
+		<text>サバイバルキット</text>
+	</string>
+	<string id="st_survival_kit_descr">
+		<text>布、縫い針、革ひもが入ったコンパクトな万能キット。止血や裂傷の手当てに使用される。\n \n
+		%c[pda_white]特性:\n
+		%c[d_green] • %c[pda_white]完全治癒: T(8)%c[pda_white]•••••••• %c[pda_white]A(3)%c[pda_white]••• %c[pda_white]L(3)%c[pda_white]••• \n
+		</text>
+	</string>
+
+	<string id="st_hand_watch">
+		<text>腕時計</text>
+	</string>
+	<string id="st_hand_watch_descr">
+		<text>古いソビエト製のクラシックな腕時計。信頼性が高く、光熱放射やアノマリーフィールドによる強い電磁波でPDAが使えない状況でも時間を確認できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]時間の確認\n
+		</text>
+	</string>
+
+<!--
+	BASIC MATERIAL
+-->
+
+	<string id="st_ball_hammer">
+		<text>鉄工ハンマー</text>
+	</string>
+	<string id="st_ball_hammer_descr">
+		<text>主に金属加工で使用されるピーニングハンマーの一種。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_duct_tape">
+		<text>ダクトテープ</text>
+	</string>
+	<string id="st_duct_tape_descr">
+		<text>強力で柔軟なテープが必要な状況でよく使われる。素早い補修に最適だが、一時的な解決策に過ぎない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_e_syringe">
+		<text>注射器</text>
+	</string>
+	<string id="st_e_syringe_descr">
+		<text>再利用可能な医療用注射器。適切な器具と知識があれば、様々な薬物の製造に役立つだろう。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_cutlery">
+		<text>アウトドア用食器セット</text>
+	</string>
+	<string id="st_cutlery_descr">
+		<text>野外での食事に適した携帯用の食器セット。汚れた手や拾い物の道具に頼る必要がなくなる。簡素だが、清潔な食事をありがたく思わないストーカーはいない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_grease">
+		<text>工業用グリス</text>
+	</string>
+	<string id="st_grease_descr">
+		<text>装備品、銃、機械類など、汚れや砂ぼこりにさらされるもののメンテナンスに使用する半固体潤滑剤。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_jar">
+		<text>プラスチック容器</text>
+	</string>
+	<string id="st_jar_descr">
+		<text>液体、食料、採集物を保管するのに適した軽量で密閉性の高い容器。湿気やその他の空気中汚染物質から中身を守るのに適している。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	
+	<string id="st_rope">
+		<text>ロープ</text>
+	</string>
+	<string id="st_rope_descr">
+		<text>頑丈なロープ。ゾーンのような場所では様々な用途に使用できる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_radio2">
+		<text>小型ラジオ</text>
+	</string>
+	<string id="st_radio2_descr">
+		<text>携帯型通信機器。音楽は神経を落ち着かせる良い方法だが、アンテナが壊れているため、ほとんど役に立たない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_steel_wool">
+		<text>スチールウール</text>
+	</string>
+	<string id="st_steel_wool_descr">
+		<text>非常に細い鋼繊維の束で、仕上げや修理作業で研磨材として使われる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_mirror">
+		<text>テレスコピックミラー</text>
+	</string>
+	<string id="st_mirror_descr">
+		<text>角をのぞき込む際に使われる、伸縮式の鉄管に取り付けられた小型ミラー。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_welding_goggles">
+		<text>溶接用ゴーグル</text>
+	</string>
+	<string id="st_welding_goggles_descr">
+		<text>古い革製バンド付きの溶接用ゴーグル。溶接や切断作業で目を保護するためのものだが、使用感から察するにどちらもできそうにない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+<!--
+	BROKEN / OLD
+-->
+
+	<string id="st_batteries_empty">
+		<text>古いバッテリー</text>
+	</string>
+	<string id="st_batteries_empty_descr">
+		<text>かつて電子機器類に電力を供給していたが、今は放電して使用不能となったバッテリー。電源としては使えないが、リサイクルや別の使い道があるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_shovel_mili">
+		<text>古い軍用シャベル</text>
+	</string>
+	<string id="st_shovel_mili_descr">
+		<text>野外活動や軍用で使われる折りたたみ式の小型シャベル。錆や汚れ、使用感が見られる。状態は悪いが、リサイクルや別の使い道があるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+		</text>
+	</string>
+
+	<string id="st_hammer">
+		<text>古いハンマー</text>
+	</string>
+	<string id="st_hammer_descr">
+		<text>使い込まれた工具。木製の柄は擦り減っており、ヘッド部分にはへこみがある。古びてはいるが、リサイクルや別の使い道があるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	
+	<string id="st_boots">
+		<text>古い革靴</text>
+	</string>
+	<string id="st_boots_descr">
+		<text>厚い革でできた、使い込まれた丈夫な靴。表面には傷が目立ち、靴底も長時間の使用で擦り減っている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_gloves">
+		<text>古い革手袋</text>
+	</string>
+	<string id="st_gloves_descr">
+		<text>耐久性のある革製で酷使された手袋。しわや汚れ、摩耗の跡がある。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_shovel_old">
+		<text>古い金属製シャベル</text>
+	</string>
+	<string id="st_shovel_old_descr">
+		<text>頑丈な金属製ブレードを備えた掘削用ツール。長期間使用された跡が見られる。古びてはいるが、リサイクルや別の使い道があるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+		</text>
+	</string>
+
+	<string id="st_batteries_ccell_empty">
+		<text>古い軍用バッテリー</text>
+	</string>
+	<string id="st_batteries_ccell_empty_descr">
+		<text>軍用装備に使われていた、使用期限切れの電力貯蔵装置。機能しないが、リサイクルや別の使い道があるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_wpn_spareparts">
+		<text>古い予備部品</text>
+	</string>
+	<string id="st_wpn_spareparts_descr">
+		<text>風雨にさらされ、ひどく劣化した銃の予備部品。ここまで傷んでいては使い物にならない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_underwear">
+		<text>古い下着</text>
+	</string>
+	<string id="st_underwear_descr">
+		<text>替えの下着があれば、ずっと快適に過ごせるだろう。ただし、この下着がどこから来たものかは分からない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_broken_detector">
+		<text>壊れた検出器</text>
+	</string>
+	<string id="st_broken_detector_descr">
+		<text>動作しないベアー検出器。修理に使う部品としてはまだ役に立つ。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_flashlight_broken">
+		<text>壊れた懐中電灯</text>
+	</string>
+	<string id="st_flashlight_broken_descr">
+		<text>動作しない懐中電灯。修理に使う部品としてはまだ役に立つ。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_headlamp">
+		<text>壊れたヘッドランプ</text>
+	</string>
+	<string id="st_headlamp_descr">
+		<text>劣化が進み、使用できないヘッドランプ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+		</text>
+	</string>
+
+	<string id="st_radio">
+		<text>壊れたラジオ</text>
+	</string>
+	<string id="st_radio_descr">
+		<text>状態の悪い小型ラジオ。汚れと湿気によるダメージで、内部はかなりひどい状態のようだ。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_walkie">
+		<text>壊れたトランシーバー</text>
+	</string>
+	<string id="st_walkie_descr">
+		<text>ディスプレイが故障し、スピーカーからは常に雑音が出ている。これは使い物にならない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+<!--
+	PAPER
+-->
+
+	<string id="st_drugnotes">
+		<text>麻薬取引記録</text>
+	</string>
+	<string id="st_drugnotes_descr">
+		<text>違法薬物の流通、価格、および輸送に関する詳細が記録された文書。これらのメモには連作先や取引履歴が含まれている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_book2">
+		<text>生産工学の解説書</text>
+	</string>
+	<string id="st_book2_descr">
+		<text>工学の応用に関する技術的詳細、計算、方法論をまとめた包括的な参考書。そのため、ゾーンでは価値のある資料というより娯楽的な読み物として読まれることが多い。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_maps_kit">
+		<text>地図作成キット</text>
+	</string>
+	<string id="st_maps_kit_descr">
+		<text>詳細で正確な地図を作成するための道具や材料のセット。コンパス、定規、特殊な紙、製図用具が含まれ、防水加工の迷彩柄カバーに入っている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_book1">
+		<text>機械工学の解説書</text>
+	</string>
+	<string id="st_book1_descr">
+		<text>機械や車両の保守、修理、運用に関する手順をまとめた技術ガイド。図解、トラブルシューティング手順、仕様が含まれており、装備を機能させるのに役立つ。そのため、ゾーンでは価値というより娯楽的な読み物として読まれることが多い。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_meinkampf">
+		<text>『我が闘争』</text>
+	</string>
+	<string id="st_meinkampf_descr">
+		<text>アドルフ・ヒトラーによって書かれた政治宣言書。ナチスのイデオロギーとドイツの未来計画を概説している。本書はナチス政策の形成に重要な役割を果たし、極端な考え方の歴史的な資料として広く知られている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_mili_maps">
+		<text>軍用地図</text>
+	</string>
+	<string id="st_mili_maps_descr">
+		<text>軍事作戦や戦略計画で使用される詳細な地理情報。地形データ、敵位置、補給路、作戦目標が含まれている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	
+	<string id="st_journal">
+		<text>個人の日誌</text>
+	</string>
+	<string id="st_journal_descr">
+		<text>ある程度書き込まれたノート。個人的な書き込みや考察、メモが含まれたノートで、まだ書かれていないページや、ほとんど使われていないページが残っている。思い出としての価値はあるかもしれないが、新たな記録にも使うことができる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_picture_woman">
+		<text>愛する人の写真</text>
+	</string>
+	<string id="st_picture_woman_descr">
+		<text>親しい人との思い出の瞬間を捉えた大切な写真。写っている人物が誰なのかは分からない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+<!-- OVERWRITTEN -->
+	<string id="st_porn">
+		<text>ロシア版『PLAYBOY』</text>
+	</string>
+	<string id="st_porn_descr">
+		<text>国際的に認知された雑誌『PLAYBOY』のロシア版。ロシアの読者向けのライフスタイル記事、インタビュー、成人向けの写真などを特集している。エンタメ、ファッション、カルチャーに関する論評を、同誌ならではの刺激的な写真と共に掲載している。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+<!-- OVERWRITTEN -->
+	<string id="st_porn2">
+		<text>ウクライナ版『MAXIM』</text>
+	</string>
+	<string id="st_porn2_descr">
+		<text>人気の男性向けライフスタイル誌『MAXIM』のウクライナ版。有名人のインタビュー、ユーモア、ファッション、写真を特徴とし、エンタメ、フィットネス、最新のトレンドに関心を持つ読者層を対象としている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_survivalguide">
+		<text>ウクライナ特殊部隊サバイバルガイド</text>
+	</string>
+	<string id="st_survivalguide_descr">
+		<text>ひどく使い古されたマニュアル。移動術から野外での応急処置に至るまで、専門的なサバイバル技術が記されている。ゾーンに足を踏み入れる者にとって生死を分ける知識が詰まっている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->
+
+	<string id="st_beadspread">
+		<text>シュラフマット</text>
+	</string>
+	<string id="st_beadspread_descr">
+		<text>ゾーンにおける贅沢品。寝袋と敷布があれば、最悪のタイミングで疲労が限界に達する事態を避けられるかもしれない。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_cards">
+		<text>トランプ</text>
+	</string>
+	<string id="st_cards_descr">
+		<text>遊び道具として人気のあるトランプ。表にはモスクワ地下鉄の誇らしげな建築デザインが描かれている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]娯楽用\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]暇つぶし\n
+		</text>
+	</string>
+
+	<string id="st_jewelry_box">
+		<text>装飾された宝石箱</text>
+	</string>
+	<string id="st_jewelry_box_descr">
+		<text>ゾーンができる前の家から持ち出されたと思われる、装飾が施された丁寧な作りの小箱。小さな貴重品や記念品を保管するのに使われる。実用性よりも思い出としての価値の方が高い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]ジャンク品\n
+		</text>
+	</string>
+
+	<string id="st_synthrope">
+		<text>合成繊維ロープ</text>
+	</string>
+	<string id="st_synthrope_descr">
+		<text>長さ5mほどの合成繊維ロープ。ゾーンのような場所では、様々な用途に使用できる。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+	<string id="st_tarpaulin">
+		<text>防水シート</text>
+	</string>
+	<string id="st_tarpaulin_descr">
+		<text>防水加工が施された大型のシート。耐久性と柔軟性に優れ、四隅と側面にはロープを通せるように金具が取り付けられている。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!-- Forester -->
+	<string id="red_forester_hello_dialog_0">
+		<text>来客とは、一体どういう風の吹き回しだろうか？</text>
+	</string>
+	<string id="red_forester_hello_dialog_1">
+		<text>おぬしのようなルーキーが、フォレスターの家に何の用かな？</text>
+	</string>
+	<string id="red_forester_hello_dialog_2">
+		<text>どのような幸運がおぬしをここへ導いたのかね？</text>
+	</string>
+	<string id="red_forester_hello_dialog_3">
+		<text>幸運を祈るぞ、若いの！</text>
+	</string>
+	<string id="red_forester_hello_dialog_4">
+		<text>ワシのことを忘れるでないぞ！</text>
+	</string>
+	<string id="red_forester_hello_dialog_5">
+		<text>ワシのことを覚えておいてくれ！</text>
+	</string>
+	<string id="red_forester_who_are_you_0">
+		<text>あんたは何者だ？</text>
+	</string>
+	<string id="red_forester_who_are_you_1">
+		<text>何を話せばいいのだろうか？ワシはフォレスターだ。ここには長いこと住んでおる。
+\n人生の大半を、この森のはずれで過ごしてきた。ワシはもう年寄りだ。
+\nこの歳になると、どんな場所であろうと住み慣れて愛着が湧いてしまうものでな。
+\n発電所の事故があった時、ワシは避難するのを拒んだ。それからゾーンが発生した後も、
+\nワシはここで生き延びたのだよ。今でも、地平線を駆けた閃光が目に焼き付いておる･･････
+\nあの日、多くの命が失われた。しかし、ゾーンはワシを見逃してくれた。
+\nいや、それだけではない、ワシに“贈り物”まで授けたのだ！もともと森の中の道を
+\n見つけるのは得意だったが、今では危険なアノマリーの中でも安全な道を感じ取れる。
+\nストーカーたちはワシを羨むが、ワシはこの力を素直には喜べんのだ。こういうものは、
+\n高く付くと決まっておる。いつかゾーンが、この贈り物の“代金”を取り立てに来る･･････
+\nそう思うと、ワシは怖いのだよ、若いの。</text>
+	</string>
+	<string id="red_forester_who_are_you_111">
+		<text>いいや、ここは普通の松林だったのだよ。
+\nまあ、確かに自然保護区でもあったが、当時はそれくらいしか特徴はなかった。
+\n1986年のチョルノービリ原発事故の後、この森は赤くなったのだ。
+\n寝る前までは緑だった森が、朝起きたら今のような姿になっておった。
+\nそれからゾーンが現れ、動物や鳥たちはこの森を去っていった。
+\nここに残ったのは、ワシ一人だけだ。
+\nこの赤い森と、決して晴れることのない濃霧だけが相棒なのだよ。</text>
+	</string>
+	<string id="red_forester_who_are_you_11111">
+		<text>うむ、多くのストーカーがここで命を落としておる。
+\n「赤い森には悪霊が潜んでいる」という噂も聞いたことがある。
+\nしかし、ワシの考えではこの森はゾーンの他の場所と何ら変わりない。
+\n正しく接すれば、森もおぬしに危害を加えん。
+\n問題は、おぬしらストーカーたちが正しく接しておらんということだ。
+\nゾーンの一部を所有しようとするなら、報いを受けるものだ･･････ 自業自得というわけだよ。</text>
+	</string>
+	<string id="red_forester_about_forest_0">
+		<text>赤い森について教えてくれ。</text>
+	</string>
+	<string id="red_forester_about_forest_1">
+		<text>ここは昔、自然保護区だった。ワシは地元の森林管理官でな。
+\n密猟者から森や動物たちを守っておった。今ではゾーン自身がこの場所を守っとる。
+\nしかも、皆がわざわざ数十マイルも迂回しなければならないほど、完璧にな。
+\nよそ者がこの森に足を踏み入れれば、もう死んだも同然だ。
+\n森林管理官と言えど、この森で何が起きているのか正確には分からん。
+\n人が霧の中に入れば、どこかに吸い込まれるように消えてしまう。
+\nすぐ後ろを歩いていても、その者がどんな最期を迎えたのかさえわからない。
+\nそれがこの赤い森という場所なのだよ、若いの。</text>
+	</string>
+	<string id="red_forester_about_zone_0">
+		<text>ゾーンについて教えてくれ。</text>
+	</string>
+	<string id="red_forester_about_zone_1">
+		<text>ゾーンか、ハハ･･････ ゾーンは生きている。
+\nワシら人間は、ただその邪魔をしているだけなのだ。程度の差はあれどな。
+\nゾーンは、自らの存在を脅かすあらゆるものを排除しようとする。
+\nまるで、ワシらの身体が病原体と戦うようにな。
+\n人間が熱を出すときのように、ゾーンにも“震え”がある。それが光熱放射だ･･････
+\nあれはゾーンがワシらを“追い払う”ための手段だ。
+\nゾーンを刺激すればするほど、次に訪れる光熱放射はより強力になるだろう。</text>
+	</string>
+	<string id="red_forester_about_zone_11">
+		<text>これほどの危険の中で、どうやって生き延びてきたんだ？しかも、たった一人で。</text>
+	</string>
+	<string id="red_forester_about_zone_111">
+		<text>たった一つの愚かな行動がゾーンを破壊する･･････ ゾーンに属するすべてと共にな。
+\nミュータントやアノマリーだけじゃなく、アーティファクトも、
+\nおぬしらストーカーたちも･･････ そしてワシもだ。
+\nワシには分かる。ゾーンは深い不安を抱えとる。何かがゾーンを乱し、均衡を崩しておる。
+\n嵐が近づいている･･････ そして、この状態が保たれるか、ワシにも分からんのだ。</text>
+	</string>
+	<string id="red_forester_about_doc_0">
+		<text>ゾーンについてもっと詳しい人物を探しているんだ。何か役立つ情報を知らないか？</text>
+	</string>
+	<string id="red_forester_about_doc_1">
+		<text>ふむ･･････ おぬしはなかなかの野心家だな？
+\n昔、未知を求めてここに来たストーカーたちを思い出すよ、哀れな連中だ･･････
+\nずいぶん前になるが、ワシの古い友人があるグループと旅をしておった。そのうちの
+\n一人がゾーンの最深部にたどり着いたらしい。おぬしが探しているのはその男だろう。
+\n確か、犬と一緒に沼地で暮らしているはずだ。ワシの記憶が確かならな。</text>
+	</string>
+	<string id="red_forester_about_doc_11">
+		<text>わかった、情報をありがとう。</text>
+	</string>
+	<string id="red_forester_about_doc_111">
+		<text>若者よ、願い事には用心するんだぞ。</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_0">
+		<text>フォレスター、俺はリマンスクの橋を渡りたいんだ。</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_1">
+		<text>今、橋を渡りたいと言ったのか？それなら橋を守っている連中に掛け合ってみたらどうだ？</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_2">
+		<text>忘れているかもしれないが、リマンスクが傭兵だらけなのはあんたの影響だろう。</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_3">
+		<text>忘れてはおらんよ。だが、ワシの助けは期待するな。
+\nあの傭兵たちを助けたのが正しかったのか、今でも悩んでいるのだよ。</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_4">
+		<text>頼む、協力してくれ。正しい行いだったかなんて関係ないだろ？
+\nとにかく、街に行けるかどうか知りたいんだ。</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_5">
+		<text>知っていることを話さないなら、遺体安置所行きの切符をくれてやるぞ。</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_6">
+		<text>じいさん、ゾーンが俺をリマンスクに呼んでいるなら、こっちはそのつもりだ。
+\nあんたのためにも協力した方がいい。次にゾーンがあんたを助けてくれる保証はないんだ。</text>
+	</string>
+	<string id="look_for_cs_history_part_2_1_7">
+		<text>･･････スカーには何か特別なものがあった。彼はゾーンに呼ばれていたのだ。
+\nだが、おぬしは･･････ そうだな、ワシもあの男がどうなったのか知りたいところだ。
+\nいいか、よく聞け。ワシはあの傭兵部隊をスペースアノマリーから抜け出す手助けをした。
+\nすべてが片付いた後、奴らはワシの元を訪ねてきた。どうやら誰かがワシのことを密告し、
+\n救助に関わったことをバラしたようでな。そこでワシはリーダーのレーシイと話をした。
+\n彼はここに食料、金、弾薬を置き、そのまま去っていった。
+\nそのときに言っていたのだが、次に向かったのは軍事倉庫─フリーダムの基地だ。
+\nそこへ行って、彼を探してみるといい。
+\nあれから数年が経ったが、フリーダムに加わるという決意は本気のようだったからな。</text>
+	</string>
+
+
+<!-- (Monolith Trader) by the bridge to Limansk -->
+	<string id="meet_guid_red_forest_mon_0">
+		<text>兄弟よ、どこに行けるのか教えてくれないか？</text>
+	</string>
+	<string id="meet_guid_red_forest_mon_1">
+		<text>私が案内することはできないが、兄弟たちが行くべき場所を示してくれるだろう･･････
+\nもちろん、料金は必要だ。我々は赤い森、ジュピター、
+\nそしてプリピャチに拠点を設けている。いつでも喜んで手助けしよう。</text>
+	</string>
+	<string id="meet_guid_red_forest_mon_list_0">
+		<text>どこまで案内してくれるんだ？</text>
+	</string>
+	<string id="meet_guid_red_forest_mon_list_1">
+		<text>赤い森なら5,000ルーブル、ジュピターは2,000ルーブル、
+\nプリピャチは1,000ルーブルだ。</text>
+	</string>
+	<string id="travel_guid_red_forest_mon_0">
+		<text>移動したい場所がある。</text>
+	</string>
+	<string id="travel_guid_red_forest_mon_1">
+		<text>そうか。案内人に連れて行ってほしい場所を教えてくれ。</text>
+	</string>
+	<string id="travel_guid_red_forest_mon_2">
+		<text>赤い森へ。%c[d_orange] [5,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_red_forest_mon_3">
+		<text>ジュピターへ。%c[d_orange] [2,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_red_forest_mon_4">
+		<text>プリピャチへ。%c[d_orange] [1,000ルーブル]</text>
+	</string>
+	<string id="travel_guid_red_forest_mon_5">
+		<text>気が変わった。</text>
+	</string>
+
+<!-- Sin trader -->
+	<string id="red_greh_trader_start_dialog_0">
+		<text>来い、同胞よ。ゾーンに貢献できるように私が手助けをしよう。</text>
+	</string>
+	<string id="red_greh_trader_st_1">
+		<text>装備が必要なら、私が用意しよう。
+\n十字軍が奪取した装備は私が管理しているが、それだけが私の仕事ではない。決してな。
+\n長い年月をかけて、私は外部の供給者と多くの繋がりを築いてきた。
+\nいいか、同胞よ。ゾーンの壮大さを理解しない者、私たちの大義に賛同しない者、
+\n私たちの命を狙う者がいる･･････ しかし、利益を得る機会を目の当たりにすれば、
+\n彼らはあっさりと協力に転じるものだ。私は、そんな彼らの弱さを最大限に利用する。
+\n私たちはヴィーラージの理想を実現するための道具を手に入れる。その一方で、
+\n彼らが得るのは金属の円盤や数字が書かれた紙切れにすぎないのだ。皮肉なものだろう？</text>
+	</string>
+
+<!-- Sin mechanic -->
+	<string id="red_greh_tech_start_dialog_0">
+		<text>ゾーンは、その表面だけでは決して測れない何かを秘めている。</text>
+	</string>
+	<string id="red_greh_tech_st_1">
+		<text>私はどの時代にあっても、ただの下僕にすぎない。聞いてくれ、同胞よ。
+\nゾーンが生まれる前から、私は指導者たちに仕える技術者として働いていたのだ。
+\nかつて私は、神聖なるジェネレーターの組み立てに関わった者たちの一員だった。
+\n権限こそなかったが、ゾーンの創造において小さくとも重要な役割を果たしていたのだ。
+\n指導者たちがヴィーラージへと昇り、父たるチェルノボグが解き放たれたとき、
+\n彼らの意志を遂行するにあたり、彼は私の技術と任務への忠誠を認めてくださった。
+\nシンの一員として迎えられたのだ。今の私は、十字軍が指導者たちの意志を
+\n遂行できるよう、彼らの装備を常に万全に保つために日々努めている。</text>
+	</string>
+</string_table>

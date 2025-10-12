@@ -1,0 +1,16 @@
+-- zz_parts_in_tooltip.script
+
+-- ===================================================================
+--  UIInfoItem.SyncPartsText （アイテムチップの表示調整）
+--  「交換部品:」(st_ui_awr_parts_list)の色指定 （ui_st_inventory.xmlでの色指定が効かないため、ここで指定）
+-- ===================================================================
+local original_SyncPartsText = utils_ui.UIInfoItem.SyncPartsText
+
+utils_ui.UIInfoItem.SyncPartsText = function(self, vertical)
+	original_SyncPartsText(self, vertical)
+
+	-- 「交換部品:」(parts_txt) の色を指定
+	if self and self.parts_txt then
+		self.parts_txt:SetTextColor(GetARGB(255, 255, 255, 255))
+	end
+end

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+	<string id="kb_grp_mods">
+		<text>Mod用キー設定</text>
+	</string>
+
+	<string id="kb_quickmeele">
+		<text>クイック近接攻撃</text>
+	</string>
+
+	<string id="kb_tp_companion">
+		<text>同行NPCを瞬時に移動させる</text>
+	</string>	
+</string_table>

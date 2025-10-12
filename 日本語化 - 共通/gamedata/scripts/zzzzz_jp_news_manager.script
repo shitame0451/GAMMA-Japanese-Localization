@@ -1,0 +1,128 @@
+-- news_manager.script
+
+-- ===================================================================
+--  send_sound （[派閥名] メッセージ → [派閥名]のメッセージ）
+--  未使用？
+-- ===================================================================
+--[[
+local original_send_sound = news_manager.send_sound
+
+news_manager.send_sound = function(npc, faction, point, str, str2, delay_sound)
+	if not original_send_sound then return end
+
+	local backup_game_news = db.actor.give_game_news
+	db.actor.give_game_news = function(self, caption, text, icon, unk, showtime, ...)
+		local st_tip = game.translate_string("st_tip")
+		local fixed_caption = caption
+		if faction then
+			fixed_caption = game.translate_string(faction) .. "の" .. st_tip
+		end
+		fixed_caption = fixed_caption:gsub("%. ([^:]+):", "。場所は%1。")
+		fixed_caption = fixed_caption:gsub(":$", "。")
+
+			printf("[JP Patch] send_sound: %s → %s", tostring(caption), tostring(fixed_caption))
+		return backup_game_news(self, fixed_caption, text, icon, unk, showtime, ...)
+	end
+
+	local ok, result = pcall(original_send_sound, npc, faction, point, str, str2, delay_sound)
+	db.actor.give_game_news = backup_game_news
+	return ok and result or nil
+end
+]]
+-- ===================================================================
+--  send_task （タスク受注・更新・完了時 ニュースや会話文に表示されるタスク名の文末の"."を消す）
+-- ===================================================================
+local original_send_task = news_manager.send_task
+
+news_manager.send_task = function(actor, type, tsk)
+	if not original_send_task then return end
+
+	local backup_game_news = db.actor.give_game_news
+	local backup_talk_message2 = db.actor.give_talk_message2
+
+	local function fix_text(text)
+		local fixed = (text or ""):gsub("%.+$", "")
+		return fixed
+	end
+
+	db.actor.give_game_news = function(self, caption, text, icon, unk, time_on_screen)
+		local fixed = fix_text(text)
+		--printf("[JP Patch] send_task: %s → %s", tostring(text), tostring(fixed))
+		return backup_game_news(self, caption, fixed, icon, unk, time_on_screen)
+	end
+	db.actor.give_talk_message2 = function(self, caption, text, icon, style, task_id)
+		local fixed = fix_text(text)
+		--printf("[JP Patch] send_task: %s → %s", tostring(text), tostring(fixed))
+		return backup_talk_message2(self, caption, fixed, icon, style, task_id)
+	end
+
+	local ok, result = pcall(original_send_task, actor, type, tsk)
+	db.actor.give_game_news = backup_game_news
+	db.actor.give_talk_message2 = backup_talk_message2
+	return ok and result or nil
+end
+
+-- ===================================================================
+--  relocate_item （タスク完了時 ニュースや会話文に表示されるアイテムの増減表示）
+-- ===================================================================
+local original_relocate_item = news_manager.relocate_item
+
+news_manager.relocate_item = function(actor, type, item, amount)
+	if not original_relocate_item then return end
+
+	local backup_game_news = db.actor.give_game_news
+	local backup_talk_message2 = db.actor.give_talk_message2
+
+	-- 例: 「包帯 x2」 → 「包帯（x2）」
+	local function fix_item_text(text)
+		return (text or ""):gsub(" +(x%d+)$", "（%1）")
+	end
+
+	db.actor.give_game_news = function(self, caption, text, icon, unk, showtime, ...)
+		local fixed = fix_item_text(text)
+		--printf("[JP Patch] relocate_item: %s → %s", tostring(text), tostring(fixed))
+		return backup_game_news(self, caption, fixed, icon, unk, showtime, ...)
+	end
+	db.actor.give_talk_message2 = function(self, caption, text, icon, style, task_id, ...)
+		local fixed = fix_item_text(text)
+		--printf("[JP Patch] relocate_item: %s → %s", tostring(text), tostring(fixed))
+		return backup_talk_message2(self, caption, fixed, icon, style, task_id, ...)
+	end
+
+	local ok, result = pcall(original_relocate_item, actor, type, item, amount)
+	db.actor.give_game_news = backup_game_news
+	db.actor.give_talk_message2 = backup_talk_message2
+	return ok and result or nil
+end
+
+-- ===================================================================
+--  relocate_money （タスク完了時 ニュースや会話文に表示される報酬金のカンマ区切りと"ルーブル"表示の追加）
+-- ===================================================================
+local original_relocate_money = news_manager.relocate_money
+
+news_manager.relocate_money = function(actor, type, amount)
+	if not original_relocate_money then return end
+
+	local backup_game_news = db.actor.give_game_news
+	local backup_talk_message2 = db.actor.give_talk_message2
+
+	local function fix_number_text(text)
+		return japanese_patch.commas_to_number(text or "")
+	end
+
+	db.actor.give_game_news = function(self, caption, text, icon, unk, showtime, ...)
+		local fixed = fix_number_text(text) .. " ルーブル"
+		--printf("[JP Patch] relocate_money: %s → %s", tostring(text), tostring(fixed))
+		return backup_game_news(self, caption, fixed, icon, unk, showtime, ...)
+	end
+	db.actor.give_talk_message2 = function(self, caption, text, icon, style, task_id, ...)
+		local fixed = fix_number_text(text) .. " ルーブル"
+		--printf("[JP Patch] relocate_money: %s → %s", tostring(text), tostring(fixed))
+		return backup_talk_message2(self, caption, fixed, icon, style, task_id, ...)
+	end
+
+	local ok, result = pcall(original_relocate_money, actor, type, amount)
+	db.actor.give_game_news = backup_game_news
+	db.actor.give_talk_message2 = backup_talk_message2
+	return ok and result or nil
+end

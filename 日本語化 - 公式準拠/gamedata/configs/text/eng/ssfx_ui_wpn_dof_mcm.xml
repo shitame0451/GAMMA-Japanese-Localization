@@ -1,0 +1,76 @@
+<!--
+- @ Version: SCREEN SPACE SHADERS - UPDATE 15
+- @ Description: Weapons DOF - MCM strings
+- @ Author: https://www.moddb.com/members/ascii1457
+- @ Mod: https://www.moddb.com/mods/stalker-anomaly/addons/screen-space-shaders
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<!-- Button -->
+	<string id="ui_mcm_ssfx_module_wpn_dof">
+		<text>被写界深度</text>
+	</string>
+	
+	<!-- DOF Settings -->
+	<string id="ui_mcm_ssfx_module_wpn_dof_title">
+		<text>Weapons DOF Settings</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_aim_fadestart_mcm">
+		<text>フォーカス外のフェードの起点 [エイム中]</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_aim_fadelen_mcm">
+		<text>フォーカス外のフェードの範囲 [エイム中]</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_aim_blur_mcm">
+		<text>ぼかしの強さ [エイム中] (0 = 無効)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wpn_dof_aim_edgeblur_mcm">
+		<text>周辺のぼかし [エイム中] (0 = 無効)</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_wpn_dof_fadestart_mcm">
+		<text>フォーカス外のフェードの起点</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_fadelen_mcm">
+		<text>フォーカス外のフェードの範囲</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_blur_mcm">
+		<text>ぼかしの強さ (0 = 無効)</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_edgeblur_mcm">
+		<text>周辺のぼかし (0 = 無効)</text>
+	</string>
+
+
+	<string id="ui_mcm_ssfx_module_wpn_dof_reloading_mcm">
+		<text>リロード中の被写界深度</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_pda_mcm">
+		<text>PDA操作中の被写界深度</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_inventory_mcm">
+		<text>インベントリ操作中の被写界深度</text>
+	</string>
+	
+	<string id="ui_mcm_ssfx_module_wpn_dof_fdda_mcm">
+		<text>アイテム使用中の被写界深度 (FDDA)</text>
+	</string>
+
+	<string id="ui_mcm_ssfx_module_wpn_dof_looting_mutant_mcm">
+		<text>ミュータントの剥ぎ取り中の被写界深度</text>
+	</string>
+	
+</string_table>

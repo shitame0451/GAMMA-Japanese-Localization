@@ -1,0 +1,135 @@
+<string_table>
+	<!-- STALKERS -->
+	<string id="ui_mcm_menu_smr_stalkers">
+		<text>ストーカー</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_squad_size">
+		<text>ストーカーの分隊の規模</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_squad_size_variance">
+		<text>分隊の規模のばらつき</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_squad_size_variance_desc">
+		<text>この値が高いほど、ストーカーの分隊の規模がよりランダムになります。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_civil_war">
+		<text>内戦</text>
+	</string>
+	<string id="ui_mcm_lst_smr_stalkers_civilwar_disabled">
+		<text>無効化</text>
+	</string>
+	<string id="ui_mcm_lst_smr_stalkers_civilwar_stalkers">
+		<text>ストーカー</text>
+	</string>
+	<string id="ui_mcm_lst_smr_stalkers_civilwar_squads">
+		<text>分隊</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_civil_war_desc">
+		<text>有効にすると、すべてのストーカーやストーカーの分隊が互いに敵対するようになります。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_civil_war_base_population">
+		<text>内戦がベース人口に影響</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_civil_war_base_population_desc">
+		<text>有効にすると、基本的な集団に属するストーカーは内戦設定の影響を受けます。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_civil_war_monolith_allied">
+		<text>Monolith同盟 (内戦)</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_civil_war_monolith_allied_desc">
+		<text>「内戦」の設定に関係なく、Monolithのストーカーは敵対しなくなります。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_base_population">
+		<text>ストーカー拠点人口</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_base_population_desc">
+		<text>拠点におけるストーカーの人口を設定します。</text>
+	</string>
+	<string id="ui_mcm_lst_smr_stalkers_base_population_default">
+		<text>デフォルト</text>
+	</string>
+	<string id="ui_mcm_lst_smr_stalkers_base_population_survival">
+		<text>サバイバル</text>
+	</string>
+	<string id="ui_mcm_lst_smr_stalkers_base_population_minimal">
+		<text>最小</text>
+	</string>
+	<string id="ui_mcm_lst_smr_stalkers_base_population_none">
+		<text>無し</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_base_population_default">
+		<text>Anomalyのデフォルトプリセットです。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_base_population_survival">
+		<text>Anomaly Survivalのデフォルトプリセットです。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_base_population_minimal">
+		<text>ほぼすべての基地を削除します。残っている中で、ロストクは基地警備隊がいる唯一の安全な基地です。拠点以外のスポーンには影響がありません。
+		Lonerでスタートしない場合、変装システムを利用する必要があるかもしれません。
+		</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_base_population_none">
+		<text>Dead Airの「Last Stand」モードにインスパイアされ、基地内のストーカースポーンをすべて削除しました。
+		つまり、トレーダー、技術者、ガードは一切登場しません。基地の外でのスポーンは影響を受けません。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_random_stalkers">
+		<text>ストーカーの分隊をランダムに出現させる</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_random_stalkers_desc">
+		<text>ストーカーの分隊をランダムな派閥の分隊で置き換えます。これにより、今まで予想もしなかった派閥を見つけることができるかもしれません。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_random_stalkers_chance">
+		<text>ランダムストーカー隊確率</text>
+	</string>
+	<string id="ui_mcm_smr_stalkers_factions_title">
+		<text>派閥</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_factions_info">
+		<text>以下では、派閥の有効・無効を設定することができます。無効化された派閥はゾーンに出現しません。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_factions_replace_squads">
+		<text>削除された分隊の置換</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_factions_replace_squads_desc">
+		<text>無効化された派閥の分隊は、有効化された派閥の分隊に置き換わります。</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_stalker">
+		<text>Loner</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_bandit">
+		<text>Bandit</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_csky">
+		<text>Clear Sky</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_duty">
+		<text>Duty</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_freedom">
+		<text>Freedom</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_merc">
+		<text>Mercenary</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_army">
+		<text>Military</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_ecolog">
+		<text>Ecologist</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_monolith">
+		<text>Monolith</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_renegade">
+		<text>Renegade</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_greh">
+		<text>Sin</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_isg">
+		<text>UNISG</text>
+	</string>
+	<string id="ui_mcm_SMR_smr_stalkers_zombied">
+		<text>Zombified</text>
+	</string>
+</string_table>

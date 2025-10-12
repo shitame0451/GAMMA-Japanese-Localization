@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_aug_a1">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_a1_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）は内蔵スコープを備えたブルパップ式アサルトライフルで、取り回しの良さと優れた命中精度を追求して設計されている。未来的な外観と耐久性の高いポリマー製のフレームにより、軽量でありながら強力な現代戦用の選択肢となっている。モジュール設計により、一般歩兵から特殊作戦部隊まで、あらゆる任務に対応可能だ。A1モデルは1.5倍スコープが統合されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_aug_a2">
+		<text>Steyr AUG A2</text>
+	</string>
+	<string id="st_wpn_aug_a2_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）は近代的なブルパップ式アサルトライフルで、小型な設計、高い耐久性、優れた拡張性で知られている。旧モデルとは異なり、固定式のスコープではなくピカティニーレールを採用しているため、多様な戦闘状況に合わせて照準器を自由にカスタマイズできる。AUGプラットフォームが持つ滑らかな操作性と高い信頼性を受け継ぎ、世界中の軍や法執行機関で広く採用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_aug_a3">
+		<text>Steyr AUG A3</text>
+	</string>
+	<string id="st_wpn_aug_a3_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）はブルパップ式ライフルの改良モデルで、光学機器やアクセサリーを装着するための全長レールシステムを備えている。改良されたモジュール性、優れた人間工学、高い汎用性により、現代戦に適した柔軟性を持つ。コンパクトで軽量な設計を受け継ぎ、世界中の軍や法執行機関で広く採用されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+
+	<string id="st_wpn_aug_thales">
+		<text>Thales EF88</text>
+	</string>
+	<string id="st_wpn_aug_thales_descr">
+		<text>オーストラリアのF88 Austeyrの改良モデルとして開発された、市場で最も新しいAUG。優れた人間工学に加え、信頼性、反動制御、命中精度が向上しており、非常にユニークで珍しい武器となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Thales Australia\n
+		</text>
+	</string>
+
+	<string id="st_wpn_aug_9mm">
+		<text>Steyr AUG A3 9mm</text>
+	</string>
+	<string id="st_wpn_aug_9mm_descr">
+		<text>AUG（「軍用汎用小銃」を意味するArmee Universal Gewehrの略称）は1977年以来、世界中の多くの軍隊や特殊部隊で使われている標準的なアサルトライフル。モジュラー式のブルパップ設計でよく知られ、短くてバランスが良く、高い精度と信頼性を備えている。A3 9mmモデルはピカティニーレールとボルトストップ機能が備わり、9mm弾用に口径が変更されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Steyr Arms\n
+		</text>
+	</string>
+
+</string_table>

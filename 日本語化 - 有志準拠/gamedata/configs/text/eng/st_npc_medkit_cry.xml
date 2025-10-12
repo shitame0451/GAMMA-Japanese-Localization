@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_eat_medkit_cry_1">
+    <text>はぁ、医療キットだ･･････ よし。まだだ、まだ死なないぞ･･････</text>
+  </string>
+  <string id="st_eat_medkit_cry_2">
+    <text>くそっ！すぐに包帯を！</text>
+  </string>
+  <string id="st_eat_medkit_cry_3">
+    <text>医療キットを持っているのはお前だけじゃないぜ、この野郎。</text>
+  </string>
+  <string id="st_eat_medkit_cry_4">
+    <text>ううっ、こんなに血が･･････ 包帯だ、包帯･･････ ふぅ。</text>
+  </string>
+  <string id="st_eat_medkit_cry_5">
+    <text>くそっ！俺の血だ･･････ まずいぞ。医療キット、医療キットだ！ああ･･････ いいぞ。</text>
+  </string>
+  <string id="st_eat_medkit_cry_6">
+    <text>俺はそう簡単には死なんぞ、バカめ！</text>
+  </string>
+  <string id="st_eat_medkit_cry_7">
+    <text>最後の医療キットを使っちまった･･････ お前の荷物を漁るのが楽しみだ。</text>
+  </string>
+  <string id="st_eat_medkit_cry_8">
+    <text>くそっ、早く！モルヒネをもっと打たないと！</text>
+  </string>
+  <string id="st_eat_medkit_cry_9">
+    <text>ああ、くそっ。スーツがボロボロだ！</text>
+  </string>
+  <string id="st_eat_medkit_cry_10">
+    <text>ぐっ･･････ これを乗り切ったら、傷の手当てをしてくれた奴にキスしてやるよ。</text>
+  </string>
+  <string id="st_eat_medkit_cry_11">
+    <text>こっちにもっと包帯をくれ！</text>
+  </string>
+  <string id="st_eat_medkit_cry_12">
+    <text>ぐぁっ！盗んだ薬の出番だ･･････</text>
+  </string>
+  <string id="st_eat_medkit_cry_13">
+    <text>ううっ！これじゃあ保険なんて効かないな･･････</text>
+  </string>
+  <string id="st_eat_medkit_cry_14">
+    <text>あと1発だけでいい、当てるんだ、もう1発だけ･･････</text>
+  </string>
+  <string id="st_eat_medkit_cry_15">
+    <text>やはり医療キットが残ってたか。俺はまだやれるぞ、この野郎！</text>
+  </string>
+  <string id="st_eat_medkit_cry_16">
+    <text>よし、包帯の時間だ。お前の狙いが正確だったら俺は死んでたかもな！</text>
+  </string>
+  <string id="st_eat_medkit_cry_17">
+    <text>ああ！誰かもう1個医療キットをくれ！これじゃ足りない！</text>
+  </string>
+  <string id="st_eat_medkit_cry_18">
+    <text>あぁぁぁ！ふぅ。モルヒネのおかげだ･･････</text>
+  </string>
+  <string id="st_eat_medkit_cry_19">
+    <text>そんなんじゃ俺は死なんぞ、この野郎！</text>
+  </string>
+  <string id="st_eat_medkit_cry_20">
+    <text>ああぁぁ！血まみれだっ、うう！医療キットだ、医療キット･･････ ふぅ･･････</text>
+  </string>
+  <string id="st_eat_medkit_cry_21">
+    <text>俺を血祭りにあげるつもりか？考え直せ。</text>
+  </string>
+  <string id="st_eat_medkit_cry_22">
+    <text>スーツはまだ持ちこたえてる、大丈夫だ、大丈夫･･････</text>
+  </string>
+</string_table>

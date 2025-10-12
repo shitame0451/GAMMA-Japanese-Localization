@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	ITEMS
+-->
+
+  <string id="chimera_scan_device_name">
+    <text>脳波スキャナー</text>
+  </string>
+  <string id="chimera_scan_device_desc">
+    <text>%c[pda_white]周囲の電磁波を記録する装置。特定のキメラの神経振動を分離できるよう特別に調整されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]タスク用アイテム\n
+		</text>
+  </string>
+
+<!--
+	QUEST
+-->
+
+  <string id="yan_stalker_sakharov_task_chimera_scan_name">
+    <text>脳波マップの作成</text>
+  </string>
+  <string id="yan_stalker_sakharov_task_chimera_scan_about">
+    <text>キメラというミュータントは知っているかな？
+\nあの生き物の頭が人間のような形をしているのは、動物が極端な変異を遂げた結果なのか、
+\nそれとも倫理を無視した実験によるものなのか、科学者の間でも意見が分かれていてね。
+\nこの謎を解き明かすには、さらに多くのデータが必要なんだ。
+
+\n\nそこで我々のチームは、脳波パターンを記録できる装置を開発した。
+\n技術的な話は省くが、君には我々が指定するキメラに接近し、生きている間に脳の活動を
+\n測定してきてもらいたい。ただ、それが一筋縄ではいかないのは言うまでもないがね。
+
+\n\nデータが集まれば、あとは君の好きにして構わない。生かすか殺すか、判断は任せるよ。</text>
+  </string>
+  <string id="yan_stalker_sakharov_task_chimera_scan_stage_0">
+    <text>指定されたキメラに近づき、脳波を記録する。</text>
+  </string>
+  <string id="yan_stalker_sakharov_task_chimera_scan_stage_1">
+    <text>装置を回収する。</text>
+  </string>
+  <string id="yan_stalker_sakharov_task_chimera_scan_stage_2">
+    <text>サハロフのところに戻る。</text>
+  </string>
+  <string id="yan_stalker_sakharov_task_chimera_scan_start">
+    <text>初期化完了: スキャン開始</text>
+  </string>
+  <string id="yan_stalker_sakharov_task_chimera_scan_error">
+    <text>エラー: 信号消失、スキャン中断</text>
+  </string>
+  <string id="yan_stalker_sakharov_task_chimera_scan_complete">
+    <text>スキャン完了</text>
+  </string>
+
+</string_table>

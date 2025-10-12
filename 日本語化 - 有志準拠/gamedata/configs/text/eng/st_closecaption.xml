@@ -1,0 +1,2688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="ui_mm_cc_icc">
+    <text>クローズドキャプション</text>
+  </string>
+  <string id="ui_mm_cc_icc_chktext">
+    <text>効果音の字幕</text>
+  </string>
+  <string id="ui_mm_cc_captioning">
+    <text>ゲーム内キャプション</text>
+  </string>
+  <string id="ui_mm_cc_none">
+    <text>字幕なし</text>
+  </string>
+  <string id="ui_mm_cc_storyonly">
+    <text>字幕（会話のみ）</text>
+  </string>
+  <string id="ui_mm_cc_all">
+    <text>字幕（すべて表示）</text>
+  </string>
+  <string id="st_sending_msg">
+    <text>メッセージを送信</text>
+  </string>
+  <string id="st_memo">
+    <text>メモ</text>
+  </string>
+  <string id="st_msgfrom_err1">
+    <text>［送信者不明］</text>
+  </string>
+  <string id="st_msgfrom_err2">
+    <text>&amp;lt;!DATA_ERROR!&amp;gt;</text>
+  </string>
+  <string id="st_msgfrom_err3">
+    <text>ネットワーク障害</text>
+  </string>
+  <string id="st_joker_name">
+    <text>ジョーカー</text>
+  </string>
+  <string id="st_soldier_name">
+    <text>兵士</text>
+  </string>
+  <string id="st_hq_general_name">
+    <text>将軍</text>
+  </string>
+  <string id="st_ssu_commander_name">
+    <text>USS司令官</text>
+  </string>
+  <string id="cc_effect-ambient-blowout_begin">
+    <text>［エミッションの迫る音］</text>
+  </string>
+  <string id="cc_effect-ambient-zaton-zat_b38_bloodsucker_roar">
+    <text>［ブラッドサッカーの叫び声］</text>
+  </string>
+  <string id="cc_effect-ambient-zaton-zat_b38_electro_box_door">
+    <text>［電源ボックスを開ける音］</text>
+  </string>
+  <string id="cc_effect-ambient-zaton-zat_b38_electro_box_switch">
+    <text>［電源を入れる音］</text>
+  </string>
+  <string id="cc_effect-ambient-zaton-zat_b38_elevator_door">
+    <text>［エレベーターのドアが開く］</text>
+  </string>
+  <string id="cc_effect-ambient-zaton-zat_b38_cop_elevator_landing">
+    <text>［グラウスがエレベータの中に降りる］</text>
+  </string>
+  <string id="cc_effect-ambient-zaton-zat_b38_lock_sound">
+    <text>［ドアを開錠］</text>
+  </string>
+  <string id="cc_effect-ambient-zaton-zat_b57_bloodsucker_roar">
+    <text>［ブラッドサッカーの叫び声］</text>
+  </string>
+  <string id="cc_effect-ambient-jupiter-jup_b16_oasis_noise">
+    <text>［近くから奇妙なノイズが聞こえる］</text>
+  </string>
+  <string id="cc_effect-ambient-jupiter-jup_b41_steam">
+    <text>［エアロック除去システム作動］</text>
+  </string>
+  <string id="cc_effect-ambient-jupiter-jup_b46_spatial_bubble_idle">
+    <text>［スペースアノマリーが鳴動している］</text>
+  </string>
+  <string id="cc_effect-ambient-jupiter-jup_b46_spatial_bubble_rupture">
+    <text>［スペースアノマリーが崩壊して開いた］</text>
+  </string>
+  <string id="cc_effect-ambient-jupiter-jup_b219_generator_start">
+    <text>［発電機が起動］</text>
+  </string>
+  <string id="cc_effect-ambient-jupiter-jup_b219_underpass_opening">
+    <text>［地下道の扉が開いた］</text>
+  </string>
+  <string id="cc_effect-ambient-underpass-pas_b400_elevator_off">
+    <text>［地下道のエレベーターの電力が落ちた］</text>
+  </string>
+  <string id="cc_effect-ambient-pripyat-pri_a25_blow_up_door_peep">
+    <text>［爆弾のカウントダウン音］</text>
+  </string>
+  <string id="cc_effect-ambient-pripyat-pri_a25_freezer_knock">
+    <text>［金属を叩く音］</text>
+  </string>
+  <string id="cc_effect-device-door_start">
+    <text>［ドアが開いた］</text>
+  </string>
+  <string id="cc_effect-device-door_closing">
+    <text>［ドアが閉まった］</text>
+  </string>
+  <string id="cc_effect-device-door_stop">
+    <text>［扉がバタンと閉まる］</text>
+  </string>
+  <string id="cc_effect-device-metal_small_open">
+    <text>［金属製のドアが開いた］</text>
+  </string>
+  <string id="cc_effect-device-power_switch">
+    <text>［スイッチを押す音］</text>
+  </string>
+  <string id="cc_effect-device-radio_call">
+    <text>［無線の呼出］</text>
+  </string>
+  <string id="cc_effect-device-wood_large_open">
+    <text>［木製のドアが開いた］</text>
+  </string>
+  <string id="cc_effect-device-wood_large_close_start">
+    <text>［木製のドアが閉じた］</text>
+  </string>
+  <string id="cc_effect-anomaly-steam_blowout">
+    <text>［蒸気音］</text>
+  </string>
+  <string id="cc_effect-weapons-n_desert_eagle_shot">
+    <text>［拳銃の銃声］</text>
+  </string>
+  <string id="cc_effect-music-guitar_">
+    <text>［ギターの演奏音］</text>
+  </string>
+  <string id="cc_effect-music-harmonica_">
+    <text>［ハーモニカの演奏音］</text>
+  </string>
+  <string id="cc_effect-laughter_">
+    <text>［笑い］</text>
+  </string>
+  <string id="cc_wounded-bandit-help">
+    <text>［負傷したBanditが助けを求めている声］</text>
+  </string>
+  <string id="cc_wounded-dolg-help">
+    <text>［負傷したDutyが助けを求めている声］</text>
+  </string>
+  <string id="cc_wounded-freedom-help">
+    <text>［負傷したFreedomが助けを求めている声］</text>
+  </string>
+  <string id="cc_wounded-killer-help">
+    <text>［負傷したMercenaryが助けを求めている声］</text>
+  </string>
+  <string id="cc_wounded-military-help">
+    <text>［負傷したMilitaryの兵士が助けを求めている声］</text>
+  </string>
+  <string id="cc_wounded-monolith-help">
+    <text>［負傷したMonolithが助けを求めている声］</text>
+  </string>
+  <string id="cc_wounded-stalker-help">
+    <text>［負傷したストーカーが助けを求めている声］</text>
+  </string>
+  <string id="cc_fight-bandit-attack">
+    <text>［Banditの攻撃］</text>
+  </string>
+  <string id="cc_fight-dolg-attack">
+    <text>［Dutyの攻撃］</text>
+  </string>
+  <string id="cc_fight-freedom-attack">
+    <text>［Freedomの攻撃］</text>
+  </string>
+  <string id="cc_fight-killer-attack">
+    <text>［Mercenaryの攻撃］</text>
+  </string>
+  <string id="cc_fight-military-attack">
+    <text>［Militaryの攻撃］</text>
+  </string>
+  <string id="cc_fight-monolith-attack">
+    <text>［Monolithの攻撃］</text>
+  </string>
+  <string id="cc_fight-stalker-attack">
+    <text>［ストーカーの攻撃］</text>
+  </string>
+  <string id="zat_a2_base_alarm">
+    <text>ストーカーたちに告ぐ！スカドフスクが攻撃を受けている。事態が落ち着くまでハッチ（出入口）は閉鎖する。</text>
+  </string>
+  <string id="zat_a2_base_guard_1">
+    <text>おいおい、その銃を納めろよ。ここは俺たちの野営地だ、ここでは必要ないだろ。</text>
+  </string>
+  <string id="zat_a2_base_guard_2">
+    <text>ここは平和な場所なんだよ。だから、銃をホルスターに納めて、そのままにしておけ。</text>
+  </string>
+  <string id="zat_a2_base_guard_3">
+    <text>この場所を見ろよ、武器はミュータントを殺すためのものであって、ここには何もない。だから、今すぐそれをしまってくれないか？</text>
+  </string>
+  <string id="zat_a2_base_relax">
+    <text>ストーカーたちに告ぐ！スカドフスクの扉は再び開かれた。</text>
+  </string>
+  <string id="zat_a2_linker_b29_take_order">
+    <text>よし！金を受け取れ！</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_after_surge">
+    <text>ストーカーたち、エミッションは終わった。皆が無事なことを祈る。</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_farewell_1">
+    <text>何か面白い物でも見つけたら戻ってこい。俺たちのスカドフスクはどこにも出港しやしないからな。</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_farewell_2">
+    <text>もしアーティファクトを見つけたら、俺に見せに来いよ。</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_farewell_angry_1">
+    <text>俺たちがここで何しているかって？･･････は？そうだ･･････ 出口はあっちだ。出て行きな。</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_farewell_angry_2">
+    <text>おいおい･･････ さっさと出て行けよ。お前みたいな寄生虫に関わってる暇はないんだ。</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_greeting_1">
+    <text>やぁ、これはごきげんよう！俺たちの粗末な船に今日は何を持ってきてくれたんだ？</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_greeting_2">
+    <text>我らが沼を往く砕氷船へようこそ！</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_greeting_angry_1">
+    <text>この船は陸に上って長いが、ネズミがいまだにウロチョロしてやがる。この偽りの喜びは何のためにあるのだろうか？</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_greeting_angry_2">
+    <text>なんだ？</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_surge_phase_1">
+    <text>ストーカーたちに告ぐ！エミッションが迫っている！繰り返す、エミッションが迫っている！直ちに安全な場所を探せ！</text>
+  </string>
+  <string id="zat_a2_stalker_barmen_surge_phase_2">
+    <text>ストーカーたちに告ぐ！エミッションが始まるぞ！死にたくなければ安全な場所を見つけろ！</text>
+  </string>
+  <string id="zat_a23_about_x8">
+    <text>我々のアナリストが長い間調べていたんだが、ゾーンにおける機密研究情報を見つけることができるのは、おそらくX-8研究所だな。</text>
+  </string>
+  <string id="zat_b100_heli_2_maps">
+    <text>おそらく、まだ飛行している間に操縦士が死んだ事により、ヘリは制御不能に陥ったようだな。搭載されていたコンピュータは幸運に恵まれていたようだが。何か使える物がないか見てみよう･･････ ほう、いくつかマーキングの付いた、この辺りの地図か。使えそうだ。</text>
+  </string>
+  <string id="zat_b101_both_heli_info">
+    <text>これも電子機器が焼けている、だがエミッション保護システムは何事もない。どういうことだ？</text>
+  </string>
+  <string id="zat_b101_one_heli_info">
+    <text>中の電子機器はすべて焼き切れ、電源ケーブルの保護材すら溶けている。</text>
+  </string>
+  <string id="zat_b103_merc_come_here_now">
+    <text>よし、それでいい！ちょっとこっちへ来い。話をしよう。</text>
+  </string>
+  <string id="zat_b103_merc_count_1">
+    <text>1！</text>
+  </string>
+  <string id="zat_b103_merc_count_2">
+    <text>2！</text>
+  </string>
+  <string id="zat_b103_merc_count_3">
+    <text>3！</text>
+  </string>
+  <string id="zat_b103_merc_hide_weapon_1">
+    <text>銃を下ろせ！</text>
+  </string>
+  <string id="zat_b103_merc_hide_weapon_2">
+    <text>銃を下ろせと言っている。三つ数えるうちに銃を下さないのなら、お前の頭を吹き飛ばすぞ！</text>
+  </string>
+  <string id="zat_b103_merc_talk_to_commander_1">
+    <text>俺はお喋りするつもりはない。隊長と話せ。</text>
+  </string>
+  <string id="zat_b103_merc_talk_to_commander_2">
+    <text>隊長と話せ。</text>
+  </string>
+  <string id="zat_b103_merc_warning">
+    <text>お前はバカか！？その頭が吹き飛ばされる前にさっさと行け！</text>
+  </string>
+  <string id="zat_b106_dont_receipt_reward">
+    <text>よし、任務完了、撤収だ。役立たずのお前にはご褒美なんてありゃしないぞ。</text>
+  </string>
+  <string id="zat_b106_garmata_refuse_talk">
+    <text>ボスに話せ。俺には世間話より撃ちまくるほうが性に合ってる。</text>
+  </string>
+  <string id="zat_b106_garmata_story_reply">
+    <text>あちこちに聞いてみたが、無駄だった。誰も何も知らない。まるでポルターガイストか何かのようだ。</text>
+  </string>
+  <string id="zat_b106_gonta_hunt_complete">
+    <text>よし、任務完了、総員撤収だ。それとヤノフのトラッパーに報告するのを忘れるな。分け前が欲しければ、奴にキメラの事を話すんだ。</text>
+  </string>
+  <string id="zat_b106_gonta_hunt_great">
+    <text>よくやった！あんたは今までキメラ専門のハンターになろうとは考えなかったのか？</text>
+  </string>
+  <string id="zat_b106_gonta_hunt_kill">
+    <text>よし、ここだ。エモノはすぐ近くにいるぞ、俺にはわかるんだ。見えたら頭を狙え。近づきすぎるなよ。さもないと、奴が寝てたって匂いで気づかれる。</text>
+  </string>
+  <string id="zat_b106_gonta_hunt_plan">
+    <text>聞け！キメラは夜に狩りをして、朝眠る。キメラが休んでいる間がチャンスだ。ゆっくりと接近し、眠っている間に終わらせる。簡単な仕事だ。だが早起きが必要だな。午前3時にバーで集合だ。</text>
+  </string>
+  <string id="zat_b106_gonta_hunt_sneak">
+    <text>ゆっくりと、注意深く接近しろ。そうすれば俺たちの匂いに気付かない。</text>
+  </string>
+  <string id="zat_b106_gonta_see_chimera">
+    <text>よく眠ってるじゃねぇか、バケモノがよぉ？仲間のクラブがヨロシク言ってたぜ。</text>
+  </string>
+  <string id="zat_b106_gonta_story_angry">
+    <text>奴が逃げちまったから、クソッタレは残念に思っているだろうな。</text>
+  </string>
+  <string id="zat_b106_gonta_story_ask">
+    <text>それでマグピーについて分かったことは？</text>
+  </string>
+  <string id="zat_b106_gonta_story_calm">
+    <text>医者はすぐに良くなると言ってたがな、今は休んで鋭気を養っておけ。お前には休息が必要だ。</text>
+  </string>
+  <string id="zat_b106_gonta_to_actor">
+    <text>よう、ストーカー！ちょっとこっち来い。お前に聞きたいことがある。</text>
+  </string>
+  <string id="zat_b14_robbery_after_pay_snd_1">
+    <text>よぅし！ゆっくり後ろを向くんだ、ゆっくりな。で、さっさと命がある間に失せるんだ、間抜け野郎！</text>
+  </string>
+  <string id="zat_b14_robbery_after_pay_snd_2">
+    <text>馬鹿かよてめぇは！失せやがれ！</text>
+  </string>
+  <string id="zat_b14_robbery_after_pay_snd_3">
+    <text>おい、そこのバカ！誰だお前？逃げるか、この場にぶち倒されてぇか！</text>
+  </string>
+  <string id="zat_b14_robbery_kill_actor_snd_1">
+    <text>骨までしゃぶってやるぜ、クソ野郎！</text>
+  </string>
+  <string id="zat_b14_robbery_kill_actor_snd_2">
+    <text>テメェは死ぬんだよ、豚野郎！</text>
+  </string>
+  <string id="zat_b14_robbery_kill_actor_snd_3">
+    <text>アーティファクトを寄越しな、ロクデナシ！</text>
+  </string>
+  <string id="zat_b14_robbery_punch">
+    <text>このクソったれのタマ無し野郎め！</text>
+  </string>
+  <string id="zat_b14_robbery_stand_still_snd">
+    <text>もし命が惜しいのなら、動かずに突っ立ってろ！マヌケ！</text>
+  </string>
+  <string id="zat_b14_robbery_stop_snd">
+    <text>止まれ、銃を捨てろ！そこに突っ立ってるんだ、分かったか？</text>
+  </string>
+  <string id="zat_b14_scene_1_give_item">
+    <text>おいベアード、見ろよ、古い浚渫船で見つけてきたんだ。こりゃいったいなんだと思う？</text>
+  </string>
+  <string id="zat_b14_scene_1_linker_reply">
+    <text>おお、こいつは奇妙なモンだな･･････！こんなモン今まで見たことがないな。よし、俺が買い取ろう。</text>
+  </string>
+  <string id="zat_b14_scene_1_stalker_bye">
+    <text>そうだな、もっとたくさん仕事をこなしていけば、どこへ行けば俺に会えるかわかるようになるさ。</text>
+  </string>
+  <string id="zat_b14_scene_1_stalker_offended">
+    <text>よし、そのまま行け。今のことを忘れるな、絶対だ。</text>
+  </string>
+  <string id="zat_b14_scene_1_stalker_teach_actor">
+    <text>おぉ、お前･･････ 俺には金が必要で、それはお前も一緒。だろ？</text>
+  </string>
+  <string id="zat_b18_noah_breakdown">
+    <text>ああぁぁ･･････ ここだ！もう終わりだ！ミュータント･･････ ミュータントがそこらじゅうに！</text>
+  </string>
+  <string id="zat_b18_noah_gave_first_artefact">
+    <text>ゾーンがミュータントでごった返すようになれば、こんなガラクタじゃ助からん。ほら、そいつを持って失せろ！</text>
+  </string>
+  <string id="zat_b18_noah_gave_second_artefact">
+    <text>ハッ！お前はそれでエミッションから身を守れると思っているのか？ほら、こいつを持って出て行け！</text>
+  </string>
+  <string id="zat_b18_noah_go_away">
+    <text>さっさと出ていけよ、この変人が！</text>
+  </string>
+  <string id="zat_b18_noah_greetings_1">
+    <text>地獄に落ちろ、腐れミュータントめ！</text>
+  </string>
+  <string id="zat_b18_noah_greetings_2">
+    <text>失せろ怪物ども、もしくは皆殺しされてぇか！</text>
+  </string>
+  <string id="zat_b18_noah_greetings_3">
+    <text>またミュータントが･･････ ゲス野郎どもめ！</text>
+  </string>
+  <string id="zat_b18_noah_no_talk_1">
+    <text>ほっといてくれ。</text>
+  </string>
+  <string id="zat_b18_noah_no_talk_2">
+    <text>そのまま進め。</text>
+  </string>
+  <string id="zat_b18_noah_no_talk_3">
+    <text>失せろ。</text>
+  </string>
+  <string id="zat_b20_noah_instructions">
+    <text>俺の動きをよく見ておけ。俺の歩いた後に続くんだ。</text>
+  </string>
+  <string id="zat_b20_noah_jumped">
+    <text>よくできたじゃないか！もし何かあったら俺のところに来いよ。</text>
+  </string>
+  <string id="zat_b20_noah_pda">
+    <text>あぁ、そこにいるのか、クソッタレのミュータントども！台地に登ればこのノアには捕まえられないとでも思ったか？はっ！農家の焼け跡の北にある、俺だけの道を知らないと見える。ざまぁみろ、このクソッタレ！</text>
+  </string>
+  <string id="zat_b215_stalker_guide_farewell_1">
+    <text>幸運を！</text>
+  </string>
+  <string id="zat_b215_stalker_guide_farewell_2">
+    <text>良い狩りを！</text>
+  </string>
+  <string id="zat_b215_stalker_guide_greeting_1">
+    <text>やぁ。</text>
+  </string>
+  <string id="zat_b215_stalker_guide_greeting_2">
+    <text>やぁ、ストーカー。調子はどうだい？</text>
+  </string>
+  <string id="zat_b22_stalker_medic_diary">
+    <text>録音番号12。私の研究はもうオシマイだ･･････ 野営地の人間たちが何かを疑い始めている。グラウスとダニラはブラッドサッカー狩りを計画している･･････ いつ彼らにバレてしまうんだろう･･････ 血の入った瓶を分類して、どれが汚染されているかを調べないと･･････ 誰か来る･･････ 録音番号13。私はもうオシマイだ。すべてが悪い方へ向かってしまった。最初はあのおせっかいなハンター、そして今度はグラウス･･････ このままでは逃げられない。彼らは迎えに来る。分かっているんだ･･････ そんなことはどうでもいい･･････ このままだと私はヘモグロビン依存症の症状ですぐに死ぬだろう。病気で死ぬより、銃弾で死ぬ方がマシだ。</text>
+  </string>
+  <string id="zat_b22_stalker_medic_farewell_1">
+    <text>やぁどうも、それじゃ。</text>
+  </string>
+  <string id="zat_b22_stalker_medic_farewell_2">
+    <text>あぁ、さよなら。</text>
+  </string>
+  <string id="zat_b22_stalker_medic_greeting_1">
+    <text>今回はなんだ？ケガかい？それとも放射線障害かい？</text>
+  </string>
+  <string id="zat_b22_stalker_medic_greeting_2">
+    <text>今はダメだ･･････ いいか？</text>
+  </string>
+  <string id="zat_b22_stalker_medic_hello">
+    <text>いつまでも隠し通せるとは思ってなかったさ･･････ 聞きたいことがあるんだろ？何でも聞いてくれ。</text>
+  </string>
+  <string id="zat_b28_heli_3_evacuation_points">
+    <text>うーむ、搭載機器からのデータは･･････ おや、スティングレイ3のエンジンは2基とも停止したのか。さて、他には？･･････地図の想定撤収地点「B2」「B28」「B205」にマークがある。面白い。</text>
+  </string>
+  <string id="zat_b29_stalker_rival_1_order_ready">
+    <text>注文の品を見つけた。アーティファクトを受け取れ。</text>
+  </string>
+  <string id="zat_b29_stalker_rival_2_order_ready">
+    <text>見つけたぞ。これがアーティファクトだ。</text>
+  </string>
+  <string id="zat_b3_tech_drink_no_more">
+    <text>どうよ、ストーカー？</text>
+  </string>
+  <string id="zat_b3_tech_drunk">
+    <text>うぅ･･････ 何がいるんだ･･････？</text>
+  </string>
+  <string id="zat_b3_tech_drunk_discount">
+    <text>うん･･････ 何か忘れ物か？</text>
+  </string>
+  <string id="zat_b3_tech_no_sleep_1">
+    <text>んぁぁぁ？なんなんだぁ？おい、寝かせてくれよ。んぁ･･････</text>
+  </string>
+  <string id="zat_b3_tech_no_sleep_2">
+    <text>おいおい、ほっといてくれ･･････！</text>
+  </string>
+  <string id="zat_b3_tech_no_sleep_3">
+    <text>これは･･････ もう1本持ってこい！</text>
+  </string>
+  <string id="zat_b3_tech_realy_drunk">
+    <text>何だ･･････ お前のためになんかできるか？･･････</text>
+  </string>
+  <string id="zat_b3_tech_realy_drunk_discount">
+    <text>あぁ･･････ えー、お前か･･････ 来いよほら！</text>
+  </string>
+  <string id="zat_b3_tech_see_produce_62">
+    <text>うあぁぁあ？まさか6･･････ 62･･････？有り得ねぇ。</text>
+  </string>
+  <string id="zat_b3_tech_sleep_1">
+    <text>［眠りに落ちた］</text>
+  </string>
+  <string id="zat_b3_tech_sleep_2">
+    <text>･･････お前に言っとくが、ジュースが足りねぇ･･････</text>
+  </string>
+  <string id="zat_b3_tech_sleep_3">
+    <text>［眠りに落ちた］</text>
+  </string>
+  <string id="zat_b3_tech_sleep_4">
+    <text>へい、みんな、おい、どこ行くんだ･･････？あー、俺は･･････ 俺はここにいるよ･･････</text>
+  </string>
+  <string id="zat_b3_tech_sober">
+    <text>よぉ･･････</text>
+  </string>
+  <string id="zat_b3_tech_take_first_dose">
+    <text>俺の手腕に乾杯！</text>
+  </string>
+  <string id="zat_b3_tech_take_second_dose">
+    <text>良い一日の始まりに乾杯！</text>
+  </string>
+  <string id="zat_b3_tech_take_third_dose">
+    <text>俺たちの共通の目標に乾杯！</text>
+  </string>
+  <string id="zat_b30_owl_about_trouble">
+    <text>オウェルだ。今すぐ俺のところに来い！仕事の話がある。</text>
+  </string>
+  <string id="zat_b30_owl_stalker_trader_farewell_1">
+    <text>さあ、むこうへ行った！行った！</text>
+  </string>
+  <string id="zat_b30_owl_stalker_trader_farewell_2">
+    <text>ドアにぶつからないようにな･･････</text>
+  </string>
+  <string id="zat_b30_owl_stalker_trader_greeting_1">
+    <text>で、何か目新しい物が？</text>
+  </string>
+  <string id="zat_b30_owl_stalker_trader_greeting_2">
+    <text>何を持ってるんだ？何か手に入れたんなら ─ 見せてみろ。何もないんなら ─ 失せろ。</text>
+  </string>
+  <string id="zat_b33_stalker_snag_greeting_gun">
+    <text>ワオ！すげぇ銃だ！見させてもらってもいいか？</text>
+  </string>
+  <string id="zat_b38_stalker_cop_about_lair_bloodsucker">
+    <text>この建物にブラッドサッカーが入っていくのを見たんだ。ということはここが巣穴だろう。調べてみないか？</text>
+  </string>
+  <string id="zat_b38_stalker_cop_another_one">
+    <text>危ない！別の奴だ！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_appear">
+    <text>聞こえたか？･･････あぁ、忘れてくれ</text>
+  </string>
+  <string id="zat_b38_stalker_cop_bloodsuckers_no_sleep">
+    <text>奴らが目を覚ました！逃げろ！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_bloodsuckers_sleep">
+    <text>シーッ！クソッ。おねんねしてるブラッドサッカーで一杯だ。気をつけろ、通り抜ける間どんな物音でも立てるな。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_come_here_1">
+    <text>おい、あいつを見ろ！･･････あれが地下室への道に違いない。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_come_here_2">
+    <text>拍手を頼む！ってね。じゃ、中を見てみるとするか。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_down_floor">
+    <text>おい、大丈夫か？よし、この地下室を調べてみよう。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_fear_end">
+    <text>ヒュー･･････ やりきったぜ。やつらの昼寝を邪魔せずにな。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_find_lair_pda">
+    <text>どうやら巣穴らしき場所を見つけたぜ。こっちに来てくれ、できるだけ急いでな！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_hit_1">
+    <text>どこ見て撃ってんだバカ野郎！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_hit_2">
+    <text>いったいなにやってんだお前？お前が撃ってるのは俺だぞ！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_jump_down_1">
+    <text>さて、飛び込むしかないってことか･･････ ついてこい！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_jump_down_2">
+    <text>あれが出口だ！飛び込め！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_kill_1">
+    <text>よし、しとめた！だが別の奴がいたな。気をつけろ！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_kill_2">
+    <text>よし、こいつでお終いだ。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_not_a_hunter">
+    <text>ハンターはいない･･････ なんてこった！見ろよ、爪痕だよ。前に見つけた奴は爪痕がなかった。奇妙だな。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_not_a_hunter_1">
+    <text>この爪痕を見てみろ！おかしいな･･････</text>
+  </string>
+  <string id="zat_b38_stalker_cop_not_a_hunter_2">
+    <text>以前見つけた死体とはまるで違うな。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_not_a_hunter_3">
+    <text>さて、ここにハンターはいない。外へ出よう。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_notice">
+    <text>警戒しろ！奴らはどこに潜んでいるか分からんぞ。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_see_bloodsucker">
+    <text>そこに何かいるぞ･･････ 援護しろっ！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_sit">
+    <text>伏せろ！</text>
+  </string>
+  <string id="zat_b38_stalker_cop_tell_about_quest">
+    <text>ここでハンターを見つけられなかった。だが、ひとつ心当たりのある居所がある。俺はそこを調べに行く、また後で会おう。お前は他の奴らに「おしゃぶりクソ野郎」のことを伝えろ。このミュータント共をほっぽっとく訳にはいかないしな。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_tell_stalker_about_lair">
+    <text>ベアードにこの事を伝えろ。あのクソッタレ共に対処できる奴がいるとすれば、奴ぐらいだ。</text>
+  </string>
+  <string id="zat_b38_stalker_cop_try">
+    <text>こいつは俺の専門分野でな、「経験豊富」って奴だ。</text>
+  </string>
+  <string id="zat_b39_joker_pda_record">
+    <text>アーティファクトは木の上にあるに違いない。この丘から木に登れたのが何よりの証拠だ。周りにミュータントがいなければいいが。カーダンとバージの喧嘩の後ひとりでここに来なければならなかったのはマズかったが、アーティファクトを持って帰れば、あいつらも俺が正しかった事がわかるだろう。</text>
+  </string>
+  <string id="zat_b40_merc_combat">
+    <text>よし、クソ野郎をぶっ殺せ！</text>
+  </string>
+  <string id="zat_b40_merc_go_away_1">
+    <text>回れ右して失せな、ストーカー！お前には関係ないところだ。</text>
+  </string>
+  <string id="zat_b40_merc_go_away_2">
+    <text>ストーカー！立っていられる間に消えるんだな！</text>
+  </string>
+  <string id="zat_b42_controller_warning_1">
+    <text>消えろ。</text>
+  </string>
+  <string id="zat_b42_controller_warning_2">
+    <text>息の根を止められる前に失せろ。</text>
+  </string>
+  <string id="zat_b44_stalker_barge_pda">
+    <text>カーダンは飲んだくれのジジイだ。それだけじゃない。奴は飲んだら、ケツを椅子から上げようともしないんだ。そのくせ、俺やジョーカーには「若いのに何もわかってない」と暴言を吐くんだ！･･････ははは。まあ、ジョーカーもたいしたもんだよ。怒られてカバンを持って消えていった。俺がカーダンを落ち着かせようとしている間に奴は出て行きやがって、どこに行ったのかもわからないのさ。俺はどうすればいいんだ？あのバカなジジイと飲むのか？いいや、あいつのウォッカは最悪だ！まったく。最初の頃はどれだけ期待されていたことか･･････</text>
+  </string>
+  <string id="zat_b5_bandit_dealer_speak_1">
+    <text>手短に言うと、俺たちはアーティファクトをいくつか持ってて、更に手に入れる事もできる。それで超一流の銃と金が必要ってわけだ、分かったか？</text>
+  </string>
+  <string id="zat_b5_bandits_see_actor">
+    <text>おい！誰だあいつらは！？</text>
+  </string>
+  <string id="zat_b5_dealer_angry">
+    <text>尾けられたな、アホ共め！</text>
+  </string>
+  <string id="zat_b5_dealer_bandit_speak_1">
+    <text>その手に入れたものは何だ？見せてみろ！</text>
+  </string>
+  <string id="zat_b5_dealer_bandit_speak_2">
+    <text>取引相手はここだぜ、兄弟。Dutyのモノなら俺に任せな。お前が入手できる中でも最高の銃と装備があるぜ。</text>
+  </string>
+  <string id="zat_b5_dealer_kill_bandits">
+    <text>全員殺すんだ。目撃者は消せ。</text>
+  </string>
+  <string id="zat_b5_dealer_see_clients">
+    <text>ほら、ここに。</text>
+  </string>
+  <string id="zat_b5_dealer_to_actor_fire">
+    <text>全員ぶっ殺せ！</text>
+  </string>
+  <string id="zat_b5_dealer_wait_clients">
+    <text>取引相手が来るまで、全員待機だ。</text>
+  </string>
+  <string id="zat_b5_dealer_want_speak_with_actor">
+    <text>ちょっとお前に話があるんだが。</text>
+  </string>
+  <string id="zat_b5_dealer_who_there">
+    <text>他に誰かいるとでも？</text>
+  </string>
+  <string id="zat_b5_stalkers_all_clear_go">
+    <text>よし、今なら大丈夫だ。奴らを殺せ！</text>
+  </string>
+  <string id="zat_b5_stalkers_refuse_talk">
+    <text>ボスに聞け。</text>
+  </string>
+  <string id="zat_b5_stalkers_watch_out_sentry">
+    <text>見張りに姿を見られるなよ。</text>
+  </string>
+  <string id="zat_b5_sultan_angry">
+    <text>ストーカー？これはどういうことだ！？</text>
+  </string>
+  <string id="zat_b5_sultan_kill_stalkers">
+    <text>お前ら、やっちまえ！</text>
+  </string>
+  <string id="zat_b52_port_bandits_after_pay_snd_1">
+    <text>よし、今すぐさっさと出て行きな、俺の気が変わらないうちにな！</text>
+  </string>
+  <string id="zat_b52_port_bandits_after_pay_snd_2">
+    <text>お前まだいるのか？俺はお前が思ってるほど我慢強くないぞ･･････</text>
+  </string>
+  <string id="zat_b52_port_bandits_after_pay_snd_3">
+    <text>よし、これで終いだ！くたばれ！</text>
+  </string>
+  <string id="zat_b52_port_bandits_kill_actor_snd_1">
+    <text>そこで終わりだ、間抜けめ！</text>
+  </string>
+  <string id="zat_b52_port_bandits_kill_actor_snd_2">
+    <text>なぁ皆、がっかりさせられたな。じゃあぶちのめしてやるか！</text>
+  </string>
+  <string id="zat_b52_port_bandits_kill_actor_snd_3">
+    <text>なぁ皆、このアホは自分のブツを握って離さねえんだ、手放したくないんだとよ！</text>
+  </string>
+  <string id="zat_b52_port_bandits_see_actor">
+    <text>お前ら、見てみろ！あそこにいる奴は金目の物を持ってるぞ。おい、聞け、ここで止まれ、変な気は起こすなよ！</text>
+  </string>
+  <string id="zat_b52_port_bandits_stand_still_snd">
+    <text>止まれつってんだ！今そっちへ行くからよ！</text>
+  </string>
+  <string id="zat_b53_artefact_hunter_2_come_on">
+    <text>落ち着いてそのまま進むんだ。</text>
+  </string>
+  <string id="zat_b53_artefact_hunter_2_come_on_continue">
+    <text>そのスーツがあれば大丈夫だって言ったろ！続けろ。</text>
+  </string>
+  <string id="zat_b53_artefact_hunter_help">
+    <text>ストーカー！助けてくれ！</text>
+  </string>
+  <string id="zat_b7_bandit_boss_sultan_farewell_1">
+    <text>また会おうや･･････ もし無事でいられたらな。</text>
+  </string>
+  <string id="zat_b7_bandit_boss_sultan_farewell_2">
+    <text>またあとで話そう。お互い楽しい時間をな！</text>
+  </string>
+  <string id="zat_b7_bandit_boss_sultan_greeting_1">
+    <text>誰だお前！</text>
+  </string>
+  <string id="zat_b7_bandit_boss_sultan_greeting_2">
+    <text>ほう、ココまでたどり着けたって訳か？ブラボー！</text>
+  </string>
+  <string id="zat_b7_raider_after_bad">
+    <text>よし、終わったな･･････ それでお前はいったい何してやがったんだ？風景にでも見とれてたのか？</text>
+  </string>
+  <string id="zat_b7_raider_after_ok">
+    <text>よし、終わったな！お前の手際には見惚れてしまったぜ。</text>
+  </string>
+  <string id="zat_b7_raider_sneak_comments_1">
+    <text>目にもの見せてやるぜ！</text>
+  </string>
+  <string id="zat_b7_raider_sneak_comments_2">
+    <text>おい、どうなってるんだ？</text>
+  </string>
+  <string id="zat_b7_raider_sneak_comments_3">
+    <text>落ち着けよ！俺たちなら奴らなんか楽勝だ。</text>
+  </string>
+  <string id="zat_b7_raiders_attack">
+    <text>よし、かかれ！</text>
+  </string>
+  <string id="zat_b7_raiders_ready_to_go">
+    <text>何をやっている、いつまで待たせるんだ。</text>
+  </string>
+  <string id="zat_b7_raiders_sneak_confuse">
+    <text>なんだ･･････！？奴ら姿をくらませたり、何かしてるのか？</text>
+  </string>
+  <string id="zat_b7_raiders_to_boss">
+    <text>おい、そこのお前、スルタンさんが話をしたいとよ。</text>
+  </string>
+  <string id="zat_b7_stalker_after_bad">
+    <text>このクズどもは片付いたな。しかしお前はまともに戦う気があるのか、どうなんだ？</text>
+  </string>
+  <string id="zat_b7_stalker_after_ok">
+    <text>クソ野郎どもを倒したぞ。協力に感謝する！</text>
+  </string>
+  <string id="zat_b7_stalkers_attack">
+    <text>皆殺しだ！</text>
+  </string>
+  <string id="jup_a10_bandit_leader_hello">
+    <text>なに見てんだ！てめえのことだよ！</text>
+  </string>
+  <string id="jup_a10_bandits_warn">
+    <text>銃を納めろ、ストーカー。それとも、地面に這いつくばらせてやろうか！</text>
+  </string>
+  <string id="jup_a10_vano_need_help">
+    <text>クソ、どうすりゃいいんだ･･････？奴らの所に行けば、また利子を払わされる。だがもし行かなかったら、今度は命を払う羽目になっちまうし･･････</text>
+  </string>
+  <string id="jup_a12_bandit_say_jump">
+    <text>さて･･････ お前のポケットの中でジャラジャラいっているモノに聞くって事か？･･････で、それは？</text>
+  </string>
+  <string id="jup_a12_bandit_threat_to_prisoner">
+    <text>一歩でも動くとコイツは死ぬぞ！</text>
+  </string>
+  <string id="jup_a12_bandits_bodyguard_warning_actor">
+    <text>銃を置いて離せ！</text>
+  </string>
+  <string id="jup_a12_bandits_warning_actor">
+    <text>おい！ここで何してやがる？まだ歩ける間に元の場所に帰れ！</text>
+  </string>
+  <string id="jup_a12_merc_attack_started">
+    <text>よし、やるぞ！</text>
+  </string>
+  <string id="jup_a12_merc_cover_us">
+    <text>援護する。</text>
+  </string>
+  <string id="jup_a12_merc_lets_go">
+    <text>進め。</text>
+  </string>
+  <string id="jup_a12_merc_ready">
+    <text>配置についた。</text>
+  </string>
+  <string id="jup_a12_stalker_assaulter_1_argue">
+    <text>やはり、アーティファクトを売って、そのお金で人を募るべきだと思う。そうすれば、一緒にBanditたちを攻撃することができる。</text>
+  </string>
+  <string id="jup_a12_stalker_assaulter_2_argue">
+    <text>お前は、ヤツラがアーティファクトを手にしたらすぐに撃ってくる、とか思わないのか？</text>
+  </string>
+  <string id="jup_a12_stalker_assaulter_3_argue">
+    <text>奴らに渡すことはできない。何を渡したとしてもまた更に要求されるぞ。</text>
+  </string>
+  <string id="jup_a12_stalker_diplomat_1_argue">
+    <text>馬鹿な！身代金としてアーティファクトを渡す方がはるかにマシだ。</text>
+  </string>
+  <string id="jup_a12_stalker_diplomat_2_argue">
+    <text>俺たちが攻撃しながらそこに出てったら、あいつらは確実に彼を撃つぞ。</text>
+  </string>
+  <string id="jup_a12_stalker_diplomat_3_argue">
+    <text>俺たちは屈服したわけじゃない･･････！だが、あいつらの要求を満たすことが俺たちにできる唯一の選択だ。</text>
+  </string>
+  <string id="jup_a12_stalker_diplomat_no_talk">
+    <text>俺はお前のことを信用していない。</text>
+  </string>
+  <string id="jup_a12_stalker_prisoner_says_we_can_run_from_here">
+    <text>走れ！まだやれるぞ！</text>
+  </string>
+  <string id="jup_a12_stalker_prisoner_thanks_actor">
+    <text>助けてくれてありがとう。</text>
+  </string>
+  <string id="jup_a12_stalkers_to_actor_came_back">
+    <text>おい、どこに行くんだ？待て！戻ってこい！</text>
+  </string>
+  <string id="jup_a12_stalkers_to_actor_meet_on_base">
+    <text>あの古い駅でまた会おうな。</text>
+  </string>
+  <string id="jup_a6_base_alarm">
+    <text>すべてのストーカーとこの声を聞く者すべてに告ぐ！ヤノフ駅が攻撃を受けている！我々は当分の間、入口を閉鎖する。</text>
+  </string>
+  <string id="jup_a6_base_guard_1">
+    <text>その銃をしまえ。ここは中立区域だ。</text>
+  </string>
+  <string id="jup_a6_base_guard_2">
+    <text>俺たちは最前線にいるんだ、ストーカー。その武器をしまわないなら面倒事になるぞ。</text>
+  </string>
+  <string id="jup_a6_base_guard_3">
+    <text>銃を持っている限り入ることはできねえぞ。分かったか！？</text>
+  </string>
+  <string id="jup_a6_base_megaphone_1">
+    <text>落ち着けよダンナ。銃をしまうのが先だ。</text>
+  </string>
+  <string id="jup_a6_base_megaphone_2">
+    <text>武器の持ち込みは認めていない。</text>
+  </string>
+  <string id="jup_a6_base_megaphone_3">
+    <text>ストーカー、中に入るなら武器をしまうんだ。</text>
+  </string>
+  <string id="jup_a6_base_relax">
+    <text>全ストーカーとその他大勢に告ぐ、ヤノフ駅は安全を取り戻した。またいつでも訪ねてくれ。</text>
+  </string>
+  <string id="jup_a6_duty_leader_farewell_1">
+    <text>また会おうぜ、ストーカー！</text>
+  </string>
+  <string id="jup_a6_duty_leader_farewell_2">
+    <text>オーケー、これがおれたちだ。良い一日を！</text>
+  </string>
+  <string id="jup_a6_duty_leader_greeting_1">
+    <text>よぉ、ストーカー。</text>
+  </string>
+  <string id="jup_a6_duty_leader_greeting_2">
+    <text>ここで何してんだ？</text>
+  </string>
+  <string id="jup_a6_freedom_leader_farewell_1">
+    <text>元気でな！</text>
+  </string>
+  <string id="jup_a6_freedom_leader_farewell_2">
+    <text>気をつけてな！</text>
+  </string>
+  <string id="jup_a6_freedom_leader_greeting_1">
+    <text>よう！どうした？</text>
+  </string>
+  <string id="jup_a6_freedom_leader_greeting_2">
+    <text>まぁ落ち着けよ。片意地はるな。</text>
+  </string>
+  <string id="jup_a6_stalker_barmen_farewell_1">
+    <text>また寄ってくれよ。きっと楽しいことがあるぜ。</text>
+  </string>
+  <string id="jup_a6_stalker_barmen_farewell_2">
+    <text>あばよ！</text>
+  </string>
+  <string id="jup_a6_stalker_barmen_greeting_1">
+    <text>こっちに来いよ兄弟！お前に必要なブツは何でも揃ってるぜ！</text>
+  </string>
+  <string id="jup_a6_stalker_barmen_greeting_2">
+    <text>アロハ！</text>
+  </string>
+  <string id="jup_a6_stalker_medik_after_surge">
+    <text>エミッションは過ぎ去った。皆が無事だといいがな。もし怪我をしたのならヤノフに来るといい、我々が助けよう。</text>
+  </string>
+  <string id="jup_a6_stalker_medik_farewell_1">
+    <text>次の患者！･･････じゃなくて･･････ お大事に！</text>
+  </string>
+  <string id="jup_a6_stalker_medik_farewell_2">
+    <text>トラブルを起こさないようにな！</text>
+  </string>
+  <string id="jup_a6_stalker_medik_greeting_1">
+    <text>顔色が悪いぞ。少しチクッとやるか？</text>
+  </string>
+  <string id="jup_a6_stalker_medik_greeting_2">
+    <text>また怪我したのか？少しの暇もないなお前は。</text>
+  </string>
+  <string id="jup_a6_stalker_medik_phase_1">
+    <text>警告！警告！エミッションが近い！すぐに退避場所を見つけろ！</text>
+  </string>
+  <string id="jup_a6_stalker_medik_phase_2">
+    <text>警告！警告！エミッションが発生した！すぐに退避場所を見つけろ！</text>
+  </string>
+  <string id="jup_a9_actor_conservation_info">
+    <text>ふむ･･････ 地下道は閉鎖された後、何らかのガスで充満させられたみたいだな。</text>
+  </string>
+  <string id="jup_a9_actor_power_info">
+    <text>これが地下道への入り口だ。発電機を起動させれば、通路を開けるはずだ。</text>
+  </string>
+  <string id="jup_a9_actor_way_info">
+    <text>こいつは地下道「プリピャチ-1」の地図。つまりプリピャチへ繋がる地下道が存在する、という主な証拠だ。</text>
+  </string>
+  <string id="jup_b1_actor_dont_come">
+    <text>なああんた！「時は金なり」だ。待ちくたびれたから、分隊は引き上げるぞ。</text>
+  </string>
+  <string id="jup_b1_stalker_warning">
+    <text>きっ気を･･････ 気をつけろ、コントロ･･････ コントロー･･････「コンロトーラー」だ！</text>
+  </string>
+  <string id="jup_b1_stalkers_aftershock_1">
+    <text>うう･･････ まったく･･････ 何だってんだ？また･･････ 何か･･････</text>
+  </string>
+  <string id="jup_b1_stalkers_aftershock_2">
+    <text>おお･･････ 衝動･･････ ブレッ･･････ ひどい･･････！やばい、頭が死ぬほど痛い！</text>
+  </string>
+  <string id="jup_b1_stalkers_first_stay">
+    <text>俺たちはここであんたを待つよ。何が起きても援護は任せときな。</text>
+  </string>
+  <string id="jup_b1_stalkers_get_out">
+    <text>ああっクソ！逃げた方がいいぜ、プロント！</text>
+  </string>
+  <string id="jup_b1_stalkers_greeting">
+    <text>それで、あんたが穴の専門家かい？へへへ･･････ 心配ご無用、俺たちに任しとけばミュータント共なんざあっという間に片付けるぜ。</text>
+  </string>
+  <string id="jup_b1_stalkers_lair_check">
+    <text>うーん･･････ 落ち着いているようだな。前進するぞ。</text>
+  </string>
+  <string id="jup_b1_stalkers_monsters_beat_off">
+    <text>大丈夫だ。少しばかりトゥシュカノがいるが、俺たちで片付ける。</text>
+  </string>
+  <string id="jup_b1_stalkers_monsters_out">
+    <text>いまのやつで最後みたいだな。</text>
+  </string>
+  <string id="jup_b1_stalkers_psy_wound_1">
+    <text>あああ俺の中に！うわああ･･････</text>
+  </string>
+  <string id="jup_b1_stalkers_second_stay">
+    <text>行け！入り口をカバーする！</text>
+  </string>
+  <string id="jup_b1_stalkers_see_zombied">
+    <text>ゾンビだ！</text>
+  </string>
+  <string id="jup_b10_stalker_drunk_no_meet_1">
+    <text>えーと･･････ あー･･････ え、えーと･･････</text>
+  </string>
+  <string id="jup_b10_stalker_drunk_no_meet_2">
+    <text>は？何？</text>
+  </string>
+  <string id="jup_b10_stalker_drunk_no_meet_3">
+    <text>えー･･････ うーん･･････</text>
+  </string>
+  <string id="jup_b10_ufo_memory_repaired_nitro">
+    <text>よっ！ニトロだ。こっちに寄ってくれ、メモリモジュールの件だ。あんたを待ってるぜ。</text>
+  </string>
+  <string id="jup_b15_zulus_greeting">
+    <text>どうした？</text>
+  </string>
+  <string id="jup_b15_zulus_ready">
+    <text>よし、一緒に行こうじゃないか。どんな戦士でも、俺のところに送ってくれれば、チームを作るよ。準備ができたら、声をかけてくれ。ニトロを拾ってジュピターに向かおう。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_about_zombie_1">
+    <text>静かな村のようだ･･････ 俺たちが地元住民の邪魔をしなければな。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_about_zombie_2">
+    <text>とても静かで、まるでリゾートのようだ。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_about_zombie_3">
+    <text>もうすぐだ。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_come_here_1">
+    <text>さあ、これからが本番だ。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_come_here_2">
+    <text>さあ、何を待ってんだ？一番いいところを見逃しちまうぞ。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_come_here_3">
+    <text>何をしている？早くしろよ、楽しいことはこれからだよ。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_explanations">
+    <text>そんで、これで終わり、と。お前の頭は疑問でいっぱいになっているんだろ？俺にはわかるぜ。少しその事で話をしようか？</text>
+  </string>
+  <string id="jup_b19_freedom_yar_guessed_long">
+    <text>どうやら俺たちが正しかったようだ。今ならゾンビたちが俺たちを守ってくれる、野郎どもを撃ち落とすんだ！</text>
+  </string>
+  <string id="jup_b19_freedom_yar_guessed_short">
+    <text>俺の思った通りだ、奴らを撃ち殺せ！</text>
+  </string>
+  <string id="jup_b19_freedom_yar_suspense">
+    <text>俺が正しかったかどうかを見てみよう。</text>
+  </string>
+  <string id="jup_b19_freedom_yar_zombie_hit">
+    <text>いったい何でそんなことしたんだ？ヤツらはお前に触れちゃいないだろ、クソッ！</text>
+  </string>
+  <string id="jup_b202_bandit_pda">
+    <text>スルタンさん、この腐れウジ虫を捕まえたぞ！奴には俺から礼をしておいた！奴はもう俺たちに手を出そうとかって変な考えは起こさねえだろうよ！</text>
+  </string>
+  <string id="jup_b202_bandit_to_snag">
+    <text>スルタンさんがよろしくだとよ。さっさとくたばりな、カスが！</text>
+  </string>
+  <string id="jup_b202_snag_pda">
+    <text>あのクズ共に見つからない様、姿を隠さなければ！駅の裏手の下水道に隠した盗品は、今のところは見つからないだろう。奴らはもう俺を探しているに違いない。気の毒だが、俺を見つけることはできないだろうな。</text>
+  </string>
+  <string id="jup_b207_duty_guards_warning_actor">
+    <text>おい！さっさとここから離れろ！ここはDutyメンバー限定だ。</text>
+  </string>
+  <string id="jup_b207_duty_leader_about_depot">
+    <text>ガブリレンコ！倉庫について調べたい。そこにはFreedomに役立つものが沢山あるに違いない。お前の分隊全員を連れて行け、そうすればあのカス共のブツを素早く手に入れられるだろうよ。</text>
+  </string>
+  <string id="jup_b207_duty_leader_about_depot_after">
+    <text>もしこの調査が終われば、お前は倉庫の中に入れるようになるだろう。</text>
+  </string>
+  <string id="jup_b207_duty_security_squad_to_freedom_leave">
+    <text>Freedomに警告する！ここはDutyの縄張りだ。すぐにその倉庫から立ち去れ！</text>
+  </string>
+  <string id="jup_b207_duty_security_squad_to_freedom_start_attack">
+    <text>この野郎･･････！どうやら、ヤツらはこいつが欲しいようだ。諸君、攻撃開始！</text>
+  </string>
+  <string id="jup_b207_freedom_guards_warning_actor">
+    <text>ここは公共の場所じゃないぜ、ボウズ。そのままさっさと行っちまった方がベストだと思うがな。</text>
+  </string>
+  <string id="jup_b207_freedom_leader_about_depot">
+    <text>クレメン！部下を連れて倉庫でハイデュックと合流しろ。Dutyの奴らはすぐに荷物を取りに来るはずだ。</text>
+  </string>
+  <string id="jup_b207_freedom_leader_about_depot_after">
+    <text>いいね！これで奴らを撃退できる。俺は恩を忘れないから、あんたがいつでもスタッシュを使えるようにしておくよ。みんなにも知らせておく。</text>
+  </string>
+  <string id="jup_b207_freedom_recon_squad_refuse">
+    <text>いいとも！弾薬を仕入れるのに少し時間が必要だ。</text>
+  </string>
+  <string id="jup_b212_trapper_found_chimera">
+    <text>やあ、トラッパーだ。昨晩キメラを見たというハンターが来たんだ。説明から判断すると、我々が追っている奴と同じだ。できれば私に会いに来てくれないか。重要なことなんだ。</text>
+  </string>
+  <string id="jup_b217_stalker_guide_welcome">
+    <text>ここだよ。ヤノフ駅はジュピター周辺では比較的安全な避難所だ。ここで俺たちはそれぞれの道を歩むことになる。でもまあ、もし俺のことが必要になったらバーで探しな。</text>
+  </string>
+  <string id="jup_b217_stalker_tech_farewell_1">
+    <text>じゃあな！</text>
+  </string>
+  <string id="jup_b217_stalker_tech_farewell_2">
+    <text>またな！</text>
+  </string>
+  <string id="jup_b217_stalker_tech_greeting_1">
+    <text>やあ！</text>
+  </string>
+  <string id="jup_b217_stalker_tech_greeting_2">
+    <text>よう！</text>
+  </string>
+  <string id="jup_b217_stalker_tech_welcome">
+    <text>ここは初めてか？俺もまあまあ新入りだ。名前はニトロだ。装備品を扱う仕事をしてる。必要なものは何でも修理できるんだぜ。だが、良い道具を手に入れるのは難しい。何か見つけたら、すぐに俺のところに持ってきてくれ。技術的な助けが必要な場合は、俺に会いに来るといい。俺は喜んであんたのためにやってやるよ。</text>
+  </string>
+  <string id="jup_b219_actor_go">
+    <text>いいねえ。行け。</text>
+  </string>
+  <string id="jup_b219_actor_ready">
+    <text>みんないいか？開けろ。</text>
+  </string>
+  <string id="jup_b219_duty_ready">
+    <text>みんな？準備しろ！</text>
+  </string>
+  <string id="jup_b219_duty_to_tech">
+    <text>クリア！</text>
+  </string>
+  <string id="jup_b219_monolith_ready">
+    <text>まただ、用意。</text>
+  </string>
+  <string id="jup_b219_soldier_ready">
+    <text>嫌な予感がする。</text>
+  </string>
+  <string id="jup_b219_stalker_ready">
+    <text>準備完了！</text>
+  </string>
+  <string id="jup_b219_tech_damn">
+    <text>ガッ･･････！来い！</text>
+  </string>
+  <string id="jup_b219_tech_opening">
+    <text>了解。激しくいこうぜ！</text>
+  </string>
+  <string id="jup_b219_tech_ready">
+    <text>いいか？</text>
+  </string>
+  <string id="jup_b219_tech_success">
+    <text>これでいい！その方がいい。</text>
+  </string>
+  <string id="jup_b219_tech_to_duty">
+    <text>がんばれよ！</text>
+  </string>
+  <string id="jup_b220_trapper_farewell_1">
+    <text>がんばれよ！</text>
+  </string>
+  <string id="jup_b220_trapper_farewell_2">
+    <text>楽しい狩りを！</text>
+  </string>
+  <string id="jup_b220_trapper_greeting_1">
+    <text>よお！</text>
+  </string>
+  <string id="jup_b220_trapper_greeting_2">
+    <text>狩りの様子は？</text>
+  </string>
+  <string id="jup_b221_duty_main_1">
+    <text>「緑色のクズども」を蹴散らすために、最前線に送り込まれた勇敢なDuty分隊に乾杯しよう。</text>
+  </string>
+  <string id="jup_b221_duty_main_2">
+    <text>フリントの話はもうしたかな？最初にストーカーのハンターたちがキメラに襲わるように画策し、次に相棒をアノマリーで見殺しにして、Freedomに加わった。かなり論理的な結論が出ていると言えるだろう。だから、Freedomのメンバー全員が彼に従ってくれ、残された者は我々が面倒を見る、というという希望に乾杯しよう。</text>
+  </string>
+  <string id="jup_b221_duty_main_3">
+    <text>ゾーンの中心でも、Dutyに奉仕してくれる人がいるという事実に乾杯しよう。我々の新しい分隊たちよ！</text>
+  </string>
+  <string id="jup_b221_duty_main_4">
+    <text>この研究施設が、ミュータントや無政府主義者、その他のクズどもから、Dutyによって完全に守られているという事実に、俺はグラスを掲げる。</text>
+  </string>
+  <string id="jup_b221_duty_main_5">
+    <text>同志たちよ！科学の発展のために、ゾーンの最も危険な場所で測定を行っている、勇敢なボランティアたちに敬意を表して飲もう。</text>
+  </string>
+  <string id="jup_b221_duty_main_6">
+    <text>うす汚いチンピラたちの卑怯な攻撃を、勇気を持って退けたDutyの戦士たちに乾杯しよう。</text>
+  </string>
+  <string id="jup_b221_duty_reaction_1">
+    <text>その通りだ！</text>
+  </string>
+  <string id="jup_b221_duty_reaction_2">
+    <text>まったくだ！</text>
+  </string>
+  <string id="jup_b221_duty_reaction_3">
+    <text>よくぞ言ってくれた！</text>
+  </string>
+  <string id="jup_b221_duty_reaction_4">
+    <text>同意できないね。</text>
+  </string>
+  <string id="jup_b221_duty_reply_1">
+    <text>奴はもう死んでいる。なんならおまえら全員を同じ目にあわせるぞ。ゾーンの産物を外に持ち出すのはやめろ。</text>
+  </string>
+  <string id="jup_b221_duty_reply_2">
+    <text>誰も本当のことを知らない。その場に居合わせたわけでもないし。</text>
+  </string>
+  <string id="jup_b221_duty_reply_3">
+    <text>それはMonolithの連中で構成された分隊か？まあ、おまえにも自力でブラッドサッカーの集団を見つけてほしいもんだ。そうすれば、中佐は間違いなくおまえを危険なミュータントのリストに加えるだろうから。</text>
+  </string>
+  <string id="jup_b221_duty_reply_4">
+    <text>ハッ！？随分な護衛だな。去年はMercenaryたちに尻尾を掴まれてダークバレーを走り回らされたばかりだというのに。忘れたのか？</text>
+  </string>
+  <string id="jup_b221_duty_reply_5">
+    <text>そう、科学者たちが得ている測定値を想像できるのだ。空気のサンプル。100%の煙、100%の水。100%のウォッカ、そしていろんな奴らの馬鹿げた笑い声。</text>
+  </string>
+  <string id="jup_b221_duty_reply_6">
+    <text>それでいい。我々は武器を取り戻す。おまえらは我々の戦士に遭遇するたびに武器やアーティファクトを落とすという気の利いた習慣を身につけている。俺もおまえを責めやしない。漏らしたズボンやら何やら持っていくのは簡単じゃないだろう？</text>
+  </string>
+  <string id="jup_b221_freedom_main_1">
+    <text>おまえたち！Dutyがどのように伝統を守っているか聞いたことはあるか？モーガン准尉を例にとると、自分の派閥の評判を維持するために、倉庫のもの半分を安値で売り払うことが自分の「義務」だと考えていた。</text>
+  </string>
+  <string id="jup_b221_freedom_main_2">
+    <text>整列！覚えているか？Dutyの堅固な伝統は、タチェンコ将軍自身が築いたものだ。彼は仲間に嘘をつき、本部を欺き、スペースアノマリーの中で勇敢に死んだ。ここにいる、彼に従ったすべてのDutyのメンバーに乾杯。</text>
+  </string>
+  <string id="jup_b221_freedom_main_3">
+    <text>そういえば、初めて新しい分隊を見たとき、「同志諸君、君らが望むなら、代わりにDutyに参加してみるか？好きにしていいんだぞ」と聞いたところ、彼らは「いや、遠慮しとくよ。彼らの場合、命令がすべてだ。与えることが中心。彼らの目が虚ろなのは当然だ。ゾンビになるのはもうたくさんだ」と答えた。</text>
+  </string>
+  <string id="jup_b221_freedom_main_4">
+    <text>あるDutyのメンバーが我々の仲間のところにやってきた。移動研究所に入り、「教授、ボアと戦うにはどのアーティファクトが最適か教えてくれ。放射線から身を守る«レンチド»アーティファクトか、傷を癒す«アイ»アーティファクトか」と尋ねた。その答えは何だったと思う？「«シェル»アーティファクトは必要なものだよ、君たち。ボアを見つけたら、全力で基地に逃げ帰るんだ」だとさ、あはは！</text>
+  </string>
+  <string id="jup_b221_freedom_main_5">
+    <text>みんな、科学者たちがアノマリー測定のために俺たちの仲間を選んだ経緯を知っているかい？彼らはまずシュルガに会いに行って、「科学の発展のために必要な仕事がある」と言ったんだ。すると、彼は「問題ない。誰を始末すればいいんだ？」と言った。</text>
+  </string>
+  <string id="jup_b221_freedom_main_6">
+    <text>日を追うごとに、Dutyの必要性が明らかになってきたな。武器や弾薬を倉庫ごと集めて、それをFreedomに寄付する奴が他にいるだろうか？奴らは本当に親切だと思わないか？</text>
+  </string>
+  <string id="jup_b221_freedom_reaction_1">
+    <text>［笑い］</text>
+  </string>
+  <string id="jup_b221_freedom_reaction_2">
+    <text>［笑い］</text>
+  </string>
+  <string id="jup_b221_freedom_reaction_3">
+    <text>［笑い］</text>
+  </string>
+  <string id="jup_b221_freedom_reaction_4">
+    <text>［笑い］</text>
+  </string>
+  <string id="jup_b221_freedom_reply_1">
+    <text>そうか？覚えているのは、おまえの勇敢な分隊がエミッション前にヤノフに近付こうとして、膝をついて這いつくばっていたことだな。</text>
+  </string>
+  <string id="jup_b221_freedom_reply_2">
+    <text>誰もが持っているものだ。Dutyというのは偽善者にとって本当の天国だ。「ゾーンから世界を守るんだ」と、いくつかのアーティファクトを集めた直後に言うんだぜ。</text>
+  </string>
+  <string id="jup_b221_freedom_reply_3">
+    <text>良い取引ができた。狂信者は狂信者のままがいい。おまえもMonolithのユニフォームを着るべきだ。ストーカーたちに人間と勘違いされないように。</text>
+  </string>
+  <string id="jup_b221_freedom_reply_4">
+    <text>ミュータントから？ミュータントが大挙して押し寄せてきたときに、あの移動研究所に十分なスペースがあると思っているのか？100ラッズ・バーとは違うんだぞ。あそこに閉じこもってただ待つことなんてできやしない。</text>
+  </string>
+  <string id="jup_b221_freedom_reply_5">
+    <text>ボランティアの連中もおまえと同じくらい飲んでいるとしたら、科学者たちがしている調査ってのも想像に難くないな。</text>
+  </string>
+  <string id="jup_b221_freedom_reply_6">
+    <text>そう、その通りだ。できるだけ多くの護衛を連れてきてくれ。今、ゾーンの半分の連中がおまえの装備倉庫のことを知っているから、訪問者を予想してみろ。</text>
+  </string>
+  <string id="jup_b25_revage_senya">
+    <text>待て･･････！探せ！最悪の事態はこれからだ･･････ ああ･･････</text>
+  </string>
+  <string id="jup_b25_story_artefact">
+    <text>先日、俺がこのアーティファクトを手に入れた時の様子を見るべきだったな。あれは何だったんだろう。採石場について何か知っているか？まあね。昔のまともな物はとっくに無くなってる。フリントが見たというアノマリーを探しても意味がないぜ。誰でも知ってることだ。</text>
+  </string>
+  <string id="jup_b25_story_bloodsucker">
+    <text>ブラッドサッカーについての話をすべて語ろう。俺がザトンにいたとき、あの野郎どもはみんなの生活を苦しめていた。ストーカーが昼夜を問わず監視していたが、少しも役に立たなかった。哀れな出来損ないだ。ある日、俺は彼らを助けることにした。ショットガンを持ってブラッドサッカーの巣に直行した。3日間、俺はあのクソ野郎どもとパーティーをし、時には2体、3体を一度に相手にした。充実した時間を過ごした結果、ザトンのブラインドドッグ問題はほぼ解決した。あいつらは常に触手を隠している。</text>
+  </string>
+  <string id="jup_b25_story_controller">
+    <text>いいだろう、コントローラーの殺し方を教えよう。先日、偶然にも大量のアーティファクトを見つけた俺は、腰が痛くなってしまったので、途中でそれらを隠しておくことにした。帰り道、隠した場所に行くと、そこにはコントローラーがいて、その上で冷たくなっていた。コントローラーがいてもいなくても、俺は自分を取り戻さなければならない」と心の中で思った。そして、何かを盾にすれば、その操り人形のような何かは俺には通用しないことに気がついたんだ。そこで、転がっていた金属製の格子を拾って、獣に忍び寄り始めた。獣が目を覚ます頃には、俺は鉄格子をチンポコの頭に突き刺していた。自身を制御しようとした瞬間、俺はライフルの銃床で最後の一撃を食らわせ、それで終わらせた。</text>
+  </string>
+  <string id="jup_b25_story_first_reac_1">
+    <text>ああ！それはいい話だな、フリント。</text>
+  </string>
+  <string id="jup_b25_story_first_reac_2">
+    <text>フリントは本物の男だ、間違いない。</text>
+  </string>
+  <string id="jup_b25_story_first_reac_3">
+    <text>やあ、悪くないぜ。</text>
+  </string>
+  <string id="jup_b25_story_guide">
+    <text>さて、ザトンからの道のりについては知っていると思うが･･････ 知らない？昔のガイドは大回りしていたんだ。俺は直線を横切ることで近道を作ったんだが、斬新なアイデアだぜ。いくつかの場所を試してみたら、アノマリーを通る方法がすぐにわかったんだ。それで、その情報をガイド役に売って、今では誰でもその道を通るようになったのさ。</text>
+  </string>
+  <string id="jup_b25_story_oasis">
+    <text>「オアシス」について聞いたことはあるか？もちろん聞いたことあるだろう。俺は実際にそこに行ったことがある。俺はそこへ行く方法を最初に見つけ出した、いわば開拓者だ。そこには、ミュータントもいなければ、アノマリーもない。墓場のように静かで、アーティファクトであふれている。数日前に行ったばかりだよ。日曜日だ、知ってるか･･････ そこにあんたを案内しろだと？ハッ！悪いけど、混むと困るんだ。悪気はないんだがな。</text>
+  </string>
+  <string id="jup_b25_story_scientist">
+    <text>さて、俺はたくさんの話をしてきた。科学者のために働いていた時の話はしたかな？ある日、俺は彼らの移動研究所に行ってみた。最初はみんなショックを受けていました。でも、「君は今、我々が必要としている人材だ」と言ってくれたんだ。彼らはアノマリーの元で装置を設置したいと考えていたことがわかった。明らかに頭脳派の彼ら自分ではやりたくないと思っていて、俺に現金やその他のグッズを約束してくれた。俺は「それはいいけど、そのグッズは価値のあるものにしてくれよ！」と思った。俺はその地域を這いずり回ってアノマリーを探さなければならなかったが、オタクたちに報酬金の半分を出させることに比べれば、大した苦労ではなかった。</text>
+  </string>
+  <string id="jup_b25_story_second_reac_1">
+    <text>かっこいい物語だな！</text>
+  </string>
+  <string id="jup_b25_story_second_reac_2">
+    <text>やあ！</text>
+  </string>
+  <string id="jup_b25_story_second_reac_3">
+    <text>わお！</text>
+  </string>
+  <string id="jup_b25_story_zaton">
+    <text>フリントが嘘を言っていると思っている奴も少なからずいるだろう。基地の誰にでも、俺のことを聞けばいい。プロのハンター分隊も、先日俺を見かけたときには、「君が必要なんだ、フリント。君なしではやっていけない」と言っていた。彼らはキメラ狩っていたから、俺はプロたちにそのやり方を見せてやらなきゃならなかった。俺のやり方は実にシンプルだ。隠れ家にまっすぐ向かうだけだ。入り口には新人がひとりいて、見張っていてくれた。もちろん、朝になると、新人は獣を見るや否や、パンツを脱ぎ捨てて逃げ出したから、俺が対処することになった。うまくいったのは、見ての通りだ、へっへっへ･･････</text>
+  </string>
+  <string id="jup_b4_duty_squad_leader_align">
+    <text>整列！</text>
+  </string>
+  <string id="jup_b4_duty_squad_leader_align_line">
+    <text>一列に並べ、今すぐだ！</text>
+  </string>
+  <string id="jup_b4_duty_squad_leader_final">
+    <text>Dutyへの加入おめでとう。ついてこい！左、右、左、右･･････</text>
+  </string>
+  <string id="jup_b4_duty_squad_leader_praise">
+    <text>ほらな。やろうと思えばできるんだよ。誓いを立てる時だ。</text>
+  </string>
+  <string id="jup_b4_duty_squad_leader_speech">
+    <text>勇気と誠実さをもってDutyに仕え、ゾーンの侵略から人類を守り、常に派閥のルールを守ることを誓うか？</text>
+  </string>
+  <string id="jup_b4_freedom_squad_leader_any_questions">
+    <text>で、何か質問は？</text>
+  </string>
+  <string id="jup_b4_freedom_squad_leader_lets_talk">
+    <text>何のために立っているんだ？座って話そうや。</text>
+  </string>
+  <string id="jup_b4_freedom_squad_leader_reply">
+    <text>俺たちに厳格な序列はない。俺たちの尊敬を集めれば、たくさんの支持者を得ることができる。しかし、任務中は上官の命令に間違いなく従う。</text>
+  </string>
+  <string id="jup_b4_freedom_squad_leader_speech">
+    <text>俺たちは、同じメンバーや他のストーカーの自由を尊重し、ゾーンはすべての人に開かれていると信じている。それは人類にとってかつてないほどの最高の贈り物であるということ。俺たちの発展を飛躍させるチャンスであり、誰もがそれを理解する必要がある。</text>
+  </string>
+  <string id="jup_b4_freedom_squad_leader_welcome_to_freedom">
+    <text>さあ、ようこそFreedomへ！</text>
+  </string>
+  <string id="jup_b4_monolith_1_ask_to_freedom">
+    <text>誰が俺たちを指揮するんだ？</text>
+  </string>
+  <string id="jup_b4_monolith_squad_leader_meet">
+    <text>ストーカー！こっちに来ないか？</text>
+  </string>
+  <string id="jup_b4_monolith_talk_to_commander_1">
+    <text>ストライダーと話したほうがいいな。</text>
+  </string>
+  <string id="jup_b4_monolith_talk_to_commander_2">
+    <text>あんたが話すべき相手はストライダーだ。</text>
+  </string>
+  <string id="jup_b4_monolith_talking_1_1">
+    <text>一日中座っていても、何も始まらねえぞ。</text>
+  </string>
+  <string id="jup_b4_monolith_talking_1_2">
+    <text>この辺りはミュータントしかいない。</text>
+  </string>
+  <string id="jup_b4_monolith_talking_1_3">
+    <text>それで、どこに行くんだ？</text>
+  </string>
+  <string id="jup_b4_monolith_talking_5_1">
+    <text>まずは、自分がどこにいるのかを把握することが大切だ。</text>
+  </string>
+  <string id="jup_b4_monolith_talking_5_2">
+    <text>人を探さなければならない。</text>
+  </string>
+  <string id="jup_b4_monolith_talking_5_3">
+    <text>何をやってもダメなんだよ。</text>
+  </string>
+  <string id="jup_b4_recruit_1_cool_freedom">
+    <text>クールだな！</text>
+  </string>
+  <string id="jup_b4_recruit_1_serve_duty">
+    <text>俺たちは誓う！</text>
+  </string>
+  <string id="jup_b4_recruit_2_cool_freedom">
+    <text>すばらしい！それが必要なんだ。</text>
+  </string>
+  <string id="jup_b4_recruit_2_serve_duty">
+    <text>俺たちは誓う！</text>
+  </string>
+  <string id="jup_b41_base_alarm">
+    <text>注目！注目！こちらはヘルマン。科学研究所が攻撃されている。当分の間、ストーカーの出入りを許可しない。</text>
+  </string>
+  <string id="jup_b41_base_relax">
+    <text>注目！注目！こちらはヘルマン。我々の移動研究所は再びストーカーに開放された。</text>
+  </string>
+  <string id="jup_b41_bunker_megaphone_1">
+    <text>ストーカー！君に警告するが、武器を持って移動研究所に入ることは厳禁だ。</text>
+  </string>
+  <string id="jup_b41_bunker_megaphone_2">
+    <text>ストーカー！移動研究所の入り口で、武器を納めるんだ。</text>
+  </string>
+  <string id="jup_b41_bunker_megaphone_3">
+    <text>聞こえないのか？武器を納めるんだ！</text>
+  </string>
+  <string id="jup_b46_duty_founder_pda_diary">
+    <text>どの道を通っても、いつも同じ場所にたどり着く。いまだにこの霧には慣れない。チェプルノイが跡形もなく消えたのは不思議だ。もしかしたら、出口を見つけたのかもしれない･･････ 6日目、水が足りなくなった。大佐は手のひらを返したように2人を至近距離から撃ち、そして自分自身も撃った。このクソったれアノマリーの中で、俺はひとりで行動している。俺が本部との通信を遮断しなければ、彼らは俺たちを救出できただろう。そして、Dutyは存在しなかっただろう。どうなっていたんだろう･･････ ああ、もうだめだ。あのタチェンコ将軍はとっくの昔に死んでいる。そして、Dutyのタチェンコ将軍は彼の後を追うことになるだろう。それが･･････ 正義だと思う。</text>
+  </string>
+  <string id="jup_b46_spatial_bubble_sos_1">
+    <text>･･････出口を見つけろ。助けてくれ！･･････が足りない。</text>
+  </string>
+  <string id="jup_b46_spatial_bubble_sos_2">
+    <text>･･････かなり長い。2日前から水が尽きた。救助隊を要請する！助け･･････</text>
+  </string>
+  <string id="jup_b46_spatial_bubble_sos_3">
+    <text>･･････すぐに助けが必要だ！俺たちはもう3日以上は持たな･･････</text>
+  </string>
+  <string id="jup_b47_merc_leader_regret">
+    <text>こんなところに来るんじゃなかったな、ストーカー！今度は虫の餌にでもなりな。</text>
+  </string>
+  <string id="jup_b6_scientist_biochemist_farewell_1">
+    <text>じゃあまたな！</text>
+  </string>
+  <string id="jup_b6_scientist_biochemist_farewell_2">
+    <text>近いうちにまた来る！</text>
+  </string>
+  <string id="jup_b6_scientist_biochemist_greeting_1">
+    <text>こんにちは。我々の移動研究所で新顔を見るのはいつも嬉しいものだ。</text>
+  </string>
+  <string id="jup_b6_scientist_biochemist_greeting_2">
+    <text>おう、こんにちは！</text>
+  </string>
+  <string id="jup_b6_scientist_medic_farewell_1">
+    <text>幸運を！</text>
+  </string>
+  <string id="jup_b6_scientist_medic_farewell_2">
+    <text>バイバイ！</text>
+  </string>
+  <string id="jup_b6_scientist_medic_greeting_1">
+    <text>こんにちは！</text>
+  </string>
+  <string id="jup_b6_scientist_medic_greeting_2">
+    <text>やあ！</text>
+  </string>
+  <string id="jup_b6_scientist_nuclear_physicist_farewell_1">
+    <text>忙しい中、ありがとう。</text>
+  </string>
+  <string id="jup_b6_scientist_nuclear_physicist_farewell_2">
+    <text>これで全部か？なら、さよならだ。</text>
+  </string>
+  <string id="jup_b6_scientist_nuclear_physicist_greeting_1">
+    <text>えー･･････ なるほど、また来てくれ。何か用はあるか？</text>
+  </string>
+  <string id="jup_b6_scientist_nuclear_physicist_greeting_2">
+    <text>そうだ、俺はおまえに注目している。</text>
+  </string>
+  <string id="jup_b6_stalker_1_first_measurement_begin">
+    <text>よし、早くやろう。早く終われば、それだけ生き延びるチャンスが増える。</text>
+  </string>
+  <string id="jup_b6_stalker_1_first_measurement_done">
+    <text>アルファ線、ベータ線、ガンマ線の測定を行った。</text>
+  </string>
+  <string id="jup_b6_stalker_1_first_measurement_in_progress">
+    <text>測定中！</text>
+  </string>
+  <string id="jup_b6_stalker_1_fourth_measurement_done">
+    <text>ねじれフィールドのスキャンを完了した。</text>
+  </string>
+  <string id="jup_b6_stalker_1_fourth_measurement_in_progress">
+    <text>もうすぐだ。ねじれフィールドのスキャンはほぼ完了。</text>
+  </string>
+  <string id="jup_b6_stalker_1_measurements_done">
+    <text>これで終わりだ、ストーカー。さあ、ここから出て行こう！</text>
+  </string>
+  <string id="jup_b6_stalker_1_monsters_coming_1">
+    <text>なあ、俺たちを援護してくれないか？</text>
+  </string>
+  <string id="jup_b6_stalker_1_monsters_coming_2">
+    <text>本物だ、ストーカー！援護しろ！</text>
+  </string>
+  <string id="jup_b6_stalker_1_monsters_coming_3">
+    <text>よお！何してんだ？</text>
+  </string>
+  <string id="jup_b6_stalker_1_monsters_coming_4">
+    <text>ストーカー！ここだ！助けてくれ！</text>
+  </string>
+  <string id="jup_b6_stalker_1_monsters_coming_5">
+    <text>ストーカー！こんなこところで何をしているんだ？</text>
+  </string>
+  <string id="jup_b6_stalker_1_monsters_coming_6">
+    <text>奴らが攻撃してきている！ストーカー、何を･･････</text>
+  </string>
+  <string id="jup_b6_stalker_1_second_measurement_done">
+    <text>電磁場スキャン完了。</text>
+  </string>
+  <string id="jup_b6_stalker_1_second_measurement_in_progress">
+    <text>電磁場スキャン進行中。</text>
+  </string>
+  <string id="jup_b6_stalker_1_third_measurement_done">
+    <text>全帯域の音響データを取得。</text>
+  </string>
+  <string id="jup_b6_stalker_1_third_measurement_in_progress">
+    <text>これまでに2つの帯域で音響データを収集。</text>
+  </string>
+  <string id="jup_b9_blackbox_records">
+    <text>スティングレイ4、応答しろ！応答しろ、だめだ！スティングレイ4、聞こえるか？･･････スティングレイ分隊！こちらスティングレイ1。緊急避難位置はB28だ。繰り返す、B28だ！</text>
+  </string>
+  <string id="jup_b9_heli_1_blackbox">
+    <text>死体が2つ･･････ 墜落事故で亡くなったようだ･･････ 価値のあるものはすべて略奪され、搭載されていたコンピュータは完全に消去されている。しかし、ブラックボックスは無傷のままだ･･････ 興味深いね･･････ 腕のいい技術者なら、情報を取り出して解読できるだろう。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_control_gates_1">
+    <text>塞がれていて、ボタンがない。この問題を解決するためには、誰かが制御室に行かなければならないと思う。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_cover_1">
+    <text>俺はここで待機して、みんなの後方をカバーする、いいか？</text>
+  </string>
+  <string id="pas_b400_sokolov_about_dome_1">
+    <text>くそー、やっぱりここに来るべきではなかった。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_door_1">
+    <text>ここで立ち止まっていても意味がないのは確かだ。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_elevator_1">
+    <text>最高だ！本当すごいよ！</text>
+  </string>
+  <string id="pas_b400_sokolov_about_exit_1">
+    <text>俺の直感では成功だと思う。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_gates">
+    <text>では、ボタンを押してみてはどうか？</text>
+  </string>
+  <string id="pas_b400_sokolov_about_railway_1">
+    <text>いいね！扉には電力が供給されていないけどな。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_sniper_first_1">
+    <text>気をつけろ！ここは何かおかしい。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_snorks_1">
+    <text>うわー！</text>
+  </string>
+  <string id="pas_b400_sokolov_about_snorks_2">
+    <text>クソ！</text>
+  </string>
+  <string id="pas_b400_sokolov_about_snorks_3">
+    <text>まったく、飽きさせないもんだな。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_train_1">
+    <text>うーん･･････ 何か違和感がある。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_train_gates_1">
+    <text>うーん･･････ ここも何かがおかしい。</text>
+  </string>
+  <string id="pas_b400_sokolov_about_transformer_1">
+    <text>おい、それは気をつけろよ、いいな？</text>
+  </string>
+  <string id="pas_b400_sokolov_about_tushkano_1">
+    <text>奇妙な感じがして、いい気分ではないな。</text>
+  </string>
+  <string id="pas_b400_sokolov_come_back_1">
+    <text>なあ！俺たち動くのか？それともどうする？</text>
+  </string>
+  <string id="pas_b400_sokolov_idle_1">
+    <text>なぜ俺はこんなことに足を踏み入れてしまったのか？</text>
+  </string>
+  <string id="pas_b400_sokolov_idle_2">
+    <text>こんなところにいていいのか？早くここから出たい。</text>
+  </string>
+  <string id="pas_b400_sokolov_idle_3">
+    <text>信じられない話だ。「心配いらない、操縦は簡単だよ」何てこった！</text>
+  </string>
+  <string id="pas_b400_sokolov_no_meet_1">
+    <text>静かに！静かにしてろ！</text>
+  </string>
+  <string id="pas_b400_sokolov_no_meet_2">
+    <text>ここを出てから話そうぜ。</text>
+  </string>
+  <string id="pas_b400_sokolov_no_meet_3">
+    <text>そんなこと話してる場合じゃねえだろ。</text>
+  </string>
+  <string id="pas_b400_sokolov_on_actor_assault_1">
+    <text>正気か？</text>
+  </string>
+  <string id="pas_b400_sokolov_on_actor_hit_1">
+    <text>おっと･･････ 見てろよ、バカヤロー！</text>
+  </string>
+  <string id="pas_b400_sokolov_on_actor_hit_2">
+    <text>ああ･･････ やめろ！おまえは俺を撃っているぞ！</text>
+  </string>
+  <string id="pas_b400_sokolov_on_actor_hit_3">
+    <text>うっ･･････ 糞サイコ野郎！</text>
+  </string>
+  <string id="pas_b400_sokolov_on_death_1">
+    <text>［ソコロフが死んだ］</text>
+  </string>
+  <string id="pas_b400_sokolov_on_enemy_assault_vano_1">
+    <text>［ヴァノが死んだ］</text>
+  </string>
+  <string id="pas_b400_sokolov_on_enemy_assault_wanderer_1">
+    <text>［ストライダーが殺された］</text>
+  </string>
+  <string id="pas_b400_sokolov_on_enemy_assault_zulus_1">
+    <text>［ズールーが死んだ］</text>
+  </string>
+  <string id="pas_b400_sokolov_on_enemy_hit_1">
+    <text>［ソコロフが負傷］</text>
+  </string>
+  <string id="pas_b400_sokolov_on_enemy_hit_2">
+    <text>［ソコロフが負傷］</text>
+  </string>
+  <string id="pas_b400_sokolov_on_enemy_hit_3">
+    <text>［ソコロフが負傷］</text>
+  </string>
+  <string id="pas_b400_sokolov_wait_for_me_1">
+    <text>おい、戻って来い！危ないぞ。</text>
+  </string>
+  <string id="pas_b400_vano_about_anomaly_first_1">
+    <text>おお、ここにもアノマリーだ。</text>
+  </string>
+  <string id="pas_b400_vano_about_anomaly_first_2">
+    <text>どれどれ、これを通り抜ける方法があるかどうか。</text>
+  </string>
+  <string id="pas_b400_vano_about_anomaly_first_3">
+    <text>来い！抜ける道を見つけたぞ。</text>
+  </string>
+  <string id="pas_b400_vano_about_anomaly_second_1">
+    <text>違うアノマリーだ。どれどれ。</text>
+  </string>
+  <string id="pas_b400_vano_about_anomaly_second_2">
+    <text>フム･･････ この道を一度行けば、それが最後になるかもしれないな。</text>
+  </string>
+  <string id="pas_b400_vano_about_anomaly_second_3">
+    <text>よし、ここには抜け道がある。命取りにならない場所につながっていることを祈ろう。</text>
+  </string>
+  <string id="pas_b400_vano_about_anomaly_third_1">
+    <text>いいだろう、動こう。</text>
+  </string>
+  <string id="pas_b400_vano_about_control_gates_1">
+    <text>そうか･･････ 扉が塞がれているのか。うーん･･････ どうだろうな･･････ 制御室から開けられるのでは？</text>
+  </string>
+  <string id="pas_b400_vano_about_cover_1">
+    <text>走り続けろ、相棒！おまえの後ろは俺がカバーする。心配するな。</text>
+  </string>
+  <string id="pas_b400_vano_about_dome_1">
+    <text>さて、俺はというと･･････ きれいだね！</text>
+  </string>
+  <string id="pas_b400_vano_about_door_1">
+    <text>あそこのドアが開いている。そっちに行こうか？</text>
+  </string>
+  <string id="pas_b400_vano_about_gates">
+    <text>見ろよ！ボタンか何かを押せばいいんだろ、なあ？</text>
+  </string>
+  <string id="pas_b400_vano_about_railway_1">
+    <text>停電になってしまった、ハァハァ･･････</text>
+  </string>
+  <string id="pas_b400_vano_about_room_closed">
+    <text>おい、そこには行くなよ！閉鎖されてるぞ。</text>
+  </string>
+  <string id="pas_b400_vano_about_room_open">
+    <text>見ろ！今開くぞ。</text>
+  </string>
+  <string id="pas_b400_vano_about_sniper_first_1">
+    <text>銃口の火花を右･･････ えっと･･････ つまり、左だ。</text>
+  </string>
+  <string id="pas_b400_vano_about_snorks_1">
+    <text>いいねえ、奴ら全員死んでるぜ。</text>
+  </string>
+  <string id="pas_b400_vano_about_transformer_1">
+    <text>いいか、こいつにはレバーがあって、それを使ってこいつを動かすことができるはずだ。</text>
+  </string>
+  <string id="pas_b400_vano_about_underpass">
+    <text>さあ、いくぜ？</text>
+  </string>
+  <string id="pas_b400_vano_come_back_1">
+    <text>おい！時間を無駄にするのはやめよう。長引くと俺たちも疲れちまう。</text>
+  </string>
+  <string id="pas_b400_vano_idle_1">
+    <text>ここも悪くないんじゃないかな･･････ と思っちまってる。</text>
+  </string>
+  <string id="pas_b400_vano_idle_2">
+    <text>素晴らしい友がそばにいれば、こんな状況も悪くないな。</text>
+  </string>
+  <string id="pas_b400_vano_idle_3">
+    <text>あんたについていくことにしてよかった。他にこんな場所はお目にかかれないだろうしな？</text>
+  </string>
+  <string id="pas_b400_vano_no_meet_1">
+    <text>終わってから話そうぜ、相棒。</text>
+  </string>
+  <string id="pas_b400_vano_no_meet_2">
+    <text>聞け、今はおしゃべりしている場合じゃねえ。</text>
+  </string>
+  <string id="pas_b400_vano_no_meet_3">
+    <text>正直に言おう。ここは話すべき時でも場所でもない。</text>
+  </string>
+  <string id="pas_b400_vano_on_actor_assault_1">
+    <text>なんだよ･･････ この野郎！</text>
+  </string>
+  <string id="pas_b400_vano_on_actor_hit_1">
+    <text>なぜだ、お前？なんでだよ？･･････</text>
+  </string>
+  <string id="pas_b400_vano_on_actor_hit_2">
+    <text>俺は敵じゃないぜ、おい！</text>
+  </string>
+  <string id="pas_b400_vano_on_actor_hit_3">
+    <text>とどめだ！</text>
+  </string>
+  <string id="pas_b400_vano_on_death_1">
+    <text>［ヴァノが死んだ］</text>
+  </string>
+  <string id="pas_b400_vano_on_enemy_assault_sokolov_1">
+    <text>［ソコロフが死んだ］</text>
+  </string>
+  <string id="pas_b400_vano_on_enemy_assault_wanderer_1">
+    <text>［ストライダーが殺された］</text>
+  </string>
+  <string id="pas_b400_vano_on_enemy_assault_zulus_1">
+    <text>［ズールーが死んだ］</text>
+  </string>
+  <string id="pas_b400_vano_on_enemy_hit_1">
+    <text>［ヴァノが負傷］</text>
+  </string>
+  <string id="pas_b400_vano_on_enemy_hit_2">
+    <text>［ヴァノが負傷］</text>
+  </string>
+  <string id="pas_b400_vano_on_enemy_hit_3">
+    <text>［ヴァノが負傷］</text>
+  </string>
+  <string id="pas_b400_vano_wait_for_me_1">
+    <text>おい、お前！どこに行くんだ？一緒に頑張ろうぜ！</text>
+  </string>
+  <string id="pas_b400_wanderer_about_control_gates_1">
+    <text>扉は塞がれている。俺があんただったら、制御室を見てみるだろうな。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_cover_1">
+    <text>俺はここでお前を援護しよう。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_door_1">
+    <text>ドアは開いている。進むかい？</text>
+  </string>
+  <string id="pas_b400_wanderer_about_gates">
+    <text>お前がボタンを押してくれ。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_monolith_1">
+    <text>俺たちは外に出ておく。行こうぜ！</text>
+  </string>
+  <string id="pas_b400_wanderer_about_railway_1">
+    <text>扉に電源が供給されていないようだ。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_sniper_first_1">
+    <text>奴は俺の獲物だ。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_sniper_first_2">
+    <text>奴ら、焼けてるな。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_snorks_1">
+    <text>この出来損ないのクソ野郎共は片付けてやる。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_transformer_1">
+    <text>変圧器だ。子供の頃を思い出す。</text>
+  </string>
+  <string id="pas_b400_wanderer_about_underpass">
+    <text>いこうぜ！</text>
+  </string>
+  <string id="pas_b400_wanderer_come_back_1">
+    <text>ここはのんびりするのに適した場所ではないな、進もうぜ！</text>
+  </string>
+  <string id="pas_b400_wanderer_idle_1">
+    <text>静かだ。とても静かだ。</text>
+  </string>
+  <string id="pas_b400_wanderer_idle_2">
+    <text>ある時期にここに来ていたかもしれない。確信はないが。</text>
+  </string>
+  <string id="pas_b400_wanderer_idle_3">
+    <text>変だな･･････ この場所のすべてが変だ。</text>
+  </string>
+  <string id="pas_b400_wanderer_no_meet_1">
+    <text>黙っててくれよ！</text>
+  </string>
+  <string id="pas_b400_wanderer_no_meet_2">
+    <text>落ち着けよ、なあ。</text>
+  </string>
+  <string id="pas_b400_wanderer_no_meet_3">
+    <text>話す気分じゃない。</text>
+  </string>
+  <string id="pas_b400_wanderer_on_actor_assault_1">
+    <text>裏切り者！</text>
+  </string>
+  <string id="pas_b400_wanderer_on_actor_hit_1">
+    <text>うーん、それは･･････ 余計なお世話だ。</text>
+  </string>
+  <string id="pas_b400_wanderer_on_actor_hit_2">
+    <text>今すぐやめたほうがいい！</text>
+  </string>
+  <string id="pas_b400_wanderer_on_actor_hit_3">
+    <text>警告しただろう？</text>
+  </string>
+  <string id="pas_b400_wanderer_on_death_1">
+    <text>［ストライダーが死んだ］</text>
+  </string>
+  <string id="pas_b400_wanderer_on_enemy_assault_sokolov_1">
+    <text>ソコロフが死んだ</text>
+  </string>
+  <string id="pas_b400_wanderer_on_enemy_assault_vano_1">
+    <text>ヴァノが死んだ</text>
+  </string>
+  <string id="pas_b400_wanderer_on_enemy_assault_zulus_1">
+    <text>ズールーが殺された</text>
+  </string>
+  <string id="pas_b400_wanderer_on_enemy_hit_1">
+    <text>［ストライダーが負傷］</text>
+  </string>
+  <string id="pas_b400_wanderer_on_enemy_hit_2">
+    <text>［ストライダーが負傷］</text>
+  </string>
+  <string id="pas_b400_wanderer_on_enemy_hit_3">
+    <text>［ストライダーが負傷］</text>
+  </string>
+  <string id="pas_b400_wanderer_wait_for_me_1">
+    <text>先を急ぐ必要はない！ここでは、みんなで協力し合うのが一番だ。</text>
+  </string>
+  <string id="pas_b400_zulus_about_control_gates_1">
+    <text>扉が塞がれていて、ここにはボタンがない。誰か制御室に行って、何か助けになるものがないか見てきてくれないか？</text>
+  </string>
+  <string id="pas_b400_zulus_about_cover_1">
+    <text>そのまま進め、兄弟！俺はおまえの背中を守る。</text>
+  </string>
+  <string id="pas_b400_zulus_about_door_1">
+    <text>さて、道は開けた。行こう！</text>
+  </string>
+  <string id="pas_b400_zulus_about_exit_1">
+    <text>我々はプリピャチの真下にいるようだ。</text>
+  </string>
+  <string id="pas_b400_zulus_about_gates">
+    <text>ボタンを押せ、兄弟！</text>
+  </string>
+  <string id="pas_b400_zulus_about_monolith_1">
+    <text>戻れ、早く！</text>
+  </string>
+  <string id="pas_b400_zulus_about_monolith_2">
+    <text>こん畜生！</text>
+  </string>
+  <string id="pas_b400_zulus_about_obstacle_1">
+    <text>ふむ･･････ どうやら直行する経路は無理のようだな。</text>
+  </string>
+  <string id="pas_b400_zulus_about_obstacle_2">
+    <text>安心しろ。真の男はよく裏道を使うんだぜ。</text>
+  </string>
+  <string id="pas_b400_zulus_about_outfits_1">
+    <text>まあ、少なくとも防護スーツは使えるだろう。</text>
+  </string>
+  <string id="pas_b400_zulus_about_railway_1">
+    <text>フム･･････ 扉の電源が切れている。</text>
+  </string>
+  <string id="pas_b400_zulus_about_sniper_first_1">
+    <text>スナイパー！</text>
+  </string>
+  <string id="pas_b400_zulus_about_snorks_1">
+    <text>落ち着け。う･･････ 撃て！</text>
+  </string>
+  <string id="pas_b400_zulus_about_train_gates_1">
+    <text>さて、兄弟よ･･････ 楽しもうぜ！</text>
+  </string>
+  <string id="pas_b400_zulus_about_train_gates_2">
+    <text>最大の厄介ごと、眠るような死。</text>
+  </string>
+  <string id="pas_b400_zulus_about_transformer_1">
+    <text>これは変圧器のようだ。すべての回線が起動したのか。</text>
+  </string>
+  <string id="pas_b400_zulus_about_underpass">
+    <text>動け！</text>
+  </string>
+  <string id="pas_b400_zulus_come_back_1">
+    <text>頑張れ、兄弟！前に進み続けるしかない。</text>
+  </string>
+  <string id="pas_b400_zulus_idle_1">
+    <text>なんて場所なんだ。</text>
+  </string>
+  <string id="pas_b400_zulus_idle_2">
+    <text>なんてことだ。うちの基地では、こんなことをしたらケツを蹴られる。</text>
+  </string>
+  <string id="pas_b400_zulus_idle_3">
+    <text>ここは南国の砂浜じゃないぜ、そいつだけは確かだ。</text>
+  </string>
+  <string id="pas_b400_zulus_no_meet_1">
+    <text>談笑している場合じゃねえぞ、兄弟。</text>
+  </string>
+  <string id="pas_b400_zulus_no_meet_2">
+    <text>これが終わったら話そう。</text>
+  </string>
+  <string id="pas_b400_zulus_no_meet_3">
+    <text>そのおしゃべりをやめて、集中しろ！</text>
+  </string>
+  <string id="pas_b400_zulus_on_actor_assault_1">
+    <text>おい、奴は俺の友たちだったんだ！</text>
+  </string>
+  <string id="pas_b400_zulus_on_actor_hit_1">
+    <text>うっ！？いったい何をしているんだ！？</text>
+  </string>
+  <string id="pas_b400_zulus_on_actor_hit_2">
+    <text>あう！おい、やめろ！</text>
+  </string>
+  <string id="pas_b400_zulus_on_actor_hit_3">
+    <text>うう！おい、そんなの我慢できねえよ！</text>
+  </string>
+  <string id="pas_b400_zulus_on_death_1">
+    <text>［ズールーが死んだ］</text>
+  </string>
+  <string id="pas_b400_zulus_on_enemy_assault_sokolov_1">
+    <text>ソコロフが倒れた！</text>
+  </string>
+  <string id="pas_b400_zulus_on_enemy_assault_vano_1">
+    <text>ヴァノが倒れた！</text>
+  </string>
+  <string id="pas_b400_zulus_on_enemy_assault_wanderer_1">
+    <text>ストライダーが倒れた！</text>
+  </string>
+  <string id="pas_b400_zulus_on_enemy_hit_1">
+    <text>［ズールーが負傷］</text>
+  </string>
+  <string id="pas_b400_zulus_on_enemy_hit_2">
+    <text>［ズールーが負傷］</text>
+  </string>
+  <string id="pas_b400_zulus_on_enemy_hit_3">
+    <text>［ズールーが負傷］</text>
+  </string>
+  <string id="pas_b400_zulus_wait_for_me_1">
+    <text>戻って来いよ、兄弟！この任務に偵察は必要ない。</text>
+  </string>
+  <string id="pri_a15_actor_introduce">
+    <text>USSのデグチャレフ大佐だ。私は「フェアウェイ作戦」の失敗を調査するために来た。</text>
+  </string>
+  <string id="pri_a15_actor_introduce_squad">
+    <text>ストーカーたちに助けられてプリピャチに行くことができた。</text>
+  </string>
+  <string id="pri_a15_actor_leave_him">
+    <text>大尉、彼を解放してやれ。</text>
+  </string>
+  <string id="pri_a15_actor_need_talk_with_commander">
+    <text>コヴァルスキーの情報を持っている。彼のところに連れて行ってくれ。</text>
+  </string>
+  <string id="pri_a15_army_go">
+    <text>ついてきてこい！</text>
+  </string>
+  <string id="pri_a15_army_go_with_me">
+    <text>わかった。ついてこい。</text>
+  </string>
+  <string id="pri_a15_army_hide_weapon">
+    <text>武器を地面に置くんだ、早く！</text>
+  </string>
+  <string id="pri_a15_army_joke">
+    <text>おまえらは浮かれたギャングだ、そうだろう？</text>
+  </string>
+  <string id="pri_a15_army_leave">
+    <text>いいだろう、彼とやろう！</text>
+  </string>
+  <string id="pri_a15_army_stop">
+    <text>待て！</text>
+  </string>
+  <string id="pri_a15_army_who_a_you">
+    <text>おまえらは何者だ？大佐に何の用があるんだ？</text>
+  </string>
+  <string id="pri_a15_sokolov_conjecture">
+    <text>やはりそうか。</text>
+  </string>
+  <string id="pri_a15_sokolov_introduce">
+    <text>撃つな！私はソコロフ中尉、スティングレイ4の副操縦士だ。B28緊急地点に向かっている。</text>
+  </string>
+  <string id="pri_a15_sokolov_wonder">
+    <text>コヴァルスキーを知っているのか？</text>
+  </string>
+  <string id="pri_a15_vano_speech_one">
+    <text>何のためにここにいると思っているんだ、楽しいか？なぜそんなに引き金を引くのか？俺たちはみんな友たちだと思わないのか？俺とデグチャなんたら捜査官とはいろいろなことを経験してきた。それだけは信じてくれ。</text>
+  </string>
+  <string id="prI_a15_wanderer_about_actor">
+    <text>誰が誰のために働いているかなんて、知ったことではない。</text>
+  </string>
+  <string id="pri_a15_zulus_go">
+    <text>･･････USSであろうがな。</text>
+  </string>
+  <string id="pri_a15_zulus_no_business_with_army">
+    <text>俺は軍とは無関係だ･･････</text>
+  </string>
+  <string id="pri_a15_zulus_not_me">
+    <text>俺は行かねえ。</text>
+  </string>
+  <string id="pri_a15_zulus_wonder">
+    <text>USS？･･････なに･･････？</text>
+  </string>
+  <string id="pri_a16_army_1_talk_to_commander_1">
+    <text>少佐、何かあれば大佐に話してください。</text>
+  </string>
+  <string id="pri_a16_army_1_talk_to_commander_2">
+    <text>大佐を探さなければなりません、少佐。</text>
+  </string>
+  <string id="pri_a16_army_2_talk_to_commander_1">
+    <text>コヴァルスキー大佐と話してください。</text>
+  </string>
+  <string id="pri_a16_army_2_talk_to_commander_2">
+    <text>コヴァルスキー大佐と話をしてください。</text>
+  </string>
+  <string id="pri_a16_army_3_talk_to_commander_1">
+    <text>コヴァルスキー大佐に聞いてみてください。</text>
+  </string>
+  <string id="pri_a16_army_3_talk_to_commander_2">
+    <text>何かあったらコヴァルスキー大佐に会ってください。</text>
+  </string>
+  <string id="pri_a16_base_alarm">
+    <text>全部隊に告ぐ！こちらはコヴァルスキー大佐。基地が攻撃されている。脅威が排除されるまで、入り口は封鎖する。</text>
+  </string>
+  <string id="pri_a16_base_megaphone_1">
+    <text>少佐、よかったらその武器をしまってくれないか？</text>
+  </string>
+  <string id="pri_a16_base_megaphone_2">
+    <text>聞くんだ少佐、武器をしまってくれないか？我々は君を撃たない。我々は約束を守る。</text>
+  </string>
+  <string id="pri_a16_base_megaphone_3">
+    <text>さあ、少佐。頼むから銃をしまうんだ。そいつのせいでみんなかなり神経質になっている。</text>
+  </string>
+  <string id="pri_a16_base_relax">
+    <text>全部隊に告ぐ！こちらはコヴァルスキー大佐。脅威は排除された。</text>
+  </string>
+  <string id="pri_a17_kovalsky_after_surge">
+    <text>全部隊に告ぐ！こちらはコヴァルスキー大佐。エミッションは過ぎ去った。</text>
+  </string>
+  <string id="pri_a17_kovalsky_surge_phase_1">
+    <text>全部隊に告ぐ！こちらはコヴァルスキー大佐だ。我々の予想では、エミッションが接近している。すぐに避難しろ！</text>
+  </string>
+  <string id="pri_a17_kovalsky_surge_phase_2">
+    <text>全部隊に告ぐ！こちらはコヴァルスキー大佐だ。エミッションが始まった。繰り返す、エミッションが始まった。直ちに避難せよ！</text>
+  </string>
+  <string id="pri_a17_monolith_preacher">
+    <text>モノリス様、あなたの敵の狡猾な計画を我々に明らかにしてくれたことに感謝します。あなたの光が、あなたの意志のために命を捧げた勇敢な兵士たちの魂を照らすことを願います。Monolithの戦士たちよ、進むのだ！倒れた兄弟の仇を討つのだ。彼らはモノリス様との永遠の結合の中で祝福されている。モノリス様の聖なる力を拒む者に死をもたらすのだ！</text>
+  </string>
+  <string id="pri_a17_recon_squad_actor_dont_hide">
+    <text>少佐、その姿を奴らに見られてしまいますよ。</text>
+  </string>
+  <string id="pri_a17_recon_squad_after_monolith_clear">
+    <text>クリア！行け！</text>
+  </string>
+  <string id="pri_a17_recon_squad_attack_now_1">
+    <text>奴らが庭の中央にたどり着くまで待ってみよう。</text>
+  </string>
+  <string id="pri_a17_recon_squad_attack_now_2">
+    <text>攻撃目標が目標地点に到たち。</text>
+  </string>
+  <string id="pri_a17_recon_squad_attack_now_3">
+    <text>奴らが去っていくぞ！</text>
+  </string>
+  <string id="pri_a17_recon_squad_attack_now_4">
+    <text>見つかる前に行動しなければならない。撃て！</text>
+  </string>
+  <string id="pri_a17_recon_squad_commander_order_hide1">
+    <text>「アイス」は屋上へ。残りの隊員は俺に続け。</text>
+  </string>
+  <string id="pri_a17_recon_squad_commander_order_hide2">
+    <text>位置につけ。</text>
+  </string>
+  <string id="pri_a17_recon_squad_commander_ready_to_fire">
+    <text>指示に応じてすぐに攻撃できます。</text>
+  </string>
+  <string id="pri_a17_recon_squad_commander_to_prapor">
+    <text>妙ですね。誰かが我々の計画を奴らに漏らしているでしょうか？これはコヴァルスキーに伝えましょう。</text>
+  </string>
+  <string id="pri_a17_recon_squad_monolith_ambush">
+    <text>待ち伏せされている！避難しろ！</text>
+  </string>
+  <string id="pri_a17_recon_squad_nice_shoot">
+    <text>すばらしい射撃です、少佐。</text>
+  </string>
+  <string id="pri_a17_recon_squad_order_to_check">
+    <text>奴らをチェックしよう。「アイス」、援護しろ。</text>
+  </string>
+  <string id="pri_a17_recon_squad_prapor_to_commander">
+    <text>狂信者たちは我々のことを知っていた！</text>
+  </string>
+  <string id="pri_a17_recon_squad_sniper_out">
+    <text>「アイス」、目を覚ませ！</text>
+  </string>
+  <string id="pri_a17_recon_squad_talk_with_commander">
+    <text>大尉に聞いてみてください。</text>
+  </string>
+  <string id="pri_a18_actor_report">
+    <text>コヴァルスキー、ここでは何か変なことが起こっているようです。建物の中にはMonolithの戦闘機がたくさんありました。奴らはトランス状態で、話しかけていたのは･･････ ゴミの山です。私がこのゴミ山を調べ、ゴミを取り払うと、原始的なアンテナに似ているものでした。このアンテナを通して誰かが奴らに話しかけているようです･･････ そして、奴らはそれを神の介入だと信じています。</text>
+  </string>
+  <string id="pri_a18_kovalskiy_guard">
+    <text>おそろしく奇妙だな。誰かが狂信者たちを操っている･･････ うーん。この話は後にしよう。</text>
+  </string>
+  <string id="pri_a18_kovalskiy_squad">
+    <text>おそろしく奇妙だな。誰かが狂信者たちを操っている･･････ うーん。この話は後にしよう。偵察だった隊員はまだ姿を見せていないから、見つけたら教えてくれ。通信終わり。</text>
+  </string>
+  <string id="pri_a18_monolith_pray_1">
+    <text>モノリス様、あなたの声は聞こえません。</text>
+  </string>
+  <string id="pri_a18_monolith_pray_2">
+    <text>モノリス様、なぜ我々を見捨てたのですか？</text>
+  </string>
+  <string id="pri_a18_monolith_pray_3">
+    <text>モノリス様、我々はあなたの指示を待っています。</text>
+  </string>
+  <string id="pri_a18_shelly_hello">
+    <text>スケリヤ中尉、ご自由にお使いください。</text>
+  </string>
+  <string id="pri_a18_sokolov_fight">
+    <text>この場所には奴らが溢れている！</text>
+  </string>
+  <string id="pri_a18_sokolov_hello">
+    <text>おまえと一緒にいれば安全だと思ったんだ。</text>
+  </string>
+  <string id="pri_a18_sokolov_on_place">
+    <text>ここにいる。</text>
+  </string>
+  <string id="pri_a18_vano_fight">
+    <text>奴らが立ち直る前に始末しろ！</text>
+  </string>
+  <string id="pri_a18_vano_hello">
+    <text>おまえが助けを必要としていることを知ってすぐに申し出たんだ。最後までついていくぜ。</text>
+  </string>
+  <string id="pri_a20_actor_about_next_task">
+    <text>偵察隊は、Monolith部隊の位置情報を持っていた。ノートには書店のことが書かれている。</text>
+  </string>
+  <string id="pri_a20_actor_no_data">
+    <text>偵察隊はMonolithのパトロール隊を発見しただけだった。大規模な部隊は見られなかった。</text>
+  </string>
+  <string id="pri_a20_actor_report_about_squad">
+    <text>偵察隊を見つけました。全員死んでいます。撃たれたようですが、敵の痕跡はありません。</text>
+  </string>
+  <string id="pri_a20_colonel_about_sentry">
+    <text>痕跡を残さずにどうやって彼らを急襲したのか、私には分からない･･････ 少佐、偵察部隊の信号を受信した。座標は、彼が食料品店の近くにいることを示してる。できれば確認してほしい。頼りにしているぞ、少佐。通信終わり。</text>
+  </string>
+  <string id="pri_a20_colonel_ask_check_recon_squad">
+    <text>偵察隊を見つけなければならない。少佐、何が起こったのか調べてくれ！ちくしょう･･････ うーん。気を付けて行くんだ。それと、少佐･･････ 報告を怠るな！</text>
+  </string>
+  <string id="pri_a20_colonel_give_next_task_1">
+    <text>それは、あの忌まわしい狂信者たちだ。奴らに対処しなければならない。</text>
+  </string>
+  <string id="pri_a20_colonel_give_next_task_1_a21_sentry_task">
+    <text>あの忌まわしい狂信者たちのせいだ。奴らは諦めない。偵察だった隊員が行方不明だ。彼は応答しないし、痕跡もない。奴らを始末しなければならない。決定的にな。</text>
+  </string>
+  <string id="pri_a20_colonel_send_reinforcement">
+    <text>よろしい、2名をおまえのところに送る。彼らとは攻撃目標の近くで会えるだろう。通信終了。</text>
+  </string>
+  <string id="pri_a20_colonel_send_reinforcement_a21_about_sentry">
+    <text>よろしい、2名を君のところに送る。彼らとは攻撃目標の近くで会えるだろう。それと、もうひとつ･･････ 偵察だった隊員の信号を受信した。彼の座標は食料品店の近くにある。できるだけ確認してくれ。頼んだぞ、少佐。通信終わり。</text>
+  </string>
+  <string id="pri_a20_colonel_talk_in_radio">
+    <text>偵察隊、到着したぞ！何が起きているんだ？</text>
+  </string>
+  <string id="pri_a20_colonel_task_done">
+    <text>痕跡を残さずにどうやって彼らを急襲したのか、私には分からない。本当に不思議だ。ちょっと考えさせてくれ。また近いうちに話そう。</text>
+  </string>
+  <string id="pri_a20_communication_with_recon_squad">
+    <text>偵察隊からのメッセージを受け取った。</text>
+  </string>
+  <string id="pri_a20_recon_squad_attacked">
+    <text>ダメだ！･･････いったい何なんだ？･･････待て！･･････みんな死んだのか･･････ ああ･･････ 助けてくれ！誰か助けてくれ！俺から離れろ！やめろ･･････</text>
+  </string>
+  <string id="pri_a20_sokolov_with_garick_new_way_to_pripyat_1">
+    <text>無傷でプリピャチに辿り着いたなんて信じられないよ。どうやってこの道を見つけたんだ？</text>
+  </string>
+  <string id="pri_a20_sokolov_with_garick_new_way_to_pripyat_2">
+    <text>それほど難しいことじゃない。必要なのはスキルと少しの幸運だけで、俺たちは両方とも備えてたってことだ。あるいは、ゾーンが我々の忍耐に報いてくれたのかもしれない。俺が科学者と一緒に仕事をしてきたことを神様は知っているからね。</text>
+  </string>
+  <string id="pri_a20_sokolov_with_garick_new_way_to_pripyat_3">
+    <text>ああ、俺もヘルマンにはうんざりしている。</text>
+  </string>
+  <string id="pri_a21_actor_to_base_find_and_terminate_controller">
+    <text>偵察だった隊員が死にました。奴は様子がおかしくて私を攻撃してきました。あと、その場所でコントローラーを発見し、排除しました。</text>
+  </string>
+  <string id="pri_a21_actor_to_base_find_controller">
+    <text>偵察だった隊員が死にました。奴は様子がおかしくて私を攻撃してきました。あと、その場所にコントローラーがいたから撤退しました。</text>
+  </string>
+  <string id="pri_a21_actor_to_base_terminate_controller">
+    <text>コントローラーを倒した。</text>
+  </string>
+  <string id="pri_a21_base_to_actor_find_and_terminate_controller">
+    <text>了解した、少佐。コントローラーは偵察だった隊員の脳を乗っ取ったのだろう。彼はいいやつだったのに。フム。偵察隊の件もそうだったんだろうな。コントローラーが強制的に同士討ちをさせたのだ。とりあえず、通信終わり。</text>
+  </string>
+  <string id="pri_a21_base_to_actor_terminate_controller">
+    <text>了解した、少佐。コントローラーは見張りだった隊員の脳を乗っ取ったのだろう。あのクソ野郎を今すぐ殺す必要がある！あいつが生きている限り、我々には大きなリスクになる。</text>
+  </string>
+  <string id="pri_a21_colonel_base_about_sentry">
+    <text>少佐、コヴァルスキーだ。別の緊急事態が発生した。こっちに来てくれ、詳細を説明する。</text>
+  </string>
+  <string id="pri_a21_colonel_give_sentry_task">
+    <text>少佐、頼みがある。偵察の隊員が反応しない。食料品店がある場所を知っているか？彼の信号はそこからのものだ。できれば調査してくれ。もうひとつ。気をつけろ。通信終わり。</text>
+  </string>
+  <string id="pri_a21_colonel_lets_talk">
+    <text>ああ、少佐、入れ。</text>
+  </string>
+  <string id="pri_a21_sentr_crazy_1">
+    <text>ほっといてくれ、消えうせろ！</text>
+  </string>
+  <string id="pri_a21_sentr_crazy_2">
+    <text>いや、いや、いや。</text>
+  </string>
+  <string id="pri_a22_actor_to_base_find_squad_member">
+    <text>あなたの部下のひとりを見つけました。手榴弾で自爆したようです。銃撃戦の痕跡はなく、攻撃された形跡もありません。</text>
+  </string>
+  <string id="pri_a22_base_to_actor_has_rfi_coordinates">
+    <text>コヴァルスキーだ･･････ 了解、少佐。朗報だ。妨害源の正確な座標が分かった。信号は幼稚園の建物から出ている。</text>
+  </string>
+  <string id="pri_a22_colonel_about_rfi_and_lost_suad">
+    <text>我々の通信担当員は、信号が我々の近くから妨害されていると考えている。今、座標を調べている。妨害されている可能性のある場所を調べるために何人かの部下を送った。だが、彼らは行方不明になり、彼らの個別信号も残されていない。</text>
+  </string>
+  <string id="pri_a22_colonel_about_situation">
+    <text>少佐、深刻な問題が発生した。ヘリが墜落してからというもの、この作戦は刻々と馬鹿げたものになっている。隊員は次々と減り、本部との連絡も取れず、状況は悪化の一途をたどっている。撤退用ヘリはまたしても現れなかった。このままでは状況が完全にコントロールできなくなるのもそう遠くはないだろう。今すぐ、本部との通信を確立する必要がある。</text>
+  </string>
+  <string id="pri_a22_colonel_give_task">
+    <text>少佐、君の目的のひとつは、本部との通信を確立することだ。今の状況を考えると、今後はこれを優先すべきだ。あと、これは個人的なお願いなんだが、私の部下たちを見つけてほしい。</text>
+  </string>
+  <string id="pri_a22_colonel_to_actor_need_talk">
+    <text>少佐、君に話がある。個人的にだ。</text>
+  </string>
+  <string id="pri_a25_actor_all_doors_locked">
+    <text>ビルのそばにいますが、入り口はすべて塞がれています。</text>
+  </string>
+  <string id="pri_a25_kovalski_take_explosive">
+    <text>妨害の原因を探すために派遣された分隊は、爆発物を持っていた。それを使って入口を開放しろ。</text>
+  </string>
+  <string id="pri_a28_actor_scene_end">
+    <text>ストレロックとスティングレイ分隊は死んだ。離陸の準備をする。</text>
+  </string>
+  <string id="pri_a28_actor_scene_end_when_strelok_dead">
+    <text>ストレロックを除いた全員がいる。彼は死んだ。離陸の準備をする。</text>
+  </string>
+  <string id="pri_a28_actor_to_ssu_1">
+    <text>デグチャレフ大佐だ。報告する。</text>
+  </string>
+  <string id="pri_a28_actor_to_ssu_2">
+    <text>[デグチャレフ大佐] ゾーンで行われた実験の資料を入手することができました。さらに、原子力発電所にいたストーカーと接触できました。ストレロックという名前で、協力を申し出てくれました。</text>
+  </string>
+  <string id="pri_a28_actor_to_ssu_with_heli_info">
+    <text>[デグチャレフ大佐] はい、データを持っています。ストレロックの情報もそれを裏付けています。エミッションによって位置が変わったアノマリーによってヘリが襲われました。ヘリ操縦者に配られたアノマリー配置図は役に立たないことがわかりました。</text>
+  </string>
+  <string id="pri_a28_actor_to_ssu_without_heli_info">
+    <text>[デグチャレフ大佐] ストレロックはヘリコプターがアノマリーに突っ込んだと考えている。アノマリーの位置はエミッションのたびに変化しますが、これはフェアウェイ作戦の地図を作るときに見落とされた事実です。</text>
+  </string>
+  <string id="pri_a28_actor_to_strelok">
+    <text>ヘリに乗れ！その価値があるといいのだが･･････</text>
+  </string>
+  <string id="pri_a28_army_about_evacuation_1">
+    <text>ヘリに乗ってから、空の上で話そう、いいな？</text>
+  </string>
+  <string id="pri_a28_army_about_evacuation_2">
+    <text>話す時間は後でたっぷりある。我々は十分な弾薬があることを確認しなければならない。</text>
+  </string>
+  <string id="pri_a28_army_about_evacuation_3">
+    <text>まあ、ここはちゃんとした基地だった。この古い建物は我々を生かしてくれた。それ以上は望めない。しかし、今は鳥（ヘリ）に乗って家に帰らなければならない。</text>
+  </string>
+  <string id="pri_a28_army_about_surge_1">
+    <text>後で話そう。エミッション中はおしゃべりもできやしない。</text>
+  </string>
+  <string id="pri_a28_army_about_surge_2">
+    <text>別のエミッションだ、もううんざりだ。</text>
+  </string>
+  <string id="pri_a28_army_about_surge_3">
+    <text>ああ･･････ 戦車に攻撃される塹壕の中にいるような気分だ。</text>
+  </string>
+  <string id="pri_a28_army_confusion">
+    <text>はあ？わかった、走れ！</text>
+  </string>
+  <string id="pri_a28_army_its_here">
+    <text>ここだ！</text>
+  </string>
+  <string id="pri_a28_army_surge_talk_1_first">
+    <text>この辺りの酸性雨はかなりひどいものだと思う。</text>
+  </string>
+  <string id="pri_a28_army_surge_talk_1_second">
+    <text>酸性雨のことは考えないことだな。俺の場合は週末の雨の日が酸性雨のこともある。日曜日だと2回とか。</text>
+  </string>
+  <string id="pri_a28_army_surge_talk_2_first">
+    <text>なんだよ、うるさいな。まだ耳が痛くて、耳が聞こえないような感じだ。</text>
+  </string>
+  <string id="pri_a28_army_surge_talk_2_second">
+    <text>えっ、へへへ･･････ ただ、おまえをからかっただけだ。</text>
+  </string>
+  <string id="pri_a28_army_surge_talk_3_first">
+    <text>はあ、いつもエミッションのたびに頭が痛くなる。</text>
+  </string>
+  <string id="pri_a28_army_surge_talk_3_second">
+    <text>エミッションで死なない限り、別にいいんじゃないか。</text>
+  </string>
+  <string id="pri_a28_army_what_is_that">
+    <text>今のは何だ！？</text>
+  </string>
+  <string id="pri_a28_army_zombied_first">
+    <text>ゾンビどもだ！</text>
+  </string>
+  <string id="pri_a28_army_zombied_in_building">
+    <text>十数体のゾンビどもがいる。</text>
+  </string>
+  <string id="pri_a28_center_to_colonel_1">
+    <text>大佐、なぜ通信が切れたのだ？</text>
+  </string>
+  <string id="pri_a28_center_to_colonel_2">
+    <text>そうか、よし。聞いてくれ。フェアウェイ作戦はUSSに引き継ぐ。デグチャレフ大佐はいるか？</text>
+  </string>
+  <string id="pri_a28_center_to_colonel_3">
+    <text>よし、これからは彼が指揮を執る。じっとしているように伝えてくれ。すぐに上官から連絡があるだろう。</text>
+  </string>
+  <string id="pri_a28_colonel_about_heli">
+    <text>あれを見ろ！あいつら本当に成功したんだな･･････ 君は正しかったよ、ストレロック。</text>
+  </string>
+  <string id="pri_a28_colonel_about_snork">
+    <text>時間がない！武器を確認して撃ちまくれ！</text>
+  </string>
+  <string id="pri_a28_colonel_actor_talk">
+    <text>少佐、ちょっといいか？</text>
+  </string>
+  <string id="pri_a28_colonel_after_surge">
+    <text>エミッションが終わったようだ。キリロフ、本部に連絡だ。</text>
+  </string>
+  <string id="pri_a28_colonel_cannot_wait">
+    <text>少佐、これ以上は待てない。</text>
+  </string>
+  <string id="pri_a28_colonel_clear_the_deck">
+    <text>準備しろ、みんな！</text>
+  </string>
+  <string id="pri_a28_colonel_close_by">
+    <text>頑張れ、みんな！最後の一押しだ！</text>
+  </string>
+  <string id="pri_a28_colonel_evacuation">
+    <text>隊列を組め！</text>
+  </string>
+  <string id="pri_a28_colonel_fire_will">
+    <text>撃ちまくれ！行け！</text>
+  </string>
+  <string id="pri_a28_colonel_go_left">
+    <text>左に移動して、お互いにカバーしよう！</text>
+  </string>
+  <string id="pri_a28_colonel_instructions">
+    <text>さっきのニュースを聞いただろう、同志諸君。私たちが行くときは、団結してストーカーを守ろう。何か質問は？･･････準備はいいか！？</text>
+  </string>
+  <string id="pri_a28_colonel_ok_go_here">
+    <text>アーチを通れ！</text>
+  </string>
+  <string id="pri_a28_colonel_ready_to_go">
+    <text>油断せずに続け！撤退地点まであと少しだ。行こう！</text>
+  </string>
+  <string id="pri_a28_colonel_see_helicopter">
+    <text>クソッ！Monolith部隊だ！撃ちまくれ！ヘリに向かって進むんだ！</text>
+  </string>
+  <string id="pri_a28_colonel_strelok_out">
+    <text>クソッ！ストレロックがやられた！しかし、我々はここから脱出しなければならない。行け！</text>
+  </string>
+  <string id="pri_a28_colonel_to_center_1">
+    <text>エミッションのせいです。1回の通信では、通信を確立することは不可能です。</text>
+  </string>
+  <string id="pri_a28_colonel_to_center_2">
+    <text>はい。</text>
+  </string>
+  <string id="pri_a28_colonel_to_center_3">
+    <text>了解。</text>
+  </string>
+  <string id="pri_a28_colonel_wait_actor">
+    <text>少佐、どこだ？我々はストレロックを撤退地点に連れて行く必要がある！</text>
+  </string>
+  <string id="pri_a28_colonel_wait_actor_go">
+    <text>少佐、我々は動き続けなければならないだろう。</text>
+  </string>
+  <string id="pri_a28_colonel_wait_actor_long">
+    <text>少佐、もう長くは待てない。</text>
+  </string>
+  <string id="pri_a28_colonel_wait_actor_return">
+    <text>よし、がんばろう！</text>
+  </string>
+  <string id="pri_a28_colonel_we_close">
+    <text>向かっているところだ！</text>
+  </string>
+  <string id="pri_a28_colonel_will_time">
+    <text>了解だ！すぐそこに行ってみよう！</text>
+  </string>
+  <string id="pri_a28_colonel_zombied_attack">
+    <text>プリピャチのすべてのゾンビが、我々が来ていることに気付くだろう！もっと急げ！走れ！</text>
+  </string>
+  <string id="pri_a28_colonel_zombied_first">
+    <text>建物に沿って右に移動しよう！倍返しだ！</text>
+  </string>
+  <string id="pri_a28_continuation">
+    <text>おいおい、まだいるのか？何か必要なものがあれば、基地で俺を見つけろ。今回はストーカーを連れて戻ったぞ。</text>
+  </string>
+  <string id="pri_a28_evac_com_cant_wait">
+    <text>攻撃を受けたら離陸するように命令されている、急げ！</text>
+  </string>
+  <string id="pri_a28_evac_com_helicopter_run_time">
+    <text>これ以上待てない！あと60秒で離陸する！</text>
+  </string>
+  <string id="pri_a28_evac_com_ready">
+    <text>デグチャレフ大佐、準備完了です！</text>
+  </string>
+  <string id="pri_a28_evac_com_scene_end_when_strelok_dead">
+    <text>了解！</text>
+  </string>
+  <string id="pri_a28_evac_com_to_helicopter">
+    <text>ヘリに向かえ！行け、行け、行け！</text>
+  </string>
+  <string id="pri_a28_evac_com_where_you">
+    <text>スティングレイ！どこにいる？</text>
+  </string>
+  <string id="pri_a28_evac_come_close">
+    <text>デグチャレフ大佐、正体不明の敵から猛烈な攻撃を受けている！長くは持たない！</text>
+  </string>
+  <string id="pri_a28_medic_about_snork">
+    <text>あいつら･･････ またあの野郎か。建物の周りを回ってみようか。</text>
+  </string>
+  <string id="pri_a28_signaller_after_surge_1">
+    <text>了解！</text>
+  </string>
+  <string id="pri_a28_signaller_after_surge_2">
+    <text>本部と通信中！</text>
+  </string>
+  <string id="pri_a28_ssu_to_actor_1">
+    <text>少佐、聞こえるか？</text>
+  </string>
+  <string id="pri_a28_ssu_to_actor_2">
+    <text>[USS本部] よろしい。この瞬間から、君がフェアウェイ作戦の責任者だ。コヴァルスキーとスティングレイ分隊が君を支援する。応答せよ。</text>
+  </string>
+  <string id="pri_a28_ssu_to_actor_3">
+    <text>[USS本部] 了解。彼の申し出を受け入れよう。ヘリが墜落した原因は分かっているのか？</text>
+  </string>
+  <string id="pri_a28_ssu_to_actor_5">
+    <text>[USS本部] いいだろう。次のエミッションまでの時間があるということだ。君はB28地点からストーカーと一緒に回収される。スティングレイ分隊も君と一緒に撤退することになる。鳥たち（ヘリ）はすでに空を飛んでいるんだ。通信終わり。</text>
+  </string>
+  <string id="pri_a28_strelok_dont_stop">
+    <text>止まるな！進み続けろ！</text>
+  </string>
+  <string id="pri_a28_strelok_go_over_anomaly">
+    <text>この先にはもっと多くのゾンビたちがいる！</text>
+  </string>
+  <string id="pri_a28_strelok_run">
+    <text>走れ！</text>
+  </string>
+  <string id="pri_b301_zulus_after_fight">
+    <text>よお、爽快だったな。</text>
+  </string>
+  <string id="pri_b301_zulus_hello_in_combat">
+    <text>壁際に立て！こいつら、四方八方から来るぞ！</text>
+  </string>
+  <string id="pri_b301_zulus_surrounded_1">
+    <text>仕留めろ！</text>
+  </string>
+  <string id="pri_b301_zulus_surrounded_2">
+    <text>俺を簡単に殺せると思ったか？おら？</text>
+  </string>
+  <string id="pri_b301_zulus_surrounded_3">
+    <text>こいつだ！</text>
+  </string>
+  <string id="pri_b305_actor_ask_about_burning_antenn">
+    <text>あんたがブレイン・スコーチャーを無効にしたあのストーカーなのか？</text>
+  </string>
+  <string id="pri_b305_actor_check_signal">
+    <text>確認する。</text>
+  </string>
+  <string id="pri_b305_actor_dont_see_anyone">
+    <text>だれもいないぞ。</text>
+  </string>
+  <string id="pri_b305_actor_emission_starts">
+    <text>エミッションが始まった！</text>
+  </string>
+  <string id="pri_b305_actor_go">
+    <text>ありがとう、そうするよ。</text>
+  </string>
+  <string id="pri_b305_actor_it_is_underground">
+    <text>地下だ。</text>
+  </string>
+  <string id="pri_b305_actor_need_center_to_know">
+    <text>一刻も早く本部に報告しなければならない。</text>
+  </string>
+  <string id="pri_b305_actor_understand">
+    <text>ガチャ。</text>
+  </string>
+  <string id="pri_b305_actor_we_have_problems">
+    <text>問題が発生した。我々のヘリは墜落しているようだが、その理由がまだわかっていない。</text>
+  </string>
+  <string id="pri_b305_actor_wondered">
+    <text>そういうことなのか･･････</text>
+  </string>
+  <string id="pri_b305_army_what_freezer">
+    <text>ははは！なんだと、初めて聞いた！冷蔵庫だと？</text>
+  </string>
+  <string id="pri_b305_kirilov_about_garik">
+    <text>さらに、ギャリーは補充のためにヤノフ駅に向かいました。数日は戻ってこないと伝えてくれとのことでした。</text>
+  </string>
+  <string id="pri_b305_kirilov_about_garik_vano">
+    <text>さらにヴァノから、ギャリーと一緒にヤノフ駅に向かったことを伝えてほしいと言われました。お土産を持って帰ってくるそうです。</text>
+  </string>
+  <string id="pri_b305_kirilov_about_strelok_1">
+    <text>ご協力ありがとうございます。ところで、大佐があなたに会いたいと言ってます。</text>
+  </string>
+  <string id="pri_b305_kirilov_give_coordinates">
+    <text>ああ、座標は把握していますが、信号が断続的で･･････ 動いています！</text>
+  </string>
+  <string id="pri_b305_kirilov_give_new_coordinates">
+    <text>信号が返ってきました！座標を送信しています。</text>
+  </string>
+  <string id="pri_b305_kirilov_glad">
+    <text>本物のおまえか？驚いた！もう俺たちの医者には再会できないんじゃないかと思い始めてたよ。</text>
+  </string>
+  <string id="pri_b305_kirilov_ok">
+    <text>オーケー･･････</text>
+  </string>
+  <string id="pri_b305_kirilov_order_agree">
+    <text>はい、わかりました！</text>
+  </string>
+  <string id="pri_b305_kirilov_signal_lost">
+    <text>信号が消えてしまいました。</text>
+  </string>
+  <string id="pri_b305_kirilov_signal_next_to_actor">
+    <text>戻ってきました！あなたの隣にいます。</text>
+  </string>
+  <string id="pri_b305_kirilov_source_is_near">
+    <text>近いです。そして、我々の基地に向かってきています。</text>
+  </string>
+  <string id="pri_b305_kirilov_strange_signal">
+    <text>大佐！電波信号が検出されました。発信源は基地から遠くありません。通信は暗号化されていて、まだ解読できていません。</text>
+  </string>
+  <string id="pri_b305_kirilov_what_freezer">
+    <text>どんな冷蔵庫？どこで見つけたんだ？</text>
+  </string>
+  <string id="pri_b305_kirilov_what_happen">
+    <text>それでどうなったんだ？</text>
+  </string>
+  <string id="pri_b305_kirilov_what_next">
+    <text>しかもどんな状態でだ？</text>
+  </string>
+  <string id="pri_b305_kirilov_where_you_been">
+    <text>だから？教えろ！おまえはどこにいたんだ？</text>
+  </string>
+  <string id="pri_b305_kovalskiy_about_anomaly_map">
+    <text>我々は、アノマリーに対して安全な航路地図を持っていた･･････ そして、ヘリにはエミッション保護システムが付いていた！</text>
+  </string>
+  <string id="pri_b305_kovalskiy_about_deal">
+    <text>それが解決するまでは、我々はヘリの支援を受けられない。ゾーンの境界に行くには、徒歩で行くしかない。</text>
+  </string>
+  <string id="pri_b305_kovalskiy_ask_coordinates">
+    <text>座標はわかるか？</text>
+  </string>
+  <string id="pri_b305_kovalskiy_attack_case_prepare">
+    <text>少佐、コヴァルスキーだ。ここに戻ってきたほうがいい。考えうる攻撃に備えなければならない。今度は奴らに奇襲させないぞ！</text>
+  </string>
+  <string id="pri_b305_kovalskiy_let_center_know">
+    <text>エミッションの後すぐに司令官に連絡する。</text>
+  </string>
+  <string id="pri_b305_kovalskiy_news">
+    <text>私は本部の司令官と話し、収集した情報とともに状況を報告した。しばらくはヘリの支援がなく「君たちの陣地を固めて次の命令を待つように」とのことだった。現在、本部にはUSSのオブザーバー（仲介要員）がいるので、すぐに君の上層部と話ができるだろう。</text>
+  </string>
+  <string id="pri_b305_kovalskiy_order_kirilov">
+    <text>中尉！できるだけ早く本部に連絡を取れ！</text>
+  </string>
+  <string id="pri_b305_kovalskiy_talk_in_safe_place">
+    <text>さあ、中で話そう！</text>
+  </string>
+  <string id="pri_b305_kovalskiy_think_of_attack">
+    <text>またMonolithか？</text>
+  </string>
+  <string id="pri_b305_kovalskiy_who_are_you">
+    <text>だれだ？</text>
+  </string>
+  <string id="pri_b305_kovalskiy_wondered">
+    <text>なに！？</text>
+  </string>
+  <string id="pri_b305_medik_dont_know_what_say">
+    <text>うーん、どう表現したらいいのかわからない。</text>
+  </string>
+  <string id="pri_b305_medik_excuse">
+    <text>俺がどこで見つけたと思う･･････？俺と同じ状況で、君たちが見つけられるか拝見したいね。</text>
+  </string>
+  <string id="pri_b305_medik_in_freezer">
+    <text>どうせ信じてもらえないだろうけど･･････ 冷蔵庫の中だ。</text>
+  </string>
+  <string id="pri_b305_medik_talk_later">
+    <text>ふう･･････ 話が長くなってしまった･･････ また別の機会に話そう。</text>
+  </string>
+  <string id="pri_b305_strelok_about_anomaly_randomize">
+    <text>それはおかしいな･･････ エミッションの後にアノマリーが移動することに気づかないとでも言うのか？あるものは消え、あるものは別の場所に現れ、アノマリーの地図は事実上役に立たなくなる。</text>
+  </string>
+  <string id="pri_b305_strelok_about_heli">
+    <text>理由は明白だ。空中には多くのアノマリーがあり、特にゾーンの中心部にはアノマリーが多い。</text>
+  </string>
+  <string id="pri_b305_strelok_about_zone_destroying">
+    <text>そうだ･･････ しかし、俺の計画はうまくいかなかった。俺がここに来たのは、君たちの司令官と話すためだ。軍がゾーンを制御して破壊できるような情報を、俺が持っているんだ。</text>
+  </string>
+  <string id="pri_b305_strelok_give_up">
+    <text>撃つな！正面玄関に出向く！</text>
+  </string>
+  <string id="pri_b305_strelok_how_to_get_away">
+    <text>エミッションは連続で発生するものではない。この地域を詳しく調べて、すべてのアノマリーの位置を特定することができれば、ヘリは我々を安全に回収することができるだろう。エミッションの直後に彼らを派遣させればいいのだ。</text>
+  </string>
+  <string id="pri_b305_strelok_introduse">
+    <text>俺の名はストレロック。</text>
+  </string>
+  <string id="pri_b35_both_done_end">
+    <text>両方の攻撃目標を排除した。よくやった！任務完了。退却だ。</text>
+  </string>
+  <string id="pri_b35_envoy_sighted">
+    <text>見ろ、別のグループがいるぞ。誰がリーダーなのか見てみよう。</text>
+  </string>
+  <string id="pri_b35_kovalski_calls_guide">
+    <text>キリロフ上級中尉、こちらコヴァルスキー。少佐を案内してくれ。</text>
+  </string>
+  <string id="pri_b35_merc_leader_sighted">
+    <text>正面玄関側にいるのが、彼らのリーダーだろうな。</text>
+  </string>
+  <string id="pri_b35_primary_target_down">
+    <text>最優先の攻撃目標を排除した。</text>
+  </string>
+  <string id="pri_b35_primary_target_lost_end">
+    <text>最優先の攻撃目標が脱出した。退却！</text>
+  </string>
+  <string id="pri_b35_rendevous_done">
+    <text>終わった！撤収の時間だ！</text>
+  </string>
+  <string id="pri_b35_rendevous_in_process">
+    <text>攻撃目標は正面玄関のそばだ。</text>
+  </string>
+  <string id="pri_b35_rendevous_started">
+    <text>少佐！Mercenaryたちが目標地点に到達。</text>
+  </string>
+  <string id="pri_b35_secondary_target_down">
+    <text>第2攻撃目標を排除。</text>
+  </string>
+  <string id="pri_b35_secondary_target_lost_end">
+    <text>第2攻撃目標は脱出した。退却！</text>
+  </string>
+  <string id="pri_b35_targets_lost_end">
+    <text>2人の攻撃目標は脱出した。任務を中止し、退却せよ！</text>
+  </string>
+  <string id="bar_barman_hello_1">
+    <text>よおぉ！</text>
+  </string>
+  <string id="bar_barman_hello_2">
+    <text>よお、どうした？最近うまくやってるか？</text>
+  </string>
+  <string id="bar_barman_hello_3">
+    <text>生き生きしてるか？そいつぁはよかった！</text>
+  </string>
+  <string id="bar_barman_hello_4">
+    <text>最近どうだ？</text>
+  </string>
+  <string id="bar_barman_hello_5">
+    <text>よお、どうした？</text>
+  </string>
+  <string id="bar_barman_wait_1">
+    <text>やけに時間かかるな、どうした考え事か？ん？</text>
+  </string>
+  <string id="bar_barman_wait_2">
+    <text>よ、早くこっち来いよ、ここは酒場だぜ！</text>
+  </string>
+  <string id="bar_barman_wait_3">
+    <text>そこ突っ立ってないで、こっち来てなんか飲んだらどうだ？、ほら来いよ！</text>
+  </string>
+  <string id="bar_barman_wait_4">
+    <text>こっち空いてるぜ！、つってもほかにも客がいるからな、こっち来いよぉ。</text>
+  </string>
+  <string id="bar_guard_prohodi_1">
+    <text>突っ立ってないで店に入れよって言ってんだ！</text>
+  </string>
+  <string id="bar_guard_stop_1">
+    <text>こっちには入れねえぜ！</text>
+  </string>
+  <string id="bar_guard_stop_2">
+    <text>バーキープとおしゃべりしたほうが楽しいぜきっと。</text>
+  </string>
+  <string id="bar_guard_stop_3">
+    <text>止まれ！ここに入れるわけにはいかねえんだ。</text>
+  </string>
+  <string id="duty_hangar_1">
+    <text>さっさと行け、ストーカー。</text>
+  </string>
+  <string id="esc_mech_meet_1">
+    <text>なんだ？何がしたいんだ？</text>
+  </string>
+  <string id="esc_mech_meet_2">
+    <text>何だよ、またあんたか？</text>
+  </string>
+  <string id="esc_mech_meet_3">
+    <text>なぁ、ひとりしてくれないか？はっ！そうだろうさ、あんたがこうやってちょっかいかけて俺が楽しんでると思ってるんだろ、そうなんだろう？</text>
+  </string>
+  <string id="esc_mech_meet_bye_1">
+    <text>んじゃあな</text>
+  </string>
+  <string id="esc_mech_meet_bye_2">
+    <text>離れてくれるのか、やっとだ。</text>
+  </string>
+  <string id="esc_mech_meet_bye_3">
+    <text>やっと、俺をひとりにしてくれるのか。幸せにしてくれてありがとなっ！ケッ！</text>
+  </string>
+  <string id="esc_nimble_greeting_1">
+    <text>やあ、ストーカー何か注文する？</text>
+  </string>
+  <string id="esc_nimble_greeting_2">
+    <text>どうした？注文しに来たのかい？</text>
+  </string>
+  <string id="esc_nimble_greeting_3">
+    <text>なあ！何か必要かい？</text>
+  </string>
+  <string id="esc_nimble_greeting_order_not_ready_1">
+    <text>安心してくれ。きっと良い在庫をどどけるよ。</text>
+  </string>
+  <string id="esc_nimble_greeting_order_not_ready_2">
+    <text>また来てくれ。</text>
+  </string>
+  <string id="esc_nimble_greeting_order_not_ready_3">
+    <text>後で立ち寄ってくれ。それまでに注文の品を用意しておく。</text>
+  </string>
+  <string id="esc_nimble_greeting_order_ready_1">
+    <text>以上で注文完了だ。商品を受け取れ。</text>
+  </string>
+  <string id="esc_nimble_greeting_order_ready_2">
+    <text>あの商品ならある。受け取れ！</text>
+  </string>
+  <string id="esc_nimble_greeting_order_ready_3">
+    <text>商品を持っていけ、ストーカー！ご覧の通り、俺は約束を守る。</text>
+  </string>
+  <string id="esc_nimble_order">
+    <text>仕事は終わった。商品を持っていけるぜ。</text>
+  </string>
+  <string id="esc_fanat_farewell_1">
+    <text>では、また。</text>
+  </string>
+  <string id="esc_fanat_farewell_2">
+    <text>がんばれよ。</text>
+  </string>
+  <string id="esc_fanat_farewell_3">
+    <text>話せて良かった</text>
+  </string>
+  <string id="esc_fanat_farewell_4">
+    <text>さらばだ。</text>
+  </string>
+  <string id="esc_fanat_farewell_5">
+    <text>よい狩りを、ストーカー。</text>
+  </string>
+  <string id="esc_fanat_greeting_1">
+    <text>よお。</text>
+  </string>
+  <string id="esc_fanat_greeting_2">
+    <text>どうした？</text>
+  </string>
+  <string id="esc_fanat_greeting_3">
+    <text>待たせたな。</text>
+  </string>
+  <string id="esc_fanat_greeting_4">
+    <text>やあ。</text>
+  </string>
+  <string id="red_forester_greet_1">
+    <text>よお。何しに来たんだ？</text>
+  </string>
+  <string id="red_forester_hello_bye_0">
+    <text>じゃあな、若者よ。</text>
+  </string>
+  <string id="red_forester_hello_bye_1">
+    <text>この年寄りを忘れるなよ。</text>
+  </string>
+  <string id="red_forester_hello_bye_2">
+    <text>おまえがまっすぐな道を歩むことを祈っているよ。</text>
+  </string>
+  <string id="red_forester_meet_hello_0">
+    <text>よお、生きてたか。</text>
+  </string>
+  <string id="red_forester_meet_hello_1">
+    <text>どうした？若者よ。ここで何を探しているんだ？</text>
+  </string>
+  <string id="red_forester_meet_hello_2">
+    <text>この場所に来たのは偶然か、それとも何か？</text>
+  </string>
+  <string id="val_bandit_trader_meet_1">
+    <text>･･････</text>
+  </string>
+  <string id="val_bandit_trader_meet_2">
+    <text>･･････</text>
+  </string>
+  <string id="yan_sakharov_meet_1">
+    <text>やあ、若者よ！</text>
+  </string>
+  <string id="yan_sakharov_meet_2">
+    <text>我々の科学基地にようこそ。</text>
+  </string>
+  <string id="yan_sakharov_meet_3">
+    <text>君は私の質素な研究所に何をもたらすんだ？</text>
+  </string>
+  <string id="yan_sakharov_meet_4">
+    <text>はい･･････ はい？</text>
+  </string>
+  <string id="yan_sakharov_meet_bye_1">
+    <text>よろしく頼むよ。</text>
+  </string>
+  <string id="yan_sakharov_meet_bye_2">
+    <text>君に会えてよかった。</text>
+  </string>
+  <string id="yan_sakharov_meet_bye_3">
+    <text>また何かあったら戻ってくるんだぞ！</text>
+  </string>
+</string_table>

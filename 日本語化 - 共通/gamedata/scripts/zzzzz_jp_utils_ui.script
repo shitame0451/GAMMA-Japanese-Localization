@@ -1,0 +1,113 @@
+-- utils_ui.script
+
+-- ===================================================================
+--  UICellItem:Check_TradeMode （トレード画面のアイテムチップ右上の価格）
+-- ===================================================================
+local original_Check_TradeMode = utils_ui.UICellItem.Check_TradeMode
+
+utils_ui.UICellItem.Check_TradeMode = function(self, obj, sec)
+	local result = original_Check_TradeMode(self, obj, sec)
+
+	if self.flags and self.flags.value_str and self.flags.value then
+		local formatted_cost = japanese_patch.commas_to_number(self.flags.value)
+		self.flags.value_str = game.translate_string("st_base_cost") .. ": " .. formatted_cost .. " ルーブル"
+	end
+
+	return result
+end
+
+-- ===================================================================
+--  UIInfoItem:Update （アイテムチップの表示調整）
+--  重量表示にラベルを追加
+--  「弾薬:」(ui_ammo_types)の色指定 （ui_st_inventory.xmlでの色指定が効かないため、ここで指定）
+--  ステータスの表示調整
+-- ===================================================================
+-- 位置調整済みかどうかを保存するテーブル
+local moved_stats_txt   = {}
+local moved_stats_comp  = {}
+local moved_stats_icon  = {}
+
+local original_UIInfoItem_Update = utils_ui.UIInfoItem.Update
+utils_ui.UIInfoItem.Update = function(self, obj, sec, flags)
+	local result = original_UIInfoItem_Update(self, obj, sec, flags)
+
+	-- 重量ラベルを追加
+	if self and self.weight and self.weight.GetText and self.weight.SetText then
+		local text = self.weight:GetText()
+		if text and text ~= "" and not text:find("^重量") then
+			self.weight:SetText("重量: " .. text)
+		end
+	end
+
+	-- 「弾薬:」(ui_ammo_types) の色を指定
+	if self and self.section and self:GetType(self.section) == "weapon" and self.ammo_cap then
+		self.ammo_cap:TextControl():SetTextColor(GetARGB(255, 255, 255, 255))
+	end
+
+	-- ステータスの位置調整
+	if self and self.stats then
+		for i, ele in ipairs(self.stats) do
+			-- 数値 (左に移動)
+			if ele.txt and ele.txt:IsShown() and not moved_stats_txt[ele.txt] then
+				local pos = ele.txt:GetWndPos()
+				ele.txt:SetWndPos(vector2():set(pos.x -15, pos.y))
+				moved_stats_txt[ele.txt] = true
+			end
+
+			-- 比較数値 (左に移動)
+			if ele.comp and ele.comp:IsShown() and not moved_stats_comp[ele.comp] then
+				local pos = ele.comp:GetWndPos()
+				ele.comp:SetWndPos(vector2():set(pos.x - 30, pos.y))
+				moved_stats_comp[ele.comp] = true
+			end
+
+			-- アイコンを下にずらす
+			if ele.icon and ele.icon:IsShown() and not moved_stats_icon[ele.icon] then
+				local pos = ele.icon:GetWndPos()
+				ele.icon:SetWndPos(vector2():set(pos.x, pos.y + 2))
+				moved_stats_icon[ele.icon] = true
+			end
+		end
+	end
+
+	return result
+end
+
+-- ===================================================================
+--  UIInfoItem:Sync_H （アイテムチップの高さ）
+-- ===================================================================
+local original_Sync_H = utils_ui.UIInfoItem.Sync_H
+
+utils_ui.UIInfoItem.Sync_H = function(self, parent, child, offset)
+	local pos_p = parent:GetWndPos()
+	local h_p = parent:GetHeight()
+	local h = pos_p.y + h_p + offset
+
+	if h < 125 then
+		h = 125
+	end
+
+	child:SetWndSize(vector2():set(child:GetWidth(), h))
+	return h
+end
+
+-- ===================================================================
+--  UIInfoUpgr:Update （アップグレードの価格表示）
+-- ===================================================================
+local original_UIInfoUpgr_Update = utils_ui.UIInfoUpgr.Update
+
+utils_ui.UIInfoUpgr.Update = function(self, upgr, prereq, installed)
+	local result = original_UIInfoUpgr_Update(self, upgr, prereq, installed)
+
+	if self and self.cost
+		and type(self.cost.SetText) == "function"
+	then
+		local sec = upgr and ini_sys:r_string_ex(upgr,"section")
+		if sec then
+			local cost = inventory_upgrades.get_upgrade_cost(sec) or 0
+			self.cost:SetText(japanese_patch.commas_to_number(cost) .. " ルーブル")
+		end
+	end
+
+	return result
+end

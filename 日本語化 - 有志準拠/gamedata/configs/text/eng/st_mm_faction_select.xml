@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!--
+	FACTION DESCRIPTIONS
+-->
+
+  <string id="st_faction_stalker">
+    <text>Loner</text>
+  </string>
+  <string id="st_faction_stalker_desc">
+    <text>\n%c[d_orange]ローナー（Loner）
+\n \n%c[ui_8]どの派閥にも属さない、独立したストーカー。
+\nゾーン内の住人の大半を占めている。
+\n彼らは物資の回収や取引、時には他者と協力
+\nして生き延びている。自由を重んじる一方で、
+\n孤立しがちなため、組織化された大規模な
+\n派閥に対しては弱い面もある。
+
+\n \n%c[pda_white]推奨: %c[ui_gray_1]初めてのプレイヤー
+    </text>
+  </string>
+  <string id="st_faction_bandit">
+    <text>Bandit</text>
+  </string>
+  <string id="st_faction_bandit_desc">
+    <text>\n%c[d_orange]バンディット（Bandit）
+\n \n%c[ui_8]ストーカーや旅人を襲う冷酷な犯罪者たち。
+\nある程度統率の取れた集団で行動し、
+\n恐喝や強盗、暴力を繰り返して生きている。
+\nゾーンの秘密には関心がなく、簡単に手に入る
+\n戦利品と力だけを追い求めている。
+    </text>
+  </string>
+  <string id="st_faction_dolg">
+    <text>Duty</text>
+  </string>
+  <string id="st_faction_dolg_desc">
+    <text>\n%c[d_orange]デューティー（Duty）
+\n \n%c[ui_8]重武装の軍事派閥で、ゾーンのアノマリーや
+\nミュータントが外の世界に影響を与えるのを
+\n防ぐことに全力を注いでいる。規律と厳格な
+\n上下関係で知られ、ゾーンを危険な存在と
+\n見なし、制御・破壊すべきだと考えている。
+    </text>
+  </string>
+  <string id="st_faction_freedom">
+    <text>Freedom</text>
+  </string>
+  <string id="st_faction_freedom_desc">
+    <text>\n%c[d_orange]フリーダム（Freedom）
+\n \n%c[ui_8]気楽な雰囲気の派閥だが、武装しており、
+\nゾーンの秘密を誰にも縛られずに探れる権利を
+\n求めて戦っている。科学の発見はすべての人類の
+\n利益になると信じており、権力による支配に
+\n強く反対している。彼らにとってゾーンは
+\n恐れるものではなく、探求すべき自然の神秘だ。
+    </text>
+  </string>
+  <string id="st_faction_army">
+    <text>Military</text>
+  </string>
+  <string id="st_faction_army_desc">
+    <text>\n%c[d_orange]ミリタリー（Military）
+\n \n%c[ui_8]ゾーンの封鎖や貴重な資源の保護、違法行為の
+\n取り締まりを任務とする正規の武装部隊。
+\n組織内の汚職や指揮系統の不安定さから、
+\nストーカーたちにはあまり信用されていない。
+\nゾーンの境界線や主要な地点に常駐しており、
+\n科学者たちへの食料供給や護衛も行っている。
+    </text>
+  </string>
+  <string id="st_faction_ecolog">
+    <text>Ecologist</text>
+  </string>
+  <string id="st_faction_ecolog_desc">
+    <text>\n%c[d_orange]エコロジスト（Ecologist）
+\n \n%c[ui_8]ウクライナ政府公認の科学者集団。
+\nゾーンに存在するアノマリーやミュータント、
+\nアーティファクトを研究することで、
+\nその科学的価値を解き明かそうとしている。
+\n護衛にはストーカーを雇うことが多く、
+\n政治的なことには関心がないが、彼らの研究が
+\nゾーン内の勢力バランスを変えることもある。
+\n \n%c[pda_white]推奨: %c[ui_gray_1]平和主義者
+    </text>
+  </string>
+  <string id="st_faction_killer">
+    <text>Mercenary</text>
+  </string>
+  <string id="st_faction_killer_desc">
+    <text>\n%c[d_orange]傭兵（Mercenary）
+\n \n%c[ui_8]金さえ払えば誰にでも仕える傭兵集団。
+\n暗殺からアーティファクトの回収まで、様々な
+\n依頼を請け負う。詳細は謎に包まれているが、
+\nプロフェッショナルな手際と容赦ない実行力で
+\n知られ、他の勢力からも恐れられている。
+    </text>
+  </string>
+  <string id="st_faction_monolith">
+    <text>Monolith</text>
+  </string>
+  <string id="st_faction_monolith_desc">
+    <text>\n%c[d_orange]モノリス（Monolith）
+\n \n%c[ui_8]ゾーンの中心部を守る狂信者たち。
+\n「モノリス」を神の力だと信じ、崇拝している。
+\n厳格な組織体制と揺るぎない忠誠心を持ち、
+\n部外者には容赦しないことで知られている。
+\n \n%c[pda_white]推奨: %c[ui_gray_1]上級者
+    </text>
+  </string>
+  <string id="st_faction_csky">
+    <text>Clear Sky</text>
+  </string>
+  <string id="st_faction_csky_desc">
+    <text>\n%c[d_orange]クリアスカイ（Clear Sky）
+\n \n%c[ui_8]研究者、生存主義者、元ストーカーが集まる
+\n秘密主義の派閥。ゾーンの成り立ちを探り、
+\nその自然のバランスを守ろうとしている。
+\n人目を避けて活動し、争いは好まないが、
+\n大切な研究やゾーンの危険な秘密が悪人に
+\n渡るのを防ぐためには、決して戦いを恐れない。
+\n \n%c[pda_white]推奨: %c[ui_gray_1]初めてのプレイヤー</text>
+  </string>
+  <string id="st_faction_renegade">
+    <text>Renegade</text>
+  </string>
+  <string id="st_faction_renegade_desc">
+    <text>\n%c[d_orange]レネゲード（Renegade）
+\n \n%c[ui_8]残忍さや裏切り行為を理由に他の派閥から
+\n追放された者が集まった、無秩序な略奪集団。
+\n彼らは行動が予測できない危険な存在で、
+\n「生き残ること」以外の目的を持っていない。
+\n \n%c[pda_white]推奨: %c[ui_gray_1]上級者
+    </text>
+  </string>
+  <string id="st_faction_greh">
+    <text>Sin</text>
+  </string>
+  <string id="st_faction_greh_desc">
+    <text>\n%c[d_orange]シン（Sin）
+\n \n%c[ui_8]ゾーンに隠された禁断の秘密を暴き、
+\n手中に収めようとする謎めいたカルト集団。
+\n真の目的は不明だが、行動からは狂信と科学へ
+\nの執着が合わさった危険な意図が感じられる。
+\n \n%c[pda_white]推奨: %c[ui_gray_1]上級者
+    </text>
+  </string>
+  <string id="st_faction_isg">
+    <text>UNISG</text>
+  </string>
+  <string id="st_faction_isg_desc">
+    <text>\n%c[d_orange]UNISG
+\n \n%c[ui_8]国際連合によって派遣された特殊部隊。
+\nゾーンの情報収集、敵対勢力の妨害、そして
+\nアーティファクトの確保を目的としている。
+\n高度な訓練を受けた隊員で構成され、
+\n普通のストーカーを装って影で暗躍している。
+\n \n%c[pda_white]推奨: %c[ui_gray_1]上級者
+    </text>
+  </string>
+  <string id="st_faction_zombied">
+    <text>Zombified</text>
+  </string>
+  <string id="st_faction_zombied_desc">
+    <text>\n%c[d_orange]ゾンビ（Zombified）
+\n \n%c[ui_8]かつては人間だったストーカーたちだが、
+\n強力な精神波の放射によって正気を失い、
+\n本能のままに徘徊する抜け殻と化している。
+\n動きは遅く統率もとれていないが、痛みを
+\n感じず、原始的な衝動だけで襲いかかってくる。
+\n \n%c[pda_white]推奨: %c[ui_gray_1]マゾヒスト
+    </text>
+  </string>
+
+<!--
+	INFO
+-->
+
+  <string id="st_mm_list_economy_desc">
+    <text>%c[ui_8]ゲーム進行難易度はゾーンの経済を大きく変化させ、プレイヤーの進行度に直接関わる難易度です。\nトレーダーの売買価格、戦利品の希少性、タスク完了時に得られる報酬や友好度に影響を与えます。\n \n
+%c[pda_white]• %c[ui_gray_1]プレイ中にいつでも変更することができます。\n「ゲーム設定→ゲームプレイ→ゲーム進行難易度」を参照してください。</text>
+  </string>
+  <string id="st_mm_list_difficulty_desc">
+    <text>%c[ui_8]ゲームプレイ難易度は受けるダメージの量やスタミナの消耗速度、所持重量の上限、喉の渇きや睡眠不足による影響などの要素に影響します。\n \n
+      %c[pda_white]• %c[ui_gray_1]プレイ中にいつでも変更することができます。\n「ゲーム設定→ゲームプレイ→ゲームプレイ難易度」を参照してください。</text>
+  </string>
+  <string id="st_mm_ck_story_desc">
+    <text>%c[ui_8]ストーリーモードでは、ストーリーに沿った一連のクエストを体験することができます。\n「生ける伝説」、「死すべきSin」、「アフターグロー作戦」のようなストーリークエストは、Loner、Duty、Freedom、Ecologist、Mercenary、Clear Skyで利用可能です。\n動的に生成されるクエストはすべての派閥で楽しむことができます。いずれの場合も、派閥のリーダーに話しかけて開始してください。楽しんで！\n \n
+      %c[ui_red]• %c[ui_gray_1]派閥戦争モードには対応していない\n
+      %c[ui_red]• %c[ui_gray_1]サバイバルモードには対応していない\n
+      %c[ui_red]• %c[ui_gray_1]アザゼルモードには対応していない</text>
+  </string>
+  <string id="st_mm_ck_drx_desc">
+    <text>%c[ui_8]ゾーン内での様々なタスクが動的にリンクされている。\n無限のリプレイ性！\n
+%c[ui_red]• %c[ui_gray_1]ストーリーモードには対応していない。\n
+%c[ui_red]• %c[ui_gray_1]アザゼルモードには対応していない。</text>
+  </string>
+  <string id="st_mm_ck_hardcore_desc">
+    <text>%c[ui_8]死亡時にセーブデータが消去されるモード。\nセーブは何度でも自由に行うことができますが、死亡した場合、このモードで作成したキャラクターのセーブデータはすべて消去されます。</text>
+  </string>
+  <string id="st_mm_ck_hardcore_aim_desc">
+    <text>%c[ui_8]AIの命中精度が非常に高くなり、プレイヤーは移動して敵の弾を避けることが難しくなります。</text>
+  </string>
+  <string id="st_mm_ck_survival_desc">
+    <text>%c[ui_8]すべての敵をゾンビに置き換えるモード。\nゾンビの大群があなたを目指して押し寄せてきます。どこまで生き残れるか試してみよう！\n \n
+      %c[ui_red]• %c[ui_gray_1]派閥戦争モードには対応していない</text>
+  </string>
+  <string id="st_mm_ck_azazel_mode_desc">
+    <text>%c[ui_8]死は終わりではない！\n死亡すると、あなたは悪魔アザゼルのように新しい体に乗り移ります。乗り移るストーカーは、ゾーンに存在する中からランダムに選ばれます。\n仲間を連れている場合は、あなたは仲間の内の一人に乗り移ります。このモードは、アイアンマンモードやサバイバルモードと相性が良いでしょう。\n \n
+%c[pda_white]• %c[ui_gray_1]すべてのマップのロックが解除される\n
+%c[ui_red]• %c[ui_gray_1]ストーリーモードには対応していない</text>
+  </string>
+  <string id="st_mm_ck_warfare_desc">
+    <text>%c[ui_8]STALKERのA-Lifeシステムの自由度を高め、よりダイナミックなゾーンを実現します。\n拠点や領地の所有権が変化しやすくなり、衛生兵、トレーダー、技術者なども交換可能になります。\n自分の派閥を率いて周辺地域を占領し、ゾーンの支配権を握ることができるでしょう。\n \n
+%c[pda_white]• %c[ui_gray_1]PDAから自分の派閥を指揮することができる\n
+%c[ui_red]• %c[ui_gray_1]ストーリーモードには対応していない\n
+%c[ui_red]• %c[ui_gray_1]サバイバルモードには対応していない</text>
+  </string>
+  <string id="st_mm_ck_campfire_desc">
+    <text>%c[ui_red]GAMMAではチェックを外してください\nBetter Campfire Savesがこれを処理します\n</text>
+  </string>
+  <string id="st_mm_ck_conditions_desc">
+    <text>%c[ui_8]以下の状況でセーブができなくなります:\n
+%c[ui_red]• %c[ui_gray_1]負傷している場合\n
+%c[ui_red]• %c[ui_gray_1]出血している場合\n
+%c[ui_red]• %c[ui_gray_1]放射線の影響を受けている場合\n
+%c[ui_red]• %c[ui_gray_1]敵と戦闘中の場合\n
+%c[ui_red]• %c[ui_gray_1]エミッションや精神波の嵐が発生している場合\n \n
+%c[pda_white]• %c[ui_gray_1]このモードは各モードに対応している</text>
+  </string>
+  <string id="st_mm_ck_routes_desc">
+    <text>%c[ui_8]初期状態では、他のマップへの道はほとんど隠されています。隠された道は、ゲームプレイを通して様々な方法で発見する必要があります。\n有効にすると、ゲームの開始時にすべてのマップのロックが解除されます。</text>
+  </string>
+  <string id="st_mm_list_hardcore_lives_desc">
+    <text>%c[ui_8]アイアンマンモードの追加機能で、ゲームを開始する際に持っているライフの数を設定できます。\n死亡するとライフを1つ失います。\nライフが尽きると、アイアンマンモードで作成したキャラクターのセーブデータはすべて消去されます。\n \n
+%c[pda_white]• %c[ui_gray_1]アイアンマンモードで利用可能</text>
+  </string>
+  <string id="st_mm_list_hardcore_regen_desc">
+    <text>%c[ui_8]アイアンマンモードの追加機能で、追加のライフが付与されるまでの日数を設定できます。\n \n
+%c[pda_white]• %c[ui_gray_1]寝ている時間はカウントされない\n
+%c[pda_white]• %c[ui_gray_1]アイアンマンモードで利用可能</text>
+  </string>
+  <string id="st_mm_list_timer_desc">
+    <text>%c[ui_8]ゲームのセーブに時間制限が追加されるモード。\n一度セーブを行うと、一定時間が経過するまで次のセーブを行うことができなくなります。\n \n
+%c[pda_white]• %c[ui_gray_1]タイマーモードは各モードに対応している</text>
+  </string>
+
+<!--
+	UNUSED
+-->
+
+  <string id="st_mm_box_faction_desc">
+    <text>%c[ui_gray_1]%s 能力。</text>
+  </string>
+  <string id="st_mm_box_icon_desc">
+    <text>%c[ui_gray_1]キャラクターの顔写真。</text>
+  </string>
+  <string id="st_mm_list_map_desc">
+    <text>%c[ui_gray_1]ニューゲーム時の場所を選択。</text>
+  </string>
+  <string id="st_mm_ck_reset_desc">
+    <text>%c[ui_gray_1]インベントリのリセット。</text>
+  </string>
+	
+<!--
+	HEADERS
+-->
+
+  <string id="st_mm_new_game_character">
+    <text>キャラクター</text>
+  </string>
+  <string id="st_mm_new_game_faction">
+    <text>派閥を選択</text>
+  </string>
+  <string id="st_mm_new_game_icon">
+    <text>見た目を選択</text>
+  </string>
+  <string id="st_mm_new_game_options">
+    <text>オプション</text>
+  </string>
+  <string id="st_mm_new_game_inventory">
+    <text>持ち物</text>
+  </string>
+  <string id="st_mm_new_game_loadout">
+    <text>装備</text>
+  </string>
+  <string id="st_mm_new_game_name">
+    <text>名前:</text>
+  </string>
+  <string id="st_mm_new_game_faction_2">
+    <text>派閥:</text>
+  </string>
+  <string id="st_mm_new_game_money">
+    <text>所持金:</text>
+  </string>
+  <string id="st_mm_new_game_points_left">
+    <text>残りのポイント:</text>
+  </string>
+  <string id="st_mm_new_game_points_used">
+    <text>使用ポイント:</text>
+  </string>
+  <string id="ui_st_random_location">
+    <text>ランダムな場所</text>
+  </string>
+  <string id="st_mm_new_game_relations">
+    <text>他の派閥との関係:</text>
+  </string>
+  <string id="st_mm_new_game_description">
+    <text>派閥の説明:</text>
+  </string>
+  <string id="st_mm_new_game_points">
+    <text>ポイント</text>
+  </string>
+  <string id="st_mm_new_game_essential">
+    <text>必需品</text>
+  </string>
+	
+	<!-- Hint -->
+  <string id="st_mm_itm_desc_unknown">
+    <text>利用可能な情報がない</text>
+  </string>
+	
+	<!-- Options -->
+  <string id="st_cap_check_warfare">
+    <text>派閥戦争モード</text>
+  </string>
+  <string id="st_cap_check_drx">
+    <text>ドクターXのクエストライン</text>
+  </string>
+  <string id="st_cap_check_campfire">
+    <text>（無効推奨）</text>
+  </string>
+  <string id="st_cap_check_conditions">
+    <text>苦痛モード</text>
+  </string>
+  <string id="st_cap_list_timer">
+    <text>タイマーモード</text>
+  </string>
+  <string id="st_cap_check_routes">
+    <text>全マップのロック解除</text>
+  </string>
+  <string id="st_cap_list_hardcore_lives">
+    <text>アイアンマンモードのライフ数</text>
+  </string>
+  <string id="st_cap_list_hardcore_regen">
+    <text>ライフを回復する日数</text>
+  </string>
+  <string id="st_cap_list_difficulty">
+    <text>ゲームプレイ難易度</text>
+  </string>
+  <string id="st_cap_list_economy">
+    <text>ゲーム進行難易度</text>
+  </string>
+  <string id="st_econ_1">
+    <text>ツーリスト</text>
+  </string>
+  <string id="st_econ_2">
+    <text>スカベンジャー</text>
+  </string>
+  <string id="st_econ_3">
+    <text>サバイバリスト</text>
+  </string>
+  <string id="st_diff_1">
+    <text>ルーキー</text>
+  </string>
+  <string id="st_diff_2">
+    <text>ストーカー</text>
+  </string>
+  <string id="st_diff_3">
+    <text>ベテラン</text>
+  </string>
+  <string id="st_diff_4">
+    <text>マスター</text>
+  </string>
+  <string id="st_off">
+    <text>オフ</text>
+  </string>
+  <string id="st_new_game_min">
+    <text>分</text>
+  </string>
+  <string id="st_new_game_mins">
+    <text>分</text>
+  </string>
+  <string id="st_new_game_hour">
+    <text>時</text>
+  </string>
+  <string id="st_new_game_hours">
+    <text>時間</text>
+  </string>
+  <string id="st_new_game_day">
+    <text>日</text>
+  </string>
+  <string id="st_new_game_days">
+    <text>日</text>
+  </string>
+  <string id="st_new_game_life">
+    <text>ライフ</text>
+  </string>
+  <string id="st_new_game_lives">
+    <text>ライフ</text>
+  </string>
+	
+<!--
+	BUTTONS
+-->
+
+  <string id="st_mm_btn_new_game_faction">
+    <text>派閥</text>
+  </string>
+  <string id="st_mm_btn_new_game_icon">
+    <text>見た目</text>
+  </string>
+  <string id="st_mm_btn_new_game_back">
+    <text>戻る</text>
+  </string>
+  <string id="st_mm_btn_new_game_submit">
+    <text>開始</text>
+  </string>
+  <string id="st_mm_btn_new_game_rand">
+    <text>ランダム</text>
+  </string>
+
+<!--
+	DISCORD
+-->
+
+  <string id="st_hardcore_lives_left">
+    <text>コンティニュー回数</text>
+  </string>
+  <string id="st_hardcore_lives_left_single">
+    <text>コンティニュー回数</text>
+  </string>
+  <string id="st_player_dead">
+    <text>死亡</text>
+  </string>
+  <string id="st_main_menu">
+    <text>メインメニュー</text>
+  </string>
+  <string id="st_loading">
+    <text>ロード中</text>
+  </string>
+  <string id="st_pause_menu">
+    <text>ポーズメニュー</text>
+  </string>
+  <string id="st_cap_check_freeplay">
+    <text>フリープレイモード</text>
+  </string>
+  <string id="st_azazel_lives_possessed">
+    <text>乗り移ってからのライフ</text>
+  </string>
+  <string id="st_azazel_lives_possessed_single">
+    <text>乗り移ってからのライフ</text>
+  </string>
+  <string id="st_godmode">
+    <text>ゴッドモード</text>
+  </string>
+</string_table>

@@ -1,0 +1,8 @@
+<string_table>
+    <string id="st_fetch_count_have">
+        <text>%$clr_txtインベントリ内: %$clr_numberx$count</text>
+    </string>
+	<string id="st_fetch_count_in_stashes">
+        <text>%$clr_txt周辺の隠し場所: %$clr_numberx$count</text>
+    </string>
+</string_table>

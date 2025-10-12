@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+<!--
+	KITS/TOOLS
+-->
+
+	<string id="st_itm_repairkit_tier_1_name">
+		<text>ベーシックツール</text>
+	</string>
+	<string id="st_itm_basickit_name">
+		<text>ベーシックツール</text>
+	</string>
+	<string id="st_itm_basickit_descr">
+		<text>レンチ、ペンチ、ドライバーなどを備えたシンプルな工具セット。銃や防護スーツ、電子機器の修理作業に使用する。簡単な修理には十分だが、高度な改造や精密機器には向いていない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]技術者の作業台で使用できる\n
+		%c[d_orange] • %c[pda_white]注意: %c[ui_gray_1]技術者が銃やスーツの改造に使用する\n
+		</text>
+	</string>
+	<string id="st_itm_repairkit_tier_2_name">
+		<text>アドバンスドツール</text>
+	</string>
+	<string id="st_itm_advancedkit_name">
+		<text>アドバンスドツール</text>
+	</string>
+	<string id="st_itm_advancedkit_descr">
+		<text>特殊ドライバー、はんだごて、診断メーターなどを備えた本格的な精密工具セット。高度な銃火器の修理や防護スーツの強化、各種装備の調整に最適で、熟練のストーカーや技術者に重宝されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]技術者の作業台で使用できる\n
+		%c[d_orange] • %c[pda_white]注意: %c[ui_gray_1]技術者が銃やスーツの改造に使用する\n
+		</text>
+	</string>
+	<string id="st_itm_repairkit_tier_3_name">
+		<text>エキスパートツール</text>
+	</string>
+	<string id="st_itm_expertkit_name">
+		<text>エキスパートツール</text>
+	</string>
+	<string id="st_itm_expertkit_descr">
+		<text>マイクロ溶接機、ノギス、高性能診断装置などを備えた希少な専門工具セット。扱いには熟練の技術が必要だが、銃や防護スーツ、各種装備の複雑な改造や高度な修理を可能にする。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]技術者の作業台で使用できる\n
+		%c[d_orange] • %c[pda_white]注意: %c[ui_gray_1]技術者が銃やスーツの改造に使用する\n
+		</text>
+	</string>
+	<string id="st_itm_drugkit">
+		<text>薬品製造ツール</text>
+	</string>
+	<string id="st_itm_drugkit_descr">
+		<text>計量容器、バーナー、試薬瓶、各種薬剤などを備えた携帯式の化学合成キット。野外で薬品や医療品を調合できるため、興奮剤や治療薬、強化剤を自作するストーカーにとっては欠かせない道具だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]技術者の作業台で使用できる\n
+		</text>
+	</string>
+	<string id="st_itm_ammokit">
+		<text>ガンスミスツール</text>
+	</string>
+	<string id="st_itm_ammokit_descr">
+		<text>銃の整備や改造、部品の製作に特化した工具セット。やすり、ピンポンチ、トルクレンチ、精密クリーニング用品などが揃っており、十分な知識と経験があれば、損傷した弾薬の再利用や高性能な弾薬の製造にも利用できる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
+		%c[d_orange] • %c[pda_white]技術者の作業台で使用できる\n
+		</text>
+	</string>
+
+<!--
+	UTILITY
+-->
+
+	<string id="st_binocular_name">
+		<text>双眼鏡</text>
+	</string>
+	<string id="st_binocular_descr">
+		<text>ウクライナ軍で支給されていた頑丈な双眼鏡。遠くのアノマリーや敵勢力の拠点、安全なルートを偵察するために使用する。ズーム機能を備えており、危険を事前に察知することで、不意に飛び込むのを防ぐことができる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]双眼鏡スロットに装備できる\n
+		</text>
+	</string>
+	<string id="st_swiss">
+		<text>スイスナイフ</text>
+	</string>
+	<string id="st_swiss_descr">
+		<text>ナイフやドライバーなどの基本的なツールが一つになった多機能ツール。簡単な修理や装備の分解、切断作業、サバイバル用途まで幅広く活躍する。軽くて丈夫で、ポケットに収まる心強い相棒だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム分解ツール\n
+		</text>
+	</string>
+	<string id="st_grooming">
+		<text>グルーミングキット</text>
+	</string>
+	<string id="st_grooming_descr">
+		<text>髭剃り、くし、はさみ、歯ブラシなどを備えたナイロン製のバッグ。身だしなみを整えて気持ちを落ち着かせるための道具だが、野外での装備のメンテナンスに使うストーカーもいる。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アイテム分解ツール\n
+		</text>
+	</string>
+	<string id="st_bolts_pack">
+		<text>投げ物が入った袋</text>
+	</string>
+	<string id="st_bolts_pack_descr">
+		<text>ボルトや空薬莢が入った小さな袋。アノマリーの位置を探る機器がないときに役立つ、安価で頼れる代用品。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]ボルトや空薬莢が20~30個入っている\n
+		</text>
+	</string>
+
+<!--
+	ARTEFACT HANDLING
+-->
+
+<!-- UNUSED
+	<string id="st_lead_box_name">
+		<text>Lead-lined Metal Container (Empty)</text>
+	</string>
+	<string id="st_lead_box_descr">
+		<text>The LLMC is a simple metal box with thick walls and foam inserts as well as a heavy, pressure-sealing lid. Specifically designed for transporting artefacts within the Zone. Stops all radiation, thus ensuring user safety when in possession of artefacts. However, the device cannot be attached to the belt, stopping any positive or negative properties from being applied.\n \n
+		%c[pda_white]特性:\n
+		%c[ui_cyan] • %c[pda_white] artefact storage device\n
+		%c[ui_cyan] • %c[pda_white] Capacity: %c[ui_gray_1]1\n \n
+		%c[ui_red]WARNING: %c[ui_gray_1]You must remove artefacts from the container prior to selling them.\n \n
+		</text>
+	</string>
+
+	<string id="st_lead_box_half_name">
+		<text>Lead-lined Metal Container (Half-filled)</text>
+	</string>
+	<string id="st_lead_box_half_descr">
+		<text>The LLMC is a simple metal box with thick walls and foam inserts as well as a heavy, pressure-sealing lid. Specifically designed for transporting artefacts within the Zone. Stops all radiation, thus ensuring user safety when in possession of artefacts. However, the device cannot be attached to the belt, stopping any positive or negative properties from being applied.\n \n
+		%c[pda_white]特性:\n
+		%c[ui_cyan] • %c[pda_white] artefact storage device\n
+		%c[ui_cyan] • %c[pda_white] Capacity: %c[ui_gray_1]1\n \n
+		%c[ui_red]WARNING: %c[ui_gray_1]You must remove artefacts from the container prior to selling them.\n \n
+		</text>
+	</string>
+
+	<string id="st_lead_box_closed_name">
+		<text>Lead-lined Metal Container (Full)</text>
+	</string>
+	<string id="st_lead_box_closed_descr">
+		<text>The LLMC is a simple metal box with thick walls and foam inserts as well as a heavy, pressure-sealing lid. Specifically designed for transporting artefacts within the Zone. Stops all radiation, thus ensuring user safety when in possession of artefacts. However, the device cannot be attached to the belt, stopping any positive or negative properties from being applied.\n \n
+		%c[pda_white]特性:\n
+		%c[ui_cyan] • %c[pda_white] artefact storage device\n
+		%c[ui_cyan] • %c[pda_white] Capacity: %c[ui_gray_1]1\n \n
+		%c[ui_red]WARNING: %c[ui_gray_1]You must remove artefacts from the container prior to selling them.\n \n
+		</text>
+	</string>
+-->
+
+<!--
+	SLEEPING
+-->
+
+	<string id="st_itm_sleepbag_name">
+		<text>寝袋（設置可能）</text>
+	</string>
+	<string id="st_itm_sleepbag_descr">
+		<text>寝袋が収められた、軽量で持ち運びやすい収納バッグ。寝袋は寒い夜でも快適に眠れるように作られており、即席の野営地で必要な断熱性を確保し、雨風からしっかりと身を守ってくれる。\n \n
+		%c[ui_red]危険: %c[ui_gray_1]屋外での睡眠は捕食者を引き寄せるおそれがある。\n
+		放射線から身を守ることはできない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]寝袋の設置、睡眠\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]回収の際は寝袋の収納バッグを使用する\n
+		</text>
+	</string>
+	<string id="st_compression_bag">
+		<text>寝袋（収納バッグ）</text>
+	</string>
+	<string id="st_compression_bag_descr">
+		<text>寝袋を収納するための空のバッグ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]寝袋の回収\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]寝袋の近くで使用する\n
+		</text>
+	</string>
+	<string id="st_itm_tent_name">
+		<text>キャンプ用テント（設置可能）</text>
+	</string>
+	<string id="st_itm_tent_descr">
+		<text>キャンプ用テントが収められた、持ち運べる収納バッグ。テントは長期遠征に欠かせない装備で、雨風から身を守り、ゾーンの中でも一時的な安全とプライバシーを確保できる。\n \n
+		%c[ui_red]危険: %c[ui_gray_1]屋外での睡眠は捕食者を引き寄せるおそれがある。\n
+		放射線から身を守ることはできない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]テントの設置\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]回収の際はテントの収納バッグを使用する\n
+		</text>
+	</string>
+	<string id="st_itm_tent_bag">
+		<text>キャンプ用テント（収納バッグ）</text>
+	</string>
+	<string id="st_itm_tent_bag_descr">
+		<text>テントを収納するための空のバッグ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]テントの回収\n
+		%c[d_cyan] • %c[pda_white]注意: %c[ui_gray_1]テントの近くで使用する\n
+		</text>
+	</string>
+
+<!--
+	OTHER
+-->
+
+	<string id="st_itm_mapkit">
+		<text>アノマリーマップ</text>
+	</string>
+	<string id="st_itm_mapkit_descr">
+		<text>目印が書き込まれ、複数の手書きのメモが添付された大型の地図。持ち主はアーティファクトハンターだったようだ。\n \n
+		</text>
+	</string>
+	<string id="st_itm_mapkit_1">
+		<text>アノマリーマップ（陸軍倉庫）</text>
+	</string>
+	<string id="st_itm_mapkit_2">
+		<text>アノマリーマップ（ヤンター）</text>
+	</string>
+	<string id="st_itm_mapkit_3">
+		<text>アノマリーマップ（レッドフォレスト）</text>
+	</string>
+	<string id="st_itm_mapkit_4">
+		<text>アノマリーマップ（デッドシティ）</text>
+	</string>
+	<string id="st_itm_mapkit_5">
+		<text>アノマリーマップ（トラック墓地）</text>
+	</string>
+	<string id="st_itm_mapkit_6">
+		<text>アノマリーマップ（ジュピター）</text>
+	</string>
+	<string id="st_itm_mapkit_7">
+		<text>アノマリーマップ（ザトン）</text>
+	</string>
+	<string id="st_itm_mapkit_8">
+		<text>アノマリーマップ（ガベージ）</text>
+	</string>
+	<string id="st_itm_mapkit_9">
+		<text>アノマリーマップ（アグロプロム）</text>
+	</string>
+	<string id="st_ammo_box">
+		<text>弾薬箱</text>
+	</string>
+	<string id="st_ammo_box_descr">
+		<text>信頼できる銃はストーカーにとって命綱だ。そのため、日々の点検は欠かせない。戦闘中に作動不良を起こさないよう、弾薬の数を数えたり、弾を拭いて手入れする者は多い。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_itm_gunsmith_toolkit">
+		<text>ガンスミスキット</text>
+	</string>
+	<string id="st_itm_gunsmith_toolkit_descr">
+		<text>銃の整備に必要なオイルや工具が入ったキット。探索中の基本的なメンテナンスに役立つが、持ち運びにはやや重い。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]修理する装備にこのアイテムをドラッグ&amp;ドロップする\n
+		</text>
+	</string>
+	<string id="st_itm_outfit_toolkit">
+		<text>裁縫キット</text>
+	</string>
+	<string id="st_itm_outfit_toolkit_descr">
+		<text>衣類の修繕に使える裁縫道具や予備素材が入った簡易キット。スーツの裂け目やほつれの補修に役立つ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]修理する装備にこのアイテムをドラッグ&amp;ドロップする\n
+		</text>
+	</string>
+
+<!--
+	UNUSED
+-->
+
+	<string id="st_itm_artefact_container_name">
+		<text>アーティファクト容器</text>
+	</string>
+	<string id="st_con_checker_name">
+		<text>装備の耐久値が書かれた紙</text>
+	</string>
+	<string id="st_con_checker_descr">
+		<text>自分の装備の耐久値が記された紙切れ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]装備の耐久値を確認できる\n
+		</text>
+	</string>
+	<string id="st_crowbar">
+		<text>バール</text>
+	</string>
+	<string id="st_crowbar_descr">
+		<text>錠前を壊したり、扉をこじ開けるのに最適な道具。
+\nとあるストーカーが「ブラック・メサの所有物」と刻まれたバールを武器として使っていたという噂がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]使用回数の制限なし\n
+		</text>
+	</string>
+	<string id="st_itm_lantern_name">
+		<text>LEDランタン</text>
+	</string>
+	<string id="st_itm_lantern_desc">
+		<text>リチウムイオン電池で点灯する、頑丈で明るい大型のランタン。\n \n
+		%c[pda_white]特性:\n
+		</text>
+	</string>
+	<string id="st_lighter">
+		<text>ライター</text>
+	</string>
+	<string id="st_lighter_descr">
+		<text>ゾーンで生き延びるには、防水性があり確実に火を起こせる道具が必要不可欠だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]調理、喫煙、焚き火\n
+		</text>
+	</string>
+	<string id="st_lighter_refillers_descr">
+		<text>使えないライターを持ち歩いても意味はない。ベテランのストーカーは、ゾーン深部への遠征前に必ず燃料を補充するのを習慣にしている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]ライターへの燃料補給\n
+		</text>
+	</string>
+	<string id="st_lighter_refiller5">
+		<text>ライターオイル（残り133ml）</text>
+	</string>
+	<string id="st_lighter_refiller4">
+		<text>ライターオイル（残り107ml）</text>
+	</string>
+	<string id="st_lighter_refiller3">
+		<text>ライターオイル（残り80ml）</text>
+	</string>
+	<string id="st_lighter_refiller2">
+		<text>ライターオイル（残り54ml）</text>
+	</string>
+	<string id="st_lighter_refiller1">
+		<text>ライターオイル（残り27ml）</text>
+	</string>
+	<string id="st_drugs_kit">
+		<text>薬剤調合キット</text>
+	</string>
+	<string id="st_drugs_kit_descr">
+		<text>薬の管理や簡単な調合に使う、錠剤や薬草入りの小袋を収めた携帯用ケース。\n \n
+		%c[pda_white]特性:\n
+		%c[ui_red] • %c[pda_white]使用不可\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,77 @@
+<string_table>
+    <string id="ui_mcm_menu_haru_quick_action_wheel_mcm">
+        <text>Quick Action Wheel</text>
+    </string>
+
+    <string id="ui_haru_add_item_to_qaw">
+        <text>ホイールに登録</text>
+    </string>
+    <string id="ui_haru_qaw_override">
+        <text>オーバーライド</text>
+    </string>
+
+    <string id="ui_mcm_qaw_controls">
+        <text>操作</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_hold">
+        <text>ホールド操作</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_hold_desc">
+        <text>ボタンを押している間にクイックアクションホイールが開くようになります。</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_keybind">
+        <text>クイックアクションホイールを表示 (QAW)</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_controls_override_ammo_wheel">
+        <text>弾薬ホイールメニューをQAWに置き換える</text>
+    </string>
+
+    <string id="ui_mcm_qaw_tabs">
+        <text>タブ設定</text>
+    </string>
+    <string id="ui_mcm_qaw_devices">
+        <text>デバイスタブ</text>
+    </string>
+    <string id="ui_mcm_qaw_grenades">
+        <text>グレネードタブ</text>
+    </string>
+    <string id="ui_mcm_qaw_attachments">
+        <text>アタッチメントタブ</text>
+    </string>
+    <string id="ui_mcm_qaw_food">
+        <text>食料タブ</text>
+    </string>
+    <string id="ui_mcm_qaw_meds">
+        <text>医薬品タブ</text>
+    </string>
+    <string id="ui_mcm_qaw_ammo">
+        <text>動的な弾薬（マガジン）タブ</text>
+    </string>
+    <string id="ui_mcm_qaw_slots">
+        <text>動的なデバイススロットタブ</text>
+    </string>
+    <string id="ui_mcm_qaw_enabled">
+        <text>有効</text>
+    </string>
+    <string id="ui_mcm_qaw_tab">
+        <text>タブ</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_tabs_tab_count">
+        <text>タブの数</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_tabs_tab_slot">
+        <text>タブ毎の最大アイテム数</text>
+    </string>
+    <string id="ui_mcm_qaw_misc">
+        <text>その他の設定</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_misc_slowmo">
+        <text>ホイールメニュー表示中に時間をスローにする</text>
+    </string>
+    <string id="ui_mcm_haru_quick_action_wheel_mcm_misc_slowmo_factor">
+        <text>スロー倍率</text>
+    </string>
+     <string id="ui_mcm_haru_quick_action_wheel_mcm_misc_old_mags_compat">
+        <text>古いバージョンのMags Reduxとの互換性を有効化</text>
+    </string>
+</string_table>

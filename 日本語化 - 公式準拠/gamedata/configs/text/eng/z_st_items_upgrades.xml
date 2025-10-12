@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Upgrading Parts
+-->
+
+<string_table>
+
+<!-- Outfits -->
+	<string id="st_upgr_o_health">
+		<text>スーツユーティリティパッケージ「HPs-1」</text>
+	</string>
+	<string id="st_upgr_o_health_desc">
+		<text>様々な種類のインジェクターと滅菌液保管庫を備えた機械装置が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のスーツユーティリティパッケージと組み合わせることで、スーツのユーティリティアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_bleed">
+		<text>スーツユーティリティパッケージ「KrV」</text>
+	</string>
+	<string id="st_upgr_o_bleed_desc">
+		<text>様々な種類のインジェクターと滅菌液保管庫を備えた機械装置が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のスーツユーティリティパッケージと組み合わせることで、スーツのユーティリティアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+    <string id="st_upgr_o_power">
+		<text>スーツユーティリティパッケージ「UPRz」</text>
+	</string>
+	<string id="st_upgr_o_power_desc">
+		<text>各種部品、固定用ストラップ、その他の小物が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のスーツユーティリティパッケージと組み合わせることで、スーツのユーティリティアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+    
+	<string id="st_upgr_o_carry">
+		<text>スーツユーティリティパッケージ「OSEL」</text>
+	</string>
+	<string id="st_upgr_o_carry_desc">
+		<text>各種部品、固定用ストラップ、その他の小物が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のスーツユーティリティパッケージと組み合わせることで、スーツのユーティリティアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_arty">
+		<text>スーツユーティリティパッケージ「APTe」</text>
+	</string>
+	<string id="st_upgr_o_arty_desc">
+		<text>各種部品、固定用ストラップ、その他の小物が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のスーツユーティリティパッケージと組み合わせることで、スーツのユーティリティアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_run">
+		<text>スーツユーティリティパッケージ「DVgt」</text>
+	</string>
+	<string id="st_upgr_o_run_desc">
+		<text>高度な油圧モーターが含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のスーツユーティリティパッケージと組み合わせることで、スーツのユーティリティアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	
+	<string id="st_upgr_o_armor">
+		<text>防弾素材パッケージ「BRna」</text>
+	</string>
+	<string id="st_upgr_o_armor_desc">
+		<text>ケブラー、チタン、ベリル、アルミニウム、ポリマー、カーボンファイバーなど、様々な防弾プレートやアンダーレイヤーが含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の防弾素材パッケージと組み合わせることで、スーツのアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_damage">
+		<text>防弾素材パッケージ「PzDH」</text>
+	</string>
+	<string id="st_upgr_o_damage_desc">
+		<text>ケブラー、チタン、ベリル、アルミニウム、ポリマー、カーボンファイバーなど、様々な防弾プレートやアンダーレイヤーが含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の防弾素材パッケージと組み合わせることで、スーツのアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_durability">
+		<text>防弾素材パッケージ「PRCh」</text>
+	</string>
+	<string id="st_upgr_o_durability_desc">
+		<text>ケブラー、チタン、ベリル、アルミニウム、ポリマー、カーボンファイバーなど、様々な防弾プレートやアンダーレイヤーが含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の防弾素材パッケージと組み合わせることで、スーツのアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_weight">
+		<text>防弾素材パッケージ「LGkY」</text>
+	</string>
+	<string id="st_upgr_o_weight_desc">
+		<text>ケブラー、チタン、ベリル、アルミニウム、ポリマー、カーボンファイバーなど、様々な防弾プレートやアンダーレイヤーが含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の防弾素材パッケージと組み合わせることで、スーツのアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+
+	<string id="st_upgr_o_chem">
+		<text>CBRN素材パッケージ「CHM-1」</text>
+	</string>
+	<string id="st_upgr_o_chem_desc">
+		<text>高温、電圧、及びCBRN（化学、生物、放射線、核）脅威に耐性のある様々な衣類素材が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のCBRN素材パッケージと組み合わせることで、スーツの環境保護アップグレードキットを作成することができる。\n \n
+        </text>
+	</string>
+	
+	<string id="st_upgr_o_burn">
+		<text>CBRN素材パッケージ「KHMy」</text>
+	</string>
+	<string id="st_upgr_o_burn_desc">
+		<text>高温、電圧、及びCBRN（化学、生物、放射線、核）脅威に耐性のある様々な衣類素材が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のCBRN素材パッケージと組み合わせることで、スーツの環境保護アップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_shock">
+		<text>CBRN素材パッケージ「MSCh」</text>
+	</string>
+	<string id="st_upgr_o_shock_desc">
+		<text>高温、電圧、及びCBRN（化学、生物、放射線、核）脅威に耐性のある様々な衣類素材が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のCBRN素材パッケージと組み合わせることで、スーツの環境保護アップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_psi">
+		<text>CBRN素材パッケージ「MZg」</text>
+	</string>
+	<string id="st_upgr_o_psi_desc">
+		<text>高温、電圧、及びCBRN（化学、生物、放射線、核）脅威に耐性のある様々な衣類素材が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のCBRN素材パッケージと組み合わせることで、スーツの環境保護アップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_o_rad">
+		<text>CBRN素材パッケージ「CHst」</text>
+	</string>
+	<string id="st_upgr_o_rad_desc">
+		<text>高温、電圧、及びCBRN（化学、生物、放射線、核）脅威に耐性のある様々な衣類素材が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のCBRN素材パッケージと組み合わせることで、スーツの環境保護アップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+
+<!-- Weapons -->
+
+	<string id="st_upgr_w_reliability">
+		<text>小火器チューニングパッケージ「D-11」</text>
+	</string>
+	<string id="st_upgr_w_reliability_desc">
+		<text>トリガーメカニズム、ボルト、キャリア、リコイルスプリング、ガイドロッドなど、様々な銃用の部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の小火器チューニングパッケージと組み合わせることで、銃器のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_w_recoil">
+		<text>小火器チューニングパッケージ「K-01」</text>
+	</string>
+	<string id="st_upgr_w_recoil_desc">
+		<text>トリガーメカニズム、ボルト、キャリア、リコイルスプリング、ガイドロッドなど、様々な銃用の部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の小火器チューニングパッケージと組み合わせることで、銃器のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_w_calibre">
+		<text>小火器チューニングパッケージ「C-22」</text>
+	</string>
+	<string id="st_upgr_w_calibre_desc">
+		<text>トリガーメカニズム、ボルト、キャリア、リコイルスプリング、ガイドロッドなど、様々な銃用の部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の小火器チューニングパッケージと組み合わせることで、銃器のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_rpm">
+		<text>小火器チューニングパッケージ「R-39」</text>
+	</string>
+	<string id="st_upgr_w_rpm_desc">
+		<text>トリガーメカニズム、ボルト、キャリア、リコイルスプリング、ガイドロッドなど、様々な銃用の部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の小火器チューニングパッケージと組み合わせることで、銃器のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_w_firemode">
+		<text>小火器チューニングパッケージ「F-23」</text>
+	</string>
+	<string id="st_upgr_w_firemode_desc">
+		<text>トリガーメカニズム、ボルト、キャリア、リコイルスプリング、ガイドロッドなど、様々な銃用の部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他の小火器チューニングパッケージと組み合わせることで、銃器のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+
+	<string id="st_upgr_w_weight">
+		<text>小火器チューニングパッケージ「W-02」</text>
+	</string>
+	<string id="st_upgr_w_weight_desc">
+		<text>様々な銃のグリップ、コンペンセイター、交換用の銃身、ポリマー製の装飾部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_w_speed">
+		<text>小火器チューニングパッケージ「V-99」</text>
+	</string>
+	<string id="st_upgr_w_speed_desc">
+		<text>様々な銃のグリップ、コンペンセイター、交換用の銃身、ポリマー製の装飾部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_w_magazine">
+		<text>小火器チューニングパッケージ「M-45」</text>
+	</string>
+	<string id="st_upgr_w_magazine_desc">
+		<text>様々な銃のグリップ、コンペンセイター、交換用の銃身、ポリマー製の装飾部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_w_dispersion">
+		<text>アフターマーケットパーツパッケージ「D-19」</text>
+	</string>
+	<string id="st_upgr_w_dispersion_desc">
+		<text>様々な銃のグリップ、コンペンセイター、交換用の銃身、ポリマー製の装飾部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	<string id="st_upgr_w_inertion">
+		<text>小火器チューニングパッケージ「H-7」</text>
+	</string>
+	<string id="st_upgr_w_inertion_desc">
+		<text>様々な銃のグリップ、コンペンセイター、交換用の銃身、ポリマー製の装飾部品が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n
+		</text>
+	</string>
+	
+	
+	<string id="st_upgr_w_muffle">
+		<text>銃器用光学部品とマウントのパッケージ「SPS」</text>
+	</string>
+	<string id="st_upgr_w_muffle_desc">
+		<text>各種マウントブラケット、銃身にネジ切りを加えるための工具、様々な品質の光学照準器が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n \n
+        </text>
+	</string>
+	
+	<string id="st_upgr_w_grenade_mount">
+		<text>銃器用光学部品とマウントのパッケージ「Gzh-L」</text>
+	</string>
+	<string id="st_upgr_w_grenade_mount_desc">
+		<text>各種マウントブラケット、銃身にネジ切りを加えるための工具、様々な品質の光学照準器が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n \n
+        </text>
+	</string>
+	
+	<string id="st_upgr_w_scope">
+		<text>銃器用光学部品とマウントのパッケージ「OByE」</text>
+	</string>
+	<string id="st_upgr_w_scope_desc">
+		<text>各種マウントブラケット、銃身にネジ切りを加えるための工具、様々な品質の光学照準器が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n \n
+        </text>
+	</string>
+	
+	<string id="st_upgr_w_scope_mount">
+		<text>銃器用光学部品とマウントのパッケージ「MTt」</text>
+	</string>
+	<string id="st_upgr_w_scope_mount_desc">
+		<text>各種マウントブラケット、銃身にネジ切りを加えるための工具、様々な品質の光学照準器が含まれたパッケージ。\n
+		このパッケージは単体では使用できないが、同じ品質の他のアフターマーケットパッケージと組み合わせることで、銃本体のアップグレードキットを作成することができる。\n \n
+        </text>
+	</string>
+
+</string_table>

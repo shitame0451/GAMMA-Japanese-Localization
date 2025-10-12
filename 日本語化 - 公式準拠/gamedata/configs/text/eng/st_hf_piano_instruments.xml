@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="st_electric_piano_name">
+		<text>電子ピアノ</text>
+	</string>
+    <string id="st_flute_name">
+		<text>フルート</text>
+	</string>
+    <string id="st_piano_name">
+		<text>ピアノ</text>
+	</string>
+    <string id="st_saxophone_name">
+		<text>サクソフォーン</text>
+	</string>
+    <string id="st_strings_name">
+		<text>弦楽器</text>
+	</string>
+</string_table>

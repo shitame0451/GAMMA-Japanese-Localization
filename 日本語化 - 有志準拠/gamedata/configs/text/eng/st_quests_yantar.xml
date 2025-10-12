@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TEXT  STRINGS FOR TASKS ON YANTAR MAP -->
+
+<string_table>
+
+
+	<!-- STORYLINE TASK TEXT  STRINGS -->
+
+	<!-- Sakharov (Ecologist) Default Storyline Task -->
+
+	<string id="drx_sl_yan_stalker_sakharov_default_task_name">
+		<text>次のタスクに進む</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_default_task_text">
+		<text>次のタスクを引き受ける。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_default_task_about">
+		<text>どうした？ああ、そうだな！ストーカー、私の同僚を助けてもらいたい。
+\n早く行ってきてくれ！君の力が必要なんだ！</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_default_task_finish">
+		<text>幸運を、ストーカー。</text>
+	</string>
+
+	<!-- Sakharov (Ecologist) Research Documents Storyline Task -->
+
+	<string id="drx_sl_yan_stalker_sakharov_task_1_name">
+		<text>サハロフの研究文書</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_1_text">
+		<text>サハロフ教授の助手がミュータントの襲撃から逃げる際、研究文書を置き去りにしてしまったようだ。文書を回収し、サハロフに届けよう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_1_about">
+		<text>おお、来てくれて嬉しいよ。先ほど私の助手が現場から戻ってきたのだが、
+\nミュータントに襲われてノートを置いてきてしまったみたいでな。
+\n彼はもう戻りたくないようだが、あの調査内容が研究に必要なのだよ。
+\nストーカー、どうかそのノートを回収してきてもらいたい。
+\nやってくれるなら、手間に見合った報酬を喜んで渡そう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_1_finish">
+		<text>ありがとう、ストーカー！これは報酬だ、どうぞ受け取ってくれ。</text>
+	</string>
+
+	<!-- Sakharov (Ecologist) Abnormal Measurement Storyline Task -->
+
+	<string id="drx_sl_yan_stalker_sakharov_task_2_name">
+		<text>異常測定</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_2_text_0">
+		<text>サハロフ教授から異常な反応を示すアノマリーの測定に協力してほしいとの依頼があった。まずは紛失した$item_1を取り戻さなければ。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_2_text_1">
+		<text>サハロフ教授から異常な反応を示すアノマリーの測定に協力してほしいとの依頼があった。\n指定された場所に向かおう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_2_text_2">
+		<text>サハロフ教授から異常な反応を示すアノマリーの測定に協力してほしいとの依頼があった。\n$item_1を使って測定しよう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_2_text_3">
+		<text>サハロフ教授から異常な反応を示すアノマリーの測定に協力してほしいとの依頼があった。\n$item_1と記録した結果を彼に持っていこう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_2_about">
+		<text>ああ、よし、待っていたぞ！
+\n我々のスキャナーが特定のアノマリーから興味深い数値を検出していてね。
+\nそこへ行って、近くで測定をしてくれる経験豊富なストーカーが必要なんだ。
+\nこの装置を君に渡そう。若者よ、健闘を祈る。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_2_finish">
+		<text>よし、いいぞ！これで私の研究を始められる！ありがとう、ストーカー。君のおかげだ。</text>
+	</string>
+
+	<!-- Sakharov (Ecologist) Search Lab X-18 (Dark Valley) Storyline Task -->
+
+	<string id="drx_sl_yan_stalker_sakharov_task_3_name">
+		<text>X-18研究所を探索する</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_3_text">
+		<text>サハロフ教授は、ダークバレーのX-18研究所にある研究文書を必要としている。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_3_about">
+		<text>ああ、良いところに来てくれたな。君に頼みたい仕事があるんだ。
+\n以前、X-18研究所で重要な研究が行われていたのだが、研究データを入手できずにいる。
+\n君にはそのデータを回収してもらいたい。報酬はしっかり用意しているよ。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_3_finish">
+		<text>素晴らしい！ありがとう、ストーカー。</text>
+	</string>
+
+	<!-- Sakharov (Ecologist) Plant Anomaly Scanner (Red Forest) Storyline Task -->
+
+	<string id="drx_sl_yan_stalker_sakharov_task_4_name">
+		<text>「共生生物」アノマリー領域にスキャナーを設置する</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_text">
+		<text>サハロフ教授からレッドフォレストの「共生生物」アノマリー領域にアノマリースキャナーを設置することを頼まれた。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_text0">
+		<text>サハロフ教授からレッドフォレストの「共生生物」アノマリー領域にアノマリースキャナーを設置することを頼まれた。\nまずはアノマリースキャナーを入手しよう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_text1_0">
+		<text>サハロフ教授からレッドフォレストの「共生生物」アノマリー領域にアノマリースキャナーを設置することを頼まれた。\nスキャナーをアノマリー領域に持って行こう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_text1_1">
+		<text>サハロフ教授からレッドフォレストの「共生生物」アノマリー領域にアノマリースキャナーを設置することを頼まれた。\nスキャナーをアノマリー領域に持って行こう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_text2">
+		<text>サハロフ教授からレッドフォレストの「共生生物」アノマリー領域にアノマリースキャナーを設置することを頼まれた。\nスキャナーを設置しよう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_text3">
+		<text>サハロフ教授からレッドフォレストの「共生生物」アノマリー領域にアノマリースキャナーを設置することを頼まれた。\n設置が完了したことを彼に報告しよう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_about">
+		<text>この新型のスキャナーを見てくれ。我々は科学調査の際、アノマリー活動の調査に
+\nこういった装置を使用するんだ。ゾーンでも特に興味深いアノマリー領域が、
+\nレッドフォレストの奥深くにある。「共生生物」と呼ばれるアノマリー領域でね。
+\nこのスキャナーをそこに設置して、活動の様子をさらに詳しく調べたいと思っている。
+
+\n\n危険な場所だが、君のような優秀なストーカーなら問題ないだろう。
+\nどうかそこに設置してきてくれ、君の苦労にはしっかり報酬を渡そう。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_task_4_finish">
+		<text>ありがとう！これでこの現象の研究ができるよ！</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- CHANGE FACTIONS TASK TEXT  STRINGS -->
+
+	<!-- Sakharov (Ecologist Trader) Payoff Change Factions Task -->
+
+	<string id="drx_sl_yan_stalker_sakharov_cf_task_1_name">
+		<text>科学と官僚主義</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_cf_task_1_text">
+		<text>Ecologistに加わるには、公的な書類を揃えるための手間賃として17,000ルーブルをサハロフ教授に渡す必要がある。</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_cf_task_1_about">
+		<text>ああ･･････ そうだな、君なら優秀な現地調査員になれるだろう。
+\nしかし、必要な事務処理を終わらせるには、まだ色々と手続きがあってね。
+\nほら、何というか「やる気を出せるもの」がないとスムーズにはいかないのだよ。
+\n政府の連中がどういうものを欲しがるかは、君もよく分かっているだろう。
+
+\n\n正式な契約書、許可証、身分証･･････ すべて揃えるには17,000ルーブルが必要なんだ。
+\n特に、君が生きているうちに事務処理を終わらせたいのであればね。
+\nその金額を払う気があるなら、喜んで君を受け入れよう！</text>
+	</string>
+	<string id="drx_sl_yan_stalker_sakharov_cf_task_1_finish">
+		<text>素晴らしい！君は良い選択をしたな！Ecologistの新たな仲間として歓迎するよ。</text>
+	</string>
+
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+	<!-- DYNAMIC TASK TEXT  STRINGS -->
+
+	<!-- Semenov (Ecog Honcho) Research Hunt Task -->
+
+	<string id="yan_ecolog_semenov_task_1_name">
+		<text>セメノフの研究のために狩りをする</text>
+	</string>
+	<string id="yan_ecolog_semenov_task_1_text">
+		<text>助手のセメノフを先導して地域を回り、ミュータントの組織サンプルの採取と死体の分析をすることになった。</text>
+	</string>
+	<string id="yan_ecolog_semenov_task_1_about">
+		<text>組織サンプルの採取と分析のため、何匹かミュータントを倒してほしいんだ。
+\nそうだな･･････ 5匹の別々のミュータントが標的だ。私の命を君に委ねることになるから、
+\n安全はしっかり確保してもらいたい。終わったら苦労に見合った報酬をちゃんと支払うよ。</text>
+	</string>
+	<string id="yan_ecolog_semenov_task_1_finish">
+		<text>手伝ってくれてありがとう、友よ。これで必要なサンプルはすべて揃ったよ。
+\nほら、これが君の報酬だ。またいつでも会いに来てくれ。</text>
+	</string>
+
+	<!-- Sakharov (Ecog Trader) -->
+	<string id="yan_stalker_sakharov_task_1_name">
+		<text>ヤンターの移動研究所に%sを持って行く</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_1_text">
+		<text>サハロフは新しい実験のために%sの組織サンプルを欲しがっている。見つけたら彼に届けよう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_1_about">
+		<text>経験豊富なストーカーかミュータントハンターを募集しているんだ。君はどうなんだい？</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_1_fetch_about">
+		<text>%sの組織サンプルから、新鮮な細胞を採取したいんだ。
+\nそこで、君にはサンプルを調達して、この移動研究所へ持ってきてもらいたい。
+\n動物学者には好まれない行動かもしれないが･･････ ここは動物園ではないのでな。
+\n必要なサンプルが手に入ったら、できるだけ早く私のところへ届けてくれ。
+\nそれは、ミュータントの生態を解明するための貴重な手がかりとなるはずだ！</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_1_fetch_finish">
+		<text>ありがとう、親愛なる同僚よ。これで私の研究が大きく進展するだろう。</text>
+	</string>
+	
+	<!-- Collect New Artefact Task -->
+	<string id="yan_stalker_sakharov_task_2_name">
+		<text>科学の進歩</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_2_text">
+		<text>サハロフ教授が研究資金を調達するため、%sを探してほしいと頼んできた。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_2_about">
+		<text>私の研究を手伝ってくれないかい？君の努力に見合った報酬を用意するよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_2_fetch_about">
+		<text>我々の研究チームは、もう一歩で大きな発見に手が届きそうな段階にある。
+\nだが、研究資金を維持し、実験を続けていくには素材がどうしても足りないんだ！
+\nどうか、%sを見つけて届けてほしい。
+\nサンプルを採取できなければ、調査の継続も、供給業者への素材提供もままならないのだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_2_fetch_finish">
+		<text>科学界を代表して礼を言わせてくれ。約束した通り、これが報酬だ。</text>
+	</string>
+
+	<!-- Classified Information Task -->
+	<string id="classified_information_task_name">
+		<text>機密情報</text>
+	</string>
+	<string id="classified_information_task_text">
+		<text>教授から、機密情報を含む研究文書を回収するように頼まれた。</text>
+	</string>
+	<string id="classified_information_task_about">
+		<text>正体不明の無法者が我々の研究チームを襲撃したようだ。幸いにも、一部の調査員は
+\n無事に戻ってきたが、逃走の際に機密情報を含む研究文書を置いてきてしまったのだ。
+
+\n\n科学の進歩と同僚たちの今後の安全のためにも、あのデータが失われたままになるのは
+\n避けたいと考えている。調査チームを襲った謎の集団の手に渡ることはもっと許しがたい。
+\n君にはこの座標に向かってもらいたい。急げば、まだ文書が残っているはずだ。
+\nこの任務を慎重に遂行し、文書を私のもとに届けてくれたら報酬を支払おう。
+\nチームが現場に残した他の物資があれば、自由に持ち帰って構わない。感謝の気持ちだよ。</text>
+	</string>
+	<string id="classified_information_task_finish">
+		<text>ありがとう、ストーカー。いや、同僚と言ったほうがいいかもしれないな。
+\nこれで研究を再開できる･･････ 何事もなく進むことを願うばかりだ。</text>
+	</string>
+	
+	<!-- yan_stalker_sakharov -->
+	<string id="yan_stalker_sakharov_psi_helmet_upgrade_name">
+		<text>精神波防護ヘルメットを入手する</text>
+	</string>
+	<string id="yan_stalker_sakharov_psi_helmet_upgrade_text">
+		<text>サハロフ教授は、精神波防護ヘルメットを完全に調整することに同意した。2日後に受け取りに来るように言っていた。</text>
+	</string>
+	<string id="brain_machine_deactivate_name">
+		<text>ミラクル・マシンを停止する</text>
+	</string>
+	<string id="brain_machine_deactivate_text">
+		<text>ミラクル・マシンはレーダー施設を対象とした精神波を放出しているようだ。また、装置周辺に放出される精神波の放射がヤンターの科学者たちの研究を阻んでいる。</text>
+	</string>
+	
+	<!-- Peregrine (Military Mechanic) Find Level 1 Toolkit Task -->
+
+	<string id="mechanic_army_yan_mlr_task_1_name">
+		<text>ペレグリンのために%sを見つける</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_1_text">
+		<text>ペレグリンは基本的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_1_about">
+		<text>ああ、仕事ならあるぞ。
+\n本部からコードン経由で俺たちの移動研究所に工具が届くはずだったんだが･･････
+\n結局届かずじまいだ。この荷物はどこに行ったんだろうな？
+\nゾーンのみぞ知る、ってところだな。ただ、このままじゃ何も変わらないし、
+\nやっぱり工具が必要だ。本部は今のところ、追加の注文をすることにかなり消極的でな。
+\nだからこうしよう。もしあんたがゾーンで何か工具を見つけたら･･････
+\n基本的なものでいい、それを俺に持ってきてくれたら個人的に報酬を支払うぜ。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_1_fetch_about">
+		<text>今はまず、ベーシックツールを持ってきてくれれば十分だ。
+\nそれより上質な工具はまだ必要なくてな。健闘を祈るよ、ストーカー。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_1_fetch_finish">
+		<text>よし、ちょっと見せてくれ。ああ、これでいい。
+\nこれなら、メンテナンス以外の作業もできるかもしれないな。
+\nさあ、あんたの報酬だ。助けてくれてありがとな。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_2_name">
+		<text>ペレグリンのために%sを見つける</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_2_text">
+		<text>ペレグリンは高度な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_2_about">
+		<text>あんたはいつもの仕入れ先よりもずっと頼りになるな。
+\nこうしよう、もっと高度な工具セットを持ってきてくれたら、いい額を出すぞ。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_2_fetch_about">
+		<text>アドバンスドツールを持ってきてくれれば、サハロフ教授も喜ぶだろう。
+\n俺の技術は、教授の移動研究所の資金を支えることにも繋がるからな。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_2_fetch_finish">
+		<text>よくやった！装備の調整が必要になったらいつでも来い。
+\nあんたのおかげで、今は少しまともな改造もできるようになったしな。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_3_name">
+		<text>ペレグリンのために%sを見つける</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_3_text">
+		<text>ペレグリンは専門的な装備の改造のために%sを必要としている。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_3_about">
+		<text>サハロフ教授から聞いたかもしれんが、あんたが俺に協力することを喜んでるみたいだぜ。
+\nそんな教授からの伝言だが、専門的な工具を持ってきたら相当な額を用意するってよ。
+\nそれがあればここの科学装備、特に防護服や強化外骨格を最大限に活用できるな。
+\nさて、もう一度だけ工具探しを頼めるか？</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_3_fetch_about">
+		<text>エキスパートツールを探して持ってきてほしい。
+\n感謝の印として、現場での正しいメンテナンス方法をいくつか教えてやろう。
+\n他の技術者からすでに教わっていなければの話だが。それじゃあ、気をつけて行ってきな。</text>
+	</string>
+	<string id="mechanic_army_yan_mlr_task_3_fetch_finish">
+		<text>ふむ、あんたが補給部隊で働いてないのが惜しいくらいだな。
+\nこれでやっとあの厄介な受信機も直せそうだ。この移動研究所を代表して感謝するよ。
+\nそんじゃ、これがあんたの報酬だ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_4_name">
+		<text>追跡装置を回収する</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_4_about">
+		<text>我々はミュータントに心拍数や食事習慣、睡眠サイクル、移動時間などを測定するための
+\n装置を埋め込んでいる。しかし、前回のエミッション以降、そのうちの1つが故障して
+\nしまったようだ。座標は追跡できているが、それ以外のデータが送信されなくなっている。
+\nこの装置は特に高度な設計で作られているため、故障したものを回収して検査と修理を
+\n行う必要がある。君にはミュータントからこの装置を回収し、持ち帰ってもらいたい。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_4_stage_0">
+		<text>追跡装置が埋め込まれたミュータントを殺す。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_4_stage_1">
+		<text>追跡装置を回収する。</text>
+	</string>
+	<string id="yan_stalker_sakharov_task_4_stage_2">
+		<text>機器を返却する。</text>
+	</string>
+	<string id="recover_mutant_data_device_desc">
+		<text>%c[0,255,255,255]ミュータントの生態や活動状況を観察するために埋め込まれていた装置。腐食の跡が見られ、いくつかの噛み跡や引っかき傷がついている。\n \n
+%c[0,255,255,255]特性:\n
+%c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
+	</string>
+	<string id="recover_mutant_data_device_name">
+		<text>追跡装置</text>
+	</string>
+</string_table>

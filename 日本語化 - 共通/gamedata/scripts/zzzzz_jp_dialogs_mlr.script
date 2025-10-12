@@ -1,0 +1,67 @@
+-- dialogs_mlr.script
+
+-- ===================================================================
+--  show_goodwill_change_message （タスク完了時の評判メッセージ）
+--  オリジナルをコピーして改変したもの
+-- ===================================================================
+local original_show_goodwill_change_message = dialogs_mlr.show_goodwill_change_message
+
+dialogs_mlr.show_goodwill_change_message = function(comm, comm_n, comm_e, is_gain)
+	if (ui_options.get("gameplay/general/show_tip_reputation")) and comm then
+		--printf("-show_goodwill_change_message %s",comm)
+		local str_title = game.translate_string("st_news_goodwill_update_title")
+		local str_intro = is_gain and game.translate_string("st_news_goodwill_intro_1") or game.translate_string("st_news_goodwill_intro_lose_1")
+		local str_comm_txt = is_gain and game.translate_string("st_news_goodwill_main_1") or game.translate_string("st_news_goodwill_main_lose_1")
+
+--		local str_comm = game.translate_string("st_dyn_news_comm_" .. comm .. "_8")
+		local str_comm = game.translate_string("st_dyn_news_comm_" .. comm .. "_6")	--japanGAMMA
+		if comm_n then
+--			local str_comm_n = game.translate_string("st_dyn_news_comm_" .. comm_n .. "_8")
+			local str_comm_n = game.translate_string("st_dyn_news_comm_" .. comm_n .. "_6")	--japanGAMMA
+--			str_comm = str_comm .. " " .. game.translate_string("st_dyn_news_and") .. " " .. str_comm_n
+			str_comm = str_comm .. game.translate_string("st_dyn_news_and") .. str_comm_n	--japanGAMMA
+		end
+
+--		local msg = str_intro .. " " .. strformat(str_comm_txt, str_comm)
+		local msg = str_intro .. strformat(str_comm_txt, str_comm)	--japan
+
+		if comm_e then
+			local str_comm_e = game.translate_string("st_dyn_news_comm_" .. comm_e .. "_8")
+			local str_comm_e_txt = game.translate_string("st_news_goodwill_enemy_1")
+--			msg = msg .. " " .. strformat(str_comm_e_txt, str_comm_e)
+			msg = msg .. "\\n" .. strformat(str_comm_e_txt, str_comm_e)	--japanGAMMA
+		end
+
+		db.actor:give_game_news(str_title, msg, "ui_inGame2_PD_storonnik_ravnovesiya", 5000, 10000)
+	end
+end
+
+-- ===================================================================
+--  debt_register_7 （借金の金額表示のカンマ区切り: 借金時）
+-- ===================================================================
+local original_debt_register_7 = dialogs_mlr.debt_register_7
+
+dialogs_mlr.debt_register_7 = function(...)
+	local str = original_debt_register_7(...)
+	if str and type(str) == "string" then
+		str = string.gsub(str, "(%d+)", function(num)
+			return japanese_patch.commas_to_number(tonumber(num))
+		end)
+	end
+	return str
+end
+
+-- ===================================================================
+--  debt_pay_off_2 （借金の金額表示のカンマ区切り: 返済時）
+-- ===================================================================
+local original_debt_pay_off_2 = dialogs_mlr.debt_pay_off_2
+
+dialogs_mlr.debt_pay_off_2 = function(...)
+	local str = original_debt_pay_off_2(...)
+	if str and type(str) == "string" then
+		str = string.gsub(str, "(%d+)", function(num)
+			return japanese_patch.commas_to_number(tonumber(num))
+		end)
+	end
+	return str
+end

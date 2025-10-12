@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+
+	<string id="st_wpn_sr25">
+		<text>SR-25</text>
+	</string>
+	<string id="st_wpn_sr25_descr">
+		<text>マークスマン向けに設計されたセミオート式精密ライフル。長距離での高い命中精度と素早い連射性能を両立している。フリーフローティングバレルと最新のガスシステムを備えており、安定性と反動の少なさから、射手のパフォーマンスを最大限に引き出すことができる。モジュラー設計により、様々な光学機器やアタッチメントの装着が可能で、軍や法執行機関の狙撃手に選ばれる万能な武器となっている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Knight's Armament Company\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_bm16_full_alt_23">
+		<text>TOZ-34 «Bear»</text>
+	</string>
+	<string id="st_wpn_bm16_full_alt_23_descr">
+		<text>古典的な上下二連式ショットガン。優れた職人技、滑らかな作動、そして狩猟やスポーツ射撃における高い信頼性で知られている。中折れ式の機構により素早い再装填が可能で、バランスの取れた設計が安定した命中精度を保証する。狩猟や競技射撃で愛用され、今もショットガン設計の傑作として時代を超えて評価されている。
+		\nこの特殊なTOZ-34は大口径の弾薬を使用する改造が施されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]USSR\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tulsky Oruzheiny Zavod\n
+		</text>
+	</string>
+	
+	<string id="st_wpn_toz34_mark4_23">
+		<text>TOZ-34 «Chimera Hunter»</text>
+	</string>
+	<string id="st_wpn_toz34_mark4_23_descr">
+		<text>古典的な上下二連式ショットガン。優れた職人技、滑らかな作動、そして狩猟やスポーツ射撃における高い信頼性で知られている。中折れ式の機構により素早い再装填が可能で、バランスの取れた設計が安定した命中精度を保証する。狩猟や競技射撃で愛用され、今もショットガン設計の傑作として時代を超えて評価されている。
+		\nこの特殊なTOZ-34は大口径の弾薬を使用する改造が施され、レッドドットサイトが装着されている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]USSR\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tulsky Oruzheiny Zavod\n
+		</text>
+	</string>
+
+</string_table>

@@ -1,0 +1,117 @@
+-- xr_effects.script
+
+-- ===================================================================
+--  名前, 派閥名 → 名前（派閥名）の変換
+--  オリジナルをコピーして改変したもの
+-- ===================================================================
+-- yanov_invitation
+local original_yanov_invitation = xr_effects.yanov_invitation
+
+xr_effects.yanov_invitation = function()
+	local msg = game.translate_string("st_lttz_yanov_invitation_message")
+	local name = game.translate_string("army_degtyarev_jup_name")
+	local comm = game.translate_string("st_dyn_news_comm_stalker_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_Hero", 0, 20000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- yanov_invitation2
+local original_yanov_invitation2 = xr_effects.yanov_invitation2
+
+xr_effects.yanov_invitation2 = function()
+	local msg = game.translate_string("st_lttz_yanov_invitation2_message")
+	local name = game.translate_string("army_degtyarev_jup_name")
+	local comm = game.translate_string("st_dyn_news_comm_stalker_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_Hero", 0, 20000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- pripyat_strelok_message
+local original_pripyat_strelok_message = xr_effects.pripyat_strelok_message
+
+xr_effects.pripyat_strelok_message = function()
+	local msg = game.translate_string("st_lttz_pripyat_strelok_message")
+	local name = game.translate_string("stalker_strelok_oa_name")
+	local comm = game.translate_string("st_dyn_news_comm_stalker_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_strelok_ico", 0, 20000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- pripyat_rogue_message
+local original_pripyat_rogue_message = xr_effects.pripyat_rogue_message
+
+xr_effects.pripyat_rogue_message = function()
+	local msg = game.translate_string("st_lttz_pripyat_rogue_message")
+	local name = game.translate_string("stalker_rogue_oa_name")
+	local comm = game.translate_string("st_dyn_news_comm_stalker_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_neutral_2_merc", 0, 20000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- pripyat_stitch_message
+local original_pripyat_stitch_message = xr_effects.pripyat_stitch_message
+
+xr_effects.pripyat_stitch_message = function()
+	local msg = game.translate_string("st_lttz_pripyat_stitch_message")
+	local name = game.translate_string("stalker_stitch_oa_name")
+	local comm = game.translate_string("st_dyn_news_comm_stalker_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_neutral_2_mask", 0, 20000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- pripyat_degtyarev_message
+local original_pripyat_degtyarev_message = xr_effects.pripyat_degtyarev_message
+
+xr_effects.pripyat_degtyarev_message = function()
+	local msg = game.translate_string("st_lttz_pripyat_degtyarev_message")
+	local name = game.translate_string("army_degtyarev_name")
+	local comm = game.translate_string("st_dyn_news_ssu")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_Hero", 0, 30000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- pripyat_strelok_message2
+local original_pripyat_strelok_message2 = xr_effects.pripyat_strelok_message2
+
+xr_effects.pripyat_strelok_message2 = function()
+	local msg = game.translate_string("st_lttz_pripyat_strelok_message2")
+	local name = game.translate_string("stalker_strelok_oa_name")
+	local comm = game.translate_string("st_dyn_news_comm_stalker_6")
+--	local se = strformat("%s, %s",name,comm)
+	local se = strformat("%s（%s）",name,comm)	--japan
+	db.actor:give_game_news(se, msg, "ui_inGame2_strelok_ico", 0, 30000)
+	xr_sound.set_sound_play(AC_ID, "pda_task")
+end
+
+-- ===================================================================
+--  drx_sl_change_factions （派閥加入時のメッセージ）
+-- ===================================================================
+local original_drx_sl_change_factions = xr_effects.drx_sl_change_factions
+
+xr_effects.drx_sl_change_factions = function(actor, npc, p)
+	if not (p and p[1] ~= nil and p[1] ~= ("actor_" .. character_community(db.actor))) then
+		return original_drx_sl_change_factions(actor, npc, p)
+	end
+
+	local backup_send_tip = news_manager.send_tip
+	news_manager.send_tip = function(...) end
+
+	original_drx_sl_change_factions(actor, npc, p)
+
+	news_manager.send_tip = backup_send_tip
+
+	local msg = "派閥「" .. game.translate_string(p[1]) .. "」に加入した"
+	news_manager.send_tip(db.actor, msg, nil, "completionist", nil, nil)
+end

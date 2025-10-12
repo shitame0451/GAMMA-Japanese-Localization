@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+  <!-- menu -->
+  <string id="ui_mcm_menu_idiots">
+    <text>Useful Idiots</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_options">
+    <text>オプション</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_ui">
+    <text>UI設定</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_keybinds">
+    <text>キー設定</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_point">
+    <text>ポイント</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_movement">
+    <text>移動</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_light">
+    <text>ヘッドランプ</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_speed">
+    <text>移動速度</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_stance">
+    <text>姿勢</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_distance">
+    <text>距離</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_combat">
+    <text>戦闘スタイル</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_readiness">
+    <text>戦闘行動</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_jobs">
+    <text>行動指示</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_formation">
+    <text>隊形</text>
+  </string>
+  <string id="ui_mcm_menu_idiots_weapon">
+    <text>武器種別</text>
+  </string>
+
+  <!-- General Options -->
+  <string id="ui_mcm_idiots_title_options">
+    <text>Useful Idiots の設定</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_options_general">
+    <text>全体設定</text>
+  </string>
+  <string id="ui_mcm_idiots_options_splitSquads">
+    <text>コンパニオンを個別の分隊に分離</text>
+  </string>
+  <string id="ui_mcm_idiots_options_splitSquads_desc">
+    <text>コンパニオンをマップ間で個別に移動させます。このオプションを無効にすると、マップ切り替え時にコンパニオンが正しく待機・追従しなかったり、遠くにテレポートすることがあります。一度分離した分隊は元に戻せません。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoSneak">
+    <text>自動しゃがみを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoSneak_desc">
+    <text>プレイヤーがしゃがんだとき、コンパニオンも自動でしゃがむようにします。無効にすると、コンパニオンは自動でしゃがみません。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoProne">
+    <text>自動伏せを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoProne_desc">
+    <text>プレイヤーが伏せたとき、コンパニオンも自動で伏せるようにします。無効にすると、コンパニオンは自動で伏せません。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoSprint">
+    <text>自動ダッシュを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoSprint_desc">
+    <text>プレイヤーがダッシュするとき、コンパニオンも自動でダッシュするようにします。無効にすると、コンパニオンは自動でダッシュしません。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoLight">
+    <text>自動ヘッドランプを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoLight_desc">
+    <text>プレイヤーがヘッドランプを操作した際に、コンパニオンのヘッドランプも連動してオン／オフされるのを無効にします。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoWait">
+    <text>「ポイントへ移動」後に「待機」に切り替える</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoWait_desc">
+    <text>「ポイントへ移動」コマンド使用後、自動的にコンパニオンを「待機」状態に切り替え、指示があるまでその場にとどまらせます。無効にすると、目的地到達後に元の行動に戻ります。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoGuard">
+    <text>「ポイントへ移動」後に「防衛行動」戦闘スタイルへ切り替える</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoGuard_desc">
+    <text>「ポイントへ移動」コマンド使用後、自動的にコンパニオンを「防衛型」戦闘スタイルに切り替え、指示があるまでその場にとどまらせます。無効にすると、目的地到達後に元の戦闘スタイルへ戻ります。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoDeselect">
+    <text>「ポイントへ移動」や「ポイントを注視」後に選択を解除</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoDeselect_desc">
+    <text>「ポイントへ移動」や「ポイントを注視」コマンド実行後、自動的にコンパニオンの選択をすべて解除します。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoReloadAll">
+    <text>待機中に全武器をリロード</text>
+  </string>
+  <string id="ui_mcm_idiots_options_autoReloadAll_desc">
+    <text>有効にすると、セーブデータの読み込み後／プレイヤーへの合流時／戦闘終了後に、コンパニオンが所持しているすべての武器を自動でリロードします。無効にすると、使用中の武器のみをリロードします。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_manualReloadAll">
+    <text>ボタン／キー入力で全武器をリロード</text>
+  </string>
+  <string id="ui_mcm_idiots_options_manualReloadAll_desc">
+    <text>有効にすると、リロードボタンやキー操作で、コンパニオンが所持しているすべての武器をリロードします。無効にすると、使用中の武器のみをリロードします。</text>
+  </string>
+
+  <!-- Combat Options -->
+  <string id="ui_mcm_idiots_subtitle_options_combat">
+    <text>戦闘関連の設定</text>
+  </string>
+  <string id="ui_mcm_idiots_options_defendMode">
+    <text>「防衛」態勢中は攻撃されたときのみ反撃</text>
+  </string>
+  <string id="ui_mcm_idiots_options_defendMode_desc">
+    <text>「防衛」態勢であっても、プレイヤーが攻撃されたときは必ず反応します。ただし、敵が自分や他のコンパニオンを攻撃した場合にも反応することがあります。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_camperCombat">
+    <text>旧式「待ち伏せ」戦闘スタイルを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_camperCombat_desc">
+    <text>コンパニオンに「待ち伏せ」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、コンパニオンには無効化されています。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_monolithCombat">
+    <text>旧式「モノリス流」戦闘スタイルを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_monolithCombat_desc">
+    <text>コンパニオンに「モノリス流」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、コンパニオンには無効化されています。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_zombiedCombat">
+    <text>「ゾンビ風」戦闘スタイルを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_zombiedCombat_desc">
+    <text>コンパニオンに「ゾンビ風」戦闘スタイルを適用するコマンドを追加します。このスタイルはAnomalyに含まれていますが、人間NPC向けには設計されていません。バグが発生する可能性があるためサポート対象外です。キー割り当ては可能ですが、「戦闘スタイル切り替え」キーでは使用できません。</text>
+  </string>
+
+  <!-- Surge Options -->
+  <string id="ui_mcm_idiots_subtitle_options_surge">
+    <text>エミッション関連の設定</text>
+  </string>
+  <string id="ui_mcm_idiots_options_dynamicSurgeCover">
+    <text>コンパニオンの自動避難行動を有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_dynamicSurgeCover_desc">
+    <text>エミッション発生時、コンパニオンが自動で安全な場所へ避難するようになります。これは「Dynamic Emission Cover」アドオンに似た機能ですが、コンパニオン専用に動作します。プレイヤーとコンパニオンの両方に適用（推奨）、コンパニオンのみに適用、または完全に無効化が可能です。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_surgesKillCompanions">
+    <text>エミッションでコンパニオンが死亡する</text>
+  </string>
+  <string id="ui_mcm_idiots_options_dynamicSurgeCover_desc">
+    <text>エミッション発生時、コンパニオンが自動で安全な場所へ避難するようになります。これは「Dynamic Emission Cover」アドオンに似た機能ですが、コンパニオン専用に動作します。プレイヤーとコンパニオンの両方に適用（推奨）、コンパニオンのみに適用、または完全に無効化が可能です。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_surge_note">
+    <text>※互換性について:「NPCs Die in Emissions for Real」と併用可能です（コンパニオンには本アドオンの挙動が優先されます）。「TB Coordinate Based Safe Zones」とも併用できますが、コンパニオンはこのアドオンが追加する遮蔽ポイントは使用しません。「Dynamic Emission Cover」も併用可能で、プレイヤー側の挙動にのみ影響します（コンパニオンには影響しません）。</text>
+  </string>
+
+  <!-- Jobs Options -->
+  <string id="ui_mcm_idiots_subtitle_options_jobs">
+    <text>回収／収集の設定</text>
+  </string>
+  <string id="ui_mcm_idiots_options_noNpcLooting">
+    <text>コンパニオンのみアイテム回収を許可</text>
+  </string>
+  <string id="ui_mcm_idiots_options_noNpcLooting_desc">
+    <text>コンパニオン以外のNPCによるアイテム回収や収集を有効／無効にします。\nGAMMAではオン、Anomalyではオフにすることで、従来の挙動を維持できます。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_jobs_note">
+    <text>※注意: GAMMA環境では「311 NPC Stop Looting Dead Bodies」が有効になっていると、アイテム回収が正常に機能しません。</text>
+  </string>
+
+  <!-- Cheats -->
+  <string id="ui_mcm_idiots_subtitle_options_cheats">
+    <text>チート設定</text>
+  </string>
+  <string id="ui_mcm_idiots_options_cheats_note">
+    <text>注意: これらの設定はゲームバランスを崩す可能性があります。有効にする前に各項目の説明をよく確認してください。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_artifacts">
+    <text>アーティファクト収集コマンドを有効化</text>
+  </string>
+  <string id="ui_mcm_idiots_options_artifacts_desc">
+    <text>コンパニオンにアーティファクトを回収させるUIコマンドを有効／無効にします。※NPCがアノマリーでダメージを受けるMODを使用していない場合、この設定は実質的にチートになります。</text>
+  </string>
+  <string id="ui_mcm_idiots_options_showAllItems">
+    <text>コンパニオンの所持品をすべて表示</text>
+  </string>
+  <string id="ui_mcm_idiots_options_showAllItems_desc">
+    <text>コンパニオンが拾得・収集したものだけでなく、所持しているすべてのアイテムを表示します。※この設定を有効にすると、コンパニオンの装備を不当に入手できてしまうためチート的挙動となります。不要品の整理や、MODの不具合でアイテムが取得できない場合などに限定して使用してください。</text>
+  </string>
+
+  <!-- UI Options -->
+  <string id="ui_mcm_idiots_title_ui">
+    <text>UI設定</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_indexers">
+    <text>コンパニオンの頭上にインジケーターを表示</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_indexers_desc">
+    <text>UIを開いた際に、コンパニオンの頭上にタブ番号のインジケーターを表示するかどうかを切り替えます。</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showReload">
+    <text>リロードボタンを表示</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showReload_desc">
+    <text>コンパニオンの所持武器すべてを手動でリロードさせるボタンをUIに追加します。</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showRetreat">
+    <text>退避ボタンを表示</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showRetreat_desc">
+    <text>「追従＋急ぎ足＋戦闘を無視＋近距離維持」の状態に切り替える退避ボタンをUIに追加します。</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showUnstick">
+    <text>スタック解除ボタンを表示</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showUnstick_desc">
+    <text>動かなくなったコンパニオンをその場でテレポートさせる手動ボタンをUIに追加します。\n反応しないコンパニオンに対して「コンパニオンをテレポート」キーの代用として使用できます。</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showTooltips">
+    <text>ツールチップを表示</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_showTooltips_desc">
+    <text>コンパニオン用UI内のアイコンボタンにマウスを重ねたとき、ツールチップを表示します。</text>
+  </string>
+
+  <!-- UI Customization -->
+  <string id="ui_mcm_idiots_subtitle_ui_customization">
+    <text>UIカスタマイズ</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_scaleX">
+    <text>Xスケール</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_scaleY">
+    <text>Yスケール</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_offsetX">
+    <text>画面中央からのXオフセット</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_offsetY">
+    <text>画面下端からのYオフセット</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_alpha">
+    <text>背景の透明度</text>
+  </string>
+  <string id="ui_mcm_idiots_scheme">
+    <text>カラースキーム</text>
+  </string>
+  <string id="ui_mcm_idiots_scheme_desc">
+    <text>コンパニオン用UIのアクセントカラーを設定します。</text>
+  </string>
+  <string id="ui_mcm_idiots_ui_font">
+    <text>フォントサイズ</text>
+  </string>
+
+  <!-- Keybinds -->
+  <string id="ui_mcm_idiots_title_keybinds">
+    <text>Useful Idiots のキー設定</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_move">
+    <text>指定地点へ移動</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_away">
+    <text>進路から退避</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_select">
+    <text>コンパニオンを選択</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_deselect">
+    <text>選択中のコンパニオンをすべて解除</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_addWaypoint">
+    <text>ウェイポイントを追加</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_clearWaypoints">
+    <text>すべてのウェイポイントを削除</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_inventory">
+    <text>インベントリを開く</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_inventory_note">
+    <text>※SHIFTキーの組み合わせは、GAMMA UIが有効な場合は使用できません。</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_reset">
+    <text>状態を再同期</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_look">
+    <text>ポイントを注視</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_reload">
+    <text>武器をリロード</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_point_retreat">
+    <text>退避</text>
+  </string>
+  <string id="ui_mcm_idiots_keybinds_key">
+    <text>キー</text>
+  </string>
+  <string id="ui_mcm_idiots_keybinds_mod">
+    <text>修飾キー</text>
+  </string>
+  <string id="ui_mcm_idiots_keybinds_mode">
+    <text>入力タイプ</text>
+  </string>
+  <string id="ui_mcm_idiots_keybinds_toggle">
+    <text>押して切り替え</text>
+  </string>
+
+  <!-- Movement Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_movement">
+    <text>行動指示を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_follow">
+    <text>プレイヤーに追従</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_wait">
+    <text>その場で待機</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_cover">
+    <text>安全な場所に避難</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_relax">
+    <text>警戒解除</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_patrol">
+    <text>巡回行動</text>
+  </string>
+
+  <!-- Light Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_light">
+    <text>ヘッドランプ設定を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_auto">
+    <text>自動</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_off">
+    <text>ヘッドランプオフ</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_on">
+    <text>ヘッドランプオン</text>
+  </string>
+
+  <!-- Speed Keys -->
+  <string id="ui_mcm_idiots_subtitle_hurry">
+    <text>急ぎ足</text>
+  </string>
+
+  <!-- Stance Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_stance">
+    <text>姿勢を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_stand">
+    <text>立つ</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_sneak">
+    <text>しゃがむ</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_prone">
+    <text>伏せる</text>
+  </string>
+
+  <!-- Distance Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_distance">
+    <text>距離を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_near">
+    <text>近距離</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_normal">
+    <text>標準距離</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_far">
+    <text>遠距離</text>
+  </string>
+
+  <!-- Combat Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_combat">
+    <text>戦闘スタイルを順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_default">
+    <text>標準行動</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_assault">
+    <text>突撃重視</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_support">
+    <text>味方支援</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_guard">
+    <text>位置防衛</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_snipe">
+    <text>遠距離重視</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_monolith">
+    <text>モノリス流</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_camper">
+    <text>待ち伏せ</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_zombied">
+    <text>ゾンビ風</text>
+  </string>
+
+  <!-- Weapon Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_weapon">
+    <text>武器種別を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_best">
+    <text>最適な武器</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_pistol">
+    <text>ピストル</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_shotgun">
+    <text>ショットガン</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_smg">
+    <text>サブマシンガン</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_rifle">
+    <text>ライフル</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_sniper">
+    <text>スナイパーライフル</text>
+  </string>
+
+  <!-- Readiness Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_readiness">
+    <text>戦闘態勢を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_attack">
+    <text>攻撃態勢</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_defend">
+    <text>防衛態勢</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_ignore">
+    <text>戦闘を無視</text>
+  </string>
+
+  <!-- Jobs Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_jobs">
+    <text>行動指示を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_loot_items">
+    <text>アイテムを回収</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_loot_artifacts">
+    <text>アーティファクトを回収</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_loot_corpses">
+    <text>死体を漁る</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_help_wounded">
+    <text>負傷者を手当てする</text>
+  </string>
+
+  <!-- Formation Keys -->
+  <string id="ui_mcm_idiots_subtitle_cycle_formation">
+    <text>隊形を順送り</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_bunch">
+    <text>自由配置</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_spread">
+    <text>横に並ぶ</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_line">
+    <text>縦に並ぶ</text>
+  </string>
+  <string id="ui_mcm_idiots_subtitle_covered">
+    <text>遮蔽物を使う</text>
+  </string>
+
+  <!-- List Options -->
+  <string id="ui_mcm_lst_idiots_actor">
+    <text>プレイヤーが攻撃されたときのみ</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_self">
+    <text>プレイヤーまたはコンパニオン自身が攻撃されたとき</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_anyone">
+    <text>プレイヤーまたは別のコンパニオンが攻撃されたとき</text>
+  </string>
+  <string id="ui_mcm_lst_mod_none">
+    <text>なし</text>
+  </string>
+  <string id="ui_mcm_lst_mod_shift">
+    <text>SHIFT</text>
+  </string>
+  <string id="ui_mcm_lst_mod_ctrl">
+    <text>CTRL</text>
+  </string>
+  <string id="ui_mcm_lst_mod_alt">
+    <text>ALT</text>
+  </string>
+  <string id="ui_mcm_lst_mode_press">
+    <text>シングルタップ</text>
+  </string>
+  <string id="ui_mcm_lst_mode_dtap">
+    <text>ダブルタップ</text>
+  </string>
+  <string id="ui_mcm_lst_mode_hold">
+    <text>長押し</text>
+  </string>
+  <string id="ui_mcm_lst_font_small">
+    <text>小</text>
+  </string>
+  <string id="ui_mcm_lst_font_medium">
+    <text>中</text>
+  </string>
+  <string id="ui_mcm_lst_font_large">
+    <text>大</text>
+  </string>
+  <string id="ui_mcm_lst_font_xlarge">
+    <text>特大</text>
+  </string>
+  <string id="ui_mcm_lst_top">
+    <text>上</text>
+  </string>
+  <string id="ui_mcm_lst_center">
+    <text>中央</text>
+  </string>
+  <string id="ui_mcm_lst_bottom">
+    <text>下</text>
+  </string>
+  <string id="ui_mcm_lst_left">
+    <text>左</text>
+  </string>
+  <string id="ui_mcm_lst_right">
+    <text>右</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_faction">
+    <text>プレイヤーの派閥</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_army">
+    <text>Military</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_bandit">
+    <text>Bandit</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_csky">
+    <text>Clear Sky</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_dolg">
+    <text>Duty</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_ecolog">
+    <text>Ecologist</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_freedom">
+    <text>Freedom</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_greh">
+    <text>Sin</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_isg">
+    <text>UNISG</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_killer">
+    <text>Mercenary</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_monolith">
+    <text>Monolith</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_renegade">
+    <text>Renegade</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_stalker">
+    <text>Loner</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_both">
+    <text>プレイヤーとコンパニオンの両方</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_companions">
+    <text>コンパニオンのみ</text>
+  </string>
+  <string id="ui_mcm_lst_idiots_neither">
+    <text>無効</text>
+  </string>
+</string_table>

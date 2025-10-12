@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+
+<!-- (Military Mechanic) -->
+	<string id="army_yan_mec_about_tool_0">
+		<text>やあ、あんたは何者だ？</text>
+	</string>
+	<string id="army_yan_mec_about_tool_1">
+		<text>俺は地方の軍から転属してきたんだ、コードネームは「ペレグリン」だ。
+\n徴兵される前はエンジニアの勉強をしていたが、本部は俺の修理の才能に気付き、
+\nここで科学機器のメンテナンスをする方が役に立つと判断したみたいだな。
+\nサハロフ教授も、それが一番だと思ったんだろう。
+\n思い返すと、あのときの教授は少しホッとしている様子だったな。</text>
+	</string>
+	<string id="army_yan_mec_about_tool_2">
+		<text>そして、この移動研究所の新しい技術者になったのか。今のところはどんな感じだ？</text>
+	</string>
+	<string id="army_yan_mec_about_tool_3">
+		<text>まあ、本部で上官に怒鳴られっぱなしだったり、
+\n命令とはいえ、必死に生きてる連中を撃ち殺すパトロールに行かされるよりはマシだな。
+
+\n\nただ正直に言うと、ここもクソみたいなもんだ。驚くほど“優秀”な補給部隊のおかげで、
+\n今ある装備を維持するだけでも、奴らと喉が枯れるまで交渉する羽目になる。
+\nEcologistが使う装備は特殊なもので、間に合わせのものじゃ維持するのが精一杯だ。
+\nましてやゾーンの変わりやすい環境に適応させたり、改良するなんて夢のまた夢だな。
+
+\n\n･･････ここにある古い受信機を直そうとしてみたが、意味不明な雑音しか出やしない。
+\n陸軍倉庫にいた仲間たちはもう7年前に全滅してるってのに、
+\nこのイカれた機械は、まだあいつらの声が聞こえるつもりでいるらしい。</text>
+	</string>
+	<string id="army_yan_mec_about_tool_4">
+		<text>それじゃ、頑張ってくれよ。</text>
+	</string>
+
+
+<!-- (Military Cooker) -->
+	<string id="meet_povar_army_0">
+		<text>あんたは何者だ？</text>
+	</string>
+	<string id="meet_povar_army_1">
+		<text>一応、ここの料理人みたいなもんだな。
+\n書類上はEcologistの現地調査員ってことになってるが、実際には･･････
+\nもう何ヶ月も現場に出してもらえないし、どうもこのまま出ることもなさそうだ。
+\nとにかく、ここの連中からは「スピリット」って呼ばれてるよ。</text>
+	</string>
+	<string id="meet_povar_army_2">
+		<text>どうして現場に出してもらえないんだ？</text>
+	</string>
+	<string id="meet_povar_army_3">
+		<text>ちょっとした誤解があってな。
+\n他の現地調査員は俺をアル中だと思ってやがるのさ。でもよ、本気でそうだと思うか？
+\nこんな状況で飲まずにいられる方がどうかしてるだろ。「スノークが怖い」だって？
+\n親友のトポルなんて、プリピャチから歩いて行ける距離の移動研究所で働いてるんだぞ！
+\nそれにMonolithが戻ってきたって話も聞いたしな･･････ いや、もう考えたくもないな。
+\n話を変えよう。ウォッカ（ネミロフ）を持ってきたら、いいモノと交換してやる。どうだ？
+
+\n\nウォッカ5杯分で9x18mm FMJ弾60発、5.45x39mm FMJ弾30発、
+\n5.56x45mm FMJ弾30発、9x39mm SP-5弾30発のどれかと交換してやれる。
+
+\n\nウォッカ10杯分なら7.62x54mm 7N1弾10発、12x70 バックショット弾30発、
+\n5.45x39mm FMJ弾60発、5.56x45mm FMJ弾60発、9x39mm SP-5弾60発だ。
+
+\n\nウォッカ15杯分─つまり5本だな。それに加えて7,000ルーブルを渡せば、
+\n7.62x54mm PP弾180発と交換だ。知っての通り、こいつは結構高価なんだぜ･･････
+
+\n\nウォッカ20杯分─だいたい7本ってとこか。それなら、ベーシックツールをやろう。
+
+\n\n･･････おっと、勘違いすんなよ？盗んだ品じゃないからな。泥棒扱いはごめんだ。
+\nコードンの近くのテントに転がってたのを見つけて、ずっと保管しておいたんだよ。
+\nお前みたいなストーカーには役立つだろうと思ってな。
+\nそれに、この取引は別に俺のためだけにやってるわけじゃないんだ。
+\n受け取ったボトルの大半はヤノフ駅に送って、仲間たちに分け与えてるんだぜ。</text>
+	</string>
+	<string id="meet_povar_army_4">
+		<text>考えてみるよ。ありがとう。</text>
+	</string>
+	<string id="barter_povar_army_0">
+		<text>ウォッカを持ってきたぞ、交換してくれ。</text>
+	</string>
+	<string id="barter_povar_army_1">
+		<text>そりゃいい！それで、何と交換したいんだ？</text>
+	</string>
+	<string id="barter_povar_army_2">
+		<text>9x18mm FMJ (x60) %c[d_orange][ウォッカ（ネミロフ）x5]</text>
+	</string>
+	<string id="barter_povar_army_3">
+		<text>5.45x39mm FMJ (x30) %c[d_orange][ウォッカ（ネミロフ）x5]</text>
+	</string>
+	<string id="barter_povar_army_3_2">
+		<text>5.56x45mm FMJ (x30) %c[d_orange][ウォッカ（ネミロフ）x5]</text>
+	</string>
+	<string id="barter_povar_army_3_3">
+		<text>9x39mm SP-5 (x30) %c[d_orange][ウォッカ（ネミロフ）x5]</text>
+	</string>
+	<string id="barter_povar_army_3_4">
+		<text>7.62x39mm (x30) %c[d_orange][ウォッカ（ネミロフ）x5]</text>
+	</string>
+	<string id="barter_povar_army_3_5">
+		<text>12.7x55mm STs-130 (x10) %c[d_orange][ウォッカ（ネミロフ）x5]</text>
+	</string>
+	<string id="barter_povar_army_4">
+		<text>5.45x39mm FMJ (x60) %c[d_orange][ウォッカ（ネミロフ）x10]</text>
+	</string>
+	<string id="barter_povar_army_4_2">
+		<text>5.56x45mm FMJ (x60) %c[d_orange][ウォッカ（ネミロフ）x10]</text>
+	</string>
+	<string id="barter_povar_army_4_3">
+		<text>9x39mm SP-5 (x60) %c[d_orange][ウォッカ（ネミロフ）x10]</text>
+	</string>
+	<string id="barter_povar_army_4_4">
+		<text>7.62x39mm (x60) %c[d_orange][ウォッカ（ネミロフ）x10]</text>
+	</string>
+	<string id="barter_povar_army_4_5">
+		<text>12.7x55mm STs-130 (x20) %c[d_orange][ウォッカ（ネミロフ）x10]</text>
+	</string>
+	<string id="barter_povar_army_5">
+		<text>12x70 バックショット (x30) %c[d_orange][ウォッカ（ネミロフ）x10]</text>
+	</string>
+	<string id="barter_povar_army_6">
+		<text>7.62x54mm 7N1 (x10) %c[d_orange][ウォッカ（ネミロフ）x10]</text>
+	</string>
+	<string id="barter_povar_army_7">
+		<text>7.62x54mm PP (x180) %c[d_orange][ウォッカ（ネミロフ）x15] + [7,000ルーブル]</text>
+	</string>
+	<string id="barter_povar_army_8">
+		<text>ベーシックツール %c[d_orange][ウォッカ（ネミロフ）x20]</text>
+	</string>
+	<string id="barter_povar_army_10">
+		<text>素晴らしい、持っていきな。</text>
+	</string>
+	<string id="barter_povar_army_11">
+		<text>いいぜ、こいつだ。</text>
+	</string>
+	<string id="barter_povar_army_12">
+		<text>ふむ、妥当なとこだな。こいつはお前のもんだ。</text>
+	</string>
+	<string id="barter_povar_army_13">
+		<text>はは！狩りを楽しめよ、ストーカー！</text>
+	</string>
+	<string id="barter_povar_army_14">
+		<text>ふむ、いい選択だな。</text>
+	</string>
+	<string id="barter_povar_army_15">
+		<text>こいつで腹をぶち抜いた時の音を聞くのが待ちきれねえぜ。</text>
+	</string>
+	<string id="barter_povar_army_16">
+		<text>持ってきな。</text>
+	</string>
+	<string id="barter_povar_army_9">
+		<text>やっぱりやめておく。</text>
+	</string>
+	<string id="remember_dyx_barter_0">
+		<text>もう一度言ってくれ、何と交換できるんだ？</text>
+	</string>
+	<string id="remember_dyx_barter_1">
+		<text>ウォッカ5杯分で9x18mm FMJ弾60発、5.45x39mm FMJ弾30発、
+\n5.56x45mm FMJ弾30発、9x39mm SP-5弾30発のどれかと交換してやれる。
+
+\n\nウォッカ10杯分なら7.62x54mm 7N1弾10発、12x70 バックショット弾30発、
+\n5.45x39mm FMJ弾60発、5.56x45mm FMJ弾60発、9x39mm SP-5弾60発だ。
+
+\n\nウォッカ15杯分─つまり5本だな。それに加えて7,000ルーブルを渡せば、
+\n7.62x54mm PP弾180発と交換だ。知っての通り、こいつは結構高価なんだぜ･･････
+
+\n\nウォッカ20杯分─だいたい7本ってとこか。それなら、ベーシックツールをやろう。</text>
+	</string>
+<!-- Kruglov -->
+	<string id="yan_ecolog_kruglov_start_dialog_1">
+		<text>ごきげんよう、ストーカー。</text>
+	</string>
+
+	<!-- yan_ecolog_semenov -->
+	<string id="yan_ecolog_semenov_start_dialog_1">
+		<text>おお、ストーカー。何か用かね？</text>
+	</string>
+	<string id="yan_ecolog_semenov_start_dialog_yan_ecolog_semenov_task_1">
+		<text>我々にはさらなるデータが必要だ。さあ、ミュータントをもっと見つけてきてくれ。</text>
+	</string>
+
+	<!-- yan_ecolog_vasilyev -->
+	<string id="yan_ecolog_vasilyev_start_dialog_1">
+		<text>ごきげんよう、ストーカー。</text>
+	</string>
+	
+
+<!-- Sakharov -->
+	<string id="st_yan_saharov_message_free_upgrade">
+		<text>ストーカー、助けてくれてありがとう！
+\n君の助けがなければ、我々の移動研究所は確実に壊滅していただろう。
+\n感謝の印として、精神波防護ヘルメットを無料で改良してあげよう！いつでも来てくれ！</text>
+	</string>
+	<string id="yan_stalker_sakharov_start_1">
+		<text>やあ、ストーカー。なにか用かね？</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_query_brain_scorcher">
+		<text>ブレイン・スコーチャーとミラクル・マシンについて教えてくれ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_brain_scorcher">
+		<text>ふむ、そうだな･･････
+\nまだまだ学ぶべきことは多いが、我々の限られた知識を君と共有するのも悪くないだろう。
+
+\n\nブレイン・スコーチャーは、プリピャチの中心部や原子力発電所、
+\nレッドフォレスト、あるいはリマンスクに近づく者の精神に影響を及ぼすようだ。
+\n症状には、偏頭痛、幻覚、視野障害、そして科学者らしからぬ表現だが「ゾンビ化」がある。
+\n科学的に推測するなら、ブレイン・スコーチャーは遠隔式の精神波送信機だと考えられる。
+\nしかし、そう結論付けるにはもっと踏み込んだ研究が必要だろう。
+
+\n\nミラクル・マシンもまた、非常によく似た特性を持つ。精神波を発する点は同じだが、
+\nその性質は特定のミュータントが発するような生物的なものに近いようだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_query_psi_helmet">
+		<text>教授、精神波防護ヘルメットを用意してくれ。それがないと任務を続行できない。
+\nブレイン・スコーチャーやミラクル・マシンのエリアを通らないといけないんだ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_psi_helmet">
+		<text>そのような精神を不安定にさせる場所へ行くことのリスクを、君は理解しているのか？
+\n･･････そうか、わかった。そうでなければ私に尋ねないはずだからな。
+\n実は、ここ数週間かけて慎重に開発していた「精神波防護ヘルメット」がある。
+\n理論上は問題なく機能するはずだ。ミラクル・マシンやブレイン・スコーチャーが発する
+\n精神波の放射に合わせて適切に調整してある。しかし、実際にテストした者はいない･･････
+\nいや、未調整の試作品を試した助手はいたが･･････ その話はまた別の機会にしよう。
+
+\n\nこの装置は今すぐにでも渡せるが、30,000ルーブルの代金をいただくよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_query_psi_helmet_free">
+		<text>そのような精神を不安定にさせる場所を通ることの危険性を、君は理解しているのか？
+\n･･････そうか、わかった。そうでなければ、私に尋ねないはずだからな。
+\n我々が慎重に開発していた試作機はあるが、まだ未完成で最終的な調整が不足している。
+
+\n\nこのヘルメットは精神波の放射からある程度君を守ってくれるはずだが、
+\nあくまで未完成の装備だ。命を危険にさらすことになるかもしれないぞ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_1">
+		<text>俺は急いでいるんだ。その試作機でなんとかするよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_1">
+		<text>君がどうしてもと言うのなら仕方ないが、未調整の装置ではかなり危険な任務になるぞ。
+\n忘れないでくれ、ヘルメットはいつでも持ち帰って最終調整をすることができる。
+\n何か不調を感じたらすぐに引き返すんだ･･････ 精神波の及ぶ領域はとても危険だ。
+\n未完成の装備を渡して君が死んだとなれば、私はきっと後悔することになるだろう。
+\nそれでもこの試作機を使いたいというのなら、20,000ルーブルの代金をいただこう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_2">
+		<text>金を用意したぞ。ありがとう、教授。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_2">
+		<text>大変結構だ。だが、まずは動作テストをお願いしたい。
+\nここの北にある研究所へ行って、ミラクル・マシンを停止してくれないだろうか？
+\nこの装置が君の意識をしっかりと守ってくれることを祈るよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_1_3">
+		<text>やはり、作業を最後まで終わらせてほしい。このヘルメットを徹底的に調整してくれ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_1_3">
+		<text>その決断をしてくれると、私も同僚も安心するよ。最後の調整を完了させることで、
+\n精神波現象を調査する際の精神疾患や記憶喪失、あるいは発狂するリスクが減るだろう。
+\nすでに資金を提供してくれているから、最終調整の費用は10,000ルーブルで構わないよ。
+\nただしヘルメットを預けてもらい、作業が終わるまで2日ほど待ってもらうことになる。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_1">
+		<text>ちゃんと機能するんだろうな？もし俺がゾンビ化したら、あんたを食べに行くと誓うよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_1">
+		<text>もちろん、確実に機能するはずだ。この装置を身につければ、ミラクル・マシンや
+\nブレイン・スコーチャーの精神波の放射を浴びても、精神が崩壊する心配はないだろう。
+\nだが、ブレイン・スコーチャーとミラクル・マシンの「精神波障壁」が合わさるエリア･･････
+\nつまり、レッドフォレストを越えた先でも効果を発揮できるかどうかまでは保証できない。
+
+\n\nそれに、最新の観測結果によると、この装置は他のタイプの精神波には効果がない。
+\n助手の報告から例を出すと、ミラクル・マシンの近くで現れる「ファントム」がその一つだ。
+\nあのような周波数は、この装置で対抗するにはあまりにも複雑で、思いつく対策法は
+\nアーティファクトを使うくらいか･･････ あるいは、精神を鈍らせる薬を大量に飲むかだ。
+\n後者については、Freedomの一員に頼めば何とかなるかもしれないな。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_1_free">
+		<text>賢い選択だ。このヘルメットが完成すれば、ゾーンを自由に歩き回れるようになり、
+\n精神波の放射装置による精神崩壊のリスクも避けられるはずだ。
+\n通常なら30,000ルーブルの代金をもらうが、君は我々の危機を助けてくれたからな、
+\nこの装置を無料で提供しよう。有効に使ってくれたまえ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_2">
+		<text>わかった。金を用意したぞ、教授。
+\n薬とアーティファクトのことは覚えておくよ。ありがとう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_2">
+		<text>ありがとう、ストーカー。これがその装置だ。君の任務の成功を祈っている。
+\nミラクル・マシンとブレイン・スコーチャーが止まれば、我々の研究の追い風となるだろう。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_2_3">
+		<text>装置の準備はできたか？</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3">
+		<text>できたぞ！さあ、これだ。
+\nもし良ければ、この新しい装置を使って北の研究所にあるミラクル・マシンを
+\n停止してくれないだろうか？我々の研究が君の意識をしっかり守ることを約束するよ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_2_3_1">
+		<text>まだだ、あともう少し待ってくれ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_player_psi_helmet_3_1">
+		<text>うーん･･････ 少し考えさせてくれ。</text>
+	</string>
+	<string id="yan_stalker_sakharov_npc_psi_helmet_3_1">
+		<text>そうか。精神波防護ヘルメットはその間、我々が保管しておこう。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_ask">
+		<text>ゾーンが教授の科学研究にどのように役立っているか教えてくれ。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_1">
+		<text>もちろんだ！«ナイトスター»は、自然環境で発見されたときの特性に関係なく、
+\n適切な実験条件下に置かれると奇妙な反弾道特性を帯びるようになるんだ。
+\nあと数年もすれば、防弾装備やケブラープレートの技術に革命が起きるかもしれないぞ。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_2">
+		<text>そうだな。人型ミュータントの組織サンプルを調査することは、とても興味深い研究だ。
+\nブラッドサッカーが透明になる仕組みや、スノークがあの並外れた柔軟性を
+\n獲得した進化の経緯など、科学界でもまだ判明していない謎は多く残されている。
+\nこのような突然変異の原因を解明し、その特性を理解することで、
+\n人類の進化の道筋をより正確に予測できるようになるんだ！面白いと思わないか？</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_3">
+		<text>実は最近、我々はブラッドサッカーに関する興味深い実験を行い、
+\nいくつか新しい発見をしたんだが･･････ いや、やはり君が知る必要はないだろう。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_4">
+		<text>君なら興味を持つかもしれないが、我々の研究で、フレッシュの眼には光を感知する
+\n受容体だけでなく、匂いを感知する受容体も備わっていることが明らかになった･･････
+
+\n\nつまり、彼らは単に目で見るだけでなく、匂いを嗅ぎ分ける能力も持っているのだ！
+
+\n\n普通の豚がこのような共感覚を持つ生物に進化するとは、誰が想像できただろうか？
+\nこれは単なる脳の配線異常ではなく、感覚器官の変化によってもたらされる現象なんだ！</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_5">
+		<text>もちろんだ！何年にもわたって様々なミュータントの部位を研究してきた結果、
+\nフレッシュの眼やスノークの腱、そしてスードウジャイアントの筋繊維を、
+\nええと─少し物議を醸すような用途で商品化する段階まで近づいてきている。
+\n最新のサンプル品は見たか？我々は、積極的な助手たちにできる限り多くの部位を
+\n移植してきた。さらなる発展が進めば、新たなブームを巻き起こせるかもしれないぞ！</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_6">
+		<text>ゾーンが私の研究に与えた影響は計り知れない。ここでの発見が私の科学者としての
+\n評価を大きく高めてくれたのだよ。私の最大の功績は、同僚たちと一緒に実験室の
+\n厳密な条件下で希少な«ペリクル»というアーティファクトの合成に成功したことだ。
+\nあれはまさにノーベル賞にも値する画期的な成果だった！
+
+\n\nしかし、«ペリクル»の性質は我々の研究に抵抗するかのように独自の進化を遂げている。
+\n我々は驚くべき成果を挙げたが、より強力なアーティファクトを効率的に
+\n合成できるようになるまでには、まだまだ時間がかかりそうだ。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_7">
+		<text>同僚のブレンター教授は「変異したタンパク質が人体に与える影響」の研究に熱心でね。
+\n例えば、100ラッズ・バーでミュータント肉を食べているストーカーたちが、
+\nその有害な影響を防ぐために何をしているかを記録することで、
+\n放射線が人体に及ぼす害を抑えるための知見が少しずつ増えているのだよ。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_8">
+		<text>そうだな。«アーチン»というアーティファクトを知っているかな？
+\nその安定性ゆえに、2022年までは実験室での再現が不可能だと考えられていたものだ。
+\nしかし、どうやら予定よりも早く、その秘密を解明できるかもしれないんだ。
+
+\n\nゾーン内で自然に発見されることも少なくなってきているが、
+\nこのアーティファクトは放射線防護服や医薬品の製造に不可欠な存在だ。
+
+\n\n考えてみてくれ。君も«アーチン»に関する我々の研究成果の恩恵を受けているはずだ。
+\nゾーンを渡り歩く熟練のストーカーなら、我々の放射線防護服や血清を
+\n一度も使ったことがないという者は、ほとんどいないだろうからね。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_9">
+		<text>なんだって？申し訳ないが、今日はゾーンの不思議について話をする気分じゃないんだ。
+\n昨夜からミュータントの叫び声や引っ掻き音を聞いて、神経がすり減ってしまってね。
+
+\n\nよかったら、科学的な装備を買っていくのはどうだろう？
+\nあるいは同僚の誰かが手助けを求めているかもしれない、確認してみるといい。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_10">
+		<text>何年も前の話になるが･･････
+\n我々は重力に対する理解は、反重力装置やイオンエンジンを開発できるまでに至っていた。
+
+\n\nしかし、ストーカーたちが重力アノマリーから持ち帰ったアーティファクトがなければ、
+\nこのような発見は我々の生きている間に実現できなかっただろう。
+\n我々の研究成果が世間に公表されるまでには、さらに長い年月が必要だろうが、
+\nストーカーたちが科学を支え、再び星々への道を切り開いてくれたのは紛れもない事実だ！
+
+\n\nそして、私はこう考えている。例えば、ボルテックスという重力アノマリーがあるだろう。
+\nあれは空間そのものを圧縮する性質があると言われている。そうなると･･････
+\nいつかテレポーテーションが、単なる夢物語ではなくなる日が来るかもしれないのだ！
+\n─おっと、少し話が飛躍しすぎたかな。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_11">
+		<text>エネルギー学の分野は、ゾーンでの我々の研究によって大きな恩恵を受けていると言える。
+\n現在、«ムーンライト»のエネルギー出力を安全に扱える特殊な装置を、
+\n国内にある一部の発電所に極秘裏に導入し始めているところだ。
+\nさらに改良が進めば、将来的には化石燃料を完全に置き換えられるかもしれない。
+
+\n\n将来的には、より高出力な«バッテリー»でも同様の試みを行いたいと考えている。
+\n私の同僚によると、«バッテリー»1つで原子炉3基分に相当する出力が得られるそうだ！
+\nこれほど大きなエネルギーを扱う場合、実験を慎重に進めるべきなのは言うまでもないな。</text>
+	</string>
+	<string id="st_yan_stalker_sakharov_life_end">
+		<text>ふむ？今はやめておこう、若者よ。君にはもっと急ぎの用事があるだろう。</text>
+	</string>
+
+	<!-- yan_merc_guards -->
+	<string id="yan_merc_guards_start_2">
+		<text>今は無理だ、任務中なんでな。
+\n何か必要ならペレグリンか、インテリどもに相談してくれ。</text>
+	</string>
+	<string id="yan_merc_guards_start_3">
+		<text>手短に済ませてくれよ。スノークどもにおしゃべりしてるのを見られたくないからな。</text>
+	</string>
+	<string id="yan_merc_guards_start_4">
+		<text>北の施設から聞こえるあの唸り声のせいで、歯がムズムズしてくる。
+\nクソッ。あの料理人の野郎、酒を全部飲み干しやがって･･････</text>
+	</string>
+</string_table>

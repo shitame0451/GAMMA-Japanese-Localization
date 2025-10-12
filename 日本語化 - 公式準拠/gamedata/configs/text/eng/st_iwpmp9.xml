@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+		<string id="st_wpn_mp9">
+		<text>Brugger &amp; Thomet MP9</text>
+	</string>
+	<string id="st_wpn_mp9_descr">
+		<text>軽量かつコンパクトなサブマシンガンで、近接戦闘における連射性能を追求して設計されている。折り畳み式ストック、サプレッサーへの対応、高い連射速度を特徴としており、特殊部隊から法執行機関、護身用まで幅広く活用されている。現代的なポリマーフレームと両利き対応の操作系により、激しい戦術的な状況においても高い機動性を誇る武器だ。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スイス\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Brugger &amp; Thomet\n
+		</text>
+	</string>	
+</string_table>

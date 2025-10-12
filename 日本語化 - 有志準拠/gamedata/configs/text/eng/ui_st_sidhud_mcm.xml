@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	SidHUD strings
+-->
+
+<string_table>
+	<string id="ui_mcm_menu_sidhud">
+		<text>SidHUD</text>
+	</string>
+	<string id="ui_mm_video_hud_sidslide">
+		<text>SidHUD Options</text>
+	</string>
+
+
+
+	<string id="ui_mcm_sidhud_armorbar">
+		<text>Armor Condition Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_armorbar_desc">
+		<text>Shows the Armor Condition bar.</text>
+	</string>
+	<string id="ui_mcm_sidhud_armortext">
+		<text>Armor Condition Text</text>
+	</string>
+	<string id="ui_mcm_sidhud_armortext_desc">
+		<text>Shows armor condition as a percentage in cyan text.\n
+		Has no effect if the bar is disabled.</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponshow">
+		<text>Weapon Condition Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponshow_desc">
+		<text>Shows the weapon condition bar.</text>
+	</string>
+	<string id="ui_mcm_sidhud_weapontext">
+		<text>Weapon Condition Text</text>
+	</string>
+	<string id="ui_mcm_sidhud_weapontext_desc">
+		<text>Shows weapon condition as a percentage in orange text.\n
+		Has no effect if the bar is disabled.</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponbarhide">
+		<text>Hide On Unequip</text>
+	</string>
+	<string id="ui_mcm_sidhud_weaponbarhide_desc">
+		<text>Makes the weapon condition bar disappear when a weapon is unequipped.\n
+		Has no effect if the bar is disabled.</text>
+	</string>
+	<string id="ui_mcm_sidhud_ammoshow">
+		<text>Total Ammo Counter</text>
+	</string>
+	<string id="ui_mcm_sidhud_ammoshow_desc">
+		<text>Shows total ammo.</text>
+	</string>
+	<string id="ui_mcm_sidhud_oldammoshow">
+		<text>Old Ammo</text>
+	</string>
+	<string id="ui_mcm_sidhud_oldammoshow_desc">
+		<text>Makes the Old Ammo appear where relevant.</text>
+	</string>
+	<string id="ui_mcm_sidhud_radhealthshow">
+		<text>放射線被曝バー</text>
+	</string>
+	<string id="ui_mcm_sidhud_radhealthshow_desc">
+		<text>体力バーに受けた放射線の量を左から右に表示します。</text>
+	</string>
+	<string id="ui_mcm_sidhud_bleedingbarshow">
+		<text>Bleeding Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_bleedingbarshow_desc">
+		<text>Shows amount of bleeding on the stamina bar, from left to right.</text>
+	</string>
+	<string id="ui_mcm_sidhud_healingbar">
+		<text>Health Prediction Bar</text>
+	</string>
+	<string id="ui_mcm_sidhud_healingbar_desc">
+		<text>Enables an additional bar on the health bar that shows the exact amount of healing receive when using a healing item.</text>
+	</string>
+	
+</string_table>

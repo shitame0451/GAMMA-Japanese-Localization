@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>	
+	<string id="ui_mcm_menu_pda_taskboard">
+		<text>PDA Taskboard</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_banner">
+		<text>PDA Taskboard</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_scanning_range">
+		<text>タスクをスキャンする範囲</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_taskboard_key">
+		<text>タスクボードを表示 (PDA Taskboard)</text>
+	</string>
+	<string id="ui_mcm_pda_taskboard_companions_give_tasks">
+		<text>コンパニオンがプレイヤーにタスクを提示する</text>
+	</string>
+</string_table>

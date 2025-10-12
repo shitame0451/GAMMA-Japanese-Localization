@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+    <string id="ui_mcm_menu_campfires_on_map">
+		<text>Campfires On Map</text>
+	</string>
+
+	<string id="ui_mcm_campfires_on_map_show_campfires">
+		<text>焚き火を表示</text>
+	</string>
+
+	<string id="ui_mcm_campfires_on_map_show_only_visited">
+		<text>訪問済みの焚き火のみ表示</text>
+	</string>
+	<string id="ui_mcm_campfires_on_map_show_only_visited_desc">
+		<text>プレイヤーが触れた焚き火のみがマップに表示されるようになります。</text>
+	</string>
+
+    <string id="st_campfire">
+		<text>焚き火</text>
+	</string>
+      <string id="st_campfire_visited">
+		<text>%c[pda_white]焚き火 (%c[d_orange]訪問済み%c[pda_white])</text>
+	</string>
+</string_table>

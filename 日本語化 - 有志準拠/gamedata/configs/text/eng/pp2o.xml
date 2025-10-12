@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	
+	<string id="st_wpn_pp2000_oper">
+		<text>PP-2000 «Operator»</text>
+	</string>
+	<string id="st_wpn_pp2000_oper_descr">
+		<text>迅速な展開と個人防衛を重視した設計のサブマシンガンで、軽量かつ取り回しに優れている。小型ながら高い発射速度と扱いやすさを誇り、法執行機関や特殊部隊での運用に適している。サプレッサーや光学照準器にも対応し、幅広い戦術状況に対して柔軟な対応が可能。Barska エレクトロサイト、レーザーサイト、タクティカルフラッシュライトを装備した«Operator»は、サイドアームとして最高の相棒になるだろう。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
+		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]KBP Instrument Design Bureau\n
+		</text>
+	</string>
+
+</string_table>

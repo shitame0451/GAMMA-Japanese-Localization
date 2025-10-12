@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+  <string id="st_upgr_o_health">
+    <text>試作型生命補助システム</text>
+  </string>
+  <string id="st_upgr_o_health_desc">
+    <text>このパッケージには、着用者の体力を監視して、必要に応じてビタミン、アドレナリンまたは同化作用物質を供給する統合化システムが含まれる。\n</text>
+  </string>
+  <string id="st_upgr_o_bleed">
+    <text>試作型創傷治癒システム</text>
+  </string>
+  <string id="st_upgr_o_bleed_desc">
+    <text>このパッケージは、野外において薬剤を連続投与できるように設計された医療装置が含まれる。\n</text>
+  </string>
+  <string id="st_upgr_o_armor">
+    <text>強化防弾挿入材</text>
+  </string>
+  <string id="st_upgr_o_armor_desc">
+    <text>このパッケージには様々なケブラー、チタン、ベリル、アルミニウムと炭素繊維板および基材が含まれる。高い粘性と優れた阻止作用を特徴とする。\n</text>
+  </string>
+  <string id="st_upgr_o_damage">
+    <text>補正積層装甲</text>
+  </string>
+  <string id="st_upgr_o_damage_desc">
+    <text>このパッケージには複数の素材から特別に技巧を凝らして製造された装甲板が含まれる。銃弾耐性がわずかに増加する。\n</text>
+  </string>
+  <string id="st_upgr_o_durability">
+    <text>装甲板と耐久織物</text>
+  </string>
+  <string id="st_upgr_o_durability_desc">
+    <text>このパッケージには重装備用のチタンとアルミニウム合金の耐久装甲板と、軽装服のためのポリマー挿入材が含まれる。\n</text>
+  </string>
+  <string id="st_upgr_o_power">
+    <text>プラスチックおよび合成部品</text>
+  </string>
+  <string id="st_upgr_o_power_desc">
+    <text>このパッケージには様々な装甲スーツに使えるプラスチックおよび合成部品が含まれる。これは装甲服の重量を減らし、機動性と耐久力を高めるよう設計されている。\n</text>
+  </string>
+  <string id="st_upgr_o_chem">
+    <text>科学燃焼抑制剤および挿入材</text>
+  </string>
+  <string id="st_upgr_o_chem_desc">
+    <text>このパッケージには化学的な影響に対して装甲スーツの防護性能を向上させることができる有害物質吸着繊維と材料が含まれる。これらは科学反応による気相燃焼作用を遮ることで知られ、化学物質により保護層が膨れ上がることを抑えることで、より多くの科学的絶縁作用を提供する。\n</text>
+  </string>
+  <string id="st_upgr_o_burn">
+    <text>難燃加工繊維および挿入材</text>
+  </string>
+  <string id="st_upgr_o_burn_desc">
+    <text>このパッケージには炎の広がりを遅らせるか止め、また、炎の勢いを減少させる独自の特性を持つ防護繊維と素材が含まれる。様々な長さ、幅、厚みと形の耐火材料からなり、いくつかはマグネシウム素材を内包している。\n</text>
+  </string>
+  <string id="st_upgr_o_shock">
+    <text>絶縁繊維および挿入材</text>
+  </string>
+  <string id="st_upgr_o_shock_desc">
+    <text>このパッケージには、防護コンスタンタン、マグネシウムとシリコン挿入材が含まれ、アーマーへの電撃の影響を低減するよう設計されている。\n</text>
+  </string>
+  <string id="st_upgr_o_psi">
+    <text>防護被膜層付き繊維</text>
+  </string>
+  <string id="st_upgr_o_psi_desc">
+    <text>このパッケージには、ヘルメットと装甲スーツに利用できるアルミニウム処理されたレイヤーと、遮蔽用挿入材が含まれる。また、電磁波防止ゴムにより僅かに精神波作用の影響を減らすことができる。\n</text>
+  </string>
+  <string id="st_upgr_o_rad">
+    <text>活性フィルターおよび放射線遮断素材</text>
+  </string>
+  <string id="st_upgr_o_rad_desc">
+    <text>このパッケージには、防護フィルタが含まれ、呼吸器系を通して体にいろいろな毒と化学製品の侵入を妨げる。また強力なアルファ、ガンマ線粒子を減衰させる高密度材料も追加されている。\n</text>
+  </string>
+  <string id="st_upgr_o_carry">
+    <text>重量分散固定システム</text>
+  </string>
+  <string id="st_upgr_o_carry_desc">
+    <text>このパッケージには、様々な留め金具が含まれ、荷重の分散に利用できる。\n</text>
+  </string>
+  <string id="st_upgr_o_arty">
+    <text>留め金具アタッチメント</text>
+  </string>
+  <string id="st_upgr_o_arty_desc">
+    <text>このパッケージには、スーツベルトアタッチメントが含まれ、同時に使えるモジュールとアーティファクト容器の数を増やす事ができる。\n</text>
+  </string>
+  <string id="st_upgr_o_run">
+    <text>油圧サーボドライブ増幅システム</text>
+  </string>
+  <string id="st_upgr_o_run_desc">
+    <text>このパッケージには、第1、および2世代強化外骨格への強化試作サーボドライブが含まれる。着用者はダッシュすることが可能となる。\n</text>
+  </string>
+  <string id="st_upgr_o_weight">
+    <text>軽量素材</text>
+  </string>
+  <string id="st_upgr_o_weight_desc">
+    <text>このパッケージには、様々な長さ、幅、厚みと形と特性を持った軽量ポリマー材料が含まれる。\n</text>
+  </string>
+  <string id="st_upgr_w_weight">
+    <text>可動カウンターウェイト構成部品</text>
+  </string>
+  <string id="st_upgr_w_weight_desc">
+    <text>このパッケージには、様々な武器に利用できる軽量ポリマー素材セットが含まれる。ポリマー素材は一時的な流行ではなく、かなりの人気があるアップグレードとなった。\n</text>
+  </string>
+  <string id="st_upgr_w_muffle">
+    <text>バレル外部へのネジキリ構成部品</text>
+  </string>
+  <string id="st_upgr_w_muffle_desc">
+    <text>このパッケージには、様々な武器に利用できる外部ネジ山構成部品が含まれる。外部ネジ山により、サプレッサーを装着することができる。\n</text>
+  </string>
+  <string id="st_upgr_w_grenade_mount">
+    <text>アンダーバレルグレネードランチャーマウント</text>
+  </string>
+  <string id="st_upgr_w_grenade_mount_desc">
+    <text>このパッケージには、様々な武器に利用できるアンダーバレルグレネードランチャーマウントセットが含まれる。\n</text>
+  </string>
+  <string id="st_upgr_w_reliability">
+    <text>自動ガスレギュレーター</text>
+  </string>
+  <string id="st_upgr_w_reliability_desc">
+    <text>このパッケージには、様々な武器に利用できる特別な調節装置メカニズムが含まれる。これにより武器を汚損から防護できる。\n</text>
+  </string>
+  <string id="st_upgr_w_speed">
+    <text>多溝ライフリングバレル</text>
+  </string>
+  <string id="st_upgr_w_speed_desc">
+    <text>このパッケージには、様々な武器に利用できる多溝ライフリングセットが含まれる。銃身への多溝ライフリング増設は、反動が大幅に増加するが弾丸速度と武器精度を改善する。\n</text>
+  </string>
+  <string id="st_upgr_w_recoil">
+    <text>追加ガスピストン</text>
+  </string>
+  <string id="st_upgr_w_recoil_desc">
+    <text>このパッケージには、様々な武器に利用できる追加ガスピストンセットが含まれる。追加ピストンはカウンターウェイトとして働き、ボルトメカニズムの作動衝撃を補正する。\n</text>
+  </string>
+  <string id="st_upgr_w_magazine">
+    <text>大容量マガジンセット</text>
+  </string>
+  <string id="st_upgr_w_magazine_desc">
+    <text>このパッケージには、様々な口径の武器に利用できる大容量弾倉セットが含まれる。\n</text>
+  </string>
+  <string id="st_upgr_w_scope">
+    <text>光学スコープマウントセット</text>
+  </string>
+  <string id="st_upgr_w_scope_desc">
+    <text>このパッケージには、様々な武器に利用できる光学スコープセットが含まれる。搭載できるスコープは、近、中、長距離戦闘用が含まれる。\n</text>
+  </string>
+  <string id="st_upgr_w_dispersion">
+    <text>バランサー素材</text>
+  </string>
+  <string id="st_upgr_w_dispersion_desc">
+    <text>このパッケージには、様々な武器に利用できるバランサー素材セットが含まれる。合成素材がロッドに増設されることで意図されたとおり確実に作動するため、命中率が増加する。\n</text>
+  </string>
+  <string id="st_upgr_w_calibre">
+    <text>口径部品セット</text>
+  </string>
+  <string id="st_upgr_w_calibre_desc">
+    <text>このパッケージには、多様な武器に利用できる口径部品セットが含まれる。武器の複雑なオートメーション化したメカニクス部品の統合的な変更を可能とし、口径を変更するが信頼性が犠牲になる。\n</text>
+  </string>
+  <string id="st_upgr_w_inertion">
+    <text>異型形状を含むエルゴノミックレシーバー</text>
+  </string>
+  <string id="st_upgr_w_inertion_desc">
+    <text>このパッケージには、様々な武器に利用できる人間工学に基づいた機関部セットが含まれる。銃身一体型のブルバップレシーバーのためにだけ使われる改造部品であり、武器メンテナンスの単純化が図れる。\n</text>
+  </string>
+  <string id="st_upgr_w_rpm">
+    <text>チタニウム製リターンメカニズムロッド</text>
+  </string>
+  <string id="st_upgr_w_rpm_desc">
+    <text>このパッケージは、様々な武器に利用できるチタンロッドセットが含まれる。チタンロッドは、通常のロッドに比べ非常に高い持続発射速度に耐えることができる。\n</text>
+  </string>
+  <string id="st_upgr_w_scope_mount">
+    <text>光学機器用マウントセット</text>
+  </string>
+  <string id="st_upgr_w_scope_mount_desc">
+    <text>このパッケージには、様々な武器に対応した光学機器用マウントセットが含まれる。取り付け用マウントを増設し光学スコープの設置を容易にする。\n</text>
+  </string>
+  <string id="st_upgr_w_firemode">
+    <text>トリガーメカニズムセット</text>
+  </string>
+  <string id="st_upgr_w_firemode_desc">
+    <text>このパッケージには、多様な武器に使用できるトリガーメカニズムセットが含まれる。それぞれのバーストおよびオートマチックファイアモードに最適な武器のオートマチック部品の改善が見込まれる。\n</text>
+  </string>
+</string_table>

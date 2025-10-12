@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="gamma_burn_cap">
+		<text>%c[pda_white]熱耐性上限:</text>
+	</string>
+	<string id="gamma_shock_cap">
+		<text>%c[pda_white]電気耐性上限:</text>
+	</string>
+	<string id="gamma_telepatic_cap">
+		<text>%c[pda_white]プサイ耐性上限:</text>
+	</string>
+	<string id="gamma_chemical_burn_cap">
+		<text>%c[pda_white]化学耐性上限:</text>
+	</string>
+	<string id="gamma_wound_cap">
+		<text>%c[pda_white]裂傷耐性上限:</text>
+	</string>
+	<string id="gamma_fire_wound_cap">
+		<text>%c[pda_white]銃弾耐性上限:</text>
+	</string>
+	<string id="gamma_explosion_cap">
+		<text>%c[pda_white]爆発耐性上限:</text>
+	</string>
+	<string id="gamma_strike_cap">
+		<text>%c[pda_white]衝撃耐性上限:</text>
+	</string>
+</string_table>

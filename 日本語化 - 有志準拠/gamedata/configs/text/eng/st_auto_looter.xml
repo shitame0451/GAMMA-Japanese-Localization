@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+	<string id="st_auto_looter_no_valid_tool">
+		<text>分解ツールが不足している／劣化している</text>
+	</string>
+	<string id="st_auto_looter_still_running">
+		<text>Auto Looter実行中（対象オブジェクト）</text>
+	</string>
+	<string id="st_auto_looter_remote_looting_disabled">
+		<text>遠隔アイテム回収が無効になっている</text>
+	</string>
+	<string id="st_auto_looter_remote_looting_too_far">
+		<text>ターゲットが遠すぎて回収できない</text>
+	</string>
+	<string id="st_auto_looter_parts_not_stripped">
+		<text>銃の自動分解に失敗しました（他のスクリプトによって生成が遅延中）
+\n再度Auto Looterを実行してください</text>
+	</string>
+
+	<!-- Context menu on items -->
+	<string id="st_auto_looter_enable_auto_disassemble">
+		<text>自動分解を有効化</text>
+	</string>
+	<string id="st_auto_looter_disable_auto_disassemble">
+		<text>自動分解を無効化</text>
+	</string>
+
+	<string id="st_auto_looter_enable_auto_loot">
+		<text>自動回収を有効化</text>
+	</string>
+	<string id="st_auto_looter_disable_auto_loot">
+		<text>自動回収を無効化</text>
+	</string>
+</string_table>

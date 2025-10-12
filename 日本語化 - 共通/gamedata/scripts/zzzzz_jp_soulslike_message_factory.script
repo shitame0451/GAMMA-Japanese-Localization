@@ -1,0 +1,43 @@
+-- soulslike_message_factory.script
+
+-- ===================================================================
+--  rescuer_enemy_looter_msg_factory / rescuer_enemy_looter_tarkov_looter_msg_factory
+--  救助者メッセージを "敵コミュニティ + 名前" → "名前のみ" に変更する
+--  unlocalizerでグローバル化
+-- ===================================================================
+local original_rescuer_enemy_looter_msg_factory = soulslike_message_factory.rescuer_enemy_looter_msg_factory
+local original_rescuer_enemy_looter_tarkov_looter_msg_factory = soulslike_message_factory.rescuer_enemy_looter_tarkov_looter_msg_factory
+
+soulslike_message_factory.rescuer_enemy_looter_msg_factory = function(enemy_name, enemy_comm)
+	local text = original_rescuer_enemy_looter_msg_factory(enemy_name, enemy_comm)
+
+	local messages = {
+		"st_soulslike_rescuer_enemy_looter_1",
+		"st_soulslike_rescuer_enemy_looter_2",
+		"st_soulslike_rescuer_enemy_looter_3",
+		"st_soulslike_rescuer_enemy_looter_4",
+		"st_soulslike_rescuer_enemy_looter_5",
+	}
+
+	local key = messages[math.random(#messages)]
+	local patched = strformat(game.translate_string(key), enemy_name)
+
+	return patched
+end
+
+soulslike_message_factory.rescuer_enemy_looter_tarkov_looter_msg_factory = function(enemy_name, enemy_comm)
+	local text = original_rescuer_enemy_looter_tarkov_looter_msg_factory(enemy_name, enemy_comm)
+
+	local messages = {
+		"st_soulslike_rescuer_enemy_tarkov_looter_1",
+		"st_soulslike_rescuer_enemy_tarkov_looter_2",
+		"st_soulslike_rescuer_enemy_tarkov_looter_3",
+		"st_soulslike_rescuer_enemy_tarkov_looter_4",
+		"st_soulslike_rescuer_enemy_tarkov_looter_5",
+	}
+
+	local key = messages[math.random(#messages)]
+	local patched = strformat(game.translate_string(key), enemy_name)
+
+	return patched
+end

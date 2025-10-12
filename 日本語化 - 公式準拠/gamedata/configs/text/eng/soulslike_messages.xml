@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+
+	<string id="st_save_only_when_sleeping">
+		<text>ハードコアセーブが有効になっている。
+\nセーブは睡眠時と復活時に自動的に行われる。</text>
+	</string>
+	<string id="st_soulslike_your_items">
+		<text>スタッシュ（ソウルライク）</text>
+	</string>
+	<string id="set_spawn_button">
+		<text>復活地点を設定</text>
+	</string>
+	<string id="st_soulslike_spawn_location_set">
+		<text>復活地点を設定した</text>
+	</string>
+	<string id="st_soulslike_rescuer_initial_generic">
+		<text>目を覚ますと見覚えのある場所にいた。しかし、どうやってここに来たのか思い出せない。</text>
+	</string>
+	<string id="st_soulslike_rescuer_food_generic">
+		<text>\n自分の持ち物を見てみると、誰かが食料と水を残してくれていた。</text>
+	</string>
+	<string id="st_soulslike_rescuer_radio_generic">
+		<text>\nさらに一枚のメモを見つけた。そこには自分の装備が隠し場所に保管されていること、
+\nそしてRF受信機の周波数を%sに合わせれば探し出せることが書かれていた。</text>
+	</string>
+	<string id="st_soulslike_rescuer_pda_generic">
+		<text>\nPDAには、自分が発見された場所の目印が記録されているようだ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_initial_1">
+		<text>よう！あんたの様子が気になってな。ほとんど死にかけてたんだぜ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_initial_2">
+		<text>まだ生きていたとはな！実のところ、もう死んでるのかと思ったんだ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_initial_3">
+		<text>よう、気分はどうだ？元気になったようで何よりだ。本当にひどい状態だったんだぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_initial_4">
+		<text>よう！あれからどうなったか気になってな。ボロボロの状態だったんだぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_initial_5">
+		<text>よう、そろそろ良くなってきた頃かな。あんな状態だったから心配したよ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_food_1">
+		<text>\n目が覚めたときのために、食べ物と飲み物を用意しておいたからな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_food_2">
+		<text>\n目が覚めたときのために、食べ物と飲み物を用意しておいた。</text>
+	</string>
+	<string id="st_soulslike_rescuer_food_3">
+		<text>\n目が覚めたときのために、ちょっとした食べ物と飲み物を用意しておいた。</text>
+	</string>
+	<string id="st_soulslike_rescuer_food_4">
+		<text>\n目が覚めたときのために、何個か食べ物と飲み物を用意しておいた。</text>
+	</string>
+	<string id="st_soulslike_rescuer_food_5">
+		<text>\n少しだけ食べ物と飲み物を用意しておいたぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_pda_1">
+		<text>\n倒れていた場所の目印はPDAに記録しておいた。うまくいけば取り戻せるかもしれないな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_pda_2">
+		<text>\n倒れていた場所の目印をPDAに記録しておいた。なんとか取り戻せるといいな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_pda_3">
+		<text>\n盗まれた物を探せるように、倒れていた場所の目印をPDAに追加しておいたからな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_pda_4">
+		<text>\n俺があんたを見つけた場所の目印がPDAに追加されてるはずだ。盗まれた物を取り戻すのに役立つかもな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_pda_5">
+		<text>\n盗まれた物を回収できるように、あんたを見つけた場所の目印をPDAに追加しておいた。</text>
+	</string>
+	<string id="st_soulslike_rescuer_used_items_1">
+		<text>\nそれと、あの場所から連れ出すために持ち物を少しだけ使わせてもらったよ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_used_items_2">
+		<text>\nそれと、あんたを救うために持っていた物資を使わせてもらったからな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_used_items_3">
+		<text>\nそれと、あんたを救出するために持ち物を少し使わせてもらったぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_used_items_4">
+		<text>\nそれと、あんたの持ち物を少し使ったが、確実に救出するためだからな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_used_items_5">
+		<text>\nそれと、あの場所から救い出すために物資を少しだけ使わせてもらったよ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_stay_safe_1">
+		<text>\nそれじゃ気をつけろよ、ストーカー。</text>
+	</string>
+	<string id="st_soulslike_rescuer_stay_safe_2">
+		<text>\nお大事にな、ストーカー。</text>
+	</string>
+	<string id="st_soulslike_rescuer_stay_safe_3">
+		<text>\nこれからは気をつけてくれよ、ストーカー。</text>
+	</string>
+	<string id="st_soulslike_rescuer_stay_safe_4">
+		<text>\nそれじゃ注意しろよ、ストーカー。</text>
+	</string>
+	<string id="st_soulslike_rescuer_stay_safe_5">
+		<text>\nこれ以上トラブルに巻き込まれるなよ、ストーカー。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_tarkov_looter_1">
+		<text>\nあんたを見つけた時、%sという人物が銃をいじってるのに気付いてな。
+\nどうやら何かを取り出してるみたいだった。その後、俺が奴を驚かせて追い払ったんだぜ。
+\n装備を回収したら、よく確認しておいたほうがいいかもな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_tarkov_looter_2">
+		<text>\nあんたを見つけた瞬間、%sが持ち物を漁ってるのが見えてな。
+\nどうやら何かを取り出してるみたいだった。
+\nなんとか追い払ったが、装備を回収したら全部揃ってるか確認したほうがいいぜ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_tarkov_looter_3">
+		<text>\nあんたを発見した時、銃をいじってる奴がいたんだ。
+\n何かを持ち出そうとしているようだった。確か%sと名乗ってたな。
+\nなんとか奴を追い払ったが、持ち物を回収したら装備を確認したほうがいいぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_tarkov_looter_4">
+		<text>\nあんたを発見した時、%sと名乗る人物が銃を漁ってるのが見えてな。
+\n奴は何かを持ち出そうとしていた。なんとか追い払ったが、装備を回収したらよく確認しておくことだな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_tarkov_looter_5">
+		<text>\nあんたを発見した時、%sが銃をいじっているのが見えてな。
+\n見たところ、何かを持ち出そうとしてるみたいだった。
+\n威嚇して奴を追い払ったが、装備を回収したらちゃんと揃ってるか確認したほうがいいぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_looter_1">
+		<text>\n最初にあんたを見つけた時、%sという人物が近くにいてな。
+\n持ち物を持って逃げていったんだ。うまくいけば、奴を見つけて取り戻せるかもしれないな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_looter_2">
+		<text>\nあんたを見つけた時、%sという人物がいてな。
+\n持ち物を盗んで逃げたみたいだ。うまくいけば、奴を見つけて持ち物を取り返せるだろう。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_looter_3">
+		<text>\nあんたを見つけた時、%sという人物が近くにいてな。
+\n持ち物を盗んで逃げていったぞ。奴を見つけ出して、取り返せることを祈ってるよ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_looter_4">
+		<text>\nあんたを見つけた時、%sという人物がいてな。
+\n持ち物を盗んで逃げていったよ。奴を見つけられれば、取り返せるかもしれないな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_enemy_looter_5">
+		<text>\nあんたを見つけた時、%sが持ち物を漁ってたんだ。
+\n奴を見つけて、持ち物を取り返せるといいな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_radio_freq_1">
+		<text>\nあんたの持ち物は置きっぱなしだったから、安全な場所に隠しておいたぞ。
+\n探すときはRF受信機で周波数を%sに設定してみろ。その場所に近づけば受信機が音を出すはずだ。
+\n念のため、あんたのポケットに周波数のメモを残しておいたぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_radio_freq_2">
+		<text>\nあんたの持ち物は他の誰かが取らないように、俺が隠しておいた。
+\nRF受信機の周波数を%sに設定すれば探せるだろう。近づくと受信機が音を出し始めるはずだ。
+\n周波数を忘れた場合に備えて、ポケットにメモを入れておいたからな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_radio_freq_3">
+		<text>\nあんたの持ち物は誰かに盗まれないように隠しておいた。
+\n見つけるには、RF受信機で周波数を%sに設定するんだ。近づいたら受信機が音を出すからな。
+\n忘れたときのために、ポケットに周波数のメモを残しておいたぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_radio_freq_4">
+		<text>\nあんたの持ち物を守るために、安全な場所に隠しておいたぜ。
+\nRF受信機を使って周波数を%sに設定すれば、そこに近付いたときに受信機が音を出すはずだ。
+\n念のために、ポケットに周波数のメモを入れておいたからな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_radio_freq_5">
+		<text>\nあんたの持ち物は盗まれないように、安全な場所に隠しておいたぞ。
+\nRF受信機で周波数を%sに設定すれば見つけられる。近づくと受信機が音を出すはずだ。
+\n周波数を忘れても大丈夫だ。俺がポケットにメモを残しておいたからな。</text>
+	</string>
+	<string id="st_soulslike_hidden_stash_1">
+		<text>\nあんたの持ち物は隠し場所にしまっておいた。場所はPDAに記してある。</text>
+	</string>
+	<string id="st_soulslike_hidden_stash_2">
+		<text>\nあんたの持ち物は安全な隠し場所に移動させておいた。場所はPDAに記録してあるぞ。</text>
+	</string>
+	<string id="st_soulslike_hidden_stash_3">
+		<text>\nあんたの持ち物は隠し場所に入れておいた。場所はPDAに記録されてるはずだ。</text>
+	</string>
+	<string id="st_soulslike_hidden_stash_4">
+		<text>\nあんたの持ち物は保管して、場所をPDAに記録しておいたぞ。</text>
+	</string>
+	<string id="st_soulslike_hidden_stash_5">
+		<text>\nあんたの持ち物は目立たない場所に隠して、位置をPDAに記録しておいたぞ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_indoor_1">
+		<text>よう、あんたはまさに幸運の持ち主だな！%sに入ったなんて驚いたぞ。
+\nストーカーを何人か呼んで、装備の回収を手伝ってもらったんだ。うまくいけば全部揃ってるはずだぜ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_indoor_2">
+		<text>おい、かなり運が良かったな！%sに入ったなんて驚きだぜ。
+\n俺たちがタイミング良くあんたを見つけたんだ！協力して装備を取り戻したんだ。全部揃ってるはずだよ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_indoor_3">
+		<text>おい、運がよかったな！%sに入ったとは驚いたぜ。偶然見つけられてよかったよ！
+\n他のストーカーたちと一緒にあんたの装備を回収したんだ。全部揃ってるはずだぜ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_indoor_4">
+		<text>おやおや、誰かと思えば。なんて運の良い野郎だ！本当に%sに入ったのか？
+\nタイミング良く見つけてな、仲間の助けを借りて装備を回収したんだ。全部揃ってるはずだぜ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_indoor_5">
+		<text>マジかよ、あんたは本当に運が良い奴だな！%sに一人で入るなんて信じられんぞ。
+\nタイミング良くあんたを見つけてな。仲間たちと協力して装備を回収したんだ。全部揃ってるはずだぜ。</text>
+	</string>
+	<string id="st_soulslike_rescuer_monster_looter_1">
+		<text>\n近くにいたミュータントは威嚇して追い払ったが、奴らはあんたの持ち物を漁ってるみたいだったな。
+\n装備を取り戻すときは注意しろよ。別のミュータントがいるかもしれないからな。</text>
+	</string>
+	<string id="st_soulslike_rescuer_monster_looter_2">
+		<text>\n近くにいたミュータントは追い払ったが、奴らがあんたのバックパックを漁った形跡を見つけてな。
+\n装備を回収するなら注意したほうがいいぞ。持ち物が周囲のミュータントを引き寄せてるかもしれない。</text>
+	</string>
+	<string id="st_soulslike_rescuer_monster_looter_3">
+		<text>\n近くにいたミュータントは追い払ったが、奴らはあんたのバックパックを漁ったようだな。
+\n装備を回収するときは警戒しておけよ。持ち物が周囲のミュータントを引き寄せてるかもしれない。</text>
+	</string>
+	<string id="st_soulslike_rescuer_monster_looter_4">
+		<text>\nミュータントは俺が追い払ったが、奴らがあんたのバックパックを漁った形跡を見つけてな。
+\n装備を取り戻すときは注意しておけよ。周囲のミュータントが持ち物に引き寄せられてるかもしれない。</text>
+	</string>
+	<string id="st_soulslike_rescuer_monster_looter_5">
+		<text>\nあんたのバックパックはミュータントに漁られてたが、俺がなんとか追い払ったぞ。
+\n装備を取り戻すなら注意しろよ。周囲のミュータントが持ち物に引き寄せられてるかもしれないからな。</text>
+	</string>
+
+</string_table>
