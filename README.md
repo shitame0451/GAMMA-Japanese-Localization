@@ -2,7 +2,7 @@
 ![gamma](img/title.png)
 
 ## 導入方法
- 1. 日本語化Modをダウンロードする
+ 1. [Releases](https://github.com/shitame0451/GAMMA-Japanese-Localization/releases/latest)から日本語化Modのzipファイルをダウンロードする
  2. Mod Organizer 2で `Ctrl+M` を押してModの選択ウィンドウを開き、ダウンロードしたzipファイルを選択する（または、MO2のMODリストにzipファイルをドラッグ&ドロップする）
  3. fomodインストーラーの指示に従ってインストールする
  4. MODリストに追加された日本語化Modのチェックボックスを有効化
