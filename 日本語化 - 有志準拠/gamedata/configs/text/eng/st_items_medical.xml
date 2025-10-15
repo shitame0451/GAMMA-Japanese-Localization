@@ -369,7 +369,7 @@
 		<text>小型の注射器に収められた強力な薬剤で、使用者を完全に昏睡状態に陥らせる。その後、目覚めることができれば“生まれ変わったような”強烈な多幸感に包まれると言われている。他の薬剤との併用は極めて危険で、最悪の場合死に至ることもあるため、決して併用しないこと。\n \n
 		%c[pda_white]特性:\n
 		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
-		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[pda_white](100%) %c[pda_white]T%c[pda_white](100%) %c[pda_white]A%c[pda_white](100%) %c[pda_white]L%c[pda_white](100%)\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[d_orange](100%) %c[pda_white]T%c[d_orange](100%) %c[pda_white]A%c[d_orange](100%) %c[pda_white]L%c[d_orange](100%)\n
 		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](8)•••••••• %c[pda_white]T%c[pda_white](8)•••••••• %c[pda_white]A%c[pda_white](5)••••• %c[pda_white]L%c[pda_white](5)•••••\n
 		</text>
 	</string>
