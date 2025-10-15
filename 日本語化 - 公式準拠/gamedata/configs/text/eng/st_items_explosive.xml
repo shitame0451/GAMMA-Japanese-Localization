@@ -35,11 +35,9 @@
     <text>ガスボンベ</text>
   </string>
   <string id="st_balon_gas_descr">
-    <text>圧縮ガスが充填された加圧容器で、主に調理や暖房用の燃料として使用する。しかし、その可燃性ゆえに即席爆発装置として利用されることもあり、紛争地域では潜在的な危険物となる。\n \n
+    <text>圧縮ガスが充填された加圧容器で、主に調理や暖房用の燃料として使用する。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]爆発物\n
 		%c[d_cyan] • %c[pda_white]調理用燃料\n
-		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]衝撃\n
  </text>
   </string>
   <string id="st_balon_gas_empty">
@@ -55,10 +53,8 @@
     <text>缶爆弾</text>
   </string>
   <string id="st_metalcan_powder_descr">
-    <text>小型でやや重みのある金属製の容器。工業用爆薬の混合物、ボルトやナット、そして古い弾薬から取り出した黒色火薬が詰められている。衝撃を加えると爆発し、ボルトや腐食性の化学物質があらゆる方向に飛び散る。\n \n
+    <text>小型でやや重みのある金属製の容器。工業用爆薬の混合物、ボルトやナット、そして古い弾薬から取り出した黒色火薬が詰められている。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]爆発物\n
-		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]衝撃\n
  </text>
   </string>
   <string id="st_jerrycan_item">
@@ -68,11 +64,9 @@
     <text>ジェリカン</text>
   </string>
   <string id="st_jerrycan_fuel_descr">
-    <text>E95ガソリンが充填された金属製の大型容器。車や発電機の燃料に欠かせないもので、高品質な料理を作るための調理用燃料としても使用できる。しかし、一部の者はこれを即席爆弾として使用している。\n \n
+    <text>E95ガソリンが充填された金属製の大型容器。車や発電機の燃料に欠かせないもので、高品質な料理を作るための調理用燃料としても使用できる。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]爆発物\n
 		%c[d_cyan] • %c[pda_white]調理用燃料\n
-		%c[d_cyan] • %c[pda_white]起爆の仕組み: %c[ui_gray_1]衝撃\n
  </text>
   </string>
   <string id="st_jerrycan_fuel_empty">
