@@ -6,7 +6,7 @@
 	</string>
 
 	<string id="st_soulslike_rescuers_radio_frequency_note_desc">
-		<text>救出してくれたストーカーが書いたメモだ。\n \n
+		<text>%c[255,250,250,250]救出してくれたストーカーが書いたメモだ。\n \n
 		%c[pda_white]特性:\n
 		</text>
 	</string>

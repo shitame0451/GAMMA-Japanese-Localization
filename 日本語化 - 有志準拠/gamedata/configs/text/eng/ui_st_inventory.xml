@@ -814,7 +814,7 @@
 		<text>%c[pda_white]作業台で使用できる（部品の交換）</text>
 	</string>
 	<string id="st_itm_desc_part_i">
-		<text>%c[pda_white]基本的な部品</text>
+		<text>%c[pda_white]基本素材</text>
 	</string>
 	<string id="st_itm_desc_part_w">
 		<text>%c[pda_white]銃の部品</text>

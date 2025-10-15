@@ -748,7 +748,10 @@
 		<text>«プロメテウス»</text>
 	</string>
 	<string id="st_af_tlf_prometheus_descr">
-		<text>同名の伝説のストーカーが倒された後、「ギリシャの火」アノマリーフィールドで形成されたユニークなアーティファクト。使用者に強力な熱耐性を与え、傷の回復を早める効果がある。</text>
+		<text>同名の伝説のストーカーが倒された後、「ギリシャの火」アノマリーフィールドで形成されたユニークなアーティファクト。使用者に強力な熱耐性を与え、傷の回復を早める効果がある。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アーティファクト\n
+		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない</text>
 	</string>
 	<!-- The Living Fire end -->
 	
@@ -866,7 +869,10 @@
 		<text>«ロストソウル»</text>
 	</string>
 	<string id="st_af_tlf_lost_soul_descr">
-		<text>このアーティファクトは«ソウル»に似ているが、特別な特性を持っている。より強力なプサイ防護の効果があり、使用者に負の効果を与えることはない。</text>
+		<text>このアーティファクトは«ソウル»に似ているが、特別な特性を持っている。より強力なプサイ防護の効果があり、使用者に負の効果を与えることはない。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]アーティファクト\n
+		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない</text>
 	</string>
 	<!-- Mystery of the Swamps end -->
 

@@ -82,7 +82,7 @@
 	<string id="st_gun_oil_ru">
 		<text>ガンオイル（ルサク）</text>
 	</string>
-	<string id="st_gun_oil_ru_descr">
+	<string id="st_gun_oil_ru_descr">	<!-- zzzzz_jp_ui_item.scriptで置換修正 -->
 		<text>手頃な価格のロシア製鉱物油が入ったプラスチックボトル。銃器の潤滑と防錆を目的としているが、適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]基本素材\n
@@ -162,23 +162,6 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]適切な素材が必要\n
 		%c[d_orange] • %c[pda_white]作業台で使用できる\n
-		</text>
-	</string>
-
-<!--
-	st_eft_scopes_addons.xml
-	idの指定ミス
--->
-
-	<string id="st_addon_scope_aim_acro">
-		<text>ACRO P-1 リフレックスサイト</text>
-	</string>
-	<string id="st_addon_scope_aim_acro_descr">
-		<text>コンパクトな密閉型のレッドドットサイト。拳銃やライフル向けに設計され、優れた耐久性と長寿命バッテリーを備えている。実戦、護身、競技射撃に最適な選択肢となる。\n \n
-		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]スウェーデン\n
-		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Aimpoint\n
-		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
 		</text>
 	</string>
 

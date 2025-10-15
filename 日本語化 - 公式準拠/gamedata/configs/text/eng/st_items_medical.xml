@@ -39,7 +39,7 @@
 		<text>ゾーンで活動する科学調査チームのためにオゼルスキー教授が開発した実験薬。主成分は「ゾンビパウダー」として知られるテトロドトキシンで、中枢神経を完全に停止する効果がある。そのため、遮蔽物のない環境でも光熱放射を生き延びられる可能性がある。6年間の実地試験を経て、用心深いストーカーたちは予期せぬ光熱放射に備えてこの薬を常備するようになった。\n \n
 		%c[pda_white]特性:\n
 		%c[ui_red] • %c[pda_white]一時的に気を失う\n
-		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white] 100% %c[pda_white]T%c[pda_white] 100% %c[pda_white]A%c[pda_white] 100% %c[pda_white]L%c[pda_white] 100%\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](100%) %c[pda_white]T%c[pda_white](100%) %c[pda_white]A%c[pda_white](100%) %c[pda_white]L%c[pda_white](100%)\n
 		</text>
 	</string>
 	<string id="st_drug_psy_blockade">
@@ -329,7 +329,7 @@
 		<text>細菌感染の治療や、治療が遅れた傷から生じる敗血症を防ぐ、持続性のある抗生物質。ゾーンでは軽い負傷による感染症が命取りになりかねず、ミュータントの襲撃と同程度の脅威となるため、多くのストーカーが常に携行している。\n \n
 		%c[pda_white]特性:\n
 		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
-		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]L%c[pda_white]•(1)\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]L%c[pda_white](1)•\n
 		</text>
 	</string>
 	<string id="st_antibio_chlor">
@@ -369,8 +369,8 @@
 		<text>小型の注射器に収められた強力な薬剤で、使用者を完全に昏睡状態に陥らせる。その後、目覚めることができれば“生まれ変わったような”強烈な多幸感に包まれると言われている。他の薬剤との併用は極めて危険で、最悪の場合死に至ることもあるため、決して併用しないこと。\n \n
 		%c[pda_white]特性:\n
 		%c[ui_red] • %c[pda_white]めまいを引き起こす\n
-		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[pda_white] 100% %c[pda_white]T%c[pda_white] 100% %c[pda_white]A%c[pda_white] 100% %c[pda_white]L%c[pda_white] 100%\n
-		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](8)•••••••• %c[pda_white]T%c[pda_white](9)•••••••• %c[pda_white]A%c[pda_white](5)••••• %c[pda_white]L%c[pda_white](5)•••••\n
+		%c[d_green] • %c[pda_white]応急手当: %c[pda_white]H%c[pda_white](100%) %c[pda_white]T%c[pda_white](100%) %c[pda_white]A%c[pda_white](100%) %c[pda_white]L%c[pda_white](100%)\n
+		%c[d_green] • %c[pda_white]完全治癒: %c[pda_white]H%c[pda_white](8)•••••••• %c[pda_white]T%c[pda_white](8)•••••••• %c[pda_white]A%c[pda_white](5)••••• %c[pda_white]L%c[pda_white](5)•••••\n
 		</text>
 	</string>
 	<string id="st_tetanus">

@@ -532,9 +532,9 @@
 		<text>レーザーモジュール</text>
 	</string>
 	<string id="st_addon_scope_lazup_generic_descr">
-		<text>\n \n%c[pda_white]互換性:\n
-		%c[d_cyan] • %c[ui_gray_1]ピカティニーまたは対応するレールを備えた銃\n \n
-		%c[ui_gray_1]あらゆる姿勢からの正確な射撃に使用可能。暗視装置と併用することでより容易な照準が可能になる。\n
+		<text>装着することで、あらゆる射撃姿勢において安定した精度を発揮する。暗視装置との併用により、より確実な照準が可能となる。\n \n
+		%c[pda_white]互換性:\n
+		%c[d_cyan] • %c[pda_white]ピカティニーレールなどの対応マウントを備えた銃\n
 		</text>
 	</string>
 	
@@ -782,8 +782,8 @@
 		<text>スペシャルアップグレードパック</text>
 	</string>
 	<string id="st_addon_scope_sup_new_descr">
-		<text>%c[pda_white]キットの内容:\n
-		%c[d_cyan] • 特定の銃をアップグレードするための各種工具、部品、アタッチメント\n
+		<text>%c[pda_white] キットの内容:\n
+		%c[d_cyan] • %c[pda_white]特定の銃をアップグレードするための各種工具、部品、アタッチメント\n
 		</text>
 	</string>
 

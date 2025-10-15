@@ -58,6 +58,7 @@
 	<string id="st_ball_hammer_descr">
 		<text>主に金属加工で使用されるピーニングハンマーの一種。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -67,6 +68,7 @@
 	<string id="st_duct_tape_descr">
 		<text>強力で柔軟なテープが必要な状況でよく使われる。素早い補修に最適だが、一時的な解決策に過ぎない。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -76,6 +78,7 @@
 	<string id="st_e_syringe_descr">
 		<text>再利用可能な医療用注射器。適切な器具と知識があれば、様々な薬物の製造に役立つだろう。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -85,6 +88,7 @@
 	<string id="st_cutlery_descr">
 		<text>野外での食事に適した携帯用の食器セット。汚れた手や拾い物の道具に頼る必要がなくなる。簡素だが、清潔な食事をありがたく思わないストーカーはいない。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -94,6 +98,7 @@
 	<string id="st_grease_descr">
 		<text>装備品、銃、機械類など、汚れや砂ぼこりにさらされるもののメンテナンスに使用する半固体潤滑剤。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -103,15 +108,17 @@
 	<string id="st_jar_descr">
 		<text>液体、食料、採集物を保管するのに適した軽量で密閉性の高い容器。湿気やその他の空気中汚染物質から中身を守るのに適している。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
-	
+
 	<string id="st_rope">
 		<text>ロープ</text>
 	</string>
 	<string id="st_rope_descr">
 		<text>頑丈なロープ。ゾーンのような場所では様々な用途に使用できる。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -121,6 +128,7 @@
 	<string id="st_radio2_descr">
 		<text>携帯型通信機器。音楽は神経を落ち着かせる良い方法だが、アンテナが壊れているため、ほとんど役に立たない。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -130,6 +138,7 @@
 	<string id="st_steel_wool_descr">
 		<text>非常に細い鋼繊維の束で、仕上げや修理作業で研磨材として使われる。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -139,6 +148,7 @@
 	<string id="st_mirror_descr">
 		<text>角をのぞき込む際に使われる、伸縮式の鉄管に取り付けられた小型ミラー。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -148,6 +158,7 @@
 	<string id="st_welding_goggles_descr">
 		<text>古い革製バンド付きの溶接用ゴーグル。溶接や切断作業で目を保護するためのものだが、使用感から察するにどちらもできそうにない。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -244,6 +255,7 @@
 	<string id="st_broken_detector_descr">
 		<text>動作しないベアー探知機。修理に使う部品としてはまだ役に立つ。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -253,6 +265,7 @@
 	<string id="st_flashlight_broken_descr">
 		<text>動作しない懐中電灯。修理に使う部品としてはまだ役に立つ。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -272,6 +285,7 @@
 	<string id="st_radio_descr">
 		<text>状態の悪い小型ラジオ。汚れと湿気によるダメージで、内部はかなりひどい状態のようだ。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -281,6 +295,7 @@
 	<string id="st_walkie_descr">
 		<text>ディスプレイが故障し、スピーカーからは常に雑音が出ている。これは使い物にならない。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
@@ -399,6 +414,7 @@
 	<string id="st_beadspread_descr">
 		<text>ゾーンにおける贅沢品。寝袋と敷布があれば、最悪のタイミングで疲労が限界に達する事態を避けられるかもしれない。\n \n
 		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]基本素材\n
 		</text>
 	</string>
 
