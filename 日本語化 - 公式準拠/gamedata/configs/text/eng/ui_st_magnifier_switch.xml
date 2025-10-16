@@ -2,7 +2,7 @@
 <string_table>
 
 	<string id="ui_mcm_menu_magnifier_switch">
-		<text>Magnifier Switch</text>
+		<text>3DSS Magnifier Switch</text>
 	</string>
 	
 	<string id="ui_mcm_magnifier_switch_title">
@@ -10,11 +10,11 @@
 	</string>
 
 	<string id="ui_mcm_magnifier_switch_switch_bind">
-		<text>マグニファイアの切り替え（Magnifier Switch）</text>
+		<text>マグニファイアの切り替え（3DSS Magnifier Switch）</text>
 	</string>
 
 	<string id="ui_mcm_magnifier_switch_keep_aim_toggle">
-		<text>照準中にマグニファイアを切り替えても照準状態を維持する（トグルADS用）</text>
+		<text>照準状態を維持したままマグニファイアを切り替える（トグルADS用）</text>
 	</string>
 
 	<string id="ui_mcm_magnifier_switch_switch_sound">

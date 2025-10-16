@@ -251,7 +251,7 @@
 		<text>Vortex Optics Razor AMG UH-1／Eotech G33 6倍マグニファイア</text>
 	</string>
 	<string id="st_addon_scope_razor_mag_descr">
-		<text>頑丈で高速な標的捕捉を可能にするRazor AMG UH-1ホログラフィックサイトに、Eotech G33マグニファイアを組み合わせたハイブリッドセットアップ。短距離から中距離までの戦闘においてシームレスな切り替えが可能。\n \n
+		<text>頑丈で高速な標的捕捉を可能にするRazor AMG UH-1ホログラフィックサイトに、Eotech G33マグニファイアを組み合わせたハイブリッドセットアップ。近距離から中距離までの戦闘においてシームレスな切り替えが可能。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech &amp; Vortex\n
@@ -328,7 +328,7 @@
 		<text>Leupold D-EVO Offset Optic／LCO レッドドット</text>
 	</string>
 	<string id="st_addon_scope_devo_descr">
-		<text>6倍スコープとドットサイトを統合した独自のオフセット照準システム。短・中距離の切り替えを瞬時に行える設計で、頭の位置を変えることなく即座に標的を捉えることが可能。\n \n
+		<text>6倍スコープとドットサイトを統合した独自のオフセット照準システム。近・中距離の切り替えを瞬時に行える設計で、頭の位置を変えることなく即座に標的を捉えることが可能。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Leupold\n
