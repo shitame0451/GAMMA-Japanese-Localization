@@ -1,5 +1,5 @@
 ## STALKER GAMMA 日本語化
-![gamma](img/title.png)
+![gamma](fomod\images/title.png)
 
 ## 導入方法
  1. [Releases](https://github.com/shitame0451/GAMMA-Japanese-Localization/releases/latest)から日本語化Modのzipファイルをダウンロードする
