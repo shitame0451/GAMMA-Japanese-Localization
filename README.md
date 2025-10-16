@@ -1,5 +1,6 @@
 ## STALKER GAMMA 日本語化
-![gamma](fomod\images/title.png)
+![gamma](fomod/images/title.png)
+更新履歴: [**CHANGELOG.md**](./CHANGELOG.md)
 
 ## 導入方法
  1. [Releases](https://github.com/shitame0451/GAMMA-Japanese-Localization/releases/latest)から日本語化Modのzipファイルをダウンロードする
@@ -32,7 +33,7 @@ GAMMAには「[GAMMA Massive Text Overhaul Project（GMTOP）](https://www.moddb
 
 使用フォント: VL PGothic, IBM Plex Sans, Tomorrow
 
-各フォントのライセンス条項（改変、再配布、帰属表示）は「Font Licenses」フォルダをご確認ください。  
+各フォントのライセンス条項（改変、再配布、帰属表示）は「[**licenses**](fonts/licenses)」フォルダをご確認ください。  
 本Modに含まれるフォントテクスチャを利用する際は元フォントのライセンス条件が適用されます。
 
 ## 各リンク
