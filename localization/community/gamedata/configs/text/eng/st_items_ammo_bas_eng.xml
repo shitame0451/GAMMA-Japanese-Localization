@@ -12,8 +12,8 @@
 	<string id="ammo_23x75_shrapnel_descr">
 		<text>KS-23で使用するバックショット弾。有効射程は約25メートル。ライフリングが施された銃身によって弾が広範囲に拡散するため、正確に狙うことなく高い効果を発揮できる。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]285\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (6 x 6)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]285 (47.5 x 6)\n
 		</text>
 	</string>
 	<string id="ammo_23x75_barrikada">
@@ -33,7 +33,7 @@
 		<text>高初速の徹甲弾。現代のボディアーマーや強化バリケードを貫通するよう設計されている。主にロシアの特殊部隊がピストルやサブマシンガンで使用し、危険な交戦が予測される任務で用いられる。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (32)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]24\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]27\n
 		</text>
 	</string>
 	<string id="ammo_20x70_buck">
@@ -42,8 +42,8 @@
 	<string id="ammo_20x70_buck_descr">
 		<text>複数のペレットを装填した20ゲージ弾。高いストッピングパワーを持ち、近距離戦闘に適している。12ゲージ弾よりも反動が抑えられ、散弾の広がりのバランスにも優れている。狩猟や自己防衛、戦術用途に幅広く使用されている。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]なし\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]143\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]なし (3 x 9)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]143 (16 x 9)\n
 		</text>
 	</string>
 	<string id="ammo_20x70_buck_s">
@@ -79,8 +79,8 @@
 	<string id="ammo_338_federal_descr">
 		<text>優れた弾道性能を持つ強力なライフル弾。長距離での精度とストッピングパワーのバランスに優れている。狩猟や戦術用途向けに設計され、高いエネルギーを目標に与えつつ、比較的扱いやすい反動を実現している。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR6 (75)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]56\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR1 (8)\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]606\n
 		</text>
 	</string>
 	<string id="ammo_338_federal_s">

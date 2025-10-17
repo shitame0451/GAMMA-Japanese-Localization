@@ -219,7 +219,7 @@
 	<string id="ammo-5.7x28-ss190_descr">
 		<text>高初速の徹甲弾で、低反動を維持しつつソフトアーマーを貫通できるよう設計されている。主に個人防衛火器やピストルで使用され、軍や法執行機関で広く採用されている。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR4 (38)\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR4 (40)\n
 		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]23\n
 		</text>
 	</string>
@@ -251,7 +251,7 @@
 	<string id="ammo-5.7x28-ss195_descr">
 		<text>高初速のホローポイント弾で、鉛を使用していない。跳弾リスクの低減と破片化性能を強化する目的で設計され、自己防衛用途や弾頭の確実な膨張が求められる特殊戦術用途に適している。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR2 (22)\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR2 (25)\n
 		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]23\n
 		</text>
 	</string>
@@ -310,7 +310,7 @@
 		<text>ソ連時代の標準的な中間弾薬で、貫通力とストッピングパワーのバランスに優れている。AK系ライフルに広く使用され、軍・準軍事組織・武装勢力などに採用されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR5 (55)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]40\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]45\n
 		</text>
 	</string>
 	<string id="ammo-7.62x39_ap_s">
@@ -323,7 +323,7 @@
 		<text>7.62x39mm弾のフルメタルジャケット仕様で、安定した弾道性能と貫通力を持つ。アサルトライフルの汎用弾薬として一般的な戦闘環境で使用されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (30)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]40\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]45\n
 		</text>
 	</string>
 	<string id="ammo-7.62x39_fmj_s">
@@ -401,7 +401,7 @@
 		<text>薄い遮蔽物や装甲目標を撃ち抜くために最適化された高貫通弾。軍用ライフルや機関銃で使用され、より強いストッピングパワーが必要な戦闘で効果を発揮する。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]装甲貫通力 (AP): %c[ui_gray_1]BR3 (37)\n
-		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]62\n
+		%c[d_cyan] • %c[pda_white]ストッピングパワー (DMG): %c[ui_gray_1]52\n
 		</text>
 	</string>
 	<string id="ammo-7.62x54-r_s">
