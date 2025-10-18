@@ -506,10 +506,10 @@
 
 	<!-- MARSH DOCTOR STASH IN PRIPYAT -->
 	<string id="cit_doctor_task">
-		<text>ホテル ポリーシャ</text>
+		<text>ホテル・ポリーシャ</text>
 	</string>
 	<string id="cit_doctor_task_1">
-		<text>ドクターが渡してくれた鍵と座標は、ストレロックがプリピャチのホテル ポリーシャの部屋に情報を隠していたことが示されている。</text>
+		<text>ドクターが渡してくれた鍵と座標は、ストレロックがプリピャチのホテル・ポリーシャの部屋に情報を隠していたことが示されている。</text>
 	</string>
 	<string id="cit_doctor_task_2">
 		<text>ホテルを見つけた。ここのどこかに、鍵に書かれた文字と一致する部屋があるはずだ。</text>

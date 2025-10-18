@@ -71,22 +71,22 @@
   </string>
 
   <string id="cit_doctors_key_desc">
-    <text>%c[pda_white]側面に「ホテル ポリーシャ - 26号室」と刻印された鍵。\n \n
+    <text>%c[pda_white]側面に「ホテル・ポリーシャ - 26号室」と刻印された鍵。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]タスク用アイテム\n
 		</text>
   </string>
   <string id="cit_doctors_key_short_desc">
-    <text>%c[pda_white]側面に「ホテル ポリーシャ - 26号室」と刻印された鍵。\n \n
+    <text>%c[pda_white]側面に「ホテル・ポリーシャ - 26号室」と刻印された鍵。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]タスク用アイテム\n
 		</text>
   </string>
   <string id="item_docs_hiden_pri_name">
-    <text>ストレロックの原稿</text>
+    <text>ストレロックの手記</text>
   </string>
   <string id="item_docs_hiden_pri_desc">
-    <text>%c[pda_white]革製本のすり切れた原稿。ストレロックによって書かれたもの。ゾーンの秘密について何か分かるかもしれない。\n \n
+    <text>%c[pda_white]革製本のすり切れた手記。ストレロックが書いたものだ。ゾーンの秘密について何か分かるかもしれない。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]タスク用アイテム\n
 		</text>

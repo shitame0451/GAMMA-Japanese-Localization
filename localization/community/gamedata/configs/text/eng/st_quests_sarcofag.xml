@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <string_table>
-  <string id="sar_monolith">
-    <text>北からの呼び声</text>
-  </string>
-  <string id="sar_monolith_0">
-    <text>願望機に話しかける。</text>
-  </string>
-  <string id="sar_monolith_1">
-    <text>北の方から自分を呼ぶ声がする･･････ 探しに行かなければ。</text>
-  </string>
-  <string id="sar_monolith_2">
-    <text>自分を呼ぶ声は願望機が発している。石棺を探し出さなければならない。</text>
-  </string>
-  <string id="sar_monolith_destroy">
-    <text>コンクリートの石棺</text>
-  </string>
-  <string id="sar_monolith_destroy_0">
-    <text>原稿に記載されているMonolithの基地を探し出し、そこに何が隠されているのかを突き止める。</text>
-  </string>
-  <string id="sar_monolith_destroy_1">
-    <text>願望機が出現させた10個の突起物をすべて壊す。</text>
-  </string>
-  <string id="sar_monolith_destroy_2">
-    <text>共同意識体たちのエネルギー供給機を破壊する。</text>
-  </string>
-  <string id="sar_monolith_destroy_3">
-    <text>ジェネレーターのスイッチを止め、すべてを終わらせる。</text>
-  </string>
+	<string id="sar_monolith">
+		<text>北からの呼び声</text>
+	</string>
+	<string id="sar_monolith_0">
+		<text>願望機に話しかける。</text>
+	</string>
+	<string id="sar_monolith_1">
+		<text>北の方から自分を呼ぶ声がする･･････ 探しに行かなければ。</text>
+	</string>
+	<string id="sar_monolith_2">
+		<text>自分を呼ぶ声は願望機が発しているものに違いない。石棺のどこかで見つけられるはずだ。</text>
+	</string>
+	<string id="sar_monolith_destroy">
+		<text>コンクリートの墓標</text>
+	</string>
+	<string id="sar_monolith_destroy_0">
+		<text>手記に記されていたMonolithの拠点を見つけ出し、そこに隠されたものを突き止める。</text>
+	</string>
+	<string id="sar_monolith_destroy_1">
+		<text>すべての投影体を殲滅し、願望機を破壊する。（全10ウェーブ）</text>
+	</string>
+	<string id="sar_monolith_destroy_2">
+		<text>共同意識体のポッドに接続されたエネルギー供給装置を破壊する。</text>
+	</string>
+	<string id="sar_monolith_destroy_3">
+		<text>発電機のスイッチを切り、すべてを終わらせる。</text>
+	</string>
 </string_table>
