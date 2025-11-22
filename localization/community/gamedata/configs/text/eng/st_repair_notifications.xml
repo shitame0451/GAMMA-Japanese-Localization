@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+    <string id="st_repair_notifications_no_charges">
+        <text>使用済み</text>
+    </string>
+    <string id="st_repair_notifications_tool_for_repair">
+        <text>例</text>
+    </string>
+</string_table>

@@ -8,5 +8,6 @@
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Vortex Optics\n
 		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]1.0x\n
+		%c[d_cyan] • %c[pda_white]レティクルの切り替え: %c[ui_gray_1]「サイトのモード切り替え」キー\n
 		</text>
 	</string>

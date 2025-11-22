@@ -4,21 +4,57 @@
 	<string id="ui_mcm_menu_magnifier_switch">
 		<text>3DSS Magnifier Switch</text>
 	</string>
-	
+
 	<string id="ui_mcm_magnifier_switch_title">
 		<text>Magnifier Switch</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_use_mousewheel">
+		<text>マウスホイールを使用（有効時はキー設定を無視する）</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_use_mousewheel_desc">
+		<text>マウスホイールでマグニファイアの切り替えを行います（'mouse_wheel_invert_zoom' が有効な場合はその設定に従います）</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_switch_ads_only">
+		<text>ADS時のマウスホイールでのみ切り替える</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_switch_ads_only_desc">
+		<text>有効にすると、非エイム時のマウスホイールによるマグニファイア切り替えが無効になります。</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_weapon_swap">
+		<text>マウスホイールによる武器切り替えを有効化</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_mwheel_weapon_swap_desc">
+		<text>この設定は 'mouse_wheel_change_weapon' コンソールコマンドおよび modded exes の設定を簡易的に利用するためのショートカットです。</text>
 	</string>
 
 	<string id="ui_mcm_magnifier_switch_switch_bind">
 		<text>マグニファイアの切り替え（3DSS Magnifier Switch）</text>
 	</string>
 
+	<string id="ui_mcm_magnifier_switch_switch_bind_desc">
+		<text>「照準スタイルの切り替え」と同じキーに割り当てた場合、通常のキー動作が変わり、マグニファイア切り替えができない状況や、必要なキー操作・入力モード（修飾キーなどの条件）が満たされていない場合でも切り替えられるようになります。</text>
+	</string>
+
 	<string id="ui_mcm_magnifier_switch_keep_aim_toggle">
-		<text>照準状態を維持したままマグニファイアを切り替える（トグルADS用）</text>
+		<text>ADS（トグル）を維持する</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_keep_aim_toggle_desc">
+		<text>照準状態を維持したままマグニファイアを切り替えます。（トグルADS用の設定）</text>
 	</string>
 
 	<string id="ui_mcm_magnifier_switch_switch_sound">
-		<text>マグニファイア切り替え時に効果音を再生</text>
+		<text>効果音を再生</text>
+	</string>
+
+	<string id="ui_mcm_magnifier_switch_switch_sound_desc">
+		<text>マグニファイア切り替え時に効果音を再生します。</text>
 	</string>
 
 	<string id="ui_mcm_magnifier_switch_debug">
