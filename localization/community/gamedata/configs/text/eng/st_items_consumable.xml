@@ -276,7 +276,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]飲料\n
 		%c[d_cyan] • %c[pda_white]覚醒作用\n
-		%c[d_cyan] • %c[pda_white]アルコール\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
 		</text>
 	</string>
 
@@ -333,7 +333,7 @@
 		<text>赤と白の特徴的なパッケージで知られる「マールボロ」は、西洋の喫煙文化を代表する存在だ。そのまろやかな味わいは、ゾーンの過酷な環境を生き抜く者にとって、馴染み深いひとときを与えてくれる。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]覚醒作用\n
-		%c[d_cyan] • %c[pda_white]アルコール分解作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
 		</text>
 	</string>
 	<string id="st_cigarettes_russian">
