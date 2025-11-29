@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<string_table>
+<string id="st_cigar3">
+	<text>タバコ（キャメル・イエロー）</text>
+</string>
+<string id="st_cigar3_descr">
+	<text>昔ながらのキャメルの風味にマイルドな後味。放射能まみれの生活に「上品さ」を求めるストーカーにはうってつけの品だ。ゾーンにはあまり輸入されないため、相応の高値がついている。\n \n
+		%c[pda_white]特性:\n
+		%c[d_cyan] • %c[pda_white]覚醒作用\n
+		%c[d_green] • %c[pda_white]アルコール分解作用\n
+	</text>
+</string>
+</string_table>
