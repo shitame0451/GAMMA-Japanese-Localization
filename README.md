@@ -3,11 +3,14 @@
 更新履歴: [**CHANGELOG.md**](./CHANGELOG.md)
 
 ## 導入方法
- 1. [Releases](https://github.com/shitame0451/GAMMA-Japanese-Localization/releases/latest)から日本語化Modのzipファイルをダウンロードする
- 2. Mod Organizer 2で `Ctrl+M` を押してModの選択ウィンドウを開き、ダウンロードしたzipファイルを選択する（または、MO2のMODリストにzipファイルをドラッグ&ドロップする）
- 3. fomodインストーラーの指示に従ってインストールする
+ 1. [Releases](https://github.com/shitame0451/GAMMA-Japanese-Localization/releases/latest)から日本語化Modのzipファイルをダウンロード
+ 2. Mod Organizer 2で `Ctrl+M` を押してModの選択ウィンドウを開き、ダウンロードしたzipファイルを選択（または、MO2のMODリストにzipファイルをドラッグ&ドロップ）
+ 3. fomodインストーラーの指示に従ってインストール
  4. MODリストに追加された日本語化Modのチェックボックスを有効化
  5. ゲームを起動し、メニュー画面が日本語になっていれば導入成功
+
+## GOG版について
+インストール先の「GAMMA」フォルダにある ModOrganizer.exe を実行し、導入方法に従って導入してください。
 
 ## 他のアドオンと併用する際の注意点
 本Modは、他のアドオンを加えていない素の状態のSTALKER GAMMAに導入することを前提としています。  
