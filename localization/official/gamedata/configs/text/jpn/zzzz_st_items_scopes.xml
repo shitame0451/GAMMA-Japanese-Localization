@@ -171,7 +171,7 @@
 	</string>
 	
 	<string id="st_addon_scope_gauss_sight">
-		<text>EOTS-62／ThermX Eliminator</text>
+		<text>EOTS-62（ThermX Eliminator）</text>
 	</string>
 	<string id="st_addon_scope_gauss_sight_descr">
 		<text>特殊任務向けに開発されたウクライナ製のサーマルサイト。1-10倍の可変ズームを持ち、コンパクトで堅牢な筐体に高感度サーマルセンサーを搭載することで、煙や暗闇、または遮蔽物が多い環境を通して熱源を素早く検出する。精密性を追求し、丁寧なメンテナンスが求められる設計のため、エリート部隊または実験部隊向けにごく少数のみ生産された。\n \n
@@ -304,7 +304,7 @@
 	</string>
 	
 	<string id="st_addon_scope_e0t2_mag">
-		<text>Eotech XPS3／Eotech 3倍マグニファイア</text>
+		<text>Eotech XPS3（Eotech 3倍マグニファイア）</text>
 	</string>
 	<string id="st_addon_scope_e0t2_mag_descr">
 		<text>薄型ボディに直感的な操作系を備えたコンパクトなホログラフィックサイト。側方へ倒せる3倍マグニファイアが組み込まれており、近距離での素早い射撃を可能にしつつ、必要に応じて近〜中距離の精密追撃へスムーズに切り替えられる。\n \n
@@ -318,7 +318,7 @@
 	
 	
 	<string id="st_addon_scope_razor_mag">
-		<text>UH-1／Eotech 6倍マグニファイア</text>
+		<text>UH-1（Eotech 6倍マグニファイア）</text>
 	</string>
 	<string id="st_addon_scope_razor_mag_descr">
 		<text>1倍サイトと側方へ倒せる6倍マグニファイアを組み合わせたキット。近距離での素早い射撃と中距離での追撃のためのズームを両立している。モジュラー設計により、マグニファイアを倒した状態でもメインのサイトを使用できる。これにより、サイトを交換することなく交戦距離を伸ばすことができる。\n \n

@@ -237,7 +237,7 @@
 		</text>
 	</string>
 	<string id="st_addon_scope_e0t2_mag">
-		<text>Eotech XPS3／Eotech G33 6倍マグニファイア</text>
+		<text>Eotech XPS3（Eotech G33 6倍マグニファイア）</text>
 	</string>
 	<string id="st_addon_scope_e0t2_mag_descr">
 		<text>コンパクトなホログラフィックサイトと、フリップ式の6倍マグニファイアを組み合わせたセットアップ。近距離での素早い射撃と、中距離での精密射撃の両方に対応可能。XPS3はナイトビジョン対応で、軍や法執行機関で広く採用されている。\n \n
@@ -248,7 +248,7 @@
 		</text>
 	</string>
 	<string id="st_addon_scope_razor_mag">
-		<text>Vortex Optics Razor AMG UH-1／Eotech G33 6倍マグニファイア</text>
+		<text>Vortex Optics Razor AMG UH-1（Eotech G33 6倍マグニファイア）</text>
 	</string>
 	<string id="st_addon_scope_razor_mag_descr">
 		<text>頑丈で高速な標的捕捉を可能にするRazor AMG UH-1ホログラフィックサイトに、Eotech G33マグニファイアを組み合わせたハイブリッドセットアップ。近距離から中距離までの戦闘においてシームレスな切り替えが可能。\n \n
@@ -325,7 +325,7 @@
 		</text>
 	</string>
 	<string id="st_addon_scope_devo">
-		<text>Leupold D-EVO Offset Optic／LCO レッドドット</text>
+		<text>Leupold D-EVO Offset Optic（LCO レッドドット）</text>
 	</string>
 	<string id="st_addon_scope_devo_descr">
 		<text>6倍スコープとドットサイトを統合した独自のオフセット照準システム。近・中距離の切り替えを瞬時に行える設計で、頭の位置を変えることなく即座に標的を捉えることが可能。\n \n
@@ -410,7 +410,7 @@
 	<string id="st_addon_scope_gee36_descr">
 		<text>H&amp;K G36に工場出荷時から組み込まれている光学サイト。固定倍率のスコープに加え、必要に応じてレッドドットを追加することができる。精密射撃と迅速な標的捕捉の両方に対応できるバランスの取れた設計が特徴。\n \n
 		%c[pda_white]特性:\n
-		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n\n
+		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]H&amp;K\n
 		%c[d_cyan] • %c[pda_white]倍率: %c[ui_gray_1]3.0x\n
 		</text>

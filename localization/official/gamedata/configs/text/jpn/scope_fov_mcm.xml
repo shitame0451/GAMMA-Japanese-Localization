@@ -41,10 +41,16 @@
 		<text>値を小さくするほど、1P78スコープ使用時の表示位置がより手前に近づきます。</text>
 	</string>
 	<string id="ui_mcm_scop_1pn93hv_fov">
-		<text>1PN93-1</text>
+		<text>1PN93 サーマル</text>
 	</string>
 	<string id="ui_mcm_scop_1pn93hv_fov_desc">
-		<text>値を小さくするほど、1PN93-1スコープ使用時の表示位置がより手前に近づきます。</text>
+		<text>値を小さくするほど、1PN93 サーマルスコープ使用時の表示位置がより手前に近づきます。</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93_fov">
+		<text>1PN93</text>
+	</string>
+	<string id="ui_mcm_scop_1pn93hv_fov_desc">
+		<text>値を小さくするほど、1PN93スコープ使用時の表示位置がより手前に近づきます。</text>
 	</string>
 	<string id="ui_mcm_scop_1p29_fov">
 		<text>1P29</text>
