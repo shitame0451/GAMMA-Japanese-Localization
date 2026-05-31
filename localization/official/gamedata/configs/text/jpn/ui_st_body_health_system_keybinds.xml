@@ -2,7 +2,7 @@
 
 <string_table>
 	<string id="ui_mcm_body_health_system_hud_toggle_key_bind">
-		<text>HUDの表示切り替え</text>
+		<text>HUDの表示切り替え（BHS）</text>
 	</string>
 	<string id="ui_mcm_body_health_system_chance_damage_on_footstep">
 		<text>ダッシュ時のダメージ発生率</text>
