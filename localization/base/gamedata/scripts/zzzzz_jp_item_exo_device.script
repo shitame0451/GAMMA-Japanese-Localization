@@ -15,9 +15,8 @@ ui_item.build_desc_header = function(obj, sec, str)
 
 		-- 見出しを追加
 		text = text:gsub(
-			"  %%c%[255,255,255,0%]•",
-			" %%c[0,255,255,255]" .. game.translate_string("exo_outfit_name") .. ":\\n" .. "  %%c[255,255,255,0]•",
-			1
+			"(  %%c%[[^%]]-%]• %%c%[[^%]]-%])" .. game.translate_string("st_power"),
+			" %%c[0,255,255,255]" .. game.translate_string("exo_outfit_name") .. ":\\n%1%%c[pda_white]" .. game.translate_string("st_power")
 		)
 
 		--printf("[DEBUG]\n%s", text)

@@ -35,7 +35,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]400\n
 		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]50%\n
-		%c[d_orange] • %c[pda_white]「%c[d_orange]エクソスケルトンのアビリティ%c[pda_white]」キーでエレクトリック・ノヴァを発射する\n</text>
+		%c[d_orange] • %c[pda_white]「%c[d_orange]エクソスケルトンのアビリティ$$ACTION_SPRINT_TOGGLE$$%c[pda_white]」キーでエレクトリック・ノヴァを発射する\n</text>
 	</string>
 	<string id="st_itm_exo_psu_tank_name">
 		<text>エクソスケルトン用補助電源「ストロングホールド」（試作機）</text>
@@ -46,7 +46,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]500\n
 		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]135%\n
-		%c[d_orange] • %c[pda_white]「%c[d_orange]エクソスケルトンのアビリティ%c[pda_white]」キーでダメージを大幅に軽減する\n</text>
+		%c[d_orange] • %c[pda_white]「%c[d_orange]エクソスケルトンのアビリティ$$ACTION_SPRINT_TOGGLE$$%c[pda_white]」キーでダメージを大幅に軽減する\n</text>
 	</string>
 	<string id="st_itm_exo_psu_sprint_name">
 		<text>エクソスケルトン用補助電源「エンジン」（試作機）</text>
@@ -57,7 +57,7 @@
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]電源容量: %c[ui_gray_1]300\n
 		%c[d_cyan] • %c[pda_white]電力消費率: %c[ui_gray_1]85%\n
-		%c[d_orange] • %c[pda_white]「%c[d_orange]エクソスケルトンのアビリティ%c[pda_white]」キーで移動速度が上昇する\n</text>
+		%c[d_orange] • %c[pda_white]「%c[d_orange]エクソスケルトンのアビリティ$$ACTION_SPRINT_TOGGLE$$%c[pda_white]」キーで移動速度が上昇する\n</text>
 	</string>
 	<string id="st_batteries_ccell">
 		<text>軍用バッテリーユニット</text>
@@ -93,7 +93,7 @@
 		%c[d_cyan] • %c[pda_white]レシピ\n</text>
 	</string>
 	<string id="st_power">
-		<text>%c[pda_white]残りの電力:</text>
+		<text>残りの電力:</text>
 	</string>
 	<string id="st_equipped_supply">
 		<text>%c[pda_white]補助電源:</text>
