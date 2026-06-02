@@ -102,13 +102,13 @@
     <text>ミューテーター</text>
   </string>
   <string id="ui_mcm_menu_conquest">
-    <text>勢力拡大</text>
+    <text>エリア制圧</text>
   </string>
   <string id="ui_mcm_menu_swarm">
     <text>大発生</text>
   </string>
   <string id="ui_mcm_menu_infest">
-    <text>侵食行動</text>
+    <text>エリア侵食</text>
   </string>
   <string id="ui_mcm_menu_massacre_scavenge">
     <text>大虐殺\n死体漁り</text>
