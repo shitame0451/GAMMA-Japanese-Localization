@@ -2779,22 +2779,22 @@
 	
 		<!-- Response - death by stalker -->
 	<string id="st_dyn_news_res_death_stalker_1">
-		<text>ちくしょう！あいつらが殺したんだ！絶対に見つけ出して引き裂いてやる！</text>
+		<text>ちくしょう！あいつらが殺したんだ！必ず見つけ出してズタズタにしてやる！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_2">
-		<text>くそったれが俺の友達を殺しやがった！</text>
+		<text>あのクソ野郎、俺の仲間を殺しやがった！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_3">
-		<text>かわいそうに･･････ 運が悪かったんだな。</text>
+		<text>気の毒に･･････ 運が悪かったんだな。</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_4">
 		<text>そいつとは知り合いだった。残念だよ。</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_5">
-		<text>お前のことは忘れないぞ･･････</text>
+		<text>お前のことは忘れない･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_6">
-		<text>安らかに眠れ。こんなことをしたクソ野郎は見つけてやるからな。</text>
+		<text>安らかに眠れ。こんなことをしたクソ野郎は必ず見つけてやる。</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_7">
 		<text>いい奴だった。あんな奴はめったにいない･･････</text>
@@ -2803,55 +2803,55 @@
 		<text>そいつは俺の親友だ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_9">
-		<text>こいつは俺のダチだったんだ、クソ野郎どもめ！</text>
+		<text>こいつは俺のダチだったんだぞ、クソ野郎ども！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_10">
-		<text>これをやった奴を見つけ出してやる！</text>
+		<text>これをやった奴、絶対に見つけ出してやる！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_11">
-		<text>棺桶に叩き込んでやる！</text>
+		<text>棺桶に放り込んでやる！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_12">
-		<text>クソ野郎、俺のダチにしたことを徹底的にやり返してやる！</text>
+		<text>クソ野郎め。俺のダチにしたこと、きっちり返してやる！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_13">
-		<text>あの卑怯者を見つけ出して、徹底的に痛めつけてやる。</text>
+		<text>あの卑怯者を見つけ出して、地獄を見せてやる。</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_14">
-		<text>彼の思い出に乾杯。</text>
+		<text>あいつの思い出に乾杯。</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_15">
-		<text>昨日一緒に飲んでたんだ。かわいそうに･･････</text>
+		<text>昨日まで一緒に飲んでたんだぞ。気の毒に･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_16">
-		<text>かわいそうに･･････</text>
+		<text>気の毒に･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_17">
-		<text>かわいそうなやつだ･･････</text>
+		<text>気の毒な奴だ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_18">
 		<text>安らかに眠れ。友よ。</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_19">
-		<text>安らかに眠れ。彼はいい人だった･･････</text>
+		<text>安らかに眠れ。あいつはいい奴だった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_20">
-		<text>残念だ･･････</text>
+		<text>惜しい奴を亡くした･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_21">
-		<text>あいつらが彼を殺した！</text>
+		<text>あいつらが殺したんだ！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_22">
-		<text>奴らがあいつを殺した！</text>
+		<text>奴らがあいつを殺しやがった！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_23">
-		<text>運がなかったんだな･･････</text>
+		<text>運がなかったな･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_24">
 		<text>なんてこった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_25">
-		<text>なんてことだ。あいつらはあんなにいい奴を殺したってのか･･････</text>
+		<text>なんてことだ。あんなにいい奴を、あいつら殺しやがったのか･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_26">
 		<text>友よ、お前のことは忘れない。</text>
@@ -2863,33 +2863,33 @@
 		<text>あのクソ野郎どもがやったんだ！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_29">
-		<text>キャンプファイヤーを囲んで話していたホラ話が、現実になりやがった･･････</text>
+		<text>焚き火を囲んで話してた与太話が、現実になっちまった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_30">
 		<text>こいつを殺したクソ野郎を捕まえろ！</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_31">
-		<text>いったい何だってんだ！？</text>
+		<text>いったい何が起きたんだ！？</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_32">
-		<text>昨日の夜は仲良く笑い合っていたのに、信じられない･･････</text>
+		<text>昨日の夜まで一緒に笑ってたのに。信じられない･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_stalker_33">
-		<text>ああ、またか･･････</text>
+		<text>ああ、またかよ･･････</text>
 	</string>
 
 	<!-- Response - death by mutant -->
 	<string id="st_dyn_news_res_death_mutant_1">
-		<text>ミュータントどもめ！あいつを殺しやがった！絶対に見つけ出して引き裂いてやる！</text>
+		<text>ミュータントどもめ！あいつを殺しやがった！必ず見つけ出してズタズタにしてやる！</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_2">
 		<text>ミュータントが俺のダチを殺しやがった！</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_3">
-		<text>かわいそうに。彼は運が悪かったんだな。</text>
+		<text>気の毒に。運が悪すぎたな。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_4">
-		<text>彼のことは知っている。かわいそうに。</text>
+		<text>あいつのことは知ってる。気の毒に。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_5">
 		<text>お前のことは忘れないぞ･･････</text>
@@ -2898,10 +2898,10 @@
 		<text>安らかに眠れ。こんなことをしたクソ野郎は始末してやるからな。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_7">
-		<text>彼はいい奴だった。あんな奴はめったにいないのに･･････</text>
+		<text>あいつはいい奴だった。あんな奴、そうそういないのに･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_8">
-		<text>彼とは親友だったんだ･･････</text>
+		<text>あいつとは親友だったんだ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_9">
 		<text>こいつは俺のダチだったんだ、ちくしょう！</text>
@@ -2919,34 +2919,34 @@
 		<text>そのミュータントを見つけ出して駆除してやる。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_14">
-		<text>後で彼のために一杯やろう。</text>
+		<text>後であいつのために一杯やろう。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_15">
-		<text>昨日一緒に飲んだばかりだったのに。かわいそうな奴だ。</text>
+		<text>昨日一緒に飲んだばかりだったのに。気の毒な奴だ。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_16">
-		<text>かわいそうに･･････</text>
+		<text>気の毒に･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_17">
-		<text>かわいそうなやつだ･･････</text>
+		<text>気の毒な奴だ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_18">
 		<text>安らかに眠れ、友よ。</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_19">
-		<text>安らかに眠ってくれ。彼はいい人だった･･････</text>
+		<text>安らかに眠ってくれ。あいつはいい奴だった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_20">
-		<text>本当に残念だ･･････</text>
+		<text>本当に惜しい奴を亡くした･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_21">
-		<text>やつらが彼を殺した！</text>
+		<text>奴らがあいつを殺した！</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_22">
 		<text>化け物があいつを殺しやがった！</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_23">
-		<text>運がなかったんだな･･････</text>
+		<text>運がなかったな･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_24">
 		<text>なんてこった･･････</text>
@@ -2964,10 +2964,10 @@
 		<text>あの化け物どもがやったんだ！</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_29">
-		<text>キャンプファイヤーを囲んで話したばかりなのに、こんなことになるとは･･････</text>
+		<text>焚き火を囲んで話したばかりなのに、こんなことになるとは･･････</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_30">
-		<text>彼を殺した化け物を始末してくれ！</text>
+		<text>あいつを殺した化け物を始末してくれ！</text>
 	</string>
 	<string id="st_dyn_news_res_death_mutant_31">
 		<text>一体どうなってんだ！？</text>
@@ -2981,37 +2981,37 @@
 		<text>なんだって？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_2">
-		<text>彼のことは知っていた。残念だよ。</text>
+		<text>あいつのことは知ってた。残念だ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_3">
-		<text>もしかしたら自殺したのかもな･･････</text>
+		<text>もしかしたら自分で終わらせたのかもな･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_4">
 		<text>こんなことはしばらく起きてなかったんだがな。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_5">
-		<text>あいつがこうなることはわかってたんだがな･･････</text>
+		<text>あいつがこうなる気はしてたんだがな･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_6">
 		<text>お前のことは忘れない。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_7">
-		<text>また1人･･････</text>
+		<text>また一人･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_8">
 		<text>ああ、そうか･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_9">
-		<text>ああ、ゾーンで誰も死なずに一日終えられることはないのか･･････</text>
+		<text>ああ、ゾーンで誰も死なずに終わる一日なんてないのか･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_10">
-		<text>また1人死んだのか･･････？</text>
+		<text>また一人死んだのか･･････？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_11">
 		<text>遅かれ早かれ、誰もが同じ結末を迎えるんだ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_12">
-		<text>お前のことを忘れないぞ･･････</text>
+		<text>お前のことは忘れない･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_13">
 		<text>安らかに眠れ。</text>
@@ -3026,20 +3026,20 @@
 		<text>これがあいつの終わりか。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_17">
-		<text>あいつはツイてるから大丈夫だって話してたんだ！はぁ･･････</text>
+		<text>あいつはツイてるから大丈夫だって言ってたんだ！はぁ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_18">
 		<text>ああ、行っちまったか。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_19">
-		<text>また1人、ゾーンに消えた･･････</text>
+		<text>また一人、ゾーンに消えた･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_20">
 		<text>さてバーキープ、どうすりゃいい･･････？
 \nフラッシュドライブか？わかった、死体に残ってるか確認してくる。他に何かあったら知らせてくれ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_21">
-		<text>バカ野郎！奴らめ、何も怖くないのか･･････</text>
+		<text>バカ野郎！奴ら、怖いもの知らずかよ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_22">
 		<text>ちくしょう！きっとあいつらが殺したんだ！見つけ出してぶちのめしてやる！</text>
@@ -3051,7 +3051,7 @@
 		<text>ミュータントに噛み殺されるくらいなら、頭に弾丸食らって死ぬほうがマシだ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_25">
-		<text>あいつは自分の身を守れなかったようだな、変わった銃を持っていたが･･････ ちょっと見に行くか。
+		<text>あいつ、自分の身は守れなかったみたいだな。変わった銃を持ってたが･･････ ちょっと見に行くか。
 \nおっと忘れんな、俺が最初だぜ！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_26">
@@ -3059,10 +3059,10 @@
 \nあの世には持っていけないだろ？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_27">
-		<text>クソッ、カラスが飛んでいる。おそらく死体が近くにあるんだろう。注意しろ。</text>
+		<text>クソッ、カラスが飛んでる。近くに死体があるかもしれん。気をつけろ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_28">
-		<text>ちくしょう、かわいそうに･･････ なんと言ったらいいか･･････</text>
+		<text>ちくしょう、気の毒に･･････ なんと言ったらいいか･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_29">
 		<text>死人よ。俺に何か良い物くれないか？</text>
@@ -3092,19 +3092,19 @@
 		<text>ヤツは犬のように暮らし、犬のように死んだな。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_38">
-		<text>彼は恐れずに生き、恐れずに死んだ！</text>
+		<text>あいつは恐れずに生き、恐れずに死んだ！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_39">
 		<text>やったぜ、あいつの物はもう俺のもんだ！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_40">
-		<text>やつはしくじった･･････</text>
+		<text>奴はしくじった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_41">
-		<text>彼はいい奴だった。あんな奴はめったにいないのに･･････</text>
+		<text>あいつはいい奴だった。あんな奴、そうそういないのに･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_42">
-		<text>彼はいい人だった･･････</text>
+		<text>あいつはいい奴だった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_43">
 		<text>あいつはお人好しだったが、ここではそんな奴は生き残れない･･････</text>
@@ -3116,7 +3116,7 @@
 		<text>おい、みんな！俺は近くにいるから手を貸せるぞ！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_46">
-		<text>彼の目が開くことはもうないだろう。</text>
+		<text>あいつがもう目を開けることはないだろう。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_47">
 		<text>クソッたれ、あいつは俺に借金があったのに！</text>
@@ -3128,7 +3128,7 @@
 		<text>これをやったやつを絶対に見つけてやる！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_50">
-		<text>殺した奴をぶっ殺して棺桶に叩き込んでやる！</text>
+		<text>殺した奴をぶっ殺して棺桶に放り込んでやる！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_51">
 		<text>俺の仲間にしたことと同じ手段でそいつをぶっ潰してやる！</text>
@@ -3137,22 +3137,22 @@
 		<text>近くにいる。いつでも手伝えるぜ！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_53">
-		<text>賭けてもいい、こいつはろくなもんじゃねえ･･････</text>
+		<text>賭けてもいい、こいつはろくな死に方じゃねえ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_54">
 		<text>待ってくれ、理解が追いつかない。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_55">
-		<text>あの男には悪い予感がしていた。近寄らなくてよかったぜ。</text>
+		<text>あの男には嫌な予感がしてたんだ。近寄らなくて正解だったぜ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_56">
-		<text>この名前は知ってる。ヤツの死は必要だった。</text>
+		<text>この名前は知ってる。奴は死ぬべきだった。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_57">
 		<text>放射性廃棄物を食って太ったボアの群れを見たぞ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_58">
-		<text>ブレイン・スコーチャーがまた動き始めたってのは本当か？このままだとスカドフスクに行けないぞ･･････</text>
+		<text>ブレイン・スコーチャーがまた動き始めたって本当か？このままじゃスカドフスクへ行けないぞ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_59">
 		<text>あのクズどもを見つけてぶちのめしてやる。</text>
@@ -3161,10 +3161,10 @@
 		<text>ここは人が少ないから、楽な気分だ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_61">
-		<text>彼の思い出に乾杯しよう。</text>
+		<text>あいつの思い出に乾杯しよう。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_62">
-		<text>どれだけ大金持ちだったのか確認してやろうじゃないか。</text>
+		<text>どれだけ金を持ってたのか、確かめてやろうじゃないか。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_63">
 		<text>そいつの持ち物でも漁りに行くとするか。</text>
@@ -3173,7 +3173,7 @@
 		<text>おい、ここらで変な豚が走り回ってるぞ！誰か蹄を欲しがってるやつはいるか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_65">
-		<text>昨日会ったばかりなのに。かわいそうなやつだ。</text>
+		<text>昨日会ったばかりなのに。気の毒なやつだ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_66">
 		<text>ミュータント、バンディット、ゾンビ、狂信者、兵士･･････ 誰もがあんたを狙ってるぜ。</text>
@@ -3188,10 +3188,10 @@
 		<text>ヒュー！助かったぜ。今日はあいつと一緒に行かなかったんだ。嫌な予感がしたからな。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_70">
-		<text>かわいそうに･･････</text>
+		<text>気の毒に･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_71">
-		<text>あいつを棺の中に入れたよ、やつの体は安らかに眠っていた。ムスコの方はそうじゃなかったが･･････</text>
+		<text>あいつを棺に入れてやったよ。身体は安らかに眠ってた。ムスコの方はそうでもなかったが･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_72">
 		<text>安らかに眠れよ、相棒。</text>
@@ -3216,7 +3216,7 @@
 		<text>それで、あいつの持ち物はもう誰か手を付けたのか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_79">
-		<text>それで、くたばったあんたは俺たちに何を残してくれたんだ？</text>
+		<text>さて、くたばったあんたは俺たちに何を残してくれたんだ？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_80">
 		<text>で、こいつのポケットには何が入ってるんだ？</text>
@@ -3243,16 +3243,16 @@
 		<text>あれが目立ちたがり屋の末路だ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_88">
-		<text>あの若造、かなりひどい目に遭ったようだな･･････</text>
+		<text>あの若造、かなりひどい目に遭ったみたいだな･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_89">
-		<text>あのガキが殺されちまった･･････</text>
+		<text>あのガキ、殺されちまった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_90">
 		<text>信仰だかに染まらない、まともなやつの数が減ってきている。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_91">
-		<text>奴らが彼を殺したんだ！</text>
+		<text>奴らがあいつを殺したんだ！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_92">
 		<text>あいつを殺しやがった！</text>
@@ -3270,7 +3270,7 @@
 		<text>うわっ、ここで何が起こったんだ？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_97">
-		<text>さて、彼はこの世を去って別のところに行ったわけだ。アーメン！</text>
+		<text>さて、あいつはこの世を離れて別の場所へ行ったわけだ。アーメン！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_98">
 		<text>まあ、そいつは死んだってわけだ。それがどうした？
@@ -3285,7 +3285,7 @@
 		<text>さて、仲間たちよ、倒れた者の魂に乾杯するべきだよな？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_101">
-		<text>これはこれは！ここで何をしているんだ？</text>
+		<text>おやおや！ここで何してるんだ？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_102">
 		<text>やれやれ･･････</text>
@@ -3294,7 +3294,7 @@
 		<text>それで？他に卑怯者を捕まえたいやつはいるか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_104">
-		<text>キャンプファイヤーを囲んで話していたのに、こんなことになるなんて･･････</text>
+		<text>焚き火を囲んで話してたのに、こんなことになるなんて･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_105">
 		<text>ゾーンで一体何が起こってる？前はミュータントとアノマリーの心配だけをしていればよかったのに･･････
@@ -3307,7 +3307,7 @@
 		<text>なんと言えばいい？いつも通りのクソッタレだ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_108">
-		<text>あいつは何か持っていたか？それとも、殺したやつが全部持ち去ったのか？</text>
+		<text>あいつは何か持ってたか？それとも、殺したやつが全部持ち去ったのか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_stalker_109">
 		<text>戦利品で何をしようか？</text>
@@ -3374,11 +3374,11 @@
 		<text>ミュータントの餌になったのか！？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_13">
-		<text>お前ら！人が次々と死んでいくってのに、デューティーは区域を掃討したと言い張っている！
+		<text>おいお前ら！人が次々死んでるってのに、デューティーはエリアを掃討済みだと言い張ってるぞ！
 \nこんな無責任な話があるか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_14">
-		<text>彼はいい人だった。多くの危険を冒し、苦しい時に俺たちを励ましてくれた･･････
+		<text>あいつはいい奴だった。危ない橋を何度も渡って、苦しい時には俺たちを励ましてくれた･･････ 
 \n安心して休んでくれ、兄弟！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_15">
@@ -3404,7 +3404,7 @@
 		<text>あそこは危険だから立ち入り禁止だと言ったのに！誰もネットで広めなかったのか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_22">
-		<text>あの場所はミュータントだらけだと警告したんだ！あいつは耳を傾けなかった、そしてこの有様だ･･････</text>
+		<text>あそこはミュータントだらけだって警告したんだ！あいつは聞かなかった。そしてこの有様だ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_23">
 		<text>そこに行かなくて良かったぜ！</text>
@@ -3428,7 +3428,7 @@
 		<text>誰か連絡をくれ！一緒にミュータントを襲撃しようぜ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_30">
-		<text>かわいそうに、奴は真っ二つに引き裂かれていた！俺なら自分で頭を撃ち抜くぜ･･････</text>
+		<text>気の毒に、奴は真っ二つに引き裂かれてた！俺なら自分で頭を撃ち抜くぜ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_31">
 		<text>放射線まみれのご馳走で太った豚の群れを見かけた･･････</text>
@@ -3449,7 +3449,7 @@
 		<text>それで面白い話を思い出したよ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_37">
-		<text>その怪物はただ彼を傷つけた。</text>
+		<text>その化け物は、ただあいつを傷つけただけだ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_38">
 		<text>これは本当に最悪だよ、みんな。犠牲者があまり苦しまなかったことを願うよ･･････</text>
@@ -3461,7 +3461,7 @@
 		<text>ミュータントは本当に厄介だ。デューティーに知らせて、この惨状を片付けてもらうよ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_41">
-		<text>昨日あの場所を片付けたばかりだったんだが、道しるべを残しておくべきだったな･･････ ちくしょう･･････</text>
+		<text>昨日あそこを片付けたばかりだったんだが、目印を残しておくべきだったな･･････ ちくしょう･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_42">
 		<text>まあ、あいつなんてどうでもいいさ！</text>
@@ -3479,7 +3479,7 @@
 		<text>特に言うことはないな･･････ あいつは間抜けだった。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_47">
-		<text>言うことはないな。ゾーンは気軽に散歩できる場所じゃないってことさ。</text>
+		<text>言うことはないな。ゾーンは気軽に散歩できるような所じゃないってことさ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_mutant_48">
 		<text>なんてひどい死に様だ。この男があまり苦しまなかったことを願うよ･･････</text>
@@ -3499,13 +3499,13 @@
 
 	<!-- Response fake - death by surge -->
 	<string id="st_dyn_news_res_fake_death_surge_1">
-		<text>彼らは本当に死んだのか？それとも･･････ ゾンビになっただけか？</text>
+		<text>奴らは本当に死んだのか？それとも･･････ ゾンビになっただけか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_2">
 		<text>遅かれ早かれ、誰もが同じ結末を迎えるんだ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_3">
-		<text>お前のことを忘れないぞ･･････</text>
+		<text>お前のことは忘れない･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_4">
 		<text>安らかに眠れ。</text>
@@ -3514,10 +3514,10 @@
 		<text>ゾーンに消えていった･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_6">
-		<text>彼らを偲んで一杯やろう。</text>
+		<text>奴らを偲んで一杯やろう。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_7">
-		<text>かわいそうな奴らだ･･････</text>
+		<text>気の毒な奴らだ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_8">
 		<text>もっと注意すべきだった。もう遅いけどな。</text>
@@ -3529,7 +3529,7 @@
 		<text>みんなこの嵐に巻き込まれてしまうんだ。その多くは無事に帰ってこない。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_11">
-		<text>彼らは間に合わなかった、かわいそうに･･････</text>
+		<text>奴らは間に合わなかった、気の毒に･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_12">
 		<text>常に警戒し、素早く行動することが大事なんだ。</text>
@@ -3541,7 +3541,7 @@
 		<text>焼け焦げたストーカーたちだぞ、みんな！</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_15">
-		<text>今日のアドバイス: 各エリア毎に安全な場所をいくつかマークしておけ。
+		<text>今日の助言: 各エリアで安全な避難先をいくつかマークしておけ。
 \n光熱放射がいつ来るかなんてわからないからな。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_16">
@@ -3551,16 +3551,16 @@
 		<text>おい、知ってる奴の名前があるぞ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_18">
-		<text>彼らに何が起こったのか考えたくもないな。</text>
+		<text>奴らに何が起きたのか、考えたくもないな。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_19">
-		<text>これが彼らにとっての終わりなのだろうか？それとも彼らはただ“変化”しただけなのか？</text>
+		<text>これが奴らの終わりだったのか？それとも、ただ“変わった”だけなのか？</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_20">
 		<text>なんて死に様だ。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_21">
-		<text>彼らがどんな思いをしたのか想像もつかない。</text>
+		<text>奴らがどんな思いをしたのか、想像もつかない。</text>
 	</string>
 	<string id="st_dyn_news_res_fake_death_surge_22">
 		<text>こんなの不公平だ！ゾーンめ、ふざけるな！</text>
@@ -3641,13 +3641,13 @@
 		<text>よし、$whatを手に入れた。そろそろここを出る時かもな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_arte_17">
-		<text>多分これは$whatだと思う。これを欲しがってる研究者がいるんだ･･････</text>
+		<text>これは$whatだと思う。こいつを欲しがってる研究者がいるんだ･･････</text>
 	</string>
 	<string id="st_dyn_news_gossip_arte_18">
 		<text>$whatを手に入れた！思ってたより重いな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_arte_19">
-		<text>よし、アノマリーフィールドで$whatを見つけた。期待していたものではなかったが、十分だ。</text>
+		<text>よし、アノマリーフィールドで$whatを見つけた。目当ての物じゃないが、十分だ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_arte_20">
 		<text>やばい、放射線を浴びたみたいだ･･････
@@ -3685,7 +3685,7 @@
 		<text>一方、俺は岩とゴミ以外何も見つけられなかった。</text>
 	</string>
 	<string id="st_dyn_news_res_artefact_11">
-		<text>ああ、かわいそうな俺･･････</text>
+		<text>ああ、哀れな俺･･････</text>
 	</string>
 	<string id="st_dyn_news_res_artefact_12">
 		<text>あんたは今、何人か敵を作ったぜ。</text>
@@ -3721,7 +3721,7 @@
 		<text>俺の検出器は壊れてるに違いない･･････</text>
 	</string>
 	<string id="st_dyn_news_res_artefact_23">
-		<text>次は彼に付いていくつもりだ─あいつはすべての運を持ってる！</text>
+		<text>次はあいつに付いていく。あの野郎、運を全部持ってやがる！</text>
 	</string>
 	<string id="st_dyn_news_res_artefact_24">
 		<text>気をつけろよ、狙われる機会が増えるかもな･･････</text>
@@ -3754,7 +3754,7 @@
 		<text>その運が続くことを祈っておこう。</text>
 	</string>
 	<string id="st_dyn_news_res_artefact_34">
-		<text>もし俺なら、できるだけ早く売りに出すだろうな。
+		<text>俺なら、できるだけ早く売り払うだろうな。
 \nでないと放射線中毒になるか、背後から撃たれることになるぜ。</text>
 	</string>
 	<string id="st_dyn_news_res_artefact_35">
@@ -3829,7 +3829,7 @@
 \nだが同じ待遇を期待するなよ、俺たちには長い付き合いがあるからな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_buy_14">
-		<text>$whoは俺たちから金を搾り取ろうとしてるだけなんだろう。
+		<text>$whoは俺たちから金を搾り取る気なんだろう。
 \nこの辺りで唯一のトレーダーだからって、調子に乗ってるんだ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_buy_15">
@@ -3845,7 +3845,7 @@
 		<text>セムヨンへ: お前がまだ$whatを探してるなら、$whoが持ってるぞ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_buy_19">
-		<text>かなり順調だ。今は借金をせずに$whatを買うことができる。</text>
+		<text>なかなか順調だ。今なら借金せずに$whatを買える。</text>
 	</string>
 	<string id="st_dyn_news_gossip_buy_20">
 		<text>ああ、もう$whatのことを心配しなくて済む。$whoが手配してくれた。</text>
@@ -3894,7 +3894,7 @@
 		<text>俺のときと違うぞ･･････</text>
 	</string>
 	<string id="st_dyn_news_res_trade_14">
-		<text>そろそろ彼の所に行くべきかもしれない･･････</text>
+		<text>そろそろあいつの所に行くべきかもしれない･･････</text>
 	</string>
 	<string id="st_dyn_news_res_trade_15">
 		<text>そういえば、それで思い出したことがある。</text>
@@ -3903,10 +3903,10 @@
 		<text>良い物を見つけたな。</text>
 	</string>
 	<string id="st_dyn_news_res_trade_17">
-		<text>彼の新しい荷物は届いたのか？俺はもうすぐここを出るんだ。</text>
+		<text>あいつの荷物は届いたのか？俺はもうすぐここを出る。</text>
 	</string>
 	<string id="st_dyn_news_res_trade_18">
-		<text>どうせギャンブルで消えていくんだろうが･･････</text>
+		<text>どうせ賭けで消えるんだろうが･･････</text>
 	</string>
 	<string id="st_dyn_news_res_trade_19">
 		<text>それはヴァーサに教えたほうがいいな･･････</text>
@@ -3921,11 +3921,11 @@
 \n出来には満足だが、この価格が続いたら俺は干からびちまうな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_upgrade_2">
-		<text>ちょっと困ってる。$whatに$upgradeのアップグレードはできるのか、誰か知らないか？</text>
+		<text>ちょっと困ってる。$whatに$upgradeを組み込めるのか、誰か知らないか？</text>
 	</string>
 	<string id="st_dyn_news_gossip_upgrade_3">
 		<text>$upgradeのアップグレードは費用が高すぎる･･････
-\nまあ、$whatの調子は良くなったけどな。</text>
+\nまあ、$whatの調子はよくなったけどな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_upgrade_4">
 		<text>$whoは$upgradeのアップグレードに投資する価値はあると言ってたが･･････
@@ -4043,7 +4043,7 @@
 		<text>見つけたか？よし、奴を生かしておくわけにはいかない。</text>
 	</string>
 	<string id="st_dyn_news_gossip_kill_wounded_24">
-		<text>奴は倒れたようだ。確認しなければ。</text>
+		<text>奴が倒れたみたいだ。確認しないとな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_kill_wounded_25">
 		<text>奴はもう手も足も出ない状態だ。</text>
@@ -4102,7 +4102,7 @@
 		<text>このクズ、逃げられると思ってたんだな。誰かこいつを見張ってろ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_hostage_3">
-		<text>あのストーカーたちがこいつの身代金を払うと思うか？</text>
+		<text>あのストーカーたちが、こいつの身代金を払うと思うか？</text>
 	</string>
 	<string id="st_dyn_news_gossip_hostage_4">
 		<text>あのお友達がお前を助けに来るとは思えないがな！</text>
@@ -4182,7 +4182,7 @@
 		<text>こいつがくたばった今、俺がちょっと拝借しても問題ないよな。</text>
 	</string>
 	<string id="st_dyn_news_loot_good_4">
-		<text>もうこいつに持ち物はいらないだろう、なあ相棒。</text>
+		<text>もうこいつに荷物はいらないだろう、なあ相棒。</text>
 	</string>
 	<string id="st_dyn_news_loot_good_5">
 		<text>こいつのポケットは満杯だったぜ！</text>
@@ -4273,7 +4273,7 @@
 		<text>こいつが良い物を持ってた。これは役に立つかもしれない。</text>
 	</string>
 	<string id="st_dyn_news_loot_good_34">
-		<text>ああ、もう終わったな。彼の装備を無駄にしてはいけない･･････</text>
+		<text>ああ、もう終わりだな。あいつの装備を無駄にはできない･･････</text>
 	</string>
 	<string id="st_dyn_news_loot_good_35">
 		<text>ミュータントが現れる前に手に入ってよかったよ。</text>
@@ -4303,7 +4303,7 @@
 		<text>すまんな、死者の邪魔はしたくないんだ。それでもこういうことをしなきゃならない。</text>
 	</string>
 	<string id="st_dyn_news_loot_good_44">
-		<text>この持ち物は何度人の手に渡ったんだろうか･･････</text>
+		<text>この荷物、何度人の手を渡ってきたんだろうな･･････</text>
 	</string>
 	<string id="st_dyn_news_loot_good_45">
 		<text>おい、この野郎！これは俺の装備だぞ！なんでお前が持ってるんだ？</text>
@@ -4312,7 +4312,7 @@
 		<text>埋葬できなくて残念だ。こいつのブツを売って、敬意として酒でも飲むか！</text>
 	</string>
 	<string id="st_dyn_news_loot_good_47">
-		<text>いつか誰かが俺の物を持っていく日が来るんだろうか？結局、みんな死ぬことになるんだ･･････</text>
+		<text>いつか誰かが俺の物を持っていく日も来るんだろうな。結局、みんな死ぬんだ･･････</text>
 	</string>
 	<string id="st_dyn_news_loot_good_48">
 		<text>おお、いいぞ！これを探してる奴を知ってるんだ。</text>
@@ -4321,7 +4321,7 @@
 		<text>よし、これ以上は何も出てこないな。死体はカラスにでも任せよう。</text>
 	</string>
 	<string id="st_dyn_news_loot_good_50">
-		<text>この装備は有効に使わせてもらう。それが奴のためにできる最善のことだ。</text>
+		<text>この装備は有効に使わせてもらう。それが奴にしてやれる一番のことだ。</text>
 	</string>
 	<string id="st_dyn_news_loot_bad_1">
 		<text>はぁ、なんにもねえ。こいつのポケットは空っぽだ。</text>
@@ -4342,7 +4342,7 @@
 		<text>この野郎は空のポケットでうろつきまわって何がしたかったんだ？</text>
 	</string>
 	<string id="st_dyn_news_loot_bad_7">
-		<text>こいつのバックパックから何を見つけたと思う？『PLAYBOY』だ･･････ 悪くはないだろ？な？</text>
+		<text>こいつのバックパックから何が出てきたと思う？『PLAYBOY』だ･･････ 悪くないだろ？な？</text>
 	</string>
 	<string id="st_dyn_news_loot_bad_8">
 		<text>こいつのバックパックは空っぽだ･･････ ふざけんな！</text>
@@ -4369,7 +4369,7 @@
 		<text>何も持ってないぞ･･････ 近くにこいつの隠し場所があるに違いない。</text>
 	</string>
 	<string id="st_dyn_news_loot_bad_16">
-		<text>どうやら、こいつは死ぬ直前に強奪されたみたいだな。</text>
+		<text>どうも、こいつは死ぬ直前に身ぐるみ剥がされたみたいだな。</text>
 	</string>
 	<string id="st_dyn_news_loot_bad_17">
 		<text>何も見つからなかったが、手紙はあった。</text>
@@ -4405,7 +4405,7 @@
 		<text>見る価値もない死体だった。何も持ってねえ。</text>
 	</string>
 	<string id="st_dyn_news_loot_bad_28">
-		<text>期待していた物はなかったな。PDAすら見つからないとは。</text>
+		<text>期待してた物はなかったな。PDAすら見つからないとは。</text>
 	</string>
 	<string id="st_dyn_news_loot_bad_29">
 		<text>こいつは運が悪かったようだな。少なくとも俺に何か残してくれればな･･････</text>
@@ -4429,7 +4429,7 @@
 		<text>ちょうど$whatが欲しかったんだよ。無駄金を使わずに済んだぜ。ありがとさん、死んだ友よ。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_6">
-		<text>こいつは$whatを持っていた。俺が有効利用してやるよ。</text>
+		<text>こいつは$whatを持ってた。俺が有効利用してやるよ。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_7">
 		<text>誰か$whatを探してる奴はいるか？まあ、一応持っておくか･･････</text>
@@ -4490,10 +4490,10 @@
 \n彼に恥じないように使わせてもらうよ。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_25">
-		<text>こいつはいくつか興味深い物を持っていたが、中でも一番は$whatだったな。</text>
+		<text>こいつはいくつか興味深い物を持ってたが、中でも一番は$whatだったな。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_26">
-		<text>この哀れな男はひどい有様だが、$whatを持っていた！状態もかなり良いみたいだ。</text>
+		<text>この哀れな男はひどい有様だが、$whatを持ってた！状態もかなり良いみたいだ。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_27">
 		<text>なあ、ボーリャが$whatを探してたよな。この死体から見つけたと伝えといてくれ。</text>
@@ -4514,10 +4514,10 @@
 		<text>こいつはかなり頑張ってたみたいだな。バックパックに$whatが入ってる。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_33">
-		<text>この男はよくやったが、それももう終わりだ。$whatを持っていたことに感謝するよ。</text>
+		<text>この男はよくやったが、それももう終わりだ。$whatを持ってたことに感謝するよ。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_34">
-		<text>$whatだけかよ？こいつはきっとどこかにブツを隠し持ってるんだろうな。</text>
+		<text>$whatだけかよ？こいつ、きっとどこかにブツを隠してるな。</text>
 	</string>
 	<string id="st_dyn_news_loot_item_35">
 		<text>ただのゴミか･･････ 何も良い物がない･･････ おっと、こいつ$whatを持ってやがる。</text>
@@ -4553,7 +4553,7 @@
 		<text>隠し場所から通信が届いた･･････ まさか誰かに見つかったのか･･････？</text>
 	</string>
 	<string id="st_dyn_news_found_stash_5">
-		<text>PDAに警告が届いた･･････ 俺の隠し場所を荒らしたやつは誰であろうと後悔させてやるぜ。誓ってな。</text>
+		<text>PDAに警告が届いた･･････ 俺の隠し場所を荒らした奴は、誰だろうと後悔させてやる。誓ってな。</text>
 	</string>
 	<string id="st_dyn_news_found_stash_6">
 		<text>あの野郎･･････ 俺の隠し場所を荒らしやがった！</text>
@@ -4600,7 +4600,7 @@
 		<text>$whoに親切な警告だ。あんたの首には賞金が懸けられてるぞ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_bounty_6">
-		<text>$whoは$whereにいると聞いた。報酬の話は本当なんだろうな？</text>
+		<text>$whoは$whereにいると聞いた。報酬の話、本当なんだろうな？</text>
 	</string>
 	<string id="st_dyn_news_gossip_bounty_7">
 		<text>$whoはもうダメかもな･･････ 誰かがあいつを狙ってるらしいぞ。</text>
@@ -4612,7 +4612,7 @@
 		<text>ヤバい奴らが$whoを狙ってるって話を聞いたぞ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_bounty_10">
-		<text>あるストーカーが$whereにいるようだが、彼は十分に注意したほうがいい。
+		<text>あるストーカーが$whereにいるらしいが、そいつは十分に気をつけた方がいい。
 \n傭兵の連中が彼を狙っていると聞いた。</text>
 	</string>
 	<string id="st_dyn_news_gossip_bounty_11">
@@ -4674,15 +4674,15 @@
 \n奴は何者で、これはどういう意味なんだ？</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_MS_4">
-		<text>どうやら誰かが「シン」と名乗る不気味な集団のメンバーを募っているらしい。
+		<text>誰かが「シン」と名乗る不気味な集団のメンバーを募っているらしい。
 \n悪い冗談かどうかはわからんが、怪しいストーカーを見たら注意しろよ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_csky">
-		<text>同志たち、仕事だぞ。未確認の無線信号が検出された。
+		<text>同志たち、仕事だ。未確認の無線信号を検出した。
 \n発信源を調べる志願者が要る。詳細は集合してから話す。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_dolg">
-		<text>古参兵に告ぐ。未確認の無線信号を検出した。その発信源を調査する志願者が必要だ。
+		<text>古参兵に告ぐ。未確認の無線信号を検出した。発信源を調査する志願者を求む。
 \n詳細は集合時に伝える。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_ecolog">
@@ -4690,15 +4690,15 @@
 \n発信源の調査に協力してくれる志願者を募る。詳細は集合時に説明する。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_freedom">
-		<text>お前ら、俺たちは正体不明の無線信号を検出した。発信源を調査するには勇敢な戦士が必要だ。
+		<text>お前ら、正体不明の無線信号を検出した。発信源を調べる勇敢な戦士を求む。
 \n詳しい話が聞きたいやつは軍事倉庫の俺のところにきな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_killer">
-		<text>未確認の無線信号が検出された。我々の顧客は発信源の調査に高い報酬を支払うはずだ。
+		<text>未確認の無線信号を検出した。顧客は発信源の調査に高い報酬を払うはずだ。
 \n詳細は合流後に伝える。</text>
 	</string>
 	<string id="st_dyn_news_gossip_task_oa_stalker">
-		<text>ストーカー、未確認の無線信号が検出された。発信源を調べてくれる人手を探している。
+		<text>ストーカー、未確認の無線信号を検出した。発信源を調べてくれる人手を探している。
 \nルーキー村で会おう。詳細はそこで話す。</text>
 	</string>
 	
@@ -4809,10 +4809,10 @@
 		<text>身を隠せる場所を探せ。$when$whatが来るぞ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_4">
-		<text>みんな、俺の計器がイカれ始めた。おそらく$when$whatが来る前兆だ。</text>
+		<text>みんな、俺の計器がイカれ始めた。$when$whatが来る前兆かもしれん。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_5">
-		<text>ハーマン教授が$when$whatが起きると連絡してきた。隠れる場所を探せ。</text>
+		<text>ハーマン教授から連絡だ。$when$whatが起きる。隠れる場所を探せ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_6">
 		<text>おい、$whatが$when来るぞ。警戒しろ。</text>
@@ -4837,7 +4837,7 @@
 \nその時が来るまで、身を隠す場所を探しておけよ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_12">
-		<text>ゾーンが怒っている･･････ $when$whatが始まるだろう。</text>
+		<text>ゾーンが怒っている･･････ $when$whatが始まるぞ。</text>
 	</string>
 	<string id="st_dyn_news_surge_template_13">
 		<text>状況が悪化してる、また$when$whatが来るぞ。</text>
@@ -4915,7 +4915,7 @@
 		<text>本部からの報告によると、</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_army_4">
-		<text>機械が不穏な情報を出している。</text>
+		<text>計器が不穏な値を示している。</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_army_5">
 		<text>センサーの検出によると、</text>
@@ -5002,7 +5002,7 @@
 		<text>すべてのストーカーに警告、</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_ecolog_3">
-		<text>サハロフ教授からの重要な情報だ、彼によると</text>
+		<text>サハロフ教授からの重要情報だ。教授によると</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_ecolog_4">
 		<text>ヤンターから情報が届いた、</text>
@@ -5023,7 +5023,7 @@
 		<text>軍事倉庫からの情報だ、</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_freedom_3">
-		<text>信頼できる筋から得た情報だ、</text>
+		<text>信頼できる筋からの情報だ。</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_freedom_4">
 		<text>ルカシュがメッセージを送ってきた･･････ </text>
@@ -5074,7 +5074,7 @@
 		<text>フォレスターがくれた情報によると、</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_stalker_2">
-		<text>数人の偵察から受けた報告によると、</text>
+		<text>複数の偵察からの報告によると、</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_stalker_3">
 		<text>ジュピターの科学者から次の連絡があった。</text>
@@ -5089,7 +5089,7 @@
 		<text>シドロヴィッチが言ってた･･････ </text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_stalker_7">
-		<text>沼地のドクターによる情報だ、彼の話だと</text>
+		<text>沼地のドクターからの情報だ。奴の話では</text>
 	</string>
 	<string id="st_dyn_news_surge_builder_start_greh_1">
 		<text>指導者たちがお示しを授けてくださった、</text>
@@ -5266,7 +5266,7 @@
 \n間違いなくあいつだな。いい武器を持ってるだろうよ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_bandit_5">
-		<text>キャンプファイヤーにキセリゼリー、そしてお菓子もあるぜ！へへっ。</text>
+		<text>焚き火にキセリゼリー、そしてお菓子もあるぜ！へへっ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_bandit_6">
 		<text>デブすぎてテメエのケツも拭けねえのか、この間抜け。また武器庫の鍵をなくしたってのか？</text>
@@ -5421,21 +5421,21 @@
 		<text>入口付近で新たにボルテックスアノマリーが観測された。帰り道は足元に気をつけろ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_11">
-		<text>クリアスカイは新しいメンバー、特にアノマリーに関する優れた知識を持つストーカーを募集している。
+		<text>クリアスカイは新メンバーを募集している。特にアノマリーに詳しいストーカーを歓迎する。
 \n詳細はコールドに連絡するように。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_12">
 		<text>バンディットたちが北の農場で野営をしている痕跡がある。奴らの好きにさせるな。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_13">
-		<text>こちら深部偵察部隊。誰とも連絡がつかないため、パブリックチャンネルを試している。
+		<text>こちら深部偵察部隊。誰とも連絡がつかないため、公開チャンネルを試している。
 \nもしこれを聞いてたら応答してくれ！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_14">
-		<text>ジャッカルの分隊について情報を探している。我々は諦めないが、状況は良くないな。</text>
+		<text>ジャッカルの分隊に関する情報を探している。我々は諦めないが、状況はよくない。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_15">
-		<text>ミュータントの数が4週連続で増加していることが確認された。</text>
+		<text>ミュータントの数が4週連続で増加していることを確認した。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_16">
 		<text>現場に出ている調査隊へ: U4区域で異常な数のエレクトロアノマリーが報告されている。
@@ -5453,14 +5453,14 @@
 \nそれでも、あそこは用心した方がいいかもしれないな。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_20">
-		<text>カランチャ教授が再度機器の要求を出している。
+		<text>カランチャ教授が再び機器を要求している。
 \n必要なのはCO2インキュベーター、分光器、そしてプロパンタンクだ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_21">
 		<text>北と西からエンジンの音が聞こえた─軍がまた何か企んでいるようだ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_22">
-		<text>クリアスカイは現在、フリーのストーカーにアーティファクトや弾薬、医薬品の調達依頼を出している。
+		<text>クリアスカイは現在、フリーのストーカーにアーティファクト、弾薬、医薬品の調達を依頼している。
 \n詳しくはスポアに聞いてくれ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_23">
@@ -5468,7 +5468,7 @@
 \nサハロフ教授から光熱放射の予測について興味深い話を聞いたところだ─これから帰還する。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_24">
-		<text>北へ向かう許可を申請する。指定された場所にはあまりアーティファクトがない。</text>
+		<text>北へ向かう許可を申請する。指定地点にはアーティファクトがほとんどない。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_25">
 		<text>新しい暗号通信のテスト中。上手くいってるかな？</text>
@@ -5491,7 +5491,7 @@
 		<text>こちら監視チーム: 警戒を怠るな。敵がそちらに向かっているとの報告がある。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_31">
-		<text>L9区域に医薬品を運んでくれ！彼を動かすリスクは負えない、急げ！</text>
+		<text>L9区域に医薬品を運んでくれ！患者を動かすリスクは負えない。急げ！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_32">
 		<text>研究の警備任務の志願者を募集中。優秀な人材には高い給料と新しいマスクを提供する。</text>
@@ -5504,7 +5504,7 @@
 		<text>クリアスカイは弾薬と引き換えに研究結果を共有することに応じている。ただし事前に審査が必要だ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_35">
-		<text>状況がわかった。どうやらこいつはキメラとフレッシュの音を聞き分けることができなかったようだ。</text>
+		<text>状況がわかった。どうもこいつはキメラとフレッシュの音を聞き分けることができなかったようだ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_36">
 		<text>誰かこのくそったれな屋根を直してくれ、機材が雨に濡れてたまらないんだ。
@@ -5515,7 +5515,7 @@
 \n十分に注意して進むか、最新のマップを取りに戻ってくれ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_38">
-		<text>この場所は完全に空っぽだな。次の地点へ進むぞ。</text>
+		<text>ここは完全に空っぽだ。次の地点へ進むぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_csky_39">
 		<text>グレイシャー、お前の通信は完全におかしいぞ。いったいどこから通信してるんだ？</text>
@@ -5529,11 +5529,11 @@
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_2">
 		<text>E15区域内、またはその近くにいる分隊へ告ぐ！
-\n情報源は不明だが、該当地域にて非常に危険なミュータントがいるとの情報が入った。直ちに確認せよ！</text>
+\n情報源は不明だが、該当一帯にて非常に危険なミュータントがいるとの情報が入った。直ちに確認せよ！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_3">
 		<text>H23区域内、またはその近くにいる分隊へ告ぐ！
-\n情報源は不明だが、該当地域にて非常に危険なミュータントがいるとの情報が入った。直ちに確認せよ！</text>
+\n情報源は不明だが、該当一帯にて非常に危険なミュータントがいるとの情報が入った。直ちに確認せよ！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_4">
 		<text>現場に出ている分隊へ告ぐ！ガーベジでバンディットの活動が再び増えている。防衛区域を掃討せよ。</text>
@@ -5547,8 +5547,8 @@
 \nペトレンコ大佐の事務所に再び瓶を投げ入れた者は、誰であろうと即座に射殺する。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_7">
-		<text>ゾーンのミュータントを殲滅するため、デューティーは経験豊富で勇敢な戦士を必要としている。
-\n我々に加わった者はバーを特別価格で利用することができる。ただし、前科者は例外とする！</text>
+		<text>ゾーンのミュータントを殲滅するため、デューティーは経験豊富で勇敢な戦士を求めている。
+\n我々に加わった者はバーを特別価格で利用できる。ただし、前科者は例外とする！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_8">
 		<text>デューティーは入隊希望者を募集している。
@@ -5576,14 +5576,14 @@
 		<text>こちら偵察隊。荒廃領域で黒煙が上がるのを視認した。指示を待つ。送れ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_14">
-		<text>我々はミュータント襲撃のため、経験豊富なストーカーを必要としている。報酬は適切に支払われる。</text>
+		<text>我々はミュータント襲撃のため、経験豊富なストーカーを求めている。報酬は適切に支払われる。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_15">
-		<text>ミュータントの隠れ家を襲撃するため、経験豊富なストーカーを必要としている。
+		<text>ミュータントの隠れ家を襲撃するため、経験豊富なストーカーを求めている。
 \n報酬は適切に支払われる。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_16">
-		<text>我々はスノーク駆除作戦のため、経験豊富なストーカーを必要としている。高額な報酬を保証する。</text>
+		<text>我々はスノーク駆除作戦のため、経験豊富なストーカーを求めている。高額な報酬を保証する。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_17">
 		<text>ペトレンコだ。ジボデロフとアーニーから「独房に空きがないから捕虜はいらない」と報告があった。
@@ -5617,7 +5617,7 @@
 		<text>全員よく聞け。ロストクの郊外に傭兵の分隊がいるという情報を入手した。注意を怠るな。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_26">
-		<text>ここ2日間、装備に技術的な問題が発生している。データベースおよび各分隊との接続が不安定だ。</text>
+		<text>ここ2日、装備に技術的な問題が出ている。データベースと各分隊への接続が不安定だ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_dolg_27">
 		<text>こちらシモノフ大尉、奇妙なミュータントについて報告する。
@@ -5690,7 +5690,7 @@
 	</string>
 	<string id="st_dyn_news_spam_faction_ecolog_6">
 		<text>軍事研究チームから、チョルノービリ立入禁止区域にいる未登録の個人全員に勧告する。
-\n君たちは我々の移動ラボに接近して投降することができる。撃たれる心配はない。
+\n君たちは我々の移動ラボに接近して投降できる。撃たれる心配はない。
 \n必要な医療支援が提供され、早期にウクライナ保安庁に身柄を引き渡されるだろう。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_ecolog_7">
@@ -5733,7 +5733,7 @@
 		<text>サハロフ教授、デューティーから最新のアーティファクトが届きました。保管室を開けておいてください。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_ecolog_17">
-		<text>とても残念なことだが、今日もまた助手を失った。彼はプサイフィールドに立っていることに気づかず･･････
+		<text>残念ながら、今日もまた助手を失った。彼はプサイフィールドの中に立っていることに気づかなかった･･････ 
 \nその結果、彼を“処理”せざるを得なかった。
 \nもし良識ある志願者が集まらなければ、再び傭兵を雇うことも考えるべきだろうか？</text>
 	</string>
@@ -5773,7 +5773,7 @@
 \nこの極めて異例な命令は、ヤンターの親愛なる同僚によって署名されている。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_ecolog_26">
-		<text>サハロフ教授が生態学研究要員全員に、他の施設の研究を盗用しないよう注意喚起している。
+		<text>サハロフ教授から生態学研究要員全員へ。他施設の研究を盗用しないよう注意せよ。
 \nハーマン教授も自身のスタッフにこのことを伝えるのが賢明だろう。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_ecolog_27">
@@ -5854,7 +5854,7 @@
 		<text>フリーダムに参加せよ！ゾーンを占領しようとするものは誰であろうと俺たちが止めさせる！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_5">
-		<text>フリーダムバンザイ！ゾーンの助けを借りて、この世界をもっと良い場所にしようぜ！</text>
+		<text>フリーダムバンザイ！ゾーンの力で、この世界をもっとマシにしようぜ！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_6">
 		<text>傭兵部隊の動きに関する情報はどんな事でも、すぐにプライベートチャンネルに記録するんだ。
@@ -5897,7 +5897,7 @@
 		<text>これから昼飯でも食うか、どうする？</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_17">
-		<text>アーティファクトの探索に経験豊富なストーカーを必要としている。手を貸してくれ。</text>
+		<text>アーティファクトの探索に経験豊富なストーカーを求めている。手を貸してくれ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_18">
 		<text>フリーのストーカーたちよ、フリーダムからの発信だ！
@@ -6004,14 +6004,14 @@
 \nプロメテウス映画館の近くを探してくれ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_3">
-		<text>特別な分隊を編成するため、経験豊富なストーカーを必要としている。</text>
+		<text>特別な分隊を編成するため、経験豊富なストーカーを求めている。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_4">
-		<text>プリピャチにおける襲撃作戦のため、経験豊富なストーカーを必要としている。
+		<text>プリピャチにおける襲撃作戦のため、経験豊富なストーカーを求めている。
 \n我らの目標はモノリスの分隊だ。情報が欲しければ問い合わせてくれ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_5">
-		<text>PNV機器の知識を持った経験豊富な技術者を募集している。報酬はきちんと支払われる。</text>
+		<text>PNV機器に詳しい経験豊富な技術者を募集している。報酬はきちんと支払う。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_6">
 		<text>組織に参加せよ。仕事が終わったとき、優れた戦闘服と良質な報酬が待っているぞ！</text>
@@ -6100,7 +6100,7 @@
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_28">
 		<text>いったいこれは何だ？道には4人─いや、5人の死体が転がってる。
-\n彼らが誰なのか見当もつかない。この記章も見たことがないぞ。</text>
+\n奴らが誰なのか見当もつかない。この記章も見たことがないぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_killer_29">
 		<text>よし、この区域では次の2時間、無線を使わないでくれ。ただ口を閉じて、目を開けておけ！</text>
@@ -6210,7 +6210,7 @@
 	<string id="st_dyn_news_spam_faction_army_16">
 		<text>ウクライナ保安庁は健全な考えを持つ忠実な市民全員に対し、当局との協力を呼びかけている。
 \nストーカーとしての経験から得た情報を報告する“あなた”の助けがあってこそ、
-\n我々はこの恐ろしい現象を排除することができる！</text>
+\n我々はこの恐ろしい現象を排除できる！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_17">
 		<text>命令第231号に従って北の検問所の防衛を強化する必要がある。新しいスーツはいつ到着するんだ？</text>
@@ -6287,7 +6287,7 @@
 	</string>
 	<string id="st_dyn_news_spam_faction_army_37">
 		<text>ああ、吸血鬼やおとぎ話はこの目で見るまでは信じないぜ。
-\n科学的な現象ならまだしも、キャンプファイヤーで語られるくだらない話なんて聞いたら笑っちまうぜ。</text>
+\n科学的な現象ならまだしも、焚き火で語られるくだらない話なんて聞いたら笑っちまうぜ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_army_38">
 		<text>そのコールサインは記録にないな･･････ SBUがまた何か企んでるのか？
@@ -6681,7 +6681,7 @@
 \n奴らが何かおかしなことをしでかしたら、代償を払わせてやるつもりだ。通信終了。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_7">
-		<text>$mapで$targetが奇襲の準備をしているという発信元不明の情報が届いた。
+		<text>$mapで$targetが奇襲の準備をしているという出所不明の情報が届いた。
 \n付近のすべての分隊は細心の注意を払え。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_8">
@@ -6722,7 +6722,7 @@
 \n弾薬は十分あるが、分隊の大半が負傷している。また攻撃が始まった！</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_15">
-		<text>$mapの状況報告: 数分間攻撃を受けていないが、敵の居場所を把握できない。
+		<text>$mapの状況報告: 数分間攻撃は受けていないが、敵の位置を把握できない。
 \nすべての$targetの位置が特定できていないため、分離せずに前進するのは不可能だろう。
 \n援護を送ってくれ、それまでこの位置で待機する。</text>
 	</string>
@@ -6734,7 +6734,7 @@
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_17">
 		<text>$targetと小競り合いを始めて数時間が経過した。死傷者はなし、敵は2人倒したと思われる。
-\n現在、彼らは$locationに籠っているようだ。
+\n現在、奴らは$locationに籠っているようだ。
 \nこのまま追撃するか？</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_1">
@@ -6849,7 +6849,7 @@
 \nかなり不足しているからな、持ってきた者にはそれなりの報酬を出すぞ。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_12">
-		<text>なあ$trader、キャンプから50メートルくらいの場所で監視設備付きの観測所を見つけたぞ。
+		<text>なあ$trader、キャンプから50メートルほど離れた所で監視設備付きの観測所を見つけたぞ。
 \n上手に草で覆われていてな、それにつまずいて発見したんだ。これを見つけたのは誰のおかげだと思う？</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_none_13">
@@ -6961,7 +6961,7 @@
 \n奴らが馬鹿な真似をするつもりであれば、その報いを受けることになるだろう。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_7">
-		<text>$targetが$mapで奇襲の準備をしていると聞いた。そこには近寄らないようにしろよ。</text>
+		<text>$targetが$mapで奇襲の準備をしていると聞いた。近寄るなよ。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_8">
 		<text>俺たちは$targetに攻撃を仕掛けたんだが、そのバカどもが反撃してきやがった。
@@ -6998,7 +6998,7 @@
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_15">
 		<text>こちら$speaker。$targetから警告無しに発砲された。
-\n彼らを殲滅したが、何を考えていたのかまったくわからなかった。</text>
+\n奴らを殲滅したが、何を考えていたのかまったくわからなかった。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_enemy_16">
 		<text>くそっ！$locationにキャンプを張ろうとしたが、
@@ -7007,7 +7007,7 @@
 	<string id="st_dyn_news_zone_activity_group_enemy_17">
 		<text>こちら$speaker。
 \n$targetを$locationから追い出すことに成功した。
-\n彼らは増援を引き連れて反撃してくるかもしれない。</text>
+\n奴らは増援を引き連れて反撃してくるかもしれない。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_group_friend_1">
 		<text>こちら$speaker。
@@ -7104,7 +7104,7 @@
 \n今取り組んでいる実験的な装備のために必要なんだ。見つけた奴は俺のところに持ってきてくれ。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_9">
-		<text>$mechanicに伝えてくれ。彼がスーツに取り付けたショックアブソーバーはうまく機能している。
+		<text>$mechanicに伝えてくれ。スーツに取り付けたショックアブソーバーはうまく機能している。
 \nこれがなかったら、このメッセージを送れていなかっただろう。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_none_10">
@@ -7194,7 +7194,7 @@
 \nもし奴らが何か仕掛けてくるようなら、その代償を払わせるつもりだ。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_7">
-		<text>$mapで$targetが奇襲の準備をしているという発信元不明の情報が届いた。
+		<text>$mapで$targetが奇襲の準備をしているという出所不明の情報が届いた。
 \n付近にいるすべてのチームは、細心の注意を払ってくれ。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_scientist_enemy_8">
@@ -7574,7 +7574,7 @@
 	<string id="st_dyn_news_spam_66">
 		<text>$clr_1匿名
 \n$clr_2プリピャチの傭兵基地に新しい奴が来たって知ってるか？
-\nなんでもユニークな装備を持っていて、注文することができるらしい。</text>
+\nなんでもユニークな装備を持っていて、注文できるらしい。</text>
 	</string>
 	<string id="st_dyn_news_spam_67">
 		<text>$clr_1匿名
@@ -7582,7 +7582,7 @@
 	</string>
 	<string id="st_dyn_news_spam_68">
 		<text>$clr_1匿名
-\n$clr_2軍の会話を盗み聞きしたんだが、彼らはヤンターで作戦を計画しているようだ。</text>
+\n$clr_2軍の会話を盗み聞きしたんだが、奴らはヤンターで作戦を計画しているようだ。</text>
 	</string>
 	<string id="st_dyn_news_spam_69">
 		<text>$clr_1匿名
@@ -7625,7 +7625,7 @@
 	</string>
 	<string id="st_dyn_news_spam_78">
 		<text>$clr_1匿名
-\n$clr_2シドロヴィッチにミュータントの部位を売ってみたけど、どうやらぼったくられたみたいだ。
+\n$clr_2シドロヴィッチにミュータントの部位を売ってみたけど、どうもぼったくられたみたいだ。
 \nあのジジイ･･････ みんな、代わりにバーキープと取引したほうがいいぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_79">
@@ -7699,7 +7699,7 @@
 	<string id="st_dyn_news_spam_94">
 		<text>$clr_1ボルト
 \n$clr_2調子が悪い･･････ さっき食った缶詰、倉庫にあったらしいヤツでさ、
-\n今消費期限を見たんだが、どうやら俺はやばい失敗をしちまったみてえだな。</text>
+\n今消費期限を見たんだが、どうも俺はやばい失敗をしちまったみてえだな。</text>
 	</string>
 	<string id="st_dyn_news_spam_95">
 		<text>$clr_1ビアード
@@ -8687,7 +8687,7 @@
 		<text>足はひどい有り様だ。おそらくボルテックスアノマリーだろう</text>
 	</string>
 	<string id="st_dyn_news_death_reason_31">
-		<text>開放骨折だ。彼は動くことができず、数時間横たわったまま･･････ 何かに食い尽くされたようだ</text>
+		<text>開放骨折だ。身動きできず、数時間横たわったまま･･････ 何かに食い尽くされたようだ</text>
 	</string>
 	<string id="st_dyn_news_death_reason_32">
 		<text>首が折れている</text>
@@ -8723,7 +8723,7 @@
 		<text>身体の上部だけが見つかった。ボルテックスアノマリーに巻き込まれたようだ</text>
 	</string>
 	<string id="st_dyn_news_death_reason_43">
-		<text>胸に7つの穴がある。彼は誰かを怒らせたんじゃないか？</text>
+		<text>胸に7つの穴がある。誰かを怒らせたんだろう</text>
 	</string>
 	<string id="st_dyn_news_death_reason_44">
 		<text>遺体がほとんど残っていない。犬の仕業だろう</text>
@@ -8753,7 +8753,7 @@
 		<text>ガスボンベが爆発したようだ･･････ 事故か？</text>
 	</string>
 	<string id="st_dyn_news_death_reason_53">
-		<text>手足が綺麗に撃ち抜かれている･･････ 冷酷な人間が彼を拷問したのだろう</text>
+		<text>手足が綺麗に撃ち抜かれている･･････ 冷酷な奴に拷問されたんだろう</text>
 	</string>
 	<string id="st_dyn_news_death_reason_54">
 		<text>どうやら脳卒中のようだ･･････ なんと言えばいい？</text>
@@ -8792,7 +8792,7 @@
 		<text>足は折れているが、死因は被曝による影響のようだ。不幸中の幸いだと言える</text>
 	</string>
 	<string id="st_dyn_news_death_reason_66">
-		<text>工業用化学薬品の過剰摂取だ。彼にとって最大の敵は、自分自身だった</text>
+		<text>工業用化学薬品の過剰摂取だ。最大の敵は自分自身だったらしい</text>
 	</string>
 	<string id="st_dyn_news_death_reason_67">
 		<text>野原の真ん中で焼け焦げている･･････ まるでゾーンを体現するかのようだ</text>
@@ -8996,7 +8996,7 @@
 		<text>さて、外を見に行く時間だ。今日はどんな一日になるんだろうな。</text>
 	</string>
 	<string id="st_dyn_news_time_morning_26">
-		<text>誰かコーヒーの場所を知らないか？今すぐにでも飲みたいんだ。</text>
+		<text>誰かコーヒーがどこにあるか知らないか？今すぐ飲みたいんだ。</text>
 	</string>
 	<string id="st_dyn_news_time_morning_27">
 		<text>一服しながらゾーンの目覚めでも眺めるか･･････ 危険だが、美しい。</text>
@@ -9108,7 +9108,7 @@
 		<text>ゾーンでこんな風景が見れるとは思わなかったな。</text>
 	</string>
 	<string id="st_dyn_news_time_evening_3">
-		<text>結局のところ、ゾーンもそんなに悪い場所じゃないな。</text>
+		<text>結局のところ、ゾーンもそこまで悪い所じゃないな。</text>
 	</string>
 	<string id="st_dyn_news_time_evening_4">
 		<text>もうすぐ夜だ。仕事はもう切り上げろ。</text>
@@ -9120,7 +9120,7 @@
 		<text>みんな、夕日を見ろよ･･････ すげえキレイだ。</text>
 	</string>
 	<string id="st_dyn_news_time_evening_7">
-		<text>そろそろキャンプファイヤーに集まる時間じゃないか？どうだ？</text>
+		<text>そろそろ焚き火に集まる時間じゃないか？どうだ？</text>
 	</string>
 	<string id="st_dyn_news_time_evening_8">
 		<text>日が落ちていく。ミュータントが目覚めるぞ。</text>
@@ -9132,7 +9132,7 @@
 		<text>なんて景色だ。すべてを忘れさせてくれる。</text>
 	</string>
 	<string id="st_dyn_news_time_evening_11">
-		<text>まずい･･････ 夜を過ごすのに安全な場所を見つけないと。</text>
+		<text>まずい･･････ 夜を過ごせる安全な場所を見つけないと。</text>
 	</string>
 	<string id="st_dyn_news_time_evening_12">
 		<text>暗闇は思っているよりも早く訪れる、急いだ方がいい。</text>
@@ -9165,7 +9165,7 @@
 		<text>そろそろ休む時間だ。</text>
 	</string>
 	<string id="st_dyn_news_time_evening_22">
-		<text>外に出てる奴がいたら、安全な場所を見つけて夜が明けるまでその場に留まるんだ。</text>
+		<text>外に出てる奴がいたら、安全な場所を見つけて夜明けまでそこに留まれ。</text>
 	</string>
 	<string id="st_dyn_news_time_evening_23">
 		<text>あの偵察隊は戻ってきてないのか？安全な場所を見つけているといいが。</text>
@@ -9326,7 +9326,7 @@
 		<text>誰かがこっそり付けてきてないか確認するぞ。</text>
 	</string>
 	<string id="st_dyn_news_weather_cloudy_12">
-		<text>外はどんよりとしている。</text>
+		<text>外はどんよりしている。</text>
 	</string>
 	<string id="st_dyn_news_weather_cloudy_13">
 		<text>雲の下では何もかもが鮮明に見える。はっきりとした感じだ。</text>
@@ -9468,7 +9468,7 @@
 	</string>
 	<string id="st_dyn_news_weather_storm_6">
 		<text>この雨の中で俺が本当に欲しいものが何かわかるか？
-\nキャンプファイヤー、その隣で演奏するギター、そしてウォッカのボトルだ。</text>
+\n焚き火、その隣で演奏するギター、そしてウォッカのボトルだ。</text>
 	</string>
 	<string id="st_dyn_news_weather_storm_7">
 		<text>くそ、俺の防護マスクが･･････ この嵐の中じゃほとんど見えないぞ。</text>
@@ -9518,7 +9518,7 @@
 
 	<!-- Nearby enemy activity -->
 	<string id="st_dyn_news_enemy_activity_zombied_1">
-		<text>よう、仲間がそう遠くない場所で$whoを見かけたとさ。他にもいるかもしれないな。</text>
+		<text>よう、仲間がそう遠くない所で$whoを見かけたとさ。他にもいるかもしれないな。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_zombied_2">
 		<text>仲間が近くで$whoを見たってよ。</text>
@@ -9578,7 +9578,7 @@
 		<text>いったいこいつら、どっから湧いてくるんだ？</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_stalker_1">
-		<text>よう、仲間がそう遠くない場所で$whoを見かけたそうだ。他にもいるかもしれない。</text>
+		<text>よう、仲間がそう遠くない所で$whoを見かけたそうだ。他にもいるかもしれない。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_stalker_2">
 		<text>友人が近くで$whoを見かけたらしい。何事だ？</text>
@@ -9698,7 +9698,7 @@
 		<text>こっちに誰も来ないよう、見張りを続けるぞ。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_4_1">
-		<text>困ったな、俺の仲間がここから遠くない場所で$whoを見つけた。</text>
+		<text>困ったな、俺の仲間がここから遠くない所で$whoを見つけた。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_4_2">
 		<text>あれは･･････ $whoか･･････？</text>
@@ -9764,7 +9764,7 @@
 		<text>頭を狙え、それしか勝ち筋はない。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_3_1">
-		<text>厄介事だぞ。仲間がここから遠くない場所で$whoを見つけた。</text>
+		<text>厄介事だぞ。仲間がここから遠くない所で$whoを見つけた。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_3_2">
 		<text>あれは･･････ $whoか･･････？</text>
@@ -9836,7 +9836,7 @@
 		<text>遠くに見えるあれは$whoか？そんな気がするな･･････</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_2_5">
-		<text>ここから遠くない場所で$whoが目撃されている、油断するな。</text>
+		<text>ここから遠くない所で$whoが目撃されている。油断するな。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_2_6">
 		<text>今$whoが見えたが、数はわからない。</text>
@@ -9845,7 +9845,7 @@
 		<text>$whoを近くで発見した。冗談じゃないからな。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_2_8">
-		<text>周辺にいる人々へ: $whoがこの辺りで目撃されている、背後に気をつけろ。</text>
+		<text>周辺にいる人々へ: $whoがこの辺りで目撃されている。背後に気をつけろ。</text>
 	</string>
 	<string id="st_dyn_news_enemy_activity_mutant_2_9">
 		<text>この辺りに$whoがいる。こいつら諦めないのか？</text>
@@ -9929,7 +9929,7 @@
 		<text>そいつを見くびるなよ。俺の仲間が殺されてる。</text>
 	</string>
 	<string id="st_dyn_news_res_enemy_activity_mutant_1_6">
-		<text>ちょうど食い物を切らしていたところだ。そいつを仕留めて食うのはどうだ？</text>
+		<text>ちょうど食い物を切らしてたところだ。そいつを仕留めて食うのはどうだ？</text>
 	</string>
 	<string id="st_dyn_news_res_enemy_activity_mutant_1_7">
 		<text>いつもの事だな。</text>
@@ -10049,7 +10049,7 @@
 		<text>すっかり忘れてたが、ポケットにボルトが入ってた。あんたもこれが必要になるかもな。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_all_12">
-		<text>他の場所に隠せばよかったな･･････ そのうち誰かに見つかるかもしれない。</text>
+		<text>別の場所に隠せばよかったな･･････ そのうち誰かに見つかるかもしれない。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_all_13">
 		<text>最近は姿を消す奴が多いんだ。それも突然に、痕跡も残さずにな･･････ ゾーンで何が起きてるんだ？</text>
@@ -10149,7 +10149,7 @@
 		<text>俺はいったい何を踏んじまったんだ？</text>
 	</string>
 	<string id="st_dyn_news_companion_life_all_43">
-		<text>ああ、キャンプファイヤーが恋しいよ･･････</text>
+		<text>ああ、焚き火が恋しいよ･･････</text>
 	</string>
 	<string id="st_dyn_news_companion_life_all_44">
 		<text>ゾーンにはいつも睡眠を妨害される。</text>
@@ -10323,7 +10323,7 @@
 		<text>仕事を探しているなら、指揮官に相談しろ。お前の助けが必要になるかもしれん。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_6">
-		<text>ゾーンのような場所では、兵士というのも楽な仕事ではないな。</text>
+		<text>ゾーンみたいな場所じゃ、兵士稼業も楽じゃないな。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_7">
 		<text>くそ･･････ ライターを忘れた。</text>
@@ -10353,7 +10353,7 @@
 		<text>またアホが中尉に昇進したのか･･････ いいヤツってのは大抵すぐ死ぬんだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_16">
-		<text>ストーカーたちと取引していた伍長が軍法会議にかけられたって話を聞いたことはあるか？</text>
+		<text>ストーカーたちと取引してた伍長が軍法会議にかけられたって話、聞いたことあるか？</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_17">
 		<text>弾薬を持ってないか？最近は足りないことが多くてな。</text>
@@ -10365,7 +10365,7 @@
 		<text>ある分隊が野外で光熱放射にやられたんだ。俺たちは賢くやろう。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_20">
-		<text>所属していた分隊の仲間はみんな殺されてしまった。俺は不運なのかと思い始めてる。</text>
+		<text>所属してた分隊の仲間はみんな殺されちまった。俺は自分が不運なのかと思い始めてる。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_21">
 		<text>このクソみたいな場所の後だったら、どんな任務も魅力的に思えてくるな。</text>
@@ -10473,7 +10473,7 @@
 \n突進してくるボアをどうやったら傷つけずに倒せるか見てみたいもんだな。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_14">
-		<text>空気中の放射線量はここ最近になって減少しているらしいが、水質は悪化していると聞いたことがある。</text>
+		<text>空気中の放射線量はここ最近になって減少してるらしいが、水質は悪化していると聞いたことがある。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_15">
 		<text>我々は常に後退させられている。みんなに狙われているかのようだ。</text>
@@ -10485,7 +10485,7 @@
 		<text>弾薬はできるだけ拾っておけよ。いつも不足しているからな。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_18">
-		<text>この間、エコロジストから新人の志願者が来た。彼は帰る前に数台の検出器を盗み出す事に成功したらしい。</text>
+		<text>この間、エコロジストから新人の志願者が来た。帰る前に検出器を何台か盗み出したらしい。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_19">
 		<text>奇襲と撤退を繰り返すのが最善だ。常に戦い続ける中で同志たちを無駄にすることはできない。</text>
@@ -10514,7 +10514,7 @@
 		<text>アノマリーに対する防護には手を抜くな─いつ必要になるかわからないからな。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_27">
-		<text>彼には言わないでほしいんだが、ライブラリアンは料理が本当に下手なんだ。</text>
+		<text>本人には言わないでほしいんだが、ライブラリアンは料理が本当に下手なんだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_28">
 		<text>俺はガスクラウドアノマリーとフルーツポンチアノマリーを兵器化するべきだと思う。</text>
@@ -10523,7 +10523,7 @@
 		<text>俺は沼地が好きだ。夜じゃなければ、だがな。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_30">
-		<text>時々、軍の脱走兵が来ることがある。彼らが持ってくる情報はかなり貴重なんだ。</text>
+		<text>時々、軍の脱走兵が来ることがある。奴らが持ってくる情報はかなり貴重なんだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_31">
 		<text>最後にソフトポイント弾を使ったのはいつだっただろうか。あのミュータントには本当に効果的だった。</text>
@@ -10769,7 +10769,7 @@
 \n野心には負けないようにしてくれよ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_ecolog_24">
-		<text>以前はすべてがキャンプファイヤーで話す冗談だと思っていた。
+		<text>以前はすべてが焚き火で話す冗談だと思っていた。
 \nアノマリー、ミュータント、モノリスの兵士･･････ 今ではよくわかるよ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_ecolog_25">
@@ -11725,7 +11725,7 @@
 	</string>
 	<string id="st_dyn_news_companion_level_l09_deadcity_18">
 		<text>傭兵はストーカーが簡単に近づけない場所を選ぼうとしたが、
-\n彼らはいつでも抜け穴を見つけるんだ。</text>
+\n奴らはいつでも抜け穴を見つけるんだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l08_yantar_1">
 		<text>俺はもう既にプサイ波を感じてるぜ。</text>
@@ -11800,7 +11800,7 @@
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_6">
 		<text>傭兵たちは普段、北東の前哨を占領してる。
-\nだが、彼らはそれ以上陣地を広げようとはしていない。</text>
+\nだが、奴らはそれ以上陣地を広げようとはしていない。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_7">
 		<text>農場の北側は隠れるにはちょうどいい場所だな。そこに他の分隊がいない場合に限るが。</text>
@@ -11856,7 +11856,7 @@
 \nあのエレクトロアノマリーの数を見たら気が変わるだろうよ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l06_rostok_4">
-		<text>傭兵はトンネル付近の前哨基地を必死に守ろうとしているが、彼らが常に勝てるわけではない。</text>
+		<text>傭兵はトンネル付近の前哨基地を必死に守ろうとしているが、奴らが常に勝てるわけではない。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l06_rostok_5">
 		<text>最悪のミュータントがここの中心部にいる。そこで死んだストーカーの恐ろしい話を聞いたことがある。</text>
@@ -11910,14 +11910,14 @@
 	</string>
 	<string id="st_dyn_news_companion_level_l04_darkvalley_5">
 		<text>フリーダムは大規模な光熱放射が来る前、この場所を占領してたんだ。
-\n彼らが軍事倉庫に移動した後、バンディットたちがここに居着くようになったってわけだ。</text>
+\n奴らが軍事倉庫に移動した後、バンディットたちがここに居着くようになったってわけだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l04_darkvalley_6">
 		<text>ここはかつてアフロプロムのような農業研究センターだった。
 \nあそことは違って、ここは数年前にクズどもに乗っ取られたのさ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l04_darkvalley_7">
-		<text>この辺りではサルタンが権力を持ってる。彼と良好な関係を築けば通行を許可されるんだ。
+		<text>この辺りではサルタンが幅を利かせてる。奴と良好な関係を築けば通してもらえる。
 \nつまり、金を払わないとダメってことさ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l04_darkvalley_8">
@@ -12127,7 +12127,7 @@
 		<text>これまでどんなに幸運だったとしても、ここでは簡単に跡形もなく消え去ることができるぞ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_red_forest_4">
-		<text>あの老人は最近どうしているんだろうか？</text>
+		<text>あの老人は最近どうしてるんだろうか？</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_red_forest_5">
 		<text>森の中はアノマリーだらけだ、足元に気を付けろよ。</text>
@@ -12212,7 +12212,7 @@
 		<text>ここがどこなのかわかってるんだろうな、相棒。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_radar_15">
-		<text>ここは狂信者たちが支配する射撃場だ。戦車でも持っていたら安心できるんだがな･･････</text>
+		<text>ここは狂信者たちが支配する射撃場だ。戦車でも持ってたら安心できるんだがな･･････</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_radar_16">
 		<text>この場所はゾーンの中心にある腫瘍みたいなもんだ。こんな場所はなくなればいいのにな。</text>
@@ -12314,7 +12314,7 @@
 		<text>プリピャチ川が近くにある。時々匂いがしてくるな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_pripyat_17">
-		<text>モノリスはここで力をつけているようだ。彼らは我々よりも遥かに多い。</text>
+		<text>モノリスはここで力をつけているようだ。奴らは我々よりも遥かに多い。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_pripyat_18">
 		<text>俺たちは原子力発電所に近付いている。つまり、モノリスはここを守るために必死になるだろうな。</text>
@@ -12361,7 +12361,7 @@
 		<text>冷却塔近くのコパチ村はゾンビが群がっている。高い放射線レベルなのは言うまでもないな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_12">
-		<text>「コンクリート風呂」アノマリーフィールドで«ソウル»を発見したストーカーがいる。
+		<text>「コンクリート風呂」アノマリーフィールドで«ソウル»を見つけたストーカーがいる。
 \n俺たちもあの工場の近くを調べてみる必要があるな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_13">
@@ -12373,7 +12373,7 @@
 \n俺の記憶違いでなければ、工場の中にあるはずだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_15">
-		<text>放棄された地下トンネルを通ってプリピャチの郊外に行くことができる。
+		<text>放棄された地下トンネルを通ってプリピャチの郊外に行ける。
 \n街の中心部を避けたいなら悪くない選択肢だ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_jupiter_16">
@@ -12423,7 +12423,7 @@
 		<text>プレオブラジェンスキー橋のトラックには放置された貴重品が残ってるかもしれない。後で調べてみよう。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_zaton_8">
-		<text>傭兵たちはまだ廃棄物処理場を占領してる。彼らは部外者が通過することを絶対に許さないぞ。</text>
+		<text>傭兵たちはまだ廃棄物処理場を占領してる。奴らは部外者が通過することを絶対に許さないぞ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_zaton_9">
 		<text>製材所を見たことはあるか？いつもは無人なんだが、たまにゾンビが数体歩き回ってるんだ。</text>
@@ -12524,7 +12524,7 @@
 		<text>先導してくれ。あんた今のところ上手くやってるぜ。</text>
 	</string>
 	<string id="st_dyn_news_companion_rank_2_7">
-		<text>ここにはルーキーが多すぎるな、$name。彼らは経験が足りないんだ。</text>
+		<text>ここにはルーキーが多すぎるな、$name。奴らは経験が足りないんだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_rank_2_8">
 		<text>気を引き締めろ。経験があるからって役に立つとは限らんからな。</text>
@@ -12606,7 +12606,7 @@
 		<text>あんたが$nameか？悪いことをやったって聞いたんだが･･････</text>
 	</string>
 	<string id="st_dyn_news_companion_rep_1_2">
-		<text>あんた$nameか？この辺りじゃかなりの“評判”を獲得してるみたいだな。</text>
+		<text>あんた$nameか？この辺りじゃかなり“評判”になってるみたいだな。</text>
 	</string>
 	<string id="st_dyn_news_companion_rep_1_3">
 		<text>$name？聞いたことがある名前だ。
@@ -12647,7 +12647,7 @@
 		<text>$name、あんたは良い奴みたいだな。この辺りは初めてかい？</text>
 	</string>
 	<string id="st_dyn_news_companion_rep_2_4">
-		<text>俺のPDAにはあんたの情報はそんなに乗ってないな、$nameさんよ。
+		<text>俺のPDAにはあんたの情報はそんなに載ってないな、$nameさんよ。
 \nそれはたぶんいいことなんだろうな。</text>
 	</string>
 	<string id="st_dyn_news_companion_rep_2_5">
@@ -12713,7 +12713,7 @@
 		<text>$what！ようやくか！治療の時間だ。</text>
 	</string>
 	<string id="st_dyn_news_gossip_med_6">
-		<text>$whatを見つけた。売るべきか？それとも取っておいた方がいいか？</text>
+		<text>$whatを見つけた。売るべきか？それとも取っておくべきか？</text>
 	</string>
 	<string id="st_dyn_news_gossip_med_7">
 		<text>ちょっと待て、さっき誰かが死にかけてたよな？この$whatで何とかなるだろうか？</text>
@@ -12739,7 +12739,7 @@
 		<text>おお！$whatを見つけた！やっとだな。</text>
 	</string>
 	<string id="st_dyn_news_gossip_food_6">
-		<text>$whatを見つけた。売るべきだろうか？それとも自分のために取っておくか･･････？</text>
+		<text>$whatを見つけた。売るべきか？それとも自分のために取っておくか･･････？</text>
 	</string>
 	<string id="st_dyn_news_gossip_food_7">
 		<text>よう、おデブさんのためにあるものを見つけたぜ。$whatだ。誰か欲しいやつは？</text>
@@ -12759,39 +12759,39 @@
 	<string id="st_dyn_news_warfare_capture_troop_2">
 		<text>こちら$speaker。$mapでの戦闘はまだ続いている。
 \n我々は$locationを無事に占拠した。
-\n現在のところ、計画通りに進んでいる。</text>
+\n現時点では計画通りだ。</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_troop_3">
-		<text>総本部に報告する。$mapの戦況は新たな局面を見せており、
-\n敵は$locationで計画した奇襲の後に退却した。
-\n我々は新しい指令を待っている間、その場所を防衛する。</text>
+		<text>総本部へ報告。$mapの戦況は新たな局面に入り、
+\n敵は$locationでの奇襲を受け、退却した。
+\n我々は次の指令を待つ間、この地点を防衛する。</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_scientist_1">
 		<text>こちら$speaker。
-\n現在$locationを確保した。次の指令を待っている。</text>
+\n現在、$locationを確保。次の指令を待つ。</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_scientist_2">
 		<text>こちら$speaker。$mapではまだ戦闘が続いている。
-\n我々は$locationの確保に成功した。
-\n現在のところ、計画通りに進んでいる。</text>
+\n$locationの確保に成功した。
+\n現時点では計画通りだ。</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_scientist_3">
-		<text>総本部に報告する。$mapの戦況は新たな局面を見せており、
-\n敵は$locationで計画した奇襲の後に退却した。
-\n我々は新しい指令を待っている間、その場所を防衛する。</text>
+		<text>総本部へ報告。$mapの戦況は新たな局面に入り、
+\n敵は$locationでの奇襲を受け、退却した。
+\n我々は次の指令を待つ間、この地点を防衛する。</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_group_1">
 		<text>こちら$speaker。
 \n$locationは我々の支配下にある。奇襲作戦は大成功だった。</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_group_2">
-		<text>$mapの状況は火の車だ！
-\n$locationを占拠した。敵はすぐに倒れた。
+		<text>$mapは大混戦だ！
+\n$locationを占拠した。敵はあっという間に崩れた。
 \n$speaker、以上だ。</text>
 	</string>
 	<string id="st_dyn_news_warfare_capture_group_3">
 		<text>やったぞ。$locationを制圧した。
-\n臆病者たちは銃を捨てて逃げ出している。</text>
+\n臆病者どもは銃を捨てて逃げ出している。</text>
 	</string>
 
 <!-- Extra -->
