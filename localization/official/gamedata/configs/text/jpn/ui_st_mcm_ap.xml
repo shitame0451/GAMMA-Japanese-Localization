@@ -203,6 +203,9 @@
   <string id="ui_mcm_menu_social_base">
     <text>交流\n拠点</text>
   </string>
+  <string id="ui_mcm_menu_social_offmap">
+    <text>交流\nエリア外</text>
+  </string>
   <!-- ==================== FRAMEWORK TAB ==================== -->
   <string id="ui_mcm_ap_framework_title">
     <text>フレームワーク</text>
@@ -543,7 +546,7 @@
     <text>発生原因: 物資補給（トレーダー）\n概要: 分隊が物資補充のため、トレーダー、医者、または技術者のいる重要地点へ向かいます。\n判定基準: 無線範囲内、日中、全ストーカー、性格（強欲・友好度）、サービスNPC、非敵対状態、Hull（判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_supply_trader_offmap_tag">
-    <text>発生原因: 物資補給（エリア外）\n概要: 分隊が他マップのトレーダー等の元へ遠征します。「強欲」かつ「縄張り意識」の低い分隊が、交易のためにエリアを跨いで移動するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（強欲・縄張り意識の低さ）、サービスNPC、非敵対、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 物資補給（エリア外）\n概要: 分隊が他マップのトレーダー等の元へ遠征します。「強欲」かつ「平和的（非攻撃的）」の低い分隊が、交易のためにエリアを跨いで移動するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（強欲・攻撃性の低さ）、サービスNPC、非敵対、戦術、Hull（判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_money_harvest_tag">
     <text>発生原因: 資金稼ぎ（アーティファクト）\n概要: 分隊がアーティファクトを回収するためにアノマリー地帯へ向かいます。\n判定基準: 無線範囲内、日中、利己的なストーカー、性格（強欲・洞察力）、アノマリー、非敵対状態、戦術、Hull（判定リミッター）</text>
@@ -568,6 +571,9 @@
   </string>
   <string id="ui_mcm_ap_causes_needs_social_base_tag">
     <text>発生原因: 交流（拠点）\n概要: 分隊が休息のために拠点へ戻ります。\n判定基準: 無線範囲内、信念を持つストーカー、性格（友好度・縄張り意識）、拠点、非敵対状態、戦術、Hull（判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_social_offmap_tag">
+    <text>発生原因: 交流（エリア外）\n概要: 休息のために他マップにある拠点へと移動します。平和的かつ社交的な勢力の分隊が他エリアのキャンプを訪問するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（友好度・攻撃性の低さ）、拠点、非敵対、戦術、Hull（判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold">
     <text>空腹イベントの発生間隔</text>
@@ -708,11 +714,17 @@
   <string id="ui_mcm_ap_causes_needs_cause_social_base_enabled_desc">
     <text>NPCが休息や交流のために拠点へ戻るイベントの発生を許可します。</text>
   </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_offmap_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_social_offmap_enabled_desc">
+    <text>NPCが休息や交流のために他マップの拠点を訪れるようになります。主に平和的で社交的な勢力の分隊が、エリアを跨いで他勢力のキャンプを訪問する確率が上がります。</text>
+  </string>
   <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled">
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled_desc">
-    <text>NPCが物資を求めて他マップのトレーダーを訪問するようになります。主に「強欲」かつ「縄張り意識」の低い分隊が、遠方のエリアまで交易に出向くようになります。</text>
+    <text>NPCが物資を求めて他マップのトレーダーを訪問するようになります。主に「強欲」かつ「平和的」な分隊が、遠方のエリアまで交易に出向くようになります。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_job_explore_offmap_enabled">
     <text>有効化</text>
@@ -869,7 +881,7 @@
     <text>スタッシュ: 略奪</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_tag">
-    <text>概要: 分隊が特定のアイテム（PDA、医療キット、包帯、薬類、グレネードなど）を優先的に回収し、それ以外を整理・破棄します。クラフト用アイテムが含まれるスタッシュは、プレイヤーの資源を保護するために略奪の対象から除外されます。\n原因: スタッシュの略奪</text>
+    <text>概要: 分隊がスタッシュから特定のカテゴリに該当するアイテム（装備中の武器に合う弾薬、医療キット、包帯、食料、飲料、放射能除去剤、グレネード）を優先的に回収します。タスク用アイテムが含まれるスタッシュは対象から除外されます。また、MCMの設定により、クラフト用アイテムが含まれるスタッシュを除外することも可能です。\n原因: スタッシュの略奪</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled">
     <text>有効化</text>
@@ -883,18 +895,6 @@
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
-  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_min_items">
-    <text>最小回収アイテム数</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_min_items_desc">
-    <text>分隊がスタッシュから回収するアイテムの最小数を設定します。</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_max_items">
-    <text>最大回収アイテム数</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_max_items_desc">
-    <text>分隊がスタッシュから回収するアイテムの最大数を設定します。</text>
-  </string>
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting">
     <text>クラフト素材を含むスタッシュを保護する</text>
   </string>
@@ -906,7 +906,7 @@
     <text>スタッシュ: 補充</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_fill_tag">
-    <text>概要: 分隊が余剰の特定アイテム（PDA、医療キット、包帯、薬類、グレネードなど）をスタッシュに蓄えるようになります。\n原因: スタッシュへの補充</text>
+    <text>概要: 分隊が所持している消耗品などのうち、各カテゴリの規定数を超えた余剰分をスタッシュに蓄えるようになります。一度の補充アクションで移動されるアイテム数には、イベントごとの上限が設定されています。\n原因: スタッシュへの補充</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_enabled">
     <text>有効化</text>
@@ -919,18 +919,6 @@
   </string>
   <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items">
-    <text>最小アイテム数</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_min_items_desc">
-    <text>NPCがスタッシュに隠すアイテムの最小数を設定します。</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items">
-    <text>最大アイテム数</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_stash_fill_consequence_stash_fill_max_items_desc">
-    <text>NPCがスタッシュに隠すアイテムの最大数を設定します。</text>
   </string>
   <!-- ==================== CONSEQUENCES / SQUADKILL REVENGE ==================== -->
   <string id="ui_mcm_ap_consequences_squadkill_revenge_title">
@@ -1176,12 +1164,6 @@
   <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
-  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled">
-    <text>到着時のアクション</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_hunger_campfire_consequence_hunger_campfire_arrive_action_enabled_desc">
-    <text>目的地に到着したNPCが、インベントリからパンやソーセージ、缶詰、ウォッカ、ビールなどの食料を実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
-  </string>
   <!-- ==================== CONSEQUENCES / SLEEP CAMPFIRE ==================== -->
   <string id="ui_mcm_ap_consequences_sleep_campfire_title">
     <text>睡眠: 焚き火</text>
@@ -1220,12 +1202,6 @@
   <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
-  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled">
-    <text>到着時のアクション</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_rest_campfire_consequence_rest_campfire_arrive_action_enabled_desc">
-    <text>目的地に到着したNPCが、インベントリからタバコやウォッカ、ビールを実際に消費するようになります。消費されたアイテムはインベントリから削除されます。</text>
-  </string>
   <!-- ==================== CONSEQUENCES / HEAL SHELTER ==================== -->
   <string id="ui_mcm_ap_consequences_heal_shelter_title">
     <text>治療: 退避</text>
@@ -1244,12 +1220,6 @@
   </string>
   <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled">
-    <text>到着時のアクション</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_arrive_action_enabled_desc">
-    <text>目的地に到着したNPCが、インベントリから救急箱や包帯、スティムパックを実際に使用するようになります。使用されたアイテムはインベントリから削除されます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / SHELTER ==================== -->
   <string id="ui_mcm_ap_consequences_shelter_indoor_title">
@@ -1332,7 +1302,7 @@
     <text>物資補給: トレーダー</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_tag">
-    <text>概要: 分隊がトレーダーを訪れ、戦利品を売却して資金を得ます。その後、装備している銃の弾薬や必需品（PDA、医療キット、包帯、薬類、グレネードなど）を買い足して補充します。\n原因: 補給（トレーダー）</text>
+    <text>概要: 分隊がトレーダーの元へ向かい、余剰品を売却して各自のランクに応じた装備基準に基づき物資を補充します。ルーキーは基本的な弾薬や救急キットを、ベテランはさらに高性能な弾薬やグレネードも買い足すようになります。\n原因: 補給（トレーダー）</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled">
     <text>有効化</text>
@@ -1350,13 +1320,7 @@
     <text>到着時のアクション</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled_desc">
-    <text>目的地での詳細な売買処理をシミュレートします。売却フェーズでは、装備中の武器、タスク用アイテム、現金、および一部の消耗品を除き、不要なアイテム（スロット外の予備の銃など）をすべて売却します。その後の購入フェーズで、装備している銃に対応する弾薬や消耗品を買い足し、インベントリを最適化します。</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_cash_cap">
-    <text>NPCの所持金上限 (RU)</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_cash_cap_desc">
-    <text>一連の取引完了後に、NPCが持ち出せる現金の最大値を設定します。この値を超えた余剰金はトレーダーへ送金され、個々のNPCが過剰な現金を持ち歩き続けないように制御されます。</text>
+    <text>到着時の売買処理を詳細にシミュレートします。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金には一切手を付けません。\n・購入: 所持数が最低基準を下回っているアイテムを補充します。弾薬は装備中の銃とランクに応じて選ばれ、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、一連の取引でNPCが得られる最終的な利益には上限（profit_max）が適用されます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / SUPPLY TRADER OFF-MAP ==================== -->
   <string id="ui_mcm_ap_consequences_supply_trader_offmap_title">
@@ -1381,7 +1345,7 @@
     <text>到着時のアクション</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_arrive_action_enabled_desc">
-    <text>エリア外の目的地に到着した際、NPCがアイテムの整理と補充を実際に行います。売却フェーズでは、現在装備中の武器やその弾薬、タスク用アイテム、必需品（医療キット、包帯など）を除いた不要なアイテム（スロット外の予備武器など）をすべて売却します。その後、装備している銃の弾薬や消耗品を買い足し、戦力状態を最適化します。</text>
+    <text>エリア外の目的地に到着した際、NPCが詳細な売買処理を行います。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金は売却されず保護されます。\n・購入: 所持数が最低基準を下回るアイテムを補充します。弾薬は装備中の銃とランクに応じて選択され、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、1回の取引でNPCが得られる純利益には上限（profit_max）が適用されます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / JOB OUTPOST ==================== -->
   <string id="ui_mcm_ap_consequences_job_outpost_title">
@@ -1401,12 +1365,6 @@
   </string>
   <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled">
-    <text>到着時のアクション</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_arrive_action_enabled_desc">
-    <text>目的地に到着したNPCが、警備中にインベントリ内のタバコを吸うようになります。この際、アイテムは実際に消費されます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / JOB EXPLORE ==================== -->
   <string id="ui_mcm_ap_consequences_job_explore_title">
@@ -1485,12 +1443,6 @@
   <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
-  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled">
-    <text>到着時のアクション</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_social_campfire_consequence_social_campfire_arrive_action_enabled_desc">
-    <text>目的地に到着したNPCが、焚き火の周りでインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
-  </string>
   <!-- ==================== CONSEQUENCES / SOCIAL BASE ==================== -->
   <string id="ui_mcm_ap_consequences_social_base_title">
     <text>交流: 拠点</text>
@@ -1510,11 +1462,24 @@
   <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
-  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled">
-    <text>到着時のアクション</text>
+<!-- ==================== CONSEQUENCES / SOCIAL OFF-MAP ==================== -->
+  <string id="ui_mcm_ap_consequences_social_offmap_title">
+    <text>交流: エリア外</text>
   </string>
-  <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_arrive_action_enabled_desc">
-    <text>目的地に到着したNPCが、拠点でインベントリ内のタバコや飲み物を消費してくつろぐようになります。この際、アイテムは実際に消費されます。</text>
+  <string id="ui_mcm_ap_consequences_social_offmap_tag">
+    <text>概要: 休息のため、分隊が他マップにある拠点へと移動します。\n原因: 交流（エリア外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_enabled">
+    <text>有効</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_enabled_desc">
+    <text>現在のマップ内に利用可能な拠点が無い場合、ストーカーが休息を求めて他マップの拠点へと遠征するようになります。ミリタリー、モノリス、ゾンビ化ストーカーはこの挙動の対象外です。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
   <!-- ==================== MUTATORS / AREA CONQUEST ==================== -->
   <string id="ui_mcm_ap_mutators_conquest_title">
@@ -1667,6 +1632,15 @@
   </string>
   <string id="ui_mcm_ap_development_btn_reset_all_desc">
     <text>すべてのAlifePlus設定を初期値に戻します。変更は即座に反映されますが、スライダーの表示を更新するにはMCMを一度閉じてから再度開く必要があります。設定をテストした後や、デフォルト値が調整された新バージョンへアップデートした際に便利です。</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_stateless">
+    <text>すべてデフォルトにリセット（一部機能を無効化）</text>
+  </string>
+  <string id="ui_mcm_ap_development_btn_reset_stateless_desc">
+    <text>すべてのAlifePlus設定を初期値に戻した上で、インベントリ・取引・スポーンなどの世界に直接介入する機能（NPCの売買やアイテム消費、スタッシュの補充・略奪、拠点の占拠など）を無効化します。</text>
+  </string>
+  <string id="ui_mcm_ap_development_reset_warning">
+    <text>注意: リセットを実行する前に、現在変更中のMCM設定を保存するか破棄してください。未確定の変更がある状態で「適用」を押すと、リセットされた内容が現在の編集内容で上書きされてしまいます。</text>
   </string>
   <string id="ui_mcm_ap_development_desc">
     <text>デバッグおよび開発用の設定です。ログレベルを「デバッグ」にすると、トレースやパフォーマンス計測、詳細なログ出力が有効になります。また、デバッグマーカーを有効にすると、PDAマップ上に分隊の目的地が表示されます。</text>

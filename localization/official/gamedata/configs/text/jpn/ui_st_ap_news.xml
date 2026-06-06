@@ -633,7 +633,7 @@
   </string>
   <!-- social_base (SINGLE STALKER need: base social) -->
   <string id="st_ap_news_tpl_social_base_001">
-    <text>#ago#、給料日を迎えた#subject_faction#の連中が飲み始めたらしい。
+    <text>#ago#、報酬を受け取った#subject_faction#の連中が一杯やり始めたらしいぜ。
 \n#location#でウォッカの瓶を開けたって話だ。</text>
   </string>
   <string id="st_ap_news_tpl_social_base_002">
@@ -645,12 +645,12 @@
 \n#location#でウォッカを浴びるように飲んで、もうカード遊びまで始まってたぜ。</text>
   </string>
   <string id="st_ap_news_tpl_social_base_004">
-    <text>#ago#に聞こえてきた音楽からして、#subject_faction#は給料日の夜を満喫してるみたいだな。
-\n連中は#location#でウォッカを片手に騒いでるらしい。</text>
+    <text>#subject_faction#の連中は受け取った報酬で夜を満喫してるみたいだな。#ago#から音楽が聞こえてくる。
+\n#location#でウォッカ片手に大騒ぎしてるって話だ。</text>
   </string>
   <string id="st_ap_news_tpl_social_base_005">
-    <text>#ago#、#subject_name#が#subject_faction#の分隊を連れて宴会を始めたらしい。
-\n#location#で給料日のどんちゃん騒ぎをやってたそうだ。</text>
+    <text>#ago#、#subject_name#が#subject_faction#の分隊を連れて酒盛りを始めたらしい。
+\n#location#で、報酬祝いのどんちゃん騒ぎをやってたそうだ。</text>
   </string>
   <!-- feed (SINGLE MUTANT instinct) -->
   <string id="st_ap_news_tpl_feed_001">
@@ -815,6 +815,48 @@
     <text>#ago#、#location#がミュータントの群れに占拠された。
 \n#subject_species#の巣になってるらしいぞ。</text>
   </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_001">
+    <text>#ago#、#subject_faction#の連中が#location#に移動したらしい。
+\nまだ誰の手にも渡ってないエリアを探してうろついてたそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_002">
+    <text>#ago#、#subject_faction#の連中が地図を片手にエリアの外へ出ていくのを見たよ。
+\n#location#近辺にある未開拓エリアについて話してたな。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_003">
+    <text>#ago#、#subject_faction#の連中が#location#へ向かうのを見た。
+\nまだ誰も確保していないエリアを探してるらしい。地図に空白があるって話をしてたよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_004">
+    <text>足跡を見るに、#subject_faction#は#ago#の夜明けにエリア外へ出たみたいだな。
+\n連中の縄張りはもう何年も前に調査済みで、今度は未踏の場所を探しているようだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_job_explore_offmap_005">
+    <text>#ago#、#subject_name#が#location#へ向かった。
+\n#subject_faction#の連中を引き連れてたな。まだ誰も手をつけていないエリアを記録するらしいぜ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_001">
+    <text>#ago#、#subject_faction#の連中が#location#へ向かったらしい。
+\nあそこの酒場で一杯やるために、わざわざ遠征するそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_002">
+    <text>#ago#、#subject_faction#の連中が酒瓶をぶら下げて出ていくのを見たぜ。どうも拠点が退屈らしくてな。
+\n気の合う仲間を探しに、#location#まで繰り出すんだとさ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_003">
+    <text>#ago#、#location#に#subject_faction#がやって来た。
+\n二日がかりで歩いて、道中ではミュータントとやり合う寸前までいったらしい。
+\nそこまでして来た目当てが、まさか酒とカード遊びだったとはね。あの連中、上機嫌で帰っていったよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_004">
+    <text>#subject_faction#の連中が#location#へ向かったみたいだな。
+\n#ago#の足跡が残ってる。軽装で出ていったようだし、ちょっとした息抜きのつもりだろう。</text>
+  </string>
+  <string id="st_ap_news_tpl_social_offmap_005">
+    <text>#ago#、#subject_faction#が#location#へ向かったらしい。
+\n連中を引き連れていたのは#subject_name#だ。
+\nデカい報酬が入ったもんだから、夜になって連中まとめて飲みに繰り出したそうだ。</text>
+  </string>
   <string id="st_ap_news_tpl_supply_trader_offmap_001">
     <text>#ago#、#subject_faction#の連中が#location#へ向かったそうだ。
 \nあそこのカウンターで、バッグの中身を売り払ってたらしいぜ。</text>
@@ -835,25 +877,5 @@
   <string id="st_ap_news_tpl_supply_trader_offmap_005">
     <text>#ago#、#subject_name#が#subject_faction#の連中を連れて拠点へ向かったらしい。
 \n#location#にいるトレーダーに、戦利品を持ち込んだそうだ。</text>
-  </string>
-  <string id="st_ap_news_tpl_job_explore_offmap_001">
-    <text>#ago#、#subject_faction#の連中が#location#に移動したらしい。
-\nまだ誰の手にも渡ってないエリアを探してうろついてたそうだ。</text>
-  </string>
-  <string id="st_ap_news_tpl_job_explore_offmap_002">
-    <text>#ago#、#subject_faction#の連中が地図を片手にエリアの外へ出ていくのを見たよ。
-\n#location#近辺にある未開拓エリアについて話してたな。</text>
-  </string>
-  <string id="st_ap_news_tpl_job_explore_offmap_003">
-    <text>#ago#、#subject_faction#の連中が#location#へ向かうのを見た。
-\nまだ誰も確保していないエリアを探してるらしい。地図に空白があるって話をしてたよ。</text>
-  </string>
-  <string id="st_ap_news_tpl_job_explore_offmap_004">
-    <text>足跡を見るに、#subject_faction#は#ago#の夜明けにエリア外へ出たみたいだな。
-\n連中の縄張りはもう何年も前に調査済みで、今度は未踏の場所を探しているようだ。</text>
-  </string>
-  <string id="st_ap_news_tpl_job_explore_offmap_005">
-    <text>#ago#、#subject_name#が#location#へ向かった。
-\n#subject_faction#の連中を引き連れてたな。まだ誰も手をつけていないエリアを記録するらしいぜ。</text>
   </string>
 </string_table>
