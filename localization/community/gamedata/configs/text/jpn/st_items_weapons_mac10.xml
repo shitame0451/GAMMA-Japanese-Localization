@@ -12,14 +12,14 @@
 	</string>
 	
 	<string id="st_mag_mac10_9x19_standard">
-		<text>MAC-10用32連マガジン（9x19）</text>
+		<text>MAC-10用マガジン（9x19）</text>
 	</string>
 	<string id="st_mag_mac10_9x19_standard_descr">
 		<text> </text>
 	</string>
 	
 	<string id="st_mag_mac10_9x19_ext">
-		<text>MAC-10用50連マガジン（9x19）</text>
+		<text>MAC-10用マガジン（9x19）</text>
 	</string>
 	<string id="st_mag_mac10_9x19_ext_descr">
 		<text> </text>

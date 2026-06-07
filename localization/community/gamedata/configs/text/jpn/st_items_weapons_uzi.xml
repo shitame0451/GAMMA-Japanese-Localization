@@ -44,38 +44,38 @@
 
 
 	<string id="st_mag_uzi_9x19">
-		<text>Uzi用20連マガジン（9x19）</text>
+		<text>Uzi用マガジン（9x19）</text>
 	</string>
 	<string id="st_mag_uzi_9x19_s">
-		<text>Uzi用20連マガジン（9x19）</text>
+		<text>Uzi用マガジン（9x19）</text>
 	</string>
 	<string id="st_mag_uzi_9x19_descr">
 		<text> </text>
 	</string>
 	<string id="st_mag_uzi_9x19_extended">
-		<text>Uzi用32連マガジン（9x19）</text>
+		<text>Uzi用マガジン（9x19）</text>
 	</string>
 	<string id="st_mag_uzi_9x19_extended_s">
-		<text>Uzi用32連マガジン（9x19）</text>
+		<text>Uzi用マガジン（9x19）</text>
 	</string>
 	<string id="st_mag_uzi_9x19_extended_descr">
 		<text> </text>
 	</string>
 	
 	<string id="st_mag_uzi_11.43x23">
-		<text>Uzi用12連マガジン（.45 ACP）</text>
+		<text>Uzi用マガジン（.45 ACP）</text>
 	</string>
 	<string id="st_mag_uzi_11.43x23_s">
-		<text>Uzi用12連マガジン（.45 ACP）</text>
+		<text>Uzi用マガジン（.45 ACP）</text>
 	</string>
 	<string id="st_mag_uzi_11.43x23_descr">
 		<text> </text>
 	</string>
 	<string id="st_mag_uzi_11.43x23_extended">
-		<text>Uzi用16連マガジン（.45 ACP）</text>
+		<text>Uzi用マガジン（.45 ACP）</text>
 	</string>
 	<string id="st_mag_uzi_11.43x23_extended_s">
-		<text>Uzi用16連マガジン（.45 ACP）</text>
+		<text>Uzi用マガジン（.45 ACP）</text>
 	</string>
 	<string id="st_mag_uzi_11.43x23_extended_descr">
 		<text> </text>

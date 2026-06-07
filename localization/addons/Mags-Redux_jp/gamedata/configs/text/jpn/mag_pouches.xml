@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+	<string id="st_af_magpouch_s_name">
+		<text>小型マガジンポーチ</text>
+	</string>
+	<string id="st_af_magpouch_s_descr">
+		<text>軽量かつ折り畳み可能なマガジンポーチ。スクアドラ・ラミネート材と厚手のポリエチレン素材を使用しており、スムーズなマガジンの抜き差しが可能。\n \n</text>
+	</string>
+
+	<string id="st_af_magpouch_m_name">
+		<text>中型マガジンポーチ</text>
+	</string>
+	<string id="st_af_magpouch_m_descr">
+		<text>プレートキャリアにフックで固定するマガジンポーチ。様々なサイズのマガジンを保持できるよう設計されている。\n \n</text>
+	</string>
+
+	<string id="st_af_magpouch_l_name">
+		<text>大型マガジンポーチ</text>
+	</string>
+	<string id="st_af_magpouch_l_descr">
+		<text>優れたフィット感と素早い取り出しを両立した、汎用性の高い多口径対応マガジンポーチ。内部のラバー加工がマガジンをしっかりと保持するため、外部から過度なテンションをかける必要がない。\n \n</text>
+	</string>
+</string_table>

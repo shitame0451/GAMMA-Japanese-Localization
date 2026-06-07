@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <string_table>
-    <string id="mag_kriss45">
+	<string id="st_speed_shotgun">
+		<text>ショットガン用サイドサドル</text>
+	</string>
+	<string id="st_speed_shotgun_desc">
+		<text>ショットガンシェル保持用のサイドサドル。マガジンを使用しない銃のリロード速度を向上させる。</text>
+	</string>
+
+	<string id="st_speed_rifle">
+		<text>ライフル用サイドサドル</text>
+	</string>
+	<string id="st_speed_rifle_desc">
+		<text>ライフル弾保持用のサイドサドル。マガジンを使用しない銃のリロード速度を向上させる。</text>
+	</string>
+
+	<string id="st_speed_loader_attached">
+		<text>サイドサドル装着済み</text>
+	</string>
+
+	<string id="st_install_speed_loader">
+		<text>サイドサドルを取り付ける</text>
+	</string>
+
+	<string id="st_remove_speed_loader">
+		<text>サイドサドルを外す</text>
+	</string>
+
+	<string id="st_pouch_in">
+		<text>装備中のポーチ</text>
+	</string>
+
+	<string id="st_install_pouch">
+		<text>マガジンポーチを取り付ける</text>
+	</string>
+
+	<string id="st_remove_pouch">
+		<text>マガジンポーチを外す</text>
+	</string>
+
+	<string id="st_jam_chance_increase">
+		<text>ジャム発生率の増加:</text>
+	</string>
+
+	<string id="st_mag_compatible_mags">
+		<text>対応マガジン</text>
+	</string>
+
+	<string id="mag_kriss45">
 		<text>Vector用マガジン（.45 ACP）</text>
 	</string>
 	<string id="mag_kriss45_descr">
@@ -27,5 +73,79 @@
 	</string>
 	<string id="ext_mag_kriss9_drum_descr">
 		<text> </text>
+	</string>
+
+	<string id="st_mag_pmm_9x18_fmj">
+		<text>PM用拡張マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_pmm_9x18_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_beretta_9x19_fmj">
+		<text>Beretta 92F用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_beretta_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppp_px4_9x19_fmj">
+		<text>PX4用マガジン（9x19）</text>
+	</string>
+	<string id="st_mag_ppp_px4_9x19_fmj_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_remingtonla_300">
+		<text>Remington 700用マガジン（.300）</text>
+	</string>
+	<string id="st_mag_remingtonla_300_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ar15_762x39">
+		<text>STANAGマガジン（7.62x39）</text>
+	</string>
+	<string id="st_mag_ar15_762x39_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppsh41_7.62x25_p">
+		<text>PPSh41用ドラムマガジン（7.62x25）</text>
+	</string>
+	<string id="st_mag_ppsh41_7.62x25_p_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_ppsh41_7.62x25_stick">
+		<text>PPSh41用スティックマガジン（7.62x25）</text>
+	</string>
+	<string id="st_mag_ppsh41_7.62x25_stick_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_stanag_short">
+		<text>ショートマガジン（5.56x45）</text>
+	</string>
+	<string id="st_mag_stanag_short_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_nato_5.45x39_short">
+		<text>改造ショートマガジン（5.45x39）</text>
+	</string>
+	<string id="st_mag_nato_5.45x39_short_descr">
+		<text> </text>
+	</string>
+	<string id="ui_mcm_magazines_rant">
+	<text>以下のオプションの挙動について:\n\n
+	無効時: リロードで排出されたマガジンをポーチに維持するには、そのマガジンのサイズに対応した空きスロットが必要です。適切な空きスロットがない場合、マガジンはインベントリへと戻されます。\n\n
+	有効時: マガジンポーチに適切な空きスロットがない場合でも、マガジンは自動的にインベントリと銃の間で循環し、装備枠に空きがあるかのようにリロードを継続できます。</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_three_hands">
+			<text>空きスロット不足時でもマガジンをポーチに維持する</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_three_hands_desc">
+			<text>リロード時に排出されたマガジンをインベントリへ戻さず、常に装備枠内で循環させたい場合に有効です。</text>
 	</string>
 </string_table>

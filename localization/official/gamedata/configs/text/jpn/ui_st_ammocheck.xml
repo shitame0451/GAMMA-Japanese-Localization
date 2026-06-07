@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <string_table>
-
-<!--
-    AMMO_CHECK MESSAGES
--->
-
+    <!-- Ammo_Check Messages -->
     <string id="st_ac_overfull">
         <text>過度に詰め込まれている</text>
     </string>
@@ -14,6 +9,12 @@
     </string>
     <string id="st_ac_oitc">
         <text>残り1発</text>
+    </string>
+    <string id="st_ac_empty_mag_oitc">
+        <text>残弾なし 薬室内に1発あり</text>
+    </string>
+    <string id="st_ac_no_mag_oitc">
+        <text>マガジンが入っていない 薬室内に1発あり</text>
     </string>
     <string id="st_ac_just_one">
         <text>残り1発</text>
@@ -48,41 +49,371 @@
     <string id="st_ac_grenade">
         <text>グレネード弾装填済み</text>
     </string>
+    <string id="st_ac_loaded">
+        <text>装填済み</text>
+    </string>
     <string id="st_ac_noAmmo">
         <text>これは弾薬を必要としない</text>
     </string>
     <string id="st_ac_ammoLeft">
         <text>残り</text>
     </string>
+    <string id="st_ac_magsredux_update">
+        <text>旧バージョンのMagsReduxを使用しています。最高のプレイ体験を得るために、GitHubから最新版へのアップデートを推奨します。</text>
+    </string>
+
+    <!-- MCM Menu Header -->
     <string id="ui_mcm_menu_rax_ammo_check">
         <text>Ammo Check</text>
     </string>
     <string id="ui_mm_title_rax_ammo_check">
         <text>Ammo Check</text>
     </string>
+
+<!-- Section Titles -->
+    <string id="ui_mcm_rax_ammo_check_title_display">
+        <text>表示設定</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_title_hud">
+        <text>HUD設定</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_title_behavior">
+        <text>動作・挙動設定</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_title_anim">
+        <text>アニメーション設定</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_title_keys">
+        <text>キー割り当て設定</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_title_debug">
+        <text>デバッグ設定</text>
+    </string>
+
+    <!-- Display Settings -->
+    <string id="ui_mcm_rax_ammo_check_show_message">
+        <text>残弾情報のメッセージを表示</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_show_message_desc">
+        <text>確認後に画面上に残弾ステータスを表示するかどうかを切り替えます。オフにすると、メッセージを表示せず武器の動作（アニメーション）のみで判断することになります。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_hide_msg_on_inspect">
+        <text>点検動作中はメッセージを表示しない</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_hide_msg_on_inspect_desc">
+        <text>有効にすると、専用のマガジン点検動作（anm_ammo_check）がある武器に限り、メッセージを非表示にします。専用動作がない武器の代替アクション（リロード動作の流用など）中は、判別のために引き続きメッセージが表示されます。※「残弾情報のメッセージを表示」がオンである必要があります。</text>
+    </string>
     <string id="ui_mcm_rax_ammo_check_usecolor">
         <text>残弾表示に色を使用する</text>
     </string>
+    <string id="ui_mcm_rax_ammo_check_usecolor_desc">
+        <text>残弾数に応じてメッセージを色分けします（例: 少ない場合は赤、満載時は白など）。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_color_intensity">
+        <text>色の鮮やかさ</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_color_intensity_desc">
+        <text>色付きメッセージの輝度を調整します。値を低くすると、色がより暗く落ち着いたトーンになります。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_display_mode">
+        <text>表示形式</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_display_mode_desc">
+        <text>残弾数の表示方法を「テキスト（約半分、など）」「数値」「その両方」から選択します。</text>
+    </string>
+    <!-- Display Mode List Options -->
+    <string id="rax_ammo_check_display_mode_lst_dm_text">
+        <text>テキストのみ</text>
+    </string>
+    <string id="rax_ammo_check_display_mode_lst_dm_numeric">
+        <text>数値のみ</text>
+    </string>
+    <string id="rax_ammo_check_display_mode_lst_dm_both">
+        <text>テキスト + 数値</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_minimalist_bar">
+        <text>ミニマリスト・バー表示</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_minimalist_bar_desc">
+        <text>残弾情報をテキストや数値の代わりに、6段階のブロックバーで視覚的に表示します。残弾数だけでなく、薬室内の弾薬（+）、マガジン未装填（X______）、ジャム（X）、グレネード（o）といった特殊な状態も直感的に判別可能です。有効にすると「表示形式」の設定を上書きしますが、「残弾表示に色を使用する」設定はバーの配色に反映されます。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_custom_render">
+        <text>カスタム・テキスト表示 (HUDオーバーレイ)</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_custom_render_desc">
+        <text>残弾メッセージを専用のHUDオーバーレイとして描画します。フォントの種類、サイズ、表示位置を自由にカスタマイズできるほか、ドロップシャドウによって視認性が向上します。カラー表示、ミニマリスト・バー、弾種タグ、強調表示などの各機能とも併用可能です。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_font_family">
+        <text>使用フォント</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_font_family_desc">
+        <text>カスタム・テキスト表示で使用するフォントの種類を選択します。</text>
+    </string>
+    <string id="rax_ammo_check_render_font_family_lst_ff_graffiti">
+        <text>Graffiti</text>
+    </string>
+    <string id="rax_ammo_check_render_font_family_lst_ff_letterica">
+        <text>Letterica</text>
+    </string>
+    <string id="rax_ammo_check_render_font_family_lst_ff_system">
+        <text>システムフォント</text>
+    </string>
+    <string id="rax_ammo_check_render_font_family_lst_ff_letterica_pure">
+        <text>Letterica Pure</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_font_size">
+        <text>フォントサイズ</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_font_size_desc">
+        <text>カスタム・テキスト表示の文字の大きさを調整します。</text>
+    </string>
+    <string id="rax_ammo_check_render_font_size_lst_fs_small">
+        <text>小</text>
+    </string>
+    <string id="rax_ammo_check_render_font_size_lst_fs_medium">
+        <text>中</text>
+    </string>
+    <string id="rax_ammo_check_render_font_size_lst_fs_large">
+        <text>大</text>
+    </string>
+    <string id="rax_ammo_check_render_font_size_lst_fs_large_plus">
+        <text>大+</text>
+    </string>
+    <string id="rax_ammo_check_render_font_size_lst_fs_xlarge">
+        <text>特大</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_position">
+        <text>表示位置</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_position_desc">
+        <text>カスタム・テキスト表示を画面のどこに配置するかを選択します。</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_tl">
+        <text>左上</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_tr">
+        <text>右上</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_center">
+        <text>中央</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_bottom">
+        <text>中央下</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_cursor_left">
+        <text>照準の左側</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_cursor_top">
+        <text>照準の上側</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_cursor_right">
+        <text>照準の右側</text>
+    </string>
+    <string id="rax_ammo_check_render_position_lst_rp_cursor_bottom">
+        <text>照準の下側</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_cursor_gap">
+        <text>照準からの距離</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_render_cursor_gap_desc">
+        <text>表示位置で「照準の付近」を選択した際の、クロスヘアからメッセージまでの距離（ピクセル）を設定します。その他の位置設定には影響しません。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_show_ammo_type">
+        <text>弾種名を表示</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_show_ammo_type_desc">
+        <text>メッセージ内に「9x19 BP」や「5.45x39 PS」といった弾薬の名称を表示します。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_show_ammo_tag">
+        <text>弾種タグ（略称）を表示</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_show_ammo_tag_desc">
+        <text>メッセージの末尾に、(AP)、(HP)、(FMJ) などの弾薬特性を表すタグを付与します。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_highlight_ammo_mode">
+        <text>弾種の強調表示</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_highlight_ammo_mode_desc">
+        <text>弾種に基づいた色分け設定を行います。「なし」は残弾数に応じた色を使用します。「メッセージ全体」は弾種の色で全文を表示し、「行を分ける」は2行目に弾種タグを専用の色で表示します。「複合表示」はメインの残弾情報（テキストやバー）には残弾数に応じた色を適用し、弾種名やタグには弾種固有の色を個別に適用します。カスタム・テキスト表示が有効な場合は同一行に、無効な場合は2行に分けて表示されます。</text>
+    </string>
+    <!-- Highlight Ammo Mode List Options -->
+    <string id="rax_ammo_check_highlight_ammo_mode_lst_ham_none">
+        <text>なし</text>
+    </string>
+    <string id="rax_ammo_check_highlight_ammo_mode_lst_ham_whole">
+        <text>メッセージ全体</text>
+    </string>
+    <string id="rax_ammo_check_highlight_ammo_mode_lst_ham_separate">
+        <text>行を分ける</text>
+    </string>
+    <string id="rax_ammo_check_highlight_ammo_mode_lst_ham_combined">
+        <text>複合表示</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_msg_duration">
+        <text>メッセージの表示時間</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_msg_duration_desc">
+        <text>残弾ステータスのメッセージを画面上に表示し続ける時間（秒）を設定します。</text>
+    </string>
+
+    <!-- HUD Settings -->
     <string id="ui_mcm_rax_ammo_check_hidecounter">
-        <text>弾薬のカウンターを隠す</text>
+        <text>弾薬カウンターを非表示にする</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_hidecounter_desc">
+        <text>バニラのHUDに表示される弾数カウントを隠し、より没入感のあるプレイを提供します。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_hideicon">
-        <text>弾薬のアイコンを隠す</text>
+        <text>弾薬アイコンを非表示にする</text>
     </string>
-    <string id="ui_mcm_rax_ammo_check_busy_hands_fix">
-        <text>Busy Hands修正</text>
+    <string id="ui_mcm_rax_ammo_check_hideicon_desc">
+        <text>HUD上に表示される弾種のアイコンを隠します。</text>
     </string>
-    <string id="ui_mcm_rax_ammo_check_busy_hands_fix_desc">
-        <text>残弾確認のアニメーションが正常に動作しなくなった場合に、この項目を有効にしてください。FDDAがインストールされている環境で発生しやすい問題です。</text>
+
+    <!-- Behavior Settings -->
+    <string id="ui_mcm_rax_ammo_check_check_grenade_mode">
+        <text>グレネードランチャーの残弾確認を許可</text>
     </string>
+    <string id="ui_mcm_rax_ammo_check_check_grenade_mode_desc">
+        <text>武器に装着されたアンダーバレル・グレネードランチャーの使用中も、残弾確認を行えるようにします。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_auto_check_reload">
+        <text>リロード後に自動で確認する</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_auto_check_reload_desc">
+        <text>リロード完了直後、自動的に残弾ステータスのメッセージを画面に表示します。</text>
+    </string>
+
+    <!-- Animation Settings -->
+    <string id="ui_mcm_rax_ammo_check_enable_animations">
+        <text>アニメーションを有効にする</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_enable_animations_desc">
+        <text>全アニメーション機能のマスタースイッチです。オフにすると、武器の動作を伴わずメッセージ表示のみが行われます。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_anim_mode">
+        <text>代替マガジン点検アクション</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_anim_mode_desc">
+        <text>専用の点検動作を持たない武器において、どのアクションを身代わりにするか設定します。「デフォルト」は武器の出し入れ、「武器を下げる」は一瞬銃口を下げます。「擬似リロード」はマガジン式ならリロード動作を、固定内蔵式なら特殊な動作を流用します。</text>
+    </string>
+    <!-- Animation Mode List Options -->
+    <string id="rax_ammo_check_anim_mode_lst_anim_mode_default">
+        <text>デフォルト（武器の出し入れ）</text>
+    </string>
+    <string id="rax_ammo_check_anim_mode_lst_anim_mode_lower">
+        <text>武器を下げる</text>
+    </string>
+    <string id="rax_ammo_check_anim_mode_lst_anim_mode_fake_reload">
+        <text>擬似リロード</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_no_magazine_fallback">
+        <text>マガジン未装填時の代替アクション</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_no_magazine_fallback_desc">
+        <text>擬似リロード設定中、かつマガジンが装填されていない場合のアクションを選択します（着脱式マガジン銃のみ）。「なし」はメッセージのみ表示されます。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_fallback">
+        <text>固定内蔵マガジンの代替アクション</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_fallback_desc">
+        <text>擬似リロード設定中、ショットガンやリボルバーなどの固定内蔵式マガジンを持つ武器で、特殊リストに含まれない場合の動作を設定します。</text>
+    </string>
+    <string id="rax_ammo_check_no_magazine_fallback_lst_fallback_hide_show">
+        <text>武器の出し入れ</text>
+    </string>
+    <string id="rax_ammo_check_no_magazine_fallback_lst_fallback_lower">
+        <text>武器を下げる</text>
+    </string>
+    <string id="rax_ammo_check_no_magazine_fallback_lst_fallback_none">
+        <text>なし（メッセージのみ）</text>
+    </string>
+    <string id="rax_ammo_check_fake_reload_fallback_lst_fallback_hide_show">
+        <text>武器の出し入れ</text>
+    </string>
+    <string id="rax_ammo_check_fake_reload_fallback_lst_fallback_lower">
+        <text>武器を下げる</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_empty_mag_fallback">
+        <text>空マガジン時の代替アクション</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_empty_mag_fallback_desc">
+        <text>マガジンが空の状態で行う動作を選択します。「リロード動作」は実際に装填はせず動作のみ再生し、「特殊待機」は銃を眺めるなどの動作を試みます。「武器を下げる」は一瞬銃口を下げます。</text>
+    </string>
+    <string id="rax_ammo_check_empty_mag_fallback_lst_empty_mag_reload_anim">
+        <text>リロード動作</text>
+    </string>
+    <string id="rax_ammo_check_empty_mag_fallback_lst_empty_mag_animate">
+        <text>特殊待機（anm_bore / idle）</text>
+    </string>
+    <string id="rax_ammo_check_empty_mag_fallback_lst_empty_mag_lower">
+        <text>武器を下げる</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_treat_one_chamber_as_non_empty">
+        <text>薬室内に1発ある場合は「空」と見なさない</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_treat_one_chamber_as_non_empty_desc">
+        <text>オフ（デフォルト）の場合、マガジンが空で薬室内にのみ弾がある際は「マガジンが空である」ことを示す専用動作を優先します。オンにすると、総弾数が1発以上あれば通常の点検動作を再生します。※専用の空マガジン点検動作が設定されている武器にのみ影響します。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_bolt_cycle">
+        <text>ボルトアクション: ボルト操作を再生</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_bolt_cycle_desc">
+        <text>Kar98やMosinなどの固定内蔵式ボルトアクションライフルにおいて、代替動作の代わりにボルトの開閉動作を再生します。着脱式マガジンモデルは下のオプションで設定可能です。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_force_bolt_cycle_external_mag">
+        <text>着脱式ライフルでもボルト操作を強制する</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_force_bolt_cycle_external_mag_desc">
+        <text>L96A1やRemington 700などの着脱式マガジンを持つボルトアクション銃でも、擬似リロードの代わりにボルトの開閉動作を再生させます。マガジン形式に関わらず、ボルト操作による確認を好む場合に有効です。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_bolt_eject">
+        <text>ボルトアクション: 実弾の排出をシミュレート</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_bolt_eject_desc">
+        <text>現実と同様、ボルトを引いた際に薬室内の弾薬が1発排出され、インベントリに戻されるようになります。※「ボルト操作を再生」が有効である必要があります。一部未対応の武器があります。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_pump_rack">
+        <text>ポンプアクション: スライド操作を再生</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_pump_rack_desc">
+        <text>Remington 870などのポンプアクション式ショットガンにおいて、代替動作の代わりにスライドの前後動作を再生します。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_pump_eject">
+        <text>ポンプアクション: シェルの排出をシミュレート</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_pump_eject_desc">
+        <text>スライドを引いた際、装填されているシェルを1発排出し、インベントリに戻します。※「スライド操作を再生」が有効である必要があります。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_ignore_list">
+        <text>特定の武器で擬似リロードを無効化</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_fake_reload_ignore_list_desc">
+        <text>アニメーションに不具合がある、または没入感を損なう特定の武器を擬似リロードの対象外（ブラックリスト）にします。対象の武器は代替アクションを使用します。リストの編集は ammo_check_weapons.script から行えます。</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_busy_hands_delay">
+        <text>メッセージの表示遅延</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_busy_hands_delay_desc">
+        <text>アニメーション開始からメッセージが表示されるまでの待機時間（秒）を設定します。</text>
+    </string>
+
+    <!-- Keybind Settings -->
     <string id="ui_mcm_rax_ammo_check_keybind">
         <text>残弾を確認する（Ammo Check）</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_keybind_desc">
-        <text>他のキーとの競合を避けるため、このキー設定には追加の修飾キーを組み合わせることができます。</text>
+        <text>残弾を確認するためのキーを設定します。修飾キーとの組み合わせも可能です。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_update_mcm">
-        <text>MCMを更新後、ここでキー設定を変更してください。デフォルトではTキーに割り当てられています。</text>
+        <text>MCMを更新した後、ここでキー設定を変更してください。デフォルトではTキーに割り当てられています。</text>
     </string>
 
+    <!-- Debug Settings -->
+    <string id="ui_mcm_rax_ammo_check_debug_mode">
+        <text>デバッグモード</text>
+    </string>
+    <string id="ui_mcm_rax_ammo_check_debug_mode_desc">
+        <text>アニメーションのテスト用モードを有効にします。オンにすると、テンキー 0-9 で武器の状態をテストでき、テンキー [*] でアニメーションの一覧を確認できます。ボルト操作などをトリガーする状態の特定に役立ちます。</text>
+    </string>
 </string_table>

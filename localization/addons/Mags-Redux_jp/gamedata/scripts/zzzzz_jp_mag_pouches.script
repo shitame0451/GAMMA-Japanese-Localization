@@ -1,0 +1,25 @@
+-- mag_pouches.script
+
+if mag_pouches then
+	-- ===================================================================
+	--  mag_pouches.ui_item.build_desc_footer （ポーチのアイテムチップ）
+	--  ui_item.scriptのbuild_desc_footerがオリジナル
+	-- ===================================================================
+	local original_build_desc_footer = ui_item.build_desc_footer
+
+	ui_item.build_desc_footer = function(obj, sec, str)
+		local text = original_build_desc_footer(obj, sec, str)
+
+		if obj and ini_sys:r_string_ex(obj:section(), "use1_functor") == "mag_pouches.precond_install" then
+			text = text:gsub(
+				"(%%c%[255,238,153,26%].-%s*%%c%[255,140,140,140%] %%c%[pda_white%]修理ボーナス:)",
+				"%%c[0,255,255,255] 特性:\\n  %%c[255,238,153,26]• %%c[pda_white]マガジンポーチは1つのみ装備可能\\n%1",
+				1
+			)
+
+			--printf("[JP Patch]\n%s", text)
+		end
+
+		return text
+	end
+end

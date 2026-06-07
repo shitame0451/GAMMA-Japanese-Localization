@@ -1,0 +1,25 @@
+-- speed_loaders.script
+
+if speed_loaders then
+	-- ===================================================================
+	--  speed_loaders.ui_item.build_desc_header （スピードローダー装着情報）
+	--  ui_item.scriptのbuild_desc_headerがオリジナル
+	-- ===================================================================
+	local original_build_desc_header = ui_item.build_desc_header
+
+	ui_item.build_desc_header = function(obj, sec, str)
+		local text = original_build_desc_header(obj, sec, str)
+
+		if obj and IsWeapon(obj) then
+			-- スピードローダー装着時のテキスト表示の改行調整
+			text = text:gsub(
+				"\\n\\n  (%%c%[[^%]]-%]• " .. game.translate_string("st_speed_loader_attached") .. ")\\n \\n$",
+				"\\n  %1\\n"
+			)
+
+			--printf("[JP Patch]\n%s", text)
+		end
+
+		return text
+	end
+end

@@ -2,10 +2,7 @@
 
 <string_table>
 
-<!--
-	UI
--->
-
+	<!--COMMON-->
 	<string id="st_mag_weapon_jammed">
 		<text>弾詰まりが発生</text>
 	</string>
@@ -16,117 +13,20 @@
 		<text>弾を抜く</text>
 	</string>
 	<string id="st_mag_loadout_remove">
-		<text>マガジンポーチから取り出す</text>
+		<text>リグ／ポーチから取り出す</text>
 	</string>
 	<string id="st_mag_loadout_add">
-		<text>マガジンポーチに入れる</text>
+		<text>リグ／ポーチに入れる</text>
 	</string>
+
 	<string id="st_mag_retool">
 		<text>マガジンを改造する</text>
 	</string>
+	
 	<string id="st_mag_err_retool">
 		<text>マガジンに弾が入っていると改造できない</text>
 	</string>
-
-	<string id="st_dot">
-		<text>•</text>
-	</string>
-	<string id="st_mag_bonus">
-		<text>（スーツ: %s + バックパック: %s）<!--alt:> (%s + %s)<--></text>
-	</string>
-	<string id="st_mag_small">
-		<text>%c[pda_white]小型マガジン:%c[ui_gray_1]</text>
-	</string>
-	<string id="st_mag_medium">
-		<text>%c[pda_white]中型マガジン:%c[ui_gray_1]</text>
-	</string>
-	<string id="st_mag_large">
-		<text>%c[pda_white]大型マガジン:%c[ui_gray_1]</text>
-	</string>
-	<string id="st_mag_base">
-		<text>基礎マガジン</text>
-	</string>
-	<string id="st_mag_base_descr">
-		<text>基礎マガジン</text>
-	</string>
-	
-	<string id="st_mag_size">
-		<text> %c[d_cyan] %c[d_cyan] • %c[pda_white]マガジンサイズ:%c[ui_gray_1]</text>
-	</string>
-	<string id="st_mag_size_small">
-		<text>小型</text>
-	</string>
-	<string id="st_mag_size_medium">
-		<text>中型</text>
-	</string>
-	<string id="st_mag_size_large">
-		<text>大型</text>
-	</string>
-
-	<string id="st_mag_loaded">
-		<text>装填中のマガジン:</text>
-	</string>
-	<string id="st_mag_loaded_none">
-		<text>注意: マガジンが装填されていない</text>
-	</string>
-	
-	<string id="st_mag_ammo_loaded_count">
-		<text> %c[d_cyan] %c[d_cyan] • %c[pda_white]装弾数:%c[ui_gray_1]</text>
-	</string>
-	<string id="st_mag_capacity">
-		<text>%c[pda_white]マガジン容量:%c[ui_gray_1]</text>
-	</string>
-	<string id="st_mag_ammo_top_round">
-		<text> %c[d_cyan] %c[d_cyan] • %c[pda_white]一番上の弾:%c[ui_gray_1]</text>
-	</string>
-
-<!--
-	ENCYCLOPEDIA
--->
-
-	<string id="article_mags">
-		<text>アノマリーマガジン</text>
-	</string>
-	<string id="article_mags_text">
-		<text>
-%c[pda_green]Mags Redux%c[pda_white]
-
-\n\nMags Reduxへようこそ。このガイドでは、本アドオンの主な機能をご紹介します。
-
-\n\n%c[pda_green]リロード方法%c[pda_white]
-\n • 実銃と同様に、マガジンを使用する銃は、弾薬を装填するためにマガジンが必要です。
-\nショットガン、一部のボルトアクションライフル、リボルバーなど、マガジンを必要としない銃は、バニラ（アドオン未導入の状態）と同様に動作します。
-
-\n\n • 弾薬は手動でマガジンに装填する必要があります。
-\nマガジンの名称には、対応する弾薬の種類が示されています。
-\n弾薬をマガジンにドラッグすると、1発ずつ装填が開始されます。この動作をキャンセルするには、任意の場所をクリックしてください。
-
-\n\n • マガジンを右クリックし、「マガジンポーチに追加」を選択すると、装備できます。
-\nマガジンの背景色とアイコンが変わり、スーツのマガジンポーチに装備されたことを示します。
-\n装備中の銃をリロードする際、マガジンポーチ内のマガジンが使用されます。
-
-\n\n • リロード時、本アドオンは最も多くの弾薬が装填されているマガジンを優先的に選択します。
-\nさらに、直近に装填されたマガジンと同じ弾薬タイプを持つマガジンも優先されます。
-\nまた、マガジンは手動で挿入・取り外しすることも可能です。
-\n取り外すには、銃を右クリックし、「マガジンを外す」を選択してください。
-\n弾薬切り替えホイールからもマガジンの入れ替えが可能です。
-\nマガジンの一番上にある弾薬が、そのマガジンの弾薬タイプとして認識されます。
-
-\n\n%c[pda_green]マガジンの入手%c[pda_white]
-\n • トレーダーからマガジンを購入できます。
-\n • NPC（特に高ランクの敵）は、改良マガジンをドロップすることがあります。これらはリロード速度が向上したり、装弾数が通常より多いなどの特性を持ちます。
-
-\n\n%c[pda_green]MCMで調整できる設定%c[pda_white]
-\n • ドロップ品の調整: NPCが落とすマガジンの量、装填数、改良マガジンの出現確率
-\n • 装填／取り出し速度の調整: 弾込め／取り出し速度の倍率を調整
-\n • 高速装填: スタッシュ内でのみ、マガジンの装填／取り出しを即座に行う
-\n • 薬室に弾を保持: マガジンを交換する際、実銃と同様に薬室内の弾薬を保持
-		</text>
-	</string>
-	
-<!--
-	MCM
--->
+	<!-- MCM -->
 	
 	<string id="ui_mcm_menu_magazines">
 		<text>Magazines</text>
@@ -198,7 +98,7 @@
 		<text>装備中のマガジンの背景色</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_highlight_color_desc">
-		<text>マガジンポーチに装備されているマガジンの背景色を設定します。</text>
+		<text>リグ／ポーチに装備されているマガジンの背景色を設定します。</text>
 	</string>
 
 	<string id="ui_mcm_magazines_mgmt_highlight_clr_a">
@@ -277,17 +177,17 @@
 	<string id="ui_mcm_magazines_gameplay_retain_round_desc">
 		<text>有効にすると、マガジンを抜いても薬室内の弾薬は保持されます。</text>
 	</string>
-	<string id="ui_mcm_magazines_gameplay_fast_loading">
+	<string id="ui_mcm_magazines_gameplay_loadstash_behavior">
 		<text>スタッシュ内でのマガジンの装填動作</text>
 	</string>
-	<string id="ui_mcm_magazines_gameplay_fast_loading_desc">
-		<text>有効にすると、スタッシュ内での弾の出し入れが即座に行われます（Escape from Tarkovと同様）。</text>
+	<string id="ui_mcm_magazines_gameplay_loadstash_behavior_desc">
+		<text>スタッシュ画面でマガジンに弾薬を込める際の動作を選択します。処理の速いオプションを選択した場合、異なる弾種を交互に混ぜて装填（スタッガリング）するなどの一部の特殊な機能が制限される可能性がある点にご注意ください。</text>
 	</string>
-	<string id="ui_mcm_magazines_gameplay_quick_loading">
-		<text>マガジンの高速装填</text>
+	<string id="ui_mcm_magazines_gameplay_tacload">
+		<text>マガジン装填中断の無効化</text>
 	</string>
-	<string id="ui_mcm_magazines_gameplay_quick_loading_desc">
-		<text>有効にすると、インベントリでの弾込めが高速になり、一度に1箱分ずつ行われます。</text>
+	<string id="ui_mcm_magazines_gameplay_tacload_desc">
+		<text>移動やインベントリ操作によってリロードがキャンセルされるのを防ぎ、確実に装填を行えるようにします。プレイの利便性は向上しますが、アニメーションが中断された際に装填処理のみが瞬時に完了してしまう場合があります。</text>
 	</string>
 
 	<string id="ui_mcm_magazines_gameplay_load_behavior">
@@ -328,7 +228,7 @@
 	</string>
 
 	<string id="ui_mcm_lst_loadout">
-		<text>マガジンポーチに保持</text>
+		<text>リグ／ポーチに保持</text>
 	</string>
 
 	<string id="ui_mcm_magazines_gameplay_mag_unequip_trs">
@@ -339,13 +239,13 @@
 	</string>
 	<string id="ui_mcm_magazines_rant">
 		<text>コンバットリロード（インベントリを閉じた状態でのリロード）の仕組み:\n \n
-		• マガジンポーチとは、ベストに付いているポケットのことです。例えば、4つのポケットがある場合、それぞれに1つずつ、合計4つのマガジンを携行しており、銃には5つ目のマガジンが装填されているとします。\n
-		• リロードしようとすると、片手に銃を持ち、もう片方の手で銃に装填されているマガジンを取り出します。\n
-		これで片手に銃、もう片方の手にマガジンを持つことになります。\n
-		しかし、4つのポケットすべてにマガジンが入っているため、手に持っているマガジンをポケットに入れることはできません。両手が塞がっているため、ポケットから新しいマガジンを取り出すこともできません。このような状況で、あなたはどうしますか？\n
-		• この場合、使用済みマガジンはバックパック／インベントリに収納され、空いた手でポケットから新しいマガジンを取り出し、銃に装填します。\n
+		• マガジンポーチとは、ベストに付いているマガジン用のポケットのことです。例として、4つのポケットにそれぞれに1つずつ、合計4つのマガジンが入っているとします。そして銃の中に5つ目のマガジンが入っている状態です。\n
+		• リロードの際、片手で銃を持ったまま、もう一方の手で銃からマガジンを抜きます。\n
+		これで片手に銃、もう一方の手にマガジンを持っている状態になります。\n
+		この時、4つのポケットすべてにマガジンが入っているため、手に持っているマガジンをポケットに入れることはできません。両手が塞がっているため、ポケットから新しいマガジンを取り出すこともできません。さて、どうすればよいでしょうか。\n
+		• この状況では、手に持ったマガジンをバックパック（インベントリ）にしまうことで、片手が空きます。これでポケットから新しいマガジンを取り出し、銃に装填することができます。\n
 		これでリロード完了です！\n
-		• リロード開始時にマガジンポーチに空きがある場合、銃から取り出したマガジンはその空きポケットに収納されます。ただし、マガジンが空の場合は、バックパック/インベントリに収納されます。この空マガジンの処理は、MCM設定でマガジンポーチスロットに入れるか、地面にドロップするように変更できます。\n</text>
+		• リロード開始時にマガジンポーチに空きがある場合、銃から取り出したマガジンはその空きポケットに収納されます。ただし、そのマガジンが空の場合は、バックパック（インベントリ）に収納されます。この空マガジンの処理はMCM設定から変更可能で、マガジンポーチに入れるか、あるいは地面に捨てるように設定できます。\n</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_three_hands">
 			<text>コンバットリロード時の「第三の手」使用</text>
@@ -371,5 +271,100 @@
 	<string id="ui_mcm_magazines_gameplay_deathammo_desc">
 		<text>NPCがドロップするマガジンに装填されている弾薬の量の倍率を調整します。</text>
 	</string>
+
+	<!--MAGAZINES-->
+
+	<string id="st_dot">
+		<text>%c[d_cyan]•</text>
+	</string>
+	<string id="st_mag_bonus">
+		<text>*（スーツ: %s + 追加装備: %s）<!--alt:> (%s + %s)<--></text>
+	</string>
+	<string id="st_mag_small">
+		<text>小型マガジン:</text>
+	</string>
+	<string id="st_mag_medium">
+		<text>中型マガジン:</text>
+	</string>
+	<string id="st_mag_large">
+		<text>大型マガジン:</text>
+	</string>
+	<string id="st_mag_base">
+		<text>基礎マガジン</text>
+	</string>
+	<string id="st_mag_base_descr">
+		<text>基礎マガジン</text>
+	</string>
+	
+	<string id="st_mag_size">
+		<text>%c[pda_white]マガジンサイズ:%c[ui_gray_1]</text>
+	</string>
+	<string id="st_mag_size_small">
+		<text>小型</text>
+	</string>
+	<string id="st_mag_size_medium">
+		<text>中型</text>
+	</string>
+	<string id="st_mag_size_large">
+		<text>大型</text>
+	</string>
+
+	<string id="st_mag_loaded">
+		<text>装填中のマガジン:</text>
+	</string>
+	<string id="st_mag_loaded_none">
+		<text>注意: マガジンが装填されていない</text>
+	</string>
+	
+	<string id="st_mag_ammo_loaded_count">
+		<text> %c[d_cyan] %c[d_cyan] • %c[pda_white]装弾数:%c[ui_gray_1]</text>
+	</string>
+	<string id="st_mag_capacity">
+		<text>%c[pda_white]マガジン容量:%c[ui_gray_1]</text>
+	</string>
+	<string id="st_mag_ammo_top_round">
+		<text> %c[d_cyan] %c[d_cyan] • %c[pda_white]一番上の弾:%c[ui_gray_1]</text>
+	</string>
+
+	<string id="article_mags">
+		<text>アノマリーマガジン</text>
+	</string>
+	<string id="article_mags_text">
+		<text>
+%c[pda_green]Mags Redux%c[pda_white]
+
+\n\nMags Reduxへようこそ。このガイドでは、本アドオンの主な機能をご紹介します。
+
+\n\n%c[pda_green]リロード方法%c[pda_white]
+\n • 実銃と同様に、マガジンを使用する銃は、弾薬を装填するためにマガジンが必要です。
+\nマガジンを必要としない銃（ショットガン、一部のボルトアクションライフル、リボルバー）は、バニラ（アドオン未導入の状態）と同様に動作します。
+
+\n\n • 弾薬は手動でマガジンに装填する必要があります。
+\nマガジンの名称には、対応する弾薬の種類が示されています。
+\n弾薬をマガジンにドラッグすると、1発ずつ装填が開始されます。この動作をキャンセルするには、任意の場所をクリックしてください。
+
+\n\n • マガジンを右クリックし、「リグ／ポーチに入れる」を選択すると、装備できます。
+\nマガジンの背景色とアイコンが変わり、スーツのマガジンポーチに装備されたことを示します。
+\n装備中の銃をリロードする際、マガジンポーチ内のマガジンが使用されます。
+
+\n\n • リロード時、本アドオンは最も多くの弾薬が装填されているマガジンを優先的に選択します。
+\nさらに、直近に装填されたマガジンと同じ弾薬タイプを持つマガジンが優先されます。
+\nまた、マガジンは手動で挿入・取り外しすることも可能です。
+\n取り外すには、銃を右クリックし、「マガジンを外す」を選択してください。
+\n弾薬切り替えホイールからもマガジンの入れ替えが可能です。
+\nマガジンの一番上にある弾薬が、そのマガジンの弾薬タイプとして認識されます。
+
+\n\n%c[pda_green]マガジンの入手%c[pda_white]
+\n • トレーダーからマガジンを購入できます。
+\n • NPC（特に高ランクの敵）は、改良マガジンをドロップすることがあります。これらはリロード速度が向上したり、装弾数が通常より多いなどの特性を持ちます。
+
+\n\n%c[pda_green]MCMで調整できる設定%c[pda_white]
+\n • ドロップ品の調整: NPCが落とすマガジンの量、装填数、改良マガジンの出現確率
+\n • 装填／取り出し速度の調整: マガジンへの弾薬の装填・排出速度の倍率
+\n • 高速装填: スタッシュ内でのみ、マガジンの装填・排出を即座に行う
+\n • 薬室に弾を保持: マガジンを交換する際、実銃と同様に薬室内の弾薬を保持する
+		</text>
+	</string>
+
 
 </string_table>

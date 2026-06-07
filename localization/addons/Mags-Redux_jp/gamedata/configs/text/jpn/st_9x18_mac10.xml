@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<string_table>
+
+	<string id="st_mag_mac10_9x18_standard">
+		<text>M3用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mac10_9x18_standard_descr">
+		<text> </text>
+	</string>
+
+	<string id="st_mag_mac10_9x18_ext">
+		<text>M3用マガジン（9x18）</text>
+	</string>
+	<string id="st_mag_mac10_9x18_ext_descr">
+		<text> </text>
+	</string>
+
+</string_table>

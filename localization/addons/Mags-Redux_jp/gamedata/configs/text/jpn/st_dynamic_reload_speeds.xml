@@ -1,0 +1,36 @@
+<string_table>
+    <!-- MCM -->
+    <string id="ui_mcm_menu_dynamic_reload_speeds">
+        <text>Dynamic Reload Speeds</text>
+    </string>
+    <string id="ui_mcm_menu_dynamic_reload_speeds_Title">
+        <text>Dynamic Reload Speeds</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_force_cam_anim_off">
+        <text>カメラアニメーションを強制的に無効化</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_force_cam_anim_off_desc">
+        <text>リロード速度に変更が加わる際、カメラアニメーション（画面の揺れ）を強制的に無効化します。通常は各アドオン側の設定に従いますが、速度変更に伴う不自然なカメラ挙動を完全に抑制したい場合に有効です。</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_default_motion_mark_ratio">
+        <text>デフォルトの装填判定タイミング（比率）</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_default_motion_mark_ratio_desc">
+        <text>リロードアニメーション中のどの時点で「実際に装填された（弾数カウントが更新された）」と見なすかの割合を設定します。通常は定義済みの設定（pluginsフォルダ内のLTXファイル）が優先されますが、定義のないアニメーションについては、リロード時間全体に対するこの比率のタイミングで装填が完了します。</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_debug_logging">
+        <text>デバッグログ出力</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_debug_logging_desc">
+        <text>開発およびトラブルシューティング用です。有効にすると、動作の詳細な情報をログファイルに出力します。</text>
+    </string>
+	<string id="ui_mcm_menu_dynamic_reload_speeds_base_adjusters">
+        <text>基本速度の調整</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_base_speed_increase">
+        <text>基本リロード速度倍率</text>
+    </string>
+	<string id="ui_mcm_dynamic_reload_speeds_base_speed_increase_desc">
+        <text>リロード速度のベースとなる倍率を変更します。他のアドオンによる速度変更がない場合にこの値が適用されます。1.0より小さい値を設定すると、アニメーション内の「装填判定」が通常より早くなります。なお、数値を「0」に設定すると、リロード動作が瞬時に完了するようになります。</text>
+    </string>
+</string_table>

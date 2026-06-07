@@ -349,7 +349,6 @@ Pistols and MP's
 	</string>
 
 	<string id="st_mag_mp7_9x19_fmj">
-	<!-- Mags Redux Fixesによる変更 GAMMAJP -->
 		<text>MP7用改造マガジン（9x19）</text>
 	</string>
 	<string id="st_mag_mp7_9x19_fmj_descr">
