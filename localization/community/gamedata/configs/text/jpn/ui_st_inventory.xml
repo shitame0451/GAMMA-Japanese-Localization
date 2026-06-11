@@ -248,7 +248,7 @@
 		<text>飲む</text>
 	</string>
 	<string id="st_unload_magazine">
-		<text>弾を抜く</text>
+		<text>弾を取り出す</text>
 	</string>
 	<string id="st_use">
 		<text>使用</text>

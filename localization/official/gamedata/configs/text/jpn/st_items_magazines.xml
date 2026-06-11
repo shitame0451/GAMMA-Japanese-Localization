@@ -10,7 +10,7 @@
 		<text>マガジンを外す</text>
 	</string>
 	<string id="st_mag_unload_ammo">
-		<text>弾を抜く</text>
+		<text>弾を取り出す</text>
 	</string>
 	<string id="st_mag_loadout_remove">
 		<text>リグ／ポーチから取り出す</text>
@@ -59,7 +59,7 @@
 		<text>弾の取り出し速度</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_mag_unloadtime_factor_desc">
-		<text>マガジンから弾薬を取り出す速度の倍率を調整します。</text>
+		<text>マガジンから弾を取り出す速度の倍率を調整します。</text>
 	</string>
 	<string id="ui_mcm_magazines_mgmt_mag_tooltip">
 		<text>マガジンツールチップの弾薬情報表示</text>
@@ -203,7 +203,7 @@
 		<text>マガジン弾薬取り出し動作</text>
 	</string>
 	<string id="ui_mcm_magazines_gameplay_unload_behavior_desc">
-		<text>マガジンから弾薬を取り出す際の動作を選択します。なお、利便性を考慮し、スタッシュ内で操作する場合は常に即座にすべての弾薬が取り出されます。</text>
+		<text>マガジンから弾を取り出す際の動作を選択します。なお、利便性を考慮し、スタッシュ内で操作する場合は常に即座にすべての弾薬が取り出されます。</text>
 	</string>
 
 	<string id="ui_mcm_lst_ind">

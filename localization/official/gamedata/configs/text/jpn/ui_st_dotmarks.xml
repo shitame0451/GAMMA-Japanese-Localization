@@ -19,7 +19,7 @@
 	</string>
 
 	<string id="st_alti_unload_weapon">
-		<text>弾を抜く</text>
+		<text>弾を取り出す</text>
 	</string>
 
 	<string id="st_alti_eject_mag">
@@ -1181,10 +1181,10 @@
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_unload_act">
-		<text>「弾を抜く／マガジンを外す」アクションを有効化</text>
+		<text>「弾を取り出す／マガジンを外す」アクションを有効化</text>
 	</string>
 	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_unload_act_desc">
-		<text>地面に落ちている銃から弾薬を取り出すサブ操作を有効にします。</text>
+		<text>地面に落ちている銃から弾を取り出すサブ操作を有効にします。</text>
 	</string>
 
 	<string id="ui_mcm_dotmarks_dmarksec_sec_enable_takeall_act">

@@ -44,7 +44,7 @@
 	</string>
 
 	<string id="st_mag_compatible_mags">
-		<text>対応マガジン</text>
+		<text>%c[pda_white]マガジン:</text>
 	</string>
 
 	<string id="mag_kriss45">

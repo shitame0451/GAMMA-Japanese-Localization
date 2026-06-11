@@ -106,7 +106,7 @@
     <text>グレネードを即座に投げる</text>
   </string>
   <string id="kb_unload_all">
-    <text>インベントリ内のすべての銃から弾を抜く</text>
+    <text>インベントリ内のすべての銃から弾を取り出す</text>
   </string>
   <string id="kb_lower_weapon">
     <text>銃を下ろす／銃を構える</text>
