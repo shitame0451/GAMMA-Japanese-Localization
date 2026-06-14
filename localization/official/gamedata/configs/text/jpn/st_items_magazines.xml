@@ -367,4 +367,22 @@
 	</string>
 
 
+	<string id="ui_mcm_magazines_gameplay_active_ammo_by_mag">
+		<text>次に装填するマガジンを現在の中身で判定する</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_active_ammo_by_mag_desc">
+		<text>有効にすると、リロード時に選択されるマガジンの弾種を「薬室内の1発」ではなく「現在装着されているマガジン内の弾薬」に基づいて決定します。これにより、薬室にAP弾が1発残っているだけで、本来FMJを使用したい状況でもAPマガジンが優先的に選ばれてしまうといった意図しない挙動を防げます。</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_mag_fill_mode">
+		<text>マガジン内弾種の判定方法</text>
+	</string>
+	<string id="ui_mcm_magazines_gameplay_mag_fill_mode_desc">
+		<text>「次に装填するマガジンを現在の中身で判定する」の設定において、マガジン内のどの弾種を基準にするかを選択します。\n•「最多」: マガジン内で最も数が多い弾種を基準にします（AP弾とトレーサー弾を混ぜて装填している場合に有効です）。\n•「次弾」: 薬室内の弾を無視し、次に給弾される予定の弾種を基準にします。\n弾種が統一されているマガジンの場合は、どちらの設定でも挙動は変わりません。</text>
+	</string>
+	<string id="ui_mcm_lst_dominant">
+		<text>最多（最も数が多い弾種）</text>
+	</string>
+	<string id="ui_mcm_lst_peek">
+		<text>次弾（次に給弾される弾種）</text>
+	</string>
 </string_table>
