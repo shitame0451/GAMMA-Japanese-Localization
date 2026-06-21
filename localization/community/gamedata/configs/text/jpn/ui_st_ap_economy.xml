@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<string_table>
+  <!-- ==================== LOOT CLAIM TIPS ==================== -->
+  <string id="st_ap_loot_claim_warn_001">
+    <text>そいつは俺が仕留めたんだ。手を出すな。</text>
+  </string>
+  <string id="st_ap_loot_claim_warn_002">
+    <text>おい、その死体から離れてくれ。</text>
+  </string>
+  <string id="st_ap_loot_claim_warn_003">
+    <text>俺が倒したんだ。装備は俺のものだ。</text>
+  </string>
+  <string id="st_ap_loot_claim_warn_004">
+    <text>その死体に触れてみろ。タダじゃ済まないぞ。</text>
+  </string>
+  <string id="st_ap_loot_claim_warn_005">
+    <text>下がれ。その物資は俺がもらう。</text>
+  </string>
+</string_table>

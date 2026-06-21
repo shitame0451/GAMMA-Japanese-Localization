@@ -23,6 +23,15 @@
   <string id="ui_mcm_menu_development">
     <text>開発設定</text>
   </string>
+  <string id="ui_mcm_menu_economy">
+    <text>エコノミー</text>
+  </string>
+  <string id="ui_mcm_menu_loot">
+    <text>戦利品</text>
+  </string>
+  <string id="ui_mcm_menu_trade">
+    <text>トレード</text>
+  </string>
   <!-- ==================== LEVEL 3 MENU NAMES (CAUSE CATEGORIES) ==================== -->
   <string id="ui_mcm_menu_reactions">
     <text>リアクション</text>
@@ -896,7 +905,7 @@
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting">
-    <text>クラフト素材を含むスタッシュを保護する</text>
+    <text>クラフト素材を含むスタッシュを保護</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting_desc">
     <text>スタッシュにクラフト関連アイテム（ツール、キット、武器パーツ、アップグレード品など）が1つでも含まれている場合、そのスタッシュには一切手を付けず、中身を完全に保護します。無効にすると、中身に関わらずあらゆるスタッシュが略奪の対象になります。</text>
@@ -1320,7 +1329,7 @@
     <text>到着時のアクション</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled_desc">
-    <text>到着時の売買処理を詳細にシミュレートします。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金には一切手を付けません。\n・購入: 所持数が最低基準を下回っているアイテムを補充します。弾薬は装備中の銃とランクに応じて選ばれ、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、一連の取引でNPCが得られる最終的な利益には上限（profit_max）が適用されます。</text>
+    <text>到着時の売買処理を詳細にシミュレートします。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金には一切手を付けません。\n・購入: 所持数が最低基準を下回っているアイテムを補充します。弾薬は装備中の銃とランクに応じて選ばれ、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、一度の取引でNPCが得られる純利益は、エコノミー設定の「最大取引利益」による制限を受けます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / SUPPLY TRADER OFF-MAP ==================== -->
   <string id="ui_mcm_ap_consequences_supply_trader_offmap_title">
@@ -1345,7 +1354,7 @@
     <text>到着時のアクション</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_arrive_action_enabled_desc">
-    <text>エリア外の目的地に到着した際、NPCが詳細な売買処理を行います。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金は売却されず保護されます。\n・購入: 所持数が最低基準を下回るアイテムを補充します。弾薬は装備中の銃とランクに応じて選択され、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、1回の取引でNPCが得られる純利益には上限（profit_max）が適用されます。</text>
+    <text>エリア外の目的地に到着した際、NPCが詳細な売買処理を行います。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金は売却されず保護されます。\n・購入: 所持数が最低基準を下回るアイテムを補充します。弾薬は装備中の銃とランクに応じて選択され、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、一度の取引でNPCが得られる純利益は、エコノミー設定の「最大取引利益」による制限を受けます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / JOB OUTPOST ==================== -->
   <string id="ui_mcm_ap_consequences_job_outpost_title">
@@ -1951,5 +1960,47 @@
   </string>
   <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush_desc">
     <text>有効にすると、イベント対象の分隊は巣を確保するため、ラッシュ速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_title">
+    <text>戦利品の所有権設定</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_desc">
+    <text>プレイヤーが近くにいる際、NPCがプレイヤーの獲物を横取りしなくなります。同時に、NPCが倒した獲物も、そのNPCが生存し近くにいる間は漁ることができなくなります。相手から離れるか、そのNPCが死亡すれば死体は開放されます。この所有権が主張される範囲は「有効半径」で調整可能です。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_enabled">
+    <text>戦利品の所有権を有効化</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_enabled_desc">
+    <text>戦利品に対する「所有権」の概念を導入します。無効にするとバニラと同じ挙動になり、NPCがあなたの獲物を奪ったり、あなたがNPCの獲物を自由に奪ったりできるようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own">
+    <text>プレイヤーの獲物を保護</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_desc">
+    <text>プレイヤーが倒した敵の死体を、周囲のNPCが勝手に漁らないように保護します。プレイヤーが一定の有効半径内にいる場合にのみ機能します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc">
+    <text>NPCの獲物を保護</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_desc">
+    <text>NPCが倒した敵の死体を、そのNPCが生存し有効半径内にいる間は漁れないように制限します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_reservation_radius">
+    <text>所有権の有効半径 (m)</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_reservation_radius_desc">
+    <text>死体に対して所有権が主張される距離を設定します。倒した本人がこの距離内にいる間は他者が漁れなくなり、この範囲外に出ると所有権が失効します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_trade_title">
+    <text>NPCの取引挙動</text>
+  </string>
+  <string id="ui_mcm_ap_economy_trade_desc">
+    <text>ストーカーがトレーダーに到達した際の、物資補充と余剰品売却のルールを設定します。各ランクが何を売買するかは取引ポリシーに準拠します。なお、NPC自身の取引機能そのものの有効化は発生原因メニューの「物資補給」の設定から行ってください。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_trade_trade_profit_max">
+    <text>1回あたりの最大取引利益 (ルーブル)</text>
+  </string>
+  <string id="ui_mcm_ap_economy_trade_trade_profit_max_desc">
+    <text>1回の取引訪問でNPCが得られる純利益の上限を設定します（全ランク共通）。「0」に設定すると利益が発生しなくなります。この設定は取引ポリシーファイルの設定を上書きします（デフォルト: 5000）。</text>
   </string>
 </string_table>
