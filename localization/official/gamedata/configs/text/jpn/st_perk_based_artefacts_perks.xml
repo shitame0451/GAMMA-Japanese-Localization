@@ -6,12 +6,12 @@
   <string id="st_pba_af_cocoon_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ストーンスキン\n
-    %c[d_orange] • %c[pda_white]受ける近接ダメージが15%軽減する\n
-    %c[d_orange] • %c[pda_white]近接ダメージを受けると、ストーンスキンのスタックが付与される\n
-    %c[d_orange] • %c[pda_white]スタック毎に15%の近接ダメージ軽減と10%の移動速度減少効果を得る\n
-    %c[d_orange] • %c[pda_white]最大10スタックまで可能\n
-    %c[d_orange] • %c[pda_white]10スタックあるとき、近接ダメージは75%軽減されるが、完全に動けなくなる\n
-    %c[d_orange] • %c[pda_white]効果は10秒間持続し、その後すべてのスタックが消える\n
+    %c[d_orange] • %c[pda_white]近接ダメージを15%軽減する\n
+    %c[d_orange] • %c[pda_white]近接ダメージを受けると「ストーンスキン」がスタックする\n
+    %c[d_orange] • %c[pda_white]1スタックにつき近接ダメージ軽減 +15%／移動速度 -10%\n
+    %c[d_orange] • %c[pda_white]最大10スタック\n
+    %c[d_orange] • %c[pda_white]10スタック時、近接ダメージ軽減が+75%になるが、完全に移動不能になる\n
+    %c[d_orange] • %c[pda_white]効果は10秒間持続し、終了時に全スタックが消失する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
 	</text>
@@ -19,16 +19,16 @@
   <string id="st_pba_af_cell_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]崩壊剤\n
-    %c[d_orange] • %c[pda_white]弾丸のダメージを15%軽減する\n
-    %c[d_orange] • %c[pda_white]軽減されたダメージは放射線に変換される\n
+    %c[d_orange] • %c[pda_white]銃弾ダメージを15%軽減する\n
+    %c[d_orange] • %c[pda_white]軽減した分のダメージは放射線に変換される\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
 	</text>
   </string>
   <string id="st_pba_af_fountain_perk">
     <text>
-    %c[pda_white] 特殊能力: %c[d_orange]レティショップタイム\n
-    %c[d_orange] • %c[pda_white]アイテムを購入するごとに4%のキャッシュバックを得られる\n
+    %c[pda_white] 特殊能力: %c[d_orange]レティショップス・タイム\n
+    %c[d_orange] • %c[pda_white]商品を購入するたび、4%のキャッシュバックを獲得する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -36,12 +36,12 @@
   <string id="st_pba_af_spaika_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]クリティカル・アセンション\n
-    %c[d_orange] • %c[pda_white]常に+10%のクリティカルヒットダメージボーナスを得る\n
-    %c[d_orange] • %c[pda_white]連続命中した場合、クリティカル・アセンションのスタックが付与される\n
-    %c[d_orange] • %c[pda_white]スタック数に応じて、次の射撃ダメージが+5%される\n
-    %c[d_orange] • %c[pda_white]外すとスタックがリセットされ、所持しているスタックに比例したプサイダメージを受ける\n
-    %c[d_orange] • %c[pda_white]外さない限り無限にスタックが付与される\n
-    %c[d_orange] • %c[pda_white]«スパイク»をすべて外すと、ペナルティなしでスタックを解除できる\n
+    %c[d_orange] • %c[pda_white]クリティカルダメージが10%上昇する\n
+    %c[d_orange] • %c[pda_white]連続で攻撃を命中させると「クリティカル・アセンション」がスタックする\n
+    %c[d_orange] • %c[pda_white]1スタックにつき、次の射撃ダメージが5%上昇する\n
+    %c[d_orange] • %c[pda_white]射撃を外すと全スタックが消失し、スタック数に応じたプサイダメージを受ける\n
+    %c[d_orange] • %c[pda_white]射撃を命中させ続ける限り、この効果は無限に累積する\n
+    %c[d_orange] • %c[pda_white]すべての«スパイク»を外すと、ペナルティなしでスタックが消失する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -49,8 +49,8 @@
   <string id="st_pba_af_signet_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]静寂の光\n
-    %c[d_orange] • %c[pda_white]焚き火の近くにいると体力とプサイ体力が回復する\n
-    %c[d_orange] • %c[pda_white]焚き火の近くにいるとアーティファクトのプサイ回復効果が増幅される\n
+    %c[d_orange] • %c[pda_white]焚き火の近くにいる間、体力とプサイ体力を回復する\n
+    %c[d_orange] • %c[pda_white]焚き火の近くにいる間、プサイ回復系アーティファクトの効果を増幅する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -60,9 +60,9 @@
   <string id="st_pba_af_repei_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]軽度の裂傷\n
-    %c[d_orange] • %c[pda_white]武器は元の威力の50%を失うが、出血ダメージを与える能力を得る\n
-    %c[d_orange] • %c[pda_white]ヒットするたびに敵は出血し、武器の威力に比例して徐々に体力を失い始める\n
-    %c[d_orange] • %c[pda_white]NPCは傷ついた状態で倒れることが多くなり、死ぬ前に近づけば、慈悲を請い、貴重な情報を与えてくれるかもしれない\n
+    %c[d_orange] • %c[pda_white]武器の威力が50%低下するが、出血ダメージを与える能力を得る\n
+    %c[d_orange] • %c[pda_white]出血ダメージは武器の威力に比例する\n
+    %c[d_orange] • %c[pda_white]敵が降伏する確率が上昇する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -70,20 +70,20 @@
   <string id="st_pba_af_bat_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ゾーンの錬金術師\n
-    %c[d_orange] • %c[pda_white]他のアーティファクトを変化させることができる\n
-    %c[d_orange] • %c[pda_white]より高いティアに上げる「アップグレード」と、同じティア内の別のアーティファクトに変更する「変性」が可能\n
-    %c[d_orange] • %c[pda_white]一番高いティアのアーティファクトは、「変性」のみ可能\n
-    %c[d_orange] • %c[pda_white]変化のたびに«バット»を1つ消費する\n
+    %c[d_orange] • %c[pda_white]他のアーティファクトを「変換」する能力を得る\n
+    %c[d_orange] • %c[pda_white]上位ティアへ「アップグレード」、または同ティアの別物へ「変性」させられる\n
+    %c[d_orange] • %c[pda_white]特殊能力持ち、または最高ティアのアーティファクトは「変性」のみ可能\n
+    %c[d_orange] • %c[pda_white]変換を行うごとに«バット»を1個消費する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
   <string id="st_pba_af_sun_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ソーラーパワー\n
-    %c[d_orange] • %c[pda_white]現在の天候に応じてステータスに変化を与える\n
-    %c[ui_gray_1] %c[d_green] - %c[pda_white]晴天: 体力とスタミナが増加\n
-    %c[ui_gray_1] %c[d_green] - %c[pda_white]一部晴天: スタミナが少し増加\n
-    %c[ui_gray_1] %c[ui_red] - %c[pda_white]その他: スタミナが減少\n
+    %c[d_orange] • %c[pda_white]現在の天候に応じてステータス補正を得る\n
+    %c[ui_gray_1] %c[d_green] - %c[pda_white]快晴: 体力とスタミナが上昇する\n
+    %c[ui_gray_1] %c[d_green] - %c[pda_white]晴れ: スタミナがわずかに上昇する\n
+    %c[ui_gray_1] %c[ui_red] - %c[pda_white]その他: スタミナにペナルティを受ける\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -92,8 +92,8 @@
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]生きる意志\n
     %c[d_green] • %c[pda_white]BRクラス軽減率: +6%\n
-    %c[d_orange] • %c[pda_white]体力が25%より低い時、体力の自動回復効果を得る\n
-    %c[d_orange] • %c[pda_white]自動回復の効果量は体力が少ないほど強くなる\n
+    %c[d_orange] • %c[pda_white]体力が25%未満の時、体力自動回復を得る\n
+    %c[d_orange] • %c[pda_white]回復効果は死に近づくほど上昇する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -101,16 +101,16 @@
   <string id="st_pba_af_chelust_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]信仰の重さ\n
-    %c[d_orange] • %c[pda_white]少量の体力とスタミナの自動回復効果を得る\n
-    %c[d_orange] • %c[pda_white]シンのメンバーの場合、効果が3倍になりプサイ体力の自動回復効果が追加される\n
-    %c[d_orange] • %c[pda_white]シンの仲間の体力が自動回復する\n
+    %c[d_orange] • %c[pda_white]体力とスタミナがわずかに自動回復する\n
+    %c[d_orange] • %c[pda_white]シンの派閥メンバーは効果が3倍になり、さらにプサイ体力自動回復を得る\n
+    %c[d_orange] • %c[pda_white]シンの仲間の体力を自動回復する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
   <string id="st_pba_af_atom_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]Arsziの祝福\n
-    %c[d_orange] • %c[pda_white]放射線障害をスタミナに変換し、軽度の放射線障害を回復させる\n
+    %c[d_orange] • %c[pda_white]放射線障害の発症時、スタミナが上昇し、放射線がわずかに除去される\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
 	</text>
@@ -118,7 +118,7 @@
   <string id="st_pba_af_lighthouse_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]異端児の旅路\n
-    %c[d_orange] • %c[pda_white]誰かを殺したとき、相手が死亡した場所にテレポートする\n
+    %c[d_orange] • %c[pda_white]対象を殺害すると、その死亡した場所へテレポートする\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
@@ -132,11 +132,11 @@
   <string id="st_pba_af_zhelch_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]狂気\n
-    %c[d_orange] • %c[pda_white]高いプサイ耐性ボーナスを得る\n
-    %c[d_orange] • %c[pda_white]プサイ体力と引き換えに体力が回復する\n
-    %c[d_orange] • %c[pda_white]体力が満タンになると、プサイ体力が回復する\n
-    %c[d_orange] • %c[pda_white]制御不能な行動を起こす可能性がある\n
-    %c[d_orange] • %c[pda_white]プサイ体力が低いほど、発生率と重症度が上がる\n
+    %c[d_orange] • %c[pda_white]高いプサイ耐性を得る\n
+    %c[d_orange] • %c[pda_white]プサイ体力を消費して体力を回復する\n
+    %c[d_orange] • %c[pda_white]体力が満タンの時は、プサイ体力を回復する\n
+    %c[d_orange] • %c[pda_white]一定確率で狂気に取り憑かれ、制御不能な行動を起こす\n
+    %c[d_orange] • %c[pda_white]プサイ体力が低いほど、その確率と行動の深刻度が上昇する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 　　</text>
   </string>
@@ -145,17 +145,17 @@
   <string id="st_pba_af_sandstone_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ゾーン・インフュージョン\n
-    %c[d_orange] • %c[pda_white]踏み入ったアノマリーの種類に応じて、装備している武器に3分間属性を注入することができる\n
-    %c[d_orange] • %c[pda_white]注入された武器は素の威力を30%失うが、最後に踏み入ったアノマリーの種類に応じた50%の属性ダメージを得る\n
-    %c[d_orange] • %c[pda_white]アノマリーフィールドを含む電気、熱、化学アノマリーのみ注入が可能\n
-    %c[d_orange] • %c[pda_white]アーティファクトを武器に直接ドロップするとアーティファクトが消滅し、10分間ランダムな効果を得ることができる\n
+    %c[d_orange] • %c[pda_white]各種アノマリーに足を踏み入れることで、装備中の武器に3分間の属性付与を行う\n
+    %c[d_orange] • %c[pda_white]属性付与された武器は威力が30%低下するが、アノマリーに応じた属性ダメージを50%得る\n
+    %c[d_orange] • %c[pda_white]電気、熱性、化学アノマリーのみが属性付与の対象となる\n
+    %c[d_orange] • %c[pda_white]アーティファクトを武器に直接ドロップして破壊することで、10分間のランダムな属性付与が可能\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
   <string id="st_pba_af_kislushka_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]熱血凝固\n
-    %c[d_orange] • %c[pda_white]出血を治すが、空腹度を吸収する\n
+    %c[d_orange] • %c[pda_white]空腹度を消費して出血を治療する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
 	</text>
@@ -163,8 +163,8 @@
   <string id="st_pba_af_black_angel_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]よけてみな\n
-    %c[d_orange] • %c[pda_white]20%の確率で弾丸ダメージの35%を相手に反射する\n
-    %c[d_orange] • %c[pda_white]反射時のダメージを無効化する\n
+    %c[d_orange] • %c[pda_white]20%の確率で、受けた銃弾ダメージの35%を攻撃者に反射する\n
+    %c[d_orange] • %c[pda_white]反射が発生した際、その被ダメージを無効化する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
 	</text>
@@ -172,7 +172,7 @@
   <string id="st_pba_af_grapes_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]必要な大食い\n
-    %c[d_orange] • %c[pda_white]食べ物のカロリーに応じた体力ボーナスを得ることができる\n
+    %c[d_orange] • %c[pda_white]食料の使用時、そのカロリーに応じた体力ボーナスを得る\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -180,7 +180,7 @@
   <string id="st_pba_af_skull_miser_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ジャックポット破り\n
-    %c[d_orange] • %c[pda_white]ヘッドショットで敵を倒すと追加の金を落とす\n
+    %c[d_orange] • %c[pda_white]ヘッドショットで敵を殺害した際、追加の金銭がドロップする\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -188,15 +188,16 @@
   <string id="st_pba_af_star_phantom_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]幽霊な平和主義者\n
-    %c[d_orange] • %c[pda_white]1分半の間、完全に透明になる\n
-    %c[d_orange] • %c[pda_white]武器の使用、会話、オブジェクトへの接触はできない\n
+    %c[d_orange] • %c[pda_white]自身の姿を完全に透明化する\n
+    %c[d_orange] • %c[pda_white]効果時間は合計で1.5分間\n
+    %c[d_orange] • %c[pda_white]武器の使用、会話、あらゆる物への接触はできない\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
   <string id="st_pba_af_medallion_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]アンラッキーチャーム\n
-    %c[d_orange] • %c[pda_white]35%の確率で、受けた弾丸のダメージを仲間が肩代わりする\n
+    %c[d_orange] • %c[pda_white]35%の確率で、受けた銃弾ダメージを仲間に身代わりさせる\n
     %c[d_orange] • %c[pda_white]賢い仲間がいる場合、途中で勘付かれる可能性がある\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
@@ -205,8 +206,8 @@
   <string id="st_pba_af_peas_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]夜の友達\n
-    %c[d_orange] • %c[pda_white]夕暮れから夜明けまでの間、出血を止め、移動速度を増加させる\n
-    %c[d_orange] • %c[pda_white]夜間は眠気が減少し、昼間は眠気が増加する\n
+    %c[d_orange] • %c[pda_white]日没から夜明けまでの間、出血回復速度と移動速度が上昇する\n
+    %c[d_orange] • %c[pda_white]夜間の眠気を軽減するが、日中の眠気が増加する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 　　</text>
@@ -214,8 +215,8 @@
   <string id="st_pba_af_generator_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]電光石火\n
-    %c[d_orange] • %c[pda_white]走っているときにデバイスの充電が回復する\n
-    %c[d_orange] • %c[pda_white]充電が切れたデバイスやバッテリーが入っていないデバイスは回復しない\n
+    %c[d_orange] • %c[pda_white]ダッシュしている間、バッテリーを充電する\n
+    %c[d_orange] • %c[pda_white]完全に放電したバッテリーや、バッテリー未装着のデバイスは充電できない\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_red]減少する\n
 　　</text>
@@ -224,9 +225,9 @@
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]くるみ割り人形\n
     %c[0,81,63,22] • %c[0,209,172,56]ミュータントを蹴り、即死させることができる\n
-    %c[0,81,63,22] • %c[0,209,172,56]アーティファクトの数が多いほど、より強いミュータントを蹴ることができる\n
-    %c[0,81,63,22] • %c[0,209,172,56]クールダウンは2秒で、ベルトに装着するごとに1秒ずつ増加する\n
-    %c[0,81,63,22] • %c[0,209,172,56]ミュータントに近づき、「使う」キーを押す\n \n
+    %c[0,81,63,22] • %c[0,209,172,56]このアーティファクトを装備するほど、蹴り殺せるミュータントの種類が増える\n
+    %c[0,81,63,22] • %c[0,209,172,56]クールダウンは1個につき2秒。装備数が増えるごとに1秒ずつ延長される\n
+    %c[0,81,63,22] • %c[0,209,172,56]ミュータントに接近し、「使う」キーを押すと致命的なキックを発動する\n \n
     %c[d_orange]アーティファクトの数と対応するミュータントの種類:\n
     %c[0,192,71,221] - 1個: %c[ui_gray_3]バユン、ブラインドドッグ、トゥシュカノ、ラット、ゾンビ\n
     %c[0,192,71,221] - 2個: %c[ui_gray_3]ボア、フレッシュ、シュードドッグ、スノーク、ラーカー、フラクチャー\n
@@ -240,18 +241,18 @@
   <string id="st_pba_af_fonar_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]窃盗癖\n
-    %c[d_orange] • %c[pda_white]スタッシュやアイテムを光らせる\n
-    %c[d_orange] • %c[pda_white]RF受信機に信号を送信し、スタッシュやアイテムをライトアップする\n
+    %c[d_orange] • %c[pda_white]スタッシュやアイテムが微かに発光する\n
+    %c[d_orange] • %c[pda_white]スタッシュがRF受信機に対して信号を発信する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
   <string id="st_pba_af_tapeworm_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]スタナー\n
-    %c[d_orange] • %c[pda_white]2m以内にいるミュータントを気絶させることがある\n
-    %c[d_orange] • %c[pda_white]近接ダメージを受けたとき、相手に3秒間気絶状態を付与する\n
-    %c[d_orange] • %c[pda_white]気絶中の敵は戦闘不能になり、攻撃してこなくなる\n
-    %c[d_orange] • %c[pda_white]自分でケガをすると（高いところから落ちるなど）アーティファクトの効果が発動するため、ケガをしないように注意\n
+    %c[d_orange] • %c[pda_white]2m以内にいるミュータントを一定確率でスタンさせる\n
+    %c[d_orange] • %c[pda_white]近接攻撃を受けると、その攻撃者を3秒間スタンさせる\n
+    %c[d_orange] • %c[pda_white]スタン中の敵は攻撃不能になる\n
+    %c[d_orange] • %c[pda_white]このアーティファクトの効果は自傷ダメージ（落下時など）でも発動する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -260,16 +261,15 @@
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]料理の超常現象\n
     %c[d_orange] • %c[pda_white]ミュータントの生肉のエネルギーを特殊能力に変換する\n
-    %c[d_orange] • %c[pda_white]効果は60秒間持続する\n
-    %c[d_orange] • %c[pda_white]別のミュータントの肉を食べると効果が上書きされ、効果時間もリセットされる\n \n
+    %c[d_orange] • %c[pda_white]効果時間は1分間。別のミュータント肉を食べると現在の効果が上書きされ、タイマーがリセットされる\n \n
     %c[pda_white]効果一覧: \n
-    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]フレッシュの肉: 体力回復（1%/秒）、与える弾丸ダメージの減少（33%）\n
+    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]フレッシュの肉: 体力回復（1%/秒）、与える銃弾ダメージの減少（33%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ボアの肉: 近接ダメージ軽減（25%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ブラインドドッグの肉: わずかな止血効果、プサイ回復（1%/秒）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]シュードドッグの肉: プサイ回復（2%/秒）、プサイダメージ軽減（25%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ブラッドサッカーの肉: 敵を攻撃するまで透明化、中程度の止血効果\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]プサイサッカーの肉: 敵を攻撃するまで透明化、プサイ回復（5%/秒）\n
-    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]スノークの手: 放射線ダメージ軽減（50%）、スタミナ回復（5%/秒）、\n放射線治療（5mSv/秒）、満腹度の大幅な減少\n
+    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]スノークの手: 放射線ダメージ軽減（50%）、スタミナ回復（5%/秒）、\n放射線治療（5mSv/秒）、空腹度が大幅に増加\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]キメラの肉: 体力回復（2%/秒）、スタミナ回復（10%/秒）、放射線耐性（33%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ラーカーの肉: 化学/熱性/電気アノマリーのダメージ軽減（33%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]トゥシュカノの肉: 移動速度上昇（20%）、与える近接ダメージの減少（20%）\n
@@ -279,9 +279,9 @@
   <string id="st_pba_af_serofim_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]復活の雨\n
-    %c[d_orange] • %c[pda_white]死亡するとアーティファクトが破壊され、プレイヤーは復活する\n
-    %c[d_orange] • %c[pda_white]体力が50%回復し、すべてのデバフが回復し、5秒間の無敵時間が付与される\n
-    %c[d_orange] • %c[pda_white]復活時に武器を落とし、視界が悪化する\n
+    %c[d_orange] • %c[pda_white]死亡した際、このアーティファクトを破壊して復活する\n
+    %c[d_orange] • %c[pda_white]復活時に体力を50%回復し、全デバフを解除、5秒間の無敵時間を得る\n
+    %c[d_orange] • %c[pda_white]復活時に装備中の武器をドロップし、視界に悪影響を受ける\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
@@ -290,8 +290,8 @@
   <string id="st_pba_af_elektron_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ハイボルテージ\n
-    %c[d_orange] • %c[pda_white]エレクトロアノマリーを踏むと、装備中のデバイスのバッテリーを最大まで充電することができる\n
-    %c[d_orange] • %c[pda_white]効果が発動した際、短時間の間無限に走ることができる\n
+    %c[d_orange] • %c[pda_white]エレクトロアノマリーに進入すると、バッテリーと起動中のデバイスを充電する\n
+    %c[d_orange] • %c[pda_white]エレクトロアノマリーに進入すると、短時間スタミナ無限でダッシュできるようになる\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>
@@ -299,9 +299,9 @@
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ベルセルク\n
     %c[d_green] • %c[pda_white]BRクラス軽減率: +6%\n
-    %c[d_orange] • %c[pda_white]近接ダメージが10%増加する\n
-    %c[d_orange] • %c[pda_white]与えた近接ダメージの3.5%がプレイヤーの体力に変換される\n
-    %c[d_orange] • %c[pda_white]特定のミュータントを倒すと、近くに生の肉塊が出現する可能性がある\n
+    %c[d_orange] • %c[pda_white]近接ダメージが10%上昇する\n
+    %c[d_orange] • %c[pda_white]与えた近接ダメージの3.5%を体力に変換する\n
+    %c[d_orange] • %c[pda_white]特定のミュータントを殺害した際、一定確率で周囲に生肉が出現する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -310,8 +310,8 @@
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]ウルトラバイオレンス\n
     %c[d_orange] • %c[pda_white]5%の確率で撃った弾が爆発する\n
-    %c[d_orange] • %c[pda_white]爆発した弾でNPCやミュータントを倒すと、より激しく爆発する\n
-    %c[d_orange] • %c[pda_white]同じアーティファクトを装備すると爆発の確率が上昇する\n
+    %c[d_orange] • %c[pda_white]爆発弾でNPCやミュータントを殺害した際、その死体が激しく爆発することがある\n
+    %c[d_orange] • %c[pda_white]このアーティファクトを複数装備すると爆発の発生確率が累積する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
