@@ -572,14 +572,14 @@
   </string>
   <string id="st_ap_news_tpl_supply_trader_003">
     <text>#ago#に#location#のトレーダーで並んでたら、#subject_faction#がやって来てな。
-\n奴らの装備の査定に1時間もかかって、俺はさらに待たされる羽目になっちまった。</text>
+\n奴らの装備の査定に1時間もかかって、さらに待たされる羽目になっちまったよ。</text>
   </string>
   <string id="st_ap_news_tpl_supply_trader_004">
     <text>#subject_faction#の連中が大荷物を抱えて#location#のトレーダーを尋ねたらしい。
 \n#ago#の痕跡を見るに、奴らは荷物を軽くしてそのまま引き上げていったようだな。</text>
   </string>
   <string id="st_ap_news_tpl_supply_trader_005">
-    <text>#ago#、#subject_name#が#subject_faction#の分隊を連れてたらしい。
+    <text>#ago#、#subject_name#が#subject_faction#の分隊を連れていたらしい。
 \n#location#のトレーダーのところへ向かったそうだ。</text>
   </string>
   <!-- job_outpost (SINGLE STALKER need: post/wire) -->
@@ -899,9 +899,9 @@
 \n#location#まで売りに行くって話してたよ。</text>
   </string>
   <string id="st_ap_news_tpl_supply_trader_offmap_003">
-    <text>#ago#、#subject_faction#の連中と#location#まで遠征してきた。
-\n検問所が3つ、さらに銃火をくぐり抜けてトレーダーのところにたどり着いたんだ。
-\n弾薬と包帯を手に入れて、なんとか戻ってこられたよ。行く価値はあったぜ。</text>
+    <text>#ago#、#subject_faction#の連中と#location#まで遠征してきてな。
+\n検問所を3つも抜け、さらには銃撃戦までくぐり抜けて、ようやくトレーダーのところへたどり着いた。
+\n弾薬と包帯を調達して、なんとか生きて戻ってこられたよ。まあ、命を張って行く価値はあったな。</text>
   </string>
   <string id="st_ap_news_tpl_supply_trader_offmap_004">
     <text>#subject_faction#の連中が荷物を抱えて立ち去ったみたいだな。境界線に#ago#の足跡が残ってる。

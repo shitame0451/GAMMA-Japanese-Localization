@@ -27,10 +27,16 @@
     <text>エコノミー</text>
   </string>
   <string id="ui_mcm_menu_loot">
-    <text>戦利品</text>
+    <text>戦利品の所有権</text>
+  </string>
+  <string id="ui_mcm_menu_loot_policy">
+    <text>戦利品の回収基準</text>
   </string>
   <string id="ui_mcm_menu_trade">
     <text>トレード</text>
+  </string>
+  <string id="ui_mcm_menu_market">
+    <text>市場経済</text>
   </string>
   <!-- ==================== LEVEL 3 MENU NAMES (CAUSE CATEGORIES) ==================== -->
   <string id="ui_mcm_menu_reactions">
@@ -108,7 +114,7 @@
     <text>アルファ討伐\n追跡</text>
   </string>
   <string id="ui_mcm_menu_mutators">
-    <text>ミューテーター</text>
+    <text>領土・勢力圏</text>
   </string>
   <string id="ui_mcm_menu_conquest">
     <text>エリア制圧</text>
@@ -240,6 +246,12 @@
   <string id="ui_mcm_ap_framework_cause_max_reactions_desc">
     <text>60秒間に発生する「リアクション」関連イベントの最大数を設定します（大虐殺、分隊全滅、拠点壊滅、負傷、アーティファクト、アルファ関連など）。</text>
   </string>
+  <string id="ui_mcm_ap_framework_cause_max_per_causer">
+    <text>発生源ごとの最大反応数</text>
+  </string>
+  <string id="ui_mcm_ap_framework_cause_max_per_causer_desc">
+    <text>プレイヤーや特定のNPCといった「ひとつの発生源」が、ゲーム内の1時間あたりに誘発できるリアクションの最大数を設定します。ここでの発生源とは、殺害を行った者やアーティファクトを回収した者などを指します。これにより、プレイヤーによる大立ち回りや、単独の捕食者がミュータントの巣を壊滅させた際などに、特定の対象だけでイベント発生枠が占有されてしまうのを防ぎ、世界全体のシミュレーションの偏りを抑制します。</text>
+  </string>
   <string id="ui_mcm_ap_framework_cause_max_needs">
     <text>欲求の最大発生数</text>
   </string>
@@ -288,6 +300,18 @@
   </string>
   <string id="ui_mcm_ap_news_news_enabled_desc">
     <text>PDAニュース機能のオン/オフを切り替えます。無効にすると噂話は配信されなくなりますが、バックグラウンドでのイベント記録は継続されます。</text>
+  </string>
+<string id="ui_mcm_ap_news_chatter_enabled">
+    <text>周辺の雑談メッセージを有効化</text>
+  </string>
+  <string id="ui_mcm_ap_news_chatter_enabled_desc">
+    <text>プレイヤーの周囲で起きた出来事について、近くにいるストーカーがPDAを通じて雑談を行うようになります。メッセージをオフにしたい場合は無効化してください。</text>
+  </string>
+  <string id="ui_mcm_ap_news_chatter_interval_sec">
+    <text>雑談メッセージの発生間隔（秒）</text>
+  </string>
+  <string id="ui_mcm_ap_news_chatter_interval_sec_desc">
+    <text>メッセージが表示されてから、次のメッセージが送られるまでの最小待機時間（秒）を設定します。複数のイベントが同時に起きた際、PDAの通知ログが埋め尽くされるのを防ぐことができます。</text>
   </string>
   <string id="ui_mcm_ap_news_news_interval_min_sec">
     <text>配信間隔の最小値</text>
@@ -785,12 +809,6 @@
   <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads_desc">
     <text>討伐者を追跡するミュータントの群れの最大数を設定します。</text>
   </string>
-  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases">
-    <text>追跡者ごとの最大追跡回数</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_chases_desc">
-    <text>獲物を見失った際、再び追跡を開始する最大回数です。0にすると一度振り切れば追ってきません。</text>
-  </string>
   <!-- ==================== CONSEQUENCES / MASSACRE SCAVENGE ==================== -->
   <string id="ui_mcm_ap_consequences_massacre_scavenge_title">
     <text>大虐殺: 死体漁り</text>
@@ -954,12 +972,6 @@
   <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_squads_desc">
     <text>殺害者を追跡する復讐分隊の最大数を設定します（1から設定値の間でランダムに決定されます）。</text>
   </string>
-  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases">
-    <text>復讐者ごとの最大追跡回数</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_max_chases_desc">
-    <text>復讐者が、逃げる殺害者を執拗に追跡する最大回数を設定します。「0」に設定すると追跡が無効になります。</text>
-  </string>
   <!-- ==================== CONSEQUENCES / BASEKILL SUPPORT ==================== -->
   <string id="ui_mcm_ap_consequences_basekill_support_title">
     <text>拠点壊滅: 増援</text>
@@ -1122,12 +1134,6 @@
   </string>
   <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_squads_desc">
     <text>アーティファクトの取得者を追跡する分隊の最大数を設定します。実際の追跡数は、1からこの設定値の間でランダムに決定されます。</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases">
-    <text>追跡者ごとの最大追跡回数</text>
-  </string>
-  <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_max_chases_desc">
-    <text>逃げる取得者に対して、追跡分隊が追いかけ続ける最大回数を設定します。0に設定すると、追跡行動そのものが無効化されます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / HARVEST HAUNT ==================== -->
   <string id="ui_mcm_ap_consequences_harvest_haunt_title">
@@ -1965,42 +1971,120 @@
     <text>戦利品の所有権設定</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_desc">
-    <text>プレイヤーが近くにいる際、NPCがプレイヤーの獲物を横取りしなくなります。同時に、NPCが倒した獲物も、そのNPCが生存し近くにいる間は漁ることができなくなります。相手から離れるか、そのNPCが死亡すれば死体は開放されます。この所有権が主張される範囲は「有効半径」で調整可能です。</text>
+    <text>「獲物は仕留めた者のものである」という所有権の概念を導入します。このルールはプレイヤー、NPC、敵対分隊のすべてに公平に適用されます。持ち主が死体の近くにいる間、他者はその死体を漁ることができません。所有権が認められる有効半径や持続時間は、対象ごとに個別に設定可能です。</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_enabled">
-    <text>戦利品の所有権を有効化</text>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_enabled">
+    <text>プレイヤーの獲物を保護する</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_enabled_desc">
-    <text>戦利品に対する「所有権」の概念を導入します。無効にするとバニラと同じ挙動になり、NPCがあなたの獲物を奪ったり、あなたがNPCの獲物を自由に奪ったりできるようになります。</text>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_enabled_desc">
+    <text>有効にすると、プレイヤーが倒した敵の死体をNPCが勝手に漁らなくなります。ただし、プレイヤーが有効半径から離れると所有権が失効し、通りすがりのストーカーに略奪される可能性があります。</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_reserve_own">
-    <text>プレイヤーの獲物を保護</text>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_radius">
+    <text>プレイヤーの所有権: 有効半径 (m)</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_desc">
-    <text>プレイヤーが倒した敵の死体を、周囲のNPCが勝手に漁らないように保護します。プレイヤーが一定の有効半径内にいる場合にのみ機能します。</text>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_radius_desc">
+    <text>死体に対して所有権を維持するために、プレイヤーが留まる必要がある距離を設定します。</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_block_npc">
-    <text>NPCの獲物を保護</text>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_ttl">
+    <text>プレイヤーの所有権: 持続時間（時間）</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_block_npc_desc">
-    <text>NPCが倒した敵の死体を、そのNPCが生存し有効半径内にいる間は漁れないように制限します。</text>
+  <string id="ui_mcm_ap_economy_loot_loot_reserve_own_ttl_desc">
+    <text>所有権が自然消滅するまでのゲーム内時間を設定します。</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_reservation_radius">
-    <text>所有権の有効半径 (m)</text>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_enabled">
+    <text>NPCの獲物へのアクセスを制限する</text>
   </string>
-  <string id="ui_mcm_ap_economy_loot_loot_reservation_radius_desc">
-    <text>死体に対して所有権が主張される距離を設定します。倒した本人がこの距離内にいる間は他者が漁れなくなり、この範囲外に出ると所有権が失効します。</text>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_enabled_desc">
+    <text>NPC分隊が倒した獲物を、プレイヤーが自由に漁れないように制限します。持ち主が近くにいる状態で調べようとすると、PDAに所有者の名前が表示されます。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_radius">
+    <text>NPCの所有権: 有効半径 (m)</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_radius_desc">
+    <text>NPCが死体の所有権を維持するために、その分隊員が留まる必要がある距離を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_ttl">
+    <text>NPCの所有権: 持続時間（時間）</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_ttl_desc">
+    <text>NPC側の所有権が自然消滅するまでのゲーム内時間を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_enabled">
+    <text>NPC同士の横取りを制限する</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_enabled_desc">
+    <text>あるNPC分隊が倒した獲物を、別のNPC分隊が勝手に漁るのを防ぎます。これにより、戦った当事者のみが戦利品を回収できるようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_radius">
+    <text>NPC間所有権: 有効半径 (m)</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_radius_desc">
+    <text>NPC分隊同士で所有権を主張し合う距離を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_ttl">
+    <text>NPC間所有権: 持続時間（時間）</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_ttl_desc">
+    <text>NPC分隊同士の所有権が失効するまでのゲーム内時間を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_policy_title">
+    <text>戦利品の回収基準</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_policy_desc">
+    <text>NPCが死体から何を回収するかを管理します。NPCは自分の武器に合う弾薬や高価値のアイテムを優先的に拾い、それ以外の不要なガラクタをその場で破棄（消去）するようになります。これにより、NPCの所持品が過剰に膨れ上がるのを防ぎ、長期プレイ時にセーブデータが肥大化してパフォーマンスが低下したり、ゲームが破損したりするのを抑制します。このルールはトレードやスタッシュの基準と共通のポリシーファイルで管理されています。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_policy_loot_select_enabled">
+    <text>回収ポリシーを適用する</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_policy_loot_select_enabled_desc">
+    <text>有効にすると、NPCが戦利品を厳選して回収し、余剰分を破棄するようになります。オフにするとバニラの挙動に戻り、NPCは際限なくアイテムを拾い続けます。</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_title">
-    <text>NPCの取引挙動</text>
+    <text>NPCの取引設定</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_desc">
-    <text>ストーカーがトレーダーに到達した際の、物資補充と余剰品売却のルールを設定します。各ランクが何を売買するかは取引ポリシーに準拠します。なお、NPC自身の取引機能そのものの有効化は発生原因メニューの「物資補給」の設定から行ってください。</text>
+    <text>NPCがトレーダーに到達した際の挙動を設定します。余剰品を売却し、ランクに応じた基準で弾薬や装備を補充するようになります。ルーキーは基本物資を、ベテランはより高性能な弾薬やグレネードを買い足します。以下の設定では、NPCが一度の訪問で得られる純利益の上限を制限できます。なお、NPCの取引機能自体は「発生要因: 物資補給（トレーダー）」の設定から有効化してください。</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_trade_profit_max">
-    <text>1回あたりの最大取引利益 (ルーブル)</text>
+    <text>最大取引利益 (ルーブル)</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_trade_profit_max_desc">
-    <text>1回の取引訪問でNPCが得られる純利益の上限を設定します（全ランク共通）。「0」に設定すると利益が発生しなくなります。この設定は取引ポリシーファイルの設定を上書きします（デフォルト: 5000）。</text>
+    <text>1回の取引訪問でNPCが純粋に得られる現金の最大値を設定します。「0」に設定すると利益が発生しません（デフォルト: 5000）。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_title">
+    <text>市場経済の設定</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_desc">
+    <text>各勢力の拠点のトレーダーに、その勢力のメンバーが最近売却したアイテムを期間限定で在庫として並べる「セカンダリ・マーケット」機能を導入します。プレイヤーのランクに応じた商品が出現し、割増価格で販売されます。どのアイテムが出現するかやランク制限などは専用のポリシーファイルで管理されます。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_enabled">
+    <text>派閥市場を有効化</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_enabled_desc">
+    <text>派閥メンバーが売り払った品が、トレーダーの棚に一定期間並ぶようになります。オフにするとバニラの固定在庫のみに戻ります。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_items_per_trader">
+    <text>トレーダーごとの出品数</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_items_per_trader_desc">
+    <text>在庫補充時に追加されるマーケット由来のアイテム数を設定します。「0」に設定すると追加されません。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_window_hours">
+    <text>出品持続時間（ゲーム内時間）</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_window_hours_desc">
+    <text>追加されたアイテムが棚に並び続ける時間を設定します。この時間が経過するか、次回の定期補充タイミングが来るとアイテムは消滅します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_premium">
+    <text>販売価格の倍率</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_premium_desc">
+    <text>マーケットに出品されるアイテムの価格倍率です。耐久値に関わらず、ベース価格に対してこの倍率が適用されます。勢力との友好度や難易度による割引は別途適用されます。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_item_condition">
+    <text>出品アイテムの耐久値</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_item_condition_desc">
+    <text>マーケットに並ぶ商品の耐久値を設定します。1.00で新品、値を下げるほど使い古された状態で出品されます。</text>
   </string>
 </string_table>

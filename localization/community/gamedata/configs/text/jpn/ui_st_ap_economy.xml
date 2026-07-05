@@ -2,18 +2,50 @@
 <string_table>
   <!-- ==================== LOOT CLAIM TIPS ==================== -->
   <string id="st_ap_loot_claim_warn_001">
-    <text>そいつは俺が仕留めたんだ。手を出すな。</text>
+    <text>そいつは俺の獲物だ。手を出すな。</text>
   </string>
   <string id="st_ap_loot_claim_warn_002">
     <text>おい、その死体から離れてくれ。</text>
   </string>
   <string id="st_ap_loot_claim_warn_003">
-    <text>俺が倒したんだ。装備は俺のものだ。</text>
+    <text>そいつは俺が仕留めた。装備は俺のものだ。</text>
   </string>
   <string id="st_ap_loot_claim_warn_004">
-    <text>その死体に触れてみろ。タダじゃ済まないぞ。</text>
+    <text>その死体に触れてみろ。タダじゃ済まないぞ、#name#。</text>
   </string>
   <string id="st_ap_loot_claim_warn_005">
-    <text>下がれ。その物資は俺がもらう。</text>
+    <text>下がれ、#name#。その物資には先客がいる。</text>
+  </string>
+  <!-- Half A yield: an NPC leaves YOUR kill (seldom, the skipping stalker speaks) -->
+  <string id="st_ap_loot_reserve_yield_001">
+    <text>そいつはあんたに譲るよ、ストーカー。</text>
+  </string>
+  <string id="st_ap_loot_reserve_yield_002">
+    <text>あんたの獲物だ。漁る気はないさ。</text>
+  </string>
+  <string id="st_ap_loot_reserve_yield_003">
+    <text>その死体はあんたのものだ。俺は他を当たる。</text>
+  </string>
+  <string id="st_ap_loot_reserve_yield_004">
+    <text>そいつはあんたが仕留めたんだ、#name#。好きに漁れ。</text>
+  </string>
+  <string id="st_ap_loot_reserve_yield_005">
+    <text>あんたの獲物を横取りする気はないよ、#name#。</text>
+  </string>
+  <!-- Flow C yield: you witness an NPC pass up another squad's kill (seldom, the passer speaks) -->
+  <string id="st_ap_loot_npcvnpc_yield_001">
+    <text>俺の獲物じゃない。手は出さないさ。</text>
+  </string>
+  <string id="st_ap_loot_npcvnpc_yield_002">
+    <text>そいつは別の分隊の獲物だ。</text>
+  </string>
+  <string id="st_ap_loot_npcvnpc_yield_003">
+    <text>こいつは他の奴が仕留めた。戦利品もそいつのものだ。</text>
+  </string>
+  <string id="st_ap_loot_npcvnpc_yield_004">
+    <text>その獲物は#name#のものだ。俺たちが手を出す筋合いはない。</text>
+  </string>
+  <string id="st_ap_loot_npcvnpc_yield_005">
+    <text>#name#の獲物だ。そいつに譲ろう。</text>
   </string>
 </string_table>
