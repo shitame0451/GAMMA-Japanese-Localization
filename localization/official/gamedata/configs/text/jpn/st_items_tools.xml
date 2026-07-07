@@ -114,19 +114,17 @@
 	ARTEFACT HANDLING
 -->
 
-<!-- UNUSED
 	<string id="st_lead_box_name">
-		<text>Lead-lined Metal Container (Empty)</text>
+		<text>アーティファクト完全隔離容器（空）</text>
 	</string>
 	<string id="st_lead_box_descr">
-		<text>The LLMC is a simple metal box with thick walls and foam inserts as well as a heavy, pressure-sealing lid. Specifically designed for transporting artefacts within the Zone. Stops all radiation, thus ensuring user safety when in possession of artefacts. However, the device cannot be attached to the belt, stopping any positive or negative properties from being applied.\n \n
+		<text>厚手の金属壁と緩衝材を備えた、圧力密閉式のシンプルな輸送用コンテナ。本来は放射性物質を安全に輸送するために設計されたものだが、ゾーン内では主にアーティファクトの保管や持ち運びに重宝されている。放射線を完全に遮断するため、アーティファクトを安全に携帯できるのが最大の強みだ。その頑丈さと引き換えに、この容器はベルトに装着することはできず、中に入れたアーティファクトの効果は一切発揮されなくなる。\n \n
 		%c[pda_white]特性:\n
-		%c[ui_cyan] • %c[pda_white] artefact storage device\n
-		%c[ui_cyan] • %c[pda_white] Capacity: %c[ui_gray_1]1\n \n
-		%c[ui_red]WARNING: %c[ui_gray_1]You must remove artefacts from the container prior to selling them.\n \n
+		%c[ui_cyan] • %c[pda_white]アーティファクト保管容器\n
 		</text>
 	</string>
 
+<!-- UNUSED
 	<string id="st_lead_box_half_name">
 		<text>Lead-lined Metal Container (Half-filled)</text>
 	</string>
