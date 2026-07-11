@@ -208,7 +208,7 @@
 		<text>緊急指令</text>
 	</string>
 	<string id="bar_dolg_leader_task_urgent_orders_text">
-		<text>デューティーの仲間が新種のブラッドサッカーに重症を負わされ、科学者の医療処置を必要としている。急がなければ！</text>
+		<text>デューティーの仲間が新種のブラッドサッカーに重傷を負わされ、科学者の医療処置を必要としている。急がなければ！</text>
 	</string>
 	<string id="bar_dolg_leader_task_urgent_orders_finish">
 		<text>よくやった、兵士よ！お前は仲間を救ったんだ。この調子で頼むぞ。</text>
@@ -230,7 +230,7 @@
 \n我々全員を裏切ったも同然だ。</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_text">
-		<text>仲間の兵士が新種のブラッドサッカーに重症を負わされ、科学者の医療処置を必要としている。急がなければ！</text>
+		<text>仲間の兵士が新種のブラッドサッカーに重傷を負わされ、科学者の医療処置を必要としている。急がなければ！</text>
 	</string>
 	<string id="agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_urgent_orders_finish">
 		<text>よくやったぞ、兵士よ！お前は仲間を救ったんだ。解散！</text>
