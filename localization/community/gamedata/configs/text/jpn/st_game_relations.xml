@@ -163,16 +163,16 @@
     <text>最高</text>
   </string>
   <string id="st_rank_increased">
-    <text>ランクが上がった</text>
+    <text>ランクが上昇した</text>
   </string>
   <string id="st_rank_decreased">
-    <text>ランクが下がった</text>
+    <text>ランクが低下した</text>
   </string>
   <string id="st_reputation_increased">
-    <text>評判が上がった</text>
+    <text>評判が向上した</text>
   </string>
   <string id="st_reputation_decreased">
-    <text>評判が下がった</text>
+    <text>評判が低下した</text>
   </string>
   <string id="st_relations_and">
     <text>と</text>

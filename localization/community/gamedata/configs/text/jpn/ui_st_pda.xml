@@ -316,13 +316,13 @@
     <text>救助した負傷者数</text>
   </string>
   <string id="pda_btn_relations">
-    <text>関係</text>
+    <text>友好度</text>
   </string>
   <string id="pda_btn_relations_hint">
-    <text>派閥間の関係を表示する</text>
+    <text>各派閥の友好度を表示する</text>
   </string>
   <string id="pda_relations_header">
-    <text>派閥間の関係</text>
+    <text>各派閥の友好度</text>
   </string>
   <string id="pda_companions_header">
     <text>同行NPC</text>

@@ -1392,9 +1392,9 @@
 		<text>動的な派閥関係</text>
 	</string>
 	<string id="ui_mm_alife_general_dynamic_relations_desc">
-		<text>有効にすると、ゾーン内で起こった戦闘によって派閥間の関係が変化します。
+		<text>有効にすると、ゾーン内で起こった戦闘によって各派閥の友好度が変化します。
 		\n共通の敵を倒すと関係が改善し、逆に味方が倒されると関係が悪化します。
-		\n関係変化の度合いは、倒されたNPCの重要度によって決まります。</text>
+		\n友好度変化の度合いは、倒されたNPCの重要度によって決まります。</text>
 	</string>
 	<string id="ui_mm_alife_general_war_goodwill_reset">
 		<text>敵対派閥との友好度リセット</text>

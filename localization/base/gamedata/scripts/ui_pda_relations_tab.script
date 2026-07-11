@@ -100,7 +100,7 @@ function pda_relations_tab:InitControls()
 				else 
 					--kobj:SetText(game.translate_string("st_actor_generic_name"))
 --					kobj:SetText(game.translate_string("st_ui_goodwill_name"))
-					kobj:SetText("自分との"..game.translate_string("st_ui_goodwill_name")) --japan
+					kobj:SetText("現在の"..game.translate_string("st_ui_goodwill_name")) --japanGAMMA
 				end
 			end
 			self.relations[i][k] = xml:InitTextWnd("tab:cell",self.tab)

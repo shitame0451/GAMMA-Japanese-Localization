@@ -564,22 +564,22 @@
 		<text>あなたはルールを破った、%sとの取引はできない！</text>
 	</string>
 	<string id="st_news_goodwill_update_title">
-		<text>ランキングの変更</text>
+		<text>友好度の変動</text>
 	</string>
 	<string id="st_news_goodwill_intro_1">
 		<text>最近の活動に関する噂が広まっている。</text>
 	</string>
 	<string id="st_news_goodwill_intro_lose_1">
-		<text>最近の失敗に関する噂が広まっている。</text>
+		<text>最近の失態に関する噂が広まっている。</text>
 	</string>
 	<string id="st_news_goodwill_main_1">
-		<text>%sからの評判が上がった。</text>
+		<text>%sとの友好度が上昇した。</text>
 	</string>
 	<string id="st_news_goodwill_main_lose_1">
-		<text>%sからの評判が下がった。</text>
+		<text>%sとの友好度が低下した。</text>
 	</string>
 	<string id="st_news_goodwill_enemy_1">
-		<text>%sはそれを良く思わなかった。</text>
+		<text>%sが警戒を強めている。</text>
 	</string>
 	<string id="st_bad_turn_into_bandit">
 		<text>グループから追放された！</text>
