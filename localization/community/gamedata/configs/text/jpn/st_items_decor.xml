@@ -291,10 +291,10 @@
 		</text>
 	</string>
 	<string id="st_placeable_merc_outfit">
-		<text>Mercenaryスーツ一式</text>
+		<text>傭兵用スーツ一式</text>
 	</string>
 	<string id="st_placeable_merc_outfit_descr">
-		<text>ボロボロのMercenary LCスーツ。これは装飾用だ。\n \n
+		<text>ボロボロの傭兵用LCスーツ。これは装飾用だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]設置できる\n
 		</text>
