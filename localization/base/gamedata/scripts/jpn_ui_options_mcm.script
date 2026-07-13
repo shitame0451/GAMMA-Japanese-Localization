@@ -17,11 +17,16 @@ local function add_japanese()
 	end
 end
 
+local init_opt_base_wrapped = false
+
 function on_mcm_load()
-	local base = ui_options.init_opt_base
-	ui_options.init_opt_base = function()
-		base()
-		add_japanese()
+	if not init_opt_base_wrapped then
+		local base = ui_options.init_opt_base
+		ui_options.init_opt_base = function()
+			base()
+			add_japanese()
+		end
+		init_opt_base_wrapped = true
 	end
 	add_japanese()
 end
