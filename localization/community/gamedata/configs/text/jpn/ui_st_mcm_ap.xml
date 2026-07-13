@@ -226,19 +226,19 @@
     <text>フレームワーク</text>
   </string>
   <string id="ui_mcm_ap_framework_desc">
-    <text>AlifePlusにおけるイベント発生の仕組みを管理します。各イベントの発生頻度は、「A-Lifeの比率」「A-Lifeの発生間隔」「発生原因」「実行結果」という4つの専用リミッターによって制御されます。</text>
+    <text>イベント処理の基幹設定です。A-Lifeの処理間隔（Rate）に基づいて分隊イベントが生成され、処理比率（Ratio）に従って自マップと背景マップに割り振られます。また、予算（Budget）制限により世界に与える影響の総量が管理されます。</text>
   </string>
   <string id="ui_mcm_ap_framework_alife_ratio">
     <text>A-Lifeの比率</text>
   </string>
   <string id="ui_mcm_ap_framework_alife_ratio_desc">
-    <text>プレイヤーがいるマップと、それ以外のマップにおけるイベント発生の優先度を調整します。数値を高くするほどプレイヤーの周囲でイベントが起きやすくなります。0に設定すると全マップで平等に発生し、マイナスの値にすると遠くのマップが優先されます。バニラ（X-Rayエンジン）本来の挙動を再現したい場合に有用です。</text>
+    <text>生成されたイベントを、プレイヤーがいるマップとそれ以外のマップにどの程度の割合で分配するかを決定します。値を大きくするほどプレイヤーの周囲でより多くのイベントが発生しやすくなり（「8」に設定すると、全イベントの約8割が現在のマップに集中します）、「0」で均等、負の値ではそれ以外のマップでのイベントが優先されます。</text>
   </string>
-  <string id="ui_mcm_ap_framework_distributor_interval_sec">
-    <text>A-Lifeの発生間隔（秒）</text>
+  <string id="ui_mcm_ap_framework_alife_rate">
+    <text>A-Lifeの処理頻度</text>
   </string>
-  <string id="ui_mcm_ap_framework_distributor_interval_sec_desc">
-    <text>ランダムイベントを評価する間隔を設定します。数値を低くするほどゾーンの活動が活発になり、高くするほど穏やかになります。なお、NPCの死亡など突発的な事象に対する「実行結果」は、イベントカテゴリごとに固定間隔の個別リミッターによって処理されます。</text>
+  <string id="ui_mcm_ap_framework_alife_rate_desc">
+    <text>[1分あたりのイベント数]\n全マップにおいて、1分間に何個の分隊に対してシミュレーションの判定を行うか設定します。ここでの「イベント」とは具体的なアクションではなく、AIが分隊のステータス（空腹、損耗、周囲の脅威やチャンスなど）を確認し、何らかの行動が必要かを判断する「思考の機会」を指します。大半の分隊は現状維持と判断されますが、状況が変化した分隊から優先的に処理が行われます。この設定はシミュレーション全体の進行ペースを調整するためのもので、死亡やアイテム使用による即時反応イベントとは独立して機能します。</text>
   </string>
   <string id="ui_mcm_ap_framework_cause_max_reactions">
     <text>リアクションの最大発生数</text>
@@ -1625,12 +1625,6 @@
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_extra_map_rank_desc">
     <text>分隊長がマスターランク以上（ランク17499以上）の場合に付与される、追加の探索可能距離を設定します。「0」に設定するとランクによるボーナスは適用されません（推奨: 1）。</text>
-  </string>
-  <string id="ui_mcm_ap_world_offmap_offmap_return_home_hours">
-    <text>帰還までの滞在時間</text>
-  </string>
-  <string id="ui_mcm_ap_world_offmap_offmap_return_home_hours_desc">
-    <text>エリア外の目的地に到着した分隊が、元のマップへ向けて出発するまでの滞在時間を設定します（1～336時間）。デフォルトは72時間（ゲーム内時間で3日間）です。</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_despawn_hours">
     <text>デスポーンの猶予時間（セーフティ）</text>
