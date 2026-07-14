@@ -150,7 +150,7 @@
 	</string>
 <!-- Added in 1.6 -->
 	<string id="st_kiltrak_killedby">
-		<text>\n殺害者:</text>
+		<text>殺害者:</text>
 	</string>
 <!-- Added in 1.7 -->
 	<string id="ui_mcm_milpda_milpdagen_autoclear">

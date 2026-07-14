@@ -1,22 +1,35 @@
 -- ish_kill_tracker.script
 
--- ===================================================================
---  map_spot_menu_add_property （キルマーカーのコンテキストメニューの "\n" を削除）
--- ===================================================================
-local original_map_spot_menu_add_property = ish_kill_tracker.map_spot_menu_add_property
+if not ish_kill_tracker
+or not ish_kill_tracker.add_body_dot
+then
+	return
+end
 
-ish_kill_tracker.map_spot_menu_add_property = function(property_ui, id, st1, st2)
-	local backup_AddItem = property_ui.AddItem
-	property_ui.AddItem = function(self, text, ...)
-		if type(text) == "string" then
-			text = string.gsub(text, "\\n", "")
-		end
-		return backup_AddItem(self, text, ...)
+-- ===================================================================
+--  殺害者名の前のカンマを改行にする （キルマーカーのマウスオーバー表示のみ）
+-- ===================================================================
+local function format_tooltip_text(text)
+	if type(text) ~= "string" then
+		return text
 	end
 
-	local result = original_map_spot_menu_add_property(property_ui, id, st1, st2)
+	local killed_by = game.translate_string("st_kiltrak_killedby")
+	if type(killed_by) ~= "string" or killed_by == "" then
+		return text
+	end
 
-	property_ui.AddItem = backup_AddItem
+	local separator = ", " .. killed_by
+	local start = string.find(text, separator, 1, true)
+	if not start then
+		return text
+	end
 
-	return result
+	return text:sub(1, start - 1) .. "\\n" .. text:sub(start + 2)
+end
+
+local original_add_body_dot = ish_kill_tracker.add_body_dot
+
+ish_kill_tracker.add_body_dot = function(id, text, ...)
+	return original_add_body_dot(id, format_tooltip_text(text), ...)
 end
