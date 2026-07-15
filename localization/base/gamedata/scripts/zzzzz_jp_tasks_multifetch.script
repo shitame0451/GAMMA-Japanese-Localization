@@ -1,0 +1,69 @@
+-- tasks_multifetch.script
+
+if not tasks_multifetch
+or not task_functor
+or not task_functor.multifetch_task_descr_functor
+then
+	return
+end
+
+-- ===================================================================
+--  multifetch_task_descr_functor （必要アイテムの数量表記と見出しの空白を調整）
+--  ミリタリーの技術者やスキンフリントが出すタスクで使用
+-- ===================================================================
+local original_multifetch_task_descr_functor = task_functor.multifetch_task_descr_functor
+
+task_functor.multifetch_task_descr_functor = function(tid, ...)
+	local results = { pcall(original_multifetch_task_descr_functor, tid, ...) }
+
+	if not results[1] then
+		error(results[2], 0)
+	end
+
+	local text = results[2]
+	local required_label = game.translate_string("st_multifetch_1")
+	local optional_label = game.translate_string("st_multifetch_3")
+	local item_color = "%c[default]"
+	if select(4, ...) == true then
+		-- 会話画面の iconed_answer_item が本文へ自動挿入する既定色
+		item_color = "%c[250,255,232,208]"
+	end
+	if type(text) == "string" then
+		-- PDAの見出し直後の最初のアイテムを一段下げて表示
+		if type(required_label) == "string" and required_label ~= "" then
+			local marker = required_label .. "\\n"
+			local start = string.find(text, marker, 1, true)
+			if start then
+				local after_marker = start + #marker
+				if text:sub(after_marker, after_marker) ~= " " then
+					text = text:sub(1, after_marker - 1) .. " " .. text:sub(after_marker)
+				end
+			end
+		end
+
+		if type(optional_label) == "string" and optional_label ~= "" then
+			local marker = "\\n " .. optional_label
+			local start = string.find(text, marker, 1, true)
+			if start then
+				text = text:sub(1, start - 1)
+					.. "\\n"
+					.. utils_xml.get_color("pda_white")
+					.. optional_label
+					.. item_color
+					.. text:sub(start + #marker)
+			end
+		end
+
+		-- "アイテム名 x 数量" を "アイテム名 (x数量)" に変更
+		text = text:gsub(" x (%d+)", function(amount)
+			return " "
+				.. utils_xml.get_color("pda_white")
+				.. "(x" .. amount .. ")"
+				.. item_color
+		end)
+
+		results[2] = text
+	end
+
+	return unpack(results, 2)
+end
