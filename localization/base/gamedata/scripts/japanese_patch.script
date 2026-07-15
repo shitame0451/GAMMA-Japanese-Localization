@@ -3,39 +3,99 @@
 -- ===================================================================
 --  名前と階級のリスト
 -- ===================================================================
-local name_group = {
-	"army",
-	"private",
-	"stalker",
-	"bandit",
-	"senior_sergeant",
-	"sergeant",
-	"lieutenant",
-	"captain",
-	"science",
-	"woman",
-	"d_isg_private",
-	"d_isg_sergeant",
-	"d_isg_lieutenant",
-	"d_isg_captain"
+local name_groups = {
+	{ id = "army" },
+	{ id = "private", is_rank = true },
+	{ id = "stalker" },
+	{ id = "bandit" },
+	{ id = "senior_sergeant", is_rank = true },
+	{ id = "sergeant", is_rank = true },
+	{ id = "lieutenant", is_rank = true },
+	{ id = "captain", is_rank = true },
+	{ id = "science" },
+	{ id = "woman" },
+	{ id = "private_woman", is_rank = true },
+	{ id = "sergeant_woman", is_rank = true },
+	{ id = "senior_sergeant_woman", is_rank = true },
+	{ id = "lieutenant_woman", is_rank = true },
+	{ id = "captain_woman", is_rank = true },
+	{ id = "d_isg_private", is_rank = true },
+	{ id = "d_isg_sergeant", is_rank = true },
+	{ id = "d_isg_lieutenant", is_rank = true },
+	{ id = "d_isg_captain", is_rank = true }
 }
 
-local milrank_group = {
-	private = true,
-	senior_sergeant = true,
-	sergeant = true,
-	lieutenant = true,
-	captain = true,
-	d_isg_private = true,
-	d_isg_sergeant = true,
-	d_isg_lieutenant = true,
-	d_isg_captain = true
-}
+local name_group_lookup, milrank_group = {}, {}
+for _, group in ipairs(name_groups) do
+	name_group_lookup[group.id] = true
+	if group.is_rank then
+		milrank_group[group.id] = true
+	end
+end
 
 -- ===================================================================
 --  辞書初期化
 -- ===================================================================
 local fnames, snames = {}, {}
+local name_dictionary_ready = false
+
+local name_error_stats = {
+	spawn = { count = 0, message_count = 0, messages = {} },
+	scan = { count = 0, message_count = 0, messages = {} },
+	dictionary = { count = 0, message_count = 0, messages = {} },
+}
+local spawn_error_log_scheduled = false
+
+local function is_japanese_language()
+	return ini_sys and ini_sys:r_string_ex("string_table", "language") == "jpn" or false
+end
+
+local function clear_name_dictionary()
+	fnames, snames = {}, {}
+	name_dictionary_ready = false
+end
+
+local function record_name_error(scope, err)
+	local stats = name_error_stats[scope]
+	if not stats then return end
+
+	local message = tostring(err)
+	stats.count = stats.count + 1
+	if stats.messages[message] then
+		stats.messages[message] = stats.messages[message] + 1
+	elseif stats.message_count < 3 then
+		stats.messages[message] = 1
+		stats.message_count = stats.message_count + 1
+	end
+end
+
+local function flush_name_errors(scope)
+	local stats = name_error_stats[scope]
+	if not stats or stats.count == 0 then return end
+
+	printf("[JP_PATCH] %s name errors: %d", scope, stats.count)
+	local shown = 0
+	for message, count in pairs(stats.messages) do
+		if shown >= 3 then break end
+		printf("[JP_PATCH] %s name error: %s (count=%d)", scope, message, count)
+		shown = shown + 1
+	end
+
+	stats.count = 0
+	stats.message_count = 0
+	stats.messages = {}
+end
+
+local function schedule_spawn_error_log()
+	if spawn_error_log_scheduled then return end
+
+	spawn_error_log_scheduled = true
+	CreateTimeEvent("jp_name_patch_errors", "flush_spawn_errors", 1, function()
+		flush_name_errors("spawn")
+		spawn_error_log_scheduled = false
+		return true
+	end)
+end
 
 local function load_group(prefix, group, target)
 	for i = 0, 1000 do
@@ -49,18 +109,51 @@ local function load_group(prefix, group, target)
 end
 
 local function get_name_dictionary()
-	fnames, snames = {}, {}
-	for _, g in ipairs(name_group) do
-		load_group("name", g, fnames)
-		load_group("lname", g, snames)
+	clear_name_dictionary()
+	if not is_japanese_language() then
+		return false
 	end
+
+	local ok, err = pcall(function()
+		for _, group in ipairs(name_groups) do
+			load_group("name", group.id, fnames)
+			load_group("lname", group.id, snames)
+		end
+	end)
+	if not ok then
+		clear_name_dictionary()
+		record_name_error("dictionary", err)
+		flush_name_errors("dictionary")
+		return false
+	end
+
+	name_dictionary_ready = true
+	return true
+end
+
+local function ensure_name_dictionary()
+	if not is_japanese_language() then
+		return false
+	end
+	if not name_dictionary_ready then
+		return get_name_dictionary()
+	end
+	return true
 end
 
 -- ===================================================================
 --  名前の変換
 -- ===================================================================
+local function format_japanese_name(first, second, group)
+	if milrank_group[group] then
+		return second .. first	-- 「姓 + 名（階級）」に変換
+	end
+	return first .. "・" .. second	-- 「名 + ・ + 姓」に変換
+end
+
 local function milrank_name_patch(name)
 	if not name or name == "" then return "" end
+	if not ensure_name_dictionary() then return name end
 
 	-- 英語の名前は変換しない
 	if not string.find(name, "[\128-\255]") then
@@ -77,18 +170,21 @@ local function milrank_name_patch(name)
 	local first, second = string.match(name, "^(%S+)%s+(%S+)$")
 	if not first or not second then return name end
 
-	local g_first, g_second = fnames[first], snames[second]
-	if not (g_first and g_second) then
+	local group = fnames[first]
+	if not (group and snames[second]) then
 		return name
 	end
 
-	-- 「名」が階級の場合:「姓 + 名（階級）」に変換
-	if milrank_group[g_first] then
-		return second .. first
-	end
+	return format_japanese_name(first, second, group)
+end
 
-	-- 「名」が通常の場合:「名 + ・ + 姓」に変換
-	return first .. "・" .. second
+local function get_input_id(input)
+	local ok, id = pcall(function() return input:id() end)
+	if ok and id ~= nil then return id end
+
+	ok, id = pcall(function() return input.id end)
+	if ok then return id end
+	return nil
 end
 
 -- ===================================================================
@@ -101,6 +197,7 @@ function character_name_jp(input)
 	if type(input) == "userdata" or (type(input)=="table" and input.character_name) then
 		local ok, name = pcall(function() return input:character_name() end)
 		if not ok or not name then return "" end
+		if get_input_id(input) == AC_ID then return name end
 		return milrank_name_patch(name)
 	elseif type(input) == "string" then
 		return milrank_name_patch(input)
@@ -121,57 +218,110 @@ end
 -- ===================================================================
 --  NPCのサーバーオブジェクト生成にフックして名前を変換
 -- ===================================================================
-local function process_npc_name(se_obj)
-	if not se_obj then return end
-	if not IsStalker(nil, se_obj:clsid()) then return end
+local function is_target_npc(se_obj)
+	return se_obj and se_obj.id ~= AC_ID and IsStalker(nil, se_obj:clsid())
+end
+
+local function generated_name_jp(se_obj)
+	local raw_name = se_obj:character_name_str()
+	if type(raw_name) ~= "string" then return nil end
+
+	local first_id, first_group, second_id, second_group =
+		string.match(raw_name, "^(name_(.-)_%d+):(lname_(.-)_%d+)$")
+	if not first_id or first_group ~= second_group or not name_group_lookup[first_group] then
+		return nil
+	end
+
+	local first = game.translate_string(first_id)
+	local second = game.translate_string(second_id)
+	if not first or first == "" or first == first_id
+		or not second or second == "" or second == second_id then
+		return nil
+	end
+
+	return format_japanese_name(first, second, first_group)
+end
+
+local function localize_npc_name(se_obj)
+	if not is_target_npc(se_obj) then return false end
 
 	local name = se_obj:character_name()
-	if name and string.find(name, " ") then
-		local jp_name = milrank_name_patch(name)
-		if jp_name ~= name then
-			se_obj:set_character_name(jp_name)
-			--printf("[JP_PATCH] Replaced name: " .. tostring(name) .. " -> " .. tostring(jp_name))
-		end
+	if not name then return false end
+
+	local jp_name = generated_name_jp(se_obj)
+	if not jp_name then return false end
+	if jp_name == name then return false end
+
+	se_obj:set_character_name(jp_name)
+	return true
+end
+
+local function process_npc_name(se_obj)
+	if not is_japanese_language() then return end
+
+	local ok, err = pcall(localize_npc_name, se_obj)
+	if not ok then
+		record_name_error("spawn", err)
+		schedule_spawn_error_log()
 	end
+end
+
+local function localize_npc_by_id(sim, id)
+	local se_obj = sim:object(id)
+	if not se_obj then return false end
+	return localize_npc_name(se_obj)
 end
 
 -- ===================================================================
 --  全NPCの名前を変換（初回・言語変更時に実行）
 -- ===================================================================
 local function localize_all_npc_name()
+	if not is_japanese_language() then
+		return false
+	end
+
 	local sim = alife()
 	if not sim then
 		return false
 	end
 
-	local replaced = 0
 	for i = 1, 65534 do
-		local se_obj = sim:object(i)
-		if se_obj and IsStalker(nil, se_obj:clsid()) then
-			local name = se_obj:character_name()
-			if name and string.find(name, " ") then
-				local jp_name = milrank_name_patch(name)
-				if jp_name ~= name then
-					se_obj:set_character_name(jp_name)
-					replaced = replaced + 1
-				end
-			end
+		local ok, err = pcall(localize_npc_by_id, sim, i)
+		if not ok then
+			record_name_error("scan", err)
 		end
 	end
-	--printf("[JP_PATCH] Replaced " .. tostring(replaced) .. " NPC names")
+	flush_name_errors("scan")
 	return true
 end
 
 -- ===================================================================
 --  スキャン開始の共通処理
 -- ===================================================================
-local function start_localization_scan()
-	CreateTimeEvent("jp_name_patch_scan_start", "scan_all_names_loop", 3, function()
-		return localize_all_npc_name()
-	end)
-end
-
 local is_localized_in_save = false
+
+local function start_localization_scan()
+	if not is_japanese_language() then return false end
+
+	CreateTimeEvent("jp_name_patch_scan_start", "scan_all_names_loop", 3, function()
+		if not is_japanese_language() then
+			clear_name_dictionary()
+			return true
+		end
+
+		local ok, scan_ok = pcall(localize_all_npc_name)
+		if not ok then
+			record_name_error("scan", scan_ok)
+			flush_name_errors("scan")
+			return true
+		end
+		if scan_ok then
+			is_localized_in_save = true
+		end
+		return scan_ok
+	end)
+	return true
+end
 
 -- ===================================================================
 --  セーブデータへの状態保存
@@ -188,9 +338,9 @@ end
 --  初回ロードのチェック
 -- ===================================================================
 local function actor_on_first_update()
+	if not is_japanese_language() then return end
 	if not is_localized_in_save then
 		start_localization_scan()
-		is_localized_in_save = true
 	end
 end
 
@@ -198,7 +348,11 @@ end
 --  コールバック登録
 -- ===================================================================
 function on_game_start()
-	get_name_dictionary()
+	if is_japanese_language() then
+		get_name_dictionary()
+	else
+		clear_name_dictionary()
+	end
 	RegisterScriptCallback("se_stalker_on_spawn", process_npc_name)
 
 	RegisterScriptCallback("save_state", save_state)
@@ -206,6 +360,10 @@ function on_game_start()
 	RegisterScriptCallback("actor_on_first_update", actor_on_first_update)
 
 	RegisterScriptCallback("on_localization_change", function()
+		if not is_japanese_language() then
+			clear_name_dictionary()
+			return
+		end
 		get_name_dictionary()
 		start_localization_scan()
 	end)
