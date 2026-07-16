@@ -1,32 +1,38 @@
 -- ap_ext_news.script
 
-if type(ap_ext_news) == "table" and type(ap_ext_news.compose_tick) == "function" then
+if not ap_ext_news then
+	return
+end
 
 -- ===================================================================
 --  xlevel.get_smart_display_name （AlifePlusの#Location#に挿入される地名を短縮）
 -- ===================================================================
-local original_get_smart_display_name = xlevel.get_smart_display_name
-xlevel.get_smart_display_name = function(smart, ...)
-	local name = original_get_smart_display_name(smart, ...)
+if xlevel
+and xlevel.get_smart_display_name
+then
+	local original_get_smart_display_name = xlevel.get_smart_display_name
+	xlevel.get_smart_display_name = function(smart, ...)
+		local name = original_get_smart_display_name(smart, ...)
 
-	if name and smart then
-		local info = debug.getinfo(2, "S")
-		if info and info.short_src and string.find(info.short_src, "ap_ext_news", 1, true) then
-			local smart_level = xlevel.get_level_id(smart)
-			local actor_level = xlevel.get_actor_level_id()
-			if smart_level and actor_level and smart_level ~= actor_level then
-				-- エリア外: 「ザトンの[スカドフスク]」と表示
-				local match = string.gsub(name, "%s+(%[)", "の%1")
-				return match
-			else
-				-- エリア内: 「[スカドフスク]」と表示
-				local match = string.match(name, "(%[.+%])")
-				if match then return match end
+		if name and smart then
+			local info = debug.getinfo(2, "S")
+			if info and info.short_src and string.find(info.short_src, "ap_ext_news", 1, true) then
+				local smart_level = xlevel.get_level_id(smart)
+				local actor_level = xlevel.get_actor_level_id()
+				if smart_level and actor_level and smart_level ~= actor_level then
+					-- エリア外: 「ザトンの[スカドフスク]」と表示
+					local match = string.gsub(name, "%s+(%[)", "の%1")
+					return match
+				else
+					-- エリア内: 「[スカドフスク]」と表示
+					local match = string.match(name, "(%[.+%])")
+					if match then return match end
+				end
 			end
 		end
-	end
 
-	return name
+		return name
+	end
 end
 
 -- ===================================================================
@@ -86,5 +92,6 @@ local function patch_news_internals()
 	end)
 end
 
-patch_news_internals()
+if ap_ext_news.compose_tick then
+	patch_news_internals()
 end
