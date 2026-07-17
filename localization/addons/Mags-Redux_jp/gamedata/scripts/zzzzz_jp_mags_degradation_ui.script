@@ -1,31 +1,45 @@
 -- mags_degradation_ui.script
 
-if mags_degradation_ui and mags_degradation_ui.on_game_start then
-	-- ===================================================================
-	--  mags_degradation_ui.on_game_start
-	-- ===================================================================
-	local original_degradation_on_game_start = mags_degradation_ui.on_game_start
+if not mags_degradation_ui
+or not mags_degradation_ui.on_game_start
+then
+	return
+end
 
-	mags_degradation_ui.on_game_start = function()
-		if original_degradation_on_game_start then
-			pcall(original_degradation_on_game_start)
-		end
+-- ===================================================================
+--  mags_degradation_ui.on_game_start
+-- ===================================================================
+local original_degradation_on_game_start = mags_degradation_ui.on_game_start
+local footer_patch_installed = false
 
+mags_degradation_ui.on_game_start = function(...)
+	original_degradation_on_game_start(...)
+
+	if not footer_patch_installed
+	and ui_item
+	and ui_item.build_desc_footer
+	then
 		local original_degrade_build_desc_footer = ui_item.build_desc_footer
-		ui_item.build_desc_footer = function(obj, sec, str)
-			local text = original_degrade_build_desc_footer(obj, sec, str)
+		ui_item.build_desc_footer = function(obj, sec, str, ...)
+		local text = original_degrade_build_desc_footer(obj, sec, str, ...)
 
-			if obj and magazine_binder and magazine_binder.is_magazine(obj) then
-				-- 改行と半角スペースの調整
-				text = text:gsub(
-					"\\n\\n %%c%[[^%]]-%]• %%c%[[^%]]-%](%%c%[pda_white%]耐久値:.*%%)",
-					"\\n%%c[d_cyan] %%c[d_cyan] • %1\\n"
-				)
+		if type(text) == "string"
+		and obj
+		and magazine_binder
+		and magazine_binder.is_magazine
+		and magazine_binder.is_magazine(obj)
+		then
+			-- 改行と半角スペースの調整
+			text = text:gsub(
+				"\\n\\n %%c%[[^%]]-%]• %%c%[[^%]]-%](%%c%[pda_white%]耐久値:.*%%)",
+				"\\n%%c[d_cyan] %%c[d_cyan] • %1\\n"
+			)
 
-				--printf("[JP Patch]\n%s", text)
-			end
-
-			return text
+			--printf("[JP Patch]\n%s", text)
 		end
+
+		return text
+		end
+		footer_patch_installed = true
 	end
 end

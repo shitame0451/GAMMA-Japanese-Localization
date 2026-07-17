@@ -1,25 +1,30 @@
 -- speed_loaders.script
 
-if speed_loaders then
-	-- ===================================================================
-	--  speed_loaders.ui_item.build_desc_header （スピードローダー装着情報）
-	--  ui_item.scriptのbuild_desc_headerがオリジナル
-	-- ===================================================================
-	local original_build_desc_header = ui_item.build_desc_header
+if not speed_loaders
+or not ui_item
+or not ui_item.build_desc_header
+then
+	return
+end
 
-	ui_item.build_desc_header = function(obj, sec, str)
-		local text = original_build_desc_header(obj, sec, str)
+-- ===================================================================
+--  speed_loaders.ui_item.build_desc_header （スピードローダー装着情報）
+--  ui_item.scriptのbuild_desc_headerがオリジナル
+-- ===================================================================
+local original_build_desc_header = ui_item.build_desc_header
 
-		if obj and IsWeapon(obj) then
-			-- スピードローダー装着時のテキスト表示の改行調整
-			text = text:gsub(
-				"\\n\\n  (%%c%[[^%]]-%]• " .. game.translate_string("st_speed_loader_attached") .. ")\\n \\n$",
-				"\\n  %1\\n"
-			)
+ui_item.build_desc_header = function(obj, sec, str, ...)
+	local text = original_build_desc_header(obj, sec, str, ...)
 
-			--printf("[JP Patch]\n%s", text)
-		end
+	if type(text) == "string" and obj and IsWeapon(obj) then
+		-- スピードローダー装着時のテキスト表示の改行調整
+		text = text:gsub(
+			"\\n\\n  (%%c%[[^%]]-%]• " .. game.translate_string("st_speed_loader_attached") .. ")\\n \\n$",
+			"\\n  %1\\n"
+		)
 
-		return text
+		--printf("[JP Patch]\n%s", text)
 	end
+
+	return text
 end
