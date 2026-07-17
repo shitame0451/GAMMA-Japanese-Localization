@@ -1366,19 +1366,19 @@
 		<text>この作業台では、このアイテムを作るために「%s」が必要である。</text>
 	</string>
 	<string id="st_ui_workshop_no_upgr_1">
-		<text>「%s」が必要。</text>
+		<text>「%s」が必要</text>
 	</string>
 	<string id="st_ui_workshop_no_upgr_2">
-		<text>「%s」が必要。</text>
+		<text>「%s」が必要</text>
 	</string>
 	<string id="st_ui_workshop_no_upgr_3">
-		<text>適切なツールが必要。</text>
+		<text>必要なツールが不足している</text>
 	</string>
 	<string id="st_ui_workshop_no_upgr_4">
-		<text>別のアップグレードがされている。</text>
+		<text>このスロットには別の改造が適用されている</text>
 	</string>
 	<string id="st_ui_workshop_no_upgr_5">
-		<text>先に前段階のアップグレードが必要。</text>
+		<text>前段階の改造を先に適用する必要がある</text>
 	</string>
 	<string id="st_ui_upgr_required_con">
 		<text>必要とされる最低限の耐久値</text>

@@ -1305,7 +1305,7 @@
 		<text>費用</text>
 	</string>
 	<string id="st_upgr_disable">
-		<text>改造することができない</text>
+		<text>この改造は適用できない</text>
 	</string>
 	<string id="st_upgr_installed">
 		<text>改造済み</text>

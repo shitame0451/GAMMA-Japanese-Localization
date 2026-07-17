@@ -13,12 +13,12 @@
 	<string id="st_upgr_o_physical_desc">
 		<text>スーツの物理的な防御性能を向上させるための各種アーマープレート、部品、取り付け具が含まれている。\n \n
             %c[yellow]スーツのアップグレードに使用:\n
-            %c[d_cyan] • %c[ui_gray_1]銃弾耐性\n
-            %c[d_cyan] • %c[ui_gray_1]衝撃耐性\n
-            %c[d_cyan] • %c[ui_gray_1]破裂耐性\n
-            %c[d_cyan] • %c[ui_gray_1]耐久性\n
-            %c[d_cyan] • %c[ui_gray_1]軽量化\n
-            %c[d_cyan] • %c[ui_gray_1]爆発耐性\n \n
+            %c[d_cyan] • %c[pda_white]銃弾耐性\n
+            %c[d_cyan] • %c[pda_white]衝撃耐性\n
+            %c[d_cyan] • %c[pda_white]破裂耐性\n
+            %c[d_cyan] • %c[pda_white]耐久性\n
+            %c[d_cyan] • %c[pda_white]軽量化\n
+            %c[d_cyan] • %c[pda_white]爆発耐性\n \n
         </text>
     </string>
 	<string id="st_upgr_o_magical">
@@ -27,11 +27,11 @@
 	<string id="st_upgr_o_magical_desc">
 		<text>スーツの環境耐性を高めるための特殊な耐性素材が含まれている。\n \n
             %c[yellow]スーツのアップグレードに使用:\n
-            %c[d_cyan] • %c[ui_gray_1]放射線耐性\n
-            %c[d_cyan] • %c[ui_gray_1]化学耐性\n
-            %c[d_cyan] • %c[ui_gray_1]熱耐性\n
-            %c[d_cyan] • %c[ui_gray_1]電気耐性\n
-            %c[d_cyan] • %c[ui_gray_1]精神耐性\n \n
+            %c[d_cyan] • %c[pda_white]放射線耐性\n
+            %c[d_cyan] • %c[pda_white]化学耐性\n
+            %c[d_cyan] • %c[pda_white]熱耐性\n
+            %c[d_cyan] • %c[pda_white]電気耐性\n
+            %c[d_cyan] • %c[pda_white]精神耐性\n \n
         </text>
     </string>
 	<string id="st_upgr_o_utility">
@@ -40,12 +40,12 @@
 	<string id="st_upgr_o_utility_desc">
 		<text>スーツやバックパックの利便性を高めるための固定具、各種ポーチ、機械装置が含まれている。\n \n
             %c[yellow]スーツとバックパックのアップグレードに使用:\n
-            %c[d_cyan] • %c[ui_gray_1]所持重量\n
-            %c[d_cyan] • %c[ui_gray_1]ベルトスロット\n
-            %c[d_cyan] • %c[ui_gray_1]スタミナ上昇\n
-            %c[d_cyan] • %c[ui_gray_1]体力回復\n
-            %c[d_cyan] • %c[ui_gray_1]止血効果\n
-            %c[d_cyan] • %c[ui_gray_1]サーボモーター強化\n \n
+            %c[d_cyan] • %c[pda_white]所持重量\n
+            %c[d_cyan] • %c[pda_white]ベルトスロット\n
+            %c[d_cyan] • %c[pda_white]スタミナ上昇\n
+            %c[d_cyan] • %c[pda_white]体力回復\n
+            %c[d_cyan] • %c[pda_white]止血効果\n
+            %c[d_cyan] • %c[pda_white]サーボモーター強化\n \n
         </text>
     </string>
 	<string id="st_upgr_w_internal">
@@ -54,11 +54,11 @@
 	<string id="st_upgr_w_internal_desc">
 		<text>高品質な武器部品と、銃器の内部機構を調整するための工具が含まれている。\n \n
             %c[yellow]銃のアップグレードに使用:\n
-            %c[d_cyan] • %c[ui_gray_1]信頼性\n
-            %c[d_cyan] • %c[ui_gray_1]反動\n
-            %c[d_cyan] • %c[ui_gray_1]発射速度\n
-            %c[d_cyan] • %c[ui_gray_1]口径変更\n
-            %c[d_cyan] • %c[ui_gray_1]射撃モード\n \n</text>
+            %c[d_cyan] • %c[pda_white]信頼性\n
+            %c[d_cyan] • %c[pda_white]反動\n
+            %c[d_cyan] • %c[pda_white]発射速度\n
+            %c[d_cyan] • %c[pda_white]口径変更\n
+            %c[d_cyan] • %c[pda_white]射撃モード\n \n</text>
     </string>
 	<string id="st_upgr_w_external">
 		<text>銃器追加アップグレードキット</text>
@@ -66,11 +66,11 @@
 	<string id="st_upgr_w_external_desc">
 		<text>銃身、レール、マウント、その他の銃器部品など、銃器本体の改造やメンテナンスに用いる工具が含まれている。\n \n
             %c[yellow]銃のアップグレードに使用:\n
-            %c[d_cyan] • %c[ui_gray_1]低伸性\n
-            %c[d_cyan] • %c[ui_gray_1]命中精度\n
-            %c[d_cyan] • %c[ui_gray_1]取り回し\n
-            %c[d_cyan] • %c[ui_gray_1]軽量化\n
-            %c[d_cyan] • %c[ui_gray_1]アタッチメント用マウント\n \n</text>
+            %c[d_cyan] • %c[pda_white]低伸性\n
+            %c[d_cyan] • %c[pda_white]命中精度\n
+            %c[d_cyan] • %c[pda_white]取り回し\n
+            %c[d_cyan] • %c[pda_white]軽量化\n
+            %c[d_cyan] • %c[pda_white]アタッチメント用マウント\n \n</text>
     </string>
 	<string id="st_upgr_w_optical">
 		<text>光学スコープアップグレードキット</text>
