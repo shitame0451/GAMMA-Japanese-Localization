@@ -23,4 +23,20 @@
   <string id="st_ap_chatter_market_005">
     <text>#trader#が#item#を入荷した。なくなる前に見に行ったほうがいいぜ。</text>
   </string>
+
+  <string id="st_ap_chatter_market_short_001">
+    <text>#trader#の#item#、残り少ないらしいぞ。</text>
+  </string>
+  <string id="st_ap_chatter_market_short_002">
+    <text>#trader#の#item#はもう売り切れたって話だ。</text>
+  </string>
+  <string id="st_ap_chatter_market_short_003">
+    <text>今、#trader#のところは#item#が品薄らしい。</text>
+  </string>
+  <string id="st_ap_chatter_market_short_004">
+    <text>#location#の#trader#は#item#を切らしてるらしい。</text>
+  </string>
+  <string id="st_ap_chatter_market_short_005">
+    <text>#trader#の#item#はもう底を突きそうだ。他を当たるんだな。</text>
+  </string>
 </string_table>

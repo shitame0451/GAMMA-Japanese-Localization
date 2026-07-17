@@ -498,10 +498,10 @@
   </string>
   <!-- ==================== CAUSES / AREA ==================== -->
   <string id="ui_mcm_ap_causes_area_conquer_tag">
-    <text>発生原因: エリア制圧\n概要: ストーカー分隊が空の重要地点（スマートテレイン）を確保した際に発生します。\n判定基準: 視界内、日中、Ecologist以外の派閥、性格（縄張り意識・攻撃性）、空の地点、拠点以外、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: エリア制圧\n概要: ストーカー分隊が空の重要地点（スマートテレイン）を確保した際に発生します。\n判定基準: 視界内、日中、Ecologist以外の派閥、性格（縄張り意識・攻撃性）、空の地点、拠点以外、レベルごとの派閥スマート数上限、戦術、MVT（最小待機時間）</text>
   </string>
   <string id="ui_mcm_ap_causes_area_swarm_tag">
-    <text>発生原因: エリア占拠\n概要: ミュータントの群れが空の重要地点を確保した際に発生します。\n判定基準: 視界内、日中、臆病でない個体、性格（縄張り意識・攻撃性）、空の地点、拠点以外、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: エリア占拠\n概要: ミュータントの群れが空の重要地点を確保した際に発生します。\n判定基準: 視界内、日中、臆病でない個体、性格（縄張り意識・攻撃性）、空の地点、拠点以外、レベルごとの派閥スマート数上限、戦術、MVT（最小待機時間）</text>
   </string>
   <string id="ui_mcm_ap_causes_area_infest_tag">
     <text>発生原因: エリア侵食\n概要: ミュータントが巣穴や退避所を確保した際に発生します。\n判定基準: 視界内、日中、臆病でない個体、性格（縄張り意識・生存本能）、種族に適した場所、拠点以外、未侵食、アルファ個体の存在、レベル別上限、戦術、MVT（最小待機時間）</text>
@@ -518,6 +518,12 @@
   <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_threshold_desc">
     <text>同じ分隊が再びエリア制圧を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
   </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_max_faction_smarts_per_level">
+    <text>レベルごとの派閥スマート上限</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_max_faction_smarts_per_level_desc">
+    <text>各レベルで、1つの派閥が占有できるスマートテレインの上限を設定します。占有数がこの値に達した派閥は、そのレベルで新たな制圧を行いません。制圧によって獲得したものに限らず、その派閥が占有しているすべてのスマートテレインがカウントされます。</text>
+  </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled">
     <text>有効化</text>
   </string>
@@ -529,6 +535,12 @@
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold_desc">
     <text>同じ群れが再びエリア占拠を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_max_faction_smarts_per_level">
+    <text>レベルごとのミュータントスマート上限</text>
+  </string>
+  <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_max_faction_smarts_per_level_desc">
+    <text>各レベルで、ミュータントが占有できるスマートテレインの上限を設定します。いずれかの種族のミュータント分隊による占有数が合計でこの値に達すると、そのレベルで新たな群襲を行いません。すべてのミュータント種族は同一勢力としてカウントされます。</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled">
     <text>有効化</text>
@@ -1509,12 +1521,6 @@
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart_desc">
     <text>制圧されたエリアにおいて、制圧した派閥の分隊も出現するように設定を書き換えます。無効にした場合、スポーン傾向は変化せず、分隊の移動のみが行われます。</text>
   </string>
-  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_max_per_level">
-    <text>マップごとの最大占領地点数</text>
-  </string>
-  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_max_per_level_desc">
-    <text>[1〜5]\n1つのマップ内で勢力が占領・制圧できる重要地点（スマートテレイン）の最大数を設定します。値を調整することで、勢力の拡張規模をコントロールできます。デフォルトは「3」です。</text>
-  </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_spawn_num">
     <text>追加される分隊数</text>
   </string>
@@ -1539,12 +1545,6 @@
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart_desc">
     <text>大発生が発生したエリアにおいて、対象のミュータント種が出現するように設定を書き換えます。無効にした場合、スポーン傾向は変化せず、移動挙動のみが適用されます。</text>
-  </string>
-  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_max_per_level">
-    <text>マップごとの最大大発生地点数</text>
-  </string>
-  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_max_per_level_desc">
-    <text>[1〜5]\n1つのマップ内でミュータントの大発生が発生する地点の最大数を設定します。デフォルトは「3」です。</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_spawn_num">
     <text>追加される分隊数</text>
@@ -2049,7 +2049,7 @@
     <text>市場経済の設定</text>
   </string>
   <string id="ui_mcm_ap_economy_market_desc">
-    <text>各勢力の拠点のトレーダーに、その勢力のメンバーが最近売却したアイテムを期間限定で在庫として並べる「セカンダリ・マーケット」機能を導入します。プレイヤーのランクに応じた商品が出現し、割増価格で販売されます。どのアイテムが出現するかやランク制限などは専用のポリシーファイルで管理されます。</text>
+    <text>バニラでは、トレーダーの在庫は個別の設定に基づいて補充のたびに再生成され、所属派閥のストーカーによる取引内容は反映されません。この機能を有効にすると、派閥内の取引がトレーダーの在庫に影響するようになります。各派閥の拠点トレーダーには、その派閥のストーカーが最近売却したアイテムの一部が補充時に追加されます。追加アイテムはプレイヤーのランクによって制限され、割増価格で販売され、一定期間後に在庫から削除されます。逆に、トレーダーが最近その派閥のストーカーへ販売したアイテムの一部は、同じ補充時に新しい在庫から除外されます。追加または売り切れの対象となるアイテム、数量上限、必要ランクは、編集可能なポリシーファイルで設定できます。価格倍率、アイテムの状態、トレーダー在庫の売り切れ設定は、以下のスライダーで調整できます。</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_enabled">
     <text>派閥市場を有効化</text>
@@ -2080,5 +2080,17 @@
   </string>
   <string id="ui_mcm_ap_economy_market_market_item_condition_desc">
     <text>マーケットに並ぶ商品の耐久値を設定します。1.00で新品、値を下げるほど使い古された状態で出品されます。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_trader_sell_percent">
+    <text>トレーダー在庫の売り切れ率（%）</text>
+  </string>
+  <string id="ui_mcm_ap_economy_market_market_trader_sell_percent_desc">
+    <text>トレーダーが最近所属派閥のストーカーに販売したアイテムについて、補充時に新しい在庫から除外する割合を設定します。ポリシーファイルで指定された弾薬と医療品にのみ適用されます。値が低い場合は希少な在庫も残りやすくなり、100%に設定すると対象アイテムがすべて在庫から除外されます。</text>
+  </string>
+  <string id="st_ap_reset_all_done">
+    <text>AlifePlus：すべての設定を既定値に戻しました。</text>
+  </string>
+  <string id="st_ap_reset_stateless_done">
+    <text>AlifePlus：ステートレス設定を既定値に戻しました。</text>
   </string>
 </string_table>
