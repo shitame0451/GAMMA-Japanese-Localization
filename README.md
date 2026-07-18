@@ -30,11 +30,11 @@
 | :--- | :--- |
 | [MCM Key Wrapper (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/mcm-key-wrapper) | - |
 | [New Item Highlight (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/new-item-highlight) | `v2` |
-| [Dynamic Reload Speeds (GitHub)](https://github.com/Verdatim25/Dynamic-Reload-Speeds/releases/) | `v1.0` |
-| [GAMMA Mags Reloaded (Discord](https://discord.com/channels/912320241713958912/1322655858240262304/1322655858240262304) | `v1.02` |
-| [AmmoCheck Enhanced (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/ammocheck-enhanced) | `v3.0` |
-| [xlibs (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001) | `v1.7.6` |
-| [AlifePlus (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/alifeplus-v1-0-01) | `v1.7.6` |
+| [Dynamic Reload Speeds (GitHub)](https://github.com/Verdatim25/Dynamic-Reload-Speeds/releases/latest) | `v1.1` |
+| [GAMMA Mags Reloaded (GitHub)](https://github.com/andtheherois/GAMMA-Mags-Reloaded/releases/latest) | `v1.05` |
+| [Ammo Check Enhanced (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/ammocheck-enhanced) | `v3.3` |
+| [xlibs (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/xlibs-1001) | `v1.8.2` |
+| [AlifePlus (ModDB)](https://www.moddb.com/mods/stalker-anomaly/addons/alifeplus-v1-0-01) | `v1.8.3` |
 
 ## 本Modについて
 この日本語化Modは「S.T.A.L.K.E.R. Anomaly 1.5.2日本語化MOD」および「EFP 4.2日本語化MOD」を基に制作を始めています。  
