@@ -1163,7 +1163,7 @@
 
 	<!-- Eliminate Dangerous Mutants Simulation Task -->
 	<string id="simulation_task_144_name">
-		<text>Militaryのための危険なミュータント退治</text>
+		<text>ミリタリーのための危険なミュータント退治</text>
 	</string>
 	<string id="simulation_task_144_text">
 		<text>指定の場所にいる危険なミュータントを排除する。</text>

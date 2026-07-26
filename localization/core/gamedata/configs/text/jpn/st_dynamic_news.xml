@@ -739,7 +739,7 @@
 		<text>陸軍</text>
 	</string>
 	<string id="st_dyn_news_comm_army_6">
-		<text>Military</text>
+		<text>ミリタリー</text>
 	</string>
 	<string id="st_dyn_news_comm_army_7">
 		<text>Militaryの兵士</text>
@@ -1084,7 +1084,7 @@
 		<text>Military</text>
 	</string>
 	<string id="st_dyn_news_comm_army_npc_9">
-		<text>Militaryたち</text>
+		<text>Militaryの連中</text>
 	</string>
 	<string id="st_dyn_news_comm_army_npc_10">
 		<text>Militaryの分隊</text>
@@ -5868,7 +5868,7 @@
 		<text>新しいファームウェアを入れとけよ。PDAのクラッシュが減るぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_9">
-		<text>レシー、お前どこほっつき歩いてるんだ？ボスがオフィスで待ってるぞ。</text>
+		<text>レーシイ、お前どこほっつき歩いてるんだ？ボスがオフィスで待ってるぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_10">
 		<text>ロキ、こちらはルーカッシュだ。プライベートチャンネルで連絡をくれ。大事な話がある。</text>
@@ -5957,7 +5957,7 @@
 \nあれはマジでぶっ飛ぶぜ！ハハハハ！！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_32">
-		<text>いい加減シャキッとしろ。基地でダラダラするのは勝手だが、防衛線を守るときは別だ。
+		<text>いい加減シャキッとしろ。基地でダラダラするのは勝手だが、バリアを守るときは別だ。
 \nサボってる奴を見かけたらゲートキーパーに叩き直してもらうからな。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_33">
@@ -6778,7 +6778,7 @@
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_11">
 		<text>行方不明だった$targetのグループを$mapで発見した。
-\n彼らは何らかの精神的な異常を抱えている。おそらく精神攻撃による影響だろう。
+\n彼らは何らかの精神的な異常を抱えている。おそらくPSI攻撃による影響だろう。
 \n指示を求める。しばらくはこちらで様子を見ておく。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_12">
@@ -7351,7 +7351,7 @@
 	</string>
 	<string id="st_dyn_news_spam_20">
 		<text>$clr_1匿名
-\n$clr_2謎の5人グループが防衛線に向かっているのが見える。おそらくMonolith兵だ。警戒しろよ。</text>
+\n$clr_2謎の5人グループがバリアに向かっているのが見える。おそらくMonolith兵だ。警戒しろよ。</text>
 	</string>
 	<string id="st_dyn_news_spam_21">
 		<text>$clr_1未知の情報源:
@@ -8532,7 +8532,7 @@
 \n$clr_2レーダー施設に向かった男に関する情報は何かあるか？ほら、あのイカれた奴だよ。
 
 \n\n$clr_1ヘラクレス
-\n$clr_2いや。防衛線にいる連中も戻ってくる姿は見てないそうだ。
+\n$clr_2いや。バリアにいる連中も戻ってくる姿は見てないそうだ。
 \n無事だと思いたいが、多分今頃はもうダメだろうな。気の毒に、あんな死に方は最悪だ。</text>
 	</string>
 	<string id="st_dyn_news_spam_262">
@@ -10500,7 +10500,7 @@
 		<text>Monolithはガウスライフルを何丁も持ってるらしい。気が滅入るよ･･････</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_25">
-		<text>スポアは精神アーティファクトを探しているみたいだ。</text>
+		<text>スポアはPSIアーティファクトを探しているみたいだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_csky_26">
 		<text>アノマリー対策には手を抜くなよ。必要になる時は突然来るからな。</text>
@@ -10829,7 +10829,7 @@
 		<text>「ゾーンの秩序を守る」だってよ。最高のジョークだな。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_freedom_5">
-		<text>防衛線ではMonolith兵が仲間たちを苦しめてる。
+		<text>バリアではMonolith兵が仲間たちを苦しめてる。
 \nまあ、あそこは昔から楽な戦場じゃなかった。気の毒だぜ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_freedom_6">
@@ -10911,7 +10911,7 @@
 		<text>ハワイアンにしばらく会ってないな。あいつは本当に気楽な奴だよ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_freedom_31">
-		<text>先週も防衛線で仲間を4人失った･･････ これはいつになったら終わるんだ？</text>
+		<text>先週もバリアで仲間を4人失った･･････ これはいつになったら終わるんだ？</text>
 	</string>
 	<string id="st_dyn_news_companion_life_freedom_32">
 		<text>頭がクソいてえ･･････ まあいい、俺は平気だ。</text>
@@ -11710,7 +11710,7 @@
 \nだが、奴らはどんな場所にも突破口を見つけるんだ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l08_yantar_1">
-		<text>俺はもう精神波を感じ始めてるぜ。</text>
+		<text>俺はもう精神波動を感じ始めてるぜ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l08_yantar_2">
 		<text>ミラクル・マシンはこの辺りのどこかにある。影響範囲に入るだけでもかなり危険だ。</text>
@@ -11769,7 +11769,7 @@
 		<text>あの村には本当にブラッドサッカーがいるのだろうか･･････ いや、やっぱり考えたくない。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_2">
-		<text>無政府主義者どもはこの辺りにいる。Monolithから防衛線を守るのに苦戦してるらしいな。</text>
+		<text>無政府主義者どもはこの辺りにいる。Monolithからバリアを守るのに苦戦してるらしいな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_3">
 		<text>俺ならあの村には絶対に近づかないぜ。</text>
@@ -11805,7 +11805,7 @@
 		<text>あんたが強力な武器を持ってきたことを願うよ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_14">
-		<text>防衛線から離れて移動しないか？頼むよ。</text>
+		<text>バリアから離れて移動しないか？頼むよ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_15">
 		<text>行ける道はいくらでもあるが･･････ ほとんどは最悪の道だ。</text>
@@ -11817,7 +11817,7 @@
 		<text>新しい死体の匂いがするな。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_18">
-		<text>陸軍倉庫も防衛線もFreedomにくれてやる。俺は遠慮するよ。</text>
+		<text>陸軍倉庫もバリアもFreedomにくれてやる。俺は遠慮するよ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l07_military_19">
 		<text>あの不気味な無線通信は、この辺から流れてきてるんだ。</text>

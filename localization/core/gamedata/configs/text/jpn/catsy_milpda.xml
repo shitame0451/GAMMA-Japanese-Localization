@@ -229,7 +229,7 @@
 \n各ランクのNPCのPDAを入手した際に得られる進行度をカスタマイズできます。</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_army">
-		<text>Military</text>
+		<text>ミリタリー</text>
 	</string>
 	<string id="ui_mcm_milpda_progressive_bandit">
 		<text>Bandit</text>

@@ -4,10 +4,10 @@
     <text>派閥（歴史的）</text>
   </string>
   <string id="encyclopedia_factions_historic_final_day">
-    <text>ファイナル・デイ（Final Day）</text>
+    <text>Final Day</text>
   </string>
   <string id="encyclopedia_factions_historic_final_day_text">
-    <text>                        %c[guide_blue]「ファイナル・デイ（Final Day）」
+    <text>                        %c[guide_blue]「Final Day」
 %c[ui_gray]科学者たちの一派で、「ラスト・デイ（Last Day）」や「ワイルドストーカー（Wild stalkers）」とも呼ばれていた。\n
 
                         \n%c[guide_green]情報
@@ -31,11 +31,11 @@
                         \n彼らの失敗にとらわれず、調査を継続するためにウクライナ政府は研究所を設立した。現在では一般的にEcologistと呼ばれている。</text>
   </string>
   <string id="encyclopedia_factions_historic_renegade">
-    <text>レネゲード（Renegade）</text>
+    <text>Renegade</text>
   </string>
   <string id="encyclopedia_factions_historic_renegade_text">
     <text>
-                        %c[guide_blue]「レネゲード（Renegade）」
+                        %c[guide_blue]「Renegade」
 %c[ui_gray]ゾーンの中で最も卑劣なストーカーたちだった。\n
 
                         \n%c[guide_green]情報\n

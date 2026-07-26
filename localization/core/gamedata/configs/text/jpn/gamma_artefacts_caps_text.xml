@@ -8,7 +8,7 @@
 		<text>%c[pda_white]電気耐性上限:</text>
 	</string>
 	<string id="gamma_telepatic_cap">
-		<text>%c[pda_white]精神耐性上限:</text>
+		<text>%c[pda_white]PSI耐性上限:</text>
 	</string>
 	<string id="gamma_chemical_burn_cap">
 		<text>%c[pda_white]化学耐性上限:</text>

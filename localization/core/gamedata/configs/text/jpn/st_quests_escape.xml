@@ -101,7 +101,7 @@
 		<text>負傷者の追跡</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_text">
-		<text>Militaryがゼノテックの野営地を襲撃し、ストーカーを虐殺した。逃げ延びた襲撃者の一人を追跡し、排除するよう頼まれた。</text>
+		<text>ミリタリーがゼノテックの野営地を襲撃し、ストーカーを虐殺した。逃げ延びた襲撃者の一人を追跡し、排除するよう頼まれた。</text>
 	</string>
 	<string id="drx_sl_esc_smart_terrain_5_7_loner_mechanic_stalker_task_2_about">
 		<text>あんた、今までどこにいた？
@@ -577,7 +577,7 @@
 		<text>ヒップの依頼人のためにTOZ-194と弾薬を見つける</text>
 	</string>
 	<string id="toz34_return_descr">
-		<text>ヒップによると、金持ちの客がTOZ-194と12x70 バックショット弾20発に大金を払うつもりらしい。防衛線の南部にいるトレーダーたちはそれを扱っていないようだ。</text>
+		<text>ヒップによると、金持ちの客がTOZ-194と12x70 バックショット弾20発に大金を払うつもりらしい。バリアの南部にいるトレーダーたちはそれを扱っていないようだ。</text>
 	</string>
 	<string id="artefacts_to_sidor_return">
 		<text>シドロヴィッチにアーティファクトを渡す</text>
@@ -604,7 +604,7 @@
 		<text>ルーカッシュと話す</text>
 	</string>
 	<string id="go_to_lukash_descr">
-		<text>ヒップはルーカッシュに会って、防衛線の北にいるストーカーたちに薬を届けたいと言っている。この仕事は緊急のようだ、早めに向かった方がいいだろう。</text>
+		<text>ヒップはルーカッシュに会って、バリアの北にいるストーカーたちに薬を届けたいと言っている。この仕事は緊急のようだ、早めに向かった方がいいだろう。</text>
 	</string>
 	<string id="go_to_boroda_1">
 		<text>アーティファクト容器をベアードに届ける</text>

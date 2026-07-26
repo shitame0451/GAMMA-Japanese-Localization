@@ -269,7 +269,7 @@
 		\n%c[pda_white] • %c[pda_white]トレーダーの所属する派閥のために任務をこなすことで、トレーダーの「サプライレベル」が向上する。レベルは友好度が500、1000、1500、2000に達するごとに上昇し、より高品質な弾薬や物資がラインナップに並ぶようになるだろう。
 		\n%c[pda_white] • %c[pda_white]トレーダーはワルシャワ条約機構（WP）側かNATO側のいずれかに属している。これは彼らが取り扱う弾薬やアタッチメントの種類に大きく影響する。
 		\n%c[pda_white] • NATO派閥: %c[pda_white]Mercenary、Clear Sky、Freedom、UNISG
-		\n%c[pda_white] • WP派閥: %c[pda_white]Military、Loner、Duty、Bandit、Renegade、Monolith
+		\n%c[pda_white] • WP派閥: %c[pda_white]ミリタリー、Loner、Duty、Bandit、Renegade、Monolith
 		\n%c[pda_white] • %c[pda_white]この区分は各派閥に属するストーカーの装備傾向にも反映される。例: Monolithは約50%の確率でNATO製またはWP製の銃器を装備している。
 		\n一部のトレーダーは特殊なアイテムを販売する場合がある。例えば、サハロフ教授やヘルマン教授はアーティファクトメルターを販売している。これはGAMMA専用のツールキットで、アーティファクトに力を与えたり、クラフトをすることができる。また、サプライレベルが5に達すると、強化外骨格用外部電源のレシピを販売するようになる。
 		</text>
@@ -298,7 +298,7 @@
 		\n%c[pda_white] • %c[pda_white]Clear Sky
 		\n%c[pda_white] • %c[pda_white]Duty
 		\n%c[pda_white] • %c[pda_white]Freedom
-		\n%c[pda_white] • %c[pda_white]Military
+		\n%c[pda_white] • %c[pda_white]ミリタリー
 		\n%c[pda_white] • %c[pda_white]Mercenary
 		\n%c[pda_white] • %c[pda_white]Ecologist
 		\n \n%c[pda_yellow]最後の夜明け:%c[pda_white]
@@ -312,8 +312,8 @@
 		\n%c[pda_white] • %c[pda_white]Ecologist
 		\n \n%c[pda_yellow]Monolith報復作戦:%c[pda_white]
 		\n開始するにはクズネツォフ大佐に話しかける。
-		\n以下のMilitary友好派閥で開始可能:
-		\n%c[pda_white] • %c[pda_white]Military
+		\n以下のミリタリー友好派閥で開始可能:
+		\n%c[pda_white] • %c[pda_white]ミリタリー
 		\n%c[pda_white] • %c[pda_white]Ecologist
 		\n \n%c[pda_yellow]Dr.Xクエストライン:%c[pda_white]
 		\nすべての派閥で開始できる。ストーリー性は薄いが、一連のタスクが用意されている。

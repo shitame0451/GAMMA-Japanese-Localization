@@ -85,7 +85,7 @@
 		<text>ブレイン・スコーチャーから身を守るため、精神波防護装置を入手する必要がある。</text>
 	</string>
 	<string id="lttz_ll_call_north_task_descr2">
-		<text>ゲートキーパーは防衛線を守り続けているベテランだ。彼なら、ストレロック一行の姿を目撃しているかもしれない。</text>
+		<text>ゲートキーパーはバリアを守り続けているベテランだ。彼なら、ストレロック一行の姿を目撃しているかもしれない。</text>
 	</string>
 
 	<!-- Living Legend Task 5 -->
@@ -93,7 +93,7 @@
 		<text>生ける伝説: 突破口</text>
 	</string>
 	<string id="lttz_ll_breakthrough_task_text">
-		<text>Monolithが防衛線に侵入してきた。レーダー施設へ向かうには、奴らを排除するしかない。</text>
+		<text>Monolithがバリアに侵入してきた。レーダー施設へ向かうには、奴らを排除するしかない。</text>
 	</string>
 	<string id="lttz_ll_talk_gatekeeper_task_descr">
 		<text>Monolithの襲撃を退けた。ゲートキーパーと話そう。</text>

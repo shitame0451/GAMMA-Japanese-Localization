@@ -633,10 +633,10 @@
 		<text>陸軍倉庫 [墜落したヘリコプター]</text>
 	</string>
 	<string id="st_mil_smart_terrain_3_8_name">
-		<text>陸軍倉庫 [防衛線]</text>
+		<text>陸軍倉庫 [バリア]</text>
 	</string>
 	<string id="st_mil_smart_terrain_4_8_name">
-		<text>陸軍倉庫 [防衛線の監視所]</text>
+		<text>陸軍倉庫 [バリアの監視所]</text>
 	</string>
 	<string id="st_mil_smart_terrain_4_7_name">
 		<text>陸軍倉庫 [道端の野営地]</text>
@@ -1524,7 +1524,7 @@
 		<text>軍事基地</text>
 	</string>
 	<string id="st_border_name">
-		<text>防衛線</text>
+		<text>バリア</text>
 	</string>
 	<string id="st_mon_base_name">
 		<text>文化宮殿</text>

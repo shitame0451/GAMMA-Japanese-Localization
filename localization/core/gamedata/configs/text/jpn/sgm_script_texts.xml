@@ -564,7 +564,7 @@
 		<text>Mercenary</text>
 	</string>
 	<string id="st_get_employer_kill_army">
-		<text>Military</text>
+		<text>ミリタリー</text>
 	</string>
 	<string id="st_get_employer_kill_monolith">
 		<text>Monolith</text>

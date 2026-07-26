@@ -4,11 +4,11 @@
     <text>派閥（その他）</text>
   </string>
   <string id="encyclopedia_factions_other_zombified">
-    <text>Zombified（ゾンビ）</text>
+    <text>Zombified</text>
   </string>
   <string id="encyclopedia_factions_other_zombified_text">
     <text>
-                        %c[pda_white]「Zombified（ゾンビ）」
+                        %c[pda_white]「Zombified」
 %c[ui_gray_1] 強烈な精神波の及ぶ領域の影響を受けたストーカーである。\n
 
                         \n%c[pda_green]情報

@@ -5,7 +5,7 @@
     <text>よう、ゲートキーパー。</text>
   </string>
   <string id="look_for_cs_history_part_4_2_1">
-    <text>おいあんた、リマンスクに行くのかい？もしレシーがいなければ･･････ ともかく、ようこそ。これからあんたの金が必要になるはずだ･･････ それと警備隊に見つからないようにな。奴らは契約に含まれちゃいないんだ。</text>
+    <text>おいあんた、リマンスクに行くのかい？もしレーシイがいなければ･･････ ともかく、ようこそ。これからあんたの金が必要になるはずだ･･････ それと警備隊に見つからないようにな。奴らは契約に含まれちゃいないんだ。</text>
   </string>
   <string id="look_for_cs_history_part_4_1_0">
     <text>これが金だ。</text>
@@ -14,7 +14,7 @@
     <text>よろしい。橋の上の時計に注意しろ。そこに着いたら、「ゲートキーパー」と言え。慎重に行動して、スカー失踪を解明する手がかりを見つけてきてくれ。</text>
   </string>
   <string id="look_for_cs_history_part_3_2_0">
-    <text>レシー、いいな？</text>
+    <text>レーシイ、いいな？</text>
   </string>
   <string id="look_for_cs_history_part_3_2_1">
     <text>そうだな、ガイド役は必要だ。あとは何かあるか？</text>
@@ -118,19 +118,19 @@
     <text>コールドから今回の飛び入りがフォレスターであることとその居場所を教わった。彼を誘い、リマンスクに辿り着く必要がある。</text>
   </string>
   <string id="task_look_for_cs_history_part_3_1">
-    <text>Clear Skyの足跡をたどる: レシーを見つける</text>
+    <text>Clear Skyの足跡をたどる: レーシイを見つける</text>
   </string>
   <string id="task_look_for_cs_history_part_3_2">
-    <text>Clear Skyの足跡をたどる: レシーと話す</text>
+    <text>Clear Skyの足跡をたどる: レーシイと話す</text>
   </string>
   <string id="task_look_for_cs_history_part_descr_3_1">
     <text>さて、Militaryの話に戻ろう。その橋をめぐる戦いの鍵となる人物は、今までずっと俺の目の前にいたことがわかった。</text>
   </string>
   <string id="task_look_for_cs_history_part_descr_3_2">
-    <text>やるべきことはただひとつ、レシーとの合意を取り付けるだけだ。これが冒険の終わりとなることを願う。</text>
+    <text>やるべきことはただひとつ、レーシイとの合意を取り付けるだけだ。これが冒険の終わりとなることを願う。</text>
   </string>
   <string id="task_look_for_cs_history_part_4_1">
-    <text>Clear Skyの足跡をたどる: 150,000ルーブルを集めてレシーに届ける</text>
+    <text>Clear Skyの足跡をたどる: 150,000ルーブルを集めてレーシイに届ける</text>
   </string>
   <string id="task_look_for_cs_history_part_4_3">
     <text>Clear Skyの足跡をたどる: ゲートキーパーとのミーティングに行く</text>

@@ -58,10 +58,10 @@
     </text>
   </string>
   <string id="st_faction_army">
-    <text>Military</text>
+    <text>ミリタリー</text>
   </string>
   <string id="st_faction_army_desc">
-    <text>\n%c[d_orange]Military
+    <text>\n%c[d_orange]ミリタリー
 \n \n%c[ui_8]ゾーンの封鎖や貴重な資源の保護、違法行為の
 \n取り締まりを任務とする正規の武装部隊。
 \n組織内の汚職や指揮系統の不安定さから、

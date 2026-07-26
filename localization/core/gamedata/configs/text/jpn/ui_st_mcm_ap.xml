@@ -329,7 +329,7 @@
     <text>ニュースの受信範囲</text>
   </string>
   <string id="ui_mcm_ap_news_news_scope_desc">
-    <text>どの派閥の無線を受信するかを設定します。\n・自派閥のみ: 所属する派閥の通信のみを受信します。\n・自派閥と同盟: 自派閥および友好関係にある派閥の通信を受信します（デフォルト）。\n・非敵対の全ストーカー: 敵対していないすべてのストーカーの通信を受信します。\nMonolith、Military、Sin、UNISGなどの派閥のチャンネルは、設定に関わらずメンバー専用となります。</text>
+    <text>どの派閥の無線を受信するかを設定します。\n・自派閥のみ: 所属する派閥の通信のみを受信します。\n・自派閥と同盟: 自派閥および友好関係にある派閥の通信を受信します（デフォルト）。\n・非敵対の全ストーカー: 敵対していないすべてのストーカーの通信を受信します。\nMonolith、ミリタリー、Sin、UNISGなどの派閥のチャンネルは、設定に関わらずメンバー専用となります。</text>
   </string>
   <string id="ap_news_news_scope_lst_own">
     <text>自派閥のみ</text>
@@ -1500,7 +1500,7 @@
     <text>有効</text>
   </string>
   <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_enabled_desc">
-    <text>現在のマップ内に利用可能な拠点が無い場合、ストーカーが休息を求めて他マップの拠点へと遠征するようになります。Military、Monolith、ゾンビ化ストーカーはこの挙動の対象外です。</text>
+    <text>現在のマップ内に利用可能な拠点が無い場合、ストーカーが休息を求めて他マップの拠点へと遠征するようになります。ミリタリー、Monolith、ゾンビ化ストーカーはこの挙動の対象外です。</text>
   </string>
   <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_rush">
     <text>ラッシュモード</text>

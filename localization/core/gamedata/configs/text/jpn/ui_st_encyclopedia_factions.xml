@@ -130,11 +130,11 @@
 	</string>
 	
 	<string id="encyclopedia_factions_military">
-		<text>Military</text>
+		<text>ミリタリー</text>
 	</string>
 	<string id="encyclopedia_factions_military_text">
 		<text>
-		%c[pda_white]「Military」%c[pda_white]
+		%c[pda_white]「ミリタリー」%c[pda_white]
 		\n内務省の権限とウクライナ保安庁の助言のもと、徴集兵、熟練のスペツナズ、そしてMilitary公認のストーカーたちで構成される混成部隊だ。
 		\n \n%c[pda_green]情報%c[pda_white]
 		\n彼らの主な任務は、ゾーンと外界を隔てる境界線の維持だ。同じ政府から資金提供を受けているEcologistや、スペツナズを通じて軍司令部と裏取引をしていると噂されるDutyを除き、ゾーンに住まうほぼすべての人間から憎悪の対象となっている。

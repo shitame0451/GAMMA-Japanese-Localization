@@ -7,7 +7,7 @@
     <text>Loner</text>
   </string>
   <string id="actor_army">
-    <text>Military</text>
+    <text>ミリタリー</text>
   </string>
   <string id="actor_bandit">
     <text>Bandit</text>
@@ -49,7 +49,7 @@
     <text>Zombified</text>
   </string>
   <string id="army">
-    <text>Military</text>
+    <text>ミリタリー</text>
   </string>
   <string id="bandit">
     <text>Bandit</text>

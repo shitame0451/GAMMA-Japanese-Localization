@@ -383,7 +383,7 @@
 	</string>
 	<string id="st_msg_chitchat_1_2_3">
 		<text>黙って出て行きやがって･･････ まあ、こっちは元気でやってるぜ。
-\nお前が夜の間に俺のウォッカを3本も持ち去ったことは許さねえけどな！</text>
+\nお前が夜中に俺のウォッカを3本も盗んだことは許さねえけどな！</text>
 	</string>
 	<string id="st_msg_chitchat_1_3_1">
 		<text>次にここに顔を出すときは、俺に何か良いモノを持って来いよ。</text>
@@ -401,7 +401,7 @@
 		<text>まったく、お前は最低の友達だな。</text>
 	</string>
 	<string id="st_msg_chitchat_1_4_1">
-		<text>ついでに、$traderが会いたがってたぞ。何の用か確認しとけよ。</text>
+		<text>そうだ、$traderが会いたがってたぞ。何の用か確認しとけよ。</text>
 	</string>
 	<string id="st_msg_chitchat_1_4_2">
 		<text>$leaderがお前のことを聞いてきたぜ。どうも重要な用事みたいだ。

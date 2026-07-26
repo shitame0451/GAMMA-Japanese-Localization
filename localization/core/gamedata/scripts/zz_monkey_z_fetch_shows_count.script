@@ -5,7 +5,7 @@
 OldTaskFetchPostponeForNextFrame = tasks_fetch.postpone_fetch_for_next_frame
 
 tasks_fetch.postpone_fetch_for_next_frame = function (task_id, section, amount)
-    if not (task_id and section) then
+	if not (task_id and section) then
 		return true
 	end
 

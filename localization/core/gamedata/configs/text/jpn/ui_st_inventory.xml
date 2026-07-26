@@ -443,8 +443,8 @@
 	</string>
 
 	<string id="ui_inv_telepatic_protection">
-		<text>%c[pda_white]精神耐性
-    \n \n精神波を放つミュータントやアノマリーによる精神攻撃から身を守り、ダメージを受けた際に生じる混乱効果を軽減する。
+		<text>%c[pda_white]PSI耐性
+    \n \n精神波動を放つミュータントやアノマリーによる精神攻撃から身を守り、ダメージを受けた際に生じる混乱効果を軽減する。
     \n \n有効なアイテム:
     \n%c[d_cyan] • %c[pda_white]ジョイント（大麻）
     \n%c[d_cyan] • %c[pda_white]エタペラジン
@@ -641,7 +641,7 @@
 		<text>%c[pda_white]電気耐性:</text>
 	</string>
 	<string id="ui_inv_outfit_telepatic_protection">
-		<text>%c[pda_white]精神耐性:</text>
+		<text>%c[pda_white]PSI耐性:</text>
 	</string>
 	<string id="ui_inv_outfit_wound_protection">
 		<text>%c[pda_white]裂傷耐性:</text>

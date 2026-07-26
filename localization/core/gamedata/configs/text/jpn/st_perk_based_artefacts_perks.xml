@@ -39,7 +39,7 @@
     %c[d_orange] • %c[pda_white]クリティカルダメージが10%上昇する\n
     %c[d_orange] • %c[pda_white]連続で攻撃を命中させると「クリティカル・アセンション」がスタックする\n
     %c[d_orange] • %c[pda_white]1スタックにつき、次の射撃ダメージが5%上昇する\n
-    %c[d_orange] • %c[pda_white]射撃を外すと全スタックが消失し、スタック数に応じた精神ダメージを受ける\n
+    %c[d_orange] • %c[pda_white]射撃を外すと全スタックが消失し、スタック数に応じたPSIダメージを受ける\n
     %c[d_orange] • %c[pda_white]射撃を命中させ続ける限り、この効果は無限に累積する\n
     %c[d_orange] • %c[pda_white]すべての«スパイク»を外すと、ペナルティなしでスタックが消失する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
@@ -49,8 +49,8 @@
   <string id="st_pba_af_signet_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]静寂の光\n
-    %c[d_orange] • %c[pda_white]焚き火の近くにいる間、体力と精神体力を回復する\n
-    %c[d_orange] • %c[pda_white]焚き火の近くにいる間、精神回復系アーティファクトの効果を増幅する\n
+    %c[d_orange] • %c[pda_white]焚き火の近くにいる間、体力とPSI体力を回復する\n
+    %c[d_orange] • %c[pda_white]焚き火の近くにいる間、PSI回復系アーティファクトの効果を増幅する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -102,7 +102,7 @@
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]信仰の重さ\n
     %c[d_orange] • %c[pda_white]体力とスタミナがわずかに自動回復する\n
-    %c[d_orange] • %c[pda_white]Sinの派閥メンバーは効果が3倍になり、さらに精神体力自動回復を得る\n
+    %c[d_orange] • %c[pda_white]Sinの派閥メンバーは効果が3倍になり、さらにPSI体力自動回復を得る\n
     %c[d_orange] • %c[pda_white]Sinの仲間の体力を自動回復する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
@@ -132,11 +132,11 @@
   <string id="st_pba_af_zhelch_perk">
     <text>
     %c[pda_white] 特殊能力: %c[d_orange]狂気\n
-    %c[d_orange] • %c[pda_white]高い精神耐性を得る\n
-    %c[d_orange] • %c[pda_white]精神体力を消費して体力を回復する\n
-    %c[d_orange] • %c[pda_white]体力が満タンの時は、精神体力を回復する\n
+    %c[d_orange] • %c[pda_white]高いPSI耐性を得る\n
+    %c[d_orange] • %c[pda_white]PSI体力を消費して体力を回復する\n
+    %c[d_orange] • %c[pda_white]体力が満タンの時は、PSI体力を回復する\n
     %c[d_orange] • %c[pda_white]一定確率で狂気に取り憑かれ、制御不能な行動を起こす\n
-    %c[d_orange] • %c[pda_white]精神体力が低いほど、その確率と行動の深刻度が上昇する\n
+    %c[d_orange] • %c[pda_white]PSI体力が低いほど、その確率と行動の深刻度が上昇する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 　　</text>
   </string>
@@ -265,10 +265,10 @@
     %c[pda_white]効果一覧: \n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]フレッシュの肉: 体力回復（1%/秒）、与える銃弾ダメージの減少（33%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ボアの肉: 近接ダメージ軽減（25%）\n
-    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ブラインドドッグの肉: わずかな止血効果、精神回復（1%/秒）\n
-    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]スードウドッグの肉: 精神回復（2%/秒）、精神ダメージ軽減（25%）\n
+    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ブラインドドッグの肉: わずかな止血効果、PSI回復（1%/秒）\n
+    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]スードウドッグの肉: PSI回復（2%/秒）、PSIダメージ軽減（25%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ブラッドサッカーの肉: 敵を攻撃するまで透明化、中程度の止血効果\n
-    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]サイサッカーの肉: 敵を攻撃するまで透明化、精神回復（5%/秒）\n
+    %c[ui_gray_1] %c[d_cyan] - %c[pda_white]サイサッカーの肉: 敵を攻撃するまで透明化、PSI回復（5%/秒）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]スノークの手: 放射線ダメージ軽減（50%）、スタミナ回復（5%/秒）、\n放射線治療（5mSv/秒）、空腹度が大幅に増加\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]キメラの肉: 体力回復（2%/秒）、スタミナ回復（10%/秒）、放射線耐性（33%）\n
     %c[ui_gray_1] %c[d_cyan] - %c[pda_white]ルーカーの肉: 化学/熱性/電気アノマリーのダメージ軽減（33%）\n

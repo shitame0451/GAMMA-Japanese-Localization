@@ -137,22 +137,22 @@
 		<text>[SYSCTL]警告: 機能が見つかりません</text>
 	</string>
 	<string id="st_err_power">
-		<text>[SYSCTL]警告: 電力が不足しています</text>
+		<text>[SYSCTL]警告: 電力不足</text>
 	</string>
 	<string id="st_err_cooldown">
-		<text>[SYSCTL]警告: システム温度が安全値を超過しています</text>
+		<text>[SYSCTL]警告: システム温度が安全閾値を超過</text>
 	</string>
 	<string id="st_ok_cooldown">
-		<text>[SYSCTL]情報: システム温度は正常です</text>
+		<text>[SYSCTL]情報: システム温度が安全閾値まで低下</text>
 	</string>
 	<string id="st_act_tank">
-		<text>[SYSCTL]情報: 重力バリア展開中</text>
+		<text>[SYSCTL]情報: 重力障壁を起動</text>
 	</string>
 	<string id="st_act_sprint">
-		<text>[SYSCTL]情報: モーターオーバークロック作動中</text>
+		<text>[SYSCTL]情報: 駆動系オーバークロックを起動</text>
 	</string>
 	<string id="st_low_power">
-		<text>[SYSCTL]警告: 電力が残りわずかです</text>
+		<text>[SYSCTL]警告: バッテリー残量低下</text>
 	</string>
 	<string id="ui_mcm_menu_exo">
 		<text>Powered Exos</text>

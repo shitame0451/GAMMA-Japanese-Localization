@@ -173,7 +173,7 @@
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_3_finish">
 		<text>終わったのか？よかった。辛い任務だったな。
-\n防衛線にいる仲間たちも、戦友に敬意を表して杯をあげるだろう。さあ、これが報酬だ。</text>
+\nバリアにいる仲間たちも、戦友に敬意を表して杯をあげるだろう。さあ、これが報酬だ。</text>
 	</string>
 
 
@@ -479,11 +479,11 @@
 	
 	<!-- Defend the barrier -->
 	<string id="barrier_defense_monolith_announce">
-		<text>これを聞いている友好的なストーカー諸君、Monolith兵の集団が防衛線に接近中だ。
+		<text>これを聞いている友好的なストーカー諸君、Monolith兵の集団がバリアに接近中だ。
 \n助けてもらえるとありがたい。もちろん、報酬も出そう。</text>
 	</string>
 	<string id="barrier_defense_monolith_title">
-		<text>防衛線を守る</text>
+		<text>バリアを守る</text>
 	</string>
 	<string id="barrier_defense_monolith_descr">
 		<text>FreedomがMonolithの襲撃を退けるために協力を求めている。</text>
@@ -511,7 +511,7 @@
 		<text>死体から見つけたものは、俺のものにしてもいいのか？</text>
 	</string>
 	<string id="barrier_defense_monolith_intro_1">
-		<text>あんたらの通信を聞いて、防衛線を守るために来た。</text>
+		<text>あんたらの通信を聞いて、バリアを守るために来た。</text>
 	</string>
 	<string id="barrier_defense_monolith_intro_2">
 		<text>素晴らしい。偵察隊から、複数のMonolith分隊が接近しているとの報告があった。
@@ -520,7 +520,7 @@
 \nだがそのときは、報酬は諦めてもらうぞ。</text>
 	</string>
 	<string id="barrier_defense_monolith_outro_1">
-		<text>防衛線は安全だ･･････ 少なくとも今のところはな。</text>
+		<text>バリアは安全だ･･････ 少なくとも今のところはな。</text>
 	</string>
 	<string id="barrier_defense_monolith_outro_2">
 		<text>いい腕だ、ストーカー。これを、あいつらにぶち込んだ弾代の足しにしてくれ。
@@ -541,11 +541,11 @@
 \n報酬を取りに戻ってきてくれ。</text>
 	</string>
 	<string id="barrier_defense_zombie_announce">
-		<text>これを聞いている友好的なストーカー諸君、ゾンビの集団が防衛線に接近中だ。
+		<text>これを聞いている友好的なストーカー諸君、ゾンビの集団がバリアに接近中だ。
 \n助けてもらえればありがたい、もちろん報酬も出そう。</text>
 	</string>
 	<string id="barrier_defense_zombie_title">
-		<text>防衛線を守る</text>
+		<text>バリアを守る</text>
 	</string>
 	<string id="barrier_defense_zombie_descr">
 		<text>Freedomは、ゾンビの襲撃を退けるために協力を求めている。</text>

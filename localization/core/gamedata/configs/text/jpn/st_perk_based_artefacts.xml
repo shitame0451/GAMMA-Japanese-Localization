@@ -21,7 +21,7 @@
 			%c[d_green] %c[d_green] - %c[pda_white]ダメージ軽減: %c[ui_gray_1]15%\n
 			%c[d_green] %c[d_green] - %c[pda_white]移動速度上昇: %c[ui_gray_1]35%\n
 			%c[d_green] %c[d_green] - %c[pda_white]体力回復: %c[ui_gray_1]1%/秒\n
-			%c[d_green] %c[d_green] - %c[pda_white]精神回復: %c[ui_gray_1]3%/秒\n
+			%c[d_green] %c[d_green] - %c[pda_white]PSI回復: %c[ui_gray_1]3%/秒\n
 			%c[d_green] %c[d_green] - %c[pda_white]最大重量: %c[ui_gray_1]+50kg\n
 			%c[pda_white] • %c[pda_white]耐久値が50% - 40%のとき:\n
 			%c[ui_red] %c[ui_red] - %c[pda_white]すべてのバフの消失\n

@@ -247,7 +247,7 @@
 		<text>Loner</text>
 	</string>
 	<string id="ui_mcm_lst_paw_badge_army">
-		<text>Military</text>
+		<text>ミリタリー</text>
 	</string>
 	<string id="ui_mcm_lst_paw_badge_bandit">
 		<text>Bandit</text>
@@ -384,7 +384,7 @@
 		<text>HR Loner</text>
 	</string>
 	<string id="ui_mcm_lst_paw_badge_hr_army">
-		<text>HR Military</text>
+		<text>HR ミリタリー</text>
 	</string>
 	<string id="ui_mcm_lst_paw_badge_hr_bandit">
 		<text>HR Bandit</text>
@@ -421,7 +421,7 @@
 		<text>UHR Loner</text>
 	</string>
 	<string id="ui_mcm_lst_paw_badge_uhr_army">
-		<text>UHR Military</text>
+		<text>UHR ミリタリー</text>
 	</string>
 	<string id="ui_mcm_lst_paw_badge_uhr_bandit">
 		<text>UHR Bandit</text>
