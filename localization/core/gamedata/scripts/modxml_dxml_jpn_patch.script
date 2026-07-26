@@ -1,0 +1,566 @@
+local REPLACEMENT_CATEGORIES = {
+	-- { source = "現在の表記", official = "公式準拠", community = "有志準拠", note = "元の英語名 (メモ)" },
+	faction = {
+		{ source = "Loner", official = "ローナー", community = "Loner", note = "Loner" },
+		{ source = "Bandit", official = "バンディット", community = "Bandit", note = "Bandit" },
+		{ source = "Clear Sky", official = "クリアスカイ", community = "Clear Sky", note = "Clear Sky" },
+		{ source = "Clear　Sky", official = "クリアスカイ", community = "Clear　Sky", note = "Clear Sky (ロード画面用)" },
+		{ source = "Duty", official = "デューティー", community = "Duty", note = "Duty" },
+		{ source = "Freedom", official = "フリーダム", community = "Freedom", note = "Freedom" },
+		{ source = "Mercenary", official = "傭兵", community = "Mercenary", note = "Mercenary" },
+		{ source = "Military", official = "軍", community = "Military", note = "Military" },
+		{ source = "ミリタリー", official = "ミリタリー", community = "Military", note = "Military (派閥名)" },
+		{ source = "Ecologist", official = "エコロジスト", community = "Ecologist", note = "Ecologist" },
+		{ source = "Monolith", official = "モノリス", community = "Monolith", note = "Monolith" },
+		{ source = "Renegade", official = "レネゲード", community = "Renegade", note = "Renegade" },
+		{ source = "Sin", official = "シン", community = "Sin", note = "Sin" },
+		{ source = "Zombified", official = "ゾンビ", community = "Zombified", note = "Zombified" },
+		{ source = "Final Day", official = "ファイナル・デイ", community = "Final Day", note = "Final Day" },
+	},
+
+	mutant = {
+		{ source = "キャット", official = "バユン", community = "キャット", note = "Cat/Bayun (S2)", boundary = "not_touching_katakana" },
+		{ source = "スードウドッグ", official = "シュードドッグ", community = "スードウドッグ", note = "Pseudodog" },
+		{ source = "スードウジャイアント", official = "シュードジャイアント", community = "スードウジャイアント", note = "Pseudogiant" },
+		{ source = "スードウガイスト", official = "シュードガイスト", community = "スードウガイスト", note = "Pseudogeist" },
+		{ source = "ルーカー", official = "ラーカー", community = "ルーカー", note = "Lurker" },
+		{ source = "バーラー", official = "ブーラー", community = "バーラー", note = "Burer" },
+		{ source = "サイドッグ", official = "プサイドッグ", community = "サイドッグ", note = "Psy-dog/Psi-dog" },
+		{ source = "サイサッカー", official = "プサイサッカー", community = "サイサッカー", note = "Psy-sucker/Psi-sucker" },
+	},
+
+	person = {
+		{ source = "ストレロック", official = "ストレロク", community = "ストレロック", note = "Strelok" },
+		{ source = "ダッシュマン", official = "ドゥシュマン", community = "ダッシュマン", note = "Dushman" },
+		{ source = "ルーカッシュ", official = "ルカシュ", community = "ルーカッシュ", note = "Lukash" },
+		{ source = "ノヴィコフ", official = "ノビコフ", community = "ノヴィコフ", note = "Novikov" },
+		{ source = "ヘルマン", official = "ハーマン", community = "ヘルマン", note = "Hermann" },
+		{ source = "ベアード", official = "ビアード", community = "ベアード", note = "Beard" },
+		{ source = "オウェル", official = "アウル", community = "オウェル", note = "Owl" },
+		{ source = "スルタン", official = "サルタン", community = "スルタン", note = "Sultan" },
+		{ source = "トリヤン", official = "トルヤン", community = "トリヤン", note = "Tolyan" },
+		{ source = "カーダン", official = "カルダン", community = "カーダン", note = "Cardan" },
+		{ source = "レオパード", official = "レパード", community = "レオパード", note = "Leopard" },
+		{ source = "クルーグロフ", official = "クルグロフ", community = "クルーグロフ", note = "Kruglov" },
+		{ source = "ロゴヴェッツ", official = "ロホベツ", community = "ロゴヴェッツ", note = "Rogovets" },
+		{ source = "レーシイ", official = "レーシイ", community = "レシー", note = "Leshiy" },
+	},
+
+	place = {
+		{ source = "コードン", official = "コルドン", community = "コードン", note = "Cordon" },
+		{ source = "グレートスワンプ", official = "沼地", community = "グレートスワンプ", note = "Great Swamp" },
+		{ source = "ガベージ", official = "ガーベジ", community = "ガベージ", note = "Garbage", boundary = "not_touching_katakana" },
+		{ source = "ワイルドテリトリー", official = "荒廃領域", community = "ワイルドテリトリー", note = "Wild Territory" },
+		{ source = "陸軍倉庫", official = "軍事倉庫", community = "陸軍倉庫", note = "Army Warehouses" },
+		{ source = "レッドフォレスト", official = "赤い森", community = "レッドフォレスト", note = "Red Forest" },
+		{ source = "レーダー施設", official = "レーダー", community = "レーダー施設", note = "Radar" },
+		{ source = "放棄された病院", official = "荒廃した病院", community = "放棄された病院", note = "Abandoned Hospital" },
+		{ source = "バリア", official = "バリア", community = "防衛線", note = "Barrier" },
+		{ source = "ヴォルホフ", official = "ボルホフ", community = "ヴォルホフ", note = "Volkhov" },
+		{ source = "クルーグ複合アンテナ施設", official = "クリュグアンテナ複合施設", community = "クルーグ複合アンテナ施設", note = "Krug antenna complex" },
+		{ source = "チェルノブイリ", official = "チョルノービリ", community = "チェルノブイリ", note = "Chernobyl/Chornobyl" },
+		{ source = "キエフ", official = "キーウ", community = "キエフ", note = "Kiev/Kyiv" },
+		{ source = "ヤノフ", official = "ヤニフ", community = "ヤノフ", note = "Yanov/Yaniv", boundary = "not_after_katakana" },
+		{ source = "アグロプロム", official = "アフロプロム", community = "アグロプロム", note = "Agroprom/Ahroprom" },
+		{ source = "イズムルドノエ", official = "イズムルドネ", community = "イズムルドノエ", note = "Izumrudnoye/Izumrudne" },
+		{ source = "コパシー", official = "コパチ", community = "コパシー", note = "Kopachy/Kopachi" },
+	},
+
+	term = {
+		{ source = "探知機", official = "検出器", community = "探知機", note = "Detector" },
+		{ source = "エグゾスーツ", official = "エクソスーツ", community = "エグゾスーツ", note = "Exosuit" },
+		{ source = "エグゾヘルメット", official = "エクソヘルメット", community = "エグゾヘルメット", note = "Exohelmet" },
+		{ source = "強化外骨格", official = "エクソスケルトン", community = "強化外骨格", note = "Exoskeleton" },
+		{ source = "移動研究所", official = "移動ラボ", community = "移動研究所", note = "Mobile lab or Bunker" },
+		{ source = "X%-(%d+)研究所", official = "ラボX%1", community = "X-%1研究所", note = "X-lab", lua_pattern = true },
+		{ source = "共同意識体", official = "C-コンシャスネス", community = "共同意識体", note = "C-Consciousness" },
+		{ source = "エミッション", official = "光熱放射", community = "エミッション", note = "Emission" },
+		{ source = "アノマリー領域", official = "アノマリーフィールド", community = "アノマリー領域", note = "Anomaly field" },
+		{ source = "精神波の及ぶ領域", official = "プサイフィールド", community = "精神波の及ぶ領域", note = "Psy-field/Psi-field" },
+		{ source = "精神波の放射設備", official = "プサイ装置", community = "精神波の放射設備", note = "Psy-installation/Psi-installation" },
+		{ source = "精神波の放射装置", official = "プサイ装置", community = "精神波の放射装置", note = "Psy-emitter/Psi-emitter/Psi-device (S2)" },
+		{ source = "精神波の放射", official = "プサイ放射", community = "精神波の放射", note = "Psy-emission/Psi-emission" },
+		{ source = "精神波放射線", official = "プサイ放射線", community = "精神波放射線", note = "Psy-radiation/Psi-radiation" },
+		{ source = "精神波動", official = "プサイ波", community = "精神波動", note = "Psy-wave/Psi-wave" },
+		{ source = "精神波", official = "プサイ", community = "精神波", note = "Psy/Psi" },
+		{ source = "PSI", official = "プサイ", community = "精神", note = "「プサイ」と「精神」で使い分ける用語", boundary = "ascii_word" },
+	},
+}
+
+local PROTECTED_PHRASES = {
+	-- 置換しない用語
+	"Israel Military Industries",
+	"«Freedom»",
+	"«Monolith»",
+	"«Monolith's Light»",
+	"S.T.A.L.K.E.R.: Clear Sky",
+	"ミリタリーナイフ",
+	"精神波の嵐",
+}
+
+local FILE_CATEGORY_EXCLUSIONS = {
+	-- 置換しないファイル
+	[ [[^text\jpn\st_generate_]] ] = {
+		faction = true,
+		mutant = true,
+		person = true,
+		place = true,
+		term = true,
+	},
+}
+
+local REPLACEMENT_CATEGORY_ORDER = {
+	"faction",
+	"mutant",
+	"person",
+	"place",
+	"term",
+}
+
+local TRANSLATION_MODE_SECTION = "mcm"
+local TRANSLATION_MODE_KEY = "stalker_jpn/translation_mode"
+local TRANSLATION_MODE = axr_main.config:r_value(TRANSLATION_MODE_SECTION, TRANSLATION_MODE_KEY, 0, "official")
+
+if TRANSLATION_MODE ~= "official" and TRANSLATION_MODE ~= "community" then
+	error("Invalid " .. TRANSLATION_MODE_SECTION .. "/" .. TRANSLATION_MODE_KEY
+		.. " value '" .. tostring(TRANSLATION_MODE) .. "' (expected 'official' or 'community')", 0)
+end
+
+local ZERO_LENGTH_PATTERN_TEST_TEXTS = { "", "a", "0", " ", "あ", "a0 あ" }
+
+local function find_position_after_lua_character_class(pattern, opening_position)
+	local position = opening_position + 1
+	if pattern:sub(position, position) == "^" then
+		position = position + 1
+	end
+	if pattern:sub(position, position) == "]" then
+		position = position + 1
+	end
+
+	while position <= #pattern do
+		local character = pattern:sub(position, position)
+		if character == "%" then
+			position = position + 2
+		elseif character == "]" then
+			return position + 1
+		else
+			position = position + 1
+		end
+	end
+
+	return position
+end
+
+local function count_lua_pattern_captures(pattern)
+	local count = 0
+	local position = 1
+
+	while position <= #pattern do
+		local character = pattern:sub(position, position)
+		if character == "%" then
+			local escaped = pattern:sub(position + 1, position + 1)
+			if escaped == "b" then
+				position = position + 4
+			elseif escaped == "f" and pattern:sub(position + 2, position + 2) == "[" then
+				position = find_position_after_lua_character_class(pattern, position + 2)
+			else
+				position = position + 2
+			end
+		elseif character == "[" then
+			position = find_position_after_lua_character_class(pattern, position)
+		elseif character == "(" then
+			count = count + 1
+			position = position + 1
+		else
+			position = position + 1
+		end
+	end
+
+	return count
+end
+
+local function validate_lua_replacement_captures(translation, capture_count, location, field_name)
+	if type(translation) ~= "string" then
+		return
+	end
+
+	local position = 1
+	while position <= #translation do
+		if translation:sub(position, position) ~= "%" then
+			position = position + 1
+		else
+			local reference = translation:sub(position + 1, position + 1)
+			if reference == "%" or reference == "0" then
+				position = position + 2
+			elseif reference:match("%d") then
+				if tonumber(reference) > capture_count then
+					error(location .. ": " .. field_name .. " refers to missing capture %" .. reference, 0)
+				end
+				position = position + 2
+			else
+				error(location .. ": " .. field_name .. " contains an invalid '%' replacement", 0)
+			end
+		end
+	end
+end
+
+local JAPANESE_TEXT_PATH_PREFIX = [[text\jpn\]]
+local DXML_TEXT_PATH_PREFIX = [[text\eng\jpn_]]
+
+local function path_starts_with(path, prefix)
+	return type(path) == "string" and path:sub(1, #prefix) == prefix
+end
+
+local function replace_path_prefix(path, old_prefix, new_prefix)
+	return new_prefix .. path:sub(#old_prefix + 1)
+end
+
+local function get_excluded_categories_for_path(path)
+	local excluded_categories = {}
+
+	for path_pattern, categories_excluded_by_pattern in pairs(FILE_CATEGORY_EXCLUSIONS) do
+		if path:find(path_pattern) then
+			for category, is_excluded in pairs(categories_excluded_by_pattern) do
+				if is_excluded then
+					excluded_categories[category] = true
+				end
+			end
+		end
+	end
+
+	return excluded_categories
+end
+
+local function get_utf8_character_at(text, position)
+	if position < 1 or position > #text then
+		return ""
+	end
+	local byte = text:byte(position)
+	if not byte then
+		return ""
+	end
+	local length = byte >= 240 and 4 or byte >= 224 and 3 or byte >= 194 and 2 or 1
+	return text:sub(position, position + length - 1)
+end
+
+local function get_utf8_character_before(text, position)
+	position = position - 1
+	while position > 0 and text:byte(position) >= 128 and text:byte(position) <= 191 do
+		position = position - 1
+	end
+	return get_utf8_character_at(text, position)
+end
+
+local function decode_utf8_codepoint(character)
+	local first, second, third, fourth = character:byte(1, 4)
+	if not first then
+		return nil
+	end
+	if first < 0x80 then
+		return first
+	end
+	if first >= 0xC2 and first <= 0xDF and second and second >= 0x80 and second <= 0xBF then
+		return (first - 0xC0) * 0x40 + second - 0x80
+	end
+	if first >= 0xE0 and first <= 0xEF and second and second >= 0x80 and second <= 0xBF
+		and third and third >= 0x80 and third <= 0xBF then
+		if (first == 0xE0 and second < 0xA0) or (first == 0xED and second > 0x9F) then
+			return nil
+		end
+		return (first - 0xE0) * 0x1000 + (second - 0x80) * 0x40 + third - 0x80
+	end
+	if first >= 0xF0 and first <= 0xF4 and second and second >= 0x80 and second <= 0xBF
+		and third and third >= 0x80 and third <= 0xBF and fourth and fourth >= 0x80 and fourth <= 0xBF then
+		if (first == 0xF0 and second < 0x90) or (first == 0xF4 and second > 0x8F) then
+			return nil
+		end
+		return (first - 0xF0) * 0x40000 + (second - 0x80) * 0x1000
+			+ (third - 0x80) * 0x40 + fourth - 0x80
+	end
+	return nil
+end
+
+local function is_katakana_or_invalid_utf8(character)
+	if character == "" then
+		return false
+	end
+
+	local codepoint = decode_utf8_codepoint(character)
+	if not codepoint then
+		return true
+	end
+
+	return (codepoint >= 0x30A1 and codepoint <= 0x30FA)
+		or codepoint == 0x30FC
+		or (codepoint >= 0x30FD and codepoint <= 0x30FF)
+		or (codepoint >= 0xFF66 and codepoint <= 0xFF9F)
+end
+
+local function is_ascii_letter_or_digit_byte(byte)
+	return byte and ((byte >= string.byte("A") and byte <= string.byte("Z"))
+		or (byte >= string.byte("a") and byte <= string.byte("z"))
+		or (byte >= string.byte("0") and byte <= string.byte("9")))
+end
+
+local function ends_with_runtime_control_token(text)
+	local length = #text
+	if length == 0 then
+		return false
+	end
+
+	if text:sub(length - 1, length - 1) == "\\" then
+		return true
+	end
+
+	return text:match("%$[%a_][%w_]*$") ~= nil
+end
+
+local function is_ascii_word_connected_before_match(text, match_start)
+	local text_before_match = text:sub(1, match_start - 1)
+	if ends_with_runtime_control_token(text_before_match) then
+		return false
+	end
+	return is_ascii_letter_or_digit_byte(text:byte(match_start - 1))
+end
+
+local function is_ascii_word_connected_after_match(text, match_end)
+	return is_ascii_letter_or_digit_byte(text:byte(match_end + 1))
+end
+
+local function is_match_inside_protected_phrase(text, match_start, match_end)
+	for _, phrase in ipairs(PROTECTED_PHRASES) do
+		local search_start = 1
+		while true do
+			local phrase_start, phrase_end = text:find(phrase, search_start, true)
+			if not phrase_start then
+				break
+			end
+			if match_start >= phrase_start and match_end <= phrase_end then
+				return true
+			end
+			search_start = phrase_end + 1
+		end
+	end
+	return false
+end
+
+local function is_ascii_word_match_blocked(text, match_start, match_end)
+	return is_ascii_word_connected_before_match(text, match_start)
+		or is_ascii_word_connected_after_match(text, match_end)
+end
+
+local function is_match_after_katakana(text, match_start)
+	return is_katakana_or_invalid_utf8(get_utf8_character_before(text, match_start))
+end
+
+local function is_match_touching_katakana(text, match_start, match_end)
+	return is_katakana_or_invalid_utf8(get_utf8_character_before(text, match_start))
+		or is_katakana_or_invalid_utf8(get_utf8_character_at(text, match_end + 1))
+end
+
+local BOUNDARY_BLOCKERS = {
+	ascii_word = is_ascii_word_match_blocked,
+	not_after_katakana = is_match_after_katakana,
+	not_touching_katakana = is_match_touching_katakana,
+}
+
+local function validate_replacement_dictionary()
+	local source_locations = {}
+
+	for _, category in ipairs(REPLACEMENT_CATEGORY_ORDER) do
+		for index, entry in ipairs(REPLACEMENT_CATEGORIES[category]) do
+			local location = category .. "[" .. index .. "]"
+			local source = entry.source
+
+			if type(source) ~= "string" or source == "" then
+				error(location .. ": source must be a non-empty string", 0)
+			end
+			if type(entry.official) ~= "string" then
+				error(location .. ": official must be a string", 0)
+			end
+			if type(entry.community) ~= "string" then
+				error(location .. ": community must be a string", 0)
+			end
+			if type(entry.note) ~= "string" then
+				error(location .. ": note must be a string", 0)
+			end
+			if source_locations[source] then
+				error(location .. ": duplicate source (first defined at " .. source_locations[source] .. ")", 0)
+			end
+			source_locations[source] = location
+
+			if entry.boundary ~= nil and not BOUNDARY_BLOCKERS[entry.boundary] then
+				error(location .. ": unknown boundary '" .. tostring(entry.boundary) .. "'", 0)
+			end
+
+			if entry.lua_pattern then
+				for _, test_text in ipairs(ZERO_LENGTH_PATTERN_TEST_TEXTS) do
+					local pattern_is_valid, match_start, match_end = pcall(string.find, test_text, source)
+					if not pattern_is_valid then
+						error(location .. ": invalid Lua pattern: " .. tostring(match_start), 0)
+					end
+					if match_start and match_end < match_start then
+						error(location .. ": Lua pattern can match an empty string", 0)
+					end
+				end
+
+				local capture_count = count_lua_pattern_captures(source)
+				validate_lua_replacement_captures(entry.official, capture_count, location, "official")
+				validate_lua_replacement_captures(entry.community, capture_count, location, "community")
+			end
+		end
+	end
+end
+
+validate_replacement_dictionary()
+
+local function build_active_replacement_rules()
+	local active_rules = {}
+
+	for _, category in ipairs(REPLACEMENT_CATEGORY_ORDER) do
+		local category_rules = {}
+		for _, entry in ipairs(REPLACEMENT_CATEGORIES[category]) do
+			local target = TRANSLATION_MODE == "official" and entry.official or entry.community
+			if target ~= entry.source then
+				local boundary = entry.boundary
+				if not boundary and category == "faction" then
+					boundary = "ascii_word"
+				end
+
+				category_rules[#category_rules + 1] = {
+					source = entry.source,
+					target = target,
+					lua_pattern = entry.lua_pattern,
+					is_match_blocked = BOUNDARY_BLOCKERS[boundary],
+				}
+			end
+		end
+		active_rules[category] = category_rules
+	end
+
+	return active_rules
+end
+
+local function apply_replacement_rule(text, rule)
+	local search_start = 1
+
+	while true do
+		local match_start, match_end = text:find(rule.source, search_start, not rule.lua_pattern)
+		if not match_start then
+			break
+		end
+
+		if rule.lua_pattern and match_end < match_start then
+			error("Lua pattern matched an empty string: " .. rule.source, 0)
+		end
+
+		if is_match_inside_protected_phrase(text, match_start, match_end)
+			or (rule.is_match_blocked and rule.is_match_blocked(text, match_start, match_end)) then
+			search_start = match_end + 1
+		elseif rule.lua_pattern then
+			local matched_text = text:sub(match_start, match_end)
+			local replacement = matched_text:gsub(rule.source, rule.target)
+			if replacement == matched_text then
+				search_start = match_end + 1
+			else
+				text = text:sub(1, match_start - 1) .. replacement .. text:sub(match_end + 1)
+				search_start = match_start + #replacement
+			end
+		else
+			text = text:sub(1, match_start - 1) .. rule.target .. text:sub(match_end + 1)
+			search_start = match_start + #rule.target
+		end
+	end
+
+	return text
+end
+
+local ACTIVE_REPLACEMENT_RULES = build_active_replacement_rules()
+
+local function apply_dictionary_replacements(text, excluded_categories)
+	if type(text) ~= "string" or text == "" then
+		return text
+	end
+
+	for _, category in ipairs(REPLACEMENT_CATEGORY_ORDER) do
+		if not excluded_categories[category] then
+			for _, rule in ipairs(ACTIVE_REPLACEMENT_RULES[category]) do
+				text = apply_replacement_rule(text, rule)
+			end
+		end
+	end
+
+	return text
+end
+
+local function create_COnXmlRead_path_redirect_wrapper(original_COnXmlRead)
+	return function(path, xml_string)
+		if path_starts_with(path, JAPANESE_TEXT_PATH_PREFIX) then
+			path = replace_path_prefix(path, JAPANESE_TEXT_PATH_PREFIX, DXML_TEXT_PATH_PREFIX)
+		end
+		return original_COnXmlRead(path, xml_string)
+	end
+end
+
+local function forward_newindex_assignment(previous_newindex, target_table, key, value)
+	if type(previous_newindex) == "function" then
+		return previous_newindex(target_table, key, value)
+	elseif type(previous_newindex) == "table" then
+		previous_newindex[key] = value
+	else
+		rawset(target_table, key, value)
+	end
+end
+
+if not _G.modxml_dxml_jpn_patch_COnXmlRead_patched then
+	local original_COnXmlRead = rawget(_G, "COnXmlRead")
+	if type(original_COnXmlRead) == "function" then
+		rawset(_G, "COnXmlRead", create_COnXmlRead_path_redirect_wrapper(original_COnXmlRead))
+		rawset(_G, "modxml_dxml_jpn_patch_COnXmlRead_patched", true)
+	elseif original_COnXmlRead == nil then
+		local global_metatable = getmetatable(_G) or {}
+		local previous_newindex = global_metatable.__newindex
+		local intercept_COnXmlRead_assignment
+		local waiting_for_COnXmlRead = true
+
+		intercept_COnXmlRead_assignment = function(target_table, key, value)
+			if waiting_for_COnXmlRead and key == "COnXmlRead" and type(value) == "function" then
+				value = create_COnXmlRead_path_redirect_wrapper(value)
+				waiting_for_COnXmlRead = false
+				rawset(_G, "modxml_dxml_jpn_patch_COnXmlRead_patched", true)
+				if getmetatable(_G) == global_metatable
+					and global_metatable.__newindex == intercept_COnXmlRead_assignment then
+					global_metatable.__newindex = previous_newindex
+				end
+			end
+
+			return forward_newindex_assignment(previous_newindex, target_table, key, value)
+		end
+
+		global_metatable.__newindex = intercept_COnXmlRead_assignment
+		setmetatable(_G, global_metatable)
+	end
+end
+
+function on_xml_read()
+	RegisterScriptCallback("on_xml_read", function(path, xml_document, dxml_flags)
+		if not path_starts_with(path, DXML_TEXT_PATH_PREFIX) then
+			return
+		end
+
+		local text_elements = xml_document:query("string > text")
+		local source_path = replace_path_prefix(path, DXML_TEXT_PATH_PREFIX, JAPANESE_TEXT_PATH_PREFIX)
+		local excluded_categories = get_excluded_categories_for_path(source_path)
+		for _, text_element in ipairs(text_elements or {}) do
+			local source_text = xml_document:getText(text_element)
+			local replaced_text = apply_dictionary_replacements(source_text, excluded_categories)
+			if replaced_text ~= source_text then
+				xml_document:setText(text_element, replaced_text)
+			end
+		end
+
+		if dxml_flags then
+			dxml_flags.cache = true
+		end
+	end)
+end
