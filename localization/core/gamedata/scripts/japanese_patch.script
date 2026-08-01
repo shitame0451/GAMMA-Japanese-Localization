@@ -171,7 +171,7 @@ local function milrank_name_patch(name)
 	if not first or not second then return name end
 
 	local group = fnames[first]
-	if not (group and snames[second]) then
+	if not group or snames[second] ~= group then
 		return name
 	end
 
