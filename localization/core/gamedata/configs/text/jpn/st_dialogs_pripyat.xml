@@ -147,10 +147,10 @@
 	</string>
 	<string id="pri_special_trader_mlr2_13">
 		<text>Carabiner: 軍用に改造されたSPAS-12。
-\n反動を軽減し、オートマチック射撃モードを搭載している。価格は11,000ルーブル。</text>
+\n反動を抑え、フルオート射撃に対応している。価格は11,000ルーブル。</text>
 	</string>
 	<string id="pri_special_trader_mlr2_14">
-		<text>Armsel Protecta: Strikerをベースに改良したモデル。価格は17,000ルーブル。</text>
+		<text>Armsel Protecta: Strikerをベースにしたショットガン。価格は17,000ルーブル。</text>
 	</string>
 	<string id="pri_special_trader_mlr2_15">
 		<text>欲しいものはないな。</text>
@@ -187,7 +187,7 @@
 \n価格は18,000ルーブル。</text>
 	</string>
 	<string id="pri_special_trader_mlr2_27">
-		<text>ガウスライフル: ゾーンには指で数えられるほどしか存在しない、最強の武器。
+		<text>ガウスライフル: ゾーンには指で数えられるほどしか存在しない、希少な戦利品だ。
 \n驚異的な精度と威力を持ち、反動もほとんどない。価格は150,000ルーブル。</text>
 	</string>
 	<string id="pri_special_trader_mlr2_5">

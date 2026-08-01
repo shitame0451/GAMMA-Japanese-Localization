@@ -87,7 +87,7 @@
 	</string>
 
 	<string id="hb_hernandez_about_darkscape_dialog_0">
-		<text>報告の際はここに戻ってくれば良いのでしょうか？</text>
+		<text>何か用があるときは、ここに来れば会えますか？</text>
 	</string>
 	<string id="hb_hernandez_about_darkscape_dialog_1">
 		<text>いや、残りのチームはこのまま移動する。
@@ -242,8 +242,9 @@
 		<text>覚えておこう。</text>
 	</string>
 	<string id="hb_dushman_isg_intel_dialog_7">
-		<text>いい心構えだ。お前がくだらない政治ゲームに縛られて潰れるのは見たくない。
-\n誰かの嘘のために死ぬより、自分のために動いた方がマシだろう？</text>
+		<text>そう聞けて安心した。今の仕事に縛られてると思ってほしくはないからな。
+\n政治家のくだらない思惑のために死ぬなんて、誰にでもできることじゃない。
+\n奴らのために働くくらいなら、自分のために働いた方がマシだろう？</text>
 	</string>
 	<string id="hb_dushman_isg_intel_dialog_8">
 		<text>ダッシュマン、この作戦は俺たち個人の感情よりも遥かに重いんだ。
@@ -284,7 +285,7 @@
 		<text>どうして、あの工場で手がかりが見つかると？</text>
 	</string>
 	<string id="hb_hernandez_about_jup_factory_dialog_1">
-		<text>合流中の別動隊から報告があった。
+		<text>見ての通り、別動隊が一つ合流している。
 \n彼らはジュピター工場の調査中、鍵のかかったブリーフケースを発見したらしい。
 \nその中には文書や設計図、建物の構造図が入っていたようだ。
 
@@ -390,9 +391,9 @@
 	</string>
 	<string id="hb_hernandez_about_evidence_dialog_1">
 		<text>研究所内で発見した文書は例外なく押さえろ。手書きのメモすらも見逃すな。
-\nゾーンで観測されている現象は、あの施設で行われた実験によるものと見て間違いない。
+\nゾーンで観測されている現象の多くは、あの施設で行われた実験から生じた可能性がある。
 \nつまり、いわゆる“事故”とされてきた一連の事象は、意図的に引き起こされた･･････
-\nジュネーブ条約に違反する兵器が関わっている可能性がある。
+\nジュネーブ条約に違反する大量破壊兵器が関わっている可能性がある。
 \n我々には、その仮説を裏付ける確実な証拠が必要だ。
 
 \n\n理想的な展開は、ゾーンが国際的な脅威だと断定できる証拠を手にし、離脱することだ。
@@ -412,7 +413,7 @@
 \nここは一国の管理下に置くべきではありません。</text>
 	</string>
 	<string id="hb_hernandez_about_evidence_dialog_31">
-		<text>同意してくれて嬉しいぞ、兵士よ。</text>
+		<text>話が早くて助かるな。</text>
 	</string>
 	<string id="hb_hernandez_about_evidence_dialog_4">
 		<text>国連が本当に重視しているのは、一般市民の安全でしょうか？
@@ -461,7 +462,7 @@
 		<text>極秘情報の運び屋が帰還しました。こちらをご覧ください。</text>
 	</string>
 	<string id="hb_hernandez_found_labs_docs_dialog_1">
-		<text>素晴らしい･･････ よくやった！これは私からの推薦に値する。
+		<text>素晴らしい･･････ よくやった！私から表彰を出そう。
 \n国連も我々が得た情報に満足するだろう。</text>
 	</string>
 	<string id="hb_hernandez_found_labs_docs_dialog_2">
@@ -573,7 +574,7 @@
 		<text>極秘文書に研究施設の情報、奇妙な装置の設計図･･････
 \nさらにはチェルノブイリ原子力発電所での体験と、“願望機”に関する記録まで･･････
 \nストレロックはそれらをすべて経験しただけでなく、詳細に記録していたようだ。
-\nこれ以上は望めん。任務達成と言っていいだろう。よくやったぞ、誇るべき兵士よ！</text>
+\nこれ以上は望めん。任務達成と言っていいだろう。よくやったぞ、兵士よ！</text>
 	</string>
 	<string id="hb_hernandez_strelok_pendrive_dialog_7">
 		<text>では、我々の作戦は成功したのですね？今後はどうなるのでしょう？</text>
@@ -636,7 +637,7 @@
 \nちょっと待てよ。おお、やっぱり！マジかよ、お前もう隊長になったのか！？</text>
 	</string>
 	<string id="hb_maus_start_3">
-		<text>この作戦では階級は関係ないんだ。ただ少佐の直下で動いてるだけさ。</text>
+		<text>この作戦では階級は関係ないんだ。ただ少佐の直属で動いてるだけさ。</text>
 	</string>
 	<string id="hb_maus_start_4">
 		<text>なるほど、少佐はお前のことを雪の結晶みたいに特別扱いしてるんだな。
@@ -747,7 +748,7 @@
 \nあそこならMilitaryも追っては来ないだろう。</text>
 	</string>
 	<string id="hb_strelok_start_dialog_10">
-		<text>了解だ。君の安全と引き換えに、ゾーンの知識を提供してもらう。行こう。</text>
+		<text>了解だ。君の安全と引き換えに、ゾーンの知識を話してもらう。行こう。</text>
 	</string>
 
 	<string id="hb_strelok_escorted_dialog_0">

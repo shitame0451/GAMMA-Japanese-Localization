@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <string_table>
 	<string id="st_stalker_trade_dialog_init">
-		<text>何か売買できるものはあるか？%c[d_orange] [トレード]</text>
+		<text>何か売ってくれないか？%c[d_orange] [トレード]</text>
 	</string>
 	<string id="st_stalker_trade_dialog_reply_1">
 		<text>大した物は期待しないでくれよ。俺の持ってるものはこれだ。</text>
@@ -19,7 +19,7 @@
 		<text>悪いな、自分用しか持ち合わせがないんだ。</text>
 	</string>
 	<string id="st_trader_dialog_init">
-		<text>アイテムを売買したい。%c[d_orange] [トレード]</text>
+		<text>装備を買いたい。%c[d_orange] [トレード]</text>
 	</string>
 	<string id="st_trader_dialog_reply_1">
 		<text>いいとも。</text>
@@ -43,7 +43,7 @@
 		<text>いいぞ、また仕事が増えた。</text>
 	</string>
 	<string id="st_medic_dialog_init">
-		<text>医薬品を売買したい。%c[d_orange] [トレード]</text>
+		<text>医薬品を買いたい。%c[d_orange] [トレード]</text>
 	</string>
 	<string id="st_medic_dialog_reply_1">
 		<text>在庫は少ないが、これが俺の持ってるものだ。</text>
@@ -55,7 +55,7 @@
 		<text>わかった、商品を無駄にするなよ。</text>
 	</string>
 	<string id="st_bartender_dialog_init">
-		<text>何か売買するものはあるか？%c[d_orange] [トレード]</text>
+		<text>何か売ってくれ。%c[d_orange] [トレード]</text>
 	</string>
 	<string id="st_bartender_dialog_reply_1">
 		<text>飯、酒、タバコ･･････ 何が欲しいんだ？</text>
@@ -189,10 +189,10 @@
 		<text>やっぱり･･････ 気が変わった。</text>
 	</string>
 	<string id="st_paid_companion_dialog_text_6">
-		<text>移動しよう。</text>
+		<text>行こう。</text>
 	</string>
 	<string id="st_paid_companion_dialog_text_7">
-		<text>移動しよう。</text>
+		<text>行こう。</text>
 	</string>
 	<string id="st_paid_companion_dialog_text_8">
 		<text>わかったよ。</text>
@@ -282,7 +282,7 @@
 		<text>ありがとな。</text>
 	</string>
 	<string id="st_bribe_text_0">
-		<text>あんたにはコネがあるんだろ？ちょっと揉めててな、仲裁してもらいたいんだ。</text>
+		<text>あんたにはコネがあるんだろ？ある連中との揉め事を収めてほしい。</text>
 	</string>
 	<string id="st_bribe_text_1">
 		<text>まあ、場合によるな。誰を怒らせた？</text>
@@ -307,12 +307,12 @@
 \n10,000ルーブルなら4日間ってとこだな。で、どうする？</text>
 	</string>
 	<string id="st_bribe_text_4">
-		<text>Clear Skyに対して悪い印象を与えてしまった。悪意がないことを示したい。</text>
+		<text>Clear Skyに目をつけられた。もう敵意はないと伝えてほしい。</text>
 	</string>
 	<string id="st_bribe_text_41">
-		<text>沼地の住人どもを怒らせたって？まぁ何をしたかは聞かないでおく。
-\nいずれにせよ、5,000ルーブルで2日間は許してくれるだろうな。
-\n10,000ルーブルなら4日間は一服しながら散歩できるぞ。</text>
+		<text>沼地の住人を怒らせるなんて、一体何をしたんだ？
+\nまあいい。5,000ルーブルなら2日ほど、少しは寛大になってくれるだろう。
+\n10,000ルーブルなら4日間は大人しくしてくれるはずだ。</text>
 	</string>
 	<string id="st_bribe_text_5">
 		<text>Dutyに追われている。何とかならないか？</text>
@@ -323,7 +323,7 @@
 \n5,000ルーブルで2日間、10,000ルーブルで4日間はなんとかしてやろう。</text>
 	</string>
 	<string id="st_bribe_text_6">
-		<text>Ecologistとその護衛に対して誤解を解きたいことがある。</text>
+		<text>Ecologistとその護衛との“誤解”を解きたい。</text>
 	</string>
 	<string id="st_bribe_text_61">
 		<text>科学者たちを説得するのはそう難しくない。
@@ -340,11 +340,11 @@
 		<text>Mercenaryだ。俺の首に賞金をかけたらしい。</text>
 	</string>
 	<string id="st_bribe_text_81">
-		<text>そうか。ただ、幸いなことに、傭兵は金のために生きてる。
-\n5,000ルーブルで2日間の猶予は買える、10,000ルーブルで4日間だ。</text>
+		<text>そうか。だが幸い、傭兵は金のために生きてる。
+\n5,000ルーブルで2日間は買収できる。10,000ルーブルで4日間だ。</text>
 	</string>
 	<string id="st_bribe_text_9">
-		<text>フリーのストーカーたちと仲違いしてしまった。</text>
+		<text>Lonerだ。どういうわけか、連中の間で評判が悪くなった。</text>
 	</string>
 	<string id="st_bribe_text_91">
 		<text>いいだろう･･････ 待て、あいつら「全員」に狙われてるのか？
@@ -390,7 +390,7 @@
 		<text>よし、道案内を頼む！目的地に着いたら教えてくれ。そのときに報酬を渡そう。</text>
 	</string>
 	<string id="st_jg_6">
-		<text>悪いが、うまくいかなかったときに俺に支払う金をあんたは持ってないよな？</text>
+		<text>悪いが、うまくいかなかったときに俺に支払う金がないようだな。</text>
 	</string>
 	<string id="st_jg_mlr_1">
 		<text>俺はお前が誰かも知らないんだぞ？遠慮しておくよ、ストーカー。</text>
@@ -405,7 +405,7 @@
 		<text>やっとか！ありがとう、ストーカー。いい仕事だったぞ。これが約束の金だ。</text>
 	</string>
 	<string id="st_jg_10">
-		<text>気が変わった。この案内をなかったことにしたい。</text>
+		<text>気が変わった。この仕事は中止したい。</text>
 	</string>
 	<string id="st_jg_11">
 		<text>それは本気か？本当にそれでいいのか？</text>
@@ -547,7 +547,7 @@
 		<text>%s%c[d_orange] [%sルーブル]</text>
 	</string>
 	<string id="st_buy_route_0">
-		<text>道の情報を買いたい。</text>
+		<text>隠されたルートの情報を買いたい。</text>
 	</string>
 	<string id="st_buy_route_1">
 		<text>情報なら持ってるぞ。

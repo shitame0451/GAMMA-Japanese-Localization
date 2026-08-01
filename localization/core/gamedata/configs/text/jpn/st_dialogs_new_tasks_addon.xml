@@ -873,8 +873,8 @@
 		<text>どうした？新鮮な肉が欲しいのか？それとも狩りのアドバイスか？</text>
 	</string>
 	<string id="hunter_gar_trader_mystery_of_the_swamps_1_2">
-		<text>狩りに関することだな。だが、少し変わった質問になる。
-\nなあ、幽霊に遭遇したことはあるか？</text>
+		<text>後者で当たりだ。ただし、普通の狩りの相談じゃない。
+\nなあ、幽霊を相手にしたことはあるか？</text>
 	</string>
 	<string id="hunter_gar_trader_mystery_of_the_swamps_1_3">
 		<text>幽霊？いや、そんなことはねえが、復讐に燃える霊を追い払う昔話なら知ってるぞ。
@@ -962,7 +962,7 @@
 \nさて、おぬしは何を知りたいのかね？</text>
 	</string>
 	<string id="red_forester_tech_mystery_of_the_swamps_1_2">
-		<text>遠い昔に亡くなった、ある物知りな女性についての情報を探している。
+		<text>遠い昔に亡くなった、ある博識な女性についての情報を探している。
 \n信じがたい話だが、その霊は安らかに眠れず、正義を求めて彷徨っているみたいなんだ。</text>
 	</string>
 	<string id="red_forester_tech_mystery_of_the_swamps_1_3">
