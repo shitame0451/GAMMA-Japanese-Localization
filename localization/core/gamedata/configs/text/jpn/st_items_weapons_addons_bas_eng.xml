@@ -54,7 +54,7 @@
 		<text>EOTech 553</text>
 	</string>
 	<string id="st_addon_scope_eotech_descr">
-		<text>軍および法執行機関向けに設計されたホログラフィックサイト。広い視野と高速な標的補足能力を持つ。ナイトビジョン対応で防水性能にも優れている。\n \n
+		<text>軍および法執行機関向けに設計されたホログラフィックサイト。広い視野と高速な標的捕捉能力を持つ。ナイトビジョン対応で防水性能にも優れている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]EOTech\n
@@ -494,7 +494,7 @@
 		<text>9mm サプレッサー</text>
 	</string>
 	<string id="st_addon_sil_9mm_descr">
-		<text>9mm弾を使用する銃器向けに広く使用される汎用性の高いサプレッサー。ピストルやサブマシンガンにおいて効果的な消音性と反動低減を提供する。\n \n
+		<text>9mm弾を使用する銃器向けに広く使用される汎用性の高いサプレッサー。ピストルやサブマシンガンにおいて効果的な消音性と反動低減をもたらす。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]様々な国\n \n
 		%c[pda_white]互換性:\n
@@ -593,7 +593,7 @@
 		<text>Salvo 12 サプレッサー</text>
 	</string>
 	<string id="st_addon_sil_salvo_descr">
-		<text>SilencerCo社が設計したショットガン用サプレッサー。12ゲージ銃の弾道パターンの一貫性を維持しつつ、発射音と反動を大幅に低減する。\n \n
+		<text>SilencerCo社が設計したショットガン用サプレッサー。12ゲージの銃の弾道パターンの一貫性を維持しつつ、発射音と反動を大幅に低減する。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n \n
 		%c[pda_white]互換性:\n
@@ -615,7 +615,7 @@
 		<text>Swine-23 サプレッサー</text>
 	</string>
 	<string id="st_addon_sil_hex23_descr">
-		<text>大口径の銃向けに設計された高耐久サプレッサー。優れた消音性能と反動制御を提供する。\n \n
+		<text>大口径の銃向けに設計された高耐久サプレッサー。優れた消音性能と反動制御をもたらす。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
 		%c[pda_white]互換性:\n
@@ -659,7 +659,7 @@
 		<text>PMM サプレッサー</text>
 	</string>
 	<string id="st_addon_sil_pmm_descr">
-		<text>ロシア製のピストル・サブマシンガン用サプレッサー。コンパクトなサイズと耐久性を維持しつつ、効果的な消音性能を提供する。\n \n
+		<text>ロシア製のピストル・サブマシンガン用サプレッサー。コンパクトなサイズと耐久性を維持しつつ、効果的な消音性能をもたらす。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n \n
 		%c[pda_white]互換性:\n

@@ -53,7 +53,7 @@
 	<!-- Cold (Clear Sky Honcho) Find Artefact Storyline Task -->
 
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_name">
-		<text>コールドのために%を探す</text>
+		<text>コールドのために%sを探す</text>
 	</string>
 	<string id="drx_sl_mar_smart_terrain_base_stalker_leader_marsh_task_3_text">
 		<text>コールドは%sを必要としている。</text>

@@ -11,7 +11,7 @@
 		<text>次のタスクを引き受ける。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_default_task_about">
-		<text>現場に出ている人物に報告してこい。居場所はPDAにマークしておいた。</text>
+		<text>現地の隊員に報告してこい。居場所はPDAにマークしておいた。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_default_task_finish">
 		<text>幸運を祈る、ストーカー。</text>
@@ -27,7 +27,7 @@
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_about">
 		<text>最重要目標を捕捉した。だが、容易に接近できる相手ではない。
-\nそこで、精密な長距離射撃をこなせる人員を求めている。</text>
+\nそこで、長距離射撃に長けた射手を探している。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_1_finish">
 		<text>素晴らしい腕前だ。よくやった。</text>
@@ -44,7 +44,7 @@
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_about">
 		<text>現在、我々は敵の野営地に対する攻撃に向けた準備を進めている。
 \nこの作戦のために、全隊員に新たな武器を支給してある。
-\nそしてお前には、最前線に立って攻撃の先陣を切ってもらいたい。</text>
+\nそしてお前には、最前線で攻撃の先陣を切ってもらいたい。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_2_finish">
 		<text>素晴らしい仕事ぶりだったぞ。お前は立派な戦士だ。</text>
@@ -85,7 +85,7 @@
 \nただし、戦闘になれば彼も応戦せざるを得ないだろう。その点は肝に銘じておけ。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_finish">
-		<text>よくやった。すぐに報告させるとしよう。</text>
+		<text>よくやった。すぐに報告させよう。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_near_2_military_colonel_kovalski_task_4_msg_join">
 		<text>撃つな！俺が諜報員だ！悪かったな、奴らのフリを続けなきゃならなかったんだ。
@@ -104,8 +104,7 @@
 		<text>次のタスクを引き受ける。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_default_task_about">
-		<text>我々の味方が支援を必要としている。
-\n彼のもとへ向かい、何か助けになれることがないか確認してこい。</text>
+		<text>我々の味方が支援を必要としている。彼のもとへ向かい、助けが必要か確認してこい。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_default_task_finish">
 		<text>健闘を祈るぞ、新入り。</text>
@@ -117,7 +116,7 @@
 		<text>作戦計画書</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_1_text">
-		<text>敵の作戦計画書の場所を知ったキリロフ上級中尉は、それを手に入れたいと考えている。</text>
+		<text>キリロフ上級中尉が敵の作戦計画書の所在を突き止めた。計画書を回収してほしいそうだ。</text>
 	</string>
 	<string id="drx_sl_agr_smart_terrain_1_6_army_mechanic_stalker_task_1_about">
 		<text>情報提供者の働きにより、敵の作戦が記された計画書の所在が判明した。

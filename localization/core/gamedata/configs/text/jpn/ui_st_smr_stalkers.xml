@@ -76,7 +76,7 @@
 		<text>ストーカーの分隊をランダムに出現させる</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_stalkers_random_stalkers_desc">
-		<text>ストーカーの分隊をランダムな派閥の分隊で置き換えます。これにより、今まで予想もしなかった派閥を見つけることができるかもしれません。</text>
+		<text>ストーカーの分隊をランダムな派閥の分隊で置き換えます。これにより、今まで予想もしなかった派閥を見つけられるかもしれません。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_stalkers_random_stalkers_chance">
 		<text>ランダムストーカー隊確率</text>
@@ -85,7 +85,7 @@
 		<text>派閥</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_stalkers_factions_info">
-		<text>以下では、派閥の有効・無効を設定することができます。無効化された派閥はゾーンに出現しません。</text>
+		<text>以下では、派閥の有効・無効を設定できます。無効化された派閥はゾーンに出現しません。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_stalkers_factions_replace_squads">
 		<text>削除された分隊の置換</text>

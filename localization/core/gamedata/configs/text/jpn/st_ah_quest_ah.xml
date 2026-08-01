@@ -10,7 +10,7 @@
 		<text>デコーダー</text>
 	</string>
 	<string id="cs_deshefrator_desc">
-		<text>%c[pda_white]Monolithの元信者たちが、狂信者たちの会話を盗聴するために用いる装置。\n \n
+		<text>%c[pda_white]Monolithの元信者たちが、狂信者の会話を盗聴するために使う装置。\n \n
 %c[pda_white]特性:\n
 %c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
 	</string>
@@ -26,7 +26,7 @@
 		<text>スカーのPDA</text>
 	</string>
 	<string id="pda_dragun_desc">
-		<text>%c[pda_white]数多の記録の中で、ひときわ目を引く記述がある。「ストライダーがMonolithと戦うため、新たなグループを結成した。噂によると、彼の部下にはかつてレベデフが率いた突撃部隊に所属していた者がいるようだ」\n \n
+		<text>%c[pda_white]大量の記録の中に、ひときわ目を引く記述がある。「ストライダーがMonolithと戦うため、新たなグループを結成した。噂によると、彼の部下にはかつてレベデフが率いた突撃部隊の出身者もいるらしい」\n \n
 %c[pda_white]特性:\n
 %c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
 	</string>
@@ -34,7 +34,7 @@
 		<text>重厚なブリーフケース</text>
 	</string>
 	<string id="bar_case_desc">
-		<text>%c[pda_white]バーテンダーに渡す戦利品が入った特別なケース。\n \n
+		<text>%c[pda_white]バーテンダーに渡す戦利品を収めた特別なケース。\n \n
 %c[pda_white]特性:\n
 %c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
 	</string>
@@ -42,7 +42,7 @@
 		<text>アノマリー活動スキャナー</text>
 	</string>
 	<string id="cs_anom_pribor_desc">
-		<text>%c[pda_white]アノマリー領域を研究するための特殊な装置。Clear Skyの所有品。\n \n
+		<text>%c[pda_white]アノマリー領域を研究するための特殊な装置。Clear Skyの所有物。\n \n
 %c[pda_white]特性:\n
 %c[d_orange] • %c[pda_white]タスク用アイテム\n</text>
 	</string>

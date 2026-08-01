@@ -504,7 +504,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_1_text">
-		<text>Monolithの拠点にいるメカニックが%sを欲しがっている。</text>
+		<text>Monolithの拠点にいる技術者が%sを欲しがっている。</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_1_about">
 		<text>我々の基地はここに設営されたばかりで、兄弟たちへ報いるための道具が不足している。
@@ -524,7 +524,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_2_text">
-		<text>Monolithの拠点のメカニックが%sを欲しがっている。</text>
+		<text>Monolithの拠点の技術者が%sを欲しがっている。</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_2_about">
 		<text>数々の戦闘を経て、我々の武器が異教徒のものよりわずかに劣っていることが判明した。
@@ -546,7 +546,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_3_text">
-		<text>Monolithの拠点のメカニックが%sを欲しがっている。</text>
+		<text>Monolithの拠点の技術者が%sを欲しがっている。</text>
 	</string>
 	<string id="mechanic_monolith_jup_depo_task_3_about">
 		<text>兄弟よ、我々はすべてを凌駕することになるだろう！
@@ -567,7 +567,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_text">
-		<text>ギャングのメカニックに%sを持ってくるよう頼まれた。</text>
+		<text>Banditの技術者に%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_about">
 		<text>ストーカーどもが物資を根こそぎ奪って、ヤノフに防衛線を張りやがった･･････ クソどもめ。
@@ -584,7 +584,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_2_text">
-		<text>ギャングのメカニックに%sを持ってくるよう頼まれた。</text>
+		<text>Banditの技術者に%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_2_about">
 		<text>なあ、あまり迷惑はかけたくねえんだけどさ、別のツールキットも探してきてくれねえか？
@@ -603,7 +603,7 @@
 		<text>%sを見つける</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_text">
-		<text>ギャングのメカニックに%sを持ってくるよう頼まれた。</text>
+		<text>Banditの技術者に%sを持ってくるよう頼まれた。</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_about">
 		<text>よう相棒、あんたが持ってきてくれた2つのツールにはマジで助かってるぜ。

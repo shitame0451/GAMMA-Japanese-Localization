@@ -361,7 +361,7 @@
         <text>代替マガジン点検アクション</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_animation_anim_mode_desc">
-        <text>専用のインスペクトアニメーションを持たない武器において、どのアニメーションを代わりに再生するか設定します。「デフォルト」は武器の出し入れ、「武器を下げる」は一瞬銃口を下げます。「擬似リロード」はマガジン式ならリロード動作を、固定内蔵式なら特殊な動作を流用します。</text>
+        <text>専用のインスペクトアニメーションを持たない武器で、どのアニメーションを代わりに再生するか設定します。「デフォルト」は武器の出し入れ、「武器を下げる」は一瞬銃口を下げます。「擬似リロード」はマガジン式ならリロード動作を、固定内蔵式なら特殊な動作を流用します。</text>
     </string>
     <!-- Animation Mode List Options -->
     <string id="rax_ammo_check_animation_anim_mode_lst_anim_mode_default">
@@ -440,7 +440,7 @@
         <text>ボルトアクション: ボルト操作を再生</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_animation_fake_reload_bolt_cycle_desc">
-        <text>Kar98やMosinなどの固定内蔵式ボルトアクションライフルにおいて、代替動作の代わりにボルトの開閉動作を再生します。着脱式マガジンモデルは下のオプションで設定可能です。</text>
+        <text>Kar98やMosinなどの固定内蔵式ボルトアクションライフルで、代替動作の代わりにボルトの開閉動作を再生します。着脱式マガジンモデルは下のオプションで設定可能です。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_animation_force_bolt_cycle_external_mag">
         <text>着脱式ライフルでもボルト操作を強制する</text>
@@ -458,7 +458,7 @@
         <text>ポンプアクション: スライド操作を再生</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_animation_fake_reload_pump_rack_desc">
-        <text>ポンプアクション式ショットガンにおいて、代替動作の代わりにスライドの前後動作を再生します。</text>
+        <text>ポンプアクション式ショットガンで、代替動作の代わりにスライドの前後動作を再生します。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_animation_fake_reload_pump_eject">
         <text>ポンプアクション: シェルの排出をシミュレート</text>
@@ -1030,7 +1030,7 @@
         <text>非ボルトアクション銃でのカメラ演出</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_eject_camera_anim_desc">
-        <text>ボルト操作アニメーションを持たない武器において、排出操作時にカメラを僅かに揺らす演出（Camera Reanimation Project導入時）と操作音を追加します。無効の場合は音のみとなります。</text>
+        <text>ボルト操作アニメーションを持たない武器で、排出操作時にカメラを僅かに揺らす演出（Camera Reanimation Project導入時）と操作音を追加します。無効の場合は音のみとなります。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_eject_auto_eject">
         <text>リロード後に弾種が異なる場合は自動排出する</text>
@@ -1156,7 +1156,7 @@
         <text>ダブルタップを有効にすると、単押しとの判別のために僅かな入力遅延が発生します。即応性を重視する場合はダブルタップの設定を「なし」にしてください。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_keybind_note">
-        <text>このキー割り当ては「ワンキー武器操作」とは独立しており、併用することも個別に設定することも可能です。</text>
+		<text>このキー割り当ては「ワンキー武器操作」とは独立しており、併用も個別設定もできます。</text>
     </string>
     <string id="ui_mcm_rax_ammo_check_debug_bone_debug">
         <text>ボーン追従のデバッグログ出力</text>

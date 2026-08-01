@@ -35,7 +35,7 @@
 		<text>トレーダーは、持ち込んだPDAに対して少額のボーナスを支払うようになる</text>
 	</string>
 	<string id="st_achievement_3_descr">
-		<text>アーティファクトは目を引くものだが、知識こそが真の力だ。このことを経験から学んだあなたは、売り渡す情報に対してより高い料金を請求することができる。</text>
+		<text>アーティファクトは目を引くものだが、知識こそが真の力だ。このことを経験から学んだあなたは、売り渡す情報に対してより高い料金を請求できる。</text>
 	</string>
 	<string id="st_achievement_3_unlock">
 		<text>実績「情報屋」をアンロックした</text>
@@ -58,7 +58,7 @@
 		<text>「下ごしらえ上手」</text>
 	</string>
 	<string id="st_achievement_5_hint">
-		<text>ミュータントの身体部位をより速く剥ぎ取ることができるようになる</text>
+		<text>ミュータントの身体部位をより速く剥ぎ取れるようになる</text>
 	</string>
 	<string id="st_achievement_5_descr">
 		<text>ゾーンの野生動物があなたを恐れるのも無理はない。慣れた手つきで素早く仕事をこなすあなたは、まさに熟練の域に達している。</text>
@@ -71,7 +71,7 @@
 		<text>「金か弾丸か」</text>
 	</string>
 	<string id="st_achievement_6_hint">
-		<text>降伏したストーカーが2つ目の隠し場所の座標を教えてくれることがある</text>
+		<text>降伏したストーカーが2つ目のスタッシュの座標を教えてくれることがある</text>
 	</string>
 	<string id="st_achievement_6_descr">
 		<text>無慈悲な殺し屋として恐れられたあなたの背後には、死体や薬莢が散らばっている。その恐るべき攻撃から生き残った者たちは、自分の持ち物を手放すことをより積極的に受け入れるようになった。</text>
@@ -97,7 +97,7 @@
 		<text>「観光客」</text>
 	</string>
 	<string id="st_achievement_8_hint">
-		<text>ゾーンを熟知し、いくつかの特別な隠し場所の座標を得た</text>
+		<text>ゾーンを熟知し、いくつかの特別なスタッシュの座標を得た</text>
 	</string>
 	<string id="st_achievement_8_descr">
 		<text>危険を顧みず、ゾーンのあらゆる場所を探索してきた。濁ったグレートスワンプからジェネレーターの異質な風景まで･･････ あなたはゾーンを知り尽くしている。</text>
@@ -110,10 +110,10 @@
 		<text>「クズ拾い」</text>
 	</string>
 	<string id="st_achievement_9_hint">
-		<text>隠し場所を調べると、追加のアイテムを見つけることがある</text>
+		<text>スタッシュを調べると、追加のアイテムを見つけることがある</text>
 	</string>
 	<string id="st_achievement_9_descr">
-		<text>ストーカーたちの隠し場所を探る経験を重ねるうちに、二重底や秘密の小物入れなど、追加のアイテムが隠されている場所について知識を深めた。</text>
+		<text>ストーカーたちのスタッシュを探る経験を重ねるうちに、二重底や秘密の小物入れなど、追加のアイテムが隠されている場所について知識を深めた。</text>
 	</string>
 	<string id="st_achievement_9_unlock">
 		<text>実績「クズ拾い」をアンロックした</text>
@@ -175,7 +175,7 @@
 		<text>「みんなの英雄」</text>
 	</string>
 	<string id="st_achievement_14_hint">
-		<text>より多くの仲間と一緒に行動することができる</text>
+		<text>より多くの仲間と一緒に行動できる</text>
 	</string>
 	<string id="st_achievement_14_descr">
 		<text>あなたの活躍は伝説として知られるようになり、明確な自信を持って行動するようになった。ストーカーたちは、あなたの指揮下で行動することを積極的に受け入れるようになり、成功に導いてくれると信じている。</text>

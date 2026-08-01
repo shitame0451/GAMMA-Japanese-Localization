@@ -4,7 +4,7 @@
     <text>火起こしセット</text>
   </string>
   <string id="st_matches_descr">
-    <text>樹脂を染み込ませた松材の束。小さいながらも安定した焚き火を作ることができる。湿っていても簡単に火を起こせるのが特徴だ。\n \n
+    <text>樹脂を染み込ませた松材の束。小さいながらも安定した焚き火を作れる。湿っていても簡単に火を起こせるのが特徴だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]用途: %c[ui_gray_1]火をつける</text>
   </string>

@@ -12,7 +12,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]30\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]52\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]10\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]10\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_red]不可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]25% - 40%\n
 		</text>
@@ -28,7 +28,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]45\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]55\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]18\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]18\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_red]不可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]35% - 50%\n
 		</text>
@@ -43,7 +43,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]42\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]71\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]24\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]24\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]45% - 60%\n
 		</text>
@@ -59,7 +59,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]54\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]78\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]55% - 70%\n
 		</text>
@@ -75,7 +75,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]48\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]87\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]65% - 85%\n
 		</text>
@@ -91,7 +91,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]52\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]97\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
 		</text>
@@ -107,7 +107,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]60\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]107\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
 		</text>
@@ -123,7 +123,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]65\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]117\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]75% - 98%\n
 		</text>
@@ -138,7 +138,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]90\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]137\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		</text>
 	</string>
 
@@ -151,7 +151,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]120\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]170\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]24\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]24\n
 		%c[d_green] • %c[pda_white]リーチが長い\n
 		%c[d_orange] • %c[pda_white]インベントリの狩猟斧を右クリック > 木を切る\n
 		</text>
@@ -167,7 +167,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]120\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]170\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]45\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]45\n
 		%c[d_green] • %c[pda_white]リーチが長い\n
 		</text>
 	</string>

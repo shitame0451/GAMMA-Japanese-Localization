@@ -145,7 +145,7 @@
 		<text>オートセーブ中･･････</text>
 	</string>
 	<string id="st_can_use_weapon_now">
-		<text>武器を取り出すことができる</text>
+		<text>武器を取り出せる</text>
 	</string>
 	<string id="st_codelock">
 		<text>コード入力 ($$ACTION_USE$$)</text>
@@ -169,7 +169,7 @@
 		<text>あなたはヘリコプターにたどり着けず、避難チームはあなたを残してゾーンを去った</text>
 	</string>
 	<string id="st_freeplay_text_yes_no">
-		<text>ゾーンを去る準備はできているか？戻ることはできないぞ</text>
+		<text>ゾーンを去る準備はできているか？戻れないぞ</text>
 	</string>
 	<string id="st_game_over">
 		<text> </text>
@@ -338,7 +338,7 @@
 	</string>
 	<string id="st_labx18_pass_to_1st_door">
 		<text>“よくやったな、同僚よ。君が第2レベルのアクセス権を取得したことを嬉しく思う。
-\nこれで、ついに我々の研究所で何が行われているかを知ることができるだろう。
+\nこれで、ついに我々の研究所で何が行われているかを知れるだろう。
 \n君のアクセスコードは1243だ。X-18研究所主任、ペトロ・イリイチ・カルーヒン”</text>
 	</string>
 	<string id="st_labx18_pass_to_2nd_door">
@@ -347,11 +347,11 @@
 \nX-18研究所主任、ペトロ・イリイチ・カルーヒン”</text>
 	</string>
 	<string id="st_yan_saharov_message">
-		<text>いいぞ、中に入るのは成功したんだな。この研究所のマシンを研究することは非常に重要なことだ。
-\nまずはそれを停止させてみてくれ。そうすれば我々がじっくり調査することができる。</text>
+		<text>いいぞ、よくやった。この研究所の機械を調べることが重要だ。
+\nまずは電源を切ってくれ。そうすればこちらで詳しく調査できる。</text>
 	</string>
 	<string id="st_yan_saharov_message_2">
-		<text>いいか、この試作機は精神波の放射を長時間防ぐことはできない。
+		<text>いいか、この試作機は精神波の放射を長時間防げない。
 \nそのような事態を想定し、放射を検知するとタイマーが作動する仕組みになっている。
 \n時間が切れると防護が効かなくなる、しっかり時間を確認しながら行動するんだ。</text>
 	</string>
@@ -495,7 +495,7 @@
 		<text>現在、%sのメンバーとして認識されている</text>
 	</string>
 	<string id="ui_st_disguse_blacklisted_faction">
-		<text>%sのメンバーに変装することはできない</text>
+		<text>%sのメンバーには変装できない</text>
 	</string>
 	<string id="ui_st_disguse_someone_saw">
 		<text>着替えているところを目撃された 現在、%sのメンバーとして認識されている</text>
@@ -823,7 +823,7 @@
 \n武器を捨て、ゆっくりと一人ずつ出てこい。大人しく従えば、暴力沙汰にせずに済む。</text>
 	</string>
 	<string id="st_lttz_pripyat_strelok_message2">
-		<text>大佐。お前が発電所を襲撃しようが、地球の裏側に隠れようが、「ゾーン」から逃れることはできない。
+		<text>大佐。お前が発電所を襲撃しようが、地球の裏側に隠れようが、「ゾーン」からは逃れられない。
 \nゾーンが存在する限り、それは全世界の脅威となる。これは国が揉み消せるような問題じゃないんだ。
 \n残念だが、俺はそちら側に加わるつもりはない。</text>
 	</string>

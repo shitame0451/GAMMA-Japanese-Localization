@@ -126,13 +126,13 @@
 	<!-- Cleric (Monolith Mechanic) Monolith Weapon Arsenal Storyline Task -->
 
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_name">
-		<text>Monolithの武器庫</text>
+		<text>Monolithの武器庫（%s）</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_text">
 		<text>クレリックは、Monolithの武器庫を拡張するために%sを求めている。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_about">
-		<text>若者よ、我々は栄光ある目標を達成するため、強力な武器庫を築かなければならない。</text>
+		<text>若者よ、輝かしい大義を成し遂げるため、我々は強大な武器庫を築かねばならない。</text>
 	</string>
 	<string id="drx_sl_pri_monolith_monolith_mechanic_stalker_task_3_fetch_about">
 		<text>%sを持ってくるのだ。

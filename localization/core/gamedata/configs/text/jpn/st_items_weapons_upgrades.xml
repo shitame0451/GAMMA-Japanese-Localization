@@ -177,7 +177,7 @@
 		<text>内部セルフコッキング機構</text>
 	</string>
 	<string id="st_up_autd_c4_descr">
-		<text>統合化されたブローバックモジュールは、現技術で最も効率的に反動を軽減させることができる。</text>
+		<text>統合化されたブローバックモジュールは、現技術で最も効率的に反動を軽減できる。</text>
 	</string>
 	<string id="st_up_autd_c4_name">
 		<text>統合化ブローバックモジュール</text>
@@ -411,7 +411,7 @@
 		<text>ロングバレル</text>
 	</string>
 	<string id="st_up_bard_b4_descr">
-		<text>銃身に発射ガスの排気口を設けることで、異物の混入を防ぐだけでなく、射撃時の反動の一部を銃身へ送り返すことができる。</text>
+		<text>銃身に発射ガスの排気口を設けることで、異物の混入を防ぐだけでなく、射撃時の反動の一部を銃身へ送り返せる。</text>
 	</string>
 	<string id="st_up_bard_b4_name">
 		<text>垂直ガス排気口</text>
@@ -585,7 +585,7 @@
 		<text>ナイトビジョン</text>
 	</string>
 	<string id="st_up_opt_c3_descr">
-		<text>射撃の有効性を高めるため、光学スコープの倍率調整が可能となる。</text>
+		<text>射撃の有効性を高めるため、光学スコープの倍率を調整できる。</text>
 	</string>
 	<string id="st_up_opt_c3_name">
 		<text>アジャスタブルサイト</text>
@@ -726,7 +726,7 @@
 		<text>機関部の保護スパッタリング</text>
 	</string>
 	<string id="st_up_ret_b2_descr">
-		<text>通常のロッドよりもはるかに高い発射速度に耐えることができる。</text>
+		<text>通常のロッドよりもはるかに高い発射速度に耐えられる。</text>
 	</string>
 	<string id="st_up_ret_b2_name">
 		<text>チタン製ロッド</text>
@@ -744,7 +744,7 @@
 		<text>ガスシリンダー強化</text>
 	</string>
 	<string id="st_up_ret_c2_descr">
-		<text>発射ガスによって作動するガスシリンダーとピストン。ガスのエネルギーを利用して機関部を作動させることができる。</text>
+		<text>発射ガスによって作動するガスシリンダーとピストン。ガスのエネルギーを利用して機関部を作動させられる。</text>
 	</string>
 	<string id="st_up_ret_c2_name">
 		<text>ガスシリンダーの組み込み</text>
@@ -768,13 +768,13 @@
 		<text>ドラム部へ斜めカムスロットを追加</text>
 	</string>
 	<string id="st_up_stk_a1_descr">
-		<text>この欧州規格の改良により、信頼性を損なうことなく軽量化を実現することができる。</text>
+		<text>この欧州規格の改良により、信頼性を損なうことなく軽量化を実現できる。</text>
 	</string>
 	<string id="st_up_stk_a1_name">
 		<text>衝撃緩和ポリマーストック</text>
 	</string>
 	<string id="st_up_stk_a2_descr">
-		<text>高い耐久性を持つレシーバーにより、アサルトライフルの耐久値を長く保つことができる。</text>
+		<text>高い耐久性を持つレシーバーにより、アサルトライフルの耐久値を長く保てる。</text>
 	</string>
 	<string id="st_up_stk_a2_name">
 		<text>高耐久合金製レシーバー</text>
@@ -948,7 +948,7 @@
 		<text>アジャスタブルグリップ</text>
 	</string>
 	<string id="st_up_stvp_c1_descr">
-		<text>この改造はリコイルスプリングがグリップ内に組み込まれている銃にのみ行うことができる。</text>
+		<text>この改造はリコイルスプリングがグリップ内に組み込まれている銃にのみ行える。</text>
 	</string>
 	<string id="st_up_stvp_c1_name">
 		<text>リコイルスプリング緩衝材追加</text>
@@ -1008,7 +1008,7 @@
 		<text>トリガープル軽量化</text>
 	</string>
 	<string id="st_up_usm_b1_descr">
-		<text>様々な材質で構成された部品を組み込む。特注品のため値は張るが、銃器の信頼性を向上させることができる。</text>
+		<text>様々な材質で構成された部品を組み込む。特注品のため値は張るが、銃器の信頼性を向上させられる。</text>
 	</string>
 	<string id="st_up_usm_b1_name">
 		<text>機関部の材質変更</text>
@@ -1020,7 +1020,7 @@
 		<text>レートリデューサー無効化</text>
 	</string>
 	<string id="st_up_usm_b3_descr">
-		<text>リリース部のスプリングを取り外すことにより、初弾の発射を0.5秒早くすることができる。あまり役に立たないと思うかもしれないが、その0.5秒が生と死の境になる。</text>
+		<text>リリース部のスプリングを取り外すことにより、初弾の発射を0.5秒早くできる。あまり役に立たないと思うかもしれないが、その0.5秒が生と死の境になる。</text>
 	</string>
 	<string id="st_up_usm_b3_name">
 		<text>スプリングを取り外す</text>
@@ -1086,7 +1086,7 @@
 		<text>発射動作機構</text>
 	</string>
 	<string id="st_up_usmp_c2_descr">
-		<text>人間工学に基づいた新しい技術開発により、簡単な調整で射撃モードの切り替えを行うことが可能になる。</text>
+		<text>人間工学に基づいた新しい技術開発により、簡単な調整で射撃モードを切り替えられる。</text>
 	</string>
 	<string id="st_up_usmp_c2_name">
 		<text>「ダブル」射撃モード</text>
@@ -1170,7 +1170,7 @@
 		<text>ガス圧作動方式</text>
 	</string>
 	<string id="st_up_zat_c4_descr">
-		<text>機関部を交換することはガスピストンを改良するよりも効果的であり、銃の発射速度を大幅に向上させることができる。</text>
+		<text>機関部を交換することはガスピストンを改良するよりも効果的であり、銃の発射速度を大幅に向上させられる。</text>
 	</string>
 	<string id="st_up_zat_c4_name">
 		<text>ショートストロークガスピストン</text>
@@ -1188,7 +1188,7 @@
 		<text>熱吸収部品</text>
 	</string>
 	<string id="st_up_zath_b1_descr">
-		<text>銃の全長がわずかに長くなるが、低伸性を大幅に向上させることができる。</text>
+		<text>銃の全長がわずかに長くなるが、低伸性を大幅に向上させられる。</text>
 	</string>
 	<string id="st_up_zath_b1_name">
 		<text>ガスピストンストローク延長</text>
@@ -1272,7 +1272,7 @@
 		<text>バレルストローク拡大</text>
 	</string>
 	<string id="st_up_zatp_c3_descr">
-		<text>機関部を交換することはガスピストンを改良するよりも効果的であり、銃の発射速度を大幅に向上させることができる。</text>
+		<text>機関部を交換することはガスピストンを改良するよりも効果的であり、銃の発射速度を大幅に向上させられる。</text>
 	</string>
 	<string id="st_up_zatp_c3_name">
 		<text>短動作リコイル流用装置</text>
@@ -1495,7 +1495,7 @@
 		<text>ケブラープレート</text>
 	</string>
 	<string id="st_up_arm_a7_descr">
-		<text>ポリカーボネートは、プラスチックのように軽量でありながら、拳銃の弾丸を止めることができる。</text>
+		<text>ポリカーボネートは、プラスチックのように軽量でありながら、拳銃の弾丸を止められる。</text>
 	</string>
 	<string id="st_up_arm_a7_name">
 		<text>ポリカーボネートプレート</text>
@@ -1513,7 +1513,7 @@
 		<text>スチールプレート</text>
 	</string>
 	<string id="st_up_arm_b1_descr">
-		<text>セラミック製の外層は、斜めから当たる徹甲弾を逸らし、直撃する徹甲弾を細かな塵に砕くことができる。</text>
+		<text>セラミック製の外層は、斜めから当たる徹甲弾を逸らし、直撃した徹甲弾を細かな塵に砕ける。</text>
 	</string>
 	<string id="st_up_arm_b1_name">
 		<text>セラミック外層</text>
@@ -1531,7 +1531,7 @@
 		<text>緩衝材の追加</text>
 	</string>
 	<string id="st_up_arm_b4_descr">
-		<text>このフレームは、本体の装甲が損傷した場合でも拳銃の弾を止めることができる。</text>
+		<text>このフレームは、本体の装甲が損傷した場合でも拳銃の弾を止められる。</text>
 	</string>
 	<string id="st_up_arm_b4_name">
 		<text>装甲フレームを追加</text>
@@ -1597,7 +1597,7 @@
 		<text>チェーンメイル付きアンダーシャツ</text>
 	</string>
 	<string id="st_up_arm_c2_descr">
-		<text>鱗状のセラミックプレートで構成されており、着用者への被弾箇所の集中を防ぐことができる。</text>
+		<text>鱗状のセラミックプレートで構成されており、着用者への被弾箇所の集中を防げる。</text>
 	</string>
 	<string id="st_up_arm_c2_name">
 		<text>偏向セラミックスケイル</text>
@@ -1636,13 +1636,13 @@
 		<text>国内の最新テクノロジーを駆使した最新鋭の防御手段は人工サファイアによる加工である。</text>
 	</string>
 	<string id="st_up_exo_a1_descr">
-		<text>運動装置を追加することで、最大所持重量を増加させることができる。</text>
+		<text>運動装置を追加することで、最大所持重量を増加させられる。</text>
 	</string>
 	<string id="st_up_exo_a1_name">
 		<text>サーボモーターを追加</text>
 	</string>
 	<string id="st_up_exo_b1_descr">
-		<text>Freedomの技術者が開発した技術で、強化外骨格の金属部品をカーボンファイバー素材のものに置き換えて重量を減らすことができる。</text>
+		<text>Freedomの技術者が開発した技術で、強化外骨格の金属部品をカーボンファイバー素材のものに置き換えて重量を減らせる。</text>
 	</string>
 	<string id="st_up_exo_b1_name">
 		<text>金属部品をカーボンファイバー素材に変更</text>
@@ -1660,13 +1660,13 @@
 		<text>シャゴホッド簡易駆動システム</text>
 	</string>
 	<string id="st_up_exo_c2_descr">
-		<text>第四世代の強化外骨格に搭載されているモジュールを取り付ける。強化外骨格を着たまま走行することができる。</text>
+		<text>第四世代の強化外骨格に搭載されているモジュールを取り付ける。強化外骨格を着たまま走行できる。</text>
 	</string>
 	<string id="st_up_exo_c2_name">
 		<text>油圧式ブースター</text>
 	</string>
 	<string id="st_up_kom_a1_descr">
-		<text>柔らかい布製のレイヤーを追加することで、防弾プレートに衝撃が加わった際の人体への損傷を軽減することができる。</text>
+		<text>柔らかい布製のレイヤーを追加することで、防弾プレートに衝撃が加わった際の人体への損傷を軽減できる。</text>
 	</string>
 	<string id="st_up_kom_a1_name">
 		<text>クッションレイヤー</text>
@@ -1759,7 +1759,7 @@
 		<text>合成素材に変更</text>
 	</string>
 	<string id="st_up_kom_b6_descr">
-		<text>プレキシグラスは鉛よりも軽く、二種類の放射線を吸収することができる。</text>
+		<text>プレキシグラスは鉛よりも軽く、二種類の放射線を吸収できる。</text>
 	</string>
 	<string id="st_up_kom_b6_name">
 		<text>放射線防御用プレキシグラス製内部層</text>
@@ -1825,7 +1825,7 @@
 		<text>Ecologist用ポリマー製ボディスーツ</text>
 	</string>
 	<string id="st_up_kom_c8_descr">
-		<text>鉛のメッシュにより、機動性を損なうことなく放射線や化学物質から身を守ることができる。</text>
+		<text>鉛のメッシュにより、機動性を損なうことなく放射線や化学物質から身を守れる。</text>
 	</string>
 	<string id="st_up_kom_c8_name">
 		<text>「ライフセーバー」プレキシグラス製ボディスーツ</text>
@@ -1843,7 +1843,7 @@
 		<text>あらゆる有害化学物質を完全に遮断し、使用者を保護する。</text>
 	</string>
 	<string id="st_up_res_a2_descr">
-		<text>密閉式のバンドによって精神波の放射に対する部分的な防護を得ることができる。</text>
+		<text>密閉式のバンドによって精神波の放射に対する部分的な防護を得られる。</text>
 	</string>
 	<string id="st_up_res_a2_name">
 		<text>スチール網製精神波防護バンド</text>
@@ -1864,13 +1864,13 @@
 		<text>汚染領域作業用フィルター</text>
 	</string>
 	<string id="st_up_res_b3_descr">
-		<text>プレキシガラスの防護マスクは、放射線を一部防ぐことができる。</text>
+		<text>プレキシガラスの防護マスクは、放射線を一部防げる。</text>
 	</string>
 	<string id="st_up_res_b3_name">
 		<text>プレキシガラスコーティング</text>
 	</string>
 	<string id="st_up_res_b4_descr">
-		<text>プレキシガラスの防護マスクは、放射線を一部防ぐことができる。</text>
+		<text>プレキシガラスの防護マスクは、放射線を一部防げる。</text>
 	</string>
 	<string id="st_up_res_b4_name">
 		<text>プレキシガラス製呼吸マスク</text>
@@ -1924,7 +1924,7 @@
 		<text>極限状態用強化型呼吸装置</text>
 	</string>
 	<string id="st_up_resp_a1_descr">
-		<text>ロシア軍の標準装備である1PN93-1型ナイトビジョン装置。この改良版は戦闘ヘルメットに装着することができる。第2世代の映像強化を搭載しており、夜間や光量の少ない場所での活動に威力を発揮する。バッテリー区画を取り外し、UPD入力に変更した結果、総重量は約1.5kgになった。また、将来的にはより多くの機器を取り付けることができるように、取り付け用のインターフェースも備えている。UPDの消費量が多いのが特徴。\n \n%c[d_cyan] • %c[default]高い電力消費量</text>
+		<text>ロシア軍の標準装備である1PN93-1型ナイトビジョン装置。この改良版は戦闘ヘルメットに装着できる。第2世代の映像強化を搭載しており、夜間や光量の少ない場所での活動に威力を発揮する。バッテリー区画を取り外し、UPD入力に変更した結果、総重量は約1.5kgになった。また、将来的にはより多くの機器を取り付けられるように、取り付け用のインターフェースも備えている。UPDの消費量が多いのが特徴。\n \n%c[d_cyan] • %c[default]高い電力消費量</text>
 	</string>
 	<string id="st_up_resp_a1_name">
 		<text>1PN93-1ナイトビジョン装置</text>
@@ -1939,7 +1939,7 @@
 		<text>蒸気浄化&amp;呼吸用マスク</text>
 	</string>
 	<string id="st_up_resp_b1_descr">
-		<text>ノヴォシビルスク機器製造工場で製造された、最新のIIT世代のPN21KLナイトビジョン装置。ヘッドマウント型で、暗い場所での視認性が大幅に向上。画像を濃淡で表示する高度な画像処理ソフトを搭載。ベースマウントグリッドの設置が必要。重量は約270gと、他のヘルメットに比べて大幅に軽量化されている。アップグレードキットにより、レンズや画像処理ソフトの性能を向上させることができる。\n \n%c[d_cyan] • %c[default]高い電力消費量</text>
+		<text>ノヴォシビルスク機器製造工場で製造された、最新のIIT世代のPN21KLナイトビジョン装置。ヘッドマウント型で、暗い場所での視認性が大幅に向上。画像を濃淡で表示する高度な画像処理ソフトを搭載。ベースマウントグリッドの設置が必要。重量は約270gと、他のヘルメットに比べて大幅に軽量化されている。アップグレードキットにより、レンズや画像処理ソフトの性能を向上させられる。\n \n%c[d_cyan] • %c[default]高い電力消費量</text>
 	</string>
 	<string id="st_up_resp_b1_name">
 		<text>PN21KLナイトビジョン装置</text>
@@ -1999,7 +1999,7 @@
 		<text>「レイ」止血装置</text>
 	</string>
 	<string id="st_up_tch_a4_descr">
-		<text>スーツの表面に電流を流すことにより、有毒物質や放射性物質などの粉塵の付着を防ぐことができる。</text>
+		<text>スーツの表面に電流を流すことにより、有毒物質や放射性物質などの粉塵の付着を防げる。</text>
 	</string>
 	<string id="st_up_tch_a4_name">
 		<text>内蔵防塵システム</text>
@@ -2119,7 +2119,7 @@
 		<text>「アスリート」内蔵システム</text>
 	</string>
 	<string id="st_up_uti_b8_descr">
-		<text>このシステムは有毒物質とともに、呼吸器に付着した異物も取り除くことができる。</text>
+		<text>このシステムは有毒物質とともに、呼吸器に付着した異物も取り除ける。</text>
 	</string>
 	<string id="st_up_uti_b8_name">
 		<text>「アンチドート」有毒物質除去システム</text>
@@ -2182,7 +2182,7 @@
 		<text>視力コントラストの改善</text>
 	</string>
 	<string id="st_up_binoc_b1_descr">
-		<text>通常のレンズに代わってEDガラスを装着することで、色収差や二次スペクトルの影響を最小限に抑え、より良い映像を実現することができる。</text>
+		<text>通常のレンズに代わってEDガラスを装着することで、色収差や二次スペクトルの影響を最小限に抑え、より良い映像を実現できる。</text>
 	</string>
 	<string id="st_up_binoc_b2_name">
 		<text>第1世代のナイトビジョン装置</text>

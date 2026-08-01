@@ -480,8 +480,8 @@
 		<text>ストーカーが完璧な状態の%sを必要としている。</text>
 	</string>
 	<string id="simulation_task_7_about">
-		<text>俺の隠し場所が荒らされて、愛用のライフルが盗られちまった。
-\n新しいのを見つけてくれないか？</text>
+		<text>隠し場所を荒らされて、お気に入りのライフルを盗られちまった。
+\n代わりを探すのを手伝ってくれないか？</text>
 	</string>
 	<string id="simulation_task_7_fetch_about">
 		<text>状態のいい%sを探してる。
@@ -489,7 +489,7 @@
 	</string>
 	<string id="simulation_task_7_fetch_finish">
 		<text>ありがとな、ストーカー！これが報酬だ。
-\nさて、あのフラクチャーでも狩りに行ってくるかな･･････</text>
+\nさて、あの忌々しいフラクチャーを狩りに行くか･･････</text>
 	</string>
 
 
@@ -540,10 +540,10 @@
 	</string>
 	<string id="simulation_task_10_about">
 		<text>支給されたこのライフルはゴミだ。銃撃戦のたびに弾詰まりするなんて話にならない。
-\n新しいやつを手配してくれないか？</text>
+\n代わりを手配してくれないか？</text>
 	</string>
 	<string id="simulation_task_10_fetch_about">
-		<text>状態のいい%sを持ってきてくれ。相当の報酬は払おう。</text>
+		<text>状態のいい%sを持ってきてくれ。相応の報酬は払う。</text>
 	</string>
 	<string id="simulation_task_10_fetch_finish">
 		<text>素晴らしい！ピカピカじゃないか。さあ、これを受け取ってくれ。</text>
@@ -578,8 +578,8 @@
 		<text>アーティファクト狩りは得意か？</text>
 	</string>
 	<string id="simulation_task_12_fetch_about">
-		<text>%sを見つけたら教えてくれ。
-\nあんたが喜びそうな、素晴らしい報酬を用意しとくよ。</text>
+		<text>%sを見つけたら知らせてくれ。
+\nあんたが喜びそうな、かなりいい報酬を用意してある。</text>
 	</string>
 	<string id="simulation_task_12_fetch_finish">
 		<text>やっとか！俺がこいつをどれだけ探していたか、あんたにはわからないだろうな･･････
@@ -824,7 +824,7 @@
 		<text>技術者は俺の装備を改造するために特別な品が必要だと言っていた。
 \nどうやら近頃の技術者は、金と道具を一緒に要求するらしいな。
 \nさらに運の悪いことに、俺はまだそいつを見つけられていない･･････
-\nあんた、%sを見つけるのを手伝ってくれないか？礼はするぜ。</text>
+\n「%s」を見つけてきてくれないか？礼はする。</text>
 	</string>
 	<string id="simulation_task_24_fetch_finish">
 		<text>最高だな！こいつを待ってたんだ。
@@ -859,12 +859,12 @@
 		<text>ストーカーから、Banditの集団に囚われた彼の相棒を救助するよう頼まれた。</text>
 	</string>
 	<string id="simulation_task_26_about">
-		<text>頼むよ、助けてくれ。俺の友人がBanditに襲われて人質にされちまった。
-\nどうしたらいいかわからない。あんたは俺の友人を救えるか？</text>
+		<text>頼むよ、助けてくれ。俺のダチがBanditに襲われて人質にされちまった。
+\nどうしたらいいかわからない。あんたは俺の相棒を救えるか？</text>
 	</string>
 	<string id="simulation_task_26_finish">
-		<text>やったな！ありがとう、ストーカー！相棒が無事に戻ってきて本当に良かった。
-\nこれをお礼に受け取ってくれ。</text>
+		<text>やってくれたのか！ありがとう、ストーカー！
+\n相棒が生きて戻ってきてくれて本当によかった。ほら、手間賃だ。</text>
 	</string>
 
 
@@ -910,7 +910,7 @@
 		<text>Banditの集団からEcologistを救出する。</text>
 	</string>
 	<string id="simulation_task_29_about">
-		<text>お願いだ、助けてくれ！私の同僚が誘拐されたんだ。彼を救出してくれないだろうか？</text>
+		<text>お願いだ、助けてくれ！同僚が誘拐されたんだ。救出に向かってくれないか？</text>
 	</string>
 	<string id="simulation_task_29_finish">
 		<text>ありがとう、ストーカー。同僚が無事に戻ってきて嬉しいよ！
@@ -1040,11 +1040,11 @@
 		<text>敵勢力が目撃された地域を偵察し、遭遇した敵と交戦することになっている。</text>
 	</string>
 	<string id="simulation_task_37_about">
-		<text>周辺地域で敵の活動報告があり、我々の分隊はそれに対処する任務を受けている。
-\n現在、攻撃に備えて偵察してくれる者を探しているところだ。</text>
+		<text>周辺で敵の活動が報告された。こちらの分隊が対処する。
+\n攻撃前に地域を偵察し、敵の配置を確認してくれ。</text>
 	</string>
 	<string id="simulation_task_37_finish">
-		<text>素晴らしい。よくやってくれた！</text>
+		<text>よし。偵察報告は受け取った。これが報酬だ。</text>
 	</string>
 
 	
@@ -1382,8 +1382,8 @@
 	</string>
 	<string id="simulation_task_48_about">
 		<text>この小さな荷物を同僚に届けてくれないか？
-\n私はしばらくこの場所を離れられないんだが、彼はこれを本当に必要としていてね。
-\n君が向かうことは、あらかじめ伝えておくよ。報酬は彼から受け取るといい。</text>
+\nしばらくここを離れられないんだが、向こうはこれを本当に必要としていてね。
+\n荷物を任せることは、あらかじめ伝えておくよ。報酬は本人から受け取ってくれ。</text>
 	</string>
 	<string id="simulation_task_48_finish">
 		<text>ありがとう･･････</text>
@@ -1483,7 +1483,7 @@
 		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。$mapに向かわなければならない。</text>
 	</string>
 	<string id="simulation_task_52_text_2">
-		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。$item_1を使って周波数を$freqMHzに設定し、見失った信号を探そう。</text>
+		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。$item_1を使って周波数を$freqMHzに設定し、周辺で信号を探そう。</text>
 	</string>
 	<string id="simulation_task_52_text_3">
 		<text>$commから、行方不明になった分隊員を追跡し、彼らに何が起こったのか調べるよう頼まれた。見つけた$item_2を回収しなければならない。</text>

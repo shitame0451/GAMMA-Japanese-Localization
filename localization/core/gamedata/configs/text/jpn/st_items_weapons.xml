@@ -556,7 +556,7 @@
 		<text>FN SCAR-H</text>
 	</string>
 	<string id="st_wpn_scar_descr">
-		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性を提供する。セレクティブファイア機能と頑丈な構造により、現代軍に広く採用されている。\n \n
+		<text>特殊作戦用に開発されたバトルライフル。調整可能なストックと全長レールを備え、光学機器やアクセサリーに対応するモジュラー設計が特徴。過酷な環境下での高い信頼性を目的に製造され、優れた制圧力と様々な戦闘状況への汎用性をもたらす。セミ／フル切替機能と頑丈な構造により、現代軍に広く採用されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ベルギー\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]FN Herstal / FN America\n
@@ -827,7 +827,7 @@
 		<text>M4</text>
 	</string>
 	<string id="st_wpn_m4_descr">
-		<text>小型で汎用性の高い銃を求める軍隊向けに開発された、軽量のセレクティブファイア式カービン。伸縮式のストックとピカティニーレールを備え、市街戦や近接戦闘において高い機動性を発揮する。実績あるライフルを小型化したM4は、現代戦を象徴する代表的な銃器となった。\n \n
+		<text>小型で汎用性の高い銃を求める軍隊向けに開発された、軽量のセミ／フル切替式カービン。伸縮式のストックとピカティニーレールを備え、市街戦や近接戦闘において高い機動性を発揮する。実績あるライフルを小型化したM4は、現代戦を象徴する代表的な銃器となった。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt's Manufacturing Company\n
@@ -866,7 +866,7 @@
 		<text>M16A4</text>
 	</string>
 	<string id="st_wpn_m16_descr">
-		<text>古典的な軍用ライフルの近代化モデルで、光学機器やアタッチメントを取り付けるためのピカティニーレールを備えたフラットトップレシーバーが特徴。軍の標準装備として広く使用され、現代戦に求められる精密性、モジュール性、柔軟性を提供する。以前のモデルと似た設計だが、扱いやすさとカスタマイズ性が向上した、非常に強力な銃だ。\n \n
+		<text>古典的な軍用ライフルの近代化モデルで、光学機器やアタッチメントを取り付けるためのピカティニーレールを備えたフラットトップレシーバーが特徴。軍の標準装備として広く使用され、現代戦に求められる精密性、モジュール性、柔軟性をもたらす。以前のモデルと似た設計だが、扱いやすさとカスタマイズ性が向上した、非常に強力な銃だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt's Manufacturing Company / FN Herstal\n
@@ -1086,7 +1086,7 @@
 		<text>OTs-03 SVU</text>
 	</string>
 	<string id="st_wpn_svu_descr">
-		<text>従来の設計をベースに、市街地や近接戦闘での取り回しを向上させたブルパップ式スナイパーライフル。そのコンパクトなフレームは、長距離での精密射撃能力を維持しつつ、高い機動性を両立させている。一体型サプレッサーと最新の光学照準器を搭載しており、マークスマンに高い隠密性と命中精度を提供する。\n \n
+		<text>従来の設計をベースに、市街地や近接戦闘での取り回しを向上させたブルパップ式スナイパーライフル。そのコンパクトなフレームは、長距離での精密射撃能力を維持しつつ、高い機動性を両立させている。一体型サプレッサーと最新の光学照準器を搭載しており、マークスマンに高い隠密性と命中精度をもたらす。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]KBP Instrument Design Bureau\n
@@ -1096,7 +1096,7 @@
 		<text>OTs-03A SVU-A</text>
 	</string>
 	<string id="st_wpn_svu_nimble_descr">
-		<text>汎用性の高いブルパップ式スナイパーライフルで、セミオート射撃とフルオート射撃の切り替えが可能。コンパクトな設計と高い命中精度を維持しつつ、中〜長距離での制圧射撃を行うことができる。刻々と変化する市街地戦で、狙撃手が状況に合わせて柔軟に対応できるように開発された。\n \n
+		<text>汎用性の高いブルパップ式スナイパーライフルで、セミオート射撃とフルオート射撃の切り替えが可能。コンパクトな設計と高い命中精度を維持しつつ、中距離から長距離での制圧射撃を行える。刻々と変化する市街地戦で、狙撃手が状況に合わせて柔軟に対応できるように開発された。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]KBP Instrument Design Bureau\n
@@ -1253,7 +1253,7 @@
 		<text>RPK-74</text>
 	</string>
 	<string id="st_wpn_rpk74_descr">
-		<text>古典的な分隊支援火器を改良し、命中精度と反動の軽減を追求したモデル。長い銃身と強化された部品はそのままに、軽量弾薬を使用することで、さらに扱いやすくなった。分隊規模での制圧射撃に用いられ、優れた取り回しで効果的な火力支援を提供する。\n \n
+		<text>古典的な分隊支援火器を改良し、命中精度と反動の軽減を追求したモデル。長い銃身と強化された部品はそのままに、軽量弾薬を使用することで、さらに扱いやすくなった。分隊規模での制圧射撃に用いられ、優れた取り回しで効果的な火力支援をもたらす。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Vyatskiye Polyany Machine-Building Plant\n
@@ -1665,7 +1665,7 @@
 		<text>VSSK Vykhlop</text>
 	</string>
 	<string id="st_wpn_vssk_descr">
-		<text>極めて高い隠密性と、近～中距離での装甲貫通能力を両立させた特殊なスナイパーライフル。銃身と一体化したサプレッサーを備え、重い亜音速弾を使用することで、強力な火力を保ちつつも、音を立てずに標的を仕留めることができる。特殊部隊で運用され、静かで強力な火力が求められる秘密作戦で特に有効な武器だ。\n \n
+		<text>極めて高い隠密性と、近距離から中距離での装甲貫通能力を両立させた特殊なスナイパーライフル。銃身と一体化したサプレッサーを備え、重い亜音速弾を使用することで、強力な火力を保ちつつも、音を立てずに標的を仕留められる。特殊部隊で運用され、静かで強力な火力が求められる秘密作戦で特に有効な武器だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ロシア\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]CKIB SOO\n
@@ -1688,7 +1688,7 @@
 		<text>VSS Vintorez «1PN93»</text>
 	</string>
 	<string id="st_wpn_vintorez_1pn93_descr">
-		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近〜中距離での静音かつ精密な射撃に適している。潜入任務に特化しており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
+		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近距離から中距離での静音かつ精密な射撃に適している。潜入任務に特化しており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
 		\nこのモデルは1PN93スコープが装着されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
@@ -1699,7 +1699,7 @@
 		<text>VSS Vintorez «Tide»</text>
 	</string>
 	<string id="st_wpn_vintorez_nimble_descr">
-		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近〜中距離での静音かつ精密な射撃に適している。潜入任務に特化しており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
+		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近距離から中距離での静音かつ精密な射撃に適している。潜入任務に特化しており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
 		\n«Tide»は大幅な改造が施され、1PN93スコープが装着されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
@@ -1806,7 +1806,7 @@
 		<text>RPG-7</text>
 	</string>
 	<string id="st_wpn_rpg7_descr">
-		<text>肩に担いで使用する、再利用可能なロケットランチャー。汎用性と耐久性に優れ、装甲車両や要塞に対して絶大な効果を発揮する。シンプルな設計で扱いやすく、様々な任務に合わせて多様な弾頭を使い分けることができる。世界中の軍隊や武装勢力で広く使われており、歴史上最も有名で息の長い対戦車兵器と言えるだろう。\n \n
+		<text>肩に担いで使用する、再利用可能なロケットランチャー。汎用性と耐久性に優れ、装甲車両や要塞に対して絶大な効果を発揮する。シンプルな設計で扱いやすく、様々な任務に合わせて多様な弾頭を使い分けられる。世界中の軍隊や武装勢力で広く使われており、歴史上最も有名で息の長い対戦車兵器と言えるだろう。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Degtyaryov Plant\n
@@ -1877,7 +1877,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]48\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]87\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]65% - 85%\n
 		</text>
@@ -1891,7 +1891,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]42\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]71\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]24\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]24\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]45% - 60%\n
 		</text>
@@ -1906,7 +1906,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]48\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]87\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]65% - 85%\n
 		</text>
@@ -1931,7 +1931,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]45\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]55\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]18\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]18\n
 		%c[d_green] • %c[pda_white]厚い皮の切断: %c[ui_red]不可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]35% - 50%\n
 		</text>
@@ -1946,7 +1946,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]45\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]55\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]18\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]18\n
 		%c[d_green] • %c[pda_white]厚い皮の切断: %c[ui_red]不可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]35% - 50%\n
 		</text>
@@ -1961,7 +1961,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]54\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]78\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]35\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]35\n
 		%c[d_cyan] • %c[pda_white]厚い皮の切断: %c[ui_green]可能\n
 		%c[d_cyan] • %c[pda_white]剥ぎ取れるミュータントの皮の品質: %c[ui_gray_1]55% - 70%\n
 		</text>
@@ -1975,7 +1975,7 @@
 		%c[d_cyan] • %c[pda_white]近接武器\n
 		%c[d_cyan] • %c[pda_white]弱攻撃のダメージ: %c[ui_gray_1]120\n
 		%c[d_cyan] • %c[pda_white]強攻撃のダメージ: %c[ui_gray_1]170\n
-		%c[d_cyan] • %c[pda_white]アーマー貫通力: %c[ui_gray_1]24\n
+		%c[d_cyan] • %c[pda_white]装甲貫通力: %c[ui_gray_1]24\n
 		%c[d_green] • %c[ui_gray_1]リーチが長い\n
 		</text>
 	</string>
@@ -1994,7 +1994,7 @@
 		<text>ハンドクランク充電器</text>
 	</string>
 	<string id="st_dynamo_hand_name_descr">
-		<text>古い電化製品の単相誘導モーターを利用して作られた手動式のポータブル発電機。その設計上、重量はあるがゾーンでは非常に高く評価されている。一部の職人はこの装置を改良することができる。\n \n
+		<text>古い電化製品の単相誘導モーターを利用して作られた手動式のポータブル発電機。その設計上、重量はあるがゾーンでは非常に高く評価されている。一部の職人はこの装置を改良できる。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[ui_gray_1]携行用電源\n
 		%c[d_cyan] • %c[ui_gray_1]定格電力40Wのモーター\n

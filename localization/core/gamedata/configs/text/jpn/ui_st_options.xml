@@ -1211,7 +1211,7 @@
 	</string>
 	<string id="ui_mm_gameplay_disguise_outfit_desc">
 		<text>有効にすると、NPCはプレイヤーが着用しているスーツの種類や耐久値を注視します。この係数は、全体の不審度を算出する際のスーツの影響力を制御します。
-		\n%c[pda_white]ヒント:%c[ui_gray_1] スーツの耐久値は変装システムにおいて特に重要です。損傷したスーツはNPCに強い疑念を抱かせます。</text>
+		\n%c[pda_white]ヒント:%c[ui_gray_1] スーツの耐久値は変装システムで特に重要です。損傷したスーツはNPCに強い疑念を抱かせます。</text>
 	</string>
 	<string id="ui_mm_gameplay_disguise_outfit_factor">
 		<text>装備中のスーツに対する疑心度の係数</text>

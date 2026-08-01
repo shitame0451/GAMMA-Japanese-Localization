@@ -44,7 +44,7 @@
 		<text>NPCアイテムの生成確率</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_loot_npc_chance_desc">
-		<text>NPCの隠されたアイテムを発見する確率です。\n成功した場合、再度通常の確率でスタッシュからアイテムを発見することができます。</text>
+		<text>NPCの隠されたアイテムを発見する確率です。\n成功した場合、再度通常の確率でスタッシュからアイテムを発見できます。</text>
 	</string>
 	<!-- ITEMS -->
 	<string id="ui_mcm_SMR_smr_loot_items_title">
@@ -60,7 +60,7 @@
 		<text>部品修理アイテムを生成する</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_loot_repair_parts_spawn_desc">
-		<text>部品修理アイテムを小修理キットとして有効/無効にします。銃やスーツの部品を修理・交換するのが面倒な場合は、関連アイテムの出現を無効化することができます。</text>
+		<text>部品修理アイテムを小修理キットとして有効／無効にします。銃やスーツの部品を修理・交換するのが面倒な場合は、関連アイテムの出現を無効化できます。</text>
 	</string>
 	<string id="ui_mcm_SMR_smr_loot_repair_chance">
 		<text>修理キットが生成される確率</text>

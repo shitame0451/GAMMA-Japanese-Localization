@@ -146,7 +146,7 @@
 		<text>ベクターはMercenary部隊からの緊急信号を追跡するよう求めている。$mapへ向かう必要がある。</text>
 	</string>
 	<string id="drx_sl_zat_stancia_trader_merc_task_1_text_2">
-		<text>ベクターはMercenary部隊からの緊急信号を追跡するよう求めている。$item_1を使って周波数を$freqMHzに設定し、信号を探そう。</text>
+		<text>ベクターはMercenary部隊からの緊急信号を追跡するよう求めている。$item_1を使って周波数を$freqMHzに設定し、周辺で信号を探そう。</text>
 	</string>
 	<string id="drx_sl_zat_stancia_trader_merc_task_1_text_3">
 		<text>発見した$item_2を回収し、ベクターに報告する必要がある。</text>

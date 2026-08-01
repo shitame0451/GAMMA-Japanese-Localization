@@ -24,7 +24,7 @@
     <text>トラベル バックパック</text>
   </string>
   <string id="st_equ_smilpack_desc">
-    <text>長旅用の大きなバックパック。重量配分システムのおかげで、着用者はより多くの物資や装備を運ぶことができる。\n \n
+    <text>長旅用の大きなバックパック。重量配分システムのおかげで、着用者はより多くの物資や装備を運べる。\n \n
     %c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アイテム保管用\n
 		%c[d_orange] • %c[pda_white]スタッシュとして使用できる\n \n
@@ -69,15 +69,15 @@
   	%c[pda_white]特性:\n
   	%c[d_cyan] • %c[pda_white]GPS内蔵\n
   	%c[d_cyan] • %c[pda_white]戦闘用の装備は手元に残る\n
-    %c[d_cyan] • %c[pda_white]補足: %c[ui_gray_1]装備中の武器、弾薬、スーツとアタッチメント、PDAは手元に残るため、\n一瞬で戦闘に備えることができる。\n
+    %c[d_cyan] • %c[pda_white]補足: %c[ui_gray_1]装備中の武器、弾薬、スーツとアタッチメント、PDAは手元に残るため、\n一瞬で戦闘に備えられる。\n
 	</text>
   </string>
   <string id="st_itm_actor_backpack_desc_mlr">
-    <text>不測の事態に備えてストーカーたちがよく使用する装備。どんな状況でも瞬時にバックパックを取り外すことができる。\nキーを押すと作動し、バックパックをその場に落とす。\n \n
+    <text>不測の事態に備えてストーカーたちがよく使用する装備。どんな状況でも瞬時にバックパックを取り外せる。\nキーを押すと作動し、バックパックをその場に落とす。\n \n
     %c[pda_white]特性:\n
     %c[d_cyan] • %c[pda_white]GPS内蔵\n
     %c[d_cyan] • %c[pda_white]戦闘用の装備は手元に残る\n
-    %c[d_cyan] • %c[pda_white]補足: %c[ui_gray_1]装備中の武器、弾薬、スーツとアタッチメント、PDAは手元に残るため、\n一瞬で戦闘に備えることができる。\n
+    %c[d_cyan] • %c[pda_white]補足: %c[ui_gray_1]装備中の武器、弾薬、スーツとアタッチメント、PDAは手元に残るため、\n一瞬で戦闘に備えられる。\n
     </text>
   </string>
   <string id="st_itm_backpack_stash_name">

@@ -63,7 +63,7 @@
 
     <string id="ui_fft_tut_ftunlocked_01_fft_intro">
         <text>$ui_gray_1現在のMOD構成では、すべての機能が$clr_gldFair Fast Travel$ui_gray_1で管理されている。
-\n以降に紹介するすべての機能はMCMから自由に制御・調整することができる。</text>
+\n以降に紹介するすべての機能はMCMから自由に制御・調整できる。</text>
     </string>
 
     <string id="ui_fft_tut_ftunlocked_01_clicknext">
