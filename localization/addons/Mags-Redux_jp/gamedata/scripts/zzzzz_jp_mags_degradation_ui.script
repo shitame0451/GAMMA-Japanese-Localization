@@ -21,24 +21,24 @@ mags_degradation_ui.on_game_start = function(...)
 	then
 		local original_degrade_build_desc_footer = ui_item.build_desc_footer
 		ui_item.build_desc_footer = function(obj, sec, str, ...)
-		local text = original_degrade_build_desc_footer(obj, sec, str, ...)
+			local text = original_degrade_build_desc_footer(obj, sec, str, ...)
 
-		if type(text) == "string"
-		and obj
-		and magazine_binder
-		and magazine_binder.is_magazine
-		and magazine_binder.is_magazine(obj)
-		then
-			-- 改行と半角スペースの調整
-			text = text:gsub(
-				"\\n\\n %%c%[[^%]]-%]• %%c%[[^%]]-%](%%c%[pda_white%]耐久値:.*%%)",
-				"\\n%%c[d_cyan] %%c[d_cyan] • %1\\n"
-			)
+			if type(text) == "string"
+			and obj
+			and magazine_binder
+			and magazine_binder.is_magazine
+			and magazine_binder.is_magazine(obj)
+			then
+				-- 改行と半角スペースの調整
+				text = text:gsub(
+					"\\n\\n %%c%[[^%]]-%]• %%c%[[^%]]-%](%%c%[pda_white%]耐久値:.*%%)",
+					"\\n%%c[d_cyan] %%c[d_cyan] • %1\\n"
+				)
 
-			--printf("[JP Patch]\n%s", text)
-		end
+				--printf("[JP Patch]\n%s", text)
+			end
 
-		return text
+			return text
 		end
 		footer_patch_installed = true
 	end
