@@ -911,4 +911,46 @@
     <text>#ago#、#subject_name#が#subject_faction#の連中を連れて拠点へ向かったらしい。
 \n#location#にいるトレーダーに、戦利品を持ち込んだそうだ。</text>
   </string>
+  <!-- barter (SINGLE STALKER need: peer swap) -->
+  <string id="st_ap_news_tpl_barter_001">
+    <text>#ago#、#subject_faction#の連中が集まって装備を交換したらしい。
+\n#location#での話だ。ルーブルのやり取りは一切なかったみたいだな。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_002">
+    <text>#ago#、#subject_faction#の連中が荷物を交換してるのを見たぞ。
+\n#location#で、誰に何が足りないのか確かめながら分け合ってた。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_003">
+    <text>#ago#、#location#で#subject_faction#の連中とすれ違ったんだ。
+\n余った銃や医薬品を、必要としてる仲間に順番に回してたよ。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_004">
+    <text>#subject_name#が#subject_faction#の装備を一か所に集めさせたらしい。
+\n#ago#、#location#で必要な連中に分配したって話だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_005">
+    <text>#ago#、#location#で#subject_faction#の連中が戦利品を分け合ってたらしい。
+\nこっちには上等なライフル、あっちには弾薬一箱って具合にな。</text>
+  </string>
+  <!-- barter_offmap (peer swap on another map) -->
+  <string id="st_ap_news_tpl_barter_offmap_001">
+    <text>#ago#、#subject_faction#の連中がエリアを越えていったらしい。
+\n#location#にいる仲間と装備を交換しに行ったそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_offmap_002">
+    <text>#ago#、#subject_faction#の連中が友好的な分隊との取引に出たらしい。
+\n#location#まで装備を交換しに行ったそうだが、金は一切動かなかったって話だ。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_offmap_003">
+    <text>#subject_name#が#subject_faction#の連中を連れていったらしい。
+\n#ago#、#location#で別のエリアにいる仲間と余った装備を分け合ったそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_offmap_004">
+    <text>#ago#、#subject_faction#の連中がわざわざ遠出したらしい。
+\n#location#にいる仲間へ、余った装備を届けに行ったそうだ。</text>
+  </string>
+  <string id="st_ap_news_tpl_barter_offmap_005">
+    <text>#ago#、#subject_faction#の連中が仲間と落ち合ったらしい。
+\n#location#で、銃や医薬品を必要な奴に回してたそうだ。</text>
+  </string>
 </string_table>

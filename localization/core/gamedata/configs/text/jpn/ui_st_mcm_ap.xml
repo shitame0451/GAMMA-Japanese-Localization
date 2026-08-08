@@ -26,6 +26,9 @@
   <string id="ui_mcm_menu_economy">
     <text>エコノミー</text>
   </string>
+  <string id="ui_mcm_menu_creatures">
+    <text>クリーチャー</text>
+  </string>
   <string id="ui_mcm_menu_loot">
     <text>戦利品の所有権</text>
   </string>
@@ -36,7 +39,7 @@
     <text>トレード</text>
   </string>
   <string id="ui_mcm_menu_market">
-    <text>市場経済</text>
+    <text>派閥市場</text>
   </string>
   <!-- ==================== LEVEL 3 MENU NAMES (CAUSE CATEGORIES) ==================== -->
   <string id="ui_mcm_menu_reactions">
@@ -120,7 +123,7 @@
     <text>エリア制圧</text>
   </string>
   <string id="ui_mcm_menu_swarm">
-    <text>大発生</text>
+    <text>エリア占拠</text>
   </string>
   <string id="ui_mcm_menu_infest">
     <text>エリア侵食</text>
@@ -168,7 +171,7 @@
     <text>アーティファクト\n強奪</text>
   </string>
   <string id="ui_mcm_menu_harvest_haunt">
-    <text>アーティファクト\n襲撃</text>
+    <text>採取地点\n出没</text>
   </string>
   <string id="ui_mcm_menu_hunger_campfire">
     <text>空腹\n焚き火</text>
@@ -200,6 +203,12 @@
   <string id="ui_mcm_menu_supply_trader_offmap">
     <text>物資補給\nトレーダー（エリア外）</text>
   </string>
+  <string id="ui_mcm_menu_barter">
+    <text>物々交換</text>
+  </string>
+  <string id="ui_mcm_menu_barter_offmap">
+    <text>物々交換\nエリア外</text>
+  </string>
   <string id="ui_mcm_menu_job_outpost">
     <text>任務\n警備</text>
   </string>
@@ -226,19 +235,19 @@
     <text>フレームワーク</text>
   </string>
   <string id="ui_mcm_ap_framework_desc">
-    <text>イベント処理の基幹設定です。A-Lifeの処理間隔（Rate）に基づいて分隊イベントが生成され、処理比率（Ratio）に従って自マップと背景マップに割り振られます。また、予算（Budget）制限により世界に与える影響の総量が管理されます。</text>
+    <text>イベント処理全体の設定です。ap_squad_on_changeの巡回判定は「A-Lifeの処理頻度」に従って分隊イベントを生成し、「A-Lifeの比率」に従ってプレイヤーのいるマップとバックグラウンドのマップへ割り振ります。「発生原因」と「実行結果」の上限により、イベントが世界へ与える影響を制限します。</text>
   </string>
   <string id="ui_mcm_ap_framework_alife_ratio">
     <text>A-Lifeの比率</text>
   </string>
   <string id="ui_mcm_ap_framework_alife_ratio_desc">
-    <text>生成されたイベントを、プレイヤーがいるマップとそれ以外のマップにどの程度の割合で分配するかを決定します。値を大きくするほどプレイヤーの周囲でより多くのイベントが発生しやすくなり（「8」に設定すると、全イベントの約8割が現在のマップに集中します）、「0」で均等、負の値ではそれ以外のマップでのイベントが優先されます。</text>
+    <text>生成されたイベントを、プレイヤーのいるマップとバックグラウンドのマップへどのような比率で割り振るかを設定します。値を大きくするほどプレイヤーのいるマップが優先され、「8」では約5件中4件が割り振られます。「0」で均等、負の値ではバックグラウンドのマップが優先されます。</text>
   </string>
   <string id="ui_mcm_ap_framework_alife_rate">
     <text>A-Lifeの処理頻度</text>
   </string>
   <string id="ui_mcm_ap_framework_alife_rate_desc">
-    <text>[1分あたりのイベント数]\n全マップにおいて、1分間に何個の分隊に対してシミュレーションの判定を行うか設定します。ここでの「イベント」とは具体的なアクションではなく、AIが分隊のステータス（空腹、損耗、周囲の脅威やチャンスなど）を確認し、何らかの行動が必要かを判断する「思考の機会」を指します。大半の分隊は現状維持と判断されますが、状況が変化した分隊から優先的に処理が行われます。この設定はシミュレーション全体の進行ペースを調整するためのもので、死亡やアイテム使用による即時反応イベントとは独立して機能します。</text>
+    <text>[1分あたりのイベント数]\n全マップを通じて、1分間に何個の分隊を判定対象にするかを設定します。ここでの「イベント」は具体的な行動ではなく、実際に存在する1個の分隊の状態を確認する1回の判定です。その分隊が行動するか、何を行うかは、その時点の空腹、恐怖、損耗、縄張り、周囲の機会などから決まります。大半の判定では分隊は現在の行動を続けます。状況が大きく変化した分隊が優先され、平穏な分隊にも順番に判定が回ります。この設定はシミュレーションの進行ペースを調整するもので、行動を台本化するものではありません。死亡やアイテム使用による即時反応イベントは別に処理されます。</text>
   </string>
   <string id="ui_mcm_ap_framework_cause_max_reactions">
     <text>リアクションの最大発生数</text>
@@ -250,7 +259,7 @@
     <text>発生源ごとの最大反応数</text>
   </string>
   <string id="ui_mcm_ap_framework_cause_max_per_causer_desc">
-    <text>プレイヤーや特定のNPCといった「ひとつの発生源」が、ゲーム内の1時間あたりに誘発できるリアクションの最大数を設定します。ここでの発生源とは、殺害を行った者やアーティファクトを回収した者などを指します。これにより、プレイヤーによる大立ち回りや、単独の捕食者がミュータントの巣を壊滅させた際などに、特定の対象だけでイベント発生枠が占有されてしまうのを防ぎ、世界全体のシミュレーションの偏りを抑制します。</text>
+    <text>1つの発生源がゲーム内1時間に引き起こせるリアクションの最大数です。発生源とは、殺害者、回復アイテムを使用した負傷者、またはアーティファクトを回収した者（プレイヤーまたはNPC）を指します。プレイヤーだけが敵として存在するマップ、単独の捕食者による巣穴の壊滅、1個の分隊による長時間の連続殺害など、1つの発生源がリアクションを独占する偏った状況を防ぎます。</text>
   </string>
   <string id="ui_mcm_ap_framework_cause_max_needs">
     <text>欲求の最大発生数</text>
@@ -274,13 +283,13 @@
     <text>各実行結果の上限数</text>
   </string>
   <string id="ui_mcm_ap_framework_consequence_max_events_desc">
-    <text>60秒間に発生する「実行結果」カテゴリごとの最大数を設定します。特定の実行結果が頻繁に発生するのを防ぐことができます。</text>
+    <text>[回数]\n60秒間に発生できる、実行結果の種類ごとの最大回数です。特定の実行結果が頻繁に発生しすぎるのを防ぎます。</text>
   </string>
   <string id="ui_mcm_ap_framework_global_consequence_max_events">
     <text>実行結果の総上限数</text>
   </string>
   <string id="ui_mcm_ap_framework_global_consequence_max_events_desc">
-    <text>60秒間に発生する「実行結果」全体の最大数を設定します。複数の要因が重なってイベントが多発するのを防ぐことができます。</text>
+    <text>[回数]\n60秒間に発生できる、全種類を合計した実行結果の最大回数です。複数の発生原因が短時間に連続し、実行結果が殺到するのを防ぎます。</text>
   </string>
   <string id="ui_mcm_ap_framework_allow_external_ownership">
     <text>他のアドオンによる分隊の管理を許可</text>
@@ -301,17 +310,17 @@
   <string id="ui_mcm_ap_news_news_enabled_desc">
     <text>PDAニュース機能のオン/オフを切り替えます。無効にすると噂話は配信されなくなりますが、バックグラウンドでのイベント記録は継続されます。</text>
   </string>
-<string id="ui_mcm_ap_news_chatter_enabled">
+  <string id="ui_mcm_ap_news_chatter_enabled">
     <text>周辺の雑談メッセージを有効化</text>
   </string>
   <string id="ui_mcm_ap_news_chatter_enabled_desc">
-    <text>プレイヤーの周囲で起きた出来事について、近くにいるストーカーがPDAを通じて雑談を行うようになります。メッセージをオフにしたい場合は無効化してください。</text>
+    <text>プレイヤーの近くで起きた出来事について、発生した直後に周辺のストーカーがPDA通信で口にします。表示したくない場合は無効にしてください。</text>
   </string>
   <string id="ui_mcm_ap_news_chatter_interval_sec">
     <text>雑談メッセージの発生間隔（秒）</text>
   </string>
   <string id="ui_mcm_ap_news_chatter_interval_sec_desc">
-    <text>メッセージが表示されてから、次のメッセージが送られるまでの最小待機時間（秒）を設定します。複数のイベントが同時に起きた際、PDAの通知ログが埋め尽くされるのを防ぐことができます。</text>
+    <text>雑談メッセージ同士の最小間隔を、実時間の秒数で設定します。多数のイベントが同時に発生した場合、PDA通信が埋め尽くされないよう、間隔内の余分なメッセージは破棄されます。</text>
   </string>
   <string id="ui_mcm_ap_news_news_interval_min_sec">
     <text>配信間隔の最小値</text>
@@ -329,7 +338,7 @@
     <text>ニュースの受信範囲</text>
   </string>
   <string id="ui_mcm_ap_news_news_scope_desc">
-    <text>どの派閥の無線を受信するかを設定します。\n・自派閥のみ: 所属する派閥の通信のみを受信します。\n・自派閥と同盟: 自派閥および友好関係にある派閥の通信を受信します（デフォルト）。\n・非敵対の全ストーカー: 敵対していないすべてのストーカーの通信を受信します。\nMonolith、ミリタリー、Sin、UNISGなどの派閥のチャンネルは、設定に関わらずメンバー専用となります。</text>
+    <text>どの派閥の無線を受信するかを設定します。\n・自派閥のみ: 所属派閥の通信のみを受信します。\n・自派閥と同盟: 所属派閥および友好派閥の通信を受信します。\n・非敵対の全ストーカー: 敵対していないすべてのストーカーの通信を受信します。\nMonolith、ミリタリー、Sin、UNISGなどの秘密チャンネルは、設定に関係なく所属メンバーしか受信できません。</text>
   </string>
   <string id="ap_news_news_scope_lst_own">
     <text>自派閥のみ</text>
@@ -344,7 +353,7 @@
     <text>ニュースの有効期限</text>
   </string>
   <string id="ui_mcm_ap_news_news_max_age_game_hours_desc">
-    <text>[ゲーム内時間]\n発生からどれくらい経過したイベントまで噂話の対象にするかを設定します。配信のたびに、過去N時間以内のイベントからランダムに選ばれます。数値を低くすると新鮮なニュースが多くなり、高くすると幅広い話題が取り上げられます（デフォルト: 12）。</text>
+    <text>[ゲーム内時間]\n発生からどれくらい経過したイベントまで噂話の対象にするかを設定します。メッセージを作成するたびに、過去N時間以内のイベントからランダムに1件が選ばれます。値を小さくすると新しい話題が中心になり、大きくすると候補となる噂の範囲が広がります。</text>
   </string>
   <!-- ==================== CAUSES / REACTIONS (page banner) ==================== -->
   <string id="ui_mcm_ap_causes_reactions_title">
@@ -378,7 +387,7 @@
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_reactions_cause_alphakill_enabled_desc">
-    <text>アルファミュータントが死亡した際、「アルファ討伐」イベントを発生させます。これにより、同種のミュータントが殺害者を追跡するようになります。</text>
+    <text>アルファミュータントが死亡した際に「アルファ討伐」イベントを発生させます。「アルファ討伐: 追跡」を機能させるために必要です。</text>
   </string>
   <!-- ==================== CAUSES / MASSACRE ==================== -->
   <string id="ui_mcm_ap_causes_massacre_tag">
@@ -400,17 +409,17 @@
     <text>カウントの有効時間（秒）</text>
   </string>
   <string id="ui_mcm_ap_causes_reactions_cause_massacre_decay_time_desc">
-    <text>死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
+    <text>[秒]\n死亡数を累積する時間枠です。この時間より前の死亡はカウントされません。</text>
   </string>
   <!-- ==================== CAUSES / STASH ==================== -->
   <string id="ui_mcm_ap_causes_stash_loot_tag">
-    <text>発生原因: スタッシュの略奪\n概要: 分隊が中身のあるスタッシュを発見し、略奪を行った際に発生します。\n判定基準: 視界内、日中、略奪を好む性格、強欲さ・洞察力、スタッシュが空でない、拠点以外の地点、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: スタッシュの略奪\n概要: 分隊が中身のあるスタッシュを発見し、略奪します。\n判定基準: 視界内、日中、物資を漁るストーカー、性格（強欲さ・洞察力）、スタッシュが空でない、目的地が拠点以外、戦術、MVT（再判定間隔）</text>
   </string>
   <string id="ui_mcm_ap_causes_stash_ambush_tag">
-    <text>発生原因: スタッシュでの待ち伏せ\n概要: 無法者の分隊が、物資が豊富なスタッシュを見張っている際に発生します。\n判定基準: 視界内、日中、無法者、強欲さ・攻撃性、アイテム数が規定以上、拠点以外の地点、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: スタッシュでの待ち伏せ\n概要: 無法者の分隊が、物資の豊富なスタッシュを張り込みます。\n判定基準: 視界内、日中、無法者、性格（強欲さ・攻撃性）、アイテム数が最低値以上、目的地が拠点以外、戦術、MVT（再判定間隔）</text>
   </string>
   <string id="ui_mcm_ap_causes_stash_fill_tag">
-    <text>発生原因: スタッシュへの補充\n概要: 分隊が空のスタッシュを発見し、物資を補充した際に発生します。\n判定基準: 視界内、日中、全ストーカー、強欲さ・友好度、スタッシュが空、拠点以外の地点、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: スタッシュへの補充\n概要: 分隊が空のスタッシュを発見し、物資を保管します。\n判定基準: 視界内、日中、全ストーカー、性格（強欲さ・仲間意識）、スタッシュが空、目的地が拠点以外、戦術、MVT（再判定間隔）</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_stash_loot_enabled">
     <text>有効化</text>
@@ -484,7 +493,7 @@
     <text>カウントの有効時間（秒）</text>
   </string>
   <string id="ui_mcm_ap_causes_reactions_cause_basekill_decay_time_desc">
-    <text>拠点での死者数を蓄積・カウントする時間枠を設定します。この時間を過ぎた古い死者は死者数のカウントから除外されます。</text>
+    <text>[秒]\n拠点で発生した死亡数を累積する時間枠です。</text>
   </string>
   <!-- ==================== CAUSES / WOUNDED ==================== -->
   <string id="ui_mcm_ap_causes_wounded_tag">
@@ -498,13 +507,13 @@
   </string>
   <!-- ==================== CAUSES / AREA ==================== -->
   <string id="ui_mcm_ap_causes_area_conquer_tag">
-    <text>発生原因: エリア制圧\n概要: ストーカー分隊が空の重要地点（スマートテレイン）を確保した際に発生します。\n判定基準: 視界内、日中、Ecologist以外の派閥、性格（縄張り意識・攻撃性）、空の地点、拠点以外、レベルごとの派閥スマート数上限、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: エリア制圧\n概要: ストーカー分隊が空のスマートテレインを確保します。\n判定基準: 視界内、日中、Ecologist以外のストーカー、性格（縄張り意識・攻撃性）、空のスマートテレイン、拠点以外、レベルごとの派閥スマートテレイン上限、戦術、MVT（再判定間隔）</text>
   </string>
   <string id="ui_mcm_ap_causes_area_swarm_tag">
-    <text>発生原因: エリア占拠\n概要: ミュータントの群れが空の重要地点を確保した際に発生します。\n判定基準: 視界内、日中、臆病でない個体、性格（縄張り意識・攻撃性）、空の地点、拠点以外、レベルごとの派閥スマート数上限、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: エリア占拠\n概要: ミュータント分隊が空のスマートテレインを確保します。\n判定基準: 視界内、日中、臆病でないミュータント、性格（縄張り意識・攻撃性）、空のスマートテレイン、拠点以外、レベルごとのミュータント用スマートテレイン上限、戦術、MVT（再判定間隔）</text>
   </string>
   <string id="ui_mcm_ap_causes_area_infest_tag">
-    <text>発生原因: エリア侵食\n概要: ミュータントが巣穴や退避所を確保した際に発生します。\n判定基準: 視界内、日中、臆病でない個体、性格（縄張り意識・生存本能）、種族に適した場所、拠点以外、未侵食、アルファ個体の存在、レベル別上限、戦術、MVT（最小待機時間）</text>
+    <text>発生原因: エリア侵食\n概要: ミュータントが巣穴またはエミッション退避所を確保します。\n判定基準: 視界内、日中、臆病でないミュータント、性格（縄張り意識・生存本能）、種族に適した退避場所、拠点以外、未侵食、アルファ個体が存在、レベルごとの上限、戦術、MVT（再判定間隔）</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_enabled">
     <text>有効化</text>
@@ -519,16 +528,16 @@
     <text>同じ分隊が再びエリア制圧を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_max_faction_smarts_per_level">
-    <text>レベルごとの派閥スマート上限</text>
+    <text>レベルごとの派閥スマートテレイン上限</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_conquer_max_faction_smarts_per_level_desc">
-    <text>各レベルで、1つの派閥が占有できるスマートテレインの上限を設定します。占有数がこの値に達した派閥は、そのレベルで新たな制圧を行いません。制圧によって獲得したものに限らず、その派閥が占有しているすべてのスマートテレインがカウントされます。</text>
+    <text>1つの派閥がそのレベルで占有しているスマートテレインの数がこの値に達すると、新たな制圧を行わなくなります。制圧によって獲得した地点だけでなく、その派閥が占有しているすべてのスマートテレインを数えます。そのため、優勢な派閥は拡大を止め、新規参入した派閥は自由に拡大できます。</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled">
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_enabled_desc">
-    <text>ミュータントの大群によるエリア占拠イベントが発生するようになります。</text>
+    <text>ミュータント分隊によるエリア占拠イベントが発生するようになります。</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_threshold">
     <text>占拠の再判定間隔（MVT）</text>
@@ -537,10 +546,10 @@
     <text>同じ群れが再びエリア占拠を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_max_faction_smarts_per_level">
-    <text>レベルごとのミュータントスマート上限</text>
+    <text>レベルごとのミュータント用スマートテレイン上限</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_swarm_max_faction_smarts_per_level_desc">
-    <text>各レベルで、ミュータントが占有できるスマートテレインの上限を設定します。いずれかの種族のミュータント分隊による占有数が合計でこの値に達すると、そのレベルで新たな群襲を行いません。すべてのミュータント種族は同一勢力としてカウントされます。</text>
+    <text>そのレベルで、全種族のミュータント分隊が占有しているスマートテレインの合計がこの値に達すると、新たなエリア占拠を行わなくなります。すべてのミュータント種族を1つの勢力として数えます。</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_enabled">
     <text>有効化</text>
@@ -552,7 +561,7 @@
     <text>侵食の再判定間隔（MVT）</text>
   </string>
   <string id="ui_mcm_ap_causes_opportunities_cause_area_infest_threshold_desc">
-    <text>同じ個体が再びエリア侵食を試みるまでに必要なゲーム内時間（時間）を設定します。</text>
+    <text>同じ分隊が再びエリア侵食を試みられるようになるまでのゲーム内時間です。MVTの回復時間として使用されます。</text>
   </string>
   <!-- ==================== CAUSES / HARVEST ==================== -->
   <string id="ui_mcm_ap_causes_harvest_tag">
@@ -570,109 +579,115 @@
   </string>
   <!-- Per-cause tags (14 sub-causes) -->
   <string id="ui_mcm_ap_causes_needs_hunger_campfire_tag">
-    <text>発生原因: 空腹（焚き火）\n概要: 空腹状態の分隊が食事を摂るために焚き火へ向かいます。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 空腹（焚き火）\n概要: 空腹状態の分隊が食事をとるために焚き火へ向かいます。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_sleep_campfire_tag">
-    <text>発生原因: 睡眠（焚き火）\n概要: 疲労した分隊が就寝のために焚き火へ向かいます。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 睡眠（焚き火）\n概要: 疲労した分隊が眠るために焚き火へ向かいます。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_rest_campfire_tag">
-    <text>発生原因: 休息（焚き火）\n概要: 疲弊した分隊が休憩のために焚き火に立ち寄ります。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 休息（焚き火）\n概要: 疲弊した分隊が休憩するために焚き火へ向かいます。\n判定基準: 無線範囲内、全ストーカー、性格（生存本能）、焚き火、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_heal_shelter_tag">
-    <text>発生原因: 治療（退避所）\n概要: 負傷した分隊が治療のためにエミッション退避所を探します。\n判定基準: 無線範囲内、全ストーカー、性格（縄張り意識・生存本能）、エミッション退避所、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 治療（退避所）\n概要: 負傷した分隊が治療のためにエミッション退避所を探します。\n判定基準: 無線範囲内、全ストーカー、性格（縄張り意識・生存本能）、エミッション退避所、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_shelter_indoor_tag">
-    <text>発生原因: 屋内退避\n概要: 分隊が屋内のエミッション退避所を確保します。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（縄張り意識・規律）、エミッション退避所、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 避難（屋内）\n概要: 分隊が屋内のエミッション退避所を確保します。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（縄張り意識・規律）、エミッション退避所、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_shelter_outdoor_tag">
-    <text>発生原因: 野外退避\n概要: 分隊が焚き火の周辺を野外の退避場所として利用します。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（洞察力）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 避難（屋外）\n概要: 分隊が焚き火を屋外の避難場所として利用します。\n判定基準: 無線範囲内、夜間、全ストーカー、性格（洞察力）、焚き火、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_supply_trader_tag">
-    <text>発生原因: 物資補給（トレーダー）\n概要: 分隊が物資補充のため、トレーダー、医者、または技術者のいる重要地点へ向かいます。\n判定基準: 無線範囲内、日中、全ストーカー、性格（強欲・友好度）、サービスNPC、非敵対状態、Hull（判定リミッター）</text>
+    <text>発生原因: 物資補給（トレーダー）\n概要: 分隊が物資を補充するため、指定されたトレーダー、医者、または技術者のいるスマートテレインへ向かいます。\n判定基準: 無線範囲内、日中、全ストーカー、性格（強欲さ・仲間意識）、サービスNPCがいるスマートテレイン、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_supply_trader_offmap_tag">
-    <text>発生原因: 物資補給（エリア外）\n概要: 分隊が他マップのトレーダー等の元へ遠征します。「強欲」かつ「平和的（非攻撃的）」の低い分隊が、交易のためにエリアを跨いで移動するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（強欲・攻撃性の低さ）、サービスNPC、非敵対、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 物資補給（エリア外）\n概要: 分隊が物資を補充するため、他マップにいる指定トレーダー、医者、または技術者のもとへ向かいます。通常の物資補給と同系統で、平和的かつ強欲な派閥ほど交易のために遠征します。\n判定基準: 全レベルを検索、出発レベルを除外、エリア外バランス上限を適用、エリア外移動の対象、性格（強欲さ・攻撃性の低さ）、サービスNPCがいるスマートテレイン、非敵対状態、戦術、Hull（再判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_barter_tag">
+    <text>発生原因: 物々交換\n概要: 分隊が同一派閥のストーカーがいるスマートテレインへ向かい、金銭を使わず、余剰品を不足品と交換します。トレーダー訪問と同じ物資補給の欲求を共有します。\n判定基準: 無線範囲内、日中、同一派閥のストーカーが存在、性格（強欲さ・仲間意識）、非敵対状態、戦術、Hull（再判定リミッター）</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_barter_offmap_tag">
+    <text>発生原因: 物々交換（エリア外）\n概要: 分隊が他マップにいる同一派閥のストーカーを訪ね、金銭を使わず物資を交換します。通常の物々交換と同系統で、平和的かつ強欲な派閥ほど交換のために遠征します。\n判定基準: 全レベルを検索、出発レベルを除外、エリア外バランス上限を適用、エリア外移動の対象、性格（強欲さ・攻撃性の低さ）、同一派閥のストーカーが存在、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_money_harvest_tag">
-    <text>発生原因: 資金稼ぎ（アーティファクト）\n概要: 分隊がアーティファクトを回収するためにアノマリー地帯へ向かいます。\n判定基準: 無線範囲内、日中、利己的なストーカー、性格（強欲・洞察力）、アノマリー、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 資金稼ぎ（アーティファクト）\n概要: 分隊がアーティファクトを回収するためにアノマリー地帯へ向かいます。\n判定基準: 無線範囲内、日中、利己的なストーカー、性格（強欲さ・洞察力）、アノマリー、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_money_hunt_tag">
-    <text>発生原因: 資金稼ぎ（狩猟）\n概要: 分隊がミュータントを狩るために巣穴へ向かいます。\n判定基準: 無線範囲内、日中、博物学的なストーカー、性格（強欲・洞察力）、巣穴、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 資金稼ぎ（狩猟）\n概要: 分隊がミュータントを狩るために巣穴へ向かいます。\n判定基準: 無線範囲内、日中、自然主義的なストーカー、性格（強欲さ・洞察力）、巣穴、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_job_outpost_tag">
-    <text>発生原因: 任務（監視）\n概要: 分隊が遠方の監視ポストに就き、警戒にあたります。\n判定基準: 無線範囲内、日中、信念を持つストーカー、性格（縄張り意識・規律）、拠点以外、巣穴以外、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 任務（警備）\n概要: 分隊が遠方の監視所に駐留し、警戒にあたります。\n判定基準: 無線範囲内、日中、信条を重んじるストーカー、性格（縄張り意識・規律）、拠点以外、巣穴以外、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_job_explore_tag">
-    <text>発生原因: 任務（探索）\n概要: 分隊が未占拠の重要地点を偵察します。\n判定基準: 無線範囲内、日中、利己的なストーカー、性格（洞察力・縄張り意識）、未占拠地点、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 任務（探索）\n概要: 分隊が未占拠のスマートテレインを偵察します。\n判定基準: 無線範囲内、日中、利己的なストーカー、性格（洞察力・縄張り意識）、未占拠のスマートテレイン、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_job_explore_offmap_tag">
-    <text>発生原因: 任務（エリア外探索）\n概要: 分隊が他マップにある未占拠の重要地点を偵察します。平和的かつ好奇心の強い勢力が、隣接するエリアの状況を調査するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（洞察力・攻撃性の低さ）、未占拠の地点、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 任務（エリア外探索）\n概要: 分隊が他マップにある未占拠のスマートテレインを偵察します。通常の探索任務と同系統で、平和的かつ好奇心の強い派閥ほど隣接マップを偵察します。\n判定基準: 全レベルを検索、出発レベルを除外、エリア外バランス上限を適用、エリア外移動の対象、性格（洞察力・攻撃性の低さ）、派閥に未占拠のスマートテレイン、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_job_research_tag">
-    <text>発生原因: 任務（調査）\n概要: Ecologistの分隊がアノマリー地帯でサンプルを採取します。\n判定基準: 無線範囲内、日中、Ecologist、性格（洞察力・規律）、アノマリー、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 任務（調査）\n概要: Ecologistの分隊がアノマリー地帯でサンプルを採取します。\n判定基準: 無線範囲内、日中、Ecologist、性格（洞察力・規律）、アノマリー、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_social_campfire_tag">
-    <text>発生原因: 交流（焚き火）\n概要: 分隊が焚き火に集まり、酒を酌み交わして交流します。\n判定基準: 無線範囲内、全ストーカー、性格（友好度）、焚き火、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 交流（焚き火）\n概要: 分隊が焚き火に集まり、酒を飲んで交流します。\n判定基準: 無線範囲内、全ストーカー、性格（仲間意識）、焚き火、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_social_base_tag">
-    <text>発生原因: 交流（拠点）\n概要: 分隊が休息のために拠点へ戻ります。\n判定基準: 無線範囲内、信念を持つストーカー、性格（友好度・縄張り意識）、拠点、非敵対状態、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 交流（拠点）\n概要: 分隊が休暇を過ごすために拠点へ戻ります。\n判定基準: 無線範囲内、信条を重んじるストーカー、性格（仲間意識・縄張り意識）、拠点、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_social_offmap_tag">
-    <text>発生原因: 交流（エリア外）\n概要: 休息のために他マップにある拠点へと移動します。平和的かつ社交的な勢力の分隊が他エリアのキャンプを訪問するようになります。\n判定基準: 全マップスキャン（自エリア除外）、エリア外バランス上限、エリア外移動者、性格（友好度・攻撃性の低さ）、拠点、非敵対、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 交流（エリア外）\n概要: 分隊が仲間と過ごすため、他マップにある拠点を訪れます。通常の拠点交流と同系統で、平和的かつ社交的な派閥ほど他のキャンプを訪れます。\n判定基準: 全レベルを検索、出発レベルを除外、エリア外バランス上限を適用、エリア外移動の対象、性格（仲間意識・攻撃性の低さ）、拠点、非敵対状態、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold">
     <text>空腹イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_hunger_threshold_desc">
-    <text>[ゲーム内時間]\n空腹イベントが発生する間隔を設定します。デフォルト値の「8」は、1日3食のペースに相当します。</text>
+    <text>[ゲーム内時間]\n空腹イベントが発生する間隔です。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold">
     <text>睡眠イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_sleep_threshold_desc">
-    <text>[ゲーム内時間]\n睡眠イベントが発生する間隔を設定します。このイベントは夜間（20:00～05:00）にのみ発生します。デフォルト値は「16」です。</text>
+    <text>[ゲーム内時間]\n睡眠イベントが発生する間隔です。このイベントは夜間（20:00～05:00）にのみ発生します。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_rest_threshold">
     <text>休息イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_rest_threshold_desc">
-    <text>[ゲーム内時間]\n喫煙や飲酒、リラックスなどの休息イベントが発生する間隔を設定します。デフォルト値は「4」です。</text>
+    <text>[ゲーム内時間]\n喫煙、飲酒、くつろぎなどの休息イベントが発生する間隔です。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_heal_threshold">
     <text>治療イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_heal_threshold_desc">
-    <text>[ゲーム内時間]\n治療イベントが発生する間隔を設定します。デフォルト値は「12」です。</text>
+    <text>[ゲーム内時間]\n治療イベントが発生する間隔です。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold">
     <text>避難イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_shelter_threshold_desc">
-    <text>[ゲーム内時間]\n避難イベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
+    <text>[ゲーム内時間]\n避難イベントが発生する間隔です。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_money_threshold">
     <text>資金稼ぎイベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_money_threshold_desc">
-    <text>[ゲーム内時間]\n資金稼ぎイベントが発生する間隔を設定します。デフォルト値は「24」です。</text>
+    <text>[ゲーム内時間]\n資金稼ぎイベントが発生する間隔です。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_supply_threshold">
     <text>物資補給イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_supply_threshold_desc">
-    <text>[ゲーム内時間]\nトレーダーへの訪問やスタッシュへのアイテム預け入れなど、補給イベントが発生する間隔を設定します。デフォルト値は「48」です。</text>
+    <text>[ゲーム内時間]\nトレーダーへの訪問やスタッシュへの預け入れなど、物資補給イベントが発生する間隔です。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_job_threshold">
     <text>任務イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_job_threshold_desc">
-    <text>[ゲーム内時間]\n警備、探索、調査などの任務イベントが発生する間隔を設定します。デフォルト値は「18」です。</text>
+    <text>[ゲーム内時間]\n警備、探索、調査などの任務イベントが発生する間隔です。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_social_threshold">
     <text>交流イベントの発生間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_social_threshold_desc">
-    <text>[ゲーム内時間]\n焚き火の周りに集まったり、拠点を訪問したりする交流イベントが発生する間隔を設定します。デフォルト値は「36」です。</text>
+    <text>[ゲーム内時間]\n焚き火での集まりや拠点訪問など、交流イベントが発生する間隔です。</text>
   </string>
   <!-- Per-cause enable labels (uniform "Enabled") -->
   <string id="ui_mcm_ap_causes_needs_cause_hunger_campfire_enabled">
@@ -703,13 +718,13 @@
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_shelter_indoor_enabled_desc">
-    <text>NPCが屋内の退避所を確保するイベントの発生を許可します。</text>
+    <text>NPCが屋内のエミッション退避所を確保するイベントの発生を許可します。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled">
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_shelter_outdoor_enabled_desc">
-    <text>NPCが焚き火の周辺を野外退避所として利用するイベントの発生を許可します。</text>
+    <text>NPCが焚き火の周辺を屋外の避難場所として利用するイベントの発生を許可します。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_supply_trader_enabled">
     <text>有効化</text>
@@ -763,23 +778,35 @@
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_social_offmap_enabled_desc">
-    <text>NPCが休息や交流のために他マップの拠点を訪れるようになります。主に平和的で社交的な勢力の分隊が、エリアを跨いで他勢力のキャンプを訪問する確率が上がります。</text>
+    <text>平和的かつ社交的な派閥の分隊が、休暇や交流のために他マップの拠点を訪れるイベントの発生を許可します。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled">
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_supply_trader_offmap_enabled_desc">
-    <text>NPCが物資を求めて他マップのトレーダーを訪問するようになります。主に「強欲」かつ「平和的」な分隊が、遠方のエリアまで交易に出向くようになります。</text>
+    <text>平和的かつ強欲な派閥の分隊が、物資補給のために他マップのトレーダーを訪れるイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_barter_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_barter_enabled_desc">
+    <text>同じ派閥の分隊同士が、金銭を使わず余剰物資と不足品を交換するイベントの発生を許可します。</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_barter_offmap_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_causes_needs_cause_barter_offmap_enabled_desc">
+    <text>平和的かつ強欲な派閥の分隊が、他マップにいる同一派閥の分隊を訪ねて物資を交換するイベントの発生を許可します。</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_job_explore_offmap_enabled">
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_causes_needs_cause_job_explore_offmap_enabled_desc">
-    <text>NPCが勢力拡大や調査のために、他マップへ探索に向かうようになります。平和的で好奇心の強い勢力が、隣接エリアの重要地点を偵察する確率が上がります。</text>
+    <text>平和的かつ好奇心の強い派閥の分隊が、隣接するマップの未占拠地点を偵察するイベントの発生を許可します。</text>
   </string>
   <!-- ==================== CONSEQUENCES / ALPHA PROMOTE ==================== -->
   <string id="ui_mcm_ap_consequences_alpha_promote_title">
-    <text>アルファ: 昇格</text>
+    <text>アルファ\n昇格</text>
   </string>
   <string id="ui_mcm_ap_consequences_alpha_promote_tag">
     <text>概要: 新たなアルファ個体を登録、または既存個体のレベルを上昇させます。\n原因: アルファ\n判定基準: ミュータント、キル数のしきい値</text>
@@ -819,7 +846,7 @@
     <text>イベントごとの最大分隊数</text>
   </string>
   <string id="ui_mcm_ap_consequences_alphakill_targeted_consequence_alphakill_targeted_max_squads_desc">
-    <text>討伐者を追跡するミュータントの群れの最大数を設定します。</text>
+    <text>アルファを殺した者を追跡する、同種ミュータント分隊の最大数です。</text>
   </string>
   <!-- ==================== CONSEQUENCES / MASSACRE SCAVENGE ==================== -->
   <string id="ui_mcm_ap_consequences_massacre_scavenge_title">
@@ -848,10 +875,10 @@
   </string>
   <!-- ==================== CONSEQUENCES / MASSACRE INVESTIGATE ==================== -->
   <string id="ui_mcm_ap_consequences_massacre_investigate_title">
-    <text>大虐殺: 調査</text>
+    <text>大虐殺\n調査</text>
   </string>
   <string id="ui_mcm_ap_consequences_massacre_investigate_tag">
-    <text>概要: 仲間を殺害された派閥のストーカーが、状況確認や遺品回収のために虐殺現場へと向かいます。\n原因: 大虐殺\n判定基準: 無線範囲内、Renegade以外の派閥、性格（洞察力・友好度）</text>
+    <text>概要: 犠牲者と同じ派閥のストーカーが殺害現場へ向かいます。\n原因: 大虐殺\n判定基準: 無線範囲内、Renegade以外のストーカー、性格（洞察力・仲間意識）</text>
   </string>
   <string id="ui_mcm_ap_consequences_massacre_investigate_consequence_massacre_investigate_enabled">
     <text>有効化</text>
@@ -876,7 +903,7 @@
     <text>大虐殺\n略奪</text>
   </string>
   <string id="ui_mcm_ap_consequences_massacre_loot_tag">
-    <text>概要: 無法者のストーカーが、大虐殺の現場に現れて死体から装備や所持品を剥ぎ取ります。\n原因: 大虐殺\n判定基準: 無線範囲内、無法者、性格（強欲・洞察力）</text>
+    <text>概要: 無法者のストーカーが大虐殺の現場へ向かい、死体から装備や所持品を剥ぎ取ります。\n原因: 大虐殺\n判定基準: 無線範囲内、無法者、性格（強欲さ・洞察力）</text>
   </string>
   <string id="ui_mcm_ap_consequences_massacre_loot_consequence_massacre_loot_enabled">
     <text>有効化</text>
@@ -898,7 +925,7 @@
   </string>
   <!-- ==================== CONSEQUENCES / STASH AMBUSH ==================== -->
   <string id="ui_mcm_ap_consequences_stash_ambush_title">
-    <text>スタッシュ: 待ち伏せ</text>
+    <text>スタッシュ\n待ち伏せ</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_ambush_tag">
     <text>概要: 分隊がスタッシュに到着し、そこを漁りに来る者を排除するために潜伏・待機します。\n原因: スタッシュでの待ち伏せ</text>
@@ -917,10 +944,10 @@
   </string>
   <!-- ==================== CONSEQUENCES / STASH LOOT ==================== -->
   <string id="ui_mcm_ap_consequences_stash_loot_title">
-    <text>スタッシュ: 略奪</text>
+    <text>スタッシュ\n略奪</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_tag">
-    <text>概要: 分隊がスタッシュから特定のカテゴリに該当するアイテム（装備中の武器に合う弾薬、医療キット、包帯、食料、飲料、放射能除去剤、グレネード）を優先的に回収します。タスク用アイテムが含まれるスタッシュは対象から除外されます。また、MCMの設定により、クラフト用アイテムが含まれるスタッシュを除外することも可能です。\n原因: スタッシュの略奪</text>
+    <text>概要: 分隊がスタッシュから、カテゴリごとに定められた範囲のアイテムを回収します（装備中の武器に合う弾薬、救急キット、包帯、食料、飲料、放射能除去剤、グレネード）。タスク用アイテムが1つでも含まれている場合、スタッシュ全体を回収対象から除外します。MCM設定により、クラフト用品が含まれるスタッシュも除外できます。\n原因: スタッシュの略奪</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_enabled">
     <text>有効化</text>
@@ -935,14 +962,14 @@
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting">
-    <text>クラフト素材を含むスタッシュを保護</text>
+    <text>クラフト用品を含むスタッシュを除外</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_loot_consequence_stash_loot_skip_crafting_desc">
     <text>スタッシュにクラフト関連アイテム（ツール、キット、武器パーツ、アップグレード品など）が1つでも含まれている場合、そのスタッシュには一切手を付けず、中身を完全に保護します。無効にすると、中身に関わらずあらゆるスタッシュが略奪の対象になります。</text>
   </string>
   <!-- ==================== CONSEQUENCES / STASH FILL ==================== -->
   <string id="ui_mcm_ap_consequences_stash_fill_title">
-    <text>スタッシュ: 補充</text>
+    <text>スタッシュ\n補充</text>
   </string>
   <string id="ui_mcm_ap_consequences_stash_fill_tag">
     <text>概要: 分隊が所持している消耗品などのうち、各カテゴリの規定数を超えた余剰分をスタッシュに蓄えるようになります。一度の補充アクションで移動されるアイテム数には、イベントごとの上限が設定されています。\n原因: スタッシュへの補充</text>
@@ -964,7 +991,7 @@
     <text>分隊全滅: 復讐</text>
   </string>
   <string id="ui_mcm_ap_consequences_squadkill_revenge_tag">
-    <text>概要: 仲間を殺害された派閥の分隊が、犯人を特定し報復のために追跡を開始します。\n原因: 分隊全滅\n判定基準: 無線範囲内、無法者または非道なストーカー、性格（攻撃性・友好度）</text>
+    <text>概要: 犠牲者と同じ派閥の分隊が、殺害者を追跡します。\n原因: 分隊全滅\n判定基準: 無線範囲内、信条を重んじないストーカーまたは無法者、性格（攻撃性・仲間意識）</text>
   </string>
   <string id="ui_mcm_ap_consequences_squadkill_revenge_consequence_squadkill_revenge_enabled">
     <text>有効化</text>
@@ -989,7 +1016,7 @@
     <text>拠点壊滅: 増援</text>
   </string>
   <string id="ui_mcm_ap_consequences_basekill_support_tag">
-    <text>概要: 攻撃を受けている拠点を守るため、同派閥の分隊が救援に急行します。\n原因: 拠点壊滅\n判定基準: 無線範囲内、Renegade以外の派閥、性格（規律・友好度）</text>
+    <text>概要: 犠牲者と同じ派閥の分隊が、拠点を守るために急行します。\n原因: 拠点壊滅\n判定基準: 無線範囲内、Renegade以外のストーカー、性格（規律・仲間意識）</text>
   </string>
   <string id="ui_mcm_ap_consequences_basekill_support_consequence_basekill_support_enabled">
     <text>有効化</text>
@@ -1014,7 +1041,7 @@
     <text>拠点壊滅: 逃亡</text>
   </string>
   <string id="ui_mcm_ap_consequences_basekill_flee_tag">
-    <text>概要: 拠点の陥落を察知した周辺の分隊が、安全を確保するために遠方の友好的な拠点へと撤退します。\n原因: 拠点壊滅\n判定基準: 視界内、信念を持たないストーカー、性格（規律の欠如・縄張り意識の低さ）、同エリア内に拠点が存在</text>
+    <text>概要: 周辺の分隊が、遠方にある友好的な拠点へ逃走します。\n原因: 拠点壊滅\n判定基準: 視界内、信条を重んじないストーカー、性格（規律の低さ・縄張り意識の低さ）、同じレベルに拠点が存在</text>
   </string>
   <string id="ui_mcm_ap_consequences_basekill_flee_consequence_basekill_flee_enabled">
     <text>有効化</text>
@@ -1036,7 +1063,7 @@
   </string>
   <!-- ==================== CONSEQUENCES / WOUNDED HUNT ==================== -->
   <string id="ui_mcm_ap_consequences_wounded_hunt_title">
-    <text>負傷者: 狩り</text>
+    <text>負傷者\n狩り</text>
   </string>
   <string id="ui_mcm_ap_consequences_wounded_hunt_tag">
     <text>概要: 血の匂いや弱った気配を察知した捕食者や変異種が、負傷者のもとへ集まってきます。\n原因: 負傷者\n判定基準: 無線範囲内、捕食種または変異種、性格（攻撃性・洞察力）</text>
@@ -1061,10 +1088,10 @@
   </string>
   <!-- ==================== CONSEQUENCES / WOUNDED FACTION HELP ==================== -->
   <string id="ui_mcm_ap_consequences_wounded_help_title">
-    <text>負傷者: 救助</text>
+    <text>負傷者\n救助</text>
   </string>
   <string id="ui_mcm_ap_consequences_wounded_help_tag">
-    <text>概要: 負傷した仲間の要請を受け、同派閥の衛生兵やストーカーが救護のために駆けつけます。\n原因: 負傷者\n判定基準: 無線範囲内、無法者以外の派閥、性格（友好度・規律）</text>
+    <text>概要: 同じ派閥の衛生兵が負傷者のもとへ集まります。\n原因: 負傷者\n判定基準: 無線範囲内、無法者以外のストーカー、性格（仲間意識・規律）</text>
   </string>
   <string id="ui_mcm_ap_consequences_wounded_help_consequence_wounded_help_enabled">
     <text>有効化</text>
@@ -1086,10 +1113,10 @@
   </string>
   <!-- ==================== CONSEQUENCES / AREA CONQUER ==================== -->
   <string id="ui_mcm_ap_consequences_area_conquer_title">
-    <text>エリア: 制圧</text>
+    <text>エリア\n制圧</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_conquer_tag">
-    <text>概要: ストーカー分隊が重要地点に到着して確保し、その場所のスポーン権益を自身の派閥に書き換えます。\n原因: エリア制圧</text>
+    <text>概要: ストーカー分隊が到着し、その派閥をスポーン候補に追加します。\n原因: エリア制圧</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_conquer_consequence_area_conquer_enabled">
     <text>有効化</text>
@@ -1108,7 +1135,7 @@
     <text>エリア\n占拠</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_swarm_tag">
-    <text>概要: ミュータントの群れが重要地点に到着して占拠し、その場所のスポーン権益を自身の種族に書き換えます。\n原因: エリア占拠</text>
+    <text>概要: ミュータントの群れが到着し、その種族をスポーン候補に追加します。\n原因: エリア占拠</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_swarm_consequence_area_swarm_enabled">
     <text>有効化</text>
@@ -1124,10 +1151,10 @@
   </string>
   <!-- ==================== CONSEQUENCES / HARVEST ROB ==================== -->
   <string id="ui_mcm_ap_consequences_harvest_rob_title">
-    <text>アーティファクト: 強奪</text>
+    <text>アーティファクト\n強奪</text>
   </string>
   <string id="ui_mcm_ap_consequences_harvest_rob_tag">
-    <text>概要: アーティファクトを手に入れた者を標的とし、強欲な無法者たちがその品を奪うべく追跡を開始します。\n原因: アーティファクト\n判定基準: 無線範囲内、無法者、性格（強欲・攻撃性）</text>
+    <text>概要: 無法者がアーティファクトの取得者を追跡し、その品を奪おうとします。\n原因: アーティファクト\n判定基準: 無線範囲内、無法者、性格（強欲さ・攻撃性）</text>
   </string>
   <string id="ui_mcm_ap_consequences_harvest_rob_consequence_harvest_rob_enabled">
     <text>有効化</text>
@@ -1149,10 +1176,10 @@
   </string>
   <!-- ==================== CONSEQUENCES / HARVEST HAUNT ==================== -->
   <string id="ui_mcm_ap_consequences_harvest_haunt_title">
-    <text>アーティファクト: 襲撃</text>
+    <text>採取地点\n出没</text>
   </string>
   <string id="ui_mcm_ap_consequences_harvest_haunt_tag">
-    <text>概要: アーティファクトが持ち去られたことに反応し、付近に潜んでいた変異種が採取現場へと集まってきます。\n原因: アーティファクト\n判定基準: 嗅覚範囲内、変異種、性格（洞察力・縄張り意識）</text>
+    <text>概要: 変異種のミュータントがアーティファクトの採取地点に出没します。\n原因: アーティファクト\n判定基準: 嗅覚範囲内、変異種、性格（洞察力・縄張り意識）</text>
   </string>
   <string id="ui_mcm_ap_consequences_harvest_haunt_consequence_harvest_haunt_enabled">
     <text>有効化</text>
@@ -1196,7 +1223,7 @@
     <text>睡眠: 焚き火</text>
   </string>
   <string id="ui_mcm_ap_consequences_sleep_campfire_tag">
-    <text>概要: 休息をとるため、分隊が最寄りの焚き火へと移動します。\n原因: 睡眠（焚き火）</text>
+    <text>概要: 分隊が眠るために焚き火へ向かいます。\n原因: 睡眠（焚き火）</text>
   </string>
   <string id="ui_mcm_ap_consequences_sleep_campfire_consequence_sleep_campfire_enabled">
     <text>有効化</text>
@@ -1240,7 +1267,7 @@
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_enabled_desc">
-    <text>負傷したストーカーが治療のために屋内の場所を探すようになります。</text>
+    <text>負傷したストーカーが治療のために安全な退避場所を探すようになります。</text>
   </string>
   <string id="ui_mcm_ap_consequences_heal_shelter_consequence_heal_shelter_rush">
     <text>ラッシュモード</text>
@@ -1253,7 +1280,7 @@
     <text>避難: 屋内</text>
   </string>
   <string id="ui_mcm_ap_consequences_shelter_indoor_tag">
-    <text>概要: エミッションから身を守るため、分隊が屋内の退避所へと移動します。\n原因: 屋内退避</text>
+    <text>概要: 分隊がエミッションから身を守るため、屋内の退避所へ向かいます。\n原因: 避難（屋内）</text>
   </string>
   <string id="ui_mcm_ap_consequences_shelter_indoor_consequence_shelter_indoor_enabled">
     <text>有効化</text>
@@ -1272,7 +1299,7 @@
     <text>避難: 屋外</text>
   </string>
   <string id="ui_mcm_ap_consequences_shelter_outdoor_tag">
-    <text>概要: エミッションをやり過ごすため、分隊が焚き火などの野外の避難ポイントへと移動します。\n原因: 野外退避</text>
+    <text>概要: 分隊がエミッションをやり過ごすため、焚き火を屋外の避難場所として利用します。\n原因: 避難（屋外）</text>
   </string>
   <string id="ui_mcm_ap_consequences_shelter_outdoor_consequence_shelter_outdoor_enabled">
     <text>有効化</text>
@@ -1297,7 +1324,7 @@
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_enabled_desc">
-    <text>資金が必要になったストーカーがアノマリー領域を探すようになります。</text>
+    <text>資金が必要になったストーカーがアノマリー地帯へ向かうようになります。</text>
   </string>
   <string id="ui_mcm_ap_consequences_money_harvest_consequence_money_harvest_rush">
     <text>ラッシュモード</text>
@@ -1329,7 +1356,7 @@
     <text>物資補給: トレーダー</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_tag">
-    <text>概要: 分隊がトレーダーの元へ向かい、余剰品を売却して各自のランクに応じた装備基準に基づき物資を補充します。ルーキーは基本的な弾薬や救急キットを、ベテランはさらに高性能な弾薬やグレネードも買い足すようになります。\n原因: 補給（トレーダー）</text>
+    <text>概要: 分隊がトレーダーのもとへ向かい、余剰品を売却して、ランク別のポリシーに従って物資を補充します。ルーキーは基本的な弾薬、救急キット、包帯を携行し、ベテランは上位弾薬とグレネードも補充します。\n原因: 物資補給（トレーダー）</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_enabled">
     <text>有効化</text>
@@ -1347,7 +1374,7 @@
     <text>到着時のアクション</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_consequence_supply_trader_arrive_action_enabled_desc">
-    <text>到着時の売買処理を詳細にシミュレートします。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金には一切手を付けません。\n・購入: 所持数が最低基準を下回っているアイテムを補充します。弾薬は装備中の銃とランクに応じて選ばれ、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、一度の取引でNPCが得られる純利益は、エコノミー設定の「最大取引利益」による制限を受けます。</text>
+    <text>売却段階では、カテゴリごとの所持数がポリシー上限を超えているアイテムを売却します。装備中のアイテム、タスク用アイテム、現金には一切手を付けません。購入段階では、最低所持数を下回っているカテゴリを補充します。弾薬は装備スロットとランクに合わせて選び、消耗品は安価なものから優先します。ベテランは上位弾薬とグレネードも補充します。「エコノミー &gt; トレード」の取引利益上限により、1回のイベントで得られる純利益が制限されます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / SUPPLY TRADER OFF-MAP ==================== -->
   <string id="ui_mcm_ap_consequences_supply_trader_offmap_title">
@@ -1372,14 +1399,64 @@
     <text>到着時のアクション</text>
   </string>
   <string id="ui_mcm_ap_consequences_supply_trader_offmap_consequence_supply_trader_offmap_arrive_action_enabled_desc">
-    <text>エリア外の目的地に到着した際、NPCが詳細な売買処理を行います。\n・売却: 各カテゴリの所持上限を超えるアイテムを売却します。装備中の品、タスク用アイテム、現金は売却されず保護されます。\n・購入: 所持数が最低基準を下回るアイテムを補充します。弾薬は装備中の銃とランクに応じて選択され、消耗品は安価なものから優先的に購入されます。ベテランは上位弾薬やグレネードも購入対象に加わります。なお、一度の取引でNPCが得られる純利益は、エコノミー設定の「最大取引利益」による制限を受けます。</text>
+    <text>売却段階では、カテゴリごとの所持数がポリシー上限を超えているアイテムを売却します。装備中のアイテム、タスク用アイテム、現金には一切手を付けません。購入段階では、最低所持数を下回っているカテゴリを補充します。弾薬は装備スロットとランクに合わせて選び、消耗品は安価なものから優先します。ベテランは上位弾薬とグレネードも補充します。「エコノミー &gt; トレード」の取引利益上限により、1回のイベントで得られる純利益が制限されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / BARTER ==================== -->
+  <string id="ui_mcm_ap_consequences_barter_title">
+    <text>物々交換</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_tag">
+    <text>概要: 分隊が同一派閥のスマートテレインへ向かい、そこにいるストーカーと金銭を使わずアイテムを交換します。互いに相手が不足している余剰品を渡し、相手の装備品より価格の高い予備の武器、スーツ、またはヘルメットも交換します。\n原因: 物々交換</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_consequence_barter_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_consequence_barter_enabled_desc">
+    <text>ストーカーが物資を補充する必要があるとき、同じ派閥の分隊と合流して物資を交換するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_consequence_barter_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_consequence_barter_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_consequence_barter_arrive_action_enabled">
+    <text>到着時の処理</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_consequence_barter_arrive_action_enabled_desc">
+    <text>到着すると、各ストーカーは自分のポリシー上限を超えているカテゴリの余剰品のうち、相手が最低基準を下回って不足しているものを渡します。さらに、相手の装備品より価格の高い予備の武器、スーツ、またはヘルメットも交換します。金銭は一切使用しません。装備中のアイテムとタスク用アイテムには手を付けません。「エコノミー &gt; 物々交換」のアイテム上限により、1回の合流で移動するアイテム数が制限されます。</text>
+  </string>
+  <!-- ==================== CONSEQUENCES / BARTER OFF-MAP ==================== -->
+  <string id="ui_mcm_ap_consequences_barter_offmap_title">
+    <text>物々交換（エリア外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_offmap_tag">
+    <text>概要: 分隊が他マップにある同一派閥のスマートテレインへ向かい、そこにいるストーカーと金銭を使わずアイテムを交換します。\n原因: 物々交換（エリア外）</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_offmap_consequence_barter_offmap_enabled">
+    <text>有効化</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_offmap_consequence_barter_offmap_enabled_desc">
+    <text>現在のマップに交換相手がいない場合、ストーカーが他マップにいる同じ派閥の分隊を訪ね、物資を交換するようになります。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_offmap_consequence_barter_offmap_rush">
+    <text>ラッシュモード</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_offmap_consequence_barter_offmap_rush_desc">
+    <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_offmap_consequence_barter_offmap_arrive_action_enabled">
+    <text>到着時の処理</text>
+  </string>
+  <string id="ui_mcm_ap_consequences_barter_offmap_consequence_barter_offmap_arrive_action_enabled_desc">
+    <text>到着すると、各ストーカーは自分のポリシー上限を超えているカテゴリの余剰品のうち、相手が最低基準を下回って不足しているものを渡します。さらに、相手の装備品より価格の高い予備の武器、スーツ、またはヘルメットも交換します。金銭は一切使用しません。装備中のアイテムとタスク用アイテムには手を付けません。「エコノミー &gt; 物々交換」のアイテム上限により、1回の合流で移動するアイテム数が制限されます。</text>
   </string>
   <!-- ==================== CONSEQUENCES / JOB OUTPOST ==================== -->
   <string id="ui_mcm_ap_consequences_job_outpost_title">
     <text>任務: 警備</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_outpost_tag">
-    <text>概要: 警戒・防衛任務を遂行するため、分隊が指定の監視ポストへと移動します。\n原因: 任務（監視）</text>
+    <text>概要: 分隊が警備のために前哨地点へ向かいます。\n原因: 任務（警備）</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_outpost_consequence_job_outpost_enabled">
     <text>有効化</text>
@@ -1398,7 +1475,7 @@
     <text>任務: 探索</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_explore_tag">
-    <text>概要: 勢力圏を広げるための偵察として、分隊が未占拠のエリアへと向かいます。\n原因: 任務（探索）</text>
+    <text>概要: 分隊が未占拠のスマートテレインを偵察するために向かいます。\n原因: 任務（探索）</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_explore_consequence_job_explore_enabled">
     <text>有効化</text>
@@ -1417,13 +1494,13 @@
     <text>任務: 探索（エリア外）</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_explore_offmap_tag">
-    <text>概要: 分隊が他マップにある未占拠の地点へ向かい、偵察を行います。\n原因: 任務（エリア外探索）</text>
+    <text>概要: 分隊が他マップにある未占拠のスマートテレインへ向かい、偵察します。\n原因: 任務（エリア外探索）</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_enabled">
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_enabled_desc">
-    <text>現在のマップ内に未占拠の地点が存在しない場合、ストーカーが勢力拡大を求めて他マップへと遠征するようになります。</text>
+    <text>現在のマップに未占拠のスマートテレインがない場合、ストーカーが他マップの未占拠地点を偵察するようになります。</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_explore_offmap_consequence_job_explore_offmap_rush">
     <text>ラッシュモード</text>
@@ -1442,7 +1519,7 @@
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_enabled_desc">
-    <text>ストーカーがアノマリー領域の調査に向かうようになります。</text>
+    <text>ストーカーがアノマリー地帯の調査に向かうようになります。</text>
   </string>
   <string id="ui_mcm_ap_consequences_job_research_consequence_job_research_rush">
     <text>ラッシュモード</text>
@@ -1489,7 +1566,7 @@
   <string id="ui_mcm_ap_consequences_social_base_consequence_social_base_rush_desc">
     <text>イベント対象の分隊は最高速度で移動します。無効にすると、より遅く現実的な速度で移動します。</text>
   </string>
-<!-- ==================== CONSEQUENCES / SOCIAL OFF-MAP ==================== -->
+  <!-- ==================== CONSEQUENCES / SOCIAL OFF-MAP ==================== -->
   <string id="ui_mcm_ap_consequences_social_offmap_title">
     <text>交流: エリア外</text>
   </string>
@@ -1497,7 +1574,7 @@
     <text>概要: 休息のため、分隊が他マップにある拠点へと移動します。\n原因: 交流（エリア外）</text>
   </string>
   <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_enabled">
-    <text>有効</text>
+    <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_consequences_social_offmap_consequence_social_offmap_enabled_desc">
     <text>現在のマップ内に利用可能な拠点が無い場合、ストーカーが休息を求めて他マップの拠点へと遠征するようになります。ミリタリー、Monolith、ゾンビ化ストーカーはこの挙動の対象外です。</text>
@@ -1510,84 +1587,187 @@
   </string>
   <!-- ==================== MUTATORS / AREA CONQUEST ==================== -->
   <string id="ui_mcm_ap_mutators_conquest_title">
-    <text>エリア制圧の設定</text>
+    <text>エリア制圧</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_desc">
-    <text>ストーカーによるエリア制圧時のスポーン挙動を調整します。制圧された重要地点（スマートテレイン）には、元のスポーン設定に加えて制圧した派閥専用のスポーン枠が追加されます。制圧した派閥と元の住人の分隊は、同じ人口枠をめぐって競合します。無効にすると、スポーン設定は変更せず、分隊の移動（area_conquer）のみを維持します。</text>
+    <text>制圧に成功した派閥がエリアを独占し、その派閥の分隊だけが再出現するようになります。元のスポーン設定は抑制され、占領中は通常より速く再配置されます。分隊のティアはレベルの危険度に応じ、初心者向けレベルではノービスのみ、序盤では上位分隊が加わり、中盤以降や北部ではすべてのティアが出現します。無効にすると、エンジンのスポーンテーブルには触れず、分隊の移動（area_conquer）のみを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart">
-    <text>スポーン設定の上書きを有効化</text>
+    <text>スポーンの差し替え</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart_desc">
-    <text>制圧されたエリアにおいて、制圧した派閥の分隊も出現するように設定を書き換えます。無効にした場合、スポーン傾向は変化せず、分隊の移動のみが行われます。</text>
+    <text>制圧されたエリアでは元のスポーンを置き換え、制圧派閥の分隊のみが出現します。無効にするとスポーンは変更せず、分隊の移動だけを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_spawn_num">
-    <text>追加される分隊数</text>
+    <text>エリアごとの再出現分隊数</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_spawn_num_desc">
-    <text>制圧したエリアで追加される、その派閥の分隊数を設定します。</text>
+    <text>制圧されたエリアが再出現させる制圧派閥の分隊数です。制圧派閥がエリアを独占し、元のスポーンは抑制されます。</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_decay_hours">
-    <text>制圧状態の持続時間（時間）</text>
+    <text>エリア制圧の持続時間（時間）</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_decay_hours_desc">
-    <text>制圧した派閥のスポーン枠が維持されるゲーム内時間を設定します。時間が経過すると元のスポーン状態に戻ります。「0」に設定すると、制圧状態は永続します。</text>
+    <text>制圧されたエリアが元のスポーン設定に戻るまでのゲーム内時間です。「0」で期限切れを無効にします。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_respawn_minutes">
+    <text>エリアの再出現間隔（分）</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_respawn_minutes_desc">
+    <text>制圧されたエリアに所属派閥の分隊が再配置される速度を、ゲーム内時間（分）で設定します。値を小さくするほど、エリアが早く埋まります。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_grow_services">
+    <text>サービス施設の発展</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_grow_services_desc">
+    <text>制圧されたエリアに、ゲーム本来のジョブを利用するサービスNPCを1人配置します。エリア中央の実在する交易地点で売買を行うトレーダー、またはバーテンダー、技術者、医者のいずれかが出現し、派閥分隊に護衛されます。これらのNPCは派閥市場にも参加します。無効にすると、エリア制圧は戦闘・占領要素のみに限定されます。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_level">
+    <text>レベルごとのサービスNPC上限</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_level_desc">
+    <text>1つのレベルに配置できるサービスNPCの総数です。すべての派閥を合算して数えます。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_faction_role">
+    <text>派閥・レベルごとの同種サービス上限</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_faction_role_desc">
+    <text>1つの派閥が同一レベル内で同じ種類のサービスNPCを配置できる制圧エリア数です。値を小さくすると、トレーダー、バーテンダー、技術者、医者が分散して配置されやすくなります。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_trader_supplies_penalty">
+    <text>本拠地より低い物資ティア</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_trader_supplies_penalty_desc">
+    <text>制圧エリアのトレーダーが、現在の友好度に対応する派閥本拠地トレーダーより何段階低い物資ティアを扱うか設定します。品揃えは本拠地と同様にプレイヤーの友好度と資産に連動した後、この数だけティアが下がります。そのためエリアトレーダーは常に本拠地より一段劣りつつ、ゲーム進行に応じて成長します。「0」で同等になります。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_trader_supplies_tier">
+    <text>物資ティアの上限</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_trader_supplies_tier_desc">
+    <text>制圧エリアのトレーダーが扱える物資ティアの絶対上限です。「本拠地より低い物資ティア」を適用した後に制限されます。制圧エリア外のトレーダーには影響しません。</text>
   </string>
   <!-- ==================== MUTATORS / AREA SWARM ==================== -->
   <string id="ui_mcm_ap_mutators_swarm_title">
-    <text>大発生の設定</text>
+    <text>エリア占拠</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_desc">
-    <text>ミュータントが大発生した際のスポーン挙動を調整します。大発生中の地点（スマートテレイン）には、本来のスポーン設定に加えて、そのミュータント種の専用枠が追加されます。大発生種と本来の住人は、同じ人口スロットを奪い合う形になります。無効にすると、スポーン設定は変更せず、ミュータントの移動挙動のみを維持します。</text>
+    <text>占拠した種族がエリアを独占し、その種族だけが再出現するようになります。元のLTXスポーンは抑制されます。派閥によるエリア制圧を、ミュータント種族に置き換えた仕組みです。無効にすると、エンジンのスポーンテーブルには触れず、分隊の移動（area_swarm）のみを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart">
-    <text>スポーン設定の上書きを有効化</text>
+    <text>スポーンの差し替え</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart_desc">
-    <text>大発生が発生したエリアにおいて、対象のミュータント種が出現するように設定を書き換えます。無効にした場合、スポーン傾向は変化せず、移動挙動のみが適用されます。</text>
+    <text>占拠されたエリアでは元のスポーンを置き換え、占拠した種族のみが再出現します。無効にするとスポーンは変更せず、分隊の移動だけを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_spawn_num">
-    <text>追加される分隊数</text>
+    <text>エリアごとの再出現分隊数</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_spawn_num_desc">
-    <text>大発生中のエリアにおいて、本来の設定に加えて追加されるミュータント分隊の数を設定します。</text>
+    <text>占拠されたエリアが再出現させる、占拠種族の分隊数です。その種族がエリアを独占し、元のスポーンは抑制されます。</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_decay_hours">
-    <text>大発生の持続時間（時間）</text>
+    <text>エリア占拠の持続時間（時間）</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_decay_hours_desc">
-    <text>大発生した種がその地点に出現し続けるゲーム内時間を設定します。時間が経過すると、本来のスポーン状態に戻ります。「0」に設定すると、大発生状態は永続します。</text>
+    <text>占拠されたエリアが元のスポーン設定に戻るまでのゲーム内時間です。「0」で期限切れを無効にします。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_respawn_minutes">
+    <text>エリアの再出現間隔（分）</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_respawn_minutes_desc">
+    <text>占拠されたエリアに対象種族が再配置される速度を、ゲーム内時間（分）で設定します。値を小さくするほど、エリアが早く埋まります。</text>
   </string>
   <!-- ==================== MUTATORS / AREA INFEST ==================== -->
   <string id="ui_mcm_ap_mutators_infest_title">
-    <text>エリア侵食の設定</text>
+    <text>エリア侵食</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_desc">
-    <text>ミュータントによるエリア侵食時のスポーン挙動を調整します。侵食された地点では元のスポーン設定が完全に置き換わり、その種族のみが独占的に出現するようになります。マップごとの上限により、各マップで同時に侵食できる重要地点の数が制限されます。無効にすると、スポーン設定は変更せず、分隊の移動（area_infest）のみを維持します。</text>
+    <text>侵食した種族が、そのエリアの元のLTXスポーンを完全に置き換えます。レベルごとの上限により、各レベルで同時に侵食できるエリア数が制限されます。無効にすると、エンジンのスポーンテーブルには触れず、分隊の移動（area_infest）のみを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_mutate_smart">
-    <text>スポーン設定の上書きを有効化</text>
+    <text>スポーンの差し替え</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_mutate_smart_desc">
-    <text>侵食されたエリアのスポーン設定を、そのミュータント種族専用のものに置き換えます。無効にした場合、スポーン傾向は変化せず、分隊の移動のみが行われます。</text>
+    <text>侵食されたエリアでは元のスポーンを置き換え、侵食した種族のみが出現します。無効にするとスポーンは変更せず、分隊の移動だけを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_max_per_level">
-    <text>マップごとの最大侵食数</text>
+    <text>レベルごとの最大侵食エリア数</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_max_per_level_desc">
-    <text>[1〜5]\n1つのマップ内で同時に侵食状態にできる重要地点の最大数を設定します。デフォルトは「3」です。</text>
+    <text>[1～5]\n1つのレベルで侵食状態にできるエリアの最大数です。</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_spawn_num">
-    <text>追加される分隊数</text>
+    <text>エリアごとの再出現分隊数</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_spawn_num_desc">
-    <text>[1〜5]\n侵食された地点から出現する分隊の数を設定します。デフォルトは「3」です。</text>
+    <text>[1～5]\n侵食エリアのスポーン設定が生成できる分隊数です。</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_decay_hours">
-    <text>侵食状態の持続時間（時間）</text>
+    <text>エリア侵食の持続時間（時間）</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_decay_hours_desc">
-    <text>[0〜168]\n侵食状態が解除されるまでのゲーム内時間を設定します。「0」に設定すると侵食は永続します。</text>
+    <text>[0～168]\n侵食が終了するまでのゲーム内時間です。「0」で永続化（期限切れなし）します。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_respawn_minutes">
+    <text>エリアの再出現間隔（分）</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_respawn_minutes_desc">
+    <text>侵食されたエリアに対象種族が再配置される速度を、ゲーム内時間（分）で設定します。値を小さくするほど、巣が早く成長します。</text>
+  </string>
+  <!-- ==================== CREATURES TAB ==================== -->
+  <string id="ui_mcm_ap_creatures_alpha_title">
+    <text>アルファ</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_desc">
+    <text>キル数によって昇格したミュータントです。アルファレベルが上がるほど与ダメージが増加し、被ダメージが減少します。効果はレベル1から直線的に伸び、下記の上限値まで適用されます。また、パニック状態への耐性を得て、死体にはその種族の皮と追加のトロフィーパーツが生成されます。各スライダーを「0」にすると、その効果を無効化できます。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_dealt_enabled">
+    <text>NPC・ミュータントへの与ダメージ増加</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_dealt_enabled_desc">
+    <text>アルファはNPCおよびミュータントに追加ダメージを与えます。効果はアルファレベルに応じて増加し、下記の上限まで適用されます。プレイヤーへの攻撃は、その下にある個別設定で切り替えます。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_dealt_max_pct">
+    <text>与ダメージ増加の上限（%）</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_dealt_max_pct_desc">
+    <text>最高レベルのアルファが与える追加ダメージを、通常の一撃に対する割合で設定します。低いアルファレベルでは直線的に効果が小さくなります。スライダーを最大にしても通常ダメージへの加算として働き、ダメージそのものが何倍にもなることはありません。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_taken_enabled">
+    <text>ダメージ耐性</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_taken_enabled_desc">
+    <text>アルファが受けるすべての攻撃ダメージを、アルファレベルに応じて軽減します。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_taken_max_pct">
+    <text>ダメージ軽減の上限（%）</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_hit_power_taken_max_pct_desc">
+    <text>最高レベルのアルファが得るダメージ軽減率です。低レベルでは直線的に小さくなります。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_vs_player">
+    <text>プレイヤーへの与ダメージ増加</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_vs_player_desc">
+    <text>アルファの与ダメージ増加を、同じ上限値でプレイヤーへの攻撃にも適用します。無効にすると、NPCやミュータントへの効果は維持したまま、プレイヤーが受けるダメージだけをバニラのままにできます。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_panic_immunity_enabled">
+    <text>パニック無効</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_panic_immunity_enabled_desc">
+    <text>アルファはダメージを受けても逃走しません。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_loot_enabled">
+    <text>トロフィー戦利品</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_loot_enabled_desc">
+    <text>死亡したアルファは、その種族の皮と追加パーツを所持します。アルファレベルが高いほど量が増えます。</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_mark_enabled">
+    <text>外見上の目印</text>
+  </string>
+  <string id="ui_mcm_ap_creatures_alpha_mutator_alpha_mark_enabled_desc">
+    <text>アルファの身体に、目視できる埃のようなきらめきを表示します。視覚効果のみです。</text>
   </string>
   <!-- ==================== WORLD TAB ==================== -->
   <string id="ui_mcm_ap_world_offmap_title">
@@ -1600,53 +1780,53 @@
     <text>エリア外派遣の上限数</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_cause_max_offmap_desc">
-    <text>特定のマップから48時間以内に派遣される分隊の最大数を設定します（1〜10、推奨: 2）。このカウントは勢力や目的地に関わらず、すべてのエリア外派遣の合計数に適用されます。</text>
+    <text>[1～10]\n1つの出発レベルから48ゲーム内時間の間に行える、エリア外派遣の最大数です。派閥と目的地を区別せず、すべてのエリア外発生原因で1つのカウンターを共有します。</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_base_hops">
     <text>初期の探索可能距離</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_base_hops_desc">
-    <text>ストーリーやランクによるボーナスが適用される前の、初期のマップ移動可能距離を設定します。「0」に設定すると進行状況による解放まで自エリアに留まり、「1」にすると最初から隣接する1つ先のマップまで移動できるようになります（推奨: 0）。</text>
+    <text>[0～3]\nストーリー進行やランクによるボーナスが適用される前に、すべての分隊が利用できる基本の隣接移動段階数です。「0」では到達範囲が解放されるまで出発マップに留まり、「1」では初期状態のストーカーも隣接マップを1つ先まで偵察できます。</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_extra_map_x16">
     <text>X-16停止後の探索距離ボーナス</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_extra_map_x16_desc">
-    <text>ヤンターのX-16研究所（精神波の放射装置）を停止した後に解放される、追加の探索可能距離を設定します。「0」に設定するとこのボーナスは無効化されます（推奨: 1）。</text>
+    <text>[0～3]\nyan_labx16_switcher_primary_offが設定された後、つまりヤンターのX-16精神波放射装置を停止した後に追加される隣接移動段階数です。「0」でこの解放条件を無効にします。</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_extra_map_radar">
     <text>ブレイン・スコーチャー停止後の探索距離ボーナス</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_extra_map_radar_desc">
-    <text>レーダー施設のブレイン・スコーチャーを停止した後に解放される、追加の探索可能距離を設定します。「0」に設定するとこのボーナスは無効化されます（推奨: 1）。</text>
+    <text>[0～3]\nbar_deactivate_radar_doneが設定された後、つまりレーダーのブレイン・スコーチャーを停止した後に追加される隣接移動段階数です。「0」でこの解放条件を無効にします。</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_extra_map_rank">
     <text>マスターランク分隊長の探索距離ボーナス</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_extra_map_rank_desc">
-    <text>分隊長がマスターランク以上（ランク17499以上）の場合に付与される、追加の探索可能距離を設定します。「0」に設定するとランクによるボーナスは適用されません（推奨: 1）。</text>
+    <text>[0～3]\n分隊長がマスターランク以上（character_rank &gt;= 17499）の場合に追加される隣接移動段階数です。「0」でこの解放条件を無効にします。</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_despawn_hours">
-    <text>デスポーンの猶予時間（セーフティ）</text>
+    <text>デスポーン猶予時間</text>
   </string>
   <string id="ui_mcm_ap_world_offmap_offmap_despawn_hours_desc">
-    <text>エリア外に滞在している分隊が安全のために消滅（デスポーン）するまでの最大時間を設定します。この機能はオフライン状態かつ保護されていない分隊（ストーリー、タスク、コンパニオン、派閥戦争関連以外）にのみ適用されます。デフォルトは168時間（ゲーム内時間で7日間）です。</text>
+    <text>[24～720ゲーム内時間]\nエリア外へ移動した分隊を安全措置として解放（デスポーン）するまでの最大経過時間です。分隊がオフライン状態で、ストーリー、タスク、コンパニオン、Warfareによる保護を受けていない場合にのみ作動します。</text>
   </string>
   <!-- ==================== DEVELOPMENT TAB ==================== -->
   <string id="ui_mcm_ap_development_title">
     <text>開発とツール</text>
   </string>
   <string id="ui_mcm_ap_development_btn_reset_all">
-    <text>すべてデフォルトにリセット</text>
+    <text>すべて既定値に戻す</text>
   </string>
   <string id="ui_mcm_ap_development_btn_reset_all_desc">
-    <text>すべてのAlifePlus設定を初期値に戻します。変更は即座に反映されますが、スライダーの表示を更新するにはMCMを一度閉じてから再度開く必要があります。設定をテストした後や、デフォルト値が調整された新バージョンへアップデートした際に便利です。</text>
+    <text>すべてのAlifePlus設定を既定値に戻します。変更は即座に反映されますが、更新されたスライダーを確認するにはMCMを一度閉じてから開き直してください。設定を試した後や、既定値が再調整された新バージョンへ更新した際に便利です。</text>
   </string>
   <string id="ui_mcm_ap_development_btn_reset_stateless">
-    <text>すべてデフォルトにリセット（一部機能を無効化）</text>
+    <text>すべてステートレス既定値に戻す</text>
   </string>
   <string id="ui_mcm_ap_development_btn_reset_stateless_desc">
-    <text>すべてのAlifePlus設定を初期値に戻した上で、インベントリ・取引・スポーンなどの世界に直接介入する機能（NPCの売買やアイテム消費、スタッシュの補充・略奪、拠点の占拠など）を無効化します。</text>
+    <text>すべての設定を既定値に戻した後、インベントリ、取引、ワールドスポーンを変更する機能を無効にします。対象には、売買、アイテム消費、スタッシュへの補充と略奪、スマートテレインの所有権変更などが含まれます。</text>
   </string>
   <string id="ui_mcm_ap_development_reset_warning">
     <text>注意: リセットを実行する前に、現在変更中のMCM設定を保存するか破棄してください。未確定の変更がある状態で「適用」を押すと、リセットされた内容が現在の編集内容で上書きされてしまいます。</text>
@@ -1681,6 +1861,18 @@
   <string id="st_ap_teleport_to_squad">
     <text>分隊にテレポート</text>
   </string>
+  <string id="st_ap_map_subject">
+    <text>主体</text>
+  </string>
+  <string id="st_ap_map_other">
+    <text>相手</text>
+  </string>
+  <string id="st_ap_map_target">
+    <text>目的地</text>
+  </string>
+  <string id="st_ap_map_started">
+    <text>開始時刻</text>
+  </string>
   <string id="ui_mcm_ap_development_statistics_position">
     <text>統計情報のオーバーレイ</text>
   </string>
@@ -1714,25 +1906,25 @@
   </string>
   <!-- Per-cause tags (7 sub-causes) -->
   <string id="ui_mcm_ap_causes_instincts_scatter_tag">
-    <text>原因: 散開行動\n概要: ミュータントが自分より上位の脅威から逃走します。\n判定基準: 嗅覚範囲内、全時間帯、被食者となる種族、性格（生存本能・非攻撃的）、付近に脅威が存在、安全な地点、拠点以外、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 散開行動\n概要: ミュータントが自分より上位の脅威から逃走します。\n判定基準: 嗅覚範囲内、全時間帯、被食者となるミュータント、性格（攻撃性の低さ・生存本能）、付近に脅威が存在、安全なスマートテレイン、拠点以外、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_feed_tag">
-    <text>原因: 捕食行動\n概要: ミュータントが餌を求めて狩り場へ向かいます。\n判定基準: 嗅覚範囲内、日中、全ミュータント、性格（生存本能・洞察力）、縄張り内、拠点以外、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 捕食行動\n概要: ミュータントが餌を求めて野外へ向かいます。\n判定基準: 嗅覚範囲内、日中、全ミュータント、性格（生存本能・洞察力）、縄張り、拠点以外、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_slumber_field_tag">
-    <text>原因: 休息（野外）\n概要: ミュータントが野外の開けた場所で眠ります。\n判定基準: 嗅覚範囲内、夜間、臆病な個体、性格（生存本能）、縄張り内、拠点以外、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 休息（野外）\n概要: ミュータントが野外で眠ります。\n判定基準: 嗅覚範囲内、夜間、臆病なミュータント、性格（生存本能）、縄張り、拠点以外、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_slumber_lair_tag">
-    <text>原因: 休息（巣穴）\n概要: ミュータントが安全な巣穴に戻って休みます。\n判定基準: 嗅覚範囲内、夜間、野生種または捕食種、性格（生存本能）、巣穴、拠点以外、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 休息（巣穴）\n概要: ミュータントが巣穴へ戻ります。\n判定基準: 嗅覚範囲内、夜間、野生種または捕食種、性格（生存本能）、巣穴、拠点以外、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_slumber_surge_tag">
-    <text>原因: 休息（エミッション）\n概要: ミュータントがアノマリーの脅威から逃れるために退避所へ向かいます。\n判定基準: 嗅覚範囲内、夜間、変異種または捕食種、性格（生存本能）、エミッション退避所、拠点以外、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 休息（エミッション）\n概要: ミュータントがアノマリーから身を守るために退避します。\n判定基準: 嗅覚範囲内、夜間、変異種または捕食種、性格（生存本能）、エミッション退避所、拠点以外、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_roam_tag">
-    <text>原因: 徘徊行動\n概要: ミュータントが新たな縄張りを求めて移動します。\n判定基準: 嗅覚範囲内、日中、変異種以外の個体、性格（洞察力・縄張り意識）、縄張りまたは巣穴、拠点以外、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 徘徊行動\n概要: ミュータントが新たな場所へ徘徊します。\n判定基準: 嗅覚範囲内、日中、変異種以外のミュータント、性格（洞察力・縄張り意識）、縄張りまたは巣穴、拠点以外、戦術、Hull（再判定リミッター）</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_pack_tag">
-    <text>原因: 群れ行動\n概要: ミュータントが付近にいる同種の群れに合流します。\n判定基準: 嗅覚範囲内、日中、野生種または捕食種、性格（友好度）、付近に同種が存在、拠点以外、戦術、Hull（判定リミッター）</text>
+    <text>発生原因: 群れ行動\n概要: ミュータントが付近にいる同種の群れへ合流します。\n判定基準: 嗅覚範囲内、日中、野生種または捕食種、性格（仲間意識）、付近に同種が存在、拠点以外、戦術、Hull（再判定リミッター）</text>
   </string>
   <!-- Per-cause enable labels (uniform "Enabled"; single-answer drives use the drive name as cause name) -->
   <string id="ui_mcm_ap_causes_instincts_cause_scatter_enabled">
@@ -1764,31 +1956,31 @@
     <text>散開の再判定間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_scatter_threshold_desc">
-    <text>[ゲーム内時間]\n散開行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+    <text>[ゲーム内時間]\n散開行動に使用するHullの回復時間です。</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold">
     <text>捕食の再判定間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_feed_threshold_desc">
-    <text>[ゲーム内時間]\n捕食行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+    <text>[ゲーム内時間]\n捕食行動に使用するHullの回復時間です。</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold">
     <text>休息の再判定間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_slumber_threshold_desc">
-    <text>[ゲーム内時間]\n休息行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+    <text>[ゲーム内時間]\n3種類すべての休息行動で共有するHullの回復時間です。いずれか1つが発生すると、共通の待機時間がリセットされます。</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold">
     <text>徘徊の再判定間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_roam_threshold_desc">
-    <text>[ゲーム内時間]\n徘徊行動の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+    <text>[ゲーム内時間]\n徘徊行動に使用するHullの回復時間です。</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold">
     <text>群れ形成の再判定間隔</text>
   </string>
   <string id="ui_mcm_ap_causes_instincts_cause_pack_threshold_desc">
-    <text>[ゲーム内時間]\n群れ形成の判定リミッターが回復するまでの時間を設定します。デフォルトは24時間です。</text>
+    <text>[ゲーム内時間]\n群れ行動に使用するHullの回復時間です。</text>
   </string>
   <!-- Slumber per-answer enables -->
   <string id="ui_mcm_ap_causes_instincts_cause_slumber_field_enabled">
@@ -1849,7 +2041,7 @@
   </string>
   <!-- Consequence: Slumber Field (cowardly mutants in open territory) -->
   <string id="ui_mcm_ap_consequences_slumber_field_title">
-    <text>休息\n（野外）</text>
+    <text>休息\n野外</text>
   </string>
   <string id="ui_mcm_ap_consequences_slumber_field_tag">
     <text>概要: 臆病な性質の群れが、縄張り内の開けた場所で身を丸めて眠ります。\n原因: 休息（野外）</text>
@@ -1868,7 +2060,7 @@
   </string>
   <!-- Consequence: Slumber Lair (feral + predator returning to lair) -->
   <string id="ui_mcm_ap_consequences_slumber_lair_title">
-    <text>休息\n（巣穴）</text>
+    <text>休息\n巣穴</text>
   </string>
   <string id="ui_mcm_ap_consequences_slumber_lair_tag">
     <text>概要: 野生種や捕食者の群れが、安全な巣穴に引きこもって眠ります。\n原因: 休息（巣穴）</text>
@@ -1887,7 +2079,7 @@
   </string>
   <!-- Consequence: Slumber Surge (aberrant + predator overflow into surge shelter) -->
   <string id="ui_mcm_ap_consequences_slumber_surge_title">
-    <text>休息\n（退避所）</text>
+    <text>休息\nエミッション</text>
   </string>
   <string id="ui_mcm_ap_consequences_slumber_surge_tag">
     <text>概要: 捕食種や変異種がエミッションの脅威を避けるため、退避所を確保して休みます。\n原因: 休息（エミッション）</text>
@@ -1947,13 +2139,13 @@
     <text>エリア侵食</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_infest_tag">
-    <text>概要: ミュータントの群れが重要地点に到着して拠点を築き、その場所のスポーン設定を自身の種族専用に書き換えます。\n原因: エリア侵食</text>
+    <text>概要: ミュータントの群れが到着し、その場所のスポーン候補を自身の種族に置き換えます。\n原因: エリア侵食</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled">
     <text>有効化</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_enabled_desc">
-    <text>ミュータントが重要地点を巣として占拠する「エリア侵食」イベントを許可します。</text>
+    <text>エリア侵食の実行結果を有効にします。ミュータントがスマートテレインを巣として確保するようになります。</text>
   </string>
   <string id="ui_mcm_ap_consequences_area_infest_consequence_area_infest_rush">
     <text>ラッシュモード</text>
@@ -1965,7 +2157,7 @@
     <text>戦利品の所有権設定</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_desc">
-    <text>「獲物は仕留めた者のものである」という所有権の概念を導入します。このルールはプレイヤー、NPC、敵対分隊のすべてに公平に適用されます。持ち主が死体の近くにいる間、他者はその死体を漁ることができません。所有権が認められる有効半径や持続時間は、対象ごとに個別に設定可能です。</text>
+    <text>倒した獲物の所有権は殺害者に属し、所有者が死体の近くにいる間は維持されます。このルールは全陣営に同じように適用されます。プレイヤーが倒した獲物はNPCの略奪から保護され、NPC分隊が倒した獲物はプレイヤーから保護され、別々のNPC分隊も互いの獲物を横取りできません。3つの方向には、それぞれ個別の有効半径と持続時間があります。どの陣営も特別扱いされません。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_enabled">
     <text>プレイヤーの獲物を保護する</text>
@@ -1973,32 +2165,38 @@
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_enabled_desc">
     <text>有効にすると、プレイヤーが倒した敵の死体をNPCが勝手に漁らなくなります。ただし、プレイヤーが有効半径から離れると所有権が失効し、通りすがりのストーカーに略奪される可能性があります。</text>
   </string>
+  <string id="ui_mcm_ap_economy_loot_loot_include_companions">
+    <text>仲間から自分の獲物を保護</text>
+  </string>
+  <string id="ui_mcm_ap_economy_loot_loot_include_companions_desc">
+    <text>プレイヤーが倒した死体を、他のNPCと同様に仲間も漁れないようにします。無効にすると、仲間がプレイヤーの獲物を解体・回収できるようになります。</text>
+  </string>
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_radius">
-    <text>プレイヤーの所有権: 有効半径 (m)</text>
+    <text>所有権の有効半径（m）</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_radius_desc">
     <text>死体に対して所有権を維持するために、プレイヤーが留まる必要がある距離を設定します。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_ttl">
-    <text>プレイヤーの所有権: 持続時間（時間）</text>
+    <text>所有権の持続時間（h）</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_reserve_own_ttl_desc">
     <text>所有権が自然消滅するまでのゲーム内時間を設定します。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_enabled">
-    <text>NPCの獲物へのアクセスを制限する</text>
+    <text>NPCの獲物を漁れないようにする</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_enabled_desc">
     <text>NPC分隊が倒した獲物を、プレイヤーが自由に漁れないように制限します。持ち主が近くにいる状態で調べようとすると、PDAに所有者の名前が表示されます。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_radius">
-    <text>NPCの所有権: 有効半径 (m)</text>
+    <text>NPC所有権の有効半径（m）</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_radius_desc">
     <text>NPCが死体の所有権を維持するために、その分隊員が留まる必要がある距離を設定します。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_ttl">
-    <text>NPCの所有権: 持続時間（時間）</text>
+    <text>NPC所有権の持続時間（h）</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_ttl_desc">
     <text>NPC側の所有権が自然消滅するまでのゲーム内時間を設定します。</text>
@@ -2010,13 +2208,13 @@
     <text>あるNPC分隊が倒した獲物を、別のNPC分隊が勝手に漁るのを防ぎます。これにより、戦った当事者のみが戦利品を回収できるようになります。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_radius">
-    <text>NPC間所有権: 有効半径 (m)</text>
+    <text>NPC間所有権の有効半径（m）</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_radius_desc">
-    <text>NPC分隊同士で所有権を主張し合う距離を設定します。</text>
+    <text>所有している分隊が、獲物の所有権を維持するために死体の近くにいる必要がある距離です。</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_ttl">
-    <text>NPC間所有権: 持続時間（時間）</text>
+    <text>NPC間所有権の持続時間（h）</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_loot_block_npc_vs_npc_ttl_desc">
     <text>NPC分隊同士の所有権が失効するまでのゲーム内時間を設定します。</text>
@@ -2031,22 +2229,34 @@
     <text>回収ポリシーを適用する</text>
   </string>
   <string id="ui_mcm_ap_economy_loot_policy_loot_select_enabled_desc">
-    <text>有効にすると、NPCが戦利品を厳選して回収し、余剰分を破棄するようになります。オフにするとバニラの挙動に戻り、NPCは際限なくアイテムを拾い続けます。</text>
+    <text>NPCは自分の武器に合う弾薬と、各カテゴリで価値の高いアイテムを上限まで保持し、それ以外の余剰品を消去します。無効にすると、バニラのNPC略奪挙動に戻ります。</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_title">
-    <text>NPCの取引設定</text>
+    <text>トレード</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_desc">
-    <text>NPCがトレーダーに到達した際の挙動を設定します。余剰品を売却し、ランクに応じた基準で弾薬や装備を補充するようになります。ルーキーは基本物資を、ベテランはより高性能な弾薬やグレネードを買い足します。以下の設定では、NPCが一度の訪問で得られる純利益の上限を制限できます。なお、NPCの取引機能自体は「発生要因: 物資補給（トレーダー）」の設定から有効化してください。</text>
+    <text>ストーカーがトレーダーに到着すると余剰品を売却し、ランクに応じて弾薬と装備を補充します。ルーキーは基本的な物資を携行し、ベテランは上位弾薬とグレネードも補充します。売買の最低・最大所持数は、略奪やスタッシュと同じ形式の編集可能なポリシーファイルで管理され、エコノミー全体で一貫したルールが使われます。以下の上限では、ランクを問わずNPCが1回の訪問で得られる純利益を制限できます。トレード機能自体は「発生原因 &gt; 欲求 &gt; 物資補給」で有効にします。</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_trade_profit_max">
     <text>最大取引利益 (ルーブル)</text>
   </string>
   <string id="ui_mcm_ap_economy_trade_trade_profit_max_desc">
-    <text>1回の取引訪問でNPCが純粋に得られる現金の最大値を設定します。「0」に設定すると利益が発生しません（デフォルト: 5000）。</text>
+    <text>ランクを問わず、NPCが1回の取引で得られる純利益の上限です。「0」で利益を得られなくなります。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_barter_title">
+    <text>物々交換</text>
+  </string>
+  <string id="ui_mcm_ap_economy_barter_desc">
+    <text>ストーカーが同じ派閥の分隊に到着すると、金銭を使わず、そこにいるストーカーとアイテムを交換します。互いに、ポリシー上限を超えているカテゴリの余剰品のうち、相手が最低基準を下回って不足しているものを渡します。さらに、相手の装備品より価値の高い予備の武器、スーツ、またはヘルメットも交換対象になります。受け渡しの基準は、トレードと同じ形式の編集可能なポリシーファイルで管理されます。以下の上限では、1回の合流で移動するアイテム数を制限できます。物々交換機能自体は「発生原因 &gt; 物資補給」で有効化します。</text>
+  </string>
+  <string id="ui_mcm_ap_economy_barter_barter_max_items">
+    <text>物々交換ごとの最大アイテム数</text>
+  </string>
+  <string id="ui_mcm_ap_economy_barter_barter_max_items_desc">
+    <text>1回の物々交換で両方向を合わせて移動するアイテム数です。「0」で物々交換を無効にします。</text>
   </string>
   <string id="ui_mcm_ap_economy_market_title">
-    <text>市場経済の設定</text>
+    <text>派閥市場</text>
   </string>
   <string id="ui_mcm_ap_economy_market_desc">
     <text>バニラでは、トレーダーの在庫は個別の設定に基づいて補充のたびに再生成され、所属派閥のストーカーによる取引内容は反映されません。この機能を有効にすると、派閥内の取引がトレーダーの在庫に影響するようになります。各派閥の拠点トレーダーには、その派閥のストーカーが最近売却したアイテムの一部が補充時に追加されます。追加アイテムはプレイヤーのランクによって制限され、割増価格で販売され、一定期間後に在庫から削除されます。逆に、トレーダーが最近その派閥のストーカーへ販売したアイテムの一部は、同じ補充時に新しい在庫から除外されます。追加または売り切れの対象となるアイテム、数量上限、必要ランクは、編集可能なポリシーファイルで設定できます。価格倍率、アイテムの状態、トレーダー在庫の売り切れ設定は、以下のスライダーで調整できます。</text>
@@ -2055,13 +2265,13 @@
     <text>派閥市場を有効化</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_enabled_desc">
-    <text>派閥メンバーが売り払った品が、トレーダーの棚に一定期間並ぶようになります。オフにするとバニラの固定在庫のみに戻ります。</text>
+    <text>所属派閥のストーカーが最近売却した品の一部を、ランク条件付きかつ割増価格で本拠地のトレーダーに入荷させます。無効にすると、バニラのトレーダー在庫に戻ります。</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_items_per_trader">
     <text>トレーダーごとの出品数</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_items_per_trader_desc">
-    <text>在庫補充時に追加されるマーケット由来のアイテム数を設定します。「0」に設定すると追加されません。</text>
+    <text>1回の在庫補充で、トレーダー1人に追加される市場アイテムの数です。「0」では追加されません。カテゴリごとの上限とランク条件は、編集可能なポリシーファイルで管理されます。</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_window_hours">
     <text>出品持続時間（ゲーム内時間）</text>
@@ -2073,7 +2283,7 @@
     <text>販売価格の倍率</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_premium_desc">
-    <text>マーケットに出品されるアイテムの価格倍率です。耐久値に関わらず、ベース価格に対してこの倍率が適用されます。勢力との友好度や難易度による割引は別途適用されます。</text>
+    <text>市場在庫の価格倍率です。アイテムの新品時の基本価格（耐久値100%）に、この倍率を掛けます。友好度とエコノミー設定による割引は引き続き適用されますが、耐久値による値引きは適用されません。</text>
   </string>
   <string id="ui_mcm_ap_economy_market_market_item_condition">
     <text>出品アイテムの耐久値</text>
@@ -2088,9 +2298,9 @@
     <text>トレーダーが最近所属派閥のストーカーに販売したアイテムについて、補充時に新しい在庫から除外する割合を設定します。ポリシーファイルで指定された弾薬と医療品にのみ適用されます。値が低い場合は希少な在庫も残りやすくなり、100%に設定すると対象アイテムがすべて在庫から除外されます。</text>
   </string>
   <string id="st_ap_reset_all_done">
-    <text>AlifePlus：すべての設定を既定値に戻しました。</text>
+    <text>AlifePlus: すべての設定を既定値に戻しました。</text>
   </string>
   <string id="st_ap_reset_stateless_done">
-    <text>AlifePlus：ステートレス設定を既定値に戻しました。</text>
+    <text>AlifePlus: ステートレス既定値を適用しました。</text>
   </string>
 </string_table>
