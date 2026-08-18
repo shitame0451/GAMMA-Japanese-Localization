@@ -5857,7 +5857,7 @@
 		<text>Freedom万歳！ゾーンの力で、この世界をもっとマシにしようぜ！</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_6">
-		<text>Mercenary部隊の動きに関する情報は、見つけ次第プライベートチャンネルへ流してくれ。
+		<text>Mercenary分隊の動きに関する情報は、見つけ次第プライベートチャンネルへ流してくれ。
 \nこれはかなり重要だぞ。</text>
 	</string>
 	<string id="st_dyn_news_spam_faction_freedom_7">
@@ -6705,10 +6705,10 @@
 \nここから動けない。後ろから奴に近づける分隊がいるなら送ってくれ！</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_14">
-		<text>$mapの第三戦闘分隊より報告:
+		<text>$mapの第三戦闘班より報告:
 \n我々は現在$locationを死守している。
 \nしかし、敵が再編して次の突撃に備えているようだ。
-\n弾薬は足りているが、分隊の大半が負傷して─攻撃が始まったぞ！</text>
+\n弾薬は足りているが、隊員の大半が負傷して─攻撃が始まったぞ！</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_enemy_15">
 		<text>$mapの状況報告: ここ数分間は攻撃を受けていないが、敵の位置を把握できない。
@@ -6782,7 +6782,7 @@
 \n指示を求める。しばらくはこちらで様子を見ておく。</text>
 	</string>
 	<string id="st_dyn_news_zone_activity_troop_friend_12">
-		<text>第四突撃部隊: $locationに到着したところ、
+		<text>第四突撃分隊: $locationに到着したところ、
 \nすでに$targetが展開していた。彼らは我々に協力する意向を示している。
 \n外周の警戒線の構築が完了し次第、再度連絡する。</text>
 	</string>
@@ -10356,7 +10356,7 @@
 		<text>この前のエミッションで小隊が丸ごとやられたんだ。俺たちは賢く立ち回ろう。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_20">
-		<text>所属していた分隊の連中は全員死んだ。俺は疫病神なんじゃないかと思い始めてる。</text>
+		<text>所属していた部隊の連中は全員死んだ。俺は疫病神なんじゃないかと思い始めてる。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_21">
 		<text>この地獄みたいな場所から出られるなら、どんな任務だって引き受けてやる。</text>
@@ -10402,7 +10402,7 @@
 		<text>多分、俺には死んだ奴の制服が支給されたんだと思う。なんだか気味が悪い。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_35">
-		<text>実は俺、分隊で一番の射撃の名手だったんだ。こういう場所じゃ、その腕が命を救うんだぜ。</text>
+		<text>実は俺、部隊一の射撃の名手だったんだ。こういう場所じゃ、その腕が命を救うんだぜ。</text>
 	</string>
 	<string id="st_dyn_news_companion_life_army_36">
 		<text>兵士の人生か？ロマンチックだよ。いつも綺麗な女に囲まれて、勲章を山ほど貰うんだ。</text>
@@ -12171,7 +12171,7 @@
 		<text>少し緊張してきたな･･････</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_radar_8">
-		<text>Monolithの部隊が今にも現れそうな雰囲気だ。</text>
+		<text>Monolithの分隊が今にも現れそうな雰囲気だ。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_l10_radar_9">
 		<text>道路にはMonolithの部隊が巡回していて、森には最悪のミュータントが生息している。
@@ -12275,7 +12275,7 @@
 		<text>この辺にはデパートやスーパーがある。買い物でもするか？</text>
 	</string>
 	<string id="st_dyn_news_companion_level_pripyat_10">
-		<text>病院はこの辺じゃ一番大きい建物だろうな。Monolithの部隊が潜んでるかもしれない。</text>
+		<text>病院はこの辺じゃ一番大きい建物だろうな。Monolithの分隊が潜んでるかもしれない。</text>
 	</string>
 	<string id="st_dyn_news_companion_level_pripyat_11">
 		<text>そのうち、この街も全部･･････ 塵になって崩れ去るんだろうな。</text>

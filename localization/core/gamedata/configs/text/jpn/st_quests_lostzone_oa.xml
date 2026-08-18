@@ -62,7 +62,7 @@
 		<text>UNISGの残存分隊が基地に戻ってくるようだ。手厚く歓迎してやるとしよう。</text>
 	</string>
 	<string id="lttz_oa_rally_point_text4">
-		<text>周辺のUNISG分隊は排除した。次の目標について、デグチャレフの話を聞こう。</text>
+		<text>周辺のUNISG部隊は排除した。次の目標について、デグチャレフの話を聞こう。</text>
 	</string>
 	<string id="lttz_oa_rally_point_text5">
 		<text>死体を調べ、手がかりになる情報を探す。</text>
@@ -219,7 +219,7 @@
 		<text>ストレロックに手を貸し、デグチャレフを排除することにした。</text>
 	</string>
 	<string id="lttz_oa_loose_ends_text5">
-		<text>UNISG分隊がデグチャレフを狙っている。奴らの襲撃を退け、大佐を援護しよう。</text>
+		<text>UNISG部隊がデグチャレフを狙っている。奴らの襲撃を退け、大佐を援護しよう。</text>
 	</string>
 	<string id="lttz_oa_loose_ends_text6">
 		<text>UNISGの分隊を殲滅した。デグチャレフと話す。</text>
