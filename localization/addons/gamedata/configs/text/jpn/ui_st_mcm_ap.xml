@@ -1590,7 +1590,7 @@
     <text>エリア制圧</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_desc">
-    <text>制圧に成功した派閥がエリアを独占し、その派閥の分隊だけが再出現するようになります。元のスポーン設定は抑制され、占領中は通常より速く再配置されます。分隊のティアはレベルの危険度に応じ、初心者向けレベルではノービスのみ、序盤では上位分隊が加わり、中盤以降や北部ではすべてのティアが出現します。無効にすると、エンジンのスポーンテーブルには触れず、分隊の移動（area_conquer）のみを維持します。</text>
+    <text>制圧に成功した派閥の分隊が野営地を占領・維持します。占領後はその派閥の分隊だけが出現し、トレーダーなどのサービスNPCや常駐警備分隊を備えた小規模な前哨基地へ発展することがあります。常駐NPCが倒された場合、占領中は通常のワールドの再出現ペースで補充されます。レベル内で小規模な派閥ほど多くの野営地を制圧し、支配的な派閥ほど少なくなります。また、各派閥が1つのレベルで保持できる野営地数には上限があります。占領は時間経過で終了し、基地やストーリー用の野営地は占領されません。分隊のティアはレベルの危険度に応じます。無効にすると、エンジンのスポーンテーブルには触れず、分隊の移動（area_conquer）のみを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_mutate_smart">
     <text>スポーンの差し替え</text>
@@ -1610,29 +1610,29 @@
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_decay_hours_desc">
     <text>制圧されたエリアが元のスポーン設定に戻るまでのゲーム内時間です。「0」で期限切れを無効にします。</text>
   </string>
-  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_respawn_minutes">
-    <text>エリアの再出現間隔（分）</text>
-  </string>
-  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_respawn_minutes_desc">
-    <text>制圧されたエリアに所属派閥の分隊が再配置される速度を、ゲーム内時間（分）で設定します。値を小さくするほど、エリアが早く埋まります。</text>
-  </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_grow_services">
     <text>サービス施設の発展</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_grow_services_desc">
-    <text>制圧されたエリアに、ゲーム本来のジョブを利用するサービスNPCを1人配置します。エリア中央の実在する交易地点で売買を行うトレーダー、またはバーテンダー、技術者、医者のいずれかが出現し、派閥分隊に護衛されます。これらのNPCは派閥市場にも参加します。無効にすると、エリア制圧は戦闘・占領要素のみに限定されます。</text>
+    <text>制圧されたエリアにサービスNPCを配置します。売買を行うトレーダー、または取引・修理・治療を行うバーテンダー、技術者、医者のいずれかが出現します。NPCは所属派閥を維持し、派閥市場に参加し、役割に応じたマップアイコンを持ちます。占領中に倒された場合は再配置されます。無効にすると、エリア制圧は戦闘・占領要素のみに限定されます。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_per_smart">
+    <text>エリアごとのサービスNPC数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_per_smart_desc">
+    <text>1つの制圧エリアに配置できるサービスNPCの最大数です。各エリアでこの上限まで個別に数が決まり、役割も異なります。</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_guards_per_smart">
+    <text>エリアごとの警備分隊数</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_guards_per_smart_desc">
+    <text>1つの制圧エリアに常駐させる警備分隊の最大数です。警備分隊はエリアに留まり、防衛を行います。「0」にするとサービスNPCのみが配置されます。</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_level">
     <text>レベルごとのサービスNPC上限</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_level_desc">
-    <text>1つのレベルに配置できるサービスNPCの総数です。すべての派閥を合算して数えます。</text>
-  </string>
-  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_faction_role">
-    <text>派閥・レベルごとの同種サービス上限</text>
-  </string>
-  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_services_max_per_faction_role_desc">
-    <text>1つの派閥が同一レベル内で同じ種類のサービスNPCを配置できる制圧エリア数です。値を小さくすると、トレーダー、バーテンダー、技術者、医者が分散して配置されやすくなります。</text>
+    <text>1つのレベルに配置できるサービスNPCの総数です。すべての派閥を合算して数えます。レベルの上限に達している場合、制圧されたエリアにはサービスNPCではなく警備分隊のみが配置されます。</text>
   </string>
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_trader_supplies_penalty">
     <text>本拠地より低い物資ティア</text>
@@ -1646,12 +1646,18 @@
   <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_trader_supplies_tier_desc">
     <text>制圧エリアのトレーダーが扱える物資ティアの絶対上限です。「本拠地より低い物資ティア」を適用した後に制限されます。制圧エリア外のトレーダーには影響しません。</text>
   </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_respawn_minutes">
+    <text>再出現間隔（分）</text>
+  </string>
+  <string id="ui_mcm_ap_mutators_conquest_mutator_area_conquest_respawn_minutes_desc">
+    <text>制圧されたエリアで常駐分隊が再出現するまでのゲーム内時間（分）です。値を小さくするほどエリアが早く埋まります。制圧されたエリアに限り、ワールド全体のスポーンペースを上書きします。</text>
+  </string>
   <!-- ==================== MUTATORS / AREA SWARM ==================== -->
   <string id="ui_mcm_ap_mutators_swarm_title">
     <text>エリア占拠</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_desc">
-    <text>占拠した種族がエリアを独占し、その種族だけが再出現するようになります。元のLTXスポーンは抑制されます。派閥によるエリア制圧を、ミュータント種族に置き換えた仕組みです。無効にすると、エンジンのスポーンテーブルには触れず、分隊の移動（area_swarm）のみを維持します。</text>
+    <text>群生する種族がエリアを独占し、その種族だけが再出現するようになります。元のスポーンは抑制されます。派閥によるエリア制圧をミュータント種族に置き換えた仕組みで、レベル内で個体数が少ない場所ほど群れが増え、すでに優勢な場所では増加が抑えられます。レベルごとの上限があり、占拠は時間経過で終了します。無効にすると、エンジンのスポーンテーブルには触れず、分隊の移動（area_swarm）のみを維持します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_mutate_smart">
     <text>スポーンの差し替え</text>
@@ -1672,10 +1678,10 @@
     <text>占拠されたエリアが元のスポーン設定に戻るまでのゲーム内時間です。「0」で期限切れを無効にします。</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_respawn_minutes">
-    <text>エリアの再出現間隔（分）</text>
+    <text>再出現間隔（分）</text>
   </string>
   <string id="ui_mcm_ap_mutators_swarm_mutator_area_swarm_respawn_minutes_desc">
-    <text>占拠されたエリアに対象種族が再配置される速度を、ゲーム内時間（分）で設定します。値を小さくするほど、エリアが早く埋まります。</text>
+    <text>群生エリアで分隊が再出現するまでのゲーム内時間（分）です。値を小さくするほど群れが早く再配置されます。群生エリアに限り、ワールド全体のスポーンペースを上書きします。</text>
   </string>
   <!-- ==================== MUTATORS / AREA INFEST ==================== -->
   <string id="ui_mcm_ap_mutators_infest_title">
@@ -1709,10 +1715,11 @@
     <text>[0～168]\n侵食が終了するまでのゲーム内時間です。「0」で永続化（期限切れなし）します。</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_respawn_minutes">
-    <text>エリアの再出現間隔（分）</text>
+    <text>再出現間隔（分）</text>
   </string>
   <string id="ui_mcm_ap_mutators_infest_mutator_area_infest_respawn_minutes_desc">
-    <text>侵食されたエリアに対象種族が再配置される速度を、ゲーム内時間（分）で設定します。値を小さくするほど、巣が早く成長します。</text>
+    <text>[1-720]
+侵食されたエリアで分隊が再出現するまでのゲーム内時間（分）です。値を小さくするほど再配置が速くなります。侵食エリアに限り、ワールド全体のスポーンペースを上書きします。</text>
   </string>
   <!-- ==================== CREATURES TAB ==================== -->
   <string id="ui_mcm_ap_creatures_alpha_title">
@@ -1852,11 +1859,23 @@
   <string id="ap_development_log_level_lst_debug">
     <text>デバッグ</text>
   </string>
+  <string id="ui_mcm_ap_development_log_flush">
+    <text>ログを1行ごとにフラッシュ</text>
+  </string>
+  <string id="ui_mcm_ap_development_log_flush_desc">
+    <text>ログをバッファリングせず、1行書き込むたびにディスクへ保存します。クラッシュ調査時に有効にすると、定期フラッシュまで到達しないハードフリーズでも最後のログ行を残せます。処理が遅くなるため、通常プレイでは無効を推奨します。</text>
+  </string>
   <string id="ui_mcm_ap_development_map_markers">
     <text>デバッグマーカー</text>
   </string>
   <string id="ui_mcm_ap_development_map_markers_desc">
     <text>PDAマップ上に分隊の目的地マーカーを表示します。これはA-Lifeの移動を追跡するための大まかな位置であり、正確な座標ではありません。設定を適用するには、セーブデータをロードし直してください。</text>
+  </string>
+  <string id="ui_mcm_ap_development_world_trace_enabled">
+    <text>ワールドトレースログ</text>
+  </string>
+  <string id="ui_mcm_ap_development_world_trace_enabled_desc">
+    <text>シミュレーション状態（スマート、分隊、操作中分隊の編成、キラーレジストリ、トレーダーのインベントリ）を定期的に別ファイル「alifeplus_world.log」へ出力します。意思決定トレースとは別に、A-Lifeの状態を診断するための機能です。無効時は何も実行されません。</text>
   </string>
   <string id="st_ap_teleport_to_squad">
     <text>分隊にテレポート</text>

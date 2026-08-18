@@ -50,7 +50,7 @@
 \n#other_faction#が退散したから、仲間の遺体を回収しに行ったんだろうな。</text>
   </string>
   <string id="st_ap_news_tpl_massacre_investigate_002">
-    <text>#ago#、#location#に入る#subject_faction#の部隊を見かけたぞ。
+    <text>#ago#、#location#に入る#subject_faction#の分隊を見かけたぞ。
 \n#other_faction#に全滅させられた仲間を回収しに行ったに違いない。</text>
   </string>
   <string id="st_ap_news_tpl_massacre_investigate_003">
