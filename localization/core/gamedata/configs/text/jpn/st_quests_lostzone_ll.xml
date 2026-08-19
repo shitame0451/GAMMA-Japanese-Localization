@@ -135,7 +135,7 @@
 	</string>
 
 	<string id="lttz_ll_wpn_gauss_quest_name">
-		<text>«アイテム62»</text>
+		<text>"アイテム62"</text>
 	</string>
 	<string id="lttz_ll_wpn_gauss_quest_descr">
 		<text>アーティファクトを動力源とする実験兵器。ゾーンで製造された、極めて精巧な造りの武器だ。通常の火薬の代わりに電磁力を利用し、レールガンの原理で高速の弾丸を発射する。圧倒的な威力ながら、その反動は驚くほど制御しやすい。同クラスの武器の中でも、その精度と火力は類を見ない。\n \n
@@ -226,7 +226,7 @@
 	</string>
 
 	<string id="item_monolith_shard_name">
-		<text>«モノリスの破片»</text>
+		<text>モノリスの破片</text>
 	</string>
 	<string id="item_monolith_shard_desc">
 		<text>伝説によれば、この物体は願望機から剥離した一部であり、アーティファクトに近い特性を持つという。不気味なエネルギーを纏い、絶えずパチパチと乾いた音を立てている。中には人類がいまだ知る由もない、悪意に満ちた力が宿っているのかもしれない。</text>

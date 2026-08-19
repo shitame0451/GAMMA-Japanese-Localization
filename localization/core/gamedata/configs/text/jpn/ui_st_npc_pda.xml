@@ -761,7 +761,7 @@
 	<string id="st_msg_mission_bounty_1_2_4">
 		<text>$traderから弾を買ってるときに仕事があるか聞いてみたんだよ。
 \nそしたら、商売の邪魔をする奴を潰したいってさ。
-\n最高なのは、報酬が«ジェリーフィッシュ»だってところだな。</text>
+\n最高なのは、報酬が「ジェリーフィッシュ」だってところだな。</text>
 	</string>
 	<string id="st_msg_mission_bounty_1_3_1">
 		<text>名前は$c2_fullname。
@@ -811,10 +811,10 @@
 		<text>一攫千金だ！</text>
 	</string>
 	<string id="st_msg_mission_artefact_1_1_1">
-		<text>やべえ、$mapで«ムーンライト»を拾ったぞ！ツイてるぜ。</text>
+		<text>やべえ、$mapで「ムーンライト」を拾ったぞ！ツイてるぜ。</text>
 	</string>
 	<string id="st_msg_mission_artefact_1_1_2">
-		<text>よし！«バブル»を見つけたぜ！</text>
+		<text>よし！「バブル」を見つけたぜ！</text>
 	</string>
 	<string id="st_msg_mission_artefact_1_2_1">
 		<text>エレクトロアノマリーに焼かれそうになったが、それだけの価値はあったぜ。</text>

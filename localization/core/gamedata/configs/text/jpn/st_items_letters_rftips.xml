@@ -87,11 +87,11 @@
 	</string>
 
 	<string id="st_note_rf_tip_af_ring_name">
-		<text>特殊なRF信号源: «リング»</text>
+		<text>特殊なRF信号源: リング</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_ring">
-		<text>特殊なRF信号源: «リング»</text>
+		<text>特殊なRF信号源: リング</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_ring_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -99,16 +99,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_ring_text2">
 		<text>“俺はあのルーキーが言ってた隠し場所を探してみることにした。
 			\n \n周波数を23MHzにしたのが間違っていたのかもしれないが、近くに隠し場所なんて見当たらなかった。でも運良く、別の電波を拾ったんだ。奇妙なノイズみたいなやつをさ。
-			\n \n範囲は狭くて、40~50メートルってとこだったが、そのノイズを追った先で«リング»を見つけたんだ！近づいてからはベアー探知機を使わなきゃならなかったが、RF受信機を持ってきて本当に良かったよ。”\n
+			\n \n範囲は狭くて、40~50メートルってとこだったが、そのノイズを追った先で「リング」を見つけたんだ！近づいてからはベアー探知機を使わなきゃならなかったが、RF受信機を持ってきて本当に良かったよ。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_electra_flash_name">
-		<text>特殊なRF信号源: «フラッシュ»</text>
+		<text>特殊なRF信号源: フラッシュ</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_electra_flash">
-		<text>特殊なRF信号源: «フラッシュ»</text>
+		<text>特殊なRF信号源: フラッシュ</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_electra_flash_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -116,16 +116,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_electra_flash_text2">
 		<text>“俺は仲間から聞いた隠し場所を探してみることにした。
 			\n \n周波数を124MHzにしたのが間違っていたのかもしれないが、近くに隠し場所なんて見当たらなかった。でも運良く、別の電波を拾ったんだ。奇妙なノイズみたいなやつをさ。
-			\n \n範囲は40~50メートルくらいの狭さだったが、そのノイズを追った先で«フラッシュ»を見つけたんだ！近づいてからは探知機を使わなきゃならなかったが、RF受信機を持ってきて正解だったよ。”\n
+			\n \n範囲は40~50メートルくらいの狭さだったが、そのノイズを追った先で「フラッシュ」を見つけたんだ！近づいてからは探知機を使わなきゃならなかったが、RF受信機を持ってきて正解だったよ。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_electra_moonlight_name">
-		<text>特殊なRF信号源: «ムーンライト»</text>
+		<text>特殊なRF信号源: ムーンライト</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_electra_moonlight">
-		<text>特殊なRF信号源: «ムーンライト»</text>
+		<text>特殊なRF信号源: ムーンライト</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_electra_moonlight_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -133,16 +133,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_electra_moonlight_text2">
 		<text>“結局何も見つからなかったから、昔の「デッド・ドロップ」で使われてた周波数を試してみることにした。
 			\n \n57MHzにしたのが間違っていたのか、近くに隠し場所の信号はまったくなかった。でも運良く、別の信号─奇妙なノイズみたいなものを拾ったんだ。
-			\n \n範囲は40~50メートルくらいの狭い範囲だったが、そのノイズを追った先に«ムーンライト»があった！近くまで行ったら探知機を使う必要はあったが、RF受信機を持ってきて本当に良かったよ。”\n
+			\n \n範囲は40~50メートルくらいの狭い範囲だったが、そのノイズを追った先に「ムーンライト」があった！近くまで行ったら探知機を使う必要はあったが、RF受信機を持ってきて本当に良かったよ。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_black_spray_name">
-		<text>特殊なRF信号源: «ブラックスプレー»</text>
+		<text>特殊なRF信号源: ブラックスプレー</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_black_spray">
-		<text>特殊なRF信号源: «ブラックスプレー»</text>
+		<text>特殊なRF信号源: ブラックスプレー</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_black_spray_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -150,16 +150,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_black_spray_text2">
 		<text>“エミッションが発生して時間が経ってたから、このエリアは荒らし尽くされてると思ったんだが、あの老人の失くしたバックパックがまだ信号を出してるか確認してみることにした。
 			\n \n89MHzが間違った周波数だったのか、近くに隠し場所の信号はまったく見当たらなかった。でも運良く、別の奇妙なノイズを拾ったんだ。
-			\n \n40~50メートルほどの狭い範囲だったが、そのノイズを頼りに進んでたら«ブラックスプレー»を発見した！近づいてからは探知機を使う必要があったが、RF受信機を持ってきて本当に良かったと思ったね。”\n
+			\n \n40~50メートルほどの狭い範囲だったが、そのノイズを頼りに進んでたら「ブラックスプレー」を発見した！近づいてからは探知機を使う必要があったが、RF受信機を持ってきて本当に良かったと思ったね。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_full_empty_name">
-		<text>特殊なRF信号源: «フルエンプティ»</text>
+		<text>特殊なRF信号源: フルエンプティ</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_full_empty">
-		<text>特殊なRF信号源: «フルエンプティ»</text>
+		<text>特殊なRF信号源: フルエンプティ</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_full_empty_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -167,16 +167,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_full_empty_text2">
 		<text>“エミッションの後で、このエリアはすっかり荒らされてるだろうと思ったけど、噂に聞いた隠し場所がまだ残されているかもしれないと思って調べに来てみた。
 			\n \nもしかしたら236MHzが間違った周波数だったのかもしれない、近くには隠し場所の反応は何もなかった。でも運良く、あるノイズを拾ったんだ。
-			\n \nその範囲は40~50メートルほどで、そのノイズを追った先で«フルエンプティ»を発見した！近くまで行ったら探知機を使う必要があったけど、RF受信機を持ってきて本当に助かったよ。”\n
+			\n \nその範囲は40~50メートルほどで、そのノイズを追った先で「フルエンプティ」を発見した！近くまで行ったら探知機を使う必要があったけど、RF受信機を持ってきて本当に助かったよ。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_ice_name">
-		<text>特殊なRF信号源: «アイス»</text>
+		<text>特殊なRF信号源: アイス</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_ice">
-		<text>特殊なRF信号源: «アイス»</text>
+		<text>特殊なRF信号源: アイス</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_ice_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -184,16 +184,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_ice_text2">
 		<text>“エミッション後はこのエリアも荒らされ尽くしているだろうと思ったが、衛生兵から聞いた隠し場所の情報を頼りにもう少し探してみることにした。
 			\n \n178MHzが間違った周波数だったのかもしれないが、近くに隠し場所の反応はまったくなかった。でも運良く、別の反応･･････ 何かのノイズを拾ったんだ。正体はまだわからなかった。
-			\n \nその範囲は40~50メートルほどで、そのノイズを追ってみると«アイス»を見つけた！近づいてからは探知機が必要だったけど、RF受信機があって本当によかったよ。”\n
+			\n \nその範囲は40~50メートルほどで、そのノイズを追ってみると「アイス」を見つけた！近づいてからは探知機が必要だったけど、RF受信機があって本当によかったよ。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_soul_name">
-		<text>特殊なRF信号源: «ソウル»</text>
+		<text>特殊なRF信号源: ソウル</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_soul">
-		<text>特殊なRF信号源: «ソウル»</text>
+		<text>特殊なRF信号源: ソウル</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_soul_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -201,16 +201,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_soul_text2">
 		<text>“エミッションからかなり時間が経って、金目のものはもう残っていないだろうと思ったが、トレーダーに教えてもらった隠し場所を一度確かめてみることにした。
 			\n \n多分302MHzってのは間違った周波数だな、隠し場所の反応はまったくなかった。でも運の良いことに、別のノイズのようなものを拾ったんだ。
-			\n \n範囲はかなり狭く、40~50メートルくらいだったが、そのノイズを追ってみたら«ソウル»を見つけた！近くまで行ったら探知機を使う必要はあったが、RF受信機があって助かったよ。”\n
+			\n \n範囲はかなり狭く、40~50メートルくらいだったが、そのノイズを追ってみたら「ソウル」を見つけた！近くまで行ったら探知機を使う必要はあったが、RF受信機があって助かったよ。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_compass_name">
-		<text>特殊なRF信号源: «コンパス»</text>
+		<text>特殊なRF信号源: コンパス</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_compass">
-		<text>特殊なRF信号源: «コンパス»</text>
+		<text>特殊なRF信号源: コンパス</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_compass_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -218,16 +218,16 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_compass_text2">
 		<text>“俺は前回見逃した隠し場所の信号を追ってみることにした。
 			\n \n285Mhzはハズレだったのか、近くには隠し場所なんてなかった。しかし運良く、他の何か─かなり強いノイズを拾ったんだ。発生源はわからなかった。
-			\n \n位置を特定するのに少し手間取ったが、そのノイズが«コンパス»に導いてくれたんだ！ある程度まで近づいたら探知機を使う必要があったが、RF受信機は100メートルくらい離れたところでも反応していたな。”\n
+			\n \n位置を特定するのに少し手間取ったが、そのノイズが「コンパス」に導いてくれたんだ！ある程度まで近づいたら探知機を使う必要があったが、RF受信機は100メートルくらい離れたところでも反応していたな。”\n
 		</text>
 	</string>
 
 	<string id="st_note_rf_tip_af_death_lamp_name">
-		<text>特殊なRF信号源: «デスランプ»</text>
+		<text>特殊なRF信号源: デスランプ</text>
 	</string>
 
 	<string id="encyclopedia__notes_letter_rf_tip_af_death_lamp">
-		<text>特殊なRF信号源: «デスランプ»</text>
+		<text>特殊なRF信号源: デスランプ</text>
 	</string>
 	<string id="encyclopedia__notes_letter_rf_tip_af_death_lamp_text">
 		<text>手紙や日記から切り取られたような紙切れ。特定の無線周波数に関する情報が記されている。</text>
@@ -235,7 +235,7 @@
 	<string id="encyclopedia__notes_letter_rf_tip_af_death_lamp_text2">
 		<text>“俺はあんたが教えてくれた隠し場所を確かめに行ったんだ。
 			\n \nもしかしたら321Mhzというのは間違った周波数だったのかもしれない。でも、どうしても信号を拾えなくてね･･････ まるで半径100メートル内で誰かが妨害してるみたいだった。
-			\n \n結局、その原因は«デスランプ»だった─あの不気味な輝きを放つ物は他にない。厄介なアノマリー群の中央であの忌々しいものが見えたんだ。近づくにつれてRF受信機も狂ったように反応し始めた。防護装備が足りなくて手に入れられなかったけど、とりあえず探し方はわかったよ。”\n
+			\n \n結局、その原因は「デスランプ」だった─あの不気味な輝きを放つ物は他にない。厄介なアノマリー群の中央であの忌々しいものが見えたんだ。近づくにつれてRF受信機も狂ったように反応し始めた。防護装備が足りなくて手に入れられなかったけど、とりあえず探し方はわかったよ。”\n
 		</text>
 	</string>
 

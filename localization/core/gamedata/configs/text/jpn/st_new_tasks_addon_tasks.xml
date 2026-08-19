@@ -746,7 +746,7 @@
 		<text>でかしたぞ、若者よ！移動研究所で待っている。君に渡したいものがあるんだ。</text>
 	</string>
 	<string id="st_af_tlf_prometheus">
-		<text>«プロメテウス»</text>
+		<text>プロメテウス</text>
 	</string>
 	<string id="st_af_tlf_prometheus_descr">
 		<text>同名の伝説のストーカーが倒された後、「ギリシャの火」アノマリー領域で形成されたユニークなアーティファクト。使用者に強力な熱耐性を与え、傷の回復を早める効果がある。\n \n
@@ -867,10 +867,10 @@
 		<text>逃げろ！</text>
 	</string>
 	<string id="st_af_tlf_lost_soul">
-		<text>«ロストソウル»</text>
+		<text>ロストソウル</text>
 	</string>
 	<string id="st_af_tlf_lost_soul_descr">
-		<text>このアーティファクトは«ソウル»に似ているが、特別な特性を持っている。より強力なPSI防護の効果があり、使用者に負の効果を与えることはない。\n \n
+		<text>このアーティファクトは「ソウル」に似ているが、特別な特性を持っている。より強力なPSI防護の効果があり、使用者に負の効果を与えることはない。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]アーティファクト\n
 		%c[0,209,172,56] • %c[pda_white]時間経過で劣化しない</text>

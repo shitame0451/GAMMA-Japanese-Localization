@@ -6,7 +6,7 @@
 		<text>精神波防護ヘルメット（調整済み）</text>
 	</string>
 	<string id="st_psy_helmet_desc">
-		<text>ヤンターの研究所でサハロフ教授の指揮のもとに開発された精神波防護装置。チェルノブイリ立入禁止区域内に点在するドゥーガ施設が発する特殊な精神波周波数に対する耐性を持っている。装置を起動すると、目に見えないドーム状の空間が使用者の周辺に展開され、«シェル»から放出されるエネルギーを帯びた粒子によって放射線のほとんどを消滅させる。残った放射線は、ヘルメットに直接組み込まれた防護システムによって反射される。\n \n
+		<text>ヤンターの研究所でサハロフ教授の指揮のもとに開発された精神波防護装置。チェルノブイリ立入禁止区域内に点在するドゥーガ施設が発する特殊な精神波周波数に対する耐性を持っている。装置を起動すると、目に見えないドーム状の空間が使用者の周辺に展開され、「シェル」から放出されるエネルギーを帯びた粒子によって放射線のほとんどを消滅させる。残った放射線は、ヘルメットに直接組み込まれた防護システムによって反射される。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]タスク用アイテム\n
 	</text>
@@ -15,7 +15,7 @@
 		<text>精神波防護ヘルメット（未調整）</text>
 	</string>
 	<string id="st_bad_psy_helmet_desc">
-		<text>ヤンターの研究所でサハロフ教授の指揮のもとに開発された未調整の精神波防護装置。チェルノブイリ立入禁止区域内に点在するドゥーガ施設が発する特殊な精神波周波数に対する耐性を持っている。装置を起動すると、目に見えないドーム状の空間が使用者の周辺に展開され、«シェル»から放出されるエネルギーを帯びた粒子によって放射線のほとんどを消滅させる。残った放射線は、ヘルメットに直接組み込まれた防護システムによって反射される。\n \n
+		<text>ヤンターの研究所でサハロフ教授の指揮のもとに開発された未調整の精神波防護装置。チェルノブイリ立入禁止区域内に点在するドゥーガ施設が発する特殊な精神波周波数に対する耐性を持っている。装置を起動すると、目に見えないドーム状の空間が使用者の周辺に展開され、「シェル」から放出されるエネルギーを帯びた粒子によって放射線のほとんどを消滅させる。残った放射線は、ヘルメットに直接組み込まれた防護システムによって反射される。\n \n
 		%c[pda_white]特性:\n
 		%c[d_orange] • %c[pda_white]タスク用アイテム\n
 	</text>
@@ -101,7 +101,7 @@
 		<text>長時間にわたって放射線や化学物質から身を守ることができ、損傷を受けた後でも機能する。多層構造の40mmフィルターを備えている。\n \n</text>
 	</string>
 	<string id="st_helm_metro">
-		<text>«アポカリプス» ヘルメット</text>
+		<text>"アポカリプス" ヘルメット</text>
 	</string>
 	<string id="st_helm_metro_descr">
 		<text>チェコのM10ガスマスクに重装甲化を施したようなヘルメットで、「Final Day」と呼ばれる派閥によって作られたとされている。その派閥が解散した後、このヘルメットは徐々に流通するようになった。\n \n</text>
@@ -116,7 +116,7 @@
 		<text>Cz-M10 スパルタンヘルメット</text>
 	</string>
 	<string id="helm_spartan_descr">
-		<text>絶大な影響力を持つストーカーたちから発注されたヘルメットで、「Final Day」という派閥が使用していた«アポカリプス» ヘルメットの設計を基にしている。軽量で、スフィアシリーズなどの最新の戦闘用ヘルメットと比べても遜色ないほど防護性能が高い。\n \n</text>
+		<text>絶大な影響力を持つストーカーたちから発注されたヘルメットで、「Final Day」という派閥が使用していた"アポカリプス" ヘルメットの設計を基にしている。軽量で、スフィアシリーズなどの最新の戦闘用ヘルメットと比べても遜色ないほど防護性能が高い。\n \n</text>
 	</string>
 	<string id="helm_dolg_battle">
 		<text>Duty スフィアM12</text>
@@ -299,13 +299,13 @@
 
 <!-- Exploration -->
 	<string id="travel_outfit_name">
-		<text>«ボイジャー» ストーカースーツ</text>
+		<text>"ボイジャー" ストーカースーツ</text>
 	</string>
 	<string id="travel_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。高品質で、ゾーン内での長距離遠征を想定して作られている。多くのアーティファクトハンターやミュータントハンターによって使われている。\n \n</text>
 	</string>
 	<string id="nomad_outfit_name">
-		<text>«ノーマッド» ストーカースーツ</text>
+		<text>"ノーマッド" ストーカースーツ</text>
 	</string>
 	<string id="nomad_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。高品質で非常に軽く、着心地が良い。このスーツを設計した人物はゾーンの性質を熟知しており、誇りを持って丁寧に作られていることがわかる。\n \n</text>
@@ -314,7 +314,7 @@
 		<text>GP-5MvC 放射線防護ボディスーツ</text>
 	</string>
 	<string id="antirad_outfit_description">
-		<text>100ラッズの常連客とバーキープが開発したもので、«サンライズ»スーツをベースにデザインされている。バーキープはこのプロジェクトを資金面で支援している。一般的で古いが信頼性の高いGP-5ガスマスクと、背中に背負う軽量酸素タンクが一体化している。\n \n</text>
+		<text>100ラッズの常連客とバーキープが開発したもので、"サンライズ"スーツをベースにデザインされている。バーキープはこのプロジェクトを資金面で支援している。一般的で古いが信頼性の高いGP-5ガスマスクと、背中に背負う軽量酸素タンクが一体化している。\n \n</text>
 	</string>
 	<string id="hybrid_outfit_name">
 		<text>ハイブリッドアーマースーツ</text>
@@ -323,7 +323,7 @@
 		<text>キエフの防衛研究機関のひとつが、ゾーン内の研究者を保護する目的で作成したスーツ。しかし、予算の制約により、これらのスーツがウクライナ政府によって正式に発注されたことはない。それでもいくつかのスーツはゾーンに持ち込まれたようだ。\n \n</text>
 	</string>
 	<string id="wastelander_outfit_name">
-		<text>«ウェイストランダー» ストーカースーツ</text>
+		<text>"ウェイストランダー" ストーカースーツ</text>
 	</string>
 	<string id="wastelander_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。一般的なストーカースーツに比べ軽量だが、クラスIIIAベストと軽量の挿入物を備えている。基本的にはストーカーが製作したベリル-5Mスーツの機動力を向上させたものだと言える。\n \n</text>
@@ -361,7 +361,7 @@
 		<text>タクティカルストーカースーツ</text>
 	</string>
 	<string id="nbc_outfit_description">
-		<text>«サンライズ» ストーカースーツのベストを特殊なポケット付き耐荷重ベストに交換したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
+		<text>"サンライズ" ストーカースーツのベストを特殊なポケット付き耐荷重ベストに交換したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
 	</string>
 	<string id="monolith_nbc_outfit_name">
 		<text>Monolith タクティカルスーツ</text>
@@ -376,7 +376,7 @@
 		<text>CS-2bストーカースーツのベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
 	</string>
 	<string id="nbc_merc_outfit_name">
-		<text>«トワイライト» 耐荷重性タクティカルスーツ</text>
+		<text>"トワイライト" 耐荷重性タクティカルスーツ</text>
 	</string>
 	<string id="nbc_merc_outfit_description">
 		<text>Mercenary用のスーツで、ベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
@@ -394,7 +394,7 @@
 		<text>PS5-Mのベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
 	</string>
 	<string id="bandit_nbc_outfit_name">
-		<text>«サンセット» 耐荷重性タクティカルスーツ</text>
+		<text>"サンセット" 耐荷重性タクティカルスーツ</text>
 	</string>
 	<string id="bandit_nbc_outfit_description">
 		<text>Bandit用のスーツで、ベストを特殊なポケット付き耐荷重ベストに変更したもの。予算が限られているスカベンジャーのための堅実なスーツ。\n \n</text>
@@ -448,67 +448,67 @@
 
 <!-- Sunrise suits -->
 	<string id="stalker_outfit_name">
-		<text>«サンライズ» ストーカースーツ</text>
+		<text>"サンライズ" ストーカースーツ</text>
 	</string>
 	<string id="stalker_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。「サンライズ」は、現存するストーカースーツの中で最も古いものの一つで、ゾーンで本格的な遠征に行くストーカーが持つべき最低限の防護服としても広く知られている。\n \n</text>
 	</string>
 	<string id="stalker_outfit_camo_name">
-		<text>«カメレオン» ストーカースーツ</text>
+		<text>"カメレオン" ストーカースーツ</text>
 	</string>
 	<string id="stalker_outfit_camo_description">
 		<text>.\n \n</text>
 	</string>
 	<string id="stalker_outfit_alt_name">
-		<text>«ヒップスター» ストーカースーツ</text>
+		<text>"ヒップスター" ストーカースーツ</text>
 	</string>
 	<string id="stalker_outfit_alt_description">
 		<text>.\n \n</text>
 	</string>
 	<string id="stalker_drought_outfit_name">
-		<text>«ドラウト» ストーカースーツ</text>
+		<text>"ドラウト" ストーカースーツ</text>
 	</string>
 	<string id="stalker_drought_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。ストーカースーツとしては平均以上の防弾性能を持つが、着心地はかなり劣る。\n \n</text>
 	</string>
 	<string id="stalker_predator_outfit_name">
-		<text>«プレデター» ストーカースーツ</text>
+		<text>"プレデター" ストーカースーツ</text>
 	</string>
 	<string id="stalker_predator_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。全体的に「ドラウト」よりも改良され、着心地も格段に良くなっている。「プレデター」は、維持費の安さと改造のポテンシャルの高さから、初心者から上級者まで幅広い人気を誇る。\n \n</text>
 	</string>
 	<string id="stalker_autumn_outfit_name">
-		<text>«オータム» ストーカースーツ</text>
+		<text>"オータム" ストーカースーツ</text>
 	</string>
 	<string id="stalker_autumn_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。新米のアーティファクトハンターや巧妙な殺し屋たちに愛用され、化学アノマリーを容易に通過できる。\n \n</text>
 	</string>
 	<string id="stalker_vineleaf_outfit_name">
-		<text>«ヴァインリーフ» ストーカースーツ</text>
+		<text>"ヴァインリーフ" ストーカースーツ</text>
 	</string>
 	<string id="stalker_vineleaf_outfit_description">
 		<text>.\n \n</text>
 	</string>
 	<string id="stalker_bear_outfit_name">
-		<text>«ベア» ストーカースーツ</text>
+		<text>"ベア" ストーカースーツ</text>
 	</string>
 	<string id="stalker_bear_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。このスーツの防弾性能の向上は、手作りの変則化合物によって実現された。\n \n</text>
 	</string>
 	<string id="stalker_salamander_outfit_name">
-		<text>«サラマンダー» ストーカースーツ</text>
+		<text>"サラマンダー" ストーカースーツ</text>
 	</string>
 	<string id="stalker_salamander_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。コストパフォーマンスに優れ、高いアップグレードの可能性を秘めている。皮肉なことに「サラマンダー」と呼ばれている割には、熱を安全に逃がす能力が低い。\n \n</text>
 	</string>
 	<string id="stalker_graphite_outfit_name">
-		<text>«グラファイト» ストーカースーツ</text>
+		<text>"グラファイト" ストーカースーツ</text>
 	</string>
 	<string id="stalker_graphite_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。元々は楽観的なストーカーたちによって精神波の嵐の計測を目的として設計されたもの。当然、この試みは失敗に終わったが、後に彼らの設計図が回収され、着用者の神経系を保護できるストーカースーツの製造に使用された。\n \n</text>
 	</string>
 	<string id="stalker_tigerstripe_outfit_name">
-		<text>«タイガーストライプ» ストーカースーツ</text>
+		<text>"タイガーストライプ" ストーカースーツ</text>
 	</string>
 	<string id="stalker_tigerstripe_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。ストーカースーツの中でも重めの部類に入るこのスーツは、アーティファクトを略奪したりミュータントの皮を剥いだりするよりも、雇われの殺し屋やファイターとして金を稼ぐことを好む人々のために設計された。\n \n</text>
@@ -541,13 +541,13 @@
 		<text>Monolithに関係があるとされる謎のスーツ。ダークバレーのX-18研究所の地下にあるコンテナやロッカーで大量に発見された。ストーカーたちの間では、このスーツはゾーンが誕生する以前から存在していたのではないかという噂が語られている。\n \n</text>
 	</string>
 	<string id="bandit_sun_outfit_name">
-		<text>«サンセット» タクティカルスーツ</text>
+		<text>"サンセット" タクティカルスーツ</text>
 	</string>
 	<string id="bandit_sun_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。設計はMonolith X-18スーツに似ており、熱や電気的脅威からの絶縁性を向上させるため、従来のNBC機能が削ぎ落とされている。主にダークバレーのBanditたちが、地元の研究所から逃げ出すポルターガイストを排除するために使用している。\n \n</text>
 	</string>
 	<string id="merc_sun_outfit_name">
-		<text>«トワイライト» タクティカルスーツ</text>
+		<text>"トワイライト" タクティカルスーツ</text>
 	</string>
 	<string id="merc_sun_outfit_description">
 		<text>ゾーンの職人によって手作りされたスーツ。設計はMonolith X-18スーツに似ている。Mercenaryたちがリマンスクでの経済的に厳しい戦闘からできるだけ多くのものを回収しようと努めたのは間違いない。\n \n</text>
@@ -1061,7 +1061,7 @@
 
 <!-- Proptotype Exoskeleton -->
 	<string id="stalker_proto_exo_outfit_name">
-		<text>«サンライズ» 強化外骨格</text>
+		<text>"サンライズ" 強化外骨格</text>
 	</string>
 	<string id="stalker_proto_exo_outfit_description">
 		<text>強化外骨格のサーボモーターとバッテリーを搭載するため、特別に設計されたストーカー用のボディスーツ。通常の装備では運べない量の装備を持ち運べる。完全な強化外骨格と比較して、防護能力は劣るが重量はかなり軽い。\n \n</text>

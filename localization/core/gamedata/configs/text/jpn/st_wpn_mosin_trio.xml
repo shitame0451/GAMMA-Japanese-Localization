@@ -7,7 +7,7 @@
 <string_table>
 
 	<string id="st_wpn_obrez">
-		<text>Mosin Nagant «Obrez»</text>
+		<text>Mosin Nagant "Obrez"</text>
 	</string>
 
 	<string id="st_wpn_obrez_descr">
@@ -16,11 +16,11 @@
 	</string>
 	
 	<string id="st_wpn_shiv">
-		<text>«Shiv»</text>
+		<text>"Shiv"</text>
 	</string>
 
 	<string id="st_wpn_shiv_descr">
-		<text>Mosin Nagant «Obrez»をさらに即席化した改造モデル。「Shiv」の名は、熟練のハンターにしてサバイバリストであるストーカーによって名付けられた。この男はダークスケープを彷徨い、ミュータントの皮や肉といった周囲の資源のみで生存していたという。彼はかつて住処としていたダークスケープの脱線列車内に、この自慢のライフルを残したようだ。再訪を期して意図的に隠したのか、あるいは死闘の末に紛失したものなのか、それを知る者はいない。\n \n
+		<text>Mosin Nagant "Obrez"をさらに即席化した改造モデル。「Shiv」の名は、熟練のハンターにしてサバイバリストであるストーカーによって名付けられた。この男はダークスケープを彷徨い、ミュータントの皮や肉といった周囲の資源のみで生存していたという。彼はかつて住処としていたダークスケープの脱線列車内に、この自慢のライフルを残したようだ。再訪を期して意図的に隠したのか、あるいは死闘の末に紛失したものなのか、それを知る者はいない。\n \n
 		%c[ui_gray_1]アタッチメント: PU スコープ, KZRZP サプレッサー\n </text>
 	</string>
 

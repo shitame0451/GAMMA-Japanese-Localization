@@ -20,14 +20,14 @@
 	</string>
 
 	<string id="st_addon_vorkutakit">
-		<text>«Vorkuta» アップグレードキット</text>
+		<text>"Vorkuta" アップグレードキット</text>
 	</string>
 	<string id="st_addon_vorkutakit_descr">
 		<text>KS-23用アップグレードキット。サプレッサー装着を可能にするスレッドバレルと、遠距離戦闘能力を高める着脱式PUスコープを追加する。名称は同名の都市に由来するものだろう。\n</text>
 	</string>
 
 	<string id="st_addon_bd_upgr_kit">
-		<text>«Blood Diamond» アップグレードキット</text>
+		<text>"Blood Diamond" アップグレードキット</text>
 	</string>
 	<string id="st_addon_bd_upgr_kit_descr">
 		<text>CAR-15用アップグレードキット。ゾーンでローデシア風のロールプレイを望む者のために、ハリウッド映画に登場したクラシックなライフルの外観を再現している。\n
@@ -35,7 +35,7 @@
 	</string>
 
 	<string id="st_addon_admin_upgr_kit">
-		<text>«Administrator» アップグレードキット</text>
+		<text>"Administrator" アップグレードキット</text>
 	</string>
 	<string id="st_addon_admin_upgr_kit_descr">
 		<text>CAR-15用アップグレードキット。クラシックなライフルを現代的なM4スタイルへと改造する。Aimpoint T2およびG33マグニファイアを追加し、ストックとハンドガードを最新のパーツに換装。前方にはLAMとフラッシュライトを装備し、あらゆる照度環境下での目標捕捉能力を向上させている。\n</text>

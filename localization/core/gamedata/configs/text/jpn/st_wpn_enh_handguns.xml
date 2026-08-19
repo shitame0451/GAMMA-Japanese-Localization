@@ -26,10 +26,10 @@
 	</string>
 
 	<string id="st_wpn_colt1911_anarchy">
-		<text>Colt M1911A1 «Anarchy»</text>
+		<text>Colt M1911A1 "Anarchy"</text>
 	</string>
 	<string id="st_wpn_colt1911_anarchy_descr">
-		<text>世界で最も有名な拳銃の一つで、一般に「1911」の名で知られている。米軍の制式拳銃として第一次・第二次世界大戦を通じて使用され、1986年にその座を退いた後も、派生モデルが様々な米特殊部隊のサイドアームとして運用されている。M1911A1はM1911の第2世代モデルで、第一次世界大戦後に設計改修が行われた。フレームカットを施した短いトリガー、改良型アイアンサイト、アーチ型のメインスプリングハウジング、再設計されたグリップセーフティなど、多岐にわたる変更が加えられている。«Anarchy»は多数のチューニングと改良が施されたカスタムモデルで、フルオート射撃機能が特徴。\n \n
+		<text>世界で最も有名な拳銃の一つで、一般に「1911」の名で知られている。米軍の制式拳銃として第一次・第二次世界大戦を通じて使用され、1986年にその座を退いた後も、派生モデルが様々な米特殊部隊のサイドアームとして運用されている。M1911A1はM1911の第2世代モデルで、第一次世界大戦後に設計改修が行われた。フレームカットを施した短いトリガー、改良型アイアンサイト、アーチ型のメインスプリングハウジング、再設計されたグリップセーフティなど、多岐にわたる変更が加えられている。"Anarchy"は多数のチューニングと改良が施されたカスタムモデルで、フルオート射撃機能が特徴。\n \n
 		%c[pda_white]特性: \n
 		%c[d_green] • %c[ui_gray_1]フルオート射撃モード\n
 		%c[d_green] • %c[ui_gray_1]M1911 Anarchy Outdoors .45 ACP マズルブレーキ\n		
@@ -212,7 +212,7 @@
 </string>
 
 	<string id="st_wpn_oc33_new">
-		<text>OTs-33 «Pernach»</text>
+		<text>OTs-33 "Pernach"</text>
 	</string>
 
 	<string id="st_wpn_oc33_new_descr">
@@ -220,7 +220,7 @@
 </string>
 
 	<string id="st_wpn_oc33_las">
-		<text>OTs-33 «Pernach»</text>
+		<text>OTs-33 "Pernach"</text>
 	</string>
 
 	<string id="st_wpn_oc33_las_descr">

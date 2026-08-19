@@ -77,7 +77,7 @@
 		</text>
 	</string>
 	<string id="st_wpn_ak74m_pk-a">
-		<text>AK-74M «PK-A»</text>
+		<text>AK-74M "PK-A"</text>
 	</string>
 	<string id="st_wpn_ak74m_pk-a_descr">
 		<text>AKシリーズの確立された設計を基に現代化したモデルで、ポリマー製の部品、横折れ式のストック、光学機器対応のマウントレールを備えている。従来モデルの耐久性と信頼性を受け継ぎつつ、現代戦に求められるモジュール性を向上させている。軍隊では制式ライフルとして採用され、高い汎用性と信頼性を誇る装備として現在も使用されている。
@@ -107,7 +107,7 @@
 		</text>
 	</string>
 	<string id="st_wpn_ak74_eot">
-		<text>AK-74N «EOTech»</text>
+		<text>AK-74N "EOTech"</text>
 	</string>
 	<string id="st_wpn_ak74_eot_descr">
 		<text>暗視サイトの搭載を想定して設計されたAK-74の派生モデル。基本設計と性能はそのままに、夜間戦での運用に適した専用のサイドレールが備わっている。この改良により、視界の悪い環境での活動が多い軍隊にとって極めて有用な装備となっている。
@@ -311,7 +311,7 @@
 		</text>
 	</string>
 	<string id="st_wpn_protecta_nimble">
-		<text>Armsel Protecta «Tank»</text>
+		<text>Armsel Protecta "Tank"</text>
 	</string>
 	<string id="st_wpn_protecta_nimble_descr">
 		<text>「ストライカー」の名でも知られるコンバットショットガン。独自の回転式シリンダーを備え、素早い連射が可能。頑丈な設計とシンプルな操作性により、近接戦闘や制圧用途で高い効果を発揮する。高速装填機構とセミオート射撃により、軍や警察、警備の現場で利用されている。
@@ -430,22 +430,22 @@
 		</text>
 	</string>
 	<string id="st_wpn_colt1911_duty">
-		<text>Colt M1911 «Aries»</text>
+		<text>Colt M1911 "Aries"</text>
 	</string>
 	<string id="st_wpn_colt1911_duty_descr">
 		<text>高い信頼性を誇る伝説的なセミオートピストルで、頑丈なスチール製の部品とシングルアクショントリガーが特徴。制圧力と握りやすいグリップで高く評価され、1世紀以上にわたって軍の標準的なサイドアームとして使用されていた。現在も軍と民間の双方で使われ、歴史を象徴する拳銃の一つとなっている。
-		\n«Aries»は隠匿携行性と速射性能を向上させるため、フェザートリガーや軽量化パーツ、トリチウムサイトなどの改造が施されている。\n \n
+		\n"Aries"は隠匿携行性と速射性能を向上させるため、フェザートリガーや軽量化パーツ、トリチウムサイトなどの改造が施されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt Manufacturing Company\n
 		</text>
 	</string>
 	<string id="st_wpn_colt1911_merc">
-		<text>Colt M1911 «Orion»</text>
+		<text>Colt M1911 "Orion"</text>
 	</string>
 	<string id="st_wpn_colt1911_merc_descr">
 		<text>高い信頼性を誇る伝説的なセミオートピストルで、頑丈なスチール製の部品とシングルアクショントリガーが特徴。制圧力と握りやすいグリップで高く評価され、1世紀以上にわたって軍の標準的なサイドアームとして使用されていた。現在も軍と民間の双方で使われ、歴史を象徴する拳銃の一つとなっている。
-		\n«Orion»はバレルとストックが重量化され、トリチウムサイトを搭載することで命中精度が大幅に向上している。\n \n
+		\n"Orion"はバレルとストックが重量化され、トリチウムサイトを搭載することで命中精度が大幅に向上している。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Colt Manufacturing Company\n
@@ -478,11 +478,11 @@
 	</string>
 
 	<string id="st_wpn_desert_eagle_nimble"><!-- GMTOPに存在しなかったため補完（st_items_weapons_deagle.xmlと同じ内容） -->
-		<text>Desert Eagle «Steppe Eagle»</text>
+		<text>Desert Eagle "Steppe Eagle"</text>
 	</string>
 	<string id="st_wpn_desert_eagle_nimble_descr">
 		<text>独特なデザイン、圧倒的な存在感、強烈な反動で知られるセミオートハンドガン。絶大なストッピングパワーを追求して設計され、拳銃としては珍しいガス圧作動方式を採用することで高い信頼性を実現している。映画やゲームにもたびたび登場し、その威圧的な見た目と圧倒的な威力でコレクターや愛好家に絶大な人気を誇る。
-		\n大型の猛禽類にちなんで名付けられた«Steppe Eagle»は、マズルコンペンセイターや改良されたピカティニーレールを備え、様々なサイトに対応している。あるストーカーによってゾーンに持ち込まれたようだが、その人物の行方は知られていない。ジャーナリストや写真家を装い、単独でプリピャチの中心部に到達したという噂がある。\n \n
+		\n大型の猛禽類にちなんで名付けられた"Steppe Eagle"は、マズルコンペンセイターや改良されたピカティニーレールを備え、様々なサイトに対応している。あるストーカーによってゾーンに持ち込まれたようだが、その人物の行方は知られていない。ジャーナリストや写真家を装い、単独でプリピャチの中心部に到達したという噂がある。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]アメリカ / イスラエル\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Israel Military Industries\n
@@ -673,11 +673,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_glock_modern">
-		<text>Glock 19 «Hornet»</text>
+		<text>Glock 19 "Hornet"</text>
 	</string>
 	<string id="st_wpn_glock_modern_descr">
 		<text>フルサイズモデルを小型化し、軽量化しつつ大容量マガジンと高い信頼性を維持したモデル。隠匿携行や素早い行動に理想的で、専門家やサバイバリストに人気がある。扱いやすさと低反動、堅牢性により、危険な状況で信頼できるサイドアームとして重宝されている。
-		\n«Hornet»は40連マガジンとフルオート射撃機能を備え、小型拳銃としては圧倒的な火力を発揮する。\n \n
+		\n"Hornet"は40連マガジンとフルオート射撃機能を備え、小型拳銃としては圧倒的な火力を発揮する。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]オーストリア\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Glock Ges.m.b.H.\n
@@ -916,11 +916,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_pm_actor">
-		<text>Makarov PM «Ceremonial»</text>
+		<text>Makarov PM "Ceremonial"</text>
 	</string>
 	<string id="st_wpn_pm_actor_descr">
 		<text>このソビエトの遺産は今でも最高の小型護身用拳銃の一つだ。扱いやすさと信頼性で高く評価され、簡素な構造や製造性、精度、そして十分な制止力から制式採用された。しかし、重量や装弾数、総合的な性能においては現代の拳銃に劣っている。
-		\n«Ceremonial»は元々、アレクサンダー・デグチャレフに対し「極めて危険な国家命令を遂行し、任務中に見せた勇気と英雄的行為」の褒美として与えられたものだった。トリチウムサイトが取り付けられていること以外、このモデルの相違点はほとんどない。\n \n
+		\n"Ceremonial"は元々、アレクサンダー・デグチャレフに対し「極めて危険な国家命令を遂行し、任務中に見せた勇気と英雄的行為」の褒美として与えられたものだった。トリチウムサイトが取り付けられていること以外、このモデルの相違点はほとんどない。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Izhevsk Mechanical Plant\n
@@ -1017,11 +1017,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_mp5_nimble">
-		<text>MP5A3 «Frasier»</text>
+		<text>MP5A3 "Frasier"</text>
 	</string>
 	<string id="st_wpn_mp5_nimble_descr">
 		<text>伸縮式のストックを備えた、コンパクトで扱いやすいサブマシンガン。スムーズな作動と少ない反動、速い連射速度から、特殊部隊や法執行機関に広く使われている。その高い信頼性と優れた操作性は、この銃を歴史に残る名銃にしている。
-		\n«Frasier»は垂直フォアグリップを備え、より強力な.45 ACP弾を使用する。\n \n
+		\n"Frasier"は垂直フォアグリップを備え、より強力な.45 ACP弾を使用する。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]西ドイツ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Heckler &amp; Koch\n
@@ -1151,11 +1151,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_pkm_zulus">
-		<text>PKM «Zulu»</text>
+		<text>PKM "Zulu"</text>
 	</string>
 	<string id="st_wpn_pkm_zulus_descr">
 		<text>高い信頼性と耐久性を誇り、持続射撃能力に優れた汎用機関銃。メンテナンスが容易で、高い連射速度を持つことから、世界中の軍隊で広く使用されている。数十年前の設計でありながら、現代戦においても強力な支援火器としての地位を保っている。
-		\n«Zulu»は重い銃身とKobraサイトを備え、連射速度と初速を向上させるための改造が施されている。\n \n
+		\n"Zulu"は重い銃身とKobraサイトを備え、連射速度と初速を向上させるための改造が施されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Degtyaryov Plant\n
@@ -1315,11 +1315,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_vz61_freedom">
-		<text>Skorpion vz.68 «Freedom»</text>
+		<text>Skorpion vz.68 "Freedom"</text>
 	</string>
 	<string id="st_wpn_vz61_freedom_descr">
 		<text>個人防衛や法執行機関向けに設計されたコンパクトなマシンピストルで、折り畳み式のストックとシンプルなブローバック機構が特徴。小型で反動が少ないため、隠し持つ武器としても、狭い場所での戦闘でも頼りになる。同クラスの銃としては、そのコンパクトな見た目から想像できないほどの火力を秘めている。
-		\n«Freedom»は内部構造に大幅な改造が施され、性能が向上している。\n \n
+		\n"Freedom"は内部構造に大幅な改造が施され、性能が向上している。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]チェコスロバキア社会主義共和国\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Ceska zbrojovka Uhersky Brod\n
@@ -1339,7 +1339,7 @@
 		</text>
 	</string>
 	<string id="st_wpn_sig220_nimble">
-		<text>SIG P220 «Alpine»</text>
+		<text>SIG P220 "Alpine"</text>
 	</string>
 	<string id="st_wpn_sig220_nimble_descr">
 		<text>高い命中精度、滑らかなトリガープル、頑丈な構造で知られる高品質なセミオートピストル。元々は軍や法執行機関向けに開発されたが、その優れた信頼性からプロや一般市民にも広く使われている。バランスの取れた設計と扱いやすさにより、世界中で高く評価されるサイドアームとなった。
@@ -1409,11 +1409,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_svd_nimble">
-		<text>SVD «Lynx»</text>
+		<text>SVD "Lynx"</text>
 	</string>
 	<string id="st_wpn_svd_nimble_descr">
 		<text>長距離戦闘を想定して開発されたマークスマンライフル。高い命中精度とセミオート射撃を両立させることで、戦況への柔軟な対応を可能にしている。象徴的な木製のストック、頑丈なスコープマウント、従来のスナイパーライフルと比べて軽量な設計が特徴。軍隊で広く使われており、今も信頼性の高い長距離武器として現役で活躍している。
-		\n«Lynx»には1P59「ハイペリオン」スコープが装着されており、同等の名声を持つ狙撃手にふさわしい特注の傑作だ。\n \n
+		\n"Lynx"には1P59「ハイペリオン」スコープが装着されており、同等の名声を持つ狙撃手にふさわしい特注の傑作だ。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Kalashnikov Concern\n
@@ -1470,22 +1470,22 @@
 		</text>
 	</string>
 	<string id="st_wpn_toz34_mark4">
-		<text>TOZ-34 «Bison»</text>
+		<text>TOZ-34 "Bison"</text>
 	</string>
 	<string id="st_wpn_toz34_mark4_descr">
 		<text>古典的な上下二連式ショットガン。優れた職人技、滑らかな作動、そして狩猟やスポーツ射撃における高い信頼性で知られている。中折れ式の機構により素早い再装填が可能で、バランスの取れた設計が安定した命中精度を保証する。狩猟や競技射撃で愛用され、今もショットガン設計の傑作として時代を超えて評価されている。
-		\n«Bison»は強化された銃身とLeupold製のマーク4スコープが装着されており、長距離での大型動物の狩猟に特化している。\n \n
+		\n"Bison"は強化された銃身とLeupold製のマーク4スコープが装着されており、長距離での大型動物の狩猟に特化している。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tulsky Oruzheiny Zavod\n
 		</text>
 	</string>
 	<string id="st_wpn_toz34_bull">
-		<text>TOZ-34 «Bull»</text>
+		<text>TOZ-34 "Bull"</text>
 	</string>
 	<string id="st_wpn_toz34_bull_descr">
 		<text>古典的な上下二連式ショットガン。優れた職人技、滑らかな作動、そして狩猟やスポーツ射撃における高い信頼性で知られている。中折れ式の機構により素早い再装填が可能で、バランスの取れた設計が安定した命中精度を保証する。狩猟や競技射撃で愛用され、今もショットガン設計の傑作として時代を超えて評価されている。
-		\n«Bull»は優れた標的捕捉を念頭に置いて設計され、レッドドットサイトが装着されている。他のハンティングライフルと肩を並べる猟銃が必要なら、この銃が最高の選択肢となるだろう。\n \n
+		\n"Bull"は優れた標的捕捉を念頭に置いて設計され、レッドドットサイトが装着されている。他のハンティングライフルと肩を並べる猟銃が必要なら、この銃が最高の選択肢となるだろう。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tulsky Oruzheiny Zavod\n
@@ -1623,11 +1623,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_usp_nimble">
-		<text>USP Match «Wolfhound»</text>
+		<text>USP Match "Wolfhound"</text>
 	</string>
 	<string id="st_wpn_usp_nimble_descr">
 		<text>広く評価されている拳銃をベースに、精度向上と競技射撃を目的として精密な調整が施されたモデル。延長された銃身と改良されたトリガー、反動制御用のコンペンセイターを備えている。洗練された機構と優れた操作性により、競技から実戦まで、あらゆる場面で卓越した性能を発揮する。
-		\n«Wolfhound»は同名のMercenaryが所持していた特殊仕様のUSP Matchで、大幅な改造が施されている。\n \n
+		\n"Wolfhound"は同名のMercenaryが所持していた特殊仕様のUSP Matchで、大幅な改造が施されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ドイツ\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Heckler &amp; Koch\n
@@ -1685,7 +1685,7 @@
 		</text>
 	</string>
 	<string id="st_wpn_vintorez_1pn93">
-		<text>VSS Vintorez «1PN93»</text>
+		<text>VSS Vintorez "1PN93"</text>
 	</string>
 	<string id="st_wpn_vintorez_1pn93_descr">
 		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近距離から中距離での静音かつ精密な射撃に適している。潜入任務に特化しており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
@@ -1696,11 +1696,11 @@
 		</text>
 	</string>
 	<string id="st_wpn_vintorez_nimble">
-		<text>VSS Vintorez «Tide»</text>
+		<text>VSS Vintorez "Tide"</text>
 	</string>
 	<string id="st_wpn_vintorez_nimble_descr">
 		<text>隠密作戦や特殊部隊での使用を想定して設計されたコンパクトなスナイパーライフル。銃身と一体化したサプレッサーが特徴で、軽量フレームとセミオート射撃により、近距離から中距離での静音かつ精密な射撃に適している。潜入任務に特化しており、隠密性と慎重さが何よりも重要となる状況で優れた性能を発揮する。
-		\n«Tide»は大幅な改造が施され、1PN93スコープが装着されている。\n \n
+		\n"Tide"は大幅な改造が施され、1PN93スコープが装着されている。\n \n
 		%c[pda_white]特性:\n
 		%c[d_cyan] • %c[pda_white]製造国: %c[ui_gray_1]ソビエト連邦\n
 		%c[d_cyan] • %c[pda_white]製造元: %c[ui_gray_1]Tula Arms Plant\n

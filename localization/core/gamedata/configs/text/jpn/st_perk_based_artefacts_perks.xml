@@ -41,7 +41,7 @@
     %c[d_orange] • %c[pda_white]1スタックにつき、次の射撃ダメージが5%上昇する\n
     %c[d_orange] • %c[pda_white]射撃を外すと全スタックが消失し、スタック数に応じたPSIダメージを受ける\n
     %c[d_orange] • %c[pda_white]射撃を命中させ続ける限り、この効果は無限に累積する\n
-    %c[d_orange] • %c[pda_white]すべての«スパイク»を外すと、ペナルティなしでスタックが消失する\n
+    %c[d_orange] • %c[pda_white]すべての「スパイク」を外すと、ペナルティなしでスタックが消失する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_green]重複する\n
     %c[d_orange] • %c[pda_white]重複時の個々の効果: %c[ui_green]減少しない\n
 	</text>
@@ -73,7 +73,7 @@
     %c[d_orange] • %c[pda_white]他のアーティファクトを「変換」する能力を得る\n
     %c[d_orange] • %c[pda_white]上位ティアへ「アップグレード」、または同ティアの別物へ「変性」させられる\n
     %c[d_orange] • %c[pda_white]特殊能力持ち、または最高ティアのアーティファクトは「変性」のみ可能\n
-    %c[d_orange] • %c[pda_white]変換を行うごとに«バット»を1個消費する\n
+    %c[d_orange] • %c[pda_white]変換を行うごとに「バット」を1個消費する\n
     %c[d_orange] • %c[pda_white]複数装備時の効果: %c[ui_red]重複しない\n
 	</text>
   </string>

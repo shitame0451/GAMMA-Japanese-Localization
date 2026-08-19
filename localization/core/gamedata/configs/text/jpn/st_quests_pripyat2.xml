@@ -588,16 +588,16 @@
 		<text>ありがとう、ストーカー。約束した金だ、受け取ってくれ。</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_name">
-		<text>«ソウル»を見つける</text>
+		<text>「ソウル」を見つける</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_text">
-		<text>グリフィンから、«ソウル»を見つけてくるよう頼まれた。</text>
+		<text>グリフィンから、「ソウル」を見つけてくるよう頼まれた。</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_fetch_about">
 		<text>ここには医者がいない。我々はどうにかして生き延びるしかないんだ。
 \n普通の医療器具では足りず、正しい使い方を知る者もほとんどいない。
 \nこの場所にいる連中の面倒を見るのも一苦労だ。そこで、お前の力を貸してほしい。
-\n俺は«ソウル»というアーティファクトの噂を聞いたことがある。
+\n俺は「ソウル」というアーティファクトの噂を聞いたことがある。
 \nそれには傷を癒す力があるらしくてな。探して持ってきてくれないか？</text>
 	</string>
 	<string id="merc_pri_grifon_mlr_task_2_fetch_finish">
