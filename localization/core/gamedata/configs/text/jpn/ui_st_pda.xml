@@ -454,7 +454,7 @@
     <text>アーティファクト発見数</text>
   </string>
   <string id="st_mm_pda_items_sold">
-    <text>売却したアイテム</text>
+    <text>売却したアイテム数</text>
   </string>
   <string id="st_mm_pda_helicopters downed">
     <text>撃墜したヘリコプター</text>
@@ -469,7 +469,7 @@
     <text>クイックトラベル</text>
   </string>
   <string id="st_mm_pda_dismissable">
-    <text>一緒に行動することをやめる</text>
+    <text>離脱可能</text>
   </string>
   <string id="st_mm_pda_stealth">
     <text>隠密行動</text>
