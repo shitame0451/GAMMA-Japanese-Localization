@@ -71,9 +71,10 @@ local REPLACEMENT_CATEGORIES = {
 		{ source = "エグゾスーツ", official = "エクソスーツ", community = "エグゾスーツ", note = "Exosuit" },
 		{ source = "エグゾヘルメット", official = "エクソヘルメット", community = "エグゾヘルメット", note = "Exohelmet" },
 		{ source = "強化外骨格", official = "エクソスケルトン", community = "強化外骨格", note = "Exoskeleton" },
-		{ source = "移動研究所", official = "移動ラボ", community = "移動研究所", note = "Mobile lab or Bunker" },
+		{ source = "移動研究所", official = "移動ラボ", community = "移動研究所", note = "Mobile lab/Bunker" },
 		{ source = "X%-(%d+)研究所", official = "ラボX%1", community = "X-%1研究所", note = "X-lab", lua_pattern = true },
 		{ source = "共同意識体", official = "C-コンシャスネス", community = "共同意識体", note = "C-Consciousness" },
+		{ source = "ノウアスフィア", official = "ヌースフィア", community = "ノウアスフィア", note = "Noosphere" },
 		{ source = "エミッション", official = "光熱放射", community = "エミッション", note = "Emission" },
 		{ source = "アノマリー領域", official = "アノマリーフィールド", community = "アノマリー領域", note = "Anomaly field" },
 		{ source = "精神波の及ぶ領域", official = "プサイフィールド", community = "精神波の及ぶ領域", note = "Psy-field/Psi-field" },
@@ -90,12 +91,13 @@ local REPLACEMENT_CATEGORIES = {
 local PROTECTED_PHRASES = {
 	-- 置換しない用語
 	"Israel Military Industries",
-	"«Freedom»",
-	"«Monolith»",
-	"«Monolith's Light»",
+	"\"Freedom\"",
+	"\"Monolith\"",
+	"\"Monolith's Light\"",
 	"S.T.A.L.K.E.R.: Clear Sky",
 	"ミリタリーナイフ",
 	"精神波の嵐",
+	"Monolith-OS",
 }
 
 local FILE_CATEGORY_EXCLUSIONS = {
