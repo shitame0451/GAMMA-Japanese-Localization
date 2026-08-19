@@ -13,7 +13,7 @@
     <text>戦闘を無視しろ</text>
   </string>
   <string id="st_set_companion_to_attack_only_actor_combat_enemy_state">
-    <text>戦闘を無視しつつ、俺を支援しろ</text>
+    <text>戦闘を無視しつつ、支援しろ</text>
   </string>
   <string id="st_set_companion_to_wait_state">
     <text>ここで待機しろ</text>
