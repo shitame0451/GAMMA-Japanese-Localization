@@ -1,0 +1,46 @@
+-- cofg_dynamic_news_manager.script
+
+if not cofg_dynamic_news_manager then
+	return
+end
+
+-- ===================================================================
+--  utils_data.parse_string_keys （COFG 偽死亡報告の日本語整形）
+-- ===================================================================
+if utils_data and utils_data.parse_string_keys then
+	local original_parse_string_keys = utils_data.parse_string_keys
+
+	utils_data.parse_string_keys = function(text, tokens, ...)
+		if text == "$death_report - $fname, $map, $death_reason, $y1$y2-$z1$z2$z3" then
+			return original_parse_string_keys(
+				"$death_report: $fname\\n場所: $map\\n死因: $death_reason\\n座標: $y1$y2-$z1$z2$z3",
+				tokens,
+				...
+			)
+		end
+
+		return original_parse_string_keys(text, tokens, ...)
+	end
+end
+
+-- ===================================================================
+--  PushToChannel （送信者名を日本語形式へ整形）
+-- ===================================================================
+if dynamic_news_manager
+and dynamic_news_manager.DynamicNewsManager
+and dynamic_news_manager.DynamicNewsManager.PushToChannel
+then
+	local manager = dynamic_news_manager.DynamicNewsManager
+	local original_PushToChannel = manager.PushToChannel
+
+	manager.PushToChannel = function(instance, name, data, fifo, ...)
+		if data and type(data.Se) == "string" then
+			local ok, patched_se = pcall(japanese_patch.character_name_jp, data.Se)
+			if ok and patched_se and patched_se ~= "" then
+				data.Se = patched_se
+			end
+		end
+
+		return original_PushToChannel(instance, name, data, fifo, ...)
+	end
+end

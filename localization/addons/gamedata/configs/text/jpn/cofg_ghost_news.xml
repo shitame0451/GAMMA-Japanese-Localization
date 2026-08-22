@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<string_table>
+
+	<!-- ================================================================= -->
+	<!-- CITIES OF GHOSTS: POST-RADAR CHAT MESSAGE SETTINGS -->
+	<!-- ================================================================= -->
+	
+	<!-- Name of the stalker who will constantly appear in the death reports -->
+	<string id="st_dyn_news_fake_death_hero_name">
+		<text>ユーリ・セメツキー</text>
+	</string>
+
+
+	<!-- ================================================================= -->
+	<!-- CATEGORY 1: FAKE OBITUARIES (Death icon "deth") -->
+	<!-- Numbering must be STRICTLY sequential, starting from 1, no gaps! -->
+	<!-- ================================================================= -->
+	
+	<string id="st_dyn_news_fake_death_reason_1">
+		<text>肉体が蒸発。PDAには精神波放射線の異常な急上昇が記録されていた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_2">
+		<text>生命反応のない状態で発見。顔は恐怖で凍り付き、外傷は見当たらなかった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_3">
+		<text>突然の心停止により死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_4">
+		<text>移動研究所の入口付近で濡れたタイルに足を滑らせ、首の骨を折った</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_5">
+		<text>密輸業者の倉庫にあった賞味期限切れの肉缶詰で食中毒を起こし死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_6">
+		<text>エアロックの扉を閉め忘れ、睡眠中に重度の低体温症で死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_7">
+		<text>ピストルの手入れ中に誤射し、自分を撃った</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_8">
+		<text>疲労で意識を失い、浅い化学廃液の水溜まりで溺死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_9">
+		<text>放棄された小屋で腐った梁が崩れ落ち、下敷きになった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_10">
+		<text>錆びた床格子が抜け、換気シャフトへ転落</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_11">
+		<text>故障したストーブの近くで眠り込み、焼死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_12">
+		<text>発電機のケーブルを噛み切ろうとして感電死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_13">
+		<text>暗闇で突き出た鉄筋に衝突し、失血死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_14">
+		<text>一週間前にブラインドドッグに噛まれ、狂犬病で死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_15">
+		<text>即死。スタッシュを探して屋上へ登る途中、非常階段から転落</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_16">
+		<text>ワーリギグアノマリーに巻き込まれ、半径20メートル以内に遺体が散乱</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_17">
+		<text>古い堤防沿いのBanditキャンプを迂回しようとして、スプリングボードに吸い込まれた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_18">
+		<text>フルーツパンチアノマリーに生きたまま溶かされた。装備品はPDAしか残らなかった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_19">
+		<text>Freedomのパトロール隊が見ている前で、ブラッドサッカーの群れに引き裂かれた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_20">
+		<text>塔の上にいた正体不明の狙撃手から頭部へ精密射撃を受け、死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_21">
+		<text>キメラに古木の上まで追い詰められ、数時間後に引きずり下ろされて殺された</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_22">
+		<text>研究所付近で突然発生した地震により、瓦礫の下で死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_23">
+		<text>バーナーアノマリーに焼かれ、身元を確認できないほど炭化</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_24">
+		<text>交差点でMonolithの待ち伏せに遭い、激しい銃撃を受けて死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_25">
+		<text>DutyとFreedomの銃撃戦に巻き込まれ、流れ弾で死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_26">
+		<text>狭い排水トンネルでスードウジャイアントに踏み潰された</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_27">
+		<text>放射能汚染された地下室へ誤って転落し、急性放射線障害で死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_28">
+		<text>古い仕掛け爆弾を作動させ、全身に多数の破片を受けて死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_29">
+		<text>コントローラーに襲われて死亡。
+		\n完全に正気を失う前に自分の顎を撃ったが、弾が逸れ、錯乱したまま一時間にわたり失血に苦しんだ</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_30">
+		<text>エレクトロの電撃で意識を失った後、ラットの群れに襲われた。内臓はすべて食い尽くされていた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_31">
+		<text>自分のベルトで首を吊った状態で発見。両手は背中できつく縛られていた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_32">
+		<text>素手の指で自ら喉を引き裂いた。顔には異様な笑みが残っていた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_33">
+		<text>ナイフで自分の両目をえぐり出し、血で壁に「奴が俺を見ている」と刻んだ</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_34">
+		<text>コンクリート壁の中に生きたまま埋められた状態で発見。壁に変形した痕跡はなかった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_35">
+		<text>血液が一瞬で凍った真水へ変化し、死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_36">
+		<text>無線で「罪を洗い流している」と言いながら、エンジンオイルを2リットル飲んで死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_37">
+		<text>皮膚を突き破って生えた鋭く錆びた釘により、体内から切り裂かれた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_38">
+		<text>何もない部屋で死亡しているのを発見。皮膚は無傷だが、内臓がすべて消失していた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_39">
+		<text>数分で生きたまま腐敗し、腐食性を持つ黒い粘液へ変わった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_40">
+		<text>「皮膚の下を異形の影が這っている」と叫びながら、フィールドナイフで全身の皮を剥いだ</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_41">
+		<text>乾いた土が肺に流れ込み、窒息死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_42">
+		<text>頭を180度捻られた状態で発見。現場に争った痕跡はなかった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_43">
+		<text>乾いたアスファルトの中央で突然死。肺は淀んだ沼の水で完全に満たされていた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_44">
+		<text>理由もなく深い空井戸へ頭から飛び込み、転落死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_45">
+		<text>活動中のバーナーアノマリー中心部で凍死。遺体は厚い氷に覆われていた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_46">
+		<text>無重力の見えない力に地上1メートルまで持ち上げられ、真っ二つに引き裂かれた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_47">
+		<text>頭蓋内が細かな川砂で完全に満たされ、死亡</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_48">
+		<text>頭に響く正体不明の囁きを消そうとして、自分の両手を骨が露出するまで噛み続けた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_49">
+		<text>頭部のない状態で発見。首の断面は完全に平らで、滑らかだった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_50">
+		<text>焼身自殺。炎の色は漆黒だった</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_51">
+		<text>上下の顎が一つの骨として完全に癒着し、窒息死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_52">
+		<text>壊れた古い偶像の周囲で3日間休まず踊り続け、衰弱死</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_53">
+		<text>内側から施錠された密閉容器から消失。床には煙を上げるPDAだけが残っていた</text>
+	</string>
+	<string id="st_dyn_news_fake_death_reason_55">
+		<text>まだ新鮮なスードウジャイアントの巨大な糞の山から、半分消化された哀れな男のPDAが見つかった</text>
+	</string>
+
+
+	<!-- ================================================================= -->
+	<!-- CATEGORY 2: GHOST TEXT SPAM (Standard common icon) -->
+	<!-- Numbering must also be STRICTLY sequential from 1 to 80 -->
+	<!-- ================================================================= -->
+	
+	<string id="st_dyn_news_fake_spam_1">
+		<text>全拠点へ通達: ユーリ・セメツキーの信号を同時に3か所で検出。ネットワーク障害と思われる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_2">
+		<text>誰かセメツキーに送信機を直せと伝えてくれ。あいつのメッセージ、全部逆再生で届いてるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_3">
+		<text>データパケットの断片を傍受: ［外側から自分が見えるんだ。助けてくれ］
+		\n留守番電話: 加入者は死亡しています。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_4">
+		<text>ネットワーク上で幻の信号を検出。正体不明のPDAがレーダー施設から無音の音声を送信している。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_5">
+		<text>気のせいか？ユーリ・セメツキーって今週もう死んでなかったか？どうなってんだよ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_6">
+		<text>利用者へ警告: セメツキーからの着信を拒否してください。
+		\n空行だけでヤノフのローカルチャットが埋め尽くされています。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_7">
+		<text>そもそもセメツキーって何者なんだよ！？なんで一日に3回も死亡通知がPDAに出るんだ！？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_8">
+		<text>聞いてくれ。ユーリ・セメツキーの信号を拾った･･････ レーダー施設からだ。妨害装置のど真ん中だぞ。
+		\nだがあいつ、30分前にプリピャチでキメラに引き裂かれて死んだはずじゃないのか？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_9">
+		<text>暗号通信を傍受: ［セメツキー: 目が覚めなくなった。モノリスに願い事はするな］
+		\nネットワークエラー: 404</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_10">
+		<text>お前ら、これ以上チャットを埋めるな。マークド・ワン、セメツキー、ストレロック･･････
+		\n次はスカーの話か？レーダー施設停止後のネットワークは死にかけで、どの回線も妙な雑音だらけだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_11">
+		<text>システム通知: 「ユーリ・セメツキー」のユーザーID重複を検出。
+		\n地点1: ジュピター郊外
+		\n地点2: プリピャチ地下道─同期不能</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_12">
+		<text>共通周波数で何が起きてるか知ってる奴いるか？
+		\n5分おきに誰かがマイクに泣きついて、「セメツキー、戻ってこい。全部許す」って囁くんだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_13">
+		<text>セメツキーが100回死ぬと、ブレイン・スコーチャーが再起動するらしい。
+		\nもう90周目くらいだぞ、お前ら･･････</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_14">
+		<text>またネットワークがスパムだらけだ。
+		\n誰かがレーダー施設一帯へ「smert_semetzkogo.mp3」って音声を流してる。
+		\n落とすなよ、あの馬鹿げたリック・アストリーの曲だからな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_15">
+		<text>こちらウェイフェアー。俺のPDAがイカれたらしい。マークド・ワンが真後ろに立ってると表示されてる。
+		\nだが俺はヤンターの鍵を掛けた地下室に一人きりだ･･････</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_16">
+		<text>おい、今リマンスクにいる奴はいるか？
+		\n3年前にあそこで行方不明になったストーカーからPDAに連絡が来た。
+		\nテレビだらけの地下室から出してくれってさ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_17">
+		<text>Clear Skyの無線を傍受した。
+		\n「･･････橋を確保した！繰り返す、我々はリマンスクにいる！全分隊、守備位置につけ･･････」
+		\nおい、これはチェルノブイリ原発突入時の通信だぞ！なぜ今さら流れてる？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_18">
+		<text>リマンスクでとんでもないことが起きてる。仲間も俺もまったく同じ夢を見るんだ。
+		\n白いドレスの女が歌う中、生き埋めにされる夢を。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_19">
+		<text>Clear Skyの無線が聞こえる。病院付近で支援を求めてた。
+		\n応答してみたが、返ってきたのは乾いた咳と「俺たちはもう死んでる。ここへ来るな」って囁きだけだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_20">
+		<text>リマンスクにいるストーカーへ警告！古い噴水の周辺は迂回しろ。
+		\n探知機が異常な精神波の及ぶ領域を捉えてる。耳鳴りがひどくて鼻血まで出るぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_21">
+		<text>リマンスクに小型ブレイン・スコーチャーがあるなんて噂を流したのは誰だ？
+		\n指定区画をくまなく探したが、あったのは廃墟とSinの死体、それに壊れた古いアンテナだけだ。
+		\nそれなのに頭痛だけは収まらねえ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_22">
+		<text>頭がおかしくなりそうだ。昨日、リマンスクの交差点で女を見た。
+		\n霧の中に立って、俺の名を呼んでたんだ。どうして俺の名前を知ってる！？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_23">
+		<text>ネットワークで反復通信を検出した。
+		\n「助けてくれ、同じ通りを何度も歩いてる･･････ 自分の姿が見えるんだ･･････」
+		\n録音は二時間おきに繰り返されている。発信源はレーダー施設だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_24">
+		<text>昨日、リマンスク遠征は諦めた。仲間は青ざめて帰ってきて、口を閉ざしたまま眠るのを怖がってる。
+		\nあのゴーストタウンじゃ、どの地下室からも泣き声が響くらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_25">
+		<text>Sinのデータ通信を傍受した。
+		\n「死者の声を聞け。彼らは電波の中で歌う･･････ リマンスクはその揺り籠となる･･････」
+		\nあの狂信者ども、また無線遊びか。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_26">
+		<text>リマンスク北部からの救難信号を信じるなよ。俺たちは危うく待ち伏せに誘い込まれるところだった。
+		\nどこかのカルト野郎が、死んだルーキーの古い録音を繰り返し流してる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_27">
+		<text>ウェイフェアーってストーカーを知ってる奴いるか？
+		\nあいつのPDAが「俺は死と踊った。次はあいつの番だ」って文を流し続けてる。あそこで飲みすぎたのか？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_28">
+		<text>Clear Skyの周波数がまた乱れてる。レベデフの声だ。チェルノブイリ原発の状況報告を要求してる。
+		\nレーダー施設停止のせいで、ゾーンのネットワークが完全にショートしたに違いない。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_29">
+		<text>警告: リマンスクのMilitary居住区付近で、正体不明のPSI系ミュータントの痕跡を発見。
+		\n襲ってはこないが、強烈な白昼夢と悪夢を引き起こす。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_30">
+		<text>暗い部屋で、亡くなった母の顔を映すテレビに囲まれる夢を見た。
+		\n叫びながら目が覚めたよ。もう二度とリマンスクには足を踏み入れない。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_31">
+		<text>リマンスクのスペースアノマリーが完全に暴走してる。
+		\nコンパスは狂ったように回るし、ナビにはメインランドに戻ったと表示されてるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_32">
+		<text>至急！リマンスクで古い軍用無線をつけっぱなしにしたのは誰だ？
+		\nお前らの「過去の亡霊」のせいで、まともなストーカーが眠れないだろ！</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_33">
+		<text>リマンスクでSinの隠れ家が見つかったらしい。
+		\n奴らは古い中継機を囲み、市街戦の録音に祈りを捧げてたそうだ。正真正銘のイカれ野郎どもだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_34">
+		<text>お前ら、リマンスクで自分と瓜二つのストーカーが向かってきても撃つな。
+		\n空間の残響だ。目を閉じてればいい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_35">
+		<text>通信障害: リマンスクからの信号に断片的な文章を検出。
+		\n「夢なんて要らない･･････ アンテナを止めろ･･････ 奴らは地下室から来る･･････」</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_36">
+		<text>みんな、レッドフォレストに何かが棲みついた。Dutyのキャンプを見つけたが全滅だ。
+		\n一人は木の枝から･･････ 自分の腸で吊るされてた。ひどすぎる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_37">
+		<text>ハンターへ警告！名の知れた追跡屋がレッドフォレストで行方不明になった。
+		\n「獣」を狩りに出たきり連絡がない。最後の位置情報は古い鉱山の近くだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_38">
+		<text>ヤンターの倉庫から酒を盗んでる奴がいる！昨日だけで3箱も消えたぞ。
+		\n監視映像には小さな影が映ってる。ドワーフどもが味を占めたのか？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_39">
+		<text>レッドフォレストから無線で絶叫が聞こえた。
+		\n「近くにいる！俺が見たことを知られた！」その後は肉が裂ける音と沈黙だ。夜には行くなよ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_40">
+		<text>ストーカーへ警告: レッドフォレストで殺人鬼の洞窟が発見された。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_41">
+		<text>おいおい、レッドフォレストの殺人鬼なんて作り話はやめろ。
+		\n育ちすぎたコントローラーが恐怖心を植えつけて、同士討ちさせて遊んでるだけだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_42">
+		<text>基地で緊急事態だ。ドワーフが抗放射線薬を一箱かっぱらって、茂みに引きずり込んだ。
+		\n追跡したら、あのチビ野郎は穴ぐらに籠もってやがる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_43">
+		<text>レッドフォレストは通行禁止だ。焚き火のそばに座らされた首なし死体が次々見つかってる。
+		\n武器も装備も手つかず。「獣」は遊びで狩ってるだけだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_44">
+		<text>みんな、酒の余りはないか？レッドフォレストの外れで根こそぎやられた。
+		\n寝てる間に、バックパックのウォッカを全部空にされたんだ。どうなってやがる？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_45">
+		<text>レッドフォレストで、行方不明だったハンターのPDAを発見。茂みに一人で入るな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_46">
+		<text>情報: ストーカーの一団が、レッドフォレストにあった狂信者の巣を焼却。洞窟は完全に焼け落ちた。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_47">
+		<text>赤い木々の間で、黒い外套を着た人影を見た奴はいるか？
+		\n音もなく動き、子供みたいに泣く。弾倉一本分を撃ち込んだが、びくともしなかった。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_48">
+		<text>森の廃鉱付近でルーキーの遺体を発見。残ってたのはコンバットブーツを履いた両脚だけだ。
+		\n残りがどこへ行ったかは神のみぞ知る。安らかに眠れ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_49">
+		<text>周波数104.5MHz: レッドフォレストの奥から、酔っ払いの叫び声と咆哮だけが聞こえる。
+		\n「獣」の噂もあるし、俺なら近づかないね。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_50">
+		<text>ウェイフェアーより報告: レッドフォレストの「獣」は作り話じゃない。
+		\n奴の巣を見た。かじられた骨が山積みだ。行くならグレネードランチャーを持っていけ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_51">
+		<text>ひどい有様だ･･････ レッドフォレストで、自分のベルトを使って首を吊ったストーカーが見つかった。
+		\nだが一番不気味なのは、両手が鋼線で背中にきつく縛られてたことだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_52">
+		<text>各調整員へ通達: レッドフォレストから届く死亡報告が80％減少した。
+		\n何者かが現地の殺人鬼の巣を一掃したらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_53">
+		<text>レッドフォレストに入ると、頭が割れそうに痛む奴は他にもいるか？
+		\n空気に脳を押し潰されるようで、ずっと首筋に誰かの息を感じるんだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_54">
+		<text>お前ら、技術者の酒には気をつけろ。
+		\nレッドフォレストのドワーフどもが、盗んだ箱の代わりに毒入りの瓶を置き始めたって話だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_55">
+		<text>救難信号: 「･･････奴はヴァーシャの皮を生きたまま剥いだ･･････ 皮で外套を作ってる･･････ 助け･･････」
+		\n座標: レッドフォレスト中央。通信途絶。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_56">
+		<text>冗談じゃないぞ。二週間前にレーダー施設で仲間が行方不明になった。もう弔いまで済ませたんだ。
+		\nそれが昨日、ブレイン・スコーチャーのど真ん中で、あいつのPDAが数分だけ接続された！</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_57">
+		<text>PDAの下書きを傍受: 「俺たちは向かっている─お前のところへ」
+		\n送信日: 本日</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_58">
+		<text>もうたくさんだ。ゾーンから足を洗う。レーダー施設で親友を見つけた･･････ いや、残ってたものをな。
+		\nゾンビになって、塔の下を呻きながら歩いてた。俺がこの手で始末するしかなかった･･････</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_59">
+		<text>アーティファクトを全部売ってメインランドに帰る。レーダー施設を止めても、事態は悪化するばかりだ。
+		\n死の森から歩く死体が溢れ出し、その中に昔の仲間の顔がある。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_60">
+		<text>レーダー施設にいるストーカーへ警告！ゾーン深部で消えた者から信号を受けても、その座標に向かうな。
+		\nMonolithの罠か、精神波動が見せる幻影だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_61">
+		<text>スコーチャー付近で消えた元相棒が生きていた。だが死んでいた方がマシだったよ。
+		\n双眼鏡で見たんだ。検問所でMonolithの制服を着て、アンテナに祈ってた。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_62">
+		<text>あの狂信者どもが仲間を奪った！ミュータントでもアノマリーでもない、忌々しいMonolithだ！
+		\n装備を固めて仲間を集め、奴らの拠点をチェルノブイリ原発まで片っ端から攻め落としてやる！</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_63">
+		<text>レーダー施設ネットワークでシステム障害: ログ消失。全受信メッセージの完全性を確認できず。
+		\nブレイン・スコーチャー区画の端末から異常な冷気を検出。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_64">
+		<text>なあ、ブレイン・スコーチャーは本当に停止したのか？
+		\nなら、あの森で何百もの幻の信号がPDAのレーダーに映り続けるのはなぜだ？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_65">
+		<text>通信記録より: 「塔に近づくな･･････ 止まっていても奴らは囁く･･････ 焼き尽くした者を覚えている･･････」</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_66">
+		<text>レーダー施設で、触ると指が冷たく痺れるPDAを見つけた奴はいないか？
+		\nストーカーの端末を拾った。画面は無傷なのにファイルは一つもなく、昨日の日付の下書きだけがある。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_67">
+		<text>お前ら、レーダー施設は呪われてる。放射線がなくても、あそこに入るのは自殺行為だ。
+		\n何週間も前の死体が木の下に転がってるのに、PDAだけは共通チャットへ鳴き続けてる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_68">
+		<text>ウェイフェアー: 俺はレーダー施設にいる。地下施設の壁は血まみれだ。同じ名前が何度も書かれてる。
+		\nセメツキー、セメツキー、セメツキー･･････ 怖い。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_69">
+		<text>警告: レーダー施設の閉鎖区画でPDAの大量起動を確認。
+		\nすべて一か月以上前から行方不明または死亡扱いのストーカーが所有していた端末。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_70">
+		<text>レーダー施設のゾンビがSMSを送るなんて噂を流したのは誰だ？
+		\n昨日、「兄弟、スコーチャーにウォッカを持ってきてくれ。ここは寒い」って届いた。
+		\n画像は死んだ名付け親だ。悪戯した奴を見つけたら、Monolithが優しい爺さんに思えるほど殴ってやる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_71">
+		<text>アンテナが止まってから、Monolithどもは完全に引っ込んだ。
+		\nレッドフォレストやレーダー施設の穴ぐらで泣きながら、「孤独の母」とかいうものを呼んでる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_72">
+		<text>周波数を傍受:
+		\n「我らは力を失った･･････ 水晶は沈黙･･････ スコーチャーは死に、亡霊の声が･･････ 北から来る･･････」</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_73">
+		<text>ストーカーがレーダー施設で発狂し、地下室に閉じこもって飲み続け、心停止で死んだらしい。
+		\n一時間後、奴のPDAが遺体の座標を全員に送信した。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_74">
+		<text>もうレーダー施設をネットワーク監視から外してくれ！俺のPDAで重大な同期エラーが起き続けてる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_75">
+		<text>システムログ: ユーザー「Y. セメツキー」がログイン。ユーザー「Y. セメツキー」が死亡。
+		\n両事象の間隔: 0秒</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_76">
+		<text>今レーダー施設にいる奴、道路脇の古い貨車を調べてくれ。そこから妙な救難信号が来てる･･････
+		\n声はマークド・ワンにそっくりだが、理解不能な言葉を話してる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_77">
+		<text>ヤンターおよびレーダー施設の全拠点へ警告！幻のデータパケットによりネットワークが過負荷状態。
+		\nニュースの自動受信停止を推奨。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_78">
+		<text>昨日レーダー施設で、自分のライフルをかじりながら泣くMonolith兵に出くわした。
+		\n頭が完全に焼かれてた。苦しまないよう始末してやったよ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_79">
+		<text>みんな、レーダー施設北部には行くな。スコーチャー停止後、空間バブルが破裂し始めた。
+		\n人間が空中で引き裂かれてる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_80">
+		<text>警報: レーダー施設の未確認信号が危険水準に到達。ストーカーネットワークをオフラインモードへ移行。</text>
+	</string>
+<string id="st_dyn_news_fake_spam_81">
+	<text>またプリピャチの古い幼稚園付近で子供の笑い声を聞いた奴がいる。
+	\n一時間後に見つかったのは、持ち主のいないバックパックだけだ。今も捜索が続いてる。</text>
+</string>
+<string id="st_dyn_news_fake_spam_82">
+	<text>プリピャチで子供を見ても近づくな。向こうから話しかけてきたなら、絶対に近づくな。</text>
+</string>
+<string id="st_dyn_news_fake_spam_83">
+	<text>夜になるとホテル・ポリーシャから音楽が聞こえる奴、他にもいるか？10年は電気が来てないはずだ。
+	\nジャズみたいな曲で、チンピラじゃなく大物やマフィアのボスでも籠もってるように聞こえる。</text>
+</string>
+<string id="st_dyn_news_fake_spam_84">
+	<text>プリピャチ付近でまた観光客が見つかった。装備を見るに本人はピクニックのつもりだったらしい。
+	\n遺体の様子だと、ピクニックを楽しんだのはミュータントの方だな。</text>
+</string>
+<string id="st_dyn_news_fake_spam_85">
+	<text>ゾーン観光のルートを売ると言われたら、売人の顔を撃ち抜け。世の中が少しきれいになる。</text>
+</string>
+<string id="st_dyn_news_fake_spam_86">
+	<text>プリピャチでまた金持ち向けのカード大会が開かれるらしい。
+	\n今度は家具を床にボルト留めしておけよ、ハハハ。テーブルの一件はみんな知ってるだろ？</text>
+</string>
+<string id="st_dyn_news_fake_spam_87">
+	<text>今日、プリピャチの5階で壁にめり込んだテーブルを見た。もう何も聞きたくない。</text>
+</string>
+<string id="st_dyn_news_fake_spam_88">
+	<text>古い幼稚園の壁に、チョークで「ママはすぐ帰る」と書かれていた。昨日まではなかった文字だ。</text>
+</string>
+<string id="st_dyn_news_fake_spam_89">
+	<text>ヤノフのストーカーがプリピャチ付近で乗客満載のバスを見たと言ってる。
+	\n近づくと消えたそうだ。ちなみに、そいつは春からウォッカを飲んでない。</text>
+</string>
+<string id="st_dyn_news_fake_spam_90">
+	<text>念のため言っておく。プリピャチで誰かに「家へ帰れ」と呼ばれても、そこはお前の家じゃない。</text>
+</string>
+<string id="st_dyn_news_fake_spam_91">
+	<text>観光客をゾーンに連れてきてたガイドのPDAを見つけた。
+	\n顧客名簿を買いたがる奴が異様に多かったよ。こんなクズどもを乗せて、よく地球も平気でいられるな。</text>
+</string>
+<string id="st_dyn_news_fake_spam_92">
+	<text>プリピャチでゾーンの観光ツアーを売る男が目撃された。「教育的な話し合い」のため捜索中。</text>
+</string>
+<string id="st_dyn_news_fake_spam_93">
+	<text>また誰かが子供をゾーンに連れ込んだ。ここで一番厄介なのはミュータントじゃない気がしてくるよ。</text>
+</string>
+<string id="st_dyn_news_fake_spam_94">
+	<text>プリピャチには今も動くエレベーターが一基だけあるってホラ話を聞いた。
+	\nもっとも、下にしか行かないらしいがな。</text>
+</string>
+<string id="st_dyn_news_fake_spam_95">
+	<text>昨日、プリピャチの学校付近でチャイムが鳴った。
+	\n念のため言うが、人が通う本当の学校はここから何百キロも先だ。</text>
+</string>
+<string id="st_dyn_news_fake_spam_96">
+	<text>プリピャチで昔のソ連風の服を着た人々を見ても、手を振るな。
+	\n大抵はこちらが手を振り返す間もなく消える。</text>
+</string>
+<string id="st_dyn_news_fake_spam_97">
+	<text>プリピャチでは夜になると明かりのつく窓があるらしい。
+	\n確かめに行くと健康に甚大な被害が出るとも言われてる。</text>
+</string>
+<string id="st_dyn_news_fake_spam_98">
+	<text>コントローラーが郷愁を餌に狩ることを覚えたって噂だ。本当なら、俺たちは揃っておしまいだな。</text>
+</string>
+<string id="st_dyn_news_fake_spam_99">
+	<text>今日のプリピャチは静かだ。古株に言わせりゃ、銃声がするよりずっとまずいらしい。</text>
+</string>
+<string id="st_dyn_news_fake_spam_100">
+	<text>プリピャチは古びた罠みたいだ。
+	\n一番不気味なのは、こちらが見ていることを街自身に気づかれてるような時があることだ。</text>
+</string>
+<string id="st_dyn_news_fake_spam_101">
+		<text>プリピャチのスタジアムだけ、なぜ今も芝が青々としてるか知ってる奴はいるか？
+		\n周りはレッドフォレストと焼けた大地なのに、あそこだけ絵葉書みたいだ。横を通るだけで寒気がする。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_102">
+		<text>昨日、プリピャチの集合住宅で食卓が整えられた部屋を見つけた。
+		\n料理は作りたてで湯気が立ち、茶もまだ熱い。それなのに誰もいない。
+		\n全速力で逃げたよ。あんな魔法はごめんだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_103">
+		<text>ユビレイニー・サービスセンターでミシンの音を聞いても、上階に行こうなんて考えるな。
+		\nあそこで縫い物をする生きた人間は、40年前からいない。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_104">
+		<text>なあ、観覧車はずっと同じ方角を向いてたか？昨日見た時は回ってた気がする。少なくとも90度は。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_105">
+		<text>プリピャチの公衆電話には今も発信音がするものがある。
+		\n時には全部が一斉に鳴りだす。その時だけは、街に留まる理由なんて一つもない。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_106">
+		<text>プリピャチのバスターミナルの地下には、どの地図にも載ってない古い地下室があるらしい。
+		\nしかも絶えず腐肉の臭いがするそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_107">
+		<text>プリピャチの河港付近をうろつく奴へ警告だ。
+		\n古いサンライズスーツ姿のストーカーが桟橋で釣りをしてる。そいつは呼んでも答えない。
+		\n近づいてみると、フードの中は空っぽだった。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_108">
+		<text>プリピャチで壁一面を黒い布に覆われた部屋を見つけたら、すぐに立ち去れ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_109">
+		<text>誰かがプリピャチの路上に子供用の三輪車を置いて回ってる。塗りたてで汚れ一つない。
+		\nエミッションのたびに、道路のど真ん中に現れるんだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_110">
+		<text>夜になるとプロメテウス映画館で、古いフィルムが回る音がする。
+		\n映写室の光は何もないスクリーンを照らしている。仲間が調べたが、映写機は空で完全に錆びついてた。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_111">
+		<text>玄関が開け放たれ、廊下に明かりがついたプリピャチの部屋には絶対入るな。
+		\nゾーンが炎で虫を誘うように、お前を誘い込んでるだけだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_112">
+		<text>レーダー施設周辺でまた電子機器が狂ってる。俺のPDAには地下200メートルにいると表示された。
+		\nファームウェアの不具合だといいんだが。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_113">
+		<text>エネルゲティック文化宮殿には、自分を本物の館長だと思い込んだバーラーが棲んでるらしい。
+		\n古い上着をまとい、誰かが静寂を破ると激怒するそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_114">
+		<text>ストーカー諸君、プリピャチでは1階の部屋で寝るなよ。
+		\n夜になると何者かが外を歩き、爪で窓を優しく叩くそうだ。開けるまで、ずっとな。
+		\nしかも、そんな夜に限っていつまでも明けないらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_115">
+		<text>プリピャチでスードウドッグの群れが目撃された。
+		\n吠えも襲いもせず、ただ記念碑を半円状に囲んで月に向かって遠吠えしてた。
+		\nしかも全部ぴったり同時にな。見てるだけで背筋が凍ったよ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_116">
+		<text>市街地にある1986年4月の古いソ連新聞は絶対に読むなよ。記憶をごっそり消されるらしいぜ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_117">
+		<text>ラズールヌイ・プール付近で誰かが空薬莢を矢印の形に並べてる。
+		\n全部同じマンホールを指してるが、下を確かめるほど勇敢な馬鹿はまだいない。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_118">
+		<text>昨日、プリピャチ郊外で天気予報を受信した。アナウンサーはメーデーの行進を楽しそうに話してたな。
+		\nただし、何年かは言わなかった。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_119">
+		<text>ルーキーに忠告: プリピャチに「安全な屋上」なんてない。
+		\n上から来るものなんて何もないと思うなら、この辺のキメラを知らなすぎるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_120">
+		<text>レーダー施設の地下でストーカーの集団墓地が見つかったらしい。
+		\n全員のPDAに記録された死亡日は同じ、2012年。そして今もネットワーク上で「生存」と表示されてる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_121">
+		<text>プリピャチの中庭で、人影だけが完全に逆向きに動いていたら大きく迂回しろ。空間ポケットだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_122">
+		<text>リマンスク郊外の病院付近で、錆びた病院用ベッドが道路沿いに丁寧に並べられていた。
+		\n草に残る跡を見る限り、つい最近人の手で運ばれたものだ。何のために？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_123">
+		<text>バーで聞いた噂だ。ある利口者がプリピャチから古い地球儀を持ち出そうとした。
+		\n以来、どこを歩いても同じ学校に戻ってくるらしい。アーティファクトを持ち出せるものならやってみろ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_124">
+		<text>レーダー施設周辺で、遅れて返るこだまを経験した奴は他にもいるか？
+		\n叫ぶと3分ほどして自分の声が返ってくる。なぜか囁き声になってな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_125">
+		<text>プリピャチの16階建てビルの屋上でブラッドサッカーが目撃された。
+		\n座って原発を眺めてたんだ。3時間、爪一本動かさなかった。何かを･･････ 誰かを待ってるようだった。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_126">
+		<text>背後の足音が相棒のものだと思ったら、振り返って必ず確かめろ。特に一人でプリピャチに入った時はな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_127">
+		<text>プリピャチの古い商店では、ショーウィンドウにソ連ルーブルの値札が現れることがある。
+		\n古参によると、きっかり同額の小銭を置けば、ゾーンが黙って帰してくれるそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_128">
+		<text>今日スタジアムでサッカーボールを見た。まっさらで革に傷一つない。
+		\nそれがフィールド中央に置かれてた。どう見てもMonolithの罠だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_129">
+		<text>レーダー施設付近の森で傭兵の死体が見つかった。
+		\n異常は真っ白になった髪と、恐怖に凍りついた顔だけ。武器も装備も無傷で、弾薬すら手つかずだった。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_130">
+		<text>誰かがレッドフォレストの木々に、古い振り子式の台所時計を掛けて回ってる。
+		\nそれが全部動いてるんだ。死んだ森に響くあの騒音を想像できるか？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_131">
+		<text>プリピャチで自分の顔が描かれた落書きを見つけたら、その日のうちに荷物をまとめてコードンを越えろ。
+		\nこれは実際に何度もあった話だ。冗談じゃない。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_132">
+		<text>夜の桟橋付近でオールが水をかくような音がするんだ。
+		\n原発事故の後は船なんて一隻も残ってないし、川の水は病原菌すら生きられないほど汚染されてるのにな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_133">
+		<text>ホテル・ポリーシャの上階に美食家のコントローラーが居ついたらしい。
+		\n高価な輸入酒を持つストーカーしか襲わないそうだ。たぶん冗談だ･･････ たぶんな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_134">
+		<text>みんな、リマンスク付近の放棄された射撃場には近づくなよ。
+		\n標的が勝手に動きだし、撃った弾がそのまま射手に戻ることがあるらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_135">
+		<text>プリピャチ第三学校付近でソ連製の古いランドセルが山積みにされていた。
+		\nどれもピラミッド状にきれいに重ねられてる。中身は乾いた土と砕けたガラスだけだ。
+		\nただ、そのうちの一つから子供の頭蓋骨が出てきた。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_136">
+		<text>プリピャチ郊外で鉄道員姿の老人に「鞄を運んでほしい」と頼まれても迷わず射殺しろ。
+		\nその「老人」は制服の下に巨大な鉤爪を隠してる。老人じゃない、狡猾なイズロムだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_137">
+		<text>Freedomの連中から聞いた。レーダー施設には物を複製するアノマリーがあるらしい。
+		\n空の弾倉を投げると二本飛び出す。残念ながらアーティファクトじゃ通用せず、全部吹き飛ぶそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_138">
+		<text>プリピャチの集合住宅、その階段室の壁にこう書かれてた。
+		\n「私たちは出発しました。明かりを消してください」
+		\n署名はイワノフ一家。一番不気味なのは、そのすぐ横に三体の白骨があり、一体は子供に見えることだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_139">
+		<text>プリピャチに落ちてるぬいぐるみは絶対に拾うな。
+		\nMonolithどもが中に動作感知式のプラスチック爆薬を仕込み始めた。狂信者には恥も外聞もないらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_140">
+		<text>ゴーストタウン周辺の道路に濃い白霧が頻繁に出るようになった。牛乳みたいに濃いぞ。
+		\n入るとコンパスが狂い、暗視装置も停止する。あんなものは地下室でやり過ごすのが一番だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_141">
+		<text>プリピャチで「生きた」道路標識を見た奴はいるか？
+		\n目を離すたびに矢印の向きが変わる標識だ。空間の裂け目で、街全体がすっかり薄くなったようだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_142">
+		<text>プリピャチのポルターガイストが古びた錆だらけのピアノを引きずってるって噂がヤノフ駅で広まってる。
+		\n曲は弾かず、耳をつんざく音でアスファルトに叩きつけるだけらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_143">
+		<text>エネルゲティック文化宮殿の地下で、「資料室」と書かれた鍵付きの扉を見つけても壊すな。
+		\n中から3年もの間、かすかなタイプライターの音が鳴り続けてる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_144">
+		<text>レーダー施設付近でメモが一つだけ入ったPDAが見つかった。
+		\n「奴らは我々がブレイン・スコーチャーを止めたと知っている。戻ってくる」
+		\n日付は明日になっている。スコーチャーを止めた奴か･･････ 逃げた方がいいぞ、兄弟。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_145">
+		<text>プリピャチの食料品店付近に鉄条網で巻かれた古い電話ボックスがある。
+		\n内側から絶えず、誰かが爪でガラスを引っかいてる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_146">
+		<text>なあ、プリピャチのバスターミナル周辺だと、街灯の影が太陽の方へ伸びて見えないか？
+		\nそれとも精神波放射線で俺の脳が溶けたのか？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_147">
+		<text>プリピャチの病棟で誰かが子供靴をきれいに並べてる。
+		\n靴下はなく、靴紐は二重結びだ。ゾーンは完全に俺たちをあざ笑ってやがる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_148">
+		<text>プリピャチの暗い通りで、誰もいない焚き火を見ても近づくなよ。
+		\n火は本物だが、真下の地面全体が巨大なワーリギグアノマリーだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_149">
+		<text>古参いわく、プリピャチが完全に無人で安全そうに見えたなら、すでに罠へ踏み込んでいる。
+		\n街はお前が油断するのを待ってるだけだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_150">
+		<text>チェルノブイリ-2およびプリピャチの全ストーカーへ警告。
+		\nPDAから突然ソ連国歌が流れても、停止したりバッテリーを取り外そうとはするな。
+		\n最寄りの避難場所まで走れ。それは超大型エミッションの前兆だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_151">
+		<text>みんな、最近プロメテウス映画館に行った奴はいるか？記念像は元の場所にあったか？
+		\n俺には手を下ろしたように見えたんだよな。それとも、とうとう地元のウォッカで目をやられたか。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_152">
+		<text>古いコインランドリーでアーティファクト待ちをしてる連中へ警告。
+		\n夜、空の洗濯機から何かがぶつかる音を聞いたら外に出ろ。
+		\nポルターガイストの仕業じゃない。配管からフルーツポンチアノマリーが漏れてるんだ。
+		\n一度ルーキーを見張りに立たせたら、朝には音を立てる水溜まりの真ん中にブーツだけが立ってた。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_153">
+		<text>昨日、プリピャチの地下室で子供用ガスマスクが詰まった倉庫を見つけた。
+		\n大きさ順に並べられ、壁には木炭で巨大な笑顔が描かれてた。ゾーンはいくら何でもやりすぎだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_154">
+		<text>プリピャチの路上で、首輪に古いピオネールのスカーフを巻いたブラインドドッグを見ても撃つなよ。
+		\nそいつ、死んだストーカーの隠し場所まで案内してくれるって噂だぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_155">
+		<text>プリピャチ第一学校の屋根裏に上がろうとした奴はいるか？
+		\n梯子もあるし、扉も開いてる。だが何段上っても、1階の時間割の前に戻されるんだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_156">
+		<text>レーダー施設周辺の噂だ。Monolithどもが、錆びた古いソ連製バスの骨組みに祈り始めたらしい。
+		\n電線を巻きつけ、トゥシュカノの頭蓋骨で囲み、座ったまま揺れてる。野蛮人め。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_157">
+		<text>プリピャチでガイガーカウンターが突然沈黙し、完全にゼロを示したらすぐに退け。
+		\n安全地帯のフリをしたバーナーアノマリーの有効範囲に踏み込んでるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_158">
+		<text>プリピャチ河港付近でDuty兵の死体が見つかった。
+		\n装備はすべて無傷だったが、ポケットに「奴らは水の底で目覚めた」と書かれたメモがあった。
+		\nDutyの連中はもう近寄らない。正直、お前らにもしばらくは探りに行かないよう勧める。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_159">
+		<text>夜のプリピャチには、今も灯る街灯が一本だけあるらしい。薄い黄色の光だ。
+		\nその下に立てば傷はすべて治るが、二度とゾーンを出られなくなる。まさに悪魔との取引だな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_160">
+		<text>ストーカー諸君、古いソ連製の炭酸水販売機には手を出すな。
+		\nある馬鹿がシロップの残りを確かめようとしたら、機械に肘まで腕を食いちぎられた。
+		\n長年の間に、金属まで腹を空かせたらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_161">
+		<text>リマンスク付近の道路で奇妙なキメラが目撃された。普段の咆哮ではなく、赤ん坊そっくりの声を出す。
+		\nハンターいわく、それでルーキーを誘い込み、骨一本残さず喰うそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_162">
+		<text>プリピャチで部屋の扉に鉄条網と乾燥ニガヨモギの輪を掛けて回る奴がいる。
+		\n扉にあったら入るな。白黒連中が中に墓を作ってる。狂信者だけあって、当然死体には罠が仕掛けてある。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_163">
+		<text>プリピャチのスタジアム付近でMilitaryの無人機が墜落していた。
+		\n記録によると、無人の通りを撮影していたところ･･････ 学校机がレンズ目がけて飛んできた。
+		\n5階の窓からだ。誰かの悪戯か？それともゾーンが俺たちをからかってるのか？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_164">
+		<text>プリピャチの放棄された食料品店で、暗闇からビニール袋をあさる音が聞こえても気にするな。
+		\n何も聞かなかったふりをして、静かに逃げた方がいい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_165">
+		<text>プリピャチ中央広場で受信機を周波数66.6に合わせると、石棺内部で起きていることを生中継で聞ける。
+		\n･･････という、ホラ話がある。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_166">
+		<text>みんな、プリピャチの音楽学校には近づくな。古い楽器が勝手に調子外れの音を奏でるらしい。
+		\n中に入れば強烈な超音波を浴びて、鼻血が出るほど耳をやられるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_167">
+		<text>レーダー施設付近で、箱が大量に載った古い軍用トラックを見つけた。戦利品だと思って開けたら･･････
+		\n古いソ連製目覚まし時計が何千個もあった。しかも全部、朝6時にセット済みだ。
+		\n明朝の予定がある奴は取り消しておけ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_168">
+		<text>プリピャチの路上に描かれたけんけんぱを見つけても踏むな。ボルテックスアノマリーが擬態してる。
+		\n一人が踏んじまってな、今もあいつのブーツが空から落ちてくるのを待ってる。
+		\nハハ･･････ いや、全然笑えねえ。安らかに眠れ、サーシカ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_169">
+		<text>プリピャチの中庭にトランクを開けたヴォルガが停まってる。
+		\n中には摘みたての野花が山積みで、その悪臭が一区画全体に広がってるんだ。吐き気がするよ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_170">
+		<text>ブレイン・スコーチャーが停止して以来、北で太古のミュータントが目覚めたらしいぜ。
+		\nレーダー施設帰りの連中は3階建てほどの化け物を見たと言い張ってる。まあ、ホラ吹いてるだけだろ。
+		\nだが、あの辺りで時々地面が揺れるのは本当だぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_171">
+		<text>プリピャチ病院の地下で自分の名が書かれた診療記録を見つけても、開くな。
+		\nFreedomの連中いわく、ゾーンで死ぬ正確な日時と死因が書かれてるそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_172">
+		<text>ユビレイニー・サービスセンター付近で道路の真ん中に衣料店のマネキンが倒れていた。
+		\n裏返すと、中で生身の人間の心臓が脈打ってた。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_173">
+		<text>ヤノフの辺りで、プリピャチからPDAに妙な信号が入った奴は他にもいるか？
+		\n連絡先には「母さん」と表示されるが、届くのは受話器越しの荒い息だけだ。ぞっとするよ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_174">
+		<text>リマンスクの路上で錆一つない乳母車を見たら大きく迂回しろ。
+		\nバーラーが好んで囮に使い、茂みに隠れて馬鹿が寄るのを待ってるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_175">
+		<text>プリピャチのエネルゲティック文化宮殿、その屋上に壊れた家具で巨大な十字架が作られた。
+		\n遠くからでも見える。Monolithでさえ近づくのを恐れてるそうだ。Sinの仕業か？</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_176">
+		<text>ストーカーども、プリピャチでは蓋の開いたマンホールに気をつけな。そこに落ちた男が5分後･･････
+		\nチェルノブイリ原発で這い出し、狂信者どもの目の前に出たらしいぜ。忌々しい空間の裂け目だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_177">
+		<text>プリピャチの古い郵便受けから時折新しい手紙が見つかるんだ。紙は乾き、インクも褪せてない。
+		\n書かれているのは悪天候への愚痴と、食料品店にソーセージがないという不満だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_178">
+		<text>バスターミナル付近でソ連詩人の詩を大声で芝居がかって朗読してる奴がいたら、伏せて耳を塞げ。
+		\nそいつは精神波攻撃を偽装するコントローラーだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_179">
+		<text>レーダー施設に近いレッドフォレストで、葉の代わりに錆びたドッグタグを吊るした木が見つかった。
+		\n少なくとも数百枚はある。歪んだ収集家が居ついたらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_180">
+		<text>プリピャチの観覧車付近では、火を貸してくれと頼むストーカーの亡霊が出るらしい。
+		\nタバコを渡せば豊かな隠し場所へ案内され、断れば目が見えなくなるそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_181">
+		<text>古い鏡が壁にかけてある部屋には入るなよ。
+		\nその鏡に映るのは自分の顔ではなく、真後ろに立ってるものらしい。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_182">
+		<text>プロメテウス映画館で1986年4月26日上映分のチケットが大量に見つかった。
+		\n館内は無傷なのに、チケットはどれも端が焦げている。こういう発見が吉報だった試しはない。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_183">
+		<text>夜のプリピャチで暗視装置が突然真っ赤な光に覆われたら、すぐに頭から外せ。
+		\n精神波フラッシュだ。一瞬で両目を焼かれるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_184">
+		<text>古いソ連製の金庫が波止場の近くで見つかり、住宅のレンガの壁に直接溶接されていた。
+		\n金庫の中から、誰かが内側からこじ開けようとするような鈍い音が鳴り続けてる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_185">
+		<text>バーで聞いた噂だ。ある傭兵いわく、レーダー施設の地下にはリマンスクへ直通する鉄道があるらしい。
+		\nそして今も、無人のトロッコが走り続けているそうだ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_186">
+		<text>プリピャチで猫を見たら逃げろ。最初のエミッション以来、ゾーンに猫はいない。
+		\n猫に見えるものは、ひどく腹を空かせた頭の切れる怪物だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_187">
+		<text>第三学校の地下で、古い通信簿が山積みになった部屋を見つけた。
+		\n生徒は一人ずつ違うのに、どの通信簿も最後の週は素行が落第点だけだった。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_188">
+		<text>ホテル・ポリーシャ周辺で、コンパスが逆回転し始めた奴は他にもいるか？
+		\n左へ一歩で北が南、右へ一歩で東が西。指を鳴らす間に迷えるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_189">
+		<text>プリピャチの食料品店付近で、焼きたてのパンが詰まったバックパックを見つけた。
+		\n柔らかく、皮は見事で香りも最高。だが周囲には誰もいない。腹を空かせたルーキーへの罠に決まってる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_190">
+		<text>北部にいるストーカーへ警告！Monolithに異常な動きが報告された。
+		\n10人から15人の集団で原発へ向かい、検問所は完全に放棄されてる。狂信者どもが何か企んでるぞ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_191">
+		<text>プリピャチの遊び場で、ブランコが独りで回転していたら近づくなよ。
+		\n目に見えない巨大なワーリギグがある。吸い込まれたら、遺体を繋ぎ合わせることすらできないぜ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_192">
+		<text>ラズールヌイ・プール付近で調査隊の科学者のPDAが見つかった。最後の記録はこうだ。
+		\n「プールの水位が上昇。配管はとうに撤去済み。地下から上がってくる」
+		\n本人は見つかっていない。勝手に逃げたとは考えにくいな。あの学者連中は大抵、責任感だけはある。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_193">
+		<text>プリピャチの上階にある部屋には近づくな。特に、一枚を除いて窓ガラスがすべて割れた部屋だ。
+		\n残った一枚から覗くと、事故前のプリピャチが見える。その直後、PSI攻撃で脳を焼かれ廃人になる。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_194">
+		<text>リマンスクの古い噴水付近で、兵隊や自動車、小さなピストルといった錆びたソ連製玩具が見つかった。
+		\n円形に並び、その中心には安全ピンを抜いたF1手榴弾。ここには随分と趣味の悪い奴がいるらしい･･････</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_195">
+		<text>プリピャチ周辺の道路で、古いソ連KGB制服を着た軍の巡回隊がいるらしい。
+		\n通行許可証を求められても、口答えしようなんて考えるな。ただ撃ち殺せ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_196">
+		<text>第五学校付近のアスファルトにチョークがばら撒かれている。
+		\n集めたチョークで壁に自分の名を書けば、3日間ゾーンに手を出されないらしい。信じがたい話だがな。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_197">
+		<text>ヤノフ駅では、プリピャチに「PDA収集家」が現れたと噂されてる。
+		\n街を歩き回って負傷者に止めを刺し、電子機器だけ持ち去るそうだ。何に使うのかは神のみぞ知る。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_198">
+		<text>エネルゲティック文化宮殿の地下で新しい白塗りの壁を見たら引き返せ。
+		\nそれは補修作業の跡じゃない。ガスマスクのフィルターさえ食い破る、危険な白い変異カビの群落だ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_199">
+		<text>みんな、古参からの警告だ。
+		\nプリピャチが完全に静まり返り、風まで止んだと感じたら、1分後に大規模なエミッションが来るぞ。
+		\nその時が来たら深い穴を探して祈れ。</text>
+	</string>
+	<string id="st_dyn_news_fake_spam_200">
+		<text>警告！ストーカーネットワークから緊急放送: ブレイン・スコーチャー停止後、
+		\nレーダー施設およびプリピャチ区画は正体不明のアノマリー領域により完全封鎖。
+		\n北部に残る全員へ─救援はない。幸運を祈る。</text>
+	</string>
+	
+<string id="st_dyn_news_ghost_sound_1">
+	<text>聞こえたか？またゾーンがご機嫌斜めらしい･･････</text>
+</string>
+	
+	<string id="st_dyn_news_ghost_sound_2">
+	<text>お前ら、今の聞こえたか！？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_3">
+	<text>聞こえたか？Monolithの連中が原発の地下で、また馬鹿騒ぎしてるらしい･･････</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_4">
+	<text>お前ら、あの音を聞いたなら逃げろ！
+	\nレーダー施設にいる仲間が、ブレイン・スコーチャーが再起動したと言ってる！
+	\n隠れろ、さもなきゃ全員おしまいだ！</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_5">
+	<text>お前も今のを聞いたか？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_6">
+	<text>今のは何だ･･････？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_7">
+	<text>あの音、どこから聞こえた？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_8">
+	<text>通信員、報告しろ。全周波数帯で妨害を受けてる。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_9">
+	<text>今のを聞いた奴、他にもいるか？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_10">
+	<text>あの唸り、鳴るたびに近づいてないか？そう感じるのは俺だけか？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_11">
+	<text>また始まった･･････</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_12">
+	<text>嫌な音だ。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_13">
+	<text>周囲を調べた。音源は見つからない。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_14">
+	<text>またあの唸りだ。レーダーに妙な反応が出てる。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_15">
+	<text>注目。これはシステム試験だ。今ので漏らしたなら、システムは正常に作動している。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_16">
+	<text>お前ら、一人の時にあれを聞いても振り返るなよ。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_17">
+	<text>クソッ！お前も今の聞いたか？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_18">
+	<text>さあ正直に言え。今ので肝を潰した奴は誰だ？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_19">
+	<text>またあれが唸ってるなんて言うなよ。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_20">
+	<text>今の、エミッションじゃないよな？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_21">
+	<text>ストーカー、応答しろ。今のが何だったかわかる奴はいるか？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_22">
+	<text>クソッ。危うくPDAを木に叩きつけるところだった。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_23">
+	<text>みんな、正直に答えてくれ。あの音が聞こえたのは俺だけか？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_24">
+	<text>今レーダー施設にいる奴はいないのか？そっちで何が起きてる？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_25">
+	<text>またあれか･･････ 今週だけで二度目だ。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_26">
+	<text>通信員が沈黙してる。どうにも嫌な予感がする。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_27">
+	<text>待て･･････ お前も今のを聞いたか？</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_28">
+	<text>冗談じゃない。今日はキャンプから出ないぞ。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_29">
+	<text>またゾーンの悪戯だとしたら、笑いのセンスが最悪だ。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_30">
+	<text>畜生！驚いて線量計まで悲鳴を上げやがった。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_31">
+	<text>通信当番は誰だ？返事をしろ、クソッ。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_32">
+	<text>ゾーンで聞いた中でも、一番恐ろしい音だったな。</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_33">
+	<text>一体何なんだ？ブレイン・スコーチャーを止めてから、妙なことばかり起きやがる！</text>
+</string>
+
+<string id="st_dyn_news_ghost_sound_34">
+	<text>またユーリ・セメツキーが死んだらしい･･････</text>
+</string>
+
+</string_table>
