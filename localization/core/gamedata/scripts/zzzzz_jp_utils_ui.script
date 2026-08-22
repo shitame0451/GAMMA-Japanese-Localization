@@ -3,104 +3,720 @@
 -- ===================================================================
 --  UICellItem:Check_TradeMode （トレード画面のアイテムチップ右上の価格）
 -- ===================================================================
-local original_Check_TradeMode = utils_ui.UICellItem.Check_TradeMode
+if utils_ui.UICellItem
+and utils_ui.UICellItem.Check_TradeMode
+then
+	local original_Check_TradeMode = utils_ui.UICellItem.Check_TradeMode
 
-utils_ui.UICellItem.Check_TradeMode = function(self, obj, sec)
-	local result = original_Check_TradeMode(self, obj, sec)
+	utils_ui.UICellItem.Check_TradeMode = function(self, obj, sec, ...)
+		local result = original_Check_TradeMode(self, obj, sec, ...)
 
-	if self.flags and self.flags.value_str and self.flags.value then
-		local formatted_cost = japanese_patch.commas_to_number(self.flags.value)
-		self.flags.value_str = game.translate_string("st_base_cost") .. ": " .. formatted_cost .. " ルーブル"
+		if self.flags and self.flags.value_str and self.flags.value then
+			local formatted_cost = japanese_patch.commas_to_number(self.flags.value)
+			self.flags.value_str = game.translate_string("st_base_cost") .. ": " .. formatted_cost .. " ルーブル"
+		end
+
+		return result
+	end
+end
+
+-- ===================================================================
+--  UIInfoUpgr:Sync_H （アップグレード詳細ウィンドウの不要な余白を縮小）
+-- ===================================================================
+if utils_ui.UIInfoUpgr
+and utils_ui.UIInfoUpgr.Sync_H
+and not utils_ui.UIInfoUpgr._jp_sync_h_patched
+then
+	local original_UIInfoUpgr_Sync_H = utils_ui.UIInfoUpgr.Sync_H
+
+	utils_ui.UIInfoUpgr.Sync_H = function(self, parent, child, offset, ...)
+		local result = original_UIInfoUpgr_Sync_H(self, parent, child, offset, ...)
+
+		if parent and child
+			and parent.GetWndPos
+			and parent.GetHeight
+			and child.GetWidth
+			and child.SetWndSize
+		then
+			local parent_pos = parent:GetWndPos()
+			-- アップグレード詳細ウィンドウの下部余白。広げる場合は20を増やす
+			local height = parent_pos.y + parent:GetHeight() + (offset or 0) + 20
+			-- アップグレード詳細ウィンドウの最小高さ。変更する場合は両方の100を同じ値にする
+			if height < 100 then
+				height = 100
+			end
+
+			child:SetWndSize(vector2():set(child:GetWidth(), height))
+			return height
+		end
+
+		return result
 	end
 
-	return result
+	utils_ui.UIInfoUpgr._jp_sync_h_patched = true
 end
 
 -- ===================================================================
 --  UIInfoItem:Update （アイテムチップの表示調整）
 --  重量表示にラベルを追加
+--  説明文を白文字で表示
 --  「弾薬:」(ui_ammo_types)の色指定 （ui_st_inventory.xmlでの色指定が効かないため、ここで指定）
 --  ステータスの表示調整
+--  アイテムチップ下端に共通の余白を追加
 -- ===================================================================
 -- 位置調整済みかどうかを保存するテーブル
-local moved_stats_txt   = {}
-local moved_stats_comp  = {}
-local moved_stats_icon  = {}
+local moved_stats_cap   = setmetatable({}, {__mode = "k"})
+local moved_stats_txt   = setmetatable({}, {__mode = "k"})
+local moved_stats_comp  = setmetatable({}, {__mode = "k"})
 
-local original_UIInfoItem_Update = utils_ui.UIInfoItem.Update
-utils_ui.UIInfoItem.Update = function(self, obj, sec, flags)
-	local result = original_UIInfoItem_Update(self, obj, sec, flags)
+local function shift_content_entry(entry, offset)
+	local wnd = entry[1]
+	local label = entry[2]
+	local pos = wnd:GetWndPos()
+	wnd:SetWndPos(vector2():set(pos.x, pos.y + offset))
 
-	-- 重量ラベルを追加
-	if self and self.weight and self.weight.GetText and self.weight.SetText then
-		local text = self.weight:GetText()
-		if text and text ~= "" and not text:find("^重量") then
-			self.weight:SetText("重量: " .. text)
+	if label
+		and label.GetWndPos
+		and label.SetWndPos
+	then
+		local label_pos = label:GetWndPos()
+		label:SetWndPos(vector2():set(label_pos.x, label_pos.y + offset))
+	end
+end
+
+-- ステータス欄の位置調整に合わせ、右側配置欄と後続欄を移動する
+local function shift_side_content_with_stats(self, stats_top, stats_bottom, stats_offset, following_offset)
+	local content = {
+		{self.ammo},
+		{self.parts, self.parts_txt},
+		{self.recipes, self.recipes_txt},
+		{self.cooking, self.cooking_txt},
+	}
+	local shifted = {}
+	local has_content_below = false
+
+	for _, entry in ipairs(content) do
+		local wnd = entry[1]
+		if wnd
+			and wnd.IsShown
+			and wnd:IsShown()
+			and wnd.GetWndPos
+			and wnd.SetWndPos
+		then
+			local pos = wnd:GetWndPos()
+			if pos.y >= stats_bottom then
+				has_content_below = true
+				if following_offset ~= 0 then
+					shift_content_entry(entry, following_offset)
+					shifted[#shifted + 1] = {entry = entry, offset = following_offset}
+				end
+			elseif pos.y >= stats_top then
+				shift_content_entry(entry, stats_offset)
+				shifted[#shifted + 1] = {entry = entry, offset = stats_offset}
+			end
 		end
 	end
 
-	-- 「弾薬:」(ui_ammo_types) の色を指定
-	if self and self.section and self:GetType(self.section) == "weapon" and self.ammo_cap then
-		self.ammo_cap:TextControl():SetTextColor(GetARGB(255, 255, 255, 255))
-	end
+	return shifted, has_content_below
+end
 
-	-- ステータスの位置調整
-	if self and self.stats then
-		for i, ele in ipairs(self.stats) do
-			-- 数値 (左に移動)
-			if ele.txt and ele.txt:IsShown() and not moved_stats_txt[ele.txt] then
-				local pos = ele.txt:GetWndPos()
-				ele.txt:SetWndPos(vector2():set(pos.x -15, pos.y))
-				moved_stats_txt[ele.txt] = true
-			end
+-- オリジナルが高さ超過時に追加欄を右側へ退避しているか確認する
+local function has_side_extra_content(self)
+	local content = {
+		self.parts,
+		self.recipes,
+		self.cooking,
+	}
 
-			-- 比較数値 (左に移動)
-			if ele.comp and ele.comp:IsShown() and not moved_stats_comp[ele.comp] then
-				local pos = ele.comp:GetWndPos()
-				ele.comp:SetWndPos(vector2():set(pos.x - 30, pos.y))
-				moved_stats_comp[ele.comp] = true
-			end
+	for _, wnd in ipairs(content) do
+		if wnd
+			and wnd.IsShown
+			and wnd:IsShown()
+			and wnd.GetWidth
+			and wnd:GetWidth() <= 110
+		then
+			return true
 		end
 	end
 
-	return result
+	return false
+end
+
+if utils_ui.UIInfoItem
+and utils_ui.UIInfoItem.Update
+then
+	local original_UIInfoItem_Update = utils_ui.UIInfoItem.Update
+	utils_ui.UIInfoItem.Update = function(self, obj, sec, flags, ...)
+		-- 同一アイテムの再表示で余白が累積しないよう、前回追加分を先に戻す
+		if self
+			and self._jp_bottom_padding
+			and self.frame
+			and self.frame.GetWidth
+			and self.frame.GetHeight
+			and self.frame.SetWndSize
+		then
+			self.frame:SetWndSize(vector2():set(
+				self.frame:GetWidth(),
+				self.frame:GetHeight() - self._jp_bottom_padding
+			))
+			self._jp_bottom_padding = nil
+		end
+
+		-- 同一アイテムの再表示に備え、前回調整したステータス領域をオリジナルの配置へ戻す
+		if self
+			and self._jp_stats_height_reduction
+			and self.stats_dialog
+			and self.stats_dialog.GetWndPos
+			and self.stats_dialog.SetWndPos
+			and self.stats_dialog.GetWidth
+			and self.stats_dialog.GetHeight
+			and self.stats_dialog.SetWndSize
+		then
+			local stats_y_offset = self._jp_stats_y_offset or 0
+			for _, shifted in ipairs(self._jp_stats_shifted_content or {}) do
+				shift_content_entry(shifted.entry, -shifted.offset)
+			end
+
+			local stats_pos = self.stats_dialog:GetWndPos()
+			self.stats_dialog:SetWndPos(vector2():set(
+				stats_pos.x,
+				stats_pos.y - stats_y_offset
+			))
+			self.stats_dialog:SetWndSize(vector2():set(
+				self.stats_dialog:GetWidth(),
+				self.stats_dialog:GetHeight() + self._jp_stats_height_reduction
+			))
+
+			if self._jp_stats_frame_reduction
+				and self.frame
+				and self.frame.GetWidth
+				and self.frame.GetHeight
+				and self.frame.SetWndSize
+			then
+				self.frame:SetWndSize(vector2():set(
+					self.frame:GetWidth(),
+					self.frame:GetHeight() + self._jp_stats_frame_reduction
+				))
+			end
+
+			self._jp_stats_height_reduction = nil
+			self._jp_stats_y_offset = nil
+			self._jp_stats_frame_reduction = nil
+			self._jp_stats_shifted_content = nil
+		end
+
+		local result = original_UIInfoItem_Update(self, obj, sec, flags, ...)
+		local has_extra_content = self and (
+			(self.parts and self.parts.IsShown and self.parts:IsShown())
+			or (self.recipes and self.recipes.IsShown and self.recipes:IsShown())
+			or (self.cooking and self.cooking.IsShown and self.cooking:IsShown())
+		)
+		local has_visible_stats = false
+		if self
+			and self.stats
+			and self.stats_dialog
+			and self.stats_dialog.IsShown
+			and self.stats_dialog:IsShown()
+		then
+			for _, ele in ipairs(self.stats) do
+				if ele.base and ele.base.IsShown and ele.base:IsShown() then
+					has_visible_stats = true
+					break
+				end
+			end
+		end
+
+		-- 表示する統計行がないアイテムは、追加欄を説明文の直下へ統一して配置する
+		if self
+			and self.section
+			and self.GetType
+			and self:GetType(self.section) ~= "weapon"
+			and self.stats
+			and self.stats_dialog
+			and self.stats_dialog.IsShown
+			and self.stats_dialog.Show
+			and self.desc
+			and self.frame
+			and self.frame.GetHeight
+			and self.Sync_H
+			and self.Sync_Finale
+		then
+			if (self.stats_dialog:IsShown() or has_extra_content)
+				and not has_visible_stats
+			then
+				-- 画面内に収まる場合は、ステータス欄の有無を問わず追加欄を説明文の直下へ配置
+				if has_extra_content then
+					-- オリジナルが右側へ退避した追加欄は、その配置を維持
+					if self.frame:GetHeight() <= 768
+						and not has_side_extra_content(self)
+					then
+						self.stats_dialog:Show(false)
+
+						local layout_anchor = self.desc
+						local function sync_extra_content(extra, label, is_recipes)
+							if extra and extra.IsShown and extra:IsShown() then
+								-- ステータス欄がない場合の前方余白。15はクラフト欄、10は交換部品・料理欄
+								self:Sync_Finale(true, layout_anchor, extra, self.frame, is_recipes and 15 or 10)
+								if label
+									and label.GetWndPos
+									and label.SetWndPos
+									and extra.GetWndPos
+								then
+									local label_pos = label:GetWndPos()
+									local extra_pos = extra:GetWndPos()
+									label:SetWndPos(vector2():set(label_pos.x, extra_pos.y))
+								end
+								layout_anchor = extra
+							end
+						end
+
+						sync_extra_content(self.parts, self.parts_txt)
+						sync_extra_content(self.recipes, self.recipes_txt, true)
+						sync_extra_content(self.cooking, self.cooking_txt)
+					end
+				else
+					self.stats_dialog:Show(false)
+					-- 説明文だけで終わるアイテム専用の下部余白。広げる場合は10を増やす
+					self:Sync_H(self.desc, self.frame, 10)
+				end
+			end
+		end
+
+		-- 初回描画やロード後に追加欄の古い位置が残った場合だけ、実際の表示状態に合わせて並べ直す
+		if self
+			and self.section
+			and self.GetType
+			and self:GetType(self.section) ~= "weapon"
+			and has_visible_stats
+			and has_extra_content
+			and self.stats_dialog
+			and self.stats_dialog.GetWndPos
+			and self.stats_dialog.GetHeight
+			and self.frame
+			and self.frame.GetHeight
+			and self.frame:GetHeight() <= 768
+			and not has_side_extra_content(self)
+			and self.Sync_Finale
+		then
+			local content = {
+				{self.parts, self.parts_txt},
+				{self.recipes, self.recipes_txt},
+				{self.cooking, self.cooking_txt},
+			}
+			local needs_reflow = false
+			local layout_anchor = self.stats_dialog
+
+			for _, entry in ipairs(content) do
+				local wnd = entry[1]
+				local label = entry[2]
+				if wnd
+					and wnd.IsShown
+					and wnd:IsShown()
+					and wnd.GetWndPos
+					and layout_anchor
+					and layout_anchor.GetWndPos
+					and layout_anchor.GetHeight
+				then
+					local pos = wnd:GetWndPos()
+					local anchor_pos = layout_anchor:GetWndPos()
+					local expected_y = anchor_pos.y + layout_anchor:GetHeight() + 10
+					local label_pos = label and label.GetWndPos and label:GetWndPos()
+					if math.abs(pos.y - expected_y) > 0.5
+						or (label_pos and math.abs(label_pos.y - pos.y) > 0.5)
+					then
+						needs_reflow = true
+						break
+					end
+					layout_anchor = wnd
+				end
+			end
+
+			if needs_reflow then
+				local layout_anchor = self.stats_dialog
+				for _, entry in ipairs(content) do
+					local wnd = entry[1]
+					local label = entry[2]
+					if wnd and wnd.IsShown and wnd:IsShown() then
+						self:Sync_Finale(true, layout_anchor, wnd, self.frame, 10)
+						if label
+							and label.GetWndPos
+							and label.SetWndPos
+							and wnd.GetWndPos
+						then
+							local label_pos = label:GetWndPos()
+							local wnd_pos = wnd:GetWndPos()
+							label:SetWndPos(vector2():set(label_pos.x, wnd_pos.y))
+						end
+						layout_anchor = wnd
+					end
+				end
+			end
+		end
+
+		-- ステータス欄前後の表示上の余白を統一する
+		if self
+			and has_visible_stats
+			and self.stats_dialog
+			and self.stats_dialog.IsShown
+			and self.stats_dialog:IsShown()
+			and self.stats_dialog.GetWndPos
+			and self.stats_dialog.SetWndPos
+			and self.stats_dialog.GetWidth
+			and self.stats_dialog.GetHeight
+			and self.stats_dialog.SetWndSize
+			and self.frame
+			and self.frame.GetWidth
+			and self.frame.GetHeight
+			and self.frame.SetWndSize
+		then
+			-- ステータス欄前後の余白を調整するときは、この値だけを変更する
+			local target_gap = 16
+
+			-- オリジナルUIの構造を表す固定値。余白調整では変更しない
+			local upstream_gap = 10
+			local height_reduction = 10
+
+			-- 前後を同じtarget_gapにするための内部移動量
+			local stats_y_offset = target_gap - upstream_gap
+			local following_y_offset = target_gap
+				- (upstream_gap + height_reduction - stats_y_offset)
+			local stats_pos = self.stats_dialog:GetWndPos()
+			local stats_height = self.stats_dialog:GetHeight()
+			local stats_bottom = stats_pos.y + stats_height
+			local has_content_below
+
+			self._jp_stats_shifted_content, has_content_below = shift_side_content_with_stats(
+				self,
+				stats_pos.y,
+				stats_bottom,
+				stats_y_offset,
+				following_y_offset
+			)
+			self.stats_dialog:SetWndPos(vector2():set(
+				stats_pos.x,
+				stats_pos.y + stats_y_offset
+			))
+			self.stats_dialog:SetWndSize(vector2():set(
+				self.stats_dialog:GetWidth(),
+				stats_height - height_reduction
+			))
+
+			if self.frame:GetHeight() > stats_bottom then
+				local frame_reduction = has_content_below
+					and -following_y_offset
+					or (height_reduction - stats_y_offset)
+				self.frame:SetWndSize(vector2():set(
+					self.frame:GetWidth(),
+					self.frame:GetHeight() - frame_reduction
+				))
+				self._jp_stats_frame_reduction = frame_reduction
+			end
+
+			self._jp_stats_height_reduction = height_reduction
+			self._jp_stats_y_offset = stats_y_offset
+		end
+
+		-- アイテム説明文を白文字で表示（作業台とItem Spawnerにも適用）
+		if self and self.desc and self.desc.SetTextColor then
+			self.desc:SetTextColor(GetARGB(255, 255, 255, 255))
+		end
+
+		-- 重量ラベルを追加
+		if self and self.weight and self.weight.GetText and self.weight.SetText then
+			local text = self.weight:GetText()
+			if text and text ~= "" and not text:find("^重量") then
+				self.weight:SetText("重量: " .. text)
+			end
+		end
+
+		-- 「弾薬:」(ui_ammo_types) の色を指定
+		if self and self.section and self:GetType(self.section) == "weapon" and self.ammo_cap then
+			self.ammo_cap:TextControl():SetTextColor(GetARGB(255, 255, 255, 255))
+		end
+
+		-- ステータスの位置調整
+		if self and self.stats then
+			for i, ele in ipairs(self.stats) do
+				-- 項目名。上下位置を調整する場合は、下の2を変更する
+				if ele.cap and ele.cap:IsShown() and not moved_stats_cap[ele.cap] then
+					local pos = ele.cap:GetWndPos()
+					ele.cap:SetWndPos(vector2():set(pos.x, pos.y - 2))
+					moved_stats_cap[ele.cap] = true
+				end
+
+				-- 数値。15は左方向、2は上方向の移動量
+				if ele.txt and ele.txt:IsShown() and not moved_stats_txt[ele.txt] then
+					local pos = ele.txt:GetWndPos()
+					ele.txt:SetWndPos(vector2():set(pos.x - 15, pos.y - 2))
+					moved_stats_txt[ele.txt] = true
+				end
+
+				-- 比較数値。30は左方向、2は上方向の移動量
+				if ele.comp and ele.comp:IsShown() and not moved_stats_comp[ele.comp] then
+					local pos = ele.comp:GetWndPos()
+					ele.comp:SetWndPos(vector2():set(pos.x - 30, pos.y - 2))
+					moved_stats_comp[ele.comp] = true
+				end
+			end
+		end
+
+		-- Ctrlによる同一アイテムの再計算後も、オリジナルアドオンの追加欄を枠内へ収める
+		if self
+			and has_visible_stats
+			and self.frame
+			and self.frame.GetWidth
+			and self.frame.GetHeight
+			and self.frame.SetWndSize
+		then
+			local frame_height = self.frame:GetHeight()
+			local required_height = frame_height
+			local content = {
+				{self.ammo},
+				{self.parts},
+				{self.recipes},
+				{self.cooking},
+			}
+
+			for _, entry in ipairs(content) do
+				local wnd = entry[1]
+				if wnd
+					and wnd.IsShown
+					and wnd:IsShown()
+					and wnd.GetWndPos
+					and wnd.GetWidth
+					and wnd.GetHeight
+					and wnd:GetWidth() > 110
+				then
+					local pos = wnd:GetWndPos()
+					local bottom = pos.y + wnd:GetHeight() + 10
+					if bottom > required_height then
+						required_height = bottom
+					end
+				end
+			end
+
+			if required_height > frame_height then
+				self.frame:SetWndSize(vector2():set(
+					self.frame:GetWidth(),
+					required_height
+				))
+			end
+		end
+
+		-- オリジナルと各アドオンの配置完了後、すべてのアイテムチップへ同じ下部余白を追加
+		if self
+			and not self._jp_bottom_padding
+			and self.IsShown
+			and self:IsShown()
+			and self.frame
+			and self.frame.GetWidth
+			and self.frame.GetHeight
+			and self.frame.SetWndSize
+		then
+			-- アイテムチップ全体の最終的な下部余白。広げる場合は10を増やす
+			local bottom_padding = 10
+			self.frame:SetWndSize(vector2():set(
+				self.frame:GetWidth(),
+				self.frame:GetHeight() + bottom_padding
+			))
+			self._jp_bottom_padding = bottom_padding
+		end
+
+		return result
+	end
 end
 
 -- ===================================================================
 --  UIInfoItem:Sync_H （アイテムチップの高さ）
 -- ===================================================================
-local original_Sync_H = utils_ui.UIInfoItem.Sync_H
+if utils_ui.UIInfoItem
+and utils_ui.UIInfoItem.Sync_H
+and not utils_ui.UIInfoItem._jp_sync_h_patched
+then
+	local original_UIInfoItem_Sync_H = utils_ui.UIInfoItem.Sync_H
 
-utils_ui.UIInfoItem.Sync_H = function(self, parent, child, offset)
-	local pos_p = parent:GetWndPos()
-	local h_p = parent:GetHeight()
-	local h = pos_p.y + h_p + offset
+	utils_ui.UIInfoItem.Sync_H = function(self, parent, child, offset, ...)
+		local result = original_UIInfoItem_Sync_H(self, parent, child, offset, ...)
 
-	if h < 125 then
-		h = 125
+		if parent and child
+			and parent.GetWndPos
+			and parent.GetHeight
+			and child.GetWidth
+			and child.SetWndSize
+		then
+			local parent_pos = parent:GetWndPos()
+			-- 呼び出し側のoffsetが既に余白を含むため、追加余白は重ねない
+			local height = parent_pos.y + parent:GetHeight() + (offset or 0)
+			-- アイテムチップの最小高さ。変更する場合は両方の100を同じ値にする
+			if height < 100 then
+				height = 100
+			end
+
+			child:SetWndSize(vector2():set(child:GetWidth(), height))
+			return height
+		end
+
+		return result
 	end
 
-	child:SetWndSize(vector2():set(child:GetWidth(), h))
-	return h
+	utils_ui.UIInfoItem._jp_sync_h_patched = true
 end
 
 -- ===================================================================
---  UIInfoUpgr:Update （アップグレードの価格表示）
+--  UIInfoUpgr:Update （アップグレード詳細の表示調整）
 -- ===================================================================
-local original_UIInfoUpgr_Update = utils_ui.UIInfoUpgr.Update
+if utils_ui.UIInfoUpgr
+and utils_ui.UIInfoUpgr.Update
+then
+	local original_UIInfoUpgr_Update = utils_ui.UIInfoUpgr.Update
 
-utils_ui.UIInfoUpgr.Update = function(self, upgr, prereq, installed)
-	local result = original_UIInfoUpgr_Update(self, upgr, prereq, installed)
-
-	if self and self.cost
-		and type(self.cost.SetText) == "function"
-	then
-		local sec = upgr and ini_sys:r_string_ex(upgr,"section")
-		if sec then
-			local cost = inventory_upgrades.get_upgrade_cost(sec) or 0
-			self.cost:SetText(japanese_patch.commas_to_number(cost) .. " ルーブル")
+	-- アップグレード用アイテムチップだけ幅を広げる
+	local function expand_upgrade_width(self)
+		if not self
+			or self._jp_upgrade_width_expanded
+		then
+			return
 		end
+
+		-- アップグレード用アイテムチップの追加幅。変更する場合はこの60だけを調整する
+		local width_addition = 60
+		local windows = {
+			self.dialog,
+			self.frame,
+			self.name,
+			self.cost,
+			self.desc,
+			self.prereq,
+			self.prop_frame,
+		}
+
+		for _, wnd in ipairs(windows) do
+			if wnd
+				and wnd.GetWidth
+				and wnd.GetHeight
+				and wnd.SetWndSize
+			then
+				wnd:SetWndSize(vector2():set(
+					wnd:GetWidth() + width_addition,
+					wnd:GetHeight()
+				))
+			end
+		end
+
+		for _, prop in ipairs(self.prop or {}) do
+			if prop.txt
+				and prop.txt.GetWidth
+				and prop.txt.GetHeight
+				and prop.txt.SetWndSize
+			then
+				prop.txt:SetWndSize(vector2():set(
+					prop.txt:GetWidth() + width_addition,
+					prop.txt:GetHeight()
+				))
+			end
+		end
+
+		self._jp_upgrade_width_expanded = true
 	end
 
-	return result
+	utils_ui.UIInfoUpgr.Update = function(self, upgr, prereq, installed, ...)
+		expand_upgrade_width(self)
+		local result = original_UIInfoUpgr_Update(self, upgr, prereq, installed, ...)
+
+		-- 前提条件がない場合は、説明文とプロパティの間隔を詰める
+		if self and (not prereq or prereq == "")
+			and self.desc
+			and self.desc.GetWndPos
+			and self.desc.GetHeight
+			and self.prop_frame
+			and self.prop_frame.GetWndPos
+			and self.prop_frame.SetWndPos
+			and self.frame
+			and self.Sync_H
+		then
+			local desc_pos = self.desc:GetWndPos()
+			local prop_pos = self.prop_frame:GetWndPos()
+			local prop_count = 0
+			for _, prop in ipairs(self.prop or {}) do
+				if prop.ico and prop.ico.IsShown and prop.ico:IsShown() then
+					prop_count = prop_count + 1
+				end
+			end
+
+			-- 前提条件がないアップグレードの「説明文 → プロパティ欄」の余白。広げる場合は0を増やす
+			local prop_gap = 0
+			local prop_y = desc_pos.y + self.desc:GetHeight() + prop_gap
+			self.prop_frame:SetWndPos(vector2():set(prop_pos.x, prop_y))
+			self:Sync_H(self.prop_frame, self.frame, (self.prop_h or 0) * prop_count)
+		end
+
+		-- 前提条件がある場合は、プロパティ枠内の先頭行分の空白を縮める
+		if self and prereq and prereq ~= ""
+			and self.prereq
+			and self.prereq.GetWndPos
+			and self.prereq.GetHeight
+			and self.prop_frame
+			and self.prop_frame.GetWndPos
+			and self.prop_frame.SetWndPos
+			and self.frame
+			and self.Sync_H
+		then
+			local prop_count = 0
+			for _, prop in ipairs(self.prop or {}) do
+				if prop.ico and prop.ico.IsShown and prop.ico:IsShown() then
+					prop_count = prop_count + 1
+				end
+			end
+
+			if prop_count > 0 then
+				local prereq_pos = self.prereq:GetWndPos()
+				local prop_pos = self.prop_frame:GetWndPos()
+				local prop_h = self.prop_h or 0
+				-- 前提条件があるアップグレードの「赤い条件文 → プロパティ欄」の余白。広げる場合は15を増やす
+				local prop_gap = 15
+				local prop_y = prereq_pos.y + self.prereq:GetHeight() + prop_gap - prop_h
+
+				self.prop_frame:SetWndPos(vector2():set(prop_pos.x, prop_y))
+				self:Sync_H(self.prop_frame, self.frame, prop_h * prop_count)
+			end
+		end
+
+		-- アップグレード説明文を白文字で表示
+		if self and self.desc and self.desc.SetTextColor then
+			self.desc:SetTextColor(GetARGB(255, 255, 255, 255))
+		end
+
+		-- アップグレード情報のプロパティ文字位置。上下位置を調整する場合は、下の2を変更する
+		if self and self.prop and not self._jp_prop_text_aligned then
+			for _, prop in ipairs(self.prop) do
+				if prop.ico and prop.txt
+					and prop.txt.GetWndPos
+					and prop.txt.SetWndPos
+				then
+					local text_pos = prop.txt:GetWndPos()
+					if text_pos then
+						prop.txt:SetWndPos(vector2():set(text_pos.x, text_pos.y - 2))
+					end
+				end
+			end
+			self._jp_prop_text_aligned = true
+		end
+
+		if self and self.cost
+			and self.cost.GetText
+			and self.cost.SetText
+		then
+			local cost_text = self.cost:GetText()
+			if type(cost_text) == "string"
+				and not cost_text:find("ルーブル%s*$")
+			then
+				cost_text = cost_text:gsub("%s*RU%s*$", "")
+				if cost_text:find("%d") then
+					self.cost:SetText(japanese_patch.commas_to_number(cost_text) .. " ルーブル")
+				end
+			end
+		end
+
+		return result
+	end
 end

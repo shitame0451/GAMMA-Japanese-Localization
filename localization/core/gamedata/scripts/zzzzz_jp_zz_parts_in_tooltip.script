@@ -1,16 +1,100 @@
 -- zz_parts_in_tooltip.script
 
+if not zz_parts_in_tooltip
+or not utils_ui
+or not utils_ui.UIInfoItem
+or not utils_ui.UIInfoItem.SyncPartsText
+then
+	return
+end
+
 -- ===================================================================
 --  UIInfoItem.SyncPartsText （アイテムチップの表示調整）
 --  「交換部品:」(st_ui_awr_parts_list)の色指定 （ui_st_inventory.xmlでの色指定が効かないため、ここで指定）
 -- ===================================================================
 local original_SyncPartsText = utils_ui.UIInfoItem.SyncPartsText
 
-utils_ui.UIInfoItem.SyncPartsText = function(self, vertical)
-	original_SyncPartsText(self, vertical)
+utils_ui.UIInfoItem.SyncPartsText = function(self, vertical, ...)
+	local result = original_SyncPartsText(self, vertical, ...)
 
 	-- 「交換部品:」(parts_txt) の色を指定
-	if self and self.parts_txt then
+	if self and self.parts_txt and self.parts_txt.SetTextColor then
 		self.parts_txt:SetTextColor(GetARGB(255, 255, 255, 255))
 	end
+
+	return result
+end
+
+-- ===================================================================
+--  UIInfoItem.AddPartsContainer （交換部品欄の下部余白を弾薬欄に合わせる）
+--  交換部品アイコンの配置（上17px＋高さ40px）に合わせ、オリジナルの40pxを17pxへ変更
+-- ===================================================================
+if utils_ui.UIInfoItem.AddPartsContainer
+and not utils_ui.UIInfoItem._jp_parts_container_patched
+then
+	local original_AddPartsContainer = utils_ui.UIInfoItem.AddPartsContainer
+
+	utils_ui.UIInfoItem.AddPartsContainer = function(self, offset, tbl, info, ...)
+		if offset == 40 then
+			-- 交換部品欄の最終アイコン行より下の余白。広げる場合は17を増やす
+			offset = 17
+		end
+
+		return original_AddPartsContainer(self, offset, tbl, info, ...)
+	end
+
+	utils_ui.UIInfoItem._jp_parts_container_patched = true
+end
+
+-- ===================================================================
+--  UIInfoItem:Update （前のアイテムの交換部品欄を参照する表示バグの回避）
+-- ===================================================================
+if utils_ui.UIInfoItem.Update
+and not utils_ui.UIInfoItem._jp_stale_parts_cleanup_patched
+then
+	local original_UIInfoItem_Update = utils_ui.UIInfoItem.Update
+
+	local function get_item_key(obj, sec)
+		if obj then
+			return "id:" .. tostring(obj:id())
+		end
+
+		if sec then
+			return "sec:" .. tostring(sec)
+		end
+	end
+
+	utils_ui.UIInfoItem.Update = function(self, obj, sec, flags, ...)
+		local item_key = get_item_key(obj, sec)
+		if item_key
+			and self
+			and self._jp_parts_owner_key
+			and self._jp_parts_owner_key ~= item_key
+		then
+			if self.parts and self.parts.Show then
+				self.parts:Show(false)
+			end
+
+			if self.parts_txt and self.parts_txt.Show then
+				self.parts_txt:Show(false)
+			end
+		end
+
+		local result = original_UIInfoItem_Update(self, obj, sec, flags, ...)
+
+		if item_key and self then
+			if self.parts
+				and self.parts.IsShown
+				and self.parts:IsShown()
+			then
+				self._jp_parts_owner_key = item_key
+			else
+				self._jp_parts_owner_key = nil
+			end
+		end
+
+		return result
+	end
+
+	utils_ui.UIInfoItem._jp_stale_parts_cleanup_patched = true
 end

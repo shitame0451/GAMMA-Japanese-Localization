@@ -1,27 +1,59 @@
 -- zzz_craft_use_in_tooltip_mcm.script
 
+if not zzz_craft_use_in_tooltip_mcm
+or not utils_ui
+or not utils_ui.UIInfoItem
+or not utils_ui.UIInfoItem.SyncRecipesText
+then
+	return
+end
+
 -- ===================================================================
 --  UIInfoItem.SyncRecipesText （アイテムチップの表示調整）
 --  「◯◯に使用:」の色指定 （st_used_for_craft.xmlでの色指定が効かないため、ここで指定）
 -- ===================================================================
 local original_SyncRecipesText = utils_ui.UIInfoItem.SyncRecipesText
 
-utils_ui.UIInfoItem.SyncRecipesText = function(self, vertical, cont, text)
-	original_SyncRecipesText(self, vertical, cont, text)
+utils_ui.UIInfoItem.SyncRecipesText = function(self, vertical, cont, text, ...)
+	local result = original_SyncRecipesText(self, vertical, cont, text, ...)
 
+	if not cont then return result end
 	local txt_wnd = self and self[cont.."_txt"]
-	if not txt_wnd then return end
+	if not txt_wnd
+	or not txt_wnd.GetText
+	or not txt_wnd.SetText
+	or not txt_wnd.SetTextColor
+	then
+		return result
+	end
 
 	local current_text = txt_wnd:GetText()
-	if current_text and not current_text:find("^  ") then
+	if type(current_text) == "string" and not current_text:find("^  ") then
 		txt_wnd:SetText(" " .. current_text)
 	end
 
-	if cont == "recipes" then
-		txt_wnd:SetTextColor(GetARGB(255, 255, 255, 255))
-	elseif cont == "cooking" then
-		txt_wnd:SetTextColor(GetARGB(255, 255, 255, 255))
-	else
-		txt_wnd:SetTextColor(GetARGB(255, 255, 255, 255))
+	txt_wnd:SetTextColor(GetARGB(255, 255, 255, 255))
+
+	return result
+end
+
+-- ===================================================================
+--  UIInfoItem.AddRecipesContainer （クラフト・料理欄の下部余白を統一）
+--  最終欄のアイコン配置（上17px＋高さ40px）に合わせてコンテナ高を調整
+-- ===================================================================
+if utils_ui.UIInfoItem.AddRecipesContainer
+and not utils_ui.UIInfoItem._jp_recipes_container_patched
+then
+	local original_AddRecipesContainer = utils_ui.UIInfoItem.AddRecipesContainer
+
+	utils_ui.UIInfoItem.AddRecipesContainer = function(self, offset, tbl, cont, ...)
+		if offset == 40 then
+			-- クラフト・料理欄の最終アイコン行より下の余白。広げる場合は17を増やす
+			offset = 17
+		end
+
+		return original_AddRecipesContainer(self, offset, tbl, cont, ...)
 	end
+
+	utils_ui.UIInfoItem._jp_recipes_container_patched = true
 end
