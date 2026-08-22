@@ -97,7 +97,7 @@
     <text>俺たちの兵士はいくつかのアーティファクトを使用できるのだが、それらなしでリマンスクを通過するのは難しい。探すのを手伝ってくれないか？</text>
   </string>
   <string id="killer_bridge_trader_mlr_task_2_fetch_about">
-    <text>俺たちの兵士はいくつかのアーティファクトを使用できるのだが、それらなしでリマンスクを通過するのは難しい。探すのを手伝ってくれないか？</text>
+    <text>俺たちの兵士はいくつかのアーティファクトを使用できるのだが、それらなしでリマンスクを通過するのは難しい。%sを探すのを手伝ってくれないか？</text>
   </string>
   <string id="killer_bridge_trader_mlr_task_2_fetch_finish">
     <text>どうもありがとう、こいつを受け取ってくれ。</text>
