@@ -1,0 +1,278 @@
+-- ui_pda_relations_tab.script
+
+if not ui_pda_relations_tab then
+	return
+end
+
+-- ===================================================================
+--  pda_relations_tab:Update （5列4行の同行者へマウスオーバー判定）
+-- ===================================================================
+if ui_pda_relations_tab.pda_relations_tab
+and ui_pda_relations_tab.pda_relations_tab.Update
+then
+	-- 上流の24件ループは5列配置の20件と一致しないため、この関数だけ置き換える。
+	ui_pda_relations_tab.pda_relations_tab.Update = function(self)
+		CUIScriptWnd.Update(self)
+
+		-- option to auto update values
+		if self.auto_chk:GetCheck() then
+			local tg = time_global()
+			if self._tmr < tg then
+				self._tmr = tg + 2000
+				self:autoupdate()
+			end
+		end
+
+		if not (self.disabled) then
+			for i=1, #self.companion_info do
+				if (self.companion_info[i].icon_wnd:IsShown()) then
+					local pos = GetCursorPosition()
+					local rect = Frect():set(0,0,0,0)
+					self.companion_info[i].icon_wnd:GetAbsoluteRect(rect)
+
+					if (utils_data.pos_in_rect(pos,rect)) then
+						self.hint_wnd:Update(self.companion_info[i].hint)
+						self.mouse_over_id = i
+						return
+					end
+				end
+			end
+		end
+
+		self.mouse_over_id = nil
+		self.hint_wnd:Update()
+	end
+end
+
+-- ===================================================================
+--  pda_relations_tab:autoupdate （同行者名と詳細ヒントの日本語表示）
+-- ===================================================================
+if ui_pda_relations_tab.pda_relations_tab
+and ui_pda_relations_tab.pda_relations_tab.autoupdate
+then
+	-- 名前の短縮とヒント本文は元関数内で完成するため、
+	-- autoupdateだけは上流処理を明示的に保持して日本語向けに変更する。
+	ui_pda_relations_tab.pda_relations_tab.autoupdate = function(self)
+		local id_to_code = {}
+		local clist = axr_companions.list_actor_squad_by_id()
+		local sim = alife()
+
+		for i=1, #self.companion_info do
+			local se_obj = clist[i] and alife_object(clist[i])
+			if (se_obj and IsStalker(nil,se_obj:clsid()) and se_obj:alive()) then
+				local full_name = se_obj:character_name()
+				local name = string.gsub(full_name,"Junior","Jr.")
+				name = string.gsub(name,"Senior","Sr.")
+				name = string.gsub(name,"Master ","M")
+				name = string.gsub(name,"Private","PVT")
+				name = string.gsub(name,"Sergeant","SGT")
+				name = string.gsub(name,"Lieutenant","LT")
+				name = string.gsub(name,"Captain","CPT")
+
+				-- 日本語名を想定したバイト長で短縮する。
+				local short_name_length = 33
+				local short_name_sub_length = short_name_length - 3
+				local string_length = string.len(name)
+				local position_a = string.find(name, " ")
+				local position_c = string.find(name, " ", short_name_length)
+
+				if string_length >= short_name_length then
+					if position_a == nil then
+						name = string.sub(name, 0, short_name_sub_length) .. "..."
+					elseif position_c == nil then
+						name = string.sub(name, 0, short_name_sub_length + 1) .. "..."
+					else
+						name = string.sub(name, 0, short_name_sub_length) .. "..."
+					end
+				end
+
+				self.companion_info[i].id = se_obj.id
+
+				local st = db.storage[se_obj.id]
+				local npc = st and st.object
+
+				local icon_name = npc and npc:character_icon() or se_obj:character_icon()
+				icon_name = icon_name and icon_name ~= "" and icon_name or "ui\\ui_noise"
+				self.companion_info[i].icon_wnd:InitTexture(icon_name)
+				self.companion_info[i].icon_wnd:Show(true)
+
+				self.companion_info[i].name_wnd:SetText(name)
+				self.companion_info[i].comm_wnd:SetText(game.translate_string(se_obj:community()))
+				self.companion_info[i].rank_wnd:SetText(game.translate_string("st_rank_"..ranks.get_se_obj_rank_name(se_obj)).."（"..se_obj:rank().."）")
+				self.companion_info[i].dist_wnd:SetText(string.format(game.translate_string("st_distance_to")..": %.2f", se_obj.position:distance_to(db.actor:position())))
+
+				-- leader and relation status
+				local squad = se_obj.group_id and se_obj.group_id ~= 65535 and alife_object(se_obj.group_id)
+				if (squad and squad:commander_id() == se_obj.id) then
+					self.companion_info[i].leader_wnd:Show(true)
+					self.companion_info[i].leader_wnd:InitTexture("ui_minimap_squad_leader")
+				else
+					self.companion_info[i].leader_wnd:Show(true)
+					self.companion_info[i].leader_wnd:InitTexture("ui_minimap_point")
+				end
+
+				-- Set color code
+				if not (id_to_code[se_obj.group_id]) then
+					local n = 1
+					for k,v in pairs(id_to_code) do
+						n = n + 1
+					end
+					id_to_code[se_obj.group_id] = self.color_codes[n] or self.color_codes[1]
+				end
+				self.companion_info[i].leader_wnd:SetTextureColor(id_to_code[se_obj.group_id])
+
+				-- health status
+				if (npc) then
+					local hp = math.floor(npc.health*100)
+					self.companion_info[i].health_wnd:SetText(hp.."%")
+					if (hp > 70) then
+						self.companion_info[i].health_wnd:SetTextColor(GetARGB(200, 0, 255, 0))
+					elseif (hp < 30) then
+						self.companion_info[i].health_wnd:SetTextColor(GetARGB(200, 255, 0, 0))
+					else
+						self.companion_info[i].health_wnd:SetTextColor(GetARGB(200, 255, 255, 255))
+					end
+				end
+
+				-- Hint
+				local s_move,s_combat,s_gather,s_loot,s_dist,s_stealth,s_arte,s_stalker,s_mutant,s_wounded,s_corpse,s_dismiss,s_tele
+				local state_str = [[
+				%c[255,255,215,255]%c[default]%s\n\n
+				%c[255,215,215,215]st_mm_pda_location:%c[default] %s\n\n
+				%c[255,215,215,215]st_mm_pda_states\n
+				 • %c[255,160,160,160]st_mm_pda_movement:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_combat:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_pickup_items:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_loot_corpses:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_keep_distance:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_stealth:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_dismissable:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_level_travel:%c[default] %s\n\n
+				%c[255,215,215,215]st_mm_pda_statistics\n
+				 • %c[255,160,160,160]st_mm_pda_stalkers_killed:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_mutants_killed:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_artes_found:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_wounded_helped:%c[default] %s\n
+				 • %c[255,160,160,160]st_mm_pda_corpse_looted:%c[default] %s\n
+			]]
+
+				if (sim:has_info(se_obj.id,"npcx_beh_wait")) then
+					s_move = game.translate_string("st_set_companion_to_wait_state")
+				elseif (sim:has_info(se_obj.id,"npcx_beh_patrol_mode")) then
+					s_move = game.translate_string("st_set_companion_to_patrol_state")
+				else
+					s_move = game.translate_string("st_set_companion_to_follow_state")
+				end
+
+				if (sim:has_info(se_obj.id,"npcx_beh_ignore_actor_enemies") and sim:has_info(se_obj.id,"npcx_beh_ignore_combat")) then
+					s_combat = game.translate_string("st_set_companion_to_ignore_combat_state")
+				elseif (sim:has_info(se_obj.id,"npcx_beh_ignore_combat")) then
+					s_combat = game.translate_string("st_set_companion_to_attack_only_actor_combat_enemy_state")
+				else
+					s_combat = game.translate_string("st_set_companion_to_attack_state")
+				end
+
+				local can_gather = sim:has_info(se_obj.id,"npcx_beh_gather_items")
+				local can_loot = sim:has_info(se_obj.id,"npcx_beh_loot_corpses")
+				s_gather = can_gather and game.translate_string("st_pda_mode_on") or game.translate_string("st_pda_mode_off")
+				s_loot = can_loot and game.translate_string("st_pda_mode_on") or game.translate_string("st_pda_mode_off")
+
+				if (npc) then
+					-- If looting is set false in logic
+					if (can_gather and st.gather_items and st.gather_items.gather_items_enabled and xr_logic.pick_section_from_condlist(db.actor, npc, st.gather_items.gather_items_enabled) == "false") then
+						s_gather = game.translate_string("st_pda_mode_disabled")
+					end
+					if (can_loot and st.corpse_detection and st.corpse_detection.corpse_detection_enabled and xr_logic.pick_section_from_condlist(db.actor, npc, st.corpse_detection.corpse_detection_enabled) == "false") then
+						s_loot = game.translate_string("st_pda_mode_disabled")
+					end
+				end
+
+				s_dist = sim:has_info(se_obj.id,"npcx_beh_distance_far") and game.translate_string("st_pda_mode_dist_far") or game.translate_string("st_pda_mode_dist_near")
+				s_stealth = sim:has_info(se_obj.id,"npcx_beh_substate_stealth") and game.translate_string("st_pda_mode_on") or game.translate_string("st_pda_mode_off")
+
+				local m_data = alife_storage_manager.get_se_obj_state(se_obj)
+				if (m_data) then
+					s_stalker = m_data["killed_stalkers"] or 0
+					s_mutant = m_data["killed_monsters"] or 0
+					s_arte = m_data["artefacts_found"] or 0
+					s_wounded = m_data["wounded_helped"] or 0
+					s_corpse = m_data["corpse_looted"] or 0
+				end
+
+				s_dismiss = se_load_var(se_obj.id,se_obj:name(),"companion_cannot_dismiss") and game.translate_string("st_pda_mode_false") or game.translate_string("st_pda_mode_true")
+				s_tele = se_load_var(se_obj.id,se_obj:name(),"companion_cannot_teleport") and game.translate_string("st_pda_mode_disabled") or game.translate_string("st_pda_mode_enabled")
+
+				local s_location = game.translate_string(sim:level_name(game_graph():vertex(se_obj.m_game_vertex_id):level_id()))
+
+				for s in string.gmatch(state_str,"(st_mm_pda_[%w%d_]*)") do
+					state_str = string.gsub(state_str,s,game.translate_string(s))
+				end
+
+				state_str = strformat(state_str,full_name,s_location,s_move,s_combat,s_gather,s_loot,s_dist,s_stealth,s_dismiss,s_tele,s_stalker,s_mutant,s_arte,s_wounded,s_corpse)
+				self.companion_info[i].hint = state_str
+			else
+				self.companion_info[i].id = nil
+				self.companion_info[i].icon_wnd:Show(false)
+				self.companion_info[i].leader_wnd:Show(false)
+				self.companion_info[i].health_wnd:SetText("")
+				self.companion_info[i].name_wnd:SetText("")
+				self.companion_info[i].comm_wnd:SetText("")
+				self.companion_info[i].rank_wnd:SetText("")
+				self.companion_info[i].dist_wnd:SetText("")
+			end
+		end
+	end
+end
+
+-- ===================================================================
+--  ui_companion_row:__init （上流の6列を5列へ再配置）
+-- ===================================================================
+if ui_pda_relations_tab.ui_companion_row
+and ui_pda_relations_tab.ui_companion_row.__init
+then
+	local original_ui_companion_row_init = ui_pda_relations_tab.ui_companion_row.__init
+
+	ui_pda_relations_tab.ui_companion_row.__init = function(self, owner, row, xml, ...)
+		local result = original_ui_companion_row_init(self, owner, row, xml, ...)
+		local source_start = 1 + (6 * (row - 1))
+		local target_start = 1 + (5 * (row - 1))
+		local compact = {}
+
+		for i=1,5 do
+			compact[i] = owner.companion_info[source_start + i - 1]
+		end
+
+		-- 6列目は描画対象から外す。
+		local extra = owner.companion_info[source_start + 5]
+		extra.icon_wnd:Show(false)
+		extra.leader_wnd:Show(false)
+		extra.name_wnd:Show(false)
+		extra.comm_wnd:Show(false)
+		extra.rank_wnd:Show(false)
+		extra.health_wnd:Show(false)
+		extra.dist_wnd:Show(false)
+
+		for i=1,5 do
+			local entry = compact[i]
+			local index = target_start + i - 1
+			local x = 20 + ((i - 1) * 140)
+
+			owner.companion_info[index] = entry
+
+			entry.icon_wnd:SetWndPos(vector2():set(x,0))
+			entry.leader_wnd:SetWndPos(vector2():set(x,0))
+			entry.name_wnd:SetWndPos(vector2():set(x,65))
+			entry.comm_wnd:SetWndPos(vector2():set(x,90))
+			entry.rank_wnd:SetWndPos(vector2():set(x,105))
+			entry.health_wnd:SetWndPos(vector2():set(x+50,55))
+			entry.dist_wnd:SetWndPos(vector2():set(x,120))
+		end
+
+		-- 元の6列インデックスに残る重複参照を除去する。
+		for index = target_start + 5, source_start + 5 do
+			owner.companion_info[index] = nil
+		end
+
+		return result
+	end
+end

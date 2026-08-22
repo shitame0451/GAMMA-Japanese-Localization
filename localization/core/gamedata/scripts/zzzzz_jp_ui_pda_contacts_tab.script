@@ -1,0 +1,214 @@
+-- ui_pda_contacts_tab.script
+
+if not ui_pda_contacts_tab then
+	return
+end
+
+-- ===================================================================
+--  pda_contacts_tab:Reset （日本語名と統計ヒントの表示）
+-- ===================================================================
+if ui_pda_contacts_tab.pda_contacts_tab
+and ui_pda_contacts_tab.pda_contacts_tab.Reset
+then
+	-- 名前の短縮は元関数内で行われ、完了後は元名を復元できないため、
+	-- Resetだけは上流処理を明示的に保持して日本語向けに変更する。
+	ui_pda_contacts_tab.pda_contacts_tab.Reset = function(self)
+		-- Retrieve the detection radius used by contact counter.
+		local radius = (ini_sys:r_float_ex("device_pda", "radius") or 68) ^ 2
+
+		-- Erase all pre-existing information.
+		for i = 1, #self.contact_info do
+			if (self.contact_info[i]) then
+				self.contact_info[i].comm_field:SetText("")
+				self.contact_info[i].comm_label:SetText("")
+				self.contact_info[i].icon_field:Show(false)
+				self.contact_info[i].name_field:SetText("")
+				self.contact_info[i].rank_field:SetText("")
+				self.contact_info[i].rank_label:SetText("")
+				self.contact_info[i].rept_field:SetText("")
+				self.contact_info[i].rept_label:SetText("")
+				self.contact_info[i].hint = ""
+			end
+		end
+
+		-- Loop through all currently online stalkers.
+		local display_list = {}
+		local size_t = 0
+		local m_data = alife_storage_manager.get_state()
+		for i=1, #db.OnlineStalkers do
+			local npc = db.storage[db.OnlineStalkers[i]]
+			npc = npc and npc.object or level.object_by_id(db.OnlineStalkers[i])
+			if (npc and IsStalker(npc) and npc:alive()) then
+				-- Display stalkers who are within the PDA contact radius.
+				local distance = db.actor:position():distance_to_sqr(npc:position()) or 0
+				if (distance <= radius) then
+					if npc:relation(db.actor) ~= game_object.enemy then
+						if self.show_all:GetCheck() then
+							if (m_data.actor_contacts and m_data.actor_contacts[db.OnlineStalkers[i]]) then
+								size_t = size_t + 1
+								display_list[size_t] = npc
+							end
+						else
+							size_t = size_t + 1
+							display_list[size_t] = npc
+						end
+					end
+				end
+			end
+		end
+
+		-- Special case for Sidorovich and Forester.
+		local function add_by_sid(sid)
+			local id = story_objects.object_id_by_story_id[sid]
+			if (id) then
+				local npc = db.storage[id] and db.storage[id].object
+				if (npc and db.actor:position():distance_to_sqr(npc:position()) <= radius) then
+					display_list[#display_list+1] = npc
+				end
+			end
+		end
+		add_by_sid("esc_m_trader")
+		add_by_sid("red_tech_forester")
+
+		-- Loop through all stalkers to display.
+		for index,stalker in ipairs(display_list) do
+			-- Retrieve required information.
+			local stalker_comm = stalker:character_community()
+			local stalker_icon = stalker:character_icon()
+			local stalker_name = stalker:character_name()
+			local stalker_rank = ranks.get_obj_rank_name(stalker)
+			local stalker_rept = utils_obj.get_reputation_name(stalker:character_reputation())
+
+			stalker_icon = stalker_icon and stalker_icon ~= "" and stalker_icon or "ui\\ui_noise"
+			self.contact_info[index].icon_field:InitTexture(stalker_icon)
+			self.contact_info[index].icon_field:Show(true)
+
+			local name = string.gsub(stalker_name, "Junior", "Jr.")
+			name = string.gsub(name, "Senior", "Sr.")
+			name = string.gsub(name, "Master ", "M.")
+			name = string.gsub(name, "Private", "Pvt.")
+			name = string.gsub(name, "Sergeant", "Sgt.")
+			name = string.gsub(name, "Lieutenant", "Lt.")
+			name = string.gsub(name, "Captain", "Cpt.")
+
+			-- 日本語名を想定したバイト長で短縮する。
+			local short_name_length = 42
+			local short_name_sub_length = short_name_length - 3
+			local string_length = string.len(name)
+			local position_a = string.find(name, " ")
+			local position_c = string.find(name, " ", short_name_length)
+
+			if string_length >= short_name_length then
+				if position_a == nil then
+					name = string.sub(name, 0, short_name_sub_length) .. "..."
+				elseif position_c == nil then
+					name = string.sub(name, 0, short_name_sub_length + 1) .. "..."
+				else
+					name = string.sub(name, 0, short_name_sub_length) .. "..."
+				end
+			end
+
+			self.contact_info[index].name_field:SetText(name)
+
+			self.contact_info[index].comm_label:SetText(game.translate_string("ui_st_community") .. ": ")
+			self.contact_info[index].rank_label:SetText(game.translate_string("ui_st_rank") .. ": ")
+			self.contact_info[index].rept_label:SetText(game.translate_string("ui_st_reputation") .. ": ")
+
+			self.contact_info[index].comm_field:SetText(game.translate_string(stalker_comm))
+			self.contact_info[index].rank_field:SetText(game.translate_string("st_rank_" .. stalker_rank))
+			self.contact_info[index].rept_field:SetText(game.translate_string(stalker_rept))
+
+			-- Display relation by colouring the stalker's faction name appropriately.
+			if (xr_conditions.is_factions_friends(nil, nil, { stalker_comm, character_community(db.actor) })) then
+				self.contact_info[index].comm_field:SetTextColor(self.clr_green)
+			elseif (xr_conditions.is_factions_enemies(nil, nil, { stalker_comm, character_community(db.actor) })) then
+				self.contact_info[index].comm_field:SetTextColor(self.clr_red)
+			else
+				self.contact_info[index].comm_field:SetTextColor(self.clr_yellow)
+			end
+
+			-- Display reputation status (whether it's good or bad) by colouring the text.
+			if (stalker:character_reputation() >= 500) then
+				self.contact_info[index].rept_field:SetTextColor(self.clr_green)
+			elseif (stalker:character_reputation() <= -500) then
+				self.contact_info[index].rept_field:SetTextColor(self.clr_red)
+			else
+				self.contact_info[index].rept_field:SetTextColor(self.clr_yellow)
+			end
+
+			-- Hint
+			local se_stalker = alife_object(stalker:id())
+			local m_data = se_stalker and alife_storage_manager.get_se_obj_state(se_stalker)
+			if (m_data) then
+				local s_stalker, s_mutant, s_arte, s_wounded, s_corpse, s_sold
+				local state_str = [[
+				%c[255, 255, 160, 255]%c[default] %s \n\n
+				%c[255, 215, 215, 215]st_mm_pda_statistics%c[default] \n
+				 • %c[255, 160, 160, 160]st_mm_pda_stalkers_killed:%c[default] %s\n
+				 • %c[255, 160, 160, 160]st_mm_pda_mutants_killed:%c[default] %s\n
+				 • %c[255, 160, 160, 160]st_mm_pda_artes_found:%c[default] %s\n
+				 • %c[255, 160, 160, 160]st_mm_pda_wounded_helped:%c[default] %s\n
+				 • %c[255, 160, 160, 160]st_mm_pda_corpse_looted:%c[default] %s\n
+				 • %c[255, 160, 160, 160]st_mm_pda_items_sold:%c[default] %s
+			]]
+
+				s_stalker = m_data["killed_stalkers"] or 0
+				s_mutant = m_data["killed_monsters"] or 0
+				s_arte = m_data["artefacts_found"] or 0
+				s_wounded = m_data["wounded_helped"] or 0
+				s_corpse = m_data["corpse_looted"] or 0
+				s_sold = m_data["items_sold"] or 0
+
+				for s in string.gmatch(state_str,"(st_mm_pda_[%w%d_]*)") do
+					state_str = string.gsub(state_str,s,game.translate_string(s))
+				end
+
+				state_str = strformat(state_str, stalker_name, s_stalker, s_mutant, s_arte, s_wounded, s_corpse, s_sold)
+				self.contact_info[index].hint = state_str
+			end
+		end
+	end
+end
+
+-- ===================================================================
+--  ui_contact_row:__init （日本語表示用に連絡先の行と各項目を配置）
+-- ===================================================================
+if ui_pda_contacts_tab.ui_contact_row
+and ui_pda_contacts_tab.ui_contact_row.__init
+then
+	local original_ui_contact_row_init = ui_pda_contacts_tab.ui_contact_row.__init
+
+	ui_pda_contacts_tab.ui_contact_row.__init = function(self, parent, row, xml, ...)
+		local first_index = #parent.contact_info + 1
+		local result = original_ui_contact_row_init(self, parent, row, xml, ...)
+		local last_index = #parent.contact_info
+
+		-- AddExistingItemが呼ばれる前に行の高さを設定する。
+		parent.listbox:SetItemHeight(187)
+		self:SetWndSize(vector2():set(740, 187))
+
+		local first_entry = parent.contact_info[first_index]
+		local base_x = first_entry.icon_field:GetWndPos().x
+
+		for index = first_index, last_index do
+			local entry = parent.contact_info[index]
+			local x = base_x + ((index - first_index) * 140)
+
+			entry.icon_field:SetWndSize(vector2():set(120, 120))
+			entry.icon_field:SetWndPos(vector2():set(x, 0))
+
+			entry.name_field:SetWndPos(vector2():set(x, 121))
+
+			entry.rank_label:SetWndPos(vector2():set(x, 136))
+			entry.rank_field:SetWndPos(vector2():set(x + 36, 136))
+
+			entry.rept_label:SetWndPos(vector2():set(x, 151))
+			entry.rept_field:SetWndPos(vector2():set(x + 36, 151))
+
+			entry.comm_label:SetWndPos(vector2():set(x, 166))
+			entry.comm_field:SetWndPos(vector2():set(x + 36, 166))
+		end
+
+		return result
+	end
+end

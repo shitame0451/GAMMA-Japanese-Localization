@@ -1,0 +1,26 @@
+-- z_fetch_shows_count.script
+
+if not z_fetch_shows_count
+or not z_fetch_shows_count.extend_news_text
+then
+	return
+end
+
+-- ===================================================================
+--  extend_news_text （必要なアーティファクト名の表示）
+-- ===================================================================
+local original_extend_news_text = z_fetch_shows_count.extend_news_text
+
+z_fetch_shows_count.extend_news_text = function(text, section, amount, ...)
+	if ini_sys:r_string_ex(section, "kind") == "i_arty" then
+		local item_name = ui_item.get_sec_name(section)
+		local artefact = game.translate_string("st_ui_artefact")
+		local original_prefix = item_name .. " " .. artefact
+
+		if text:sub(1, #original_prefix) == original_prefix then
+			text = "「" .. item_name .. "」" .. artefact .. text:sub(#original_prefix + 1)
+		end
+	end
+
+	return original_extend_news_text(text, section, amount, ...)
+end

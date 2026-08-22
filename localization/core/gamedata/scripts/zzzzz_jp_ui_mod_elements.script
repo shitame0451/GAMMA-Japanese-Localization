@@ -1,0 +1,115 @@
+-- ui_mod_elements.script
+
+if not ui_mod_elements then
+	return
+end
+
+-- ===================================================================
+--  init_main_settings （カードゲームの固定文言を日本語化）
+-- ===================================================================
+if ui_mod_elements.init_main_settings then
+	local original_init_main_settings = ui_mod_elements.init_main_settings
+
+	ui_mod_elements.init_main_settings = function(...)
+		local results = { original_init_main_settings(...) }
+
+		ui_mod_elements.st_21_point_your_card_value = "あなたのポイント:"
+		ui_mod_elements.st_21_point_enemy_card_value = "相手のポイント:"
+		ui_mod_elements.st_21_point_rate_field = "現在のベット:"
+		ui_mod_elements.st_21_point_infoline_1 = "残りの所持金:"
+		ui_mod_elements.st_21_point_infoline_2 = "最低ベット - " .. japanese_patch.commas_to_number(ui_mod_elements.card_game_21_minimum_rate) .. ", ベット上限 -"
+		ui_mod_elements.st_21_point_money = "ルーブル"
+		ui_mod_elements.st_21_point_info_about_your = "あなたのベット"
+		ui_mod_elements.st_21_point_info_about_enemy = "相手のベット"
+		ui_mod_elements.st_21_point_web_money = "ルーブル"
+		ui_mod_elements.st_21_point_winner_your_1 = "あなたの勝ち！得た金額:"
+		ui_mod_elements.st_21_point_winner_your_2 = "ルーブル 合計ポイント: あなた -"
+		ui_mod_elements.st_21_point_winner_your_3 = ", 相手 -"
+		ui_mod_elements.st_21_point_winner_enemy_1 = "あなたの負け。失った金額 -"
+		ui_mod_elements.st_21_point_winner_enemy_2 = "ルーブル 合計ポイント: あなた -"
+		ui_mod_elements.st_21_point_winner_enemy_3 = ", 相手 -"
+		ui_mod_elements.st_21_point_winner_equally_1 = "引き分け。合計ポイント: あなた -"
+		ui_mod_elements.st_21_point_winner_equally_2 = ", 相手 -"
+		ui_mod_elements.st_21_point_title = "ブラックジャック"
+		ui_mod_elements.st_21_point_dont_money_to_rate = "これ以上ベットできない: 金が足りない"
+		ui_mod_elements.st_21_point_dont_take_rate = "ゲームを開始できない: ベットがない"
+		ui_mod_elements.st_21_point_dont_take_rate2 = "所持金がない"
+		ui_mod_elements.st_21_point_dont_take_rate3 = "最低ベット - " .. japanese_patch.commas_to_number(ui_mod_elements.card_game_21_minimum_rate)
+		ui_mod_elements.st_question_game_title = "Игра: Что? Где? Когда?"
+		ui_mod_elements.st_question_game_reward_advice = "Заработан совет:"
+		ui_mod_elements.st_question_game_reward_money = "Получены деньги:"
+		ui_mod_elements.st_in_web_money = "Money Taken:"
+
+		return unpack(results)
+	end
+end
+
+-- ===================================================================
+--  card_game_21_point.Update （カードゲームの金額表示を桁区切り）
+-- ===================================================================
+local original_card_game_update = ui_mod_elements.card_game_21_point
+	and ui_mod_elements.card_game_21_point.Update
+
+if original_card_game_update then
+	ui_mod_elements.card_game_21_point.Update = function(self, ...)
+		local results = { original_card_game_update(self, ...) }
+
+		if ui_mod_elements.card_game_21_stage == "need_rate"
+		and self.rate_field
+		and self.infoline_1
+		and self.infoline_2
+		then
+			local rate = ui_mod_elements.card_game_21_rate
+			local money = db.actor:money()
+			local max_rate = ui_mod_elements.value_card_21_max_rate
+			self.rate_field:TextControl():SetText(ui_mod_elements.st_21_point_rate_field .. " " .. japanese_patch.commas_to_number(rate))
+			self.infoline_1:TextControl():SetText(ui_mod_elements.st_21_point_infoline_1 .. " " .. japanese_patch.commas_to_number(money) .. " " .. ui_mod_elements.st_21_point_money)
+			self.infoline_2:TextControl():SetText(ui_mod_elements.st_21_point_infoline_2 .. " " .. japanese_patch.commas_to_number(max_rate))
+		end
+
+		if (ui_mod_elements.card_game_21_stage == "play_game"
+		or ui_mod_elements.card_game_21_stage == "end_game")
+		and self.your_game_info
+		and self.enemy_game_info
+		then
+			local formatted_rate = japanese_patch.commas_to_number(ui_mod_elements.card_game_21_rate)
+			self.your_game_info:TextControl():SetText(ui_mod_elements.st_21_point_info_about_your .. " " .. formatted_rate .. " " .. ui_mod_elements.st_21_point_money)
+			self.enemy_game_info:TextControl():SetText(ui_mod_elements.card_game_21_enemy_name .. ui_mod_elements.st_21_point_info_about_enemy .. " " .. formatted_rate .. " " .. ui_mod_elements.st_21_point_web_money)
+		end
+
+		return unpack(results)
+	end
+end
+
+-- ===================================================================
+--  card_game_21_point.btn_continue_game （勝敗メッセージの金額を桁区切り）
+-- ===================================================================
+local original_card_game_continue = ui_mod_elements.card_game_21_point
+	and ui_mod_elements.card_game_21_point.btn_continue_game
+
+if original_card_game_continue then
+	ui_mod_elements.card_game_21_point.btn_continue_game = function(self, ...)
+		local results = { original_card_game_continue(self, ...) }
+
+		if self.winner_box then
+			local rate = japanese_patch.commas_to_number(ui_mod_elements.card_game_21_rate)
+			if ui_mod_elements.card_game_21_winner == "your" then
+				self.winner_box:SetText(ui_mod_elements.st_21_point_winner_your_1 .. " " .. rate .. " " .. ui_mod_elements.st_21_point_winner_your_2 .. " " .. ui_mod_elements.card_game_21_your_points .. ui_mod_elements.st_21_point_winner_your_3 .. " " .. ui_mod_elements.card_game_21_enemy_points .. ".")
+			elseif ui_mod_elements.card_game_21_winner == "enemy" then
+				self.winner_box:SetText(ui_mod_elements.st_21_point_winner_enemy_1 .. " " .. rate .. " " .. ui_mod_elements.st_21_point_winner_enemy_2 .. " " .. ui_mod_elements.card_game_21_your_points .. ui_mod_elements.st_21_point_winner_enemy_3 .. " " .. ui_mod_elements.card_game_21_enemy_points .. ".")
+			end
+		end
+
+		return unpack(results)
+	end
+end
+
+-- ===================================================================
+--  news_relocate_web_money （ニュース本文の金額を桁区切り）
+-- ===================================================================
+if ui_mod_elements.news_relocate_web_money then
+	local original_news_relocate_web_money = ui_mod_elements.news_relocate_web_money
+	ui_mod_elements.news_relocate_web_money = function(actor, money_type, amount, show_time, ...)
+		return original_news_relocate_web_money(actor, money_type, japanese_patch.commas_to_number(amount), show_time, ...)
+	end
+end

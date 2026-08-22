@@ -1,0 +1,250 @@
+-- dynamic_news_manager.script
+
+if not dynamic_news_manager
+or not dynamic_news_manager.DynamicNewsManager
+then
+	return
+end
+
+local manager = dynamic_news_manager.DynamicNewsManager
+local original_strformat = dynamic_news_manager.strformat
+local member_suffix = "のメンバー"
+local death_format_context
+local offline_enemy_format
+local gossip_emission_context
+
+-- ===================================================================
+--  strformat （ニュース本文を日本語の語順で組み立てる）
+-- ===================================================================
+if original_strformat then
+	dynamic_news_manager.strformat = function(format, ...)
+		if format == "%c[255,160,160,160]%s, %s.\\n%c[default]st_dyn_news_ch_found %s. st_dyn_news_ch_blowout." then
+			local name, community, location = ...
+			return original_strformat(
+				"%c[255,160,160,160]%s（%s）%c[default]が%sで見つかった。\\n死因はブロウアウトだろう。",
+				name, community, location
+			)
+		elseif format == "\\n%s-%s %s%s-%s%s%s, %s %s, %s." then
+			local color_1, color_2, y1, y2, z1, z2, z3, first_name, last_name, location = ...
+			local original_name = original_strformat("%s %s", first_name, last_name)
+			local ok, patched_name = pcall(japanese_patch.character_name_jp, original_name)
+			if not ok or not patched_name or patched_name == "" then
+				patched_name = original_name
+			end
+			return original_strformat(
+				"\\n%s-%s 名前: %s, 場所: %s (%s%s-%s%s%s)",
+				color_1, color_2, patched_name, location, y1, y2, z1, z2, z3
+			)
+		elseif format == "%c[255,160,160,160]%s, %s.\\n%c[default]st_dyn_news_ch_found %s. %s." then
+			local name, community, location, cause = ...
+			if death_format_context == "stalker" then
+				return original_strformat(
+					"%c[255,160,160,160]%s（%s）%c[default]が%sで見つかった。\\n何者かに%sようだ。",
+					name, community, location, cause
+				)
+			elseif death_format_context == "mutant" then
+				return original_strformat(
+					"%c[255,160,160,160]%s（%s）%c[default]が%sで見つかった。\\n%c[default]%sに襲われたようだ。",
+					name, community, location, cause
+				)
+			end
+		elseif format == "%s %s %s. %s" then
+			local a, b, c, d = ...
+			return original_strformat("%sで%s%s。\\n%s", c, b, a, d)
+		elseif format == "%s %s %s %s!" then
+			local a, b, c, d = ...
+			return original_strformat("%s%s%s！\\n場所は%sだ！", a, c, b, d)
+		elseif format == "%s %s %s %s %s." then
+			local a, b, c, d, e = ...
+			return original_strformat("%sが%s%s%s\\n場所は%sだ。", b, d, c, a, e)
+		elseif format == "%s %s %s.\\n%s" then
+			local a, b, c, d = ...
+			return original_strformat("%sで%s%s。\\n%s", c, b, a, d)
+		elseif format == "%s %s %s!" then
+			local a, b, c = ...
+			return original_strformat("%s%s！\\n場所は%sだ！", a, b, c)
+		elseif format == "%s %s" then
+			local first, second = ...
+			if offline_enemy_format then
+				return original_strformat("%s%s", second, first)
+			end
+			local original_name = original_strformat("%s %s", first, second)
+			local ok, patched_name = pcall(japanese_patch.character_name_jp, original_name)
+			if ok and patched_name and patched_name ~= "" then
+				return patched_name
+			end
+		elseif format == "%s, %s" then
+			local first, second = ...
+			if second == game.translate_string("st_dyn_news_sender_private_ch") then
+				return original_strformat("%sの%s", first, second)
+			end
+			local original_text = original_strformat("%s, %s", first, second)
+			local ok, patched_text = pcall(japanese_patch.character_name_jp, original_text)
+			if ok and patched_text and patched_text ~= "" then
+				return patched_text
+			end
+		end
+
+		return original_strformat(format, ...)
+	end
+end
+
+-- ===================================================================
+--  utils_data.parse_string_keys （日本語用ニューステンプレート）
+-- ===================================================================
+local original_utils_data = dynamic_news_manager.utils_data
+if original_utils_data and original_utils_data.parse_string_keys then
+	local original_parse_string_keys = original_utils_data.parse_string_keys
+	local patched_utils_data = setmetatable({}, {__index = original_utils_data})
+
+	patched_utils_data.parse_string_keys = function(text, tokens, ...)
+		if text == "$start $mid. $end." then
+			return original_parse_string_keys("$start$mid。\\n$end", tokens, ...)
+		elseif text == "$clr_1$death_report -$clr_2 $fname $sname, $map, $death_reason, $y1$y2-$z1$z2$z3" then
+			local patched_tokens = {}
+			for key, value in pairs(tokens) do
+				patched_tokens[key] = value
+			end
+
+			local original_name = original_strformat("%s %s", tokens.fname, tokens.sname)
+			local ok, patched_name = pcall(japanese_patch.character_name_jp, original_name)
+			patched_tokens.name = ok and patched_name and patched_name ~= "" and patched_name or original_name
+
+			return original_parse_string_keys(
+				"$clr_1$death_report: $clr_2$name\\n$clr_1場所: $clr_2$map\\n$clr_1死因: $clr_2$death_reason\\n$clr_1座標: $clr_2$y1$y2-$z1$z2$z3",
+				patched_tokens,
+				...
+			)
+		elseif gossip_emission_context
+		and tokens
+		and (tokens.what == "emission" or tokens.what == "storm")
+		then
+			local patched_tokens = {}
+			for key, value in pairs(tokens) do
+				patched_tokens[key] = value
+			end
+			patched_tokens.what = game.translate_string(
+				tokens.what == "emission"
+				and "st_dyn_news_surge_type_emission"
+				or "st_dyn_news_surge_type_psi"
+			)
+			return original_parse_string_keys(text, patched_tokens, ...)
+		end
+
+		return original_parse_string_keys(text, tokens, ...)
+	end
+
+	dynamic_news_manager.utils_data = patched_utils_data
+end
+
+-- ===================================================================
+--  GossipEmissionEnd （現象名を翻訳して本文へ渡す）
+-- ===================================================================
+if manager.GossipEmissionEnd then
+	local original_GossipEmissionEnd = manager.GossipEmissionEnd
+
+	manager.GossipEmissionEnd = function(self, ...)
+		local previous_context = gossip_emission_context
+		gossip_emission_context = true
+		local ok, result = pcall(original_GossipEmissionEnd, self, ...)
+		gossip_emission_context = previous_context
+		if not ok then error(result, 0) end
+		return result
+	end
+end
+
+-- ===================================================================
+--  DeathByStalker （ストーカーに殺害された場合の本文）
+-- ===================================================================
+if manager.DeathByStalker then
+	local original_DeathByStalker = manager.DeathByStalker
+
+	manager.DeathByStalker = function(self, ...)
+		local previous_context = death_format_context
+		death_format_context = "stalker"
+		local ok, result = pcall(original_DeathByStalker, self, ...)
+		death_format_context = previous_context
+		if not ok then error(result, 0) end
+		return result
+	end
+end
+
+-- ===================================================================
+--  DeathByMutant （ミュータントに殺害された場合の本文）
+-- ===================================================================
+if manager.DeathByMutant then
+	local original_DeathByMutant = manager.DeathByMutant
+
+	manager.DeathByMutant = function(self, ...)
+		local previous_context = death_format_context
+		death_format_context = "mutant"
+		local ok, result = pcall(original_DeathByMutant, self, ...)
+		death_format_context = previous_context
+		if not ok then error(result, 0) end
+		return result
+	end
+end
+
+-- ===================================================================
+--  SOSBattleOffline （オフライン戦闘の語順）
+-- ===================================================================
+if manager.SOSBattleOffline then
+	local original_SOSBattleOffline = manager.SOSBattleOffline
+
+	manager.SOSBattleOffline = function(self, ...)
+		local previous_context = offline_enemy_format
+		offline_enemy_format = true
+		local ok, result = pcall(original_SOSBattleOffline, self, ...)
+		offline_enemy_format = previous_context
+		if not ok then error(result, 0) end
+		return result
+	end
+end
+
+-- ===================================================================
+--  ReportByFaction （派閥ニュースの送信者名）
+-- ===================================================================
+if manager.ReportByFaction and manager.PushToChannel then
+	local original_ReportByFaction = manager.ReportByFaction
+
+	manager.ReportByFaction = function(self, ...)
+		local backup_PushToChannel = manager.PushToChannel
+		manager.PushToChannel = function(instance, name, data, fifo, ...)
+			if data and type(data.Se) == "string"
+			and string.sub(data.Se, -string.len(member_suffix)) ~= member_suffix
+			then
+				data.Se = data.Se .. member_suffix
+			end
+			return backup_PushToChannel(instance, name, data, fifo, ...)
+		end
+
+		local ok, result = pcall(original_ReportByFaction, self, ...)
+		manager.PushToChannel = backup_PushToChannel
+		if not ok then error(result, 0) end
+		return result
+	end
+end
+
+-- ===================================================================
+--  ReportZoneActivity （ゾーン活動ニュースの送信者名）
+-- ===================================================================
+if manager.ReportZoneActivity and manager.PushToChannel then
+	local original_ReportZoneActivity = manager.ReportZoneActivity
+
+	manager.ReportZoneActivity = function(self, ...)
+		local backup_PushToChannel = manager.PushToChannel
+		manager.PushToChannel = function(instance, name, data, fifo, ...)
+			if data and type(data.Se) == "string"
+			and string.sub(data.Se, -string.len(member_suffix)) ~= member_suffix
+			then
+				data.Se = data.Se .. member_suffix
+			end
+			return backup_PushToChannel(instance, name, data, fifo, ...)
+		end
+
+		local ok, result = pcall(original_ReportZoneActivity, self, ...)
+		manager.PushToChannel = backup_PushToChannel
+		if not ok then error(result, 0) end
+		return result
+	end
+end

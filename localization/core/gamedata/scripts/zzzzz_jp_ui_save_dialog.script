@@ -1,0 +1,27 @@
+-- ui_save_dialog.script
+
+if not ui_save_dialog
+or not ui_save_dialog.UISaveDialog
+or not ui_save_dialog.UISaveDialog.AddItemToList
+then
+	return
+end
+
+-- ===================================================================
+--  UISaveDialog:AddItemToList （セーブ一覧の日付を年月日順へ変更）
+-- ===================================================================
+local original_AddItemToList = ui_save_dialog.UISaveDialog.AddItemToList
+
+ui_save_dialog.UISaveDialog.AddItemToList = function(self, file_name, date_time, ...)
+	if type(date_time) == "string" then
+		local day, month, year, hour, minute = date_time:match(
+			"^%[(%d%d)/(%d%d)/(%d%d%d%d) (%d%d):(%d%d)%]$"
+		)
+
+		if day then
+			date_time = "[" .. year .. "/" .. month .. "/" .. day .. " " .. hour .. ":" .. minute .. "]"
+		end
+	end
+
+	return original_AddItemToList(self, file_name, date_time, ...)
+end

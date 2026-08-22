@@ -1,0 +1,32 @@
+-- ui_mm_faction_select.script
+
+-- ゲーム開始前の派閥選択画面へパッチする
+function on_mcm_load()
+end
+
+-- ===================================================================
+--  UpdateMoney （新規ゲーム画面の所持金を日本語表記へ変更）
+-- ===================================================================
+local original_update_money = ui_mm_faction_select.UINewGame.UpdateMoney
+
+ui_mm_faction_select.UINewGame.UpdateMoney = function(self, ...)
+	local results = { original_update_money(self, ...) }
+
+	self.text_money:SetText(japanese_patch.commas_to_number(self.selected_money) .. " ルーブル")
+
+	return unpack(results)
+end
+
+-- ===================================================================
+--  OnRandomize （ランダム選択時にプレイヤー名を生成しない）
+-- ===================================================================
+local original_on_randomize = ui_mm_faction_select.UINewGame.OnRandomize
+
+ui_mm_faction_select.UINewGame.OnRandomize = function(self, ...)
+	local character_name = self.character_name:GetText()
+	local results = { original_on_randomize(self, ...) }
+
+	self.character_name:SetText(character_name)
+
+	return unpack(results)
+end
