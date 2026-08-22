@@ -1,38 +1,60 @@
 -- ui_pda_encyclopedia_tab.script
 
+if not ui_pda_encyclopedia_tab then
+	return
+end
+
 -- ===================================================================
 -- UpdateColor （各記事のタイトルの色を変更）
 -- ===================================================================
-local original_UpdateColor = ui_pda_encyclopedia_tab.UpdateColor
-ui_pda_encyclopedia_tab.UpdateColor = function(section)
-	return utils_xml.get_color("pda_white", true)
+if ui_pda_encyclopedia_tab.UpdateColor then
+	ui_pda_encyclopedia_tab.UpdateColor = function(section, ...)
+		return utils_xml.get_color("pda_white", true)
+	end
 end
 
 -- ===================================================================
 -- UpdateDescr （文字化け防止 & 色指定の変更）
 -- ===================================================================
+if not ui_pda_encyclopedia_tab.UpdateDescr then
+	return
+end
+
 local original_UpdateDescr = ui_pda_encyclopedia_tab.UpdateDescr
-ui_pda_encyclopedia_tab.UpdateDescr = function(section, str)
+ui_pda_encyclopedia_tab.UpdateDescr = function(section, str, ...)
 	if section == "encyclopedia__notes__state" then	--装備の状態
-		local result_str = original_UpdateDescr(section, str)
+		local result_str = original_UpdateDescr(section, str, ...)
+		if type(result_str) ~= "string" then return result_str end
 		return string.gsub(result_str, "%%c%[0,170,170,170%]. ", "%%c%[pda_white%] • ")
 	end
 
 	if section == "encyclopedia__notes__ironman" then	--アイアンマンの状態
-		local result_str = original_UpdateDescr(section, str)
+		local result_str = original_UpdateDescr(section, str, ...)
+		if type(result_str) ~= "string" then return result_str end
 		return string.gsub(result_str, "\\n. ", "\\n%%c%[pda_white%] • ")
 	end
 
-	if string.find(section, "encyclopedia_artefacts") then	--アーティファクト
-		local original_get_sec_desc = ui_item.get_sec_desc
-		ui_item.get_sec_desc = function(sec)
-			local desc = original_get_sec_desc(sec)
-			-- アイテム説明文の " %c[pda_white]特性:" 以降を除去
-			return string.gsub(desc, " %%c%[pda_white%]特性:.*", "")
+	if type(section) == "string" and string.find(section, "encyclopedia_artefacts") then	--アーティファクト
+		local result_str
+		local original_get_sec_desc
+		local ok = true
+
+		if ui_item and ui_item.get_sec_desc then
+			original_get_sec_desc = ui_item.get_sec_desc
+			ui_item.get_sec_desc = function(sec, ...)
+				local desc = original_get_sec_desc(sec, ...)
+				-- アイテム説明文の " %c[pda_white]特性:" 以降を除去
+				if type(desc) ~= "string" then return desc end
+				return string.gsub(desc, " %%c%[pda_white%]特性:.*", "")
+			end
 		end
 
-		local result_str = original_UpdateDescr(section, str)
-		ui_item.get_sec_desc = original_get_sec_desc
+		ok, result_str = pcall(original_UpdateDescr, section, str, ...)
+		if original_get_sec_desc then
+			ui_item.get_sec_desc = original_get_sec_desc
+		end
+		if not ok then error(result_str, 0) end
+		if type(result_str) ~= "string" then return result_str end
 
 		-- 対象 前の改行を除去
 		result_str = string.gsub(result_str, " \\n(%%c%[.-%]対象)", "%1")
@@ -48,8 +70,9 @@ ui_pda_encyclopedia_tab.UpdateDescr = function(section, str)
 		return result_str
 	end
 
-	if string.find(section, "encyclopedia__notes_recipe") then	--レシピ
-		local result_str = original_UpdateDescr(section, str)
+	if type(section) == "string" and string.find(section, "encyclopedia__notes_recipe") then	--レシピ
+		local result_str = original_UpdateDescr(section, str, ...)
+		if type(result_str) ~= "string" then return result_str end
 
 		result_str = string.gsub(result_str, "(目次\\n) \\n", "%1")
 		result_str = string.gsub(result_str, "%%c%[255,170,170,170%]. ", "%%c%[pda_white%] • ")
@@ -57,5 +80,166 @@ ui_pda_encyclopedia_tab.UpdateDescr = function(section, str)
 		return result_str
 	end
 
-	return original_UpdateDescr(section, str)
+	return original_UpdateDescr(section, str, ...)
+end
+
+-- ===================================================================
+--  InitArticles （カテゴリ内の記事一覧を五十音順に並び替え）
+-- ===================================================================
+if ui_pda_encyclopedia_tab.pda_encyclopedia_tab
+and ui_pda_encyclopedia_tab.pda_encyclopedia_tab.InitArticles
+and ui_pda_encyclopedia_tab.pda_encyclopedia_entry
+and ui_pda_encyclopedia_tab.UpdateName
+then
+	local original_init_articles = ui_pda_encyclopedia_tab.pda_encyclopedia_tab.InitArticles
+
+	-- 五十音順を適用するカテゴリ。この表にないカテゴリはオリジナルの並び（翻訳前のアルファベット順）のまま表示する
+	local sort_categories = {
+		["encyclopedia_anomalies"] = true,
+		["encyclopedia_artefacts"] = true,
+		["encyclopedia_characters"] = true,
+		["encyclopedia_locations"] = true,
+		["encyclopedia_mutants"] = true,
+	}
+
+	-- 並び順に関係なく一覧の先頭に固定する記事
+	local pinned_articles = {
+		["encyclopedia_artefacts__about"] = true,
+	}
+
+	-- 記事名に含まれる漢字を読みに置き換えるための、記事ごとの漢字読み表
+	local kanji_readings = {
+		["encyclopedia_anomalies_emission"] = { ["光"] = "コウ", ["熱"] = "ネツ", ["放"] = "ホウ", ["射"] = "シャ" },
+		["encyclopedia_anomalies_psi"] = { ["精"] = "セイ", ["神"] = "シン", ["波"] = "ハ", ["及"] = "オヨ", ["領"] = "リョウ", ["域"] = "イキ" },
+		["encyclopedia_anomalies_psistorm"] = { ["精"] = "セイ", ["神"] = "シン", ["波"] = "ハ", ["嵐"] = "アラシ" },
+		["encyclopedia_anomalies_radiation"] = { ["放"] = "ホウ", ["射"] = "シャ", ["線"] = "セン" },
+		["encyclopedia_locations_agroprom_underground"] = { ["地"] = "チ", ["下"] = "カ" },
+		["encyclopedia_locations_army_warehouses"] = { ["陸"] = "リク", ["軍"] = "グン", ["倉"] = "ソウ", ["庫"] = "コ", ["事"] = "ジ" },
+		["encyclopedia_locations_chernobyl_npp"] = { ["原"] = "ゲン", ["子"] = "シ", ["力"] = "リョク", ["発"] = "ハツ", ["電"] = "デン", ["所"] = "ショ" },
+		["encyclopedia_locations_deserted_hospital"] = { ["放"] = "ホウ", ["棄"] = "キ", ["荒"] = "コウ", ["廃"] = "ハイ", ["病"] = "ビョウ", ["院"] = "イン" },
+		["encyclopedia_locations_great_swamp"] = { ["沼"] = "ヌマ", ["地"] = "チ" },
+		["encyclopedia_locations_jupiter_underground"] = { ["地"] = "チ", ["下"] = "カ" },
+		["encyclopedia_locations_lab_x8"] = { ["研"] = "ケン", ["究"] = "キュウ", ["所"] = "ジョ" },
+		["encyclopedia_locations_lab_x16"] = { ["研"] = "ケン", ["究"] = "キュウ", ["所"] = "ジョ" },
+		["encyclopedia_locations_lab_x18"] = { ["研"] = "ケン", ["究"] = "キュウ", ["所"] = "ジョ" },
+		["encyclopedia_locations_lab_x19"] = { ["研"] = "ケン", ["究"] = "キュウ", ["所"] = "ジョ" },
+		["encyclopedia_locations_outskirts"] = { ["郊"] = "コウ", ["外"] = "ガイ" },
+		["encyclopedia_locations_radar"] = { ["施"] = "シ", ["設"] = "セツ" },
+		["encyclopedia_locations_red_forest"] = { ["赤"] = "アカ", ["森"] = "モリ" },
+		["encyclopedia_locations_truck_cemetery"] = { ["墓"] = "ボ", ["地"] = "チ" },
+		["encyclopedia_locations_wild_territory"] = { ["荒"] = "コウ", ["廃"] = "ハイ", ["領"] = "リョウ", ["域"] = "イキ" },
+	}
+
+	local hiragana = "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ"
+	local katakana = "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶ"
+
+	-- ひらがなをカタカナに変換する（UTF-8の1文字を単位として扱う）
+	local function to_katakana(name)
+		local result = {}
+		local i = 1
+		while i <= #name do
+			local byte = string.byte(name, i)
+			local len = byte < 0x80 and 1 or (byte < 0xE0 and 2 or (byte < 0xF0 and 3 or 4))
+			local c = string.sub(name, i, i + len - 1)
+			local pos = string.find(hiragana, c, 1, true)
+			if pos then
+				result[#result + 1] = string.sub(katakana, pos, pos + len - 1)
+			else
+				result[#result + 1] = c
+			end
+			i = i + len
+		end
+		return table.concat(result)
+	end
+
+	-- 記事名に含まれる漢字を読みに置き換える（対応する記事のみ。表示名から計算する）
+	local function apply_kanji_readings(section, name)
+		local readings = kanji_readings[section]
+		if not readings then
+			return name
+		end
+		local result = {}
+		local i = 1
+		while i <= #name do
+			local byte = string.byte(name, i)
+			local len = byte < 0x80 and 1 or (byte < 0xE0 and 2 or (byte < 0xF0 and 3 or 4))
+			local c = string.sub(name, i, i + len - 1)
+			local reading = readings[c]
+			if reading then
+				result[#result + 1] = reading
+			else
+				result[#result + 1] = c
+			end
+			i = i + len
+		end
+		return table.concat(result)
+	end
+
+	-- 五十音順の比較キーを生成する
+	local function get_sort_key(section)
+		local name = game.translate_string(ui_pda_encyclopedia_tab.UpdateName(section))
+		if type(name) ~= "string" then
+			return section
+		end
+
+		name = to_katakana(name)
+		-- 表記揺れ（ヴ・ヵ・ヶ・ヷ〜ヺ）を五十音に合わせる
+		name = string.gsub(name, "ヴ", "ブ")
+		name = string.gsub(name, "ヵ", "カ")
+		name = string.gsub(name, "ヶ", "ケ")
+		name = string.gsub(name, "ヷ", "バ")
+		name = string.gsub(name, "ヸ", "ビ")
+		name = string.gsub(name, "ヹ", "ベ")
+		name = string.gsub(name, "ヺ", "ボ")
+		-- 長音記号と中黒は並び順に影響しないため取り除く
+		name = string.gsub(name, "ー", "")
+		name = string.gsub(name, "・", "")
+		-- 漢字を含む記事名は読みで比較する
+		name = apply_kanji_readings(section, name)
+
+		return name
+	end
+
+	ui_pda_encyclopedia_tab.pda_encyclopedia_tab.InitArticles = function(self, section_c, ...)
+		original_init_articles(self, section_c, ...)
+
+		if not sort_categories[section_c] then
+			return
+		end
+
+		-- 表示中の記事を（セクション、色、並びキー）で回収する
+		local entries = {}
+		for index = 0, self.article_list:GetSize() - 1 do
+			local item = self.article_list:GetItemByIndex(index)
+			entries[#entries + 1] = {
+				section = item.sec,
+				clr = item.clr,
+				key = get_sort_key(item.sec),
+			}
+		end
+
+		if #entries < 2 then
+			return
+		end
+
+		-- 先頭固定記事を優先し、それ以外は五十音順で並び替える（同じ名前はセクションID順）
+		table.sort(entries, function(a, b)
+			local pa = pinned_articles[a.section] and 0 or 1
+			local pb = pinned_articles[b.section] and 0 or 1
+			if pa ~= pb then
+				return pa < pb
+			end
+			if a.key == b.key then
+				return a.section < b.section
+			end
+			return a.key < b.key
+		end)
+
+		-- 並び替えた順にエントリを作り直す
+		self.article_list:RemoveAll()
+		for n = 1, #entries do
+			local entry = entries[n]
+			self.article_list:AddExistingItem(ui_pda_encyclopedia_tab.pda_encyclopedia_entry(entry.section, n, entry.clr))
+		end
+	end
 end
