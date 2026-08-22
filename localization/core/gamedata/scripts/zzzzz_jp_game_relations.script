@@ -1,16 +1,27 @@
 -- game_relations.script
 
 -- ===================================================================
---  ブレイン・スコーチャー停止時の派閥の関係メッセージ
+--  send_news （ブレイン・スコーチャー停止時の派閥関係メッセージ）
 -- ===================================================================
 local original_send_news = game_relations.send_news
 
-game_relations.send_news = function(faction_1, faction_2, text, icon)
-	local faction_1_str = game.translate_string( faction_1 )
-	local faction_2_str = game.translate_string( faction_2 )
-	local relation_str = game.translate_string( text )
---	local str = faction_1_str .. " " .. game.translate_string("st_relations_and") .. " " .. faction_2_str .. " " .. relation_str
-	local str = faction_1_str .. game.translate_string("st_relations_and") .. faction_2_str .. relation_str	--japanGAMMA
-		--printf("[JP Patch] faction_1='%s' faction_2='%s' text='%s' -> '%s'", faction_1_str, faction_2_str, relation_str, str)
-	news_manager.send_tip( db.actor, str, nil, icon, nil, nil )
+game_relations.send_news = function(faction_1, faction_2, text, icon, ...)
+	local faction_1_str = game.translate_string(faction_1)
+	local faction_2_str = game.translate_string(faction_2)
+	local relation_and_str = game.translate_string("st_relations_and")
+	local spaced_prefix = faction_1_str .. " " .. relation_and_str .. " " .. faction_2_str .. " "
+	local compact_prefix = faction_1_str .. relation_and_str .. faction_2_str
+
+	local backup_send_tip = news_manager.send_tip
+	news_manager.send_tip = function(actor, news_id, timeout, sender, showtime, sender_id, ...)
+		if type(news_id) == "string" and news_id:sub(1, #spaced_prefix) == spaced_prefix then
+			news_id = compact_prefix .. news_id:sub(#spaced_prefix + 1)
+		end
+		return backup_send_tip(actor, news_id, timeout, sender, showtime, sender_id, ...)
+	end
+
+	local ok, result = pcall(original_send_news, faction_1, faction_2, text, icon, ...)
+	news_manager.send_tip = backup_send_tip
+	if not ok then error(result, 0) end
+	return result
 end

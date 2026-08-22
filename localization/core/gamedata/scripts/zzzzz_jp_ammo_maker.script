@@ -1,16 +1,25 @@
 -- ammo_maker.script
 
+if not ammo_maker
+or not ammo_maker.create_disassemble_list
+then
+	return
+end
+
 -- ===================================================================
 --  create_disassemble_list （弾薬分解時の個数表示を変更）
---  オリジナルをコピーして改変したもの
 -- ===================================================================
 local original_create_disassemble_list = ammo_maker.create_disassemble_list
 
-ammo_maker.create_disassemble_list = function(t)
-	local str = ""
-	for k, v in pairs(t) do
---		str = str .. "\\n- " .. v .. " " .. ui_item.get_sec_name(k)
-		str = str .. string.format("\\n- %s（x%d）", ui_item.get_sec_name(k), v)	--japanGAMMA
-	end
-	return str
+local function format_disassemble_list(text)
+	-- 各リスト項目を次の「\\n」区切りまで個別に変換
+	return text:gsub("\\n%- (%d+) ([^\\]+)", function(count, name)
+		return "\\n- " .. name .. "（x" .. count .. "）"
+	end)
+end
+
+ammo_maker.create_disassemble_list = function(t, ...)
+	local text = original_create_disassemble_list(t, ...)
+	if type(text) ~= "string" then return text end
+	return format_disassemble_list(text)
 end

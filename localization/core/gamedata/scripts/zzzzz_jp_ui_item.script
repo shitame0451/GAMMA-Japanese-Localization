@@ -1,151 +1,195 @@
 -- ui_item.script
 
+if not ui_item
+then
+	return
+end
+
+-- ===================================================================
+--  build_name_last （アップグレードキット／料理ランク名の前の空白を除去）
+-- ===================================================================
+if ui_item.build_name_last
+and not ui_item._jp_build_name_last_patched
+then
+	local original_build_name_last = ui_item.build_name_last
+	local jp_name_suffixes = {}
+
+	for i = 1, 3 do
+		jp_name_suffixes[#jp_name_suffixes + 1] = game.translate_string("st_cap_upgr_" .. i)
+		jp_name_suffixes[#jp_name_suffixes + 1] = game.translate_string("st_cap_meal_" .. i)
+	end
+
+	ui_item.build_name_last = function(obj, sec, str, ...)
+		local result = original_build_name_last(obj, sec, str, ...)
+		if type(result) ~= "string" then
+			return result
+		end
+
+		for _, suffix in ipairs(jp_name_suffixes) do
+			if type(suffix) == "string"
+				and suffix ~= ""
+				and result:sub(-#suffix - 1) == " " .. suffix
+			then
+				return result:sub(1, #result - #suffix - 1) .. suffix
+			end
+		end
+
+		return result
+	end
+
+	ui_item._jp_build_name_last_patched = true
+end
+
 -- ===================================================================
 --  build_desc_footer （アイテムチップの整形）
 -- ===================================================================
-local original_build_desc_footer = ui_item.build_desc_footer
+if ui_item.build_desc_footer then
+	local original_build_desc_footer = ui_item.build_desc_footer
 
-ui_item.build_desc_footer = function(obj, sec, str)
-	local text = original_build_desc_footer(obj, sec, str)
-	if not text then return text end
+	ui_item.build_desc_footer = function(obj, sec, str, ...)
+		local text = original_build_desc_footer(obj, sec, str, ...)
+		if type(text) ~= "string" then return text end
 
-	-- 文頭の余分な改行を削除
-	text = text:gsub("^\\n+", "")
+		-- 文頭の余分な改行を削除
+		text = text:gsub("^\\n+", "")
 
-	-- 「トリガーメカニズム」と「基本価格」の間の改行を2つにする
-	text = text:gsub(
-		game.translate_string("st_name_trigger") .. "\\n(%%c%[[^%]]-%])",
-		game.translate_string("st_name_trigger") .. "\\n\\n%1"
-	)
+		-- 「トリガーメカニズム」と「基本価格」の間の改行を2つにする
+		text = text:gsub(
+			game.translate_string("st_name_trigger") .. "\\n(%%c%[[^%]]-%])",
+			game.translate_string("st_name_trigger") .. "\\n\\n%1"
+		)
 
-	-- アイテム基本価格のカンマ区切り&日本語化
-	text = text:gsub(
-		"基本価格: *" .. "(%d+)" .. " *RU", function(num)
-		return "基本価格: " .. japanese_patch.commas_to_number(num) .. " ルーブル"
-	end
-	)
+		-- アイテム基本価格のカンマ区切り&日本語化
+		text = text:gsub(
+			"基本価格: *" .. "(%d+)" .. " *RU", function(num)
+			return "基本価格: " .. japanese_patch.commas_to_number(num) .. " ルーブル"
+		end
+		)
 
-	-- 「  •  "色指定" 」→「  • "色指定"」 （置換前の"•"は文字化けしているので"."で「任意の1文字」として指定）
-	text = text:gsub(
-		"  . (%%c%[[^%]]-%]) ",
-		"  • %1"
-	)
+		-- 「  •  "色指定" 」→「  • "色指定"」 （置換前の"•"は文字化けしているので"."で「任意の1文字」として指定）
+		text = text:gsub(
+			"  . (%%c%[[^%]]-%]) ",
+			"  • %1"
+		)
 
-	-- 「: "色指定" 」→「: "色指定"」
-	text = text:gsub(
-		": (%%c%[[^%]]-%]) ",
-		": %1"
-	)
+		-- 「: "色指定" 」→「: "色指定"」
+		text = text:gsub(
+			": (%%c%[[^%]]-%]) ",
+			": %1"
+		)
 
-	-- 「ダッシュ 」→「ダッシュ: 」
-	text = text:gsub(
-		"ダッシュ ",
-		"ダッシュ: "
-	)
+		-- 「ダッシュ 」→「ダッシュ: 」
+		text = text:gsub(
+			"ダッシュ ",
+			"ダッシュ: "
+		)
 
-	-- 特殊アーティファクトの余分な改行を削除
-	text = text:gsub(
-		"\\n *\\n *\\n%%c%[pda_white%] 特殊能力",
-		"\\n \\n%%c[pda_white] 特殊能力"
-	)
+		-- 特殊アーティファクトの余分な改行を削除
+		text = text:gsub(
+			"\\n *\\n *\\n%%c%[pda_white%] 特殊能力",
+			"\\n \\n%%c[pda_white] 特殊能力"
+		)
 
-	-- 部品の所有情報の余分な改行を削除（Workshop's Parts Inventory）
-	text = text:gsub(
-		"\\n[%s\\n]*" .. game.translate_string("st_zk_tooltip_section"),
-		"\\n \\n" .. "%%c[pda_white] " .. game.translate_string("st_zk_tooltip_section")
-	)
-	text = text:gsub(
-		"%%c%[[^%]]-%]インベントリに",
-		"%%c[255,238,153,26]" .. "  • " .. "%%c[255,250,250,250]インベントリに"
-	)
-	text = text:gsub(
-		"%%c%[[^%]]-%]ワークショップに",
-		"%%c[255,238,153,26]" .. "  • " .. "%%c[255,250,250,250]ワークショップに"
-	)
-	text = text:gsub(
-		"%%c%[[^%]]-%]保管 (%(%%c%[[^%]]-%]%d+%%%%c%[[^%]]-%]%))",	-- ワークショップに部品があるとき
-		"%%c[255,250,250,250]保管 %1\\n"
-	)
-	text = text:gsub(
-		"%%c%[[^%]]-%]保管$",	-- ワークショップに部品がないとき
-		"%%c[255,250,250,250]保管\\n"
-	)
+		-- 部品の所有情報の余分な改行を削除（Workshop's Parts Inventory）
+		text = text:gsub(
+			"\\n[%s\\n]*" .. game.translate_string("st_zk_tooltip_section"),
+			"\\n \\n" .. "%%c[pda_white] " .. game.translate_string("st_zk_tooltip_section")
+		)
+		text = text:gsub(
+			"%%c%[[^%]]-%]インベントリに",
+			"%%c[255,238,153,26]" .. "  • " .. "%%c[255,250,250,250]インベントリに"
+		)
+		text = text:gsub(
+			"%%c%[[^%]]-%]ワークショップに",
+			"%%c[255,238,153,26]" .. "  • " .. "%%c[255,250,250,250]ワークショップに"
+		)
+		text = text:gsub(
+			"%%c%[[^%]]-%]保管 (%(%%c%[[^%]]-%]%d+%%%%c%[[^%]]-%]%))",	-- ワークショップに部品があるとき
+			"%%c[255,250,250,250]保管 %1\\n"
+		)
+		text = text:gsub(
+			"%%c%[[^%]]-%]保管$",	-- ワークショップに部品がないとき
+			"%%c[255,250,250,250]保管\\n"
+		)
 
-	-- 文末の余分な改行を一つにまとめる
-	text = text:gsub(
-		"\\n *\\n *\\n$",
-		"\\n"
-	)
-	text = text:gsub(
-		"\\n *\\n$",
-		"\\n"
-	)
+		-- 文末の改行と空白だけを削除（本文中の改行は維持）
+		local removed_newlines = 0
+		repeat
+			text, removed_newlines = text:gsub("\\n[ \t]*$", "")
+		until removed_newlines == 0
+		text = text:gsub("[ \t]+$", "")
 
 -- GAMMA or GMTOPの修正待ち
-	-- 補助電源の説明文のengフォルダフォールバック対策
-	text = text:gsub("アビリティShift",
-	"アビリティ")
+		-- 補助電源の説明文のengフォルダフォールバック対策
+		text = text:gsub("アビリティShift",
+		"アビリティ")
 
-	-- 補助電源「リアクター」の説明文に表示される残り電力などの余計な情報を削除
-	text = text:gsub("(エレクトリック・ノヴァを発射する\\n).*",
-	"%1")
+		-- 補助電源「リアクター」の説明文に表示される残り電力などの余計な情報を削除
+		text = text:gsub("(エレクトリック・ノヴァを発射する\\n).*",
+		"%1")
 
-	-- マルチツールの特性部分（応急処置）
-	text = text:gsub("ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\\n \\n %%c%[pda_white%]特性:\\n %%c%[d_cyan%] • %%c%[pda_white%]アイテム分解ツール\\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]耐久値の回復量: %%c%[255,170,170,170%]%+%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理に最低限必要な耐久値: %%c%[255,170,170,170%]%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理ボーナス: %%c%[255,170,170,170%]%+%d+%% \\n",
-	"ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\\n \\n %%c[pda_white]特性:\\n %%c[d_cyan] • %%c[pda_white]アイテム分解ツール\\n")
+		-- マルチツールの特性部分（応急処置）
+		text = text:gsub("ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\\n \\n %%c%[pda_white%]特性:\\n %%c%[d_cyan%] • %%c%[pda_white%]アイテム分解ツール\\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]耐久値の回復量: %%c%[255,170,170,170%]%+%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理に最低限必要な耐久値: %%c%[255,170,170,170%]%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理ボーナス: %%c%[255,170,170,170%]%+%d+%% \\n",
+		"ペンチ、ドライバー、ナイフなどを備えた万能道具。銃やスーツの分解、簡単な修理、サバイバル用途に適している。\\n \\n %%c[pda_white]特性:\\n %%c[d_cyan] • %%c[pda_white]アイテム分解ツール\\n")
 
-	-- ガンオイル（ルサク）の特性部分（応急処置）
-	text = text:gsub("手頃な価格のロシア製鉱物油が入ったプラスチックボトル。銃器の潤滑と防錆を目的としているが、適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\\n \\n %%c%[pda_white%]特性:\\n %%c%[d_cyan%] • %%c%[pda_white%]基本素材\\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]耐久値の回復量: %%c%[255,170,170,170%]%+%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理ボーナス: %%c%[255,170,170,170%]%+%d+%% \\n",
-	"手頃な価格のロシア製鉱物油が入ったプラスチックボトル。銃器の潤滑と防錆を目的としているが、適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\\n \\n %%c[pda_white]特性:\\n %%c[d_cyan] • %%c[pda_white]基本素材\\n")
+		-- ガンオイル（ルサク）の特性部分（応急処置）
+		text = text:gsub("手頃な価格のロシア製鉱物油が入ったプラスチックボトル。銃器の潤滑と防錆を目的としているが、適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\\n \\n %%c%[pda_white%]特性:\\n %%c%[d_cyan%] • %%c%[pda_white%]基本素材\\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]耐久値の回復量: %%c%[255,170,170,170%]%+%d+%% \\n%%c%[255,238,153,26%]  • %%c%[255,140,140,140%]%%c%[pda_white%]修理ボーナス: %%c%[255,170,170,170%]%+%d+%% \\n",
+		"手頃な価格のロシア製鉱物油が入ったプラスチックボトル。銃器の潤滑と防錆を目的としているが、適切な道具がなければ均等に塗布できないため、単体で使うよりもメンテナンスの補助用品として使うのが理想的だ。\\n \\n %%c[pda_white]特性:\\n %%c[d_cyan] • %%c[pda_white]基本素材\\n")
 
-	-- 基本素材のドットの色変更
-	text = text:gsub("%%c%[[^%]]-%]  • %%c%[[^%]]-%]%%c%[pda_white%]基本素材",
-	"%%c[d_cyan]  • %%c[pda_white]基本素材")
+		-- 基本素材のドットの色変更
+		text = text:gsub("%%c%[[^%]]-%]  • %%c%[[^%]]-%]%%c%[pda_white%]基本素材",
+		"%%c[d_cyan]  • %%c[pda_white]基本素材")
 
-	--printf("[JP Patch] build_desc_footer: [%s]", text)
+		--printf("[JP Patch] build_desc_footer: [%s]", text)
 
-	return text
+		return text
+	end
 end
 
 -- ===================================================================
 --  get_article_name （日本語には不要な処理 remove_parentheses に渡すだけ）
 -- ===================================================================
-local original_get_article_name = ui_item.get_article_name
+	if ui_item.get_article_name then
+	ui_item.get_article_name = function(str, ...)
+		if not str then return "" end
 
-ui_item.get_article_name = function(str)
-	if not str then return "" end
+		str = ui_item.remove_parentheses(str, ...)
 
-	str = ui_item.remove_parentheses(str)
+		--printf("[JP Patch] get_article_name: %s", str)
 
-	--printf("[JP Patch] get_article_name: %s", str)
-
-	return str
+		return str
+	end
 end
 
 -- ===================================================================
 --  get_plural_name （日本語には不要な処理 remove_parentheses に渡すだけ）
--- ===================================================================
-local original_get_plural_name = ui_item.get_plural_name
+	-- ===================================================================
+	if ui_item.get_plural_name then
+	ui_item.get_plural_name = function(str, ...)
+		if not str then return "" end
 
-ui_item.get_plural_name = function(str)
-	if not str then return "" end
-
-	str = ui_item.remove_parentheses(str)
+		str = ui_item.remove_parentheses(str, ...)
 
 	--printf("[JP Patch] get_plural_name: %s", str)
 
-	return str
+		return str
+	end
 end
 
 -- ===================================================================
 --  remove_parentheses （日本語用の処理を追加）
 -- ===================================================================
+if not ui_item.remove_parentheses then
+	return
+end
+
 local original_remove_parentheses = ui_item.remove_parentheses
 
-ui_item.remove_parentheses = function(str)
+ui_item.remove_parentheses = function(str, ...)
 	if not str then return "" end
 
-	str = original_remove_parentheses(str)	-- 一応オリジナルの処理を走らせる
+	str = original_remove_parentheses(str, ...)	-- 一応オリジナルの処理を走らせる
+	if type(str) ~= "string" then return str end
 
 	str = str:gsub("（ソードオフ）", "")
 	str = str:gsub("（カスタム）", "")

@@ -4,82 +4,103 @@
 --  prepare_follower （先導タスクの開始メッセージ）
 --  string.formatにフック
 -- ===================================================================
-local original_prepare_follower = tasks_guide.prepare_follower
-
-tasks_guide.prepare_follower = function(...)
-	local backup_format = string.format
-	local target_fmt = game.translate_string("st_jg_14")
-
-	string.format = function(fmt, ...)
-		if fmt == target_fmt then
-			local args = {...}
-			if #args >= 3 then
-				-- 名前(3)と現在地(2)を入れ替え
-				return backup_format(fmt, args[1], args[3], args[2])
+if tasks_guide
+and tasks_guide.prepare_follower
+then
+	local original_prepare_follower = tasks_guide.prepare_follower
+	
+	tasks_guide.prepare_follower = function(...)
+		local backup_format = string.format
+		local target_fmt = game.translate_string("st_jg_14")
+	
+		string.format = function(fmt, ...)
+			if fmt == target_fmt then
+				local args = {...}
+				if #args >= 3 then
+					-- 名前(3)と現在地(2)を入れ替え
+					return backup_format(fmt, args[1], args[3], args[2])
+				end
 			end
+			return backup_format(fmt, ...)
 		end
-		return backup_format(fmt, ...)
+	
+		local ok, result = pcall(original_prepare_follower, ...)
+		string.format = backup_format
+		if not ok then error(result, 0) end
+		return result
 	end
-
-	original_prepare_follower(...)
-	string.format = backup_format
 end
 
 -- ===================================================================
 --  activate （マップ上のタスクマーカーのメッセージ）
 --  level.map_add_object_spot_serにフック
 -- ===================================================================
-local original_activate = tasks_guide.activate
-
-tasks_guide.activate = function(...)
-	local backup_map_add = level.map_add_object_spot_ser
+if tasks_guide
+and tasks_guide.activate
+then
+	local original_activate = tasks_guide.activate
 	
-	level.map_add_object_spot_ser = function(id, spot, hint)
-		if spot == "secondary_task_location" and type(hint) == "string" then
-			hint = hint .. "まで案内するように頼まれた"
+	tasks_guide.activate = function(...)
+		local backup_map_add = level.map_add_object_spot_ser
+		
+		level.map_add_object_spot_ser = function(id, spot, hint, ...)
+			if spot == "secondary_task_location" and type(hint) == "string" then
+				hint = hint .. "まで案内するように頼まれた"
+			end
+			return backup_map_add(id, spot, hint, ...)
 		end
-		return backup_map_add(id, spot, hint)
+		
+		local ok, result = pcall(original_activate, ...)
+		level.map_add_object_spot_ser = backup_map_add
+		if not ok then error(result, 0) end
+		return result
 	end
-	
-	original_activate(...)
-	level.map_add_object_spot_ser = backup_map_add
 end
 
 -- ===================================================================
 --  get_phrase_1 （先導タスクのメッセージ、金額のカンマ区切り化）
 -- ===================================================================
-local original_get_phrase_1 = tasks_guide.get_phrase_1
-
-tasks_guide.get_phrase_1 = function(...)
-	local backup_format = string.format
-	local target_fmt = game.translate_string("st_jg_16")
-
-	string.format = function(fmt, ...)
-		if fmt == target_fmt then
-			local args = {...}
-			if #args >= 4 then
-				args[3] = japanese_patch.commas_to_number(args[3]) -- 報酬額
-				return backup_format(fmt, args[2], args[3], args[1])
+if tasks_guide
+and tasks_guide.get_phrase_1
+then
+	local original_get_phrase_1 = tasks_guide.get_phrase_1
+	
+	tasks_guide.get_phrase_1 = function(...)
+		local backup_format = string.format
+		local target_fmt = game.translate_string("st_jg_16")
+	
+		string.format = function(fmt, ...)
+			if fmt == target_fmt then
+				local args = {...}
+				if #args >= 4 then
+					args[3] = japanese_patch.commas_to_number(args[3]) -- 報酬額
+					return backup_format(fmt, args[2], args[3], args[1])
+				end
 			end
+			return backup_format(fmt, ...)
 		end
-		return backup_format(fmt, ...)
+	
+		local ok, res = pcall(original_get_phrase_1, ...)
+		string.format = backup_format
+		if not ok then error(res, 0) end
+		return res
 	end
-
-	local res = original_get_phrase_1(...)
-	string.format = backup_format
-	return res
 end
 
 -- ===================================================================
 --  get_phrase2 （空白を削除、語尾を追加）
 -- ===================================================================
-local original_get_phrase2 = tasks_guide.get_phrase2
-
-tasks_guide.get_phrase2 = function(...)
-	local txt = original_get_phrase2(...)
-	if type(txt) == "string" then
-		local prefix = game.translate_string("st_jg_17") -- "目的地は"
-		txt = txt:gsub("^" .. prefix .. "%s+(.+)", prefix .. "%1だ。")
+if tasks_guide
+and tasks_guide.get_phrase2
+then
+	local original_get_phrase2 = tasks_guide.get_phrase2
+	
+	tasks_guide.get_phrase2 = function(...)
+		local txt = original_get_phrase2(...)
+		if type(txt) == "string" then
+			local prefix = game.translate_string("st_jg_17") -- "目的地は"
+			txt = txt:gsub("^" .. prefix .. "%s+(.+)", prefix .. "%1だ。")
+		end
+		return txt
 	end
-	return txt
 end

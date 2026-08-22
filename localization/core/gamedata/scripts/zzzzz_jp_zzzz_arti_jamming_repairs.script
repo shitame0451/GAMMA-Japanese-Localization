@@ -1,87 +1,105 @@
 -- zzzz_arti_jamming_repairs.script
 
+if not zzzz_arti_jamming_repairs then
+	return
+end
+
 -- ===================================================================
 --  zzzz_arti_jamming_repairs.ui_item.build_desc_header （文字の視認性改善）
 --  ui_item.scriptのbuild_desc_headerがオリジナル
 -- ===================================================================
-local original_build_desc_header = ui_item.build_desc_header
+if ui_item and ui_item.build_desc_header then
+	local original_build_desc_header = ui_item.build_desc_header
 
-ui_item.build_desc_header = function(obj, sec, str)
-	local result = original_build_desc_header(obj, sec, str)
+	ui_item.build_desc_header = function(obj, sec, str, ...)
+		local result = original_build_desc_header(obj, sec, str, ...)
+		if type(result) ~= "string" then return result end
 
-	-- 「部品の耐久値」の色を紫から白に置換
-	result = result:gsub("%%c%[[^%]]-%]" .. game.translate_string("st_name_issues"),
-		"%%c[0,255,255,255]" .. game.translate_string("st_name_issues"))
+		-- 「部品の耐久値」の色を紫から白に置換
+		result = result:gsub("%%c%[[^%]]-%]" .. game.translate_string("st_name_issues"),
+			"%%c[0,255,255,255]" .. game.translate_string("st_name_issues"))
 
-	return result
+		return result
+	end
 end
 
 -- ===================================================================
 --  process_part （日本語化と字間調整）
 -- ===================================================================
-local original_process_part = zzzz_arti_jamming_repairs.process_part
+if zzzz_arti_jamming_repairs.process_part then
+	local original_process_part = zzzz_arti_jamming_repairs.process_part
 
-zzzz_arti_jamming_repairs.process_part = function(name, condition)
-	local str = original_process_part(name, condition)
+	zzzz_arti_jamming_repairs.process_part = function(name, condition, ...)
+		local str = original_process_part(name, condition, ...)
+		if type(str) ~= "string" then return str end
 
-	-- DMG/AP 書式変更
-	str = str:gsub(" %(%d+%% DMG and AP%)", function(match)
-		local num = match:match("(%d+)")
-		return "（DMG&AP: " .. tostring(num) .. "%）"
-	end)
+		-- DMG/AP 書式変更
+		str = str:gsub(" %(%d+%% DMG and AP%)", function(match)
+			local num = match:match("(%d+)")
+			return "（DMG&AP: " .. tostring(num) .. "%）"
+		end)
 
-	-- 部品の状態と部品名のスペースを削除
-	str = str:gsub(
-		"([一-龠々〆ヵヶぁ-んァ-ヶー])" .. " +" .. "([一-龠々〆ヵヶぁ-んァ-ヶー])",
-		"%1%2"
-	)
+		-- 部品の状態と部品名のスペースを削除
+		str = str:gsub(
+			"([一-龠々〆ヵヶぁ-んァ-ヶー])" .. " +" .. "([一-龠々〆ヵヶぁ-んァ-ヶー])",
+			"%1%2"
+		)
 
-	-- "st_dot" の先頭のスペースを2個に （部品の状態）
-	str = str:gsub(
-		" *" .. "(.-)" .. game.translate_string("st_dot"),
-		"  " .. "%1" .. game.translate_string("st_dot")
-	)
+		-- "st_dot" の先頭のスペースを2個に （部品の状態）
+		str = str:gsub(
+			" *" .. "(.-)" .. game.translate_string("st_dot"),
+			"  " .. "%1" .. game.translate_string("st_dot")
+		)
 
-	return str
+		return str
+	end
 end
 
 -- ===================================================================
 --  process_jam_chance （字間調整）
 -- ===================================================================
-local original_process_jam_chance = zzzz_arti_jamming_repairs.process_jam_chance
+if zzzz_arti_jamming_repairs.process_jam_chance then
+	local original_process_jam_chance = zzzz_arti_jamming_repairs.process_jam_chance
 
-zzzz_arti_jamming_repairs.process_jam_chance = function(wpn)
-	local str = original_process_jam_chance(wpn)
+	zzzz_arti_jamming_repairs.process_jam_chance = function(wpn, ...)
+		local str = original_process_jam_chance(wpn, ...)
 
-	if str then
-		-- "st_jam" の先頭のスペースを2個に （弾詰まりの発生確率）
-		str = str:gsub(
-		" *" .. "(.-)" .. game.translate_string("st_jam"),
-		"  " .. "%1" .. game.translate_string("st_jam")
-	)
+		if type(str) == "string" then
+			-- "st_jam" の先頭のスペースを2個に （弾詰まりの発生確率）
+			str = str:gsub(
+				" *" .. "(.-)" .. game.translate_string("st_jam"),
+				"  " .. "%1" .. game.translate_string("st_jam")
+			)
+		end
+
+		return str
 	end
-
-	return str
 end
 
 -- ===================================================================
 --  act_fieldstrip （フィールドストリップの通知）
 --  news_manager.send_tipにフック
 -- ===================================================================
-local original_act_fieldstrip = zzzz_arti_jamming_repairs.act_fieldstrip
+if zzzz_arti_jamming_repairs.act_fieldstrip
+and news_manager
+and news_manager.send_tip
+then
+	local original_act_fieldstrip = zzzz_arti_jamming_repairs.act_fieldstrip
 
-zzzz_arti_jamming_repairs.act_fieldstrip = function(...)
-	local backup_send_tip = news_manager.send_tip
+	zzzz_arti_jamming_repairs.act_fieldstrip = function(...)
+		local backup_send_tip = news_manager.send_tip
 
-	news_manager.send_tip = function(actor, text, a1, icon, time)
-		local t = text
-		if type(t) == "string" and icon == "swiss_knife" then	-- フィールドストリップ通知の条件
-			t = t:gsub("\\n %-", "\\n- ")
+		news_manager.send_tip = function(actor, text, a1, icon, time, ...)
+			local t = text
+			if type(t) == "string" and icon == "swiss_knife" then	-- フィールドストリップ通知の条件
+				t = t:gsub("\\n %-", "\\n- ")
+			end
+			return backup_send_tip(actor, t, a1, icon, time, ...)
 		end
-		return backup_send_tip(actor, t, a1, icon, time)
-	end
 
-	local res = original_act_fieldstrip(...)
-	news_manager.send_tip = backup_send_tip
-	return res
+		local ok, res = pcall(original_act_fieldstrip, ...)
+		news_manager.send_tip = backup_send_tip
+		if not ok then error(res, 0) end
+		return res
+	end
 end

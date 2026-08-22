@@ -3,16 +3,28 @@
 -- ===================================================================
 --  UIFurnitureLight:Refuel （ガス灯などの燃料を補充する際のメッセージ）
 -- ===================================================================
+if not ui_furniture_light
+or not ui_furniture_light.UIFurnitureLight
+or not ui_furniture_light.UIFurnitureLight.Refuel
+or not actor_menu
+or not actor_menu.set_msg
+then
+	return
+end
+
 local original_UIFurnitureLight_Refuel = ui_furniture_light.UIFurnitureLight.Refuel
 
-ui_furniture_light.UIFurnitureLight.Refuel = function(self)
+ui_furniture_light.UIFurnitureLight.Refuel = function(self, ...)
 	local backup_set_msg = actor_menu.set_msg
-	actor_menu.set_msg = function(mode, text, duration)
-		text = text:gsub("I don't have any fuel for this.", "燃料を持っていない")
-		return backup_set_msg(mode, text, duration)
+	actor_menu.set_msg = function(mode, text, duration, ...)
+		if type(text) == "string" then
+			text = text:gsub("I don't have any fuel for this%.", "燃料を持っていない")
+		end
+		return backup_set_msg(mode, text, duration, ...)
 	end
 
-	local result = original_UIFurnitureLight_Refuel(self)
+	local ok, result = pcall(original_UIFurnitureLight_Refuel, self, ...)
 	actor_menu.set_msg = backup_set_msg
+	if not ok then error(result, 0) end
 	return result
 end

@@ -1,72 +1,91 @@
 -- ui_inventory.script
 
+if not ui_inventory
+or not ui_inventory.UIInventory
+then
+	return
+end
+
 -- ===================================================================
 --  UpdateCharacter （プレイヤー／NPCの所持金のカンマ区切り）
 -- ===================================================================
-local original_UpdateCharacter = ui_inventory.UIInventory.UpdateCharacter
-ui_inventory.UIInventory.UpdateCharacter = function(self)
-	local result = original_UpdateCharacter(self)
+if ui_inventory.UIInventory.UpdateCharacter then
+	local original_UpdateCharacter = ui_inventory.UIInventory.UpdateCharacter
+	ui_inventory.UIInventory.UpdateCharacter = function(self, ...)
+		local result = original_UpdateCharacter(self, ...)
 
-	-- プレイヤーの所持金をカンマ区切り
-	if self.player_money and db.actor then
-		local money = db.actor:money()
-		self.player_money:SetText(japanese_patch.commas_to_number(money))
-	end
-
-	-- NPCの所持金をカンマ区切り
-	local npc = self:GetPartner()
-	if npc and (not self.npc_is_box) then
-		local money = npc:money()
-		if (self.mode == "repair") and self.npc_up_money then
-			if money <= 999999 then
-				self.npc_up_money:SetText(japanese_patch.commas_to_number(money))
-			end
-		elseif self.npc_money then
-			if money <= 999999 then
-				self.npc_money:SetText(japanese_patch.commas_to_number(money))
+		-- プレイヤーの所持金をカンマ区切り
+		if self.player_money and db.actor then
+			local money = db.actor:money()
+			if type(money) == "number" then
+				self.player_money:SetText(japanese_patch.commas_to_number(money))
 			end
 		end
-	end
 
-	return result
+		-- NPCの所持金をカンマ区切り
+		local npc = self:GetPartner()
+		if npc and (not self.npc_is_box) then
+			local money = npc:money()
+			if type(money) == "number" and money <= 999999 then
+				if (self.mode == "repair") and self.npc_up_money then
+					self.npc_up_money:SetText(japanese_patch.commas_to_number(money))
+				elseif self.npc_money then
+					self.npc_money:SetText(japanese_patch.commas_to_number(money))
+				end
+			end
+		end
+
+		return result
+	end
 end
 
 -- ===================================================================
 --  UpdateWeight （プレイヤーとNPC／スタッシュの最大重量の日本語化）
 -- ===================================================================
-local original_UpdateWeight = ui_inventory.UIInventory.UpdateWeight
-ui_inventory.UIInventory.UpdateWeight = function(self)
-	local result = original_UpdateWeight(self)
+if ui_inventory.UIInventory.UpdateWeight then
+	local original_UpdateWeight = ui_inventory.UIInventory.UpdateWeight
+	ui_inventory.UIInventory.UpdateWeight = function(self, ...)
+		local result = original_UpdateWeight(self, ...)
 
-	-- プレイヤーの重量
-	if self.player_weight_max then
-		local text = self.player_weight_max:GetText()
-		text = string.gsub(text, "%(max", "(最大")	-- 「(max 30 kg)」 → 「(最大 30 kg)」
-		self.player_weight_max:SetText(text)
+		-- プレイヤーの重量
+		if self.player_weight_max then
+			local text = self.player_weight_max:GetText()
+			if type(text) == "string" then
+				text = string.gsub(text, "%(max", "(最大")	-- 「(max 30 kg)」 → 「(最大 30 kg)」
+				self.player_weight_max:SetText(text)
+			end
+		end
+
+		-- NPC／スタッシュの重量
+		if self.npc_weight_max then
+			local text = self.npc_weight_max:GetText()
+			if type(text) == "string" then
+				text = string.gsub(text, "%(max", "(最大")
+				self.npc_weight_max:SetText(text)
+			end
+		end
+
+		return result
 	end
-
-	-- NPC／スタッシュの重量
-	if self.npc_weight_max then
-		local text = self.npc_weight_max:GetText()
-		text = string.gsub(text, "%(max", "(最大")
-		self.npc_weight_max:SetText(text)
-	end
-
-	return result
 end
 
 -- ===================================================================
 --  TMode_UpdatePrice （トレード時の合計金額のカンマ区切り ルーブルの日本語化）
 -- ===================================================================
-local original_TMode_UpdatePrice = ui_inventory.UIInventory.TMode_UpdatePrice
-ui_inventory.UIInventory.TMode_UpdatePrice = function(self, ele_txt, ele_btn, bag)
-	original_TMode_UpdatePrice(self, ele_txt, ele_btn, bag)
+if ui_inventory.UIInventory.TMode_UpdatePrice then
+	local original_TMode_UpdatePrice = ui_inventory.UIInventory.TMode_UpdatePrice
+	ui_inventory.UIInventory.TMode_UpdatePrice = function(self, ele_txt, ele_btn, bag, ...)
+		local result = original_TMode_UpdatePrice(self, ele_txt, ele_btn, bag, ...)
 
-	local text = ele_txt:GetText()
-	if text then
-		local num = text:match("^(%d+)")
-		if num then
-			ele_txt:SetText(japanese_patch.commas_to_number(tonumber(num)) .. " ルーブル")
+		if not ele_txt or not self.CC or not self.CC[bag] then return result end
+		local text = ele_txt:GetText()
+		if type(text) == "string" then
+			local num = text:match("^(%d+)")
+			if num then
+				ele_txt:SetText(japanese_patch.commas_to_number(num) .. " ルーブル")
+			end
 		end
+
+		return result
 	end
 end

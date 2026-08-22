@@ -4,8 +4,8 @@
 --  text_npc_has_cancel_task （タスクキャンセル時の個数表示・周波数表示・条件付き括弧）
 -- ===================================================================
 local original_text_npc_has_cancel_task = dialogs.text_npc_has_cancel_task
-dialogs.text_npc_has_cancel_task = function(a, b)
-	local text = original_text_npc_has_cancel_task(a, b)
+dialogs.text_npc_has_cancel_task = function(a, b, ...)
+	local text = original_text_npc_has_cancel_task(a, b, ...)
 	if not text then
 		return game.translate_string("st_task_none_active")
 	end

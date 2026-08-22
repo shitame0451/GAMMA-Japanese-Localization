@@ -1,15 +1,26 @@
 -- item_exo_device.script
 
+if not ui_item
+or not ui_item.build_desc_header
+or not item_exo_device
+or not item_exo_device.is_exo
+then
+	return
+end
+
 -- ===================================================================
 --  item_exo_device.ui_item.build_desc_header （スーツのエクソスケルトン情報）
 --  ui_item.scriptのbuild_desc_headerがオリジナル
 -- ===================================================================
 local original_build_desc_header = ui_item.build_desc_header
 
-ui_item.build_desc_header = function(obj, sec, str)
-	local text = original_build_desc_header(obj, sec, str)
+ui_item.build_desc_header = function(obj, sec, str, ...)
+	local text = original_build_desc_header(obj, sec, str, ...)
 
-	if obj and type(item_exo_device) == "table" and item_exo_device.is_exo and item_exo_device.is_exo(obj) then
+	if type(text) == "string"
+	and obj
+	and item_exo_device.is_exo(obj)
+	then
 		-- スラッシュの置換
 		text = text:gsub("([%d%.]+)/(%d+)", "%1 / %2")
 

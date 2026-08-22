@@ -2,10 +2,8 @@
 
 -- ===================================================================
 --  show_goodwill_change_message （タスク完了時の評判メッセージ）
---  オリジナルをコピーして改変したもの
+--  オリジナルをコピーして日本語化（変更箇所は --japanGAMMA）
 -- ===================================================================
-local original_show_goodwill_change_message = dialogs_mlr.show_goodwill_change_message
-
 dialogs_mlr.show_goodwill_change_message = function(comm, comm_n, comm_e, is_gain)
 	if (ui_options.get("gameplay/general/show_tip_reputation")) and comm then
 		--printf("-show_goodwill_change_message %s",comm)

@@ -1,12 +1,19 @@
 -- ui_pda_taskboard_tab.script
 
+if not ui_pda_taskboard_tab
+or not ui_pda_taskboard_tab.task_list_element
+or not ui_pda_taskboard_tab.task_list_element.__init
+then
+	return
+end
+
 -- ===================================================================
 --  task_list_element:__init （タスクボードの整形・文字色変更）
 -- ===================================================================
 local original___init = ui_pda_taskboard_tab.task_list_element.__init
 
-ui_pda_taskboard_tab.task_list_element.__init = function(self, task_id, task_info, task_details, is_blocked)
-	original___init(self, task_id, task_info, task_details, is_blocked)
+ui_pda_taskboard_tab.task_list_element.__init = function(self, task_id, task_info, task_details, is_blocked, ...)
+	original___init(self, task_id, task_info, task_details, is_blocked, ...)
 
 	-- 文字色: 受諾可能なら白(255)、不可なら元のグレー(150)
 	local c = is_blocked and 150 or 255
@@ -14,6 +21,11 @@ ui_pda_taskboard_tab.task_list_element.__init = function(self, task_id, task_inf
 
 	if task_details and self.text_details then
 		local title = task_details.task_title or ""
+		-- 詳細情報を捕捉できないタスクは、タイトルを補完する
+		if title == "" and task_id then
+			local title_id = task_manager.task_ini:r_string_ex(task_id, "title")
+			title = title_id and (game.translate_string(title_id) or "") or ""
+		end
 		local details_body = task_details.task_details or ""
 
 		details_body = string.gsub(details_body, "\\n ", "\\n")
@@ -37,12 +49,33 @@ ui_pda_taskboard_tab.task_list_element.__init = function(self, task_id, task_inf
 	if self.npc_info then
 		local npc = level.object_by_id(task_info.npc_id)
 		if npc then
-			local npc_name = npc:character_name()
+			local npc_name = japanese_patch.character_name_jp(npc)
 			local npc_community = npc:character_community()
 			-- 名前と派閥の間の " - " を改行に置き換え
 			local npc_info_text = npc_name .. "\\n" .. game.translate_string("ui_st_community") .. ": " .. game.translate_string(npc_community)
 			self.npc_info:SetText(npc_info_text)
 		end
 		self.npc_info:SetTextColor(color)
+	end
+
+	-- 詳細欄（タスク名・名前・派閥・場所・対象アイテム）を文字量に合わせ、本文との重なりを防ぐ
+	if self.text_details and self.scrollbar_description and self.frame then
+		local details_pos = self.text_details:GetWndPos()
+		local details_y_offset = -2.5 -- 詳細欄を上へ移動する量
+		local details_gap = 3 -- 詳細欄と本文の間隔
+
+		self.text_details:SetWndPos(vector2():set(details_pos.x, details_pos.y + details_y_offset))
+		self.text_details:AdjustHeightToText()
+
+		local description_pos = self.scrollbar_description:GetWndPos()
+		local details_bottom = details_pos.y + details_y_offset + self.text_details:GetHeight()
+		local description_y = math.max(description_pos.y, details_bottom + details_gap)
+		local description_height = math.max(1, self.frame:GetHeight() - description_y - 12)
+
+		self.scrollbar_description:SetWndPos(vector2():set(description_pos.x, description_y))
+		self.scrollbar_description:SetWndSize(vector2():set(
+			self.scrollbar_description:GetWidth(),
+			description_height
+		))
 	end
 end

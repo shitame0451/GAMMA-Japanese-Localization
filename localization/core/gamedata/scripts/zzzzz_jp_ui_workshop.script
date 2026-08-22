@@ -1,5 +1,11 @@
 -- ui_workshop.script
 
+if not ui_workshop.UIWorkshopState
+or not ui_workshop.UIWorkshopState.Reset
+then
+	return
+end
+
 -- ===================================================================
 --  UIWorkshopState:Reset （ツール一覧の余分なスペースを削除）
 -- ===================================================================

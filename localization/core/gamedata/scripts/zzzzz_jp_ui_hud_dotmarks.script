@@ -1,30 +1,47 @@
 -- ui_hud_dotmarks.script
 
+if not ui_hud_dotmarks
+or not ui_hud_dotmarks.InteractPrompt
+then
+	return
+end
+
 -- ===================================================================
 --  InteractPrompt:SetupSuffix （「数字 回分」の間のスペースを削除）
 -- ===================================================================
-local original_SetupSuffix = ui_hud_dotmarks.InteractPrompt.SetupSuffix
+if ui_hud_dotmarks.InteractPrompt.SetupSuffix
+then
+	local original_SetupSuffix = ui_hud_dotmarks.InteractPrompt.SetupSuffix
 
-ui_hud_dotmarks.InteractPrompt.SetupSuffix = function(self, obj)
-	original_SetupSuffix(self, obj)
+	ui_hud_dotmarks.InteractPrompt.SetupSuffix = function(self, obj, ...)
+		local result = original_SetupSuffix(self, obj, ...)
+		local uses = game.translate_string("st_alti_uses")
 
-	if self.active_suffix and self.active_suffix:find(game.translate_string("st_alti_uses")) then
-		self.active_suffix = self.active_suffix:gsub(
-			"(%d+)" .. " +" .. game.translate_string("st_alti_uses"),
-			"%1" .. game.translate_string("st_alti_uses")
-		)
+		if type(self.active_suffix) == "string"
+		and type(uses) == "string"
+		and self.active_suffix:find(uses, 1, true)
+		then
+			self.active_suffix = self.active_suffix:gsub(
+				"(%d+)" .. " +" .. uses,
+				"%1" .. uses
+			)
+		end
+		return result
 	end
 end
 
 -- ===================================================================
 --  InteractPrompt:GetFullPrompt （「開ける (キー)」を「開ける」に置換）
 -- ===================================================================
-local original_GetFullPrompt = ui_hud_dotmarks.InteractPrompt.GetFullPrompt
+if ui_hud_dotmarks.InteractPrompt.GetFullPrompt
+then
+	local original_GetFullPrompt = ui_hud_dotmarks.InteractPrompt.GetFullPrompt
 
-ui_hud_dotmarks.InteractPrompt.GetFullPrompt = function(self, prefix, prompt, suffix)
-	local text = original_GetFullPrompt(self, prefix, prompt, suffix)
-	if text and text:find("^開ける") then
-		text = text:gsub(" +%b()", "")
+	ui_hud_dotmarks.InteractPrompt.GetFullPrompt = function(self, prefix, prompt, suffix, ...)
+		local text = original_GetFullPrompt(self, prefix, prompt, suffix, ...)
+		if type(text) == "string" and text:find("^開ける") then
+			text = text:gsub(" +%b()", "", 1)
+		end
+		return text
 	end
-	return text
 end

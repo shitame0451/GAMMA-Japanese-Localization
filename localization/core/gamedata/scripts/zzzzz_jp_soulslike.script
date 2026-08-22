@@ -4,31 +4,35 @@
 --  try_send_inventory_examined_message （所持品を回収したときのメッセージ）
 --  unlocalizerでグローバル化
 -- ===================================================================
+if not soulslike
+or not soulslike.try_send_inventory_examined_message
+then
+	return
+end
+
 local original_try_send_inventory_examined_message = soulslike.try_send_inventory_examined_message
 
 soulslike.try_send_inventory_examined_message = function(stash_id)
-	local backup = db.actor.give_game_news
+	local actor = db.actor
+	local backup = actor.give_game_news
 
-	db.actor.give_game_news = function(self, title, msg, sender, unk, duration)
+	actor.give_game_news = function(self, title, msg, sender, unk, duration, ...)
 		if msg and msg:find("^You examine your belongings") then
 			-- 冒頭のメッセージを置換
 			msg = msg:gsub(
 				"^You examine your belongings and find that you were missing the following items: *",
-				"所持品の一部がなくなっていた:\\n"
+				"所持品の一部がなくなっていた:\\n- "
 			)
 			-- 「個数 x アイテム」 → 「アイテム（x個数）」
 			msg = msg:gsub("(%d+)" .. " x " .. "([^,\\n]+)", "%2（x%1）")
 			-- 区切り ", " → 改行
-			msg = msg:gsub(", ", "\\n")
+			msg = msg:gsub(", ", "\\n- ")
 		end
-		return backup(self, title, msg, sender, unk, duration)
+		return backup(self, title, msg, sender, unk, duration, ...)
 	end
 
-	local ok, result = pcall(original_try_send_inventory_examined_message, stash_id)
-	db.actor.give_game_news = backup
-
-	if not ok then
-		return
-	end
-	return result
+	local results = { pcall(original_try_send_inventory_examined_message, stash_id) }
+	actor.give_game_news = backup
+	if not results[1] then error(results[2], 0) end
+	return unpack(results, 2)
 end

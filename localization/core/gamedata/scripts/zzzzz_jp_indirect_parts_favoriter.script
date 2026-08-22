@@ -1,12 +1,18 @@
 -- indirect_parts_favoriter.script
 
--- ===================================================================
---  indirect_parts_favoriter.name_and_cond （日本語化向けに語順を並び替える）
--- ===================================================================
-local original_name_and_cond = indirect_parts_favoriter.indirect_parts_favoriter.name_and_cond
+if not indirect_parts_favoriter
+or not indirect_parts_favoriter.name_and_cond
+then
+	return
+end
 
-indirect_parts_favoriter.indirect_parts_favoriter.name_and_cond = function(sec, con, threshold, mode)
-	local line = original_name_and_cond(sec, con, threshold, mode)
+-- ===================================================================
+--  indirect_parts_favoriter.name_and_cond （日本語環境向けに語順を並び替える）
+-- ===================================================================
+local original_name_and_cond = indirect_parts_favoriter.name_and_cond
+
+indirect_parts_favoriter.name_and_cond = function(sec, con, threshold, mode, ...)
+	local line = original_name_and_cond(sec, con, threshold, mode, ...)
 
 	if mode == 2 then
 		-- 「耐久値が threshold %以上の部品をお気に入りから外す」

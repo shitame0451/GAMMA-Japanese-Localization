@@ -1,37 +1,40 @@
 -- meat_spoiling.script
 
+if not meat_spoiling
+or not ui_item
+or not ui_item.build_desc_footer
+then
+	return
+end
+
 -- ===================================================================
---  meat_spoiling.ui_item.build_desc_footer （生肉のアイテムチップの腐敗タイマー）
---  ui_item.scriptのbuild_desc_footerがオリジナル
+--  meat_spoiling.ui_item.build_desc_footer （腐敗タイマーの改行整理）
+--  タイマーの配色と前後の余分な改行だけを整理
 -- ===================================================================
 local original_build_desc_footer = ui_item.build_desc_footer
+local timer_title = game.translate_string("cxv_rotting_timer_title")
+local timer_dot = game.translate_string("cxv_tooltip_dot")
+local timer_hours = game.translate_string("cxv_rotting_hrs")
+local title_color = utils_xml.get_color("pda_white")
+local value_color = utils_xml.get_color("ui_gray_1")
 
-ui_item.build_desc_footer = function(obj, sec, str)
-	local text = original_build_desc_footer(obj, sec, str)
-	if not text then return text end
-
-	-- 腐敗タイマーがあるときだけ整形
-	if text:find(game.translate_string("cxv_rotting_timer_title"), 1, true) then
-		-- 前半の複数改行（\n \n\n）を単一の改行に置換
-		text = text:gsub(
-			"mSv%s*\\n[%s\\n]+",
-			"mSv \\n"
-		)
-
-		-- スペース追加 + カラーコードを置換
-		text = text:gsub(
-			"• %%c%[[^%]]-%]" .. game.translate_string("cxv_rotting_timer_title") .. " %%c%[[^%]]-%]",
-			"  • %%c[pda_white]" .. game.translate_string("cxv_rotting_timer_title") .. " %%c[255,170,170,170]"
-		)
-
-		-- 後半の余分な改行を削除（〇〇 時間\n \n → 〇〇 時間\n）
-		text = text:gsub(
-			game.translate_string("cxv_rotting_hrs") .. "\\n" .. " *" .. "\\n",
-			game.translate_string("cxv_rotting_hrs") .. "\\n"
-		)
+ui_item.build_desc_footer = function(obj, sec, str, ...)
+	local text = original_build_desc_footer(obj, sec, str, ...)
+	if type(text) ~= "string" then
+		return text
 	end
 
-	--printf("[JP Patch] build_desc_footer: [%s]", text)
+	-- タイマー前後の余分な改行を削除し、タイトルを白、時間をui_gray_1で表示する
+	text = text:gsub(
+		"\\n[%s\\n]+(%%c%[[^%]]-%]" .. timer_dot .. ") %%c%[[^%]]-%]"
+			.. timer_title .. " %%c%[[^%]]-%]([^\\n]-" .. timer_hours .. ")"
+			.. "\\n[%s\\n]+(%%c%[[^%]]-%])$",
+		function(dot, value, trailing_color)
+			return "\\n  " .. dot .. " " .. title_color .. timer_title
+				.. " " .. value_color .. value .. trailing_color
+		end,
+		1
+	)
 
 	return text
 end

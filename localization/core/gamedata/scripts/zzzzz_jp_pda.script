@@ -5,10 +5,10 @@
 -- ===================================================================
 local original_coc_rankings_set_hint = pda.coc_rankings_set_hint
 
-pda.coc_rankings_set_hint = function(index)
-	local result = original_coc_rankings_set_hint(index)
+pda.coc_rankings_set_hint = function(index, ...)
+	local result = original_coc_rankings_set_hint(index, ...)
 
-	if not result or result == "" then
+	if type(result) ~= "string" or result == "" then
 		return result
 	end
 
@@ -28,11 +28,12 @@ end
 -- ===================================================================
 local original_get_stat = pda.get_stat
 
-pda.get_stat = function(index)
+pda.get_stat = function(index, ...)
 	if index == 18 and db.actor then
 		local money = db.actor:money() or 0
-		return (japanese_patch.commas_to_number(money) .. " ルーブル")
+		local rubles = game.translate_string("st_rubles")
+		return japanese_patch.commas_to_number(money) .. " " .. rubles
 	end
 
-	return original_get_stat(index)
+	return original_get_stat(index, ...)
 end

@@ -1,13 +1,35 @@
 -- soulslike_scenarios.script
 
 -- ===================================================================
---  level.map_add_object_spot_ser
+--  DefaultSoulslikeScenarioLogic.ApplyTransferItemsPostConditions
 --  PDAのマーカー表示を "'s items" → "の所持品" に置換
 -- ===================================================================
-local original_map_add_object_spot_ser = level.map_add_object_spot_ser
-level.map_add_object_spot_ser = function(stash_id, spot, text, ...)
-	if text and string.match(text, "'s items$") then
-		text = text:gsub("'s items$", "の所持品")
+
+if not soulslike_scenarios
+or not soulslike_scenarios.DefaultSoulslikeScenarioLogic
+or not soulslike_scenarios.DefaultSoulslikeScenarioLogic.ApplyTransferItemsPostConditions
+then
+	return
+end
+
+local original_apply_transfer_items_post_conditions =
+	soulslike_scenarios.DefaultSoulslikeScenarioLogic.ApplyTransferItemsPostConditions
+
+soulslike_scenarios.DefaultSoulslikeScenarioLogic.ApplyTransferItemsPostConditions = function(self, ...)
+	if not level or not level.map_add_object_spot_ser then
+		return original_apply_transfer_items_post_conditions(self, ...)
 	end
-	return original_map_add_object_spot_ser(stash_id, spot, text, ...)
+
+	local original_map_add_object_spot_ser = level.map_add_object_spot_ser
+	level.map_add_object_spot_ser = function(stash_id, spot, text, ...)
+		if type(text) == "string" and text:sub(-8) == "'s items" then
+			text = text:sub(1, #text - 8) .. "の所持品"
+		end
+		return original_map_add_object_spot_ser(stash_id, spot, text, ...)
+	end
+
+	local results = { pcall(original_apply_transfer_items_post_conditions, self, ...) }
+	level.map_add_object_spot_ser = original_map_add_object_spot_ser
+	if not results[1] then error(results[2], 0) end
+	return unpack(results, 2)
 end
