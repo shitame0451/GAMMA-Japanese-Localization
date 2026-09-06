@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string_table>
+    <string id="ui_mcm_menu_fail_task_mod">
+        <text>Job to done - redone</text>
+    </string>
+    <string id="mcm_fail_task_title">
+        <text>タスクキャンセルキー設定</text>
+    </string>
+    <string id="ui_mcm_fail_task_mod_fail_task_mod_hotkey">
+        <text>キャンセルキー（Shiftキーと同時押し）。\n既定はENDキー。タスクをキャンセルするには、PDAで対象のタスクをアクティブにして、割り当てたキーの組み合わせを押してください。</text>
+    </string>
+</string_table>
